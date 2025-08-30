@@ -1,0 +1,2218 @@
+Animals’ Entanglement with Technology: a Scoping Review 
+Rebecca Kleinberger 
+INTERACT Animal Lab 
+Northeastern University 
+Boston, Massachusetts, USA 
+r.kleinberger@northeastern.edu Lena Ashooh 
+INTERACT Animal Lab 
+Harvard University 
+Cambridge, Vermont, USA 
+lenaashooh@college.harvard.edu 
+Keavan Farsad 
+INTERACT Animal Lab 
+Northeastern University 
+Boston, Massachusetts, USA 
+farsad.k@northeastern.edu Ilyena Hirskyj-Douglas 
+The University of Glasgow 
+Glasgow, United Kingdom 
+ilyena.hirskyj-douglas@glasgow.ac.uk 
+Abstract 
+Animals living alongside humans are navigating a world increas-
+ingly flled with technology, yet little is known about how they 
+interface with these systems, whether designed for, with, or around 
+them. Anchored in HCI and ranging across diverse felds, this scop-
+ing review analyzes nearly 800 research works to explore the diverse 
+realities of animal-technology research, examining the who, what, 
+why, and how of animal-technology entanglements. Our analysis 
+revealed 11 research objectives and eight types of technologies 
+across six animal contexts. By categorizing the literature based on 
+authors’ aims and intended benefciaries, we highlight trends, gaps, 
+and ethical considerations. We fnd that most systems involve ani-
+mals with limited potential for direct engagement or sense-making. 
+We propose a framework to understand animals as users versus 
+subjects of interactive systems, focusing on feedback, empirical 
+testing, and projected animal benefts. Our fndings ofer a founda-
+tion to understand current and future animal technology research 
+and the diversity of animal user experience. 
+CCS Concepts 
+• Human-centered computing → HCI theory, concepts and 
+models; Interaction paradigms ; 
+Keywords 
+ACI, Animal-Computer Interaction, Scoping Review, Animal Tech-
+nology, Pets, Farming, Zoo, Working Animals, Wildlife, Laboratory 
+Animals, 
+ACM Reference Format: 
+Rebecca Kleinberger, Lena Ashooh, Keavan Farsad, and Ilyena Hirskyj-
+Douglas. 2025. Animals’ Entanglement with Technology: a Scoping Review. 
+In CHI Conference on Human Factors in Computing Systems (CHI ’25), April 
+26–May 01, 2025, Yokohama, Japan. ACM, New York, NY, USA, 22 pages. 
+https://doi.org/10.1145/3706598.3713384 
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 
+International License. 
+CHI ’25, Yokohama, Japan 
+© 2025 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-1394-1/25/04 
+https://doi.org/10.1145/3706598.3713384 1 Introduction 
+The use of tools in animals across species have been documented as 
+dating back millennia, from chimpanzees building hammers [13] or 
+using sticks to extract termites [142], to dolphins wearing marine 
+sponges to protect their snouts while foraging on the seafoor [150]. 
+Animals have also been interacting with human-made technologies 
+in various forms for over a century, bringing new dimensions to 
+how they engage with the world. Some early examples – often 
+problematic – of animal-technology interaction include pigeons 
+trained in the 1940s to operate touch screens to guide missiles [147], 
+or gorillas such as Koko, trained in 1977 to select icons on a Mac 
+II as part of animal cognition research [121]. As technology ad-
+vances and our coexistence and relationships with animals evolve, 
+the prevalence of animal-technology interactions appears to be 
+expanding. However, this trend has yet to be fully quantifed. 
+Additionally, conceptual approaches towards developing tech-
+nologies for animals, along with the consideration of whom these 
+technologies are ultimately designed to beneft, have also evolved 
+in the past decades, notably since the 2011 Manifesto on Animals-
+Computer Interaction [96]. This paradigm shift towards an animal-
+centric design philosophy draws from principles established in the 
+Human-Computer Interaction (HCI) community towards more eth-
+ical and empathetic design practices. Rather than using animals 
+merely as tools to serve human purposes, there is now a greater 
+emphasis on creating technologies to enhance the welfare and au-
+tonomy of the animals themselves. Researchers within the Animal-
+Computer Interaction (ACI) and HCI communities are recognizing 
+the need to consider an animal’s perspective, which encompasses 
+not only their behavioral responses but also their sensory experi-
+ences, preferences, and well-being. 
+The intersection of animals and technology spans a diverse array 
+of felds, contexts, objectives, and types of technology–where tech-
+nology can be broadly defned as digital or computational systems 
+involving some form of input and/or output. This broad defnition 
+encompasses a wide range of applications, from wearables for as-
+sistive dogs [71], to bioacoustic wildlife monitoring systems for 
+conservation [166]. It includes vision-based health monitoring sys-
+tems in cows aimed at physical health and productivity [165], as 
+well as social enrichment video-calling systems for pets [80]. Given 
+this diversity and evolving perspective, there is value in capturing 
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+and disentangling the broad landscape of animal-technology re-
+search to chart the varying forms of animal engagement, the diverse 
+approaches to animal understanding and usership, the intended 
+benefciaries of these systems, and the potential relevance for the 
+broader feld of HCI. 
+In this context, we present a scoping review of technological 
+systems designed for, or used with animals. Following PRISMA-ScR 
+guidelines [ 160] and Arksey & O’Malley’s framework [ 4], we ana-
+lyzed 795 research works spanning over 200 venues. Our methodol-
+ogy, beginning with the ACM digital library and extending beyond it 
+through ancestry searching and snowballing, enables us to map the 
+landscape of animal-technology research through multiple lenses: 
+who (authors, species, contexts), what (technologies), why (benef-
+ciaries, objectives), and how (empirical testing, ethical standards). 
+The contributions of this work are fourfold: 
+• A typology of animal-technology research, classifying con-
+texts, technologies, objectives, benefciaries, and ethical con-
+siderations. 
+• A comprehensive mapping of the animal-technology re-
+search landscape between 2000 and 2024, revealing rising 
+trends in conceptual works, context-specifc silos in technol-
+ogy application, limited feedback for the animals, and varied 
+approaches to ethical considerations. 
+• A framework for understanding animals’ roles as users vs 
+subjects in interactive systems based on the potential of 
+sense-making through sensory feedback, intended benef-
+ciaries, and empirical testing, complemented by systematic 
+analyses of (1) the distribution of tactile, visual, auditory, and 
+olfactory feedback modalities and (2) the framing of benef-
+ciary roles across diferent animal contexts and technologies. 
+• An analysis of ACI’s relevance to HCI, identifying eight 
+key intersections, namely: human-in-the-loop design; multi-
+species interdependence; methodological innovation, physi-
+ological diversity, post-human perspectives, environmental 
+sustainability, evolutionary understanding, and designing 
+for otherness. 
+Based on these fndings, we propose concrete recommendations 
+and practical steps for experienced ACI practitioners and HCI re-
+searchers interested in extending their work to animals. 
+This work aims to inform both theoretical discourse and practi-
+cal application in HCI and ACI communities and for stakeholders 
+across domains. For example, our mapping of ethical considerations 
+and institutional oversight can provide policy makers with data-
+backed evidence on current gaps in intervention standards. Our 
+analysis of the presence and distribution of feedback modalities 
+(tactile, visual, auditory, olfactive, etc.) for animals to potentially 
+make sense of the interactions, can ofer caregivers a road map to 
+explore technologies appropriateness for their own contexts. Our 
+framework for classifying animals as users versus subjects pro-
+vides developers and researchers with practical criteria to evaluate 
+their approaches. Although the scope of this review is extensive, 
+its breadth enables us to provide a more holistic evidence-based 
+understanding of how animals and technology interact, supporting 
+more thoughtful development of animal-centered technology in 
+research and practice. 2 Background 
+As the feld of HCI expands into the animal realm, researchers 
+are increasingly exploring how animals engage with technology, 
+whether as unknowing participants, active users, or coerced sub-
+jects [89]. There is value in extending the user-centered principles 
+of HCI to animals, as a way to promote new methods that prioritize 
+animal welfare, engagement, and agency [96]. This section provides 
+an overview of recent works in animal technology, key concepts of 
+interaction within HCI, and the complex roles of animals as users 
+or subjects of technology. 
+2.1 Evolution of ACI 
+As a young discipline, ACI draws from HCI, adapting its frame-
+works to consider animals’ use of technology. While some areas 
+of ACI focus on non-invasive and seamless inclusion of data with-
+out animal awareness, such as health monitoring systems or facial 
+recognition, others have explored agency-enhancing technologies 
+that ofer animals more control and choice over their lives and envi-
+ronment [80, 82, 104]. The feld has produced a large body of work 
+promoting best practices for improved engagement and ethics [98]. 
+For instance, unlike traditional animal research methods that often 
+rely on food rewards and constrained settings, ACI may rather 
+promote innovative user engagement methods and non-coercive 
+feedback systems that leverage and respect animals’ natural behav-
+iors [20]. There has also been eforts to expand such ACI approach 
+to ethics and animal involvement to wider, or more traditional, 
+animal behaviour felds [99]. 
+However, despite growing conceptual work supporting ethical 
+and agency-focused animal-centered principles [98], the application 
+of these principles remains uneven and illusive [6]. Some technolo-
+gies designed for animals still lack the depth of refection around 
+usership and engagement seen in human-centered designs. Eforts 
+have been made to explore how animals can inform the design 
+process through their individual characteristics, behaviors, and 
+needs [1]. Yet, only a few have attempted to quantify and charac-
+terize the scope of what interaction means in the feld. 
+2.2 Literature Reviews of Animal-Technology 
+In the past few years, a handful of review works have emerged, each 
+providing a distinct lens on animal-technology research. Hirskyj-
+Douglas’ review [59] categorizes studies by type of technology be-
+tween tangible and physical, haptic and wearable, olfactory, screen-
+based and tracking interfaces and context. Jukan et al.[75] reviewed 
+80 studies focused on smart technologies and animal welfare, explor-
+ing how these technologies contribute to keeping animals healthy 
+and positively stimulated, particularly in farming settings. Likewise, 
+Egelkamp and colleagues [32] examined a corpus of 72 instances of 
+zoo animals’ interactions with screen-based systems, highlighting 
+opportunities for cognitive and enrichment applications. Mean-
+while, Gupfnger et al.[50] explored the historical and current uses 
+of technology for auditory expression among animals, particularly 
+in the context of music. Ashooh et al. [5] established a corpus of 
+79 ACI articles to survey demographic reporting standards across 
+felds. Kresnye et al.[87] reviewed a corpus of 102 studies, catego-
+rizing research by animal context (e.g., lab, farm, zoo, companion, 
+wildlife) and methods used, focusing on enrichment-based systems 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+framed for animal welfare, thus not incorporating the many other 
+reasons technology is used with animals in the feld. Although 
+the work was not directly focused on animals, Webber and col-
+leagues [168] conducted a scoping review of 103 research works 
+on nature engagement highlighting the relevance of this model of 
+structured approach to the CHI community. Although each of these 
+reviews ofers valuable insight, they often focus on specifc con-
+texts or technologies, typically examining around 100 studies, many 
+of which are now over seven years old. This leaves a signifcant 
+gap in our comprehensive understanding of animal-technology 
+interactions across settings. 
+2.3 Conceptualizing Interaction in HCI and ACI 
+The concept of ’interaction’ has been extensively debated in HCI, 
+often in attempts to characterize and understand how users engage 
+with systems, resulting in acknowledging the complexity and vari-
+ability of the term. Hornbæk [63] quantifed the increasing number 
+of modifers used with the word “interaction” in HCI, suggesting a 
+growing complexity and standardization in how the term is applied. 
+Various defnitions have been proposed. For example, some have 
+conceptualized interaction as a dialogue, a cyclical process of taking 
+turns transmitting and receiving acts [116]. Others have defned 
+interaction in terms of tool usage, in which a user manipulates 
+something to have some efect or outcome in the world [64]. Others 
+still have defned interaction in terms of a user’s experience and 
+how they experience a product or service [53]. A widely favored 
+model views interaction as a relationship based on a feedback loop 
+between a user and a system, highlighting the importance of system 
+responses in shaping the user experience [47]. In this model, feed-
+back becomes a crucial component of interaction, allowing users to 
+engage meaningfully with technology. In ACI, this feedback loop is 
+often left incomplete, as the animal’s understanding of the interac-
+tion is rarely fully known and frequently not prioritized in system 
+design [59]. 
+These challenges in designing for and evaluating non-human 
+interaction push us to question our basic assumptions about what 
+constitutes interaction. The study of animals using technology 
+can thus bring new perspectives on the concept of interaction 
+for HCI. However, like early HCI, the terminology used in the 
+animal feld about interaction has not yet been clearly concep-
+tualized or defned. ACI researchers have considered interaction 
+broadly, including: systems in which animals exert control over a 
+system [16, 133, 177], technologies that respond to animal behav-
+ior [44], tools for quantifying animal’s interaction with humans 
+through behavior analysis [90, 106, 113, 130, 161], or human tech-
+nologies for simulating animal sensory experiences and co-presence 
+to build empathy across species [81, 162, 175]. One of ACI’s objec-
+tives is to explore how technology can be made more usable for 
+animals and create meaningful experiences for them, studying spe-
+cifc parts of the feedback loop, such as how animals can input 
+to technology [73, 124, 137, 177], how animals can be soothed or 
+stimulated by technology [8, 44], and how animals and humans 
+can connect through technology [21, 91, 106, 113]. However, the 
+application of these HCI concepts to animals presents challenges, 
+particularly when trying to infer understanding or intentionality, 
+which are difcult to assess in non-human users [59]. 2.4 Animals as Users vs. Subjects of Technology 
+An important conceptual distinction is in determining when ani-
+mals are users of technology versus subjects. Usership implies a 
+level of engagement, agency, and potential understanding of tech-
+nology, moving beyond the traditional view of animals as passive 
+recipients of human-imposed systems. Lawson et al. [89] explore 
+this distinction in terms of consent and the extent to which tech-
+nologies are imposed on animals. This raises further questions 
+about the criteria needed for animals to be considered users and 
+the role played by feedback and understanding. 
+Several studies have explored these boundaries, examining how 
+technologies can provide animals with feedback to facilitate sense-
+making [ 40, 59]. The so-called “gulf of evaluation” in HCI—where 
+users interpret the outcomes of their actions—has been applied to 
+animals, highlighting the challenges of closing this feedback loop 
+in non-verbal species [115]. As the animal’s understanding of what 
+the interaction means is not fully known, this area remains an open 
+feld of inquiry, with ongoing debates about what constitutes true 
+interaction and understanding in animals. Although these open 
+questions allow for rich discussions and diverse perspectives, they 
+also present challenges for consistent data-supported approaches 
+and assessments. Our work aims to address these gaps by syn-
+thesizing fndings across diverse contexts of animal-technology 
+interactions in order to contribute to HCI discussions on user-
+centered design, feedback, and agency, fostering more inclusive 
+and empathetic technological practices. 
+2.5 ACI Positioning and Relevance for HCI 
+The relationship between HCI and ACI has been a subject of schol-
+arly discussion, with researchers exploring how these felds inform 
+and enrich each other. Key works examining this relationship in-
+clude a 2016 ACM NordiCHI workshop "Where HCI meets ACI" [60] 
+and Mancini’s seminal paper [97], which argued that ACI is di-
+rectly relevant to and even encompasses HCI. This work proposed 
+three key benefts of ACI to HCI: strengthening HCI as a discipline 
+through comparative study of interaction, broadening participa-
+tion in interaction design through multispecies considerations, and 
+supporting sustainability through more inclusive design practices. 
+To understand this ACI/HCI relationship, it may also be help-
+ful to consider how HCI itself has evolved and whether one can 
+observe parallels or diferences in the evolution of ACI. Bødker’s 
+highly recognized work identifes three waves of HCI research and 
+practice [11, 12]. The frst wave, emerging in the 1970s, empha-
+sized human factors engineering and cognitive science, focusing on 
+optimizing human-machine interaction through controlled experi-
+ments. The second wave (1990s) introduced workplace studies and 
+computer-supported cooperative work, recognizing the importance 
+of context and practice. The third wave broadened to consider emo-
+tional, social, and cultural aspects of technology use in everyday life. 
+More recently, scholars have proposed an emerging fourth wave 
+characterized by post-humanist perspectives [138] and consider-
+ations of human-technology entanglement [39], where questions 
+of ethics and agency become central. These waves parallel what 
+Harrison [52] described as the three paradigms of HCI: Human 
+Factors, Classical Cognitivism, and Phenomenologically-Situated, 
+ofering perspectives on the feld’s evolution. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+At frst glance, the evolution of ACI can appear to mirror aspects 
+of HCI’s development, particularly in the positioning of its sub-
+jects: from objects of modeling and study (as seen in Skinner boxes 
+and animal models [148]) to actors supported within their existing 
+communities of practice through technological support in contexts 
+as diverse as working animals [71, 135] or animal agriculture [51]. 
+However, there has been little structured research that has exam-
+ined either the linearity of this evolution or its implications for 
+HCI research. In this context, where ACI as a feld demonstrates 
+potential value for HCI development, we believe that a large-scale 
+review can provide insights into how these domains intersect. Our 
+analysis examines this relationship through two lenses: the tempo-
+ral evolution of both felds relative to HCI’s waves of development, 
+and the specifc ways ACI can inform and enhance HCI practices 
+across multiple dimensions and vice versa. 
+3 Methodology 
+This scoping review aimed to address the who, what, why, and how 
+of animal technology research from an HCI perspective focusing on 
+interaction. We sought to paint a general picture of this feld, iden-
+tify gaps and opportunities, and provide insights for researchers 
+focusing on animals as users of interactive technology. This review 
+followed the Preferred Reporting Items for Systematic Reviews and 
+Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) guide-
+lines [160]. Our approach was guided by the fve stages of Arksey 
+& O’Malley’s framework for scoping reviews [4]: (1) identifying 
+the research question, (2) identifying relevant studies, (3) study 
+selection, (4) charting the data, and (5) collating, summarizing, and 
+reporting results. The team was composed of two feld experts each 
+with over ten years of expertise in ACI (frst and last author) who 
+were in charge of creating the corpus, iteratively refning the cat-
+egories by refecting on the mapped landscape and analyzing the 
+data. Two trained labelers (second and third author) received train-
+ing in category classifcation, reviewed and encoded the papers, 
+consulted with the frst author for any questions, and participated 
+in the team discussions. 
+Figure 1: Paper search methodology illustrating the overall 
+number of papers included in the review with points of ex-
+clusion, from ACM library search round evaluations, and the 
+snowballing/ ancestry round evaluation 
+3.1 Identifying research questions 
+This work starts with the goal of drawing a broad picture of various 
+felds, objectives, techniques, and contexts where animals meet 
+technology to understand the diversity of how interaction is un-
+derstood. As this context encompasses a very varied type of work, 
+where animals are involved in a wide range of technology for very diverse objectives, we begin by casting a broad net on the feld 
+and establish defnition and boundaries. To identify the current 
+landscape, trends, and gaps, we start with the questions of Who, 
+What, Why, and How. 
+• WHO: Identifes researchers, targeted animals, species, and 
+their roles. It includes the publication venues and author 
+afliations, as well as the animal species and context. 
+• WHAT: Examines the type of technology used, categorized 
+based on the technological elements described by the au-
+thors. 
+• WHY: Explores the stated objectives and benefciaries, cate-
+gorizing them into relevant groups. 
+• HOW: Investigates both design and methodological aspects 
+including empirical testing, presence and type of feedback, 
+mention of ethical consideration or institutional approval. 
+This framework provided a structure to analyze how scholarly 
+work in animal technology has considered the various ways animals 
+and technology interact. 
+3.2 Selecting Relevant Articles 
+In collaboration with a research librarian, we developed a search 
+strategy to identify relevant literature starting with an initial corpus 
+set, screened independently by two reviewers, then extended with 
+forward and backward citation search, delimited with inclusion 
+and exclusion criteria. The search was conducted from June to 
+August 2024 and included papers published between 01/01/2000, 
+and 06/01/2024. 
+3.2.1 Corpus starting set, citations search. We conducted an initial 
+search of the Association for Computing Machinery (ACM) digital 
+library for the core starting set as a manageable source and to an-
+chor the corpus into interaction-focused systems. A test search of 
+the term "animal" yielded over 400,000 results for full-text search 
+and over 60,000 results for abstract search. Consequently, for man-
+ageability, we limited our search of animal-related keywords to 
+the title using singular and plural versions of over a dozen animal 
+species as well as general animal-related terms. As it is common 
+practice in ACM research to use literary devices in their titles, we 
+explored possible euphemistic, metaphorical, and idiomatic terms 
+that could be used to refer to animals. To add focus on the interac-
+tion between the animal and the technology, we constrained our 
+search to publications containing interaction-related terms within 
+the abstract, The full query syntax can be found Figure 2. 
+The search yielded a total of 323 results. We used Covidence, a 
+web-based software platform, to manage the screening process us-
+ing titles and abstracts [28]. The frst and last authors independently 
+screened all titles and abstracts (and when needed, full-text review) 
+against inclusion and exclusion criteria. Disagreements were re-
+solved through discussion, with a third reviewer consulted when 
+necessary. This resulted in 162 items for our corpus starting set. 
+Next, we used SpiderCite [ 152] to conduct forward and backward 
+citation search to identify additional relevant articles, extending 
+our search beyond ACM. This systematic approach examines both 
+all the works citing our initial papers (forward citation) and works 
+cited by them (backward citation) essentially allowing to navigate 
+both "upstream" and "downstream" in the research lineage related 
+to a particular study. While broader database queries (e.g., through 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Query Syntax: "query": Title:("animal" || "an-
+imals" || "pet" || "pets" || "zoo" || "aquarium" 
+|| "mammal" || "mammals" || "bird" || "birds" 
+||"wildlife" || "livestock" || "canine" || "feline" 
+|| "primate" || "interspecies" || "tail" || "paw" || 
+"claw" || "egg" || "collar" ||"harness" || "dog" || 
+"dogs" || "cat" || "cats" || "parrot" || "parrots" || 
+"fsh" || "insect" || "insects" || "reptile" || "reptiles" 
+|| "poultry" || "chicken" || "chickens" || "monkey" 
+|| "monkeys" || "horse" || "horses" || "bat" || "bats" 
+|| "whale" || "whales" || "pigeon" || "pigeons" || 
+"cow" || "cows" ) AND Abstract:("interaction" || 
+"interact" || "interacting") "flter": ACM Content: 
+DL 
+Figure 2: Search Query syntax for creation of the corpus 
+starting set form ACM digital library 
+Scopus) were considered, anchoring our search in ACM allowed 
+us to specifcally examine how the CHI community engages with 
+animal-technology research while maintaining a manageable cor-
+pus size. Such citation-based method, which has been shown to 
+yield comparable results to database searches [72], more specifcally 
+aims to reveal the evolution of ideas within and beyond a specifc 
+community. This search led to an additional 3,071 papers being 
+screened similarly to the starting set. This resulted in an additional 
+633 items being added to the corpus. Over the two screening phases, 
+the two reviewers obtained an inter-rater reliability score of 87% 
+calculated by Covidence as percentage agreement. 
+3.2.2 Terminology and inclusion/exclusion criteria. Our screening 
+and selection process was based on terminology and agreed-upon 
+defnitions of key terms (animals, technology, and interaction) as 
+well as clear inclusion and exclusion criteria iterated upon by the 
+two reviewers based on preliminary feld exploration and con-
+cretized from the starting-set screening process. We considered 
+the studies that met the following criteria: 
+• Inclusion 1: Studies focusing on the interaction between 
+animals and technology 
+• Inclusion 2: Publication date between 2000 and 2024 
+• Inclusion 3: English language only publications 
+• Inclusion 4: Peer-reviewed journal articles, conference pa-
+pers, and book chapters 
+• Exclusion 1: Publications focused solely on robotic animals 
+or virtual representations of animals 
+• Exclusion 2: Workshop proposals, doctoral symposium pa-
+pers, or news articles 
+• Exclusion 3: Papers that considered animals as an abstraction 
+or metaphor for storytelling 
+• Exclusion 4: Biological or biomedical research using animals 
+solely as models for human health research 
+We chose to exclude work related to the use of technology in 
+biomedical research that primarily benefts human health. However, 
+we included enrichment technology for laboratory animals. We 
+excluded applications for farm management but included farming 
+technology that is directly in contact with animals. We excluded research on robot animals or virtual animals but included work 
+using animal data to inform robot design or studies on animals’ 
+reactions to robots. The starting set review also helped crystallize 
+our working defnitions of key terms used for this review, including 
+animals, technology, and interaction: 
+Animals: We defned animals as non-human, multicellular eu-
+karyotic organisms. This included all life stages, including pre-
+hatching eggs, but excluded microbes and plants. We included 
+studies on dead animals only if used as a proxy for live animal in-
+teraction with technology, like in the case of research on European 
+hedgehogs and automatic lawnmowers, where the research aimed 
+to inform technology design for live animals [129]. 
+Technology: We focused on digital or computational systems. 
+We began the work without preconceptions about technology, al-
+lowing for a broad exploration of the feld. We included both pro-
+totypes and fully developed technologies, as well as speculative 
+designs that were conceptualized but not yet implemented. How-
+ever, we excluded purely methodological or animal training work 
+that did not cover digital or computational elements. 
+Interaction: We defned interaction broadly as a process where 
+an input leads to a change in output within a system [ 64]. In our 
+context we considered interaction to occur when either an animal-
+based input has consequences within a technological system, or 
+when a technological system’s output is made to be used in the 
+context of animals. We considered interaction regardless of bidirec-
+tionality, consciousness, agency, or the animal’s understanding of 
+the systems to explore the full range of animal-technology engage-
+ments in research. 
+3.3 Charting the Data 
+Following Arksey et al.’s [4] "descriptive-analytical" method, we 
+processed each paper to extract relevant data. 
+3.3.1 General Extraction Process. We used a multi-step approach in-
+volving diferent levels of detail based on the paper type. A primary 
+extraction template was applied to the full corpus, capturing general 
+metadata, including author afliations and venues and distinguish-
+ing between conceptual works and interactive systems, directing 
+subsequent steps. For interactive systems, further detailed extrac-
+tion was performed to answer the key questions of WHO, WHAT, 
+WHY, and HOW. These questions guided our understanding of the 
+species involved, technological context, feedback mechanisms, and 
+the intended benefciaries. Finally, interactive systems that included 
+empirical testing underwent an additional layer of data extraction. 
+Here, we specifcally examined for potential feedback provided to 
+animals, and the ethical considerations reported. The extraction 
+template was developed by the frst author and iteratively refned 
+through multiple rounds of analysis on the initial starting set, each 
+followed by a reprocessing of the full set. 
+3.3.2 Use of AI Tools and Manual Verification. Each paper was 
+assigned to one of the four authors and a preliminary stage of data 
+extraction was done using Claude.ai [3], a large language model, to 
+standardize and streamline the process. Using an identical query 
+prompt, the AI tool provided an initial pass of data extraction, 
+which was then meticulously reviewed by the assigned author to 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+Figure 3: Search Methodology in three steps: frst, the extrac-
+tion of metadata and paper types from our entire corpus; 
+second, a more detailed extraction for items categorized as 
+"interactive systems," and third, declared ethics statements 
+for empirically tested systems 
+correct any inaccuracies and address potential biases inherent in 
+AI processing. 
+Indeed, recognizing the potential limitations and biases of AI-
+assisted analysis, we implemented a rigorous manual verifcation 
+process. Every piece of data extracted by Claude.ai was reviewed 
+and, if necessary, corrected by the assigned author. Although fre-
+quent minor corrections were needed, with about 80% of papers 
+requiring some manual adjustment, this process still helped in op-
+timizing our process and productivity due to the large volume of 
+papers. Approximately 90% of the papers were straightforward to 
+chart following this initial extraction. For the remaining 10%, which 
+involved more complex theoretical issues or conficting interpre-
+tations, discussion sessions were held between the frst and last 
+author to resolve any discrepancies. This approach helps ensure a 
+balance between efciency and human expertise. 
+3.3.3 Context and Species Classification. Classifcation of species 
+and contexts required careful examination of the roles and envi-
+ronments of the animals involved. We categorized the studies into 
+six main contexts: Pets/Home, Working Animals, Farm, Zoo, Lab 
+Animals, and Wildlife. For example, works on parrots, which were 
+often used in both lab and home settings, required careful evalu-
+ation to determine the most ftting category. Some contexts were 
+multifaceted, especially when the studies had applications in multi-
+ple domains. For example, cognitive testing in primates included 
+both enrichment in zoo settings and behavioral research in labs. 
+Similarly, gait recognition technology in horses could apply to both 
+pets and working animals, and fsh technologies could serve both 
+preservation and agricultural needs. For such cases, we followed the 
+contexts stated by the authors and often tagged with multiple con-
+texts to refect intended applications. Species and contexts where 
+encoded independently from each others, and their distribution 
+within our corpus are represented in Table 1. 
+3.3.4 Objectives. Objectives were directly extracted from the au-
+thors’ wording and classifed into 12 groups: cognitive enrichment, 
+social enrichment, environmental enrichment, physical health, men-
+tal health, training, tracking/monitoring, preservation, service/as-
+sistance, cognitive/ability testing, human entertainment/education, 
+and productivity. Items were often classifed into multiple cate-
+gories as they addressed more than one objective. The categoriza-
+tions were refned iteratively based on the continuous review and 
+discussions among the research team. For example, the category "Cognitive/Ability Testing" was introduced after identifying stud-
+ies using screen-based technology purely for cognitive assessment 
+rather than enrichment or tracking. The categorization process was 
+meticulously managed to ensure consistency, with regular rescreen-
+ing and updates to maintain accuracy. In categorizing objectives, 
+we paid particular attention to the authors’ stated goals rather than 
+inferring additional potential applications. 
+3.3.5 Beneficiaries. We screened each item to determine whether 
+the authors considered animals as direct benefciaries of the work, 
+basing our assessment strictly on the authors’ descriptions. The 
+screening of ambiguous cases led to specifc considerations in the 
+labeling of benefciaries. 
+In some cases, very similar works could be labeled diferently 
+based on the authors’ framing. For instance, in the context of health 
+monitoring studies, we particularly scrutinized the authors’ word-
+ing for work involving young, healthy animals. Health monitor-
+ing was not automatically labeled as benefcial, especially in cases 
+where it appeared to be conducted primarily for research purposes, 
+time-saving for humans, or where healthy outcomes could be en-
+sured without the technology, as these instances did not clearly 
+state direct or automatic benefts for the animals involved. For ex-
+ample, in studies such as those on wearables for dog heart rate 
+monitoring, if the authors framed the work based on advantages 
+for human handlers, stating, for example, "There is an increasing 
+interest from dog handlers and veterinarians in an ability to contin-
+uously monitor dogs’ vital signs" or "may yield measurable benefts 
+to handlers’ interactions with their dogs" [17], then animals were 
+not automatically assumed to be primary benefciaries. 
+Some studies presented additional ambiguities, especially when 
+introducing stressors or discomfort to animals. We distinguished be-
+tween cases where technology was introduced to mitigate existing 
+discomfort (for instance, studies on the efect of home technology 
+noise on animals) and those where it introduced new stressors 
+(such as noise, radio, drones, or robots) to establish the extent to 
+which the technology directly addressed their needs versus the 
+needs of researchers or human users. Finally, some studies purpose-
+fully introduced potential pain, such as with head-fxation or bodily 
+pain to build facial marker datasets. These were not automatically 
+considered benefcial to the animals involved. 
+3.3.6 Feedback. Initially, we aimed to extract information about 
+animals’ "understanding" of technology use; however, we recog-
+nized the inherent difculties in evaluating such an abstract concept. 
+Consequently, we shifted our focus toward assessing sense-making 
+from a more objective standpoint—specifcally, the presence of sen-
+sory feedback provided to the animal andthe feedback modality 
+(visual, tactile, auditory). 
+3.3.7 Ethical Considerations in Empirical Testing. Empirically 
+tested works were scrutinized for ethical considerations, including 
+whether authors reported an Institutional Animal Care and Use 
+Committee (IACUC), Institutional Review Board (IRB), or other 
+institutional ethical approvals. In the United States, IACUCs are es-
+tablished by federal mandate at institutions that use live, vertebrate 
+animals for research, teaching, and testing activities. The IACUC 
+oversees and evaluates all aspects of the institution’s animal care 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+and use program. Our protocol involved searching for specifc key-
+words such as "IACUC," "IRB," "approval," "approved," "institutional 
+board," "waiver," "ethics," "risk", and "comfort" to determine if ethical 
+considerations were addressed and whether this included an ofcial 
+review from an external board. We noted a range of adherence to 
+ethical guidelines, with some studies explicitly stating compliance 
+and others not. 
+3.4 Collating, Summarizing, Reporting Results 
+We organized our analysis and fndings in three stages, correspond-
+ing to our levels of analysis and focus. First, we examined the 
+entire corpus (795 papers) to understand its composition in terms 
+of general trends, publication venues, geographical afliations, and 
+distribution of paper types. This overview provides a broad picture 
+of the feld and its evolution. Second, we delved deeper into the 
+subcorpus of interactive systems (526 papers). We compared this 
+subcorpus to the full corpus to establish whether the balance of 
+conceptual vs. applied work was similar across felds and contexts. 
+We then analyzed the distribution of target species and examined 
+the data in terms of species/context distribution, technology types, 
+objectives, and benefciaries, considering both their evolution over 
+time and their distribution across diferent animal contexts. Lastly, 
+we focused on empirically tested papers, reporting on their ethi-
+cal standards and feedback to animals. Based on this analysis, we 
+proposed criteria for considering animals as users, types of feed-
+back provided, the nature of animal benefts, and empirical testing 
+methodologies. Throughout our analysis, we presented quantita-
+tive data through descriptive statistics and visualizations, as well 
+as qualitative insights from the papers. 
+3.5 Limitations 
+Despite a comprehensive approach, this review has several limi-
+tations. The choice of initial focus on ACM Digital Library may 
+have led to the exclusion of relevant work from other felds. While 
+this choice anchored our corpus in interaction-focused research, 
+it likely skewed our sample towards HCI perspectives. A diferent 
+starting point, such as IEEE publications, would have resulted in a 
+diferent corpus composition. 
+The reliance on published, peer-reviewed, English-language 
+work can be expected to introduce potential publication and lan-
+guage biases. This may have caused us to overlook insights from 
+unpublished studies, works-in-progress, or non-English sources, 
+limiting the global representativeness of our fndings. Additionally, 
+given the rapid evolution of this feld, our review may not fully cap-
+ture the most recent developments due to the lag between research 
+conduct and publication - a common challenge for scoping reviews 
+using such methodology [4]. 
+Further, while the categorization and coding of the papers were 
+agreed upon by all authors, we acknowledge the risk of inherent 
+human biases as part of this process. We also did not systematically 
+evaluate the methodological quality, statistical power, or participant 
+details of the studies included in our corpus, as many did not report 
+such information, particularly those based on pre-recorded datasets. 
+The fnal corpus is by no means all-encompassing, nor did it 
+aim to be. It would be beyond the scope of this work to consider 
+the entire feld of animal testing using technology or to review all machines used in agriculture. Instead of a systematic review, we 
+propose a scoping approach, anchored in HCI work, to help CHI 
+researchers, and beyond, situate their work within this landscape. 
+Despite these constraints, we believe that this review provides a 
+valuable analysis of the landscape of research on animal-technology 
+interaction from an HCI perspective. 
+4 Overview of the Corpus 
+Our analysis shows a strong upward trend in publications, with 
+over 81% of the research appearing in the second half of our corpus 
+(post-2012) highlighting the important growth in the past decade. 
+4.1 Publication venues 
+The corpus spans over 200 unique venues, refecting its multidisci-
+plinary nature. 46% of the papers are published within the Associa-
+tion for Computing Machinery (ACM), with signifcant contribu-
+tions from the the ACI and CHI conferences accounting respectively 
+for 40% and 14% of ACM-related papers. Other key ACM confer-
+ences include the Conference on Advance Computer Entertainment 
+(ACE) (23 papers), the Conference on Designing Interactive Systems 
+Conference (DIS) (24), and the ACM International Joint Conference 
+on Pervasive and Ubiquitous Computing (UbiComp) (15). 
+The strong representation of ACM is likely tied to the interaction-
+focused nature of the research, and the initial search focus on ACM 
+publications. This distribution aligns with the history of ACI as a 
+feld, which began as a series of satellite events within other major 
+ACM conferences before ACI established itself as a standalone 
+conference in 2016. Early ACI papers were often presented at ACE 
+and NordiCHI, refecting the evolving visibility of the feld. 
+Beyond ACM, the corpus includes contributions from other sig-
+nifcant publishing bodies such as the Institute of Electrical and 
+Electronics Engineers (IEEE), which represents 8.9% of the corpus, 
+Science Direct (7.2%), Frontiers, and PLOS (1.9%). Individual journals 
+with notable representation include "Computers and Electronics in 
+Agriculture" (15 papers), "Animals" (13), "Applied Animal Behaviour 
+Science" (13), "Journal of Dairy Science" (10), and "Nature" (2). 
+4.2 Countries of afliation 
+Our corpus includes papers from a total of 54 countries, with domi-
+nant representation from the United States (28.46%) and the United 
+Kingdom (22.98%), followed by countries such as Australia (8.52%), 
+Japan (5.63%), Israel (4.57%) and Canada (4.57%). Compared to the 
+overall CHI 2024 submission data used as a proxy for the HCI com-
+munity, our corpus is slightly less US-centric (-9 percentage points), 
+with a stronger representation from the UK (+ 16 percentage points). 
+International collaborations feature prominently, accounting for 
+14.6% of the papers. To add context, it is worth viewing these geo-
+graphical fndings alongside the Animal Protection Index (API) map 
+from World Animal Protection. The API ranks 50 countries based 
+on their animal welfare policies, assessed through 10 indicators 
+grouped into four goals. This index highlights disparities in global 
+animal welfare, providing a backdrop against which the geographi-
+cal distribution of our research corpus can be understood both in 
+terms of countries where researchers are sensitive to animal rights, 
+but also where laws and regulations might be lacking leading to 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+(a) Heatmap of countries of afliation of our corpus authors, with darker 
+green demonstrating higher country representation 
+(b) Heatmap showing the world’s categories of animal rights, with A 
+being the highest. 
+Figure 4: Two heatmaps demonstrating the overlap between a country’s standards of animal rights and publications in 
+developing animal-computer systems 
+more animal experimentation or inversely to researchers eager to 
+investigate ways to leverage technology for animals needs. 
+4.3 Type of papers 
+We categorized the papers into two broad types: conceptual work 
+and interactive systems. Conceptual works include position papers 
+that discuss theoretical concepts, design methodologies, or ethical 
+considerations, without presenting specifc systems. This category 
+also encompasses review articles, meta-analyses, and papers intro-
+ducing animal-related datasets. Additionally, studies that did not 
+engage directly with animals but focused on human perceptions of 
+animal technology (e.g., workshops and surveys with caretakers) 
+were included as conceptual works. 
+Conceptual works constitute 31.3% of our corpus. Emerging 
+since 2006, their prevalence has remained relatively stable, com-
+prising between 25% and 35% of publications over the past decade. 
+These papers are critical for setting the future direction of the feld, 
+ofering theoretical insights and framing ethical considerations. 
+However, they often lack the granular details on technology types, 
+species, and practical implementation needed for a deeper analysis 
+of animal-technology entanglements. For a more in-depth analysis, 
+we focus on interactive systems and exclude conceptual papers, 
+and reviews from our detailed examination of species, technology, 
+objectives, and perspectives. 
+5 Interactive Systems for/with/on animals 
+Papers from ACM venues represented 38.40% of our interactive 
+system subcorpus, still a large share but a slightly smaller percent-
+age (-7 percentage points) than our full corpus. This indicates that 
+ACM presents a higher proportion of conceptual works than other 
+venues. The remainder of the "Interactive Systems" works came 
+from diverse felds, including farming, biology, animal cognition, 
+psychology, engineering, and veterinary sciences, among others. 
+5.1 Species representation 
+The most represented species in this corpus was dogs, appearing 
+in 178 papers (over 35% of the corpus). Dogs were presented as 
+Figure 5: Bubble graph illustrating the animals within our 
+corpus and in which context the technology developed for 
+them was developed. 
+intended benefciaries 40% of the time and received feedback on 
+the interactions in 40.2% of the cases. These were mostly in the con-
+text of pets/home (53%) but were also signifcantly represented as 
+working animals (35%) and in lab contexts (2.8%), such as research 
+comparing the processing of human emotional faces by pet and lab 
+dogs [7]. For pet dogs, we count frequent instances of wearables, 
+robot interaction, and mental/physical health monitoring. Systems 
+involving working dogs covered many topics often without pro-
+viding input to the animals, such as gait detection monitor for sled 
+dogs [127] or predicting puppy support dog suitability [26]. How-
+ever, some works, particularly those around assistive tools helping 
+with job tasks, provided feedback to the animal and required ac-
+tive animal engagement such as vibrotactile wearable for hunting 
+dogs [113]. 
+Cats appeared in 33 papers, all in the context of pets/homes, in-
+cluding shelters. The targeted benefciaries of these works were the 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+cats themselves 28% of the time and they received feedback from 
+the technology 40% of the time. Cat-centered systems included loca-
+tion wearables for location tracking [155], augmented litter box for 
+health monitoring [122] or screen-based interspecies game [161]. 
+Non-human primates were also strongly represented with 56 
+papers, including 12 on chimpanzees, 7 on gorillas, 5 on marmosets, 
+4 on lemurs, 4 on white-faced saki monkeys, 2 on baboons, and 1 
+on siamangs. These were exclusively in zoos, lab research, or wild 
+and semi-wild environments, often for cognitive/ability testing but 
+also enrichment. Overall, 60% of these works presented the animals 
+as intended benefciaries often through auditory, screen-based, or 
+agency-based enrichment [58]. 
+The avian family included 35 papers across all contexts. Most 
+predominantly, chickens (18 papers) were often featured in farm-
+ing contexts but also appeared in pets/home settings. Nine papers 
+focused on eggs-based topics such as fertility detection [30], nest 
+attendance [143] and augmented pre-hatching communication [83]. 
+Fowls were presented as intended benefciaries 27% of the time. 
+Apart from chickens, the avian category included work on various 
+species of parrots (14 papers, in both lab and pet contexts) in con-
+texts including mediated learning [123] or enrichment [79], pigeons 
+(4 papers in lab context), zebra fnches in the context of video voice 
+preference [42], penguins with a bubble curtain enrichment [118], 
+owls vocalization identifcation [139], and seabirds. These birds 
+were considered the targeted benefciaries in 40% of the works. 
+We counted 53 papers on cows, with only 13% aiming to beneft 
+the animals directly. These papers were mostly in the context of 
+farming, focusing on monitoring, calving time prediction, vision 
+muzzle detection, and other health, monitoring and productivity 
+aspects. There were 20 papers on horses (20% aiming to beneft the 
+animals), spread between working animal and pet contexts, mostly 
+focusing on monitoring, physical health, and mental health. Ten 
+papers on pigs identifed them as benefciaries 27% of the time. 
+We counted 50 papers on aquatic animals, including 20 on 
+marine mammals, exclusively in wildlife (90%) and zoo/aquarium 
+(10%) contexts, with objectives spreading from research [2], to 
+preservation [61], interspecies connection [141], cognitive/ability 
+testing, enrichment, and human education/entertainment. The re-
+maining 30 aquatic non-marine-mammal papers covered aquatic 
+animals across pets/home (17%), farms (33%), zoos (20%), wildlife 
+(40%), and labs (7%), making them one of the most versatile species 
+categories. These works included artistic sonic installation based 
+on plankton activity [164], interactive system for straightening 
+fsh scans [172], or visual-based monitoring systems to track free-
+swimming fsh [94]. 
+Elephants were the focus in 12 studies (67% aimed to beneft 
+them). Among four lions (2 in the wild and 2 in zoos), only one (a 
+feeding and hunting enrichment system for zoos [74]) presented 
+the animals as benefciaries, while the 2 girafe studies both stated 
+aiming to beneft the animals either through automatic tracking [31] 
+or for agency-based audio enrichment [48]. 
+We counted 5 papers on insects, including cicadas monitor-
+ing [56], cockroaches interaction with robots [49] and two systems 
+for bees. Among all insects, only one of the works with bees pre-
+sented the animals as benefciaries [149]. Among the least represented species, present in the corpus with 
+only one or two items each, were hamsters, hedgehogs, bears, ba-
+boons, bats, deer, and camels. 
+5.2 Animal contexts 
+Figure 6: Timeline distribution of the animal-computing 
+work across contexts in our corpus 
+Our initial review identifed six main animal context categories: 
+Pets/Home, Working Animals, Zoos, Farms, Lab Animals, and 
+Wildlife. Due to the limited number of publications in our corpus 
+prior 2012, it is difcult to draw clear trends for this period. Focus-
+ing on the period after, we observed a mostly stable distribution 
+across contexts. However, in the past three years, we note a notice-
+able rise in the proportion of papers in the pet/home contexts and 
+a decline in lab animal research (Figure 6). These changes in trends 
+could refect characteristics of our corpus distribution but also a 
+societal shift towards pet technologies or evolving considerations 
+regarding lab animals. 
+5.2.1 Pets/Home. (31% of papers): This was the most represented 
+context with a total of 161 papers, mainly focused on dogs (60.25%) 
+and cats (20.50%), but also including birds (8.07%), fsh (3.73%), 
+small rodents, reptiles, and even chickens in a domesticated con-
+text. Technologies ranged widely from wearable devices (30.72%), 
+screen-based systems (29.19%), vision (16.87%) and audio-based 
+systems, sensors (25.47%), interactive toys (11.18%), and robots 
+(10%). They were mainly designed for monitoring/detecting/track-
+ing (43.48%) but also to directly enhance animal physical (14.29%) 
+and mental health (19.88%) and facilitate pet-human interaction. 
+For instance, papers frequently explored systems that monitor dogs’ 
+daily activities, or interactive play devices for cats, highlighting the 
+human-animal bond. The bonding aspect was highly present with 
+systems designed for interspecies play for instance, emotion/vo-
+calization recognition [34], social enrichment using remote tech-
+nology with humans [159] robot [126] or remote interaction with 
+conspecifcs [57]. The emphasis on pets aligns with growing societal 
+interest in enhancing pet care through technology, often aiming to 
+improve their quality of life or address behavioral issues. Overhaul 
+interactive systems involving pets provided some kind of feedback 
+to the animal 41.36% of the time and they were considered direct 
+benefciaries 41.98% of the time. 
+5.2.2 Farms. (16.4% of corpus): This category, the second most 
+represented, primarily focused on livestock such as cows, chickens, 
+and pigs. Technologies were predominantly vision-based systems 
+(50.59%), sensors and monitoring systems (29.41%), and wearables 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+Figure 7: Graphs showing the distribution of types of objectives (left) and type of technology across the diferent animal 
+contexts. 
+(20%), refecting the agricultural sector’s adoption of precision farm-
+ing techniques. The main objectives were productivity (45.88%), 
+tracking/monitoring (29.41%), and physical health (25.88%), with a 
+notable absence of mental health or enrichment focus. This distribu-
+tion highlights the industry’s emphasis on efciency and physical 
+welfare. Animals were considered intended benefciaries in only 
+12.94% of the studies, the lowest among all contexts. Examples of 
+innovative approaches include automated health monitoring for 
+dairy cows [22], vision-based individual identifcation systems [88], 
+and egg incubation monitoring [ 154]. Some studies explored more 
+advanced technologies, such as virtual fences for controlling cow 
+movement [19] and AI-based systems for animal behavior anal-
+ysis [105]. This category presents a strong focus on integrating 
+productivity with some level of basic animal welfare, refecting the 
+challenges and priorities of the sector. 
+5.2.3 Working Animals. (15% of corpus): This group included guide 
+dogs, search and rescue dogs, therapy animals, military dogs, hunt-
+ing dogs, and trained horses. Technologies were almost exclusively 
+composed of tracking/monitoring (36.71%) systems and wearables 
+(78.48%) [171], which aim to modify the animals existing profes-
+sional harnesses. Objective-wise, they often targeted human assis-
+tance (54.43%), monitoring (52.56%), with a smaller part of training 
+(24.36%), enhancing task performance and productivity (17.95%), 
+and tracking physical health (15.38%) [93]. No work reported di-
+rectly tackling mental health nor cognitive, social or environmental 
+enrichment. This may be attributed to the typically high standard of 
+care and stimulation these animals receive as part of their working 
+roles and training regimens. The work appeared to be split between 
+providing feedback to the animals (51.28% of the time, more than 
+for pets) and considering dogs as benefciaries 41.98% of the time. 
+Examples of work include auditory cues for guide dogs or vibra-
+tional signals during military tasks [140]. Work that did not provide 
+feedback to animals includes numerous studies on assessing the 
+suitability of puppies to optimize selection for various working 
+roles [26], as well as a focus on position and activity monitoring 
+to enhance performance [15]. This category stands out for its em-
+phasis on technologies that facilitate communication and efciency between the animal and the handler [169], illustrating the role of 
+feedback and active animal engagement. 
+5.2.4 Zoos/Aquariums. (15.4% of corpus): Most technology-related 
+research in zoos in our corpus appears to be carried out with nonhu-
+man primates (48. 75%) with much smaller parts for other animals 
+such as elephants (10.00%), birds (6.25%), fsh (6.25%), marine mam-
+mals (2.50%), bears (2.50%), lions (2.50%), and penguins (2.50%). 
+Regarding the type of technology used, the systems were predom-
+inantly screen-based systems (50%), audio-based systems (27.5%), 
+and interactive toys/objects (28.75%), with a low representation of 
+wearables (1.25%). This distribution likely refects the need for non-
+invasive, adaptable technologies preferred for the constraints of zoo 
+environments. The primary objectives noted were environmental 
+enrichment (68.75%), followed by cognitive enrichment (46.25%), 
+mental health (28.75%) cognitive/ability testing (26.25%), and preser-
+vation (7.50%). Animals were intended as benefciaries in 70% of the 
+studies and received direct feedback 75% of the time, ranking the cat-
+egory frst in terms of feedback, indicating a strong focus on animal-
+agency as a form of enrichment. Examples include sound-based 
+enrichment [77], touchscreen tasks for cognitive assessment [68], 
+and interactive projections for orangutans [20]. While human en-
+tertainment/education was present (8.75%), it didn’t appear as a 
+primary focus of the works within our corpus. 
+5.2.5 Lab animals. (8.3% of corpus): This category contained pri-
+marily non-human primates, rodents, and some avian species such 
+as pigeons, parrots, and zebra fnches, using mainly screen-based 
+interfaces (58.14%) and audio systems (23.26%). In terms of objective, 
+we observe predominantly cognitive and ability testing (79.07%), 
+with some accounts of productivity (13.95%) and mental health con-
+siderations (11.63%) such as some investigations into music as an 
+enrichment tool [112]. While only 9.30% explicitly positioned ani-
+mals as benefciaries, a high proportion of studies (74.42%) provided 
+feedback to the animals, highlighting the non-automatic correlation 
+between the two metrics. 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+5.2.6 Wildlife. (12.1% of corpus): This group covers a diverse range 
+of species from marine mammals, birds, land mammals like ele-
+phants and agoutis, and insects. Technologies predominantly con-
+sisted of visual-based (33.87%), audio-based (32.26%), and sensor-
+based monitoring systems (27.42%), with some limited use of wear-
+ables (16.13%). The primary objective was tracking and monitoring 
+(85.48%), followed by preservation (33.8%) with minor attention 
+to productivity (9.68%) and physical health (4.84%). Animals were 
+named as immediate benefciaries in 16.13% of studies and received 
+direct feedback in 6.45% of cases, the lowest among all contexts. 
+This refects the priority of observing natural behaviors with mini-
+mal interference. Examples include passive acoustic monitoring of 
+cetaceans [9], unmanned aerial vehicle surveys [61], and innovative 
+approaches like 3D printed eggs for studying bird behavior [69]. 
+Many studies, for wildlife, used machine learning for animal identi-
+fcation/monitoring. 
+Figure 8: Percentage of work providing feedback to the ani-
+mals (in red) and the percentage of papers framing animals 
+are benefciaries across animal contexts (top) and across tech-
+nology type (bottom) 
+5.3 Types of Technologies 
+Our review revealed a diverse range of technological types. 
+Wearables (27% of the corpus) included, among others, instru-
+mented collars for communication or tracking [171], bracelets for 
+gait monitoring [22], and harnesses for assistive animals [140]. 
+Sensors and monitoring systems (24% of the corpus) were 
+used for various purposes, such as passive behavior or health mon-
+itoring, including accelerometers for gait analysis [23], automated 
+systems for detecting calving time [178], and remote monitoring of 
+parturition in dairy cattle [120]. 
+Vision-based systems (23%) use cameras and computer vision 
+for diverse applications, for example, automated facial recognition 
+for non-human primates [173], muzzle pattern recognition for cattle 
+identifcation [146], and automated egg fertility detection [95]. Screen-based systems (22%) encompassed various interactive 
+screens or tablets, including touchscreen tasks for cognitive assess-
+ment in rats [27], problem-solving games for primates [14], and 
+interactive projections for orangutans [20]. 
+Audio-based systems (14%) involved various sonic inputs 
+and/or outputs, such as acoustic whale monitoring [9], auditory 
+enrichment for zoo animals [ 132], and vocalization recognition in 
+farms [145] and zoos [84]. 
+Interactive toys/objects (10%) covered various manipulable 
+devices, including but not limited to multi-sensory puzzle for cogni-
+tive enrichment [174], robotic toys for pets [176], and enrichment 
+devices for primates in managed care [65]. 
+Environmental systems (7%) encompassed technological mod-
+ifcations to animal habitats, such as automated climate control in 
+farming [43], virtual fences for livestock management [19], and 
+bubble curtains for aquatic species [118], among others. 
+Lastly, robotics (6%) involved various mechanical devices for 
+animal interaction, including robotic dogs to study social behav-
+ior [176], automated milking systems [62], and robotic enrichment 
+devices for zoos [41]. 
+Beyond these main categories, several technologies emerged 
+in our corpus. These included 3D printed eggs for studying bird 
+behavior [38], fMRI for animal research [10], and scent-based 
+interfaces for olfactory interactions [55]. 
+The distribution of technologies among research objectives re-
+veals additional patterns. Wearables and Vision-Based Systems were 
+predominantly used for Tracking/Monitoring and Physical Health 
+objectives, highlighting their utility in noninvasive data collection. 
+Screen-Based Systems showed a strong association with Cognitive 
+Enrichment and Cognitive/ability testing. Audio-Based Systems 
+were versatile, contributing signifcantly to Cognitive Enrichment, 
+Environmental Enrichment, and Tracking/Monitoring. Interactive 
+Toys/Objects were primarily used for Cognitive and Environmental 
+Enrichment, emphasizing their role in animal engagement. Sensors, 
+as expected, were heavily used in Tracking/Monitoring and Physi-
+cal Health research. Notably, there seems to be less exploration of 
+these technologies in Mental Health and Social Enrichment objec-
+tives, suggesting potential areas for future research. The provision 
+of feedback to animals varied signifcantly across technology types 
+as illustrated in Figure 8 (bottom). 
+5.4 Objectives and Benefciaries 
+Our results revealed a diverse range of objectives: 
+Cognitive Enrichment (12.7% of the corpus) aimed to enhance 
+mental stimulation, often through interactive puzzles or games 
+with examples including touchscreen tasks for primates [14] and 
+cognitive challenges for elephants [41]. This category showed a 
+high rate of feedback to animals (85.07%), suggesting a strong focus 
+on direct animal engagement. 
+Environmental Enrichment (16.6% of the corpus) focused 
+on improving animals’ surroundings. This included auditory 
+enrichment for gorillas [132] and interactive projections for 
+orangutans [20]. With 77.01% of such studies providing feedback to 
+animals, this objective often involved active animal participation. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+Animal Animals 
+Feedback Benefciaries 
+Cognitive Enrichment 85.07% 88.06% 
+Social Enrichment 75.00% 65.91% 
+Environmental Enrichment: 77.01% 81.61% 
+Physical Health 6.25% 39.06% 
+Mental Health 73.40% 77.66% 
+Training: 60.53% 47.37% 
+Tracking/Monitoring 7.84% 20.00% 
+Service/Assistance 66.67% 66.67% 
+Cognitive/ability testing 74.07% 19.75% 
+Productivity 23.94% 23.94% 
+Human Entertainment/Edu 47.62% 38.10% 
+Preservation 10.71% 39.29% 
+Table 1: Categorization of animal-computer interaction sys-
+tems by primary objective: analysis of studies implementing 
+direct animal feedback and explicitly stating animals as in-
+tended benefciaries (expressed as percentage per category) 
+Tracking/Monitoring (49.1% of the corpus) was the most com-
+mon objective, involving technologies to observe and record ani-
+mal behavior or health. Examples include automated systems for 
+detecting calving time in cows [178] and acoustic monitoring of 
+whales [9]. Despite being the most prevalent objective, it had a 
+low rate of feedback to animals (7.84%), indicating its primarily 
+observational approach. 
+Physical Health (12.3% of the corpus) studies focused on moni-
+toring and improving animal well-being. This included gait analysis 
+in cattle [23] and wearable health monitors for dogs [37]. Only 6.25% 
+of these studies provided direct feedback to animals, suggesting a 
+focus on data collection for human interpretation. 
+Cognitive/Ability Testing (15.6% of the corpus) involved as-
+sessing animal cognitive capabilities. Examples include touchscreen 
+tasks for rats [27] and problem-solving games for birds [66]. With 
+74.07% of these studies providing feedback to animals, this objective 
+often involved direct animal interaction with the technology. 
+Productivity (13.7% of the corpus) studies aimed to enhance 
+efciency in contexts like farming. Examples include automated 
+milking systems [62] and egg fertility detection [95]. Only 23.94% 
+of these studies provided feedback to animals, refecting a focus on 
+human-oriented outcomes. 
+Human Entertainment/Education 4.20% of the corpus con-
+cerned works incorporating animals for human learning or enjoy-
+ment. This included artistic endeavours such as the sonifcation 
+of a fsh tank [111], or an immersive experience of animal sensing 
+data for education [85]. 
+Preservation (5.34% of the corpus) included studies and sys-
+tems aimed at animal preservation and conservation in various 
+contexts, for instance by aiming to sensitize zoo audiences to great 
+ape endangerment [167] or using monitoring tools such as drones 
+for surveying marine fauna to protect dugongs [61]. 
+Our results reveal varying degrees of animal engagement across 
+diferent research objectives in terms of feedback received by the 
+animals and their consideration as benefciaries, as illustrated in Ta-
+ble1. We observe some disparity across objectives, such as Physical Health where animals are considered benefciaries but not given 
+feedback, or Cognitive/Ability Testing where the inverse trend is 
+seen. This highlights potential opportunities for developing more 
+interactive approaches in areas traditionally focused on passive 
+data collection, particularly in Tracking/Monitoring and Physi-
+cal Health research. It also suggests a need for greater alignment 
+between providing feedback to animals and considering them as 
+primary benefciaries of the research across all objectives. 
+5.5 Feedback 
+Our analysis revealed that out of all the papers in our corpus, only 
+38.05% provided some form of feedback to animals. This feedback 
+was predominantly visual (63.32% of feedback papers), followed 
+by tactile (30.65%) and audio (27.64%) feedback. Olfactory feed-
+back was rarely used, appearing in only 1.01% of papers providing 
+feedback. This distribution highlights the prevalence of visual inter-
+faces in ACI, but also suggests potential opportunities for exploring 
+other sensory modalities, particularly olfactory feedback, due to its 
+importance in many animals’ sensory worlds. 
+We observed that while there is some overlap between papers 
+providing feedback to animals and those considering animals as 
+benefciaries, these metrics are not entirely aligned as seen in Fig-
+ure 8 (top). This discrepancy supports the idea of pairing these 
+two metrics when considering animals as users of technology. For 
+instance for lab animals there is often feedback 74.42% even if they 
+are considered benefciaries only 9.3% of the time. 
+5.6 Empirical testing and ethics 
+Amongst interactive systems described in the corpus, 76.91% were 
+empirically tested with animals beyond the use of pre-existing and 
+pre-recorded datasets. For these 403 studies, we examined mentions 
+of ethics and report of approval (or waiver) from Institutional Ani-
+mal Care and Use Committees (IACUC or equivalents). Although 
+64.23% mention ethical considerations, less than half (47.53%) re-
+ported review from an ofcial board, the animal context most fre-
+quently reporting ofcial institutional review and approval was 
+labs (60. 53%) followed by working animals (48.57%), pets/home 
+(46.90%), farming (36.96%) and fnally wildlife with only 27.27%. 
+We explored the potential correlation between geographical 
+location and the reporting of IACUC approval, considering that 
+ethical review practices could vary due to cultural and regulatory 
+diferences across countries. The data reveals noticeable diferences 
+across countries: Denmark stands out as the only country where 
+all studies reported ethical approval, refecting a stringent adher-
+ence to ethical review protocols. In contrast, other countries dis-
+played a mixed pattern, with most ranging between 30% and 60% 
+of studies reporting IACUC approval. This variability highlights 
+inconsistencies in how ethical considerations are handled, even 
+within countries that frequently mention ethical aspects of their 
+research. Notably, some countries show signifcant gaps between 
+studies that mention ethical considerations and those that explicitly 
+report IACUC approval, suggesting that ethical considerations do 
+not always translate into formal review or that diferent standards 
+might be applied. These fndings underscore the need for more 
+consistent and transparent reporting of ethical approvals across 
+the feld. 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+6 Discussion 
+Our analysis of nearly 800 research works maps the landscape of 
+animal-technology research and reveals insights for future devel-
+opment. Following methodological approaches from previous HCI 
+reviews [92, 110, 117], we identify several core themes emerging 
+from our analysis: (1) the persistence of context-specifc silos, (2) a 
+proposed framework of animal usership, (3) approaches to ethics 
+and research challenges, and (4) the multifaceted intersections be-
+tween ACI and HCI. Through examining these themes, we develop 
+concrete recommendations and practical steps for experienced ACI 
+researchers and HCI practitioners looking to expand their work to 
+include animals, while acknowledging the feld’s complexity and 
+evolving nature. 
+6.1 Context-Specifc Technologies, Evolution 
+and Research Silos 
+This review provides, to our knowledge, the frst cross-contextual 
+analysis of animal-technology research from an HCI lens, reveal-
+ing how diferent contexts have evolved distinct technological and 
+interactional approaches. This bird’s-eye view enables us to iden-
+tify patterns of specialization across diferent animal contexts that 
+might not be apparent when examining each domain in isolation. 
+Temporal analysis also reveals an evolving landscape. In recent 
+years, we see an increase in pet-focused technologies, while the 
+ratio of research involving farm animals, laboratory animals, and 
+wildlife appears to be declining in empirical deployment. This shift 
+might refect easier access to pet subjects and ethical constraints 
+of involving wild animals. Yet, it also raises concerns about ne-
+glecting animals that might be most in need of technological inter-
+vention. This trend toward pet technologies, while expanding our 
+understanding of companion animal needs, risks creating a two-
+tier system of animal-technology research where some animals 
+receive more user-centered consideration than others. Farm and 
+laboratory animals, in particular, remain underrepresented in terms 
+of cognitive and social enrichment technologies, with our analy-
+sis showing only 12.94% of farming-context studies considering 
+animals as intended benefciaries. 
+Based on the corpus analysis, we identifed some prototyp-
+ical and strongly represented combinations of objectives and 
+technologies for each context. Figure 9 shows the prevalence of 
+each technology used, and each objective targeted across animal 
+contexts. The most common practices that can be summarized as: 
+• 
+• 
+• 
+• 
+• • Toys & robots for physical/mental health & bonding with 
+pets 
+Wearables for training & tracking working animals 
+Screens and audio-based technologies for enrichment in 
+zoos 
+Screen-based cognitive testing for lab animals 
+Acoustic monitoring for wildlife tracking and preservation 
+Vision-based systems to monitor the physical health to in-
+crease productivity in farms These patterns reveal not just technological preferences but fun-
+damentally diferent assumptions about animals’ roles and needs 
+across contexts - from pets as companions deserving enrichment to 
+farm animals primarily as production units. These context-specifc 
+approaches mirror early HCI’s tendency to develop specialized 
+solutions for diferent workplace environments, before broader 
+user-centered principles emerged that crossed contextual bound-
+aries [11]. 
+These silos appear to arise from multiple factors and to refect 
+practical constraints. For instance, wildlife research often requires 
+large-scale monitoring in remote locations, potentially explain-
+ing the prevalence of acoustic and vision-based systems. Others 
+might stem from established research traditions: laboratory ani-
+mal studies typically follow standardized protocols inherited from 
+behavioral research and animals often have to stay on single proto-
+cols. Economic factors can also play a role as farms may prioritize 
+productivity-enhancing technologies, while zoo environments may 
+invest in enrichment to address stereotypical behaviors. This may 
+also refect the structure of academic and industry research com-
+munities, where limited cross-pollination between animal behavior 
+researchers, veterinary technologists, and HCI practitioners rein-
+forces context-specifc approaches. 
+Yet the corpus also reveals promising examples that transcend 
+these contextual boundaries. Buchanan-Smith and Badihi’s [18] 
+work on environmental control for laboratory marmosets demon-
+strates how principles of agency and choice - more commonly 
+considered in pet or zoo contexts - can enhance laboratory animal 
+welfare. Similarly, Chiu et al.’s [25] emotion detection system for 
+elephants applies techniques typically used in pet contexts to other 
+scenarios. Hauser et al.’s [54] research on accessible dog toys shows 
+how considering non-working activities for service animals can 
+enrich both animal and human experience. 
+These cross-context successes suggest opportunities for more 
+diverse technological approaches. While institutional access re-
+strictions, methodological diferences, and varying ethical review 
+requirements present real challenges to crossing contextual bound-
+aries, here we suggests concrete steps that researchers could con-
+sider to bridge these gaps: 
+⇒ Familiarize themselves with technologies and approaches 
+used across diferent animal contexts to identify potential 
+tools and methods beyond their immediate feld 
+⇒ Explore opportunities to adapt successful approaches from 
+other contexts while respecting domain-specifc constraints 
+⇒ Consider how technologies might be extended or combined 
+across species and contexts 
+⇒ Acknowledge and critically examine context-specifc as-
+sumptions about animal capabilities and needs 
+⇒ Seek collaborations across diferent animal research domains 
+to bridge methodological gaps 
+The observed cross-context patterns raise questions about how 
+we conceptualize animals’ roles in technological interventions. 
+While some contexts position animals as active participants, oth-
+ers treat them primarily as subjects of observation. This variation 
+suggests the need for a more structured way to think about animal 
+engagement with technology and when to consider them users vs 
+subjects of technology research. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+Figure 9: Visualisation of the number of studies across each context, based on the type of technology used and objectives. The 
+thickness of the connection represents the number of paper corresponding to the category 
+6.2 Understanding Animals as Users: A 
+Framework 
+As discussed in sections 2.3 and 2.4, the question of usership in 
+the context of interactive technology research remains contentious 
+in both HCI, and ACI. Based on corpus analysis and building on 
+user-centered design principles, we propose a framework to help re-
+searchers think about animals’ roles in technological interventions. 
+Refecting on the various ways animals engage with technology 
+in our corpus, we identify three key criteria to help frame the con-
+cept: feedback, benefts and empirical testing. Each criterion 
+addresses a diferent aspect of user interaction. Provision of sensory 
+feedback to the animals, while not guaranteeing comprehension, 
+provides the basic foundation for animals to make connections be-
+tween their actions and system responses and acknowledge animal 
+agency. Framing animals as intended benefciaries ensures there is 
+fundamental motivation for the interaction beyond human or re-
+search needs. Empirical testing moves beyond theoretical proposals 
+to validate whether and how animals actually engage with the sys-
+tem in practice. While no single criterion fully captures the concept 
+of "user," together these three parameters ofer a structured way to 
+conceive animal agency and engagement in mediated interventions. 
+The distribution of these criteria across our corpus reveals addi-
+tional patterns, as seen in Figure 10. While 82.1% of studies conduct 
+empirical testing, only 38.0% provide direct feedback to animals, 
+and just 36.1% frame animals as primary benefciaries. All in all, 
+only 22.71% of studies meet all three criteria. These proportions 
+have remained relatively stable over the past 20 years, generally 
+ranging between 10% and 30%, suggesting persistent patterns in 
+how researchers approach animal-technology interaction. 
+The framework reveals marked variations across contexts: zoo 
+settings lead with 55% of studies meeting all criteria, while farm (1.18%), laboratory (6.98%), and wildlife (1.61%) settings rarely po-
+sition animals as users. These patterns refect not just practical 
+constraints but assumptions about animals’ roles in diferent set-
+tings. Zoo environments, focused on enrichment and welfare, may 
+more naturally align with user-centered approaches. However, suc-
+cessful examples across all contexts demonstrate the framework’s 
+potential value even in challenging settings. For instance, cognitive 
+adaptation feeding systems for pigs [33] show that farm animals can 
+engage as users through audio feedback and control over feeding, 
+while research on lab animals’ control over their environment [18] 
+shows how they can be given meaningful agency. 
+Some limitations and complexities in our framework warrant 
+critical examination. Our classifcation of animals as benefciaries 
+relies on authors’ explicit statements, which may refect varying 
+standards across felds or overstate potential benefts - a particular 
+concern in HCI venues where impact claims are standard practice. 
+Moreover, as Williams [170] demonstrates, even systems that ac-
+knowledge animal cognition and agency can be coopted to optimize 
+control rather than enhance welfare. The presence of feedback or 
+empirical testing alone does not guarantee meaningful engagement 
+or beneft. This framework should therefore serve not as a checklist 
+for ethical practice, but as a tool to think critically about how we 
+position animals in technological research. 
+While this framework aligns with a movement from designing 
+"on" animals to designing "for" animals, we also acknowledge its 
+ethical limitations. Recognizing animal sentience and agency can 
+paradoxically serve to refne rather than challenge instrumental 
+approaches to animal research [170]. The presence of feedback, em-
+pirical testing, and stated benefts - while important considerations -
+do not automatically equate to ethical or good research. This frame-
+work aims to provide a structured way to examine how we position 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 10: Diagram of Animals Technology Usership Framework, and its representation within the corpus. 
+animals in technological research while remaining mindful of the 
+broader implications of these positions. This aligns with critical 
+animal studies’ emphasis on examining not just individual practices 
+but their role in broader systems of human-animal relationships. 
+For researchers considering this framework, we recommend the 
+following practical considerations: 
+⇒ Consider whether animals should be positioned as users in 
+the system - this may not be necessary or appropriate for all 
+technological interventions 
+⇒ Identify feedback modalities that align with both species-
+specifc sensory capabilities and contextual constraints 
+⇒ Document clear pathways between system design and in-
+tended animal benefts 
+⇒ Design validation methods that can meaningfully assess ani-
+mal engagement 
+⇒ Acknowledge implementation challenges while working to 
+address them 
+⇒ Refect critically on how your research positions animals 
+within broader systems of human-animal relationships, be-
+yond immediate welfare considerations 
+With its concrete criteria, this framework contributes to on-
+going discussions about animal agency while ofering practical 
+guidance for researchers. While aligning with HCI’s emphasis on 
+user-centered design, it acknowledges the unique challenges of 
+working with non-human participants and the complex ethical, 
+practical, and legal considerations. 
+6.3 Ethics and Research Challenges 
+The ethical dimensions of animal-technology research present com-
+plex challenges that parallel HCI’s own evolution. Just as HCI’s 
+adoption of formal human subject protections in the 1990s estab-
+lished research standards [151], our analysis reveals growing at-
+tention to ethical considerations. Among studies involving live 
+animal participants (excluding pre-recorded datasets), 64.23% dis-
+cuss ethical considerations, yet only 47.53% report formal institu-
+tional review board approval. This discrepancy between ethical discussion and formal oversight may refect geographical or cul-
+tural diferences, misalignment in reporting standards or challenges 
+in obtaining institutional approval. 
+Understanding this gap becomes particularly important given 
+the potential negative impacts of technology on animal subjects, 
+and it appears to vary across contexts. Laboratory animal research 
+shows the highest rate of institutional review (60.53%), possibly due 
+to studies conducted outside standard protocols or variations in 
+reporting practices. Wildlife studies report the lowest rate (27.27%), 
+refecting the prevalence of "passive monitoring" approaches where 
+researchers don’t provide direct feedback to animals. However, 
+even such observational approaches, particularly those involving 
+audio playbacks or tracking devices, can signifcantly impact animal 
+behavior and social structures [101, 119]. While the U.S. mandates 
+IACUC oversight, other countries have varying requirements for 
+animal research review. 
+Thus, obtaining institutional approval can present challenges, 
+particularly for novel technological interventions. Traditional eth-
+ical approval boards may be unfamiliar with new technologies 
+or interaction paradigms, while researchers working with pets or 
+wildlife may struggle to ft their work into oversight frameworks 
+designed primarily for laboratory research. These challenges can 
+be of concern given potential negative impacts of technology even 
+in managed care situations. Indeed, some studies deliberately intro-
+duce stressors to observe animal responses - for instance, research 
+measuring stress efects of drones or robots on pet behavior [36], 
+or studies involving induced pain for developing facial expression 
+recognition systems [128]. While such work may aim to beneft 
+broader animal populations (like developing better pain detection 
+tools), it raises ethical questions about balancing population bene-
+fts against an individuals welfare. 
+Moreover, even when studies emphasize care practices, this alone 
+may not ensure ethical conduct. As Giraud and Hollin [45] demon-
+strate in their analysis of laboratory beagle research, care practices 
+can sometimes reinforce rather than challenge experimental ob-
+jectives. Their work reveals how care can be used to manufacture 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+compliance rather than create genuine ethical transformation, po-
+tentially facilitating rather than preventing the instrumentalization 
+of research subjects. This tension extends beyond care practices to 
+broader questions about technological interventions - what Manzini 
+terms "remedial goods" - where improvements in immediate con-
+ditions might inadvertently legitimize rather than transform chal-
+lenging contexts [102]. 
+This creates multiple intersecting tensions that ACI researchers 
+must navigate: between care and ethics, between immediate im-
+provements and systemic change, and between oversight and re-
+search accessibility. While technological interventions may ofer 
+real benefts for animals in challenging situations, we must simul-
+taneously examine whether our work risks making problematic 
+practices more palatable rather than promoting necessary systemic 
+changes. Yet, pursuing only systemic transformation might mean 
+missing opportunities to improve animals’ immediate welfare - a 
+practical reality that researchers working directly with animals 
+must face. 
+This landscape presents a critical challenge: how to maintain 
+high ethical standards while ensuring research remains accessible 
+to diverse voices and perspectives. The challenges in navigating 
+oversight mechanisms might inadvertently exclude valuable contri-
+butions, particularly from practitioners working with animals in 
+non-traditional research settings. Yet, lowering ethical standards 
+risks compromising animal welfare. Our analysis suggests the need 
+for a balanced approach that acknowledges both the value and 
+limitations of technological interventions while developing more 
+fexible, context-appropriate review mechanisms. This is particu-
+larly relevant as the feld expands to include researchers working 
+with companion animals, wildlife conservation eforts, and techno-
+logical enrichment in various settings. 
+⇒ Establish early relationships with institutional review boards 
+to bridge understanding of novel technologies 
+⇒ Partner with institutions having established animal research 
+protocols 
+⇒ Document and evaluate potential risks and benefts for both 
+targeted population and individual participants 
+⇒ Adapt human subjects research principles where appropriate 
+⇒ Understand specifc regulations in your region and country 
+⇒ Consider how tech interventions might balance immediate 
+welfare needs with potential systemic impacts 
+As animal-technology research expands beyond traditional lab-
+oratory settings, the community needs to develop more adapted 
+approaches to ethical oversight that can accommodate diverse con-
+texts while ensuring animal welfare. 
+6.4 The Multifaceted Relevance of ACI to HCI 
+Our review reveals a complex and multifaceted relationship be-
+tween the domains of ACI and HCI. While both felds show evolu-
+tionary patterns in time, their relationship is not linear and forms 
+an intricate web of interconnections. Our corpus reveals that most 
+animal technology work remains siloed within specifc contexts 
+(pets, working animals, farm animals, etc.), refecting a stage similar 
+to HCI’s second wave’s "well-established communities of practice." 
+This suggests that ACI might be poised for its own transition to-
+ward broader considerations of animal experience with technology, independent of their prescribed roles in human society, as possi-
+bly already suggested by the recent rise of the more-than-human 
+movement [ 138]. However, achieving this would require overcom-
+ing research biases about diferent categories of animals and their 
+relationships to technology. 
+The non-linear nature of this relationship becomes particularly 
+apparent when examining methodological developments. While 
+HCI began with robust model-driven approaches (e.g., Fitts’ Law, 
+cognitive modeling) likewise early ACI work like Skinner’s operant 
+conditioning chambers [148] similarly emphasized systematic re-
+search. However, basic ergonomic considerations for animal bodies 
+existed in some form since the 1980s’ [121], but have only recently 
+received more traction when researchers begun investigating more 
+fundamental interaction principles for animals, such as ergonomics 
+work on button design for dogs [136] or studies examining Fitts’ 
+Law with diferent species [79]. In addition to this temporal evo-
+lution, we identifed eight distinct ways in which ACI and HCI 
+intersect and contribute to each other (see Figure 11). 
+6.4.1 Human-in-the-Loop: A primary way that HCI and ACI in-
+tersect emerges from our analysis of research benefciaries. Most 
+animals in our corpus exist within managed care environments, 
+making their human caretakers/owners/handlers integral to any 
+technological intervention. Our analysis reveals a wide range of 
+human benefciaries: veterinarians using health data [153, 163], 
+zookeepers managing enrichment systems [77, 131], and pet own-
+ers engaging with their companions [ 158, 161]. This human-in-the-
+loop reality means that technology must often be considered across 
+species. Researchers should consider how their technologies create 
+interfaces that work within existing human-animal pairs. 
+6.4.2 Multispecies Interconnectedness: Besides the animal depen-
+dence on humans, our corpus also reveals that many systems, par-
+ticularly in farming and working animal contexts, recognize that it 
+is not only animals relying on humans but also humans relying on 
+animals. This interdependence is exemplifed in context of working 
+dog and assistance animals [134, 137], where systems aim to sup-
+port the animals in providing support to humans, recognizing the 
+need to support both members of the working team. This is also 
+evident in the farming context [125, 156], where our dependence on 
+animals informs the technology we use with them. In this context 
+humans can also often be considered users and benefciaries of 
+animal technologies. 
+6.4.3 Methodological Innovation: Beyond the direct user and bene-
+fciary relationships, ACI is relevant to HCI through its innovative 
+methodological frameworks. With only a minority of systems that 
+provide feedback to animals, researchers had to develop alternative 
+evaluation approaches for participants who cannot clearly express 
+preferences or provide direct feedback about their experience. For 
+instance, Cheok et al.’s [24] evaluation methodology combined 
+voluntary engagement patterns and health metrics to assess their 
+mixed-reality system’s impact on hamsters, demonstrating how 
+multiple indirect measures could provide robust evidence of user 
+experience. Similarly, Mancini et al.’s [100] semiotic framework 
+analyzed how dogs interpreted tracking devices through their con-
+textualized behaviors, ofering insights into how users make sense 
+of technology through natural interactions. These methodological 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 11: Multifaceted intersections of HCI and ACI subdomain in a temporal and non-linear manner based on the HCI wave 
+framework (left), and base on the eight categories emerging from the current analysis 
+innovations could inform approaches to designing for any user 
+group where traditional feedback mechanisms are challenging, for 
+instance non-verbal individuals or those unfamiliar with technol-
+ogy. Although this parallel requires careful ethical consideration. 
+6.4.4 Physiological Diversity in Interface Design: The challenges of 
+designing for diverse animal bodies and capabilities have prompted 
+ACI research to consider fundamental questions about interface 
+adaptation. Our corpus showed varied approaches across species, 
+from vision-based systems (23%) to wearables (27%) to screen-based 
+interfaces (22%) most of them adapted in a bespoke manner to 
+the animals’ unique bodies. Recent work examining interaction 
+principles for animals, such as Robinson et al.’s investigation of 
+dog-appropriate button design [136], demonstrates how designing 
+for diferent physiologies and sensory abilities can advance our 
+understanding of interface adaptation. This approach to extreme 
+personalization resonates with HCI’s growing focus on designing 
+for diverse human bodies and abilities from people with physical 
+disabilities [144] to athletes [109], suggesting that insights from an-
+imal interface design could inform more inclusive human interface 
+design. 
+6.4.5 Environmental Impact and Sustainability: Some of our cor-
+pus explicitly addresses preservation goals, contributing signif-
+cantly to HCI’s growing focus on environmental sustainability. 
+From wildlife monitoring technologies [86, 114] to sustainable farm-
+ing practices [46, 149], ACI work often grapples with questions of 
+environmental impact. The inclusion of animal perspectives in tech-
+nology design aligns with recent calls in sustainable HCI to move 
+beyond human-centric approaches [108], suggesting that ACI’s 
+methods could contribute to developing more systemic understand-
+ings of environmental challenges. This resonates with emerging 
+discussions in the CHI community about expanding sustainable HCI to consider non-human actors and biodiversity [107], posi-
+tioning animal-technology research as a valuable contributor to 
+imagining sustainable futures. 
+6.4.6 Evolutionary Understanding of Interaction: The study of 
+animal-technology may provide insights into fundamental aspects 
+of tool use and interaction. From primates using tablets [68] to fsh 
+interfacing with digital systems [70], a comparative approach helps 
+illuminate basic principles of interaction that transcend species 
+boundaries and may shed light on deeper shared capabilities of 
+ancestral living creatures. As McGrath [103] notes, this can deepen 
+our understanding of interaction itself. Our corpus reveals numer-
+ous instances where technologies developed for one species fnd 
+applications in others [76]. This pattern of knowledge transfer be-
+tween species contexts suggests fundamental interaction principles 
+that could inform human interface design. 
+6.4.7 Ethics and Post-human Perspectives: 64.23% of studies men-
+tioned ethical considerations refecting which echoes the recent 
+rise of the “more-than-human” approaches. As Mancini argues, ACI 
+research fundamentally challenges anthropocentric assumptions 
+about technology design [96]. This aligns with HCI’s fourth wave 
+emphasis on post-human perspectives [35] and ethical comput-
+ing [67], suggesting that ACI’s animal-centered design principles 
+could inform broader discussions about ethical technology devel-
+opment. 
+6.4.8 Designing for Otherness: Perhaps most fundamentally, ACI 
+research challenges our assumptions about what it means to design 
+for users who are diferent from ourselves. Our corpus shows how 
+researchers approaching animal users provide avenues to question 
+assumptions about interaction, preferences, and needs. This explicit 
+recognition of designing for "otherness" aligns with HCI’s core 
+principle of user-centered design, as articulated by Dix [29], where 
+the “focus must be on real users in real situations, however diferent 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+they might be from the designers”. The empirical testing of animal 
+technologies in our corpus leads to unexpected patterns of use and 
+interaction, challenging researcher assumptions from zoo animals 
+using interfaces to attract visitors [78, 82], to farm animals enjoying 
+the experience of being pet remotely [157]. These approaches to 
+designing for radical diferences can serve as a valuable exercise 
+of empathy to empower animals with rich experience and humans 
+with extended perspectives on sharing the Earth with others. 
+7 Conclusion 
+Animals’ interaction with technology is multifaceted, ofering a 
+wide range of applications across research felds, contexts, and 
+species for diferent motivations. Through an analysis of nearly 
+800 research works, our scoping review highlights a strong interest 
+but also great disparities. With particular focus on bonding with 
+pets, enriching zoo animals, tracking working animals, monitoring 
+wildlife, and testing lab animals, the feld is marked with gaps and 
+paved with opportunities to extend welfare across contexts. By ele-
+vating animals as users of technology rather than mere subjects, our 
+proposed framework aims to help researchers situate their work 
+within this dynamic and multidisciplinary landscape. Our work 
+illuminates the complex entanglement between animals and tech-
+nology—a nexus that demands ethical vigilance yet ofers potential 
+for informing our shared future. 
+Dataset and Interactive Platform 
+To allow researchers to further engage with the corpus and our en-
+coding, we provide an interactive paper explorer platform online at 
+https://fndapaper.interactanimallab.com This platform is intended 
+as a living project, where we welcome community contributions 
+and updates. The full dataset underlying this analysis will be made 
+publicly available for download. For access to the full dataset and 
+classifcation, please contact us at contact@interactanimallab.com. 
+Acknowledgments 
+We wish to thank Philip Espinola Coombs, Academic Health Sci-
+ences Librarian at Northeastern University, for his guidance with 
+the literature search and retrieval process. We also thank Akito van 
+Troyer and Felix Sims for their support during the development of 
+this project, and Somil Urmil Shah for his work on the interactive 
+paper explorer platform. 
+References 
+[1] Ahmed Al-S’di. 2022. User Centred design Methods in Animal Centred Design: 
+A systematic review. In 2022 International Conference on Theoretical and Applied 
+Computer Science and Engineering (ICTASCE). IEEE, 84–89. 
+[2] Mats Amundin, Josefn Starkhammar, Mikael Evander, Monica Almqvist, Kjell 
+Lindström, and Hans W. Persson. 2008. An echolocation visualization and 
+interface system for dolphin research. The Journal of the Acoustical Society of 
+America 123, 2 (2008), 1188–1194. 
+[3] Anthropic. 2025. Claude.ai. https://www.anthropic.com/. Accessed: 2024-09-01. 
+[4] Hilary Arksey and Lisa O’Malley. 2005. Scoping studies: towards a methodolog-
+ical framework. International journal of social research methodology 8, 1 (2005), 
+19–32. 
+[5] Lena Ashooh, Ilyena Hirskyj-Douglas, and Rébecca Kleinberger. 2024. Surveying 
+The Extent of Demographic Reporting of Animal Participants in ACI Research. 
+In Proceedings of the International Conference on Animal-Computer Interaction. 
+1–7. 
+[6] Fredrik Aspling, Oskar Juhlin, and Heli Väätäjä. 2018. Understanding animals: 
+a critical challenge in ACI. In Proceedings of the 10th Nordic Conference on 
+Human-Computer Interaction. 148–160. [7] Anjuli LA Barber, Dania Randi, Corsin A Müller, and Ludwig Huber. 2016. 
+The processing of human emotional faces by pet and lab dogs: evidence for 
+lateralization and experience efects. PloS one 11, 4 (2016), e0152393. 
+[8] Sofya Baskin and Anna Zamansky. 2015. The Player is Chewing the Tablet! To-
+wards a Systematic Analysis of User Behavior in Animal-Computer Interaction. 
+In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction 
+in Play. 463–468. 
+[9] Mark F Baumgartner, Julianne Bonnell, Sofe M Van Parijs, Peter J Corkeron, 
+Cara Hotchkin, Keenan Ball, Léo-Paul Pelletier, Jim Partan, Don Peters, John 
+Kemp, et al. 2019. Persistent near real-time passive acoustic monitoring for 
+baleen whales from a moored buoy: System description and evaluation. Methods 
+in Ecology and Evolution 10, 9 (2019), 1476–1489. 
+[10] Gregory S Berns, Andrew M Brooks, and Mark Spivak. 2012. Functional MRI in 
+awake unrestrained dogs. PloS one 7, 5 (2012), e38027. 
+[11] Susanne Bødker. 2006. When second wave HCI meets third wave challenges. In 
+Proceedings of the 4th Nordic conference on Human-computer interaction: changing 
+roles. 1–8. 
+[12] Susanne Bødker. 2015. Third-wave HCI, 10 years later—participation and sharing. 
+interactions 22, 5 (2015), 24–31. 
+[13] Christophe Boesch and Hedwige Boesch. 1990. Tool use and tool making in 
+wild chimpanzees. Folia primatologica 54, 1-2 (1990), 86–99. 
+[14] Helen Boostrom. 2013. Problem-solving with orangutans (Pongo pygmaeus and 
+Pongo bbelii) and chimpanzees (Pan troglodytes): Using the iPad to provide novel 
+enrichment opportunities. Master’s thesis. Texas A&M University. 
+[15] Stephan Bosch, Filipe Serra Bragança, Mihai Marin-Perianu, Raluca Marin-
+Perianu, Berend Jan Van der Zwaag, John Voskamp, Willem Back, René 
+Van Weeren, and Paul Havinga. 2018. EquiMoves: a wireless networked inertial 
+measurement system for objective examination of horse gait. Sensors 18, 3 
+(2018), 850. 
+[16] Winard R Britt, Jefrey Miller, Paul Waggoner, David M Bevly, and John A 
+Hamilton. 2011. An embedded system for real-time navigation and remote 
+command of a trained canine. Personal and Ubiquitous Computing 15 (2011), 
+61–74. 
+[17] Rita Brugarolas, Tahmid Latif, James Diefenderfer, Katherine Walker, Sherrie 
+Yuschak, Barbara L Sherman, David L Roberts, and Alper Bozkurt. 2015. Wear-
+able heart rate sensor systems for wireless canine health monitoring. IEEE 
+Sensors Journal 16, 10 (2015), 3454–3464. 
+[18] Hannah M Buchanan-Smith and Inbal Badihi. 2012. The psychology of control: 
+Efects of control over supplementary light on welfare of marmosets. Applied 
+Animal Behaviour Science 137, 3-4 (2012), 166–174. 
+[19] Zack Butler, Peter Corke, Ron Peterson, and Daniela Rus. 2004. Virtual fences for 
+controlling cows. In IEEE International Conference on Robotics and Automation, 
+2004. Proceedings. ICRA’04. 2004, Vol. 5. IEEE, 4429–4436. 
+[20] Marcus Carter, Sally Sherwen, and Sarah Webber. 2021. An evaluation of 
+interactive projections as digital enrichment for orangutans. Zoo Biology 40, 2 
+(2021), 107–114. 
+[21] Marcus Carter, Sarah Webber, and Sally Sherwen. 2015. Naturalism and ACI: 
+augmenting zoo enclosures with digital technology. In Proceedings of the 12th 
+international conference on advances in computer entertainment technology. 1–5. 
+[22] Nuria Chapinal, Anne Marie de Passille, Matti Pastell, Laura Hänninen, Lene 
+Munksgaard, and Jef Rushen. 2011. Measurement of acceleration while walking 
+as an automated method for gait assessment in dairy cattle. Journal of dairy 
+science 94, 6 (2011), 2895–2901. 
+[23] N Chapinal and CB Tucker. 2012. Validation of an automated method to count 
+steps while cows stand on a weighing platform and its application as a measure 
+to detect lameness. Journal of dairy science 95, 11 (2012), 6523–6528. 
+[24] Adrian David Cheok, Roger Thomas Kok Chuen Tan, Roshan Lalintha Peiris, 
+Owen Noel Newton Fernando, James Teh Keng Soon, Imiyage Janaka Prasad 
+Wijesena, and Janyn Yin Ping Sen. 2011. Metazoa ludens: Mixed-reality interac-
+tion and play for small pets and humans. IEEE Transactions on Systems, Man, 
+and Cybernetics-Part A: Systems and Humans 41, 5 (2011), 876–891. 
+[25] Yu-Ju Chiu, Shajulin Benedict, and Michael Gerndt. 2023. E2D2: Elephant Emo-
+tion and Distraction Detection Framework using Edge-Enabled YOLOv5 Deep 
+Learning Algorithm. In 2023 IEEE International Conference on Contemporary 
+Computing and Communications (InC4), Vol. 1. IEEE, 1–6. 
+[26] Zach Cleghern, Evan Williams, Sean Mealin, Marc Foster, Timothy Holder, 
+Alper Bozkurt, and David L Roberts. 2019. An IoT and analytics platform for 
+characterizing adolescent dogs’ suitability for guide work. In Proceedings of the 
+Sixth International Conference on Animal-Computer Interaction. 1–6. 
+[27] Robert G Cook, Alfred I Geller, Guo-Rong Zhang, and RAM Gowda. 2004. 
+Touchscreen-enhanced visual learning in rats. Behavior Research Methods, 
+Instruments, & Computers 36, 1 (2004), 101–106. 
+[28] Covidence. 2024. Covidence. https://www.covidence.org/. 
+[29] Alan Dix. 2017. Human–computer interaction, foundations and new paradigms. 
+Journal of Visual Languages & Computing 42 (2017), 122–134. 
+[30] Jun Dong, Xiaoguang Dong, Yanlei Li, Beibei Zhang, Lingjuan Zhao, Kuanglin 
+Chao, and Xiuying Tang. 2020. Prediction of infertile chicken eggs before hatch-
+ing by the Naïve-Bayes method combined with visible near infrared transmission 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+spectroscopy. Spectroscopy Letters 53, 5 (2020), 327–336. 
+[31] Ruining Dong, Marcus Carter, Wally Smith, Zaher Joukhadar, Sally Sherwen, 
+and Alan Smith. 2017. Supporting animal welfare with automatic tracking of 
+girafes with thermal cameras. In Proceedings of the 29th Australian Conference 
+on Computer-Human Interaction. 386–391. 
+[32] Crystal L. Egelkamp and Stephen R. Ross. 2019. A review of zoo-based cognitive 
+research using touchscreen interfaces. Zoo Biology 38, 2 (2019), 220–235. 
+[33] Katrin Ernst, Birger Puppe, Peter C Schön, and Gerhard Manteufel. 2005. A com-
+plex automatic feeding system for pigs aimed to induce successful behavioural 
+coping by cognitive adaptation. Applied Animal Behaviour Science 91, 3-4 (2005), 
+205–218. 
+[34] Marcelo Gabriel Feighelstein. 2021. Towards automatic recognition of emotional 
+states of animals. In Proceedings of the Eight International Conference on Animal-
+Computer Interaction. 1–4. 
+[35] Laura Forlano. 2017. Posthumanism and design. She Ji: The Journal of Design, 
+Economics, and Innovation 3, 1 (2017), 16–29. 
+[36] Marc Foster, Tarik Agcayazi, Talha Agcayazi, Tianfu Wu, Margaret Gruen, 
+David L Roberts, and Alper Bozkurt. 2019. Preliminary evaluation of dog-drone 
+technological interfaces: Challenges and opportunities. In Proceedings of the 
+Sixth International Conference on Animal-Computer Interaction. 1–5. 
+[37] Marc Foster, Rita Brugarolas, Katherine Walker, Sean Mealin, Zach Cleghern, 
+Sherrie Yuschak, Julia Condit Clark, Darcy Adin, Jane Russenberger, Margaret 
+Gruen, et al. 2020. Preliminary evaluation of a wearable sensor system for 
+heart rate assessment in guide dog puppies. IEEE Sensors Journal 20, 16 (2020), 
+9449–9459. 
+[38] Marc Foster, Patrick Erb, Brenna Plank, Helen West, Jane Russenberger, Margaret 
+Gruen, Michael Daniele, David L Roberts, and Alper Bozkurt. 2018. 3D-printed 
+electrocardiogram electrodes for heart rate detection in canines. In 2018 IEEE 
+Biomedical Circuits and Systems Conference (BioCAS). IEEE, 1–4. 
+[39] Christopher Frauenberger. 2019. Entanglement HCI the next wave? ACM 
+Transactions on Computer-Human Interaction (TOCHI) 27, 1 (2019), 1–27. 
+[40] Larry Freil, Ceara Byrne, Giancarlo Valentin, Clint Zeagler, David Roberts, Thad 
+Starner, Melody Jackson, et al . 2017. Canine-centered computing. Foundations 
+and Trends in Human–Computer Interaction 10, 2 (2017), 87–164. 
+[41] Fiona French, Clara Mancini, and Helen Sharp. 2014. Designing smart toys for 
+the cognitive enrichment of elephants. (2014). 
+[42] Zdzislaw Galoch and Hans-Joachim Bischof. 2006. Zebra fnches actively choose 
+between live images of conspecifcs. Ornithological Science 5, 1 (2006), 57–64. 
+[43] AL Geng, Y Zhang, J Zhang, HH Wang, Q Chu, ZX Yan, and HG Liu. 2022. Efects 
+of light regime on circadian rhythmic behavior and reproductive parameters in 
+native laying hens. Poultry Science 101, 5 (2022), 101808. 
+[44] Annika Geurtsen, Maarten H Lamers, and Marcel JM Schaaf. 2015. Interactive 
+digital gameplay can lower stress hormone levels in home alone dogs—A case 
+for animal welfare informatics. In Entertainment Computing-ICEC 2015: 14th 
+International Conference, ICEC 2015, Trondheim, Norway, September 29-Ocotober 
+2, 2015, Proceedings 14. Springer, 238–251. 
+[45] Eva Giraud and Gregory Hollin. 2016. Care, laboratory beagles and afective 
+utopia. Theory, Culture & Society 33, 4 (2016), 27–49. 
+[46] Joseph Gonzalez, Vladimir Villarreal, and Lilia Muñoz. 2022. A Proposal for the 
+Remote Management of Hygrothermal Comfort Conditions in Mobile Chicken 
+Coops Applying Precision Livestock Technologies and Mobile Computing. In 
+International Conference on Ubiquitous Computing and Ambient Intelligence. 
+Springer, 616–621. 
+[47] David Goode. 2007. Playing with my dog Katie: an ethnomethodological study of 
+dog-human interaction. Purdue University Press. 
+[48] Alana Grant, Vilma Kankaanpää, and Ilyena Hirskyj-Douglas. 2023. Hum-ble 
+beginnings: Developing touch-and proximity-input-based interfaces for zoo-
+housed girafes’ audio enrichment. Proceedings of the ACM on Human-Computer 
+Interaction 7, ISS (2023), 175–197. 
+[49] Karlo Griparić, Tomislav Haus, Damjan Miklić, Marsela Polić, and Stjepan 
+Bogdan. 2017. A robotic system for researching social integration in honeybees. 
+PloS one 12, 8 (2017), e0181977. 
+[50] Reinhard Gupfnger and Martin Kaltenbrunner. 2018. Animals make music: A 
+look at non-human musical expression. Multimodal Technologies and Interaction 
+2, 3 (2018), 51. 
+[51] Ilan Halachmi, Marcella Guarino, Jefrey Bewley, and Matti Pastell. 2019. Smart 
+animal agriculture: application of real-time sensors to improve animal well-
+being and production. Annual review of animal biosciences 7, 1 (2019), 403–425. 
+[52] Steve Harrison, Deborah Tatar, and Phoebe Sengers. 2007. The three paradigms 
+of HCI. In Alt. Chi. Session at the SIGCHI Conference on human factors in com-
+puting systems San Jose, California, USA. 1–18. 
+[53] Marc Hassenzahl. 2008. User experience (UX) towards an experiential perspec-
+tive on product quality. In Proceedings of the 20th Conference on l’Interaction 
+Homme-Machine. 11–15. 
+[54] Sabrina Hauser, Ron Wakkary, and Carman Neustaedter. 2014. Improving guide 
+dog team play with accessible dog toys. In CHI’14 Extended Abstracts on Human 
+Factors in Computing Systems. 1537–1542. [55]
+ William S Helton, Shane Begoske, Robert Pastel, and Jindong Tan. 2007. A case 
+study in canine-human factors: a remote scent sampler for landmine detection. 
+In Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 
+Vol. 51. SAGE Publications Sage CA: Los Angeles, CA, 582–586. 
+[56] Andrew P Hill, Peter Prince, Evelyn Piña Covarrubias, C Patrick Doncaster, 
+Jake L Snaddon, and Alex Rogers. 2018. AudioMoth: Evaluation of a smart open 
+acoustic device for monitoring biodiversity and the environment. Methods in 
+Ecology and Evolution 9, 5 (2018), 1199–1211. 
+[57] Ilyena Hirskyj-Douglas, Jennifer Cunha, and Rebecca Kleinberger. 2024. Call of 
+the Wild Web: Comparing Parrot Engagement in Live vs. Pre-Recorded Video 
+Calls. In Proceedings of the CHI Conference on Human Factors in Computing 
+Systems. 1–14. 
+[58] Ilyena Hirskyj-Douglas and Vilma Kankaanpää. 2022. Do monkeys want audio 
+or visual stimuli? Interactive computers for choice with white-faced sakis in 
+zoos. In Proceedings of the 2022 ACM Designing Interactive Systems Conference. 
+1497–1511. 
+[59] Ilyena Hirskyj-Douglas, Patricia Pons, Janet C Read, and Javier Jaen. 2018. 
+Seven years after the manifesto: Literature review and research directions for 
+technologies in animal computer interaction. Multimodal Technologies and 
+Interaction 2, 2 (2018), 30. 
+[60] Ilyena Hirskyj-Douglas, Janet C Read, Oskar Juhlin, Heli Väätäjä, Patricia Pons, 
+and Svein-Olaf Hvasshovd. 2016. Where HCI meets ACI. In Proceedings of the 
+9th Nordic Conference on Human-Computer Interaction. 1–3. 
+[61] Amanda Hodgson, Natalie Kelly, and David Peel. 2013. Unmanned aerial vehicles 
+(UAVs) for surveying marine fauna: a dugong case study. PloS one 8, 11 (2013), 
+e79556. 
+[62] H Hogeveen, WCJAM Ouweltjes, CJAM De Koning, and K Stelwagen. 2001. 
+Milking interval, milk production and milk fow-rate in an automatic milking 
+system. Livestock production science 72, 1-2 (2001), 157–167. 
+[63] Kasper Hornbæk, Aske Mottelson, Jarrod Knibbe, and Daniel Vogel. 2019. What 
+do we mean by “interaction”? An analysis of 35 years of CHI. ACM Transactions 
+on Computer-Human Interaction (TOCHI) 26, 4 (2019), 1–30. 
+[64] Kasper Hornbæk and Antti Oulasvirta. 2017. What is interaction?. In Proceedings 
+of the 2017 CHI conference on human factors in computing systems. 5040–5052. 
+[65] Sue Howell, Melanie Schwandt, Jo Fritz, Elizabeth Roeder, and Christine Nel-
+son. 2003. A stereo music system as environmental enrichment for captive 
+chimpanzees. Lab animal 32, 10 (2003), 31–36. 
+[66] Ludwig Huber, Nils Heise, Christopher Zeman, and Christian Palmers. 2015. 
+The ALDB box: Automatic testing of cognitive performance in groups of aviary-
+housed pigeons. Behavior Research Methods 47 (2015), 162–171. 
+[67] Chuck Huf and C Dianne Martin. 1995. Computing consequences: a framework 
+for teaching ethical computing. Commun. ACM 38, 12 (1995), 75–84. 
+[68] Sarah M Huskisson, Sarah L Jacobson, Crystal L Egelkamp, Stephen R Ross, 
+and Lydia M Hopper. 2020. Using a touchscreen paradigm to evaluate food 
+preferences and response to novel photographic stimuli of food in three primate 
+species (Gorilla gorilla gorilla, Pan troglodytes, and Macaca fuscata). Interna-
+tional Journal of Primatology 41, 1 (2020), 5–23. 
+[69] Branislav Igic, Valerie Nunez, Henning U Voss, Rebecca Croston, Zachary Aidala, 
+Analía V López, Aimee Van Tatenhove, Mandë E Holford, Matthew D Shawkey, 
+and Mark E Hauber. 2015. Using 3D printed eggs to examine the egg-rejection 
+behaviour of wild birds. PeerJ 3 (2015), e965. 
+[70] Naohiro Isokawa, Yuuki Nishiyama, Tadashi Okoshi, Jin Nakazawa, Kazunori 
+Takashio, and Hideyuki Tokuda. 2016. TalkingNemo: aquarium fsh talks its 
+mind for breeding support. In Proceedings of the Third International Conference 
+on Animal-Computer Interaction. 1–4. 
+[71] Melody Moore Jackson, Clint Zeagler, Giancarlo Valentin, Alex Martin, Vin-
+cent Martin, Adil Delawalla, Wendy Blount, Sarah Eiring, Ryan Hollis, Yash 
+Kshirsagar, et al. 2013. FIDO-facilitating interactions for dogs with occupa-
+tions: wearable dog-activated interfaces. In Proceedings of the 2013 international 
+symposium on wearable computers. 81–88. 
+[72] Samireh Jalali and Claes Wohlin. 2012. Systematic literature studies: database 
+searches vs. backward snowballing. In Proceedings of the ACM-IEEE international 
+symposium on Empirical software engineering and measurement. 29–38. 
+[73] Olivia Johnston-Wilder, Clara Mancini, Brendan Aengenheister, Joe Mills, Rob 
+Harris, and Claire Guest. 2015. Sensing the shape of canine responses to cancer. 
+In Proceedings of the 12th International Conference on Advances in Computer 
+Entertainment Technology. 1–4. 
+[74] Martin Kelly Jones, Rachel Marno, and Hannah M Buchanan-Smith. 2005. Novel 
+feeding and hunting enrichment for large captive felids: the lionrover and 
+responsive hanging prey. (2005). 
+[75] Admela Jukan, Xavi Masip-Bruin, and Nina Amla. 2017. Smart computing and 
+sensing technologies for animal welfare: A systematic review. ACM Computing 
+Surveys (CSUR) 50, 1 (2017), 1–27. 
+[76] Vilma Kankaanpää, Fay E Clark, and Ilyena Hirskyj-Douglas. 2024. Lemur-
+Lounge: Lemurs’ Individual-Level, Group, and Cross-Species Use of an Inter-
+active Audio Device in Zoos. In Proceedings of the CHI Conference on Human 
+Factors in Computing Systems. 1–14. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Kleinberger et al. 
+[77] Rébecca Kleinberger. 2023. Sonic enrichment at the zoo: What will the zoo of 
+the future sound like? Interaction Studies 24, 2 (2023), 257–288. 
+[78] Rébecca Kleinberger, Janet Baker, and Gabriel Miller. 2019. Initial observation 
+of human-bird vocal interactions in a zoological setting. PeerJ Preprints 7 (2019), 
+e27927v1. 
+[79] Rebecca Kleinberger, Jennifer Cunha, Megan McMahon, and Ilyena Hirskyj-
+Douglas. 2024. No More Angry Birds: Investigating Touchscreen Ergonomics 
+to Improve Tablet-Based Enrichment for Parrots. In Proceedings of the CHI 
+Conference on Human Factors in Computing Systems. 1–16. 
+[80] Rebecca Kleinberger, Jennifer Cunha, Megha M. Vemuri, and Ilyena Hirskyj-
+Douglas. 2023. Birds of a feather video-fock together: Design and evaluation of 
+an agency-based parrot-to-parrot video-calling system for interspecies ethical 
+enrichment.. In CHI ’23: Proceedings of the 2023 CHI Conference on Human Factors 
+in Computing Systems. ACM, Article 534. 
+[81] Rebecca Kleinberger, Gershon Dublon, Joseph A Paradiso, and Tod Machover. 
+2015. Phox ears: a parabolic, head-mounted, orientable, extrasensory listening 
+device.. In NIME. 30–31. 
+[82] Rébecca Kleinberger, Anne H. K. Harrington, Lydia Yu, Akito Van Troyer, David 
+Su, Janet M. Baker, and Gabriel Miller. 2020. Interspecies interactions mediated 
+by technology: An avian case study at the zoo. In CHI ’20: Proceedings of the 
+2020 CHI Conference on Human Factors in Computing Systems. ACM. 
+[83] Rebecca Kleinberger, Megha Vemuri, Janelle Sands, Harpreet Sareen, and Janet 
+Baker. 2022. TamagoPhone: A framework for augmenting artifcial incubators to 
+enable vocal interaction between bird parents and eggs. In ACI ’22: Proceedings 
+of the 2022 ACI Conference on Animal–Computer Interaction. ACM, Article 15. 
+[84] Rébecca Rébecca Henrietta Marie Franca Kleinberger. 2020. Vocal connection 
+rethinking the voice as a medium for personal, interpersonal, and interspecies 
+understanding. Ph. D. Dissertation. Massachusetts Institute of Technology. 
+[85] Hiroki Kobayashi, Kana Muramatsu, Junya Okuno, Kazuhiko Nakamura, Akio 
+Fujiwara, and Kaoru Saito. 2015. Playful rocksalt system: animal-computer 
+interaction design in wild environments. In Proceedings of the 12th International 
+Conference on Advances in Computer Entertainment Technology. 1–4. 
+[86] Hill Hiroki Kobayashi, Keijiro Nakagawa, Ko Makiyama, Yuta Sasaki, Hiromi 
+Kudo, Baburam Niraula, and Kaoru Sezaki. 2018. Animal-to-Animal Data Sharing 
+Mechanism for Wildlife Monitoring in Fukushima Exclusion Zone. Multimodal 
+Technologies and Interaction 2, 3 (2018), 40. 
+[87] K Cassie Kresnye, Chia-Fang Chung, Christopher Flynn Martin, and Patrick C 
+Shih. 2022. Survey on the past decade of technology in animal enrichment: A 
+scoping review. Animals 12, 14 (2022), 1792. 
+[88] Santosh Kumar, Sanjay Kumar Singh, and Amit Kumar Singh. 2017. Muzzle 
+point pattern based techniques for individual cattle identifcation. IET Image 
+Processing 11, 10 (2017), 805–814. 
+[89] Shaun Lawson, Ben Kirman, and Conor Linehan. 2016. Power, participation, 
+and the dog internet. Interactions 23, 4 (2016), 37–41. 
+[90] Shang Ping Lee, Adrian David Cheok, Teh Keng Soon James, Goh Pae Lyn Debra, 
+Chio Wen Jie, Wang Chuang, and Farzam Farbiz. 2006. A mobile pet wearable 
+computer and mixed reality system for human–poultry interaction through the 
+internet. Personal and Ubiquitous Computing 10, 5 (2006), 301–317. 
+[91] Germain Lemasson, Dominique Duhaut, and Sylvie Pesty. 2015. Dog: Can you 
+feel it. Animal Computer Interaction@ British Human Computer Interaction 
+(BHCI), Lincoln, England (2015). 
+[92] Haotian Li, Yun Wang, and Huamin Qu. 2024. Where are we so far? under-
+standing data storytelling tools from the perspective of human-ai collaboration. 
+In Proceedings of the CHI Conference on Human Factors in Computing Systems. 
+1–19. 
+[93] Xingyu Li, Wendell Hom, Jiaying Wu, Michael Verges, and Melody Jackson. 2021. 
+Wearable Sensors for Canine Nosework Snifng Interaction. In Proceedings of 
+the Eight International Conference on Animal-Computer Interaction. 1–8. 
+[94] JA Lines, RD Tillett, LG Ross, D Chan, S Hockaday, and NJB McFarlane. 2001. 
+An automatic image-based system for estimating the mass of free-swimming 
+fsh. Computers and Electronics in Agriculture 31, 2 (2001), 151–168. 
+[95] L Liu and MO Ngadi. 2013. Detecting fertility and early embryo development 
+of chicken eggs using near-infrared hyperspectral imaging. Food and Bioprocess 
+Technology 6 (2013), 2503–2513. 
+[96] Clara Mancini. 2011. Animal-computer interaction: a manifesto. interactions 
+(2011). 
+[97] Clara Mancini. 2013. Animal-computer interaction (ACI) changing perspective 
+on HCI, participation and sustainability. In CHI’13 Extended Abstracts on Human 
+Factors in Computing Systems. 2227–2236. 
+[98] Clara Mancini. 2017. Towards an animal-centred ethics for Animal–Computer 
+Interaction. International Journal of Human–Computer Studies 98 (Feb. 2017), 
+221–233. 
+[99] Clara Mancini and Eleonora Nannoni. 2022. Animal Centered Research beyond 
+ACI: Exploring the Applicability of Animal Centered Principles to All Animal Re-
+search. In Proceedings of the Ninth International Conference on Animal-Computer 
+Interaction. 1–4. 
+[100] Clara Mancini, Janet Van Der Linden, Jon Bryan, and Andrew Stuart. 2012. 
+Exploring interspecies sensemaking: dog tracking semiotics and multispecies ethnography. In Proceedings of the 2012 ACM conference on ubiquitous computing. 
+143–152. 
+[101] Albert M Manville, B Blake Levitt, and Henry C Lai. 2024. Health and environ-
+mental efects to wildlife from radio telemetry and tracking devices—state of 
+the science and best management practices. Frontiers in Veterinary Science 11 
+(2024), 1283709. 
+[102] Ezio Manzini. 2003. Scenarios of sustainable wellbeing. Design philosophy papers 
+1, 1 (2003), 5–21. 
+[103] Robert E McGrath. 2009. Species-appropriate computer mediated interaction. In 
+CHI’09 Extended Abstracts on Human Factors in Computing Systems. 2529–2534. 
+[104] Eli B McGraw, Cristina Bosco, Lisa Brey, and Christena Nippert-Eng. 2023. Dogs 
+or Not Dogs? Examining ACI Authors’ Reporting on Animal Participants’ Will-
+ingness to Engage in Research: A Spotlight on Mediated and Contingent Con-
+sent. In Proceedings of the Tenth International Conference on Animal-Computer 
+Interaction. 1–13. 
+[105] Catherine McVey, Fushing Hsieh, Diego Manriquez, Pablo Pinedo, and Kristina 
+Horback. 2023. Invited Review: Applications of unsupervised machine learning 
+in livestock behavior: Case studies in recovering unanticipated behavioral pat-
+terns from precision livestock farming data streams. Applied Animal Science 39, 
+2 (2023), 99–116. 
+[106] Sean Mealin, Mike Winters, Ignacio X Domínguez, Michelle Marrero-García, 
+Alper Bozkurt, Barbara L Sherman, and David L Roberts. 2015. Towards the 
+non-visual monitoring of canine physiology in real-time by blind handlers. 
+In Proceedings of the 12th International Conference on Advances in Computer 
+Entertainment Technology. 1–8. 
+[107] Eleonora Mencarini, Christina Bremer, Chiara Leonardi, Jen Liu, Valentina Nisi, 
+Nuno Jardim Nunes, and Robert Soden. 2023. HCI for climate change: Imagining 
+sustainable futures. In Extended Abstracts of the 2023 CHI Conference on Human 
+Factors in Computing Systems. 1–6. 
+[108] Eleonora Mencarini, Valentina Nisi, Christina Bremer, Chiara Leonardi, 
+Nuno Jardim Nunes, Jen Liu, and Robert Soden. 2024. Imagining Sustainable 
+Futures: Expanding the Discussion on Sustainable HCI. Interactions 31, 2 (2024), 
+39–43. 
+[109] Eleonora Mencarini, Amon Rapp, Ashley Colley, Florian Daiber, Michael D Jones, 
+Felix Kosmalla, Stephan Lukosch, Jasmin Niess, Evangelos Niforatos, Paweł W 
+Woźniak, et al. 2022. New trends in HCI and sports. In Adjunct Publication of 
+the 24th International Conference on Human-Computer Interaction with Mobile 
+Devices and Services. 1–5. 
+[110] Eleonora Mencarini, Amon Rapp, Lia Tirabeni, and Massimo Zancanaro. 2019. 
+Designing wearable systems for sports: a review of trends and opportunities in 
+human–computer interaction. IEEE Transactions on Human-Machine Systems 
+49, 4 (2019), 314–325. 
+[111] Andrew Mercer-Taylor and Jaan Altosaar. 2015. Sonifcation of fsh movement 
+using pitch mesh pairs.. In NIME. 28–29. 
+[112] Morgan E Mingle, Timothy M Eppley, Matthew W Campbell, Katie Hall, Victoria 
+Horner, and Frans de Waal. 2014. Chimpanzees prefer African and Indian music 
+over silence. Journal of Experimental Psychology: Animal learning and cognition
+40, 4 (2014), 502. 
+[113] Ann Morrison, Rune Heide Møller, Cristina Manresa-Yee, and Neda Eshraghi. 
+2016. The impact of training approaches on experimental setup and design of 
+wearable vibrotactiles for hunting dogs. In Proceedings of the Third International 
+Conference on Animal-Computer Interaction. 1–10. 
+[114] Keijiro Nakagawa, Daisuké Shimotoku, Junya Kawase, and Hill Hiroki 
+Kobayashi. 2020. Dependable Wildlife DTN: Wearable Animal Resource Opti-
+mization for Sustainable Long-Term Monitoring. In 2020 IEEE 6th International 
+Conference on Dependability in Sensor, Cloud and Big Data Systems and Applica-
+tion (DependSys). IEEE, 49–56. 
+[115] D. Norman. 2013. The Design of Everyday Things: Revised and Expanded Edition. 
+Basic Books. https://books.google.com/books?id=qBfRDQAAQBAJ 
+[116] D.A. Norman and S.W. Draper. 1986. User Centered System Design: New 
+Perspectives on Human-computer Interaction. Lawrence Erlbaum Associates. 
+https://books.google.com/books?id=IR9FAAAAYAAJ 
+[117] Francisco Nunes, Nervo Verdezoto, Geraldine Fitzpatrick, Morten Kyng, Erik 
+Grönvall, and Cristiano Storni. 2015. Self-care technologies in HCI: Trends, 
+tensions, and opportunities. ACM Transactions on Computer-Human Interaction 
+(TOCHI) 22, 6 (2015), 1–45. 
+[118] Shannon L O’Brien and Katherine A Cronin. 2023. The impacts of a com-
+mercial bubble curtain on zoo-housed African penguin (Spheniscus demersus) 
+swimming behavior. Journal of Zoological and Botanical Gardens 4, 3 (2023), 
+567–577. 
+[119] Patrizia Paci, Clara Mancini, and Blaine A Price. 2020. Understanding the 
+interaction between animals and wearables: The wearer experience of cats. In 
+Proceedings of the 2020 ACM Designing Interactive Systems Conference. 1701– 
+1712. 
+[120] Claudio Palombi, Marco Paolucci, Giuseppe Stradaioli, Mario Corubolo, Paolo B 
+Pascolo, and Maurizio Monaci. 2013. Evaluation of remote monitoring of partu-
+rition in dairy cattle as a new tool for calving management. BMC veterinary 
+research 9 (2013), 1–9. 
+Animals’ Entanglement with Technology: a Scoping Review CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+[121] Francine GP Patterson and Wendy Gordon. 2002. Twenty-seven years of Project 
+Koko and Michael. In All Apes Great and Small: Volume 1: African Apes. Springer, 
+165–176. 
+[122] Ludovic Pelligand, Peter Lees, and Jonathan Elliott. 2011. Development and 
+validation of a timed urinary collection system for use in the cat. Laboratory 
+animals 45, 3 (2011), 196–203. 
+[123] Irene M. Pepperberg and Steven R. Wilkes. 2004. Lack of referential vocal 
+learning from LCD video by Grey parrots (Psittacus erithacus ). Interaction 
+Studies 5, 1 (2004), 75–97. 
+[124] Bonnie M Perdue, Andrea W Clay, Diann E Gaalema, Terry L Maple, and Tara S 
+Stoinski. 2012. Technology at the zoo: The infuence of a touchscreen computer 
+on orangutans and zoo visitors. Zoo Biology 31, 1 (2012), 27–39. 
+[125] Hazael Phiri, Douglas Kunda, and Jackson Phiri. 2018. An IoT smart broiler farm-
+ing model for low income farmers. International Journal of Recent Contributions 
+from Engineering, Science & IT (iJES) 6, 3 (2018), 95–110. 
+[126] Lee Shang Ping, Farzam Farbiz, and Adrian David Cheok. 2004. A human-pet 
+interactive entertainment system over the internet. In Entertainment Computing– 
+ICEC 2004: Third International Conference, Eindhoven, The Netherlands, September 
+1-3, 2004. Proceedings 3. Springer, 509–512. 
+[127] Charles Ramey, Arianna Mastali, Cole Anderson, William Stull, Thad Starner, 
+and Melody Jackson. 2022. WAG’D: Towards a Wearable Activity and Gait Detec-
+tion Monitor for Sled Dogs. In Proceedings of the Ninth International Conference 
+on Animal-Computer Interaction. 1–13. 
+[128] Maheen Rashid, Alina Silventoinen, Karina Bech Gleerup, and Pia Haubro 
+Andersen. 2020. Equine Facial Action Coding System for determination of pain-
+related facial responses in videos of horses. Plos one 15, 11 (2020), e0231608. 
+[129] Sophie Lund Rasmussen, Ane Elise Schrøder, Ronja Mathiesen, Jeppe Lund 
+Nielsen, Cino Pertoldi, and David W Macdonald. 2021. Wildlife conservation 
+at a garden level: The efect of robotic lawn mowers on European hedgehogs 
+(Erinaceus europaeus). Animals 11, 5 (2021), 1191. 
+[130] Benjamin Ishak Resner. 2001. Rover@ Home: Computer mediated remote interac-
+tion between humans and dogs. Ph. D. Dissertation. Massachusetts Institute of 
+Technology. 
+[131] Sarah E Ritvo and Suzanne E MacDonald. 2016. Music as enrichment for 
+Sumatran orangutans (Pongo abelii). Journal of Zoo and Aquarium Research 4, 3 
+(2016), 156–163. 
+[132] Lindsey Robbins and Susan W Margulis. 2014. The efects of auditory enrichment 
+on gorillas. Zoo biology 33, 3 (2014), 197–203. 
+[133] Charlotte Robinson, Clara Mancini, Janet van der Linden, Claire Guest, and Rob 
+Harris. 2014. Empowering assistance dogs: an alarm interface for canine use. 
+(2014). 
+[134] Charlotte Robinson, Clara Mancini, Janet van der Linden, Claire Guest, and 
+Lydia Swanson. 2015. Exploring assistive technology for assistance dog owners 
+in emergency situations. In Proceedings of the 8th ACM International Conference 
+on PErvasive Technologies Related to Assistive Environments. 1–2. 
+[135] Charlotte Robinson, Clara Mancini, Janet van der Linden, Claire Guest, Lydia 
+Swanson, Helen Marsden, Jose Valencia, and Brendan Aengenheister. 2015. 
+Designing an emergency communication system for human and assistance dog 
+partnerships. In Proceedings of the 2015 ACM International Joint Conference on 
+Pervasive and Ubiquitous Computing. 337–347. 
+[136] Charlotte Robinson and Alice Torjussen. 2020. Canine co-design: Investigating 
+buttons as an input modality for dogs. In Proceedings of the 2020 ACM Designing 
+Interactive Systems Conference. 1673–1685. 
+[137] Charlotte L Robinson, Clara Mancini, Janet Van Der Linden, Claire Guest, and 
+Robert Harris. 2014. Canine-centered interface design: supporting the work of 
+diabetes alert dogs. In Proceedings of the SIGCHI conference on human factors in 
+computing systems. 3757–3766. 
+[138] Anton Poikolainen Rosén, Antti Salovaara, Andrea Botero, and Marie Louise Juul 
+Søndergaard. 2024. More-Than-Human Design in Practice. Taylor & Francis. 
+[139] Zachary J Ruf, Damon B Lesmeister, Leila S Duchac, Bharath K Padmaraju, 
+and Christopher M Sullivan. 2020. Automated identifcation of avian vocaliza-
+tions with deep convolutional neural networks. Remote Sensing in Ecology and 
+Conservation 6, 1 (2020), 79–92. 
+[140] Luisa Ruge. 2017. Dog-Smart Homes: Portable controls optimised for mobility 
+assistance dogs. In Proceedings of the Fourth International Conference on Animal-
+Computer Interaction. 1–6. 
+[141] Jörg Rychen, Julie Semoroz, Alexander Eckerle, Richard HR Hahnloser, and 
+Rébecca Kleinberger. 2023. Full-duplex acoustic interaction system for cognitive 
+experiments with cetaceans. Interaction Studies 24, 1 (2023), 66–86. 
+[142] Crickette Sanz, Dave Morgan, and Steve Gulick. 2004. New insights into chim-
+panzees, tools, and termites from the Congo Basin. The American Naturalist 
+164, 5 (2004), 567–581. 
+[143] Scott A Shafer, Corey A Clatterbuck, Emma C Kelsey, Alex D Naiman, Lindsay C 
+Young, Eric A VanderWerf, Pete Warzybok, Russell Bradley, Jaime Jahncke, and 
+Geof C Bower. 2014. As the egg turns: monitoring egg attendance behavior in 
+wild birds using novel data logging technology. Plos one 9, 6 (2014), e97898. 
+[144] G Fraser Shein, Jutta Treviranus, Nicholas D Brownlow, Morris Milner, and 
+Penny Parnes. 1992. An overview of human-computer interaction techniques for people with physical disabilities. International Journal of Industrial Ergonomics 
+9, 2 (1992), 171–181. 
+[145] MD Silva, A Van Brecht, Vasileios Exadaktylos, Jean-Marie Aerts, and Daniel 
+Berckmans. 2010. Acoustic hatch monitor for egg incubation: Detection of 
+internal pipping in an industrial incubator. Transactions of the ASABE 53, 3 
+(2010), 847–851. 
+[146] Priyanka Singh, K Jyothsna Devi, and Naushad Varish. 2021. Muzzle pattern 
+based cattle identifcation using generative adversarial networks. In Soft Com-
+puting for Problem Solving: Proceedings of SocProS 2020, Volume 1. Springer, 
+13–23. 
+[147] Burrhus F. Skinner. 1960. Pigeons in a pelican. American Psychologist 15, 1 
+(1960), 630–639. 
+[148] Burrhus Frederic Skinner. 1983. A matter of consequences: Part three of an 
+autobiography. (No Title) (1983). 
+[149] Nancy Smith. 2021. Smart Bee Houses: Designing to Support Urban Pollina-
+tion. In Proceedings of the Eight International Conference on Animal-Computer 
+Interaction. 1–6. 
+[150] Rachel Smolker, Andrew Richards, Richard Connor, Janet Mann, and Per 
+Berggren. 1997. Sponge carrying by dolphins (Delphinidae, Tursiops sp.): a 
+foraging specialization involving tool use? Ethology 103, 6 (1997), 454–465. 
+[151] Joel Sparks. 2002. Timeline of laws related to the protection of human subjects. 
+US National Institute 1 (2002). 
+[152] SR-Accelerator. 2024. SpiderCite. https://sr-accelerator.com/spidercite . 
+[153] Shuyi Sun, Gabriela Vega, Krystle Reagan, Erkin Seker, and Katia Vega. 2023. 
+cirCAT: PURRtentio: a Litter Box that Monitors Feline Urine using Electro-
+chemical Biosensors. In Proceedings of the Tenth International Conference on 
+Animal-Computer Interaction. 1–13. 
+[154] Zehua Sun, Tao Ni, Yongliang Chen, Di Duan, Kai Liu, and Weitao Xu. 2024. 
+RF-Egg: An RF Solution for Fine-Grained Multi-Target and Multi-Task Egg 
+Incubation Sensing. In Proceedings of the 30th Annual International Conference 
+on Mobile Computing and Networking. 528–542. 
+[155] Sanne Swagerman, Clara Mancini, and Frank Nack. 2018. Visualizing cat gps 
+data: a study of user requirements. In Proceedings of the Fifth International 
+Conference on Animal-Computer Interaction. 1–11. 
+[156] Mohit Taneja, John Byabazaire, Alan Davy, and Cristian Olariu. 2018. Fog as-
+sisted application support for animal behaviour analysis and health monitoring 
+in dairy farming. In 2018 IEEE 4th World Forum on Internet of Things (WF-IoT). 
+IEEE, 819–824. 
+[157] Keng Soon Teh, Shang Ping Lee, and Adrian David Cheok. 2006. Poultry. Internet: 
+a remote human-pet interaction system. In CHI’06 Extended Abstracts on Human 
+Factors in Computing Systems. 251–254. 
+[158] Alice Torjussen, Charlotte Robinson, and Holly Root-Gutteridge. 2023. Dogs’ 
+responses to remote interactions with humans: An Exploratory Analysis. In 
+Proceedings of the Tenth International Conference on Animal-Computer Interaction. 
+1–7. 
+[159] Alice Torjussen and Holly Root-Gutteridge. 2020. Is Nothing Better Than 
+Something? A Preliminary Investigation into Disembodied Stimuli for Home 
+Alone Dogs. In Proceedings of the Seventh International Conference on Animal-
+Computer Interaction. 1–6. 
+[160] Andrea C Tricco, Erin Lillie, Wasifa Zarin, Kelly K O’Brien, Heather Colquhoun, 
+Danielle Levac, David Moher, Micah DJ Peters, Tanya Horsley, Laura Weeks, 
+et al. 2018. PRISMA extension for scoping reviews (PRISMA-ScR): checklist and 
+explanation. Annals of internal medicine 169, 7 (2018), 467–473. 
+[161] Rui Trindade, Micaela Sousa, Cristina Hart, Nádia Vieira, Roberto Rodrigues, 
+and João França. 2015. Purrfect crime: Exploring animal computer interaction 
+through a digital game for humans and cats. In Proceedings of the 33rd Annual 
+ACM Conference Extended Abstracts on Human Factors in Computing Systems. 
+93–96. 
+[162] Minori Tsuji, Yoshinari Takegawa, Kohei Matsumura, and Keiji Hirata. 2022. In-
+vestigation on Enhancement of the Sense of Life in Safari Park Online Tours with 
+Animal Breathing Reproduction System. In Proceedings of the Ninth International 
+Conference on Animal-Computer Interaction. 1–5. 
+[163] Sho Ushikubo, Chikara Kubota, and Hayato Ohwada. 2017. The early detection of 
+subclinical ketosis in dairy cows using machine learning methods. In Proceedings 
+of the 9th International Conference on Machine Learning and Computing. 38–42. 
+[164] Victoria Vesna, Alfred Vendl, Martina Fröschl, Glenn Bristol, Paul Geluso, 
+Stephan Handschuh, and Thomas Schwaha. 2019. Noise Aquarium. In ACM 
+SIGGRAPH 2019 Art Gallery. 1–2. 
+[165] Stefano Viazzi, C Bahr, A Schlageter-Tello, T Van Hertem, CEB Romanini, A 
+Pluk, I Halachmi, C Lokhorst, and D Berckmans. 2013. Analysis of individual 
+classifcation of lameness using automatic measurement of back posture in dairy 
+cattle. Journal of Dairy Science 96, 1 (2013), 257–266. 
+[166] Victoria E Warren, Ana Širović, Craig McPherson, Kimberly T Goetz, Craig A 
+Radford, and Rochelle Constantine. 2021. Passive acoustic monitoring reveals 
+spatio-temporal distributions of Antarctic and pygmy blue whales around Cen-
+tral New Zealand. Frontiers in Marine Science 7 (2021), 575257. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+[167] Sarah Webber, Marcus Carter, Sally Sherwen, Wally Smith, Zaher Joukhadar, 
+and Frank Vetere. 2017. Kinecting with orangutans: Zoo visitors’ empathetic 
+responses to animals’ use of interactive technology. In Proceedings of the 2017 
+CHI conference on human factors in computing systems. 6075–6088. 
+[168] Sarah Webber, Ryan M Kelly, Greg Wadley, and Wally Smith. 2023. Engag-
+ing with nature through technology: A scoping review of HCI research. In 
+Proceedings of the 2023 CHI conference on human factors in computing systems. 
+1–18. 
+[169] Alexandra Weilenmann and Oskar Juhlin. 2011. Understanding people and 
+animals: the use of a positioning system in ordinary human-canine interaction. 
+In Proceedings of the SIGCHI conference on human factors in computing systems. 
+2631–2640. 
+[170] Anna Williams. 2004. Disciplining animals: sentience, production, and critique. 
+International journal of sociology and social policy 24, 9 (2004), 45–57. 
+[171] Evan Williams, Zachary Cleghern, Marc Foster, Timothy Holder, David Roberts, 
+and Alper Bozkurt. 2020. A smart collar for assessment of activity levels and 
+environmental conditions for guide dogs. In 2020 42nd Annual International 
+Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). IEEE, 
+4628–4631. 
+[172] Francis Williams, Alexander Bock, Harish Doraiswamy, Cassandra Donatelli, 
+Kayla Hall, Adam Summers, Daniele Panozzo, and Cláudio T Silva. 2020. Unwind: 
+Interactive fsh straightening. In Proceedings of the 2020 CHI Conference on Kleinberger et al. 
+Human Factors in Computing Systems. 1–13. 
+[173] Claire L Witham. 2018. Automated face recognition of rhesus macaques. Journal 
+of neuroscience methods 300 (2018), 157–165. 
+[174] Yating Wu, Harpreet Sareen, and Gabriel A Miller. 2021. Soundyssey: Hybrid 
+Enrichment System for Elephants in Managed Care. In Proceedings of the Fif-
+teenth International Conference on Tangible, Embedded, and Embodied Interaction. 
+1–6. 
+[175] Yao Xu, Ding Ding, Yongxin Chen, Zhuying Li, and Xiangyu Xu. 2024. iStray-
+Paws: Immersing in a Stray Animal’s World through First-Person VR to Bridge 
+Human-Animal Empathy. In Proceedings of the 30th ACM Symposium on Virtual 
+Reality Software and Technology. 1–11. 
+[176] Anna Zamansky, Stephane Bleuer-Elsner, Sylvia Masson, Shir Amir, Ofer Magen, 
+and Dirk van der Linden. 2018. Efects of anxiety on canine movement in dog-
+robot interactions. Anim. Behav. Cogn 5 (2018), 380–387. 
+[177] Clint Zeagler, Jay Zuerndorfer, Andrea Lau, Larry Freil, Scott Gilliland, Thad 
+Starner, and Melody Moore Jackson. 2016. Canine computer interaction: To-
+wards designing a touchscreen interface for working dogs. In ACI ’16: Proceedings 
+of the Third International Conference on Animal–Computer Interaction. ACM, 
+Article 2. 
+[178] Thi Thi Zin, Saw Zay Maung Maung, Pyke Tin, and Yoichiro Horii. 2020. Feature 
+detection and classifcation of cow motion for predicting calving time. In 2020 
+IEEE 9th Global Conference on Consumer Electronics (GCCE). IEEE, 305–306. 

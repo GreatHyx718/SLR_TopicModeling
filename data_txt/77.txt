@@ -1,0 +1,972 @@
+560
+Reading Research Quarterly, 59(4)  
+pp. 560–569 | doi:10.1002/rrq.565
+© 2024 The Author(s). Reading Research Quarterly 
+published by Wiley Periodicals LLC on behalf of 
+International Literacy Association. This is an open access 
+article under the terms of the Creative Commons 
+Attribution-NonCommercial-NoDerivs License, which 
+permits use and distribution in any medium, provided the 
+original work is properly cited, the use is non-commercial 
+and no modifications or adaptations are made.ABSTRACT
+Literacy has become inextricably bound with machine processes, especially 
+in the age of ubiquitous, consequential artificial intelligence (AI). Despite a 
+relatively long history of AI involvement in our everyday reading and writing 
+practices, the public availability of generative AI tools has set off a wave of 
+heated debate—and concern—about AI’s role in our lives. We argue that criti -
+cal literacy theory and tools can serve as a foundation, when combined with 
+posthumanist ideas and some technical knowledge, for understanding, teach -
+ing, and participating in our AI-  infused world. In this paper, we outline our 
+theory of critical posthumanist literacy, which draws on posthumanist schol -
+arship to re-  imagine critical literacy with respect to concepts of ontology, 
+agency, ethics and justice, and pedagogy. For each concept, we build on hu -
+manist, critical perspectives to show how posthumanist scholarship can help 
+theorize for literacy in the age of AI, especially as AI presents both lingering 
+and new challenges to conceptions of human text production and consump -
+tion. Posthumanism provides us with alternative modes of thinking about the 
+nature of “things” (and ourselves); with an understanding of agency as not 
+a human possession but an accomplishment among/within many human and 
+non- human actors; with an expanded ethics that accounts more deeply for 
+non- humans; and with pedagogy that embraces ambiguity, movement, and 
+speculation. Using these ideas to expand critical literacy practices, we offer 
+concepts and questions for guiding literacy practice and research, with the 
+understanding that these are no longer separable from complex computa -
+tional systems.
+Although the generative, widely available, and explicit use of AI in 
+ChatGPT feels like it heralds a sea change in our literacy practices, 
+AI has been a part of our reading, writing, and living for quite 
+some time. For example, AI algorithms have been shaping what people 
+read and watch in our social media feeds, suggesting words or phrases for 
+our searches, and guiding our routes home via navigation apps for many 
+years. This longer view of AI, and AI’s shifting capabilities, is important 
+for two reasons: first, literacy scholars are not facing our machine- human 
+literacy future empty- handed, but have rich bodies of work to build on 
+and draw from. Second, a long view calls for taking an active role in shap-
+ing AI’s rapidly changing capacities and applications, or otherwise risk 
+seeing AI as something that has happened to literacy without our input or 
+approval.
+In this paper, we draw from critical literacy and posthumanist theory 
+to develop an approach for thinking of modern- day literacy practices as 
+bound up with machines, and subject to human concerns about ethical 
+living. It is our supposition that literacy has and will become increasingly Sarah K. Burriss 
+Kevin Leander 
+Department of Teaching and 
+Learning, Vanderbilt University, 
+Nashville, Tennessee, USACritical Posthumanist Literacy: 
+Building Theory for Reading, Writing, 
+and Living Ethically with Everyday 
+Artificial Intelligence
+
+Critical Posthumanist Literacy  |  561entangled with machine processes, so much so that it will 
+be difficult to separate out human literacy from machines 
+and their data apparatuses. A posthuman conception of 
+literacy recognizes that readers and writers are no longer 
+uniquely human, nor necessarily individual, but a tangle of 
+processes involving human and non- human matter. We 
+use the term “critical posthumanist literacy” to capture this 
+idea, along with the belief that critical literacy’s commit-
+ments to understanding and interrogating relations of 
+power will be especially helpful in building the world we 
+would like to live in with these machine processes.
+Laying the Foundation: Critical 
+(Digital) Literacies
+This work is situated within—and seeks to expand—the 
+tradition of critical digital literacy research and practice. 
+From this rich body of scholarship, we draw several guid-
+ing ideas for this framework, including an emphasis on 
+questioning and dialogue in pedagogy, a social justice 
+orientation, a focus on texts and processes in everyday 
+life, and an explicit examination of power relations. How-
+ever, we also seek to expand the tradition of critical (digi-
+tal) literacy. We argue for incorporating concepts from 
+posthuman theory into an expanded critical posthuman -
+ist literacy. We believe that an expanded critical posthu-
+manist literacy will be better suited to address 
+contemporary developments in literacy, given the com-
+plexity and ubiquity of everyday AI. While we acknowl-
+edge that a rejection of dualisms that are characteristic of 
+humanism, such as nature/culture (Braidotti,  2013), or 
+body/technology, could be readily taken up as a posthu-
+man response to the history of literacy practices and 
+scholarship, we posit that this historical moment of AI 
+development provides an exigency toward critical post-
+humanist thinking.
+Critical literacy scholarship and praxis have been an 
+influential paradigm for work in literacies. Much of this 
+work can trace its lineage directly back to Freire (1970), 
+whose ideas of liberatory pedagogy centered around edu -
+cation as a way to interrogate and change systems of 
+oppression. In broad strokes, criticality refers to the con-
+cern with systems of power. Importantly, “power” has 
+typically meant influence and control wielded by humans 
+as individuals or in groups. Applying this criticality to lit-
+eracy, Luke (2012) defines “critical literacy” as the “use of 
+the technologies of print and other media of communica -
+tion to analyze, critique, and transform the norms, rule 
+systems, and practices governing the social fields of 
+everyday life” (Luke,  2012, p. 5). Furthermore, critical lit -
+eracy is not limited to critique, but has the additional goal 
+of challenging hegemonic forces in the service of chang-
+ing power structures. Upon reviewing 30 years of research and professional literature, Lewison et al. (2002) synthe -
+sized a list of four interrelated dimensions of critical lit-
+eracy: “(1) disrupting the commonplace, (2) interrogating 
+multiple viewpoints, (3) focusing on sociopolitical issues, 
+and (4) taking action and promoting social justice” (p. 
+382).
+In digital literacies, these critical ideas have been 
+applied to reading and writing digital texts, and, increas-
+ingly, to digital life more broadly. Pandya and Ávila (2013) 
+define critical digital literacies as “those skills and prac-
+tices that lead to the creation of digital texts that interro-
+gate the world; they also allow and foster the interrogation 
+of digital, multimedia texts” (p. 3). They highlight the 
+potential for challenging dominant narratives via digital 
+media production. Strands of critical digital literacy work 
+have focused on a wide range of topics, including per -
+sonal data practices (Pangrazio & Selwyn,  2019), social 
+media (Pangrazio,  2013), civic action (Garcia et al.,  2015), 
+digital citizenship (Buchholz et al.,  2020), critical media 
+literacy (Kellner & Share,  2005), digital storytelling and 
+counter-  narrative (Jiang,  2024; Wargo,  2017; Lewis Elli -
+son,  2017), and the role of platforms (Nichols & LeB-
+lanc,  2020), among others.
+Thinking with Posthumanist 
+Theory for Critical Literacy in the 
+Age of AI
+Humanist theories have long dominated literacy schol -
+arship. Broadly speaking, critical literacy scholarship 
+assumes a social constructivist paradigm, with its con-
+ception of (given) nature as separate from (constructed) 
+culture, and with its belief in theory “as a tool to appre-
+hend and represent reality” (as described in Braidotti, 
+2013, p. 5). With respect to its progressive political 
+stance, social constructivism provides critical literacy 
+scholarship as a means to de- naturalize social differ -
+ences and discursive formations, showing them rather 
+to be human- constructed and contingent (Braid-
+otti,  2013). At the same time, posthumanist theories 
+have also been developing in literacy scholarship, to the 
+extent that edited collections of work on literacy teach-
+ing and learning have emerged in the past several years 
+(e.g., Kuby et al.,  2019). Posthumanist literacy scholars 
+have explored how literacy is (and has been) a more-  
+than-  human endeavor, examining relations of literacy 
+and materiality in a child’s play (Boldt & Lean-
+der,  2017), literacy and slavery (Snaza,  2019), affective 
+atmospheres in video game play (Hollett & Ehret,  2015), 
+and literacy and the politics of ethnic studies (Nicco -
+lini,  2019). Much of this work labors to tease out the 
+ethical ramifications of engaging in posthuman 
+thought and theory.
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+562  |  Reading Research Quarterly , 59(4)As a contribution to this ongoing critical literacy 
+scholarship inspired and transformed by the posthuman, 
+we explore four concepts: ontology, agency, ethics and jus-
+tice, and pedagogy. For each concept, we describe posthu-
+manist theory we are “thinking with” (a term borrowed 
+from Jackson & Mazzei,  2013), and bringing into relation 
+with a critical literacy perspective. In providing a sketch of 
+a critical posthumanist literacy, we hope to offer an 
+approach more powerfully suited to understanding liter -
+acy in an AI- infused world.
+We agree with ecologist and posthumanist theorist 
+Morton ( 2013) when he asserts that “nonhuman beings 
+are responsible for the next moment of human history 
+and thinking” (p. 201). Our continued human exis-
+tence—writing, reading, and all—depends on non-  
+humans, so it behooves us to think with and about them. 
+Drawing on ideas from posthumanist thinkers to con-
+ceive of how “human” literacies are fundamentally 
+intertwined with machine processes, we outline a criti-
+cal posthumanist literacy approach to conceptualizing 
+(1) ontology, (2) agency, (3) ethics and justice, and (4) 
+pedagogy in the following sections. We illustrate our 
+movement toward a critical posthumanist literacy by 
+focusing explicitly on AI (see Figure  1), although we 
+recognize that our approach is not dependent on AI and 
+could be marshaled to approach other domains of liter -
+acy scholarship and practice.Concept 1: Toward a Critical 
+Posthumanist Literacy Approach to 
+Ontology
+Developments in AI serve to highlight trouble or predica-
+ments around questions of ontology. How we conceive of 
+AI, including what kind of a thing or process it is, is conse-
+quential for how we teach about and with it. Posthumanist 
+theories offer us at least two important ways of thinking 
+about AI that are relevant to an expanded version of criti-
+cal literacy: an object- oriented approach and a process-  
+oriented approach.
+Object- Oriented Ontology: AI as 
+Hyperobject
+As a philosophical orientation, object-  oriented ontology 
+(OOO, or “triple- O”) claims that objects exist outside of 
+how we perceive them, and outside of their relationships/
+actions (Harman,  2018). In OOO, objects are those 
+things that are “irreducible in both directions: an object is 
+more than its pieces and less than its effects” (Har -
+man, 2018, p. 53).
+One useful concept from OOO for thinking of AI 
+ontology is Morton’s ( 2013) hyperobject. A hyperobject 
+is a special kind of object, something so distributed in 
+space and time that one of its hallmarks is being difficult 
+to see from the human perspective. Morton offers us the 
+FIGURE 1  
+Diagramming a Critical Posthumanist Literacy Approach and its Application to Literacy Vis-  à- Vis AI
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Critical Posthumanist Literacy  |  563idea of objects as bound up in “meshes, ” which “are 
+potent metaphors for the strange interconnectedness 
+that does not allow for perfect, lossless transmission of 
+information, but is instead full of gaps and absences” (p. 
+83). Although Morton focuses on global warming as his 
+primary example of a hyperobject, his thinking around 
+this example is interesting when applied to AI (see also 
+Zeilinger,  2022, and Lollini,  2022, for more discussion of 
+AI as hyperobject). Is a drop of rain global warming? No, 
+not by itself, but it is part of the mesh of the larger object. 
+AI is similarly difficult to “see” for how distributed it is 
+across heterogeneous components in space and time, 
+including flows of data, human users, and machine pro -
+cesses that operate at different spatiotemporal scales. 
+Parts of its mesh are literally invisible to unaided human 
+eyes (like microscopic computer chip components or 
+Wi- Fi signals), parts are hidden (like human content 
+moderators and the psychological toll this work takes on 
+them, or proprietary code), parts are physically distant 
+(like server farms across the world), and parts are inscru-
+table (like black box algorithms). AI is complicated for 
+humans to visualize and includes far more disparate 
+components and processes than we can see with our eyes 
+at any given moment. Just as with climate change, so too 
+do human beings and doings get bound up in the hyper -
+object mesh of AI.
+This theory opposes others that conceptualize/
+ontologize things as being reducible to dynamic con-
+nections, flows, or processes, as discussed below. From 
+a non- dualistic perspective, the mesh of the larger 
+object comes together as a type of assemblage (Deleuze 
+& Guattari,  1987), and the identity of the “human user, ” 
+“data, ” and “machine processes” are not predetermined, 
+but are rather entangled in the hyperobject. Critical 
+questions of power relations thus become questions 
+concerning the hyperobject. When humans are not 
+privileged “outside” of the mesh, how can we conceive 
+of power moving across humans–data–machines, in 
+multiple directions? This prompts us to think beyond 
+either apocalyptic or utopic visions of “humans vs. 
+machines, ” as humans are, already, part (of the) 
+machine, and vice versa. Taking up the idea of person 
+as cyborg, or “a hybrid of machine and organism…a 
+creature simultaneously animal and machine” (Har -
+away,  1991, p. 149), we can think of our human selves as 
+enmeshed with and co- constituting the AI hyperobject 
+in ways that become important for understanding 
+social power. If cyborgs, rather than humans, are the 
+“dominant social and cultural formations that are active 
+throughout the social fabric” (Braidotti,  2013, p. 90), 
+then how does AI as hyperobject take up a way of being 
+that enacts power in distinctive ways, challenging our 
+notions of the human as author/actor/subject and the 
+computer model as an inert technological tool?Process- Oriented Ontology: AI as  
+Actor –Network, Phenomenon
+The networked view of ontology that Morton (2013) and 
+Harman ( 2018) write against has a long history in posthu-
+manist theory. The most well- known example of this con-
+ceptualization is Latour’s  (2005) actor–networks. 
+Latourian actor–networks emphasize the actor- ness of the 
+network and the network- ness of the actor. Things are 
+constituted by their dynamic relationships to/with other 
+things, human and non- human. In a different but still 
+process- oriented ontology, Barad (2007) put forward the 
+idea that instead of focusing on things, or representations 
+of things, we should attend more closely to “matters of 
+practicings, doings, and actions” (p. 135). Barad  (2007) 
+insists that “the primary ontological units are not ‘things’ 
+but phenomena—dynamic topological reconfigurings/
+entanglements/relationalities/(re)articulations of the 
+world” (p. 141). This also is an explanation of how things 
+are actually performative, or processes of “enacting 
+boundaries. ” Barad’s conception of agents as phenomena 
+formed through a process of “cutting” them differs from 
+OOO’s assertion that objects pre- exist in any such cuts. 
+Using these ideas, we can think of AI as a phenomenon or 
+an actor–network comprised of humans, data, servers, 
+computers, and algorithms all pushing and pulling one 
+another in a constant state of performing AI. This line of 
+thinking encourages us to think about how we constitute 
+ourselves alongside our data. The process of making it 
+makes us, and can form a part of the agential unit of “us” 
+depending on where we make our “cut. ”
+Though these ideas are opposed in their framing of 
+ontology as primarily concerned with (meshes of) objects 
+versus actions, they both provide lenses for seeing beyond 
+humans and AI as fundamentally separate and static. 
+Rather, humans and AI are bound up together, not separate 
+but separable through human analysis, or “cuts” we make to 
+draw distinctions from within. For example, consider the 
+everyday activity of recognizing a face. In a critical posthu-
+manist literacy perspective of ontology, the “face” is not 
+merely perceived by a human who is “using” (or not) face-  
+recognition software. Rather, the “coming to be” of faces, 
+and the ways they are recognized, is caught up in a network 
+(or mesh) of human and non- human relations. What 
+counts as a face—with all of the deep power implications 
+associated with that—is bound up in this mesh.
+Thinking with these theories allows us to ask new, crit-
+ical posthumanist literacy questions about ourselves and 
+our interconnections with AI: How does thinking of our -
+selves as tangled up in a dynamic network of human–
+data–AI processes change how we think of ourselves (our 
+identities) and our capacity to make change (our agency)? 
+Most importantly, who or what has the power to enact 
+these boundaries? What these ontologies do for us is move 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+564  |  Reading Research Quarterly , 59(4)away from the idea of AI as merely an inert tool for humans 
+to use; AI also uses and moves us, relying on the data we 
+generate to operate and shaping—often invisibly—our (lit-
+eracy) activities.
+Concept 2: Toward a Critical 
+Posthumanist Literacy Approach  
+to Agency
+We first reflect on humanist understandings of agency in 
+education research, then consider how posthumanist ideas 
+about agency allow us to take a new, different look at how 
+we think of student capacities for action in the AI- infused 
+world.
+Humanist Agency in Literacy
+A dominant paradigm of agency in literacy work, and in 
+education work writ large, is that of explicit or implied 
+humanism. This humanism often relies on the neoliberal 
+conception of the individual as a powerful agent 
+(Miller,  2016) and emphasizes individual responsibility 
+and decision-  making, defining agency as an individual’s 
+capability or capacity to act. Most sociocultural theories 
+offer a strong view of human agency, and in fact are predi-
+cated on the (Marxist) concept of humans changing the 
+world and themselves via objects and mediational means. 
+For example, Holland et al. (1998) define agency as “the 
+realized capacity of people to act upon their world and 
+not only to know about or give personal or intersubjective 
+significance to it, ” which is “the power of people to act 
+purposively and reflectively, in more or less complex 
+interrelationships with one another” (p. 41–42). In this 
+definition, it is people who act on the world (not vice 
+versa), and there is little consideration of how non- human 
+agents might affect human agency.
+Similarly, in critical work, technologies are primarily 
+treated as tools used to achieve or disrupt social domi-
+nance, from a social constructivist viewpoint that sepa-
+rates nature/culture. In critical digital literacies work, 
+agency has become closely linked to ideas about participa-
+tion (including “production, ” “invention, ” and ideas 
+around good citizenship) rather than consumption as a 
+key feature of critical literacy (e.g., Mirra et  al.,  2018). 
+“Digital citizenship” has also become a popular framing 
+for work that foregrounds production and participation as 
+an important part of being a good citizen (e.g., Buchholz 
+et al.,  2020). In these formulations, participation with digi-
+tal literacies aims toward molding empowered citizens. 
+This is a valuable critical perspective, especially as protec-
+tionist approaches tend to underestimate the agentic 
+potential of young people. However, conceptualizations of 
+“digital citizenship” often treat technologies as tools for 
+enacting human power, rather than agentive forces in 
+themselves.Posthumanist Agency à la Latour and 
+Bennett
+At its core, actor–network theory (ANT) advocates for the 
+return of agency to things as well as people. For Latour, 
+one of ANT’s founders, action need not be shackled to 
+consciousness, or, by extension, intention. An actor is any  
+entity that acts, that does work in/on the world. 
+Latour ( 2005) also insists that intentionality is not a pre-
+requisite of agency and that objects are neither causal nor 
+“mere intermediaries, ” but rather “things might authorize, 
+allow, afford, encourage, permit, suggest, influence, block, 
+render possible, and so on” (p. 72). This lifting up of the 
+object is not intended to demote the status of the human, 
+but rather to restore the balance from a time in sociology 
+when the material world was largely ignored in favor of the 
+human-  semiotic.
+Law  ( 1992) also adds an interesting take on “social 
+agents” as always networks. Human “agentic” practices 
+(like thinking) are never accomplished by some essential-
+ized individual person/body, but rather “that thinking, act-
+ing, writing, loving, earning—all the attributes that we 
+normally ascribe to human beings, are generated in net-
+works that pass through and ramify both within and 
+beyond the body” (p. 384). Actor and actor–network are 
+inseparable, as actors never accomplish anything—or exert 
+agency—on their own, or outside of emerging entangled 
+human–non- human networks. From a Latourian perspec-
+tive, agency is not something we identify a priori (as in the 
+case of humanism). Rather, capacities to act, move, block, 
+shift, etc. are described relationally in process or retrospec-
+tively as emergent outcomes across a network of actors.
+Unsurprisingly, researchers have applied ANT to 
+examining algorithms, big data systems and, to a lesser 
+extent, analyses of AIs. For example, Tufekci  (2015) uses 
+ANT to drive her conceptualization of “computational 
+agency, ” warning that “[algorithms] are armed with our 
+data, and can even divine private information that we have 
+not disclosed. They are interactive, act with agency in the 
+world, and are often answerable only to the major corpora-
+tions that own them” (p. 217). She gives examples of algo-
+rithmic “gatekeeping” and decision-  making that are 
+entwined with human actions and that may perpetuate 
+bias and even affect voting patterns, like Facebook’s feed 
+algorithms suppressing information on protests in Fergu -
+son, alongside delays in human- mediated news outlets, 
+and Facebook’s 2010 and 2012 experiments to “nudge” 
+people to the polls by telling them their friends voted 
+(Tufekci, 2015).
+Jane Bennett  ( 2010), describing “distributive agency, ” 
+links Latourian thought to Deleuze and Guattari’s concept 
+of “assemblage” (or agencement ). She defines an assem -
+blage as “ad hoc groupings of diverse elements, of vibrant 
+materials of all sorts” that “are living, throbbing, confeder -
+ations that are able to function despite the persistent 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Critical Posthumanist Literacy  |  565presence of energies that confound them from within” (p. 
+23–24). Bennett (2010) uses the lens of the assemblage and 
+distributed agency to analyze what happened during a 
+massive blackout in the US in 2003, highlighting the inter -
+connections of human and non- human actors and the 
+confluence of factors that led to this unanticipated event—
+including elements ranging “from a quirky electron flow 
+and a spontaneous fire to members of Congress” (p. 28). In 
+her analysis, agency is distributed among them rather than 
+localizable to single objects or people. Instead of tracing 
+cause and effect through individuals and their actions, 
+Bennett shows how an unruly mix of human–non- human 
+vibrant matter contributed (with varying degrees of 
+responsibility) to catastrophe.
+Using a critical posthumanist literacy lens, we might 
+think of agency as bound up in human–AI assemblages, 
+where humans and non- humans accomplish things as 
+interconnected. Bennett ( 2010) describes how her con-
+cept of agency, rather than “attenuat[ing] the blame 
+game, ” “broadens the range of places to look for sources 
+[of harmful effects]” (p. 37). Taking Bennett’s cue, we 
+might broaden critical literacy’s focus on understanding 
+the effects of systems of (human) power and think about 
+agency as distributed among human–non- human actors 
+in assemblage. This allows us to ask new, critical posthu-
+manist literacy questions about ourselves and our inter -
+connections with AI, including, for example, questions 
+about power and authorship: Who/what writes a text, or 
+is responsible for a text, when AI is involved (e.g., in sug-
+gesting or creating text)? Seeing human agency as entan-
+gled with AI asks us to think about “writers” as 
+confederations rather than individuals, word/image/
+sound choice as a joint accomplishment, and the impact 
+of texts as traceable to human–non- human assemblages 
+rather than singular human authors. Reconceiving of the 
+text and author in non- dualistic terms, where both are 
+entanglements or enmeshments of nature/culture, and 
+human/non- human, complicates a critical analysis of 
+power beyond, for instance, placing the individual 
+human or group of humans within a social “system. ”
+Concept 3: Toward a Critical 
+Posthumanist Literacy Approach to 
+Ethics and Sociotechnical Justice
+A general definition of “ethics” is “systematizing, defend -
+ing, and recommending concepts of right and wrong 
+behavior” (Wrenn,  n.d.). Typically, humans are under -
+stood to be the ones doing the systematizing and  the 
+behaving (rightly and wrongly). However, work in the eth-
+ics of AI as well as in posthumanist scholarship challenges 
+this assumption. Scholars studying the ethics of AI have 
+challenged both human separability from the operation of 
+AIs and also humans’ status as the only ones capable of 
+moral agency (Behdadi & Munthe,  2020). Given these new developments, it makes sense to draw on ideas of ethics 
+that complicate human/ethics relations. In addition to 
+drawing on posthumanist theories, literacy scholars can 
+also draw on work from the field of AI ethics, discussed 
+below.
+Drawing on Disciplinary AI Ethics 
+Scholarship
+In critical literacies work, scholars and practitioners aspire 
+to be ethical, invoking ideals of justice, democracy, and 
+equity frequently. However, literacies scholarship rarely 
+examines the ethicotheoretical basis of these claims and 
+aims, relying instead on normative and/or implicit defini-
+tions of these terms. This is a hindrance when faced with 
+the massive changes that have accompanied complex com -
+putation, and our entanglement within it.
+Computer ethics has had to reckon with the paradigm 
+shift accompanying the ubiquity of complex computa -
+tional systems. As Johnstone (2007) writes,
+Standard ethical theory is concerned with the analysis and eval-
+uation of volitional action…there are however reasons to doubt 
+whether this kind of analysis based on discrete actions and 
+identifiable agents and outcomes—essentially, the attribution of 
+responsibility—is adequate to address the full range of concerns 
+(p. 74).
+Johnstone ( 2007) and other computer ethics scholars 
+(e.g., Mittelstadt et  al.,  2016) debate how to understand 
+who or what might be deemed responsible given these 
+complications around actions, agents, and outcomes. As 
+AI ethics scholars grapple with these changes, literacy 
+scholars can look to them for guidance in our own critical 
+digital literacy practice. For example, this kind of relational 
+ethical theory may be instructive when we think about 
+“responsibility” for a text as no longer linked so directly to 
+“volitional action” of a human author, and could inform 
+discussions about what plagiarism and authorial integrity 
+mean in the age of AI.
+Posthumanizing Ethics with Barad’s “Cuts”
+Posthumanist theory also contributes to new understand-
+ings of ethics as more- than- human. Hollin et  al.  (2017) 
+contend that Barad’s contribution to ethics is often under -
+stated, pointing to how the “cuts” people make in separat-
+ing bodies and objects have ethical consequences. These 
+“cuts” are not pre- ordained, but rather made as people act 
+in the world. Because people form certain arrangements 
+and ideas about which things are separate, they also fore-
+close certain possibilities. Hollin et al. ( 2017) explain,
+A focus on agential cuts, therefore, is generative of particular 
+sets of ethical responsibilities; though matter itself has stability, 
+it is still necessary to be accountable for the cuts that created 
+this stability and to grapple not just with the ethical 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+566  |  Reading Research Quarterly , 59(4)consequences of these cuts, but with the constitutive exclusions 
+that underpin them (p. 933–934).
+This reading of Barad’s ethics, as stemming from our 
+interpretations and enactments of certain patterns of 
+agential cuts, opens up the possibility of different agen -
+tial and ethical arrangements if we are able to see them as 
+potentially mutable performative patterns rather than 
+pre- determined distinctions. This re-  working of agent 
+into a separable but not pre- figured entity allows us to 
+consider how and why people make distinctions between 
+tool and person, human and machine, in ways that might 
+help us see different ethical possibilities. For example, we 
+might think of a human reader as making independent 
+choices about what to read, attend to, or think about, but 
+perhaps our choices have already been algorithmically 
+narrowed and nudged toward certain content, presented 
+in certain ways, designed to evoke a certain response. 
+Human readers on social media, for example, often make 
+joint decisions about what to attend to alongside AI rec-
+ommendation algorithms. Where our readerly and 
+authorial autonomy begin and end in an AI ecosystem 
+may need to be separated by “cuts” that allow us to 
+understand our choices as motivated not only by our 
+conscious desires, but also by sometimes hidden algo -
+rithmic factors.
+With respect to expanding toward a critical posthu-
+manist literacy, the issue of agential cuts also implicates 
+and raises questions about literacy research as ethical 
+practice. In this framing, the question of how we make 
+distinctions between humans and technologies, for 
+instance, are not merely questions of speculative theory, 
+they are deeply ethical considerations. Critically speak -
+ing, coming to understand power in these relations 
+involves raising questions about the determinations we 
+make concerning the boundaries of the human, and the 
+technical, and their degrees of entanglement. In this 
+modality, critical research does not merely identify lines 
+of power and identity; rather, it reflexively seeks to under -
+stand how it is performing those relations with the “cuts” 
+it makes within its process: how categorization, coding, 
+sorting, subject/object relations, representing, and other 
+movements in research perform agential cuts that per -
+form (a version of) the world rather than merely describ-
+ing it. In a posthuman reconsideration, the move toward 
+a relational ethics can be imagined as a form of experi-
+mentation, moving away toward assumed social norms 
+and a unitary human subjectivity and toward open ways 
+of becoming ethical:
+The elaboration of new normative frameworks for the posthu-
+man subject is the focus of collectively enacted, non- profit-  
+oriented experimentations with intensity, that is to say with 
+what we are actually capable of becoming. They are a praxis (a 
+grounded shared project), not a doxa (common sense belief) 
+(Braidotti, 2013, pp. 92- 93).Sociotechnical Justice
+We have put ethics and social justice together because they 
+are closely related and because critical literacies scholars 
+often use these terms together (e.g., Luke,  2018; 
+Shor,  1999). We have included both for two reasons: first, 
+ethics has a different disciplinary tradition associated with 
+it that is a key source of materials and tools for analysis; 
+second, “social justice” has a rich history in critical litera-
+cies but has typically centered human relationships in a 
+way that may limit our understanding of literacy in the age 
+of AI.
+We draw from disciplinary AI and posthumanist eth-
+ics a concern with the non- human as central to human 
+existence—and, by extension, our ideas of justice. In previ-
+ous work, we (Leander & Burriss,  2020) outline a vision of 
+how posthumanist theory can help us embrace action 
+toward a more expansive notion of social justice via post-
+humanist ethics, “where human agents can leverage com-
+putational machines and processes to become more ethical 
+assemblages with them” (p. 1274). Beyond merely identi-
+fying our entanglements with AI, these theories can give 
+us ways to think about changing our world and ourselves 
+from within the tangle.
+Here, we build on that work and signal a reorientation 
+toward incorporating non-  humans in our understanding 
+of justice by using the term “sociotechnical justice, ” which 
+indicates that our ideas about producing equity among 
+human beings in social systems are now always also inher -
+ently technical because of our everyday entanglement with 
+AI (see Collins,  2020 for a use of this term in healthcare). 
+This conception of justice recognizes that humans can no 
+longer achieve social justice without technological justice 
+as well. Justice is no longer merely social and no longer 
+exclusively human; it is bound up with ever- changing 
+technologies. This notion allows us to ask new, critical 
+posthumanist literacy questions about ethics and justice in 
+the age of AI: How are texts evaluated and shared in 
+human–non- human networks, spread or suppressed by 
+obscure(d) algorithms that operate within and sometimes 
+extend systems of social domination? While social media 
+is the obvious context for this kind of question, we also 
+may start to see these influences in other spaces, like 
+schools, as AI becomes part of writing instruction and 
+algorithms shape and judge what counts as “good 
+writing. ”
+Concept 4: Toward a Critical 
+Posthumanist Literacy Approach to 
+Pedagogy
+A major concern of this theory is pedagogical: how should 
+educators best teach about AI and its impact on our lives? 
+“Pedagogy” has been used and defined in a variety of ways, 
+from a science to an art (Murphy,  1996). We are using the 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Critical Posthumanist Literacy  |  567term to mean, simply, a theoretically grounded under -
+standing of the “how” of teaching. In particular, we focus 
+on trying to design and use a set of theoretically grounded 
+teaching practices that, when mixed with students, con-
+tent, and activity structures, create meaningful learning 
+experiences.
+There is a large body of work discussing “critical peda-
+gogy, ” as well as a significant body of work outlining criti-
+cal literacy  pedagogy. Although some scholars have 
+cautioned against providing any sort of strict formula for 
+doing critical literacy, there are core practices that traverse 
+this work. Behrman (2006) outlines six types of practices: 
+“reading supplementary texts, reading multiple texts, read-
+ing from a resistant perspective, producing countertexts, 
+conducting student- choice research projects, and taking 
+social action” (p. 492). Comber  (2015) suggests that key 
+“pedagogical moves” in critical literacy are “Repositioning 
+students as researchers of language, respecting student 
+resistance and exploring minority culture constructions of 
+literacy, and problematizing classroom and public texts” 
+(p. 363). There are variations of these sets of practices from 
+different viewpoints, but they share common ideas about 
+positioning students as creators and agents of social 
+change, and consuming, analyzing, and producing texts 
+(broadly defined) in ways that interrogate hegemonic 
+power structures.
+Teaching with Emergence
+Posthumanist theory offers an expansive lens for thinking 
+about pedagogy as emergent and affective. Rautio 
+et al. (2019) describe emergent pedagogy as centering the 
+unplanned “disturbances” or “distractions” as key sites of 
+learning, rather than pre- designed plans. They emphasize 
+that in this model of emergent pedagogy, learning cannot 
+and should not be “fully controlled, ” teaching and learning 
+is socio- material “rather than individual interactions 
+between humans, ” and that these ideas necessitate re-  
+thinking individual assessment (p. 233). Hickey-  
+Moody ( 2009) explores interaction with music, literature, 
+and dance as posthuman pedagogy, where “affect in art is a 
+vector of pedagogy” (p. 274). In these two discussions of 
+posthumanist pedagogy, widening the understanding 
+(and evaluation) of learning to include more than just 
+individual humans and exploring affective relationships 
+with art are key practices.
+Teaching with Unpredictability
+Embracing emergent pedagogy is both particularly useful 
+and necessary when teaching with AI, a notoriously slip-
+pery–shifting in meaning and capabilities, hidden behind 
+proprietary claims–subject. Drawing on critical literacy 
+pedagogy, we might seek to analyze how power operates in 
+and through a largely static text. Extending this practice 
+into a critical posthumanist literacy pedagogy, educators would need to address changes to a text that are unpredict-
+able and subject to corporate whims, as in the case of an 
+algorithmically curated social media feed. Furthermore, 
+given the opaque nature of many AI systems, educators 
+may not (be able to) know, for example, on which data a 
+model was trained, what the model will predict/generate, 
+or why it would make such a prediction/synthetic text. 
+This kind of opacity and unpredictability poses a challenge 
+to traditional modes of critical literacy inquiry, which rely 
+on more transparent and straightforward chains of 
+(human) cause and effect, and it necessitates a more flexi-
+ble and experimental approach where human expertise is 
+not guaranteed or, sometimes, even possible.
+Teaching as Speculation
+A speculative orientation in teaching approaches peda -
+gogy with wonderment about what can be opened up and 
+imagined in the process of learning. Critical literacy teach-
+ing has unique resources through which to enter into such 
+speculation, including literary fiction. Science fiction in 
+particular has long been acknowledged as an arena for 
+exploring thorny sociotechnical issues, at times reflecting 
+nagging fears of the day, predicting future dilemmas, and 
+sounding dire warnings (Blackford,  2017). In discussing 
+speculative fiction pedagogy, Boaz (2020) writes,
+There is a reason that writers are among the first people tar -
+geted at the dawn of authoritarianism. Writers—particularly 
+those who work in the genre known as speculative fiction—can 
+offer their audiences inroads to truths inaccessible in other 
+public realms (p. 242).
+This powerful truth- telling function is but one way 
+that encountering speculative fiction can affect us. Some 
+scholars have explored the various ways that engaging 
+with literature in the classroom can shape ethics and 
+morality. Collin  ( 2020) offers four ways: transmitting, 
+transacting, clarifying, and cultural identity and differ -
+ence. Others have noted how speculative practices like 
+Haraway’s “speculative fabulation” can be a powerful site 
+of resistance and response to a largely White, European 
+canon and speculative spaces that have historically deval-
+ued or underrepresented contributions of queer, trans, 
+Black, Indigenous, and People of Color (Truman, 2019).
+In addition to these functions, science fiction can pro-
+vide a way to exercise human agency without fear of physi-
+cal consequences. Students and instructors can “test out” 
+an idea or an AI and see where it takes us without causing 
+offline harm. In physics and philosophy, the idea of a 
+“thought experiment” is not trivial or fanciful, but rather 
+an important mode of research and exploration with key 
+ideas. Such testing out or thought experiments expands 
+the critical realm into the imaginative. In this manner, crit-
+ical literacy becomes associated not merely with rational 
+critique or response to other texts, but also with imagina-
+tive lines of flight toward the possible, following and 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+568  |  Reading Research Quarterly , 59(4)playing with the relations of the more- than- human that 
+are already upon us.
+A Critical Posthumanist Literacy 
+Approach
+Incorporating posthumanist ideas into critical literacy the-
+ory and practice offers us new ways to understand ontol-
+ogy, agency, ethics and justice, and pedagogy in the age of 
+AI. These concepts are examples of how keeping long- held 
+commitments of critical literacy, but bringing in posthu-
+manist ways of thinking about AI and literacy practice 
+with it, can help us theorize for what is already happening 
+and what should happen in our AI- infused world. For 
+example, when we consider justice as bound up in more-  
+than- human systems (as sociotechnical  instead of social), 
+educators might work with students to envision futures 
+that address how texts circulate with algorithmic influence 
+that can often mean perpetuating–and sometimes exacer -
+bating–human biases.
+Our reading, writing, and communication are increas -
+ingly bound up with machines and machine processes, 
+including AI. We have found that neither critical literacy 
+nor posthumanist theories on their own give us all the 
+tools necessary to envision a sociotechnically just literacy 
+pedagogy. In our view, critical posthumanist literacy helps 
+us think about literacy in the age of AI by using critical lit-
+eracy as a foundation from which we reach toward ideas 
+from posthumanist theory about existing and acting in 
+human–machine meshes. Critical literacies have a rich tra-
+dition of pedagogical theory and practice, including an 
+orientation toward social justice and concern with demo-
+cratic participation, dialogic practices, critical questioning 
+of power relationships, and techniques for analyzing texts 
+of many types. These commitments and techniques 
+remain at the core of our theorizing, but we posit we need 
+to expand beyond these commitments to account for how 
+agentive machines are entangled with “human” readers 
+and writers, and how such entanglements underscore 
+questions of how we have been separating out “human” 
+identities in literacy all along.
+We can–and perhaps must–draw from posthumanist 
+theory to guide our critical literacy work as it becomes 
+increasingly entangled with machine processes. We have 
+summarized these convergences in the figure above, where 
+we show in the center column how critical posthumanist 
+literacy can provide an expansive approach to literacy 
+research and practice, and how such an approach might 
+inform our understanding of rapidly developing AI. The 
+discussion of critical posthumanist literacy here is one 
+entry point into theorizing for a sociotechnically just 
+human–machine future that is, just as AI itself, not 
+predetermined.Funding Information
+This work was partially funded by Vanderbilt Depart-
+ment of Teaching and Learning professional development 
+funds.
+Conflict of Interest
+The authors have no conflicts of interest to report.
+This work is derived from and builds on the first 
+author’s dissertation, conducted in the Department of 
+Teaching and Learning, Vanderbilt University. This paper 
+does not report on empirical research, though it is affili-
+ated with a study approved by the Vanderbilt IRB.
+REFERENCES
+Barad, K. (2007). Meeting the universe halfway: Quantum physics and 
+the entanglessment of matter and meaning . Duke University Press.
+Behdadi, D., & Munthe, C. (2020). A normative approach to artificial 
+moral agency. Minds and Machines , 30(2), 195–218. https:// doi. org/  
+10. 1007/ s1102 3-  020-  09525 -  8
+Behrman, E. H. (2006). Teaching about language, power, and text: A 
+review of classroom practices that support critical literacy. Journal of 
+Adolescent & Adult Literacy , 49(6), 490–498. https:// doi. org/ 10. 1598/  
+JAAL. 49.6. 4
+Bennett, J. (2010). Vibrant matter: A political ecology of things. Duke 
+University Press.
+Blackford, R. (2017). Science fiction and the moral imagination: Visions, 
+minds, ethics . Springer International Publishing.
+Boaz, C. (2020). How speculative fiction can teach about gender and 
+power in international politics: A pedagogical overview. Interna -
+tional Studies Perspectives , 21(3), 240–257. https:// doi. org/ 10. 1093/  
+isp/ ekz020
+Boldt, G. M., & Leander, K. (2017). Becoming through ‘the break’: A 
+post- human account of a child’s play. Journal of Early Childhood Lit -
+eracy , 17(3), 409–425.
+Braidotti, R. (2013). The posthuman . Polity Press.
+Buchholz, B. A., DeHart, J., & Moorman, G. (2020). Digital citizenship 
+during a global pandemic: Moving beyond digital literacy. Journal of 
+Adolescent & Adult Literacy , 64(1), 11–17. https:// doi. org/ 10. 1002/  
+jaal. 1076
+Collin, R. (2020). Four models of literature and ethics. English Journal , 
+109(6), 45–51. https:// doi. org/ 10. 58680/  ej202 030784
+Collins, B. X. (2020). A theory of sociotechnical justice in healthcare  
+[Master’s thesis, Temple University]. https:// doi. org/ 10. 34944/   
+dspace/ 337
+Comber, B. (2015). Critical literacy and social justice. Journal of Adoles -
+cent & Adult Literacy, 58(5), 362–367. https:// doi. org/ 10. 1002/ jaal.  
+370
+Deleuze, G., & Guattari, F. (1987). A thousand plateaus: Capitalism and 
+schizophrenia (B. Massumi). University of Minnesota Press.
+Freire, P . (1970). Pedagogy of the oppressed (30th anniversary ed). 
+Continuum.
+Garcia, A., Mirra, N., Morrell, E., Martinez, A., & Scorza, D. (2015). The 
+council of youth research: Critical literacy and civic agency in the 
+digital age. Reading & Writing Quarterly , 31(2), 151–167. https:// doi.  
+org/ 10. 1080/ 10573 569. 2014. 962203
+Haraway, D. (1991). A cyborg manifesto: Science, technology, and 
+socialist- feminism in the late twentieth century. In Simians, cyborgs, 
+and women  (pp. 149–181). Routledge.
+Harman, G. (2018). Object-  oriented ontology: A new theory of every -
+thing . Pelican.
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Critical Posthumanist Literacy  |  569Hickey- Moody, A. (2009). Little war machines: Posthuman pedagogy 
+and its media. Journal of Literary & Cultural Disability Studies , 3(3), 
+273–280. https:// doi. org/ 10. 1353/ jlc.0. 0024
+Holland, D., Skinner, D., Lachicotte, W ., Jr., & Cain, C. (1998). Identity 
+and agency in cultural worlds. Harvard University Press.
+Hollett, T., & Ehret, C. (2015). “Bean’s world”: (mine) crafting affective 
+atmospheres of gameplay, learning, and care in a children’s hospital. 
+New Media & Society , 17(11), 1849–1866.
+Hollin, G., Forsyth, I., Giraud, E., & Potts, T. (2017). (dis)entangling 
+Barad: Materialisms and ethics. Social Studies of Science , 47(6), 918–
+941. https:// doi. org/ 10. 1177/ 03063 12717 728344
+Jackson, A. Y ., & Mazzei, L. A. (2013). Plugging one text into another: 
+Thinking with theory in qualitative research. Qualitative Inquiry , 
+19(4), 261–271. https:// doi. org/ 10. 1177/ 10778 00412 471510
+Jiang, J. (2024). “Emotions are what will draw people in”: A study of critical 
+affective literacy through digital storytelling. Journal of Adolescent & 
+Adult Literacy , 67(4), 253–263. https:// doi. org/ 10. 1002/ jaal. 1322
+Johnstone, J. (2007). Technology as empowerment: A capability 
+approach to computer ethics. Ethics and Information Technology , 
+9(1), 73–87. https:// doi. org/ 10. 1007/ s1067 6-  006-  9127-  x
+Kellner, D., & Share, J. (2005). Toward critical media literacy: Core con-
+cepts, debates, organizations, and policy. Discourse , 26(3), 369–386. 
+https:// doi. org/ 10. 1080/ 01596 30050 0200169
+Kuby, C. R., Spector, K., & Thiel, J. J. (2019). Cuts too small: An introduc-
+tion. In C. R. Kuby, K. Spector, & J. J. Thiel (Eds.), Posthumanism and 
+literacy education: Knowing/becoming/doing literacies . Routledge.
+Latour, B. (2005). Reassembling the social: An introduction to actor-  
+network-  theory . Oxford University Press.
+Law, J. (1992). Notes on the theory of the actor- network: Ordering, 
+strategy, and heterogeneity. Systems Practice , 5, 379–393. https:// doi.  
+org/ 10. 1007/ BF010 59830  
+Leander, K. M., & Burriss, S. K. (2020). Critical literacy for a posthuman 
+world: When people read, and become, with machines. British Jour -
+nal of Educational Technology , 51(4), 1262–1276. https:// doi. org/ 10.  
+1111/ bjet. 12924  
+Lewis Ellison, T. (2017). Digital participation, agency, and choice: An African 
+American youth’s digital storytelling about Minecraft. Journal of Adoles -
+cent & Adult Literacy, 61(1), 25–35. https:// doi. org/ 10. 1002/ jaal. 645
+Lewison, M., Flint, A. S., & Van Sluys, K. (2002). Taking on critical literacy: 
+The journey of newcomers and novices. Language Arts, 79(5), 12.
+Lollini, M. (2022). Time of the end? More- than- human humanism and 
+artificial intelligence. Humanist Studies & the Digital Age, 7(1), 1–30. 
+https:// doi. org/ 10. 5399/ uo/ hsda/7. 1. 3
+Luke, A. (2012). Critical literacy: Foundational notes. Theory Into Prac -
+tice, 51(1), 4–11. https:// doi. org/ 10. 1080/ 00405 841. 2012. 636324
+Luke, A. (2018). Digital ethics now. Language and Literacy , 20(3), 185–
+198. https:// doi. org/ 10. 20360/  langa  ndlit 29416  
+Miller, E. R. (2016). The ideology of learner agency and the neoliberal 
+self. International Journal of Applied Linguistics , 26(3), 348–365. 
+https:// doi. org/ 10. 1111/ ijal. 12129  
+Mirra, N., Morrell, E., & Filipiak, D. (2018). From digital consumption 
+to digital invention: Toward a new critical theory and practice of 
+multiliteracies. Theory Into Practice , 57(1), 12–19. https:// doi. org/ 10.  
+1080/ 00405 841. 2017. 1390336
+Mittelstadt, B. D., Allo, P ., Taddeo, M., Wachter, S., & Floridi, L. (2016). The 
+ethics of algorithms: Mapping the debate. Big Data & Society, 3(2), 
+2053951716679679. https:// doi. org/ 10. 1177/ 20539 51716 679679
+Morton, T. (2013). Hyperobjects: Philosophy and ecology after the end of 
+the world . University of Minnesota Press.Murphy, P . (1996). Defining pedagogy. In P . F. Murphy & C. V . Gipps 
+(Eds.), Equity in the classroom: Towards effective pedagogy for girls 
+and boys . UNESCO. https:// us. corwin. com/ sites/  defau  lt/ files/  upm-   
+binar  ies/ 32079_ Murph  y(OU_ Reader_ 2)_ Rev_ Final_ Proof. pdf
+Niccolini, A. D. (2019). “It’s something that requires passion”: After-  
+echoes of the ethnic studies ban. In K. M. Leander & C. Ehret (Eds.), 
+Affect in literacy learning and teaching: Pedagogies, politics and com-
+ing to know . Routledge.
+Nichols, T. P ., & LeBlanc, R. J. (2020). Beyond apps: Digital literacies in a 
+platform society. The Reading Teacher , 74(1), 103–109. https:// doi.  
+org/ 10. 1002/ trtr. 1926
+Pandya, J., & Ávila, J. (2013). Moving critical literacies forward: A new 
+look at praxis across contexts. Routledge.
+Pangrazio, L. (2013). Y oung people and Facebook: What are the chal-
+lenges to adopting a critical engagement? Digital Culture & Educa-
+tion, 4(3), 34–47.
+Pangrazio, L., & Selwyn, N. (2019). ‘Personal data literacies’: A critical 
+literacies approach to enhancing understandings of personal digital 
+data. New Media & Society , 21(2), 419–437. https:// doi. org/ 10. 1177/  
+14614 44818 799523
+Rautio, P ., Spector, K., & Thiel, J. J. (2019). Theory that cats have about 
+swift louseflies: A distractive response. In C. R. Kuby, K. Spector, & J. 
+J. Thiel (Eds.), Posthumanism and literacy education: Knowing/
+becoming/doing literacies . Routledge.
+Shor, I. (1999). What is critical literacy? Journal of Pedagogy, Pluralism, 
+and Practice , 1(4), 1–32. https:// doi. org/ 10. 1007/ 978-  94-  6300-  106-  9_ 2
+Snaza, N. (2019). Animate literacies: Literature, affect, and the politics of 
+humanism . Duke University Press.
+Truman, S. E. (2019). SF! Haraway’s situated feminisms and speculative 
+fabulations in English class. Studies in Philosophy and Education , 
+38(1), 31–42. https:// doi. org/ 10. 1007/ s1121 7-  018-  9632-  5
+Tufekci, Z. (2015). Algorithmic harms beyond Facebook and Google: Emer -
+gent challenges of computational agency. Colorado Technology Law Jour -
+nal, 13(1), 8–23. https:// doi. org/ 10. 3868/ s050-  004-  015-  0003-  8
+Wargo, J. M. (2017). Designing more just social futures or remixing 
+the radical present?: Queer rhetorics, multimodal (counter)story-
+telling, and the politics of LGBTQ youth activism. English Teach -
+ing: Practice and Critique , 16(2), 145–160. https:// doi. org/ 10. 1108/ 
+ETPC-  06-  2016-  0069
+Wrenn, C. B. (n.d.). Naturalistic epistemology . The Internet Encyclope -
+dia of Philosophy. ISSN 2161-0002. Retrieved July 11, 2024 from 
+https:// iep. utm. edu/  
+Zeilinger, M. (2022). AI art as a hyperobject- like portal to global warming. 
+Proceedings of the 10th Conference on Computation, Communication, 
+Aesthetics & X , 104–116. https:// doi. org/ 10. 24840/  xCoAx_ 2022_ 52
+Submitted October 1, 2023  
+Final revision received June 19, 2024  
+Accepted July 2, 2024
+Sarah K. Burriss  (corresponding author) is a Postdoctoral 
+Scholar of Department of Computer Science, Nashville, 
+Tennessee, USA; email: sarah.burriss@vanderbilt.edu .
+Kevin Leander  is a Professor of Department of Teaching and 
+Learning, Vanderbilt University, Nashville, Tennessee, USA; 
+email: kevin.leander@vanderbilt.edu .
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.565, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

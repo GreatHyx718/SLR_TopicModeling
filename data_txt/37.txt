@@ -1,0 +1,1404 @@
+"Can the rest of the world have flush toilets? No. Composting
+toilets? Yes!": Mediating the Human-Nature Relations by
+Composting Toilets
+Hongyi Tao
+The University of Queensland
+School of Electrical Engineering and Computer Science
+St. Lucia, Australia
+h.tao@uq.edu.auDhaval Vyas
+University of Queensland
+School of Electrical Engineering and Computer Science
+St. Lucia, Australia
+d.vyas@uq.edu.au
+Abstract
+Flush toilets pose challenges such as resource waste, public health,
+and social justice. To achieve the Sustainable Development Goal
+of clean water and sanitation for all, it is essential to address the
+complex issues around toilets and design alternative systems that ef-
+fectively manage human waste. Inspired by Actor-Network Theory
+(ANT), this paper presents findings from a design ethnography in
+eco-villages about composting toilets and sustainable living. We de-
+scribe three archetypal composting toilet systems and examine how
+they operate as creative, community-driven infrastructures that me-
+diate human–nature relationships. We reflect on how ANT provides
+a useful lens for HCI to understand the socio-technical dynamics of
+alternative sanitation systems. We analyse how composting toilets
+mediate human-nature relations three interconnected processes:
+tinkering, linking, and becoming. We discuss the implications of
+fostering DIY infrastructure practices as a form of transformational
+creativity in the pursuit of more sustainable futures.
+CCS Concepts
+•Human-centered computing →Human computer interac-
+tion (HCI) ;Empirical studies in HCI .
+Keywords
+Composting Toilet, Sustainability, Eco-Village, DIY, Infrastructure,
+Actor-Network Theory
+ACM Reference Format:
+Hongyi Tao and Dhaval Vyas. 2025. "Can the rest of the world have flush
+toilets? No. Composting toilets? Yes!": Mediating the Human-Nature Rela-
+tions by Composting Toilets. In Creativity and Cognition (C&C ’25), June
+23–25, 2025, Virtual, United Kingdom. ACM, New York, NY, USA, 14 pages.
+https://doi.org/10.1145/3698061.3726922
+1 Introduction
+With the promise of sustainability, emerging research in design
+aims to explore creative practices that can foster collective imagi-
+naries of sustainable futures and encourage actionable reflections
+This work is licensed under a Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License.
+C&C ’25, Virtual, United Kingdom
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1289-0/25/06
+https://doi.org/10.1145/3698061.3726922in everyday life [ 17]. However, most projects still adopt a human-
+centred perspective, which can result in exploitative relations with
+materials and the natural environment. Hence, the need to explore
+ways to transform human-nature relations and engage people in
+regenerative actions that go beyond a human-centric approach
+[55]. This paper employs Actor-Network Theory [ 30] as a lens to
+examine composting toilets and sustainable living in eco-villages
+to uncover how creative practices can mediate the relationship
+between humans and non-humans in sustainable living.
+Despite the flush toilet’s status as a symbol of modern civili-
+sation, it faces challenges such as the waste of fresh water and
+humanure, and approximately 2 billion people worldwide lack ac-
+cess to safe sanitation systems due to the high infrastructure costs
+of flush toilets [ 59]. Sustainable Development Goal 6 aims to en-
+sure the "availability and sustainable management of water and
+sanitation for all" [ 51]. Flush toilets should not be the only option,
+especially in rural areas and locations with limited freshwater re-
+sources. Researchers and designers need to explore non-sewage
+alternative systems that can provide a hygienic and comfortable toi-
+leting experience, avoid excrement pollution, and utilise humanure
+locally.
+In modern society, sanitation systems are usually invisible, dis-
+connecting people from nature. The water supply and sewers in
+urban areas are often hidden underground, and individuals do not
+participate in the decision-making process regarding the water
+source and sewage treatment. This isolation can make people un-
+aware of the impact of their behaviours on the environment. Making
+the invisible infrastructure visible and reconnecting people to na-
+ture is crucial to foster sustainable lifestyles towards a regenerative
+future.
+The creative redesign of essential infrastructure like toilets rep-
+resents a form of transformational creativity [ 7] that challenges
+dominant paradigms and reimagines human relationships with
+waste. Unlike incremental innovations that might make flush toi-
+lets more water-efficient, composting toilets fundamentally recon-
+figure the human waste cycle, transforming a linear process of
+waste and pollution into a circular system of resource regeneration.
+This transformation involves not just technical innovation but a
+cognitive reframing of human-nature relations, advocating for col-
+laborative entanglements and mutual care, rather than competition
+or extraction.
+Recent research has focused on decentralising humans in design
+by promoting alternative practices that ensure fairness and justice
+680
+
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
+for both humans and non-human entities (e.g. [ 4,13,40]). Revis-
+iting traditional human-centred approaches, these studies assert
+that design is exploitative in non-human species and resources [ 55].
+Advocates for these perspectives seek to implement practices that
+prioritise equity for all beings [ 18], proposing alternatives to hier-
+archical control models [ 33], innovation at societal margins [ 31],
+nomadic practices [ 54], and sustainable place-making strategies
+[47]. This posthumanism viewpoint aims to investigate the broader
+systemic interactions rather than merely focusing on interfaces,
+revealing the full complexity of these relationships [ 23]. The signifi-
+cance of this perspective lies in its ability to offer design approaches
+that are both objectively grounded and intricately detailed in spe-
+cific contexts [ 54]. Actor-Network Theory posits that humans and
+non-humans are equally influential actors, co-constructing and co-
+evolving with one another. This theory is instrumental in analysing
+the intricate networks formed through the interactions between
+human and non-human participants, elucidating how technologies
+can be assigned roles to regulate, influence, or even substitute cer-
+tain human behaviours [ 16]. ANT’s value here lies in its ability
+to trace the heterogeneous associations - linking human practices,
+natural elements like microbes and soil, technical artefacts like toi-
+lets, and community values - that constitute sustainable sanitation,
+moving beyond purely social or technical explanations.
+This paper presents findings from a design ethnography of com-
+posting toilets and sustainable living in eco-villages in remote Aus-
+tralia. This paper illustrates three types of composting toilets and
+describes how they mediate the relationships between humans and
+non-humans. By interacting with non-human actors such as human
+waste, microbes, soil, and plants, people redesign the impact of their
+behaviour on the environment and reconstruct the decision-making
+processes of community living. Composting toilets open new av-
+enues for design research to explore how to reconnect humans
+with nature and transform everyday activities towards regenera-
+tive futures. We introduce the concepts of Tinkering ,Linking , and
+Becoming to analyse how these DIY systems foster creative engage-
+ment and mediate human-nature relations. The paper reflects on
+the role of composting toilets in sustainable living and discusses
+how ANT can help understand their implications for fostering DIY
+infrastructure practices and transformational creativity.
+2 Related Work
+2.1 Sustainable HCI and Transformational
+Creativity
+Sustainable HCI has consistently focused on sustainability in ev-
+eryday life (e.g. [ 12,36,58]). Researchers have pointed out that
+people’s daily choices and actions are crucial for sustainable prac-
+tices [ 37,46] and have emphasised the need to reflect on how we
+are influenced and shaped as environmental actors [ 14]. Håkansson
+and Phoebe [ 21] argue that sustainable living should be associated
+with a higher quality of life, and design can motivate family and
+community interaction and communication through the theme of
+"enough". Heitlinger et al. [ 24,25], through their study of grass-
+roots food-growing communities, have challenged the approach of
+designing solely for individual consumer choices, offering a possi-
+bility for achieving a sustainable future through collective action.
+They advocate for designing environmental conservation efforts byinvolving more people in food growing, waste recycling, and the
+sharing of knowledge and skills within the community [ 24]. Norton
+et al. [ 39] emphasise the importance of value elicitation in designing
+digital technology through their research in permaculture commu-
+nities. Furthermore, this field encompasses various similar research
+and practices, such as computational agroecology [ 42], ecological
+thinking [ 6,41], urban informatics [ 19,20], home organisation [ 52],
+DIY practices [ 47,49,50,53], and cohabitation with non-human be-
+ings [ 33,34,45] — that seek to reconfigure human-nature relations
+toward ecological attunement and long-term sustainability.
+While exploratory creativity works within established concep-
+tual spaces and combinational creativity merges familiar ideas,
+transformational creativity fundamentally changes the rules and
+constraints of a conceptual space [ 7]. Boden [ 7] posits transfor-
+mational creativity as a process involving radical changes to a
+conceptual space, leading to ideas or artefacts that could not have
+been generated within the original space. As Light et al. [ 32] ar-
+gue, sustainable futures demand not just new technologies, but new
+imaginary, values, and ways of being. In recent years, a trend in HCI
+has started to question the traditional human-centred notion (e.g.
+[4,6,10,56]), drawing inspiration from posthumanism to broaden
+ethical and relational considerations in design.
+Haraway, in her book Staying with the Trouble [22], further de-
+scribes humans as "companion species," emphasising that humans
+coexist with billions of symbionts, especially within our bodies. She
+argues that the world we inhabit is a web of interconnected rela-
+tionships, and as actors, we have a collective ethical obligation to
+influence this web [ 22]. Forlano [ 18] connects posthumanism with
+design, highlighting that non-human beings are also stakeholders in
+design. The focus is on how design can support the needs and values
+of non-human entities, from soil microbes to infrastructures, that
+have often been overlooked in anthropocentric frameworks. The
+posthumanist perspective stresses the interdependence between
+humans and all forms of life, advocating for collaborative entangle-
+ments and mutual care, rather than competition or extraction.
+2.2 Actor-Network Theory
+Actor-Network Theory (ANT) is a framework that argues that ob-
+jects participate in building heterogeneous networks that bring to-
+gether actants of all types and sizes, whether human or non-human
+[2]. This perspective suggests that society is a complex network
+composed of these heterogeneous entities. The core concepts in this
+framework include actant and heterogeneous network. An actant
+is whatever acts or shifts actions. Action itself is defined by a list
+of performances through trials, from which a set of competences
+with which the actant is endowed can be deduced [ 3]. An actor is
+an actant endowed with a character, often anthropomorphic [ 3].
+A heterogeneous network brings together actants of all types and
+sizes, human and non-human, highlighting the interconnectedness
+facilitated by technical objects [ 3]. The principle within this view
+is the examination of the relationships and interactions between
+these actants, without pre-defining a distinction between the social
+and the technical [ 8]. The focus is on understanding the conditions
+and mechanisms under which the relations that define society and
+knowledge are susceptible to partial reconstruction through these
+681
+Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+networks [ 30]. This approach challenges simple technological de-
+terminism and social constructivism by paying attention to what
+is brought together by the network and acknowledging the obdu-
+racy of objects [ 9]. In this way, ANT reveals the often-overlooked
+roles of the natural environment and objects, and other non-human
+elements in everyday sustainable practices.
+Translation is a key process in ANT where actors interact with
+others to gradually integrate their own intentions and goals into
+the network, thereby aligning the interests of other actors with
+their own [ 29]. Callon pointed out that translation occurs through
+four stages [ 8]:Problematisation : The focal actor defines the prob-
+lem and identifies other actors whose identities and interests align
+with its own, attempting to position itself as an indispensable role.
+Interessement : The focal actor attempts to engage other participants
+in the roles designated for them. Enrolment : The focal actor recruits
+various actors into the network. Mobilisation : The focal actor en-
+sures that its network acts as a spokesperson for the other actors.
+These stages do not occur in a strict sequence but are interwoven.
+Each stage achieved by an actor or innovator represents progress
+in the ongoing negotiation process [ 8]. Sustainable HCI faces com-
+plex and dynamic social and environmental challenges, requiring
+the integration of the needs and interests of various actors. ANT
+provides a framework that includes diverse actors, both human and
+non-human, as well as technology and nature, in the understand-
+ing and design process. By analysing the complex relationships
+between actors in sustainable transitions from spatial and temporal
+dimensions (e.g. [ 1,38,57]), ANT helps us go beyond a singular
+focus on reducing environmental pollution, situating sustainable
+practices within the ever-changing activities of various actors over
+time. Compared to frameworks like Social Practice Theory [ 44],
+which emphasises routines and shared understandings, ANT offers
+a stronger lens for examining the specific roles of non-human actors
+and the dynamic processes of network formation and stabilisation,
+particularly useful for understanding the introduction and adoption
+of novel socio-technical systems like composting toilets.
+3 Methodology
+This paper is based on design ethnography, a qualitative approach
+to understand situated practices and the intricate relationships
+between people, technologies, and their environments [ 11]. The
+central concept of design ethnography is work , which refers to
+the practical effort, skill, and competence required to accomplish
+ordinary activities [ 11]. Design ethnography seeks to understand
+what the work of a setting consists of, the activities members do,
+and the assembly of ordinary activities [ 11]. The primary work
+studied in this paper is how eco-village members manage their
+sanitation through compositing toilets and integrate these DIY
+infrastructure practices with other aspects of their lives and the
+eco-village’s functioning. Design ethnography is suited to studying
+socio-technical systems such as composting toilets, as it allows for
+close attention to material practices, cultural meanings, and the
+relational configurations that emerge between humans and non-
+humans. Rather than merely documenting functional use, design
+ethnography enables us to explore how users appropriate, adapt,
+and co-construct ecological technologies through ongoing practices
+of maintenance, negotiation, and care.3.1 Research Setting and Participants
+The empirical material presented here draws from a long-term re-
+search program on making, DIY practices, and sustainable living in
+remote Australia, which has been ongoing since 2020. While the
+broader research project involved 15 participants across multiple
+eco-village contexts in Australia, this paper draws specifically on
+data from four participants whose experiences offered the most
+insight into the socio-material dynamics of composting toilet de-
+sign, use, and maintenance. These cases were selected through
+purposeful sampling for their conceptual richness, diversity of de-
+sign approaches, and depth of interaction with the composting
+systems.
+Our aim in this paper is not to provide an exhaustive account of
+all participant experiences, but rather to offer a thick description
+of key practices, meanings, and relational patterns that emerged
+through close engagement with a small number of cases. This ap-
+proach is consistent with design ethnography and qualitative case-
+based inquiry, where depth, context, and interpretive insight are
+prioritised over breadth or statistical generalisation [ 11]. The re-
+maining participant data have been analysed and presented in
+other publications within the same research program, each paper
+contributing to a different facet of sustainable design practices in
+eco-villages [47–49].
+For this paper, we focus specifically on the ethnographic field-
+work conducted between 2020 and 2023 in remote Australian eco-
+villages. We present three archetypal types of composting toilets
+from two eco-villages. To protect participants’ privacy, we used
+code to represent participants (e.g., P1, P2, P3, P4, representing key
+informants identified during fieldwork in Table. 1) and eco-villages
+(EV1-EV2).
+Table 1: Key Informants
+Participant
+CodeGender Age
+GroupBackground
+P1 M 50s Co-founder of EV1, member of
+the local Greens Party
+P2 M 30s Co-founder of EV1, member of
+the local Greens Party
+P3 M 70s Former-chairman of the Body
+Corporate in EV2
+P4 M 70s Founder of EV2
+Eco-Village 1 . EV1 was established in 2019 on a 3.48-acre prop-
+erty under a not-for-profit land trust. During our first visit in 2020,
+four adults and two children resided there. EV1 seeks to show-
+case the benefits of a low-carbon, simple ‘home-based economy’
+lifestyle, aiming to inspire broader cultural change. P1 and P2 are
+working to create a community where people’s needs, such as con-
+nection, recognition, trust, and mutuality, are fulfilled. They aspire
+to empower everyone in the eco-village through active participa-
+tion in making and self-governance. They view the eco-village as
+a journey towards simplicity and minimalism, emphasising the
+process over the destination, where participants can find spiritual
+contentment and satisfaction. They value individuals dedicated to
+682
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
+self-development, effective communication, and conflict resolution.
+They aim to foster a ‘medium demand’ community where residents
+are interconnected and involved in each other’s lives. Currently,
+EV1 is in its start-up phase, experimenting with sustainable prac-
+tices.
+Eco-Village 2 EV2 was founded as an alternative community on
+640 acres by P4 and his 15 friends in 1978. By 1983, the population
+fluctuated from around 100 to just 8, prompting the landlord to
+design a subdivision to allow for legal, long-term dwellings. With
+the assistance of four Permaculture designers, the community was
+legally established in 1986 following local council approval. The
+property includes 83 freehold residential lots and two commercial
+lots, which make up 20 percent of the land, while the remaining
+80 percent is held in common for habitat, forestry, and sustain-
+able agriculture. This community was awarded the World Habitat
+Award for its demonstration of low-impact, sustainable living. EV2
+is managed by both a Body Corporate, responsible for property
+administration, and a Co-Operative, which functions as a public and
+social organisation. Today, EV2 is home to more than 200 residents.
+3.2 Data Collection and Analysis
+Fieldwork in this paper involved multiple extended stays in two
+eco-villages, where the first author participated in everyday life,
+including making activities, routine maintenance, and informal
+social interactions. This immersive, situated engagement aligns
+with the principles of design ethnography, which values close, em-
+bodied observation of people’s interactions with technologies in
+context. By participating in daily practices, the researcher was able
+to gain insight into the tacit knowledge, values, and improvisational
+problem-solving that shape the use of composting toilets.
+Data were collected through a combination of semi-structured
+interviews, photographs, and field notes. Interviews explored partic-
+ipants’ motivations, building and maintenance practices, challenges
+and adaptations, as well as their broader reflections on sustainable
+living. Photographs and field notes served as tools to document
+spatial configurations, material interactions, and emergent social
+dynamics around the composting systems. This approach reflects
+the commitment of design ethnography to understanding not just
+what people say, but also what they do and how they inhabit com-
+plex socio-material settings [11].
+After each field engagement, the first author systematically or-
+ganized and annotated the data, identifying key fragments and
+recurring themes. These were discussed with the second author
+within one week of each visit, allowing for iterative interpretation
+and reflexive sense-making. This process enabled the development
+of analytical categories grounded in the material, while also allow-
+ing conceptual insights to emerge collaboratively over time.
+3.3 Limitations and Positionality
+We acknowledge that our focus on eco-villages means our par-
+ticipants were generally predisposed towards sustainability and
+alternative lifestyles, potentially influencing their perspectives on
+composting toilets. The findings are specific to these remote Aus-
+tralian contexts and may not directly translate to urban or differ-
+ent cultural settings without adaptation. As researchers interestedin sustainable design, our own values may shape our interpreta-
+tions, though we aimed for reflexivity throughout the analysis by
+grounding interpretations in specific ethnographic data and ANT’s
+symmetrical approach.
+4 Findings
+4.1 Stewardship and More-Than-Human Care
+A core motivation driving the adoption of composting toilets in
+both eco-villages was a commitment to environmental stewardship
+and a desire to live differently from mainstream consumer culture.
+This ethos shaped community governance structures and daily life.
+The two founders of EV1, P1 and P2, are local Greens Party
+members and also the founders of Eco Villages Australia (EVA).
+EVA is a non-profit organization dedicated to providing a model to
+create communities for small groups of people. EV1 is their first eco-
+village, purchased and established in 2019 in remote Australia. They
+have developed a community model called ’Collective Stewardship’
+[15]:
+"All buildings (except for those on wheels), and the
+land is owned by non-profit which is based on a Com-
+munity Land Trust. Those who can afford it, loan
+money to EVA, for the purchase of the land and any
+improvements and building. All residents rent the
+spaces they require. This income covers operational
+costs and paying back loans. If the land is ever sold,
+the money goes back to the non-profit company after
+all loans have been returned. This structure makes it
+impossible for individuals to benefit from the sale of
+land, which means that the land is essentially locked
+away in perpetuity for environmental care." (Eco Vil-
+lages Australia)
+In P1 and P2’s simple living, they aim to reduce financial and
+ecological costs. When they purchased the property, the house had
+a flush toilet connected to the municipal sewage system. However,
+they decided not to use the flush toilet and instead DIY a compost-
+ing toilet. Their goal is to achieve resource recycling. P1 and P2
+mentioned that traditional flush toilet systems rely heavily on water
+resources and sewage treatment facilities. In contrast, composting
+toilets do not require any water and use natural decomposition
+processes to turn human waste into fertilizer, which is then re-
+turned to the soil. Initially, they conducted extensive research on
+composting toilets, from commercial bio-gas systems to various
+open-source composting toilets. Ultimately, they decided to start
+with the simplest option: bucket toilets. As P1 commented:
+“We have started asking the question: Can the rest
+of the world do this? Can the rest of the world have
+flush toilets? No. Composting toilets? Yes!”
+This comm reflects a conscious problematisation [ 8] of conven-
+tional sanitation, reframing it as unsustainable and seeking alterna-
+tives aligned with their stewardship values. The choice of a simple
+DIY system also connects to their emphasis on participation and
+skill-sharing. Giving people space, time, and support, P2 thought
+the most exciting part of participating in making projects is sharing
+knowledge. P2 commented that lack of confidence and knowledge
+was a barrier for her to participate in making and fixing things. P2
+683
+Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+had never picked up a hammer before, and now she can fix things
+on the roof and really get into it. Making is a journey for her to
+learn and gain confidence. They also suggest that working with
+others towards a shared vision is an essential need for humans. This
+highlights the creative and empowering aspects of DIY infrastruc-
+ture within the community. They think, however, our current social
+systems take us further away from our needs rather than closer to
+our needs. Through designing and making things together, they
+attempted to manage power imbalances resulting from different
+skills, capabilities, and willingness. As P2 commented:
+“My ideal eco-village is rarely designed. I want to live
+in a place that is evolving in some way. You know,
+people sometimes ask us when will it be finished?
+Well, now and never is finished. That is the answer
+at every point. It’s a resident led, consensus driven
+growth journey.”
+This quote underscores the value placed on emergent, participa-
+tory processes over fixed master plans. Similarly, P4 (the founder of
+EV2) strongly agrees with the Australian Aboriginal concept of the
+“past, present, and emerging” custodians of the country. He sees
+custodianship as an ongoing responsibility. Prior to 1977, EV2’s land
+was used for excessive grazing, and the previous tenants burned
+part of the forest every year for grazing. After P4 took over the
+farm, there has never been a strategic burn again. In the earliest
+days of the community, P4 recalled that the care of the land was
+a priority, and a policy of no spraying with hormones and no use
+of artificial fertilisers was adopted. At the same time, early com-
+munity members discovered that kangaroos, wallabies and other
+animals could not feel safe if dogs and cats were present in the
+community. Therefore, as part of their custodianship of the land,
+some members found other homes for their dogs, and these policies
+were adopted into the new structure of the community thereafter.
+As P4 commented:
+"The concept of custodianship resonates strongly with
+me. Since my teen years I have rejected our cultural
+concept of ownership. I have not owned anything of
+significance, be it land, horses or other items that were
+important in my life. In my mind I had a custodianship
+of them that allowed my interaction with, access to
+them and a responsibility to care for their welfare."
+Here, custodianship explicitly extends to non-human actors
+(land, animals), influencing community rules and shaping the actor-
+network. The decision to ban dogs and cats demonstrates how
+non-human interests were enrolled into the community’s structure.
+In the early 1980s, P4 realised that in order for people to settle
+and build long-term homes, they needed a legal entity. P4 found
+four Permaculture experts and a development group to redesign
+the community based on Permaculture principles, and received
+council’s approval. P4 transferred the land to the newly established
+Trust, and the deposit for the residential lots was used for the con-
+struction of infrastructure such as roads, dams, and power supply.
+After discussions with newly moved community members, EV2
+established two different legal entities, the Body Corporate and
+the Coop, each with different responsibilities; the Body Corporate
+committee represents the landowners, and the Coop provides ser-
+vices to the general community. But P4 recalled that with two legalentities, the community’s decision-making process became difficult
+or even impossible. Many times, important issues are discussed
+for long periods of time without reaching a decision. For years,
+the Coop’s expenses exceeded its income, and the Body Corporate
+needed to provide funds to keep the Coop afloat. This illustrates
+the challenges of mobilisation and maintaining alignment within a
+larger, more complex network involving diverse human actors and
+formal governance structures.
+P4 mentioned that the purpose of most people moving to EV2
+is that “people come here to rediscover their connection to each
+other and their connection to the land. ” “Connection to each other”
+is compassion and understanding for all humans, not just between
+members of the community. The “connection to the land” is not just
+a connection to the soil, but a connection to all the plants, reptiles,
+insects, birds and animals that live on the land. P4 emphasises that
+"land" is not just EV2’s 640 acres, but our planet Earth. After more
+than 40 years of development, P4 pointed out that EV2 has become
+a model for self-sufficient eco-villages around the world. In the cur-
+rent era of consumerism, P4 emphasises that EV2’s role is to bring
+the responsibility of protecting the land into mainstream society.
+EV2 needs to extend experiences and lessons learned beyond the
+boundaries of the land. As P4 commented:
+"I have a mantra I have used during the past two years.
+It is ’creativity, spontaneity, and freedom of spirit’. I
+repeated it often. Perhaps this is adding to the present
+energy of change. I am aware of many individuals and
+groups here in the community who are involved in
+unselfish and deeply empathetic projects. Projects to
+help others both within Australia and overseas. This
+applies to some residents who have projects in remote
+Indigenous communities, In Africa, in Cambodia and
+other Asian countries. The potential exists here to
+provide an example of a community that is a true
+self-sustaining eco-village... Increasing numbers of
+people will attend courses here and take the knowl-
+edge out into mainstream society. We will employ
+methods and techniques that reverse the present cli-
+mate change, land degradation and species extinction
+trends... Food production on the land will increase
+and we will utilise modern technology such as block-
+chain and crypto-currency in creative ways. We will
+have self-drive electric vehicles for use around the
+land that will come to our dwellings when requested
+and take us to our destination."
+P4’s reflections highlight the ongoing evolution of the commu-
+nity’s goals, linking local practices to broader global concerns and
+emphasising creativity and adaptation as key values.
+4.2 Composting Toilets
+Inspired by ANT, we clustered toilet-related non-human actors into
+four categories (Table. 2): toilets, natural environment, information,
+and space. Toilet actors include excrement collection, treatment,
+and distribution components. Natural environment actors refer to
+the ecological environment elements of the community, such as soil,
+flora, microorganisms, topography, etc. Information actors refer to
+684
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
+toilet-related guidance and signs, manure disposal and environment-
+related information etc. Space actors refer to the environment where
+the toilet is located, including bathrooms and outdoor landscapes,
+etc.
+Table 2: Non-Human Actors Related to Composting Toilets
+Category Description
+Toilet Actors Excrement collection, treatment, and dis-
+tribution components
+Natural environ-
+ment ActorsEcological environment elements of the
+community, such as soil, flora, microor-
+ganisms, topography, etc
+Information Actors Toilet related guidance and signs, ma-
+nure disposal and environment related
+information etc
+Space Actors The environment where the toilet is lo-
+cated, including bathrooms and outdoor
+landscapes, etc.
+4.2.1 Bucket Toilets (EV1). EV1’s composting toilet (Fig. 1) is lo-
+cated in a small separate cabin next to the communal living space.
+Community members started with a reclaimed solid wood televi-
+sion cabinet and transformed it into a composting toilet. This act of
+repurposing exemplifies a DIY, resourceful approach. The inside of
+the cabinet has two separate compartments, each holding a plastic
+bucket for collecting excrement. Two holes were made in the top
+of the cabinet, and lids were installed to cover them after each
+use to prevent odours. The middle drawers are used for storing
+toilet paper and other items. A bucket of sawdust is placed next
+to the seat, and after each use, a layer of sawdust is spread over
+the excrement to control odours and provide the necessary carbon
+source for the subsequent composting process. Here, the TV cabinet
+(now toilet actor), buckets, lids, and sawdust (material actors) are
+enrolled alongside human users into a functional system.
+To ensure hygiene and proper function of the toilet, community
+members have developed detailed usage and maintenance guide-
+lines for visitors. This represents an information actor designed
+to ’scrip’ user behaviour. After each use, users need to cover the
+excrement with a layer of sawdust. Every morning, residents take
+turns to remove the buckets, empty the excrement into the com-
+posting area, and clean the buckets. This routine maintenance is
+crucial for the network’s stability. The composting area uses a lay-
+ered method, with the bottom layer consisting of straw to help
+absorb liquids and promote decomposition. The composting pro-
+cess takes about a few months, and the resulting compost is used
+for gardens and bushes. This connects the toilet system directly
+to the local ecosystem (soil, plants, microbes). Every Sunday, EV1
+hosts Working Bees, inviting surrounding community residents
+to experience their lifestyle. Community members also travel to
+other communities to spread their philosophy and teach the use of
+composting toilets. This represents ’mobilisation’ – extending the
+network and enrolling others.
+P1 also highlighted the economic and infrastructural simplic-
+ity: bathrooms are the most expensive rooms because of internalplumbing and waterproofing. The infrastructure to make people
+have a comfortable shower at night costs a lot. Thus, they decided
+to build an outdoor shower. The perceived sacrifice they considered
+is that people cannot take showers when they want to. They need
+to do it when the sun is ready. Hence, they usually take showers
+in the middle of the day. Because of the beautiful outdoor scenery,
+they do not think it is a sacrifice. As P1 commented:
+“Are we prepared to go backwards? What comforts
+are we willing to give up”
+This quote addresses the ’interessement’ involved in adopting
+alternative infrastructures, challenging notions of comfort and
+progress.
+4.2.2 Urine Division Toilets (EV2 - P3’s Tiny Houses). P3 and his
+partner, both musicians in their 70s, have constructed two tiny
+houses and are now beginning to build a third in EV2. P3 chose to
+build the tiny houses because he felt that investing in property was
+more worthwhile than keeping money in the bank. He believes it
+would be beneficial to create living spaces, either for his own future
+use or for others. His partner intended to build two additional tiny
+houses for their two daughters. Through word of mouth, people
+learned about the eco-village, visited, and inquired about leasing
+the tiny houses. During the COVID-19 pandemic, interest in these
+accommodations increased significantly as more people sought out
+such living arrangements. P3 thinks that the pandemic prompted
+people to reassess their needs. However, P3 noted that some tenants
+found using the composting toilet challenging. As P3 commented:
+“I did a lot of research on toilets. For me, that works
+fine. Because I understand it. I helped build it. But
+people somehow they messed it up. It’s too easy just
+to flush it. We have to deal with our own stuff. ”
+This highlights a breakdown in ’enrolment’ when users (tenants)
+do not share the same understanding or commitment as the de-
+signer (P3). The toilet’s ’script’ was not successfully followed by
+all users, revealing the fragility of the network when key actors do
+not perform their expected roles.
+The composting toilet used by P3 is from Toilets for People (TFP).
+This is a small-scale composting toilet with urine diversion (Fig. 2).
+When users use the toilet, solid excrement and urine are collected
+separately. Solid excrement falls into a rotating drum, while urine
+is diverted through a pipe to another container. TFP provides a DIY
+kit similar to IKEA-style flat packaging, including all the necessary
+parts and allowing users to construct the outer shell themselves.
+This kit acts as a ’translator’, enrolling users in a specific assembly
+process. It features a rotating composting drum and a compost tray.
+For 2 adults, it needs to be emptied approximately every 2 months.
+The manure is collected in a covered container, accessible from
+the front, while urine is collected in a container at the back. P3’s
+composting toilet is equipped with a ventilation fan and is powered
+by a small solar battery. These non-human actors – fan, battery,
+solar panel – are crucial for managing odour and moisture. Since
+over 90% of waste entering the toilet is water, the ventilation system
+evaporates the moisture into the atmosphere, ensuring odourless
+usage and decomposition of manure. Solid excrement mixes in the
+rotating drum with other organic material (such as coconut coir or
+685
+Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+Lid down when not in use Cover with sawdust after use Remove bin and dump into com -
+posting hubUse humanure in gardens and food 
+forest
+Biogas
+The biogas system uses food scraps 
+and organic waste. Biogas is used for 
+cooking. Fermented liquid is used as 
+fertilizer for gardens.
+Television Cabinet
+This reclaimed television cabinet is 
+repurposed to have two toilets, each 
+one in each cabinet. The middle 
+draws are for toilet paper.
+Outdoor Biochar Urinal
+This bucket is removed bottom and 
+filled with charcoal.
+Sawdust
+Sawdust is used as compost material 
+to control smell and moisture.
+Composting Bases and Gardens
+Human waste is dumped in compost -
+ing bases in the garden, and eventu -
+ally used as fertiliser for trees.
+Shed
+This shed provides a private environ -
+ment for people to defecate.
+Bucket Toilet Process
+1 2 4 3
+Non-Human Actors
+Toilet ActorsT
+Natural environment 
+ActorsN
+Information ActorsI
+Space ActorsS
+Figure 1: Bucket Toilet in EV1
+sawdust) and after a period of time, is decomposed into soil-like
+compost.
+This composting toilet was originally designed and built by P3
+for personal use, not for rental purposes. However, after this tiny
+house was completed, some people came to EV2 hoping to rent
+it. P3 mentioned that during the rental, some people may find it
+challenging to adapt to using this type of toilet. For instance, this
+composting toilet is designed for sitting use. However, for those
+who prefer standing while urinating, the urine diversion area is
+relatively small, making it easy to make a mess in the toilet. This
+illustrates a mismatch between the toilet’s inscribed ’script’ and
+the diverse practices of potential users. Additionally, some tenants
+may not promptly mix organic matter and clean the compost. P3
+emphasises that sustainable living requires more daily maintenance.
+P3 also pointed out that we also need to change our mindset; while
+flush toilets may be convenient, through daily maintenance and
+managing our own composting, we may discover a more meaningfulexperience. This again points to the ’interessement’ required to
+stabilise the network around non-conventional practices.
+During his tenure as chairman of the Body Corporate in EV2
+for a year, P3 gained insights into the community dynamics. With
+over 200 residents, EV2 stands out for its residents’ independence
+compared to those outside the community. The demographic tilt
+towards an ageing population has attracted people seeking tranquil-
+lity, less concerned about organisational aspects. His vision of an
+ideal eco-village revolves around fostering communal interactions.
+P3 envisions clusters within the community sharing communal
+spaces like a well-equipped kitchen and laundry facilities, encour-
+aging residents to come together and collaborate. He believes that
+a successful eco-village should strive to diminish individualistic
+tendencies in favour of fostering cooperation and a sense of com-
+munity among its members. P3’s reflections touch upon the tension
+between individual autonomy and collective action needed to main-
+tain shared infrastructure and community cohesion, a key challenge
+in mobilising larger networks.
+686
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
+Fill the drum with compost material 
+before useUrinate in the front part, defecate in 
+the back partTurn the tumbler once which mixes 
+the waste with the coconut coir 
+after useEmpty the chamber every two 
+monthsUrine Division Toilet Process
+1 2 4 3
+Composting Toilet 
+DIY Kit
+P3 did research about 
+toilets and finally 
+chose this composting 
+toilet DIY kits from 
+Toilets For People. 
+The toilet can then be 
+customized to fit his 
+tiny house.Off-Grid Tiny House
+This tiny house is 
+designed   as a system 
+of self-contained living 
+biomes, capable of 
+generating water, pow -
+er and reusing waste.Composting Hub
+Human waste is 
+dumped in composting 
+hub close to the forest.Toilet Instruction
+Instructions on the 
+wall of bathroom
+Non-Human Actors
+Toilet ActorsT
+Natural environment ActorsN
+Information ActorsI
+Space ActorsS
+Figure 2: Urine Division Toilet in EV2
+4.2.3 Desiccating Toilets (EV2 - Common Practice). The EV2 com-
+munity is situated on 640 acres of land, which includes 15 various-
+sized dams. To protect these water resources and local ecosystems,
+the community strives to control any form of wastewater discharge.
+Since there is no municipal sewage system in the community, each
+household is required to manage its own wastewater. The dams’
+presence strongly ’interested’ the community towards waterless
+solutions. Most residents opt for desiccating toilets (dry compost-
+ing toilets), a practice that has been in place for over 30 years.
+This represents a long-term, stabilised network. Residents of EV2
+were provided with instructions on how to design and construct
+sanitation systems in the owner’s manual. This manual acts as a
+key ’translator’ standardising practice. Additionally, due to abun-
+dant timber resources and the hot, humid climate, most houses are
+built with the elevated structure. This design not only minimises
+land disturbance but also provides space underneath the house for
+composting toilets.Desiccating toilets (Fig. 3) typically require a certain amount of
+space for storing and processing waste, and the space under the
+elevated structure perfectly meets this need. The area beneath the
+elevated structure can be used for the installation and maintenance
+of composting toilets, avoiding the need for excavation of land. The
+space under the elevated structure helps with the ventilation of the
+composting toilet, reducing odours and promoting decomposition.
+Maintenance and cleaning of the composting toilet are more con-
+venient under the elevated structure, allowing residents to easily
+inspect and clean the compost. Sun, chimney height, and airflow
+are critical non-human actors in this design.
+5 Discussion
+Our ethnographic exploration of composting toilets in eco-villages,
+viewed through the lens of Actor-Network Theory, reveals how
+these seemingly simple artefacts become focal points for negotiat-
+ing human-nature relationships, fostering community creativity,
+and challenging conventional infrastructure paradigms. We first
+687
+Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+Lid down when not in use Cover with carbon compost materi -
+als after useCheck moisture, temperature, and 
+excess liquid of the toilet chamber 
+regularlyTake out the humanure once the 
+chamber is full (usually every two 
+or three years)Desiccating Toilet Process
+1 2 4 3
+Non-Human Actors
+Toilet ActorsT
+Natural environment ActorsN
+Information ActorsI
+Space ActorsS
+Toilet Seat
+This composting toilet 
+can be built in the 
+room. With proper car -
+bon composting ma -
+terial cover, it doesn’t 
+smell.Chamber
+It is important that this 
+chamber faces the sun. 
+Then the high chim -
+ney can take the odour 
+out and dry out the 
+excrement due to the 
+stack effect.Community Owner’s 
+Manual
+Residents of EV2 
+were provided with 
+instructions on how to 
+design and construct 
+sanitation. systems in 
+the owner’s manual.Wetland
+To protect native bio -
+diversity and wetlands, 
+EV2 chose waterless 
+composting toilets.
+Figure 3: Desiccating Toilet in EV2
+discuss how ANT helps map the complex networks involved, then
+introduce a framework of Tinkering, Linking, and Becoming to
+analyse the mediative and creative roles of these DIY systems, and
+finally reflect on the implications for creativity support and Sus-
+tainable HCI.
+5.1 ANT on Composting Toilets
+In the actor-network of the eco-village, there are both human actors,
+such as long-term residents and short-term visitors, and non-human
+actors, such as space, infrastructure, information, and the natural
+environment. The problems of each actor converge at the obliga-
+tory passage point before translation occurs [ 8]. From the residents’
+perspective, their problem is how to change their lifestyle to reduce
+the impact on their living land (problematisation stage, driven by
+stewardship values). From the perspective of the natural environ-
+ment (represented by actors like soil, water, local ecosystems), the
+problem is how to integrate human activities into the ecological
+cycle. Both of these problems can be focused on toilets and wastemanagement, which is the obligatory passage point. Determining
+the obligatory passage point can help all types of actors reach a
+consensus, work together to solve problems, remove obstacles, and
+promote the formation of the eco-village actor-network.
+Participants believe that the composting toilet is the key to trans-
+forming their lifestyle. Therefore, we use the composting toilet as
+a clue for the translation process of the actor-network. The transla-
+tion process usually includes four basic stages: problematisation,
+interessement, enrolment, and mobilisation. In the problematisation
+stage, the focal actor, the composting toilet, needs to discover the
+common goal of residents and the natural environment, which is to
+make human a contribution to the natural environment. Therefore,
+the composting toilet needs to endow interests to both humans and
+the environment: for residents, the toilet needs to provide a com-
+fortable and hygienic defecation environment, reducing odour and
+health hazards caused by composting; for the natural environment,
+the toilet needs to reduce the pollution of untreated faeces. After
+interessement (e.g. showing nutrient benefits to gardens), the actors
+688
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
+Human Toilet
+InformationNatural
+EnvironmentSpace
+Excrement HumanureSoilMicrobe
+Plant
+WaterToilet 
+ManagementBathroom
+Environmental 
+InformationUser
+GuidanceLandscape
+FoodCommunity
+Health &
+Wellbeing
+Main Actor Categories
+Subordinate Actor Categories
+Figure 4: Eco-village’s Actor-Network from Toilet’s Perspective
+are mobilised to take action. In the enrolment stage, human actors
+need to consider the cost and maintenance of making composting
+toilets, which is usually discussed by residents through participa-
+tory design (as seen in EV1) or adoption of established community
+standards (as in EV2). The discussion focuses on the defecation
+space experience and facility maintenance, so space becomes an
+actor that joins the network at this stage (e.g., the cabin in EV1,
+under-house space in EV2). In the mobilisation stage, temporary
+visitors or new residents need to be considered. As using compost-
+ing toilets is a different experience from flush toilets for ordinary
+people, information becomes an actor that joins the network at this
+stage (e.g., guidelines, manuals, induction), providing guidance on
+the correct use of composting toilets and attempting to align their
+behaviour with the network’s requirements (as highlighted by P3’s
+challenges with tenants).
+Inspired by ANT, we clustered non-human actors into four cat-
+egories: toilets, natural environment, information, and space. Toi-
+lets transform from actors to mediators, connecting human actors
+with the natural environment, information, and space as a net-
+work. Space actors can be divided into indoor and outdoor: indoor
+space can provide users with a safe and private toilet environment;
+outdoor space can be used as a landscape to enhance the toilet
+experience. Information actors can be divided into three categories:
+toilet management, user guidance, and environmental information.
+Toilet management actors need to monitor the toilet chamber’s
+remaining capacity and the compost pile’s maturity. User guidanceactors need to respond to users’ needs and proficiency. Environmen-
+tal information actors need to collect and analyse data on terrain,
+weather, vegetation, etc., to provide references for compost site
+selection and fertiliser distribution. Natural environment actors
+can be broadly divided into four categories: microorganisms, soil,
+plants, and water. Microorganism actors participate in the compost
+fermentation process and return to the soil during the fertilisation
+process to improve soil quality. Soil and water provide conditions
+for plant growth, and the food that grows can be eaten and fed back
+into this network through the digestive systems of humans and
+animals. ANT helps visualise this complex web of dependencies
+and translations that sustain the composting toilet system.
+5.2 Mediating the Human-Nature Relations by
+Composting Toilets
+In this section, we analyse how composting toilets mediate human-
+nature relations three interconnected processes: Tinkering, Linking,
+and Becoming. These processes work together to transform waste
+management from a hidden, specialised process into a visible, par-
+ticipatory activity that reconnects humans with ecological cycles.
+By embracing existing resources through tinkering, building rela-
+tionships through linking, and designing for adaptability through
+becoming, eco-village residents create alternative infrastructure
+that not only manages waste but also reshapes their relationship
+with the natural world.
+689
+Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+5.2.1 Tinkering: Engaging with Existing Resources and Systems.
+Composting toilet systems in the eco-villages often emerge through
+’tinkering’ – a creative process of adapting and repurposing exist-
+ing materials and knowledge, akin to the concept of bricolage in
+Adhocism [ 28]. This contrasts with standardised, top-down infras-
+tructure solutions. In EV1, the bucket toilet built from a reclaimed
+TV cabinet is a prime example. This approach starts by asking
+fundamental questions: What are the basic human needs (hygienic
+waste disposal, odour control)? What materials are readily available
+on-site or nearby (reclaimed furniture, sawdust)? How can we work
+with natural processes (microbial decomposition)? This tinkering
+makes the system’s workings transparent; users understand the
+components (buckets, sawdust) and the process (covering waste,
+emptying buckets, composting). This transparency encourages par-
+ticipation, as seen with P2 gaining confidence through hands-on
+involvement. This practical, situated creativity [ 27] allows ordinary
+people to engage in the design and maintenance, fostering a sense
+of ownership and understanding often absent with black-boxed
+conventional systems. By starting with the simplest bucket toilet
+design rather than implementing more complex sewage systems,
+composting toilets allow users to test, learn, and iterate their designs
+based on contextual conditions.
+The materials used in these composting toilets reveal how tin-
+kering embraces locally available resources. For example, various
+covering materials are used in these composting toilets, such as
+sawdust, leaves, and coconut coir. Users choose covering mate-
+rials that are easy to collect, and adjust the covering amount by
+observing the composting conditions. This aligns with Light et
+al.’s [ 31] concept of innovation at societal margins, where resource
+constraints foster creative solutions. By bringing the processes of
+waste decomposition into the realm of everyday attention through
+maintenance routines and composting systems, these toilets create
+regenerative visibility [ 35] — the ability to see and engage with
+ecological cycles that are typically hidden in modern infrastructure.
+Tinkering also manifests in the way these systems are main-
+tained and adjusted over time. Unlike flush toilets that immediately
+remove waste from sensory experience, composting toilets extend
+engagement with waste over time — from initial deposit through
+maintenance routines to eventual use as garden fertiliser. Com-
+posting toilets reconfigure temporal relationships with waste. Such
+recognition of waste not as inert substance but as active partici-
+pant in ongoing ecological processes. It also aligns with Indigenous
+approaches to sustainable living highlighted by P4’s reference to
+the Australian Aboriginal concept of custodianship, where humans
+are seen as working within rather than controlling natural systems.
+This commitment to tinkering with existing systems rather than
+wholesale replacement reflects a broader ethos articulated in re-
+search on posthuman design (e.g. [ 4,6,10,56]), which advocates
+for working with rather than against natural processes.
+5.2.2 Linking: Building Relationships Between Elements. Compost-
+ing toilets link human activities with ecological cycles in ways
+that conventional plumbing cannot. The composting process it-
+self creates biological linkages by fostering relationships between
+human waste, microorganisms, and plant growth. These linkages
+are not hidden but made visible and tangible through daily mainte-
+nance practices. As Haraway [ 22] suggests, humans are "companionspecies" that coexist within complex webs of relationship. Com-
+posting toilets transform the affective dimension of human-waste
+relations. Several participants described a profound shift in how
+they perceive excrement. The initial disgust or aversion to handling
+human waste gradually shifts toward appreciation of its role in
+ecological cycles.
+This linking extends beyond the human-waste-soil connection.
+Composting toilets link residents through shared responsibilities
+(e.g. emptying buckets, maintaining compost piles in EV1), foster-
+ing communication and cooperation. They link individual house-
+holds to community standards and knowledge networks (e.g., EV2’s
+owner’s manual). They link the tangible system (toilet, compost
+pile) to intangible values (stewardship, self-sufficiency, connection
+to land). Designing for linking means considering how resources,
+knowledge, and responsibilities can be shared to strengthen these
+networks.
+Social linkages are also important in these systems. Regular pub-
+lic workshops and working bees are hosted in both eco-villages
+to create knowledge networks that extend beyond communities’
+boundaries. These gatherings help translate situated knowledge
+about composting toilets into accessible practices that can be adopted
+more widely. These linking practices reflect what Heitlinger et al.
+[24,25] describe in their studies of grassroots food-growing com-
+munities, where waste recycling and knowledge sharing build com-
+munity connections. Composting toilet systems extend this concept
+by making excrement, typically a taboo subject, into a provocative
+topic for broader community discussion and collaboration.
+5.2.3 Becoming: Designing Systems that can be Dismantled and Re-
+configured. For sustainability, becoming means moving away from
+designing for a finished product and towards designing for systems
+and assemblages that can be taken apart and reconfigured [ 43].
+The physical designs themselves embody becoming through their
+modularity and reusability. For example, the composting toilets in
+our study demonstrate becoming through their adaptability, their
+emphasis on learning, and their capacity for disassembly and re-
+configuration. The bucket toilet system can be easily disassembled,
+moved, and reconfigured. Even the more complex urine-division toi-
+let comes as a kit that can be adapted to different housing contexts.
+This stands in stark contrast to conventional plumbing infrastruc-
+ture, which typically requires professional installation and becomes
+a fixed, immovable element of buildings. P2’s comment that her
+"ideal eco-village is rarely designed" and that it is "a resident-led,
+consensus-driven growth journey" also encapsulates the idea of
+becoming. The evolution of EV2 from its early days to its current
+established form, including the standardisation of desiccating toi-
+lets, shows a long-term becoming process. Rather than seeking a
+fixed endpoint, the concept of becoming values ongoing evolution
+and adaptation.
+Becoming is also evident in how these systems accommodate
+learning. P3’s observation that some tenants "messed up" the com-
+posting toilet because "it’s too easy just to flush" highlights the
+learning curve involved in transitioning to alternative infrastruc-
+ture. Rather than viewing this as a failure, the concept of becoming
+treats it as part of an ongoing process of adaptation and education.
+P4’s vision for the future of EV2 illustrates how becoming extends
+beyond current practices to imagine new configurations: "We will
+690
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
+employ methods and techniques that reverse the present climate
+change, land degradation and species extinction trends... We will
+utilise modern technology such as block-chain and crypto-currency
+in creative ways." This forward-looking stance shows how eco-
+villages see themselves not as static exemplars but as laboratories
+for ongoing socio-technical evolution. The emphasis on becom-
+ing reflects on how humans are shaped as environmental actors
+[14]. Designing for becoming involves creating systems that are
+adaptable to changing needs, contexts, and knowledge. It encour-
+ages learning and experimentation as integral parts of the process –
+users learn about decomposition, soil health, and the impact of their
+actions. Ideally, these systems are also designed for disassembly
+and reconfiguration, allowing materials to be reused or recycled.
+By designing systems that can be reconfigured as understanding
+evolves, alternative practices such as composting toilets create an
+open-ended collective that embraces change, emergence, and the
+potential for unexpected interactions.
+5.3 DIY Infrastructure: Creativity, Community,
+and Challenges
+In modern life, infrastructure is often hidden under the interface
+and designed and built by the government and professionals, mak-
+ing it invisible to the user. In this study, we observe makers at-
+tempting to break the isolation between the infrastructure and the
+user interface. They rethink their needs and redesign the impact of
+their behaviour on the environment. Their designs typically begin
+with long-term observations of the surroundings and are iteratively
+fabricated and optimised, demonstrating situated creativity and
+problem-solving. Through interaction with the infrastructure, they
+continually accumulate knowledge of the local environment and
+achieve diversity in infrastructure forms. This aligns with calls in
+HCI community to support making [ 5] and recognise the value
+embedded in maintenance and repair [26].
+DIY Infrastructure is a reflective activity. By getting hands-on
+with the waste they generate, individuals can understand how to
+be part of the ecological cycle rather than being blind to the im-
+pact of their activities. In using composting toilets, makers are
+not only processing human waste but also experimenting and vali-
+dating different designs and technologies. This practice not only
+promotes environmental awareness but also encourages innovative
+solutions to environmental issues by individuals and communities.
+In this way, DIY infrastructure inspires people to think about future
+lifestyles and generations. Furthermore, the applications of DIY
+infrastructure are not limited to personal and small-scale projects.
+At the community level, collectives can participate in the decision-
+making process of infrastructure and reach consensus on alternative
+practices, which can enhance community cohesion and autonomy,
+although challenges in consensus-building and governance exist, as
+noted in EV2. In short, DIY practice proposes a new way of treating
+infrastructure, which emphasises bottom-up initiative and creative
+reorganisation of local resources rather than waiting for policy and
+top-down changes.
+However, it is crucial to acknowledge the challenges and limita-
+tions associated with DIY infrastructure like composting toilets. It
+is important to note that the low-tech, creative designs of toiletsbased on eco-villages may not be directly transferable into mod-
+ern urban settings due to space constraints, population density,
+regulatory hurdles (e.g., health codes regarding waste handling),
+and different cultural norms around sanitation and waste. Psycho-
+logical barriers, often related to the ’yuck factor’ associated with
+handling human excreta, can significantly hinder adoption. Power
+structures within communities can influence whose designs are
+adopted and how maintenance labour is distributed, potentially
+creating inequities. Economic disparities also play a role; while
+some DIY solutions are low-cost (like EV1’s bucket toilet), more
+sophisticated systems or the time required for maintenance might
+be prohibitive for some. The success observed in the eco-villages
+in this study relies heavily on shared values, community commit-
+ment, and available land – factors often absent in other contexts.
+Furthermore, scaling these solutions requires navigating complex
+regulatory landscapes and potentially integrating with existing (or
+replacing parts of) centralised systems, posing significant political
+and logistical challenges.
+5.4 Implications for Creativity Support and
+Sustainable HCI
+The DIY infrastructure practices we observed embody transforma-
+tional creativity [ 7] through their radical reconceptualisation of
+waste management. Unlike incremental improvements to conven-
+tional sewage sanitation systems, composting toilets fundamentally
+transform the conceptual framework surrounding human waste
+— from problem to resource, from linear to circular, from hidden
+to visible. This transformation requires cognitive shifts that chal-
+lenge deeply held cultural assumptions about cleanliness, waste,
+and human relationships with bodily functions. Despite challenges
+mentioned above, the principles observed offer implications for de-
+sign and research in sustainable HCI, particularly concerning how
+to foster creativity and more sustainable human-nature relations
+through infrastructure:
+(1)Conceptual reframing from ’waste as pollution’ to ’waste
+as nutrient’ enables new design possibilities. Participants
+consistently described how composting toilets required them
+to "think differently" about waste. Such alternative concepts
+combine multiple value systems that are often seen as sepa-
+rate or contradictory in conventional design. Technical ef-
+ficiency, ecological regeneration, aesthetic experience, and
+community building are integrated rather than traded off
+against each other. This hybridisation creates creative com-
+munities [ 32] — groups that collectively re-imagine and re-
+build their material surroundings.
+(2)Instead of designing infrastructure for people, explore infras-
+tructure by people. Promote transparency in infrastructure
+systems, making their workings understandable and modifi-
+able by end-users. For example, P1 and P2 keep the bucket
+toilet as simple as possible and try to use easy approaches to
+manage complexity. In this way, end-users can discuss and
+redesign the community infrastructure to meet their needs
+and ethos, fostering ongoing creative engagement. Neverthe-
+less, building the system takes more time than purchasing
+ready-made solutions. Tinkering through retrofitting and
+reflection can lead to creativity and ingenuity.
+691
+Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+(3)Design small, modular, and connected components that link
+waste to production in the local environment. Compared to
+modern flush toilets, all composting toilets presented in this
+paper are relatively small. The local environment, however,
+is more closely connected to them through composting. Ex-
+crement can be transformed into manure to nourish the local
+flora instead of being flushed away. With small components
+like composting toilets, food gardens, trees, and microbes
+connecting together, the network produces no waste within
+its intended cycle.
+(4)Explore interaction possibilities that build relationships be-
+tween humans and non-humans, fostering more-than-human
+care. The composting toilet facilitates engagements among
+diverse non-human stakeholders. The local flora and fauna
+are considered, even prioritised, when designing the com-
+munity infrastructure (as seen in EV2’s policies). The cohabi-
+tation and biodiversity achieved by composting also provide
+positive feedback to the residents, reinforcing their relations
+to the non-human world.
+(5)Mobilise DIY infrastructure and ecological knowledge-sharing
+networks. Even though projects in this paper are highly
+contextual, responding to the local conditions, these toilets
+also show the flexibility to be adapted to other scenarios.
+DIY infrastructure not only serves as a possible solution
+for the sustainable living but can also be used as a sense-
+making method to co-create preferable futures and foster
+transformational creativity [ 7]. With emerging technologies,
+researchers should explore ways to mobilise traditional and
+local ecological knowledge and foster grassroots innovations
+while critically addressing the socio-political barriers to their
+wider adoption.
+6 Conclusion
+As sustainability issues grow, designers and researchers need to
+critically look at toilets. Instead of isolating human from nature
+and making excrement a burden on the environment, it is better to
+design toilets to connect human and nature, return manure to the
+soil, and improve the environment. This paper presents findings
+from a design ethnography in eco-villages about composting toilets
+and sustainable living. Through the lens of Actor-Network Theory,
+we illustrate three types of composting toilets and describe how
+these toilets can mediate the relationships between humans and
+non-humans from an object-centred perspective. Moving forward,
+there are opportunities to extend this work by designing novel
+toilets based on our composting toilet actor-network model.
+Acknowledgments
+For the final editing phase, the authors leveraged LLM models Gem-
+ini and Claude to suggest more concise phrasing. Subsequently, they
+reviewed and refined the AI-suggested content to ensure accuracy
+and coherence with their intended message.
+We thank our participants and collaborators for their support.
+Dr. Dhaval Vyas is supported by the Australian Research Council’s
+DECRA grant DE180100687.References
+[1]Kadia Georges Aka. 2019. Actor-network theory to understand, track and succeed
+in a sustainable innovation development process. Journal of Cleaner Production
+225 (2019), 524–540. https://doi.org/10.1016/j.jclepro.2019.03.351
+[2]Madeleine Akrich. 1992. The De-Scription of Technical Objects. In Shap. Technol.
+Soc. Stud. sociotechnical Chang. , Wiebe E Bijker and John Law eds (Eds.). The
+MIT Press, 259–264.
+[3]Madeleine Akrich and Bruno Latour. 1992. A summary of a convenient vocabulary
+for the semiotics of human and nonhuman assemblies. Shap. Technol. Soc. Stud.
+sociotecnical Chang. (1992), 259–264.
+[4]Jeffrey Bardzell, Shaowen Bardzell, and Ann Light. 2021. Wanting To Live Here:
+Design After Anthropocentric Functionalism. In Proceedings of the 2021 CHI
+Conference on Human Factors in Computing Systems . ACM, New York, NY, USA,
+1–24. https://doi.org/10.1145/3411764.3445167
+[5]Jeffrey Bardzell, Shaowen Bardzell, Cindy Lin, Silvia Lindtner, and Austin Toombs.
+2017. HCI’s making agendas. Foundations and Trends in Human-Computer
+Interaction 11, 3 (2017), 126–200. https://doi.org/10.1561/1100000066
+[6]Heidi Biggs, Tejaswini Joshi, Ries Murphy, Jeffrey Bardzell, and Shaowen Bardzell.
+2021. Alternatives to Agrilogistics: Designing for Ecological Thinking. Proc. ACM
+Hum.-Comput. Interact. 5, CSCW2 (10 2021). https://doi.org/10.1145/3479557
+[7]Margaret A Boden. 2004. The creative mind : myths and mechanisms (2nd ed ed.).
+Routledge, London.
+[8]Michel Callon. 1986. The Sociology of an Actor-Network: The Case of the Electric
+Vehicle. In Mapping the Dynamics of Science and Technology: Sociology of Science in
+the Real World , Michel Callon, John Law, and Arie Rip (Eds.). Palgrave Macmillan
+UK, London, 19–34. https://doi.org/10.1007/978-1-349-07408-2{_}2
+[9]Michel Callon and Bruno Latour. 1981. Unscrewing the big Leviathan: how
+actors macro-structure reality and how sociologists help them to do so. Advances
+in social theory and methodology: Toward an integration of micro-and macro-
+sociologies 1 (1981), 277–303.
+[10] Aykut Coskun, Nazli Cila, Iohanna Nicenboim, Christopher Frauenberger, Ron
+Wakkary, Marc Hassenzahl, Clara Mancini, Elisa Giaccardi, and Laura Forlano.
+2022. More-than-Human Concepts, Methodologies, and Practices in HCI. In
+CHI Conference on Human Factors in Computing Systems Extended Abstracts (CHI
+EA ’22) . Association for Computing Machinery, New York, NY, USA. https:
+//doi.org/10.1145/3491101.3516503
+[11] Andrew Crabtree, Mark Rouncefield, and Peter Tolmie. 2012. Doing Design
+Ethnography (2012 ed.). Springer Nature, London. https://doi.org/10.1007/978-
+1-4471-2726-0
+[12] Audrey Desjardins and Ron Wakkary. 2013. Manifestations of everyday design:
+guiding goals and motivations. In Proceedings of the 9th ACM Conference on
+Creativity & Cognition . 253–262.
+[13] Markéta Dolejšová, Cristina Ampatzidou, Lara Houston, Ann Light, Andrea
+Botero, Jaz Choi, Danielle Wilde, Ferran Altarriba Altarriba Bertran, Hilary
+Davis, Felipe Gonzales Gonzales Gil, and Ruth Catlow. 2021. Designing for
+Transformative Futures: Creative Practice, Social Change and Climate Emergency.
+InCreativity and Cognition (C&C ’21) . Association for Computing Machinery,
+New York, NY, USA. https://doi.org/10.1145/3450741.3465242
+[14] Paul Dourish. 2010. HCI and Environmental Sustainability: The Politics of Design
+and the Design of Politics. In Proceedings of the 8th ACM Conference on Designing
+Interactive Systems - DIS ’10 . ACM Press, New York, New York, USA.
+[15] Eco Villages Australia. 2024. Collective Ownership of Property. https://www.
+ecovillages.au/post/collective-ownership
+[16] Andrew Feenberg. 1995. Alternative modernity: The technical turn in philosophy
+and social theory . Univ of California Press.
+[17] Marta Ferreira, Miguel Coelho, Valentina Nisi, and Nuno Jardim Nunes. 2021.
+Climate Change Communication in HCI: A Visual Analysis of the Past Decade.
+InCreativity and Cognition (C&C ’21) . Association for Computing Machinery,
+New York, NY, USA. https://doi.org/10.1145/3450741.3466774
+[18] Laura Forlano. 2017. Posthumanism and Design. She Ji 3, 1 (2017), 16–29.
+https://doi.org/10.1016/j.sheji.2017.08.001
+[19] Guo Freeman, Szu Yu Liu, Jefrey Bardzell, Xi Lu, Shaowen Bardzell, and Diandian
+Cao. 2019. Smart and fermented cities: An approach to placemaking in urban
+informatics. In Conference on Human Factors in Computing Systems - Proceedings .
+Association for Computing Machinery, 13. https://doi.org/10.1145/3290605.
+3300274
+[20] Kavita Gonsalves, Marcus Foth, Glenda Caldwell, and Waldemar Jenek. 2021.
+Radical placemaking: An immersive, experiential and activist approach for
+marginalised communities. Connections: Exploring heritage, architecture, cities,
+art, media. Vol. 20.1. (2021), 143–164. http://architecturemps.com/wp-content/
+uploads/2021/03/Amps-Proceedings-Series-20.1.pdf
+[21] Maria Håkansson and Phoebe Sengers. 2013. Beyond being green: simple living
+families and ICT. In Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems . 2725–2734. https://doi.org/10.1145/2470654.2481378
+[22] Donna J Haraway. 2016. Staying with the Trouble: Making Kin in the Chthulucene .
+null, Vol. null. Duke University Press. null pages.
+692
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
+[23] Steve Harrison, Deborah Tatar, and Phoebe Sengers. 2007. The three paradigms of
+HCI. In Alt. Chi. Session at the SIGCHI Conference on human factors in computing
+systems San Jose, California, USA . 1–18.
+[24] Sara Heitlinger, Nick Bryan-Kinns, and Janis Jefferies. 2013. Sustainable HCI
+for Grassroots Urban Food-Growing Communities. In Proceedings of the 25th
+Australian Computer-Human Interaction Conference: Augmentation, Application,
+Innovation, Collaboration (OzCHI ’13) . Association for Computing Machinery,
+New York, NY, USA, 255–264. https://doi.org/10.1145/2541016.2541023
+[25] Sara Heitlinger, Rachel Clarke, Adrian K Clear, Simran Chopra, and Özge Dilaver.
+2019. Co-Creating "Smart" Sustainable Food Futures with Urban Food Growers.
+InProceedings of the 9th International Conference on Communities & Technologies
+- Transforming Communities (C&T ’19) . Association for Computing Machinery,
+New York, NY, USA, 114–120. https://doi.org/10.1145/3328320.3328399
+[26] Lara Houston, Steven J Jackson, Daniela K Rosner, Syed Ishtiaque Ahmed, Meg
+Young, and Laewoo Kang. 2016. Values in Repair. In Proceedings of the 2016 CHI
+Conference on Human Factors in Computing Systems (CHI ’16) . Association for
+Computing Machinery, New York, NY, USA, 1403–1414. https://doi.org/10.1145/
+2858036.2858470
+[27] Tim Ingold. 2013. Making: Anthropology, archaeology, art and architecture . Rout-
+ledge.
+[28] Charles Jencks and Nathan Silver. 2013. Adhocism : the case for improvisation
+(expanded a ed.). MIT Press, Cambridge, Massachusetts.
+[29] Bruno Latour. 1987. Science in action: How to follow scientists and engineers
+through society . Harvard university press.
+[30] Bruno Latour and Steve Woolgar. 2013. Laboratory life: The construction of
+scientific facts . Princeton University Press.
+[31] Ann Light. 2019. Design and Social Innovation at the Margins: Finding and
+Making Cultures of Plurality. Design and Culture 11, 1 (1 2019), 13–35. https:
+//doi.org/10.1080/17547075.2019.1567985
+[32] Ann Light, Deborah Mason, Tom Wakeford, Ruth Wolstenholme, and Sabine
+Hielscher. 2018. CREATIVE PRACTICE AND TRANSFORMATIONS TO SUSTAIN-
+ABILITY Making and Managing Culture Change . https://doi.org/10.13140/RG.2.2.
+10760.88321
+[33] Szu-Yu Liu, Shaowen Bardzell, and Jeffrey Bardzell. 2018. Out of control: reframing
+sustainable HCI using permaculture. , Article 2 pages. https://doi.org/10.1145/
+3232617.3232625
+[34] Szu-Yu Liu, Shaowen Bardzell, and Jeffrey Bardzell. 2019. Symbiotic Encounters:
+HCI and Sustainable Agriculture. , Paper 317 pages. https://doi.org/10.1145/
+3290605.3300547
+[35] John Tillman Lyle. 1996. Regenerative design for sustainable development . John
+Wiley & Sons.
+[36] Heather McKinnon, Marcus Foth, and Gavin Sade. 2020. 1300 Pieces of Rubbish: A
+Collaborative Approach to Making Sense of Everyday Resource Sufficiency in the
+Home. In Proceedings of the 2020 ACM Designing Interactive Systems Conference .
+Association for Computing Machinery, New York, NY, USA, 1351–1364. https:
+//doi.org/10.1145/3357236.3395576
+[37] Eleonora Mencarini, Valentina Nisi, Christina Bremer, Chiara Leonardi,
+Nuno Jardim Nunes, Jen Liu, and Robert Soden. 2024. Imagining Sustainable
+Futures: Expanding the Discussion on Sustainable HCI. Interactions 31, 2 (2 2024),
+39–43. https://doi.org/10.1145/3643493
+[38] Tim J Newton. 2002. Creating the new ecological order? Elias and actor-network
+theory. The Academy of Management review 27, 4 (2002), 523–540. https://doi.
+org/10.5465/AMR.2002.7566046
+[39] Juliet Norton, Birgit Penzenstadler, and Bill Tomlinson. 2019. Implications of
+Grassroots Sustainable Agriculture Community Values on the Design of In-
+formation Systems. Proc. ACM Hum.-Comput. Interact. 3, CSCW (11 2019).
+https://doi.org/10.1145/3359136
+[40] Andrew Quitmeyer. 2017. Digital Naturalist Design Guidelines: Theory, Investi-
+gation, Development, and Evaluation of a Computational Media Framework to
+Support Ethological Exploration. In Proceedings of the 2017 ACM SIGCHI Confer-
+ence on Creativity and Cognition (C&C ’17) . Association for Computing Machinery,
+New York, NY, USA, 184–196. https://doi.org/10.1145/3059454.3059462
+[41] Heidi R. Biggs, Jeffrey Bardzell, and Shaowen Bardzell. 2021. Watching Myself
+Watching Birds: Abjection, Ecological Thinking, and Posthuman Design. In Pro-
+ceedings of the 2021 CHI Conference on Human Factors in Computing Systems ,
+Vol. 16. ACM, New York, NY, USA, 1–16. https://doi.org/10.1145/3411764.3445329
+[42] Barath Raghavan, Bonnie Nardi, Sarah T. Lovell, Juliet Norton, Bill Tomlin-
+son, and Donald J. Patterson. 2016. Computational agroecology: Sustainable
+food ecosystem design. In Conference on Human Factors in Computing Systems -
+Proceedings , Vol. 07-12-May-. Association for Computing Machinery, 423–435.
+https://doi.org/10.1145/2851581.2892577
+[43] Johan Redström and Heather Wiltse. 2019. Changing Things: The Future of
+Objects in a Digital World (1 ed.). Bloomsbury Visual Arts, London,. 182 pages.
+https://doi.org/10.5040/9781350004368
+[44] Elizabeth Shove. 2007. The design of everyday life . Berg.
+[45] Nancy Smith, Shaowen Bardzell, and Jeffrey Bardzell. 2017. Designing for Cohab-
+itation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing
+Systems . 1714–1725. https://doi.org/10.1145/3025453.3025948[46] Yolande A A Strengers. 2011. Designing Eco-Feedback Systems for Everyday
+Life. In Proceedings of the SIGCHI Conference on Human Factors in Computing
+Systems . Association for Computing Machinery, New York, NY, USA, 2135–2144.
+https://doi.org/10.1145/1978942.1979252
+[47] Hongyi Tao and Dhaval Vyas. 2021. DIY Homes: Placemaking in Rural Eco-
+Homes. In Human-Computer Interaction – INTERACT 2021 , Carmelo Ardito, Rosa
+Lanzilotti, Alessio Malizia, Helen Petrie, Antonio Piccinno, Giuseppe Desolda,
+and Kori Inkpen (Eds.). Springer International Publishing, Cham, 343–364. https:
+//doi.org/10.1007/978-3-030-85613-7
+[48] Hongyi Tao and Dhaval Vyas. 2022. Making in/with Nature: Lessons from an
+Eco-village for Sustainable Making. In [ ] With Des. Reinventing Des. Modes ,
+Gerhard Bruyns and Huaxin Wei (Eds.). Springer Nature Singapore, Singapore,
+3–19. https://doi.org/10.1007/978-981-19-4472-7_1
+[49] Hongyi Tao and Dhaval Vyas. 2023. Making Practices in Pursuit of Ecological
+Ethos: Learnings from Three Ecovillages in Australia. International Journal of
+Human–Computer Interaction (3 2023), 1–17. https://doi.org/10.1080/10447318.
+2023.2188537
+[50] Jennyfer Lawrence Taylor, Dhaval Vyas, and Tony Sharp. 2017. Diversity and
+coherence in a hackerspace for people from a low socioeconomic community.
+InProceedings of the 29th Australian Conference on Computer-Human Interaction
+(Brisbane, Queensland, Australia) (OzCHI ’17) . Association for Computing Ma-
+chinery, New York, NY, USA, 238–247. https://doi.org/10.1145/3152771.3152797
+[51] United Nations. [n. d.]. Sustainable Development Goal 6. https://sdgs.un.org/
+goals/goal6
+[52] Dhaval Vyas. 2012. Domestic artefacts: sustainability in the context of indian
+middle class. In Proceedings of the 4th International Conference on Intercultural
+Collaboration (Bengaluru, India) (ICIC ’12) . Association for Computing Machinery,
+New York, NY, USA, 119–128. https://doi.org/10.1145/2160881.2160900
+[53] Dhaval Vyas and John Vines. 2019. Making at the Margins: Making in an Under-
+resourced e-Waste Recycling Center. Proc. ACM Hum.-Comput. Interact. 3, CSCW,
+Article 188 (Nov. 2019), 23 pages. https://doi.org/10.1145/3359290
+[54] Ron Wakkary. 2020. Nomadic practices: A posthuman theory for knowing design.
+International Journal of Design 14, 3 (2020), 117–128.
+[55] Ronald Wakkary. 2021. Things we could design : for more than human-centered
+worlds . The MIT Press, Cambridge, Massachusetts.
+[56] Sarah Webber, Ryan M Kelly, Greg Wadley, and Wally Smith. 2023. Engaging with
+Nature through Technology: A Scoping Review of HCI Research. In Proceedings
+of the 2023 CHI Conference on Human Factors in Computing Systems (CHI ’23) .
+Association for Computing Machinery, New York, NY, USA. https://doi.org/10.
+1145/3544548.3581534
+[57] Gail Whiteman and Steve Kennedy. 2016. Sustainability as Process. In The SAGE
+Handbook of Process Organization Studies . SAGE Publications Ltd, 55 City Road.
+https://doi.org/10.4135/9781473957954
+[58] Kristin Williams, Rajitha Pulivarthy, Scott E. Hudson, and Jessica Hammer. 2020.
+The Upcycled Home: Removing Barriers to Lightweight Modification of the
+Home’s Everyday Objects. In Conference on Human Factors in Computing Systems
+- Proceedings . Association for Computing Machinery. https://doi.org/10.1145/
+3313831.3376314
+[59] World Health Organization. 2022. WHO global water, sanitation and hygiene:
+annual report 2020 . Technical Report. https://www.who.int/publications/i/item/
+9789240033085
+693

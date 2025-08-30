@@ -1,0 +1,322 @@
+Learning to Move, Learning to Play, Learning to Animate: a
+Multimedia Exploration of the More-than-humanIntelligence
+MINGYONG CHENG∗,University of California San Diego, USA
+SOPHIA SUN∗,University of California San Diego, USA
+HAN ZHANG∗,University of California San Diego, USA
+YUEMENG GU ,University of California San Diego, USA
+This paper presents Learning to Move, Learning to Play, Learning to Animate , a cross-disciplinary performance
+presenting a narrative where humans, robots, synthetic embodiments, and organic entities interact across
+multiple layers of reality, reflecting our increasingly hybridized world. Rooted in the conceptual foundation of
+more-than-human intelligence, we connect our conceptual exploration with the stage design, choreography,
+and technical system design, blending natural and synthetic elements. The performance critiques anthropocen-
+trism and highlights themes of interconnectedness and shared environments, inviting audiences to reconsider
+the agency of non-human intelligence and explore the potential of co-creativity across natural and synthetic
+boundaries.
+CCSConcepts:• Appliedcomputing !Performingarts ;Mediaarts ;•Generalandreference !Design;
+•Computing methodologies !Artificial intelligence .
+Additional Key Words and Phrases: Interactive Multimedia Performance, Real-time Generative AI Art, More-
+than-human-world, Found Object Robotics, Bio-feedback Sonification and Visualization
+ACM Reference Format:
+Mingyong Cheng, Sophia Sun, Han Zhang, and Yuemeng Gu. 2025. Learning to Move, Learning to Play,
+Learning to Animate: a Multimedia Exploration of the More-than-human Intelligence. Proc. ACM Comput.
+Graph. Interact. Tech. 8, 3, Article 44 (August 2025), 11pages.https://doi.org/10.1145/3736788
+1 Introduction
+What does it mean to be intelligent? Is intelligence uniquely human, or can it take forms we often
+overlook—embodied in wood, stone, metal, or silicon? As artificial intelligence advances rapidly, its
+definition remains elusive, frequently framed as an alien force that threatens to overshadow human
+agency. Yet, intelligence surrounds us in ways we are only beginning to recognize, embodied by the
+intricate systems of animals, plants, and ecosystems that reveal profound complexity and agency.
+EcologistandphilosopherDavidAbramdescribes“themore-than-humanworld”asaperspective
+that dissolves the divide between humanity and the natural environment [ Abram2012]. This way
+of thinking invites us to consider intelligence not as a hierarchy but as a network of interdependent
+systems—human, technological, and ecological. Our work reflects this shift, exploring what it
+means to exist in a world where nature and technology are not opposites but co-creators of a
+∗Equal contribution
+Authors’ Contact Information: Mingyong Cheng , University of California San Diego, San Diego, USA, m2cheng@ucsd.edu;
+Sophia Sun , University of California San Diego, SAN DIEGO, USA, shs066@ucsd.edu; Han Zhang , University of California
+San Diego, San Diego, USA, haz074@ucsd.edu; Yuemeng Gu , University of California San Diego, San Diego, USA, yug027@
+ucsd.edu.
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+© 2025 Copyright held by the owner/author(s).
+ACM 2577-6193/2025/8-ART44
+https://doi.org/10.1145/3736788
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+
+44:2 Cheng, Sun, Zhang, et al.
+shared intelligence. How can we coexist without domination, recognizing the agency of all forms
+of intelligence?
+In our performance, Learning to Move, Learning to Play, Learning to Animate , we examine these
+questionsthroughorganicmaterialrobotics,AI-generatedvisuals,real-timebiofeedbackinteractive
+soundscapes, and a narrative of human and machine learning through movement. This multimedia
+explorationinvitesaudiencestoreflecton learning ,interaction ,andperception withinthemore-than-
+human world, bridging the natural and synthetic in search of shared meaning, which is increasingly
+vital in a time when ecological crisis and technological acceleration urge us to rethink how we
+define intelligence and relate to other forms of life and matter.
+Fig.1. Astillfromourperformance,wherewemergetheorganicandthesynthetic,wheretheperformer,the
+plants, and the shadow are united in movement.
+2 Motivation: A narrative in a more-than-human world
+The concept of the more-than-human world highlights the interconnectedness of human, non-
+human, and technological entities. David Abram’s TheSpelloftheSensuous [Abram2012] advocates
+renewed sensory engagement with nature, challenging anthropocentric perspectives. Similarly,
+James Bridle’s Ways of Being [Bridle2022] urges an inclusive and empathetic understanding of
+technological and ecological intelligences. Our work draws on these philosophies and speculative
+ecological visions, such as Pinar Yoldas’s Ecosystem of Excess (2014), imagining organisms evolved
+to metabolize plastic waste [ Yoldas2014], Anicka Yi’s In Love With The World (2021), envisioning
+hybrid biological-technological entities [ Yi2021], and Memo Akten’s generative AI-driven Deep
+Meditations: A brief history of almost everything (2018), revealing ecological interconnectedness
+[Akten2018].
+Our robots embody the vitality of plant life, inspired by Charles Darwin’s documentation of
+plant movements in The Power of Movementin Plants (1880), describing growth patterns as gentle
+spiraling movements—nature’s own “hello world” (Fig. 4a) [Darwin et al .1883]. Further inspiration
+comesfromforestcommunicationnetworks,knownasthe”internetoftrees,”whererootsandfungi
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+Learning to Move, Learning to Play, Learning to Animate 44:3
+form interwoven systems of exchange [ Bridle2022]. These natural processes exhibit intelligence
+paralleling our technological innovations, suggesting that coexistence and co-evolution with nature
+and technology is an ancient wisdom our performance aims to convey. These insights inform our
+integration of found-object robots and plant bio-feedback, influenced by artworks like Christa
+Sommerer and Laurent Mignonneau’s InteractivePlantGrowing (1992), in which human interaction
+shapes virtual plant growth [ Sommerer and Mignonneau 1992], and Špela Petrič’s PL’AI(2020),
+where an AI-powered robot engages interactively with cucumber plants, exploring curiosity and
+sentience beyond humans [ Špela Petrič 2020].
+We chose performance art for its ability to embody and communicate complex relationships
+among humans, machines, and nature through immediacy, presence, and live interaction. This form
+allows us to shift audience perspectives beyond anthropocentrism by directly engaging them with
+interspecies and synthetic connections. While drawing from the foundational legacy of post 1960s
+performance art, including Stelarc’s ThirdHand [Stelarc1980] and Paik and Moorman’s TVCello
+[Paik and Moorman 1971], which explored the human body and machine, our work moves toward
+ecological entanglements and more-than-human agencies.
+3 Stage Design and Narrative Overview: Representing Interconnected Realities
+Our stage design is rooted in a conceptual exploration of interconnectedness, interdependency,
+and coexistence, embodying the more-than-human world. We illustrate the physical setup in
+Figure2, and the system design in Figure 3. The space is conceived as a coexistence of shared
+realities,whichincludethecollectiveenvironmentsthatareco-createdbybeingsonearth,alongside
+synthetic realities that manifest as computationally generated environments, or imagined worlds.
+The main projection screen at the center serves as a fluid boundary between these dual realities.
+The foreground, representing our shared reality, contrasts with the synthetic reality depicted on
+the main projection screen.
+Our narrative (illustrated in Figure 3b) tells the story of embodied beings (performers, robots,
+plants) at the intersection of these dual realities, exploring and interacting with the space and each
+other. Shadows are an important element in this performance. As the human performer moves
+through the multi-reality space, their shadows on the central screen become a representation of
+the embodied being’s presence. Instead of having the robot physically move through the space, its
+shadow conveys its movement, challenging perceptions and imagining how the being could play
+and animate across realities. This transformation progresses from the robot’s physical presence (in
+the foreground) to its shadow (artistic form) and extends to the performer’s expression and beyond.
+Performers, with their ability to move fluidly across the stage, provide a dynamic representation
+of intelligence within the narrative. Their interactions with the robot, plants with bio-signal
+transmission, and shadows transform the stage into a responsive environment where every entity
+influences and is influenced by the others.
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+44:4 Cheng, Sun, Zhang, et al.
+Fig. 2. Stage design diagram
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+Learning to Move, Learning to Play, Learning to Animate 44:5
+(a)System Design
+(b) A chronological overview of technical and narrative elements
+Fig. 3. System Design and Narrative Overview for our Performance
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+44:6 Cheng, Sun, Zhang, et al.
+Remote control through Arduino
+Spiral movement in plant growth (Darwin,1880)
+implementation with organic materials Jensens’ linkage
+2-link arm robot
+Movements and shadows coordinated with performance 
+(a) Design, implementation, and effects of the found-object robots featured in the performance.
+Real-time AI generationStreamDiffusion
+-TD Plugin
+Motion 
+captured by 
+Kinect AzureMotion 
+tracking data  
+in Touch 
+Designer (TD)
+Post-visual processing in TD
+Project image to overlay with  
+shadows cast by the performerVisualize data  v v
+Performer dances  
+behind the screen
+(b) Real-Time AI-Generated Imagery with Motion Tracking: the interplay of real and generated imagery
+OSC 
+Performer’s touch
+Electrode sensors on 
+plantsBio-feedback circuit 
+and Arduino boardAudio processing in 
+Ableton Live
+Visual processing in  Touch DesignerLocal Router
+OSC 
+(c)Real-timeBio-feedbackDataProcessing:Adatasonificationandvisualizationexperiencecreatedbythe
+interaction between plants and a human performer.
+Fig. 4. Diagrams for the technical workflow.
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+Learning to Move, Learning to Play, Learning to Animate 44:7
+4 System Design: Representing More-than-human-intelligence
+4.1 Found Object Robots
+We feature two moving robots in the performance, the centerpiece robot and the shadow robot
+(Figure4a). They are constructed with found natural materials, mostly fallen branches and prairie
+grass from our local area. The practice of building robots with improvised materials is explored
+in recent years as a robust and eco-friendly alternative to the status quo [ Carroll and Yim 2020;
+Maekawa et al. 2018;Tsunoda et al. 2024].
+The centerpiece robot was designed to be an artistic representation of the spiral movement of
+plant life’s growth. The robot is made from 11 branches, connected as in the Jansen mechanism
+[Jansen2007]. One link acts as the rotational input (powered by a mounted brushless motor) which
+is then traced into the spiraling motion of the entire linkage. Its movement is controlled by a switch
+synced to our performance narrative.
+The shadow robot is a pan-and-tilt platform actuated by two servo motors and an Arduino-UNO-
+R4-WiFi. We use the actuation to create a tilting and swaying motion for the attached prairie grass,
+similar to their organic movements. The servos are guided by the artists remotely to echo the
+dancers’ movements.
+4.2 Synthetic Embodiments in Visual Design
+Our visual design engages with the concept of ’the more-than-human world’ by creating syn-
+thetic embodiments as representations of more-than-human intelligence, manifesting through the
+center, side, and top projection mappings (Figure 2). We explore three major types of synthetic
+embodiments:
+AI-generated ”secondhood” with performers: In scenes 2 and 3 (Figure 3), the main screen displays
+liveAI-generatedvisualsthatcreatesyntheticsecondhoodsoftheperformers.UsingStreamDiffusion-
+TD [dotsimulate 2023;Kodaira et al .2023], the system blends motifs of nature, human anatomy,
+and industrial machinery. This synthesis is guided by a curated, rotating set of prompts fed into
+StreamDiffusion. Real-time motion tracking from Kinect Azure drives the visuals, layering radio-
+graphic aesthetics [ Marinković et al .2012] inspired by artists like Man Ray [ Ray1921] and Nick
+Veasey [ Veasey[n.d.]] that transition from black-and-white to color (see Figure 5band top left
+of Figure 5a), inviting viewers to engage with hidden connections between natural and synthetic
+elements through embodied experience.
+Virtual entities with authentic forms: The side scrim projection incorporates algorithmically
+generated tree-like forms created with the L-system framework [ Lindenmayer 1968]. Inspired by
+natural growth processes, these forms dynamically respond to audio cues, simulating growth and
+adaptation,andseamlesslyshiftbetweendata-drivenvisualsandorganicaesthetics.Holographically
+integrated with live performers and plants in the foreground, these virtual beings construct a
+multisensory experience that immerses the audience in a speculative ecological narrative (see top
+right of Figure 5a). Additionally, the main projection showcases other virtual entities, such as the
+computationally simulated organic shadow that features prominently in scene 1 (see performance
+imageinFigure 4b).Inscene4,visualsgeneratedwithTouchDesignerandAnimateDiffforComfyUI
+[Kosinkadink 2024] represent the flourishing of life through dynamic, tree-like visuals (bottom
+right of Figure 5). These projections harmonize with the foreground’s tangible elements, blending
+digital and physical components in a unified representation of growth and vitality.
+Digitalshadowwithnaturallycastshadow: Shadows and light are treated as coexisting forces
+that dissolve binary distinctions between presence and absence, the real and unreal. In scene 3,
+the performer’s shadow overlays their AI-generated secondhood, creating an ambiguous fusion
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+44:8 Cheng, Sun, Zhang, et al.
+of natural and synthetic realities (see scene 2 and 3 of the Figure 4band top left of the Figure 5a).
+The main robotic figure casts authentic shadows via floor projections synchronized with rhythmic
+audio cues, as well as the robotic arm staged behind the main screen casting shadows on the main
+projection. The projections create the robot’s shadow and seamlessly integrate it with digital visual
+elements, simulating organic processes such as breathing, exploring embodiments of playfulness,
+or invoking cybernetic aesthetics to enhance the narrative’s impact. This interplay between natural
+and digital shadows is further explored in a key moment in Scene 3, where the performer wields a
+flashlight. The light not only casts the robot’s shadow but also illuminates the main screen, partially
+dissolving the AI-generated visuals while interacting with another performer behind the screen
+(see bottom left of Figure 5a). This layered interaction integrates the naturally cast shadow of the
+robot into the digital projection, producing a hybrid presence that embodies both tangible and
+intangible qualities.
+(a) Performance photographs illustrating our exploration of ”Synthetic Embodiments” in Visual Design
+(b) A demonstration of real-time AI image generation usingmotion tracking data and StreamDiffusion
+Fig. 5. Details of visual design
+4.3 Bio-Signal Synthesis in Sound Design
+The electroacoustic soundscape that persists throughout the performance incorporates both human
+and inhuman elements, echoing the theme of the performance and the ideas behind the visual
+design. In scene 4, we incorporate an interactive bio-feedback sensory system to further strengthen
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+Learning to Move, Learning to Play, Learning to Animate 44:9
+the connection between the staging, performance, and soundscape. The sound design actively
+integrates with stage design and narrative performance, going beyond the acoustic realm to create
+an immersive auditory experience.
+Embodied field recording: The composition for the performance intentionally includes real-world
+sonic elements from our building process. The field recordings include cracking sounds of body
+jointsandspine,soundsofwalkingongrass,andsoundsofoperatingdrillscapturedwhentherobot
+was built, etc. The recordings are processed digitally, adding cross-layer modulations accomplished
+through innovative spectral crossing, and accompanied by a vibrant electronic layer made mainly
+with the synthesizer Arp 2600. Contextualized into the performance narrative, the sounds from
+the natural world weave an expressive soundscape that evokes the vibrancy and interconnection
+among human, nature, and machines.
+Bio-Signal sonification: Biofeedback is a concept from medicine and psychology, where the body
+learns to regulate itself using feedback from signals generated by its own physiological processes.
+As the core insight of biofeedback - that the biological entity is also a learning system [ West2009] -
+is a perfect demonstration of the thesis of our piece, we integrate biofeedback as an artistic element
+into our performance. We use electromyography (EMG) sensors to capture the feeble electrical
+activity beneath the biological surfaces to which they are attached. As shown in Figure 4c, we
+attach electrode pads to the leaves and branches of the plants on stage. These electrical spikes are
+converted by circuit [ Wright et al .1997], then read by an Arduino MKR WiFi board and transmitted
+to the audio and visual programs via OSC. In the final scene of the live performance, the performer
+makesphysicalcontactwiththeplants,initiatingthetransmissionofbio-information.Thatbio-data
+triggersreal-timeprocessinginsoundthattransformsachaoticsoundscapetoaharmonioustexture
+that leads the performance to a harmonious conclusion.
+5 Audience Feedback and Future Direction
+We conducted the performance twice for audiences of 30 people each and once in video format
+for an audience of 60. Attendees praised the immersive experience, describing it as “incredible”
+and “a vibrant concept.” One viewer highlighted, “My favorite part … that’s an actual recording
+of cracking knuckles synced in real time to the dancer’s movements!” Many reflected on how the
+performance prompted them to rethink their relationship with technology, particularly AI, through
+its themes of interconnectedness.
+The interdisciplinary collaboration across Visual Arts, Music, and Computer Science sparked
+interest, with questions about how dancers, audiovisual systems, and robots were integrated
+seamlessly.Thetechnicalcomplexityofsynchronizingthesereal-timeelementswaswidelyadmired.
+Encouragingly, we received requests to present this work at K-12 STEM outreach events, with
+organizers highlighting the project’s environmentally conscious concept and human-in-the-loop
+art-making process as particularly inspiring for students.
+We propose two directions to further develop our piece. Firstly, some audiences have found our
+work to be ”too abstract”. We acknowledge the ambiguity in our presentation, but want to preserve
+the open-ended and provocative nature of our piece. Nevertheless, to clarify the narrative and
+concept, we will include pre-show voiceovers and supplementary text. Secondly, we were stopped
+by technical challenges of doing reinforcement learning with the organic-form robots we built, and
+opted for teleoperation. In the future, we will improve the hardware and software of the robot to
+present the learning process on state, further aligning with the work’s themes of co-creativity and
+more-than-human intelligence.
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+44:10 Cheng, Sun, Zhang, et al.
+6 Conclusion
+Learning to Move, Learning to Play, Learning to Animate positions performance art as a critical
+medium for interrogating agency and intelligence in an age where AI and ecological systems are
+redefining creativity. By bringing together visual art, ecology, robotics, music, biofeedback, and
+artificial intelligence, this work treats interdisciplinarity as both method and message, presenting a
+living system of co-creation that challenges anthropocentrism and expands our understanding of
+agency and participation.
+Looking toward the future, our project stands as both artistic practice and provocation, exploring
+how co-creative agency can take shape among humans, machines, and the more-than-human
+world. In a time marked by rapid technological change and ecological uncertainty, this work invites
+a critical perspective that recognizes ongoing interdependence across disciplines, domains, and
+entities, seeks new pathways for learning and making with more-than-human intelligence, and
+foregrounds empathy and ethical engagement. In doing so, it extends the practice of co-creation
+far beyond the stage and into the fabric of our interconnected everyday lives.
+Acknowledgments
+Special thanks to Erika for her performance, Robert Twomey for his valuable feedback, and the
+IDEAS program, co-sponsored by the Qualcomm Institute and UC San Diego, for supporting this
+work.
+References
+David Abram. 2012. The spell of the sensuous: Perception and language in a more-than-human world . Vintage.
+Memo Akten. 2018. Deep Meditations: A brief history of almost everything (2018). https://www.memo.tv/works/deep-
+meditations/ .
+James Bridle. 2022. Ways of being: Animals, plants, machines: The search for a planetary intelligence . Penguin UK.
+Devin Carroll and Mark Yim. 2020. Robots made from ice: an analysis of manufacturing techniques. In 2020 IEEE/RSJ
+International Conference on Intelligent Robots and Systems (IROS) . IEEE, 1933–1938.
+Charles Darwin, Francis Darwin, et al. 1883. Thepower of movement in plants. D. Appleton and company.
+dotsimulate. 2023. Real-time diffusion in TouchDesigner - StreamdiffusionTD Setup + Install + Settings. https://www.
+youtube.com/watch?v=X4rlC6y1ahw .
+Theo Jansen. 2007. The great pretender . 010 Publishers.
+Akio Kodaira, Chenfeng Xu, Toshiki Hazama, Takanori Yoshimoto, Kohei Ohno, Shogo Mitsuhori, Soichi Sugano, Hanying
+Cho, Zhijian Liu, and Kurt Keutzer. 2023. StreamDiffusion: A Pipeline-level Solution for Real-time Interactive Generation.
+arXiv:2312.12491 [cs.CV] https://arxiv.org/abs/2312.12491
+Kosinkadink. 2024. ComfyUI-AnimateDiff-Evolved. https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved .
+Aristid Lindenmayer. 1968. Mathematical models for cellular interactions in development I. Filaments with one-sided inputs.
+Journal of TheoreticalBiology 18 (1968), 280–299. doi:10.1016/0022-5193(68)90079-9
+Azumi Maekawa, Ayaka Kume, Hironori Yoshida, Jun Hatori, Jason Naradowsky, and Shunta Saito. 2018. Improvised robotic
+design with found objects. In Proc. 3rdConf. NeurIPS WorkshopMach. Learn. CreativityDes . 1–5.
+Slobodan Marinković, Tatjana Stošić-Opinčal, and Oliver Tomić. 2012. Radiology and Fine Art. American Journal of
+Roentgenology 199, 1 (2012), W24–W26. doi:10.2214/AJR.11.7934 PMID: 22733928.
+Nam June Paik and Charlotte Moorman. 1971. TV Cello.
+Man Ray. 1921. Rayograph. https://www.moma.org/collection/terms/rayograph .
+C. Sommerer and L. Mignonneau. 1992. Interactive Plant Growing. [Online]. Available: https://www.interface.ufg.ac.at/
+christa-laurent/InteractivePlantGrowing.html .
+Stelarc. 1980. Third Hand.
+Yusuke Tsunoda, Yuya Sato, and Koichi Osuka. 2024. GREEMA: Proposal and Experimental Verification of Growing Robot
+by Eating Environmental Material for Landslide Disaster. Journalof Robotics and Mechatronics 36, 2 (2024), 415–425.
+Nick Veasey. [n.d.]. Whistler Art – Nick Veasey. https://www.nickveasey.com/ .
+Špela Petrič. 2020. PL’AI. https://www.spelapetric.org/plai
+Krista West. 2009. Biofeedback . Infobase Publishing.
+Matthew Wright, Adrian Freed, et al .1997. Open SoundControl: A new protocol for communicating with sound synthesizers.
+InICMC.
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.
+Learning to Move, Learning to Play, Learning to Animate 44:11
+Anicka Yi. 2021. In Love With The World. https://www.anickayistudio.biz/exhibitions/in-love-with-the-world .
+Pinar Yoldas. 2014. Ecosystem of Excess. https://pinaryoldas.info/Ecosystem-of-Excess-2014 .
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 8, No. 3, Article 44. Publication date: August 2025.

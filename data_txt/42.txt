@@ -1,0 +1,1735 @@
+The Odyssey Journey: Top-Tier Medical Resource Seeking for 
+Specialized Disorder in China 
+Ka I Chan 
+Department of Computer Science and 
+Technology, Beijing National 
+Research Center for Information 
+Science and Technology, Global 
+Innovation Exchange (GIX) Institute 
+Tsinghua University 
+Beijing, China 
+ckinicola@gmail.com Siying Hu 
+Department of Computer Science 
+City University of Hong Kong 
+Hong Kong, China 
+siyinghu-c@my.cityu.edu.hk Yuntao Wang∗ 
+Key Laboratory of Pervasive 
+Computing, Ministry of Education, 
+Department of Computer Science and 
+Technology 
+Tsinghua University 
+Beijing, China 
+School of Computer Science and 
+Technology 
+Qinghai University 
+Xining, China 
+yuntaowang@tsinghua.edu.cn 
+Xuhai Xu 
+Google 
+New York City, New York, USA 
+orson.xuhai.xu@gmail.com Zhicong Lu 
+Department of Computer Science 
+George Mason University 
+Fairfax, Virginia, USA 
+zlu6@gmu.edu Yuanchun Shi 
+Department of Computer Science and 
+Technology, Beijing National 
+Research Center for Information 
+Science and Technology 
+Tsinghua University 
+Beijing, China 
+Qinghai University 
+Xining, China 
+shiyc@tsinghua.edu.cn 
+Abstract 
+It is pivotal for patients to receive accurate health information, 
+diagnoses, and timely treatments. However, in China, the signif-
+cant imbalanced doctor-to-patient ratio intensifes the information 
+and power asymmetries in doctor-patient relationships. Health 
+information-seeking, which enables patients to collect information 
+from sources beyond doctors, is a potential approach to mitigate 
+these asymmetries. While HCI research predominantly focuses on 
+common chronic conditions, our study focuses on specialized dis-
+orders, which are often familiar to specialists but not to general 
+practitioners and the public. With Hemifacial Spasm (HFS) as an 
+example, we aim to understand patients’ health information and 
+top-tier1 medical resource seeking journeys in China. Through in-
+terviews with three neurosurgeons and 12 HFS patients from rural 
+and urban areas, and applying Actor-Network Theory, we provide 
+∗corresponding author
+1Top-tier medical resources and services refer to medical institutions that are well-
+known for their specialized departments and are typically located in big cities. These 
+institutions have highly qualifed medical professionals and are equipped with state-of-
+the-art facilities and equipment. In this paper, this mainly refers to hospitals renowned 
+for their expertise in treating hemifacial spasm. 
+This work is licensed under a Creative Commons Attribution 4.0 International License. 
+CHI ’25, Yokohama, Japan 
+© 2025 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-1394-1/25/04 
+https://doi.org/10.1145/3706598.3713315  empirical insights into the roles, interactions, and workfows of 
+various actors in the health information-seeking network. We also 
+identifed fve strategies patients adopted to mitigate asymmetries 
+and access top-tier medical resources, illustrating these strategies 
+as subnetworks within the broader health information-seeking net-
+work and outlining their advantages and challenges. 
+CCS Concepts 
+• Human-centered computing → Empirical studies in HCI. 
+Keywords 
+Health Information Seeking, Hemifacial Spasm, Actor-Network 
+Theory 
+ACM Reference Format: 
+Ka I Chan, Siying Hu, Yuntao Wang, Xuhai Xu, Zhicong Lu, and Yuanchun 
+Shi. 2025. The Odyssey Journey: Top-Tier Medical Resource Seeking for 
+Specialized Disorder in China. In CHI Conference on Human Factors in 
+Computing Systems (CHI ’25), April 26–May 01, 2025, Yokohama, Japan. ACM, 
+New York, NY, USA, 18 pages. https://doi.org/10.1145/3706598.3713315 
+1 Introduction 
+In the context of patients seeking medical assistance, doctors often 
+play a crucial and authoritative role [25], as they are generally
+regarded as common and reliable sources of accurate information 
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+Figure 1: Study Overview. In this paper, we focus on specialized disorders, taking Hemifacial Spasm as an example to better 
+understand how patients mitigate the information and power asymmetries in the doctor-patient relationship through health 
+information-seeking in China. We proposed a health information-seeking network formed by four units and identifed fve 
+strategies, each involving diferent units, utilized by patients to access top-tier medical resources. 
+and adequate treatment options. However, in China, the doctor-to-
+patient ratio is highly imbalanced2, thus accessing top-tier medical 
+professionals can be challenging for many patients. Often, they can 
+only consult with doctors within their reach (who may not have 
+the right expertise) and have to rely on the authority and health 
+information those doctors provide, without the ability to verify 
+it due to limited information sources. This scenario contributes 
+to the information and power asymmetries in the doctor-patient 
+relationship. 
+Individuals who become aware of abnormalities in their bodies 
+typically seek and utilize various health information resources, such 
+as healthcare systems, fellow patients, friends, family, and the inter-
+net. As such, actively seeking health information is a vital approach 
+to mitigate the potential information and power asymmetries in 
+the doctor-patient relationship, empowering patients with knowl-
+edge beyond those provided by their doctors. The use of online 
+sources for health information-seeking has become prevalent, with 
+patients using search engines and social media for self-diagnosis 
+2China has only 1.98 medical doctors per 1,000 of the population, including generalist 
+and specialist medical practitioners, falling short of the World Health Organization’s 
+standard for primary healthcare needs, which is more than 2.3 health workers per 
+1,000 [1]. and exploring potential treatments [27, 102]. It can lead to signif-
+cant ofine impacts, afecting patients’ emotions and infuencing 
+their health-related decisions [21, 36, 57, 60, 78]. 
+Extensive research within the HCI communities has been dedi-
+cated to understanding the practice and design of tools supporting 
+health information work in the context of common chronic condi-
+tions, such as diabetes, dementia, cardiovascular disease [29, 49, 70], 
+which are generally well-known to the public. In contrast, stud-
+ies focusing on rare diseases [68, 69, 76] and specifc disorders 
+[71, 81, 88] are fewer. There is a signifcant gap in understand-
+ing conditions that are familiar to specialized doctors but not to 
+the general public. These conditions typically have relatively low 
+prevalence, which means that even general practitioners may not 
+be familiar with them. Thus, patients are often struggling to reach 
+specifc departments for accurate diagnosis. In this paper, we refer 
+to these conditions as specialized disorders and use Hemifacial 
+Spasm (HFS) as an example to better understand this challenge. 
+Unlike common chronic conditions, HFS as a specialized dis-
+order has a total prevalence of only 9.8 per 100,000 [77] and is 
+predominantly managed within the felds of neurosurgery, leading 
+to limited public exposure and access to relevant health information. 
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+The uncommonness of HFS, coupled with its similarities to facial 
+paralysis, increases the risk of misdiagnosis and misinformation, 
+making it challenging for patients to fnd adequate and satisfactory 
+treatment options. This issue is particularly acute in rural areas, 
+where lower health literacy levels may impede individuals’ ability 
+to obtain proper health information [4]. Consequently, these factors 
+exacerbate the gap between doctors’ authoritative and professional 
+knowledge and patients’ limited information sources, intensifying 
+the information and power asymmetries in doctor-patient relation-
+ships. 
+HFS patients often undergo a long journey before they can access 
+medical treatments, averaging 11.4 ± 8.5 years [ 100]. Our research 
+aims to understand how these patients are empowered by lever-
+aging various approaches, such as actively seeking information, 
+utilizing the internet, and engaging in social networking. This em-
+powerment is critical in overcoming the information and power 
+asymmetries that exist in doctor-patient relationships, thereby im-
+proving their access to health information and medical resources, 
+particularly to top-tier medical services. It is signifcant to explore 
+how HFS patients navigate the needed health information, gain 
+access to efective treatment options and channels leading to top-
+tier medical resources, thereby our study aim to investigate the 
+following research questions: 
+RQ1: What are the primary sources from which HFS patients seek 
+health and healthcare information? 
+RQ2: What strategies do HFS patients adopt to acquire top-tier 
+medical resources and services, and how do these strate-
+gies empower them to mitigate the power and information 
+asymmetries in the doctor-patient relationship? 
+This study employs qualitative research methods to explore the 
+health information and top-tier medical resource seeking journey 
+of HFS patients in China. We conducted semi-structured interviews 
+with three neurosurgeons and 12 HFS patients from rural (N=6) and 
+urban areas (N=6) of China. During the frst round of data analysis 
+using thematic analysis, we discovered that health and medical 
+information seeking for HFS patients mainly relies on guanxi3 
+and social interactions, especially for those from rural areas, with 
+technology playing a weak role despite its great potential to assist 
+patients. Therefore, we applied Actor-Network Theory (ANT) in 
+our second round of data analysis, which enabled us to identify and 
+comprehend the various actors involved, analyzing and discussing 
+both human and non-human entities at the same level. This ap-
+proach helped us uncover how these actors collaborate and interact, 
+thereby forming stable and efective health information channels. 
+Furthermore, we observed the various strategies employed within 
+this health information-seeking network. This analytical approach 
+highlights how social networks and technology can be leveraged to 
+diversify and strengthen information channels, thereby providing 
+patients with broader and more efective access to various treatment 
+resources. 
+We contribute to the HCI communities by building upon existing 
+research on health information-seeking in a broader context. With 
+3Guanxi refers to the complex dynamics of social networks and relationships in Chinese 
+society, which are presonalized, subjectively perceived as close, and rich in resources 
+[12]. HFS as a research lens, our research introduces a novel information-
+seeking perspective by focusing on specialized disorders that are 
+uncommon among general patients and health practitioners. This 
+particular focus sheds light on the exacerbated information and 
+power asymmetries in doctor-patient relationships, allowing us 
+to delve deeper into the strategies that patients utilize to access 
+top-tier medical resources. Our contributions include: 
+1. We provided empirical evidence and employ Actor-Network 
+Theory to elucidate the roles, interactions, and workfows of 
+various actors within the HFS patients’ health information-
+seeking network. 
+2. We identifed fve strategies utilized by patients with special-
+ized disorders from both urban and rural areas in China to 
+access top-tier medical resources and services. We illustrated 
+these strategies as subnetworks within the broader health 
+information-seeking network. Additionally, we detailed the 
+advantages and challenges associated with each of these 
+strategies. 
+3. We found that guanxi and strong ties, as parts of human 
+infrastructure, plays crucial roles in the process of seeking 
+top-tier medical resources in China. Additionally, the poten-
+tial of technology to empower patients assists in mitgating 
+the challenges and asymmetries in medical access. 
+2 Background and Related Work 
+2.1 Hemifacial Spasm 
+Hemifacial Spasm (HFS) is a chronic neurological disorder charac-
+terized by unilateral tonic and clonic contractions of facial muscles 
+innervated by the facial nerve [94], often originating from the or-
+bicularis oculi muscle [100]. The annual incidence rate of HFS is 
+0.78 per 100,000 [6], and the total prevalence is 9.8 per 100,000, 
+although this may be underestimated due to misdiagnosis and lack 
+of referral from general practitioner [77]. HFS can signifcantly 
+impact a patient’s quality of life, leading to social discomfort and 
+awkwardness, emotional distress, and functional limitations [84]. 
+HFS can be accentuated during speaking and eating, as well as 
+psychological tension [2, 106]. It is important to note that attribut-
+ing these symptoms to stress and anxiety can potentially lead to 
+underdiagnosis of HFS. 
+The treatment options for HFS include drug therapy, Botox in-
+jections, acupuncture, and microvascular decompression (MVD) 
+surgery. Medications, Botox injections, and acupuncture ofer lim-
+ited efcacy and temporary relife, serving as low-risk palliative 
+treatments [100, 103]. Among these, MVD is the only radical treat-
+ment with a high success rate for addressing the underlying cause 
+of HFS [74]. However, MVD carries inherent risks and potential 
+complications, with approximately one-third of patients (33%±8%) 
+experiencing a delayed cure in post-operation [90]. Additionally, 
+early surgical intervention is preferred because long-term HFS pa-
+tients tend to have signifcantly poorer postoperative outcomes 
+[86]. Notably, the primary treatments employed in China are Botox 
+injections and acupuncture [101]. The shared decision-making pro-
+cess is crucial when choosing between surgery and non-surgery 
+options [99]. This process involves healthcare providers introduc-
+ing the benefts and potential harms of available treatment options 
+to patients, weighing the probabilities of outcomes alongside the 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+patients’ values and needs to reach a consensus on the decision [37]. 
+The optimal treatment is the one that best aligns with the patient’s 
+preferences, taking into account the pros and cons of each option 
+[9]. Consequently, patients who have high anesthetic or surgical 
+risks may reject surgery [86]. 
+2.2 Doctor-Patient Relationships in Chinese 
+Context 
+The doctor-patient relationship is pivotal in ensuring patients re-
+ceive accurate health information, diagnoses, and timely treatments. 
+However, China’s situation is distinct, especially when compared to 
+developed countries like the U.S., the U.K., and Japan. These high-
+income countries typically have around 10 nurses and 3 doctors 
+per 1000 people, while China has only about 1.3 nurses and 1.7 
+doctors [82]. This shortage of healthcare professionals in China 
+may be attributed to the relatively unattractive income, unlike in 
+developed western countries where being a doctor is a high-income 
+occupation with signifcant returns on professional education [75]. 
+In China, as society progresses, people are becoming more con-
+scious of their health, leading to increased demand for medical 
+resources. However, this demand is met with challenges such as 
+power and information asymmetries, along with unequal allocation 
+of medical resources between rural and urban areas, intensifying 
+the tension in doctor-patient relationships [114]. Most developing 
+countries, characterized by high power distance, often place doctors 
+in a dominant position during consultations [42]. Patients may feel 
+it is not their place to question their health or express their feelings, 
+leading to brief consultations dominated by the doctor’s decisions, 
+with little room for unexpected information exchange [46]. This 
+dynamic contributes to the power asymmetry in doctor-patient 
+relationships, with patients hesitant to challenge the authority of 
+doctors. Moreover, doctors dominate the consultation in terms of 
+knowledge, skills, time, and resources, which exacerbates the knowl-
+edge gap and information asymmetry [113]. Cheng and Zou [20] 
+found that doctor-patient relationships could potentially change 
+how doctors diagnose and treat patients, including issues such as 
+over-examination, over-diagnosis, and over-treatment [112]. As a 
+result, doctor-patient relationships in China tend towards paternal-
+ism, with patients striving for better medical resources to receive 
+an optimal medical decision about their health. 
+2.3 Health Information Seeking 
+Health information-seeking refers to the methods individuals use to 
+acquire information related to health, illness, health promotion, and 
+health risks [ 60]. This process is dynamic; as individuals encounter 
+new health information, their understanding evolves, impacting 
+subsequent information-seeking and decision-making [54]. Despite 
+the abundance of health information, many people sufer severe 
+complications or lose their lives due to a lack of knowledge about 
+prevention methods. This can be attributed to insufcient proac-
+tiveness, reliance on passive information acquisition, the infuence 
+of personal characteristics and information sources, as well as other 
+contextual factors beyond patients’ control [59]. Therefore, explor-
+ing patients’ information-seeking behaviors can provide valuable 
+insights into strategies for efectively conveying information, en-
+hancing self-management, and preventing disorder progression. Individuals access health information through various channels, 
+including healthcare systems, friends, family, and the internet. In-
+creasingly, patients, caregivers, and the general population turn to 
+the internet for health information [39], which can signifcantly 
+infuence their beliefs and actions [8, 26]. Online platforms such as 
+search engines, social media, and online communities ofer privacy, 
+real-time interaction, and archived health information, facilitating 
+patient knowledge and self-diagnosis. However, barriers to on-
+line health information-seeking include low health literacy, limited 
+information retrieval skills, unreliable information, platform cen-
+sorship, and misinformation [7, 47]. Collaboration in information 
+work is crucial for helping patients understand their health con-
+ditions and access healthcare resources efectively. Patients often 
+collaborate with medical practitioners, family, friends, and fellow 
+patients [15, 53]. Health information-seeking is benefcial not only 
+for acquiring knowledge but also for navigating the healthcare 
+system, especially during critical circumstances such as emergency 
+visits [44, 80]. 
+In HCI, health information-seeking has been examined in vari-
+ous populations, including teenagers, transgender individuals, and 
+patients with mental health issues, chronic conditions, and rare dis-
+eases [7, 30, 53, 69, 72]. Gui et al. [44] elucidated the health service 
+navigation process of parents for their children in the U.S. health-
+care system and their infrastructuring work for accessing healthcare 
+services [43]. Design studies have also aimed at benefting Black 
+older adults and fat people in their health information-seeking ef-
+forts [45, 48]. Notably, MacLeod et al. [68] explored the support 
+needs met or neglected by diferent sources for patients with rare 
+diseases and proposed technology designs to improve information 
+sharing and navigation for these patients [69]. 
+2.4 Actor-Network Theory 
+Actor-Network Theory (ANT), developed in the 1980s by Michel 
+Callon, John Law, and Bruno Latour [62–64], is a theoretical and 
+methodological approach to social theory. ANT posits that both 
+human and non-human entities, regarded as actors, infuence the 
+activity of a sociotechnical system [24]. It contends that no external 
+social force exists outside these relationships, and phenomena do 
+not exist independently. Thus, ANT focuses on "describing" rather 
+than "explaining" social phenomena [61]. It challenges traditional 
+methods by defning non-humans as actors equal to humans. Ini-
+tially, ANT explored how knowledge growth and structure could 
+be analyzed through actor interactions [65], ofering a novel per-
+spective for practical application. Despite facing both embrace and 
+critique, ANT remains a valuable form of inquiry in various felds, 
+such as organizational analysis, informatics, and health studies 
+[104]. 
+ANT has been efectively utilized within HCI communities. It 
+has informed studies in participatory design [28, 41], the role of 
+design materials [38, 96], the development of cyberstructures [ 83], 
+mobile media use in India [58], parenting practices among Latino 
+immigrants [107], asymmetries in the gig economy [52], and care 
+for breast cancer survivors [66]. These diverse applications demon-
+strate ANT’s efectiveness in understanding the creation and main-
+tenance of various sociotechnical systems. 
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+In ANT, non-human entities—such as objects, transportation de-
+vices, and texts—are valued equally with human actors [89]. ANT 
+provides a uniform framework "regardless of the unit of analysis" 
+[23], promoting "analytical impartiality" in dealing with both hu-
+man and non-human entities. This approach allows for an equal 
+analysis of the myriad roles within the network [95]. As we explore 
+the information fow and strategies in a network of individuals and 
+resources navigating pathways to top-tier medical services, ANT 
+enables a systematic analysis of this sociotechnical system. By bal-
+ancing the importance of social networking and technology in the 
+health information-seeking network, ANT helps us delve into the 
+tensions and alliances between patients, doctors, social networks, 
+and technology. This comprehensive actor-network analysis aids in 
+understanding the strategies patients use to mitigate asymmetries 
+in doctor-patient relationships and explores the connections and 
+interactions between actors. 
+3 Methods 
+To better understand the health information-seeking experiences 
+and practices among HFS patients and explore our research ques-
+tions, we referred to the methodologies in Gui and Chen [43] and 
+Lefkowitz [66] for conducting interviews and qualitative analysis. 
+Semi-structured interviews were conducted with three neurosur-
+geons and 12 patients in China. 
+3.1 Interviews and Recruitment 
+All interviews were conducted in Mandarin and audio-recorded 
+with participants’ consent. The recordings were transcribed by 
+the frst author, a native Mandarin speaker who conducted all the 
+interviews. Participants were fully briefed on the study’s purpose 
+and received monetary compensation after data collection. This 
+study received approval from the university’s Institutional Review 
+Board (IRB). 
+Doctor-Centered Interview. Semi-structured interviews were 
+initially conducted with three neurosurgeons (denoted as D1-D3). 
+These neurosurgeons, with at least fve years of professional ex-
+perience, work in a top-tier hospital in Beijing (a frst-tier city in 
+China). The interviews were designed to gather information from 
+a professional perspective and to gain an overview of the patients’ 
+situations. Topics discussed included HFS patients’ general circum-
+stances, their experiences within the healthcare process, and the 
+potential challenges they might face, as seen from the professional 
+viewpoint. All interviews were conducted remotely via audio calls 
+in July 2023, lasted from 0.5 to 1 hour. 
+Patient-Centered Interview. We then conducted semi-structured 
+interviews with 12 individuals diagnosed with HFS from both rural 
+and urban areas (denoted as P1-P12, Table 1). Among them, P1-P11 
+had undergone microvascular decompression (MVD) surgery, the 
+only existing radical treatment for HFS, at a top-tier hospital in 
+Beijing (a frst-tier city in China). P12, despite having sufcient in-
+formation and access to treatment, was hesitant about undergoing 
+surgery. Participants living in cities across China were categorized 
+as urban, while those in counties and countryside areas were cat-
+egorized as rural. All interviews were conducted remotely using 
+audio calls via mobile phones in August 2023, except for P2 and 
+P3, whose interviews were conducted via text and voice messages on WeChat4 due to P2’s limited Mandarin profciency and P3’s 
+Hyperacusis5. All patients own a smartphone except P8, who owns 
+a basic mobile phone. 
+The patient interviews aimed to understand their experiences 
+and practices related to HFS. The frst part focused on how patients 
+realized and recognized their condition, with questions like "When 
+did you become aware the abnormalities? " and "How did you realize 
+that you have Hemifacial Spasm? ". The second part examined how 
+patients sought related health and healthcare information, with 
+questions like "Have you tried to self-diagnose? If so, how did you 
+do that? ", "What approach did you adopt to search for health and 
+healthcare information, and how did you search for it?", and "How 
+did you seek medical help at that time? ". During each phase, the 
+frst author listened attentively without interruptions and probed 
+further with questions such as, "Is there anything else you would 
+like to add? ", "How did it begin? ", and "What happened before/after? " 
+until the participants had nothing more to add. Each interview 
+lasted between 30 minutes to 1.5 hours. 
+Participants were recruited through direct contacts and snowball 
+sampling. During recruitment, they were provided with comprehen-
+sive details about the study’s design, duration, and compensation. 
+Recognizing the sensitivity of some interview questions, we in-
+formed participants that they had complete freedom to choose 
+what aspects of their communication to report. However, we still 
+encountered several challenges. Many patients expressed skepti-
+cism about our intentions, and some were reluctant to share their 
+experiences due to the traumatic nature of their illness and post-
+operative complications. Additionally, some rural patients who 
+could not speak Mandarin and had low literacy refused to be in-
+terviewed. Others declined participation due to work-related time 
+constraints. These factors contributed to initial refusals. For those 
+who expressed interest, we communicated further and conducted 
+interviews through WeChat. Despite our eforts, scheduling difcul-
+ties led to further refusals. Although these challenges constrained 
+our ability to recruit a larger number of participants, those recruited 
+were diverse in terms of locations, educational levels, occupations, 
+and socio-economic statuses. 
+3.2 Data Collection and Analysis 
+Interview data was collected from two groups: doctors and patients. 
+All interviews were recorded and transcribed into text for analysis. 
+The transcripts were analyzed in two rounds using thematic analy-
+sis and Actor-Network Theory (ANT) as the analytical framework. 
+In the frst round of thematic analysis [13], two native Mandarin-
+speaking researchers familiarized themselves with the transcripts 
+and developed initial analytic interests in the HFS patients’ informa-
+tion sources and practices. Each researcher immersed themselves in 
+the data, marking ideas related to the research questions. They inde-
+pendently organized the specifc language and concepts described 
+by participants into themes through descriptive and interpretive 
+analysis. Descriptive analysis focused on the explicit content of 
+the transcripts, addressing research questions aimed at identifying 
+and categorizing the information sources and strategies adopted 
+4A Chinese instant messaging app. 
+5Hyperacusis is a condition that increases sensitivity to sound and reduces tolerance 
+for ambient noise, making phone calls intolerable [98]. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+Table 1: Summary of patients interviewed. 
+Undergone Location ID Sex/Age HFS Duration Education level OccupationMVD surgery (City/County, Province) 
+P1 F/47 8 years Yes Urban (Jining, Shandong) Bachelor Engineer 
+P2 F/52 2 years Yes Urban (Yantai, Shandong) Middle school Retiree 
+P3 F/70 8 years Yes Urban (Beijing) Associate Retiree 
+P4 M/55 6 years Yes Rural (Gushi, Henan) Elementary school Restaurant owner 
+P5 F/54 11 years Yes Urban (Wuhan, Hubei) Technical secondary school Retiree 
+P6 M/48 1.5 years Yes Rural (Wuzhai, Shanxi) Bachelor Government employee 
+P7 F/54 9 months Yes Rural (Changling, Hebei) High school Retiree 
+P8 F/70 3 years Yes Rural (Xiajin, Shandong) No formal education Farmer 
+P9 M/31 2.5 years Yes Rural (Handan, Hebei) Elementary school Farmer 
+P10 F/37 2 years Yes Urban (Luohe, Henan) Associate Worker 
+P11 F/63 15 years Yes Urban (Beijing) High school Retiree 
+P12 M/50 4 years No Rural (Shenchi, Shanxi) Bachelor Government employee 
+by HFS patients. Interpretive analysis, on the other hand, sought 
+to uncover the underlying motivations and factors infuencing pa-
+tients’ practices and strategy choices, aiming to gain insights into 
+their experiences and behaviors within their social contexts [32]. 
+This approach provided a deeper understanding of the motivations 
+behind their strategy choices and how these strategies evolved 
+over time. The researchers then generated individual lists of initial 
+codes. Finally, they met to compare and combine the initial code 
+lists, reaching a consensus. 
+ANT guided the second round of coding. ANT is an efective 
+approach for understanding complex sociotechnical systems. It con-
+siders how both human and non-human entities equally infuence 
+situations and analyzes how these entities interact to facilitate the 
+fow and development of knowledge. We adopted the actor-network 
+research framework developed by Kraal et al. [55], grounded in 
+Callon’s sociology of translation and incorporating terminology 
+from both Callon and Latour [ 16]. This framework interprets Cal-
+lon’s "moments of translation" into four steps: "interessement", 
+"enrollment", "points of passage", and the "trial of strength". In the 
+interessment step, actors and actants become interested in joining 
+the network. During the enrollment step, the roles of these actors 
+and actants are defned, assigning a specifc role to play. Subse-
+quently, one or more actors may attempt to direct, control, and 
+manage the other actors in the points of passage step. In the trial 
+of strength step, the stability of the network is assessed by examin-
+ing whether all actors adhere to their assigned roles, ensuring the 
+arrangement of actors is maintained. Guided by these steps, two 
+researchers identifed the actors in the health information-seeking 
+network. They sorted the initial code list based on these actors and 
+defned the roles of various actors in either facilitating or hindering 
+patients’ access to information, as well as the circulation of health 
+information among these connections. This comprehensive exami-
+nation allowed us to identify the strategies HFS patients adopted 
+to access top-tier medical resources and services. All codes were 
+translated into English and discussed by the research team to reach 
+a consensus. 4 Findings 
+Through the qualitative data analysis, we identifed the key actors 
+within the health information-seeking network. Furthermore, this 
+network is delineated by connections that trace the pathway of 
+health information-seeking, ranging from initial illness awareness 
+to the pursuit of top-tier medical resources among HFS patients. 
+4.1 United-Actors and their Interactions in 
+Health Information-Seeking Network 
+An actor-network consists of a variety of heterogeneous actors who 
+come together to form a network, based on connections and interac-
+tions that align with mutual interests. Our actor-network represents 
+the workfow of health information disseminated through a diverse 
+set of channels. We have categorized the actors within this network 
+into distinct units, based on their nature and similarities. These 
+units are identifed as the Familial Unit, the Community Unit, the 
+Medical Unit , and the Technological Unit . 
+4.1.1 The Role of the Familial Unit. In the health information-
+seeking network, two members of familial unit are central actors: 
+Patients themselves and Patient’s Family Members. We frst intro-
+duce the roles of each actor and then describe their characteristics 
+and connections between them by cases. 
+The Familial Unit–Patient. The onset age of HFS patients are 
+around 48.5 ± 14.1 years old [100], ranging from the middle-aged 
+to older adults. Consistent with other studies [73], we found that 
+some older adult patients are reluctant to use technology, often 
+perceiving it as untrustworthy or unreliable. Consequently, HFS 
+patients in our study have various technology acceptance. We have 
+identifed three distinct roles of patients within the network dur-
+ing health information-seeking practices. The frst is the Proactive 
+Information-Seeking Patient , who independently gather informa-
+tion from both online and ofine sources, often accessing necessary 
+information on their own. Proactive patients may still receive assis-
+tance from family members, but primarily in an accompanying and 
+supportive role, as they are generally independent. The second role 
+is the Low Technological Literacy Patient , typically older adults who 
+distrust online information or lack opportunities to use technology 
+due to limited external contact. They usually rely on their children 
+
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 2: ANT Graphical Depiction. By incorporating Actor-Network Theory (ANT) during the data analysis process, we 
+identifed the main actors and roles in the health information-seeking network. We categorized these roles into four units, as 
+shown in the fgure. Additionally, we identifed fve strategies that form distinct strategic subnetworks within the broader 
+health information-seeking network. The subnetwork of the intermediary strategy is depicted in the fgure, and a specifc 
+example can be seen in Fig. 4. 
+for health information and prefer direct medical consultations. The 
+third role is the Experienced Patient , who has other chronic condi-
+tions and a history of hospitalization, making them more attentive 
+to their health status and aware of HFS symptoms earlier, often 
+consulting healthcare professionals directly. 
+The Familial Unit–Patient’s Family Members. Family mem-
+bers of HFS patients, either partners or children, assume two roles 
+in the health information-seeking network: Direct Agent and Com-
+panion . Direct Agents typically support technology-skeptic patients, 
+acting as mediators who "transform, translate, distort, and modify 
+the meaning of elements they are supposed to carry" [61]. Since 
+these patients do not seek health information online, their family 
+members assist in gathering both online and ofine information. 
+Moreover, in China, accessing healthcare providers and making 
+appointments often involves using mobile phones, a task usually 
+undertaken by family members of technology-skeptic patients. Con-
+versely, Companions align with proactive information-seeking pa-
+tients, aiding them in information search but not dominating the 
+process. They provide encouragement and support throughout the 
+patients’ journey against the disorder. 
+P1, a 47-year-old urban patient with 8 years of HFS experi-
+ence, enacted the proactive information-seeking patient. She initially learned that she had HFS while cannot fnd the cause of it through 
+internet search engines and has tried various treatments, includ-
+ing folk remedy: "I did as they [colleagues] told me to stick a white 
+paper on my eyelid, some kind of folk remedy, but it didn’t work." 
+Her husband, acting as her companion, assists in inquiring health 
+information within his own social network, as well as providing 
+continuous support from the early stage of illness to post-operative 
+care: "My husband and my family have been helping me in various 
+ways. I started taking traditional Chinese medicine because my hus-
+band’s classmate is a doctor at a clinic who specializes in prescribing 
+Chinese herbs." 
+On the other hand, patients’ children often exhibit greater prof-
+ciency with technology and may actively seek health information 
+online on behalf of their parents. For instance, P8, a 70-year-old 
+with 3 years of HFS experience, lives in a rural area and fts the 
+role of a low technological literacy patient. She speaks primarily a 
+local dialect, barely speaks Mandarin, and usually interacts only 
+with her husband. P8 uses a basic mobile phone designed for older 
+adults, featuring only a keyboard and screen, to regularly contact 
+her daughter. 
+Her daughter plays a crucial role as her direct agent. P8 does not 
+know which hospital she visits; she trusts and follows wherever 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+Figure 3: Key Findings Overview. Using Actor-Network Theory, we identifed four units, each including various roles within 
+the health information-seeking network of Hemifacial Spasm patients. Additionally, some of these units feature internal 
+interactions (as shown on the left). We also identifed fve strategies for seeking top-tier medical resources of patients with 
+specialized disorders. Each strategy involves a unique combination of units and roles, as indicated by the letter written next to 
+the strategy name. 
+This forms distinct strategic subnetworks within the broader health information-seeking network (as shown on the right). 
+her daughter takes her. Consequently, all the health information 
+P8 receives is either directly from her daughter or from medical 
+professionals: "I know [that I was ill], but we [my husband and I] 
+hadn’t gone out [of the rural area before], so we didn’t know where to 
+go or what to do. Then, my daughter took me and tried this and that, 
+but nothing seemed to work. My daughter said she heard that [there 
+were good treatments in Beijing], so that’s why we went to Beijing." 
+P8’s reliance on her daughter for navigating the healthcare system 
+highlights the signifcant role family members play in the health 
+information-seeking process, especially for those less familiar with 
+modern technology. 
+P3, a 70-year-old urban resident with 8 years of HFS experience, 
+exemplifes a patient with low technological literacy. She rarely uses 
+a mobile phone and avoids online health information, preferring 
+direct medical consultations. P3 believes that consulting doctors is 
+the most straightforward and efective way to acquire professional 
+medical advice. She views online health information as insufcient 
+and superfuous, considering it limited to symptomatic guidance and often lacking completeness and accuracy. P3 articulated her 
+stance clearly: 
+"I go directly to the hospital when I’m ill and don’t 
+search online. I believe consulting a doctor is more di-
+rect and helpful. When you’re ill, you need to see a 
+doctor. The doctor will tell you how to treat it. Online 
+information might give you some idea about symptoms, 
+but it’s often incomplete and unreliable." 
+Her daughter, a physician at a reputable hospital, enacted the role 
+of a direct agent, taking responsibility for managing her mother’s 
+health conditions and seeking medical advice on her behalf. All 
+the health information P3 received was either directly from her 
+daughter or other medical professionals. Eventually, it was her 
+daughter who introduced her to a leading resource for HFS surgery 
+within the top-tier medical service and persuaded her to undergo 
+the surgery: "My daughter came across some information suggesting 
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+that neurosurgery could be a treatment option. She got this informa-
+tion from the hospital [where my surgery was performed], as she is 
+also a doctor there, so she is quite familiar with hospitals." 
+Experienced patients are individuals who have already been di-
+agnosed with other health conditions, leading them to be more 
+attentive to any changes in their health status. P11, a 63-year-old 
+patient living in an urban area, has been living with HFS for 15 
+years. Prior to her HFS diagnosis, she was diagnosed with several 
+other disorders. As a result, she meticulously records her health 
+conditions, taking daily notes to better understand her body: 
+"After being diagnosed with immune rheumatism, my 
+hospital discharge report revealed that I have rheuma-
+toid arthritis, lupus erythematosus, and Sjögren’s syn-
+drome. Consequently, I started keeping detailed records. 
+I jot down notes about my daily medication, any bod-
+ily changes, and symptoms I experience. When the eye 
+twitching, characteristic of HFS, began, I included that 
+in my documentation as well." 
+Owing to her diligent record-keeping, she has been able to track 
+her HFS symptoms accurately. This practice aids her in seeking 
+consistent treatment for HFS at the hospital she regularly visits. 
+4.1.2 The Role of the Community Unit. Online health infor-
+mation is directly accessible to patients, while ofine health in-
+formation usually requires social networking, either accidental or 
+intentional. We categorize these as the community unit in real life. 
+Patients accessing ofine health information outside the medical 
+unit typically engage with two types of actors: those from their 
+Core Social Circle and those from the Peripheral Social Circle [67]. 
+The Community Unit–Core Social Circle. The core social cir-
+cle consists of individuals with whom patients have direct contact, 
+including relatives, friends, colleagues, and neighbors. The core 
+social circle plays a crucial role in assisting patients in obtaining 
+health information. Members of this circle are often aware of the 
+patients’ situations and may contribute more actively to the pa-
+tients’ health conditions. Within the core social circle, we identifed 
+two key roles: the First-hand Informant , who provides patients with 
+relevant and critical information about HFS, aiding their access to 
+top-tier medical resources, and the Second-hand informant , trans-
+ferring essential messages and information from others to HFS 
+patients. 
+The Community Unit–Peripheral Social Circle. Beyond the 
+core social circle, the peripheral social circle is also a signifcant 
+source of health information. While this circle may not be the pri-
+mary source of information for patients, and the connections within 
+it are typically weaker than those in the core social circle, there are 
+instances where patients have encountered or indirectly obtained 
+valuable health information from individuals in this peripheral net-
+work. This includes friends of friends, family members of colleagues, 
+and fellow patients met by chance in real life. The roles within this 
+circle are the Intermediary , who provides signifcant information 
+indirectly, and the Passerby , who may not ofer particularly useful 
+information, such as fellow patients met in random places. 
+P4 emphasized the trustworthiness of health information ob-
+tained from friends, underscoring the importance of personal con-
+nections in the health information-seeking process. P7 shared her 
+experience, highlighting her confdence in health information re-
+ceived from the frst-hand informant. She recounted a story about 
+her relatives, which led to her mistrust of local hospitals: 
+"I don’t trust local hospitals because of what happened to 
+my relative. He had a minor surgery that failed, despite 
+the hospital claiming it was simple and he would be 
+discharged in a few days. After that incident, I chose a 
+big hospital in Beijing. Everyone advised against small 
+hospitals for such procedures." 
+On the other hand, P5 acknowledged the infuence of colleagues 
+on her treatment choices, despite having reservations: "I can’t even 
+swallow a drop of traditional Chinese medicine, but some of my col-
+leagues are strong proponents of it, so I’ve tried it before, infuenced 
+by their belief". These colleagues, acting as the frst-hand infor-
+mants, provided health information that infuenced her decisions. 
+P9 discussed how his relative’s experience with HFS, who had taken 
+medication without efective results, afected his own approach to 
+treatment, ultimately leading him to forgo drug therapy. 
+In a diferent context, P1 detailed how well-informed her friends 
+were about her illness: "Exactly, they notice when something is wrong 
+because we often meet, and they’re all aware of my condition. They 
+know how long I’ve been dealing with this illness. " In one instance, a 
+friend discovered a similar case in the husband of another friend, 
+providing P1 with invaluable information. Here, P1’s friend acted 
+as a second-hand informant, helping P1 acquire critical health in-
+formation, while the husband of her friend’s acquaintance served 
+as an intermediary, ofering crucial insights indirectly. 
+This circumstance is more common among rural patients, who 
+often lack direct access to quality medical resources and rely heavily 
+on word-of-mouth channels. They frequently hear about similar ex-
+periences from neighbors or through social connections. D2 noted 
+that information tends to spread quickly in rural communities: 
+"When rural patients from smaller communities return with infor-
+mation, it tends to spread within about ten days. Once they return to 
+their local area, word spreads, and those with similar conditions come 
+forward". 
+P1 shared an encounter with a passerby while waiting at a bus 
+stop. They had a brief conversation during which the lady revealed 
+that she was convinced that all treatments, including surgery, were 
+inefective for HFS: 
+"Once, I met a nearly 70-year-old lady at the bus stop 
+and immediately recognized she had the same condition 
+as me. I asked her, ‘Auntie, do you have Hemifacial 
+Spasm?’ She was surprised and asked how I knew. I 
+explained that I have the same condition and wouldn’t 
+have asked otherwise, as it might have seemed impolite. 
+She confrmed she did and mentioned she believed it 
+was incurable. I told her that surgery could help, but 
+she was skeptical. At that time, I didn’t try to persuade 
+her further, especially since I hadn’t undergone surgery 
+myself. If I met her now, I might tell her that surgery 
+could treat it, as I was also confused about it back then. " 
+4.1.3 The Role of the Medical Unit. Key actors in the medical 
+unit, who signifcantly infuence patients’ pathways in seeking 
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+medical information and making treatment decisions, include Spe-
+cialists (e.g., neurosurgeons, neurologists, and ophthalmologists), 
+Non-Specialized Doctors (e.g., general practitioners and traditional 
+Chinese medicine doctors), and Unlicensed Medical Practitioners . 
+We identifed three roles they enacted in providing health informa-
+tion based on patients’ conditions: Accurate Information Provider, 
+Information-Scant Provider, and Misleading Information Provider. 
+The Medical Unit–Accurate Information Provider. Neurosur-
+geons enacted the role of Accurate Information Providers, equipped 
+with proper and formal medical training and extensive knowledge 
+of HFS. They specialize in MVD surgery, aimed at providing a 
+complete cure for HFS. When patients consult them, they can of-
+fer precise information about HFS and inform the fact that MVD 
+surgery is the only radical cure available. Patients under their care 
+receive an adequate amount of information about HFS and can 
+access treatment or recommended resources directly from them. 
+These neurosurgeons are generally responsible for diagnosing HFS, 
+conducting ward inspections during hospitalization, communicat-
+ing pre-operative risks, performing the surgery, and conducting 
+follow-up visits as necessary. 
+The Medical Unit–Information-Scant Provider. Ophthalmol-
+ogists, neurologists, and most general practitioners and traditional 
+Chinese medicine doctors are often the role of information-scant 
+provider in our network. This is because they typically cannot pro-
+vide patients with comprehensive information about HFS. Some of 
+them may only ofer limited messages or treatment options for HFS 
+patients following checkup and inspection, leading us to categorize 
+them under the role of information-scant provider. 
+Many HFS patients initially struggle to identify the correct clin-
+ical department for their specifc health issues without proper 
+guidance. This confusion often leads them to inappropriate de-
+partments, such as Ophthalmology, under the mistaken belief that 
+eyelid spasms are primarily an eye-related problem. Ophthalmol-
+ogists, not being specialists in HFS, can only provide limited and 
+often unhelpful information post-examination, as HFS is not an 
+eye disorder. For example, P6 initially believed his eyelid spasms 
+were eye-related and repeatedly consulted ophthalmologists. It was 
+only after learning about HFS from a friend that he realized the 
+issue was not directly related to his eyes. Similarly, P5 and P11, who 
+experienced impaired vision, sought help from ophthalmologists 
+but were left without a clear understanding of their condition de-
+spite being told their eyes were in good condition: "It [HFS] doesn’t 
+afect your vision. It twitches, but you can still see things around you. 
+However, over time, I felt that my feld of vision became narrower. I 
+even went to see an ophthalmologist and was told there was nothing 
+wrong." (P5) 
+D3 emphasized that unless a specialist is involved, other doctors 
+might not recognize the disorder. Although neurologists are edu-
+cated about HFS, they generally recommend medication and Botox 
+treatments, which are not fully curative and lack long-term ef-
+cacy. They often advise patients to opt for conservative treatments, 
+leaving patients without the comprehensive information they seek. 
+D2 explained that non-specialized doctors, such as general practi-
+tioners and traditional Chinese medicine practitioners, are usually 
+the frst medical providers HFS patients consult when unaware 
+of their condition. However, they often suggest limited treatment 
+options like medication, Chinese herbal remedies, acupuncture, and moxibustion. These treatments are not considered efective 
+cures for HFS, and the lack of information about the more defnitive 
+MVD surgery can lead patients to have a constrained mindset when 
+making treatment decisions: 
+"For example, when a patient visits a township clinic, 
+they might not know the appropriate treatment for HFS. 
+Local primary care doctors might either not know about 
+the illness at all or be quite unfamiliar with it. Some 
+might believe Botox is efective, and traditional Chinese 
+medicine practitioners might recommend acupuncture, 
+but they may not realize that surgery is the fundamental 
+cure. Without proper information dissemination, doctors 
+may remain unaware of the illness and its efective 
+treatment." (D2) 
+The Medical Unit–Misleading Information Provider. Although 
+some non-specialized doctors can identify and diagnose HFS, it is 
+not a commonly encountered chronic condition for them. As a 
+result, they may lack the necessary knowledge to accurately di-
+agnose HFS, leading to a risk of misdiagnosis and the provision 
+of inefective treatment options. This can misguide patients with 
+incorrect directions and misinformation, categorizing these doctors 
+as misleading information providers. 
+While consulting doctors is the most direct method for seek-
+ing medical advice, some patients encounter obstacles in accessing 
+appropriate medical services. For HFS patients in rural areas, unli-
+censed medical practitioners often become an alternative option. 
+These practitioners, without proper medical licensing, typically 
+rely on empirical or practical experiences, claiming their knowl-
+edge is inherited from ancestral masters. Their treatments usually 
+include methods like massage and acupuncture. However, rural 
+doctors may lack the necessary expertise in conditions like HFS, 
+often misdiagnosing it as facial paralysis due to its similar facial 
+manifestations. P4, residing in a rural area, explained: "Rural doctors 
+often treat it [HFS] as facial paralysis because it’s more common in our 
+area. They are not familiar with Hemifacial Spasm". D3 elaborated 
+that the most signifcant challenge for rural patients is their limited 
+access to health information about their condition: 
+"The biggest challenge they [rural patients] face is that 
+they may not know what the illness is when they frst get 
+it, and some people don’t even realize that this [surgery] 
+is the way to cure it until more than ten years after 
+getting the disorder. I think the inability to access infor-
+mation and get timely information is one of the biggest 
+challenges." 
+There are cases of patients turning to barefoot doctors6 for treat-
+ment. These practitioners commonly misdiagnose HFS as facial 
+paralysis, a more frequent condition in rural areas. For example, 
+P1 consulted several unlicensed healthcare practitioners, including 
+barefoot doctors, who all incorrectly diagnosed her condition as 
+facial paralysis. Despite undergoing their treatments for some time, 
+her condition showed no improvement. She pursued numerous 
+such treatments, driven by a sense of optimism and willingness to 
+spend money on the chance of fnding a cure. She described these 
+practitioners as follows: "He [the unlicensed healthcare practitioner] 
+6Barefoot doctors were unlicensed healthcare practitioners who received basic medical 
+training and worked in rural villages in China. 
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+is Taiwanese, possibly a descendant of some master. In his establish-
+ment, there are group photos and other items displayed prominently 
+at the front, showcasing his authority. There are many pictures of 
+him supposedly curing hunchbacks, and he has received numerous 
+banners for these alleged successes." 
+4.1.4 The Role of the Technology. Technology forms our fourth 
+category of actor, serving as an approach for patients to access 
+efective health information online and to locate their ultimate 
+medical resources. This category includes Digital Devices that fa-
+cilitate information distribution and transfer (e.g., mobile phones 
+and televisions), as well as the Software and Online Services these 
+devices encompass (e.g., social media, search engines, digital con-
+tent featuring videos, pictures, or text). While these technologies 
+are commonplace for many people, it is important to note that 
+the demographic of HFS patients spans from middle-aged to older 
+adults, and not all of them are adept at using smartphones for 
+information-seeking [109]. Consequently, we characterize these 
+technologies as playing two distinct roles based on how patients 
+acquire information: either as an Active Information Channel or a 
+Passive Information Channel. 
+The Technological Unit–Active Information Channel. The 
+Internet has become an essential tool for patients seeking health in-
+formation, ofering both convenience and efciency. Prior research 
+indicates that patients prefer to seek and share health information 
+online using search engines and social media [34, 35, 85]. These 
+platforms are considered active channels where patients can proac-
+tively fnd health information. Search engines and social media are 
+the primary channels highlighted in our study. Patients can input 
+keywords into a search engine, yielding a large amount of available 
+information. In China, Baidu is the predominant search engine, 
+while P9 is the exception one claimed that he had only searched 
+on WeChat as it was his most frequently used apps. These plat-
+forms serve various purposes, particularly during the awareness 
+of illness stage for self-diagnosis and understanding the causes of 
+their conditions, and later during the treatment decision-making 
+stage to explore potential treatments and collect information about 
+surgeries, healthcare professionals, and hospitals. 
+Social media platforms, like Tieba and Xiaohongshu, ofer fo-
+rums for individuals with similar health conditions to connect and 
+share experiences. P10, for instance, sought detailed information 
+about surgical procedures on Xiaohongshu. Videos, especially on 
+platforms like Douyin, provide animated demonstrations that help 
+patients understand surgical procedures. However, this approach 
+typically requires some prior knowledge before actively engaging 
+in online searches. Moreover, online information often lacks unique-
+ness and personalization, leading most patients to combine ofine 
+learning with online information to make informed decisions. 
+The Technological Unit–Passive Information Channel. We 
+categorize digital content that users encountered by chance or 
+system recommendation as a passive information channel. This 
+often includes content that is not actively sought out but may 
+contain misleading information. For example, P4 came across a 
+video on Douyin recommending a hospital in Shandong for HFS 
+surgery. However, he later consulted with his relatives in Shandong, 
+then he discovered which might be unreliable and even a fraud, 
+as his relatives had never heard about the hospital before: "I saw 
+on Douyin that there is a hospital in Shandong specializing in HFS 
+surgeries. I look into it and contacted a relative there, but they had 
+never heard of such a hospital and had no information about it." 
+Additionally, some patients have gained awareness of their con-
+dition through health programs on television. For instance, D2 
+mentioned that patients have discovered nationally renowned ex-
+perts through TV program: "Our director Dr. Liu is a top expert in 
+this surgery nationwide. Back in the early 2000s, he appeared on the 
+7CCTV health programs ’Health Road’ [to promote HFS diagnosis and 
+treatment]." However, this method of information acquisition has 
+become less common in recent years. 
+4.2 Top-Tier Medical Resource Network 
+Strategies 
+From the analysis of the connections and interactions among actors 
+in our health information-seeking network, we observed fve dis-
+tinct health information-seeking strategies that ultimately facilitate 
+access to top-tier medical resources. These strategies are named 
+(see Table 2) based on the concepts illustrated in ANT. They include 
+the Collaborative Inquiry Strategy, the Intermediary Strategy, the 
+Self-Directed Inquiry Strategy, the Observational Strategy, and the 
+Utilization of Non-Human Strategy. Each of these involves a unique 
+combination of units and roles, thereby forming distinct strate-
+gic subnetworks within the broader health information-seeking 
+network. 
+4.2.1 Network: Collaborative Inquiry Strategy. The collaborative 
+inquiry strategy involves the familial unit directly networking with 
+top-tier medical resources, allowing for efective and direct access. 
+This strategy typically involves either frst-hand informants from 
+the community unit or the medical unit. Participants can obtain 
+necessary information and establish direct connections with doctors 
+through online channels (e.g., video calls, audio calls, text messages) 
+and ofine meetings. This approach facilitates fast and accurate 
+information exchange, enabling immediate responses, making it a 
+rapid and reliable method. 
+In the familial unit, there may be direct connections with in-
+dividuals who have recovered from HFS. These individuals, often 
+in good post-operative recovery, provide trustworthy frst-hand 
+information. For instance, P12, a 50-year-old proactive information-
+seeking patient with four years of HFS experience and currently 
+considering MVD surgery, gained insights from a friend who un-
+derwent successful surgery. This friend also introduced medical 
+resources to P6, P12’s colleague, who similarly had a successful 
+surgery. P12 believes that resources recommended by familiar, re-
+covered individuals are reliable and has been closely monitoring 
+P6’s post-operative recovery, which he fnds highly informative. 
+Additionally, the familial unit may have direct connections with 
+medical professionals. Patients themselves or their family members 
+might be doctors, or they may have doctors within their core social 
+circle. For example, P3 is a 70-year-old patient living in Beijing (i.e. 
+frst-tier city) with her daughter, benefts from this network. Her 
+daughter, a doctor in a top-tier hospital and acting as a direct agent, 
+leverages her professional network to access medical resources for 
+P3. 
+7China Central T elevision 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+Table 2: Summary of adopted strategies to acquire the top-tier medical resources. 
+Strategy Typical units involved Advantages Challenges Characteristics 
+Collaborative inquiry 1. Familial unit 1. Direct networking 1. Efective networking re- Utilization of online and ofine meet-
+strategy 2. Community unit: frst- 2. Fast and reliable quired ings for information exchange, enabling 
+hand informant immediate responses. 
+3. Medical unit 
+Intermediary strategy 1. Familial unit 1. Experienced networking 1. Indirect sources Reliance on social networks, where in-
+2. Community unit: second- (e.g. recovered patients) 2. Time-consuming formation and resources arrive through 
+hand informant and inter- 2. No prerequisite intermediaries, typically spreads via 
+mediary word-of-mouth and daily conversa-
+tions. 
+Self-directed inquiry 1. Experienced patient 1. Professional networking 1. Medical history with doc- Patients can self-refer based on previous 
+strategy 2. Medical unit 2. Tailored medical advice tor consultations medical experiences and directly con-
+tact with doctors. 
+Utilization of non- 1. Familial unit 1. Online networking 1. Misinformation Using search engines, browsing social 
+human strategy 2. Technology: active infor- 2. Convenient access to in- 2. Overwhelming similar media, and engaging in online commu-
+mation channel formation and limited information nities, often used to enhance and con-
+3. Prior knowledge required frm understanding of health informa-
+tion. 
+Observational strategy 1. Familial unit 1. Unrelated networking 1. Misinformation Involves receiving information pas-
+2. Technology: passive in- 2. Efortless 2. Serendipitous sively or accidentally, often through vi-
+formation channel sual media. 
+4.2.2 Network: Intermediary Strategy. The intermediary strategy 
+comes into play when direct, efective networking isn’t available. 
+In such cases, the familial unit relies on inquiring within their 
+social network, where information and resources often arrive indi-
+rectly through intermediaries. This information typically spreads 
+via word-of-mouth and daily conversations, involving the second-
+hand informant and intermediary within the community unit. Pa-
+tients mostly gather information from experienced and recovered 
+patients, introduced by their core social circle. 
+This indirect approach can be time-consuming, especially since 
+HFS is relatively uncommon in the general population. It is often 
+a lengthy process before patients encounter accurate resources 
+about their condition. This delay is more pronounced for patients 
+in rural areas. D2 highlights the struggles stemming from this delay: 
+"Without proper dissemination of health information, patients might 
+remain oblivious to their condition. Some have sufered for over ten, 
+even twenty years, before seeking appropriate help. This prolonged 
+ignorance can be quite distressing. Many resort to temporary solutions 
+like Botox injections to alleviate symptoms, often repeatedly". 
+Both P1 and P7 discovered top-tier medical resources through 
+conversations within their social network. P1 recounts a friend’s 
+awareness of her HFS and their subsequent inquiry about medical 
+resources: 
+"It was quite a coincidence that a friend brought it up 
+casually. Many of my friends know about my condi-
+tion and often ask how I’m doing. She had just met a 
+friend whose husband had undergone the surgery. So, 
+she called me, asking about my condition, and I said it 
+was still the same. Then she mentioned that her friend’s 
+husband had the surgery about eight years ago and has 
+recovered very well, with no recurrence of the disease 
+at all." Similarly, P7 learned about medical resources at a class reunion. 
+There, she met a classmate whose brother is a doctor. She shared a 
+video of her facial symptoms with him for a diagnosis and received 
+contact information for the needed medical resources afterwards. 
+4.2.3 Network: Self-Directed Inquiry Strategy. The self-directed in-
+quiry strategy predominantly involves experienced patients and the 
+medical unit. Patients with a history of illnesses tend to be more 
+attentive to their health conditions. Due to their proximity to health-
+care providers, they often have regular follow-up visits or maintain 
+contact with doctors who have previously treated them success-
+fully. This access allows them to directly reach out to authoritative 
+and trustworthy doctors for personalized and professional medical 
+advice. 
+P11, diagnosed with several chronic immune system-related 
+conditions, has extensive experience consulting various doctors and 
+is familiar with the authority of diferent hospitals. She regularly 
+has follow-up visits with specialists. When she noticed her HFS 
+symptoms, which were diferent from her usual conditions, she 
+knew exactly which trusted doctors to approach for medical advice. 
+One of these doctors directly connected her with the appropriate 
+medical resources. She explains her choice: 
+"I chose this hospital for my immune disease because 
+I’ve always trusted it, and the doctor there understands 
+my condition. This doctor referred me to Dr. Liu. I had 
+my child look him up on Baidu, and it turns out he is 
+quite renowned nationwide for performing this type of 
+surgery, with a high success rate. That’s why I trust him 
+and have chosen to undergo the surgery at this hospital. " 
+4.2.4 Network: Utilization of Non-Human Strategy. Using search en-
+gines, browsing social media, and engaging in online communities 
+are common information-seeking methods today. Most participants 
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 4: Example of Strategic Subnetwork. P1 was a HFS patient utilizing intermediary strategy to successfully access top-tier 
+medical resources. In the fgure, we depict her subnetwork while employing this strategy to illustrate how various actors in 
+diferent units play their roles to support her journey. 
+generally searched for key symptoms of HFS they experienced 
+to identify potential issues. After learning the name of HFS, they 
+may attempt to search further for potential treatments. These ap-
+proaches are convenient but often present challenges in discerning 
+the accuracy of the information due to the vast amount available. 
+As a result, the problem of misinformation persists, and our par-
+ticipants rely on social connections and Guanxi to further validate 
+online information. 
+Moreover, searching for conditions like HFS, which are not com-
+mon chronic conditions, the efective information online is limited, 
+and requires a certain degree of digital literacy and prerequisite 
+knowledge. Even with access to professional knowledge, it can be 
+difcult for patients to comprehend such material. Therefore, most 
+patients use this strategy to enhance and confrm their understand-
+ing of health information as an assistive strategy. However, it is 
+hard to fully rely on online information for seeking top-tier medical 
+resources for HFS. This strategy usually encompasses the active 
+information channels within the technology and familial unit . 
+P6 discovered his disorder through a colleague who had experi-
+enced the same issue but had recovered following MVD surgery. 
+He acquired medical information from this colleague and then veri-
+fed it online to understand the disorder and treatment options in 
+more detail. This additional research helped him decide to undergo 
+the surgery. Similarly, P2 claimed, "After searching [online], I just thought that I should quickly get the surgery done and not delay it any 
+longer. ". On the other hand, P5 found the top-tier hospital through 
+online information provided by her sister’s child: "My sister’s kid 
+did all the research. They looked up which hospital in Beijing is the 
+most authoritative for this condition, and then booked an appointment 
+with that professor for me.". 
+4.2.5 Network: Observational Strategy. The Observational Strategy 
+involves the familial unit receiving information passively or acci-
+dentally, often through visual media such as television and social 
+media platforms. This strategy includes the passive information 
+channel within the technology unit. While encountering this type of 
+information requires minimal efort, it also depends on chance, and 
+there is a risk of encountering misinformation and disinformation. 
+For instance, P4 stumbled upon a video recommending a hospital 
+for HFS surgery, only to discover later that the hospital was not 
+formal and possibly one of the Putian Hospitals8. 
+P5, a 54-year-old patient who has been living with HFS for 11 
+years, has a very close relationship and strong connection with 
+her elder cousin sister. Whenever P5 feels unwell, she turns to her 
+sister, who provides not only emotional support but also practi-
+cal help, such as assisting in obtaining medications. Her sister, a 
+8Putian Hospitals are a group of private hospitals in China, notorious for their aggres-
+sive marketing, over-reliance on high-proft medical services, and unethical medical 
+practices. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+keen follower of health-related TV programs, diligently takes notes 
+while watching: "My parents passed away quite early, and it was my 
+sister who took care of me. She loves watching programs on CCTV, 
+and she’s very attentive. After watching, she remembers cases, espe-
+cially common ones like gynecological issues. She takes notes on what 
+medicines to take and what remedies to try. So, whenever I feel unwell, 
+I just give her a call". On one occasion, her sister urged P5 to watch 
+a particular program that was discussing symptoms remarkably 
+similar to those P5 was experiencing. It was this program that led 
+P5 to realize that she had been exhibiting symptoms of HFS. 
+5 Discussion 
+In summary, for RQ1, we described HFS patients’ health information-
+seeking network, involving four major units with various combi -
+nations of actors and roles as their primary health and healthcare 
+information sources. For RQ2, we identifed fve strategies HFS 
+patients use to acquire top-tier medical resources, analyzing the 
+pros and cons and the involved actors in each strategy to illustrate 
+the workfows within the network. In this section, we discussed the 
+similarities and diferences in primary health information sources 
+between specialized disorders and other conditions. We highlighted 
+the signifcance of human infrastructuring in empowering patients 
+access top-tier medical resources and emphasized the potential of 
+the technological unit to help patients overcome challenges and 
+adopt various strategies. 
+5.1 Navigating Health Information: Patients’ 
+Sources 
+Most research on HFS focuses on its clinical, medical, and neu-
+rosurgical aspects [2, 3, 17, 86, 93], often neglecting the patients’ 
+perspectives. Patients with specialized disorders, part of a marginal-
+ized group, have unique challenges and needs that are underrepre-
+sented. Our pioneering qualitative study highlights the voices of pa-
+tients with specialized disorder, revealing their health information-
+seeking behaviors. We identifed four main sources: familial , med-
+ical, community , and technological units, each ofering varying 
+quality of information. This framework aligns with Wilcox et al. 
+[105] ’s fndings on the infrastructural forms of transgender and 
+non-binary peoples’ care, assembled by informal social ecologies, 
+formalized knowledge sources, and self-refective media, refecting 
+similarities with our identifed units in a similarly marginalized 
+population. 
+In the familial unit, patients and their family members often func-
+tion as a cohesive entity in managing health information. Proactive 
+information-seeking patients engage with family members in com-
+panion roles, while those with low technological literacy, such as 
+older adults in rural areas, rely heavily on family members as direct 
+agents for fnding medical resources. Song et al. [91] observed that 
+older adults in rural China depend on proxy health information 
+seeking due to educational and technological limitations. Similarly, 
+our fndings reveal that patients struggle to fnd efective online 
+information due to its repetitive nature, leading to frustration. This 
+mirrors the experiences of individuals with rare diseases, who feel 
+neglected by online and professional medical advice [68]. Cutilli [25] identifed various information sources like TV, radio, newspa-
+pers, magazines, the internet, and personal networks that supple-
+ment healthcare professional advice. Our study expands on this by 
+showing that patients use online resources and social networks for 
+confrmation and validation. Using ANT, we illustrated the dynamic 
+interplay among these sources, highlighting how patients employ 
+diverse strategies to achieve their health-related goals. 
+Intermediaries play an important role in reducing information 
+asymmetry of facts and perceptions [110]. In HCI, intermediaries 
+are proxy users who bridge the gap between computers and users 
+lacking technological skills or resources, enabling technology usage 
+[51, 87]. This phenomenon is particularly prevalent in low-income 
+countries due to economic and cultural factors [79]. In our fndings, 
+direct agents within the familial unit and intermediaries within the 
+community unit are signifcant sources for improving health infor-
+mation access. They act more as information intermediaries (i.e., 
+infomediaries) rather than intermediaries generally referred to in 
+HCI. Parikh and Ghosh [79] proposed the concept of proxy primary 
+and secondary users when designing for intermediated interaction 
+in developing countries, categorizing scenarios into cooperative, 
+dominated, intermediated, and indirect. However, our network is 
+more complex, involving various human and non-human entities. 
+Intermediaries can be constitued by multiple entities, including 
+non-human entities within technological unit [108]. Passive infor-
+mation channels, such as televisions, function as infomediaries by 
+providing random information to patients, while active informa-
+tion channels can mediate health information or connect patients 
+with health providers. For example, patients can access health in-
+formation through human intermediaries by utilizing technological 
+intermediaries, thereby reducing information asymmetry. For hu-
+man intermediaries, connections are often facilitated through social 
+networking and guanxi, which we will discuss in Section 5.2. 
+5.2 Accessing Top-Tier Medical Resources: Guanxi and Strong Ties as the Key 
+Specialized disorders require patients to engage in infrastructur-
+ing work due to the limited resources and technologies available. 
+Our fndings highlight the crucial role of human infrastructures in 
+patient health information-seeking practices. Due to the uncom-
+monness of specialized disorders, technological approaches are less 
+efective, and patients often establish communities through social 
+networks instead. This is particularly evident in the Chinese context, 
+where we observed that most strategies adopted by patients involve 
+social networking and a heavy reliance on guanxi to access top-tier 
+medical resources. In Chinese society, guanxi is a unique cultural 
+element that difers from Western norms. It represents personalized, 
+subjectively close, and resourceful connections between individuals 
+[12]. The establishment and maintenance of guanxi, typically based 
+on trust and resource exchanges, are essential for acquiring infor-
+mation and reducing uncertainty [33]. Through guanxi, patients 
+can access scarce information and resources that might otherwise 
+be unavailable [97]. This is akin to the increasing signifcance of 
+guanxi in job acquisition in China, which rose from 46% in 1978 to 
+80% in 2009 [11], with strong ties being particularly important [10]. 
+Social networks play a crucial role in healthcare access for both 
+urban and rural populations [5]. In China, strong ties are more 
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+signifcant, and patients trust their familial units for reliable in-
+formation and resources. This contrasts with Western societies, 
+where Chen et al. [18] found that Chinese individuals rely more 
+on strong ties for job acquisition and promotion, while Western 
+research highlights the advantages of weak ties. A typical exam-
+ple from our study is P3, who leveraged a collaborative inquiry 
+strategy. Her daughter is a doctor in a big city and can quickly 
+connect to medical guanxi and access high-quality medical infor-
+mation and resources. This aligns with Ying-He et al. [111] , who 
+reported that accessing healthcare services through guanxi is a 
+common phenomenon. Moreover, medical guanxi allows patients 
+to obtain high-quality care and services [112]. Moreover, we found 
+that rural patients are more likely to use word-of-mouth strategies 
+due to fewer opportunities to connect directly with quality medical 
+resources and lower technological literacy. Thus, they rely more 
+on personal connections, such as close friends, or building new 
+connections through intermediaries. 
+Although strong ties can signifcantly help patients connect to 
+quality medical services, patients can still be misdiagnosed and 
+mistreated if they urgently need treatment yet have not found ef-
+fective connections. Generally, patients regard medical resources in 
+frst-tier cities as more reliable and secure, while distrusting rural 
+health systems due to perceived lower quality of medical facilities, 
+services, and doctors’ experience. However, in urgent situations, pa-
+tients may turn to doctors they do not fully trust, such as unlicensed 
+healthcare practitioners, often accessed through recommendations 
+from strong ties, as strong ties provide trust and comfort during un-
+certainty [56]. Therefore, strong ties are crucial in patients’ health 
+information-seeking and medical choices, increasing patients’ con-
+fdence in the rural health system. However, this reliance on strong 
+ties poses challenges to implementing technologies, which we will 
+mention again in Section 5.3. 
+5.3 Empowering Through Technology: 
+Mitigating Challenges in Medical Access 
+Based on our fndings, we identifed several challenges faced by 
+patients in seeking medical resources, highlighting the potential of 
+technology to empower them in addressing these issues. Firstly, pa-
+tients who exhibited low health literacy and technological literacy 
+face tough challenges due to disparities in education, geographic iso-
+lation, and transportation difculties. Especially for rural patients 
+who often possess distinct identities and cultural perspectives com-
+pared to urban patients [54]. The lack of healthcare professionals 
+in rural areas can leave these patients feeling powerless in the ’re-
+ferral games’ between rural and urban providers [14]. For example, 
+both P3 and P8 are low technological patients who rely on their 
+daughters as direct agents. P3, from an urban area, has direct access 
+to top-tier medical services through her daughters. In contrast, P8, 
+from a rural area, and her daughters have struggled to fnd accurate 
+diagnosis and treatment. Secondly, patients can be easily misdi-
+agnosed and seek help from unlicensed providers as discussed in 
+Section 5.2. This situation exemplifes the Chinese adage, "a desper-
+ate patient will seek help from any doctor". In such scenarios, the 
+importance of a doctor’s credentials lessens, and patients may over-
+look qualifcations due to the urgency for treatment, worsening the 
+asymmetries in doctor-patient relationships. Patients prefer familiar and reliable sources in urgent situations, such as health information 
+from strong ties, believing that technologies may not provide per-
+sonalized and accurate information. For example, P3 thinks online 
+information only provides symptom introductions and is not accu-
+rate enough, leading to reluctance in using online tools. Thirdly, 
+we observed that patients primarily use technology to enhance 
+and validate their understanding of health information. While non-
+human strategies can somewhat bridge the gaps and asymmetries in 
+doctor-patient relationships—particularly benefting rural patients 
+without stringent requirements—these approaches can also lead 
+to misinformation and require prior knowledge. Furthermore, due 
+to the uncommon nature of specialized disorders, the limited and 
+repetitive information available online complicates the access to 
+high-quality information. 
+In fact, the technological unit holds powerful potential to miti-
+gate these challenges. Information and Communication Technology 
+(ICT) bridges information gaps and addresses power asymmetries 
+by providing previously unavailable information. Without ICT, pa-
+tients often had to rely solely on referrals from local doctors or seek 
+urban doctors without any prior information and assistance. ICT 
+facilitates collaboration between rural and urban doctors, enhances 
+accurate referrals, and fosters digital guanxi between patients and 
+urban doctors, reducing costs and limitations of spreading health 
+information [22]. Moreover, ICT allows infomediaries to help pa-
+tients become more motivated and empowered. Patients can learn 
+more about their disorders and possible future conditions, help-
+ing informed decision-making and appropriate actions [50]. For 
+instance, patients can connect with fellow patients online, leverag-
+ing weak ties to share experiences and strategies. Gage-Bouchard 
+et al. [40] found that patients use online platforms to exchange 
+specialized health information, such as health services, symptom 
+recognition, and treatment protocols. These platforms also facilitate 
+emotional support through empathy, comparing experiences, and 
+ofering hope. The internet enables patients to adopt not only self-
+directed inquiry strategies, with more medical consultation options, 
+especially with specialists, but also collaborative inquiry and inter-
+mediary strategies, connecting directly with fellow patients online 
+who can refer them to high-quality medical providers. Therefore, 
+ICT helps infomediaries bring parties together, inform decision-
+making, and facilitate knowledge exchange, becoming central in 
+the digital ecosystem [110]. 
+To address challenges faced by patients with specifc disorders, 
+we propose several future directions. First, personalized propaga-
+tion and education based on disorder characteristics can be ben-
+efcial. For instance, HFS patients, typically middle-aged to older 
+adults, can beneft from ofine promotion eforts, such as regular 
+free clinic sessions to enhance health and technical literacy. It is 
+essential to boost patients’ confdence in and acceptance of technol-
+ogy by promoting the understanding that technologies can serve as 
+valuable sources of health information and provide a means to vali-
+date existing information. While concerns about misinformation, 
+fraud, and scams may lead to distrust in technology, these issues 
+can also present in information obtained through social networks. 
+Second, integrating technology into healthcare policies can provide 
+substantial benefts. The government could provide telemedicine 
+devices to rural patients, enabling remote access to top-tier medical 
+consultations, enhancing health information accuracy, supporting 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chan, et al. 
+local doctors, and reducing patient costs [92]. Moreover, incorporat-
+ing technology into infrastracture can be an efective approach to 
+enhance technology acceptance and literacy. China had nearly 1.1 
+billion netizens in 2024, with rural netizens accounting for 27.7%, 
+reaching an Internet penetration rate of 63.8% in rural areas [31]. 
+Notably, 36% of the increased users are people above 50 years old, 
+attracted by the convenience and entertainment of short videos, 
+instant messaging, online payment, and online medical care [31]. 
+Third, large language models can serve as virtual doctors, allowing 
+patients to ask medical questions anytime and anywhere. These 
+models ofer reliable medical advice and show promising potential 
+for integration into the clinical diagnostic process for rare diseases 
+[19]. However, patients may perceive technology as inaccurate and 
+unreliable due to ads and fraud on social platforms, and they are 
+concerned about the impersonal nature of online information. To 
+address these concerns, chatbots can be designed with more person-
+alized, caregiver-like qualities and incorporate voice assistance for 
+more natural interactions, thereby providing a trustworthy image. 
+Moreover, integrating chatbots into online consultations with real 
+doctors may improve patients’ confdence in the information pro-
+vided. These advancements help mitigate information and power 
+asymmetries in doctor-patient relationships, leading to better health 
+outcomes. 
+6 Limitations 
+This study has several limitations. First, a low response rate led to 
+a small sample size, limiting our ability to comprehensively depict 
+circumstances in both rural and urban China. Second, remote inter-
+views may have hindered rapport-building, potentially restricting 
+insights into personal experiences. Third, the study focused solely 
+on individuals with HFS in China. Future research should expand 
+the participant pool and explore diverse national contexts for more 
+comprehensive and comparative insights. 
+7 Conclusion 
+In this paper, we explore the health information-seeking practices 
+of HFS patients by interviewing neurosurgeons and patients in 
+China. Using Actor-Network Theory, we analyze the roles, interac-
+tions and workfows of both human and non-human entities within 
+the health information-seeking network. We identify fve strate-
+gies for accessing top-tier medical resources, detailing their pros 
+and cons. We disucuss how patients navigate health information, 
+highlighting the empowerment through guanxi, strong ties, and 
+the role of intermediaries. Despite the signifcant role of human 
+infrastructure, the journey for patients is often long, difcult, and 
+complex, involving numerous attempts to fnd adequate medical 
+care. We propose implications for technologies to mitigate these 
+challenges and empower patients. Our goal is to enhance research 
+on patient engagement and to understand how healthcare practi-
+tioners, designers, developers, and government can improve health 
+awareness and information acquisition. Ultimately, we aim to help 
+individuals with specialized disorder overcome information and 
+power asymmetries in doctor-patient relationships, gaining better 
+access to medical services and treatment options. Acknowledgments 
+This work is supported by the Natural Science Foundation of China 
+under Grant No. 62472244 and 62132010, the Beijing National Re-
+search Center for Information Science and Technology (BNRist), the 
+Tsinghua University Initiative Scientifc Research Program, and the 
+Undergraduate Education Innovation Grants, Tsinghua University. 
+We thank all participants for taking part in our study, Bo Hei for 
+assisting with participant recruitment. We also extend our gratitude 
+to all reviewers, past and present, for their valuable comments that 
+signifcantly improved this paper. 
+References 
+[1] [n. d.]. Medical doctors (per 10 000 population) — who.int. https: 
+//www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-
+doctors-(per-10-000-population). [Accessed 08-01-2024]. 
+[2] Giovanni Abbruzzese, Alfredo Berardelli, and Giovanni Defazio. 2011. Hemifa-
+cial spasm. Handbook of clinical neurology 100 (2011), 675–680. 
+[3] David Aktan and Frédérique Depierreux. 2023. How to face the hemifacial 
+spasm: challenges and misconceptions. Acta Neurologica Belgica (2023), 1–7. 
+[4] Noor Aljassim and Remo Ostini. 2020. Health literacy in rural and urban 
+populations: a systematic review. Patient Education and Counseling 103, 10 
+(2020), 2142–2154. 
+[5] Padmore Adusei Amoah, Joseph Edusei, and David Amuzu. 2018. Social net-
+works and health: understanding the nuances of healthcare access between 
+urban and rural populations. International Journal of Environmental Research 
+and Public Health 15, 5 (2018), 973. 
+[6] Raymond G Auger and Jack P Whisnant. 1990. Hemifacial spasm in Rochester 
+and Olmsted county, Minnesota, 1960 to 1984. Archives of Neurology 47, 11 
+(1990), 1233–1234. 
+[7] Laima Augustaitis, Leland A Merrill, Kristi E Gamarel, and Oliver L Haimson. 
+2021. Online transgender health information seeking: facilitators, barriers, and 
+future directions. In Proceedings of the 2021 CHI Conference on Human Factors in 
+Computing Systems. 1–14. 
+[8] Kristin K Barker. 2008. Electronic support groups, patient-consumers, and 
+medicalization: the case of contested illness. Journal of health and social behavior 
+49, 1 (2008), 20–36. 
+[9] Michael J Barry and Susan Edgman-Levitan. 2012. Shared decision making—the 
+pinnacle of patient-centered care. New England Journal of Medicine 366, 9 (2012), 
+780–781. 
+[10] Yanjie Bian. 1997. Bringing strong ties back in: Indirect ties, network bridges, 
+and job searches in China. American sociological review (1997), 366–385. 
+[11] Yanjie Bian. 2018. The prevalence and the increasing signifcance of guanxi. 
+The China Quarterly 235 (2018), 597–621. 
+[12] Yanjie Bian. 2019. Guanxi, how China works. John Wiley & Sons. 
+[13] Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology. 
+Qualitative research in psychology 3, 2 (2006), 77–101. 
+[14] F Brundisini, Mita Giacomini, Deirdre DeJean, Meredith Vanstone, Shawn Win-
+sor, and A Smith. 2013. Chronic disease patients’ experiences with accessing 
+health care in rural and remote areas: a systematic review and qualitative meta-
+synthesis. Ontario health technology assessment series 13, 15 (2013), 1. 
+[15] Eleanor R Burgess, Madhu C Reddy, and David C Mohr. 2022. " I Just Can’t 
+Help But Smile Sometimes": Collaborative Self-Management of Depression. 
+Proceedings of the ACM on Human-Computer Interaction 6, CSCW1 (2022), 1–32. 
+[16] Michel Callon. 1984. Some elements of a sociology of translation: domestication 
+of the scallops and the fshermen of St Brieuc Bay. The sociological review 32, 
+1_suppl (1984), 196–233. 
+[17] Neera Chaudhry, Abhilekh Srivastava, and Laxmikant Joshi. 2015. Hemifacial 
+spasm: the past, present and future. Journal of the neurological sciences 356, 1-2 
+(2015), 27–31. 
+[18] Chao C Chen, Xiao-Ping Chen, and Shengsheng Huang. 2013. Chinese Guanxi: 
+An Integrative Review and NewDirections for Future Research. Management 
+and organization review 9, 1 (2013), 167–207. 
+[19] Xuanzhong Chen, Xiaohao Mao, Qihan Guo, Lun Wang, Shuyang Zhang, and 
+Ting Chen. 2024. RareBench: Can LLMs Serve as Rare Diseases Specialists?. In 
+Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and 
+Data Mining (2024-08-24), Vol. 35. KDD ’24: The 30th ACM SIGKDD Conference 
+on Knowledge Discovery and Data Mining, ACM, 4850–4861. https://doi.org/ 
+10.1145/3637528.3671576 
+[20] Y Cheng and X Zou. 2015. Guanxi JiuYi: a local medical practice. Ideol. Front 41, 
+6 (2015). 
+[21] Yu Chi, Daqing He, Fanghui Xiao, and Ning Zou. 2020. Connections and discon-
+nections between online health information seeking and ofine consequences. 
+In Proceedings of the 14th EAI international conference on pervasive computing 
+The Odyssey Journey CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+technologies for healthcare. 73–84. 
+[22] Arul Chib, Tran Khanh Phuong, Chia Wei Si, and Ng Su Hway. 2013. Enabling 
+informal digital guanxi for rural doctors in Shaanxi, China. Chinese Journal of 
+Communication 6, 1 (2013), 62–80. 
+[23] Claudio Ciborra. 2000. From control to drift: the dynamics of corporate information 
+infastructures. Oxford University Press, USA. 
+[24] T Hugh Crawford. 2020. Actor-network theory. In Oxford research encyclopedia 
+of literature. 
+[25] Carolyn Crane Cutilli. 2010. Seeking health information: what sources do your 
+patients use? Orthopaedic nursing 29, 3 (2010), 214–219. 
+[26] Kathryn P Davison and James W Pennebaker. 2013. Virtual narratives: Illness 
+representations in online support groups. In Perceptions of health and illness. 
+Psychology Press, 463–486. 
+[27] Munmun De Choudhury, Meredith Ringel Morris, and Ryen W White. 2014. 
+Seeking and sharing health information online: comparing search engines and 
+social media. In Proceedings of the SIGCHI conference on human factors in com-
+puting systems. 1365–1376. 
+[28] Rogerio Abreu De Paula. 2004. The construction of usefulness: How users and 
+context create meaning with a social networking system. University of Colorado 
+at Boulder. 
+[29] Pooja M Desai, Elliot G Mitchell, Maria L Hwang, Matthew E Levine, David J 
+Albers, and Lena Mamykina. 2019. Personal health oracle: Explorations of 
+personalized predictions in diabetes self-management. In Proceedings of the 2019 
+CHI Conference on Human Factors in Computing Systems. 1–13. 
+[30] Umama Dewan, Cora Sula, and Nora Mcdonald. 2024. Teen Reproductive Health 
+Information Seeking and Sharing Post-Roe. In Proceedings of the CHI Conference 
+on Human Factors in Computing Systems. 1–12. 
+[31] DinK. [n. d.]. The 54th Statistical Report on China’s Internet Development. 
+https://www.199it.com/archives/1718242.html 
+[32] Robert Elliott and Ladislav Timulak. 2005. Descriptive and interpretive ap-
+proaches to qualitative research. A handbook of research methods for clinical 
+and health psychology 1, 7 (2005), 147–159. 
+[33] Henry KY Fock and Ka-shing Woo. 1998. The China market: Strategic implica-
+tions of guanxi. Business Strategy Review 9, 3 (1998), 33–43. 
+[34] Susannah Fox et al. 2011. The social life of health information, 2011. 
+[35] Susannah Fox and Maeve Duggan. 2013. Health online 2013. Health 2013 (2013), 
+1–55. 
+[36] Susannah Fox and Lee Rainie. 2002. Vital Decisions: How Internet Users Decide 
+what Information to Trust when They Or Their Loved Ones are Sick: Plus a Guide 
+from the Medical Library Association about Smart Health-search Strategies and 
+Good Web Sites (page 32). Pew Internet & American Life Project. 
+[37] Dominick L Frosch and Robert M Kaplan. 1999. Shared decision making in 
+clinical medicine: past research and future directions. American journal of 
+preventive medicine 17, 4 (1999), 285–294. 
+[38] Verena Fuchsberger, Martin Murer, and Manfred Tscheligi. 2013. Materials, 
+materiality, and media. In Proceedings of the SIGCHI conference on human factors 
+in computing systems. 2853–2862. 
+[39] Jairo N Fuertes, Alexa Mislowack, Jennifer Bennett, Laury Paul, Tracey C Gilbert, 
+Gerardo Fontan, and Laura S Boylan. 2007. The physician–patient working 
+alliance. Patient education and counseling 66, 1 (2007), 29–36. 
+[40] Elizabeth A. Gage-Bouchard, Susan LaValley, Michelle Mollica, and Lynda Kwon 
+Beaupin. 2016. Communication and Exchange of Specialized Health-Related 
+Support Among People With Experiential Similarity on Facebook. Health 
+Communication 32, 10 (2 8 2016), 1233–1240. https://doi.org/10.1080/10410236. 
+2016.1196518 
+[41] Johannes Gartner and Ina Wagner. 1996. Mapping actors and agendas: Political 
+frameworks of systems design and participation. Human-Computer Interaction 
+11, 3 (1996), 187–214. 
+[42] Felicity Goodyear-Smith and Stephen Buetow. 2001. Power issues in the doctor-
+patient relationship. Health care analysis 9 (2001), 449–462. 
+[43] Xinning Gui and Yunan Chen. 2019. Making healthcare infrastructure work: 
+Unpacking the infrastructuring work of individuals. In Proceedings of the 2019 
+CHI Conference on Human Factors in Computing Systems. 1–14. 
+[44] Xinning Gui, Yunan Chen, and Kathleen H Pine. 2018. Navigating the Healthcare 
+Service" Black Box" Individual Competence and Fragmented System. Proceedings 
+of the ACM on Human-Computer Interaction 2, CSCW (2018), 1–26. 
+[45] Christina N Harrington and Lisa Egede. 2023. Trust, comfort and relatability: 
+Understanding black older adults’ perceptions of chatbot design for health 
+information seeking. In Proceedings of the 2023 CHI Conference on Human Factors 
+in Computing Systems. 1–18. 
+[46] Carel Jacobs and Huib Wursten. 2019. The Relationship between Doctor and 
+Patient. An Intercultural Comparison. Journal of Intercultural Management and 
+Ethics 2, 1 (2019), 35–43. 
+[47] Xiaoyun Jia, Yan Pang, and Liangni Sally Liu. 2021. Online health information 
+seeking behavior: a systematic review. In Healthcare, Vol. 9. MDPI, 1740. 
+[48] Rebecca M Jonas, Ankolika De, and Kelley Cotter. 2024. " We happen to be 
+diferent and diferent is not bad": Designing for Intersectional Fat-Positive 
+Information-Seeking. In Proceedings of the CHI Conference on Human Factors in Computing Systems. 1–17. 
+[49] Rachel Keys, Paul Marshall, Graham Stuart, and Aisling Ann O’Kane. 2024. “I 
+think it saved me. I think it saved my heart”: The Complex Journey From Self-
+Tracking With Wearables To Diagnosis. In Proceedings of the CHI Conference on 
+Human Factors in Computing Systems (Honolulu, HI, USA) (CHI ’24). Association 
+for Computing Machinery, New York, NY, USA, Article 138, 15 pages. https: 
+//doi.org/10.1145/3613904.3642701 
+[50] Jiban Khuntia, Dobin Yim, Mohan Tanniru, and Sanghee Lim. 2017. Patient 
+empowerment and engagement with a health infomediary. Health Policy and 
+Technology 6, 1 (2017), 40–50. 
+[51] Sara Kiesler, Bozena Zdaniuk, Vicki Lundmark, and Robert Kraut. 2000. Troubles 
+with the Internet: The dynamics of help at home. Human-computer interaction 
+15, 4 (2000), 323–351. 
+[52] Eliscia Kinder, Mohammad Hossein Jarrahi, and Will Sutherland. 2019. Gig 
+platforms, tensions, alliances and ecosystems: An actor-network perspective. 
+Proceedings of the ACM on Human-Computer Interaction 3, CSCW (2019), 1–26. 
+[53] Predrag Klasnja, Andrea Civan Hartzler, Kent T Unruh, and Wanda Pratt. 2010. 
+Blowing in the wind: unanchored patient information work during cancer care. 
+In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 
+193–202. 
+[54] Arthur Kleinman, Leon Eisenberg, and Byron Good. 1978. Culture, illness, and 
+care: clinical lessons from anthropologic and cross-cultural research. Annals of 
+internal medicine 88, 2 (1978), 251–258. 
+[55] Ben Kraal, Vesna Popovic, Marianella Chamorro-Koc, and Alethea Blackler. 2011. 
+An actor-network research frame for analysing complex socio-technical situa-
+tions. In Diversity and unity: Proceedings of IASDR2011, the 4th World Conference 
+on Design Research. Delft University of Technology, 1–10. 
+[56] David Krackhardt, N Nohria, and B Eccles. 2003. The strength of strong ties. 
+Networks in the knowledge economy 82 (2003). 
+[57] Carol C Kuhlthau. 1991. Inside the search process: Information seeking from 
+the user’s perspective. Journal of the American society for information science 
+42, 5 (1991), 361–371. 
+[58] Neha Kumar and Nimmi Rangaswamy. 2013. The mobile media actor-network 
+in urban India. In Proceedings of the SIGCHI conference on human factors in 
+computing systems. 1989–1998. 
+[59] Anasik Lalazaryan, Firoozeh Zare-Farashbandi, et al. 2014. A review of models 
+and theories of health information seeking behavior. International Journal of 
+Health System and Disaster Management 2, 4 (2014), 193. 
+[60] Sylvie D Lambert and Carmen G Loiselle. 2007. Health information—seeking 
+behavior. Qualitative health research 17, 8 (2007), 1006–1019. 
+[61] Bruno Latour. 2007. Reassembling the social: An introduction to actor-network-
+theory. Oup Oxford. 
+[62] Bruno Latour. 2011. Drawing things together. The map reader: Theories of 
+mapping practice and cartographic representation (2011), 65–72. 
+[63] John Law. 1986. Power, action, and belief: A new sociology of knowledge? 
+(1986). 
+[64] John Law and John Hassard. 1999. Actor network theory and after. (1999). 
+[65] John Law and Peter Lodge. 1984. Science for social scientists. Springer. 
+[66] Deborah Lefkowitz. 2022. Black boxes and information pathways: An actor-
+network theory approach to breast cancer survivorship care. Social Science & 
+Medicine 307 (2022), 115184. 
+[67] Jar-Der Luo and Yung-Chu Yeh. 2012. Neither collectivism nor individualism: 
+Trust in the Chinese guanxi circle. Journal of Trust Research 2, 1 (2012), 53–70. 
+[68] Haley MacLeod, Grace Bastin, Leslie S Liu, Katie Siek, and Kay Connelly. 2017. 
+" Be Grateful You Don’t Have a Real Disease" Understanding Rare Disease 
+Relationships. In Proceedings of the 2017 CHI Conference on Human Factors in 
+Computing Systems. 1660–1673. 
+[69] Haley MacLeod, Kim Oakes, Danika Geisler, Kay Connelly, and Katie Siek. 2015. 
+Rare world: Towards technology for rare diseases. In Proceedings of the 33rd 
+Annual ACM Conference on human factors in computing systems. 1145–1154. 
+[70] Hanuma Teja Maddali, Emma Dixon, Alisha Pradhan, and Amanda Lazar. 2022. 
+Investigating the potential of artifcial intelligence powered interfaces to support 
+diferent types of memory for people with dementia. In CHI Conference on 
+Human Factors in Computing Systems Extended Abstracts. 1–7. 
+[71] Mollie McKillop, Lena Mamykina, and Noémie Elhadad. 2018. Designing in the 
+dark: eliciting self-tracking dimensions for understanding enigmatic disease. In 
+Proceedings of the 2018 CHI conference on human factors in computing systems. 
+1–15. 
+[72] Ashlee Milton, Juan F Maestre, Abhishek Roy, Rebecca Umbach, and Stevie 
+Chancellor. 2024. Seeking in Cycles: How Users Leverage Personal Informa-
+tion Ecosystems to Find Mental Health Information. In Proceedings of the CHI 
+Conference on Human Factors in Computing Systems. 1–16. 
+[73] Tracy L Mitzner, Julie B Boron, Cara Bailey Fausset, Anne E Adams, Neil Char-
+ness, Sara J Czaja, Katinka Dijkstra, Arthur D Fisk, Wendy A Rogers, and Joseph 
+Sharit. 2010. Older adults talk technology: Technology usage and attitudes. 
+Computers in human behavior 26, 6 (2010), 1710–1721. 
+[74] M Montava, V Rossi, CL Curto Fais, J Mancini, and J-P Lavieille. 2016. Long-term 
+surgical results in microvascular decompression for hemifacial spasm: efcacy, 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+morbidity and quality of life. Acta Otorhinolaryngologica Italica 36, 3 (2016), 
+220. 
+[75] Sean Nicholson, FA Sloan, and H Kasper. 2008. Medical career choices and rates 
+of return. Incentives and choice in health care (2008), 195–226. 
+[76] Emily Esther Nielsen, Tom Owen, Matthew Roach, and Alan Dix. 2023. A Patient 
+Centred Approach to Rare Disease Technology. In Extended Abstracts of the 2023 
+CHI Conference on Human Factors in Computing Systems. 1–7. 
+[77] Beate Nilsen, Khanh-Dung Le, and Espen Dietrichs. 2004. Prevalence of hemifa-
+cial spasm in Oslo, Norway. Neurology 63, 8 (2004), 1532–1533. 
+[78] Christine L Ogan, Muzafer Ozakca, and Jacob Groshek. 2008. Embedding the 
+internet in the lives of college students: Online and ofine behavior. Social 
+Science Computer Review 26, 2 (2008), 170–177. 
+[79] JS Parikh and Kaushik Ghosh. 2006. Understanding and designing for inter-
+mediated information tasks in India. IEEE Pervasive Computing 5, 2 (2006), 
+32–39. 
+[80] Sun Young Park and Yunan Chen. 2017. Patient strategies as active adaptation: 
+understanding patient behaviors during an emergency visit. In proceedings of 
+the 2017 CHI Conference on Human Factors in Computing Systems. 880–892. 
+[81] Adrienne Pichon, Kayla Schifer, Emma Horan, Bria Massey, Suzanne Bakken, 
+Lena Mamykina, and Noemie Elhadad. 2021. Divided we stand: the collaborative 
+work of patients and providers in an enigmatic chronic disease. Proceedings of 
+the ACM on human-computer interaction 4, CSCW3 (2021), 1–24. 
+[82] Xuezheng Qin, Lixing Li, and Chee-Ruey Hsieh. 2013. Too few doctors or too 
+low wages? Labor supply of health care professionals in China. China Economic 
+Review 24 (2013), 150–164. 
+[83] David P Randall, E Ilana Diamant, and Charlotte P Lee. 2015. Creating sustainable 
+cyberinfrastructures. In Proceedings of the 33rd Annual ACM Conference on 
+Human Factors in Computing Systems. 1759–1768. 
+[84] Jens Reimer, K Gilg, A Karow, J Esser, and GH Franke. 2005. Health-related qual-
+ity of life in blepharospasm or hemifacial spasm. Acta Neurologica Scandinavica 
+111, 1 (2005), 64–70. 
+[85] Ronald E Rice. 2006. Infuences, usage, and outcomes of Internet health informa-
+tion searching: multivariate results from the Pew surveys. International journal 
+of medical informatics 75, 1 (2006), 8–28. 
+[86] Christian Rosenstengel, Marc Matthes, Jörg Baldauf, Stefen Fleck, and Henry 
+Schroeder. 2012. Hemifacial spasm: conservative and surgical treatment options. 
+Deutsches Ärzteblatt International 109, 41 (2012), 667. 
+[87] Nithya Sambasivan, Ed Cutrell, Kentaro Toyama, and Bonnie Nardi. 2010. In-
+termediated technology use in developing communities. In Proceedings of the 
+SIGCHI Conference on Human Factors in Computing Systems. 2583–2592. 
+[88] Shruti Sannon, Elizabeth L Murnane, Natalya N Bazarova, and Geri Gay. 2019. " 
+I was really, really nervous posting it" Communicating about Invisible Chronic 
+Illnesses across Social Media Platforms. In Proceedings of the 2019 CHI conference 
+on human factors in computing systems. 1–13. 
+[89] Edwin Sayes. 2014. Actor–Network Theory and methodology: Just what does it 
+mean to say that nonhumans have agency? Social studies of science 44, 1 (2014), 
+134–149. 
+[90] M Sindou and P Mercier. 2018. Microvascular decompression for hemifacial 
+spasm: Outcome on spasm and complications. A review. Neuro-chirurgie 64, 2 
+(2018), 106–116. 
+[91] Xiaokang Song, Shijie Song, Si Chen, Yuxiang Zhao, and Qinghua Zhu. 2019. 
+Factors infuencing proxy internet health information seeking among the elderly 
+in rural China: a grounded theory study. In International Conference on Human-
+Computer Interaction. Springer, 332–343. 
+[92] S Stowe and S Harding. 2010. Telecare, telehealth and telemedicine. European 
+Geriatric Medicine 1, 3 (2010), 193–197. 
+[93] Eng-King Tan, Sau-Ying Lum, S Fook-Chong, Ling-Ling Chan, Christopher 
+Gabriel, and Leslie Lim. 2005. Behind the facial twitch: depressive symptoms in 
+hemifacial spasm. Parkinsonism & Related Disorders 11, 4 (2005), 241–245. 
+[94] N-C Tan, L-L Chan, and E-K Tan. 2002. Hemifacial spasm and involuntary facial 
+movements. Qjm 95, 8 (2002), 493–500. 
+[95] Jacob Thebault-Spieker, Loren Terveen, and Brent Hecht. 2017. Toward a geo-
+graphic understanding of the sharing economy: Systemic biases in UberX and 
+TaskRabbit. ACM Transactions on Computer-Human Interaction (TOCHI) 24, 3 
+(2017), 1–40. 
+[96] Jakob Tholander, Maria Normark, and Chiara Rossitto. 2012. Understanding 
+agency in interaction design materials. In Proceedings of the SIGCHI conference 
+on human factors in computing systems. 2499–2508. 
+[97] Anne S Tsui, Jiing-Lih Farh, and Katherine R Xin. 2000. Guanxi in the Chinese 
+context. In Management and organizations in the Chinese context. Springer, 
+225–244. 
+[98] Richard S Tyler, Martin Pienkowski, Eveling Rojas Roncancio, Hyung Jin Jun, 
+Tom Brozoski, Nicolas Dauman, Claudia Barros Coelho, Gerhard Andersson, 
+Andrew J Keiner, Anthony T Cacace, et al. 2014. A review of hyperacusis and 
+future directions: part I. Defnitions and manifestations. American journal of 
+audiology 23, 4 (2014), 402–419. 
+[99] Dirk T Ubbink, MG Hageman, and Dink A Legemate. 2015. Shared decision-
+making in surgery. Surgical technology international 26 (2015), 31–36. Chan, et al. 
+[100]
+ Anchi Wang and Joseph Jankovic. 1998. Hemifacial spasm: clinical fndings 
+and treatment. Muscle & Nerve: Ofcial Journal of the American Association of 
+Electrodiagnostic Medicine 21, 12 (1998), 1740–1747. 
+[101] Lin Wang, Xingyue Hu, Hongjuan Dong, Wenzhao Wang, Yue Huang, Lingjing 
+Jin, Yumin Luo, Weixi Zhang, Yajun Lian, Zhanhua Liang, et al. 2014. Clinical 
+features and treatment status of hemifacial spasm in China. Chinese medical 
+journal 127, 5 (2014), 845–849. 
+[102] Liupu Wang, Juexin Wang, Michael Wang, Yong Li, Yanchun Liang, and Dong 
+Xu. 2012. Using Internet search engines to obtain medical information: a com-
+parative study. Journal of medical Internet research 14, 3 (2012), e74. 
+[103] Qiang-ping Wang, Min Bai, and Ding Lei. 2012. Efectiveness of acupuncture in 
+treatment of facial spasm: a meta-analysis. Alternative Therapies in Health & 
+Medicine 18, 3 (2012). 
+[104] Andrea Whittle and André Spicer. 2008. Is actor network theory critique? 
+Organization studies 29, 4 (2008), 611–629. 
+[105] Lauren Wilcox, Renee Shelby, Rajesh Veeraraghavan, Oliver L Haimson, 
+Gabriela Cruz Erickson, Michael Turken, and Rebecca Gulotta. 2023. Infrastruc-
+turing Care: How Trans and Non-Binary People Meet Health and Well-Being 
+Needs through Technology. In Proceedings of the 2023 CHI Conference on Human 
+Factors in Computing Systems. 1–17. 
+[106] Robert H Wilkins. 1991. Hemifacial spasm: a review. Surgical neurology 36, 4 
+(1991), 251–277. 
+[107] Marisol Wong-Villacres, Neha Kumar, and Betsy DiSalvo. 2019. The parenting 
+actor-network of latino immigrants in the united states. In Proceedings of the 
+2019 CHI Conference on Human Factors in Computing Systems. 1–12. 
+[108] Sally Wyatt, Roma Harris, and Nadine Wathen. 2008. The go-betweens: Health, 
+technology and info (r) mediation. In Mediating health information: The go-
+betweens in a changing socio-technical landscape. Springer, 1–17. 
+[109] P Yan. 2020. Digital divide in the adoption and use of the Internet in everyday 
+life: Comparative study in rural and urban Middle China. (2020). 
+[110] Dobin Yim, Jiban Khuntia, Sanghee Lim, and Wenjing Duan. 2017. To Ask or Not 
+To Ask? An Investigation of User Engagement and Doctor-Seeking Decision in 
+Online Health Infomediary.. In ICIS. 
+[111] Q. U. Ying-He, Tian Yi-Peng, Tong Meijilin University, Changchun, and China. 
+2010. Investigation and Analysis of the Phenomenon of "Relational Hospitaliza-
+tion". Medicine & Philosophy(Humanistic & Social Medicine Edition) (2010). 
+[112] Shuai Zhang, Yijin Wu, Wen Ma, Meili Cheng, and Linzi Li. 2021. Seeking 
+medical services through guanxi in China. Patient Education and Counseling 
+104, 7 (2021), 1789–1795. 
+[113] Yu Zhang. 2023. The disruption of power asymmetry in online medical con-
+sultations in China: A Social Media Critical Discourse Studies approach. In 
+Discourse in the Digital Age. Routledge, 231–246. 
+[114] Bin Zhu, Chih-Wei Hsieh, and Ying Mao. 2019. Addressing the licensed doctor 
+Maldistribution in China: a demand-and-supply perspective. International 
+journal of environmental research and public health 16, 10 (2019), 1753. 

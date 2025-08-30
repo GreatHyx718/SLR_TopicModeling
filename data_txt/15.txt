@@ -1,0 +1,369 @@
+Exploring Digital Embodiment in Wheelchair Dance with
+Generative AI
+Yurui Xie
+yuruixdesign@kmd.keio.ac.jp
+Keio University Graduate School of Media Design
+Yokohama, JapanGiulia Barbareschi
+barbareschi@kmd.keio.ac.jp
+Keio University Graduate School of Media Design
+Yokohama, Japan
+Kai Kunze
+kai@kmd.keio.ac.jp
+Keio University Graduate School of Media Design
+Yokohama, JapanMasa Inakage
+inakage@kmd.keio.ac.jp
+Keio University Graduate School of Media Design
+Yokohama, Japan
+ABSTRACT
+In the era of blurring boundaries between technology and humans,
+the idea of posthumanism in the arts offers opportunities to over-
+come human natural limitations through the integration of artificial
+agents that can enhance performance and creativity. Within the
+field of dance, a variety of technologies have been utilized to am-
+plify aspects such as training, artistic creation, live performance,
+and dance archives. Nonetheless, a largely unexplored territory
+exists—the application of emerging technology in the context of
+disability dance. This paper presents an ongoing project focused
+on gesture-controlled AI generation for wheelchair dance as a way
+to explore the complex relationship between dancers and their
+assistive devices. The system uniquely captures the dancer and
+wheelchair through body segmentation, then recombines them into
+a unified body. Subsequently, it extracts movement features based
+on the previously established framework for visualizing movement
+quality in wheelchair dance, generating images that enable a deeper
+understanding of the dance’s expressive qualities. This innovative
+approach enhances the creative potential of wheelchair dance, em-
+powering dancers to craft personalized visual narratives.
+CCS CONCEPTS
+•Applied computing →Media arts ;•Human-centered com-
+puting→Visualization toolkits .
+KEYWORDS
+inclusive HCI, generative AI, disability art, movement visualization,
+gesture control
+ACM Reference Format:
+Yurui Xie, Giulia Barbareschi, Kai Kunze, and Masa Inakage. 2023. Ex-
+ploring Digital Embodiment in Wheelchair Dance with Generative AI.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+IoT 2023, November 07–10, 2023, Nagoya, Japan
+©2023 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-0854-1/23/11. . . $15.00
+https://doi.org/10.1145/3627050.3631576InThe International Conference on the Internet of Things (IoT 2023), No-
+vember 07–10, 2023, Nagoya, Japan. ACM, New York, NY, USA, 4 pages.
+https://doi.org/10.1145/3627050.3631576
+1 INTRODUCTION
+The rapid development of technologies and tools that seem to alter
+or outright replace human functions has sparked a fear of integra-
+tion with artificial technologies [ 11]. In searching for an alternative
+path from the idea of technology as a substitute for human ability,
+the concept of posthumanism centered on integration with tech-
+nology as a way to disrupt the separate dichotomies of users vs
+artifacts, as well as the subversion of societal norms [ 5]. Within the
+disability community, and especially among disabled artists, there
+is often more awareness of this tension as assistive tools have been
+perceived both as potentially eclipsing the user’s own identity and
+as a means to express it [1].
+Experiments on posthumanism are frequently observable within
+the realm of dance. These endeavors encompass the utilization of
+visual design to extend the temporal-spatial capacities of the human
+body [ 2,3,13] or enhance the ephemeral dynamic of dance [ 10].
+Dance, as an art form inherently rooted in human characteristics,
+serves as a medium for the transformation of implicit body schema
+into explicit embodiment.
+Moreover, the visualization of dance transcends inherent phys-
+ical limitations to facilitate extensive storytelling, aligning with
+the principles of posthumanism, wherein technology is harnessed
+to augment human attributes and re-negotiate the body itself [ 7].
+Contemporary approaches to visualizing dance have delved into the
+augmentation of creativity [ 2], performance enhancement [ 4,10],
+and training refinement[ 8]. Nevertheless, the exploration of dance
+visualization within the framework of posthumanism remains no-
+tably absent in the context of wheelchair dance, which is arguably
+more suited to it as a result of the natural integration between the
+human body of the dancer and the technological extension of the
+wheelchair.
+In wheelchair dance, assistive tools can boost dancers’ abilities
+but may also highlight their disability, possibly overshadowing their
+artistic identity [ 1]. Recent research has tackled this by visualizing
+expressive qualities in wheelchair dance, drawing from established
+movement methods to combat such stigma [ 13]. However, the solu-
+tion by Xie et al 2023 [ 13] lacks adaptable visual narratives captur-
+ing the dynamic dancer-tool relationship that exists in wheelchair
+224
+
+IoT 2023, November 07–10, 2023, Nagoya, Japan
+dance. This research expands on the existing framework of move-
+ment quality visualization for wheelchair dance [ 13], integrating
+generative AI within the overarching posthumanist ideology to
+explore adaptive visualizations tailored specifically to wheelchair
+dance’s identity.
+2 RELATED WORKS
+To examine the integration of posthumanism in dance visualiza-
+tion for disabled dancers and assistive technology, we conducted
+a literature review spanning three different domains: Embodied ,
+Incorporated , and Cybernetic . We selected these domains to provide
+a structured framework for our investigation, allowing us to sys-
+tematically analyze how disability dance and assistive technology
+intersect and evolve in these diverse dimensions. This structured
+approach informs our design considerations, focusing on the inter-
+action between the disabled body and the wheelchair.
+•Embodied In this research’s context, embodied underscores
+the emphasis on our biological body and visualizing dance
+while maintaining a strong connection to our natural form.
+Such visualizations can be controlled by audiences’ physio-
+logical feedback [ 10], participatory designed visual mapping
+[8], or dance trajectory generated avatar [ 2]. The focus is to
+enhance dancers’ movement creation through varied design
+processes and visualizations. Sound-motion mapping has
+been employed for AI dance generation to bolster adaptabil-
+ity [12]. Yet, the potential of this approach remains unex-
+plored in text-image generation and among disabled dancers.
+•Incorporeal Under posthumanism the idea of incorporeal en-
+compasses the existence beyond the limitation of the natural
+body, which transcends to a new form of being, such as a dig-
+ital identity. Research that visualizes wheelchair dancers’ ex-
+pressive quality based on Laban Movement Analysis (LMA)
+for both wheelchair dancers and non has attempted to create
+a visual state of being that is not bounded by the specific char-
+acteristics of the body [ 9,13]. These visualizations embody
+posthumanism’s core principles by transcending physical
+limitations to digital narrative.
+•Cybernetic This concept explores the idea that humans can
+merge with or become closely connected to technologies or
+machines, blurring the line between the human body and
+inhuman objects. In Oscar Schlemmer’s Bauhaustänze , ex-
+ternal tools such as costumes and geometrical poles were
+integrated to extend movement capacity towards the exte-
+rior space [ 3]. Although this is not digital visualization, the
+visual perception of costume and tools integrated cybernetic
+elements within the dance experience.
+Dance visualization can derive from each mentioned category to
+practice the idea of posthumanism. Our research finds that while
+progress has been made in enhancing dance visualization, there
+remains a notable gap in developing adaptable visual narratives that
+fully represent the dynamic interaction between disabled dancers
+and their assistive tools. Since disability has its unique difference
+based on each case, it requires end-user adaptable visualization
+for wheeling dancers [ 13]. On the other hand, the positioning of
+wheelchairs in wheelchair dance visualization is yet to be examined
+and explored.3 DESIGN DEVELOPMENT
+3.1 Concept
+This research focuses on integrating posthumanist approaches and
+adaptable visualization, categorizing posthumanism into three di-
+mensions: the natural body, external body, and assisted body, cor-
+responding to embodied ,incorporeal , and cybernetic , drawing from
+the choreutics concept of the kinesphere within the dancer’s body,
+the wheelchair, and their amalgamation.
+Within adaptive visualization, we explore the dancer’s control
+over the visualization process, referencing the systematic frame-
+work outlined in "Movement Quality Visualization for Wheelchair
+Dance" (Xie, 2023), utilizing extracted movement features to trigger
+visual content creation. Integrating AI generation enhances the
+dynamic and diverse visual language, elevating the visualization
+process and broadening the scope of visual expression.
+3.2 Embodied, Incorporeal, and Cybernetic
+The wheelchair dance movement is captured through video data in-
+put which facilitates both real-time and post-processing conditions.
+The video data is analyzed within the TouchDesigner platform,
+focusing on a four-second segment of movements. This analysis
+utilizes MediaPipe for the segmentation of predefined data within
+the original video content, including the body morphology. The
+aim is to identify three fundamental elements of the distinct and
+interconnected kinesphere:
+•Embodied This category considers the dancer’s own individ-
+ual body. Machine learning directly segments the dancer’s
+natural body from video input as the main target for embod-
+iedvisualization (Figure 1).
+•Incorporeal Wheelchair is considered as the incoporeal body.
+Segmentation of the wheelchair is not directly processed
+with machine learning. The system’s post-processing masks
+previously segmented dancers’ bodies on original video data
+to extract the wheelchair (Figure 1).
+•Cybernetic The combination of dancer’s body and wheelchair
+together makes cybernetic body. Uniting the previously ex-
+tracted dancer’s body and wheelchair, the system is able
+to present a visual amalgamation of two different bodies
+together.
+Each individual piece of extracted visual data will function as the
+foundational input guiding the AI generation process, encompass-
+ing the distinct categories of embodied ,incorporeal , and cybernetic .
+3.3 Adaptive Control for Visualization
+The AI generation from Stable Diffusion is accessed by connect-
+ing to an external application programming interface (API). The
+process of AI generation necessitates prompts to govern the vi-
+sual output, and for the purpose of controlling visualization in this
+project, movement expression is employed to manipulate prede-
+fined prompt inputs. Xie’s proposed solution [ 13] offers a method
+for handling extracted movement data grounded in LMA’s Effort
+theory. LMA is an established movement analysis system, and its
+Effort theory examines movement quality into two opposite con-
+tinuums from each motion factor [ 6]. Our proposed system uses
+extracted movement data from Effort theory’s Weight and Time to
+225
+Exploring Digital Embodiment in Wheelchair Dance with Generative AI IoT 2023, November 07–10, 2023, Nagoya, Japan
+Figure 1: Body segmentation technique in three domains:
+(a, d) embodied, (b, e) incorporeal, and (c, f) cybernetic. (a-
+c) Original segmented video content. (d-f) Body and shape
+morphology.
+reconfigure movement data as the control factor to switch prompt
+input. The system demonstrates the capacity to employ existing
+solutions for motion-controlled to prompt input, thereby providing
+a platform for adaptive AI generation with integrated movement
+expressions.
+3.3.1 Weight. In Effort theory, Weight signifies the force magni-
+tude expressed by a dancer through body extension, encapsulating
+two qualities: "strong" and "light." As the body extends, Weight
+is perceived as "light," while the opposite denotes "strong". The
+current solution employs the identification of body extension by
+measuring the distance between the upper limbs and the nose to
+the constructed wheelchair center [ 13]. Our system calculates the
+average body extension values over a cumulative process, deter-
+mining the points at which Weight is at its strongest or lightest,
+assigning two prompts to align with the maximum and minimum
+body extension values, and facilitating prompt input control based
+on the Weight quality of movements.
+In the concept of Incorporeal , the system takes the extracted
+wheelchair as an image guide and generates visuals according to the
+preassigned prompts of "dark" and "bright" correspond to Weight’s
+"strong" and "light" (Figure 2). Additionally, two constant prompts,
+"human body" and "dancehall", control the invariant visual condi-
+tion.
+3.3.2 Time. According to the LMA Effort theory, Time represents
+the duration of motion, incorporating the qualities of movement
+denoted as "sustained" and "sudden," with "sustained" relating to
+slower motion and "sudden" to faster motion. In Xie’s proposed
+solution, Time is quantified by extracting the speed of upper limb
+motions [ 13]. Our system employs a parameter switch akin to the
+Figure 2: Movement quality controlled AI generation: Weight
+quality of "light" and "strong" controls "bright" and "dark"
+prompts. Visualization generated from Sun Dance ©Kenta
+Kambara
+Weight attribute methodology to govern input prompts, categoriz-
+ing motion as "sustained" or "sudden" depending on whether the
+input speed exceeds or falls below the average speed threshold.
+The tested AI generation utilizes preassigned prompts of "geo-
+metric" and "organic" corresponding to "sustained" and "sudden"
+motions, as depicted in Figure 3. However, the generated content
+exhibited body deformation potentially stemming from the input
+video’s characteristics and the dynamic nature of the movement
+sequence, necessitating further investigation. Conversely, the gener-
+ation adheres to constant prompts of the "human body" and "dance-
+hall," employing the extracted wheelchair as a guiding image.
+3.4 Discussion
+This study employs machine learning’s body segmentation tech-
+niques to categorize wheelchair dance into the domains of embodied ,
+incorporeal , and cybernetic , enabling exploration of the relationship
+between wheelchair movements and artistic identity, highlighting
+the potential for creative expression and reimagining the role of the
+wheelchair as an extension of the dancer’s body or an independent
+dancing entity in performance contexts.
+By incorporating an established artistic visualization solution,
+the system leverages AI-generated prompt inputs to enhance move-
+ment control, enabling personalized visualizations aligned with
+chosen LMA Effort qualities in wheelchair dance, thereby ampli-
+fying the system’s adaptability and empowering artists to enrich
+the creative landscape of wheelchair dance. Future studies should
+226
+IoT 2023, November 07–10, 2023, Nagoya, Japan
+Figure 3: Movement quality controlled AI generation: Weight
+quality of "light" and "strong" controls "bright" and "dark"
+prompts. Visualization generated from Sun Dance ©Kenta
+Kambara
+consider categorizing prompts specifically in dance vocabulary and
+the incorporation with wheelchair dance vocabulary.
+Despite the system’s significant contribution to wheelchair dance,
+it is important to address existing technical constraints, including a
+latency range of two to five seconds attributed to cloud API stability,
+internet connectivity, and local processing capacity, alongside the
+necessity for a clean, high-contrast background for comprehensive
+body segmentation, emphasizing the need for solutions to prioritize
+end-user adaptability and real-time visualization quality within the
+framework of the LMA Effort theory.
+3.5 Conclusion
+This paper presents ongoing research at the intersection of posthu-
+manism and adaptive visualization in wheelchair dance, catego-
+rizing the framework as embodied ,incorporeal , and cybernetic to
+highlight the dynamic relationship between the dancer and the
+wheelchair, fostering artistic expression and embracing technol-
+ogy’s potential to transcend physical limitations and diverse artistic
+identities.
+Furthermore, the integration of AI-driven prompt generation,
+controlled by movement features based on LMA Effort theory, offers
+a flexible and adaptable means of artistic expression. Dancers can
+harness this technology to craft personalized visual narratives,
+amplifying their creative agency. However, it is crucial to address
+technical limitations such as processing latency and background
+requirements to ensure the practicality and real-time applicability
+of these innovative solutions.This research paves the way for further exploration in the evolv-
+ing field of wheelchair dance, highlighting the significance of user
+adaptability and personalized artistic expression, with future re-
+search focusing on enhancing prompt input, refining adaptive move-
+ment data extraction, minimizing generation latency, and engaging
+in user testing with wheelchair dancers, thus contributing to the
+ongoing discourse on the intersection of technology, artistic iden-
+tity, and assistive tools within the realm of posthumanism and
+wheelchair dance.
+ACKNOWLEDGMENTS
+Thanks to all participants for sharing their time, expertise, and
+invaluable contributions, without which this work would not have
+been possible. This research is partially supported by Ericsson
+REFERENCES
+[1]Giulia Barbareschi and Masa Inakage. 2022. Assistive or Artistic Technologies? Ex-
+ploring the Connections between Art, Disability and Wheelchair Use. In Proceed-
+ings of the 24th International ACM SIGACCESS Conference on Computers and Ac-
+cessibility (Athens, Greece) (ASSETS ’22) . Association for Computing Machinery,
+New York, NY, USA, Article 11, 14 pages. https://doi.org/10.1145/3517428.3544799
+[2]Alexander Berman and Valencia James. 2014. Towards a Live Dance Improvisation
+between an Avatar and a Human Dancer. In Proceedings of the 2014 International
+Workshop on Movement and Computing (Paris, France) (MOCO ’14) . Association
+for Computing Machinery, New York, NY, USA, 162–165. https://doi.org/10.
+1145/2617995.2618026
+[3]Johannes Birringer. 2013. Bauhaus, Constructivism, Performance. Her. Russ. Acad.
+Sci.35, 2 (may 2013), 39-52 pages. https://doi.org/10.1162/PAJJ_a_00145
+[4]Daniel Bisig and Pablo Palacio. 2016. Neural Narratives: Dance with Virtual Body
+Extensions. In Proceedings of the 3rd International Symposium on Movement and
+Computing (Thessaloniki, GA, Greece) (MOCO ’16) . Association for Computing
+Machinery, New York, NY, USA, Article 4, 8 pages. https://doi.org/10.1145/
+2948910.2948925
+[5]Lauren M Britton and Bryan Semaan. 2017. Manifesting the cyborg through
+techno-body modification: From human-computer interaction to integration. In
+Proceedings of the 2017 CHI conference on human factors in computing systems .
+2499–2510.
+[6]Sarah Fdili Alaoui, Jules Françoise, Thecla Schiphorst, Karen Studd, and Frederic
+Bevilacqua. 2017. Seeing, sensing and recognizing Laban movement qualities. In
+Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems .
+4009–4020.
+[7]Dan Goodley, Rebecca Lawthom, and Katherine Runswick Cole. 2014. Posthuman
+disability studies. Subjectivity 7 (2014), 342–361.
+[8]Alaoui Sarah Fdili, Henry Cyrille, and Jacquemin Christian. 2014. Physical
+modelling for interactive installations and the performing arts. 10, 2 (2014),
+159-178 pages. https://doi.org/10.1080/14794713.2014.946284
+[9]Pattarawut Subyen, Diego Maranan, Thecla Schiphorst, Philippe Pasquier, and
+Lyn Bartram. 2011. EMVIZ: the poetics of movement quality visualization.
+InProceedings of the International Symposium on Computational Aesthetics in
+Graphics, Visualization, and Imaging . 121–128.
+[10] Moe Sugawa, Taichi Furukawa, George Chernyshov, Danny Hynds, Jiawen
+Han, Marcelo Padovani, Dingding Zheng, Karola Marky, Karola Kunze, and
+Kouta Minamizawa. 2021. Boiling Mind: Amplifying the Audience-Performer
+Connection through Sonification and Visualization of Heart and Electroder-
+mal Activities. In Proceedings of the Fifteenth International Conference on Tan-
+gible, Embedded, and Embodied Interaction (Salzburg, Austria) (TEI ’21) . Asso-
+ciation for Computing Machinery, New York, NY, USA, Article 34, 10 pages.
+https://doi.org/10.1145/3430524.3440653
+[11] Natasha Vita-More. 2019. History of transhumanism. The transhumanism hand-
+book (2019), 49–61.
+[12] Benedikte Wallace, Charles P. Martin, Jim Tørresen, and Kristian Nymoen. 2021.
+Learning Embodied Sound-Motion Mappings: Evaluating AI-Generated Dance
+Improvisation. In Proceedings of the 13th Conference on Creativity and Cognition
+(Virtual Event, Italy) (C&C ’21) . Association for Computing Machinery, New York,
+NY, USA, Article 43, 9 pages. https://doi.org/10.1145/3450741.3465245
+[13] Yurui Xie, Giulia Barbareschi, Ayesha Nabila, Kai Kunze, and Masa Inakage. 2023.
+Movement Quality Visualization for Wheelchair Dance. Proc. ACM Comput.
+Graph. Interact. Tech. 6, 2, Article 23 (aug 2023), 12 pages. https://doi.org/10.
+1145/3597628
+227

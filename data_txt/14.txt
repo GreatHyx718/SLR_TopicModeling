@@ -1,0 +1,290 @@
+‘イ’(1926) by BioLuminescent Bacteria
+Takumi Saeki∗
+saeki.takumi0508@gmail.com
+Graduate School of Design, Kyushu University
+Fukuoka, JapanKazuhiro Jo∗
+jo@jp.org
+Faculty of Design, Kyushu University
+Fukuoka, Japan
+ABSTRACT
+"‘イ(I)’(1926) by BioLuminescent Bacteria" is a work created by
+printing an image on agar media using luminous bacteria as ink
+through digital silkscreen printing. The printed image is the " イ(I)"
+first displayed on a television CRT display by Kenjiro Takayanagi
+in 1926. Unlike conventional printed materials, this image has a
+temporal development. The luminous image gradually glows, then
+deteriorates and vanishes as the luminous bacteria undergo growth
+and die.
+CCS CONCEPTS
+•Human-centered computing →Displays and imagers .
+KEYWORDS
+visual media, bioluminescence, digital silkscreen
+ACM Reference Format:
+Takumi Saeki and Kazuhiro Jo. 2024. ‘ イ’(1926) by BioLuminescent Bacteria.
+InEighteenth International Conference on Tangible, Embedded, and Embodied
+Interaction (TEI ’24), February 11–14, 2024, Cork, Ireland. ACM, New York,
+NY, USA, 3 pages. https://doi.org/10.1145/3623509.3635320
+Fig 1: "‘イ(I)’(1926) by BioLuminescent Bacteria"
+∗Both authors contributed equally to this research.
+Permission to make digital or hard copies of part or all of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+TEI ’24, February 11–14, 2024, Cork, Ireland
+©2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0402-4/24/02.
+https://doi.org/10.1145/3623509.36353201 INTRODUCTION
+In recent years, research in the HCI field has often focused on
+non-human organisms, exploring the concept of more-than-human
+[5]. For instance, Pataranutaporn et al. proposed Biological HCI, a
+framework for describing and designing interfaces between biologi-
+cal systems, digital systems, and humans [ 12]. Kim et al. delved into
+microorganisms, typically invisible to the naked eye, discussing
+the necessity for a microbe-specific community within HCI [ 9]. A
+parallel trend in the field of art practice, known as “bioart,” involves
+the utilization of living organisms and molecular biology in the
+creation of artworks [ 10]. Even within our interest in visual me-
+dia, there are several examples, such as a work that employs squid
+chromatophores as audio visualizers by Yokokawa et al. [ 17] , and
+a project by Rotko that creates living images with yeast, aiming
+to comprehend the relationship with the world, surroundings, and
+nature [13].
+Our work develops such curiosity in organisms other than hu-
+mans on the edge of scientific research and art practice in HCI
+by treating bioluminescent microorganisms as visual media. There
+have been several precedents in the use of microorganisms as visual
+media. Germ painting by Alexander Fleming in the 1930s is the
+earliest example of the use of microorganisms for visual expression,
+in which various pigmented molds and bacteria were used to depict
+pictures instead of paint [ 6]. Hofmann created experimental type-
+faces, “Mould Bold” and “Mould Inside,” using mold. Mold spores
+grew on alphabet frames placed on a medium, forming the type-
+faces during the growth process [ 2]. Nakagaki et al. harnessed the
+characteristics of true slime molds to visualize the shortest distance
+in a maze [ 11]. These practices incorporate not only the color of
+microorganisms but also the temporal development of phenomena
+like growth and movement in the creation of visual images. We
+extend the context of such visual media practices by producing a
+visual medium with temporal development, differing structurally
+from contemporary digital displays.
+2 LUMINOUS BACTERIA
+Luminous bacteria, on which we focused, have the visual charac-
+teristics of emitting light. Luminous bacteria, primarily found in
+marine environments, exhibit bioluminescence when their popula-
+tion reaches a certain density. Although their emitted light is faint,
+it is visible when in the dark. Historical references to these bacteria
+date back to Aristotle’s time [ 8]. During wartime in Japan, they
+were partially used as an affordable and proliferative low-intensity
+illumination during the Blackout [ 7][8]. In the present day, there
+are studies that attempt to use luminous bacteria for 3D printing,
+and Thomsen et al. converted luminous bacteria into living ink for
+3D printers as a practice to design bioluminescence as a building
+material and to explore what a living architecture is[ 15]. Binelli et al.
+
+TEI ’24, February 11–14, 2024, Cork, Ireland Saeki and Jo.
+used luminous bacteria for light-based 3D printing as living materi-
+als with complex geometries and programmable functionalities[ 3].
+The luminescence of these bacteria hinges on the availability of
+nutrients and oxygen. Bioluminescence, in this context, is a form
+of chemiluminescence initiated by oxidative reactions, with the
+trigger linked to bacterial density [ 14]. This luminescence arises
+from oxidative reactions involving a light-emitting substrate pro-
+tein transitioning to an excited state. In the case of certain species
+including fluorescent proteins, the excitation energy transfers to the
+fluorescent protein, which becomes excited, leading to a reaction
+akin to phosphorescence [ 16]. This process mirrors the emission of
+light by a fluorescent material when subjected to an electron beam
+from a cathode-ray tube (CRT) display, although the luminescence
+of luminous bacteria is completed inside the body process. Photo-
+bacterium aquimaris strain employed in this work contains a blue
+fluorescent protein [18].
+3 ‘I’
+The life activity of luminous bacteria was associated with the image
+of the CRT display, a visual medium that utilized the luminous
+phenomenon and printed a symbolic character in the history of
+CRT displays. The character " イ(I)" was the first image displayed
+on a television CRT display in Japan by Kenjiro Takayanagi. While
+television research was taking place globally, the Takayanagi ex-
+periment employed a Nipkow disk as an image transmitter, and
+a cathode-ray tube served as an image receiver. The Nipkow disk
+converted the image into an electrical signal through raster scan-
+ning. This electronic signal controlled the electron beam of the
+cathode-ray tube and received the ever-changing distant image.
+The electron beam, in turn, excited the phosphor on the surface of
+the cathode-ray tube, resulting in the emission of light and drawing
+scanning lines on the screen. Utilizing this mechanism, Takayanagi
+achieved the first projection of the Japanese character " イ(I)" with
+a resolution of 40 scanning lines.[4].
+4 METHOD
+This section describes a method of printing image using luminous
+bacteria as ink and combining it with digital screen printing. Lu-
+minous bacteria were cultivated in 100 mL of Marine Broth 2216
+(https://www.sigmaaldrich.com/JP/en/product/sial/76448), a cul-
+ture medium for marine organisms, for 24 hours at 17 °C within
+an incubator. Subsequently, the bacteria liquid was pasted with
+5% gelatin. The support structure was prepared by pouring agar,
+dissolved in Marine Broth 2216, into a round glass dish previously
+sterilized under high pressure. To print luminescent bacteria on
+agar media, we used digital screen printing. Silkscreen printing, a
+form of stencil printing, involves using a mesh plate with hollowed-
+out characters and figures to apply ink. It is known for its versatility,
+as it can be performed on various surfaces such as fabric and metal.
+This printing method is highly adaptable due to the range of inks
+available, making it applicable in diverse fields like printed circuits,
+graphic design, and fashion design[1].
+Digital silkscreen making is a computer-controlled automated
+plate-making method based on binary images. The mesh is pre-
+filled and then heat-punched in the plate making machine, making it
+possible to easily produce fine prints such as small letters. To createa binary image of " イ(I)" with 40 scanning lines spaced 1.25 mm
+apart, Adobe Illustrator, a vector graphics application, was utilized.
+This image served as the basis for generating a digital screen plate.
+For the screenmaking process, a digital screen platemaker called Mi
+screen a4 was employed. The screen plate was then affixed to the
+agar surface, and the image was printed by applying the bacterial
+paste with a spatula from the top.
+5 TEMPORAL DEVELOPMENT
+This work was printed using luminous bacteria and a digital silkscreen.
+Unlike conventional printed materials, this image has a temporal de-
+velopment. The luminous image gradually glows, then deteriorates
+and vanishes as the luminous bacteria undergo growth and die. In
+this section, we show how the life activity of the luminous bacteria
+produced a temporal development of the image. Immediately after
+printing, the image was not visible because the bacterial density on
+the support was insufficient for luminescence. After 12 hours, the
+bacterial colonies were in the process of expanding and connecting
+with each other, gradually forming the shape of a screen. After
+18 hours, the image printed by the luminous bacteria was lumi-
+nous clearly(Fig. 2). After 24 hours, the luminous bacteria, initially
+Fig 2: Temporal Development Left: After 12 hours, Right:
+After 18 hours
+creating scanning lines, began to transform into a surface as their
+growth led to the lines collapsing and connecting both vertically
+and horizontally. Additionally, there were light particles visible
+outside the screen, likely originating from individual bacteria that
+had proliferated. After 48 hours, the light dimmed from the center
+as the bacteria continued to multiply at the periphery, and contour
+lines became prominent(Fig. 3).
+6 DISCUSSION
+This work is a reproduction of Takayanagi’s イ(I)’ with luminous
+bacteria and digital silkscreen printing. From the perspective of non-
+humans organism in HCI, we would like to redefine luminous bac-
+teria as design elements in visual media. The comparison between
+the CRT display and luminous bacteria suggested similarities and
+differences in self-illuminating picture elements and their temporal
+development. The execution of this artwork was achieved through
+digital silkscreen printing. This distinction is from precedents utiliz-
+ing microorganisms. Images for digital plate making are generated
+by vector image editing on computer. The resulting screen-printed
+‘イ’(1926) by BioLuminescent Bacteria TEI ’24, February 11–14, 2024, Cork, Ireland
+Fig 3: Temporal Development Left: After 24 hours, Right:
+After 48 hours
+image is based on computer control. The screen’s grid structure also
+implies that spatial information is discretized, resembling pixels.
+Additionally, Photobacterium aquimaris used in this work emits
+light by resonance transfer of energy from the luminescent protein
+to the fluorescent protein (BRET). This is analogous to the electron
+beam in a CRT display that excites the fluorescent material and pro-
+duces an image of self-luminescence. Similar to the electron beam
+and fluorescent material in a CRT display, digital slikscreen printing
+allows the luminous bacteria can be positioned as components of a
+computer-controlled image that is self-luminous.
+The subsequent temporal development, however, is subject to the
+uncontrollable biological activity of the bacteria. As these bacteria,
+arranged in a pixel-like grid, proliferate, adjacent clusters connect
+to create scan lines. The grid structure gradually disintegrates, and
+the once-distinct lines merge or appear bacteria as points of light in
+entirely different areas. Ultimately, as individual bacteria multiply
+around themselves, the overall aggregate becomes less bright at
+the center while illuminating the newly expanded periphery, i.e.
+"Edges". Occurring over several days, yields a visual medium that
+transforms dots become lines and surfaces by the life processes of
+the bacteria. It is continuous and can be described as a temporal
+development without a frame rate. In the contemporary digital age,
+where images are expressed as pixels and frame rates, computer-
+controlled digital displays can depict various images with temporal
+development. Beyond the reproduction of images through external
+means of computers like cameras and scans, computer graphics, real-
+time generation through programming, and recent advancements
+in generative AI technology permit internal image generation by
+computers, which can then be displayed. Nevertheless, these images
+remain constrained within the structural boundaries defined by
+digital displays, with space delineated by pixels and time regulated
+by frame rates.
+The contrasting interrelationship between digital silkscreen print-
+ing, which positions luminous bacteria as image components, and
+the uncontrollable activity of luminous bacteria may allow us to
+develop the structural boundary of visual media in HCI. By using
+bacteria that have existed long before the advent of display tech-
+nology, and by grasping their uncontrollable life activities as the
+temporal development of the visual medium, this work may suggest
+a way of images that is different from computer-controlled images.ACKNOWLEDGMENTS
+This project was supported in part by JSPS KAKENHI (Grant No.
+21H00495, No. 21H03768 and No. 23H00591). This project was sup-
+ported by JST SPRING, Grant No. JPMJSP2136. Luminous bacteria
+Photobacterium auimaris LC2-086 were provided by Prof. Susumu
+Yoshizawa, Atmosphere and Ocean Research Institute, The Univer-
+sity of Tokyo, Japan.
+REFERENCES
+[1]San Bernardino, Csusb ScholarWorks, Madelyne Lastimosa, Corita Kent, and
+Takashi Murakami. 2022. screen printing. In The Fairchild Books Dictionary of
+Fashion , Sandra Keiser and Phyllis G. Tortora (Eds.). Fairchild Books.
+[2]S Bilz, M Mischler, and N Thonen. 2004. Mould Inside, Mould Bold. In Type One ,
+Robert Klanten (Ed.). Die Gestalten Verlag.
+[3]Marco R. Binelli, Anton Kan, Luis E. A. Rozas, Giovanni Pisaturo, Namita Prakash,
+and André R. Studart. 2022. Complex Living Materials Made by Light-Based
+Printing of Genetically Programmed Bacteria. Advanced Materials 35, 6 (2022),
+2207483. https://doi.org/10.1002/adma.202207483
+[4]Shizuoka University Television Technical History Editorial Committee. 1987.
+History of the Development of Television Technology at Shizuoka University . Hama-
+matsu Promotion of Electronic Engineering.
+[5]Aykut Coskun, Nazli Cila, Iohanna Nicenboim, Christopher Frauenberger, Ron
+Wakkary, Marc Hassenzahl, Clara Mancini, Elisa Giaccardi, and Laura Forlano.
+2022. More-than-Human Concepts, Methodologies, and Practices in HCI. In
+Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing
+Systems (CHI EA ’22) . Association for Computing Machinery, Article 150, 5 pages.
+https://doi.org/10.1145/3491101.3516503
+[6]Allexsander Fleming. 1936. The Growth of Microorganisms on Paper. In Sign of
+Life. Massachusetts Institute of Technology, 345–346.
+[7]Yata Haneda. 1981. Preservation and utilization of luminous bacteria as a light
+source. Science Report of the Yokosuka City Museum 407, 28 (1981), 79–83.
+[8] E. Newton Harvey. 1952. Bioluminescence . Academic Press.
+[9]Raphael Kim, Pat Pataranutaporn, Jack Forman, Seung Ah Lee, Ingmar H. Riedel-
+Kruse, Mirela Alistar, Eldy S. Lazaro Vasquez, Katia Vega, Roland van Dieren-
+donck, Gilad Gome, Oren Zuckerman, Angela Vujic, David S. Kong, Pattie Maes,
+Hiroshi Ishii, Misha Sra, and Stefan Poslad. 2021. Microbe-HCI: Introduction
+and Directions for Growth. In Extended Abstracts of the 2021 CHI Conference on
+Human Factors in Computing Systems (CHI EA ’21) . Association for Computing
+Machinery, Article 155, 4 pages. https://doi.org/10.1145/3411763.3450408
+[10] William Myers. 2015. Bio Art: Altered Realities (hardcover ed.). Thames and
+Hudson.
+[11] Toshiyuki Nakagaki, Hiroyasu Yamada, and Ágota Tóth. 2000. Maze-solving by
+an amoeboid organism. Nature 407, 6803 (Sept. 2000), 470–470. https://doi.org/
+10.1038/35035159
+[12] Pat Pataranutaporn, Todd Ingalls, and Ed Finn. 2018. Biological HCI: Towards
+Integrative Interfaces Between People, Computer, and Biological Materials. In
+Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Sys-
+tems (Montreal QC, Canada) (CHI EA ’18) . Association for Computing Machinery,
+1–6. https://doi.org/10.1145/3170427.3188662
+[13] Johanna Rotko. 2023. Johanna Rotko //// Portfolio. http://johannarotko.com/.
+(Accessed on 11/29/2023).
+[14] Osamu Shimomura. 2012. Bioluminescence: Chemical principles and methods
+(revised edition) . World Scientific Publishing.
+[15] Mette Ramsgaard Thomsen, Martin Tamke, Aurelie Mosse, Jakob Sieder-
+Semlitsch, Hanae Bradshaw, Emil Fabritius Buchwald, and Maria Mosshammer.
+2021. Imprimer La Lumiere – 3D Printing Bioluminescence for Architectural Mate-
+riality . Springer Singapore, 305–315. https://doi.org/10.1007/978-981-16-5983-
+6_28
+[16] Yao Xu, David W. Piston, and Carl Hirschie Johnson. 1999. A biolu-
+minescence resonance energy transfer (BRET) system: Application to in-
+teracting circadian clock proteins. Proceedings of the National Academy
+of Sciences 96, 1 (1999), 151–156. https://doi.org/10.1073/pnas.96.1.151
+arXiv:https://www.pnas.org/doi/pdf/10.1073/pnas.96.1.151
+[17] Juppo Yokokawa, Nobuhiro Masuda, and Kazuhiro Jo. 2022. Chromatophony: A
+Potential Application of Living Images in the Pixel Era. Leonardo 55, 3 (05 2022),
+252–257. https://doi.org/10.1162/leon_a_02107
+[18] Susumu Yoshizawa, Minoru Wada, Kumiko Kita-Tsukamoto, Akira Yokota, and
+Kazuhiro Kogure. 2009. Photobacterium aquimaris sp. nov., a luminous marine
+bacterium isolated from seawater. International Journal of Systematic and Evolu-
+tionary Microbiology 59, 6 (2009), 1438–1442. https://doi.org/10.1099/ijs.0.004309-
+0

@@ -1,0 +1,932 @@
+Vol.:(0123456789)Education and Information Technologies
+https://doi.org/10.1007/s10639-025-13497-6
+MANUSCRIPT
+AI‑enabled networked learning: A posthuman connectivist 
+approach in an English for specific purposes classroom
+Humaira Mariyam B.1  · V. K. Karthika1 
+Received: 29 May 2024 / Accepted: 14 March 2025 
+© The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 
+2025
+Abstract
+This study investigates the efficacy of artificial intelligence in facilitating networked 
+learning that aids educators in creating inclusive and academically responsible 
+learning environments in Indian English for Specific Purposes (ESP) classrooms. 
+Designed as a qualitative case study, the intervention involves twenty participants 
+from an engineering institute in India, who engaged with AI and chatbots in pairs to 
+learn and build on their content knowledge on sustainable practices in engineering. 
+The theoretical foundation for the study is grounded in Vygotsky’s Zone of Proximal 
+Development (ZPD) model and the theory of Connectivism, both of which were uti-
+lised for an in-depth data analysis. This exploration posits that the process of learn-
+ing involves connecting various information sources and the ability to make connec-
+tions between and across discourses, concepts, fields and experiences. Therefore, the 
+non-linearity in learning involving human, non-human and technological resources 
+is analysed through the connectivism theory (Siemens, 2005a, b & Downes, 2005a, 
+b). The findings of the study discuss the pedagogical implications of incorporating 
+AI and chatbots among tertiary-level learners and examine the ethical and social 
+consequences of accommodating them in the learning assemblage. The results of the 
+study will also enable educators to formulate strategies to include AI in teaching and 
+learning methods through the affordances of connectivism.
+Keywords Artificial intelligence · Zone of proximal development · Connectivism · 
+Higher education · English language learning · Large language models
+ * Humaira Mariyam B. 
+ humairamariyam.nitt@gmail.com; humairamariyam1606@gmail.com
+ V. K. Karthika 
+ karthika.leedsuniversity@gmail.com; vkkarthika@nitt.edu
+1 Department of Humanities and Social Sciences, National Institute of Technology, 
+Tiruchirappalli (NIT-T), Tiruchirappalli, India
+ Education and Information Technologies
+1 Introduction
+The technological advancements over the years have impacted and shaped educa-
+tional practices, particularly in language learning. The integrated approaches to 
+language and technology such as Computer-Assisted Language Learning (CALL) 
+and Mobile-Assisted Language Learning (MALL) have demonstrated how digital 
+tools can enhance learning outcomes (Davies et  al., 2013; Dudeney & Hockly, 
+2012). Higher education institutions recommend using technologies such as arti-
+ficial intelligence (AI) to create an interactive learning experience (Adu et  al., 
+2022).
+More recently, the proliferation of Large Language Models (LLMs) such as 
+ChatGPT (Chat Generative Pre-trained Transformer), Gemini, LLaMA (Large 
+Language Model Meta AI), Language Translation, and many others, which can 
+generate texts that are human-like and answer questions with great level of accu-
+racy, has given rise to a potential interest in exploring its application in the field 
+of education.
+LLMs such as ChatGPT and Gemini have tremendously impacted educational 
+practices. Studies reveal that LLMs develop English language skills (Wang & 
+Guo, 2023), facilitate personalised learning (Tlili et al., 2023), provide feedback 
+(Kohnke et al., 2023) and motivate the learners (Ali et al., 2023). LLMs can also 
+take up roles of being assistants, material generators, assessors and interlocutors 
+(Jeon & Lee, 2023). However, it also poses negative impacts. For instance, an 
+increasing number of colleges and institutions are open to returning to the more 
+conventional pen-and-paper evaluation forms in response to the increased risk 
+of unethical behaviour (Tlili et al., 2023). Academic disintegrity is not a novel 
+issue; it has existed in educational institutions where learners find ways to gain 
+an unfair advantage over others in the classroom (Adeshola & Adepoju, 2023; 
+Rowe, 2004). However, recent technological advancements such as ChatGPT and 
+Gemini have raised serious concerns about academic dishonesty (Pavlik, 2023). 
+Similarly, despite plagiarism being an existing problem, scholars point out that 
+ChatGPT and other such LLMs raise worries about academic integrity and add 
+a new dimension to the risks of cheating and plagiarising (Kostka & Toncelli, 
+2023; Cotton et  al., 2024). Studies also assert that using AI may hinder learn-
+ers’ improvement of writing skills, critical thinking and problem-solving abilities 
+(Susnjak & McIntosh, 2024). The adverse effects of AI in academia are not just 
+limited to dishonesty and have the potential to have an overall negative impact on 
+learning and the education system (Adeshola & Adepoju, 2023).
+While many studies have suggested ways to address the challenges posed by 
+AI tools, such as implementing advanced plagiarism detection tools or redesign-
+ing assessment methods, there remains a significant gap in understanding how 
+to integrate ChatGPT into the learning process effectively, ensuring its respon-
+sible and ethical use (Rahman & Watanobe, 2023). Although some research 
+offers preliminary suggestions, the practical implementation and applicability of 
+these strategies in real educational settings remain unclear. In response to these 
+Education and Information Technologies 
+growing concerns, Hockly (2023), in his study, asserts the need for improvement 
+in the digital competencies and strategies to utilise AI and technology responsibly 
+in a classroom space that is ethical and pedagogically beneficial. Digital compe-
+tencies encompass not only technical proficiency in operating digital devices but 
+also the social and emotional dimensions of utilising and comprehending them 
+(Zhao et al., 2021). Therefore, to effectively and responsibly interact with LLMs 
+for learning purposes, proficiency in engaging with the tool’s interface, as well 
+as a comprehensive understanding of its capabilities and limitations, become a 
+prerequisite. Additionally, it requires the learners to be cognizant of ethical con-
+siderations, including issues of bias and privacy (Adeshola & Adepoju, 2023). 
+Consequently, individuals with limited digital competence may struggle to use 
+ChatGPT effectively, potentially overlooking critical aspects of its responsible 
+application.
+Therefore, research on LLMs in education has primarily focussed on their poten-
+tial for enhancing learning and the associated risks, including plagiarism and over-
+reliance. While some studies mention the need for digital literacy (Hockly, 2023), 
+practical suggestions as to how educators can systematically implement responsi-
+ble use of AI in classrooms are limited. Furthermore, existing frameworks for AI 
+integration often neglect the connectivist perspective, which emphasises learn-
+ing through networks, shared knowledge, and active participation in digital envi-
+ronments. This paper seeks to address this gap by documenting the affordances of 
+LLMs through an intervention that would aid educationists in formulating strategies 
+for the responsible and effective use of AI in education. This study also explores the 
+possibility of new teaching and learning methods in an ESP classroom that incorpo-
+rate AI and LLMs from the perspective of Vygotsky’s More Knowledgeable Other 
+(MKO) and posthuman connectivist approach.
+The theory of Vygotsky places a strong emphasis on learning through social 
+interaction, interpersonal communication and collaboration with the help of an 
+MKO. Therefore, analysing LLMs as MKO in providing support and assistance to 
+learners in this study can expose their affordances in the learning process. This is 
+particularly beneficial in the context where learners have different learning needs 
+and styles and may require additional assistance. Similarly, the theory of connec-
+tivism developed by Siemens (2005a, b) and Downes (2005a, b) emphasises the 
+significance of networks and connections in the learning process. As we live in 
+posthuman times where technology is constantly evolving and challenging the 
+agency of humans, in the field of education, connectivism as a learning theory 
+can provide a framework for understanding the complexities involved in learning 
+by acknowledging the potential of networks and technology (Omodan, 2023). A 
+networked education system/learning process is rooted in a decentralised, non-
+hierarchical, and multi-directional infrastructure (Castells, 2000). This approach 
+underscores how technology and humans are interconnected. As LLMs provide 
+access to information and collaborate with the learners in their learning process, 
+they can break down barriers and promote inclusivity.
+Therefore, by combining connectivism with Vygotsky’s MKO, this qualitative 
+case study explores how LLMs can be used to create a more inclusive and respon-
+sible learning environment. It examines the efficacy of LLMs and AI chatbots as 
+ Education and Information Technologies
+pedagogical tools in an English for Specific Purposes (ESP) classroom in South 
+India. The study also aims to illustrate the non-linear and networked learning 
+involving human, non-human and technological resources from a posthuman theo-
+retical perspective.
+2  LLMs in language learning and education
+LLMs such as ChatGPT and Gemini can facilitate personalised and effective learn-
+ing experiences (Kasneci et  al., 2023; Tlili et  al., 2023) and provide interactive 
+feedback (Kohnke et al., 2023). Various studies assert that LLMs can improve Eng-
+lish language skills such as reading (Ali et  al., 2023), grammar and vocabulary 
+(Wang & Guo, 2023), and writing skills marked by improved content and organi-
+zational structure (Allagui, 2023; Fitria, 2023). Using LLMs can have a positive 
+impact on the motivation level of the learners to develop their language skills. For 
+instance, Ali et al. (2023) explored the influence of LLMs in improving the moti-
+vational aspects of the learners and found that learners were motivated to enhance 
+their reading and writing skills. This could also be because of the personalised 
+inputs and feedback provided by the chatbots (Kohnke et al., 2023). Similarly, Jeon 
+and Lee (2023) investigated the role of ChatGPT and affirmed that LLMs can play 
+four roles in the learning process, including being a teaching assistant, material 
+generator, assessor and interlocutor.
+At the higher education level, LLMs can enhance critical thinking and problem-
+solving skills and encourage the development of research skills (Kasneci et al., 2023). 
+However, very few empirical research studies support this claim. It has been reported 
+that students will require digital/AI literacy skills to comprehend humans and machines 
+(Long & Magerko, 2020) and prepare for a future with rapid technological advance-
+ments. Additionally, there are also other pressing concerns regarding the use of LLMs 
+in education. For instance, Chomsky refers to LLMs as ‘high-tech plagiarism’ (Stewart, 
+2023), which adds a new dimension to the already existing issues related to unethical 
+practices and plagiarism (Kostka & Toncelli, 2023; Cotton et al., 2024). Sullivan et al. 
+(2023) state that despite the positive impacts of LLMs in education, academic integrity 
+was a common concern in most studies. This adds to the claims that motivation to cheat 
+during assessments and academic submissions becomes higher due to the accessibil-
+ity and ease that AI and LLMs offer (Kostka & Toncelli, 2023). Similarly, LLMs may 
+provide the users with false information that can be stereotypical and inaccurate, which 
+requires the learners to critically evaluate the data (Heaven, 2023). This study adds to 
+the literature by documenting the impact of LLMs as pedagogical tools in a language 
+classroom in developing the content knowledge of the learners that would require them 
+to operationalize their critical thinking and research skills. It also explores the possibil-
+ity of creating inclusive and academically responsible learning environments by incor -
+porating technology, especially LLMs, which has not been investigated before.
+Education and Information Technologies 
+3  Research questions
+The study focuses on the effectiveness of using Large Language Models (LLMs) 
+and AI Chatbots in an English language classroom and aims to explore the following 
+research questions:
+1) How do LLMs and AI chatbots support learners and educators in creating inclu-
+sive and academically responsible learning environments in an English for Spe-
+cific Purposes (ESP) classroom?
+2) What are the pedagogical implications of accommodating LLMs and AI Chatbots 
+in developing the content knowledge of the learners?
+4  Theoretical framework
+This study is placed within a framework comprising two major theories. Firstly, the 
+theory of Connectivism, which has emerged as a response to the evolving terrain of 
+education in the digital age where learning is no longer an individualistic activity, 
+highlights the importance of technological tools and social networks in the learning 
+process. Developed by Siemens (2005a, b) and Downes (2005a, b), it emphasises 
+the significance of networks and connections in the learning process. In other words, 
+it asserts that learning occurs through the process of connecting various informa-
+tion sources, establishing connections between humans and humans and technology. 
+The principles of connectivism (Fig.  1) suggest that learning rests in a diversity of 
+thoughts and may also reside in non-human appliances. It asserts that the ability to 
+draw connections between fields, ideas and concepts and the potential to know more 
+is crucial than what is already known. The theory also propounds that maintaining 
+and nurturing connections to promote continual learning is important to have up-to-
+date knowledge, and the learners can choose what to learn. Therefore, while other 
+language theories such as cognitivism, behaviourism and constructivism emphasise 
+the individual’s independent learning experience, this theory underscores the con-
+nected learning experiences of individuals (Jung, 2019), which aligns more with the 
+sociocultural theory of learning espoused by Vygotsky.
+Many studies exploring technology and online communications in learning 
+have employed connectivism theory to examine how the connections between 
+learners, technology, and online and offline communications increase connectivist 
+knowledge, reflection, and negotiation (Liu et al., 2023; Sozudogru et al., 2019; 
+Su et al., 2023). Social and technological networks are increasingly being used to 
+foster learner connections. Aksal et al. (2013) applied connectivism principles on 
+Facebook in a 16-week qualitative study, highlighting its role in facilitating learn-
+ing and developing leadership, decision-making, and critical reflection. Similarly, 
+Wang et  al. (2018) explored connectivism in a 36-week MOOC, emphasising 
+how different online platforms enabled knowledge sharing and varying degrees of 
+learner connectivity. With regards to professional development, Davoodi (2024) 
+asserts that connectivism fosters dynamic knowledge networks, enabling a shift 
+ Education and Information Technologies
+in educators’ perceptions of AI from apprehension to empowerment. However, 
+when it comes to GenAI tools such as LLMs, their role in fostering connectiv -
+ist learning is still evolving. While studies applying connectivism theory to AI 
+tools such as ChatGPT are limited, one notable study by Liang and Bai (2024) 
+examines how GenAI tools support learning in social entrepreneurship education 
+by fostering collaborative learning, knowledge connectivity, and theory–prac-
+tice integration through networked interactions. Advancing the discussion in this 
+emerging field, this study adopts connectivism as a theoretical framework. Given 
+the complex and interconnected nature of AI tools such as ChatGPT in learn-
+ing environments, Connectivism serves as an ideal theoretical framework for 
+this study. As a theory that emphasises knowledge acquisition through networks 
+of human and technological interactions, Connectivism aligns with the study’s 
+focus on using LLMs to enhance learners’ content knowledge while promoting its 
+responsible use.
+Fig. 1  Principles of connectivism
+Education and Information Technologies 
+In the current scenario, where the individualistic agency of humanism is 
+questioned, teaching and learning are no longer an encounter between two or 
+more humans. It involves various other factors such as technology, to start with. 
+Omodan (2023) argued that in posthuman times, where technology is constantly 
+evolving and challenging the agency of humans, connectivism as a learning the-
+ory can provide a framework to understand the complexities involved in learning 
+by acknowledging the potential of networks and technology.
+The posthuman approach recognizes the significance of technology in the every -
+day assemblage (Buchanan-Oliver, 2015), foregrounds the interconnectedness of all 
+things (Hasse, 2022) and rejects the binary between the human and the non-human. 
+In other words, posthumanism debunks hierarchy and affirms that everything 
+(human, non-human, machine, ideas, etc.) is relational and connected. A posthuman 
+classroom, therefore, integrates technology as a medium more than a mere tool in 
+all aspects of learning. It facilitates multiplicity in learning, that is, multiple ways 
+of accessing and interacting with information inside and outside the confines of the 
+classroom. Hence, the theory of connectivism parallels the theory of posthumanism 
+by asserting the non-binary relation between humans and machines and accounts for 
+their interaction with each other to learn and create knowledge. See (Fig.  2) to per -
+ceive the connections between the two theories.
+The second theory used in this study is Vygotsky’s Zone of Proximal Develop-
+ment (ZPD), which is a part of his socio-cultural theory (Vygotsky, 1978). Accord-
+ing to Vygotsky, the ZPD is the difference between the current development level 
+of the learner and the potential development of the learners, which can be attained 
+through the mediation of a More Knowledgeable Other (MKO). This theory places 
+a strong emphasis on learning through social interaction, interpersonal communi-
+cation and collaboration with the help of an MKO. MKOs here not just refer to a 
+teacher in a classroom but can be mentors, peers, books, technology, environment, 
+etc. Therefore, analysing LLMs as one of the MKOs in providing support and assis-
+tance to learners in this study can expose their affordances in the learning process. 
+This is particularly beneficial in the context where learners have different learning 
+Fig. 2  Connections between connectivism and posthumanism
+ Education and Information Technologies
+needs and styles and may require additional assistance. This study also explores the 
+various MKOs such as LLMs, peers, and researchers, and their connected media-
+tion in the learning process through the intervention of the study. Similarly, from the 
+perspective of connectivism, which underscores the interconnectedness of humans 
+and technology, this study investigates new ways of learning that are influenced by 
+and accommodate LLMs for an inclusive education. Therefore, this study is built 
+on the theory of connectivism and Vygotsky’s ZPD model to explore LLMs and AI 
+chatbots in an ESP classroom and illustrate the networked learning essential for an 
+inclusive education in posthuman times.
+5  Methodology
+5.1  Design
+This study aims to document the experience, perceptions and reflections of the learn-
+ers by adopting a case study methodology. The case study relies on thick descrip-
+tions to gather in-depth and detailed information, adding multiple dimensions to the 
+research (Zainal, 2007), which also aligns with the theory of posthumanism and con-
+nectivism. These theories acknowledge the diversity of opinions and encourage the 
+exploration of non-linear connections and relations between human and non-human. 
+The comprehensive qualitative data produced through the case study will explain the 
+complexities of the learning process, which is networked, non-linear, hybrid, multi-
+ple and relational. Therefore, this case study documents a specific teaching–learning 
+episode involving LLMs, which warrants further pedagogical considerations.
+The study was ethically approved by the host university, and the participants 
+agreed to voluntarily participate in the study after being informed of the purpose of 
+the study, the duration, and the procedures, which involved screen-recording their 
+laptops, audio-recording the interviews and discussions, and taking pictures for 
+documentation.
+5.2  Participants
+Engineering students from an institute of national importance were the partici-
+pants of this case study. Twenty students from first-year Mechanical Engineering 
+were chosen for the study among the thirty volunteers. These twenty participants 
+were selected as per their explorations and considerable use of LLMs for both per -
+sonal and professional use. To enhance the relevance of the data (Bock & Sergeant, 
+2002), a purposive sampling method was employed to select the participants. The 
+initial screening of the participants was carried out based on their perspectives on 
+and familiarity with the LLMs, which they demonstrated through their answers to 
+the question “Produce a report on the impact of Chat GPT in education by criti-
+cally assessing the potential advantages and disadvantages that may arise” in their 
+end-semester examination. The criteria for selection included their ability to articu-
+late the advantages and challenges of using LLMs and their demonstrated interest 
+Education and Information Technologies 
+in AI-assisted learning. Forty-five participants were screened through this process, 
+out of which thirty volunteered to participate in the study. Finally, twenty students 
+were selected based on the background discussion, which was conducted to further 
+assess their familiarity with LLMs and their prior experiences with AI-driven tools. 
+It was also based on their engagement and expressed willingness to critically reflect 
+on AI-assisted learning. The participants and setting of the study were chosen pri-
+marily out of convenience and to ensure efficacy, as both the first author (also the 
+researcher) and the second author are affiliated with the same institute. The chosen 
+sample for the study is representative of a diverse group of learners as the institute 
+attracts students from various regions, linguistic backgrounds and academic dis-
+ciplines across the country. This diversity makes the study suitable for examining 
+LLMs in inclusive education. The participants included thirteen males and seven 
+females belonging to the age group of 17–19.
+Additionally, the focus of this case study is on the perceptions and experiences of 
+the learners in using LLMs in the educational setting instead of analysing specific 
+behavioural outcomes. While socio-cultural and economic backgrounds may influ-
+ence learning experiences in broader contexts, this study did not explicitly analyse 
+their impact. However, prior research suggests that learners’ engagement with LLMs 
+is primarily shaped by their digital literacy and familiarity with AI tools (Bender, 
+2024). Therefore, there is scope for future research that could explore how demo-
+graphic variables mediate LLM interactions.
+5.3  Setting
+All the engineering students at the institute are offered ‘English for Communica-
+tion’ as a compulsory course in the first year of their engineering program. This 
+course, which aims to develop the learners’ professional communication skills, also 
+strives to create a responsible and inclusive environment for them where they can 
+exercise autonomy and critical thinking abilities. The course caters to building their 
+content knowledge through inquiry-based learning along with a focus on the LSRW 
+skills. Hence, the study is relevant to the learners as it concerns the development of 
+Fig. 3  Data collection instruments
+ Education and Information Technologies
+language skills as well as the content knowledge of the learners through the inter -
+vention of the LLMs.
+5.4  Instruments
+This study used the following instruments for data collection, as shown in Fig. 3.
+The audio-recorded discussions were an attempt to capture the participants’ spon-
+taneous responses as they worked, the challenges they faced and strategies they 
+used. Similarly, the participants’ interactions with LLMs were gathered through 
+screen-recording while they worked on the assigned task. The recorded data helped 
+in providing insights into their engagement patterns, tool dependency and connected 
+learning. The semi-structured interviews were conducted at the end of the study with 
+each participant to understand the overall learning experience. The questions for the 
+interview included how LLMs influenced their learning and writing processes, how 
+they approached their task, and what method they followed. Additionally, the reflec-
+tion reports submitted by the participants were written reflections detailing specific 
+aspects of their interactions with LLMs, which included identifying biases, cred-
+ibility of the information provided, and redundancy. Finally, the learners’ composi-
+tions were used to examine their writing proficiency and their ability to exhibit their 
+content knowledge effectively.
+5.5  Procedure
+The study was conducted in 2024 for six weeks and incorporated three phases: back -
+ground study, intervention and interviews.
+5.5.1  Background study
+In the initial phase, a background study was conducted to understand the learners’ 
+familiarity and already-formed perspectives about LLMs. These semi-formal pre-
+liminary discussions were audio-recorded for further deliberations. Additionally, 
+during this session, the learners’ proficiency in interacting with LLMs and employ -
+ing pertinent keywords and phrases to retrieve the relevant information was also 
+explored. Further, a Google form was circulated to gather the participant’s details as 
+a part of the background study.
+5.5.2  Intervention
+The intervention of the study required the learners to do a project in pairs. They 
+were given a prompt in the initial stage of the intervention- “Choose a theme to work 
+under, which falls at the intersection of sustainability and engineering”. Therefore, 
+the learners in pairs chose ‘Design for Sustainability’ and ‘Energy Efficiency and 
+Resource Conservation’ as themes to work under. The project comprised a struc-
+tured framework with learners brainstorming ideas individually and collaboratively 
+Education and Information Technologies 
+in pairs and generating potential directions of inquiry. Then, the learners used LLMs 
+as the primary means of further exploration into the subject matter, using digital 
+resources to improve their understanding of the subject. During this exploration, 
+the learners analyzed the content produced by LLMs, examined the acquired infor -
+mation, used various other online platforms to verify and learn more about them, 
+identified patterns and made meaningful connections from the various sources of 
+information. Throughout the process, learners also peer-reviewed each other’s tra-
+jectories, exchanged feedback, collectively reflected on the ideas, and discussed 
+them with the researcher as they deemed fit. Consequently, the laptops of the learn-
+ers were screen-recorded to map the learning process by analyzing the kinds of 
+prompts, keywords, and the various sources used by the learners during the project. 
+Below is Fig.  4, which shows a visual representation of networked learning upon 
+scanning. The screenshots are representative of the numerous trajectories advancing 
+throughout the intervention.
+5.5.3  Learner’s composition and interviews
+In the final phase of the study, the learners produced a report/review article on 
+Design and Sustainability and Energy Efficiency and Resource Conservation. The 
+outcome of the project was to produce a thorough report, as report writing within 
+the purview of the ‘English for Communication’ course curriculum was essential. 
+This task was strategically created to equip the learners with the skills and abili-
+ties requisite for crafting comprehensive and professional reports. Following this, 
+one-on-one interviews were conducted to document the takeaways, experiences, and 
+challenges of the learners throughout the study. The audio recordings of the inter -
+views were transcribed for further analysis. The front page of the learners’ composi-
+tion after the completion of the project is available in the Appendix.
+Fig. 4  Video representing con-
+nected learning
+
+ Education and Information Technologies
+6  Data analysis
+The collected data through audio recordings were transcribed verbatim and 
+reviewed. The screen-recordings were analysed to look for their learning patterns, 
+tool dependency and connected learning. To analyse the data thematically, a com-
+bination of inductive and deductive coding was used where some predefined codes 
+were applied based on the existing literature concerning LLMs and the aim of this 
+study, such as digital literacy, ethical issues, and biases; other emergent codes were 
+identified during the analysis, such as collaborative learning and perceptions of 
+AI. Consequently, these coded data were grouped within broader themes, connect-
+ing with the two theories, which are discussed further to elucidate the spectrum of 
+potential trajectories that may help in exploring and answering the research ques-
+tions. Additionally, the reliability of the data analysis was ensured by having the 
+second author review the data analysis.
+Therefore, all the themes that emerged during the analysis have been categorised 
+and presented under two major subheadings (6.1 & 6.2), each corresponding directly 
+to the key theoretical frameworks used in this study. Specifically, these two subhead-
+ings reflect the conceptual lens of Vygotsky’s More Knowledgeable Other (MKO) 
+and Connectivism, framing the discussion around LLMs as MKOs and LLMs as 
+promoters of networked learning. Finally, the analyses within these theoretical 
+themes are summarised in the findings section.
+6.1  LLMs as MKO in the learning assemblage
+More Knowledgeable Other (MKO) leads the learners from their current zone of 
+development to the zone of proximal development (ZPD) through scaffolding. 
+The ZPD model originates from Vygotsky’s sociocultural theory (Vygotsky, 1987, 
+1978), which refers to a space where the learner is involved in tasks that require 
+guidance from an expert/MKO. This would help the learner improve their potentiali-
+ties and expand their current zone of development. MKOs, traditionally perceived as 
+teachers/mentors, can also be other human-nonhuman aspects such as the internet, 
+books, peers, environment, etc. In this study, LLMs also worked as MKOs, enabling 
+the learners to expand their current zone of learning by facilitating personalised 
+learning, encouraging collaboration and improving their English language skills, 
+which are discussed further.
+6.1.1  Facilitating personalised learning
+Personalised learning enables the learners to receive, access content and learn 
+concepts that are tailored to their specific needs (Wang, 2023). However, in the 
+tremendously entangled learning assemblage, all the factors collaboratively influence 
+the content and structure of the learning environment with their varying degrees of 
+agency. In this regard, LLMs serve as dynamic and personalised spaces that prompt 
+learners to think, act and interact. For instance, the learners shared that they use 
+LLMs to simplify any complex concept while learning, using prompts such as ‘Can 
+Education and Information Technologies 
+you explain the concept of thermodynamics as if you were explaining to a 12-year-
+old child?’ and ‘What is feminism in layman’s terms?’ (RD). The learners also shared 
+that they use LLMs to complete their assignments and get feedback from them in 
+terms of language and structure to produce a ‘polished academic essay’. It was noted 
+that LLMs facilitate personalised learning by enabling the learners to revise their 
+writing based on its feedback. For instance, one of the participants mentioned, ‘I 
+realised I could ask the tool to help me with adjusting the tone of my writing, which 
+was something I struggled with before.’ Therefore, LLMs can take up the role of an 
+MKO in a learning assemblage by helping the learners with scaffolding and expanding 
+their current developmental zones, as they answer questions with detailed information, 
+provide relevant feedback, aid the learners with their writing skills, and also keep them 
+motivated. This personalised learning space promotes inclusivity in the classroom as 
+LLMs as a medium can serve as an MKO to learners of any level (Fig. 5 ).
+These results are not the outcome of a simple cause-effect relationship between 
+humans and LLMs alone. From a posthuman perspective, it becomes imperative to 
+look at all the possible factors contributing to the learning process. Learning, there-
+fore, should be understood as “complex relationships among learners, teachers, con-
+tent, and technology within particular social and cultural contexts” (Kern, 2006, p. 
+201), enabling collaboration.
+6.1.2  Encouraging collaborative learning
+Though the intervention required the learners to work in pairs for their project, the 
+observation and results of the project gave significant insights concerning the importance 
+of collaboration and having multiple sources of MKOs in learning. Collaboration in 
+this context occurred between learner and LLMs, learner and peers, and learner and 
+researcher, where LLMs, peers and the researcher were the MKOs, facilitating the 
+learning process. While LLMs, with their human-like interaction, can collaborate 
+with learners on many levels, such as by giving relevant information and feedback and 
+assisting in generating ideas, they may also be a cause for distraction with their excessive 
+source of information. This creates a space for connected collaboration where every 
+factor in the learning assemblage contributes to the learning process (Fig. 6 ).
+Fig. 5  LLMs working as MKOs
+ Education and Information Technologies
+Similarly, teachers as MKOs can guide the learners in mastering a subject or a concept 
+but may be of limited help if it is outside the scope of their expertise. However, they could 
+give inputs based on their lived experiences that would help the learners reach other 
+sources and ways to attain their goals. This brings us to the argument that posthumanism 
+posits, according to which, everything is relational in a learning assemblage where every 
+factor has its own agency to exert through its relation to the others (Lenters & McDermott, 
+2020). This clears the most debated discussion of whether AI and technology would 
+replace teachers in education. Every factor in a learning assemblage has its role to play 
+with varying degrees of agency depending on a particular social and cultural context. The 
+contribution of LLMs and technology is expected to be higher in the learning process 
+of a student who is taking online courses. Whereas a student pursuing a course in an 
+institution might have various other factors with their own contextual and relational 
+agencies contributing to her/his learning. Either way, the intervention of LLMs in the 
+learning assemblage tremendously impacts the learners’ language proficiency.
+6.1.3  Improving English language skills
+The intervention enabled the learners to enhance their English language skills with 
+the help of MKOs involved in the study (LLMs, peers and the researcher). It required 
+them to communicate efficiently to discuss and share insights with their peer and 
+work on their presentation skills as they had to present the ideas and the progress 
+to the researcher (Fig.  7). They also worked on their writing skills by getting feed-
+back from the researcher as well as LLMs (MKOs) as they had to produce a thor -
+ough report by the end of the project. Report writing tasks within the purview of the 
+‘English for Communication’ course curriculum were essential to equip the learners 
+with the skills and abilities requisite for crafting comprehensive and professional 
+Fig. 6  Collaboration among learners through the intervention of LLMs
+Education and Information Technologies 
+reports. Through the project, they learnt how to write professional and academic 
+reports. Among twenty participants, seventeen of them mentioned that using LLMs 
+helped in improving their academic writing skills. Learners also shared that they 
+developed research skills through this intervention as they explored new academic 
+avenues and systematic methods to write the review/report. Therefore, adhering to 
+the established standards of formal report writing, the learners honed their skills 
+concerning synthesising the information and coherently organising the content. This 
+study’s intervention served as a platform to develop their research skills and under -
+stand the complex nature of learning by acknowledging the role each factor had in 
+their learning process.
+6.2  LLMs as promoters of networked learning
+From the collected data, the use of diverse prompts was observed while analysing 
+the screen recordings. It was found that the learners used LLMs for various pur -
+poses such as understanding concepts, knowing the current trends, exploring future 
+scopes, learning vocabulary, making coherent connections between heterogeneous 
+themes, structuring the essay, and many others. The learners used the preliminary 
+information gathered from LLMs to explore more (Fig.  8) by using other online 
+Fig. 7  Learners’ self-reflection on their improvement in English language skills
+ Education and Information Technologies
+resources such as Google web search, Quora, Wikipedia, YouTube, Blog Posts, 
+Google Scholar, NoteGPT, and various educational databases.
+For instance, one of the pairs used Gemini to learn Energy Efficiency and 
+Resource Conservation individually; they then discussed their viewpoints, estab-
+lished a common ground and made use of Google Docs, which can be accessed by 
+both. After narrowing down the elements they were focussing on, they explored 
+other resources to gather information about the same, carefully analysed the infor -
+mation, summarised the content and recorded it on their Google Docs. Below are 
+the figures (Figs.  9, 10, 11, 12, 13, and 14) displaying a small segment of their 
+engagement which is representative.
+The learners were exposed to diverse opinions that came from the 
+technological resources, their peer, the researcher, and their prior knowledge. 
+Through the intervention, they connected various sources of information, 
+critically analysed them, and made further connections between and across 
+fields, ideas and concepts. For instance, they were able to draw connections 
+between superhero movies such as Batman and their topic, which involved 
+Fig. 8  Learner sharing the usefulness of LLMs in gathering information
+Fig. 9  Initial discussion among the learners
+Education and Information Technologies 
+discussions on metals, data, and climate change. One of the learners made 
+connections that depicted the need for continual learning as he noted 
+down a start-up idea on his mobile phone while he was reading an article 
+and expressed his keen interest in learning more about lithium. Therefore, 
+while it is easy to get distracted due to the plethora of information and other 
+exciting features on the internet, the learners displayed the ability to make 
+Fig. 10  Using LLM (ChatGPT) to initiate the dialogue and understand the concepts
+Fig. 11  Using Google Scholar to access scholarly articles to gather critical insights on the ongoing dis-
+cussion
+ Education and Information Technologies
+decisions on what to pay attention to and how to go forward with the group 
+project. Hence, LLMs in the learning assemblage can promote networked 
+learning, which adheres to the principles of connectivism. Below is a 
+diagram visually depicting the possible connections that were made in the 
+learning process (Fig. 15).
+Such a networked learning experience enabled inquiry-based learning, fos-
+tered digital literacy and critical thinking, and promoted academic responsibility 
+among the learners, which is discussed further.
+Fig. 12  Accessing research articles to know more about ‘Dependency and Vulnerability of Energy’, 
+which was briefly mentioned by the LLM as one of the key considerations
+Fig. 13  Accessing YouTube videos for simple and creative engagement regarding the topic
+Education and Information Technologies 
+6.2.1  Facilitation of inquiry‑based learning
+The intervention of the study equipped the learners to explore different perspectives, 
+retrieve relevant information, gather evidence by using other reliable resources, and 
+formulate research questions to guide their inquiry. Learners were able to reflect on 
+their inquiry process on individual and collaborative levels and synthesise their find-
+ings as a review/report. They also expressed that, in the initial phase of the project, 
+when they were not sure of what to work on, using LLMs was helpful as a starting 
+point to explore potential areas of inquiry. This was also accompanied by their keen 
+interest in the concepts that they were learning in their Energy and Environment 
+Engineering class (Fig. 16).
+Fig. 14  Noting down the key takeaways after connecting various sources of information
+Fig. 15  Networked learning through LLMs
+ Education and Information Technologies
+6.2.2  Promoting networked learning and digital literacy
+This intervention with LLMs promoted networked learning where the learners made 
+connections across fields, ideas and concepts (Siemens, 2005a, b). They learnt from 
+various sources, which include technology, peers, environment and the researcher. It 
+was also observed that the learners were referring to films to understand the concepts 
+better, making notes about specific concepts that have the potential to be start-up ideas 
+(Fig.  17). The intervention also enabled the learners to effectively navigate digital spaces 
+and improve their media literacy as they analysed various forms of media, including 
+texts, audio, images and videos (Hockly, 2023). Through collaboration and networked 
+learning, the learners had the opportunity to analyse various information sources, making 
+inferences with respect to their credibility and limitations (Adeshola & Adepoju, 2023). 
+Fig. 16  Kindling inquiry-based learning through LLMs
+Fig. 17  Depicting networked learning from learners’ experiences
+Education and Information Technologies 
+For instance, fourteen participants among the twenty mentioned that privacy was a major 
+concern while accessing various websites as they were required to log in or provide their 
+data; they also noted that the information provided by LLMs seemed superficial and biased 
+at some levels. The discussions also indicated that more than ten participants expressed 
+that they felt frustrated when AI generates misleading or low-quality content, which 
+makes its credibility questionable. Similarly, twelve participants among all affirmed that 
+they felt both empowered and anxious while using AI for learning. Such an experience 
+of incorporating LLMs in the learning assemblage enabled the learners to understand the 
+social and emotional dimensions of utilising and comprehending them (Zhao et al., 2021) 
+where they shared concerns regarding the possible cognitive and emotional dependence on 
+AI, frustration and ethical dissonance caused by redundancy, and also the positive social 
+aspects including the possibilities of peer interactions and collaborative working strategies.
+6.2.3  Fostering critical thinking skills
+The learners were able to analyse and evaluate the information produced by LLMs and 
+synthesise all the relevant details obtained from various sources of information such as 
+research articles, YouTube, Blog Posts, etc. (Kasneci et al., 2023). They had discussions 
+with their peers to confirm the reliability of information produced by LLMs by applying 
+their prior knowledge and experience in the field (Fig.  18). This experience enabled 
+the learners to become active, discerning participants rather than passive recipients 
+of AI-generated information who were able to interpret AI’s feedback critically and 
+evaluate the accuracy of information with reliable sources such as research articles as 
+well as discussions with their peers and the facilitator.
+Fig. 18  Critical thinking and LLMs
+ Education and Information Technologies
+6.2.4  Promotion of academic responsibility
+With the learner’s prior experience of using LLMs, interference of the teacher-
+researcher and through this intervention, the learners were able to reflect on 
+their digital competencies (Hockly, 2023) and collectively recognize the capa-
+bilities and shortcomings of LLMs with their peers and the researcher. Although 
+some participants shared in the initial stages of the study that they found AI 
+and technological tools to be fascinating, through this study, they were able to 
+recognise the social and ethical dimensions of using LLMs. Working in pairs 
+and collaborating with the facilitator enabled transparency while working on 
+the task, which led to identifying and understanding the potential risks, biases, 
+issues with credibility, and quality of the content being generated by LLMs. 
+Five participants were initially of the opinion that AI can replace the traditional 
+classroom practices and even compromise on the role a teacher takes. However, 
+their perspectives changed as they realised its effectiveness when used respon-
+sibly with more awareness. The learners were able to locate potential biases 
+by operationalising their critical thinking skills. They used LLMs responsibly 
+given the ethical concerns they may pose, which was reviewed elaborately dur -
+ing background discussion. They were also able to analyse the role of every ele-
+ment in the learning process (Fig. 19).
+Fig. 19  Responsible use of LLMs
+Education and Information Technologies 
+7  Findings
+7.1  How do LLMs and AI chatbots support learners and educators in creating 
+inclusive and academically responsible learning environments in an ESP 
+classroom?
+The data analysis demonstrated that LLMs as an intervention in the learning assem-
+blage provided personalised learning to learners with different learning capacities 
+and needs. In a classroom with a large number of students, LLMs can help ensure 
+that all the learners who are familiar with technology can access the learning aids 
+they need to succeed. This can reduce the stigma associated with learning differ -
+ences and capabilities. Therefore, by providing personalised learning support, learn-
+ers are motivated to feel confident and included in the class, thereby ensuring inclu-
+sivity. Consequently, with the exposure to networked learning, the learners explored 
+various tenets of digital technology and AI in the learning process, which improved 
+their digital literacy skills. However, this opened avenues for discussions that con-
+cerned the ethical consequences in the field of education.
+It has been argued that the integration of AI and LLMs in education can lead to 
+many ethical issues, disrupting the systematic functioning of the education system. 
+The extensive use of AI and LLMs may lead to biases as the data produced by those 
+models might not be credible. Studies have reported that students misuse AI and LLMs 
+for unethical practices during examinations (Kohnke et  al., 2023). One of the learners 
+exposed that he, along with his classmates, uses ChatGPT and Gemini to complete 
+their assignments effortlessly (Cotton et al., 2024). Some disagreed and stated the lack 
+of awareness to be a cause for its misuse. They also shared that some of their peers are 
+addicted to Gemini and use it to the extent that their autonomy and thinking capacities can 
+diminish (Fig. 20).
+However, with the help of rigorous discussions and intervention, a perceptional 
+change was witnessed among the learners concerning the responsible use of LLMs 
+in the learning assemblage. One of the learners shared that, ‘I think we can’t com-
+pletely rely on LLMs for learning. If we use it responsibly alongside the teachers, it 
+would be amazing’ (SSI). Therefore, informed use of LLMs in a classroom can lead 
+to the promotion of social and academic responsibility as a learner. The learners also 
+shared that LLMs cannot be completely relied on as their responses might be prob-
+lematic, vague and erroneous (Fig.  21). Therefore, using LLMs meaningfully and 
+Fig. 20  The ethical concerns of using LLMs
+ Education and Information Technologies
+responsibly with an awareness of their potential and drawbacks can reduce the ethi-
+cal and social consequences. This can be made possible by accommodating LLMs 
+in classrooms ‘with’ the learners, alongside an MKO, similar to the intervention of 
+this study.
+A perceptional change concerning the ethics of using LLMs in classrooms facili-
+tated academic responsibility and integrity among the learners. The interference of 
+the researcher through the intervention enabled the learners to reflect on their digital 
+competencies (Hockly, 2023) and collectively recognise the potential and shortcom-
+ings of LLMs for maximum results. This also facilitated the learners to scrutinise 
+the credibility of the information provided by the LLMs by operationalising their 
+critical thinking abilities. Therefore, such interventions involving a collaborative 
+endeavour involving teachers and learners together can promote academic responsi-
+bility and the responsible use of AI and LLMs in the learning process.
+7.2  What are the pedagogical implications of accommodating LLMs and AI 
+Chatbots in developing the content knowledge of the learners?
+The evidence from the data analysis suggested that accommodating LLMs and AI 
+chatbots in classrooms to develop the content knowledge of the learners can facili-
+tate inquiry-based learning, where the learners explore various perspectives, ana-
+lyse the credibility of the information and investigate them from diverse learning 
+avenues. This collaborative project/intervention fostered collaboration among the 
+learners, the learner and LLMs, and the learners and the researcher. The learners 
+also mentioned that such collaborative learning enabled them to approach any idea 
+from diverse perspectives as they worked in pairs, reduced distractions due to a 
+plethora of information and various sources online and improved their ability to be 
+team players. This collaborative learning encouraged them to analyse and evaluate 
+each other’s trajectories and the information produced by LLMs by operationalis-
+ing their critical thinking skills. The intervention also promoted digital literacy and 
+networked learning among the learners as they effectively explored digital spaces 
+and developed their media literacy by analysing various forms of media, including 
+images, texts, audio and videos.
+Fig. 21  Learner expressing the unreliability of LLMs
+Education and Information Technologies 
+Consequently, the data analysis revealed that the use of LLMs in the classroom directly 
+impacted the English language skills of the learners, as the intervention required them to 
+discuss insights concerning their project and work on their presentation skills, which are 
+required for effective communication. Similarly, the collaborative feedback and assistance 
+provided by LLMs and the researcher contributed to the improvement in their writing 
+skills as evidenced by their thorough project reports. The information presented in their 
+submissions met the academic standards and was coherently organised.
+8  Discussion
+In posthuman times, where AI and technology are exerting their dominance over the 
+education system, it becomes imperative to devise ways to tackle the current situa-
+tion. Networked learning from the perspective of connectivism would acknowledge the 
+complexities involved in the learning process (Omodan, 2023) and can suggest ways to 
+accommodate AI and LLMs without disrupting the principles of education. In such an 
+attempt, this study has contributed to the literature by documenting a posthumanist-con-
+nectivist intervention and its implications in an English for Specific Purposes classroom. 
+It suggests that LLMs can take up the role of an MKO and aid the learners with scaf-
+folding and expanding their current developmental zones (Stojanov, 2023). It illustrates 
+decentralised learning that emphasises the importance of networks (Downes, 2012). It 
+affirms that every factor (human, non-human) contributes to the learning process through 
+their relational agencies within a specific social and cultural context (Lenters & McDer -
+mott, 2020). Concerning the facilitation of personalised learning, this study confirms 
+the assertions made by Kasneci et al. (2023) and Tlili et al. (2023). Similarly, this study 
+affirms that using LLMs through a connectivist approach can facilitate collaboration 
+(Alam, 2023) and critical thinking skills (Kasneci et al., 2023). It also improved English 
+language skills (Allagui, 2023; Fitria, 2023), such as writing and communication. While 
+Long and Magerko (2020) contend that learners will require digital/AI literacy skills in 
+education, this study reports the expansion of digital/AI literacy skills through collabora-
+tion and details the networked learning fostered by digital literacy.
+However, with the growing interest in LLMs in education, there are also many 
+ethical concerns with regard to academic integrity as LLMs are referred to as ‘high-
+tech plagiarism’ (Stewart, 2023). As a reaction to the enhanced risk for unethical 
+practices, many universities and institutions expressed their willingness to revert to 
+the traditional assessment formats involving pen and paper (Tlili et al., 2023). To 
+address this issue, many have emphasised in their study the importance of reflect-
+ing on the implications of LLMs ‘with’ learners (Farrokhnia et al., 2023; Supiano, 
+2023). This is because there is a gap between the teachers’ expectations and learn-
+ers’ lived realities. While the teachers expect the learners to show academic integ-
+rity, the learners choose to use LLMs due to the convenience they provide with their 
+academic tasks. Therefore, encouraging learners to work with LLMs alongside a 
+more knowledgeable human, preferably a teacher, and engaging them in discussions 
+about ethical concerns, academic integrity, principles of education and limitations 
+of LLMs can help in collectively and responsibly adapting to such technological 
+innovations (Abramson, 2023). On that account, this study helps in bridging the 
+ Education and Information Technologies
+gap between learners and teachers as the intervention enabled the researcher and the 
+learners to collectively reflect on its limitations and possible ways of accommodat-
+ing them in the learning assemblage with constructive pedagogical implications. To 
+ensure the responsible use of AI tools, educators can create awareness of AI’s limi-
+tations, including bias and potential misinformation. They can encourage learners to 
+use LLMs for learning enhancement rather than generating content for assignments, 
+guide learners to evaluate AI-generated content critically by providing examples and 
+case studies and educate them about data privacy.
+Given the number of participants, the findings of the study are constrained by 
+limitations and are contingent upon a specific context. As a consequence, the appli-
+cability of the study’s inferences may not be valid for learners of diverse levels, 
+especially those who lack digital literacy (Kohnke et al., 2023). Alam (2023) also 
+mentions the need for digital literacy, as the connectivist approach relies on technol-
+ogy and digital spaces. Kohnke et al. (2023) also assert that there are specific forms 
+of digital competence required to use LLMs in a classroom, including technological 
+proficiency, pedagogical compatibility and social awareness, which is established 
+in this study. Therefore, familiarisation of AI and LLMs to learners and teachers 
+becomes imperative to navigate the rapid technological advancements.
+9  Conclusion
+The study discussed the possibility of new teaching and learning methods in an ESP 
+classroom that incorporate AI and LLMs from the perspective of Vygotsky’s MKO 
+and posthuman connectivist approach. This attempt illustrated the non-linear and 
+networked learning involving human, non-human and technological resources in the 
+learning assemblage. It explored the efficacy of LLMs as pedagogical tools in an 
+ESP classroom. The results of the study detailed the pedagogical implications in 
+developing the content knowledge of the learners and asserted that the intervention 
+facilitated inquiry-based learning, critical thinking, communication, report writing, 
+digital literacy and research skills. The findings also affirmed that the rational use 
+of LLMs can create inclusive and academically responsible learning environments.
+Despite the rising concerns regarding academic integrity and ethical issues, the 
+study suggested that educationists and learners should find ways to collectively work 
+and accommodate LLMs in classrooms. The responsible use of LLMs can be fos-
+tered by reflecting on their potential and limitations along ‘with’ learners, which was 
+attempted in this study. Therefore, the study provides scope for the exploration of 
+LLMs and creative interventions in educational practices. Further research on LLMs 
+can adopt a mixed-method study to demonstrate many other potential trajectories in 
+English language education. Future studies could also explore the long-term impact 
+of LLM integration on learners’ writing autonomy and metacognitive development. 
+Comparative studies across different educational contexts could provide deeper 
+insights into the scalability of AI-assisted learning. Additionally, empirical inves-
+tigations into educators’ perspectives on LLMs as a pedagogical tool could further 
+enhance our understanding of how they reshape teaching methodologies.
+Education and Information Technologies 
+Appendix
+Learner’s composition examples
+See Figs. 22 and 23 here.
+Fig. 22  Sample 1 of the report submitted by the learners
+ Education and Information Technologies
+Funding The study did not receive any funding from any organisation.
+Data availability All the data of this qualitative, exploratory study can be made available on request.
+Declarations 
+Disclosure statement The authors declare that they have no competing interests.
+References
+Abramson, A. (2023). How to use ChatGPT as a learning tool. Monitor on Psychology, 54(4). Retrieved 
+from https:// www. apa. org/ monit  or/ 2023/ 06/ chatg pt- learn ing- tool. Accessed 3 Dec 2023.
+Adeshola, I., & Adepoju, A. P. (2023). The opportunities and challenges of ChatGPT in education. Inter -
+active Learning Environments, 32(10), 6159–6172. https:// doi. org/ 10. 1080/ 10494 820. 2023. 22538 
+58
+Adu, K., Badaru, K., Duku, N., & Adu, E. (2022). Innovation and technology: A panacea to teaching and 
+learning challenges during the Covid-19 lockdown in South Africa. Research in Social Sciences and 
+Technology, 7(1), 69–89.
+Fig. 23  Sample 2 of the report submitted by the learners
+Education and Information Technologies 
+Aksal, F. A., Gazi, Z. A., & Bahçelerli, N. M. (2013). Practice of connectivism as learning theory: 
+Enhancing learning process through social networking site (Facebook). Gaziantep University Jour -
+nal of Social Sciences, 12(2), 243–252.
+Alam, M. A. (2023). Connectivism learning theory and connectivist approach in teaching and learning: A 
+review of literature. Bhartiyam International Journal of Education & Research, 12(2), 1–15.
+Ali, J. K. M., Shamsan, M. A. A., Hezam, T. A., & Mohammed, A. A. Q. (2023). Impact of ChatGPT on 
+learning motivation: Teachers and students’ voices. Journal of English Studies in Arabia Felix, 2(1), 
+41–49. https:// doi. org/ 10. 56540/ jesaf. v2i1. 51
+Allagui, B. (2023). Chatbot Feedback on students’ writing: Typology of comments and effectiveness. 
+In O. Gervasi, B. Murgante, A. M. A. C. Rocha, C. Garau, F. Scorza, Y. Karaca, spsampsps C. M. 
+Torre (Eds.), International conference on computational science and its applications (pp. 377–384). 
+Springer. https:// doi. org/ 10. 1007/ 978-3- 031- 37129-5_ 31
+Bender, S. M. (2024). Awareness of artificial intelligence as an essential digital literacy: ChatGPT and 
+Gen-AI in the classroom. Changing English, 31(2), 161–174. https:// doi. org/ 10. 1080/ 13586 84X. 
+2024. 23099 95
+Bock, T., & Sergeant, J. (2002). Small sample market research. International Journal of Market Research, 
+44(2), 1–7. https:// doi. org/ 10. 1177/ 14707 85302 04400 205
+Buchanan-Oliver, M. (2015). The spectre of posthumanism in technology consumption: The death of the 
+human?. In Death in a consumer culture (pp. 300–315). Routledge.
+Castells, M. (2000). Toward a sociology of the network society. Contemporary Sociology, 29, 693–699.
+Cotton, D. R., Cotton, P. A., & Shipway, J. R. (2024). Chatting and cheating: Ensuring academic integrity 
+in the era of ChatGPT. Innovations in Education and Teaching International, 61(2), 228–239.
+Davies, R. S., Dean, D. L., & Ball, N. (2013). Flipping the classroom and instructional technology inte-
+gration in a college-level information systems spreadsheet course. Educational Technology Research 
+and Development, 61, 563–580.
+Davoodi, A. (2024). Crafting innovative paths in non-linear professional learning for bilingual education: 
+The role of connectivism in the age of AI.  Professional Development in Education, 1–17. https:// 
+doi. org/ 10. 1080/ 19415 257. 2024. 24214 92
+Downes, S. (2005a). An introduction to connective knowledge [Web log post]. Retrieved from http:// 
+www. downes. ca/ post/ 33034. Accessed 21 Dec 2023.
+Downes, S. (2005b). An introduction to connective knowledge. In T. Hug (Eds.), Media, knowledge & 
+education exploring new spaces, relations and dynamics in digital media ecologies. Innsbruck Uni-
+versity Press.
+Downes, S. (2012). Connectivism and connective knowledge: Essays on meaning and learning networks. 
+National Research Council Canada.
+Dudeney, G., & Hockly, N. (2012). ICT in ELT: How did we get here and where are we going? ELT Jour -
+nal, 66(4), 533–542.
+Farrokhnia, M., Banihashem, S. K., Noroozi, O., & Wals, A. (2023). A SWOT analysis of ChatGPT: 
+Implications for educational practice and research. Innovations in Education and Teaching Interna-
+tional, 1–15. https:// doi. org/ 10. 1080/ 14703 297. 2023. 21958 46
+Fitria, T. N. (2023). Artificial intelligence (AI) technology in OpenAI ChatGPT application: A review 
+of ChatGPT in writing English essay. ELT Forum: Journal of English Language Teaching, 12(1), 
+44–58. https:// doi. org/ 10. 15294/ elt. v12i1. 64069
+Hasse, C. (2022). Humanism, posthumanism, and new humanism: How robots challenge the anthropo-
+logical object. In The Palgrave handbook of the anthropology of technology (pp. 145–164). Palgrave 
+Macmillan. https:// doi. org/ 10. 1007/ 978- 981- 16- 7084-8_7
+Heaven, W. D. (2023). ChatGPT is going to change education, not destroy it. MITTechnology Review. 
+Retrieved from https:// www. techn ology review. com/ 2023/ 04/ 06/ 10710 59/- chatg pt- change- not- destr 
+oy- educa tion- openai/. Accessed 14 Nov 2023.
+Hockly, N. (2023). Artificial intelligence in English language teaching: The good, the bad and the ugly. 
+Relc Journal, 54(2), 445–451.
+Jeon, J., & Lee, S. (2023). Large language models in education: A focus on the complementary rela-
+tionship between human teachers and ChatGPT. Education and Information Technologies, 28(12), 
+15873–15892.
+Jung, I. (2019). Connectivism and networked learning. Open and distance education theory revisited: 
+Implications for the digital era (pp. 47–55). https:// doi. org/ 10. 1007/ 978- 981- 13- 7740-2_6
+ Education and Information Technologies
+Kasneci, E., Sebler, K., Kuchemann, S., Bannert, M., Dementieva, D., Fischer, F., ..., & Kasneci, G. 
+(2023). ChatGPT for good? On opportunities and challenges of large language models for educa-
+tion. Learning and Individual Differences, 103, 102274.
+Kern, R. (2006). Perspectives on technology in learning and teaching languages. Tesol Quarterly, 40(1), 
+183–210.
+Kohnke, L., Moorhouse, B. L., & Zou, D. (2023). ChatGPT for language learning and teaching. RELC 
+Journal. https:// doi. org/ 10. 1177/ 00336 88223 11628
+Kostka, I., & Toncelli, R. (2023). Exploring applications of ChatGPT to English language teaching: 
+Opportunities, challenges, and recommendations. Tesl-Ej, 27(3), n3.
+Lenters, K., & McDermott, M. (2020). Orienting map I: Mapping posthuman concepts. Affect, embodi-
+ment, and place in critical literacy: Assembling theory and practice (pp. 19–28). Routledge.
+Liang, E. S., & Bai, S. (2024). Generative AI and the future of connectivist learning in higher education. 
+Journal of Asian Public Policy, 1–23. https:// doi. org/ 10. 1080/ 17516 234. 2024. 23860 85
+Liu, S., Kang, L., Liu, Z., Zhao, L., Yang, Z., & Su, Z. (2023). Exploring the relationships between 
+students’ network characteristics, discussion topics and learning outcomes in a course discussion 
+forum. Journal of Computing in Higher Education, 35(3), 487–520.
+Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In Pro -
+ceedings of the 2020 CHI conference on human factors in computing systems (pp. 1–16). https:// doi. 
+org/ 10. 1145/ 33138 31. 33767 27
+Omodan, B. I. (2023). Analysis of connectivism as a tool for Posthuman University classrooms. Journal 
+of Curriculum Studies Research, 5(1), 1–12. https:// doi. org/ 10. 46303/ jcsr. 2023.2
+Pavlik, J. V. (2023). Collaborating with ChatGPT: Considering the implications of generative artificial 
+intelligence for journalism and media education. Journalism & Mass Communication Educator. 
+https:// doi. org/ 10. 1177/ 10776 95822 11495 77
+Rahman, M. M., & Watanobe, Y. (2023). ChatGPT for education and research: Opportunities, threats, 
+and strategies. Applied Sciences, 13(9), 5783. https:// doi. org/ 10. 3390/ app13 095783
+Rowe, N. C. (2004). Cheating in online student assessment: Beyond plagiarism. Online Journal of Dis-
+tance Learning Administration, 7(2), 1–10.
+Siemens, G. (2005a). Connectivism: A learning theory for the digital age. International Journal of 
+Instructional Technology and Distance Learning, 2(1), 3–10. Retrieved from http:// itdl. org/ Journ al/ 
+Jan_ 05/ Jan_ 05. pdf. Accessed 14 Nov 2023.
+Siemens, G. (2005b). Connectivism: Learning as network-creation. ASTD Learning News, 10(1), 1–28.
+Sozudogru, O., Altinay, M., Dagli, G., Altinay, Z., & Altinay, F. (2019). Examination of connectivist the-
+ory in English language learning: The role of online social networking tool. International Journal of 
+Information and Learning Technology, 36(4), 354–363. https:// doi. org/ 10. 1108/ IJILT- 02- 2019- 0018
+Stewart, J. (2023). Noam Chomsky says ChatGPT is a form of "high-tech plagiarism". My Modern Met. 
+https:// mymod ernmet. com/ noam- choms ky- chat- gpt/. Accessed 26 Nov 2023.
+Stojanov, A. (2023). Learning with ChatGPT 3.5 as a more knowledgeable other: An autoethnographic 
+study. International Journal of Educational Technology in Higher Education, 20(1), 35.
+Su, Z., Li, Y., Liu, Z., Sun, J., Yang, Z., & Liu, S. (2023). An analysis approach for blended learning 
+based on weighted multiplex networks. Educational Technology Research and Development, 71(5), 
+1941–1963.
+Sullivan, M., Kelly, A., & McLaughlan, P. (2023). ChatGPT in higher education: Considerations for aca-
+demic integrity and learning. Journal of Applied Learning and Teaching, 6(1), 31–40. https:// doi. 
+org/ 10. 37074/ jalt. 2023.6. 1. 17
+Supiano, B. (2023). Will ChatGPT change how professors assess learning? The chronicle of higher edu-
+cation. https:// www. chron icle. com/ artic le/ will- chatg pt- change- how- profe ssors- assess- learn ing. 
+Accessed 22 Jan 2024.
+Susnjak, T., & McIntosh, T. R. (2024). ChatGPT: The end of online exam integrity? Education Sciences, 
+14(6), 656.
+Tlili, A., Shehata, B., Adarkwah, M. A., Bozkurt, A., Hickey, D. T., Huang, R., & Agyemang, B. (2023). 
+What if the devil is my guardian angel: ChatGPT as a case study of using chatbots in education. 
+Smart Learning Environments, 10(1), 15.
+Vygotsky, L. S. (1987). Thinking and speech. In R. W. Rieber spsampsps A. S. Carton (Eds.), The col-
+lected works of L. S. https:// doi. org/ 10. 1007/ 978-1- 4613- 1655-8
+Vygotsky, L. S. (1978). Mind in society: The development of higher psychological processes. Harvard 
+University Press.
+Education and Information Technologies 
+Wang, F. (2023). IoT for smart English education: AI-based personalised learning resource recommenda-
+tion algorithm. International Journal of Computer Applications in Technology, 71(3), 200–207.
+Wang, M., & Guo, W. (2023). The potential impact of ChatGPT on education: Using history as a rear -
+view mirror. ECNU Review Education. https:// doi. org/ 10. 1177/ 20965 31123 11898 26
+Wang, Z., Anderson, T., & Chen, L. (2018). How learners participate in connectivist learning: An analy -
+sis of the interaction traces from a cMOOC. International Review of Research in Open and Distrib-
+uted Learning, 19(1), 45–67. https:// doi. org/ 10. 19173/ irrodl. v19i1. 3269
+Zainal, Z. (2007). Case study as a research method. Jurnal Kemanusiaan, 5(1). Retrieved from https:// 
+jurna lkema nusia an. utm. my/ index. php/ keman usiaan/ artic le/ view/ 165. Accessed 8 Jan 2024.
+Zhao, Y., Llorente, A. M. P., & Gómez, M. C. S. (2021). Digital competence in higher education 
+research: A systematic literature review. Computers & Education, 168, 104212. https:// doi. org/ 10. 
+1016/j. compe du. 2021. 104212
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps 
+and institutional affiliations.
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under 
+a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted 
+manuscript version of this article is solely governed by the terms of such publishing agreement and 
+applicable law.

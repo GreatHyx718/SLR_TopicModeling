@@ -1,0 +1,2083 @@
+Designing Multisensory Biophilic Futures: Exploring the
+Potential of Interaction Design to Deepen Human Connections
+With Nature in Indoor Environments
+Shruti Rao
+University of Amsterdam
+Amsterdam, Netherlands
+s.rao@uva.nlJudith Good
+Informatics Institute
+University of Amsterdam
+Amsterdam, Netherlands
+j.a.good@uva.nlHamed Alavi
+University of Amsterdam
+Amsterdam, Netherlands
+h.alavi@uva.nl
+Figure 1: Examples of biophilic architecture: (a) An Indian temple that cyclically floods from a nearby river as a symbolic
+connection to cleansing of the site and the “soul”. Image credit: Sriharsha, 2018. Accessed May 14, 2025. (b) Frank Lyold Wrights’s
+iconic Fallingwater house that was designed to look like it is emerging from a waterfall. Image credit: Pixabay, 2016. Accessed
+May 14, 2025.
+Abstract
+Advances in interaction design, architecture, and artificial intel-
+ligence offer new possibilities for built environments. Yet, most
+systems focus on improving physical parameters such as indoor
+air quality. While these enhance physical comfort, they often over-
+look an innate aspect of human experience—our connection with
+nature—fundamental to physical and mental health. In contrast,
+architecture offers a rich legacy of biophilic design that creates
+sensory-rich spaces evoking a connection to nature. What insights
+can biophilic architecture offer to guide interactive experiences in
+future buildings? Drawing on 13 expert interviews, we expose the
+gap between current biophilic practices in smart buildings and the
+multidimensional potential of nature-inspired design. We present
+This work is licensed under a Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License.
+DIS ’25, Funchal, Portugal
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1485-6/25/07
+https://doi.org/10.1145/3715336.3735781eight themes reflecting expert imaginaries of biophilic futures and
+five design opportunities illustrating how emerging technologies
+can position biophilic interaction as multi-sensory, interpretive,
+and aligned with more-than-human, justice-oriented futures.
+CCS Concepts
+•Human-centered computing →Human computer inter-
+action (HCI) ;Interaction design ;Interaction design theory,
+concepts and paradigms ;
+Keywords
+biophilic design, multisensory, smart buildings, nature interactions,
+multi-species, semi-structured interviews, more-than-human
+ACM Reference Format:
+Shruti Rao, Judith Good, and Hamed Alavi. 2025. Designing Multisensory
+Biophilic Futures: Exploring the Potential of Interaction Design to Deepen
+Human Connections With Nature in Indoor Environments. In Designing
+Interactive Systems Conference (DIS ’25), July 05–09, 2025, Funchal, Portugal.
+ACM, New York, NY, USA, 18 pages. https://doi.org/10.1145/3715336.3735781
+357
+
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+1 Introduction
+Interactive systems are integral to building design, leveraging ad-
+vances in sensing, actuation, and data processing to regulate param-
+eters such as lighting, temperature, and air quality [ 2]. These sys-
+tems enhance comfort, energy efficiency, and sustainability while
+adapting spatial layouts to create private or collaborative spaces
+within shared environments [ 34,94,95]. However, this approach of-
+ten embodies an anthropocentric and technocentric paradigm [ 46],
+treating buildings—and the technologies within them—as functional
+spaces optimised for productivity [ 53]. This perspective neglects
+the potential to enrich deeper, experiential dimensions, such as
+those rooted in our innate connection to nature [66, 68, 133].
+Biophilia refers to the intrinsic human tendency to seek connec-
+tions with nature and other forms of life [ 133]. Biophilic design
+builds on this, advocating for the integration of natural elements,
+patterns, and processes into the built environment to support mean-
+ingful connections with nature. This approach is grounded in a
+growing body of evidence demonstrating that a biophilic connec-
+tion yields psychological and physiological benefits, including stress
+reduction, cognitive restoration, and enhanced creativity [43, 51].
+In architectural legacy, biophilia is deeply embedded. Traditional
+methods have employed natural materials and site-sensitive layouts
+to promote ecological awareness, sensory engagement, and emo-
+tional connection [ 18,66]. For instance, an ancient Indian temple
+at a river’s origin cyclically submerges during monsoon season,
+symbolising purification and renewal—of both the building and
+the soul—while reinforcing human-ecological ties [ 45]. Similarly,
+Frank Lloyd Wright’s Fallingwater in Pennsylvania exemplifies this,
+blending the built form with the surrounding waterfall1.
+Despite this legacy, biophilic design remains underutilised in
+smart building technologies, which rarely explore how interactive
+systems might foster deeper, multisensory relationships with nature.
+There is a need to integrate biophilic principles into smart building
+research, towards environments that are not only advanced but also
+ecologically and experientially rich. Human-Building Interaction
+(HBI), which explores technologies, spaces, and subjective experi-
+ences [ 1,10,101], offers a promising context for this integration.
+By acknowledging emotional, cultural, and sensory dimensions,
+HBI can support environments that promote well-being, nature-
+connectedness, and sustainability for “human flourishing” [85].
+This paper explores the following question: What insights can be
+drawn from the legacy, practice, and imaginaries of biophilic architec-
+ture to guide the design of interactive experiences in future buildings?
+Through interviews with 13 architecture experts, we investigate
+the potential of biophilic design within the context of current and
+future smart buildings. We acknowledge biophilic design as a recip-
+rocal practice benefiting both humans and nature, though current
+discourse remains largely human-centred; our perspective focuses
+on expert insights rather than normative prescriptions.
+Our analysis reveals a gap in current practices and the possi-
+bilities of nature-connected interactions in buildings. We present
+seven high-level topics (TO1–TO7) that offer a structured overview
+of expert discourse, followed by eight themes (T1–T8) that capture
+how professionals imagine the future of biophilic design. These
+1https://fallingwater.org/themes provide a conceptual foundation for nature-inspired inter-
+actions in indoor spaces. Next, we introduce five design opportu-
+nities (DO1–DO5) supported by emerging technologies to enable
+novel biophilic interactions. By bridging architectural biophilia
+with interactive technologies, we expand the discourse on smart
+buildings—reimagining how nature can be integrated into indoor
+experiences and reorienting biophilic interaction as reciprocal and
+aligned with more-than-human, justice-oriented futures.
+2 Background and Related Work
+We first review biophilic design in architecture, then examine its
+treatment in HCI and Interaction Design (IxD), highlighting gaps
+and situating this work within these fields.
+2.1 Biophilia and Its Treatment in Architecture
+Edward Wilson popularised biophilia as humanity’s evolutionary
+need to connect with nature, an “innate tendency to focus on life
+and lifelike processes”[ 133]. This connection extends beyond phys-
+ical contact, encompassing emotional, cognitive, and ecological
+awareness[ 124]. A greater interaction with nature strengthens this
+connectedness, and those with stronger connections actively seek
+more nature-oriented experiences [124].
+Architecture has long reflected this interdependence between
+humans and natural environments. Traditional Japanese tea houses,
+for instance, embody concepts like wabi-sabi, valuing authentic-
+ity, ageing, and transience, with designs that extend into the sur-
+rounding landscape [64]. However, modern industrialisation led to
+building practices increasingly detached from ecological context. In
+response, architects like Frank Lloyd Wright championed “organic
+architecture”[ 91], while Ian McHarg’s Design with Nature promoted
+ecological integration[ 87]. Stephen Kellert later formalised biophilic
+design into a set of principles such as natural lighting, material-
+ity, and biomimicry that could be embedded into human-centred
+design frameworks [ 68]. Today, biophilic design is being revisited
+as a response to climate change, urban stress, and declining na-
+ture connectedness. Initiatives like the Living Building Challenge2
+promote regenerative design through green roofs, vertical gardens,
+and water recycling. Contemporary examples include Singapore’s
+Gardens by the Bay3, Apple Park’s ecologically integrated campus4,
+and Maggie’s Centres [ 117], which use natural light, greenery, and
+views to support healing and well-being.
+2.2 Human-Nature Interaction in HCI
+HCI has explored the intersection of technology, people, and na-
+ture through areas such as Human-Nature Interaction and Natural
+Interaction [ 55]. NatureCHI studies how people use technology in
+natural environments [ 50], and Outdoors HCI designs for wild or
+semi-wild spaces [ 62,88] like gardens [ 105] and farms [ 79]. Recent
+reviews highlight strategies to enhance human-nature relation-
+ships through technology, including engaging with urban nature,
+bridging indoor-outdoor experiences, and supporting personal nar-
+ratives [ 88,114,128]. While these approaches emphasise interaction
+2https://living-future.org/lbc/
+3https://www.gardensbythebay.com.sg/
+4https://www.fosterandpartners.com/projects/apple-park
+358
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+in natural settings, our work focuses on built environments. We ex-
+plore how occupants can form intrinsic, multisensory connections
+to nature indoors, using biophilic design to reimagine how smart
+buildings support nature-connected experiences.
+2.3 Biophilia in IxD for Indoor Built
+Environments
+Biophilic interaction design (IxD) in indoor environments typi-
+cally focuses on fostering (a) connection to nature, (b) restorative
+experiences, and (c) ecological awareness [ 102]. Designs aiming
+to establish nature-connection often tend to keep the nature of
+the “connection” broad. Digital “windows” simulate outdoor land-
+scapes to foster a sense of connection with nature [ 38,126]. Soft
+robotic flowers evoke playful, memory-rich interactions [ 27,86],
+while nature-inspired wallpapers use dynamic lighting and touch-
+activated soundscapes to extend these sensory links [20].
+Restorative systems replicate nature’s psychological and phys-
+iological benefits, especially in spaces where direct access is lim-
+ited [ 83,96]. For instance, plant-like movements (i.e. responding to
+plant-generated electrical signals) and surfaces with cellular struc-
+ture patterns were explored in confined spaces for restoration [ 107].
+Nature Jar uses digital metaphors of growth to encourage mind-
+fulness and restoration [ 127]. Other works remind people to take
+breaks through nature-inspired technologies, directing their minds
+toward nature as a means of relaxation [ 63]. Generative art has
+also been used to create biophilic displays, offering evolving visu-
+als for stress relief [ 135]. Immersive experiences, such as Virtual
+Nature , leverage virtual reality (VR) to simulate restorative natural
+environments.
+To promote ecological awareness , some designs embed nature-
+inspired cues into daily life. For example, sensor-embedded plants
+nudge users into taking stairs instead of elevators, saving energy [ 80].
+Wearable devices like FloraWear , offer tactile, mossy surfaces, to
+signal nature interdependence [ 92]. Playful digital games have
+also explored biophilic design for promoting pro-environmental
+behaviour in the built environment among children [33].
+2.3.1 Sensory Modalities in Biophilic Design. Biophilic design aims
+to evoke feelings of being in nature through multisensory engage-
+ment. Visual elements like projected greenery or simulated nat-
+ural lighting are widely used to evoke feelings of being in na-
+ture [ 5,35,136]. Auditory soundscapes mimicking birdsong or
+flowing water have been shown to enhance nature connected-
+ness [ 5,35,136]. In contrast, modalities like touch, smell, and taste
+remain under-explored despite their immersive potential. Some
+works combine multiple senses. Touch and visual interactions were
+explored in Nature-bot , which comprised robotic flower-like dis-
+plays made of different materials to encourage playful interac-
+tions [ 27,86]. Similarly, LiveNature combined tactile sensations
+through wool (evoking contact with sheep) with ambient displays
+for connection to rural environments [ 38]. Few explore sensory
+integration: Living Wallpaper responds to touch with birdsong and
+motion-triggered fading prints [ 20], while one installation blended
+visuals, sound, and smells to evoke river landscapes [131].2.4 Gaps and Positioning
+We see that existing biophilic research in IxD often broadly fo-
+cuses on fostering connections to nature or enabling experiences
+of restoration and ecological awareness. Much of this work is frag-
+mented, with limited exploration of the diversity of human experi-
+ences with nature such as sensory engagement, ecological interde-
+pendence, and cultural narratives [125].
+This paper draws on architectural perspectives to surface expert
+imaginaries and explore new possibilities for biophilic interaction in
+smart environments. Rather than offering precise definitions of bio-
+philia or prescriptive technology design guidelines, we foreground
+conceptual and speculative insights rooted in biophilic architec-
+ture. Our goal is to broaden the discourse on biophilic interactivity
+in smart buildings across HCI, architecture, and IxD, and to lay a
+foundation for future empirical studies and design explorations.
+3 Methodology
+This section outlines the research methodology used to investigate
+expert insights on biophilic design, detailing the interview design,
+participant selection, and data analysis approach.
+3.1 Expert Interviews
+We conducted semi-structured interviews, chosen for their flexi-
+bility to explore experts’ unique insights while maintaining a con-
+sistent structure across sessions [ 12]. A prepared “interview guide”
+outlined core areas of discussion with open-ended questions to
+encourage experts to be reflective and forward-thinking, while
+providing flexibility to tailor the conversations to their expertise.
+The conversations were organic, primarily driven by the experts’
+insights, with the guide serving as a loose framework to ensure
+relevance and depth, rather than dictating the flow of discussion.
+Ethical approval was obtained from the institutional review board.
+All experts provided verbal and written consent. Interviews were
+conducted in person or online, lasting 60–75 minutes.
+3.1.1 Interview Design. Conversations were loosely structured
+around experts’ context, grounded insights, experiential perspec-
+tives, and visionary outlooks—balancing practical inquiry with
+speculative thinking. Context-setting focused on situating ex-
+perts within the framework of biophilic design while exploring
+their interpretations of its philosophy and its relevance within
+smart environments. Grounded insights explored practical design
+and engineering considerations, financial restrictions, technical
+challenges, and limitations. At this point, experts were invited to
+share their insights on opportunities for incorporating the different
+sensory dimensions to foster immersive connections to nature. Ex-
+periential perspectives drew on personal stories and case studies
+where nature-inspired design created profound connections. Finally,
+visionary outlooks invited experts to imagine future biophilic
+spaces that respond to emerging human and ecological needs.
+3.2 Selection of Interviewees
+Experts were recruited via email through purposive sampling [ 110].
+We reached out to individuals with significant contributions to
+biophilic design and related fields, including those affiliated with
+359
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+Topic-Level 
+Clustering 
+(7 Topics: TO1 - TO7) 
+21
+3
+Reflexive 
+Thematic Analysis 
+(8 Themes: T1 - T8) Design 
+Opportunities 
+(5 Opportunities: 
+DO1 - DO5) Semi- 
+Structured 
+Interview Data 
+(13 Experts) 
+Figure 2: An overview of our data analysis process. First, we conducted topic-level clustering of interview responses, identifying
+seven descriptive topics based on recurring ideas across the interview questions. Next, we carried out a reflexive thematic
+analysis of the full dataset to generate eight themes. Finally, based on the topics and themes, we interpretively synthesised five
+design opportunities to support research on biophilic interaction in smart buildings.
+leading, global architecture firms, high profile architecture and de-
+sign projects, as well as distinguished academic contributions. As
+the interviews progressed, snowball sampling was employed, lever-
+aging existing experts’ networks to identify additional experts [ 103].
+In this way, we invited 25experts of which 13participated. Among
+them, 8 were industry experts, including lead architects and se-
+nior designers (urban and landscape), while 5 were from academic
+backgrounds, comprising researchers specialising in interactive
+architecture and environmental psychology. A summary of partici-
+pant demographics along with their stated expertise in biophilic
+design is provided in Appendix B.
+3.3 Data Processing and Analysis
+We conducted 13 expert interviews, resulting in approximately
+17 hours of recorded audio, which were transcribed and analysed
+through a multi-stage process. Our analysis yielded findings at three
+levels: (1) topics summarising the interview data, (2) reflexively
+constructed themes around expert imaginaries in biophilic design,
+and (3) design opportunities. Figure 2 summarises this process.
+3.3.1 Step 1 – Topic-Level Clustering of Expert Responses. We be-
+gan by organising the interview data using the structure of our
+interview questions (c.f. subsection A.1 and discussed under Inter-
+view Design). We then grouped similar responses and identified
+recurring ideas. From these patterns, we developed a structured cod-
+ing scheme (Figure 3) comprising high-level topics such as values ,
+deeper connection , and technology . These topics summarise expert
+discourse and surface the breadth of insights across the interviews,
+reflecting a high-level, descriptive structuring of the dataset.3.3.2 Step 2 - Reflexive Thematic Analysis. Next, to elicit deeper
+insights from the dataset, we conducted a bottom-up reflexive the-
+matic analysis following Braun et al . [16] , Byrne [22], which al-
+lowed for an iterative and open coding process. Reflexive thematic
+analysis was chosen for its effectiveness in identifying and inter-
+preting patterns across datasets, particularly in under-researched
+areas [ 17,30]. This analysis was conducted independently of Step
+1, where we returned to the full dataset and carried out line-by-
+line coding of the transcripts. Each sentence was examined with
+attention to both semantic and latent meaning, yielding 471open
+codes (e.g. “spirit of the place”, “participatory stewardship of nature”,
+“biophilic design as corporate culture” ). These codes were iteratively
+reviewed and refined to create themes that reflect the possibilities
+of biophilic design, as articulated by the experts.
+3.3.3 Step 3 – Deriving Design Opportunities. Finally, we engaged
+in an interpretive synthesis to develop design opportunities for
+interaction design in smart environments. This process drew from
+the structured topics (Step 1) and reflexive themes (Step 2), re-
+examining the findings through our designerly and technological
+lens. For each opportunity, we also proposed speculative technol-
+ogy examples using “what if?” scenarios to explore how biophilic
+interaction might be reimagined.
+Throughout the study, the first and last author discussed and
+resolved methodological and analytical decisions. The first author
+identified high-level topics based on the transcripts, which were
+then reviewed and refined (Step 1). The first author then conducted
+open coding and theme development, with codes and developed
+themes discussed and adjusted in joint meetings (Step 2). Finally,
+the first and the last author iteratively reviewed and shaped the
+design opportunities (Step 3).
+360
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+Multi-Sensory 
+Biophilic 
+Design
+Contro?
+lled 
+nature
+H?
+uman-centric
+Inactive 
+(dorm?
+ant) 
+nature
+Val?
+ues
+Fut?
+ure 
+Visions
+Gree?
+n-
+washing
+Aesthetic
+only
+prioritising 
+visual 
+imp?
+act
+Digital 
+plat?
+forms
+Sm?
+art 
+materials
+3D 
+& 
+digital 
+fabricati?
+on
+Participatory
+Too?
+ls
+Idealised 
+version? 
+of 
+nature
+S?
+uperficial
+Vis?
+ual 
+emphasis
+Restorative 
+Effec?
+t
+Participato?
+ry
+Non-human 
+Ecos?
+ystem
+Existential 
+Place 
+Iden?
+tity
+Multi-
+sensory 
+Mixed 
+Reali?
+ty
+Smart? 
+Glass
+Blinds
+AI
+Vis?
+ual 
+AI
+Mimicking 
+Compl?
+exity
+Prompting 
+& 
+Nud?
+ging
+Biophilic 
+ca?
+psules
+Smart? 
+Paint
+Ligh?
+t
+Techn?
+ology
+Deeper 
+Co?
+nnection
+Ro?
+botic 
+tech?
+nology
+Generative 
+Mod?
+els
+Large 
+Lang?
+uage 
+Models
+Transformers
+Biophilic 
+Pla?
+nning
+Nature 
+awareness 
+syste?
+ms
+Presence 
+mediat?
+ion
+gre?
+en 
+as 
+the 
+utopian 
+vision
+Tokenistic
+Communal 
+stewardshi?
+p
+Stres?
+s 
+relief
+Mental 
+fatigue
+Personal 
+owner?
+ship
+Historical 
+conte?
+xt
+Age?
+ncy 
+of 
+nature
+Awe
+Innate ?
+fear
+Subli?
+me 
+effect
+Humil?
+ity
+Fric?
+tion
+Disco?
+mfort
+Awareness 
+& 
+Re?
+spect
+Inter-subject 
+relations
+Nature 
+enhanc?
+ement
+Limited 
+pa?
+rticipatory 
+design
+Acce?
+ssibility
+Morphologic?
+al 
+constraints
+Knowledge 
+& 
+Data 
+limi?
+tations
+Socio-economic 
+Challen?
+ges
+Hybrid 
+cra?
+fts
+Regulatory, 
+economic, 
+& 
+tec?
+hnical 
+constraints
+Developer 
+risk ?
+aversion
+Grad?
+ual 
+exp?
+osure
+Sens?
+ory 
+Design 
+Opportunities
+Sensory 
+lay?
+ering
+Temporal 
+conne?
+ction
+Attention 
+Restorat?
+ion 
+Theory 
+(ART)
+Bodily 
+Movement
+Surprise
+Imagination
+Loosing 
+track? 
+of 
+time
+Natural 
+cycles 
+& 
+rhythms
+Sens?
+e 
+of 
+Place
+Nature-
+inspired 
+com?
+plexity
+Occupant 
+Agency
+Social 
+& 
+Com?
+munity
+Mental 
+&? 
+Physical 
+Health
+Discovery 
+& 
+Exploration
+Interac?
+tion 
+& 
+Response
+The? 
+6 
+Senses 
+"clean" 
+n?
+ature
+Need 
+for 
+imme?
+diate 
+results
+Inclu?
+sivity
+Misalignmen?
+t 
+with 
+biophilic 
+philosophy
+Limited 
+Neuro-
+diversity
+Lack? 
+of 
+ecolog?
+ical 
+coherence
+Limitati?
+ons 
+& 
+Criticisms
+Exclusive 
+demo?
+graphic 
+participation
+Developing ?
+world
+Historical 
+cities
+Maintenanc?
+e
+Liabil?
+ity
+Budget-
+driven
+Focus 
+on ?
+ROI
+Limited 
+metri?
+cs
+Lac?
+k 
+of 
+quantified 
+data
+Justice 
+&? 
+Equity
+Femi?
+nism
+Sustainability
+Community-
+buildi?
+ng
+Artistic 
+Exp?
+ression
+Thriv?
+ing 
+eco-
+system
+Inclusion 
+& 
+Accessab?
+ility
+Technology-
+Enhanced 
+Bio?
+philia
+Thriving 
+Ecosyst?
+em
+Community-
+Ce?
+ntred
+Body
+Awareness
+Emotion-
+specific 
+zone?
+s
+Multi-Emotional ?
+Spaces
+Mental 
+Restoration
+Body 
+Rythmn?
+Inclusi?
+ve
+Active 
+programming
+Novel 
+& 
+speculative 
+featu?
+res
+"Smart" 
+& ?
+"Extra"
+Nature
+Multi-sensory 
+im?
+mersion
+Ecological 
+co?
+rridors
+Wildli?
+fe 
+encounters
+Muti-spe?
+cies 
+flourishing
+Biotope
+Circu?
+lar 
+Design
+Ge?
+nius 
+Loci 
+Figure 3: The structured coding scheme developed during Step 1 of the analysis to provide an overview of the discussions.
+Based on the interview structure, this scheme clusters recurring insights into seven topics that represent expert perspectives
+on multisensory biophilic design in indoor environments. Each topic contains subtopics and concepts discussed by experts.
+361
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+4 Findings: Topic-Level Clustering of Expert
+Responses
+This section presents the seven topics (TO1–TO7) derived from our
+topic-level clustering of expert interviews, offering a descriptive
+overview of how experts conceptualise biophilic design in smart
+buildings. An overview of the seven topics and their relationships
+is provided in Figure 3.
+TO1 - A Deeper Connection to Nature: Experts spoke of design-
+ing for a “deeper connection to nature” in indoor spaces as a core
+philosophy underpinning biophilic design [ 67]. Beyond evident
+health benefits, they suggested that deeper connections could be
+fostered through existential moments of awe and humility, shifting
+perspectives from controlling nature to reflecting on humanity’s
+place within it. Experts stressed the importance of designing spaces
+that celebrate ecological uniqueness, recognise nature as an ac-
+tive agent in fostering respect, and encourage participatory care
+for natural spaces. They also highlighted integrating non-human
+ecosystems, such as pollinator habitats, into human environments
+to shape behaviour, foster biodiversity appreciation, and challenge
+cultural assumptions that separate humans from nature.
+TO2 - Limitations and Criticisms: Experts criticised reliance
+on visual perception as the primary sensory dimension for design.
+While impactful and accessible, this overemphasis neglects oppor-
+tunities to create more immersive multi-sensory experiences. Addi-
+tionally, experts pointed out the dilution of biophilic philosophy
+over time through superficial approaches such as the use of fake
+plants that prioritise aesthetics over authenticity and fail to reflect
+natural processes. A lack of ecological coherence was also discussed,
+with many designs featuring token, isolated elements that fail to
+provide ecological continuity with the surrounding spaces.
+TO3 - Sensory Design Opportunities: Experts highlighted the
+underutilisation of smell, sound, and taste in biophilic design. Smell,
+despite its emotional and memory-triggering capabilities [ 54], is
+often avoided due to concerns about undesirable natural odours.
+Sound practices focus on noise reduction (also pointed out by
+Spence [113] in his work summarising multisensory design) rather
+than leveraging natural auditory elements like birdsong to enrich
+sensory experiences. Taste is rarely addressed, limiting its potential
+in specific, niche contexts (e.g. [ 59]). Experts also spoke of oppor-
+tunities for biophilic spaces that respond to human movement to
+enhance users’ sense of self and foster stronger connections to
+their environment. Multi-sensory designs that facilitate medita-
+tion, immersion, and exploration of nature’s systems (e.g. microbial
+systems [104]) can provoke curiosity.
+TO4 - Technology: Experts put forth the notion of “smart na-
+ture” or “extra nature”, considering technology as a design material
+for biophilic experiences in architectural spaces. In addition to
+climate-responsive innovations like hydro-gel windows that regu-
+late sunlight for occupant comfort [ 139], they proposed technology
+such as reactive biophilic booths , retrofitted with lighting, air quality,
+and sound sensors, as a modern extension of sun-bathing booths
+to provide intense, immersive nature-inspired experiences. Experts
+also discussed leveraging relatively “low-fi” technology such as QR
+codes and mobile applications as digital cues to prompt interactionwith natural elements. Generative AI was highlighted for its poten-
+tial to create innovative visual biophilic designs [ 108,135], while
+Mixed Reality (MR) technologies were suggested for their ability to
+blur artificial and natural environments.
+TO5 - Socio-Economic Challenges: Experts surfaced regula-
+tory, economic, and technical constraints that limit the extent to
+which biophilic design is implemented in indoor spaces. Reliance
+on nurseries for specific plant species can pose logistical challenges,
+while project tender processes often prioritise cost efficiency, sti-
+fling opportunities for creative and sustainable solutions. In her-
+itage areas, strict preservation laws and morphological constraints
+complicate efforts to balance cultural preservation with ecolog-
+ical improvements. Experts also highlighted trade-offs in urban
+environments where vertical expansion is favoured, compromising
+ground-level connectivity and ecological continuity.
+TO6 - Biophilic Design Values: Experts discussed the impor-
+tance of embedding societal values such as neurodiversity [ 19],
+feminism [ 14], and community justice [ 40] into biophilic design
+for indoor spaces. They also highlighted the need for these envi-
+ronments to cater to marginalised and transient communities that
+can benefit from nature connectedness for emotional and phys-
+ical healing. Artistic expression through storytelling and spatial
+design was identified as a means to reflect community identity (as
+done by [ 109]). By integrating local narratives into natural spaces,
+biophilic design can strengthen cultural ties and foster deeper per-
+sonal connections to nature. Experts also noted that collaborative
+approaches could empower communities to actively care for and
+sustain these environments.
+TO7 - Speculative and Future Visions: Experts envisioned
+future biophilic design that can create integrated ecosystems within
+indoor spaces, such as biotopes and ecological corridors, to support
+building wildlife (previously discussed at a city scale [ 140]). These
+participatory ecosystems were seen as fostering species coexistence
+and offering novel experiences, including moments of discomfort to
+enrich nature interactions. They also proposed emotional biophilic
+spaces designed to adapt to body rhythms, emotional states, and
+gender-specific needs. This vision included incorporating natural
+rhythms, such as tides and seasonal changes, to evoke a sense of
+belonging to larger natural cycles. Experts also suggested leverag-
+ing natural light to create transparency and reflections, evoking
+concepts like infinite vistas and horizon views.
+5 Findings: Thematic Analysis
+We present eight themes (T1–T8) developed through a bottom-up
+reflexive thematic analysis [ 16,22]. Each line of interview data
+was open-coded, with codes iteratively grouped into themes. We
+include illustrative quotes to ground each theme in expert insight
+and summarise them in Table 1.
+T1 - Ecological Authenticity and the Essence of Nature in
+Building Design: Our analysis reveals the need to re-evaluate bio-
+philic design philosophy [ 133] in contemporary building practices.
+Experts critiqued the superficial adoption of biophilic design and
+the tendency to treat nature as a static background (e.g. through
+use of artificial plants), reducing it to aesthetic elements devoid of
+362
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+ecological interaction or ecological value. One expert noted: "When
+nature is treated as an object, we miss the opportunity to learn from
+and collaborate with it, instead imposing our own limited under-
+standing." Others raised concerns about building rating systems
+likeWELL certifications5, arguing that they risk reducing biophilic
+design to checklists, inadvertently fostering “green-washing”.
+In exploring the essence of nature in building design, experts
+highlighted a non-interventionist mindset for achieving ecological
+authenticity (discussed further in section 6). The concept of “ third
+landscapes ” where space expresses neither power nor submission to
+power... " , inspired by Clément et al . [31] , was mentioned as a model
+for enabling ecological processes to emerge naturally—designing
+for conditions rather than dictating outcomes. One expert described
+this as: "Instead of dictating (e.g. planting) designs, we should focus
+on creating foundational conditions like soil and shade to let nature
+respond and evolve." These reflections raise questions about the
+role and representation of nature in design: What constitutes the
+essence of nature in built environments, and how can we reconcile
+its authenticity with the functional and experiential expectations
+of intelligent indoor spaces, while respecting its authenticity?
+T2 - Art as an Expression for Biophilic Experiences: Biophilic
+art is well documented [ 15,89] in HCI through examples such as
+robotic flowers [ 27] and vapour-based spatial partitions [ 34]. Ex-
+perts highlighted (emerging) technology as an “artistic material
+for extending natural behaviours” and enabling participatory de-
+sign approaches. Biophilic art must embody “response” to reflect
+nature’s essence (tying to the previous theme of ecological authen-
+ticity): "...An important layer is reaction, so whenever a human does
+something, the sensory nature experience reacts. So like grasses in a
+landscape where you run through with your hand, and then lights
+start to glow. It’s not natural in the way we know it, but it would
+give, I think, a very natural response." Experts suggested that this
+response could take the form of soft fascination —a quality that gen-
+tly captures attention without overwhelming the mind (explored
+in HCI [8, 106])—creating moments of distraction or relief.
+Digitally mediated biophilic art can act as a participatory medium,
+encouraging occupants to engage with and shape their surround-
+ings, as well as develop emotional and cultural connections to
+nature: "Artistic dimensions can mediate between human-made en-
+vironments and natural inspirations, crafting spaces that resonate
+emotionally with users." This could be through art that spatializes
+human interaction with nature (e.g. [ 81]), such as interactive projec-
+tions or augmented reality experiences [ 111]. Studio Roosegaarde’s
+Waterlicht installation, which uses light and reflective lenses to sim-
+ulate virtually flooded environments6, was shared as an example.
+Crafting and 3D printing were highlighted as another participa-
+tory medium for tying cultural narratives with nature. Iris van
+Herpen’s Architectonics demonstrates coexistence between humans
+and aquatic environments through future floating cities fashion7.
+T3 - Biophilic Design for Ecological Empathy: Biophilic de-
+sign holds the potential to foster ecological awareness and em-
+pathy in urbanised societies where disconnection from nature is
+growing [ 78,127]. Experts described how interactions with nature
+5https://standard.wellcertified.com/well
+6https://www.studioroosegaarde.net/project/waterlicht
+7https://www.irisvanherpen.com/collections/architectonicsinfluence values like kindness and respect, encouraging empathic
+behaviours. However, two limitations constrain current approaches.
+First, raising awareness without cultivating a lasting commit-
+ment to ecological preservation is insufficient. Experts suggested
+integrating participatory stewardship, where individuals care for
+natural elements to build a sense of responsibility. Central to this is
+“cues for care” (previously put forth by Nassauer [93])—design that
+signals value and the need for maintenance. One expert described
+a project using QR codes and sensors to trigger pop-ups with in-
+formation about nearby plants: "We’re adding a technical layer to
+inform people about what is happening there...At [company name],
+we wanted to create a sort of walking green route where once they’re
+(employees) near a sensor, they get a pop-up about the plant or the
+tree so they can learn more about it..."
+Second, buildings fail to make invisible ecological processes
+like species health or inter-species interaction perceivable to occu-
+pants (e.g. the MicroAquarium installation that reveals live micro-
+organism activity [ 76]). These interactions often unfold at temporal
+scales that are not perceptible to humans, making them harder to
+translate into meaningful interactions. Experts argued that making
+such processes visible can reinforce a sense of interconnection:
+"By designing buildings that show people how to coexist with other
+species, we can remind users of their interconnectedness with the living
+world." While indoor biotopes are a known strategy [ 69], experts
+felt they often prioritise aesthetics over fostering curiosity and re-
+flection. Such an emphasis limits the ability to inspire empathy and
+a sustained commitment to preservation.
+T4 - Multisensory and Multidimensional Biophilic Design:
+In literature, we found that visual elements like greenery, views, and
+patterns are common [ 9,77]. This visual focus has been critiqued,
+notably by Pallasmaa in The Eyes of the Skin . Addressing this, one
+expert remarked: "Using visual is an easier way to experience bio-
+philia, and we found that most biophilic designs heavily relied on this
+sense." While foundational, visual design alone fails to capture the
+full richness of how humans interact with nature. Experts stressed
+that nature inherently presents layered sensory experiences, such
+as visual, auditory, tactile, and olfactory, creating interactions that
+are often absent indoors. The kinaesthetic sense—our awareness
+of bodily movement—was emphasised. Experts spoke of designing
+for kinaesthetic sense in two ways: movement (with)in nature (e.g.
+flowing water, shifting light) and movement towards nature (e.g.
+spatial layouts that invite exploration). One shared: "It’s not enough
+to see trees through a window—design should invite people to go out,
+move, and interact with the environment."
+Experts described biophilic experiences as multidimensional, of-
+fering three key experiential examples: First, nature operates on
+varying scales , from the vastness of landscapes that inspire awe and
+reflection, to the intimacy of small details that invite personal con-
+nections. As one expert explained: "You are in contact with nature...
+As humans, you start to reflect on your own ego and not really want
+to control everything, and you feel a kind of relief. " Second, temporal
+rhythms such as tides, light shifts, or seasonal cycles were also
+viewed as essential yet rarely integrated indoors. One participant
+reflected: "In nature, time is dynamic—you see tides coming in and
+out, shadows shifting... There’s a rhythm to it that’s deeply tied to our
+363
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+(a) Iris van Herpen’s Nautiloid
+ (b) Daan Roosengaarde’s Waterlicht
+Figure 4: Examples of biophilic expression through art: (a) Studio Iris van Herpen’s creation inspired by aquatic life forms.
+Image credit: All rights reserved by Iris van Herpen BV, Iris van Herpen. Accessed 14 May 2025. (b) The Waterlicht project
+showcasing life on a flooded Earth. Image credit: Daan Roosegaarde www.studioroosegaarde.net. Accessed 14 May 2025.
+perception of being in nature." Finally, infinity was described as an-
+other overlooked aspect: "Views of the horizon or infinite space—like
+transparent designs or reflective surfaces—can create an illusion of
+endlessness that connects users to the vastness of nature." .
+T5 - Multi-species Flourishing in Buildings: Historically, ar-
+chitecture has excluded or controlled non-human species—Vitruvius’
+“primitive hut” [ 75,119] symbolises architecture’s functional origins,
+prioritizing human protection and comfort. Modern practices often
+perpetuate this trend through impermeable designs that hinder eco-
+logical integration. Even within buildings that incorporate natural
+elements, one expert noted: “Most of the time we get requested a
+plant with hydro grains... the plant itself is in a hibernation state.
+It’s surviving but not really actively doing anything.” In contrast,
+multi-species flourishing considers buildings as opportunities for
+ecological interaction and care between humans and non-humans.
+This perspective informs design approaches suggested by experts.
+First, embedding encounters with non-human species can foster
+meaningful interactions. As one expert noted: "Creating spaces for
+multi-species social encounters can encourage new experiences for
+us.... and also shared use and mutual respect for the non-human."
+Second, dedicated spaces for multi-species flourishing are essential.
+While pollinator gardens [ 130] and insect hotels [ 60] are popular
+outdoors, indoor spaces must support local life, including during
+building off-hours. Connectivity is vital; transitional spaces like
+ecological corridors [ 137] can link fragmented habitats, enabling
+species and ecosystem interaction.
+Technology was suggested in managing these interactions: "...a
+smart cat door can open at certain times for a specific cat. You could
+extend this to ecological passages... sometimes there may be too many
+mice, so we close it or we try to balance between different ecological
+communities. Technology could monitor and try to manage this rela-
+tionship. " Finally, “Imagination” was highlighted as a critical design
+tool (also discussed by Fernández et al . [39] ):"Imagination allows us
+to see beyond functional limitations and engage with the possibilities
+of truly integrated ecological systems." .T6 - Biophilic Design for Social Justice: Two experts raised
+the potential of biophilic design as a means of addressing social
+inequities by fostering inclusive, community-focused environments.
+Research supports this premise—nature and affluence are linked
+in urban settings, where areas with abundant greenery tend to
+be wealthier, while under-resourced areas often lack access to na-
+ture [ 134]. This disparity extends to indoor spaces as well: “Biophilic
+design is frequently seen as a luxury, rarely accessible to those who
+might benefit most from it.” We saw that most biophilic projects
+mentioned by experts, whether from their own work or known
+examples, were heavily concentrated in corporate developments.
+Despite this, biophilic design can support marginalised commu-
+nities by combining ecological stewardship with social inclusiv-
+ity [97]. First, it can foster a sense of ownership through partic-
+ipatory design, where collaborative biophilic projects bridge gaps
+between professional intent and the lived experiences of diverse
+users. Such projects can promote economic uplift by integrating
+urban agriculture or green infrastructure, providing community
+resources and ecological benefits. Second, biophilic design can help
+meet the emotional and social needs of transient or vulnerable
+populations by creating spaces that provide refuge and healing
+(also shown in existing works [ 29,118]). Experts emphasised pro-
+gramming to keep such spaces active and inclusive. As one noted,
+“Programming ensures that these spaces don’t just exist as beautiful
+designs but are used. It’s like creating a modern version of a church—a
+space for community and solace.”
+In literature, in ancient temple courtyards, biophilia served col-
+lective and inclusive functions [ 49]. The industrial era, however,
+shifted design priorities toward efficiency and density, often at the
+cost of natural elements. While biophilic design is re-emerging as a
+response to ecological and social challenges, its implementation of-
+ten reflects existing inequalities. In corporate settings, it manifests
+as immersive features like indoor ponds; in underserved contexts, it
+is reduced to token greenery. Reclaiming biophilic design’s commu-
+nal, inclusive legacy may help address these disparities and ensure
+its benefits reach those who need them most.
+364
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+T7 - The Body in Biophilic Design: The human body is central
+to biophilic design—as both observer and participant, it senses and
+responds to environmental cues: "...the human body—as a natural
+sensor... it’s the first means we can use to recreate our inner connection
+with nature." This view builds on Shusterman [112] , where bodily
+scale and orientation guide spatial design. Somaesthetic design in
+HCI extends this perspective, highlighting bodily awareness and
+the reciprocal relationship between body and environment[ 57,58].
+Body sensitivity emerged as a critical design principle, advocat-
+ing for delicate, nuanced interactions with natural elements, like
+moss textures or rustling leaves, to foster deep somatic connec-
+tions. Sensitivity was framed through a feminist lens, addressing
+gendered differences in somatic needs. Experts discussed how hor-
+monal cycles and bodily rhythms influence indoor experiences (also
+researched in gender studies [ 52,72]), and how buildings should
+respond to these differences. Technology was offered as a means
+to respond to feminist bodily needs: "And in an ideal building, it is
+more related to how our body works and how we feel and how we can
+be the most happy and productive in that sense. And then technology
+could analyse your body—body temperature, for example. So for a
+woman’s body, where are you in your cycle? What do you need?" .
+Another highlighted the importance of augmenting this sensitivity
+to make biophilic experiences accessible: "You need to be sensitive to
+first catch the different benefits a biophilic experience can offer. And
+we have seen that the female body is more sensitive..." . We discuss
+this in greater detail in section 6.
+Bodily awareness, biophilia, and architecture were also discussed
+through what one expert termed the “living effect” (briefly explored
+in HCI [ 116]), highlighting elements that evoke growth and vitality
+in artificial spaces. This idea extends to the concept of bodily flow ,
+where design elements such as meandering paths or kinetic instal-
+lations not only encourage physical movement but also create an
+awareness of the interaction between the body and its surround-
+ings [ 25,112]. By actively guiding movement, such designs enable
+occupants to experience spaces in a way that feels organic and
+intuitive, enhancing their connection to both the environment and
+their own embodied presence. The somatic-biophilic lens thus of-
+fers an alternative lens on how biophilic design can support deeper
+connection to nature and self.
+T8 - Biophilic Design for Occupant (Dis)Comfort: Experts
+highlighted that biophilic design should challenge traditional com-
+fort norms: "Comfort should not always about ease; sometimes it’s
+about engagement. And I think that nature’s unpredictability makes
+us feel alive, even when it’s inconvenient." In smart buildings, for
+example, sunlight enriches sensory experiences with light and
+shadow (called Komorebi [ 138]), but is often “corrected” through
+automated shading systems [ 24]. Similarly, natural elements per-
+ceived as “messy” or unpredictable are frequently avoided: "People
+think it’s (referring to a landscape project) very messy, and they are
+reluctant to interact with the space. But sanitised versions limit and
+reduce our connection to the natural world."
+In nature, discomfort is often experienced as duality . Walking
+barefoot on sand can be grounding, yet painful (e.g. from sharp
+shells). One expert reflected: "...I am really enjoying being in nature
+but it could also a lot of time be a bit scary, bring fear...like innate
+fear when you are confronting with nature." Yet, these moments ofdiscomfort can catalyse personal reflection: "Friction fosters reflec-
+tion. When we’re uncomfortable, we’re more likely to pay attention
+and find meaning in our surroundings. A lot of new reflection actu-
+ally comes from this friction in contact with nature." This tension
+between comfort and discomfort seems inevitable. Designing for
+biophilic (dis)comfort could involve strategic oscillations between
+ease and challenge, mimicking natural rhythms: "The stepping stones
+(installed in the midst of a footpath) reduce paving...you really have
+to watch your step, but you feel like you’re passing through a natural
+overgrown area." Discomfort could also be framed as a trade-off,
+where users accept minor inconveniences—such as insects from
+pollinator plants indoors—for greater ecological benefits. This is
+discussed in section 6.
+In productivity-focused spaces, biophilic (dis)comfort raises crit-
+ical questions of balance and appropriateness. While greenery and
+lighting enhance focus (e.g. [ 4]), one expert noted: "There’s an ap-
+petite for more greenery, especially after the pandemic, to try to make
+sure that the spaces indoors actually do have the qualities that are a
+bit more, let’s say, friendly and encourage people to come back and
+work. " How can (dis)comfort align with expectations in workplaces
+or learning environments? Finally, limiting design to ableist bodies
+is problematic. Overly wild, unpredictable elements may be inac-
+cessible to individuals with mobility or sensory sensitivities: "you
+need to see if everything is accessible. You could have parts like that
+(referring to a project that designed for exploratory pathways paved
+with stones) but it needs to be wheelchair accessible. Otherwise, it can
+limit (someone’s) movements." .
+6 Design Opportunities for Multisensory &
+Multidimensional Biophilic Interactions
+We next synthesised Topics (TO1–TO7) and Themes (T1-T8) into
+five actionable design directions (DO1–DO5). We also explore how
+emerging technologies can reimagine biophilic experiences in smart
+environments, summarised in Table 2. Although technology was
+not the primary focus of our interviews, experts highlighted its
+potential, particularly in themes related to art (T2), multi-species
+coexistence (T5), and embodied experiences (T7) (c.f. section 4). We
+used these discussions to support our design opportunities with
+technology enablers.
+DO1: Designing for Emergent Natural Processes .To foster
+deeper connection with nature, smart buildings must support evolv-
+ing, self-regulating, and unpredictable qualities inherent in natural
+processes (see section 5). Unlike mechanical systems with repetitive
+patterns, natural processes evolve unpredictably, creating emergent
+properties—where small changes lead to transformative shifts [ 31].
+For example, ecosystems may adapt to support new species or be-
+haviours, reflecting nature’s novelty and resilience [ 23,100]. Design-
+ing with this quality means embracing flux and variability—qualities
+rarely integrated into current smart building design (e.g. Economi-
+dou[37]’s vision of moving walls and talking floors). For IxD, this
+prompts the development of tools and methods that foreground
+emergence and unpredictability. For smart building researchers,
+it suggests investigating how such features influence occupants’
+comfort and emotional responses.
+Realising emergent processes in smart buildings calls for tech-
+nologies that enable unpredictability and self-regulation [ 31]. This
+365
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+Table 1: An overview of the eight themes created from a reflexive analysis of the expert interviews. For each theme, we provide
+the theme name, a brief description, the top three codes associated with the theme, and the number of supporting quotes.
+Theme Description Example Codes (n=3) Count
+T1 - Ecological Authenticity and
+the Essence of Nature in Building
+DesignThis theme revisits the philosophy of biophilic design as a deep, au-
+thentic connection with nature that aligns with its processes, patterns,
+and non-human agency. However, this philosophy is often diluted
+or lost in translation during the design process, leading to tokenistic
+or anthropocentric implementations. The focus is on preserving the
+integrity of ecosystems by designing in harmony with their natural
+cycles rather than imposing human-centred control.Shallow adoption and To-
+kenism; Re-framing Nature
+as Active Participant; Sim-
+plified perceptions of nature75
+T2 - Art as an Expression for Bio-
+philic ExperiencesThis theme examines our inclination to represent and connect with
+nature through artistic expression. It discusses how art and technology
+can combine to enable biophilic experiences to create participatory,
+restorative, and culturally resonant designs.Technology as participatory
+“material”; Soft fascination;
+Natural behaviours through
+biophilic art29
+T3 - Biophilic Design for Ecological
+EmpathyBiophilic design emerges as a medium for fostering environmental
+awareness, ecological empathy, and sustainable behaviours. By in-
+tegrating biophilic principles into design, spaces can support active
+learning, encouraging a sense of stewardship and collective responsi-
+bility for the natural world. This theme emphasises how educational
+biophilia—using interactive, sensory, and participatory approaches—
+can cultivate biophilic behaviours in occupants.Nature awareness as a cata-
+lyst for nature respect; Par-
+ticipatory stewardship of na-
+ture; Technology for ampli-
+fying living elements52
+T4 - Multi-sensory and Multi-
+dimensional Biophilic DesignThis theme emphasises the need for expanding biophilic design in in-
+door spaces beyond visual and greenery-centric approaches to include
+sound, smell, touch, and movement as well as including more complex
+and layered environmental interactions.multi-sensory experience,
+Experience of sublime,
+Movement and fluidity in
+design.88
+T5 - Multi-species Flourishing in
+BuildingsThis theme envisions biophilic design for supporting environments
+where diverse species can coexist, thrive, and contribute to ecological
+resilience. It emphasises the agency of non-human species as active
+building “occupants”. The focus is on creating opportunities for non-
+human species to express their natural behaviours, flourish in human-
+altered spaces, and contribute to shared ecosystems.Living ecosystem design
+approach, Integrating with
+inter-species practices, Non-
+interventionist design ap-
+proach65
+T6 - Biophilic Design for Social Jus-
+ticeThis theme examines biophilic design for social inequities by fostering
+inclusive, participatory, and community-focused environments. It cri-
+tiques the exclusivity of biophilic design as a “corporate culture” and
+advocates for equitable access to natural, restorative spaces. The focus
+is on empowering marginalised and vulnerable communities through
+designs that provide safe spaces for emotional escape and support
+active social programming.Biophilic design as an in-
+troverted design privilege,
+Spaces of injustice, Biophilia
+for community building63
+T7 - The Body in Biophilic Design This theme explores the role of the human body as a site of interac-
+tion and perception within biophilic design. Drawing on somaesthetic
+principles in built environments, which emphasise bodily awareness,
+sensory engagement, and movement [ 112], this theme explores how
+somaesthetic design can provide an alternative lens to can foster mean-
+ingful biophilic experiences, fostering awareness of nature, and of self.Human body as a sensor for
+biophilic experiences, sen-
+sitivity as a BD principle,
+Movement and fluidity for
+bodily design30
+T8 - Biophilic Design for Occupant
+(Dis)ComfortThis theme challenges traditional notions of comfort by creating envi-
+ronments that evoke both comfort and discomfort. It examines how
+embracing elements of discomfort including unpredictability and even
+fear can be a meaningful aspect of the nature experience within in-
+door spaces. By embracing these “unexpected” aspects of nature, this
+theme examines the opportunities and challenges around designing
+for biophilic (dis)comfort as a means for connecting with nature.Friction in contact with na-
+ture; Rejection of Uncon-
+trolled Nature; wildness ver-
+sus usability42
+could involve repurposing the idea of “third landscapes”—unmanaged,
+dedicated indoor areas where technology supports natural pro-
+cesses [ 31].Stochastic algorithms in IoT systems might trigger en-
+vironmental changes within probabilistic bounds, such as fluctu-
+ating light or airflow that reflects external wind variability [ 65].
+Generative AI could create evolving soundscapes in response toreal-time environmental data—like wind speed, temperature, or
+occupancy, mirroring natural acoustic dynamism [ 13,98].Collab-
+orative AI ecosystems [74] might coordinate lighting, shading, or
+HVAC systems to behave in interdependent, temporally unfolding
+behaviours, generating a living quality within the building—similar
+to explorations in computational architecture [129].
+366
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+DO2: Designing for Occupant Body Sensitivity .This oppor-
+tunity positions the human body as an interface and an active
+participant in biophilic experiences. By encouraging occupants to
+notice, understand, and reflect on their embodied sensations, build-
+ings can foster deeper connections to the surrounding biophilic
+conditions (c.f. Theme 7, section 5). For IxD, this opportunity chal-
+lenges the prevailing paradigm of uniform sensory experiences in
+smart buildings, supporting first-person, body-centred interactions
+with biophilic conditions.
+Building on embodied urban HCI [ 44], technologies could am-
+plify bodily awareness of ambient, subtle biophilic cues [ 121]. Hap-
+tic or thermal wearables can translate airflow or temperature into
+tactile feedback. For instance, a wearable might vibrate or warm
+slightly to guide users to align themselves with airflow patterns in a
+room, encouraging a restorative state [ 106].Smart building façades
+could act as interactive sensory mediators [102, 115], responding to
+environmental changes such as “sweating” on hot days or during
+higher humidity levels before rain, connecting them with natu-
+ral phenomena. Augmented Reality (AR) can visualise real-time
+physiological data, such as heart rate or breathing, overlaying this
+information onto the user’s environment (similar to using AR for
+visualising indoor air pollution [ 61]). An interface could, for in-
+stance, illustrate how proximity to plants or exposure to natural
+light impacts physiological responses, enabling reflection through
+a biophilic lens. Finally, digital journaling tools like “biophilic body
+maps” could incorporate feminist and inclusive perspectives by
+allowing users to document and share how their identities and
+contexts shape their interactions with biophilic elements [ 123]. Ag-
+gregated body maps data from multiple users could reveal how
+groups engage with biophilic spaces, offering input for designing
+communal environments for maximising biophilic interactions.
+DO3: Designing for Biophilic (Dis)Comfort .Smart buildings
+should incorporate moments of (dis)comfort to deepen human con-
+nections to nature (c.f. Theme 8, section 5). By integrating fric-
+tional design elements inspired by biophilic surroundings [ 11],
+IxD can create experiences that deliberately use discomfort to
+provoke reflection and inspire new understandings of the natu-
+ral world [99, 102].
+IoT-enabled technology in flooring systems could simulate tactile
+interactions by subtly cracking or shifting underfoot (e.g. Econo-
+midou [37]’s moving floors), symbolising ecosystem fragility and
+prompting occupants to reflect on climate impact. These might be
+augmented with ambient soundscapes, like the cracking of brittle
+surfaces to highlight ecosystem fragility [ 7]. We previously dis-
+cussed biophilic (dis)comfort as a trade-off , where occupants accept
+minor inconveniences for greater ecological or experiential benefits.
+Buildings could provide context for discomfort-inducing features,
+helping occupants interpret their experiences. For instance, AR
+overlays visualise indoor pollinator corridors with representations
+of bees or butterflies, paired with subtle sensory cues like vibra-
+tions or ambient buzzing sounds, encouraging reflection on shared
+habitats [ 84]. Discomfort could extend to experiences of risk and
+discernment . As one expert noted, "Taste is a sense of caution... even
+in nature, we exercise a certain judgment." Interactive installations
+could explore this cautious quality through scent or visual provo-
+cations that elicit hesitation and curiosity, prompting reflection onsensory boundaries (e.g. risk expressing design [ 36]). In workspaces,
+designers could introduce “productive biophilic discomfort” [3]. For
+instance, smart lighting systems in light-scarce regions might dim
+briefly, mimicking cloud cover. While this momentary discomfort
+could disrupt focus, prompting occupants to seek natural light.
+DO4: Designing for Biophilic Equity .Through biophilic eq-
+uity, smart buildings can address the systemic disparities in access
+to nature experiences and their benefits in indoor spaces, which has
+often been uneven (c.f. Themes 2 and 6, section 5). This necessitates
+prioritising public buildings and shared urban environments for
+biophilic design. For IxD and smart building researchers, biophilic
+equity offers opportunities to tackle the inequities through partici-
+patory technologies, therapeutic tools, and cultural storytelling.
+One potential application is digital platforms for participatory de-
+sign[6]. Interactive apps or web platforms could enable community
+members to actively contribute to shaping biophilic spaces [ 6,47].
+For instance, users could suggest plant species, vote on design fea-
+tures, or provide input that reflects their cultural and ecological val-
+ues.Biophilic connection technologies could also serve as therapeutic
+tools for marginalised groups such as displaced refugees or at-risk
+youth. Immersive virtual reality (VR) experiences could transport
+users to calming, nature-rich environments such as forests or ocean
+providing solace amidst hardships. Digital storytelling through ar-
+chitectural features [ 21] in community centres or youth facilities
+could host interactive art installations or digital projections that
+celebrate the cultural and ecological histories of under-represented
+groups (like the co-design with displaced youth [ 41] to develop
+wayfaring solutions). For example, public spaces could visualise
+the biodiversity of regions associated with displaced communi-
+ties, fostering a shared ecological narrative and recognising their
+contributions to environmental stewardship.
+DO5 - Designing for Relational Encounters with Nature .
+Smart buildings foster relational encounters by encouraging em-
+pathy, care, and mutual growth between humans and nature (c.f.
+Themes T3, T1, T5, section 5). It makes nature’s needs visible to
+promote awareness and responsibility [ 42,78]. Historical exam-
+ples of Persian gardens embodied this by requiring active care
+from humans who maintained irrigation systems, creating ecosys-
+tems that rewarded engagement with fruit-bearing trees [ 70,71].
+For researchers, designing for relational encounters with nature
+opens pathways for technologies fostering individual and collec-
+tive empathy. It also calls for studying how group dynamics shape
+engagement within biophilic spaces.
+Relational encounters with nature can be fostered by “surfacing”
+the presence and processes of ecological systems [ 42,78,116]. This
+includes “cues for care” inviting reflection (discussed in T3 section 5).
+Drawing from technology design in Relational-Cultural Theory
+(RCT) [ 32,73,132], IoT sensors, for example, can track soil or light
+and translate data into interactive cues. For example, projection walls
+and ambient displays could show environmental changes in shared
+spaces like lobbies or meeting rooms, supporting shared group
+responses to support biophilic elements [ 82].Empathy-building
+technologies could further enhance relational encounters by shift-
+ing perspectives from human to non-human [ 42]. AR, for example,
+might simulate a “plant’s-eye view” of human actions [ 120], show-
+ing how behaviours like touching or crowding impact growth and
+367
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+Table 2: A summary of design opportunities for supporting novel biophilic experiences in smart buildings. Each opportunity is
+summarised with a short description of how the smart building can be designed, corresponding themes, and three example
+technology possibilities. Theme 4 on multisensory and multidimensional experiences is not explicitly mentioned here as it is
+an underlying notion across all design opportunities. This is discussed further in section 7.
+Design Opportunity Description Associated
+Theme(s)Technology Examples (n=3)
+DO1 - Designing for Emergent Nat-
+ural ProcessesSupport evolving, self-regulating, and unpre-
+dictable qualities of natural processes to create
+opportunities for “new” behaviours to emerge.T1, T2, T5 Stochastic IoT algorithms for environmental vari-
+ability; generative AI for evolving soundscapes;
+collaborative AI ecosystems for generating com-
+plex building responses.
+DO2 - Designing for Occupant
+Body SensitivityPosition the human body as an active participant
+in biophilic experiences by amplifying embodied
+awareness to surrounding biophilic conditions.T7 Haptic and thermal wearables for tactile feedback;
+AR to visualise physiological responses to natural
+elements; digital journaling tools for document-
+ing interactions.
+DO3 - Designing for Biophilic
+(Dis)ComfortEmploy controlled discomfort in biophilic con-
+texts to help occupants reflect on such moments
+and deepen human connections with nature.T8 AR overlays for pollinator corridors; soundscapes
+simulating ecosystem fragility; interactive instal-
+lations exploring sensory boundaries around risk.
+DO4 - Designing for Biophilic Eq-
+uityActively counter systemic disparities in access to
+nature-rich experiences by prioritising inclusive
+and participatory biophilic design that benefits
+underserved communities.T2, T6 Digital platforms for participatory design; VR
+experiences for immersive nature-rich environ-
+ments; digital storytelling through projections or
+art installations.
+DO5 - Designing for Relational En-
+counters with NatureFoster care, empathy, and shared responsibility by
+making nature’s often invisible processes visible
+and encouraging collective interaction.T1, T3, T5 IoT sensors for ecological monitoring; AR for
+perspective-shifting experiences (e.g. plant’s-eye
+view); AI-assisted wearables for ambient ecologi-
+cal awareness.
+health. Ecological interactions awareness using AI-assisted wear-
+ables (e.g. similar to outdoor bird awareness bracelets [ 78]) could
+be adapted for indoor environments, highlighting moving pollina-
+tors or subtle natural odours within biophilic spaces.
+7 Discussion of Findings: Implications For
+Smart Building Research
+Our findings include seven topics (T1-T7) , eight themes (T1-T8) , and
+fivedesign opportunities (DO1-DO5) . While topics served as an organ-
+ising scaffold, here we focus on how the themes andopportunities ex-
+tend HBI research: thematically , by expanding the experiential and
+ecological vocabulary of interaction, and generatively , by proposing
+new design directions and technological opportunities. We then
+share messages for a multisensory–multidimensional (MS–MD)
+approach to biophilic interaction. Finally, we discuss tensions in
+applying biophilic design and study limitations.
+7.1 Thematic Contributions: Expanding the
+Vocabulary of HBI
+Our findings contribute to HBI by expanding its design vocabulary—
+re-framing smart buildings as ecological interfaces that surface nat-
+ural rhythms and multispecies presence (T1, T3, T5) . While prior
+HBI work has largely prioritised comfort and behavioural con-
+trol [ 2,95], ecological awareness and more-than-human perspec-
+tives remain under-explored. Through our themes, we surface terms
+such as multispecies flourishing ,biophilic (dis)comfort , and ecological
+interface to capture this shift. Second, we foreground multisensory,
+somatic engagement in interaction design. Experts envisioned sys-
+tems that respond to the body through movement, rhythm, andmaterial sensitivity—beyond visual dashboards or app-based feed-
+back (T2, T4, T7, T8) . While soma design has highlighted embodied
+experience in HCI [ 58], our findings extend these insights into archi-
+tectural space, suggesting how buildings themselves may become
+expressive, responsive participants in biophilic interaction. Finally,
+our themes emphasise the social and cultural responsibility of smart
+environments. Although HBI has begun to address equity and pri-
+vacy [ 90], it often overlooks how cultural values, neurodiversity,
+and uneven access to nature shape lived experience. Biophilic de-
+sign offers a way to support diverse bodies, histories, and sensory
+needs—enabling justice-oriented smart environments [28].
+7.2 Generative Opportunities: Biophilic
+Interaction Through Technology
+Our design opportunities contribute to HBI by reimagining how
+technology can support biophilic interaction. These contributions
+open new conceptual and material directions for IxD in the built
+environment. First, we reposition sensing from a behavioural op-
+timisation [ 26] mechanism to a medium for ecological expression.
+Speculative deployments of stochastic IoT and generative AI render
+light, sound, and air movement as expressive materials—carrying
+the rhythms of weather, growth, or animal migration (DO1, DO5) .
+This extends sensing beyond data extraction into ambient ecologi-
+cal storytelling. Second, shifting from traditional HCI perspectives,
+we build on soma design to propose embodied interactions at archi-
+tectural scale . Haptic panels, responsive facades, and AR overlays
+attuned to movement and physiology foster bodily and interpretive
+engagement with biophilic environments (DO2) . These approaches
+challenge the dominance of reactive, screen-based interfaces in
+368
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+smart building design [ 102,122]. Third, we envision participatory
+and justice-oriented directions for HBI. Our opportunities include
+VR platforms for community co-design and systems that regis-
+ter non-human presence—such as pollinators or wildlife corridors
+(DO3, DO4, DO5) . These interactions extend critical HCI into ar-
+chitectural contexts [ 56], positioning smart buildings as spaces of
+care, activism, and more-than-human coexistence.
+7.3 Reflective Messages for Multi-sensory and
+Multi-dimensional Biophilic Interaction in
+HBI
+Smart buildings must evolve to support richer, more ecologically
+attuned forms of interaction, aligned with a multisensory - multidi-
+mensional (MS–MD) approach. To support this reorientation, we
+distil five reflective messages by reflecting on the combined study
+findings, intended to guide future HBI design and research. First,
+biophilic interaction should be scaled across different perceptual
+levels —from micro (e.g. tactile encounters through fingertips), to
+meso (e.g. room-scale soundscapes or kinetic partitions), to macro
+(e.g. building-wide lighting systems reflecting outdoor conditions).
+Second, building on this multi-scale sensitivity, interactions should
+unfold temporally , allowing environments to act as narrative spaces
+shaped by seasonal rhythms and lived memory. Third, biophilic sys-
+tems should strive for coherence across sensory modalities, so that
+light, sound, temperature, and motion collectively evoke ecological
+meaning rather than functioning as disconnected features. Fourth,
+well-timed “disruptions” or moments of surprise can play a powerful
+role—fostering curiosity, reflection, and deeper connection to place
+and self. Finally, biophilic interaction must remain inclusive , de-
+signed with sensitivity to diverse bodies, access needs, and cultural
+ways of sensing and being. Together, these messages reframe bio-
+philic interaction as interpretive (inviting meaning-making) rather
+than prescriptive (dictating responses), and reciprocal rather than
+extractive—qualities that are critical as HBI moves toward more-
+than-human, justice-oriented futures.
+7.4 Discussion of Biophilic Interaction Design
+Tensions
+The opportunities outlined in this paper highlight a critical tension
+between technological advancement and the intrinsic, cultural, and
+emotional values of nature [ 48]. This “technocratic fallacy” reflects
+the risk of framing biophilic design through an overly technical lens.
+Such framings may prioritise quantifiable metrics, such as run-time
+efficiency of IoT systems managing building conditions, side-lining
+the intrinsic qualities of nature that evoke awe, connection, and
+belonging. Detached, technical discourse can further disconnect
+occupants from the authentic and restorative qualities of nature. We
+need to remain mindful of such framings and ensure technological
+solutions complement the humanistic and ecological principles of
+biophilia [66, 68, 133].
+Biophilic design also entails a reciprocal relationship. One side
+concerns humans benefiting from nature—through sensory stim-
+ulation and well-being; the other involves nature benefiting from
+us—through care, stewardship, and infrastructural support. Expert
+visions largely focused on the former, envisioning how smart build-
+ings might enhance human experience. This human-centred focusmirrors a broader gap in HBI, where technologies often overlook
+ecological reciprocity. Yet in the face of climate change, biodiversity
+loss, and environmental degradation, reciprocity is essential. Smart
+buildings are not passive—they reshape ecosystems, consume re-
+sources, and produce waste. They must therefore be designed not
+only to evoke nature, but to sustain it. Moving forward, we call for
+biophilic design in HBI to be critically reoriented toward ecological
+responsibility and care for more-than-human life.
+7.5 Discussion of Limitations and Future Work
+This work reflects our positional lens as researchers working across
+HCI, architecture, and interaction design, and is not without limita-
+tions. First, most experts were European, and their imaginaries may
+not reflect broader societal, Indigenous perspectives on biophilic
+interaction. While we observed disciplinary differences—such as
+technical versus aesthetic framings—most experts shared a design-
+forward orientation, potentially skewing the findings toward cer-
+tain types of interventions. Some offered perspectives in social
+justice or spirituality, but these remained peripheral. As one noted:
+"European architecture focuses on buildings for human design—a lot
+of this comes from the dominance of Christianity, which emphasised
+actions in favour of humankind. This contrasts with the perspectives
+of say the Indigenous tribes in Australia... " . Future work should inten-
+tionally engage more diverse world-views and situated knowledge.
+Second, we chose to conduct interviews over scoping or system-
+atic literature reviews. We find that interviews allowed us to cap-
+ture tacit knowledge, practice-based reflections, and design imag-
+inaries that may not yet be documented in academic discourse.
+Moreover, the initial coding was conducted by a single author. Al-
+though findings were iteratively discussed and refined, this may
+introduce subjective emphasis. Future work could extend our inter-
+view data with methods—such as co-design, literature reviews, or
+in-situ prototyping—to broaden empirical grounding. Finally, the
+technological examples linked to our design opportunities were
+interpretively developed. Although not discussed directly in inter-
+views, we drew on our disciplinary expertise to propose plausi-
+ble interventions—such as generative AI and ecological sensors—
+chosen for their conceptual resonance with the experiential quali-
+ties described by experts. We offer these as illustrative pathways
+to expand the HBI design space, and we invite future research to
+adapt, extend, or critically examine these interventions through
+prototyping and participatory methods.
+8 Conclusion
+This study set out to gather expert ideas, considerations, and imag-
+inaries around the potential for biophilic experiences in buildings.
+Our goal was to identify opportunities for inspiring the future
+design of smart buildings that move past addressing occupants’
+physical comfort and consider the role of these buildings within
+larger ecological systems. Our work contributes to the growing
+discourse on integrating biophilic principles into smart building
+design. By bridging the legacy of biophilic architecture with emerg-
+ing technologies, we aim to inspire research and practice that goes
+beyond functionality to include the ecological, cultural, and sensory
+dimensions of human experience through biophilic smart buildings
+for human and ecological flourishing.
+369
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+Acknowledgments
+We thank the architects, designers, and researchers who partici-
+pated in this study for their thoughtful reflections and visionary
+contributions to our understanding of biophilic interaction in smart
+buildings. With permission, we acknowledge Anne Boonstra (UP
+Architecture), Tessa Duste (Makers of Sustainable Spaces), Fer-
+dinand Grapperhaus (Next Sense Group B.V.), Sitong Luo (Aeres
+Hogeschool Almere), Nina Soltani (UNStudio), and Anahita Tabrizi,
+alongside other contributors whose insights resulted in this work.
+References
+[1]Hamed S Alavi, Elizabeth F Churchill, Mikael Wiberg, Denis Lalanne, Peter
+Dalsgaard, Ava Fatah gen Schieck, and Yvonne Rogers. 2019. Introduction to
+human-building interaction (hbi) interfacing hci with architecture and urban
+design. , 10 pages.
+[2]Hamed S Alavi, Himanshu Verma, Michael Papinutto, and Denis Lalanne. 2017.
+Comfort: A coordinate of user experience in interactive built environments.
+InIFIP conference on human-computer interaction . Springer, Springer, Mumbai,
+India, 247–257.
+[3]Sarra Alpert and Abigail Uhrman. 2022. Productive Discomfort. Portraits of
+Adult Jewish Learning: Making Meaning at Many Tables (2022), 58.
+[4]Maria Bernardina Cornelia Aries. 2005. Human lighting demands: healthy
+lighting in an office environment. (2005).
+[5]Sara Aristizabal, Kunjoon Byun, Paige Porter, Nicholas Clements, Carolina
+Campanella, Linhao Li, Aidan Mullan, Shaun Ly, Araliya Senerat, Ivan Z Nenadic,
+et al.2021. Biophilic office design: Exploring the impact of a multisensory
+approach on human well-being. Journal of Environmental Psychology 77 (2021),
+101682.
+[6]Koen Arts, René Van der Wal, and William M Adams. 2015. Digital technology
+and the conservation of nature. Ambio 44 (2015), 661–673.
+[7]Leah Barclay. 2019. Acoustic ecology and ecological sound art: Listening to
+changing ecosystems. Sound, Media, Ecology (2019), 153–177.
+[8]Avik Basu, Jason Duvall, and Rachel Kaplan. 2019. Attention restoration theory:
+Exploring the role of soft fascination and mental bandwidth. Environment and
+Behavior 51, 9-10 (2019), 1055–1081.
+[9]Timothy Beatley. 2016. Handbook of biophilic city planning & design . Island
+Press.
+[10] Burcin Becerik-Gerber, Gale Lucas, Ashrant Aryal, Mohamad Awada, Mario
+Bergés, Sarah Billington, Olga Boric-Lubecke, Ali Ghahramani, Arsalan Heydar-
+ian, Christoph Höelscher, et al .2022. The field of human building interaction for
+convergent research and innovation for intelligent built environments. Scientific
+Reports 12, 1 (2022), 22092.
+[11] Robert D Bixler and Myron F Floyd. 1997. Nature is scary, disgusting, and
+uncomfortable. Environment and behavior 29, 4 (1997), 443–467.
+[12] Ann E Blandford. 2013. Semi-structured qualitative studies. Interaction Design
+Foundation.
+[13] ZOUZOUA AXEL ISRAEL BLE. 2023. Generative adversarial networks for ambi-
+ent music creation: enhancing creative installations with AI-driven soundscapes.
+(2023).
+[14] JOS BOYS. [n. d.]. Is there a Feminist Analysis. BUILT ENVIRONMENT 10, 1
+([n. d.]), 25.
+[15] Emily Brady. 2019. Aesthetics of the natural environment . Edinburgh university
+press.
+[16] Virginia Braun, Victoria Clarke, and Nikki Hayfield. 2023. Thematic analysis: A
+reflexive approach. SAGE Publications.
+[17] Virginia Braun, Gemma Tricklebank, and Victoria Clarke. 2013. “It shouldn’t
+stick out from your bikini at the beach” Meaning, gender, and the hairy/hairless
+body. Psychology of Women Quarterly 37, 4 (2013), 478–493.
+[18] William D Browning and Catherine O Ryan. 2020. Nature inside: a biophilic
+design guide . Routledge.
+[19] Susanne M Bruyère and Adrienne Colella. 2022. Neurodiversity in the work-
+place: An overview of interests, issues and opportunities. Neurodiversity in the
+Workplace (2022), 1–15.
+[20] Leah Buechley, David Mellis, Hannah Perner-Wilson, Emily Lovell, and Bonifaz
+Kaufmann. 2010. Living wall: programmable wallpaper for interactive spaces. In
+Proceedings of the 18th ACM international conference on Multimedia . 1401–1402.
+[21] Alisa Burova, Chelsea Kelling, Tuuli Keskinen, Jaakko Hakulinen, Pekka Kallion-
+iemi, Heli V ¨"a¨"at¨"aj¨"a, and Markku Turunen. 2019. Promoting local culture and
+enriching airport experiences through interactive storytelling. In Proceedings of
+the 18th International Conference on Mobile and Ubiquitous Multimedia . 1–7.
+[22] David Byrne. 2021. A worked example of Braun and Clarke’s approach to
+reflexive thematic analysis. Quality & Quantity 56, 3 (June 2021), 1391–1412.
+https://doi.org/10.1007/s11135-021-01182-y[23] Kelly A Carscadden, Rebecca T Batstone, and Frances E Hauser. 2023. Origins
+and evolution of biological novelty. Biological Reviews 98, 5 (2023), 1472–1491.
+[24] Marco Casini. 2018. Active dynamic windows for buildings: A review. Renewable
+Energy 119 (2018), 923–934.
+[25] Ka Hei Cheng. 2022. Sonification of Ecological Environment through Electronic
+Musical Instruments. In International Conference on New Interfaces for Musical
+Expression . PubPub.
+[26] Bhawana Chhaglani, Camellia Zakaria, Adam Lechowicz, Jeremy Gummeson,
+and Prashant Shenoy. 2022. Flowsense: Monitoring airflow in building ventila-
+tion systems using audio sensing. Proceedings of the ACM on Interactive, Mobile,
+Wearable and Ubiquitous Technologies 6, 1 (2022), 1–26.
+[27] Aaron Chooi, Thileepan Stalin, Aby Raj Plamootil Mathai, Arturo
+Castillo Ugalde, Yixiao Wang, Elgar Kanhere, Gumawang Hiramandala,
+Deborah Loh, and Pablo Valdivia Y Alvarado. 2022. Symbiosis: Design and
+Development of Novel Soft Robotic Structures for Interactive Public Spaces.
+InCompanion Publication of the 2022 International Conference on Multimodal
+Interaction . 46–51.
+[28] Ishita Chordia, Leya Breanna Baltaxe-Admony, Ashley Boone, Alyssa Sheehan,
+Lynn Dombrowski, Christopher A Le Dantec, Kathryn E Ringland, and An-
+gela DR Smith. 2024. Social Justice in HCI: A Systematic Literature Review.
+InProceedings of the CHI Conference on Human Factors in Computing Systems .
+ACM New York NY USA, Hawaii USA, 1–33.
+[29] Erin L Chow. 2020. Site-Specific, Sculptural Green Wall Systems as Artistic
+Activism: Promoting a Sense of Place and Wellbeing in Hawai ‘i through Biophilic
+Design . Ph. D. Dissertation. University of Hawai’i at Manoa.
+[30] Victoria Clarke and Virginia Braun. 2013. Successful qualitative research: A
+practical guide for beginners. Successful qualitative research (2013), 1–400.
+[31] Gilles Clément, Gilles Clément, Gilles Clément, and Gilles Clément. 2004. Mani-
+feste du Tiers paysage . Sujet/Objet Paris.
+[32] Dana L Comstock, Tonya R Hammer, Julie Strentzsch, Kristi Cannon, Jacqueline
+Parsons, and Gustavo Salazar II. 2008. Relational-cultural theory: A framework
+for bridging relational, multicultural, and social justice competencies. Journal
+of Counseling & Development 86, 3 (2008), 279–287.
+[33] Bronwyn J Cumbo and Ole Sejer Iversen. 2020. CCI in the wild: designing for
+environmental stewardship through children’s nature-play. In Proceedings of
+the interaction design and children conference . 335–348.
+[34] Honghao Deng, Jiabao Li, Xuesong Zhang, and Panagiotis Michalatos. 2019.
+Diffusive Geometries: Vapor as a Tectonic Element to Sculpt Microclimates
+in Architectural Space. In Proceedings of the 2019 Conference on Creativity and
+Cognition . 436–443.
+[35] Paulo Dias Ignacio Junior. 2024. Quantifying the Benefits of Multisensory
+Biophilic Restorative Experiences: An Empirical Study Measuring Effects on
+How Engineers Feel, Think, and Design. (2024).
+[36] Carl DiSalvo, Jonathan Lukens, Thomas Lodato, Tom Jenkins, and Tanyoung
+Kim. 2014. Making public things: how HCI design can express matters of
+concern. In Proceedings of the SIGCHI Conference on Human factors in Computing
+Systems . 2397–2406.
+[37] Eleni Economidou. 2021. Moving Walls and Talking Floors: Design Consider-
+ations on Magical Media Architecture Experiences. In Proceedings of the 5th
+Media Architecture Biennale Conference . 194–199.
+[38] Yuan Feng, Suihuai Yu, Dirk Van De Mortel, Emilia Barakova, Jun Hu, and
+Matthias Rauterberg. 2019. LiveNature: Ambient display and social robot-
+facilitated multi-sensory engagement for people with dementia. In Proceedings
+of the 2019 on designing interactive systems conference . 1321–1333.
+[39] Javier Arpa Fernández, WGM Maas, and ABO Ravon. 2024. The Green Dip:
+Covering the City with a Forest. (2024).
+[40] Walter Fieuw, Marcus Foth, and Glenda Amayo Caldwell. 2022. Towards a more-
+than-human approach to smart and sustainable urban development: Designing
+for multispecies justice. Sustainability 14, 2 (2022), 948.
+[41] Karen E Fisher, Katya Yefimova, and Eiad Yafi. 2016. Future’s butterflies: Co-
+designing ICT wayfaring technology with refugee Syrian youth. In Proceedings
+of the The 15th International Conference on Interaction Design and Children .
+25–36.
+[42] Patricia Flanagan and Raune Frankjaer. 2018. Rewilding wearables: Sympoeitic
+interfaces for empathic experience of other-than-human entities. In Proceedings
+of the twelfth international conference on tangible, embedded, and embodied
+interaction . 611–616.
+[43] Howard Frumkin, Gregory N Bratman, Sara Jo Breslow, Bobby Cochran, Peter H
+Kahn Jr, Joshua J Lawler, Phillip S Levin, Pooja S Tandon, Usha Varanasi, Kath-
+leen L Wolf, et al .2017. Nature contact and human health: A research agenda.
+Environmental health perspectives 125, 7 (2017), 075001.
+[44] Pedro Galvão-Ferreira, Vera Fearns, Nuno Nunes, and Valentina Nisi. 2024.
+Posthumanist Care and Ecologies of Empathy: Investigating Design Poten-
+tials for Nature: Culture HCI. In Proceedings of the 27th International Academic
+Mindtrek Conference . 81–94.
+[45] Anat Geva. 2023. Water and sacred architecture . Routledge London, UK.
+[46] Karamjit S Gill. 2008. Rethinking the interaction architecture. In Cognition,
+Communication and Interaction: Transdisciplinary Perspectives on Interactive
+Technology . Springer, 213–234.
+370
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+[47] Alexandra Greene. 2020. Mobiles and ‘making do’: Exploring the affective,
+digital practices of refugee women waiting in Greece. European Journal of
+Cultural Studies 23, 5 (2020), 731–748.
+[48] Ryan Gunderson. 2014. Social barriers to biophilia: Merging structural and
+ideational explanations for environmental degradation. The Social Science Jour-
+nal51, 4 (2014), 681–685.
+[49] Moti Maya Gurung. 2015. Expanding Biophilic city design theory: A study of
+incorporating nature into the urban design elements of Kathmandu. (2015).
+[50] Jonna Häkkilä, Keith Cheverst, Johannes Schöning, Nicola J Bidwell, Simon
+Robinson, and Ashley Colley. 2016. NatureCHI: unobtrusive user experiences
+with technology in nature. In Proceedings of the 2016 CHI Conference Extended
+Abstracts on Human Factors in Computing Systems . 3574–3580.
+[51] Terry Hartig, Richard Mitchell, Sjerp De Vries, and Howard Frumkin. 2014.
+Nature and health. Annual review of public health 35, 1 (2014), 207–228.
+[52] Edeltraud Haselsteiner. 2021. Gender matters! Thermal comfort and individual
+perception of indoor environmental quality: A literature review. Rethinking
+sustainability towards a regenerative economy (2021), 169–200.
+[53] Martin Heidegger. 2006. Building dwelling thinking. (2006).
+[54] Victoria Henshaw. 2013. Urban smellscapes: Understanding and designing city
+smell environments . Routledge.
+[55] Linda Hirsch, Jingyi Li, Sven Mayer, and Andreas Butz. 2022. A Survey of
+Natural Design for Interaction. In Proceedings of Mensch und Computer 2022 .
+240–254.
+[56] Linda Hirsch, Siiri Paananen, Eva Hornecker, Luke Hespanhol, Tsvi Kuflik,
+Tatiana Losev, and Jonna Häkkilä. 2023. Re-contextualizing Built Environments:
+Critical and Inclusive HCI Approaches for Cultural Heritage. In IFIP Conference
+on Human-Computer Interaction . Springer, 668–673.
+[57] Kristina Hook. 2008. Knowing, communication and experiencing through body
+and emotion. IEEE Transactions on Learning technologies 1, 4 (2008), 248–259.
+[58] Kristina Hook. 2018. Designing with the body: Somaesthetic interaction design .
+MIt Press.
+[59] Jamie Horwitz and Paulette Singley. 2004. Eating architecture . Mit Press.
+[60] S James Reynolds, Juan D Ibáñez-Álamo, Petra Sumasgutner, and Mark C Main-
+waring. 2019. Urbanisation and nest building in birds: a review of threats and
+opportunities. Journal of Ornithology 160, 3 (2019), 841–860.
+[61] Atiye Jarrahi, Ardalan Aflaki, Mozhgan Khakpoor, and Masoud Esfandiari. 2024.
+Enhancing indoor air quality: Harnessing architectural elements, natural venti-
+lation and passive design strategies for effective pollution reduction—A com-
+prehensive review. Science of The Total Environment (2024), 176631.
+[62] Michael D Jones, Zann Anderson, Jonna Häkkilä, Keith Cheverst, and Florian
+Daiber. 2018. HCI outdoors: understanding human-computer interaction in
+outdoor recreation. In Extended Abstracts of the 2018 CHI Conference on Human
+Factors in Computing Systems . 1–8.
+[63] Theresa Jung-Krenzer, Jeanine Kirchner-Krath, Celina Retz, and Maximilian
+Altmeyer. 2024. Leaf your Chair Behind–Calm Persuasion for Frequent Sitting
+Breaks Among Office-Workers. In Proceedings of Mensch und Computer 2024 .
+111–128.
+[64] Andrew Juniper. 2011. Wabi sabi: The Japanese art of impermanence . Tuttle
+Publishing.
+[65] Areg Karapetyan, Sid Chi-Kin Chau, Khaled Elbassioni, Syafiq Kamarul Azman,
+and Majid Khonji. 2019. Multisensor adaptive control system for IoT-empowered
+smart lighting with oblivious mobile sensors. ACM Transactions on Sensor
+Networks (TOSN) 16, 1 (2019), 1–21.
+[66] Stephen R Kellert. 2018. Nature by design: The practice of biophilic design . yale
+university press.
+[67] Stephen R Kellert et al .2008. Dimensions, elements, and attributes of biophilic
+design. Biophilic design: the theory, science, and practice of bringing buildings to
+life2008 (2008), 3–19.
+[68] Stephen R Kellert and Edward O Wilson. 1995. The biophilia hypothesis. (1995).
+[69] Nadya Kerimova, Valeriy Nefedov, Inna Sotnikova, and Maria Morozova. 2012.
+Biotope-based approach for mixed-use office building landscape. Proceedings of
+the Latvia University of Agriculture: Landscape Architecture & Art 1, 1 (2012).
+[70] Mohammad Reza Khalilnezhad, Alessio Russo, and Mozhgan Kheirollahi. 2024.
+Edible landscapes in Persian gardens: a historical perspective from ancient Iran
+to the present day. Landscape History 45, 2 (2024), 121–140.
+[71] Seyyed Mohammad Reza Khalilnezhad and Kai Tobias. 2016. The productive
+landscape in Persian gardens, foundations and features. (2016).
+[72] Jungsoo Kim, Richard de Dear, Christhina Candido, Hui Zhang, and Edward
+Arens. 2013. Gender differences in office occupant perception of indoor envi-
+ronmental quality (IEQ). Building and environment 70 (2013), 245–256.
+[73] Matthias Winfried Kleespies. 2021. Connection to nature and relational values:
+an empirical study of human-nature relationships to explore essential factors
+in environmental education and environmental psychology. Environmental
+Education Research 27, 10 (2021), 1517–1518.
+[74] Janin Koch. 2017. Design implications for Designing with a Collaborative AI. In
+2017 AAAI Spring symposium series .
+[75] Marc-Antoine Laugier. 1755. Essay on architecture . At PT Barrois.
+[76] Kyungwon Lee, Jaewoo Jung, and Seung Ah Lee. 2020. MicroAquarium: An
+immersive and interactive installation with living microorganisms. In ExtendedAbstracts of the 2020 CHI Conference on Human Factors in Computing Systems .
+1–4.
+[77] Deborah Lefosse, Arjan van Timmeren, and Carlo Ratti. 2023. Biophilia upscal-
+ing: A systematic literature review based on a three-metric approach. Sustain-
+ability 15, 22 (2023), 15702.
+[78] Zhuying Li, Si Cheng, Wei Wang, and Min-Ling Zhang. 2022. (Re-) connecting
+with Nature in Urban Life: Engaging with Wildlife via AI-powered Wearables.
+InAdjunct Publication of the 24th International Conference on Human-Computer
+Interaction with Mobile Devices and Services . 1–5.
+[79] Szu-Yu Liu. 2019. Designing with, through, and for Human-Nature Interaction.
+InCompanion Publication of the 2019 on Designing Interactive Systems Conference
+2019 Companion . 101–104.
+[80] Susan Loh and Yasu Santo. 2010. " Please touch the plant on your way up the
+stairs..." for OZCHI conference 2010. In Proceedings of the 22nd Conference of the
+Computer-Human Interaction Special Interest Group of Australia on Computer-
+Human Interaction . 412–413.
+[81] Oliver Marchart. 1998. Art, Space and Public Sphere (s) . na.
+[82] Eleni Margariti, Vasilis Vlachokyriakos, Abigail C Durrant, and David Kirk. 2024.
+Evaluating ActuAir: Building Occupants’ Experiences of a Shape-Changing Air
+Quality Display. In Proceedings of the CHI Conference on Human Factors in
+Computing Systems . 1–21.
+[83] Rachel Masters, Victoria Interrante, Madeline Watts, and Francisco Ortega. 2022.
+Virtual nature: Investigating the effect of biomass on immersive virtual reality
+forest bathing applications for stress reduction. In ACM Symposium on Applied
+Perception 2022 . 10 pages.
+[84] Lucy R McClain, Heather Toomey Zimmerman, Susan M Land, Lillyanna Faimon,
+Yu-Chen Chiu, Stephanie Bowles, and Charles A Keith. 2022. Using immersive
+augmented reality to guide families’ observations and visualizations of pollinator
+habitats in outdoor spaces. In Proceedings of the 16th International Conference
+of the Learning Sciences-ICLS 2022, pp. 2000-2001 . International Society of the
+Learning Sciences.
+[85] Brendan McCormack and Angie Titchen. 2014. No beginning, no end: an ecology
+of human flourishing. International Practice Development Journal 4, 2 (2014).
+[86] Sophie McDonald, David Kirk, and Nick Bryan-Kinns. 2015. Nature bot: Experi-
+encing nature in the built environment. In Proceedings of the 2015 ACM SIGCHI
+Conference on Creativity and Cognition . 173–176.
+[87] Ian L McHarg et al. 1969. Design with nature. (1969).
+[88] Eleonora Mencarini, Amon Rapp, Linda Tonolli, Maurizio Teli, Roberto Cibin,
+Vincenzo D’Andrea, and Massimo Zancanaro. 2021. Designing for/with/around
+Nature: Exploring new Frontiers of Outdoor-related HCI. In Proceedings of the
+14th Biannual Conference of the Italian SIGCHI Chapter . 1–2.
+[89] Malcolm Miles. 2010. Representing nature: art and climate change. cultural
+geographies 17, 1 (2010), 19–35.
+[90] Samantha Jane Mitchell Finnigan. 2020. Human-Centred Smart Buildings: Re-
+framing Smartness Through the Lens of Human-Building Interaction . Ph. D.
+Dissertation. Newcastle University.
+[91] Mark Mumford. 1989. Form follows nature: The origins of American organic
+architecture. Journal of Architectural Education 42, 3 (1989), 26–37.
+[92] Hye Yeon Nam, JaNiece Campbell, Andrew M Webb, and Brendan Harmon.
+2023. FloraWear: Wearable Living Interface. In Proceedings of the Seventeenth
+International Conference on Tangible, Embedded, and Embodied Interaction . 1–15.
+[93] Joan Iverson Nassauer. 1995. Messy ecosystems, orderly frames. Landscape
+journal 14, 2 (1995), 161–170.
+[94] Binh Vinh Duc Nguyen, Jihae Han, and Andrew Vande Moere. 2022. Towards
+Responsive Architecture that Mediates Place: Recommendations on How and
+When an Autonomously Moving Robotic Wall Should Adapt a Spatial Layout.
+Proc. ACM Hum. Comput. Interact. 6, CSCW2 (2022), 1–27.
+[95] Binh Vinh Duc Nguyen and Andrew Vande Moere. 2024. The Adaptive Ar-
+chitectural Layout: How the Control of a Semi-Autonomous Mobile Robotic
+Partition was Shared to Mediate the Environmental Demands and Resources of
+an Open-Plan Office. In Proceedings of the CHI Conference on Human Factors in
+Computing Systems . 1–20.
+[96] Jalynn Blu Nicoly, Rachel Masters, Vidya Gaddy, Victoria Interrante, and Fran-
+cisco Ortega. 2024. The restorative influence of virtual reality environment
+design. In ACM Symposium on Applied Perception 2024 . 10 pages.
+[97] Stephanie Panlasigui, Erica Spotswood, Erin Beller, and Robin Grossinger. 2021.
+Biophilia beyond the building: Applying the tools of urban biodiversity planning
+to create biophilic cities. Sustainability 13, 5 (2021), 2450.
+[98] Ivan Parati and Mariia Zolotova. 2024. Using Future Thinking as a steering tool
+for Generative AI creative output: a case study aiming at rethink lighting in the
+next future. In Human Interaction & Emerging Technologies: Artificial Intelligence
+& Future Applications Proceedings of the 11th International Conference on Human
+Interaction and Emerging Technologies, IHIET-AI 2024, April 25–27, 2024, Lausanne,
+Switzerland, Technology & Engineering . AHFE International Open Access.
+[99] Jacques Pezeu-Massabuau. 2013. A philosophy of discomfort . Reaktion Books.
+[100] Volker C Radeloff, John W Williams, Brooke L Bateman, Kevin D Burke, Sarah K
+Carter, Evan S Childress, Kara J Cromwell, Claudio Gratton, Andrew O Hasley,
+371
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+Benjamin M Kraemer, et al .2015. The rise of novelty in ecosystems. Ecological
+Applications 25, 8 (2015), 2051–2068.
+[101] Shruti Rao, Hamed Alavi, and Judith Good. 2023. Towards Empathic Build-
+ings: Exploring How Smart Buildings May Be Designed to Address Occupants’
+Subjective Needs. In Proceedings of the 2nd Empathy-Centric Design Workshop .
+1–4.
+[102] Shruti Rao, Katja Rogers, Judith Good, and Hamed Alavi. 2025. What Do We
+Design for When We Design" Smart Buildings"?-A Scoping Review of Human Ex-
+perience Design Research in Buildings. In Proceedings of the 2025 CHI Conference
+on Human Factors in Computing Systems . 1–23.
+[103] Kate Raworth, Caroline Sweetman, Swati Narayan, Jo Rowlands, and Adrienne
+Hopkins. 2012. Conducting semi-structured interviews . Oxfam.
+[104] Clarice Risseeuw, Holly Mcquillan, Joana Martins, and Elvin Karana. 2024.
+(Re) activate,(Re) direct,(Re) arrange: Exploring the Design Space of Direct
+Interactions with Flavobacteria. In Proceedings of the CHI Conference on Human
+Factors in Computing Systems . 1–18.
+[105] Shannon Rodgers, Bernd Ploderer, and Margot Brereton. 2019. HCI in the
+garden: Current trends and future directions. In Proceedings of the 31st Australian
+Conference on Human-Computer-Interaction . 381–386.
+[106] Elena Sabinson, Jack Neiberg, and Keith Evan Green. 2024. With Every Breath:
+Testing the Effects of Soft Robotic Surfaces on Attention and Stress. In Proceed-
+ings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction .
+611–620.
+[107] Elena Sabinson, Isha Pradhan, and Keith Evan Green. 2021. Plant-human em-
+bodied biofeedback (pheB): A soft robotic surface for emotion regulation in
+confined physical space. In Proceedings of the Fifteenth International Conference
+on Tangible, Embedded, and Embodied Interaction . 1–14.
+[108] Elena B Sabinson and Keith Evan Green. 2023. A Walk in Nature: Exploring
+the Creative Potentials of a Generative Design Tool for Soft Robotic Surfaces
+that Foster a Connection with Nature.. In Proceedings of the 15th Conference on
+Creativity and Cognition . 185–199.
+[109] Nadine Samaha and Sarah Naarden. 2023. Decolonizing Narratives Through
+Ecological, Regenerative and Biophilic Design. In World Congress of Architects .
+Springer, 293–305.
+[110] Miguel Serra, Sophia Psarra, Jamie O’Brien, et al .2018. Social and physical
+characterization of urban contexts: Techniques and methods for quantification,
+classification and purposive sampling. Urban Planning 3, 1 (2018), 58–74.
+[111] Mark Shepard. 2011. Sentient city: Ubiquitous computing, architecture, and the
+future of urban space . The MIT press.
+[112] Richard M Shusterman. 2011. Somaesthetics and Architecture. (2011).
+[113] Charles Spence. 2020. Senses of place: architectural design for the multisensory
+mind. Cognitive research: principles and implications 5, 1 (2020), 46.
+[114] Velvet Spors, Samuli Laato, Oğuz’Oz’ Buruk, and Juho Hamari. 2023. Longing
+to be the mountain: A scoping review about nature-centric, health-minded
+technologies. In Proceedings of the 2023 CHI Conference on Human Factors in
+Computing Systems . 1–16.
+[115] Touchaphong Srisuwan. 2022. Applications of biomimetic adaptive facades for
+enhancing building energy efficiency. International Journal of Building Urban
+Interior and Landscape Technology 20 (2022), 7–18.
+[116] Cameron Steer, Simon Robinson, and Matt Jones. 2015. Growth, change and
+decay: Plants and interaction possibilities. In Proceedings of the 33rd Annual
+ACM Conference Extended Abstracts on Human Factors in Computing Systems .
+2037–2042.
+[117] Bekir Huseyin Tekin, Rhiannon Corcoran, and Rosa Urbano Gutiérrez. 2023.
+The impact of biophilic design in Maggie’s Centres: A meta-synthesis analysis.
+Frontiers of Architectural Research 12, 1 (2023), 188–207.
+[118] Keith Tidball. [n. d.]. Urgent Biophilia: Self-organized Nature Stewardship in
+“Red Zone” Recovery and Resilience. ([n. d.]).
+[119] Feyza Topçuoğlu. 2022. Architecture Taking Shape Between Nature and Culture:
+The Primitive Hut as a Man-Made Creation: Architecture Between Nature and
+Culture. Tasarim+ Kuram 18, 35 (2022), 1–18.
+[120] Amanda J Tracey, Kimberly A Stephens, Brandon S Schamp, and Lonnie W
+Aarssen. 2016. What does body size mean, from the “plant’s eye view”? Ecology
+and evolution 6, 20 (2016), 7344–7351.
+[121] Vasiliki Tsaknaki, Kelsey Cotton, Pavel Karpashevich, and Pedro Sanches. 2021.
+“Feeling the Sensor Feeling you”: A Soma Design Exploration on Sensing Non-
+habitual Breathing. In Proceedings of the 2021 CHI Conference on Human Factors
+in Computing Systems . 1–16.
+[122] Mark Tschaepe. 2021. Somaesthetics of Discomfort. Enhancing Awareness and
+Inquiry. European Journal of Pragmatism and American Philosophy 13, XIII-1
+(2021).
+[123] Laia Turmo Vidal, Yinchu Li, Martin Stojanov, Karin B Johansson, Beatrice
+Tylstedt, and Lina Eklund. 2023. Towards Advancing Body Maps as Research
+Tool for Interaction Design. In Proceedings of the Seventeenth International
+Conference on Tangible, Embedded, and Embodied Interaction . 1–14.
+[124] Roger S Ulrich. 1984. View through a window may influence recovery from
+surgery. science 224, 4647 (1984), 420–421.[125] Riyan JG Van den Born, Rob HJ Lenders, Wouter T De Groot, and Ellen Huijsman.
+2001. The new biophilia: an exploration of visions of nature in Western countries.
+Environmental conservation 28, 1 (2001), 65–75.
+[126] Kai Wang, Shiguo Lian, and Zhaoxiang Liu. 2015. An intelligent screen sys-
+tem for context-related scenery viewing in smart home. IEEE Transactions on
+Consumer Electronics 61, 1 (2015), 1–9.
+[127] Xiaoge Wang. 2022. Nature Jar: Design for Facilitating Nature Connectedness
+and Restoration in Home Scenario. In Proceedings of the Sixteenth International
+Conference on Tangible, Embedded, and Embodied Interaction . 1–7.
+[128] Sarah Webber, Ryan M Kelly, Greg Wadley, and Wally Smith. 2023. Engag-
+ing with nature through technology: A scoping review of HCI research. In
+Proceedings of the 2023 CHI conference on human factors in computing systems .
+1–18.
+[129] Sebastian Weber, Hans Christian Klein, Dominik Siemon, Bastian Kordyaka,
+and Björn Niehaves. 2024. Designing successful Human-AI Collaboration for
+Creative-Problem Solving in Architectural Design. ICIS 2024 Proceedings (2024).
+[130] Arne Wenzel, Ingo Grass, Vasuki V Belavadi, and Teja Tscharntke. 2020. How
+urbanization is driving pollinator diversity and pollination–A systematic review.
+Biological Conservation 241 (2020), 108321.
+[131] Hangula P Werner, Corris Kaapehi, Foibe Amundaba, Maria Johannes, and
+Fernando Filipe. 2014. The river of life art piece. In Proceedings of the 13th Partic-
+ipatory Design Conference: Short Papers, Industry Cases, Workshop Descriptions,
+Doctoral Consortium papers, and Keynote abstracts-Volume 2 . 181–182.
+[132] Cyndi Wiley. 2012. Empathy, connectivity, authenticity, and trust: A rhetorical
+framework for creating and evaluating interaction design . Master’s thesis. Iowa
+State University.
+[133] Edward O Wilson. 1986. Biophilia . Harvard university press.
+[134] Jennifer R Wolch, Jason Byrne, and Joshua P Newell. 2014. Urban green space,
+public health, and environmental justice: The challenge of making cities ‘just
+green enough’. Landscape and urban planning 125 (2014), 234–244.
+[135] Yangang Xing, Purna Kar, Jordan J. Bird, Alex Sumich, Benedict Carpenter
+Van Barthold, Andrew Knight, and Ahmad Lotfl. 2024. Exploring Machine Learn-
+ing Applications for Biophilic Art Displays to Promote Health and Well-being.
+InProceedings of the 17th International Conference on PErvasive Technologies
+Related to Assistive Environments . 329–336.
+[136] MUHAMMED YILDIRIM, ANASTASIA GLOBA, ARIANNA BRAMBILLA, and
+OZGUR GOCER. [n. d.]. MULTISENSORY DESIGN IN VR. ([n. d.]).
+[137] Amanda J Zellmer and Barbara S Goto. 2022. Urban wildlife corridors: Building
+bridges for wildlife and people. Frontiers in Sustainable Cities 4 (2022), 954089.
+[138] Zhujing Zhang et al .2020. Komorebi: embedding dappled sunlight in the built
+environment . Ph. D. Dissertation. Massachusetts Institute of Technology.
+[139] Yang Zhou, Shancheng Wang, Jinqing Peng, Yutong Tan, Chuanchang Li, Freddy
+Yin Chiang Boey, and Yi Long. 2020. Liquid thermo-responsive smart window
+derived from hydrogel. Joule 4, 11 (2020), 2458–2474.
+[140] Karolina M Zielinska-Dabkowska and Katarzyna Bobkowska. 2022. Rethinking
+sustainable cities at night: Paradigm shifts in urban design and city lighting.
+Sustainability 14, 10 (2022), 6062.
+A Semi-Structured Interview
+A.1 Outline of Questions
+Here we provide an outline of the interview questions used. Within
+each interview topic (e.g. Introduction), we show examples of some
+of the different questions that were asked based on the nature of the
+conversation. Given the semi-structured nature, we did not adhere
+to the sequence of these questions within each topic.
+A.1.1 Introduction. Briefly introduce the study’s focus on multi-
+sensory biophilic design within smart buildings highlighting the
+interest in MSB around.
+(1)Could you share your background in (relevant text)—particularly
+regarding your experience with biophilic design?
+(2)Interpretation of Connection: When people talk about this
+goal for design that allows “a deeper connection to nature”
+in built environments, what do you think that means?
+(3)How does this resonate with your experiences or design
+philosophy?
+(4)(give context on smart environments) What are your thoughts
+on integrating biophilic elements within smart environments?
+372
+Designing Multisensory Biophilic Futures DIS ’25, July 05–09, 2025, Funchal, Portugal
+A.1.2 Grounded Insights. Explore the practical and technical as-
+pects, identifying research-based perspectives, technical insights,
+criticisms, and relevant examples in MSB design.
+(1)Existing Design Limitations: (...our desk research shows...)
+Current biophilic designs are often visually focused (e.g. use
+of lights, living walls, nature-inspired privacy screens, green
+colours). Do you agree, and why do you think that is the
+case?
+(2)Sensory Engagement: Which sensory elements (e.g. smell,
+texture, sounds, even vibrations) do you think could be most
+effective in creating a sense of immersion or connection to
+nature within built environments?
+A.1.3 Challenges and Feasibility.
+(1)What [technical] challenges do you anticipate when design-
+ing multi-sensory biophilic spaces, such as those incorporat-
+ing sound, touch, or scent? (depending on the background -
+focus on either future material possibilities, future concepts,
+or technology)
+(2)Speculating on Future Biophilic Technologies: Are there any
+emerging technologies or materials that you think could en-
+hance multi-sensory biophilic design? How might these help
+create environments that are more ‘alive’ and responsive?
+(3)Criticisms: Are there any problems you have with the way
+we consider nature design in its current applications?
+A.1.4 Experiential Perspectives. Gather insights on personal ex-
+periences, professional values, and context-specific knowledge re-
+garding MSB design.
+(1)Body-Nature Connection: Can you share an experience or
+a project where a built environment made you feel deeply
+connected to nature? Which aspects were most impactful?
+(2)Multi-sensory: Similarly, are there any specific projects you’ve
+worked on or encountered that successfully engaged multi-
+ple senses? Do you remember what impact it had on you?(3)Values and Priorities: What core values (e.g. peace, healing,
+diversity) do you think should shape the design of a MSB
+space?
+A.1.5 Visionary Outlooks. Encourage exploration of future visions
+and speculate on potential evolutions in MSB design.
+(1)Exploring Enhancement Possibilities: “If you could enhance
+one sensory aspect of biophilic design in current spaces,
+what would it be, and how do you imagine it might affect
+occupants’ experiences?”
+(2)Speculative Scenarios: “Picture a future environment that
+seamlessly blends technology with natural elements—for
+instance, a space that feels like it ‘breathes’ (inhales and
+exhales). Are there any such forward-thinking or aspirational
+concepts you’ve come across—or envisioned yourself—that
+could inform the future of multi-sensory environments?
+(3)Future Visions: If you could design a biophilic environment
+that integrates various sensory responses to create a deep
+connection with nature, what would this look and feel like?
+A.1.6 Conclusion and Reflection. Wrap up with open reflection
+and any additional thoughts.
+(1)Do you see biophilic design gaining more importance in the
+future where spaces are increasingly smart?
+(2)What role do you see for architects/designers in shaping
+these sensory-rich, adaptive spaces?
+(3)Finally, could you share a source of inspiration for multi-
+sensory biophilic design—a book, movie, place, piece of art,
+or any other experience that has influenced your thinking
+in this area? Any additional thoughts or anything else that
+you would like to mention?
+B Overview of Experts
+373
+DIS ’25, July 05–09, 2025, Funchal, Portugal Rao et al.
+Table 3: Participant Demographics
+Role Domain Geographical Context Stated Biophilic Expertise
+Architect (Urban Designer) Industry Europe Land and ecological planning
+Researcher (Urbanism), Writer, Architect Academia, Industry Europe Environmentalism and speculative design
+Architect - Founder Industry Europe Smart building technology development
+Co-founder - Green Designer Industry Europe Nature awareness and sensory biophilic practices
+Research Fellow Academia Europe Quantitative research
+Senior Associate Industry Europe Sustainable and green certifications
+Research Fellow Academia Europe Urban renewal and reuse of green spaces
+Researcher (Occupational Health) Academia Europe Smart offices for sensory well-being
+Senior Architect Industry North & South America Culturally relevant design
+Senior Architect Industry Europe & Central Asia Multi-sensory strategies in architecture
+Architect - Founder Industry Europe Environmental design philosophy
+Architect (Senior Design Lead) Industry Europe & Middle East Contextual and climate-sensitive design
+Researcher (Design Informatics) Academia Europe Interactive interfaces for smart buildings
+374

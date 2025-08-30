@@ -1,0 +1,2319 @@
+What Do We Design for When We Design "Smart Buildings"? - A 
+Scoping Review of Human Experience Design Research in 
+Buildings 
+Shruti Rao 
+Informatics Institute 
+University of Amsterdam 
+Amsterdam, Netherlands 
+s.rao@uva.nl Katja Rogers 
+Informatics Institute 
+University of Amsterdam 
+Amsterdam, Netherlands 
+k.s.rogers@uva.nl 
+Judith Good 
+Informatics Institute 
+University of Amsterdam 
+Amsterdam, Netherlands 
+j.a.good@uva.nl Hamed Alavi 
+Informatics Institute 
+University of Amsterdam 
+Amsterdam, Netherlands 
+h.alavi@uva.nl 
+Abstract 
+Built environments increasingly incorporate new forms of intel-
+ligence, creating opportunities for enhancing human interactive 
+experiences with and within building spaces. This scoping review 
+examines design interventions and discourses within the domain of 
+“Smart Buildings”. The goal is to identify and characterise the type 
+of human experiences that research in this domain aims to address. 
+Using a hybrid deductive-inductive coding approach, we analysed 
+192 papers related to human experiences and smart buildings from 
+ACM Digital Library and Scopus published between 1996 and 2024. 
+Our analysis revealed 11 distinct “targeted human experiences”, 
+20 commonly used “design mechanisms” to achieve those design 
+goals, as well as two typologies of “technological interventions”. 
+Our findings create a foundation for understanding building design 
+research and the range of human experience they entail. 
+CCS Concepts 
+• Human-centered computing → Human computer interac-
+tion (HCI); Interaction design; • Applied computing → Archi-
+tecture (buildings). 
+Keywords 
+scoping review, smart building, human experience, user experience, 
+interaction design, interactive technologies 
+ACM Reference Format: 
+Shruti Rao, Katja Rogers, Judith Good, and Hamed Alavi. 2025. What Do 
+We Design for When We Design "Smart Buildings"? - A Scoping Review 
+of Human Experience Design Research in Buildings. In CHI Conference 
+on Human Factors in Computing Systems (CHI ’25), April 26–May 01, 2025, 
+Yokohama, Japan. ACM, New York, NY, USA, 23 pages. https://doi.org/10. 
+1145/3706598.3713903 
+This work is licensed under a Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License. 
+CHI ’25, Yokohama, Japan 
+© 2025 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-1394-1/25/04 
+https://doi.org/10.1145/3706598.3713903 1 Introduction 
+The convergence of research and design endeavours in architec-
+ture and interaction design (IxD) has brought forward new ways 
+of thinking about the relationship between humans and the built 
+environment. Historically, research in the domains of architecture 
+and building performance engineering has focused on human expe-
+riences through an objective lens [98], often using environmental 
+sensing and metrics such as thermal comfort and indoor air quality 
+to assess and improve building design [39]. In human-computer 
+interaction (HCI), questions around architectural spaces began to 
+emerge, notably in the foundational paper on places and spaces by 
+Harrison and Dourish [78] in 1996, which explored how people 
+interact with physical spaces through a digital lens [78]. Across 
+various domains, researchers have since developed a deeper un-
+derstanding of how technology shapes human experiences within 
+built environments, moving beyond objective assessments of the 
+environment to recognise individual differences and subjective ex-
+periences. In recent years, researchers and designers have sought 
+to re-imagine the role of interactive technologies embedded in our 
+built environments [2, 173]. This has been complemented by new 
+visions that interface HCI with the domains of architecture and 
+urban design to delineate a new area of design research under the 
+banner of human-building interaction (HBI) [3]. HBI delves into the 
+relationships between digital technologies, physical spaces, and the 
+human experiences they shape [3, 19], considering the subjectivity 
+and individuality of human experiences. 
+Furthermore, HBI acknowledges that technologies impact hu-
+man experiences in smart building environments in various ways. 
+Designers and developers who create and shape smart buildings in-
+herently embed both explicit and implicit values, assumptions, and 
+expectations from their respective disciplines into the experiences 
+they envision or the technologies they create [173]. For example, 
+they might focus primarily on enhancing human comfort (across its 
+four classic dimensions: thermal, visual, acoustic, respiratory) [5], or 
+on human agency and control [27]. They might promote supporting 
+individual needs [17], or collaborative, community-centred interac-
+tions [91]. They might frame the role of the built environment in 
+people’s lives purely as functional spaces [177], or as immersive, 
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+responsive environments that contribute to emotions [115], sustain-
+ability [106], and social engagement [150]. Furthermore, with the 
+rapid and pervasive deployment of interactive technology, smart 
+building environments are increasing in complexity, and the factors 
+involved in shaping human experiences are also increasingly mul-
+tifaceted. By and large, smart building research consists of a rich 
+but fragmented body of work encompassing diverse perspectives, 
+methodologies, and disciplines. This highlights the necessity to 
+conduct a comprehensive mapping of the literature in order to un-
+derstand the full scope of what we design for when we design smart 
+buildings. Our review studies human experiences in smart build-
+ings through this central question: what do we envision and research 
+when we design for human experiences in future smart buildings? 
+The answers to this question not only shape how smart building 
+experiences are created, but also how people interact with, value, 
+and experience the spaces they inhabit. Smart buildings, in this 
+perspective, are not just passive infrastructures; they are active 
+“shapers” of individual, cultural, and societal attitudes toward the 
+built environment. We seek to uncover these visions through a 
+scoping review, addressing the following research questions: 
+• RQ1. What are the different types of human experiences that 
+research in the broad domain of smart buildings aims to 
+improve or introduce? 
+• RQ2. What are the design methods and approaches employed 
+in smart building research to shape human experiences? 
+• RQ3. What types of technological interventions are devel-
+oped or conceptualised to enhance interactive experiences 
+in smart buildings? 
+To address these questions, we analysed 192 papers that con-
+tribute to the research and design of human experiences in smart 
+buildings, sourced from the ACM Digital Library and Scopus. Using 
+a hybrid latent coding approach [30], our scoping review provides a 
+comprehensive descriptive analysis of how smart building research 
+has explored human experiences in relation to digital technology. 
+Specifically, we offer: (a)a classification of 11 distinct human experi-
+ences that smart building research aims to improve or introduce, (b) 
+a classification of 20 commonly used design mechanisms employed to 
+enhance or create these human experiences, and (c) a typology of the 
+technological interventions used to impact these human experiences. 
+Our contributions help in understanding and describing the 
+current and future of smart building design research, while incorpo-
+rating a broad, diverse range of human experience in these spaces. 
+2 Background and Related Work 
+In this section, we first clarify key terms used in our scoping review. 
+We then review existing secondary research on human experiences 
+in smart buildings, identifying gaps that motivate our research. 
+2.1 Clarifying Relevant Terminology Pertaining 
+to the Scoping Review 
+Our scoping review is built around the terms discussed below: 
+“Smart” Buildings: Previous works use terms like “smart build-
+ings” and“intelligent buildings”, often interchangeably with the 
+term “built environment” [32, 104]. Irrespective of the term used, 
+the goal is to create a responsive environment where users interact 
+with buildings through automated systems that optimise functions like lighting, heating, and ventilation, using data-driven approaches 
+to adapt to occupants’ needs [147]. Smart buildings also emphasise 
+human-centred design, aiming to create environments that foster 
+occupants’ satisfaction or agency [120, 122]. In our review, we do 
+not distinguish between these terms, collectively referring to them 
+as “smart buildings” throughout the paper. 
+“Interactions” (with)in Smart Buildings: We view interaction 
+in smart buildings as a dynamic relationship in which humans 
+and buildings influence and determine each other’s behaviour. We 
+believe this relationship can encompass all forms of interaction 
+described by Hornbæk and Oulasvirta [86]: the interaction between 
+occupants and the embedded technologies within a building can be 
+understood as a continuous dialogue, a transmission of information, 
+as tool use, as an adaptation towards optimal behaviour, and a 
+controlled move towards a target state, but also as embodiment and 
+experience (and likely other concepts as well). Using “interaction” 
+as another search keyword in our review, we do not discriminate 
+against a specific understanding of interaction. With this view of 
+interaction, in which “[u]sers, with their goals and pursuits, are 
+the ultimate metric of interaction” [86], human experiences can 
+similarly be viewed holistically. 
+“Human Experiences” in Buildings: There are different con-
+ceptualisations of experience, e.g. Wright et al. [176] ’s composi-
+tional, sensual, emotional, and spatio-temporal “threads” or Wright 
+and McCarthy [175] ’s lens of empathy. However, we do not em-
+ploy a specific existing framework of user experience to constrain 
+the type of human experiences that we extract from the litera-
+ture. Instead, our review includes diverse and emergent aspects 
+of human experiences in smart buildings, without imposing any 
+predefined structure. We consider the experience of occupants in 
+smart buildings as context-dependent, influenced by embodied cog-
+nition, emotions, sensory inputs, and ongoing interactions with 
+their environment. 
+“Comfort”: In this paper, we frequently refer to “comfort” as 
+a technical term that has been meticulously studied in architec-
+ture and building performance engineering, and which comprises 
+four dimensions: “thermal”, “visual”, “acoustic”, and “respiratory”. 
+These dimensions have also emerged in HBI research. For example, 
+thermal comfort has examined personalised heating, ventilation, 
+and air conditioning (HVAC) systems [41, 97], addressing social 
+dynamics like shared control [114, 169] and the impact of data dis-
+plays with environmental information [47]. Visual comfort studies 
+have explored the importance of lighting design [21, 25, 182]. Re-
+search on indoor air quality has focused on raising awareness [183] 
+and encouraging behavioural changes, often using playful systems 
+[72, 155], and acoustic comfort studies examined noise preferences 
+and control mechanisms through surveys [113, 133] and sound 
+awareness systems [131, 174]. These dimensions collectively con-
+tribute to the understanding of comfort as a key experience in the 
+built environment. For the rest of this paper, when referring to 
+comfort, we refer to these four dimensions. 
+2.2 Secondary Research on Experiences in the 
+Built Environment 
+Several works have reviewed literature on human comfort in built 
+environments. For example, Frontczak and Wargocki [65] surveyed 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 1: This flowchart demonstrates the scoping review process and the number of papers considered in each stage. 
+how lighting and temperature influence human comfort. Similarly, 
+Zhang and Barrett [180] discuss occupant satisfaction with comfort 
+dimensions in the context of green office buildings. Few works 
+explore human experiences beyond comfort in smart buildings 
+through secondary research (i.e. scoping or systematic reviews). 
+For example, a review by Pourzolfaghar and Helfert [137] iden-
+tifies design challenges in creating smart environments but only 
+addresses user experience in broad terms. Aliero et al. [9] explore 
+trends in control over automated buildings and smart technologies 
+while considering user experience in the context of privacy in au-
+tomation systems. Work by Saputra and Ramadhan [147] highlights 
+the key components that make up smart buildings, emphasising 
+energy management and building information modelling, while 
+viewing occupant comfort in the context of improving quality of 
+life. Similarly, Latifah et al. [104] connect smart building features 
+with smart city frameworks to enhance comfort and transparency 
+in meeting digital society’s needs [104]. 
+Other reviews focus on specific environments. For example, Bäck-
+lund et al. [13] examined campus buildings to explore the relation-
+ship between occupant behaviour, building systems, and energy 
+use, proposing a framework for assessing the impact of occupant 
+behaviour on energy consumption. Ji et al. [96] reviewed sensing 
+technologies across six areas—occupancy status, physiological in-
+dicators, building components, environment, consumption, and 
+multi-sensor fusion—to identify concerns related to privacy and 
+data concealment from building occupants. Smart home reviews 
+have focused on how users view benefits arising from technology 
+in these spaces [112], and the complexity of domestic spaces and 
+opportunities around human-home collaboration [117]. Further 
+secondary research has examined smart technology adoption by 
+ageing populations [110] and communication challenges within 
+smart homes for vulnerable groups [94]. To the best of our knowl-
+edge, our scoping review is the first of its kind to encompass all 
+types of smart environments and consider the full spectrum of 
+human experiences beyond traditional notions of comfort. 
+3 Methodology 
+This work seeks to investigate smart building research to under-
+stand what researchers envision and design for. The goal is not 
+to provide an exhaustive summary of existing research findings 
+but to focus on identifying the human experiences that research in 
+this domain aims to improve or introduce. In addition, we identi-
+fied how the field aims to shape those human experiences through 
+design mechanisms and technological interventions. This was ac-
+complished by conducting a scoping review based on the five-stage 
+framework outlined by Arksey and O’Malley [12]. We chose a scop-
+ing review as this method suits broad research questions that map key characteristics rather than a targeted study of a specific ef-
+fect [126, 143]. The review was planned with pre-defined research 
+questions and a search strategy, rather than following a formal 
+protocol, allowing the specifics of the analysis to be shaped by the 
+first author’s growing familiarity with the literature by reading the 
+selected corpus papers. The process is documented in the rest of 
+this section. To ensure comprehensive reporting, this paper broadly 
+follows the Preferred Reporting Items for Systematic Reviews and 
+Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) check-
+list where applicable1 . Figure 1 provides an overview of the search 
+and screening stages to reach the final review corpus. 
+3.1 Stage 1: Identifying Research Questions 
+During the first stage in our scoping review work, key research 
+questions were identified. The first question, established from the 
+outset of the project, focuses on the different targeted human expe-
+riences in smart buildings: 
+• RQ1. What are the different types of human experiences that 
+research in the broad domain of smart buildings aims to 
+improve or introduce? 
+The other two research questions underwent iterations but fo-
+cused on the technologies and mechanisms that the field adopts 
+from interaction design, architecture, and other areas to improve 
+human experiences in smart buildings: 
+• RQ2. What are the design methods and approaches employed 
+in smart building research to shape human experiences? 
+• RQ3. What types of technological interventions are developed 
+or conceptualised to enhance human interactive experiences 
+in smart buildings? 
+3.2 Stage 2: Identifying Relevant Studies 
+To ensure that our scoping review investigates disciplines beyond 
+the HCI domain, we queried for works in two established databases. 
+The ACM Digital Library (DL) primarily features computer science 
+and engineering research (including HCI). Scopus offers multidis-
+ciplinary coverage, with frequent indexing of architecture works, 
+making it a valuable resource for architecture studies on smart 
+building research2 . 
+3.2.1 Pilot Searches. We first conducted pilot searches on smart 
+buildings and experiences, which resulted in some 9000 references 
+in Scopus alone. We reviewed the first 20%, finding many irrelevant 
+1As conventions in HCI do not always accommodate the PRISMA-ScR items, we 
+provide a table in the supplementary materials to detail the manner by which we 
+adhere to the reporting checklist. 
+2List of architecture-based sources available here when filtered by subject area: https: 
+//www.scopus.com/sources.uri 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+Figure 2: The search comprised seven queries (Query 1 – Query 7), combining nine components ((a)–(i)). The nine components 
+were either 1) environment/domain-specific descriptors (first column), 2) a keyword for experience (second column), or 3) a 
+keyword for interaction (third column). We conducted the searches using combinations of these—query list on the right. Thus, 
+environmental descriptors were combined with experience and interaction keywords (red line). This was implemented for 
+"Built environment" separately—(a) in red box—as this yielded many results, while more specific terms were combined in a 
+second search—(b) in red box. Domain-specific descriptors were handled separately again—(c) and (d) in green box; green line. 
+When the domain-specific descriptor already included the word interaction (e.g. ’human-building interaction’), the query was 
+only accompanied by the experience keyword—(e), (f), and (g) in blue box; blue line. 
+studies that did not involve human experiences, such as Internet of 
+Things (IoT) and civil and computational engineering. Based on this, 
+we decided to include interaction (interac* ) in our search strategy 
+to refer to interactive human experiences in smart buildings. 
+3.2.2 Employed Search Queries. Our search queries are explained 
+in Figure 2. The search involved seven queries (Query 1–Query 7), 
+structured around three keyword categories: 1) environment/domain-
+specific descriptors, 2) experience, and 3) interaction keywords. We 
+conducted the searches using a combination of the keyword groups. 
+A combination with “built environment” was searched separately 
+due to the large volume of results, while more specific environ-
+mental descriptors—(b) in Figure 2—were combined in a second 
+search. Domain-specific descriptors were handled individually, and 
+when these already included interaction (e.g. “human-building in-
+teraction”), only experience keywords were added. An example of 
+a search query (applied to Scopus) is: "BUILT ENVIRONMENT*" AND 
+EXPERIEN* AND INTERAC* . The complete list of queries we used 
+are included in the supplementary materials. 
+We conducted the searches based on papers’ keywords, abstract, 
+and title across both databases3 . This generated 5,526 references 
+across both sources, collected during April – May 2024 (later in-
+creased by 22 papers through snowballing [14], see Figure 1). 
+3.3 Stage 3: Study Selection 
+During our pilot search, we developed initial inclusion-exclusion 
+(I/E) criteria for the first (title and abstract) screening stage, refining 
+them as we grew familiar with the literature. Broadly, references 
+were included if they: (1) were set within the context of a smart 
+building, (2) discussed human experiences, and (3) explored the use 
+or potential use of technologies. References solely focused on engi-
+neering, algorithms, or building design without addressing human 
+3Scopus supports a combined search of titles, abstracts, and keywords. In contrast, the 
+ACM DL requires these parameters to be searched separately. To ensure consistency 
+and comparability, we conducted separate searches within the ACM DL: first by titles, 
+then by abstracts, and finally by keywords, before collating the results. interaction or the use of technology were excluded. In addition, we 
+excluded papers that were not in English and secondary research 
+(e.g. meta-reviews). The first author applied the I/E criteria to the 
+5,548 citations, reading all associated abstracts, keywords, and ti-
+tles. If the relevance of a study was unclear from the abstract, the 
+study was retained for a full article review. This process resulted in 
+368 shortlisted abstracts. After a review by the last author and the 
+removal of duplicate studies, 338 abstracts were shortlisted for full-
+paper screening. For the latter, the criteria established for inclusion 
+and exclusion were specified and expanded: 
+(1) We included studies around human interaction within smart 
+buildings using any form of technology for occupants. Con-
+versely, we excluded studies that focused on technology 
+development without clear relevance to user interaction or 
+experience, such as works on theoretical models, architec-
+tural frameworks, or technical optimisations. 
+(2) Our research focuses on real-world environments, however, 
+we incorporated papers that utilise Virtual Reality (VR), Aug-
+mented Reality (AR), and Mixed Reality (MR) to augment 
+existing spaces, enhancing spatial experiences and smart 
+building capacities [7, 99]. However, we excluded research 
+focused on designing purely virtual environments or those 
+centred on gaming realism and virtual worlds without con-
+nection to physical space. 
+(3) We included papers that examined human experiences within 
+smart buildings and building façades. However, we excluded 
+papers focused on outdoor experiences like hiking, cycling, 
+and city walks. Additionally, automotive contexts were ex-
+cluded as they fall outside the scope of smart buildings. 
+(4) We excluded papers on domotics, mobile apps, and Conver-
+sational User Interfaces (CUIs) that lacked a focus on spatial 
+factors of human experience or interaction within a smart 
+building. Studies on human-robot interaction without con-
+nection to physical space were also excluded. 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+In this paper, technological 
+intervention is 
+are explored used 
+envisioned 
+... as a way to support improve 
+impact 
+... users’targeted human 
+experience through primary design 
+mechanism . 
+Figure 3: To examine the suitability and the terminology of the targeted human experiences, primary design mechanisms, 
+and technological interventions, we structured them in a sentence, illustrated in this diagram. For example, a paper might be 
+described in the form of “In this paper, Environmental Sensing is used as a way to support Comfort through Personalisation”. 
+The first and last authors held discussions to resolve any points of 
+confusion throughout the study selection. After reading the articles 
+in full and cross-checking references cited by the selected papers 
+that may have been accidentally left out, a total of 192 articles 
+were selected for inclusion in the scoping review. 
+3.4 Stage 4: Charting the Data 
+The next stage involved charting key items from the selected pa-
+pers. Our charting approach was akin to a “descriptive-analytical 
+narrative review” [12], where a common analytical framework was 
+applied to the papers, enabling us to systematically collect and 
+analyse standard information from each study. The first and last au-
+thors collaboratively developed a charting table template to capture 
+information related to the research questions. This process involved 
+categorisation (labelling) and extraction of relevant sentences for 
+later analysis. While some papers were straightforward to chart, 
+others involved multiple discussions to satisfactorily capture the 
+research perspectives. 
+Our template recorded title, author(s), publication year, publi-
+cation source/venue, publication type and type of smart building 
+addressed. We structured our template to record items directly 
+related to our research questions. We documented research motiva-
+tions, and methodologies including research and design methodolo-
+gies to infer whether the research was qualitative, quantitative, or 
+mixed-methods. We recorded the interactive technologies and any 
+instruments used to assess the environments or their users. Central 
+to our research, we noted the aspects of human experience discussed. 
+Key findings and the papers’ visions for future were also recorded 
+(in case we needed to examine evidence supporting claims made 
+by the studies), but were considered out of scope for this paper. 
+The charting template with an example entry is included in Table 4. 
+Throughout this iterative process, the research team met regularly 
+to discuss the scope of the review, refine definitions, and ensure 
+consistency in the categorisation of information. 
+3.5 Stage 5: Collating, Summarising, and 
+Reporting 
+After charting the study data, we analysed it in two main stages: a 
+descriptive summary followed by an interpretive analysis (semantic 
+and latent approaches) [36]. First, we examined the characteristics 
+of the literature such as the venues they were published at. Next, 
+we adopted a hybrid latent coding approach, based on thematic 
+analysis [30], to analyse the charting table. This approach was 
+hybrid because while we employed an inductive process to cre-
+ate new codes and themes, we also incorporated deductive coding 
+for the four dimensions of comfort that we adopted from existing literature [5] as well as Brand [28]’s shearing layers (details de-
+scribed below). The coding was highly iterative and completed over 
+multiple rounds by the first author, with intermittent discussions 
+with the full research team, eventually resulting in overarching 
+themes for the targeted human experiences. Though targeted hu-
+man experiences are the resulting themes, the other core categories 
+(design mechanisms and technological interventions) were iterated 
+on as well. Our method borrows from reflexive thematic analysis in 
+the organic, flexible nature of the rounds of iteration of codes and 
+themes, but overall is better aligned with a codebook approach [29]. 
+In line with our research questions, we identified key themes 
+around human experiences in smart buildings by coding papers 
+based on the primary experiences they targeted. After identifying 
+the targeted experiences, we recognised that the papers could be 
+analysed for the design measure or approach (hereafter referred to 
+as design mechanism) used to achieve that experience. We devel-
+oped RQ2 and conducted a second round of this analysis where we 
+coded each paper for the primary design mechanisms employed 
+to achieve the targeted human experiences. For our third research 
+question, we categorised the technology data by type, iteratively 
+grouping them based on observed commonalities and patterns. We 
+also coded the papers based on their technologies’ positioning in 
+Brand [28]’s shearing layers which describe distinct layers of a build-
+ing based on its temporal lifespan [28]. Finally, the full research 
+team finalised the resulting themes of targeted human experiences, 
+design mechanisms, and types of technological interventions over 
+two meetings. These discussions considered the suitability and ter-
+minology of these themes in the form of the example sentences 
+presented in Figure 3. The full list of corpus papers and the analysis 
+process are documented in the supplementary materials. 
+4 Findings 
+This section presents a descriptive overview of the literature, the 
+thematic analysis of targeted human experiences (RQ1), design 
+mechanisms (RQ2), and technological interventions (RQ3). These 
+are also summarised in Table 1. 
+4.1 Characteristics of the Literature 
+In line with general publication increases, the distribution of the 
+192 papers in our corpus by publication year shows a growing trend 
+that peaked in 2019, coinciding with the ACM ToCHI special issue 
+on human-building interaction (HBI) [3] (Figure 7a in the appen-
+dix). The reviewed papers predominantly explored smart homes 
+(24%) or smart buildings (20%). Smart offices (17%) and educational 
+spaces (15%) also received attention, along with specific locations 
+like places of worship, historical sites, children’s play areas (19%), 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+Table 1: An overview of our analysis with a count of the number of occurrences of the paper - (a) The 11 targeted human 
+experiences in smart buildings, (b) The first 10 out of 20 design mechanisms towards enabling human experiences in smart 
+buildings, and (c) The seven types of technological interventions developed or used by research in smart buildings. 
+(a) (b) (c) 
+Targeted Human Experience No. 
+Aesthetic Experience 18 
+Bodily Experience 23 
+Comfort 47 
+Democratic Experience 16 
+Explorative and/or Future and Speculative 48 
+Emotional Experience 38 
+Experience of Relatedness 21 
+Inclusion Experience 13 
+Learning and Teaching Experience 9 
+Sense of Orientation 8 
+Sense of Place-making 23 Design Mechanisms No. 
+Community and Social Connection 40 
+Spatial Design 34 
+Technological Immersion 22 
+Playful Design 22 
+Environmental and Social Information 21 
+Participation and Co-Design 17 
+Somaesthetic Design 17 
+Personalisation 16 
+N.A. 12 
+Biophilic Design 9 
+... Type of Technological Intervention No. 
+Audio and Lighting Technologies 27 
+Augmented and Virtual Reality 17 
+Environmental Sensing 23 
+Feedback Systems 11 
+Interactive Displays 45 
+Physiological Sensing 10 
+Shape-Changing and Kinetic Interfaces 22 
+and interactive installations (7%) (Figure 7b). Publications resulted 
+primarily from conferences (56%) followed by journal articles (19%), 
+as shown in Figure 7c. Within conference publications, 22% of works 
+were published at ACM CHI, otherwise appearing in a variety of 
+HCI and HCI-adjacent conferences as well as architecture and built 
+environments conferences (Figure 7d). 
+4.2 The Targeted Human Experiences in Smart 
+Buildings 
+We identified 11 key themes corresponding to distinct human ex-
+periences within smart buildings, presented in Table 1(a). While 
+we aimed to identify the primary and overarching human experi-
+ence targeted in each paper, it was not always possible to assign 
+works to a single experience. In those cases, papers were assigned 
+to multiple themes. Specifically, six papers addressed three differ-
+ent human experiences (e.g. [162]), 90 targeted two (e.g. [185]), 
+and the remaining 96 focused on a single experience. We provide a 
+high-level overview of the experiences below. Detailed descriptions, 
+including the number of papers addressing each experience and 
+prototypical examples, can be found in Table 2. For readability, all 
+targeted human experiences are in bold for the rest of this paper. 
+Perhaps unsurprisingly, the established concept of Comfort was 
+one of the most targeted human experiences. Emotional Experi-
+ences and Explorative and/or Future and Speculative Experiences 
+were similarly common. In the former, spaces aimed to elicit affec-
+tive states, sentiments, and moods In Explorative and/or Future 
+and Speculative Experiences, papers did not target a specific ex-
+perience. These works often use design probes to test speculative 
+ideas, presenting novel concepts to explore their impact on human 
+experiences [58, 173]. One work captures the essence of this: "The 
+interpretation of that situation is left to the people who encounter the 
+[system]" [70], illustrating the open-ended nature of these explo-
+rations. Works also focused on Bodily Experiences, exploring how 
+technology can create environments that adapt to and reflect users’ 
+physical presence and/or enhance their sense of bodily awareness. 
+Other experiences included users’ Sense of Place-making. 
+Here, technology was designed to encourage occupants’ to create 
+places out of spaces [78]. Experiences of Relatedness emphasise building a connection between people in a space, e.g. social pres-
+ence or intimacy. Democratic Experiences were shaped by recent 
+discussions in HCI about preserving and fostering democratic val-
+ues within smart buildings [53]—this work amplifies inhabitant 
+voices and highlights a shared impact on the space. Inclusion 
+Experiences focus on environments in which users with diverse 
+needs are taken care of; it is the outcome of accessible and inclusive 
+design [141]. Aesthetic Experiences target sensory perception 
+through manipulation of (largely) audiovisual features. 
+Fewer works explored Learning and Teaching Experiences 
+which involves creating educational interactions, such as enhanc-
+ing student-teacher engagement. Similarly, Sense of Orientation 
+refers to experiences related to navigating and understanding one’s 
+position within the environment, including wayfinding. Figure 4 
+highlights a resurgence in comfort-focused research from 2017, in-
+fluenced by HBI’s introduction of comfort through a human-centred 
+lens [5]. Figure 8 in the appendix provides an overview of research 
+trends, beginning with Harrison and Dourish [78]’s work on the 
+roles of place and space. 
+Figure 4: Research trends shows publications on comfort 
+versus all other targeted human experiences. 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Table 2: The 11 human experiences in smart buildings following the analysis of our charting table. We provide a name for the 
+targeted experience and explain what we mean. We share the number of papers that were identified as targeting the experience 
+with a few prototypical examples for each. 
+The Targeted Experience Description N Prototypical Examples 
+Aesthetic Experience Technological and aesthetic considerations transform atmospheres 
+within smart built environments, resulting in specific experiences 
+of their aesthetics. Departing from classical notions of beauty [37], 
+this research emphasises the creation of sensory experiential qualities 
+through the manipulation of sound, light, and space. 18 InBloom introduces a playful ambience using breathing 
+elements and light-based interactions [101]. Synesthesia 
+attempts to replicate the perceptual phenomenon of the 
+same name, utilising touch and visual stimuli to create 
+cross-sensory experiences to evoke a perception of body 
+as one with the object [8]. 
+Bodily Experience The physical body’s role in creating and sustaining experiences is fos-
+tered or enabled through the integration of technology. This research 
+explores how physical movements and gestures such as touching, mov-
+ing, or manipulating artifacts, as well as the body’s presence, can both 
+influence and be influenced by the surrounding environment [84]. 23 The SKIN bodysuit translates wireless signals from the 
+environment into vibro-tactile responses to change the 
+perception of space around the body [167]. In the Dress 
+Room, a responsive cube moves towards or away from the 
+dancer’s body to create intimacy as well as encourage the 
+dancer to reflect on their motions and movement. [165]. 
+Comfort Occupant comfort, in its traditional sense, is defined by human per-
+ception across four environmental dimensions: thermal, visual, air 
+quality, and acoustic [2]. In HCI, comfort is understood through users’ 
+decisions to adjust these dimensions—including the type of adjustment 
+(e.g. increasing or decreasing) or choosing not to adjust—as well as the 
+absence of discomfort [19]. 47 The ActuAir Room Divider Display visualises real-time 
+air quality data, raising occupant awareness of their sur-
+rounding environment [111]. The PrisMe tangible user 
+interface aids users in understanding and managing sur-
+rounding sounds, enhancing their control over auditory 
+experiences in the space [131]. 
+Democratic Experience Technology fosters a sense of community and democratic engagement 
+by empowering users to shape their smart building environment [ 53]. 
+Through physical and digital actions, users contribute to civic inclusiv-
+ity, occupant privacy, and resilience by making decisions and engaging 
+with those of others. This extends to building activism, where actions 
+like comfort management allow users to collectively shape their sur-
+roundings in alignment with shared values. 16 ThermoKiosk ’s voting device creates a sense of commu-
+nity by allowing users to voice concerns in automated 
+workspaces and facilitating participation in building 
+decision-making [47]. The Exo Building creates a simi-
+lar experience through privacy and data control via an 
+adaptive smart façades [149]. 
+Explorative and/or Future 
+and Speculative Experiences Exploratory works that push the boundaries of what is possible in smart 
+building environments. It is characterised by uncertainty and openness, 
+where researchers and designers do not have predefined expectations 
+of the experience but seek to discover how users engage with novel 
+ideas, technologies, or spaces. For this, works employ speculative or 
+futuring concepts or design probes, observing how they adapt, react, 
+interact, and experience in unforeseen ways. Leveraging open-ended 
+experimentation, this theme encourages users to explore and co-create 
+future possibilities, revealing insights into how they might live in and 
+experience smart environments yet to be fully imagined. 48 WindowWall examines users’ future experiences of adap-
+tive and smart windows as ubiquitous displays at home 
+through speculative sessions followed by low-fidelity 
+design probes [15]. The Pendaphonics project explores 
+futuristic ways for using architecture for urban revi-
+talisation, public engagement, expression, and perfor-
+mance [77]. By integrating a physical-digital-sonic pen-
+dulum into a public space, it invites visitors to interact 
+with an installation that blends movement, sound, and 
+digital interaction. 
+Emotional Experience Exploring how spaces can support the emotional aspects of human 
+experiences in smart buildings. Following Picard [136] ’s definition of 
+affect in HCI, emotion encompasses emotional states (e.g. valence and 
+arousal), sentiments (e.g. positivity), and moods (e.g. discontentment). 
+It includes bodily states when measured as physiological responses. 38 LiveNature integrates living walls and blooming mechan-
+ical flowers to evoke calming and restorative experiences 
+[61]. The Arup Sentiment Cocoon displays collective emo-
+tions in workspaces for shared experiences to foster col-
+lective emotional responses [20]. 
+Experience of Relatedness Creating a sense of connection and belonging between individuals, 
+whether co-located or remote, through technology [172]. For this, 
+works try to support development of deeper emotional bonds, mutual 
+understanding, and social support between occupants in the built 
+environment. 21 Ghosting captures multi-modal social presence and ca-
+sual interactions via lights and audio to create connected-
+ness between remote users [77]. The Hide and Seek Wall-
+paper invites adults and children to build social bonds 
+through play [83]. 
+Inclusion Experience Environments that are experienced as catering to the diverse cognitive, 
+sensory, and physical needs of users, for example with particular at-
+tention to neuro-diversity (e.g. autism or ADHD) and sensory (mainly 
+auditory and visual) impairments. 13 NavTiles explores tactile guiding surfaces for non-visual 
+navigation for blind travellers [157]. PLAYSCAPE [1] and 
+the Magic Room [69] create responsive environments 
+that support therapeutic and social play for children with 
+autism, to improve motor planning and social function. 
+Learning and Teaching Ex-
+perience The experiences resulting from interactions, activities, and environ-
+ments that contribute to the educational and learning process within a 
+smart building. 9 The EvoRoom is a rain-forest simulation utilising large-
+scale displays to foster collective inquiry among students 
+and enhance teacher-student engagement [108]. 
+Sense of Place-making How smart building users experience places as meaningful through 
+cultural, social, and sensory engagement. These experiences are facili-
+tated by embodied experiences between people and their environment 
+through technology [78]. 23 The Robotic Wall changes spatial configurations based 
+on users needs to instil a sense of meaning in the spatial 
+arrangement [129]. Within the Walls of York Gaol utilised 
+AR to connect visitors with the prison by experiencing 
+stories of prisoners lives [18]. 
+Sense of Orientation Technology-enhanced methods that influence how people experience 
+spatial orientation as part of navigation, including identifying land-
+marks, detecting surface-level changes, and wayfinding. 8 Footsteps uses projection-based displays to visualise peo-
+ples’ historical presence to influence navigation in unfa-
+miliar environments [6]. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+Table 3: The 10 primary design mechanisms in smart buildings. We provide a name for each design mechanism and explain 
+its meaning. Additionally, we share the number of papers that employed the mechanism in their work, along with a few 
+prototypical examples. Finally, we demonstrate the connection between the design mechanisms and the targeted human 
+experiences by listing the top three most frequently appearing experiences for which the design mechanism was employed. 
+The Design Mechanism Description N Prototypical Examples Associated Targeted Experiences 
+(n=3) 
+Community and Social Con-
+nection Enhancing communal experiences in shared spaces by promoting so-
+cially motivated domestic practices (such as recalling events of the day 
+during dinner), relationships, and collaboration among smart building 
+occupants. 40 The Tableau Machine system was designed for 
+spontaneous family bonding through abstract vi-
+sualisations [138]. Ghosting supports distant in-
+teractions using lights and audio to enhance social 
+presence at home [45]. Experience of Relatedness (n=18), 
+Emotional Experiences (n=5), Com-
+fort (n=5) 
+Spatial Design The arrangement and manipulation of physical space to optimise func-
+tionality and facilitate spatial appropriation, where space becomes a 
+medium for enabling interaction. This approach views space as a dy-
+namic, relational entity, involving interactions between objects, bodies, 
+and environmental elements [60]. 34 Diffusive Geometries creates vapour-based walls 
+as an alternative and flexible way of separat-
+ing spaces [55]. Adaptive partitioning uses aug-
+mented reality to dynamically divide open-plan 
+workspaces. Explorative and/or Future and 
+Speculative (n=13), Comfort (n=9), 
+Sense of Place-making (n=9) 
+Technological Immersion Utilising the immersive properties of technologies such as large am-
+bient displays, VR, AR, and mixed reality (MR) to create simulated or 
+technologically mediated experiences within the context of the smart 
+building. These technologies envelop users in visual and/or auditory 
+environments for simulating spaces or providing access to experiences 
+that are otherwise unattainable in the physical building [154]. 22 The Magic Room uses digitally enhanced physical 
+materials and ambient embedded devices to create 
+an an interactive environment for gently stimu-
+lating primary school children [69]. Live Building 
+uses virtual reality to study the design of large-
+scale, shape-changing interfaces [7]. Emotional Experiences (n=4), Ex-
+plorative and/or Future and Specu-
+lative (n=4), Comfort (n=4) 
+Playful Design The use of game-like interactions to transform everyday spaces into 
+lively, engaging experiences, adding an element of surprise, discovery 
+and unexpectedness to the smart building. 22 Squeeze and MurMur Moderators are chairs that 
+enable playful re-discovery of family memories 
+[135] or workplace communication [130]. Explorative and/or Future and 
+Speculative (n=9), Sense of Place-
+making (n=7), Aesthetic Experi-
+ences (n=5) 
+Environmental and Social 
+Information Surfacing or augmenting data related to environmental conditions 
+such as air quality and temperature or socially relevant information 
+such as occupancy and movement. This design mechanism surfaces 
+information that might otherwise be overlooked, helping occupants 
+gain a deeper understanding and awareness of their surroundings. 21 PrisMe Tangible Environment helps users under-
+stand and manage surrounding sounds [131]. Lu-
+mina and Cloud, a kinetic canopy that responds 
+to environmental changes [145]. Comfort (n=10), Explorative and/or 
+Future and Speculative (n=5), Emo-
+tional Experiences (n=4) 
+Somaesthetic Design The incorporation of the body and movement into the design of the 
+smart building, where bodily interactions are both the mechanism and 
+the ultimate experience. This approach priorities bodily awareness 
+and sensory engagement, focusing on the body’s sensations within 
+the smart building space [85]. 17 Freequent Traveller is a swinging hammock whose 
+rhythmic movement inspires the notion of “wan-
+dering about” in the mind as well as physically 
+from the motion [56]. SonicTaiChi promotes work-
+place restoration with sonic-guided bodily move-
+ments [92]. Bodily Experiences (n=14), Explo-
+rative and/or Future and Specula-
+tive (n=2), Sense of Place-making 
+(n=1) 
+Participation and Co-design Creating solutions from the users’ perspective by actively involving 
+them in shaping and influencing their environment. This mechanism 
+covers both methods like participatory design and design elements 
+that result in participation. This approach fosters a sense of ownership 
+and empowerment through shared decision-making, resulting in envi-
+ronments that are aligned with the occupants’ values. 17 VoteBox and CoolDesk are participatory devices 
+for allowing users to voice their concerns for man-
+aging thermal environments [119]. The Sensing 
+Mobile App supports comfort management by al-
+lowing users to share their preferences around 
+comfort to building information systems [95]. Democratic Experiences (n=13), 
+Comfort (n=3), Explorative and/or 
+Future and Speculative (n=1) 
+Personalisation Gathering and understanding the nature of users’ subjective prefer-
+ences and needs in (often shared and communal) indoor spaces across 
+various contexts. The goal being that such occupants requirements and 
+behaviours may be used to provide control over typically automated 
+building features—such as lighting, temperature, and other environ-
+mental controls—to suit their individual preferences. 16 Interface characteristics of a shared lighting sys-
+tems in office environments was evaluated for 
+user experience in social settings [166]. Domes-
+tic energy interfaces were examined for how 
+lower-income households personalise their en-
+vironments and manage comfort [54]. Comfort (n=12), Explorative and/or 
+Future and Speculative (n=2), Sense 
+of Place-making (n=1) 
+N.A. Works that do not explicitly apply or mention a specific design mech-
+anism or discussed several at once, very broadly. The aim is to posit 
+novel understandings or assess and critique current knowledge and 
+technologies. 12 Works positing novel insights such as seminal 
+works on Places and Spaces [78], and theoretical 
+assessment of multi-sensory interactive space de-
+sign for autistic children [151]. Explorative and/or Future and Spec-
+ulative (n=6), Inclusion Experiences 
+(n=2), Aesthetic Experiences (n=2) 
+Biophilic Design This approach fosters occupants’ connection with nature by integrat-
+ing natural elements into the built environment, whether through 
+direct connections, nature-inspired elements, or symbolic representa-
+tions. It leverages the innate human affinity for life and living systems, 
+incorporating them into smart buildings to enhances physical and 
+emotional health [88]. 9 Interactive Window Display is an intelligent screen 
+system for viewing nature scenes in smart homes 
+[171]. Soft Oscillating LaLang, Blooming Dande-
+lions, and Lotus-like Flowers are soft robotic struc-
+tures designed for capturing peoples’ attention in 
+public spaces [43]. Emotional Experiences (n=8), Bod-
+ily Experiences (n=1), Sense of 
+Place-making (n=1) 
+4.3 Design Mechanisms For Smart Buildings 
+To understand the 11 targeted experiences, we analysed common 
+design approaches aimed at creating them. We identified 20 design 
+mechanisms (italicised in the paper), listed in Figure 5. Our analysis 
+found that that four papers addressed three different design mech-
+anisms, 57 targeted two, and 131 focused on a single mechanism. 
+Notably, 12 framing/vision papers did not specify any design mech-
+anism and were marked as not applicable (N.A.). We focus here 
+on the ten most frequently used design mechanisms described in detail in Table 3, with the number of associated papers, prototypical 
+examples, and the most common associated human experience. 
+Our design mechanisms encompass methods, approaches, tech-
+niques, elements, and processes, individually or in combination. 
+With no universal definition in existing literature, we inclusively 
+categorised works across all types of design mechanisms. For ex-
+ample, Biophilic Design can include elements like vegetation [106], 
+processes for integrating these elements into architecture [33], or 
+innovative approaches such as organic user interfaces [127]. Papers 
+like Chooi et al. [43] combine techniques (oscillating soft robotics), 
+elements (flora-inspired design), and methods (symbiosis concepts) 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 5: An overview of the targeted human experiences in smart buildings, along with their associated design mechanisms, 
+and technological interventions. These human experiences, which are the primary focus of our scoping review, serve as the the 
+starting point of this visualisation, linking to design mechanisms on one side and technological interventions on the other, 
+enabled by human experiences. Figure A presents an unfolded version of this visualisation, separating the connections into two 
+distinct plots: one illustrating the relationships between human experiences and design mechanisms, and the other between 
+human experiences and technological interventions. 
+to foster nature connections. Our cataloguing promotes an inclu-
+sive understanding of how design mechanisms enhance human 
+experiences in smart buildings4 . 
+A distinct pattern emerges: some mechanisms are versatile, sup-
+porting multiple experiences, while others are closely tied to spe-
+cific ones. For instance, Playful Design, with elements like surprise 
+[135] or storytelling [82], supports experiences such as Explo-
+rative and/or Future and Speculative, Sense of Place-making, 
+and Aesthetic Experiences. Similarly, Technological Immersion 
+spans diverse experiences. In contrast, mechanisms like Commu-
+nity and Social Connection focus on specific experiences, such as 
+Experiences of Relatedness, fostering cultural identity [128]. So-
+maesthetic Design supports Bodily Experiences, emphasising hu-
+man presence [178]. Environmental and Social Information, Spatial 
+Design, and Personalisation enhance Comfort by allowing environ-
+mental adjustments [132]. Biophilic Design connects to Emotional 
+Experiences, and Participation and Co-design promotes civic inclu -
+sion for Democratic Experiences. 
+The most common design mechanisms aside from Community 
+and Social Connection were traditional architecture-related design 
+mechanisms like Spatial Design, alongside mechanisms established 
+and grounded in HCI such as Technological Immersion, Playful De-
+sign, the provision of Environmental and Social Information, and 
+Participation and Co-design. This prevalence points to the position 
+of smart building research between architecture and Interaction 
+Design, which we discuss further in Section 5. Figure 5 illustrates 
+4The relationship between targeted human experiences and design mechanisms can 
+be conceptualised similar to the distinction between “space” and “place”, as articulated 
+by Harrison and Dourish [78]. In this context, design mechanisms can be perceived as 
+“opportunities” to create or shape the “understood reality” of targeted experiences. the relationship between the targeted human experiences in smart 
+buildings and the corresponding design mechanisms employed. 
+4.4 Typologies of Technological Interventions 
+in Smart Buildings 
+We analysed the technological interventions across all works in 
+our scoping review, categorising them into seven types. Out of 
+192 papers, 153 incorporated technological interventions in their 
+exploration of human experiences in smart buildings. The remain-
+ing 39 papers did not directly employ technological interventions 
+but rather presented conceptual ideas and potential theoretical 
+solutions. While design mechanisms offer strategies for creating 
+or enabling meaningful experiences, technological interventions 
+refer to the tools and systems used to implement these mechanisms 
+in practice. In this section, we share the two typologies around 
+technology that we developed. The first typology categorises the 
+technological interventions discussed in the papers. Similar to the 
+previous typologies on human experiences (Table 2) and design 
+mechanisms (Table 3), these categories are illustrated with proto-
+typical examples and the top three associated human experiences 
+in Table 5 in the appendix. The second typology is based on Brand 
+[28]’s shearing layers which describes distinct layers of a building 
+based on its temporal lifespan [28]. 
+4.4.1 Types of Technological Interventions. Audiovisual (and some-
+times haptic) modalities were common interventions. Interactive 
+Displays were the most frequent intervention type. Similarly, Audio 
+and Lighting technologies used sound and light as primary tech-
+nologies to introduce novel interactions and experiences [10]. To 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+address comfort, Environmental Sensing was frequently combined 
+with IoT-connected sensors to monitor environmental conditions 
+[49]. Motors and actuators were combined with everyday materials 
+(such as neoprene fabric [59]) in Shape-changing and Kinetic Inter-
+faces to introduce dynamic-physical changes that allowed spaces to 
+respond to user presence and activities. Next, Augmented and Vir-
+tual Reality (AR/VR) and Physiological Sensing interventions were 
+primarily used for data collection on user responses to aspects of the 
+smart building [11, 34]. AR/VR technologies are discussed as a tech-
+nological intervention but are also a component of Technological 
+Immersion design mechanism (Table 3). As a technological inter-
+vention, they serve as tools for simulating future smart spaces. In 
+contrast, as part of the Technological Immersion design mechanism, 
+they are one among various technologies (e.g. large displays) that 
+enable immersive experiences. Finally, Feedback Systems enabled 
+users to exchange information with the smart building, helping 
+them understand and personalise their environment through data 
+collection and participatory apps [121]. 
+Figure 6: The smart building layers adopted from Brand [28]’s 
+shearing layers. In our scoping review, we find the Space Plan 
+to be the largest layer in contrast to the Site layer that has no 
+interventions. We additionally define the Extended Reality 
+Space layer to accommodate a new layer of temporality that 
+represents the use of extended reality with smart buildings. 
+4.4.2 The Temporal Layers of the Smart Building. We also posi-
+tioned technologies following Brand [28]’s “Shearing layers” (Fig-
+ure 6). Brand describes six distinct layers of a building based on 
+its temporal lifespan: Site, Structure, Skin, Services, Space Plan, and 
+Stuff [28]. The majority of interventions were concentrated in 
+the Space Plan (n = 41) and Stuff (n = 38) layers. This aligns with 
+their transient and flexible nature, making them ideal for smart 
+building technologies and prototypes that do not require major 
+structural changes such as smart furniture, moving walls, and inter-
+active floors. The Services layer (n = 33), traditionally encompassing 
+HVAC, plumbing, and electrical systems, was reappropriated to in-
+clude technologies related to occupant comfort: air quality, thermal 
+conditions, lighting, and acoustics. 
+The Skin (n = 17) and Structure (n = 3) layers saw fewer interven-
+tions, reflecting their enduring and foundational nature. The Skin 
+layer—encompassing façades and exteriors—is periodically updated, 
+but less frequently than more adaptable layers. Interventions in the Structure layer, which includes foundations and load-bearing 
+elements, are scarce due to the complexity and expense of alter-
+ing these fundamental components. Unsurprisingly, smart building 
+technologies tend to focus on layers that can be modified more eas-
+ily, leaving structural changes largely to traditional architectural 
+and engineering domains. There were no interventions categorised 
+under the Site layer. This absence reflects that this layer, concerned 
+with the building’s geographical location and context, falls outside 
+the immediate focus of smart building technologies. Urban HCI 
+work often addresses connections to the site of the building [63], 
+but such considerations extend beyond the scope of our review. 
+To accommodate works that extend physical space using aug-
+mented and virtual means, we introduced the Extended Reality 
+Space (n = 21) layer. This addition reflects the growing importance 
+of technologies that expand the physical confines of traditional 
+building layers. Unlike traditional building layers bound by mate-
+rial lifespans, the Extended Reality Space operates independently 
+of physical constraints. It introduces a dynamic layer to building 
+temporality, where digital and virtual environments such as AR/VR 
+can be updated or transformed almost instantaneously. It interacts 
+with physical elements without altering them (apart from using 
+devices like headsets necessary to perceive virtual content), provid-
+ing temporal flexibility in which both temporary and permanent 
+digital interventions coexist. 
+5 Discussion of Findings: Insights into Current 
+Smart Building Research 
+We now discuss our findings to elicit higher-level understandings 
+and implications. We wish to share messages that can inform re-
+search that seeks to design human experiences in smart buildings. 
+5.1 Beyond Comfort—The Diversity of Targeted 
+Human Experiences in Smart Building Research 
+In our exploration of human experiences in smart buildings, we 
+identified 11 distinct experiences around human experiences in 
+smart building research. This reflects an evolving understanding 
+of what it means to design a smart building and extends it sub-
+stantially beyond the traditionally examined experience of comfort. 
+For example, Learning and Teaching Experiences highlight the 
+potential of smart buildings as educational tools that create inter-
+active learning environments which support curiosity and innova-
+tion [108]. Although Comfort remains a major focus, it is often 
+addressed through novel means such as Personalisation [ 139] and 
+Spatial Design [129], as well as fostering Community and Social Con-
+nections [132] to target individual and collective well-being. This 
+diversity of targeted human experiences beyond comfort sheds light 
+on the major challenges and questions that need to be addressed 
+for the development of the field. For example, what design methods 
+must we develop or adopt to conceptualise emotionally-rich [140] 
+or “somatic” environments [8]? How can we design for meaningful 
+yet highly subjective Inclusion Experiences in smart buildings, 
+catering to those with diverse sensory needs [1, 157]? The same 
+question is valid for evaluation methods to assess the impact of 
+technological interventions on these targeted human experiences. 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+5.2 Alignment with Trends in HCI 
+Our analysis reveals strong connections between human experience 
+design in smart buildings and long-established HCI research, partic-
+ularly in the use of Community and Social Connection as a key design 
+measure for the Experience of Relatedness among occupants. 
+Smart buildings can foster social connection between occupants 
+through technologies like multimodal communication systems for 
+remote users [77] and features that enhance co-located social bond-
+ing [128]. These works emphasise the potential of smart buildings 
+to bridge physical and digital spaces, enhancing social connected-
+ness across diverse contexts. However, several targeted experiences 
+in smart buildings also align with some of the more recent and 
+growing trends in HCI research and related fields, including Bod-
+ily Experiences, Explorative and/or Future and Speculative, and 
+Democratic Experiences. 
+Bodily Experiences emphasise the role of multi-sensorial per-
+ception of the environment in shaping interactions within smart 
+buildings, as well as mutual influences of the human body and 
+spaces that can be studied and designed for, using methods of So-
+maesthetic Design. This builds on an architectural legacy in which 
+the human body—its scale, directionality, proportionality, etc.—is 
+the main source of inspiration and reference for spatial design [153]. 
+We observe an alignment between the proliferation of works recog-
+nising the importance of bodily experiences in smart buildings with 
+recent discourses and design instances surrounding Somaesthetic 
+Design in HCI and IxD research. 
+Explorative and/or Future and Speculative Experiences cap-
+tures a body of work that aims to (re-)define how people experience 
+and re-experience home and public spaces in novel and previously 
+un-imagined ways by deploying design probes [71] or speculative 
+inquiry [ 66]. This experience is particularly relevant as it expands 
+the concept of interaction beyond traditional interfaces, incorporat-
+ing the Spatial Design of the smart building itself as a medium for 
+digital engagement. It aligns with the evolving discourse on archi-
+tectonic interaction, which involves “Interaction Design at the scale 
+of architecture” and the “design of architectonic elements with in-
+teractive capabilities” [173]. As we increasingly occupy spaces with 
+digital technologies, this concept becomes essential for exploring 
+how these environments are created and experienced. 
+Finally, Democratic Experiences reflects recent efforts in HCI 
+to cultivate and preserve democratic values within the context 
+of smart buildings [53]. This work views smart buildings as civic 
+spaces that foster dialogue between occupants and their environ-
+ment, enabling greater user agency, participation, and control, while 
+empowering users to actively shape their surroundings [53]. This 
+theme builds on research in Participation and co-design, while situ-
+ating itself within the relatively new domains of smart cities and 
+civic technologies, and critical design as mechanisms in HCI for 
+co-shaping interactive spaces through occupant involvement. 
+5.3 The Influences of Interaction Design and 
+Architecture in Smart Building Research 
+Our findings suggest that smart building research has been shaped 
+by both IxD and architecture, driving the field forward in three 
+ways: (1) by re-appropriating concepts such as personalisation that 
+draw heavily from the traditions of IxD [109], (2) by learning from space design principles rooted in the legacy of architecture [81], 
+with a focus on the ability to “experiment” with how technology 
+can introduce new forms of interactive experiences to our living 
+spaces (e.g. through Explorative and/or Future and Speculative 
+approaches [158]), and (3) by bringing together the two disciplines: 
+while architecture provides the physical and cultural context, IxD 
+enhances these spaces with interactive elements that foster connec-
+tion and identity, e.g. enabling a Sense of Placemaking [8]. This 
+fluidity between the two disciplines highlights the multidisciplinary 
+nature of the smart building field which benefits from a collabora-
+tive approach to synthesising insights from multiple domains. By 
+the same token, these observations raise important questions about 
+what other knowledge could be transferred to smart building re-
+search. What concepts from other disciplines have yet to make their 
+way into smart buildings? By exploring and opening new channels 
+for interdisciplinary exchange, smart building research can con-
+tinue to evolve, drawing on a broader range of ideas to shape the 
+future of our smart buildings. For example, notions around digital 
+rights (developed under the domain of digital philosophies [105]) in 
+online spaces could offer opportunities to address the challenges of 
+smart buildings, which may collect data both voluntarily and invol-
+untarily from occupants. Specifically, data portability [105] could 
+allow occupants to transfer their data preferences (e.g. lighting or 
+temperature settings) between smart buildings, ensuring continuity 
+and minimal data collection (as data gets collected once and re-used 
+across different buildings [164]). Similarly, smart buildings could 
+enable “guest modes” (similar to online browsing experiences) to 
+minimise data collection, privacy zones where sensors are deac-
+tivated, or informed consent mechanisms alongside transparency 
+dashboards to display building data usage policies [146]. 
+5.4 The Integration of Artificial Intelligence in 
+Human-Centred Smart Buildings 
+Despite the growing adoption of artificial intelligence (AI) and its 
+emergent applications in smart building design—such as building 
+resource management, building information modelling [52], and 
+building security [73]—there is very limited to almost no integra-
+tion of technologies like generative AI and large language models 
+(LLMs) for designing human experiences in smart buildings. When 
+AI is integrated with human interaction, it primarily focuses on 
+creating responsive and personalised environments. The use of AI 
+was noted in Comfort experiences [177, 181] and considered in 
+Emotional Experiences [140]. Among the reviewed works, 14 
+utilised machine learning (ML) for example in tasks like adjusting 
+temperature settings based on user behaviour [177] (comfort). Other 
+examples where ML is used include Zhao et al. [181] ’s “Mediated 
+Atmospheres” or Andres et al. [10] ’s “System of a Sound” transform 
+environments by digitally controlling lighting, sound, and video 
+projections, creating spaces that interact with human emotions. 
+In addition, some works consider (but do not implement) the 
+role of AI in futuristic concepts (like empathic buildings [140]) that 
+could adjust spaces to react to humans. For example, this extends 
+to ideas like “curious agents” and “motivated agents” [118], which 
+might support proactive problem-solving and adaptability within 
+environments like “resilient hospitals” [161]. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+5.5 “Reactive” Retrofitted Design in Smart 
+Buildings 
+Our analysis around the technological interventions in smart build-
+ings (subsection 4.4) shows that the majority are concentrated in the 
+Space Plan and Stuff layers [28], which are inherently more flexible 
+and adaptable. The current distribution of technological interven-
+tions across the building layers thus reveals a reactive approach to 
+interaction design in smart buildings. This late involvement raises 
+questions about how interaction designers can get involved earlier 
+in the process of planning and design of future buildings? Early in-
+volvement of designers offers the potential to integrate interactive 
+systems directly into the building’s fundamental layers, such as 
+Structure and Skin, rather than retrofitting technology into more 
+transient layers like Space Plan and Stuff. Designers, when included 
+early, can employ iterative and participatory methods to ensure 
+that the resulting smart buildings address the needs of occupants 
+[4]. However, challenges remain in achieving the early involvement 
+of designers. As observed by Verma et al. [168] , the building design 
+process is bound by rigid schedules and defined objectives, leaving 
+little room for experimentation. According to Verma et al. [168] , 
+the tendency to finalise most design decisions before construction 
+begins makes the integration of interaction design particularly 
+challenging. Furthermore, the “siloed” nature of architecture, engi-
+neering, and technology disciplines complicates cross-disciplinary 
+collaboration where construction timelines and budget constraints 
+often favour established workflows, creating resistance to adopting 
+iterative and participatory strategies [168]. While mindful of these 
+challenges, there is potential in integrating smart building technol-
+ogy into the building structure from the outset, rather than being 
+retrofitted into the more transient layers. 
+6 Discussion of Research Gap: What Could We 
+Design for When We Design Smart Buildings 
+Our review identified 11 unique experiences and 20 distinct design 
+mechanisms, reflecting the broad, experimental, and evolving na-
+ture of smart building research. While this diversity highlights a 
+field still in its formative stages, the scattered approaches indicate 
+an opportunity for consolidation and theory-building to provide 
+clearer guidance. In the following, we point out research areas 
+that we consider particularly relevant and promising for further 
+development in the domain of smart building design. 
+More-Than-Human Perspectives in Smart Buildings. Our review 
+did not find more-than-human perspectives in smart buildings. 
+These perspectives challenge the traditional user-centred design by 
+emphasising environments where human and non-human actors 
+are examined collectively [51, 74, 170]. Within smart buildings, this 
+could mean considering their environmental impact during human 
+inhabitation as well as times of non-occupancy (e.g. during off-peak 
+hours or after abandonment). A more-than-human perspective 
+could guide technology to sustain relationships with non-human 
+actors during these phases, by developing safety measures for lo-
+cal birds that may crash into building façades [23]. Furthermore, 
+smart buildings could engage with local ecosystems by adopting 
+Biophilic Design patterns, such as incorporating wildlife corridors 
+to allow animal movement and reconnect fragmented habitats in urban areas [179]. Empathic Design mechanisms could foster a sense 
+of ecological responsibility through the integration of “animalisti-
+cally behaving” robotic components to enhance connections with 
+local wildlife [75]. Smart building devices could actively “nego-
+tiate” climate levels in office rooms with occupants, prioritising 
+environmental considerations [106]. 
+Critically, more-than-human perspectives also raise ethical and 
+practical questions. Who decides the “priorities” of non-human 
+actors (such as the living bio-diversity in building ecosystems) in 
+a building? How do we ensure that smart systems designed for 
+ecological sensitivity do not inadvertently impose anthropocentric 
+values onto non-human entities? These considerations highlight 
+the need for interdisciplinary collaboration to integrate ecologi-
+cal, ethical, and technological insights into smart building design. 
+More-than-human co-design has already become a part of smart 
+city discourses, considering relationships between humans and 
+non-human actors including plants, animals, insects, as well as 
+soil, water, and other ecological features [62, 80]. Drawing inspi-
+ration from these strategies, co-design approaches could provide 
+an opportunity to engage ecological stakeholders (e.g. conserva-
+tionists, environmental scientists) alongside participants [80]. This 
+could ensure that more-than-human perspectives are meaningfully 
+integrated into the design and evaluation of smart buildings. 
+Comfort as a Bodily Experience. While somaesthetic approaches 
+were observed in addressing Emotional and Bodily Experiences, 
+Comfort continues to be predominantly defined by traditional 
+metrics such as thermal and visual conditions, overlooking the 
+embodied dimensions of how we experience the built environ-
+ments we inhabit. The absence of Somaesthetic Design in Comfort 
+studies indicates an opportunity to rethink comfort through the 
+lens of “design with the body” [85]. This could involve designing 
+smart buildings that account for not just environmental parame-
+ters, but also the ways in which bodily postures, movements, and 
+somatic experiences contribute to a holistic well-being [ 40]. Incor-
+porating somaesthetics into comfort raises questions about what it 
+means to “live with our bodies” in smart buildings. This approach 
+may even question the very foundations of comfort studies. For 
+example, should building design create opportunities for (mild) 
+discomfort—as a human natural state—to promote mindfulness 
+through enhanced bodily awareness [163]? This would be in con-
+trast to projects like SonicTaiChi which integrates pleasing sound 
+and slow movement to promote restoration [92]. Instead, could 
+we further explore smart architectural elements to intentionally 
+induce acoustic discomfort to provoke the recognition of stress, 
+not to alleviate stress temporarily, but to provoke awareness of 
+its underlying causes, encouraging deeper self-reflection and the 
+pursuit of long-term solutions? [163]. 
+Social Justice and Activism. Beyond civic values, Democratic 
+Experiences could be extended to include social justice themes 
+such as feminism [122], racial justice [50], and activist design per-
+spectives (such as anti-oppressive design [64]), that were notably 
+limited. These omissions are striking, given ongoing discussions 
+in HCI and technology design [44]. Feminist and activist lenses 
+could be crucial for understanding how smart buildings can either 
+reinforce or challenge power structures and inequalities [122]. For 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+example, a feminist lens could question how personalisation fea-
+tures in smart buildings (e.g. temperature in shared office spaces) 
+disproportionately impact gender relations [26]. Additionally, spa-
+tial design research highlights that Sense of Orientation differs 
+across genders, i.e. a tendency to rely on mental maps and cardinal 
+directions, as opposed to favouring route-based navigation using 
+landmarks and sequential cues [125]. A feminist perspective could 
+investigate how smart building features—such as adaptive wayfind-
+ing systems or customisable navigation aids—could support diverse 
+cognitive strategies [48, 102]. 
+Neurodiversity is another under-explored area in smart building 
+design. Technologies could better accommodate sensory differences 
+in individuals by incorporating features like adjustable lighting and 
+soundscapes. For example, personalised smart lighting can benefit 
+individuals with ADHD to retain attention and cognitive perfor-
+mance [16]. Similarly, adapting the design of wayfinding systems 
+can lead individuals with autism on routes that avoid spaces with 
+certain disturbing environmental features (e.g. sound or odours) 
+[22]. Despite growing recognition, the effective implementation of 
+neurodiverse considerations in smart building technologies remains 
+an open challenge [16, 31, 103]. 
+In the context of cultural activism, drawn from urban studies [35], 
+smart buildings could serve as platforms for creative practices aimed 
+at social and political change. Interactive art installations or adap-
+tive architectural features could spotlight social injustices such as 
+unequal access to housing or energy resources [107]. Smart build-
+ings could also act as mediums for cultural activism by creating 
+spaces that foster collective storytelling, resistance, or solidarity 
+among communities. Through mechanisms such as Playful Design 
+or Community and Social Connections [152], smart building design 
+could support activist practices like hosting protests or interactive 
+public events that raise awareness of societal inequities. Applying 
+these perspectives could re-direct smart building research towards 
+new design horizons shaped by principles of social justice [57]. 
+Evaluating the Smart Building Experience. Through this scoping 
+review, we observed a limited emphasis of papers on the evalu-
+ation of smart building experiences. This raises the question of 
+whether new assessment frameworks, metrics, and methodologies 
+are needed to be developed. Traditional metrics like objective com-
+fort measurements do not fully capture the complexities of smart 
+building interactions, especially as these environments become 
+more immersive, interactive, and personalised. For instance, in the 
+context of educational spaces, Learning and Teaching Experi-
+ences highlight the potential to create smart buildings that encour-
+age collaboration, exploration, and knowledge-sharing [108]. How-
+ever, evaluation of these experiences often relies on conventional 
+measures, such as students’ concentration [100]. This may over-
+look the impact of learning spaces on more complex experiences 
+such as emotion [67, 68] and playfulness [38] that are recognised 
+to affect learning. Therefore, additional metrics and new methods 
+of evaluation are required that can account for the subjectivity and 
+complexity of human interactive experiences in built environments. 
+At the same time, some of the targeted human experiences—such 
+as Bodily Experiences or Aesthetic Experiences— require devel-
+oping qualitative methods to evaluate technological interventions 
+that are grounded in the knowledge of human psychological and physiological responses to environments (e.g. environmental psy-
+chology [24]). Currently, these experiences are captured in terms 
+of descriptive qualities, such as the emotional resonance of a space, 
+the sensory richness of an environment, or the harmony between 
+occupants and their surroundings [56, 150]. While these qualitative 
+methods can provide valuable insights into the lived and embod-
+ied aspects of smart buildings, the opportunity to combine them 
+with physiological sensing and associated quantitative methods 
+(e.g. [123]) has been largely overlooked. As a next step, future re-
+search should systematically review and map existing evaluation 
+methods for assessing human experiences in smart buildings to 
+provide a more accurate picture of existing methods and determine 
+the need for new frameworks and approaches. 
+Anticipated Technological Integration in Smart Buildings. Current 
+smart building technologies are primarily driven by sensors and 
+actuators, with emerging technologies such as AI-enabled systems 
+and extended reality yet to find a widespread practical application 
+in built environments [124]. The incorporation of such technologies 
+has however been discussed with caution and awareness around 
+unintended consequences related to privacy, sustainability, and the 
+risk of over-reliance on artificial environments at the expense of 
+natural, sensory-rich experiences [124]. For example, while gen-
+erative AI (genAI) offers possibilities for dynamic and adaptive 
+environments, its substantial carbon footprint raises critical ques-
+tions about sustainability [42]. With the building industry already 
+contributing significantly to global emissions, combining these 
+two areas requires careful consideration. While genAI may not 
+be strictly necessary for many purposes, it is likely to be used by 
+researchers and practitioners interested in experimenting with it. 
+One promising avenue lies in leveraging more lightweight genAI 
+models [116] for Aesthetic Experiences, which could enhance 
+sensory engagement and atmosphere without having to hinge on 
+data-intensive AI processes. By leveraging “scalable” environmental 
+elements like light, sound, and spatial configurations [55, 90], light-
+weight genAI could support the creation of dynamic and enriching 
+environments with a reduced ecological footprint. Adaptive light-
+ing and soundscapes powered by such models could offer evolving 
+atmospheres tailored to user preferences while minimising energy 
+consumption [181]. Integrating Aesthetic Experiences with XR 
+and lightweight genAI models could further enable novel forms 
+of creative expression in smart buildings. These systems might 
+craft immersive environments “prompted” by occupants based on 
+their preferences to enable aspects such as creativity over purely 
+functional or utilitarian goals in smart spaces [38]. 
+7 Discussion of Limitations: Researcher Lens in 
+Creation of Targeted Experiences and Design 
+Mechanisms 
+We acknowledge that our work aligns with the third paradigm in 
+HCI, making the research process interpretive and shaped by our 
+individual and collective perspectives [79]. For instance, Somaes-
+thetic Design and Bodily Experiences reflect the ongoing interests 
+within the HCI community, while Biophilic Design might be influ-
+enced by the authors’ interests in multi-sensory connections to 
+nature in smart buildings. The creation of the Explorative and/or 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+Future and Speculative experience also draws from our background 
+in architecture research and IxD, capturing how digital technolo-
+gies transform physical spaces. Therefore, we acknowledge that 
+our positionality as researchers in the fields of HCI and architec-
+ture influenced how we categorised and interpreted the material. 
+Rather than offering definitive or universal insights, we present 
+these findings as part of an ongoing discourse. 
+Some papers could have been understood as focused on health 
+and care-giving (e.g. [87, 156]). We did not establish a distinct ex-
+perience around this concept, recognising that these aspects are 
+inherently embedded within the other experiences we identified. 
+For instance, many works within Emotional Experiences and 
+Comfort are predominantly underpinned by health and care-giving 
+considerations [5, 183]. Mechanisms like Community and Social Con-
+nection and Technological Immersion also indirectly foster care by 
+promoting socialisation and immersive health-related interactions. 
+Researchers focused on these topics may choose to view our dataset 
+through a different lens to explore care-giving more explicitly. 
+Our search keywords may also have impacted our overall set of 
+works. To narrow our search, we included “interac*” to focus on 
+human interaction. This may have inadvertently excluded studies 
+from outside the HCI community that do not explicitly mention 
+interaction, yet still address human experiences in smart buildings, 
+although we found no direct evidence that this was the case. Finally, 
+we categorised papers based on primary and overarching experi-
+ences that they targeted. Future research expanding our work to 
+capture all experiences, i.e., including secondary and tangential 
+ones, may uncover other targeted human experiences. Rather, this 
+categorisation enabled us to elicit distinct features of the smart 
+building research landscape and to conduct a deeper exploration of 
+specific core experiences and accompanying design mechanisms. 
+8 Concluding Remarks and Future Direction 
+We were motivated to understand the key considerations and design 
+goals that impact human experiences within smart buildings. To 
+achieve this, we conducted a scoping review of 192 papers, adopting 
+a hybrid inductive-deductive approach informed by thematic anal-
+ysis coding techniques [30]. Through this process, we identified 
+11 distinct human experiences, 20 design mechanisms that shape 
+these experiences, and a typology of the technological interventions 
+through which they are implemented. Our research sheds light on 
+how current smart building designs aim to address human experi-
+ences. However, this is only a partial view of the broader challenge 
+[98]. While we have explored what we design for, a pressing ques-
+tion remains: what should we design for? Answering this question 
+demands a broader conversation involving interdisciplinary collab-
+oration, policy-making, and the inclusion of diverse voices. Moving 
+forward, the challenge will be to create practical opportunities for 
+smart building development underpinned by a design horizon that 
+prioritises both the occupants and the broader societal visions. 
+References 
+[1] Sean Ahlquist. 2017. Sensory playscape: Advanced structural, material and 
+responsive capacities of textile hybrid architectures as therapeutic environments 
+for social play. Fabricate 14, 1 (2017), 6–8. 
+[2] Hamed S Alavi, Elizabeth Churchill, David Kirk, Henriette Bier, Himanshu 
+Verma, Denis Lalanne, and Holger Schnädelbach. 2018. From artifacts to ar-
+chitecture. In Proceedings of the 2018 ACM Conference Companion Publication on Designing Interactive Systems. ACM New York, NY, USA, Hong Kong China, 
+387–390. 
+[3] Hamed S Alavi, Elizabeth F Churchill, Mikael Wiberg, Denis Lalanne, Peter 
+Dalsgaard, Ava Fatah gen Schieck, and Yvonne Rogers. 2019. Introduction to 
+human-building interaction (hbi) interfacing hci with architecture and urban 
+design. , 10 pages. 
+[4] Hamed S Alavi, Himanshu Verma, Jakub Mlynar, and Denis Lalanne. 2018. The 
+hide and seek of workspace: Towards human-centric sustainable architecture. 
+In Proceedings of the 2018 CHI conference on human factors in computing systems. 
+ACM New York, NY, USA, Montreal Canada, 1–12. 
+[5] Hamed S Alavi, Himanshu Verma, Michael Papinutto, and Denis Lalanne. 2017. 
+Comfort: A coordinate of user experience in interactive built environments. 
+In IFIP conference on human-computer interaction. Springer, Springer, Mumbai, 
+India, 247–257. 
+[6] Luluah Albarrak, Oussama Metatla, and Anne Roudaut. 2019. An exploratory 
+study for evaluating the use of floor visualisations in navigation decisions. In 
+Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing 
+Systems. ACM New York, NY, USA, Glasgow Scotland, 1–6. 
+[7] Luluah Albarrak, Oussama Metatla, and Anne Roudaut. 2023. Using virtual 
+reality and co-design to study the design of large-scale shape-changing inter-
+faces. In Proceedings of the 2023 CHI Conference on Human Factors in Computing 
+Systems. ACM New York, NY, USA, Hamburg Germany, 1–17. 
+[8] Severino Alfonso and Loukia Tsafoulia. 2024. Embodied Imaginaries of Interior 
+Space: A Framework for Dynamic Environments and Sensory Inclusion. In 
+Interior Design on Edge. Routledge, London, 81–106. 
+[9] Muhammad Saidu Aliero, Muhammad Asif, Imran Ghani, Muhammad Fermi 
+Pasha, and Seung Ryul Jeong. 2022. Systematic review analysis on smart building: 
+Challenges and opportunities. Sustainability 14, 5 (2022), 3009. 
+[10] Josh Andres, Rodolfo Ocampo, Oliver Bown, Charlton Hill, Caroline Pegram, 
+Adrian Schmidt, Justin Shave, and Brendan Wright. 2023. The Human-Built 
+Environment-Natural Environment Relation-An Immersive Multisensory Explo-
+ration with’System of a Sound’. In Companion proceedings of the 28th interna-
+tional conference on intelligent user interfaces. ACM New York, NY, USA, Sydney 
+Australia, 8–11. 
+[11] Laura Angioletti, Federico Cassioli, and Michela Balconi. 2020. Neurophysiolog-
+ical correlates of user experience in Smart Home Systems (SHSs): First evidence 
+from electroencephalography and autonomic measures. Frontiers in Psychology 
+11 (2020), 411. 
+[12] Hilary Arksey and Lisa O’Malley. 2005. Scoping studies: towards a methodolog-
+ical framework. International journal of social research methodology 8, 1 (2005), 
+19–32. 
+[13] Katarina Bäcklund, Marco Molinari, Per Lundqvist, and Björn Palm. 2023. Build-
+ing Occupants, Their Behavior and the Resulting Impact on Energy Use in 
+Campus Buildings: A Literature Review with Focus on Smart Building Systems. 
+Energies 16, 17 (2023), 6104. 
+[14] Deepika Badampudi, Claes Wohlin, and Kai Petersen. 2015. Experiences from 
+using snowballing and database searches in systematic literature studies. In 
+Proceedings of the 19th international conference on evaluation and assessment in 
+software engineering. ACM New York, NY, USA, Nanjing China, 1–10. 
+[15] Patrick Bader, Alexandra Voit, Huy Viet Le, Paweł W Woźniak, Niels Henze, 
+and Albrecht Schmidt. 2019. WindowWall: Towards adaptive buildings with 
+interactive windows as ubiquitous displays. ACM Transactions on Computer-
+Human Interaction (TOCHI) 26, 2 (2019), 1–42. 
+[16] Sara Bagheri, Judith Good, and Hamed S Alavi. 2024. Visual and acoustic 
+discomfort: A comparative study of impacts on individuals with and without 
+ADHD using electroencephalogram (EEG). Building and Environment 264 (2024), 
+111881. 
+[17] Lynne Baillie and David Benyon. 2008. Place and technology in the home. 
+Computer Supported Cooperative Work (CSCW) 17 (2008), 227–256. 
+[18] Gareth Beale, Nicole Smith, Theodore Wilkins, Guy Schofield, Jonathan Hook, 
+and Anthony Masinton. 2022. Digital Creativity and the Regional Museum: Ex-
+perimental collaboration at the convergence of immersive media and exhibition 
+design. ACM Journal on Computing and Cultural Heritage 15, 4 (2022), 1–23. 
+[19] Burcin Becerik-Gerber, Gale Lucas, Ashrant Aryal, Mohamad Awada, Mario 
+Bergés, Sarah Billington, Olga Boric-Lubecke, Ali Ghahramani, Arsalan Heydar-
+ian, Christoph Höelscher, et al. 2022. The field of human building interaction for 
+convergent research and innovation for intelligent built environments. Scientific 
+Reports 12, 1 (2022), 22092. 
+[20] Moritz Behrens, Konstantinos Mavromichalis, and Ava Fatah gen. Schieck. 2018. 
+The Sentiment Cocoon: A Case Study of Media Architectural Interfaces. In 
+Proceedings of the 4th Media Architecture Biennale Conference. ACM, Beijing 
+China, 95–105. 
+[21] Yu Bian, Yanan Chen, Yanyi Sun, Yuan Ma, Daxing Yu, and Tianxiang Leng. 
+2023. Simulation of daylight availability, visual comfort and view clarity for 
+a novel window system with switchable blinds in classrooms. Building and 
+Environment 235 (2023), 110243. 
+[22] Melissa Heather Black, Sarah McGarry, Lynn Churchill, Emily D’Arcy, Julia 
+Dalgleish, Isabelle Nash, Alisala Jones, Tin Yan Tse, Jane Gibson, Sven Bölte, 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+et al. 2022. Considerations of the built environment for autistic individuals: A 
+review of the literature. Autism 26, 8 (2022), 1904–1915. 
+[23] Ashley Boone, Christopher A Le Dantec, and Carl DiSalvo. 2024. Embodied 
+Traces: Multispecies Entanglement in Urban Spaces. In Proceedings of the 2024 
+ACM Designing Interactive Systems Conference. ACM New York, NY, Hawaii 
+USA, 1074–1086. 
+[24] Isabella Bower, Richard Tucker, and Peter G Enticott. 2019. Impact of built 
+environment design on emotion measured via neurophysiological correlates and 
+subjective indicators: A systematic review. Journal of Environmental Psychology 
+66 (2019), 101344. 
+[25] Peter R Boyce. 2003. Human Factors in Lighting. CRC Press, London. 
+[26] JOS BOYS. 1984. Is there a Feminist Analysis. BUILT ENVIRONMENT 10, 1 
+(1984), 25. 
+[27] Arianna Brambilla, Hamed Alavi, Himanshu Verma, Denis Lalanne, Thomas 
+Jusselme, and Marilyne Andersen. 2017. “Our inherent desire for control”: a case 
+study of automation’s impact on the perception of comfort. Energy Procedia 122 
+(2017), 925–930. 
+[28] Stewart Brand. 1995. How buildings learn: What happens after they’re built. 
+Penguin, New York Ny USA. 
+[29] Virginia Braun and Victoria Clarke. 2022. Conceptual and design thinking 
+for thematic analysis. Qualitative Psychology 9, 1 (Feb. 2022), 3–26. https: 
+//doi.org/10.1037/qup0000196 
+[30] Virginia Braun, Victoria Clarke, and Nikki Hayfield. 2023. Thematic analysis: A 
+reflexive approach. In Supporting Research in Counselling and Psychotherapy. 
+SAGE Publications, London UK. 
+[31] Susanne M Bruyère and Adrienne Colella. 2022. Neurodiversity in the work-
+place: An overview of interests, issues and opportunities. Neurodiversity in the 
+Workplace 1, 1 (2022), 1–15. 
+[32] Alex H Buckman, Martin Mayfield, and Stephen BM Beck. 2014. What is a smart 
+building? Smart and Sustainable Built Environment 3, 2 (2014), 92–109. 
+[33] Leah Buechley, David Mellis, Hannah Perner-Wilson, Emily Lovell, and Bonifaz 
+Kaufmann. 2010. Living wall: programmable wallpaper for interactive spaces. 
+In Proceedings of the 18th ACM international conference on Multimedia. ACM 
+New York, NY, USA, Atlanta Georgia USA, 1401–1402. 
+[34] Alisa Burova, Chelsea Kelling, Tuuli Keskinen, Jaakko Hakulinen, Pekka Kallion-
+iemi, Heli V¨"a¨ "at¨ "aj¨ "a, and Markku Turunen. 2019. Promoting local culture and 
+enriching airport experiences through interactive storytelling. In Proceedings of 
+the 18th International Conference on Mobile and Ubiquitous Multimedia. ACM 
+New York NY USA, Pisa, Italy, 1–7. 
+[35] Michael Buser, Carlo Bonura, Maria Fannin, and Kate Boyer. 2013. Cultural 
+activism and the politics of place-making. City 17, 5 (2013), 606–627. 
+[36] David Byrne. 2021. A worked example of Braun and Clarke’s approach to 
+reflexive thematic analysis. Quality & Quantity 56, 3 (June 2021), 1391–1412. 
+https://doi.org/10.1007/s11135-021-01182-y 
+[37] Noël Carroll. 2001. Beyond aesthetics: Philosophical essays. Cambridge University 
+Press, Cambridge USA. 
+[38] Cansu Çetin Er and Oguzhan Özcan. 2024. Learning from Users: Everyday 
+Playful Interactions to Support Architectural Spatial Changes. Proceedings of 
+the ACM on Human-Computer Interaction 8, CHI PLAY (2024), 1–25. 
+[39] Heather Chappells and Elizabeth Shove. 2004. COMFORT: A review of philoso-
+phies and paradigms. Building Research & Information 33, 1 (2004), 32–40. 
+[40] Heather Chappells and Elizabeth Shove. 2005. Debating the future of comfort: 
+environmental sustainability, energy consumption and the indoor environment. 
+Building Research & Information 33, 1 (2005), 32–40. 
+[41] Bhawana Chhaglani, Camellia Zakaria, Adam Lechowicz, Jeremy Gummeson, 
+and Prashant Shenoy. 2022. Flowsense: Monitoring airflow in building ventila-
+tion systems using audio sensing. Proceedings of the ACM on Interactive, Mobile, 
+Wearable and Ubiquitous Technologies 6, 1 (2022), 1–26. 
+[42] Andrew A Chien, Liuzixuan Lin, Hai Nguyen, Varsha Rao, Tristan Sharma, and 
+Rajini Wijayawardana. 2023. Reducing the Carbon Impact of Generative AI 
+Inference (today and in 2035). In Proceedings of the 2nd workshop on sustainable 
+computer systems. ACM New York NY USA, Boston MA USA, 1–7. 
+[43] Aaron Chooi, Thileepan Stalin, Aby Raj Plamootil Mathai, Arturo 
+Castillo Ugalde, Yixiao Wang, Elgar Kanhere, Gumawang Hiramandala, 
+Deborah Loh, and Pablo Valdivia Y Alvarado. 2022. Symbiosis: Design and 
+Development of Novel Soft Robotic Structures for Interactive Public Spaces. 
+In Companion Publication of the 2022 International Conference on Multimodal 
+Interaction. ACM New York NY USA, Bengaluru India, 46–51. 
+[44] Ishita Chordia, Leya Breanna Baltaxe-Admony, Ashley Boone, Alyssa Sheehan, 
+Lynn Dombrowski, Christopher A Le Dantec, Kathryn E Ringland, and An-
+gela DR Smith. 2024. Social Justice in HCI: A Systematic Literature Review. 
+In Proceedings of the CHI Conference on Human Factors in Computing Systems. 
+ACM New York NY USA, Hawaii USA, 1–33. 
+[45] Meghan Clark and Prabal Dutta. 2015. The haunted house: Networking smart 
+homes to enable casual long-distance social interactions. In Proceedings of the 
+2015 International Workshop on Internet of Things towards Applications. ACM 
+New York NY USA, Seoul South Korea, 23–28. [46] Adrian K Clear, Sam Mitchell Finnigan, Patrick Olivier, and Rob Comber. 2017. 
+" I’d Want to Burn the Data or at Least Nobble the Numbers" Towards Data-
+mediated Building Management for Comfort and Energy Use. In Proceedings of 
+the 2017 ACM Conference on Computer Supported Cooperative Work and Social 
+Computing. ACM New York NY USA, Glasgow Scotland, 2448–2461. 
+[47] Adrian K Clear, Samantha Mitchell Finnigan, Patrick Olivier, and Rob Comber. 
+2018. ThermoKiosk: Investigating roles for digital surveys of thermal experience 
+in workplace comfort management. In Proceedings of the 2018 CHI conference on 
+human factors in computing systems. ACM New York NY USA, Montreal Canada, 
+1–12. 
+[48] Emanuele Coluccia and Giorgia Louse. 2004. Gender differences in spatial 
+orientation: A review. Journal of environmental psychology 24, 3 (2004), 329– 
+340. 
+[49] Marios Constantinides, Sanja Šćepanović, Daniele Quercia, Hongwei Li, Ugo 
+Sassi, and Michael Eggleston. 2020. ComFeel: Productivity is a matter of the 
+senses too. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiqui-
+tous Technologies 4, 4 (2020), 1–21. 
+[50]
+ Eric Corbett and Yanni Loukissas. 2019. Engaging gentrification as a social 
+justice issue in HCI. In Proceedings of the 2019 chi conference on human factors 
+in computing systems. ACM New York Ny USA, Glasgow Scotland, 1–16. 
+[51] Aykut Coskun, Nazli Cila, Iohanna Nicenboim, Christopher Frauenberger, Ron 
+Wakkary, Marc Hassenzahl, Clara Mancini, Elisa Giaccardi, and Laura Forlano. 
+2022. More-than-human Concepts, Methodologies, and Practices in HCI. In CHI 
+Conference on Human Factors in Computing Systems Extended Abstracts. ACM 
+New York NY USA, New Orleans USA, 1–5. 
+[52] Corentin Coupry, Sylvain Noblecourt, Paul Richard, David Baudry, and David 
+Bigaud. 2021. BIM-Based digital twin and XR devices to improve maintenance 
+procedures in smart buildings: A literature review. Applied Sciences 11, 15 (2021), 
+6810. 
+[53] Ruth Dalton, Nick Dalton, Christoph Hoelscher, Christian Veddeler, Jakub 
+Krukar, and Mikael Wiberg. 2020. HabiTech: Inhabiting Buildings, Data & 
+Technology. In Extended Abstracts of the 2020 CHI Conference on Human Factors 
+in Computing Systems. ACM New York, NY, USA, Honolulu USA, 1–8. 
+[54] Piet De Koning, Simone Van Wieringen, Lenneke Kuijer, Joep Frens, and Berry 
+Eggen. 2024. Close a door to open a window: Unpacking strategies and know-
+how in making comfortable.. In Proceedings of the 2024 ACM Designing Interactive 
+Systems Conference. ACM New York, NY, USA, Honolulu HI USA, 3129–3144. 
+[55] Honghao Deng, Jiabao Li, Xuesong Zhang, and Panagiotis Michalatos. 2019. 
+Diffusive Geometries: Vapor as a Tectonic Element to Sculpt Microclimates 
+in Architectural Space. In Proceedings of the 2019 Conference on Creativity and 
+Cognition. ACM, San Diego USA, 436–443. 
+[56] Nancy Diniz. 2008. Body tailored space: experiments in evolving spatial interac-
+tions. In ACM SIGGRAPH 2008 posters. ACM NY, California, USA, 1–2. 
+[57] Lynn Dombrowski, Ellie Harmon, and Sarah Fox. 2016. Social justice-oriented 
+interaction design: Outlining key design strategies and commitments. In Pro-
+ceedings of the 2016 ACM Conference on Designing Interactive Systems. ACM New 
+York NY USA, San Jose USA, 656–671. 
+[58] Eleni Economidou. 2020. Exploring the Design Space of Embodied Architectonic 
+Interaction. In Companion Publication of the 2020 ACM Designing Interactive 
+Systems Conference. ACM, Honolulu HI USA, 509–514. 
+[59] Eleni Economidou and Bart Hengeveld. 2021. No door handle, no entry! Ex-
+pressing cues through a shape-changing door. In Companion Proceedings of the 
+2021 Conference on Interactive Surfaces and Spaces. ACM NY, Yokohama Japan, 
+1–7. 
+[60] Ulrich Exner. 2020. Basics Spatial Design. Birkhäuser, London UK. 
+[61] Yuan Feng, Suihuai Yu, Dirk Van De Mortel, Emilia Barakova, Jun Hu, and 
+Matthias Rauterberg. 2019. LiveNature: Ambient display and social robot-
+facilitated multi-sensory engagement for people with dementia. In Proceedings 
+of the 2019 on designing interactive systems conference. ACM, Glasgow Scotland, 
+1321–1333. 
+[62] Walter Fieuw, Marcus Foth, and Glenda Amayo Caldwell. 2022. Towards a more-
+than-human approach to smart and sustainable urban development: Designing 
+for multispecies justice. Sustainability 14, 2 (2022), 948. 
+[63] Patrick Tobias Fischer. 2012. Urban HCI: interaction patterns in the built envi-
+ronment. In CHI’12 Extended Abstracts on Human Factors in Computing Systems. 
+ACM New York NY USA, Austin Texas USA, 919–922. 
+[64] Sarah Fox, Mariam Asad, Katherine Lo, Jill P Dimond, Lynn S Dombrowski, and 
+Shaowen Bardzell. 2016. Exploring social justice, design, and HCI. In Proceedings 
+of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing 
+Systems. ACM New York NY USA, San Jose USA, 3293–3300. 
+[65] Monika Frontczak and Pawel Wargocki. 2011. Literature survey on how dif-
+ferent factors influence human comfort in indoor environments. Building and 
+Environment 46, 4 (2011), 922–937. 
+[66] Anne Galloway and Catherine Caudwell. 2018. Speculative design as research 
+method: From answers to questions and “staying with the trouble”. In Undesign. 
+Routledge, London UK, 85–96. 
+[67] Nan Gao, Max Marschall, Jane Burry, Simon Watkins, and Flora D Salim. 2022. 
+Understanding occupants’ behaviour, engagement, emotion, and comfort in-
+doors with heterogeneous sensors and wearables. Scientific Data 9, 1 (2022), 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+1–16.
+ 
+[68] Nan Gao, Wei Shao, Mohammad Saiedur Rahaman, and Flora D Salim. 2020. 
+n-gage: Predicting in-class emotional, behavioural and cognitive engagement in 
+the wild. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous 
+Technologies 4, 3 (2020), 1–26. 
+[69] Franca Garzotto, Eleonora Beccaluva, Mattia Gianotti, and Fabiano Riccardi. 
+2020. Interactive multisensory environments for primary school children. In 
+Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 
+ACM New York NY USA, Honolulu HI USA, 1–12. 
+[70] William Gaver, John Bowers, Andy Boucher, Andy Law, Sarah Pennington, and 
+Nicholas Villar. 2006. The history tablecloth: illuminating domestic activity. In 
+Proceedings of the 6th conference on Designing Interactive systems. ACM NY USA, 
+Montreal Canada, 199–208. 
+[71] William W. Gaver, Andrew Boucher, Sarah Pennington, and Brendan Walker. 
+2004. Cultural probes and the value of uncertainty. Interactions 11, 5 (sep 2004), 
+53–56. https://doi.org/10.1145/1015530.1015555 
+[72] William W Gaver, John Bowers, Kirsten Boehner, Andy Boucher, David WT 
+Cameron, Mark Hauenstein, Nadine Jarvis, and Sarah Pennington. 2013. Indoor 
+weather stations: investigating a ludic approach to environmental HCI through 
+batch prototyping. In Proceedings of the SIGCHI Conference on Human Factors in 
+Computing Systems. ACM NY USA, Paris France, 3451–3460. 
+[73] Mikhail Genkin and JJ McArthur. 2023. B-SMART: A reference architecture for 
+artificially intelligent autonomic smart buildings. Engineering Applications of 
+Artificial Intelligence 121 (2023), 106063. 
+[74] Elisa Giaccardi and Johan Redström. 2020. Technology and more-than-human 
+design. Design Issues 36, 4 (2020), 33–44. 
+[75] Pablo Gil, Claudio Rossi, and William Coral. 2015. Biophilic Evolutionary 
+Buildings that Restore the Experience of Animality in the City. In Biomimetic and 
+Biohybrid Systems: 4th International Conference, Living Machines 2015, Barcelona, 
+Spain, July 28-31, 2015, Proceedings 4. Springer, Springer Nature Link, Edinburgh, 
+United Kingdom, 465–472. 
+[76] Jens Emil Grønbæk, Henrik Korsgaard, Marianne Graves Petersen, Morten Hen-
+riksen Birk, and Peter Gall Krogh. 2017. Proxemic transitions: designing shape-
+changing furniture for informal meetings. In Proceedings of the 2017 CHI confer-
+ence on human factors in computing systems. ACM NY USA, Denver CO USA, 
+7029–7041. 
+[77] Anne-Marie Skriver Hansen, Dan Overholt, Winslow Burleson, and Camilla Nør-
+gaard Jensen. 2009. Pendaphonics: a tangible pendulum-based sonic interaction 
+experience. In Proceedings of the 3rd International Conference on Tangible and 
+Embedded Interaction. ACM, Bordeaux France, 153–160. 
+[78] Steve Harrison and Paul Dourish. 1996. Re-place-ing space: the roles of place 
+and space in collaborative systems. In Proceedings of the 1996 ACM conference on 
+Computer supported cooperative work. ACM NY USA, Yokohama Japan, 67–76. 
+[79] Steve Harrison, Phoebe Sengers, and Deborah Tatar. 2011. Making epistemologi-
+cal trouble: Third-paradigm HCI as successor science. Interacting with computers 
+23, 5 (2011), 385–392. 
+[80] Sara Heitlinger, Marcus Foth, and Rachel Clarke. 2024. Designing More-than-
+Human Smart Cities: Beyond Sustainability, Towards Cohabitation. Oxford Uni-
+versity Press, Oxford UK. 
+[81] Bill Hillier, Adrian Leaman, Paul Stansall, and Michael Bedford. 1976. Space 
+syntax. Environment and Planning B: Planning and design 3, 2 (1976), 147–185. 
+[82] Linda Hirsch, Siiri Paananen, Eva Hornecker, Luke Hespanhol, Tsvi Kuflik, 
+Tatiana Losev, and Jonna Häkkilä. 2023. Re-contextualizing Built Environments: 
+Critical and Inclusive HCI Approaches for Cultural Heritage. In IFIP Conference 
+on Human-Computer Interaction . Springer, Springer Nature Link, York UK, 668– 
+673. 
+[83] Charlotte Hoare, Rosie Campbell, Richard Felton, and Liam Betsworth. 2015. 
+Hide and seek: exploring interaction with smart wallpaper. In Proceedings of the 
+2015 Annual Symposium on Computer-Human Interaction in Play. ACM NY USA, 
+Seoul Republic of Korea, 129–133. 
+[84] Sarah Homewood, Marika Hedemyr, Maja Fagerberg Ranten, and Susan Kozel. 
+2021. Tracing conceptions of the body in HCI: From user to more-than-human. In 
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 
+ACM NY USA, Denver CO USA, 1–12. 
+[85] Kristina Hook. 2018. Designing with the body: Somaesthetic interaction design . 
+MIt Press, Cambridge USA. 
+[86] Kasper Hornbæk and Antti Oulasvirta. 2017. What is interaction?. In Proceedings 
+of the 2017 CHI conference on human factors in computing systems. ACM NY USA, 
+Denver CO USA, 5040–5052. 
+[87] Hamideh Hosseini-Toudeshky and Marta Kersten-Oertel. 2023. Integrating Real-
+Time Health Status into Everyday Objects: A Design Case Study on Enhancing 
+Diabetic Health Monitoring with Artistic Creations. In Proceedings of the 25th 
+International Conference on Mobile Human-Computer Interaction. ACM NY USA, 
+Athens Greece, 1–6. 
+[88] Andrew J Howell, Raelyne L Dopko, Holli-Anne Passmore, and Karen Buro. 
+2011. Nature connectedness: Associations with well-being and mindfulness. 
+Personality and individual differences 51, 2 (2011), 166–171. [89] Martina Huynh, Jonas Althaus, and Hyunjung Kim. 2022. Tidal Space: Interactive 
+Home Installation for Work-From-Home Parents. In SIGGRAPH Asia 2022 
+Emerging Technologies. ACM, NY USA, 1–2. 
+[90] Yoshio Ishiguro, Eric Brockmeyer, Alex Rothera, and Ali Israr. 2014. Ubisonus: 
+spatial freeform interactive speakers. In Adjunct Proceedings of the 27th Annual 
+ACM Symposium on User Interface Software and Technology. ACM, NY USA, 
+67–68. 
+[91] Rune Møberg Jacobsen, Kasper Fangel Skov, Stine S Johansen, Mikael B Skov, 
+and Jesper Kjeldskov. 2023. Living with sound zones: A long-term field study 
+of dynamic sound zones in a domestic context. In Proceedings of the 2023 CHI 
+Conference on Human Factors in Computing Systems. ACM NY USA, Hamburg 
+Germany, 1–14. 
+[92] Joanne Jakovich and Kirsty Beilharz. 2007. ParticleTecture: interactive granular 
+soundspaces for architectural design. In Proceedings of the 7th international 
+conference on New interfaces for musical expression. ACM NY USA, New York 
+NY USA, 185–190. 
+[93] Joanne Jakovich and Dagmar Reinhardt. 2007. Sonictecture: esthetic spatial 
+conditioning through sound, computation and interaction. In Proceedings of the 
+6th ACM SIGCHI conference on Creativity & cognition. ACM NY USA, New York 
+NY USA, 255–256. 
+[94] Rebecca Jamwal, Hannah K Jarman, Eve Roseingrave, Jacinta Douglas, and 
+Dianne Winkler. 2022. Smart home and communication technology for peo-
+ple with disability: a scoping review. Disability and rehabilitation: assistive 
+technology 17, 6 (2022), 624–644. 
+[95] Farrokh Jazizadeh and Burcin Becerik-Gerber. 2012. Toward adaptive comfort 
+management in office buildings using participatory sensing for end user driven 
+control. In Proceedings of the Fourth ACM Workshop on Embedded Sensing Systems 
+for Energy-Efficiency in Buildings. ACM NY USA, New York NY USA, 1–8. 
+[96] Weiyu Ji, Lu Yang, Zhansheng Liu, and Shuxin Feng. 2023. A Systematic Review 
+of Sensing Technology in Human-Building Interaction Research. Buildings 13, 
+3 (2023), 691. 
+[97] Vaibhav Rai Khare, Ravi Garg, Jyotirmay Mathur, and Vishal Garg. 2023. Ther-
+mal comfort analysis of personalized conditioning system and performance 
+assessment with different radiant cooling systems. Energy and Built Environment 
+4, 1 (2023), 111–121. 
+[98] David Kirsh. 2019. Do architects and designers think about interactivity differ -
+ently? ACM Transactions on Computer-Human Interaction (TOCHI) 26, 2 (2019), 
+1–43. 
+[99] Pascal Knierim, Paweł W Woźniak, Yomna Abdelrahman, and Albrecht Schmidt. 
+2019. Exploring the potential of augmented reality in domestic environments. In 
+Proceedings of the 21st International Conference on human-computer interaction 
+with mobile devices and services. ACM NY USA, New York NY USA, 1–12. 
+[100] Maria Korozi, Eleni Stefanidi, Georgia Samaritaki, Antonis Prinianakis, Antonis 
+Katzourakis, Asterios Leonidis, and Margherita Antona. 2019. Shaping the 
+intelligent classroom of the future. In HCI International 2019–Late Breaking 
+Posters: 21st HCI International Conference, HCII 2019, Orlando, FL, USA, July 
+26–31, 2019, Proceedings 21. Springer, Springer Nature Link, Orlando FL USA, 
+200–212. 
+[101] AY Kudryashova, KV Boychenko, and IV Boychenko. 2020. Interactive built en-
+vironment in shaping users orientation and navigation in space. In 2020 Systems 
+of Signals Generating and Processing in the Field of on Board Communications. 
+IEEE, IEEE, Moscow Russia, 1–4. 
+[102] Z Gözde Kutlu. 2005. The sense of direction in virtual environments. Master’s 
+thesis. Bilkent Universitesi (Turkey). 
+[103] Jain Kwon, Suzie Linihan, Alyssa Iedema, Alea Schmidt, Chenyi Luo, and Karime 
+Marrufo. 2023. How interior design responds to neurodiversity: implementing 
+wearable technologies in neurodesign processes. Frontiers in Built Environment 
+9 (2023), 1211519. 
+[104] Ayu Latifah, Suhono Harso Supangkat, and Agus Ramelan. 2020. Smart building: 
+A literature review. In 2020 International Conference on ICT for Smart Society 
+(ICISS). IEEE, IEEE, Bandung Indonesia, 1–6. 
+[105] Sabina Leonelli. 2016. The philosophy of data. The Routledge Handbook of 
+Philosophy of Information 4, 2 (2016), 191–202. 
+[106] Susan Loh and Yasu Santo. 2010. " Please touch the plant on your way up the 
+stairs..." for OZCHI conference 2010. In Proceedings of the 22nd Conference of the 
+Computer-Human Interaction Special Interest Group of Australia on Computer-
+Human Interaction. ACM NY USA, New York NY USA, 412–413. 
+[107] Crystal Loszchuk. 2020. Why combining interactive installations with social 
+justice art is an effective way to engage viewers and make space for student 
+voice and learning. University of Victoria 2, 12 (2020), 1–65. 
+[108] Michelle Lui, Alex C Kuhn, Alisa Acosta, Chris Quintana, and James D Slotta. 
+2014. Supporting learners in collecting and exploring data from immersive 
+simulations in collective inquiry. In Proceedings of the SIGCHI Conference on 
+Human Factors in Computing Systems. ACM NY USA, New York NY USA, 2103– 
+2112. 
+[109] Stine Schmieg Lundgaard, Jesper Kjeldskov, and Mikael Skov. 2019. Temporal 
+constraints in human-building interaction. ACM Transactions on Computer-
+Human Interaction 26, 2 (2019), 8. 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+[110]
+ Chuan Ma, Olivia Guerra-Santin, and Masi Mohammadi. 2022. Smart home 
+modification design strategies for ageing in place: a systematic review. Journal 
+of Housing and the Built Environment 37, 2 (2022), 625–651. 
+[111] Eleni Margariti, Vasilis Vlachokyriakos, Abigail C Durrant, and David Kirk. 2024. 
+Evaluating ActuAir: Building Occupants’ Experiences of a Shape-Changing Air 
+Quality Display. In Proceedings of the CHI Conference on Human Factors in 
+Computing Systems. ACM NY USA, New York NY USA, 1–21. 
+[112] Davit Marikyan, Savvas Papagiannidis, and Eleftherios Alamanos. 2019. A 
+systematic review of the smart home literature: A user perspective. Technological 
+Forecasting and Social Change 138 (2019), 139–154. 
+[113] Gonçalo Marques and Rui Pitarma. 2020. A real-time noise monitoring system 
+based on internet of things for enhanced acoustic comfort and occupational 
+health. IEEE Access 8 (2020), 139741–139755. 
+[114] Antonella Mazzone and Radhika Khosla. 2021. Socially constructed or physio-
+logically informed? Placing humans at the core of understanding cooling needs. 
+Energy Research & Social Science 77 (2021), 102088. 
+[115] Sophie McDonald, David Kirk, and Nick Bryan-Kinns. 2015. Nature bot: Ex-
+periencing nature in the built environment. In Proceedings of the 2015 ACM 
+SIGCHI Conference on Creativity and Cognition. ACM NY USA, New York NY 
+USA, 173–176. 
+[116] Kai Mei and Yongfeng Zhang. 2023. LightLM: a lightweight deep and narrow 
+language model for generative recommendation. arXiv preprint arXiv:2310.17488 
+25, 2 (2023), 118–138. 
+[117] Sarah Mennicken, Jo Vermeulen, and Elaine M Huang. 2014. From today’s 
+augmented houses to tomorrow’s smart homes: new directions for home au-
+tomation research. In Proceedings of the 2014 ACM international joint conference 
+on pervasive and ubiquitous computing. ACM NY USA, New York NY USA, 
+105–115. 
+[118] Kathryn Merrick, Rob Saunders, and Mary Lou Maher. 2007. Curious Places: 
+Curious, Proactive, Adaptive Built Environments. In Symposium on Artificial 
+Societies for Ambient Intelligence. Citeseer, ACM NY USA, New York NY USA, 
+34–36. 
+[119] Sam Mitchell Finnigan. 2017. Deploying Pervasive Sensing for Evidence-Based 
+Management, Services and Sustainable Policy. In Companion of the 2017 ACM 
+Conference on Computer Supported Cooperative Work and Social Computing. ACM 
+NY USA, New York NY USA, 85–88. 
+[120] Samantha Mitchell Finnigan and Adrian K Clear. 2020. " No powers, man!": A 
+Student Perspective on Designing University Smart Building Interactions. In 
+Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 
+ACM NY USA, New Orleans USA, 1–14. 
+[121] Samantha Mitchell Finnigan, Adrian K Clear, and Patrick Olivier. 2018. SpaceBot: 
+Towards participatory evaluation of smart buildings. In Extended Abstracts of 
+the 2018 CHI Conference on Human Factors in Computing Systems. ACM NY USA, 
+New York NY USA, 1–6. 
+[122] Samantha Jane Mitchell Finnigan. 2020. Human-Centred Smart Buildings: Re-
+framing Smartness Through the Lens of Human-Building Interaction. Ph. D. 
+Dissertation. Newcastle University. 
+[123] Stuart Moran, Nils Jaeger, Holger Schnädelbach, and Kevin Glover. 2013. Using 
+adaptive architecture to probe attitudes towards ubiquitous monitoring. In 
+2013 IEEE International Symposium on Technology and Society (ISTAS): Social 
+Implications of Wearable Computing and Augmediated Reality in Everyday Life. 
+IEEE, IEEE, Toronto Canada, 42–50. 
+[124] Marco Moreno-Ibarra, Magdalena Saldaña-Perez, Samuel Pérez Rodríguez, and 
+Emmanuel Juárez Carbajal. 2024. Generative Artificial Intelligence in the Con-
+text of Urban Spaces. In International Congress of Telematics and Computing. 
+Springer, Springer Nature Link, Mazataln, Mexico, 209–222. 
+[125] Ascher K Munion, Jeanine K Stefanucci, Ericka Rovira, Peter Squire, and Michael 
+Hendricks. 2019. Gender differences in spatial navigation: Characterizing 
+wayfinding behaviors. Psychonomic bulletin & review 26 (2019), 1933–1940. 
+[126] Zachary Munn, Micah DJ Peters, Cindy Stern, Catalin Tufanaru, Alexa McArthur, 
+and Edoardo Aromataris. 2018. Systematic review or scoping review? Guidance 
+for authors when choosing between a systematic or scoping review approach. 
+BMC medical research methodology 18 (2018), 1–7. 
+[127] Sara Nabil, David Kirk, Thomas Ploetz, and Peter Wright. 2017. Designing future 
+ubiquitous homes with oui interiors: possibilities and challenges. Interaction 
+Design and Architecture (s) 32 (2017), 28–37. 
+[128] Sara Nabil and Richard MacLeod. 2020. Peace: Projecting dual-identities on 
+interactive furniture. In Proceedings of the Fourteenth International Conference 
+on Tangible, Embedded, and Embodied Interaction. ACM NY USA, New York NY 
+USA, 837–848. 
+[129] Binh Vinh Duc Nguyen, Jihae Han, and Andrew Vande Moere. 2022. Towards 
+Responsive Architecture that Mediates Place: Recommendations on How and 
+When an Autonomously Moving Robotic Wall Should Adapt a Spatial Layout. 
+Proc. ACM Hum. Comput. Interact. 6, CSCW2 (2022), 1–27. 
+[130] Timo Nummenmaa, Heikki Tyni, Annakaisa Kultima, Kati Alha, and Jussi 
+Holopainen. 2015. Need to touch, wonder of discovery, and social capital: 
+experiences with interactive playful seats. In Proceedings of the 12th Interna-
+tional Conference on Advances in Computer Entertainment Technology. ACM NY USA, New York NY USA, 1–12. 
+[131] Alexis Olry, Julien Veytizou, David Bertolo, Robin Vivian, JM Christian Bastien, 
+and Stéphanie Fleck. 2020. PrisMe: a Tangible User Interface for Group Work 
+Regulation. In European Tangible Interaction Studio 2020, Vol. 2801. CEUR, Siena, 
+Italy, 1–7. 
+[132] Jo Olsen and Jeremy Spaulding. 2017. ‘Wizard of Oz’Study for Controlling 
+Living Room Lighting. In Distributed, Ambient and Pervasive Interactions: 5th 
+International Conference, DAPI 2017, Held as Part of HCI International 2017, 
+Vancouver, BC, Canada, July 9–14, 2017, Proceedings 5. Springer, Springer Nature 
+Link, Vancouver, BC, 105–119. 
+[133] Carolina Reich Marcon Passero and Paulo Henrique Trombetta Zannin. 2012. 
+Acoustic evaluation and adjustment of an open-plan office through architectural 
+design and noise control. Applied Ergonomics 43, 6 (2012), 1066–1071. 
+[134] Mark Perry, Steve Beckett, Kenton O’Hara, and Sriram Subramanian. 2010. 
+WaveWindow: public, performative gestural interaction. In Acm international 
+conference on interactive tabletops and surfaces. ACM NY USA, New York NY 
+USA, 109–112. 
+[135] Marianne Graves Petersen. 2007. Squeeze: designing for playful experiences 
+among co-located people in homes. In CHI’07 extended abstracts on Human 
+factors in computing systems. ACM NY USA, New York NY USA, 2609–2614. 
+[136] Rosalind W Picard. 1999. Affective computing for hci.. In HCI (1). Citeseer, ACM 
+NY USA, NJ USA, 829–833. 
+[137] Zohreh Pourzolfaghar and Markus Helfert. 2016. Investigating HCI challenges 
+for designing smart environments. In HCI in Business, Government, and Organi-
+zations: Information Systems: Third International Conference, HCIBGO 2016, Held 
+as Part of HCI International 2016, Toronto, Canada, July 17-22, 2016, Proceedings, 
+Part II 3. Springer, Springer Nature Link, Toronto, Canada, 79–90. 
+[138] Zachary Pousman, Mario Romero, Adam Smith, and Michael Mateas. 2008. 
+Living with tableau machine: a longitudinal investigation of a curious domestic 
+intelligence. In Proceedings of the 10th international conference on Ubiquitous 
+computing. ACM NY USA, New York NY USA, 370–379. 
+[139] Miloš Radić, Tomislav Keser, and Damir Blažević. 2023. An Advanced Tactile-
+Haptic Controller for Smart Home. In International Conference on Organization 
+and Technology of Maintenance. Springer , ACM NY USA, New York NY USA, 
+419–431. 
+[140] Shruti Rao, Hamed Alavi, and Judith Good. 2023. Towards Empathic Buildings: 
+Exploring How Smart Buildings May Be Designed to Address Occupants’ Sub-
+jective Needs. In Proceedings of the 2nd Empathy-Centric Design Workshop. ACM 
+NY USA, New York NY USA, 1–4. 
+[141] William Renel. 2018. ’Auraldiversity’: Defining a Hearing-Centred Perspective 
+to Socially Equitable Design of the Built Environment. Built Environment 44, 1 
+(2018), 36–51. 
+[142] Robert Richer, Nan Zhao, Bjoern M Eskofier, and Joseph A Paradiso. 2020. Explor-
+ing smart agents for the interaction with multimodal mediated environments. 
+Multimodal Technologies and Interaction 4, 2 (2020), 27. 
+[143] Katja Rogers, Teresa Hirzle, Sukran Karaosmanoglu, Paula Toledo Palomino, 
+Ekaterina Durmanova, Seiji Isotani, and Lennart E Nacke. 2024. An Umbrella 
+Review of Reporting Quality in CHI Systematic Reviews: Guiding Questions 
+and Best Practices for HCI. ACM Transactions on Computer-Human Interaction 
+31, 5 (2024), 1–55. 
+[144] Yvonne Rogers, William R Hazlewood, Paul Marshall, Nick Dalton, and Susanna 
+Hertrich. 2010. Ambient influence: Can twinkly lights lure and abstract represen-
+tations trigger behavioral change?. In Proceedings of the 12th ACM international 
+conference on Ubiquitous computing. ACM, Copenhagen Denmark, 261–270. 
+[145] Flora Dilys Salim and Chin Koi Khoo. 2013. emoTicSpace: when the built 
+environments get emotional.... In Proceedings of the 2013 ACM conference on 
+Pervasive and ubiquitous computing adjunct publication. ACM NY USA, Paris 
+France, 1363–1366. 
+[146] Gérald Santucci. 2013. Privacy in the digital economy: requiem or renaissance. 
+Privacy Surgeon 26, 8 (2013), 106–128. 
+[147] Prasetya Cahya Saputra and Arief Ramadhan. 2023. Smart building trend, role, 
+and position: a systematic. Int J Reconfigurable & Embedded Syst 12, 1 (2023), 
+29–41. 
+[148] Charlotte Scarpa, Gwénaëlle Haese, Toinon Vigier, and Patrick Le Callet. 2023. 
+Construction of immersive and interactive methodology based on physiological 
+indicators to subjectively and objectively assess comfort and performances 
+in work offices. In Proceedings of the 2023 ACM International Conference on 
+Interactive Media Experiences. ACM New York, NY, USA, Nantes France, 394– 
+397. 
+[149] Holger Schnädelbach, Nils Jäger, and Lachlan Urquhart. 2019. Adaptive archi-
+tecture and personal data. ACM Transactions on Computer-Human Interaction 
+(TOCHI) 26, 2 (2019), 1–31. 
+[150] Susanne Schuricht, Michael Hohl, and Mirjam Struppek. 2007. Freequent Trav-
+eller: interaction versus contemplation. In Proceedings of the 1st international 
+conference on Tangible and embedded interaction. ACM, Baton Rouge Louisiana, 
+247–250. 
+[151] Jie Shan and Hongyuan Mei. 2020. A Theoretical and Practical Review on Multi-
+Sensory Interactive Space Design for Autistic Children. In Proceedings of the 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+2020 4th International Conference on E-Education, E-Business and E-Technology. 
+ACM, Shanghai China, 61–65. 
+[152] Mark Shepard. 2011. Sentient city: Ubiquitous computing, architecture, and the 
+future of urban space. The MIT press, MIT USA. 
+[153] Richard M Shusterman. 2011. Somaesthetics and Architecture. Cambridge 
+University Press 8, 2 (2011), 625–651. 
+[154] Mel Slater. 2009. Place illusion and plausibility can lead to realistic behaviour in 
+immersive virtual environments. Philosophical Transactions of the Royal Society 
+B: Biological Sciences 364, 1535 (2009), 3549–3557. 
+[155] Stephen Snow, Michael Oakley, and MC Schraefel. 2019. Performance by design: 
+supporting decisions around indoor air quality in offices. In Proceedings of the 
+2019 on Designing Interactive Systems Conference. ACM NY USA, New York NY 
+USA, 99–111. 
+[156] Holly Sowles and Laura Huisinga. 2021. Introducing Intelligent Interior Design 
+Framework (IIDF) and the Overlap with Human Building Interaction (HBI). In 
+Advances in Artificial Intelligence, Software and Systems Engineering: Proceedings 
+of the AHFE 2020 Virtual Conferences on Software and Systems Engineering, and 
+Artificial Intelligence and Social Computing, July 16-20, 2020, USA. Springer, 
+Springer Nature Link, Virtual, 483–489. 
+[157] Saiganesh Swaminathan, Yellina Yim, Scott E Hudson, Cynthia L Bennett, and 
+Patrick Carrington. 2021. From tactile to NavTile: opportunities and challenges 
+with multi-modal feedback for guiding surfaces during non-visual navigation. In 
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 
+ACM NY USA, New York NY USA, 1–13. 
+[158] Yuichiro Takeuchi. 2009. Bezier lights: establishing virtual boundaries in indoor 
+environments. In CHI’09 Extended Abstracts on Human Factors in Computing 
+Systems. ACM NY USA, New York NY USA, 3595–3600. 
+[159] Yuichiro Takeuchi. 2010. Weightless walls and the future office. In Proceedings 
+of the SIGCHI Conference on Human Factors in Computing Systems. ACM NY 
+USA, New York NY USA, 619–628. 
+[160] Nour Tawil, Izabela Maria Sztuka, Kira Pohlmann, Sonja Sudimac, and Simone 
+Kühn. 2021. The living space: psychological well-being and mental health 
+in response to interiors presented in virtual reality. International Journal of 
+Environmental Research and Public Health 18, 23 (2021), 12510. 
+[161] Angelique Taylor, Michele Murakami, Soyon Kim, Ryan Chu, and Laurel D 
+Riek. 2022. Hospitals of the future: Designing interactive robotic systems for 
+resilient emergency departments. Proceedings of the ACM on Human-Computer 
+Interaction 6, CSCW2 (2022), 1–40. 
+[162] Orkan Telhan, Federico Casalegno, Juhong Park, Sotirios Kotsopoulos, and Carl 
+Yu. 2010. Interaction design with building facades. In Proceedings of the fourth 
+international conference on Tangible, embedded, and embodied interaction. ACM 
+NY USA, New York NY USA, 291–294. 
+[163] Mark Tschaepe. 2021. Somaesthetics of Discomfort. Enhancing Awareness and 
+Inquiry. European Journal of Pragmatism and American Philosophy 13, XIII-1 
+(2021), 1–11. 
+[164] Sarah Turner, July Galindo Quintero, Simon Turner, Jessica Lis, and Leonie Maria 
+Tanczer. 2021. The exercisability of the right to data portability in the emerging 
+Internet of Things (IoT) environment. New Media & Society 23, 10 (2021), 2861– 
+2881. 
+[165] Anna Vallgårda. 2014. The Dress Room: responsive spaces and embodied interac-
+tion. In Proceedings of the 8th Nordic Conference on Human-Computer Interaction: 
+Fun, Fast, Foundational. ACM NY USA, New York NY USA, 618–627. 
+[166] Thomas van de Werff, Karin Niemantsverdriet, Harm van Essen, and Berry 
+Eggen. 2017. Evaluating interface characteristics for shared lighting systems 
+in the office environment. In Proceedings of the 2017 Conference on Designing 
+Interactive Systems. ACM NY USA, New York NY USA, 209–220. 
+[167] Bas van den Boogaard, Louise Ørsted Jensen, Stefan Engelbrecht Nielsen, 
+Vibeke Thorhauge Stephensen, Karina Lindegaard Aae Jensen, and Markus 
+Löchtefeld. 2018. SKIN-Embodied Navigation through WiFi Traffic using Vibro-
+Tactile Feedback. In Proceedings of the Twelfth International Conference on Tan-
+gible, Embedded, and Embodied Interaction. ACM NY USA, New York NY USA, 
+598–604. 
+[168] Himanshu Verma, Hamed S Alavi, and Denis Lalanne. 2017. Studying space 
+use: bringing HCI tools to architectural projects. In Proceedings of the 2017 CHI 
+Conference on Human Factors in Computing Systems. ACM NY USA, New York 
+NY USA, 3856–3866. 
+[169] Nadine von Frankenberg. 2021. Towards resolving thermal comfort conflicts 
+in shared spaces. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. ACM NY USA, New York NY USA, 1–5. 
+[170] Ron Wakkary. 2021. Things we could design: For more than human-centered 
+worlds. MIT press, Cambridge USA. 
+[171] Kai Wang, Shiguo Lian, and Zhaoxiang Liu. 2015. An intelligent screen sys-
+tem for context-related scenery viewing in smart home. IEEE Transactions on 
+Consumer Electronics 61, 1 (2015), 1–9. 
+[172] Christiane Wenhart and Marc Hassenzahl. 2024. There is an “I” in “We”: Re-
+latedness Technologies Viewed Through the Lens of the Need for Autonomy. 
+In Extended Abstracts of the CHI Conference on Human Factors in Computing 
+Systems. ACM NY USA, New York NY USA, 1–7. 
+[173] Mikael Wiberg. 2020. Interaction and architecture is dead. Long live architectural 
+interactivity! Interactions 27, 2 (2020), 72–75. 
+[174] Paweł Woźniak, Andrzej Romanowski, Filip Proborszcz, Martyna Borkowska, 
+Dominik Stozek, and Bartosz Koczorowicz. 2012. Maintaining proper conditions 
+in quiet study rooms with ambient influence. In Proceedings of the 7th Nordic 
+Conference on Human-Computer Interaction: Making Sense Through Design. ACM 
+NY USA, New York NY USA, 787–788. 
+[175] Peter Wright and John McCarthy. 2008. Empathy and experience in HCI. In 
+Proceedings of the SIGCHI conference on human factors in computing systems. 
+ACM NY USA, New York NY USA, 637–646. 
+[176] Peter Wright, John McCarthy, and Lisa Meekison. 2003. Making sense of expe-
+rience. In Funology: From usability to enjoyment. Springer, York, UK, 43–53. 
+[177] Rayoung Yang, Mark W Newman, and Jodi Forlizzi. 2014. Making sustainability 
+sustainable: challenges in the design of eco-interaction technologies. In Proceed-
+ings of the SIGCHI Conference on Human Factors in Computing Systems. ACM 
+NY USA, New York NY USA, 823–832. 
+[178] Malgorzata A. Zboinska, Delia Dumitrescu, and Hanna Landin. 2019. Ex-
+pressing and Sensing Hybrid Materiality: Voluminous Interactive Architec-
+tural Substance. In Proceedings of the Thirteenth International Conference on 
+Tangible, Embedded, and Embodied Interaction (Tempe, Arizona, USA) (TEI 
+’19). Association for Computing Machinery, New York, NY, USA, 483–489. 
+https://doi.org/10.1145/3294109.3301265 
+[179] Amanda J Zellmer and Barbara S Goto. 2022. Urban wildlife corridors: Building 
+bridges for wildlife and people. Frontiers in  Sustainable Cities 4 (2022), 954089. 
+[180] Y. Zhang and P. Barrett. 2012. Factors influencing occupants’ satisfaction in 
+green office buildings: A review and research agenda. Building and Environment 
+57 (2012), 40–46. 
+[181] Nan Zhao, Asaph Azaria, and Joseph A Paradiso. 2017. Mediated atmospheres: A 
+multimodal mediated work environment. Proceedings of the ACM on Interactive, 
+Mobile, Wearable and Ubiquitous Technologies 1, 2 (2017), 1–23. 
+[182] Dongmei Zheng, Youming Chen, and Jinqing Peng. 2023. Daylighting perfor-
+mance and discomfort glare assessment of granular aerogel glazing system: 
+A full-scale comparative experiment. Building and Environment 236 (2023), 
+110297. 
+[183] Sailin Zhong, Hamed S Alavi, and Denis Lalanne. 2020. Hilo-wear: exploring 
+wearable interaction with indoor air quality forecast. In Extended Abstracts of 
+the 2020 CHI Conference on Human Factors in Computing Systems. ACM NY USA, 
+New York NY USA, 1–8. 
+[184] Sailin Zhong, Denis Lalanne, and Hamed Alavi. 2021. The Complexity of Indoor 
+Air Quality Forecasting and the Simplicity of Interacting with It–A Case Study 
+of 1007 Office Meetings. In Proceedings of the 2021 CHI Conference on Human 
+Factors in Computing Systems. ACM NY USA, New York NY USA, 1–19. 
+[185] Tim Zum Hoff, Sabrina Großkopp, Robin Neuhaus, Marc Hassenzahl, and Majella 
+Mirjam Lilith Vincent. 2022. Interactive tables for social experiences at home. 
+In Proceedings of the Sixteenth International Conference on Tangible, Embedded, 
+and Embodied Interaction. ACM NY USA, New York NY USA, 1–12. 
+A Appendix 
+This section shows an example of our charting table with a filled ex-
+ample in Table 4, the general characteristics of the corpus papers in 
+Figure 7. Table 5 provides an overview of the technological interven-
+tions, Figure 8 shows the detailed overview of the research trends, 
+and finally Figure 9 shows the unfolded relationships between the 
+three core findings from our scoping review. 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Table 4: In addition to summary information (i.e., paper metadata), the following charting table template (column headers) 
+shows the information that was extracted from the papers included in the analysis. An example entry shows the extracted (in 
+quotations) and labelled information for a paper by Vallgårda [165]. 
+Research Motivations 
+Metho dologies 
+Type of Smart Building 
+Interactive Technologies 
+Human Experience 
+Measures and Instruments 
+Visions for Future Research 
+“What does it entail to be embraced by a space that responds to 
+your actions?” Conceptual design and proto-
+typing of a responsive space, us-
+ing modern dance as a method 
+to explore interaction qualities. Interactive installation The Dress Room - white cube 
+that responds to the body move-
+ments over the floor “What does it entail to be embraced by a space that responds to your actions?” Sensors in the floor detecting 
+body movements, Pneumatic 
+pistons to move the walls, Ar-
+duino Mega boards for control" 
+"White textile tent suspended 
+within a steel frame Future architectural spaces will incorporate responsive elements to enhance 
+interaction and experience 
+“What kind of relations can we create between the active body 
+and the active space?” “What kind of relations can we create between the active body and the active space?” DANCE AS RESEARCH 
+METHOD - Observations and 
+interviews “The Dress Room is a responsive space. It moves. It adapts. The floor senses where 
+you are. The room responds. It follows you. It stops. It collapses then expands. You 
+are enclosed. It is a dress you wear. Sometimes it fits, sometimes it misbehaves. It 
+invites you to move. To explore. To dance. The Dress Room blurs the boundaries 
+between architecture and clothes.” 
+“What qualities does the responsivity have for creating certain 
+experiences of a space?” “What qualities does the responsivity have for creating certain experiences of a space?” “Thus, with the Dress Room as a simple responsive space explored through modern 
+dance I have begun to outline some of the experiential qualities of being embraced 
+by a space that responds to our bodily motions. My explorations have indicated 
+that responsive spaces hold the potential to make us form a kind of symbiosis 
+with the space they are in – that the temporal form of the space’s responsivity 
+enables us to design for a sense of intimacy. They further indicated that our actions 
+and the space’s responses become interchanged and while the body and the room 
+moves together they are constantly motivated/actuated by one another. The mutual 
+responses of the body and the space are integrated but not the same. They are in a 
+cause-and-effect relationship that is constantly evolving.” 
+“Through the Dress Room, I begin to explore the qualities of re-
+sponsive spaces and embodied interaction.” “. This seems to indicate that exposing our body to an unfamiliar responsive environment may be 
+a bit daunting at first it may be something we need to overcome.” 
+“Indeed, what I am interested in with this study is to explore 
+the kind of relations we can create between the active body and 
+the active space. I see explorations like this as a step towards 
+understanding what experiences and new types of interaction 
+these responsive spaces can foster” “The Dress Room’s ability to motivate Nana to move towards certain areas of the space as well as 
+to move her body in specific ways indicate that responsive spaces can have a significant qualities 
+when it comes to motion motivation.” 
+“What I want to explore here is the experience of the responsivity 
+from a fully embodied interaction perspective. What experiential 
+qualities does it have? What possibly new ways of inhabiting 
+space it can encourage? What potential new types of interaction 
+can we develop from this?” “Thus, with the Dress Room as a simple responsive space explored through modern dance I have 
+begun to outline some of the experiential qualities of being embraced by a space that responds 
+to our bodily motions. My explorations have indicated that responsive spaces hold the potential 
+to make us form a kind of symbiosis with the space they are in – that the temporal form of the 
+space’s responsivity enables us to design for a sense of intimacy. They further indicated that our 
+actions and the space’s responses become interchanged and while the body and the room moves 
+together they are constantly motivated/actuated by one another. The mutual responses of the body 
+and the space are integrated but not the same. They are in a cause-and-effect relationship that is 
+constantly evolving.” 
+“The Dress Room is a white cube that responds to the body’s movements over the floor. The walls 
+move, the room collapses or expands.” 
+“The outcome suggests that interacting with responsive environments can help create a sense of 
+intimacy as well as motivate our motions within the space.” 
+“The Dress Room is a white cube that responds to the body movements over the floor. It is made from 
+a white square textile tent suspended within a steel frame measuring 5x5x5 meter. The suspension 
+allows for the entire room to move more than half a meter in each direction. The sensors in the 
+floor detect where a body is and the room responds either by moving with or away from that body 
+depending on the setup.” 
+“Through a dancer’s experiences we begin to understand what experiential qualities, and thus 
+what possibilities for interaction design, this kind of responsiveness affords.” 
+“The Dress Room was developed as an aesthetic exploration and is deliberately abstract in its 
+expression. It has no function other than as a responsive enclosure.” 
+“The Dress Room is an abstract installation made in an attempt to focus the experience around the 
+responsivity. It is conceived as a space you take on like a dress.” 
+“the Dress Room is about letting the white garment create a space in co-production with the 
+movements of the body.” 
+“First Type Responsive Form: The Room as a Dress We started out letting the room respond as a 
+dress in the sense that the walls would follow the body within. The room follows you around. It 
+makes you feel that you wear a room. You feel in Control. You belong together. You cannot escape – 
+the door keeps evading you.” 
+“Second Type of Responsive Form: The Vertical Response The second type of responsive form was 
+designed to explore the vertical dimensions of the room. We had deliberately created the room with 
+a high ceiling allowing us to collapse it without coming in contact with the person within” 
+“Still, what does it mean to inhabit an abstract space like the Dress Room? It is abstract like art 
+yet it demands more than an onlooker to be understood. It demands active participation. Thus, I 
+have chosen a method that meets this space at its level of abstraction while still enabling active 
+bodily engagement. I have chosen to use modern dance performed by a professional dancer whose 
+experiences I have sought to understand through observations and interviews.” 
+“Overall Nana described the Dress Room as a constant source of inspiration. She explained that 
+even when she repeated a series of movements within the same responsive form and the response 
+from the pistons was the same the fabric would ripple differently each time creating an overall 
+unique expression.” 
+“She explained that after a while she ceased to focus on how her actions influenced specific responses, 
+and instead she eased into a dance where her motions became responses as well as actuators.” 
+“Lastly, Nana explained while demonstrating through body language how certain responses in the 
+Dress Room would inspire her to do certain movements.” 
+“The two experiential qualities that Nana experienced in the responsive room can be articulated as 
+intimacy and motivated motion.” “With the Dress Room, I sat out to explore embodied interaction with responsive spaces.” 
+“Thus, with the Dress Room as a simple responsive space explored through modern dance I have 
+begun to outline some of the experiential qualities of being embraced by a space that responds 
+to our bodily motions. My explorations have indicated that responsive spaces hold the potential 
+to make us form a kind of symbiosis with the space they are in – that the temporal form of the 
+space’s responsivity enables us to design for a sense of intimacy. They further indicated that our 
+actions and the space’s responses become interchanged and while the body and the room moves 
+together they are constantly motivated/actuated by one another. The mutual responses of the body 
+and the space are integrated but not the same. They are in a cause-and-effect relationship that is 
+constantly evolving.” 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+PUBLICATION YEAR COUNT OF PAPERS 
+0 5 10 15 20 25 
+1996200420052006200720082009201020112012201320142015201620172018201920202021202220232024 
+(a) Papers by Publication Years. NO. PAPERS TYPE OF SMART BUILDING Interactive 
+Installations 
+Schools and 
+Educational 
+Smart Offices 
+Other Smart 
+Spaces 
+Smart Buildings 
+(General) 
+Smart Homes 
+0 10 20 30 40 50 
+(b) Papers by Type of Smart Building. 
+NO. PAPERS PUBLICATION Book Chapter 
+Doctoral Consortium 
+Keynote 
+Magazine Article 
+Note 
+Student Design 
+Competition 
+Tutorial 
+Late Breaking Work 
+Abstract 
+Work in Progress 
+Workshop Proposal 
+Demonstration 
+Extended Abstract 
+Poster 
+Journal Article 
+Conference Paper 
+0 25 50 75 100 125 
+(c) Papers by Type of Publication. NO. PAPERS CONFERENCE GROUP DIS (Designing 
+Interactive Systems) 
+HCI (Human-
+Computer 
+Interaction) - 
+Regional and 
+Specialized ACM 
+Conferences 
+UbiComp and 
+Pervasive Computing 
+Media Architecture 
+and Tangible 
+Interaction 
+Architecture, 
+Environment, and 
+Built Environment 
+CHI (Human-
+Computer 
+Interaction) 
+Conferences 
+Other Specialized 
+Conferences 
+0 20 40 60 80 
+(d) Papers by Publication Venue. 
+Figure 7: An overview of the characteristics of the papers included in our scoping review: (a) Distribution of papers in our 
+scoping review grouped by publication year, including partial data for 2024. We included papers that were published in 2024 
+until June of the same year, while we charted the data. (b) The various types of spaces addressed by papers in our scoping 
+review. (c) Papers grouped by the type of publication. (d) Distribution of papers in our scoping review grouped by the venue 
+they were published at. 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Table 5: A typology of technological interventions in smart buildings. We provide a name and explanation for each technological 
+intervention. Additionally, we share the number of papers that employed the intervention in their work, along with a few 
+prototypical examples. Finally, we demonstrate the connection between the interventions and the targeted human experiences 
+by listing the top three most frequently appearing experiences for which the intervention was employed. 
+Type of Intervention Description N Prototypical Examples Associated Targeted Experiences 
+(n=3) 
+Audio and Lighting Sound and light as key design materials, often synchronised to evoke 
+emotional responses, guide behaviour, or modify spatial perception, 
+creating multi-sensory and immersive environments. 27 Mediated Atmospheres is a modular workspace 
+using lighting, video projection, and sound to 
+transform the appearance of the workspace, 
+tested with 33 participants to collect subjective 
+and objective measures [142]. Trivet Fields uses 
+mini-speakers to create soundscapes to aestheti-
+cally delineate space [93]. Aesthetic Experiences (n=8), Emo-
+tional Experiences (n=7), Comfort 
+(n=6) 
+Augmented and Virtual Re-
+ality Provided immersive experiences blending physical and digital spaces, 
+enhancing spatial awareness and interaction in novel ways. 17 Weightless Walls uses user positions and noise-
+cancelling headphones to display virtual walls to 
+create auditory privacy in office environments 
+[159]. An immersive and interactive methodol-
+ogy using physiological indicators is developed 
+to assess comfort and performance in work of-
+fices [148]. VR Living Rooms use virtual reality 
+simulations of indoor environments to measure 
+psychological responses and affective states [160]. Explorative and/or Future and 
+Speculative (n=6), Sense of Place-
+making (n=4), Emotional Experi-
+ences (n=4) 
+Environmental Sensing Utilises IoT-connected sensors to monitor environmental conditions-
+temperature, light, air quality, and noise, either adjusting parameters 
+automatically or providing real-time information to enhance interac-
+tion with space. 23 Environmental sensors were deployed to measure 
+temperature, humidity, and light, with data visu-
+alised for occupants and building managers [46]. 
+Hilo-box uses CO2 sensors and machine learning 
+to forecast indoor air quality during office meet-
+ings [184]. Comfort (n=13), Democratic Experi-
+ences (n=5), Explorative and/or Fu-
+ture and Speculative (n=4) 
+Feedback Systems Included participatory sensing mobile apps that empowered users 
+to design and adjust their environments through data collection and 
+feedback, fostering personalisation and responsiveness. Also giving 
+users cues around the building to ease tasks like navigation. 11 Follow-the-Lights uses ambient lighting, pres-
+sure mats, and abstract visualisations to influence 
+stair and elevator usage through behavioural cues 
+[144]. A building Twitter bot for engaging with 
+building occupants around their preferences and 
+experiences [120]. Emotional Experiences (n=2), 
+Democratic Experiences (n=2), 
+Inclusion Experiences (n=2) 
+Interactive Displays Integrated with RGB and depth cameras, motion tracking, and 3D 
+simulations, these displays adapt to user interactions, creating dynamic 
+and responsive environments in both residential and public spaces. 45 Interactive window display uses large screens, 
+RGB and depth cameras, and temperature sen-
+sors to display context-related scenery [171]. 
+WaveWindow uses projectors, microphones, and 
+cameras for users to interact with digital content 
+on an interactive retail window display [134]. Explorative and/or Future and Spec-
+ulative (n=14), Experience of Relat-
+edness (n=13), Emotional Experi-
+ences (n=9) 
+Physiological Sensing Used biofeedback devices and wearables to monitor bodily responses, 
+with some interventions adapting environmental conditions in real-
+time based on physiological data. 10 Data such as Electroencephalography (EEG), 
+heart rate, skin conductance, and pulse volume 
+measurements were used to understand neuro-
+physiological responses towards smart home sys-
+tems [11]. Comfort (n=6), Emotional Experi-
+ences (n=4), Inclusion Experiences 
+(n=2) 
+Shape-Changing and Ki-
+netic Interfaces Introduced dynamic physical changes in environments through adap-
+tive furniture and walls that respond to user presence and activities, 
+enabling real-time adaptation of spaces. 22 TidalSpace is a design concept that creates an 
+interactive spatial boundary for work-from-home 
+parents [89]. The Shape-changing work desk uses 
+digital tabletops and motion tracking to enable 
+proxemic transitions in informal meetings [76]. Bodily Experiences (n=9), Explo-
+rative and/or Future and Specula-
+tive (n=7), Sense of Place-making 
+(n=3) 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Rao et al. 
+Figure 8: Research trends shows all publications targeting human experiences in smart buildings over time. 
+What Do We Design for When We Design “Smart Buildings”? - A Scoping Review of Human 
+Experience Design Research in Buildings CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+(a) Human experiences and the associated design mechanisms. 
+ (b) Human experiences and the employed technological interventions. 
+(c) Technological interventions and the associated design mechanisms. 
+Figure 9: An unfolded representation of Figure 7 in subsection 4.3 that shows (a) the relationship between human experiences 
+in smart buildings and the associated design mechanisms, (b) relationship between human experiences in smart buildings 
+and the employed technological interventions, and (c) the relationship between the technological interventions designed or 
+developed for the associated design mechanisms. The numbers in round brackets indicate the number of associated papers in 
+this review. 

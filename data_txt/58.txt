@@ -1,0 +1,897 @@
+Research in Dance Education
+ISSN: 1464-7893 (Print) 1470-1111 (Online) Journal homepage: www.tandfonline.com/journals/crid20
+A bi-ethnographic study of the use of ChatGPT
+in dance teaching in Chinese and Thai higher
+education
+Xu Ma, Tuomeiciren Heyang, Yuzhong Yao & Yu Xiao Ren
+To cite this article: Xu Ma, Tuomeiciren Heyang, Yuzhong Yao & Yu Xiao Ren (03 Apr 2025):
+A bi-ethnographic study of the use of ChatGPT in dance teaching in Chinese and Thai higher
+education, Research in Dance Education, DOI: 10.1080/14647893.2025.2483725
+To link to this article:  https://doi.org/10.1080/14647893.2025.2483725
+Published online: 03 Apr 2025.
+Submit your article to this journal 
+Article views: 110
+View related articles 
+View Crossmark data
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=crid20
+A bi-ethnographic study of the use of ChatGPT in dance 
+teaching in Chinese and Thai higher education
+Xu Maa, Tuomeiciren Heyang
+b, Yuzhong Yaoc and Yu Xiao Rend
+aSchool of Music and Dance, College of Chinese & ASEAN Arts, Chengdu University, Chengdu, China; bThe 
+Arts International College of Krirk University, Bangkok, Thailand; cSchool of Computer Science of Lampang 
+Inter-techl College, Lampang, Thailand; dThe Graduate School of Adamson University, Manila, Philippines
+ABSTRACT
+In the context of the increasing integration of generative artificial 
+intelligence (AI) tools, such as ChatGPT, into higher dance educa -
+tion, this study examines the interaction patterns between dance 
+educators and ChatGPT in educational institutions in China and 
+Thailand, and their impact on the teaching and learning processes. 
+As four dance educators in higher education, we reflect on the 
+potential applications of AI in dance education, based on our own 
+teaching practices. Particularly its role in constructing virtual teach -
+ing spaces and facilitating post-human educational interactions. 
+Utilizing a bi-ethnographic approach, we collected and analyzed 
+qualitative data on the interactions between dance educators and 
+ChatGPT through field investigations. Combining bi-ethnographic 
+dialogues, we explored in depth the application scenarios and 
+impacts of ChatGPT in higher education settings. The findings 
+indicate that, despite ongoing debates about the use of generative 
+AI in higher education, it offers positive support for teaching and 
+learning, especially in terms of interactions between human and 
+non-human elements. This research reveals the innovative applica -
+tions of generative AI in dance education; emphasizes the impor -
+tance of exploring human-machine interactions in higher 
+education; and provides new theoretical perspectives and practical 
+pathways for the digital transformation of dance education.ARTICLE HISTORY 
+Received 4 November 2024  
+Accepted 20 March 2025 
+KEYWORDS 
+AI; dance education; dual 
+ethnography; higher 
+education; ChatGPT
+Introduction
+Since OpenAI released a chatbot programme, ChatGPT, on 30 November 2022, the 
+working mode of all walks of life in the world has been undergoing tremendous changes, 
+and generative artificial intelligence like ChatGPT has completely changed the working 
+mode of many industries (Y. Liu and Lin 2023 ). As four academics working at the 
+intersection of dance and higher education, we have been pondering about the impact 
+of generative AI like ChatGPT on dance education, and how this impact may persist. We 
+pay particular attention to the adjustments being made in the higher education environ -
+ment and the different ways dance is taught and learned in the context of generative AI 
+entering all walks of life. In this paper, we relate our experience of using ChatGPT as 
+CONTACT Tuomeiciren Heyang 
+ 376452202@qq.com 
+ The Arts International College of Krirk University, Bangkok, 
+ThailandRESEARCH IN DANCE EDUCATION                     
+https://doi.org/10.1080/14647893.2025.2483725
+© 2025 Informa UK Limited, trading as Taylor & Francis Group 
+a medium of instruction in the teaching of dance courses in higher education, including 
+the opportunities, challenges and limitations that may arise in the wider practice of 
+higher education.
+Due to the release of generative artificial intelligence, such as ChatGPT, ChatGPT is 
+entering higher education at an alarming rate (Y. Zhang, You, and Wang 2024 ), and all 
+walks of life. The traditional teaching mode of higher education has also been compre -
+hensively impacted (Dempere et al. 2023 ). During the period between 2023 and 2024, 
+there has been a significant surge in research examining the impact of generative artificial 
+intelligence, such as ChatGPT, on higher education (Adeshola and Adepoju 2023 ; Jiang  
+2023 ; Zeb, Ullah, and Karim 2024 ). Early studies primarily focused on the challenges 
+encountered during the initial integration of generative AI into higher education, as well 
+as the discomfort experienced by students during its adoption (S. Wang 2023a ). 
+Concurrently, research has explored the application of AI in choreography and dance 
+performance (K. Wang and Jiang 2023 ; Zeng 2024 ), delving into the potential difficulties 
+of incorporating AI into dance education, that the body serves as the central teaching 
+tool, both in the classroom and online settings. These studies have provided preliminary 
+theoretical and practical support for the integration of AI and dance education (K. Wang  
+2024 ). However, our current understanding of how generative AI, like ChatGPT, might 
+change teaching and learning in higher education in the long term is still limited (Shen  
+2023 ).
+The bi-ethnographic approach used in this study also means that our identity and our 
+cultural context are of great significance. These factors also support the methodological 
+basis of this study and the formation of views.
+Our four scholars met at a dance education seminar in August 2023. In the exchange, 
+we found a common interest in internationalization, cross-cultural communication, and 
+teaching design of dance education in higher education. Because of this common interest, 
+we, four dance teachers in universities, have become friendly partners. This kind of equal, 
+open and pleasant exchange is conducive to sincere communication and exchange 
+among scholars (S. Liu et al. 2006 ). In a free exchange for this dance education seminar 
+in August 2023, Ma Xu shared a video where she and her students were trying to use 
+ChatGPT in class with He Yang Tuomei Tsiren. She said that her students found it very 
+challenging and innovative to use ChatGPT to teach and learn dance lessons. This 
+sparked a discussion among the four of us, and we felt the need to collaborate on an 
+article that would delve deeper into the teaching and learning experience of using 
+ChatGPT.
+Along with the generative artificial intelligence of ChatGPT class, the rapid advance -
+ment of intelligent education in higher education is promoted. The existing literature 
+reflects that many educators are not necessarily proficient in intelligent education and 
+still often adopt traditional teaching practices. They simply apply such traditional teach -
+ing practices to intelligent education formats to varying degrees (Chen 2023 ). However, 
+CHATGPt-like generative AI has found its way into teaching multiple disciplines in 
+higher education and has also facilitated discussions on instructional design, student 
+well-being, ethics, and more. It provides a good foundation for future higher education to 
+create teaching and learning experiences that are likely to resonate well with teachers and 
+learners (Z. Gao and Wang 2023 ; T. Wang, Song, and Jin 2024 ). However, among the 
+numerous intelligent education available for teaching and learning, more attention needs 2
+ X. MA ET AL.
+to be given to the teaching and learning of dance disciplines (Shi 2020 ). As four teachers 
+from dance disciplines engaged in higher education, we became curious about ChatGPT 
+and its role in our classrooms. Our background in dance first sparked our interest in 
+ChatGPT. ChatGPT enables the rapid generation of dance ideas, and ChatGPT allows 
+many people who might not otherwise participate in dance creation to participate in it for 
+the first time. With this curiosity and subsequent exploration in mind, we decided to 
+collaborate on this article, focusing on our teaching experience with ChatGPT in dance 
+education in higher education and the question that inspired our thinking: How do we 
+experience ChatGPT as a teaching tool?
+ChatGPT is a new chatbot model developed by OpenAI, an American artificial 
+intelligence research laboratory. Its biggest feature is that it can conduct dialogues by 
+learning and understanding human language and constantly update its own database 
+through its powerful algorithm ability to realize intelligent software that mimics human 
+language organization. It can also engage in supernormal reasoning interactions based on 
+questions posed by chat partners (T. Wu et al. 2023 ). At present, ChatGPT can not only 
+carry out conversations but also complete writing, picture production, video production, 
+etc., covering many areas of human work, study and life (Kalla et al. 2023 ). Within two 
+months of ChatGPT’s launch, monthly active users exceeded 100 million (Y. Liu 2023 ). 
+Although ChatGPT is a relatively new large model of generative AI, it has rapidly risen 
+around the world since its release in November 2022, especially in the past year or so; 
+people have recognized that ChatGPT is being popularized and used in various fields 
+around the world (Y. Zhang, You, and Wang 2024 ).
+When searching the literature, it can be noted that ChatGPT is relatively little explored 
+in the field of instructional design. Kostikova et al. (2024 ) studied the use of ChatGPT for 
+professional English curriculum development. Chang et al. (2024 ) also focused on 
+ChatGPT, which they used to design the teaching of nursing courses to promote student 
+learning. S. Wang (2023a ) used ChatGPT in her teaching of mental health for college 
+students and found the application value and potential risks. ChatGPT has been used and 
+explored in many areas outside of educational settings, from enriching legal supervision 
+and building a new generation of integrated legal platforms to drawing advertisements 
+(Rodriguez-Sarmiento, Galpin, and Sanchez-Riaño 2024 ), facilitating marketing com -
+munications and optimizing search engines (Knuuttila 2024 ). Therefore, there is still 
+much room for research exploring ChatGPT’s potential to provide learning.
+In this paper, we take a dual ethnographic approach to exploring our interactions with 
+ChatGPT in teaching and consider this methodology as a form of ‘reflection in action’ in 
+the light of Schon (2017). The ‘prevalence’ of ChatGPT around the world, its unknown 
+impact may have on higher education, and the uncertainty of its future development 
+remind us that we can only provide limited insights into ChatGPT’s early entry into 
+higher education. Although ChatGPT will be widely and deeply applied in the field of 
+higher education in the future, relevant research results will be more and more abundant, 
+and the depth of research can also touch the teaching design of every subject and course 
+in higher education. However, in the early days of ChatGPT’s entry into higher educa -
+tion, it is still vital that we express and share these experiences as a way to examine the 
+process and reveal the teaching and learning that ChatGPT offers. We believe that despite 
+its cross-cultural context and specific time orientation, this study has the potential to 
+make a small contribution to the development of the body of knowledge for ChatGPT to RESEARCH IN DANCE EDUCATION
+ 3
+enter the field of higher education to carry out teaching and the future exploration of 
+other practitioners in the field of education. The following sections provide an overview 
+of the methodology employed in this research, including the theoretical framework and 
+cultural context in which we are positioned.
+The position of dual ethnographic methodology and multicultural 
+orientation
+The research method of dual ethnography is adopted in this paper. Biethnography, as 
+a form of qualitative research, is a collaborative research methodology in which multiple 
+researchers collaborate to engage in a dialogue about the different phenomena presented 
+within a phenomenon, with each researcher’s voice explicitly expressed. They work 
+collaboratively to understand and interpret the significance of this phenomenon 
+(Burleigh and Burm 2022 ). In the study of dual ethnography, researchers aim to engage 
+in written dialogue through a play-like format, questioning and reconstructing existing 
+ideas. The research method of dual ethnography is a critical dialogue between authors, 
+transcending regional and cultural differences, exchanging their own subjectivity and 
+experience with each other, and closely combining theoretical frameworks to complete 
+the interpretation of specific phenomena (Lowe, Kiczkowiak, and Lu 2016 ). Through 
+existing studies, we have found that in bi-ethnographic communication, explanations for 
+specific phenomena are usually produced through the dialogue jointly constructed by 
+researchers and through the continuous interweaving process (Runa and Martin 2021 ).
+We shared online documents over four months from March to July 2024 and devel -
+oped the body of our critical dialogue. During these four months, the four researchers 
+wrote at least once a week in a document to share our teaching experience. During this 
+time, if we find more teaching experiences or ideas, we will also write more. From the 
+very beginning of our writing, each of us simply wrote in accordance with his own style of 
+consciousness. After about two weeks, the four of us started asking each other questions. 
+Of course, given that we are having some conversations at the beginning of our teaching 
+experience, we have not assigned a particular focus, but rather more understanding and 
+inclusiveness allow our conversations to expand in many directions. We also shared 
+videos of ChatGPT classes with each other on WeChat to explore more potential that 
+ChatGPT could bring to course teaching. Our exploration of using ChatGPT to teach 
+courses included watching videos of each other’s teaching experiences, following stu-
+dents’ comments, and being honest and open about documenting your own teaching 
+experiences. At the same time, when the four of us had a long conversation in our online 
+document, we began to use ‘Reflection in action’ analysis, and to distil the key themes 
+that emerged around the focused questions. Immediately afterwards, we edited our 
+conversations around the key emerging themes that emerged. Last month, we reviewed 
+the paper. Using shared documents, it took us about four weeks to expand these 
+conversations into more textual material. Our purpose in expanding the additional 
+textual material is to expand the specific ideas related to our own teaching experience, 
+the learning experience of our students, and the cultural context in which we are located, 
+and we have edited this expanded bi-ethnographic material into the dialogue text.
+In the analysis process of this paper, we adopted narrative text and theory in parallel 
+(Graesser, Singer, and Trabasso 1994 ). Refining narrative text, we present the key points 4
+ X. MA ET AL.
+we need to discuss and form these meanings. As scholars such as Graesser, Singer, and 
+Trabasso (1994 ) explain, ‘the parallel of narrative text and theory does not follow 
+a particular approach. It relies on borrowing and reconfiguring concepts, creating 
+methods, and creating new combinations, based on intellectual inferences, reference to 
+cultural contexts, to produce theories.’ We also observe that advocate starting from an 
+open and inclusive perspective, then narrowing the focus to specific themes and ideas, 
+further refining the method and applying it extensively to case studies. This approach 
+resonates with our own teaching methodology.
+In the application of theory, we combine critical theory with a posthuman perspective. 
+We accomplish this by drawing on the critical theory of intelligent education to support 
+body movement in dance education while using posthumanist theory to guide our 
+dialogue. This includes a critique of the inherent conservatism of humanism through 
+the lens of posthumanism (Herbrechter et al. 2020 ).
+Multicultural orientation is very important for us to focus on our experience con-
+ducting ethnography research (Stahl and Maznevski 2021 ). We are also aware of our 
+cultural position in China and Thailand, the cultural differences brought by these two 
+countries, and the differences in the education system (including dance education). At 
+the same time, it is particularly noteworthy in this study that China and Thailand have 
+different positions in formulating education policies and teaching practices due to their 
+different cultural backgrounds (J. Gao 2021 ). In China, the development of education is 
+strategically aligned with pragmatic objectives to support national construction efforts. 
+A significant milestone in this direction was marked by the release of the Action Plan on 
+AI Innovation in Universities in 2018, which has since catalyzed a substantial increase in 
+the integration of AI technology within the education sector (T. Wang and Ren 2018 ). 
+After the Chinese Ministry of Education launched the AI Empowered Education Action 
+in 2024, the close integration of AI technology and teaching and learning in educational 
+institutions was promoted (Su 2024 ). In Thailand, education focus on adaptive learning, 
+a learner-centred approach that presents free, inclusive teaching characteristics, 
+Thailand’s education policy focuses on encouragement, ethics, privacy and data protec -
+tion when using educational technology (Muangmee et al. 2021 ). Although our dual 
+ethnographic work does not deliberately seek to compare educational policies and 
+teaching methods between China and Thailand, their unique cultural backgrounds 
+inevitably influence and shape our teaching experience (Wei et al. 2022 ). In the dialogue 
+shared below, we present the unique identities and cultural positioning of Chinese and 
+Thai teachers. At the same time, it is necessary to acknowledge that we are four dance 
+educators and researchers, and we aim to share, reflect, analyze, and question the use of 
+ChatGPT in dance teaching and learning environments.
+In conclusion, the four researchers employed a bi-ethnographic approach to engage in 
+authentic and egalitarian dialogues, documenting our genuine teaching experiences and 
+the questions raised by students. While it is acknowledged that completely eradicating 
+personal biases is unattainable, significant efforts were made to uphold a neutral per-
+spective throughout the dialogue and data collection phases. This approach was critical to 
+preserving the validity, reliability, and overall credibility of the research findings. This 
+approach allowed us to reflect on the potential applications of generative artificial 
+intelligence in dance education, particularly its role in constructing virtual teaching 
+spaces and facilitating post-human educational interactions, based on our own teaching RESEARCH IN DANCE EDUCATION
+ 5
+practices. We base this article on our own experience, so we do not need ethical 
+permission to collect shared data. At the same time, we pay great attention to the ethical 
+issues in our dialogues, and we strictly follow the requirements of the ‘Academic Ethics 
+Manual of the Chengdu University of China’ to avoid mentioning the names or identifi -
+able details of individuals other than our four authors.
+Dialogue
+The following conversations have been carefully constructed through our shared teach -
+ing experiences, ideas, narratives, and findings and have been edited. Although we would 
+like to share more teaching experiences and stories from teaching, due to the word limit 
+in this article, we had to set aside many of the stories we shared together and tried to 
+preserve the most important points of our discussion in the dialogue below. We invite 
+readers to join us as a third party in the conversation to hear our thoughts on teaching 
+with ChatGPT, our small victories in teaching, and our frustrations with teaching using 
+ChatGPT.
+Ma Xu: Teaching dance courses in our university attaches great importance to practic -
+ability and actively follows the master-apprentice mode according to the traditional 
+dance teaching mode. Therefore, cultivating students’ technical skills has become the 
+mainstream of dance course design and teaching implementation. Ren Yuxiao (one of 
+our four authors) and I teach ‘dance creativity’ to students at the university. In teaching 
+this course, we are actively looking for ways to change to a more active dance teaching 
+method that is more student-centred and can promote teacher-student interaction. 
+Perhaps this is not ‘new’ outside of China, but it should be noted that the traditional 
+‘master-apprentice model’ of dance teaching in China is still dominant, so the teaching of 
+skills is the focus. In January of 2023, my colleagues told me about an artificial intelli -
+gence called ‘ChatGPT’ that can communicate with people, create dance scripts, and 
+generate pictures based on text instructions proposed by people. So, I discussed with 
+Yuxiao Ren (one of our four authors) that we could try to use ChatGPT to give students 
+innovative, exploratory, interactive teaching during the March to June 2023 ‘dance 
+creativity’ course. We believe that, in the early days of the release of generative artificial 
+intelligence, using ChatGPT for dance teaching in Chinese universities represents 
+a relatively rare exploration within the context of Chinese higher education, which 
+traditionally emphasizes the ‘mentor-apprentice model.’ We discovered that many stu-
+dents in our class were exploring the use of ChatGPT on their own and sent us a message 
+on WeChat asking if we could teach them to use ChatGPT to create their own dance ideas 
+as part of our ‘dance creativity’ course. I asked my students on WeChat, ‘Why would you 
+want to learn to use ChatGPT?’ The answer given by the students was that learning to use 
+ChatGPT would give us more creativity and speed up our creation when creating dances. 
+Some students also said that learning to use ChatGPT gave them more interdisciplinary 
+and cross-cultural creativity and collaboration, and they could create and practice dance 
+with students from other disciplines.6
+ X. MA ET AL.
+Ren Yuxiao: I also saw that the students of the ‘Dance Creativity’ course sent me 
+messages on WeChat, which also contained different ideas. Students wrote in their 
+WeChat messages to me that learning to use ChatGPT would make it easier for them 
+to find jobs because the current job market requires interdisciplinary skills. So, Ma Xu 
+(one of our four authors) and I used ChatGPT to give students an interactive teaching 
+session in May 2023 in a ‘Dance Creativity’ class to test the learning experience of 
+ChatGPT. We taught the students how to formulate in the text for ChatGPT, and 30 
+students sent a prompt in their ChatGPT dialogue box: ChatGPT, can you write a 500- 
+word Chinese creative dance text for me? My dance creative theme is ‘Gulin Lantern’, 
+a traditional folk dance from Sichuan Province, China. In an instant, 30 students received 
+a reply from ChatGPT on their own ChatGPT page, and because of the efficient opera -
+tion of the large AI model, ChatGPT gave each of the 30 students a different character of 
+the idea. When the students used it, many of them screamed loudly and excitedly. One of 
+them cried excitedly, saying, ‘This is amazing. In 10 seconds, I completed an idea that 
+I could not think of for six months before.’
+He Yang: Yes, I fully understand what Ma Xu and Ren Yuxiao (two of our four authors) 
+are saying about the excitement of students, and I congratulate you on the positive 
+experience you have brought to students and the success you have achieved in teaching. 
+I also understand the ‘master-apprentice model’ you are talking about, because I was 
+once a Chinese folk dancer, and I once won the highest award of Chinese folk dance, the 
+‘Lotus Award’. In January 2023, I was hired by Thailand’s Kela University as a professor 
+to teach students the ‘Dance creativity’ course. At that time, I was following the tradi -
+tional mode of dance teaching and did not consider the use of ChatGPT in my course 
+teaching. Moreover, I believed that the way I taught ‘Dance creativity’ was to focus on 
+human creativity, and that dance creativity must be completed by people themselves and 
+carried out from beginning to end. It now seems that I was too ‘traditional humanist’ at 
+the time, and I ignored the fact that times change, things change, and so do our teaching 
+methods. For me, I joined teaching with ChatGPT at a later stage. I have heard about the 
+power of ChatGPT, and I first encountered it when Ma Xu (one of our four authors) 
+shared a video of your class with us at our dance education seminar in August 2023. 
+Later, inspired by your teaching experience using ChatGPT for a ‘Dance creativity’ 
+course, I started looking for a way to incorporate ChatGPT into the practice of 
+a ‘Dance creativity’ course I taught with Yao Yuzhong (one of our four authors) in 
+Thailand. In January 2024, we tried it just once in our ‘Dance creativity’ class. Thai 
+university students are looking forward to it, and we constantly have students asking us 
+before class: ‘Teacher, do I need to prepare anything in advance? Do I need to download 
+any software? Can I get an unexpected dance idea in less than a minute?’ I know that 
+students are full of expectations and want to actively explore new things. This is also 
+closely related to Thailand’s education, which encourages students to explore and is fully 
+inclusive of students’ exploration and innovation. So, Yao Yuzhong and I decided that 
+this would be our opportunity to incorporate ChatGPT into our ‘Dance creativity’ course 
+practice. In the past, I would ask my students to give a TED talk on the social current 
+affairs topic of dance and justice. TED Talks are challenging for dance students, who have 
+less than 18 minutes (accompanied by PowerPoint slides and video materials) to present RESEARCH IN DANCE EDUCATION
+ 7
+their own ideas on complex social and current affairs topics, including dance and justice. 
+However, this time, Yao Yuzhong and I decided to change the form of class from TED to 
+students’ on-site learning using ChatGPT and give speeches according to the results of 
+on-site use. We thought perhaps such a practice might make this task more challenging.
+Yao Yuzhong: Yes, as He Yang (one of our four authors) said, at the beginning of the 
+Dance Creativity course, I saw that some of the students in our class were a little confused 
+about what we were proposing. Some students were excited to use ChatGPT right away, 
+while others said they had never touched it before. My sense is that they may be 
+somewhat skeptical about using such a generative AI with novel elements in dance 
+classes in higher education. Of course, this beginning also made He Yang (one of our 
+four authors) feel a little frustrated and did not give us confidence. However, we actively 
+encouraged the students by first teaching them to log on to ChatGPT, then asking 
+ChatGPT questions, and then teaching them to generate images based on the creative 
+text provided by ChatGPT. After the session, when the students got the creative text and 
+pictures provided by ChatGPT, many of them were excited and applauded, just like your 
+students in China, including the students who were confused at first. He Yang and I were 
+very happy at that time and felt the confidence that the students gave us. Ma Xu (one of 
+our four authors): Do you think students in China use ChatGPT a lot in their daily 
+studies?
+Ma Xu: Yes, I have seen our students often use ChatGPT in their studies after we taught 
+them to use ChatGPT, as well as in creative academic paper writing and conversations 
+about life and entertainment. At the same time, I understand the challenges that you and 
+He Yang face in classroom teaching in Thailand, and I think it may be related to whether 
+the students have learned how to use ChatGPT in dance learning in higher education 
+properly. For me, it was the enthusiasm with which students learned by using ChatGPT 
+that motivated me to continue using it in my teaching. My college also set up the ‘AIGC 
+Dance Creative Teaching Lab’ in April 2024, which greatly encourages my future teach -
+ing plans. During ‘Dance Creativity’ this semester, Ren Yuxiao (one of our four authors) 
+also instructed our students to make a one-minute dance video and posted it on China’s 
+Douyin platform, where it got a lot of ‘likes’.
+Ren Yuxiao: Yes, I guided our students to make a one-minute short dance video in the 
+Dance Creativity course that I taught with Ma Xu (one of our four authors). I instructed 
+the students to first ask ChatGPT questions about creating dance ideas for ‘Ke mu san’ 
+and then continue to give ChatGPT instructions on how to generate pictures based on 
+the creative text provided by ChatGPT. After getting the pictures generated by ChatGPT, 
+I instructed the students to use the function of ‘Photo generation video’ in the ‘Clip’ 
+software to synthesize the pictures generated by ChatGPT into a short video and then set 
+the background music of ‘Ke mu san’. In this way, in a very short time, the students made 
+a creative dance video by themselves. They selected one of the short dance videos they 
+made and shared it on the Chinese platform TikTok, where members of the public 8
+ X. MA ET AL.
+watched the dance video, interacted with the students, sent messages to the students, and 
+participated in the students’ online communities. This short video made our students 
+famous in a way that Ma Xu and I had never planned, and it made us feel a little ‘victory’ 
+in using ChatGPT for dance teaching. I honestly want our students to become ‘popular.’. 
+I mean, who doesn’t get a thrill when a dance video posted by one of their students gets 
+a ‘like’? It can be seen that in my university, this kind of fast and efficient teaching of 
+dance creativity is very valuable for teaching a subject like dance. However, it is hard 
+work to keep our ability updated and developed in the same way as ChatGPT. After all, 
+Ma Xu and I have not had formal training on how to use ChatGPT in higher education 
+dance teaching. We are just constantly exploring our own skills.
+He Yang: Yes, Yuzhong Yao and I (one of our four authors) are also using our own 
+explorations of ChatGPT to guide our teaching. I thought students might like this 
+innovative form of teaching, but when I talked to my colleagues, I got an unexpectedly 
+different voice. Some of my colleagues felt that this was not really a ‘serious’ teaching 
+activity and immediately raised concerns about the ‘destruction of traditional culture’, 
+which is a very serious issue in Thailand’s traditional culture preservation institutions. 
+This made me a little nervous. Some students said to me, ‘ChatGPT is so powerful and so 
+creative. Why do we need to dance? We can change careers.’ In my opinion, as ChatGPT 
+begins to enter higher education, it is essential for teachers and students to use it 
+accurately in teaching. This includes exploring how it can contribute to the development 
+of the dance profession, identifying ways to avoid harming traditional culture, and 
+addressing the ethical considerations surrounding the use of ChatGPT in higher educa -
+tion. There are still many problems that we need to continue to practice and do more 
+critical research.
+Ma Xu: Yes, I also think that there will be a lot of problems and ethics worthy of practice 
+and critical research at the beginning of ChatGPT’s entry into higher education. I also 
+believe that there are many people who are ‘confused’ or ‘hard to understand.’ In 
+May 2024, three months after the four of us started writing and sharing our teaching 
+experiences weekly, Yuxiao Ren and I (one of our four authors) were teaching a course on 
+‘Dance Creativity’ when several students told us in class: ‘ChatGPT generated dance ideas 
+and videos so quickly, it seems we will have to lie flat in the future.’ ‘Lying flat’ is not 
+a positive phenomenon; ‘Lying flat’ is a current Internet buzzword in China, meaning 
+that no matter what the other person does, you will not have any reaction or resistance, 
+and your heart will not stir. In the face of the deep adjustment of industrial structure 
+brought about by the emergence of generative artificial intelligence, such as ChatGPT, 
+the development space of traditional industries is limited, and the competition for jobs in 
+the dance industry is becoming more and more fierce, which ultimately reflects the work 
+and life at the personal level, forming the phenomenon of ‘Nei juan’. Therefore, the 
+students’ ‘lying down’ also expresses the students’ concern about the employment 
+pressure caused by the emergence of ChatGPT for dancers who only know traditional 
+skills.RESEARCH IN DANCE EDUCATION
+ 9
+Yao Yuzhong: But Ma Xu, do you think the use of ChatGPT in teaching is just a stage, 
+just a means to ‘Xi jing’ of students? Can ChatGPT limit our creativity as human beings 
+or make us dependent on it?
+Ma Xu: ChatGPT was obviously not developed for teaching purposes. So, we as educa -
+tors need to remember that it is designed for other purposes, not that we must rely on it. 
+In China, ChatGPT and other generative AI dance teaching are very popular; many 
+university teachers, government officials, and entrepreneurs in the private sector use 
+ChatGPT and other generative AI. After China’s ‘Two Sessions’ in March 2024, the 
+governor of Sichuan Province, where I live, also went to the University of Electronic 
+Science and Technology of China, which is attached to us, to attend the founding 
+conference of the ‘Artificial Intelligence Institute’. We have seen recent news reports 
+that some excellent comprehensive universities in China, such as Sichuan University, are 
+gradually withdrawing traditional teaching majors such as dance performance, vocal 
+music performance, and broadcasting and hosting. Therefore, I think the use of ChatGPT 
+in teaching is not a short stage, not a ‘bait’ for students to ‘Xi jing’, but to promote the 
+development of teaching, provide students with a variety of learning modes, and promote 
+the opportunity for students to improve their learning ability. At the same time, in 
+general, I see that in my ‘Dance Creativity’ course with Ren Yuxiao (one of our four 
+authors), the students really enjoy the creative dance learning experience that ChatGPT 
+brings. But, having said that, Yang He (one of our four authors), do you think it also has 
+something to do with the cultural context of where we each work? How is the use of 
+ChatGPT in education viewed and developed in China or Thailand more broadly?
+He Yang: Of course, over the last 10 years, I have taught dance courses in many different 
+cultural institutions of higher education, universities in China, universities in New 
+Zealand, universities in the United States, universities in the United Kingdom, and 
+universities in Thailand, where I am working now. I noticed that each place had 
+a different understanding and approach to the use of technology in education, including 
+the use of AI or, more specifically, which AI technologies to use. But to be clear, some of 
+my experiences predate ChatGPT. Given that ChatGPT is now almost two years old and 
+entering this period in higher education, where efforts are being made to adapt education 
+to The Times, things have changed dramatically everywhere. In May 2024, Thailand’s 
+Ministry of Higher Education, Science, Research and Innovation launched the ‘MHESI 
+for AI’ policy and proposed to incorporate AI into university curricula to ensure that 
+students and university staff understand AI and can use it effectively. I think until 
+December 2022; it would be almost impossible to imagine teaching dance classes in 
+a university setting via AI, like ChatGPT, which was not even considered. In the past, 
+I used social media platforms like Douyin to teach dance classes and gained 200,000 fans. 
+It can be seen that our teaching experience has been improving with the development of 
+The Times. However, I have noticed that some students have raised concerns about 
+increasing the difficulty of their employment because of the powerful function of 10
+ X. MA ET AL.
+ChatGPT, and some teachers have raised concerns about affecting the protection of 
+traditional culture because of the automatic generation of dance ideas by ChatGPT, 
+which I fully understand. I also recognize the complexity surrounding ChatGPT’s entry 
+into higher education, which we have yet to fully understand, dissect, and establish, 
+especially regarding ethics, intellectual property, and privacy concerns. I believe that 
+before these issues are fully ‘resolved,’ we should continue to use ChatGPT seriously in 
+curriculum teaching while actively exploring and critically studying its potential. We may 
+not yet have fully experienced all the value ChatGPT can bring to the development of 
+teaching.
+The discussion that emerges from the aforementioned bi-ethnographic 
+dialogue
+From the above double ethnographic dialogue between our four authors, we began to 
+reflect on what the teaching experiences we shared in our conversations with each other 
+might reveal. By applying the thought process of narrative text and theory in parallel 
+(Graesser, Singer, and Trabasso 1994 ), we explored in depth the concepts that resonate in 
+our bi-ethnographic dialogues. We discussed in depth the following questions: What 
+encounters does the use of ChatGPT in education bring us with posthuman education? 
+What meaningful space and ethical issues might the changing educational agendas in 
+China and Thailand raise for the use of ChatGPT in higher education? How will higher 
+education benefit from the engagement of generative AI, such as ChatGPT, for higher 
+education and wider learning? Conversations around these issues have gradually shaped 
+and focused our discussions.
+The starting point for integrating ChatGPT into our curriculum and exploring it in 
+different ways is the work of the ‘posthumanist theorist’, as well as a number of educa -
+tional scholars who have been exploring posthumanist perspectives on intelligent educa -
+tion (Biswas Mellamphy 2021 ; Dube et al. 2023 ; Nath and Manna 2023 ). We will discuss 
+three areas of interest. First discussion: We use ChatGPT in teaching to explore an 
+encounter with posthuman education. Second discussion: We dissect how generative AI, 
+like ChatGPT, can create meaningful spaces for teaching and learning in higher educa -
+tion settings. Third discussion: As we move into reflections on discipline-specific con-
+tributions to dance, what can generative AI like ChatGPT offer for body expression in the 
+teaching of dance in higher education? In these discussions, we argue that dance as 
+a learning form of physical expression and generative AI like ChatGPT can be a platform 
+and medium to explore new teaching and learning methods. At the same time, we also 
+highlight what the discipline of dance may ‘lose’ when teaching dance through digital 
+technology.
+From the beginning of this discussion, all four of us acknowledged that our attempts to 
+bring generative AI like ChatGPT into higher education and to integrate ChatGPT into 
+our curriculum were not moves that everyone might be comfortable with or interested in. 
+However, we must also acknowledge that ChatGPT’s release in November 2022 ushered 
+in an era of AI and higher education peers (Xu and Duan 2024 ), and the possibilities and 
+opportunities contained in the teaching experience we explored and shared were 
+beneficial.RESEARCH IN DANCE EDUCATION
+ 11
+Exploring ChatGPT’s encounter with post human education
+Our four teachers brought ChatGPT into our teaching and learning activities, which also 
+caused some teachers and students to have human-computer symbiosis anxiety. This 
+kind of human-machine symbiosis anxiety is actually not uncommon, and there have 
+been different ‘human-machine symbiosis anxiety’ in the past two decades (Hudlicka  
+2003 ). It is only with the advent of generative artificial intelligence such as ChatGPT and 
+its powerful functions that we can more closely observe that humans and artificial 
+intelligence have become intimate and have perfect encounters in multiple fields. As 
+explained by many scholars, the convenience brought by artificial intelligence to life 
+(Cheng et al. 2023 ), and the creativity brought to work have quietly entered our lives and 
+work (Zhao and Xing 2024 ; Zheng, Fan, and Jia 2024 ). In this encounter, we also see that 
+post humanist thought provides a research perspective for these phenomena.
+In reflecting on the experience of our four teachers using ChatGPT in their teaching, 
+we may have moved away from the pure, traditional, master-apprentice model of 
+teaching dance skills and were constantly looking for ways to extend dance teaching 
+into the posthuman space. Posthumanist philosopher Rosi Braidotti (2016 ) articulates 
+the idea that ‘disagreeing’ in a given mindset is essential to an ethics and inquiry that 
+demands respect for the complexity of the real world in which we live. In such a view, 
+ethical considerations include the exploration and understanding of non-human actors 
+(including animals, sound, light, plants, objects, technology, etc.) (Xie and Wang 2024 ). 
+Through our experience of teaching with ChatGPT, if we look at it from the perspective 
+of, we may need to consider abandoning the previous traditional teaching model with 
+humanism as the core, removing the centralization of the humanistic perspective and 
+rethinking the teaching methods adapted to the contemporary era. We need to see 
+ChatGPT as a beautiful encounter with teaching and learning.
+Of course, the four of us teachers have also discovered through our discussions that by 
+integrating ChatGPT into our teaching and learning activities, we can actively explore the 
+expansion of dance teaching into the posthuman space. This includes the exploration, 
+formation, development, and sharing of this teaching method, as well as examining the 
+relationship between humans and both human and non-human elements. Many assump -
+tions may be made about the future of teaching, but the relationship between human 
+beings and the mode of teaching under the influence of humanism will also be chal-
+lenged. As J. Li (2020 ) said, ‘Teaching is closely related to one’s beliefs, values, teaching 
+goals, and relationship with students, and changes in teaching methods and teaching 
+methods may break traditional teaching and trigger emotional reactions.’ We also found 
+that a person’s environment has a lot to do with how he or she may view the use of AI in 
+teaching practices and that different regional higher education environments may hold 
+different views (Peng 2022 ). As Ma Xu and Ren Yuxiao mentioned in this article, their 
+college has established the AIGC Dance Creative Teaching Laboratory. In contrast, 
+colleagues of He Yang and Yao Yuzhong felt that it was not a ‘serious’ teaching activity 
+and raised concerns about the destruction of traditional culture.
+The role that generative AI, like ChatGPT, might play in higher education still needs 
+to be critically explored. N. Zhang (2017 ) suggested that educators and education 
+researchers should consider the inclusiveness and valuable space that teaching reform 
+can bring to teachers’ teaching and students’ learning. With the above perspectives in 12
+ X. MA ET AL.
+mind, we explore the different teaching and learning experiences that ChatGPT may 
+bring to teachers and students in China and Thailand, which are related to the spatial and 
+social constructs that ChatGPT may create.
+Multi-cultural considerations in virtual space production and social 
+construction provided by ChatGPT for teaching and learning
+The virtual space production created by ChatGPT is also the main point of our discussion. 
+ChatGPT provides a new powerful virtual space for creativity and production (B. Liu and 
+Cui 2023 ). In the conversation for this article, Ma Xu said that the students in his class said 
+that ‘when creating dance, learning to use ChatGPT can better provide us with ideas and 
+speed up our creation.’ Ren Yuxiao mentioned that in a ‘dance creativity’ course in 
+May 2023, he and Ma Xu had their 30 students receive responses from ChatGPT on 
+their own individual pages. Due to the efficient functioning of the AI model, ChatGPT 
+provided each student with distinct ideas, each with its own unique characteristics. He 
+Yang also highlighted in the conversation for this article that he and Yao Yuzhong changed 
+TED to students using ChatGPT live in the ‘dance creativity’ course in January 2024 and 
+gave talks based on the results of live use. These ‘ideas’ obtained on ChatGPT’s platform, as 
+well as the presentation of results based on the ‘ideas’ received from ChatGPT, are a kind of 
+virtual space production (X. Zhou 2022 ). Also, in teaching and learning, students actively 
+carry out ‘virtual space production practice’ in the process of virtual space production. 
+Virtual space production practice is an extension of virtual space production, which refers 
+to the practical activities of social production in a virtual environment (Cao and Fan 2023 ). 
+As Yao Yuzhong mentioned in the previous dialogue, the students asked ChatGPT 
+questions and then gave instructions to ChatGPT to produce pictures according to the 
+creative text provided by ChatGPT. After receiving the creative text and pictures provided 
+by ChatGPT, many students shouted excitedly. This virtual space production practice 
+surprised the students in Thailand, and they also experienced the empowerment and 
+happiness brought by ‘virtual space production practice’ for learning. Ren Yuxiao also 
+shared in the previous conversation that the students asked ChatGPT to provide creative 
+text and generate pictures, and then synthesized them into short videos with the ‘cutting’ 
+software and matched them with suitable background music and got a creative short dance 
+video of ‘Ke mu san’. The students shared the short video of the creative ‘Ke mu san’ dance 
+on China’s Tiktok platform, where members of the public sent messages, interacted, liked 
+and participated in the students’ online communities. Through these teaching and learning 
+experiences, it can be seen that the above Chinese and Thai students’ practice of using 
+ChatGPT in their learning is driven by digital technology and virtual reality technology, so 
+that their interests have become digital creativity and transformed into digital cultural 
+resources. Virtual space production is carried out in the practice of virtual space (Cao and 
+Fan 2023 ).
+Although our experiences with ChatGPT in universities in China and Thailand are 
+different, we both agree that ChatGPT provides a virtual space for students to be creative 
+and productive. However, such ‘virtual space production’ does not always make everyone 
+feel so good, and it also presents different expressions in multiple cultures. Su (2024 , 
+121–123) once said: ‘Technological development needs to conform to social construc -
+tion, and multi-culture makes the use and development of artificial intelligence RESEARCH IN DANCE EDUCATION
+ 13
+influenced by social and cultural factors.’ In the conversation, He Yang mentioned that 
+his Thai colleagues felt that this was not a really ‘serious’ teaching activity and raised 
+concerns about the destruction of traditional culture.
+As John et al. (2024 , 85–92) describe it, ‘a reasonable technology is one that is endowed 
+with appropriate behavior, cultural identity, etc. that the general public has understood, 
+is socially constructed, and contains cultural elements.’ While focusing on inclusiveness 
+and innovation, higher education in Thailand also pays attention to the protection of 
+traditional culture, which is the appropriateness of social construction (Yun, Liu, and Liu  
+2013 ). Similarly, in Ma Xu’s narration, we also see that ChatGPT may be a ‘disaster’ for 
+her and some of Ren Yu xiao's students, because the power of ChatGPT makes some of 
+their students feel that they can only choose to ‘lie flat’. As X. Wu (2024 , 257–259) points 
+out, ‘The correct use and ethics of artificial intelligence in education also need to think 
+and adapt to social construction and cultural factors’. Ma Xu also shared in the previous 
+text conversation that the educational environment in China, where she is located, is 
+focused on practicality, which is linked to the ‘AI Innovation Action Plan for 
+Universities’ launched by the Chinese Ministry of Education in 2018. It emphasizes the 
+ability to serve the needs of the country (H. Li and Fan 2018 ). Some students of Ma Xu 
+and Ren Yuxiao, after feeling the rapid creativity and generation function of ChatGPT, 
+felt that their daily learning of traditional skills to show dance techniques could not 
+match the rapid creativity of ChatGPT, and thought that they could not adapt to the 
+needs of the current social employment market, so they chose to ‘lie flat’. The above 
+manifestations in the teaching and learning experiences of Chinese and Thai teachers and 
+students, no matter the anxiety of ‘not serious’ or the helplessness of ‘lying down’, all 
+contain factors of social construction. Social construction factors also directly or indir -
+ectly influence their reflection on the use and treatment of ChatGPT, which confirms the 
+personal factors and social construction in teaching and learning (Rao, Cheng, and Xu  
+2023 ). Perhaps there may be a wide range of similarities and differences in any educa -
+tional environment, and we as educators may have to continually critically explore them.
+While considering the virtual space production and social construction that 
+ChatGPT may provide for teaching and learning, it is crucial to pay attention to 
+issues of multiculturalism, digital literacy, privacy, and information security. We 
+consider that different regions and higher education institutions around the world 
+may have different considerations about the use of generative AI, such as ChatGPT, in 
+formal higher education practices and what is or is not appropriate. However, as 
+generative AI, such as ChatGPT, has gradually become more widespread, global 
+higher education will continue to face challenges from generative AI technologies, 
+values, and ethics in educational practices.
+What dance can bring to the conversation about ChatGPT in a higher 
+education setting?
+The question of how to explore the discipline of dance in which we work and how to 
+provide insights or challenges to the ‘pedagogical dialogue’ of using ChatGPT for 
+dance education is a topic we need to explore. From the conversations of the above 
+four teachers, it can be seen that ChatGPT is useful for generating the content 
+needed in dance teaching, exploring dance creativity and participating in dance 14
+ X. MA ET AL.
+concept design. These functions may make us as educators inclined to use genera -
+tive artificial intelligence, such as ChatGPT, to support our teaching and learning. 
+As Ma Xu said in the dialogue, the use of ChatGPT in teaching is not a short stage, 
+not to be used as ‘Xi jing’ ‘bait’, but to promote the development of teaching, 
+provide students with a variety of learning modes, and promote the opportunity 
+to improve students’ learning ability. At the same time, it can also be seen that this 
+need has become urgent through the release of China and Thailand in the education 
+agenda mentioned by Ma Xu and He Yang in the dialogue (Kongthon 2023 ; 
+T. Wang and Ren 2018 ).
+When using generative artificial intelligence such as ChatGPT in dance education, we 
+also need to consider that the teaching of dance creativity has changed from the original 
+creativity of a single person to a learning scene involving human-machine interaction 
+through artificial intelligence digital technology. As dance educators, we also see that the 
+current artificial intelligence technology cannot fully achieve the human emotions and 
+emotional details that can be expressed in creativity (Wan 2024 ). However, the challenge 
+for us educators is adapting and transforming our traditional and inherent teaching 
+practices. In our teaching practice, we aim not only to provide students with the essential 
+content we want them to learn, but also to offer a comprehensive, inclusive, personalized, 
+and creative learning experience that resonates with their needs and the social constructs 
+they are part of.
+The integration of ChatGPT into dance teaching exemplifies the convergence of 
+artistic practice and posthuman thought, as highlighted by Tao and Chen (2023 ): 
+‘Artistic activities should be posthuman in practice because it brings our artistic practice 
+to the field of continuous innovation and inclusiveness.’ Dance learning, like many 
+disciplines, thrives on creativity, and adopting a posthuman perspective allows for 
+transcending the limitations of humanism to embrace greater inclusivity. Furthermore, 
+the application of generative AI tools, such as ChatGPT, in higher education presents 
+valuable opportunities to inspire innovative ideas, enhance global communication, and 
+promote multicultural exchange, fostering an environment of inclusiveness and 
+collaboration.
+Conclusion
+The integration of generative AI, such as ChatGPT, into higher education represents 
+a pivotal shift in teaching methodologies, offering opportunities to redefine tradi -
+tional pedagogical boundaries and foster innovation. As demonstrated through the 
+dual ethnographic exploration in dance education within China and Thailand, gen-
+erative AI provides an avenue for expanding teaching concepts, tools, and models. 
+However, its adoption necessitates a continuous process of inquiry, evaluation, and 
+adaptation. Educators must remain vigilant in assessing the value and implications of 
+these technologies while embracing the uncertainties and inclusivity inherent in their 
+application. By fostering a positive interplay between human creativity and the 
+capabilities of generative AI, higher education institutions can create a more dynamic, 
+collaborative, and forward-thinking learning environment. This ongoing exploration 
+will be critical in shaping educational practices and policies for an era marked by 
+profound technological transformation.RESEARCH IN DANCE EDUCATION
+ 15
+Acknowledgments
+I extend my heartfelt gratitude to Ruoxi Cui, a PhD candidate in the Dance Department at the 
+University of Auckland, New Zealand, for her invaluable assistance in proofreading this manu -
+script. Her meticulous attention to detail and constructive feedback have greatly enhanced the 
+quality of this work.
+I am also deeply thankful to Dr. Yuzi Lin, Dean of the Arts International College of Krirk 
+University in Thailand, for her unwavering support and encouragement throughout the course of 
+this research. Her guidance has been instrumental in shaping this study.
+Their contributions have been pivotal to the successful completion of this manuscript, and I am 
+sincerely appreciative of their time and expertise.
+Disclosure statement
+No potential conflict of interest was reported by the author(s). 
+Funding
+This research was funded by the “Research on the Practical application of AIGC Artificial 
+Intelligence in Art Education in China and Thailand” project of Thailand Research Center, 
+Chengdu University, China, project number [SPRITS202415].
+Foundation
+This research was funded by the ‘Research on the Practical application of AIGC Artificial 
+Intelligence in Art Education in China and Thailand’ project of Thailand Research Center, 
+Chengdu University, China, project number [SPRITS202415].
+GLOSSARY
+Ke mu san (科目三 )
+China’s popular network words,originally part of the motor vehicle driving test, now refers to 
+a silky little dance routine that makes you want to dance along. Ke mu san” is also generally 
+referred to as exaggerated, demonic, similar to local ‘modern disco’ actions.
+Nei juan (内卷
+China’s network buzzwords Chinese college students used it to refer to irrational internal 
+competition or ‘being willing’ to compete. It is now referred to as the phenomenon of peers 
+competing for limited resources, resulting in the decline of individual ‘income effort ratio’. It 
+is an ‘inflation’ of effort.
+Xi jing (吸睛
+A Chinese internet buzzword describes something or an extremely attractive phenomenon that 
+can quickly attract people’s attention. 16
+ X. MA ET AL.
+Notes on contributors
+Ma Xu (PhD) is an assistant researcher at the School of Music and Dance at the China-Asean 
+College of Arts, Chengdu University, China, focusing on dance education and multiculturalism.
+Tuomeiciren Heyang is part-time professor of the Arts International College of Krirk University in 
+Thailand. His research interests include dance education; dance ethnography; and comparative 
+dance.
+Yao Yuzhong is the Associate Dean of the International Faculty at Kela University in Thailand, 
+focusing on dance education and student well-being.
+Yuxiao Ren is a trainee teacher at the School of Music and Dance at the China-Asean College of 
+Arts, Chengdu University, China. He is also working on his PhD. He currently assists Ma Xu in 
+teaching and designing the class, focusing on dance education and multiculturalism.
+ORCID
+Tuomeiciren Heyang 
+ http://orcid.org/0000-0001-6887-1505
+References
+Adeshola, I., and A. P. Adepoju. 2023 . “The Opportunities and Challenges of ChatGPT in 
+Education.” Interactive Learning Environments 1–14. https://doi.org/10.1080/10494820.2023. 
+2253858  .
+Biswas Mellamphy, N. 2021 . “Humans “In the Loop”?: Human-Centrism, Posthumanism, and Ai.” 
+Nature and Culture 16 (1): 11–27. https://doi.org/10.3167/nc.2021.160102  .
+Braidotti, R. 2016 . “Posthuman Critical Theory.” In Critical Posthumanism and Planetary Futures , 
+edited by D. Banerji and M. R. Paranjape, 13–32. Springer India. https://doi.org/10.1007/978- 
+81-322-3637-5_2  .
+Burleigh, D., and S. Burm. 2022 . “Doing Duoethnography: Addressing Essential Methodological 
+Questions.” International Journal of Qualitative Methods 21. https://doi.org/10.1177/ 
+16094069221140876  .
+Cao, Q., and B. U. Fan. 2023 . “Metaverse: Embodied Practice of Production-Consumption in 
+Virtual Space.” Journal of Beijing University of Aeronautics and Astronautics Social Sciences 
+Edition 36 (4): 149–154.
+Chang, C.-Y., C.-L. Yang, H.-J. Jen, H. Ogata, and G.-H. Hwang. 2024 . “Facilitating Nursing and 
+Health Education by Incorporating ChatGPT into Learning Designs.” Educational Technology 
+& Society 27 (1): 215–230.
+Chen, Y. 2023 . “Educational Reform in the ChatGPT/AIGC Era.” Journal of East China Normal 
+University (Educational Sciences) 41 (7): 103–116.
+Cheng, M., Y. Zhu, X. Zheng, and S. Huang. 2023 . “From Large Space ‘Entity’ to Large Model 
+“Virtual”: Conception of Future Urban Planning and Management in the Context of Artificial 
+Intelligence.” Architecture & Culture 8:102–105.
+Dempere, J., K. Modugu, A. Hesham, and L. K. Ramasamy. 2023 . “The Impact of ChatGPT on 
+Higher Education.” Frontiers in Education 8:1206936. https://doi.org/10.3389/feduc.2023. 
+1206936  .
+Dube, B., S. Mahlomaholo, W. Setlalentoa, and B. Tarman. 2023 . “Creating Sustainable Learning 
+Environments in the Era of the Posthuman: Towards Borderless Curriculum.” Journal of 
+Curriculum Studies Research 5 (1), Article 1. i–x. https://doi.org/10.46303/jcsr.2023.1  .
+Gao, J. 2021 . The Expression and Influence of the Differences in Chinese and Thai Educational 
+Concepts in Thai Chinese Teaching . Xi’an,China: Xi’an Shiyou University.
+Gao, Z., and J. Wang. 2023 . “The Dangers and Opportunities of Writing Teaching in the Era of 
+Artificial Intelligence.” Shanghai Education 11:60–61.RESEARCH IN DANCE EDUCATION
+ 17
+Graesser, A. C., M. Singer, and T. Trabasso. 1994 . “Constructing Inferences During Narrative Text 
+Comprehension.” Psychological Review 101 (3): 371–395. https://doi.org/10.1037//0033-295X. 
+101.3.371  .
+Herbrechter, S., I. Callus, M. de Bruin-Molé, M. Grech, C. J. Müller, and M. Rossini. 2020 . “Critical 
+Posthumanism: An Overview.” In Palgrave Handbook of Critical Posthumanism , edited by 
+S. Herbrechter, I. Callus, M. Rossini, M. Grech, M. de Bruin-Molé, and C. J. Müller, 1–24. 
+Springer International Publishing. https://doi.org/10.1007/978-3-030-42681-1  .
+Hudlicka, E. 2003 . “To Feel or Not to Feel: The Role of Affect in Human-Computer Interaction.” 
+International Journal of Human-Computer Studies 59 (1): 1–32. https://doi.org/10.1016/S1071- 
+5819(03)00047-8  .
+Jiang, L. 2023 . “AI-Driven Educational Reform: The Impact and Prospects of ChatGPT/GPT.” 
+Journal of East China Normal University (Educational Sciences) 7:143–150.
+John, A. H., M. D. Gregory, L. Chen, and Q. Sheng. 2024 . “Learning Strategies: System Synthesis 
+and Conceptual Modeling (Part I).” Digital Education 2:85–92. 85–92.
+Kalla, D., N. Smith, F. Samaah, and S. Kuraku. 2023 . “Study and Analysis of Chat GPT and Its 
+Impact on Different Fields of Study.” SSRN Scholarly Paper 4402499. Social Science Research 
+Network.
+Knuuttila, A. 2024 . “The Potential Benefits and Challenges of Adopting AI-Tools Such as 
+ChatGPT in Marketing Communications and Search Engine Optimization.”
+Kongthon, A. 2023 . “Medical Artificial Intelligence Research Landscape in Thailand: 
+A Bibliometric Analysis.” In 2023 18th International Joint Symposium on Artificial 
+Intelligence and Natural Language Processing (iSAI-NLP), 1–6. https://doi.org/10.1109/iSAI- 
+NLP60301.2023.10354993  .
+Kostikova, I., L. Holubnycha, T. Besarab, O. Moshynska, T. Moroz, and I. Shamaieva. 2024 . 
+“ChatGPT for Professional English Course Development.” International Journal of Interactive 
+Mobile Technologies 18 (2): 68–81. https://doi.org/10.3991/ijim.v18i02.46623  .
+Li, H., and L. Fan. 2018 . “Possible” and “Impossible”: A Further Discussion on the Educational 
+Value of Artificial Intelligence Technology: Interpretation of the “Innovative Action Plan for 
+Artificial Intelligence in Colleges and Universities.” Journal of Distance Education 36 (5): 37–44.
+Li, J. 2020 . “Change the Traditional Teaching Model and Build a Smart Learning Environment.” 
+China Journal of Multimedia & Network Teaching 6:206–208.
+Liu, B., and M. Cui. 2023 . “Virtual Digital Man in the ChatGPT Era: The Intermediary of 
+Quasi-Subject to Human Cognition and Behavior.” Journal of Southwest Minzu University 
+(Humanities and Social Sciences Edition) 11:126–132.
+Liu, S., T. Zhang, X. Zhou, and X. Yang. 2006 . “On the Nature and Significance of Academic 
+Exchange.” Science & Technology Association Forum 8:7–8.
+Liu, Y. 2023 . “ChatGPT, which Can Be Used for Writing Papers and Chatting, Has Become Very 
+Popular, and These Art Majors are Even More Popular.” Study Abroad Z1:68–70.
+Liu, Y., and Z. Lin. 2023 . “Data Security Risks and Legal Governance of Generative Big Models.” 
+Cyber Security and Data Governance 42 (12).
+Lowe, R. J., M. Kiczkowiak, and X. Lu. 2016 . “Native-Speakerism and the Complexity of Personal 
+Experience: A Duoethnographic Study.” Cogent Education 3 (1): 1264171. https://doi.org/10. 
+1080/2331186X.2016.1264171  .
+Muangmee, C., S. Kot, N. Meekaewkunchorn, N. Kassakorn, S. Tiranawatananun, and B. Khalid. 
+2021 . “Students’ Use Behavior Towards E-Learning Tools During COVID-19 Pandemics: Case 
+Study of Higher Educational Institutions of Thailand.” International Journal of Evaluation & 
+Research in Education 10 (4): 1166–1175. https://doi.org/10.11591/ijere.v10i4.21821  .
+Nath, R., and R. Manna. 2023 . “From Posthumanism to Ethics of Artificial Intelligence.” AI & 
+Society 38 (1): 185–196. https://doi.org/10.1007/s00146-021-01274-1  .
+Peng, J. 2022 . “The Impact of New Generation Artificial Intelligence on Higher Education and 
+Risk Prevention.” The Guide of Science & Education 9:53–54.
+Rao, Y., C. Cheng, and S. Xu. 2023 . “Systematic Thinking on the Construction of Skill-Based 
+Society.” Journal of Vocational Education 8:14–20.18
+ X. MA ET AL.
+Rodriguez-Sarmiento, L. F., I. Galpin, and V. Sanchez-Riaño. 2024 . “Mapping Brand Territories 
+Using ChatGPT.” In Applied Informatics , edited by H. Florez and M. Leon, 31–46. Springer 
+Nature Switzerland. https://doi.org/10.1007/978-3-031-46813-1_3  .
+Runa, H. J., and R. Martin. 2021 . “A Tale of Grappling: Performative Duoethnography as 
+Expanded Methodological Thinking.” Reconceptualizing Educational Research Methodology 
+12 (2). https://doi.org/10.7577/rerm.4683  .
+Shen, X. 2023 . “The Artificial Intelligence of New Generation and the Liberation 
+Man-Philosophical Reflection on the ChatGPT Craze.” Gansu Theory Research 3:72–81.
+Shi, H. 2020 . “Dance and Body in the Context of Artificial Intelligence.” Dance 2:54–61.
+Stahl, G. K., and M. L. Maznevski. 2021 . “Unraveling the Effects of Cultural Diversity in Teams: 
+A Retrospective of Research on Multicultural Work Groups and an Agenda for Future 
+Research.” Journal of International Business Studies 52 (1): 4–22. https://doi.org/10.1057/ 
+s41267-020-00389-9  .
+Su, H. 2024 . “Research on the Teaching of Information Technology Courses in Higher Vocational 
+Colleges Empowered by Artificial Intelligence Technology.” Wencun Reading 121–123.
+Tao, Y., and W. Chen. 2023 . “Posthumanism and the Future of Art Philosophy: The Conflict and 
+Integration of Tradition and Modernity.” Painting & Calligraphy Art 6:30–34.
+Wan, Y. 2024 . Exploration of Artistic Creation from the Perspective of Artificial Intelligence. Master . 
+Yantai,China: Yantai University.
+Wang, K. 2024 . Feasibility Analysis of the Application of Artificial Intelligence Technology in College 
+Sports Dance Teaching , 181–183. Vol. 23. Science & Technology of Stationery & Sporting Goods.
+Wang, K., and F. Jiang. 2023 . “Digital Dance Creation and Performance Under the Background of 
+AI Technology.” Humanistic World 8:52–58.
+Wang, S. 2023a . “The Technical Route, Security Risk and Prevention of ChatGPT’s Intervention in 
+Ideological and Political Education.” Shenzhen University Journal (Humanities & Social 
+Sciences) 40 (2): 153–160.
+Wang, T., and Y. Ren. 2018 . “Talent Strategy in the Age of Artificial Intelligence: Interpretation of 
+the ‘Innovative Action Plan for Artificial Intelligence in Colleges and universities’.” Journal of 
+Distance Education 36 (5): 52–59.
+Wang, T., Z. Song, and Z. Jin. 2024 . “From Disorder, Subversion to Reengineering.” Structural 
+Transformation of Journalism Through Generative Artificial Intelligence Journal News Research 
+15 (2): 7–9.
+Wang, W. 2023. “ChatGPT the Application Value, Potential Risks and Coping Strategies in 
+College Students.” Mental Health Education Journal of Jinzhou Medical University 21 (5): 78–83.
+Wei, J.-H., A. V. Lacaste, I. N. Rodliyah, H. T. Nguyen, and H.-H. Chuang. 2022 . “Teachers’ 
+Multicultural Experience, Creative Teaching, and Cultural Intelligence: A Study of Four Asia- 
+Pacific Countries.” Thinking Skills and Creativity 46:101144. https://doi.org/10.1016/j.tsc.2022. 
+101144  .
+Wu, T., S. He, J. Liu, S. Sun, K. Liu, Q.-L. Han, and Y. Tang. 2023 . “A Brief Overview of ChatGPT: 
+The History, Status Quo and Potential Future Development.” IEEE/CAA Journal of Automatica 
+Sinica 10 (5): 1122–1136. https://doi.org/10.1109/JAS.2023.123618  .
+Wu, X. 2024 . “Research on Ethical Issues of Moral Enhancement of Artificial Intelligence.” 
+Modern Business Trade Industry 17:257–259.
+Xie, Y., and X. Wang. 2024 . “The Ethical Risks of Artificial Intelligence Emotion and Their 
+Countermeasures.” Studies in Ethics 1:132–140.
+Xu, D., and X. Duan. 2024 . “Artificial Intelligence Fluency: Challenges and Strategies for Higher 
+Education: The Interpretation and Enlightenment of ‘2024 Educause Horizon Report: Teaching 
+and Learning Edition’.” Open Education Research 30 (3): 24–36.
+Yun, J., X. Liu, and Y. Liu. 2013 . “Computational Modeling of a Social Phenomenon: Evolution of 
+Cultural Identity and Cultural Territory.” Journal of Computer Research and Development 
+12:2590–2602.
+Zeb, A., R. Ullah, and R. Karim. 2024 . “Exploring the Role of ChatGPT in Higher Education: 
+Opportunities, Challenges and Ethical Considerations.” The International Journal of RESEARCH IN DANCE EDUCATION
+ 19
+Information and Learning Technology 41 (1): 99–111. https://doi.org/10.1108/IJILT-04-2023- 
+0046  .
+Zeng, D. 2024 . “Artificial Intelligence Technology Empowers Research on Dance Performance 
+Art.” Hebei Pictorial Hebei Pictorial 14:160–162.
+Zhang, N. 2017 . “Education Reform and Development from an International Perspective–A 
+Review of ‘Overview of World Education Reform’.” Journal of Kaili University 35 (5): 185–186.
+Zhang, Y., J. You, and J. Wang. 2024 . “ChatGPT Empowers Ideological and Political Education in 
+Universities: How is it Possible, Changes in Connotation and Logical Evolution.” Journal of 
+Shandong Education Institute 1:9–15.
+Zhao, M., and Y. Xing. 2024 . “Study on the Development of Home Community-Based Elderly 
+Care Service Enabled by Artificial Intelligence and Optimization Strategy of Its Ecosystem.” 
+Social Security Studies 2:16–25.
+Zheng, Z., Q. Fan, and W. Jia. 2024 . “The Triple Illusion and Solution of Artificial Intelligence 
+Technology Empowering Teacher Development.” China Educational Technology 7:18–34.
+Zhou, X. 2022 . “Research on the Production of Virtual Space of the Chinese Horror Game 
+Paranormal HK.” Master, Lanzhou University.20
+ X. MA ET AL.

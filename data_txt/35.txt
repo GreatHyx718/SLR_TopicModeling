@@ -1,0 +1,301 @@
+Designing for Posthuman Critical Literacy
+Alexander Calderwood
+Computational Media, University of California, Santa Cruz
+USA
+alexcwd@ucsc.edu
+Figure 1: An screenshot of our textual instrument meant for dadaist poetry writing.
+Abstract
+This paper discusses positions taken up by the field of contempo-
+rary literacy studies as they relate to digital writing technology.
+Literacy studies have not, to our knowledge, been sufficiently exam-
+ined from the world of HCI and writing support. We aim to show
+that literacy studies as a conceptual framework offers a number of
+theoretical challenges to prevailing views of writing that underpin
+writing support technology development. We discuss the notions
+assemblage and posthuman critical literacy , which may indicate
+new research directions for writing support technology in theoret-
+ical, artistic, and ideological fronts. Finally, we describe a textual
+instrument that demonstrates these ideas.
+Keywords
+posthuman, writing, support, deleuze, critical, textual, instrument
+ACM Reference Format:
+Alexander Calderwood. 2024. Designing for Posthuman Critical Literacy.
+InThe Third Workshop on Intelligent and Interactive Writing Assistants
+(In2Writing ’24), May 11, 2024, Honolulu, HI, USA. ACM, New York, NY,
+USA, 4 pages. https://doi.org/10.1145/3690712.3690729
+1 Introduction
+This position paper begins with a look at recent trends in literacy
+studies, particularly recent sociotechnical scholarship grounded in
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+In2Writing ’24, May 11, 2024, Honolulu, HI, USA
+©2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1031-5/24/05
+https://doi.org/10.1145/3690712.3690729Deleuzian philosophy and actor network theory (ANT). ANT is a
+theory that posits that interactions between human and non-human
+actors alike may be viewed as social relationships, and that humans
+and non-humans should be analyzed with symmetrical treatments
+[10,15]. Varied criticisms of the theory hold that distinctions be-
+tween humans and non-humans (such as this paper’s stance that
+human creativity merits special emphasis) acknowledge the value
+of the theory “in this age of hybrids and blurred and negotiable
+boundaries” [15, 476].
+Our position is that this theoretical foundation will be useful
+for the computational writing support community to engage with,
+not only because its view of writing may provide a more accurate
+(though perhaps less precise) theory of writing than than those
+currently used in writing tool design, but also that it indicates an
+alternative view of writing support technology that values compu-
+tational writing aides as a worthwhile aim of technical research
+and artistic practice. Borrowing the term from Robinson, the stance
+isresistive in that it stands against modes of digital writing infras-
+tructure that reduce individual human agency and uphold logics of
+power [14].
+Engaging in a process similar to research through design [ 6],
+which holds that design guidelines are a valuable contribution of
+practice-based research, we will describe a speculative design space
+for resistive writing technology. As a case study and existence
+proof for this class of artifact, we describe ongoing work towards
+a textual instrument that fits our speculative design guidelines.
+The instrument is philosophically aligned with dadaism, and the
+material writing practices of such poets as William Borroughs, Keith
+Waldrop, and the automatic writing of W.B. Yates.
+65
+
+In2Writing ’24, May 11, 2024, Honolulu, HI, USA Alexander Calderwood
+2 Understanding Posthuman Literacy
+The field of literacy studies has in recent years taken what Bradley
+Robinson calls a ‘sociotechnical turn’ in which scholars have “begun
+to examine how the technical dimensions of digital technologies
+interface with the sociocultural dimensions of literacy in practice”
+[14]. This turn is partially inspired by the posthuman philosophy
+of Deleuze and Guattari, and emphasizes their concept of assem-
+blage , collections of perhaps dissimilar and unrelated things whose
+interaction produces “any number of possible effects” [ 11]. Tech-
+nologies under this view are not simply tools for the production or
+comprehension of texts, but actors within a broader assemblage of
+writers, readers, and texts responsible for the production of human
+subjectivity [9, 14].
+2.1 Identity Formation under the
+Computational Unconsciousness
+Robinson cites a growing body of research that has raised concerns
+about the interaction between automated writing technology (AWT)
+and the formation of selfhood. Under a Deleuzian view in which
+identity is not fixed, but “hybrid and modulating” (according to
+Robinson citing [ 13]), computational processes “do not influence
+subjectivity so much as they co-constitute it” [14].
+Writing is viewed as a deeply human process, central to the ways
+that we understand ourselves. As Robinson quotes of Andrejevic,
+writing is “the medium we use to express our “innermost” thoughts”
+[2]. Natural language generation (NLG) technology, understood as
+a component of the assemblage maintained while writing, takes on
+an active agential role in the formation of subjectivity.
+As interfaces that utilize large language models (LLM’s) become
+commonplace in writing and find their uses in personal writing and
+cultural production, their sociocultural biases and cultural idioms
+must be understood within the sociotechnical arena. Robinson
+adopts Beller’s [ 3] use of the term “computational unconsciousness"
+which signifies, rather than a neutral distillation of the collective
+beliefs, values, and biases that exist on the internet, a willful product
+of capitalist production. In the context of LLM’s, the fingerprint
+of corporate neoliberal values is increasingly obvious, as content
+moderation policies and decoding algorithms like RLHF explicitly
+define the bounds of acceptable production, and will increasingly
+factor in their user’s self-expression.
+2.2 Writing Technology for Posthuman Critical
+Literacy
+In light of AI, Leander and Burriss (2020) take the convincing po-
+sition that the humanist notion of critical digital literacy is due to
+be expanded to a posthuman critical literacy. “[P]osthuman critical
+literacy,” they write, “advocates for a shift in understanding our
+(human) role in text production and consumption as imbricated in
+an assemblage of human and nonhuman actors” [12].
+Posthuman critical literacy “necessitates that people can actively
+build more ethical assemblages with computational agents” [ 12].
+Our position is that this need gives a clear role to technologists and
+artists working on AI writing tools. Writing technology designed
+for posthuman critical literacy can and should, rather than treat
+AI as neutral infrastructure designed to invisibly complement the
+goals of the human writer, make their operations legible.Leander and Buriss ask educators to expand from asking “Who
+wrote the text, and how does power operate?” to:
+•“Where can you identify the influence of computational
+agents in the composition and/or distribution of the text?”
+•“Who built the computational agent(s), why and how do they
+operate?”
+•“How do/can we intra-act with computational agents to cre-
+ate texts?”
+A design space for a class of writing tool designed for posthuman
+critical literacy would seek to raise these questions, incorporating
+insights from AI explainability research as well as sociological
+investigations into the use of AI writing assistance.
+2.3 Posthuman Literacy for Writing Technology
+At present, cognitive writing theories such as the Flower and Hayes
+process model that underpin writing support technology develop-
+ment maintain that writers engage in hierarchical stages of writing,
+such as transcription or ideation, and approach their text as goal
+directed problem solvers [ 5]. Research that utilizes these theories
+is meaningful, and has led to increased understanding of how to
+develop tools for writing [ 7,8]. As a descriptive endeavor, the
+theories provide delineation between highly constrained creative
+writing tools (like a stylistic thesaurus) from autonomous writing
+technology like Sudowrite. However, perfect taxons have yet to
+be proposed. Writing support researchers have come up against
+fuzzy boundaries where a writer’s stated goals and a tool’s intended
+functionality become blurred. Our position is that contemporary
+literacy studies and the theories of writing that constitute them
+will be a compliment to the structuralist-leaning models currently
+in use.
+Hermansson and Saar’s [ 9, 427] application of Deleuzian theory
+to writing pedagogy highlights aspects of writing that speak against
+the clear phases of the Flower and Hayes model. As they see it, writ-
+ers, their texts, and their writing context are in constant interplay,
+with writing having “no distinctive start, course, or end. Instead, a
+variety of factors are in motion and transformation, thus giving rise
+to multiple ways of becoming with the text-in-progress” [ 9]. Their
+tenets of writing can be described by the Deleuzian concepts of as-
+semblage ,turning points andbecoming-other . We have described the
+concept of assemblage; turning points refers to the process by which
+trajectories break and diverge, while becoming-other describes how
+"the writer is in process with the world", co-constituting it as it
+redefines themselves [9].
+This cursory discussion is meant to gesture toward the prob-
+lems that posthumanist writing theory might unpack. We hope it
+will encourage researchers to dig deeper into these theories and
+prompt future work into writing technology that makes use of these
+perspectives.
+3 A Textual Instrument
+We turn to a case study meant to operate as an ’existence proof’
+of the kind of posthuman writing aides that this line of research
+support. Our system is most accurately described as a ‘textual
+instrument’, a concept borrowed from Noah Wardrip-Fruin. He
+asks “What would it mean to have textual instruments that one
+might learn to play proficiently, for which one might write and
+66
+Designing for Posthuman Critical Literacy In2Writing ’24, May 11, 2024, Honolulu, HI, USA
+perform a number of compositions, and that could eventually be
+made available to play the compositions of others?" [1].
+As Wardrip-Fruin saw it, these artifacts were not well understood
+as games. They share more in common with musical instruments,
+sharing their performative elements. Unlike the textual instruments
+envisioned by Wardrip-Fruin, ours is designed to support both
+self-contained performative play and solitary operation with the
+purpose of assisting in the production of an external artifact. Per-
+formance involves the user’s interaction with a MIDI controller,
+keypresses mapping to individual words which move across a win-
+dow at a fixed rate, before disappearing offscreen.
+In this latter mode, playing the instrument functions similarly to
+Burroughs’ use of the cut up method of Brion Gysin [ 4]. The player
+may learn to understand the complex mapping between key and
+word, but due to their limited control of the mapping, play will lead
+to the discovery new words and patterns. The phrases and concepts
+that emerge are now best understood via the posthuman model, as
+textual elements of the writerly assemblage. In its operating mode
+as tool, the instrument is designed to support dadaist and automatic
+poetry writing, which places value on external texts that may be
+re-ingested for the creation of new works. Rather than meant to
+’solve’ a specific problem that a writer may bring to it, the oracular
+device should be thought of as a complicating entity.
+The instrument takes on the resistive elements discussed above
+in the ways in which it makes apparent the restricted ability of
+players to author texts of their own volition. Each word that the
+player can perform is mediated through the constraints of the
+system. These constraints can be altered by the user, cycled from
+key-to-word mappings that utilize language models to mappings
+that simply sample a given source text in deterministic ways. The
+system is meant to provoke contemplation about the agency of
+the human within the trappings of automated writing technology,
+and encourage the user to confront the uncanniness of writing
+against the machine. It means to get at the Robinson’s sentiment:
+“Unruly language is essential to the unruly subject, a subject at risk
+of being ruled by the rules of the operationalized throughput of
+NLG technologies” [14].
+A more complete description of the instrument’s functionality
+is included in the appendix.
+4 Conclusion
+This short position paper aimed to show that contemporary liter-
+acy studies may be usefully applied to the theory of technological
+writing support. We hope we have shown that posthuman theo-
+ries, representing an expansive view of writing and positioned as
+resistive to dominant systems of power, indicate new directions for
+writing support research that embraces the full capacity of human
+creativity.
+References
+[1][n. d.]. Noah Wardrip-Fruin | Playable Media and Textual Instruments. http:
+//vectors.usc.edu/thoughtmesh/publish/107.php
+[2] Mark Andrejevic. 2019. Automated media . Routledge.
+[3]Jonathan Beller. 2021. The world computer: Derivative conditions of racial capital-
+ism. Duke University Press.
+[4]William S Burroughs. 2003. The cut-up method of Brion Gysin. The new media
+reader (2003), 89–91.
+[5]Linda Flower and John R Hayes. 1981. A cognitive process theory of writing.
+College composition and communication 32, 4 (1981), 365–387.[6]William Gaver. 2012. What should we expect from research through design?.
+InProceedings of the SIGCHI conference on human factors in computing systems .
+937–946.
+[7]Katy Gero, Alex Calderwood, Charlotte Li, and Lydia Chilton. 2022. A design
+space for writing support tools using a cognitive process model of writing. In
+Proceedings of the First Workshop on Intelligent and Interactive Writing Assistants
+(In2Writing 2022) . 11–24.
+[8]Katy Ilonka Gero, Tao Long, and Lydia B Chilton. 2023. Social dynamics of AI
+support in creative writing. In Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems . 1–15.
+[9]Carina Hermansson and Tomas Saar. 2017. Nomadic writing1in early childhood
+education. Journal of Early Childhood Literacy 17, 3 (Sept. 2017), 426–443. https:
+//doi.org/10.1177/1468798417712341
+[10] Bruno Latour. 2007. Reassembling the social: An introduction to actor-network-
+theory . Oup Oxford.
+[11] Kevin Leander and Gail Boldt. 2013. Rereading “A Pedagogy of Multiliteracies”:
+Bodies, Texts, and Emergence. Journal of Literacy Research 45, 1 (March 2013),
+22–46. https://doi.org/10.1177/1086296X12468587
+[12] Kevin M. Leander and Sarah K. Burriss. 2020. Critical literacy for a posthuman
+world: When people read, and become, with machines. British Journal of Educa-
+tional Technology 51, 4 (July 2020), 1262–1276. https://doi.org/10.1111/bjet.12924
+[13] Antonio Negri and Michael Hardt. 2000. Empire. (2000).
+[14] Bradley Robinson. 2023. Speculative Propositions for Digital Writing Under the
+New Autonomous Model of Literacy. Postdigital Science and Education 5, 1 (Jan.
+2023), 117–135. https://doi.org/10.1007/s42438-022-00358-5
+[15] G. Walsham. 1997. Actor-Network Theory and IS Research: Current Status
+and Future Prospects. In Information Systems and Qualitative Research , Allen S.
+Lee, Jonathan Liebenau, and Janice I. DeGross (Eds.). Springer US, Boston, MA,
+466–480. https://doi.org/10.1007/978-0-387-35309-8_23
+A Appendix: Formal Description of the
+instrument
+Technically, the instrument operates similarly to an audio synthe-
+sizer. It is able to receive Musical Instrument Digital Interface (MIDI)
+commands from a MIDI controller such as an electronic keyboard
+or MIDI enabled guitar. Rather than producing audio notes, it emits
+English words.
+When a player-poet presses a key on their controller, a word
+appears in a performance window, moving from right to left with
+constant velocity. The performance window is divided into a num-
+ber of vertically stacked tracks, with a single track surrounded by
+a white border indicating it is selected as the track to which the
+next played note will be displayed. Each played note advances the
+selected track, with the track selector cycling back to the top track
+when it reaches the bottom.
+The user is able to alter the sampling mode of each track, alter-
+ing how the track interprets the incoming MIDI note in order to
+render it into a word. We provide a handful of sampling modes to
+the user, with more planned. The most basic of these is an index-
+based sampler: the MIDI format represents a note’s pitch by an
+integer ranging from 0-127, this value is simply used to index into
+a user-specified text, which has been broken up into words using
+a standard tokenization algorithm. Playing the lowest note on the
+controller will display the first word, moving up the keyboard will
+play successive words in the text.
+Whereas musical notes can be described by features such as pitch,
+timbre, and duration (or envelope), the notes of this instrument,
+words, are described by morphological features such as denotation
+(its direct and literal meaning), connotation (what it implies or sug-
+gests) or other features such as its pronunciation and orthography1.
+1Words also assume features via their syntactic context. Linguists refer to these proper-
+ties as a word’s contextual inflection, contrasted with their inherent inflection (Booij).
+67
+In2Writing ’24, May 11, 2024, Honolulu, HI, USA Alexander Calderwood
+Tracks may behave such that they sample with respect for these fea-
+tures; one track may sample only verbs while another might move
+along a semantically meaningful axis such as emotional valence.
+Each track type has a toggle that changes its looping behavior,
+controlling what should happen when a word moves off the lefthand side of the window. It may loop back to the right hand side,
+resample from the track’s current generating function, or disappear
+entirely until a new word is played to the track.
+68

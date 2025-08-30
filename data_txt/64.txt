@@ -1,0 +1,1014 @@
+ Belphégor
+Littérature populaire et culture médiatique  
+22-1 | 2024
+Imaginaires de l'IA
+Meaningless Gods and Posthuman Companions
+Situated meaning in the future of AI
+Jana Thompson
+Electronic version
+URL:  https://journals.openedition.org/belphegor/6218
+DOI: 10.4000/11tfq 
+ISSN:  1499-7185
+Publisher
+LPCM
+ 
+Electronic reference
+Jana Thompson , “Meaningless Gods and Posthuman Companions ”, Belphégor  [Online], 22-1 | 2024,
+Online since 30 May 2024, connection on 08 January 2025. URL: http://journals.openedition.org/
+belphegor/6218 ; DOI: https://doi.org/10.4000/11tfq 
+This text was automatically generated on January 8, 2025.
+The text only may be used under licence CC BY-NC-ND 4.0 . All other elements (illustrations, imported
+files) are “All rights reserved”, unless otherwise stated.
+Meaningless Gods and Posthuman
+Companions
+Situated meaning in the future of AI
+Jana Thompson
+ 
+Introduction
+1 Dominant discourses in approaches to artificial intelligence have endeavored to create
+a truly intelligent agent by means of universal knowledge and mathematical rules, and
+these stand in stark contrast to different mindsets on AI as memory and storyteller and
+as artist and companion. Contrasting these two paradigms demands a redefinition of AI
+using  both  epistemological  and  semiotic  lenses  to  shed  more  light  on  systemic
+approaches to technological advances that increasingly pervade our lived experiences,
+our shared stories, and our possible futures—asking that we look to those possibilities
+that  are  not  dominated  by  the  universal  common  language,  but  rather  by  the
+experiential heteroglossia that we all possess.
+2 The universalist approaches include such current-day projects as Cycorp’s Cyc project,
+OpenAI’s  GPT-4,  and  Google’s  Bard  language  models.  These  projects  draw  on
+intellectual roots from Ramon Llull’s Ars, Athanasius Kircher’s Ars Magna Sciendi , and
+Gottfried Liebniz’s De arte combinatoria , projects which sought to find the mathematical
+rules and heuristics that would be the root of all universal knowledge. In recent work,
+Bender and Koller (2020) and Bender et al. (2021) challenge these projects in grand
+claims of understanding, such as OpenAI’s GPT-2, in the realm of natural language
+understanding.  Furthermore,  the  works  of  Searle  (1980),  Adam  (1998),  and  others
+postulate  that  these  projects  could,  in  the  end,  produce  nothing  more  than  a
+construction best represented by Microsoft’s Tay chatbot—an amalgam of expressed
+human  opinions  in  misogyny,  racism,  transphobia,  and  other  bigotries  without  an
+understanding  of  its  own.  This  omniscient  AI  that  is  the  end-goal  of  projects  as
+described above are at their heart both deeply colonialist (Dourish and Mainwaring
+2012) and ultimately represent a loss of meaning in the morass of sheer informationMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20241
+they collect without context or connection (cf. Haraway 1991). This analysis will follow
+the work of Searle (1980), Adam (1998), Larson et al. (2016), Hayles (2000, 2006, 2010)
+Haraway (1988, 1991), Buolamwini and Gebru (2018), Bender and Koller (2020), Bender
+et al. (2021), Di Paolo et al. (2018), Barad (2003), and Birhane and van Dijk (2020).
+3 The paradigm of AI creation that is both personal and meaningful is exemplified in
+such work as Eugenia Kuyda’s Replika  and Stephanie Dinkins’ N’TOO , which serve as
+repositories  of  those  they  have  loved  and  wish  to  memorialize  (also  shown  as  a
+speculative  possibility  in  the  Black  Mirror  episode  “Be  Right  Back”),  and  civic
+engagements  explored  in  the  work  of  LA-based  collective  FeministAI.  Their  works
+create  an  extension  of  the  human  into  non-biological  and  computational  space,
+creating work that is both approachable and meaningful in the human-computational
+dialog (see Hayles 2000, 2006, 2010). By situating their work within the highly personal
+and situational, they root their approaches to AI within a subjective meaning, allowing
+for extension and existence that is both dynamic, evolutionary, and significant to the
+humans who interact with their work. Indeed, some have reported having ongoing
+conversations with Replika  that resembled that of a person with their therapist and
+have credited Replika  with saving their lives. N’TOO  was created “to ensure that people
+of color, and others who inherently understand the need for inclusion, equity, ethics,
+and multimodal testing, participate in the design, production, and testing of ‘smart’
+technologies” (Keegan 2020). The creation of AI as a labor of love, of the disembodied
+minds of others—reimagines the storyteller in the posthuman space, as both extension
+and unique creation.
+4 This  work  begins  with  an  overview  of  universalist  approaches  to  AI  and  the
+repercussions that rise from these approaches and then cover alternative explorations
+in  artificial  intelligence  of  the  type  that  I  term  the  posthuman  companion .  Finally,  I
+discuss the relationship of the human and the posthuman companion with regard to
+the animacy of digital agents and their components, their role as storyteller, and the
+types of agency they and the humans interacting with them possess. After presenting a
+critical analysis of the systems, data flows, and frameworks scaffolding the AI covered, I
+conclude with a discussion of the implications for the creation and design of artificial
+agents in light of the best plausible and potential human futures.
+ 
+Omniscient AI
+5 Present-day artificial intelligence pervades the lives of people globally. Over half the
+world’s population use social media platforms1 that harvest user data for use in their
+machine  learning  algorithms  that  then  feed  into  the  user  experiences  of  their
+platforms. The antecedents of this universalist and omniscient approach to AI date
+back  to  the  thirteenth  century  with  the  work  of  Ramon  Llull,  who  developed  a
+combinatorial approach to describe the universal properties of the divine; his work was
+continued  in  the  seventeenth  century  with  the  work  of  Athanasius  Kircher  and
+Gottfried Leibnitz, who each created combinatorial approaches of their own in parallel
+to Llull’s to create a universal language or key, the clavis univeresalis .
+The term clavis universalis was used in the sixteenth and seventeenth centuries to
+designate a method or general science which would enable man to see beyond the
+veil of phenomenal appearances, or the ‘shadow of ideas’, and grasp the ideal and
+essential structure of reality. 
+--Rossi 1983: 15Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20242
+6 These works paralleled with the work of the encyclopedists and taxonomists of early
+modern Europe such as Carl Linneaus, aiming to create universal systems of knowledge
+and classification based on Europeans’ increasing knowledge of the world resulting
+from the colonization and empire-building projects of European kingdoms from the
+sixteenth to early twentieth centuries.
+7 In the twentieth century, early researchers sought to define and create an all-knowing
+AI. For Turing (1950), the appearance of human-like intelligence would be enough to
+denote  an  agent  as  intelligent,  but  crucially,  he  did  not  define  what  human .  This
+pervasive belief in AI being able to know everything  led to the rise of the approach to
+omniscient and universalist AI, as seen in the work of the Cyc Project and Soar in the
+late  decades  of  the  twentieth  century.  The  designers  of  Cyc  sought  to  create  a
+knowledge base that could read and “understand” an encyclopedia: a mock-up of a
+generic human being but without the situated existence of a particular human being.
+Newell (1990) discussed his wish for Soar and his and partner Herbert Simon’s limited
+research into cognition to be the basis of a universal cognition . However, as noted in the
+work of Adam (1998, 2005) that this view from nowhere leads to a lack of objectivity—
+despite the creators’ claims to the contrary—and that knowers and the known cannot truly
+be viewed separately: subjects and objects are intimately entwined .
+8 In  recent  years,  AI  applications  have  exploded  in  areas  ranging  from  judicial
+sentencing2 to national school examination scores3, and even inside people’s homes in
+the form of smart home assistants4. ClearviewAI, a company with a facial recognition
+algorithm termed the “killer app of face ID”5, harvests images illegally from sites such
+as Facebook and Instagram and has contracts with governmental institutions globally.
+In China, the social credit system is the newest instantiation of the all-knowing AI that
+will determine people’s fates, futures, happiness, and even their freedom. AI now sees
+us everywhere, hears us everywhere, such that we cannot easily escape its impact on
+our lives. Like the terrifying psychic AI of Minority Report and the Nosedive episode of
+Black Mirror, algorithms are given the power to determine human lives and futures.
+9 In particular, large language models (henceforth LLMs) have emerged to become a
+major application in AI from 2016 onwards. New models are released annually from
+major corporations such as Google and Meta, and organizations such as Open AI. The
+most popular of these models, GPT-2 and GPT-3 from OpenAI, and RoBERTa from Meta,
+contain billions of tokens drawn from extraordinarily large amounts of language data.
+This data is all derived from the web, however, and despite Howard and Ruder’s (2018)
+claims of the universal language model  with LLMs, the data is overwhelmingly in English
+(63.4% of the world’s internet language data is in English as of 2021)6. In the case of
+GPT-3, engineers used 499 billion tokens of language data as input, drawn from five
+sources: Common Crawl (containing “petabytes of data collected over 12 years of web
+crawling”)7, Books1 and Books2 (the origin of this data is unclear)8, OpenWebText2
+(scraped data from linked URLs on Reddit)9, and Wikipedia. (Lambda Labs website).
+Reddit is not a universal data source: its users are drawn primarily from the United
+States (52%), Australia, and India, and these users skew heavily towards male (67% of
+users) and primarily English-speaking (Sattleberg 2021). Wikipedia is a large and global
+site, but its languages skew heavily towards language families originating in Europe
+and  spoken  widely  in  Europe,  the  Americas,  Australia,  and  New  Zealand  (26.6%  of
+content  in  Germanic  languages,  15.5%  in  Romance  languages,  and  13.0%  in  Slavic
+languages)10.Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20243
+10 These “universal” approaches to AI suffer from multiple weaknesses: notably those of a
+colonial perspective to knowledge (Dourish and Mainwaring 2012; Bender et al. 2021),
+the disembodied attempt to create human-like behavior without human-like existence
+(Bender and Koller 2020; Bender et al. 2021), and a failure of representation (Noble
+2018; Benjamin 2020; Buolamwini and Gebru 2018; Keyes 2018; Lewis 2020). Pasquinelli
+(2016) terms this type of intelligence analytical intelligence , based on the idea of the
+“representative brain ” emphasizing logic, as do the universal systems based on larger
+symbolic systems or trusting in the mathematical representations of populations and
+language. More specifically with Pasquinelli, he discusses the frightening aspect of the
+universal  machine:  that  in  capitalism,  the  master  algorithm11 creates  an  algorithmic
+capitalism that encompasses “the worst nightmares of both centralized planning and
+free-market deregulation, which come true under the rule of one master algorithm
+designed by mathematicians and engineers of machine learning” (Pasquinelli 2016).
+11 I have termed this type of approach to artificial intelligence development covered here
+in Section 2 as god-like  and omniscient  (Haraway 1988). As Haraway notes, with this
+mindset, that we are left with an AI where “objectivity could not possibly be practiced
+and honored…the Man, the One God, whose Eye produces, appropriates, and orders all
+difference.  No  one  ever  accused  the  God  of  monotheism  of  objectivity,  only  of
+indifference. The god-trick is self-identical, and we have mistaken that for creativity
+and knowledge, omniscience even” (Haraway 1988: 587)12. If this is the case for this type
+of pervasive AI epistemology, what other options exist? It is in hope of presenting the
+alternative possibility of co-existence with artificial intelligence that I cover the idea of
+the posthuman companion  in Section 3.
+ 
+The Posthuman Companion
+12 In their 2020 paper Robot Rights?: Let’s Talk About Human Welfare Instead , Birhane and van
+Dijk  write  about  how  even  discussing  robot  rights  is  frankly  ridiculous:  AI  has  no
+autonomy  from  human  life  and  actions,  and  so  the  truth  of  what  we  should  be
+discussing  is  that  of  human  welfare.  They  write:  “We  take  a  post-Cartesian,
+phenomenological  view  in  which  being  human  means  having  a  lived  embodied
+experience, which itself is embedded in social practices. Technological artifacts form a
+crucial part of this being, yet artifacts themselves are not that same kind of being. The
+relation between human and technology is tightly intertwined, but not symmetrical”.
+Based on their definition and that of Hayles (2006) on the posthuman13, I introduce the
+alternative  to  our  meaningless  gods:  the  posthuman  companion .  The  posthuman
+companion is not divorced from meaning: its meaning is situated in the time and place
+of its creator, of the humans who interact with it and the lives and experiences of those
+humans. A posthuman companion, like humans themselves, are products of time, place,
+and space. Even as a voice from a phone or a speaker, the companion’s physical form is
+still of significance. In contrast to the brief descriptions of the omniscient AI described
+above,  artists,  academics,  and  the  occasional  entrepreneur  have  engaged  in  this
+different, more personal form of AI.
+13 In the late 1960s, MIT researcher Joseph Weizenbaum created the ELIZA chatbot, whose
+most widely used program was that titled DOCTOR, based upon a Rogerian therapist
+approach. Weizenbaum noted in his 1966 paper that humans wanted to believe that
+ELIZA was real, and that people would ascribe human emotions and actions to it. ThisMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20244
+action, the ELIZA effect , was noted as having impacts in other spaces such as virtual
+reality (Turkle 1994). ELIZA and other bots like it were the first step into a different
+form of artificial intelligence that has now advanced into new and different forms
+beyond the mere chatbot.
+ 
+Examples of the posthuman companion
+As a teacher
+14 I ́ŋyaŋ  Iye ́ (Telling  Rock)  is  a  2019  artwork  by  Suzanne  Kite,  an  Oglála  Lakhóta
+performance artist, visual artist, and composer, and her partner, Devin Ronneberg.
+I ́ŋyaŋ Iyé  consists of a large acrylic dome that hangs from a ceiling with two handmade
+circuits. The circuits connect a computer to lights and sensors which are wrapped with
+leather into fifteen-foot braids of synthetic hair. 
+When people swing, twist, shake or brush the sensors, the braids feed the data into
+circuits  and  then  the  computer,  which,  in  turn,  effects  the  audio  heard  in  the
+gallery. A voice reciting a song in Lakhóta drops in and out of audibility, low and
+rumbling,  distorted  and  clear.  A  radio  jumps  around  the  dial,  voices  almost
+perceivable, frequencies shifting. I ́ŋyaŋ Iye ́’s software listens to those audio changes
+and uses machine learning to make decisions about how and when to change the
+constellation of lights. 
+Kite and Nážin 2019: 54
+15 Kite’s creation of I ́ŋyaŋ Iyé  is rooted in her existence and beliefs as an Oglála Lakhóta—
+she  creates  art  within  her  culture  and  ethical  framework.  For  her,  “Lakhóta
+frameworks are not rituals, they are enactments of the ethical processes which define
+who and what is in relation” (Kite and Nážin 2019: 55). Kite’s grandfather, Mahpi ́ya
+Na ́žin, notes that:
+They’re [the elders from the North] about that spirit inside of people and how
+people  can  …  See,  when  we  communicate  with  the  other  world,  it’s  not  done
+through our minds. It’s done through the spirit, not the mind…. If people know
+about this and how to connect it, then they can get the information as seeking on
+what they should in life here, on this earth. Very simple. But people can’t see it.
+They can’t open up to it because they’re too busy here ( points at head) . Their minds
+get in the way.
+Kite and Nážin 2019: 54
+16 This fundamental understanding of how to learn and listen is key to understanding Kite
+and Ronneberg’s work on I ́ŋyaŋ Iyé . In her conclusion, Kite discusses two key points:
+that I ́ŋyaŋ Iyé  is created using Lakhóta ontology, where seemingly ‘inanimate’ objects
+can be alive with spirit, and she calls for further creation of artificial intelligence with
+“ontologies  which  have  not  guided  the  destruction  of  Unči  Makhá  (Grandmother
+Earth)”. Additionally, although never explicitly stated, throughout Kite’s discussions
+with her grandfather, it is made clear the creation of I ́ŋyaŋ Iyé  is meant to give humans
+interacting with it a way to connect to their own spirit by connecting with the stones
+and metals of I ́ŋyaŋ Iyé  itself, to “listen without ears” and to work with the spirit, not
+the  mind,  to  open  up  a  heart:  an  interactive  creation  of  Lakhóta  artists  to  any
+participants to find a new way of looking at the world that teaches “everyone…that
+they came to this earth for a reason, and they have a spirit inside, that little light that
+goes on. Or that light in those peoples’ hair” (Kite and Nážin 2019:59).Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20245
+Fig.1. Human with Íŋyaŋ Iyé (Kite and Nážin 2019: 56)
+17 These concepts of animism (but not human  consciousness and place) as discussed here
+play a role in the conception of the posthuman companion. Kite speaks respectfully
+towards the materials she and Ronneberg use to create I ́ŋyaŋ Iyé  and that by listening to
+these materials along with the entirety of the experience—the lights, the songs, and the
+human participants–is meant to evoke a continuing and growing awareness of self and
+the world within the participants. Learning to look beyond Western ontologies and
+knowledges of the world, this respect and understanding for the non-human other is a
+crucial step on the path to creating a new way of creating and experiencing artificial
+intelligence.
+ 
+As a memorial
+18 Can AI serve as a memorial? Two individuals, Eugenia Kuyda, a San Francisco-based
+entrepreneur,  and  Stephanie  Dinkins,  an  artist  and  professor  at  Stony  Brook
+University, seek answers to this question through ongoing work on their respective
+projects, Replika and N’TOO.  In these works, Kuyda and Dinkins explore language and
+memory to create new experiences between humans and AI that serve as proxies for
+deceased loved ones and create a history of values and culture.
+19 Replika , described on the company’s website as “an AI companion who is eager to learn
+and would love to see the world through your eyes”, began as a memorial to Kuyda’s
+close friend Roman Mazurenko, after his death in a car accident in 2015. After his
+death, Kuyda wished merely to speak with her friend, who she described as “the most
+supportive and best friend a person could have” one more time before realizing that
+the technology her company used could help her do just that, in a way. After gaining
+approval from Mazurenko’s parents, she asked multiple mutual friends of Mazurenko
+to share conversations they’d had with him and used these dialogs as a basis for aMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20246
+chatbot that she named simply Roman . While several individuals who had been friends
+with Mazurenko refused to interact with this bot, many of his friends were startled by
+how eerily similar their conversations with the bot were to the conversations with
+their  late  friend.  Mazurenko’s  mother  expressed  her  reaction  as  “They  continued
+Roman’s life… this is a new reality and we need to learn to build it and live in it”. 
+20 Kuyda released the Roman bot publicly and subsequently created Replika based on this
+bot. As user numbers increased, many began to report the therapeutic nature of their
+interactions. Kuyda noted in a 2018 talk, users self-reported that chatting with Replika 
+had saved their lives: users having suicide ideations said that they were able to work
+through  feelings  while  chatting  with  the  bot.  Kuyda  believes  that  Replika  is  an
+important tool in our increasingly public lives lived on social media because Replika 
+allows users to have “an intimate conversation with themselves” and that overall, AI
+can  have  a  beneficial  impact  for  people:  “Usually  people  are  afraid  of  artificial
+intelligence doing some harm to humanity, but here it can help us be more human,
+make our lives more bearable” (Rosenbaum 2017).
+Fig.2. User interface of Replika - image capture taken by author on May 12th, 2022
+21 Stephanie  Dinkins,  in  contrast  to  Kuyda,  is  an  artist  whose  first  interaction  with
+artificial intelligence came in the form of Bina 48 (Breakthrough Intelligence via Neural
+Architecture), and her work with this robot is documented in Conversations with Bina
+4814. Dinkins’ frustration with these conversations led to the creation of her own AI
+project, N’TOO (Not the Other One) , a “multi-generational memoir in AI form” (Dooley
+2019).
+22 N’TOO is a personal exploration for Dinkins. The basis for N’TOO ’s language data is a set
+of recordings from Dinkins, her aunt, and her niece, covering over 100 years of lived
+experience as Black women in the United States. As Dinkins’ explains:
+I’m trying… to preserve a set of values that I think are significant to my family, and
+to  society  more  broadly,  but  that  are  disappearing.  When  I  think  about  two
+generations down the line, and them not having deep connections to those values,
+it makes me sad. So I’m trying to find ways to contain that and have a chatbot that
+even a five-year-old can walk up to, and talk to, and maybe hear a glimmer of what
+my grandmother would’ve said to them from their own context… personally, I lost
+my mother when I was quite young, and I always say I would give anything to
+understand some of the ways that she actually thought and operated in the world.Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20247
+So in a way, it’s trying to preserve some of that through those who are left here,
+now, who knew her.
+Future of Storytelling 2020
+23 Dinkins makes it clear that she is trying to create an artifact that delivers information
+in  a  way  that  fosters  agency  for  the  person  asking  questions.  Embodying  the
+information  in  the  history  of  a  family—within  a  legacy  of  a  demographic  that  is
+traditionally marginalized in the United States—offers a different form of storytelling:
+“thinking about traditions of conveying information that are not based in the book or
+film  or  video,  but  in  verbal  communication,  face-to-face  transfer  of  information”
+(Future of Storytelling 2020).
+24 The storytellers that are Replika and N’TOO  show the potential for an avenue of artificial
+intelligence as an extension of human life; a companion that supports and explores the
+potential of human life, values, and immortality with the acknowledgement of its limits
+and untapped potential. While both projects began as memorials and memory, acts of
+love for friend and family, their unintended consequences have resulted in neither
+incarceration nor humiliation: they have saved lives and preserved values for new
+generations.
+Fig.3. N'TOO in a gallery (left), N'TOO imaginings by Dinkins (right)
+ 
+As a co-creator
+25 As AI has become more ubiquitous, more artists and creators have begun to look at the
+role of AI in art and consider what roles an inorganic agent could play in the creative
+process. While many do not believe that artificial intelligence in and of itself is creative
+as per Boden's (2004) definition of creativity, “the ability to come up with ideas that are
+new, surprising, and valuable ”, they do consider AI as potential human-machine creativity ,
+an extension made possible in the posthuman. Below, I give an example of this type of
+posthuman companion.
+26 Nami  is a custom-built MIDI glove interface “designed for live electro-acoustic musical
+performance, improvisation, and a tool to extend my own multicultural background—
+primarily drawing from and contributing to the augmented trumpet, Nikkei, African
+American music, performer-composer, and gestural repertoires” (Sithi-Amnuai 2020).
+Nami  combines multiple types of flex sensor resistors within a glove tied to generative
+AI algorithms using the output of the resistors as input, then filtered and augmentedMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20248
+primarily for use with a trumpet, but also (in one performance) with a waterphone.
+Developed to augment the trumpet-playing work of musician and designer Sara Sithi-
+Amnuai, Nami  was designed in response to “a desire to learn and develop new gestural
+language beyond effective gesture15 for trumpet (my primary instrument) and integrate
+that  with  my  cultural  body  that  draws  deeply  from  the  African  American  musical
+tradition, Western classical music, and my Nikkei heritage” (Sithi-Amnuai 2020).
+27 The name itself comes from the Japanese word 波, meaning wave, which is reflected in
+the minyo work songs of Japanese immigrants to the United States that accompanied
+labor like the African-American work song. Sithi-Amnuai’s creative work with her AI-
+generated device was meant to explore “agency recognized in everyday movements”,
+where “bodies internalized learned cultural etiquettes, movements and experiences
+through sense, sight, and feel affecting the way we relate to our instruments and tools,”
+giving  the  active  embodied  agent  of  the  human  new  possibilities  of  interaction
+enhanced by artificial intelligence. 
+Fig.4. The second iteration of the Nami device (left) and the third iteration (right) Sithi-Amnuai (2020)
+ 
+As representation
+28 As a final example, here I present the work of Meinders and Sweidan (2018) on their
+project Intelligent Protest  as an example of the posthuman experience in the body politic.
+In 2018, the city of Alhambra, California, held a series of public meetings to discuss tree
+removal and preservation. Public meetings are often a barrier to participation in civic
+life globally, as many are unable to attend civic meetings due to disability, employment
+responsibilities, and the needs of dependents.
+29 In response to these limitations to civic participation, the authors’ collaborative AI
+research  group,  FeministAI:  Bits  and  Bytes,  conducted  a  year-long  series  of  local
+community workshops which led to the development of Intelligent Protest . Intelligent
+Protest  was a virtual space where individuals could log into the application via a phone,
+tablet, or computer, and in doing so, create an avatar. Every user was given a tree
+avatar with roots in the virtual space. By providing examples of facial movements as
+training data, the users created inputs for machine learning system using Rebecca
+Fiebrink’s Wekinator tool. The Wekinator application received fourteen input values
+and then computed five continuous output variables that were mapped to the avatar inMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 20249
+virtual space. Each of these outputs impacted the following in the virtual tree avatar:
+the rotation of the tree canopy, modified root color, root network growth rate, level of
+audio distortion, and cut-off frequency for the audio low-pass filter. Each of these
+individual  avatars  were  interconnected  at  the  roots,  with  each  tree  acquiring  the
+sounds of other avatars when the virtual tree roots were interconnected. 
+Fig.5. Screenshot of a virtual engagement with Intelligent Protest
+30 The collective approach here with a virtual avatar gave new opportunities for civic
+engagement: the unique and embodied community-sourced AI-design points to new
+possibilities for AI and emerging technologies for humans as we pass into the new
+posthuman era: as Roman Mazurenko’s mother noted in Section 3.1.2 above, this is the
+new reality that we must learn to live and engage in . With Intelligent  Protest , this engagement
+can now be extended into political participation that transcends the barriers often
+placed on groups such as the disabled, working parents, and the elderly. 
+ 
+Discussion
+31 What  is  the  role  of  the  posthuman  companion?  While  Yang  (2020)  argues  for  an
+unremarkable AI, analogous to ubiquitous computing, that allows AI to fit into everyday
+life without drawing notice. Per the arguments of Dourish and Mainwaring (2012), the
+problematic colonialist assumptions that underlie ubiquitous computing extend to the
+unremarkable  AI,  the  universal  AI  that  is  everywhere,  passively  watching  and
+powerfully judging. The posthuman companion is an AI that stands out: its very artifice
+is understood and despite that, or because of it, a new and unique experience for both
+human and device is created. Novel inputs for both human and artificial intelligence
+contribute  to  the  expanding  potential  for  human  self-understanding,  expression,
+storytelling, creation, and political participation as shown above.
+32 Central to the posthuman companion is the second type of intelligence defined by
+Pasquinelli (2016) as that of the holistic one, based on the idea of the adaptive brain . It isMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202410
+this adaptive brain that gives an artificial intelligence with its own agency, its own
+existence.
+ 
+Storytelling as encoding 
+33 How do we treat the machine intelligence in the posthuman companion? Kite and
+Nážin (2019) discuss that I ́ŋyaŋ Iyé  is not a person like a human is, as it lacks relations
+and  a  proper  name,  but  Kite  (2022)  writes  that  “Lakhóta  philosophies  provide
+frameworks for the ontological inclusion of nonhuman beings… these methodologies of
+listening to nonhuman entities are lived experiences with and through our lands and
+everything  within  them,  seeable  and  unseeable,  knowable  and  unknowable.”  In
+parallel,  Birhane  and  van  Dijk  (2020)  define  artificial  intelligence  as  “mediators  in
+embodied and socially situated human practices.” I ́ŋyaŋ Iyé  is a specific instance of
+ancient future practice with indigenous cultures (cf. Lewis 2020), but more generally
+the exemplars discussed in Section 3 are exemplars of what Merleau-Ponty (2012) terms
+the phenomenological practice of “being-in-the-world” rather than removed from it, as
+is the universalist AI. The static historical knowledge of the universal AI is a novel on
+the shelf, a “representation of human life” (Benjamin 1973: 3) versus the experience of
+humans in live storytelling. The novel is a fixed form, a passive experience for the
+human reader, not an interactive storyteller in time and place that contributes to the
+making of time and place16. A story is the entire experience, the rich interaction of
+storyteller and audience, with voice and gesture, in the embodied situational moment
+that transcends the passive one-sided reading. It is this that parallels the experience of
+a  human  and  a  posthuman  companion.  Each  experience  gained  by  the  human
+participant(s) in the interaction contributes to the unique moment that the human(s)
+have  in  the  situated  practice  and  participatory  sense-making  of  the  embodied
+experience.
+34 For Hayles (2010), this relationship of interaction is stronger than that of knowledge as
+passive representation. As she discusses the digital subject in the age of the internet,
+drawing on the work of Mark Poster, she notes “the relation between the word and
+thing becomes conventional, arbitrary, whereas the relation within language between
+trace and voice is stronger, more direct” (Hayles 2010: 202), and in agreement with
+Benjamin  (1973),  “the  creation  of  narrative  may  be  an  evolutionary  adaptation  of
+remarkable importance” (Hayles 2010: 197). Narrative with an agent we can interact
+with helps us create our own stories, enabling our understanding and explaining the
+less alien experiences with the artifacts discussed in Section 3 above. While they are of
+an intelligence that is nonhuman, as discussed in Kite and Nážin (2019), they provide an
+interaction  our  brains  can  make  sense  of.  We  cannot  create  narrative  with  the
+universal  AI,  the  unexplainable  and  unanswerable  black  box  of  deep  learning
+algorithms that many commercial systems now rely upon, because human participation
+in these is passive obedience, not understanding: this is the role of the human to the
+master  algorithm,  paralleling  the  controlled  storytelling  of  the  British  media  as
+discussed in Hall (2007).
+35 Benjamin  (1973)  and  Hayles  both  beg  the  question:  how  are  these  narratives
+constructed? How do we become posthuman and gain the company of the posthuman
+companion? Hayles again has an answer:
+When I suggest that we are virtual creatures, I mean to foreground the importance
+of  processes  for  us  as  well.  Processes  connect  the  embodied  materiality  of  theMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202411
+creatures  with  the  bodies  we  see;  processes  connect  our  visual/cognitive
+perceptions  of  them  with  the  narratives  we  construct;  and  processes  are
+reinscribed  and  reinterpreted  as  narrative  representations  when  we  make  the
+creatures characters in stories of defeat and victory, evolution, and development.
+Hayles 2010: 211
+36 Through a process of decoding and encoding, the self, according to Hayles, “becomes a
+message” but “the self the receiver decodes is never exactly the same self the sender
+encoded”  (Hayles  2010:  77).  Through  this,  humans  themselves  become  code,  both
+interactive and creating what Barad (2011) terms spacetimemattering with the intra-
+actions17 of the digital artifacts termed here as the posthuman companion.
+37 If the humans become code, does that code have significant meaning in the experience
+of the human? In Hall’s 1980 paper on encoding and decoding of media messages, he
+discusses that in media discourse (or in our case, more than discourse in the cases of
+creative and interactive forms of the posthuman companion), these encoded media
+messages must be “translated— transformed, again—into social practices if the circuit
+is  to  be  both  completed  and  effective.  If  no  meaning  is  taken,  there  can  be  no
+consumption”  (Hall  1980:  129).  For  the  decoded  message  that  is  now  the  human
+experience after the communicative moment, the meaning-making will be interpreted
+in terms of their own frameworks of knowledge. This meaning-making then depends
+on the shared frameworks between AI and humans, and the strengths of the referants
+in the model powering the artificially intelligent agent (see Wharton 2021)18. With the
+posthuman companion and its focus on its particular and situated understanding of
+human experiences, these referants will be stronger than in a large universalist model
+with billions of parameters—such as that which is powering large language models such
+as ChatGPT.
+38 Like Benjamin and his distinctions between the storyteller and the novel, Clarke (2014)
+notes that “neither systems for coding and transmission (such as digital media) nor
+coded structures (such as narrative texts) are capable of cognizing on their own—that
+is, of making internal or self-referential sense of either themselves or their objects”.
+The  posthuman  companion  is  coded  by  humans  using  systems  of  symbols  and
+representations to create command systems for the AI agents, but once created, the
+system is responding independently to the message from the human and cognizing to
+create an encoded message to transmit to humans, whether in linguistic form with
+Replika  or N’TOO , aural messages from Nami , or visual and aural output from Intelligent
+Protest . It is beyond the scope of this paper to claim whether these creations are “alive”
+(see the discussion on the problem of agency below), but they do fall within the original
+goal of cybernetic systems theory as described by von Foerster as “a mode of behavior
+that  is  fundamentally  distinct  from  the  customary  perception  of  the  operations  of
+machines  with  their  one-to-one  correspondence  of  cause-effect,  stimulus-response,
+input-output, and so on” (van Forester 1990).
+39 But do the posthuman companions create meaning? Clarke (2014), writing just before the
+explosion of artificial intelligence in the latter half of the 2010s claims: “technical
+objects are not autopoietic meaning systems: unlike the operations of consciousness
+and communication, they do not self-(re)produce meaning. Rather, on the plane of
+metabiotic systems, their particular function is to convey meaning, to transmit it. Their
+production  is  mediation.  Like  the  trace  before  the  sign,  they  spur  the  making  of
+meaning, and once made, they make it leap over distances. Relative to the autopoietic
+realm, then, machines are the externalized receptacles for mentation, socialization,Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202412
+communication, and memorialization, called forth by the continuous metabiotic need
+to  structurally  couple  together  ever-renewed,  ever-reproduced  psychic  and  social
+systems.” While anything with the term post-human implies inherently a metabiotic
+state  with  human  existence,  are  the  post-human  companions  merely  mediators  of
+meaning as Clarke claims?
+40 They are not merely mediators; instead, they exist in a spectrum of mediation from the
+less-independent to the more-independent. On the one hand, the work of Intelligent
+Protest  acts  as  a  mediator;  they  translate  from  human  work  into  another  form.
+Intelligent Protest gives a visual, albeit AI-enhanced and generated, representation of
+remote human input versus the more independent outputs of Nami , N’TOO , and Replika .
+While these projects began rooted in the meanings ascribed to them in music and
+language by Dinkins, Kuyda, and Sithi-Amnuai, the generative code that they possess
+allows  them  to  break  beyond  being  purely  mediators  of  meaning.  They  generate
+meaning and code messages with an independence from their creators; they are not the
+passive novel, the narrative, the artwork left at a temporal scale to be formed into a
+semantic whole.
+41 While Clarke and others have focused on the notion of the autopoietic system for AI, an
+enclosed system that is self-replicating and self-referencing, it is highly arguable that
+while neither human nor posthuman companion are autopoietic, rather, the human
+and posthuman companion live within a state of what Dempster (2000) refers to as
+sympoiesis . Dempster, an environmental studies scholar, defined these types of systems
+as  complex  and  self-organizing  (as  are  autopoietic  systems),  but  they  are  also
+collectively  producing  and  boundaryless  systems,  as  well  as  “homeorhetic,
+evolutionary, distributively controlled, unpredictable, and adaptive” (Dempster 2000:
+1). Any posthuman system, with a decentered human in a network of others, including
+the technological, cannot be autopoietic: such systems according to Haraway (2017) are
+“complex, dynamic, responsive, situated, historical systems”, as are our examples in
+Section 3—each are complex and dynamic structures that respond and are built within
+a situated space and contain a specific (his)story to their creation – in other words,
+sympoietic systems. Information is not held within one autopoietic system, but is, as
+Dempster describes, distributed throughout a sympoietic system, and the system relies
+on “uncertainty and change for continual existence” (Dempster 2000: 14). 
+42 Can the universalist AI also be interpreted in the space of narrative? For this, we turn
+to the work of Hall (1980, 2007). As mentioned above, the universal AI desired in the
+creation  of  artificial  general  intelligence  parallels  that  described  by  Hall  (2007)  of
+“professional broadcasting elites, with their own social formation, their own selective
+recruitment, their own social position, their own connections to and perspectives on
+power,  their  own  professional  competences  and  routines,  their  own  professional
+ideologies” (Hall 2007: 382). The powerful tech companies today, such as Google and
+OpenAI, represent a different, but equally pernicious type of shared elitist ideals and
+control over a new powerful media source that controls the encoding of information. In
+contrast, the posthuman companions discussed in Section 3 are not universal encoders
+with  a  singular  agenda  and  structure;  they  are  heterogeneous  and  situated  with
+particular and unique perspectives that draw heavily on the creators’ life experiences
+with death, race and identity, cultural creation, and community. While a multitude of
+individuals  have  created  projects  using  of  OpenAI,  the  underlying  structure  has
+reproduced something Hall describes as “the actions of individual men, with a pluralityMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202413
+of viewpoints, are constrained by the structures in which they operate” (Hall 2007:
+394).
+ 
+Intra-action and participatory sense-making 
+43 We must now consider how encoded selves can become interactive. Before this, let us
+turn to the concept that both human and non-human are to be considered less as two
+separate  entities,  but  rather  within  the  same  continuum.  For  Latour  (1997)  and
+Suchman (2007), the actant , whether human or not, is the source of an action, in this
+case  of  the  active  encoding  and  decoding  of  experiences.  “An  ‘actor’  in  ANT  is  a
+semiotic  definition—an  actant—that  is,  something  that  acts  or  to  which  activity  is
+granted by others. It implies no special motivation of human individual actors, nor of
+humans in general. An actant can literally be anything, provided it is granted to be the
+source of an action” (Latour 1997: 4). This is in line with Barad (2003), who writes that
+“all humans, not merely ‘human’ bodies come to matter through the world’s iterative
+intra-activity—it’s performativity… ‘human’ bodies are not inherently different from
+‘nonhuman’ ones. What constitutes the ‘human’ (and the ‘nonhuman’) is not a fixed or
+pregiven  notion,  but  nor  is  it  a  free-floating  identity”  (Barad  2003:  823).  Barad’s
+insistence  on  materialism  strongly  implies  that  these  intra-actions  of  agents  leave
+changes on the bodies they touch.
+44 The actants in the posthuman companion space can be human; they can be embodied
+algorithmic output, as with I ́ŋyaŋ Iyé  or N’TOO ; they can be in virtual space, as with
+Intelligent Protest ; they can be augmented creative tools like Nami . Regardless of the
+space, the intelligence, or the interaction, all of these actants are in a space, creating
+and/or narrating together. But, again, the fundamental question remains: how does
+this encoding and decoding process of actants in situ work? How do they leave these
+changes as indicated by Barad? For this, we turn to the work of DiPaolo et al. (2018) and
+Golonka  and  Wilson  (2012)  and  the  idea  of  situated  practices  and  participatory
+sensemaking.
+45 To examine more closely the possibilities of a situational intra-action work between
+two actants, we examine the work of DiPaolo et al. which offers the following as a
+potential explanation: critical participation , which they define as:
+self-consciously  choosing  and  actively  questioning  and  changing  the  frames  of
+discourse (…). This ethics-as-practice is realized in keeping ourselves open to our
+own unfinished becoming – in other words, learning.
+Di Paolo et al. 2018: 14
+46 Bodies for DiPaolo et al. are unfinished, as they are for Haraway (1988) and Barad
+(2003), and always in a state of unfinished becoming. While the work of DiPaolo et al. is
+focused on language, it is more broadly applicable in defining interaction as “a living
+stream of activity in the sociomaterial world of practices and history” (DiPaolo et al.
+2018: 19), and the unfinished becoming is “a field of struggle, transformation, criticism,
+of human enaction” (DiPaolo et al. 2018: 19). The situational interactions of language
+“present a richer, more complex set of possibilities out of which trust, empathy, and
+mutual recognition can emerge (as can their opposites and troubles)” (DiPaolo et al.
+2018: 516)19. Even in these situations, the humans who come to them as linguistic bodies
+(or for our purposes other discursive interactive bodies) are “self-contradictory, social
+products,  and  personal  achievements,  sustaining  displaced  relations  to  themselves,
+committing to choices and abiding in potentiality, coupling flows of self-and-other-Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202414
+directed utterances” (DiPaolo et al. 2018: 21). These contradictions are where learning
+can happen, for the self and the other, for growth and experience20. As with ELIZA,
+where  mistakes  were  necessary  to  move  conversation  forward,  for  DiPaolo  et  al.,
+contradictions give paths forward in the situational intra-actions we are examining
+here.
+47 But  how  to  resolve  these  mistakes  and  contradictions,  errors  in  the  encoding  and
+decoding between actants? DiPaolo et al. give a possible solution with participatory
+sense-making :  “the  coordination  of  intentional  activity  in  interaction,  whereby
+individual  sense-making  processes  are  affected  and  new  domains  of  social  sense-
+making and making can be generated that were not available to each individual on her
+own” (De Jaegher and DiPaolo 2007: 497). 
+48 This sense-making is both individual and co-authored: through each participant’s own
+understanding of an interaction, the shared experience is interpreted, and the shared
+learning  in the exchange where growth can happen: something performed socially and
+enacted as a shared practice. The depth of this performance and interaction is enacted
+by degrees of participation . While in language, these types of interactions are defined by
+Austin (1962) and Grice (1968, 1975), there is no specific framework defined for general
+participatory sensemaking given by DiPaolo et al. However, they do highlight what they
+believe drives participatory sense-making: breakdowns , as Di Paolo et al. note: “without
+the possibility and risk of breakdowns, there is no participatory sense-making… in this
+way, a shared knowledge  is jointly constructed between the participants. (DiPaolo et al.
+2018: 103).
+49 This knowledge is not a totality of each participant’s knowledge. It is specific to the
+moment,  where  “the  practice  of  coordinating  sensorimotor  schemes  together”
+(DiPaolo et al. 2018: 104), where each breakdown and coordination drive the sense-
+making forward. Research discussed in their work points to the conclusion that during
+“a social interaction the brain-bodies of the participants seem to form an entangled
+system” (Di Paolo et al. 2018: 107) where organic bodies can be deeply in tune with each
+other. If organic bodies can interact in this way, then potential research remains to
+show how this works between organic bodies and bodies with animism but created
+from inorganic materials. Di Paolo et al. give one final note on participatory sense-
+making: further research seems to point to the fact that humans are born  to interact21
+and as the sensorimotor body develops, it does so as an intersubjective body , where many
+cognitive  and  affective  capabilities  of  human  bodies  are  rooted  in  intersubjective
+experience and social interaction. Given this primacy of interaction for cognitive action
+in the human existence, an active experience with such affordances for action,  by which
+our sensorimotor bodies are given information we can react to (Golonka and Wilson
+2012)  as given by the projects and environments described in Section 3, we now have a
+possible path to the how of the post-human companion. Further exploration of this
+idea, however, will remain for future work.
+ 
+Agency and situated knowledge
+50 One key point we have yet to address - is what gives power back to the humans in this
+world with a posthuman companion? What is the role of agency versus the passivity of
+being ruled over by the gods of the master algorithm? And what of the potential for
+agency in a non-human actant? Hayles (2000) addresses this “crisis of agency”:Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202415
+If on the one hand, humans are like machines, whether figured as cellular automata
+or Turing machines, then agency cannot be securely located in the conscious mind.
+If, on the other hand, machines are like biological organisms, they must possess the
+effects of agency even though they are not conscious. In these reconfigurations,
+desire and language, both intimately connected with agency, are understood in new
+ways…. Language, emerging from the operations of the unconscious figured as a
+Turing  machine,  creates  expressions  of  desire  that  in  their  origin  are  always
+already  interpenetrated  by  the  mechanists,  no  matter  how  human  they  seem.
+Finally, if desire and agency springing from it are at bottom nothing more than the
+performance of binary code, then computers can have agency as fully authentic as
+humans.
+Hayles 2010: 177
+51 For Lacan, agency and language, encoding and decoding for the human subject, was
+rooted in the subconscious, a distinctly human feature (Lacan 1977); but for Wolfram,
+in his vision of the universal computation, this was emergent as a byproduct of binary
+computation, freeing agency from its chains of being an option only for organic life
+(Wolfram 2002). Agency as an emergent property can belong to any being of code,
+whether human or machine.
+52 Tied to our understanding of agency, we now turn to Barad (2003), who offers us a
+bridge leading from properties of agency and emergence to our final concern: that of
+situated knowledge. Barad’s theory to replace that of representationalist thinking, as
+discussed at length in Adam (1998), is that of agential realism . Her suggestion is to begin
+from  a  new  metaphysical  starting  point:  a  relational  ontology  that  allows  us  to
+“acknowledge  nature,  the  body,  and  materiality  in  the  fullness  of  their  becoming
+without resorting to the optics of transparency or opacity, the geometries of absolute
+exteriority or interiority, and the theorietization for the human as either pure cause or
+pure effect while at the same time remaining resolutely accountable for the role ‘we’
+play in the intertwined practices of knowing and becoming” (Barad 2003: 12). Barad, a
+physicist by training, relies on the work of Niels Bohr for her analysis: she notes that
+Bohr  rejected  the  atomistic  metaphysics  that  takes  “things”  as  the  basic  entity  or
+“things do not have inherently determinate boundaries or properties, and words do not
+have  inherently  determinate  meanings”  (Barad  2003:813).  Crucially,  for  our
+examination,  it  is  the  key  insight  of  Barad  based  on  Bohr’s  so-called  Uncertainty
+Principle22 of agential intra-actions , which are the key to her epistemological framework.
+In  parallel  to  the  thinking  of  Hayles  (2000;  2010),  Wolfram  (2002),  and  others,
+knowledge is emergent—effectively that knowledge rises from retaliation intra-action,
+or in her own words: “ phenomena are the ontological inseparability of agentially intra-acting
+‘components’ :  that  is,  phenomena  are  ontologically  primitive  relations  –  relations
+without preexisting relata” (Barad 2003: 815). 
+53 The posthuman implications of Barad’s arguments are that humanity is not a required
+condition for material bodies with agency– “what constitutes the ‘human’ (and the
+‘nonhuman’) is not a fixed or pre-given notion, but nor is it a free-floating identity”
+(Barad 2003: 823). Her previously noted thoughts on changes wrought by participatory
+intra-actions give us a result that agency “is a matter of changes in the apparatuses of
+bodily production, and such changes take place through various intra-actions, some of
+which  remake  the  boundaries  that  delineate  the  differential  constitution  of  the
+‘human’. Holding the category ‘human’ fixed excludes an entire range of possibilities in
+advance, eliding important dimensions of the workings of power” (Barad 2003: 826). By
+returning the agency not only to the human, but ascribing to the non-human as well,Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202416
+we return that an artificially intelligent agent is not all-powerful, nor is it neutral, it is
+situated within a chain of causal connections resulting in the moments of interaction
+(see Crawford 2022). The human is no longer at the mercy of the algorithm: humans
+have the power of creation in the interactions and the power of the creative forces
+necessary to treat machines not as gods nor slaves (see Birhane and van Dijk 2021 for
+these issues of ‘robot slavery’), but rather as agents with their own history, creation,
+cause, and justifications for existence and interaction. Per Hayles, we now have the
+justification for her statement that “material embodiments do not circulate effortlessly
+because they are always instantiated, specific, and located in a certain time and place”
+(Hayles 2010: 206).
+54 What would a situated knowledge look like in the space of AI? We have agency, we have
+relative understanding, and we have that actants are existent bodies in material space
+that participate together. But we must address the issues of power that are inherent in
+relations  between  human  and  machine  intelligences,  between  human  bodies  and
+machine algorithms, and between the hierarchies of power inherent in any situation
+given history? We cannot allow, as Haraway (1988) describes, “distance the knowing
+subject from everybody and everything in the interests of unfettered power” (Haraway
+1988: 581). This god-trick , as termed by Haraway, or the view from nowhere as per Adam
+(1998, 2005) is the opposite of knowledge as exchange—our key understanding for the
+posthuman companion. In parallel with DiPaolo et al., Barad, and Hayles, Haraway
+discusses  that  senses  are  active  perceptual  systems,  “building  on  translations  and
+specific  ways of seeing” (Haraway 1988:583) and that by transcending the god-trick , we
+can achieve the feminist objectivity: “about limited location and situated knowledge”
+rather  than  looking  at  knowledge  as  “transcendence  and  splitting  of  subject  and
+object” (Haraway 1988: 583). For Haraway, the situated self, the knowing self  is “partial
+in  all  its  guises,  never  finished,  whole,  simply  there  and  original;  it  is  always
+constructed and stitched together imperfectly and therefore able to join with another, to
+see together without claiming to be another” (Haraway 1988: 586). This situated self,
+human, non-human or the AI agent, is the self that can best participate in the space:
+our best hope for beating the god-trick and omniscience of universal ubiquitous AI.
+55 Situated  knowledges  for  Haraway  are  indeed  about  communities,  about  being
+“somewhere  in  particular ” [emphasis mine] (Haraway 1988: 590). Haraway’s vision of
+the situated knowledge leads to the situated interaction, which gives “the joining of
+partial views and halting voices into a collective subject position that promises a vision
+of the means of ongoing finite embodiment, of living within limits and contradictions –
+of views from somewhere” (Haraway 1988: 590). This joint creation of experience, of
+knowledge as interaction or intra-action (per Barad), gives us an “object of knowledge…
+pictured as an actor and agent, not as a screen or a ground or a resource, never finally
+as  slave23 to  the  master  that  closes  off  the  dialectic  in  his  unique  agency  and  his
+authorship of ‘objective’ knowledge” (Haraway 1988: 592). There is no master encoder
+or  decoder:  the  encoding  and  decoding  happen  in  situ ,  between  animate  actants,
+whether mechanical or biological, on equal grounds of power.
+56 Artifacts such as those discussed in Section 3 are constructed from somewhere, openly,
+and  are  acknowledged  as  being  created  within  situated  spheres:  from  love,  grief,
+creativity, or vision, in human systems of belief without a pretense of universality.
+They are designed with material intent in their interactivity: while Replika  is designed
+to interact on the mobile space, it was designed with the medium in mind. These forms ofMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202417
+interactivity,  of  material  existence,  yield  AI  projects  that  have  performativity  and
+interactivity at their heart. While they use the methods of other forms of artificial
+intelligence, they do not ignore their human roots, nor do they stand in judgment.
+They stand as companion , as a helper and assistant, reacting to and adapting in reaction
+to the interplay, linguistic and kinetic, of human users. In contrast to the divine and
+untouchable AI of large systems, these systems are mutable by design, more akin to the
+life forces of humanity that gave birth to them, touched and changed by experience. 
+ 
+Conclusion
+It  is  as  if  something  that  seemed  inalienable  to  us,  the  securest  among  our
+possessions, were taken from us, the ability to exchange experiences.
+Benjamin 1973: 83
+57 The ephemeral engagement is the best of being human: we as the makers and shapers
+of our own experiences, not the passive worshippers, accepting the knowledge of an
+unknowable  AI  that  can  never  truly  know  us  in  our  individual  lives.  The  situated
+experience of engagement with the artificial artifact requires not a meaningless god or
+stochastic parrot (see Bender et al. 2021), but rather what Scott Benesiinaabandan
+notes in his 2019 piece in the Indigenous AI Protocol Paper: the key participant in any
+ceremonial context is the oshkaabewis , or helper. In his own words:
+“Seeing  the  opportunity  in  deep  learning  programs  and  treating  them  as
+oshkaabewis  rather than a  skynet , is the key to guiding the ethical and productive
+use of AI.” 
+--Benesiinaabandan 2019: 129
+58 What is our posthuman future with AI? Can we create a future with AI where we live
+and grow with it, as we do our fellow humans? Donna Haraway talked about how the
+dream of a common language that was the feminist dream is not only not possible—it
+isn’t a dream at all, but a nightmare. Rather than the common language, we can have
+what Haraway terms an infidel  heteroglossia , a cyborg existence where we acknowledge
+fractured and overlapping meanings. These fractures and misunderstandings are what
+drive  the  conversation  and  human  AND  machine  understanding  forward  and  are
+essential to our growth and continued existence.
+59 A parting thought is from Matteo Pasquinelli, in a recent work: “Machine intelligence is
+not  anthropomorphic,  but  sociomorphic:  it  imitates  and  feeds  on  the  condividual
+structures of society rather than the individual ones” (Pasquinelli 2016). The AIs we
+build and we live with—whether they control us, or we interact with them and live with
+them as helpers and collaborators or even tools— depend on our society and how we
+choose to build our societies. If we choose to live in systems of coexistence, of equity,
+and of equality, we will build better AI. If we don’t, if we choose the all-controlling AI
+because it’s easier to be passive and controlled rather than be active participants, we
+will live within the world of the god-trick rather than the harder world of the cyborg.
+60 Despite what we read about in the news and in endless conferences about our need to
+drive towards artificial general intelligence, we have already solved the problem of
+artificial intelligence. The focus on the universal historical knowledge and the expected
+predictive behavior of such an omniscient algorithm has obscured the fact we have
+done  so.  Humans  have  already  created  intelligences  to  interact  with  our  own,  to
+augment our existence, and to share experiences with. In rethinking our ideas of whatMeaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202418
+artificial intelligences are possible, we should always remember that we have already
+achieved  the  beginnings  of  livable  futures,  so  that  we  can  reclaim  our  stories  for
+ourselves and those, posthuman or not, we choose to share them with.
+BIBLIOGRAPHY
+“After her best friend died, this programmer created an AI chatbot from his texts to talk to him
+again.” CBC Docs, 17 Nov. 2021,  https://www.cbc.ca/documentaries/the-nature-of-things/after-
+her-best-friend-died-this-programmer-created-an-ai-chatbot-from-his-texts-to-talk-to-him-
+again-1.6252286. Accessed 25 March 2022 .
+“Episode 11: Take It to the Would Be (Featuring Stephanie Dinkins).” Glitter & Doom Podcast , Jan.
+2020, https://open.spotify.com/episode/1ldg3tKg4cWlbsHWG3dW43. 
+“Intelligent Protests.” Feminist AI , https://www.feminist.ai/intelligent-protests-1. Lambda Labs.
+Undated. Demystifying GPT-3. https://lambdalabs.com/blog/demystifying-gpt-3/
+”Replika website”. https://replika.com/
+Adam, Alison, Artificial Knowing: Gender and the Thinking Machine . Routledge, Taylor & Francis
+Group, 1998.
+Adam, Alison, “Knowing Subjects: AI from Feminist Philosophy.” Mechanical Bodies, Computational
+Minds: Artificial Intelligence from Automata to Cyborgs , edited by Stephano Franchi and Güven
+Güzeldere, MIT Press, Cambridge, MA, 2005, pp. 327–344. 
+Austin, J.L., How to Do Things with Words . Harvard University Press, 1962. 
+Barad, Karen, “Posthumanist Performativity: Toward an Understanding of How Matter Comes to
+Matter.” Signs: Journal of Women in Culture and Society , vol. 28, no. 3, 2003, pp. 801–831., https://
+doi.org/10.1086/345321. 
+Barad, Karen,  Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and
+Meaning . Duke University Press, 2007.
+Barad, Karen, “Nature’s Queer Performativity.” Qui Parle: Critical Humanities and Social Sciences , 
+19.2, 2011, https://doi.org/10.5250/quiparle.19.2.0101
+Bender, Emily M., and Koller, Alexander, “Climbing towards NLU: On Meaning, Form, and
+Understanding in the Age of Data.” Proceedings of the 58th Annual Meeting of the Association for
+Computational Linguistics , 2020, https://doi.org/10.18653/v1/2020.acl-main.463. 
+Bender, Emily M., et al., “On the Dangers of Stochastic Parrots.” Proceedings of the 2021 ACM
+Conference on Fairness, Accountability, and Transparency , 2021, https://doi.org/
+10.1145/3442188.3445922. 
+Benesiiaabandan, Scott, “What Does the Future Look like for AI? Oshkaabewis or a Skyn et ” 
+Indigenous Protocol and Artificial Intelligence Workshops Position Paper , edited by Jason Edward Lewis,
+pp. 128–129. Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202419
+Benjamin, Walter, “The Storyteller.” Illuminations , edited by Hannah Arendt, translated by Harry
+Zohn, Fontana/Collins, 1973, pp. 83–109. 
+Benjamin, Ruha, Race after Technology: Abolitionist Tools for the New Jim Code . Polity, 2020. 
+Birhane, Abeba, and Van Dijk, Jelle, “Robot Rights?” Proceedings of the AAAI/ACM Conference on AI,
+Ethics, and Society , 2020, https://doi.org/10.1145/3375627.3375855. 
+Boden, Margaret A., The Creative Mind: Myths and Mechanisms. Psychology Press, 2004.
+Buolamwini, Joy, and Gebru, Timnit, “Gender Shades: Intersectional Accuracy Disparities in
+Commercial Gender Classification.” Conference on Fairness, Accountability, and Transparency , 2018,
+pp. 77–91. 
+Clarke, Bruce, Neocybernetics and Narrative.  Vol. 29. University of Minnesota Press, 2014.
+Crawford, Kate, Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence . Yale
+University Press, 2022. 
+De Jaegher, Hanne, and Di Paolo, Ezequiel, “Participatory Sense-Making.” Phenomenology and the
+Cognitive Sciences, vol. 6, no. 4, 5 Oct. 2007, pp. 485-507, 10.1007/s11097-007-9076-9. 
+Dempster, Beth, “Sympoietic and Autopoietic Systems: A New Distinction for Self-organizing
+Systems.” Proceedings of the World Congress of the Systems Sciences and ISSS. Toronto, Canada, 2000.
+Di Paolo, Ezequiel, et al., Linguistic Bodies: The Continuity between Life and Language . The MIT Press,
+2018. 
+Dooley, Tatum, “Stephanie Dinkins Is Turning Memoir into AI.” Vice Garage , 15 Aug. 2019, https://
+garage.vice.com/en_us/article/43kdnm/stephanie-dinkins-is-turning-memoir-into-ai. Accessed
+9 May 2021. 
+Dourish, Paul, and Mainwaring, Scott D., “Ubicomp's Colonialist Impulse.” Ubicomp '12 Proceedings
+of the 2012 ACM Conference on Ubiquitous Computing , pp. 133–142. 
+Future of Storytelling. Medium , 10 Jan. 2020, https://medium.com/future-of-storytelling/q-a-
+with-transdisciplinary-artist-stephanie-dinkins-592b420c8703. Accessed 20 May 2021. 
+Golonka, Sabrina, and Wilson, Andrew D., “Gibson's Ecological Approach - a Model for the
+Benefits of a Theory-Driven Psychology.” Avant , III, pp. 40–53. 
+Grice, Paul H., “Utterer’s Meaning, Sentence-Meaning, and Word-Meaning.” Philosophy, Language,
+and Artificial Intelligence , 1968, pp. 49–66., https://doi.org/10.1007/978-94-009-2727-8_2. 
+Grice, Paul H., “Utterer's Meaning, Sentence-Meaning, and Word-Meaning.” Syntax and Semantics
+3: Speech Arts , edited by Peter Cole and Jerry L. Morgan, 1975, pp. 41–58. 
+Hall, Stuart, “Encoding/decoding.” Culture, Media, Language , edited by Stuart Hall, Dorothy.
+Hobson, Andrew Lowe, and Paul Willis, Hutchison, 1980, pp. 128-138.
+Hall, Stuart, “The ‘Structured Communication’ of Events.” CCCS Selected Working Papers . Routledge,
+2007, pp. 381-401.
+Haraway, Donna, “A Cyborg Manifesto: Science, Technology, and Socialist-Feminism in the Late
+Twentieth-Century.” Simians, Cyborgs, and Women: The Reinvention of Nature , Routledge, pp. 149–
+181. 
+Haraway, Donna, “Situated Knowledges: The Science Question in Feminism and the Privilege of
+Partial Perspective.” Feminist Studies , vol. 14, no. 3, 1988, p. 575., https://doi.org/10.2307/3178066.Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202420
+Haraway, Donna, “Symbiogensis, Sympoiesis, and Art Science Activisms for Staying with the
+Trouble.” Arts of Living on a Damaged Planet , edited by Anna Tsing, Heather Swanson, Elaine Gan,
+and Nils Bubandt, University of Minnesota Press, 2017, pp. M25-M50.
+Hayles, Nancy Katherine, How We Became Posthuman: Virtual Bodies in Cybernetics, Literature and
+Informatics . Univ. of Chicago Press, 2000. 
+Hayles, Nancy Katherine, “Unfinished Work.” Theory, Culture & Society , vol. 23, no. 7-8, 2006, pp.
+159–166., https://doi.org/10.1177/0263276406069229. 
+Hayles, Nancy Katherine, “Traumas of Code.” Critical Inquiry , vol. 33, no.1, 2006, pp. 136-157.
+https://doi.org/10.1086/509749.
+Hayles, Nancy Katherine, My Mother Was a Computer Digital Subjects and Literary Texts . University of
+Chicago Press, 2010. 
+Howard, Jeremy and Ruder, Sebastian, “Universal Language Model Fine-tuning for Text
+Classification. arXiv , 2018: https://arxiv.org/pdf/1801.06146.pdf. Preprint 
+Keyes, Os, “The Misgendering Machines.” Proceedings of the ACM on Human-Computer Interaction ,
+vol. 2, no. CSCW, 2018, pp. 1–22., https://doi.org/10.1145/3274357. 
+Keegan, Janna, “Stephanie Dinkins: Conversations with Bina48.” Fine Arts Museums of San
+Francisco website, 2020. https://famsf.org/stephanie-dinkins-conversations-with-bina48-2.
+Accessed 29th March 2022.
+Kite, Suzanne and Nážin, Mahpíya, “It’s Not Done Through our Mind, It’s Done Through our
+Spirit”. South as a State of Mind. Fall/Winter 2019, Issue 11.
+Kite, Suzanne, “Postmodernism is not Permission.” Suzanne Kite website, 2022, https://
+www.kitekitekitekite.com/writing. Accessed 22nd October 2023.
+Kuyda, Eugenia, 2018. “More Human Than Human.” The New Context Conference, San Francisco,
+CA on 15th November 2018.
+Lacan, Jacques, The Seminar. Book XI. The Four Fundamental Concepts of Psychoanalysis, 1964.
+Translated by Alan Sheridan, Hogarth Press and Institute of Psycho-Analysis, 1977. 
+Larson, Jeff, et al., “How We Analyzed the COMPAS Recidivism Algorithm.” ProPublica , 23 May
+2016, https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm.
+Accessed 16 Mar. 2021. 
+Latour, Bruno, “On Actor-Network Theory: A Few Clarifications.” Soziale Welt , 1997, pp. 369–381. 
+Lewis, Jason Edward (ed.), Indigenous Protocol and Artificial Intelligence Position Paper . The Initiative
+for Indigenous Futures and the Canadian Institute for Advanced Research (CIFAR), 2020. 
+Meinders, Christine, and Sweidan, Selwa, “The Design of the User Experience for Artificial
+Intelligence.” The 2018 AAAI Spring Symposium Technical Reports , 2018, pp. 425–429. 
+Merleau-Ponty, Maurice, Phenomenology of Perception: An Introduction . Donald A. Landes
+(translator). Routledge, 2011. 
+Mukařovský, Jan, “Intentionality and Unintentionality in Art.” Structure, Sign, and Function:
+Selected Essays by Jan Mukařovský . Translated and edited by John Burbank and Peter Steiner, Yale
+University Press, 1978.
+Murgia, Madhumita, “OpenAI Chief Seeks New Microsoft Funds to Build ‘Superintelligence’. 
+Financial Times , 12th Nov. 2023.Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202421
+Newell, Allen, Unified Theories of Cognition . Cambridge, MA, Harvard University Press, 1990.
+Newell, Allen, and Simon, Herbert A., Human Problem Solving . Prentice-Hall, 1972. 
+Newton, Casey, “Speak, Memory.” The Verge , https://www.theverge.com/a/luka-artificial-
+intelligence-memorial-roman-mazurenko-bot. 
+Noble, Safiya Umoja, Algorithms of Oppression: How Search Engines Reinforce Racism . New York
+University Press, 2018. 
+Pasquinelli, Matteo, “Abnormal Encephalization in the Age of Machine Learning.” e-Flux , Sept.
+2016, https://www.e-flux.com/journal/75/67133/abnormal-encephalization-in-the-age-of-
+machine-learning/. 
+Ryan-Mosley, Tate, “The NYPD Used a Controversial Facial Recognition Tool. Here's What You
+Need to Know.” MIT Technology Review , 9 Apr. 2021, https://www.technologyreview.com/
+2021/04/09/1022240/clearview-ai-nypd-emails/. Accessed 22 Nov. 2021. 
+Rosenbaum, Si, “Replika Is a Strangely Therapeutic Chatbot for Talking to Yourself.” Vocativ , 23
+May 2017, https://www.vocativ.com/news/429672/therapeutic-chatbot-for-talking-to-yourself/
+index.html. Accessed 19 June 2021. 
+Rossi, Paolo, Clavis Universalis: Arti Della Memoria e Logica Combinatoria Da Lullo e Leibniz . Il Mulino,
+1983. 
+Sattleberg, William, “The Demographics of Reddit: Who Uses the Site?” Alphr , 6 Apr. 2021,
+https://www.alphr.com/demographics-reddit/. 
+Searle, John, “Minds, Brains, and Programs.” Behavioral and Brain Sciences , vol. 3, 1980, pp. 417–
+457. 
+Searle, John, “The Chinese Room.” The MIT Encyclopedia of the Cognitive Sciences , edited by R.A.
+Wilson and F. Keil, MIT Press, Cambridge, MA, 1999. 
+Searle, John, “Why Dualism (and Materialism) Fail to Account for Consciousness.” Questioning
+Nineteenth-Century Assumptions About Knowledge (III: Dualism) , edited by Richard E. Lee, SUNY Press,
+New York, 2010. 
+Sithi-Amnuai, Sara, “Exploring Identity through Design: A Focus on the Cultural Body via Nami.” 
+Proceedings of the International Conference on New Interfaces for Musical Expression , 2020. 
+Splash Studio, The Next Enlightenment - Artificial Intelligence Will Replace God in Humanity's Not So
+Distant Future . Higher Resolution Show at the Tate Modern, Sept. 2019, https://
+www.youtube.com/watch?v-xmLPRgtoP9c. Accessed 10 June 2021. 
+Suchman, Lucy, 2007. Plans and Situated Actions: The Problem of Human-Machine Communication. 
+Cambridge University Press, 2007.  
+Turing, A. M., “I.—Computing Machinery and Intelligence.” Mind , LIX, no. 236, 1950, pp. 433–460.,
+https://doi.org/10.1093/mind/lix.236.433. 
+Turkle, Sherry, “Constructions and Reconstructions of Self in Virtual Reality: Playing in the
+MUDs.” Mind, Culture, and Activity  no.1, vol.3, 1994, pp. 158-167.
+Van Foerster, Heinz, “Cybernetics.” Encyclopedia of Artificial Intelligence vol. 1 , John Wiley and Sons,
+1990.
+Weizenbaum, Joseph, “ELIZA – A Computer Program for the Study of Natural Language
+Communication between Man and Machine.” Communications of the ACM , vol. 9, no. 1, 1966, pp.
+36–45., https://doi.org/https://doi.org/10.1145/365153.365168. Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202422
+Wharton, Annabel Jane, Models and World Making: Bodies, Buildings, Black Boxes . University of
+Virginia Press, 2021.Wolfram, Stephen. A New Kind of Science.  Wolfram Media, 2002. 
+Yang, Qian, “Unremarkable AI: Towards AI That Co-Lives and Co-Evolves with Users.” Proceedings
+of the First Conference on Designing with Artificial Intelligence, Dai Digital 2020 , 2020, pp. 70–76.
+NOTES
+1. https://backlinko.com/social-media-users
+2. See https://propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm
+3. See  https://theguardian.com/education/2020/aug/17/uk-exams-debacle-how-did-results-
+end-up-chaos
+4. See https://phys.org/news/2019-06-facebook-ads.html
+5. See Ryan-Mosley (2021)
+6. https://en.wikipedia.org/wiki/Languages_used_on_the_Internet
+7. https://commoncrawl.org/the-data/
+8. https://twitter.com/theshawwn/status/1320282151645073408
+9. https://www.eleuther.ai/projects/owt2/
+10. https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group
+11. Referring to Pedro Domingues’ use of the term: see Domingues’ work The Master Algorithm
+12. In a recent interview, OpenAI’s CEO Sam Altman claimed that his company was building a
+“magic intelligence in the sky” (see Murgia 2023)
+13. “the posthuman is a recognition that agency is always relational and distributed; cognition as
+embodied through human flesh and extended into the social and technological environment”;
+and “in the posthuman, there are no essential differences or absolute demarcations between
+bodily existence and computer simulation…”.
+14. See Keegan 2020.
+15. Defined by Delalande (1988) as “that necessary to mechanically produce sound”.
+16. “causal structures are stabilized and destabilized does not take place in space and time but
+happens in the making of spacetime itself” (Barad 2007:140).
+17. See Barad (2003, 2007, 2011).
+18. “In its relation to its referant, a model is weak or strong, sometimes oscillating between the
+two.” (Wharton 2021: 119).
+19. See  Bender  and  Koller  (2020)  for  a  more  detailed  explanation  of  the  issues  with
+communicative intent and large language models.
+20. For a parallel in art and storytelling, see Mukařovský (1978).
+21. Possible linguistic parallels can be found in Chomsky (1957).
+22. As Barad notes, it is not a matter of uncertainty, but indeterminacy (Barad 2003).
+23. The use of the term “slave” in much critical theory is often written by white Americans or
+Europeans. It is problematic in the AI literature for reasons of assuming knowledge and position
+for those formerly enslaved and their descendants: see Birhane and van Dijk 2020.Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202423
+ABSTRACTS
+Universalist approaches to AI such as large expert systems in the 1990s and present-day large
+language  models  seek  to  create  an  omniscient  form  of  artificial  intelligence  that  is  deeply
+colonialist and represent a loss of meaning in the sheer conglomeration of information without
+context or connection. This work explores these approaches to AI and contrasts them with the
+posthuman companion , AI systems created as storytellers, memorials, and creatively and ethically
+driven agents rooted in the lived experiences of their creators. Following a survey of agential
+systems,  they  are  then  examined  using  postcolonial  and  feminist  lenses  to  look  at  the
+possibilities for our shared stories and potential futures.
+Les approches universalistes de l'IA, telles que les grands systèmes experts des années 1990 et les
+grands  modèles  de  langage  actuels,  cherchent  à  créer  une  forme  omnisciente  d'intelligence
+artificielle, laquelle est profondément colonialiste et représente une perte de sens, produisant un
+simple conglomérat d'informations sans contexte ni connexion. Ce travail explore ces approches
+de l'IA et les met en contraste avec le compagnon posthumain, les systèmes d'IA s'apparentant à
+des conteurs et des agents créatifs et éthiques enracinés dans les expériences vécues de leurs
+créateurs. Après une étude des systèmes agentiels, nous les examinerons dans une perspective
+postcoloniale et féministe afin d'étudier les possibilités de produire des histoires partagées et des
+futurs potentiels communs.
+INDEX
+Keywords: artificial intelligence, feminist AI, phenomenological AI, postcolonial AI, posthuman
+AI
+AUTHOR
+JANA THOMPSON 
+North Carolina State University.
+Jana Thompson is currently in the Doctor of Design program at North Carolina State
+University working on how linguistic and cartographic representation reflect
+sociocultural manifestations of landscape which is explored in her forthcoming
+paper  Anthropocene Spectres of the Salish Sea . She has worked as AI researcher and
+technologist for over a decade with work in feminist and non-traditional approaches to
+artificial intelligence.  Meaningless Gods and Posthuman Companions
+Belphégor, 22-1 | 202424

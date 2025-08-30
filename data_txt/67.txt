@@ -1,0 +1,797 @@
+See discussions, st ats, and author pr ofiles f or this public ation at : https://www .researchgate.ne t/public ation/373717981
+The Dance of Agencies in AI Art -Beyond the Creator-T ool Dichotomy, a
+Netnographic Analysis of Reddit Foru ms
+Preprint  · August 2023
+DOI: 10.13140/RG.2.2.10608.43527/1
+CITATIONS
+0READS
+792
+1 author:
+Oshri Bar -Gil
+Bar Ilan Univ ersity
+95 PUBLICA TIONS    45 CITATIONS    
+SEE PROFILE
+All c ontent f ollo wing this p age was uplo aded b y Oshri Bar -Gil on 11 June 2024.
+The user has r equest ed enhanc ement of the do wnlo aded file.
+ 
+1 
+ The Dance of Agencies in AI Art —Beyond the Creator -Tool Dichotomy , 
+a Netnographic Analysis of Reddit Forums  - Revised Pre-Print version 
+(01/12/2023)  – Oshri Bar-Gil 
+ 
+ 
+Full accepted version is published at:  
+Oshri Bar -Gil; The Dance of Agencies in AI Art –Beyond the 
+Creator -Tool Dichotomy, a Netnographic Analysis of Reddit 
+Forums.  Journal  of Posthuman  Studie s 1 December 2023; 7 (2): 
+129–149. doi:  https://doi.org/10.5325/jpoststud.7.2.0129  
+  
+ 
+2 
+ Abstract:  
+This study analyze d the impact of generative artificial intelligence (AI) systems on 
+contemporary AI -based art  generation  practices. As algorithms display nascent creativity, 
+they catalyze philosophical questions regarding the role of technology in artistic creation.  
+However, the influence of AI on art creation, perception, and consumption remains 
+unexplored by empirical research.  
+This analysis integrates the theoretical frameworks of post -phenomenology and actor -
+network theory to investigate how generative AI technologies mediate creators’ perception, 
+agency, and imagination.  It explores  how human -algorithm assemblages may expand 
+possibilities while also obscuring  the anthropocentric constructs underpinning art.  It uses 
+Netnography to  explore  artistic communities that interact with the R eddit website to 
+illustrate the  tensions arising as human rationalities and intentions collide wi th algorithmic 
+logics and constraints. The results reveal generative AI’s potential to delegate intentionality 
+as well as its potential influence on agency, rationality, and memory.  Using empirical 
+grounding, this study elucidates the complex entanglements among artists, algorithms, 
+artwork, and the public in the emerging generative AI terrain.  
+Keywords:  
+Generative artificial intelligence, art creation, post -phenomenology, artistic intentionality, 
+algorithmic rationality, connective memory, netnography , Reddit  
+Introduction  
+Generative artificial intelligence ( GAI) has emerged as a powerful creative tool in the field 
+of art creation, transforming traditional artistic processes and expanding the boundaries of 
+creative expression. By leveraging machine learning algorithms and neural networks, GAI 
+systems can generate novel and unique artworks autonomously or in collaboration with 
+human artists  (Busch, 2023; Galanter, 2016; Koerner, 2023) . GAI fuses generative  poesis 
+with automated praxis within iterative computational systems. It is a type of art creation 
+that does not divide poesis from praxis and embodies a n almost  pure r elational, algorithmic 
+form of art creation.  Amalgamation of generative and applied functions within iterative 
+computational systems that function as an  ideal candidate for posthuman art form  (Sorgner, 
+2022) . Yet, questions regarding its influence on art creation and art perception, and 
+ 
+3 
+ consumption remain unanswered by empirical research (Chatterjee, 2022) . As generative 
+AI becomes further enmeshed within artistic creation processes, a multifaceted question 
+crystallizes: can emerging human -algorithm collaborations meaningfully augment creative 
+possibilities without imposing restrictive computational rationali ties or eroding 
+fundamental facets of artistic agency?  
+There is a significant amount of technical and philosophical literature on GAI, yet 
+empirical research validating hypotheses and claims in the context of human -machine 
+interaction remains scarce, and actual perceptional changes remain unknown.  While 
+theoretical discussions offer valuable insights, empirical studies are essential for bridging 
+the gap between speculation and tangible evidence. Conducting rigorous empirical 
+research can provide concrete insights into the cognitive, emotional, and behavioral 
+dimensions of human engagement with GAI artwork. This approach can enrich our 
+understanding, empower artists and researchers, and foster a deeper appreciation of the 
+interplay between human creativity and the transformative potential of GAI systems 
+(Galanter, 2016) . 
+Generative AI and Art Creation  
+Generative AI refers to a branch of AI that focuses on creating systems capable of 
+producing original and creative output. In the context of art creation, GAI algorithms can 
+generate images, music, poetry, and other artistic forms, often based on large datasets and 
+predefined rules or patterns. The use of GAI in art offers new opportunities for artists to 
+explore unconventional approaches, generate diverse ideas, and push the boundaries of 
+their creative practice (Gonzalez, 2020; Mazzone & Elgammal, 2019; Pošćić & Kreković, 
+2020) . 
+This study's critical analysis of the impact of GAI on art creation engages key posthumanist 
+debates.  It questions liberal humanist assumptions about the privileged position of the 
+human subject  in light of technology's growing capacities (Hayles, 1999; Sorgner, 2010; 
+Wolfe, 2010) . This research elucidates the complex networks binding artists, algorithms, 
+artwork, and the public  by applying post -phenomenological and ANT  (actor -network 
+theory)  frameworks (Coeckelbergh, 2020; Latour, 2005; Verbeek, 2005) . In centering 
+tensions between human and algorithmic agencies, imaginations, and memories, this study 
+ 
+4 
+ underscores ambiguities in AI's creative roles, aligning with posthumanism’s nuanced 
+negotiation between progress and preservation (Braidotti, 2013) .  
+The Role of AI  affordances  in Expanding Artistic Possibilities  
+GAI has opened  new avenues for artistic experimentation and exploration. AI systems can 
+generate complex and intricate artwork that may be impractical or time -consuming for 
+human artists to create manually.  This technological innovation enables artists to transcend 
+the limitations of their own skills and knowledge, resulting in novel artistic expressions 
+(Zammit et al., 2022) . Moreover, GAI algorithms can learn from existing artistic styles and 
+genres, allowing artists to seamlessly merge and reinterpret various influences on their 
+work (Elgammal et al., 2017) . How does this technology influence art and its creation?  
+Theories focusing on technological  mediation may provide a valuable lens for 
+interpretation.  
+Post-Phenomenolog y and the Technical Mediation of Art 
+A new generation of technology philosophers, including Latour (1992) , Ihde (1979, 1990) , 
+and Mitcham (1994) , critiqued earlier thinkers to espouse a narrow, dystopian view of 
+technology as an autonomous force that enframes and diminishes human agency.  
+Specifically, they argue that their predecessors, scholars such as Ellul (1954/2011) , 
+Heidegger (1953/2008) , and Jaspers (1957)  have portrayed technology as a monolithic, 
+deterministic phenomenon completely separate from society that presents inherent threats 
+to human meaning and freedom.  In contrast, Latour, Ihde and others focused on the role of 
+technology as a mediator, building and shaping the relationship between human users and 
+the wider environment, depending on use, context, and meaning (Coeckelbergh, 2013, p. 
+41; Feenberg, 2005; Ihde, 2009) . 
+The French philosopher, Bruno Latour focus ed on the role of technology in mediating 
+human -world interactions , recogniz ing that technology shape s human experiences and 
+perceptions, becoming an inseparable part of human existence  and forming a network of 
+human and nonhuman actors  (or actants)  (Latour, 2005) . Latour’s framework explains 
+technical mediation through a network of interlinking mediation relations of translation, 
+composition, and delegation. This paper leverages Latour’s notion of delegation, wherein 
+one agent’s intentions are delegated across a network binding artists (human actors), 
+ 
+5 
+ algorithms (non -human actors), companies, and consumers (Latour, 1999, pp. 183 –185). 
+Latour also advanced the metaphor of “opening the black box” regarding the inner 
+complexity of technological artifacts, emphasizing the need to peer inside and unpack 
+sociotechnical associations producing system effects rather than seeing technologies as 
+monolithic external forces (Latour, 1994, pp. 31 –40).  
+Specifically, I used his approach to explore how artistic intentions are delegated to GAI 
+systems , which then reshape the outputs as nonhuman actants imposing their own 
+computational logics . Following this network of mediation reveal s complex entanglements 
+between artist intentionality, algorithmic processes,  and final a rtistic “ products .” 
+Don Ihde's post -phenomenological approach emphasizes the human experience of 
+technological mediation and how it influences human actions , perception s, and 
+interpretation s of the world (Ihde, 1990, 2009) . Ihde’s work differentiates  between micro 
+and macro perceptions  to explore  the ways in which human perception is shaped by 
+technology and the environment. Micro perception refers to the immediate sensorial 
+experience of the world, where our senses are attuned to specific stimuli.  For example, 
+microscopes extend our micro perception by allowing us to focus on and magnify specific 
+aspects of our environment, thus contributing to changes in macro perceptions.  Macro 
+perception refers to a broader, contextual understanding of the world, considering  the larger 
+systems, structures, and meanings at play. Ihde emphasizes the exploration of both micro 
+and macro perceptions to gain a comprehensive understanding of our lived experiences and 
+the ways in which technology mediates our perception of the world . Applied  to our context 
+of GAI and art creation, Ihde's framework enables an exploration of how artists' embodied 
+interactions with GAI systems impact their artistic expressions, aesthetics, and overall art 
+experience s, as well as  the macro perception of how art and its creators  change  as a result 
+of GAI interaction .  
+Both theories might offer us a valuable lens for interpretation, but they cannot be 
+considered empirical  as methodologies for empirical works (Latour, 1996; Nimmo, 2011) . 
+To fill this gap, the present study employed netnography and applied post -
+phenomenological theories to the analysis of Reddit forums and the experiences shared by 
+users.  
+ 
+6 
+ Methodology  
+The present study employed  netnographical research on four specific communities on 
+Reddit (subreddits): r/blender1, r/artistlounge2, r/StableDiffusion3, and r/dalle24, to gather 
+data and insights relevant to the effects of GAI on art creation. These subreddits were 
+selected based on their active user engagement, diversity of artistic practices, and relevance 
+to the research topic.  By targeting these speciali zed communities, this study aims to capture 
+rich and diverse perspectives from artists, animators, and enthusiasts who are actively 
+involved in utilizing GAI tools within the context of art creation  . 
+Netnography  
+Netnography, as a qualitative research methodology, was employed to investigate the 
+effects of using GAI on art creation.  Netnography is a type of qualitative social media 
+research.  It adapts the methods of ethnography to understand social interactions in 
+contemporary digital communication s contexts.  Netnography is a specific set of research 
+practices related to data collection, analysis, research ethics, and representation, rooted in 
+participant observation. In netnography, a significant amount of data ori ginates in and 
+manifests through digital traces of naturally occurring public conversations recorded by 
+contemporary communications networks (Addeo et al., 2019; Kozinets & Gambetti, 2021) . 
+It is particularly useful for studying online -based communities, such as those found on 
+Reddit, where individuals engage in discussions, share experiences, and seek support. 
+Netnography allows researchers to gain a deep understanding of human experiences,  
+capture different perspectives, and explore various aspects of social phenomena (Bartl et 
+al., 2016; Wicaksana & Candrasari, 2023)  . 
+It is important to acknowledge the limitations of netnography as a research methodology.  
+One limitation is the potential for incomplete or biased data, as the researcher's access is 
+limited to publicly available data on a given platform (Kozinets et al., 2014) . Additionally, 
+netnography relies on self -reported data and may be subject to issues, such as selective 
+self-presentation and limited generalizability (Belk et al., 2020) . To overcome these 
+ 
+1 https://www.reddit.com/r/blender  / 
+2 https://www.reddit.com/r/ArtistLounge / 
+3 https://www.reddit.com/r/StableDiffusion  / 
+4 https://www.reddit.com/r/dalle2 / 
+ 
+7 
+ limitations  and triangulate the findings,  a multifaceted  netnographic  approach was 
+implemented, combining data scraping and content analysis . 
+Reddit  
+Reddit was selected as the primary research platform for this study due to its vibrant and 
+diverse user community, particularly in the context of art creation. With millions of active 
+users and a wide range of specialized subreddits, Reddit provides a rich source of data and 
+insights into the experiences, perspectives, and  challenges faced by artists using GAI tools.  
+Discussions on Reddit are primarily public in that anyone, with or without a Reddit 
+account, can view the content ( with the exception of private subreddits).  Both the original 
+shared content and discussion comments are “voted” on by users, which influences their 
+visibility.  To become a Reddit user, all that is required is to select a unique username, and 
+password —email verification is not needed.  The terms of service dictate that users must 
+be at least 13 years old to sign up.  Site-wide norms discourage par ticipation with one’s real 
+name as a privacy   protecting measure. As participation in Reddit is pseudonymous, 
+demographic information is difficult to obtain.  According to Reddit’s website 
+administrators (Reddit.com, 2022), there are more than 57 million daily active unique 
+users, with over 100,000 active communities.  Forty -five percent of users were between 18 
+and 29 years old, and users between 30 and 49 years 30-and 49-years old account for 
+another 40%.  Fifty -nine percent of the users were male (Intelligence, 2016) . Subreddits are 
+both user -created and user -moderated. While there are a few overarching Reddit rules 
+regarding content, subreddits vary considerably in terms of what they allow , and in their 
+specific cultures and norms (Proferes et al., 2021) .  
+Following conventional Reddit research methods (Adams, 2022) , data collection involved 
+scraping textual data from the selected subreddits, including post titles, body text, 
+comments, and metadata.  Apify Reddit scraper software was used to automate the data 
+scraping process (Baumgartner et al., 2020; Proferes et al., 2021) . The collected data was 
+then stored in a structured  XLS  format for subsequent analysis . The crawler was configured 
+to include only posts from the last six months, to remain up to date, and to explore the 
+ 
+8 
+ effects of up -to-date AI generating engines.  Data collection was limited to 10K results and 
+omitted identifying information  from the database analyzed  due to ethical considerations.5,6 
+Data 
+sources  r/ArtistLounge  r/blender  r/dalle2  r/StableDiffusion  Total  
+post 302 300 291 276 1,169 
+comment  3,440 1,290 1,525 2,576 8,831 
+Total  3,742 1,590 1,816 2,852 10,000 
+The inclusion criteri on for analysis was that the posts were read by the researcher. If the 
+post was selected and relevant , all the comments for the post were also included (Jacques 
+et al., 2023) . Overall,  the analysis include d 61 post s and 397 comments.  
+Data 
+sources  r/ArtistLounge  r/blender  r/dalle2  r/StableDiffusion  Total  
+post 16 18 12 15 61 
+comment  168 81 55 93 397 
+Total  184 99 69 108 458 
+A qualitative approach was employed to analyze the collected data (Pleasure et al., 2022) . 
+Thematic coding, a widely used qualitative analysis method, was used to identify patterns, 
+themes, and categories within textual data (Braun & Clarke, 2006; Kozinets, 2015) . This 
+allowed for systematic exploration of the effects, experiences, and challenges associated 
+with using GAI in the context of art creation  . 
+Regarding ethical considerations, the study adhered to Reddit’s terms of service and 
+respected the community norms and guidelines established within the subreddits . The data  
+collected from the subreddits w asn’t  anonymized as it is publicly available on Reddit 
+platform and on Google search engine  (Anne -Marie et al., 2017; Kozinets & Gambetti, 
+2021; Proferes et al., 2021) . 
+The limitations of netnography were addressed by combining netnographic techniques with 
+qualitative analysis  and interpretation using post -phenomenological theories.  The post-
+phenomenological  analysis of the collected data allowed for a deeper exploration of the 
+effects and implications of using GAI on art creation, providing rich and nuanced insights 
+into the experiences and perspectives of artists . 
+ 
+5 Full code is provided in the supplemental  file.  
+6 The database is available on request  from the author . 
+ 
+9 
+ Finding s and Results  
+Intentionality  
+Intentionality is a key concept in understanding the role of human agency . It is a key 
+concept in the philosophy of self, and it has been and has been defined and interpreted in 
+many different ways over the years (Anscombe, 1957; Searle, 2010; Smith, 2017) . Searle 
+define d intentionality as: ‘that feature of certain mental states and events that consists in 
+their being directed at, being about of, or representing certain other entities and state s of 
+affairs’  (Searle, 1983, p. 1) . In artistic creation, intentionality can refer to the visual or 
+aesthetic goals that guide an artist’s creative process, shaping the envisioned outcomes that 
+prior intentions aim to realize (Kolak, 1990) .  
+Searle (2010) argued that there are two different types of intentions that should be 
+distinguished from one another.  The first type involves intention directed towards a 
+triggering action.  An example of this type is formulating the intention to raise one’s hand 
+in 30 seconds. Searle calls this ‘prior intention .’ The second type of intention relates to the 
+action itself – when, after the 30 seconds have elapsed, the actor indeed raises their hand. 
+Searle calls this ‘intention in action .’ Searle’s argument is that in every action we perform , 
+we take for granted the s ocial context that we are embedded in. This context consists of 
+beliefs, abilities, and possibilities, as manifested in prior intention.  Nevertheless, Searle 
+indicated that action cannot be created without intention for in action.  
+Evans et al.  (2017, p. 36)  defined affordances as possibilities for action between an 
+object/technology and the user that enable or constrain potential behavioral outcomes in a 
+particular context.  AI art generators produce new affordances, neither exclusively human 
+nor algorithmic, but somewhere in between in their common space (Gibson, 1979) . This 
+enables the possibility of delegating one’s intentions to the AI art generator so that it can 
+produce new intentions in place of one’s own — for example, to generate an image or text.   
+The post titled " I lost everything that made me love my job through Midjourney overnight ," 
+brings attention to the phenomenon of outsourcing the core of art creation and the 
+consequential loss of artistic intentionality. The artist expresses their frustration by stating, 
+"If I want to 'prompt' something and the algorithm gives me something el se—at the very 
+least, I am losing some intentionality" (Sternsafari, 2023) . This highlights the artist's 
+ 
+10 
+ concern about the deviation from their original artistic intentions, their diminishi ng agency, 
+and the loss of control over their creative process .  
+When considering the theoretical perspectives of John Searle and Bruno Latour, we can 
+further analyze the implications of technological mediation through delegation of artistic  
+intentionality. Searle's multifaceted concept of intentionality explains the artist's concern 
+about losing intentionality.  The artist's frustration stems from the algorithmic mediation  
+dictating the outcomes, which deviates from their original intentions. Latour's  (1992)  idea 
+of delegation  sheds light on the power dynamics at play. By delegating their intentions to 
+GAI, artists relinquish some of their agency, allowing the algorithm to shape the creative 
+output and conform it to algorithmic rationality.  
+The Dance of Agencies  
+Autonomy and agency are essential for understanding the dynamic relationship between 
+human creators and GAI machines.  Autonomy refers to the capacity for self -governed 
+action based on one's own integrated but open -ended preferences and principles  (Kupfer, 
+1987) . Agency denotes the ability to act or exert power towards meaningful ends  (Verbeek, 
+2005) . Andrew  Pickering  (2010)  argues that agency is not solely the prerogative of human 
+actors but can also emerge from interactions between humans and non -human entities .  He 
+claims that agency is not a fixed attribute possessed by individual actors but rather a 
+relational and emergent property that arises from the entanglement of human and non -
+human elements.  
+Generative AI art creation processes have introduced a transformative shift in agency in 
+the art world (Hutson & Schnellmann, 2023) . The notion of the artist as the singular 
+creative genius responsible for producing artwork has deep historical roots in Western 
+culture  (Bilton, 2010) . The work of art was presumed to be the reflection, the outward 
+radiance, of the artist's  own imaginative depth and power  (Pollock, 1980, pp. 58 –59).  
+The advent of GAI systems destabilizes this cultural notion  of individual human agency in 
+art. Multifaceted networks emerge , binding datasets , artists, platforms,  algorithms , and 
+publics  (Epstein et al., 2020) .  
+ 
+11 
+ The changes in agency contribute to changes in meaning and interpretation . A comment to 
+a post titled , “I am scared of my own drawing” claims that , “New artists often accidentally 
+create images that may appear one way or another. This is usually due to a lack of control 
+and has nothing to do with any subconscious intent”  (Bonabbyteit, 2023) . 
+We can see that GAI machines possess their own form of agency, albeit distinct from 
+human agency. These machines can autonomously generate artistic output s based on 
+learned patterns and algorithms. They contribute to the creation process by producing novel 
+and unexpected artistic expressions  (Gülaçti & Kahraman, 2021) . This challenges the 
+traditional notion of  artistic  agency as solely human -centered, and introduces a 
+collaborative dance of agencies between human creators and GAI machines . It is not 
+merely a matter of losing human intentionality and a divergence of logic but a 
+transformation in the entire agency ecosystem.  The interplay between human agency and 
+the agency embodied by GAI machines alters the dynamics of art creation. It challenges 
+the traditional notions of authorship, authorial control, and boundaries of artistic 
+expression  . 
+Rationality  
+This section illustrates  three rationalities shaping art creation in the age of GAI—rationality 
+as realization of  creative intentions, optimizing economic productivity, and conforming to 
+algorithmic logic. As these distinct paradigms interact, tensions emerge that challenge and 
+change artistic rationalit y – the internal reasoning and decision -making that guides the 
+artist’s process to effectively realize aesthetic goals, from envisioned intentions to final 
+work  (Bar-Gil, 2020) . 
+Rationality as Realization of Prior Intention  
+Rationality plays a crucial role in art -making, shaping the intentions and decisions of artists 
+as they bring their creative visions to life.  Rationality refers to the organized mental logic 
+that people and systems use to set goals and make choices to achieve desired outcomes  
+(Earl, 2016) . The concept of "prior intention" is central to understanding the rationality of 
+artistic creation. Searle ( 2010 ) described prior intention as an internal plan of action that 
+guides the artist's creative process.  It involves envisioning the desired outcome and 
+ 
+12 
+ mapping the steps to achieve it.  The realization of prior intention reflects the artist's rational 
+assessment of functionality and actuation of possibilities.  
+In the context of algorithmic systems, the realization of prior intention takes on a new 
+dimension. The fusion of human intentions and machine imaginations introduces a gap 
+between the artist's original vision and the outcomes produced by the algorithm. This gap, 
+referred to as the "causality gap" by Searle (2010) , allows for preservation of the illusion 
+of free will (Fisher, 2020) . While algorithmic systems can execute actions based on prior 
+intentions, they do not fully capture the nuances of human agency and creative expression.  
+Economic Rational Logic of Mass Production  
+Economic rational logic is evident in the push for the automation and commodification of 
+artistic processes.  Proponents of GAI argue that it can automate their work, enhancing 
+efficiency and productivity  (Frey, 2020) . However, this perspective overlooks the intrinsic 
+value and significance of artistic labor . Artistic creation  often stands in contrast to the 
+economic rationality of mass production, prioritizing efficiency, standardization, and cost -
+effectiveness  (Epstein et al., 2020; Gülaçti & Kahraman, 2021) . As artists navigate the 
+commercial art world, they face tension between pursuing their creative vision and 
+conforming to the demands of the market forces (Epstein et al., 2020) . The affordances of 
+mass production and the commodification of art conferred by using AI have led to the 
+rationalization of artistic practices to align with those economic objectives.  “I saw many 
+people fail . … The pressure of doing the thing you are supposed to enjoy but have to in 
+order to make a living sometimes takes the fun out of it and can even burn you out” 
+(OleanderYuri, 2023) .  
+On a post titled:   “Do you love art?”  Another user responded that the market expectations 
+of market relevance and visibility forced him to learn how to use the new tools available 
+to him: “I am on the side of thinking that we do have to use every tool available to us to 
+get to that point where we can be relevant and visible in our professions as soon as 
+possible. ” (bodymemory1, 2023) . 
+This sentiment was reinforced in other posts as well:  “New artists who learn how to use 
+new tools will succeed better. Similarly, automobiles replaced horses.  People kept on with 
+new tools”  (ScionoicS, 2023) . 
+ 
+13 
+ The public debate in the media, as reflected in a n LA Times article, details a similar 
+sentiment expressed by artists regarding the delegation of their work to AI systems. It 
+emphasizes  that art is deeply rooted in the artist's identity and passion, stating : "Art is not 
+scrubbing toilets . ... We make art because it is who we are" (Crabapple, 2022) . This quote 
+underlines the intrinsic connection between artists and their work, highlighting their 
+commitment and love for their craft. The article further asserts that AI generator evangelists  
+fail to understand the profound dedication that artists have to their work and the value they 
+place on the personal expression it entails.  This type of discussion was reflected in a 
+comment to the previous post: “Your statement made me think about the love of a 
+profession. Now there’s a hot topic. How do you really know you love something you do? 
+Are you infatuated with it? ” (bodymemory1, 2023) .  
+Algorithmic Rationality , Impression , Intention , and Imagination  
+The adoption of algorithmic systems introduces a distinct form of rationality: algorithmic 
+rationality. Fisher (2020)  explains that algorithmic rationality is rooted in optimization, 
+efficiency, and data -driven decision -making. It represents a departure from artistic 
+rationality, as it relies on computational algorithms and statistical models to generate 
+output. Algorithm ic systems possess their own unique imagination, shaped by patterns and 
+biases extracted from training data.  However, the reliance on algorithmic rationality can 
+suppress artistic imagination. The algorithmic way of thinking, while capable of generating 
+novel and creative output, does so in a non -human manner (Doneson, 2019; Mehozay & 
+Fisher, 2019) . The algorithm operate s with its own unique imagination, which may diverge 
+from human artistic imaginatio n. As algorithms dictate artistic styles and trends based on 
+GAI, it may curtail eccentricity  and divergence  integral to artistic imagination and 
+creativity.  
+“Focus on the soul. If the difference between you and Midjourney is that your art has some 
+meaning or soul behind it, then you want to focus on that. Your art is likely similar enough 
+to thousands of other artists that the AI will be able to do something w hich already lets the 
+AI Bros make some imitation” (LukeTheCyberpunk, 2023) . 
+Combining these two rationalities , we can notice that as algorithms drive art towards 
+economic -algorithmic logic, the personal and creative dimensions art holds will erode , and 
+ 
+14 
+ art risks becoming an abstract, impersonal commodity deprived of rich artistic 
+intentionality.  
+Connective Memory: Bridging Personal, Collective, and Generative AI Systems  
+Andrew Hoskins  (2011, 2017)  introduced the concept of connective memory as a 
+framework that expands our understanding of memory beyond the notions of personal or 
+collective memory. Connective memory encompasses the intersections between personal 
+experiences, collective narratives, and digital technology . Connective memory emphasizes 
+the interconnectedness and dynamic nature of memory in the digital age. It encompasses 
+the ways in which individuals and communities engage with, curate, create , and access  a 
+broader network of cultural memories through digital platforms and technologies . 
+Generative AI systems serve as new forms of connective memory by leveraging their 
+capacity to analyze vast amounts of  data (in the form of artistic content ), replicate styles, 
+and generate novel output. These systems function as repositories of artistic knowledge, 
+accumulating a vast repertoire of visual and conceptual elements from diverse sources  
+(Pošćić & Kreković, 2020) . Through their algorithmic operations, they establish intricate 
+connections and associations between these elements, forming a connective network of 
+artistic references (Elgammal et al., 2017) .  
+One compelling example of this is the work of the Turkish artist Refik Anadol. Using 
+Generative Adversarial Network (GAN) algorithms and datasets consisting of millions of 
+publicly available  images, Anadol  creates mesmerizing "data sculptures." In his "Machine 
+Hallucinations" series7, Anadol visualizes and explores the collective memory held within 
+these massive datasets, generating new artistic expressions that highlight the 
+interconnectedness of digital culture and human experiences (Harriet Flavel, 2022) . 
+The emergence of GAI systems as connective memory has significant implications for the 
+artistic creation process. Artists are no longer limited to their individual experiences or 
+traditional sources of personal or collective inspiration. They can tap into a vast and 
+constantly evolving network of artistic references, including digital memor ies present on 
+the cloud and in internet servers. This expanded connective memory provides artists with 
+ 
+7 https://refikanadol.com/works/machine -hallucinations -nature -dreams  / 
+ 
+15 
+ new ways to interpret and inspire the creation of art, constantly reshaping the patterns and 
+possibilities of artistic expression . 
+Furthermore, the continuous cycle of content creation and algorithmic learning amplifies 
+the connective memory ecosystem. As new artwork and data are generated, they become 
+part of the collective memory, feeding into the network  and influencing future artistic 
+endeavors . This dynamic process redefines the relationship between artists, machines, and 
+the evolving landscape of  global connective  memory . Some artist s see these forms of 
+humanless connection as making their art a “dataset” for algorithm training:  “As the 
+number of people interested in my art and commissions increase, I find myself fearing that 
+my art -style will become yet another dataset to train one of those soulless Jpeg generators 
+like Midjourney” (LukeTheCyberpunk, 2023) . 
+Discussion  
+This article examined the intersection of GAI systems and the realm of artistic creation, 
+focusing on their implications for intentionality , agency, rationality , and memory . These 
+systems leverage vast datasets and algorithmic operations to accumulate and connect 
+artistic references, providing artists with an expanded network of inspiration and reshaping 
+the patterns of artistic expression.  
+The mediation of i ntentionality causing  reconsideration of authorship in a dance of 
+agenc ies becomes distributed across networks binding humans and algorithms . Competing 
+rationalities emerge around artistic expression versus economic optimization and 
+conformity to algorithmic logic  and imagination ; the artistic memory expands from being 
+personal and connective  to include vast algorithmic databases, functioning as a dynamic 
+connective  memory archive for artistic recollection and inspiration .  
+Limitations of the Study and Future Resear ch 
+This study utilized netnography as a research methodology to explore the intersection of 
+GAI systems and artistic creation on   user communication in  Reddit  subforums. Several 
+methodological limitations should  be considered.  
+First, the data collection method poses limitations in terms of representativeness and 
+generalizability. Netnographic research heavily relies on online observations and 
+ 
+16 
+ interactions within specific online communities, which may not fully capture the diversity 
+of artistic practices and perspectives. The findings of this study are specific to the selected 
+subreddits and may not be applicable to other online platforms or art istic communities.  
+Furthermore, the study's focus on Reddit as the primary research site introduces limitations 
+in terms of the platform's user demographics and biases. Reddit's user base tends to be 
+skewed towards certain demographics, which may influence the types of discussions and 
+content shared  (Proferes et al., 2021) . This limits the generalizability of the findings to a 
+broader population of artists and art enthusiasts.  
+Finally , the reliance on self -reported data and observations within the online community 
+poses limitations in terms of reliability and validity. Netnographic research heavily relies 
+on individuals' self -presentation and self -disclosure, which may not always refle ct their 
+true thoughts, motivations, or behaviors  (Kozinets, 2015) . The researcher's interpretations 
+and biases also play a role in shaping the analysis and findings.  
+Considering these methodological limitations, future research in this area could incorporate 
+a more diverse range of data collection methods, such as interviews or surveys, to capture 
+a broader range of perspectives and experiences.  Comparative analysis across different 
+online platforms and communities can provide insights into how artists engage with AI -
+generated content in various contexts. Additionally, adopting a mixed -methods approach 
+that combines netnographic research with quali tative interviews or s urveys can offer a 
+deeper understanding of artists' perceptions and experiences when using GAI systems. 
+Longitudinal studies can track the evolution of artistic practices over time, while fostering 
+cross -disciplinary collaborations can facilitate innovative artistic practices and uncover 
+new aesthetic possibilities. By pursuing research in these areas, we can enhance our 
+understanding of the impact and potential of GAI systems in artistic creation.  
+The Changing Notion of Art—What Will the Future Look Like for Artistic Creation?  
+“The only thing AI has done is convince me that art is just a bunch of bullshit”  
+(LukeTheCyberpunk, 2023) . 
+The ontological and categorical dualities that Sorgner  (2022) identifies as constitutive of 
+the posthuman art culture are discussed in his book "philosophy of posthuman art."  As 
+ 
+17 
+ GAI reshapes artistic creation, foundational questions resurface around technology's 
+potential to disrupt or devalue the essence of human artistry.  While expanding possibilities, 
+the mediating role of algorithms risks eclipsing the humanistic dimensions of art, as 
+forewarned by Heidegger's warnings about technology's enframing effects. In his seminal 
+work "The Question Concerning Technology," Martin Heidegger (1953/2008)  explores the 
+transformative impact of technology on our relationship with the world. He argues that 
+technology, driven by its inherent enframing nature  (Gestell) , reduces human s in front of 
+technology  to a mere standing -reserve, stripping away the true essence and revealing only 
+instrumental value. Heidegger contends that art, on the other hand, has the potential to 
+transcend this stance and reveal the world in its authentic and meaningful form  (Gestell ). 
+The human intention  and the genuine connection between the artist and the artwork may 
+be overshadowed by the predetermined patterns  and datasets  dictated by AI algorithms.   
+Walter Benjamin's insights on the loss of aura , its unique presence and  the authenticity of 
+one-of-a-kind artwork,  in the age of technological reproducibility provide a valuable lens 
+through which we can examine the implications of GAI on the artistic realm . Benjamin 
+argued that the unique existence of a work of art bears the mark of its historical context 
+and cannot be fully replicated in reproductions. He astutely observed that even the most 
+perfect reproduction lacks the distinct aura tied to the artwork 's history  (Benjamin, 
+1935/2008, p. 21) . In the context of GAI, which produces art through algorithmic 
+processes, the question arises: Does the loss of aura, as understood by Benjamin, extend to 
+this form of AI -generated art? While Benjamin's ideas were primarily focused on the 
+reproducibility of traditional artwor k, his emphasis on the loss of the here and now and the 
+historical context can be applied to the GAI context . 
+In GAI systems, algorithms and computational processes mediate  the individual artistic 
+intention . The GAI system becomes the primary agent in the creation of art, and one might 
+consider it detached from the historical lineage and personal expression that Benjamin 
+attributes to the aura. As Benjamin wrote in his famous  letter to Adorno : "I now find it 
+somewhat disturbing ... that you have now rather casually transferred the concept of the 
+magical aura to the 'autonomous work of work' and flatly assigned a counter -revolutionary 
+function to the latter" (Benjamin, quoted in  (Osborne & Charles, 2015, p. 25) . 
+ 
+18 
+ Therefore, the introduction of GAI art can be seen as a further departure from Benjamin's 
+notion of aura, as the art is detached from the unique existence and historical embeddedness 
+of the artist. Instead, GAI art emerges from the current collective -algorithmic "memory" in 
+the cloud and internet servers, constantly reshaping its form and patterns. It also challenges 
+what the artists are consider ing as  ‘art’ in its broad sense:  
+It has just made me realize that art is just expression. That is all it has ever been. 
+And frankly, I don't care about the umbrella term of "art". I love painting because 
+of what it makes me feel; not because it is "art". I don't share common bonds or 
+ideas with "artists" who meddle in mediums I have never touched. The concept of 
+art and artists is as vague as is the difference between a painter and a welder, a 
+sandwich artist, a spear thrower. They all inhabit expressions in one form or 
+another, but for th e past decade there has been thorough brainwashing about what 
+"art" is (LukeTheCyberpunk, 2023) . 
+Heidegger's call for art as a transformative force that reawakens our connection with the 
+world stands as a powerful reminder of the need for genuine human expression in the face 
+of algorithmic creation. Benjamin's keen observations on the loss of aura and  the temporal, 
+technological, and cultural contingencies of art challenge us to critically examine the 
+authenticity and uniqueness of artistic experiences in the age of AI -generated 
+reproductions.  
+Summary  
+As GAI systems reshape the landscape of artistic creation, we must confront the 
+fundamental question of whether these technological advancements can fully capture the 
+depth and essence of human artistic expression. The transformative potential of art lies not 
+only in its aesthetic qualities , but also in its ability to evoke emotional responses, challenge 
+conventions, and offer profound insights into the human condition  (Millet et al., 2023) . 
+While GAI may produce visually stunning and technically impressive works, it remains a 
+crucial task to reflect on the subtle nuances of artistic intention, the irreplaceable aura of 
+the here and now, and the dynamic interplay between the artist, the artwork, and the viewer.  
+ 
+19 
+ In this era of unprecedented technological progress, it is essential to preserve the integrity 
+of artistic creation and the rich tapestry of human experiences that art embodies. Embracing 
+the possibilities offered by GAI while remaining vigilant about its potential pitfalls is key. 
+By engaging in critical discourse, nurturing the creative spirit, and cultivating a deep 
+appreciation for the profound and transformative power of art, we can navigate the complex 
+intersection of technology and artistic expression, forging a future where human agency, 
+authenticity, and the enduring relev ance of art thrive.  
+References  
+Adams, N. N. (2022). ‘Scraping’ Reddit posts for academic research? Addressing some 
+blurred lines of consent in growing internet -based research trend during the time of 
+Covid -19. International Journal of Social Research Methodology , 0(0), 1 –16. 
+https://doi.org/10.1080/13645579.2022.2111816  
+Addeo, F., Delli Paoli, A., Esposito, M., & Ylenia Bolcato, M. (2019). Doing Social Research 
+on Online Communities: The Benefits of Netnography. ATHENS JOURNAL OF 
+SOCIAL SCIENCES , 7(1), 9 –38. https://doi.org/10.30958/ajss.7 -1-1 
+Anne -Marie, T., Chau, N., & Kimppa Kai, K. (2017). Ethical questions related to using 
+netnography as research method. The ORBIT Journal , 1(2), 1 –11. 
+https://doi.org/10.29297/orbit.v1i2.50  
+Anscombe, G. E. M. (1957). Intention . Harvard University Press.  
+Bar-Gil, O. (2020). Clipping us together: The case of the Google Clips camera. NECSUS 
+European Journal of Media Studies , 9(#intelligence), 215 –236. 
+https://doi.org/10.25969/mediarep/14308  
+Bartl, M., Kannan, V. K., & Stockinger, H. (2016). A review and analysis of literature on 
+netnography research. International Journal of Technology Marketing , 11(2), 165 –
+196. https://doi.org/10.1504/IJTMKT.2016.075687  
+Baumgartner, J., Zannettou, S., Keegan, B., Squire, M., & Blackburn, J. (2020). The 
+Pushshift Reddit Dataset. Proceedings of the International AAAI Conference on 
+Web and Social Media , 14, 830 –839. https://doi.org/10.1609/icwsm.v14i1.7347  
+ 
+20 
+ Belk, R., Weijo, H., & Kozinets, R. (2020). Enchantment and Perpetual Desire: Theorizing 
+Disenchanted Enchantment and Technology Adoption. Marketing Theory . 
+https://doi.org/10.1177/1470593120961461  
+Benjamin, W. (2008). The work of art in the age of its technological reproducibility, and 
+other writings on media  (M. W. Jennings, B. Doherty, & T. Y. Levin, Eds.; E. F. N. 
+Jephcott, Trans.). Belknap Press of Harvard University Press. (Original work 
+published 1935)  
+Bilton, C. (2010). Manageable creativity. International Journal of Cultural Policy , 16(3), 255 –
+269. https://doi.org/10.1080/10286630903128518  
+bodymemory1. (2023, July 10). Do you love art?  [Reddit Post]. R/ArtistLounge. 
+www.reddit.com/r/ArtistLounge/comments/14vmkrf/do_you_love_art/  
+bonabbyteit. (2023, July 7). I am scared of my own drawing  [Reddit Post]. R/ArtistLounge. 
+www.reddit.com/r/ArtistLounge/comments/14tk81y/i_am_scared_of_my_own_dr
+awing/  
+Braidotti, R. (2013). The posthuman . Polity Press.  
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research 
+in Psychology , 3(2), 77 –101. https://doi.org/10.1191/1478088706qp063oa  
+Busch, K. E. (2023). Generative artificial intelligence and data privacy: A primer  (R47569; 
+p. 8). Congressional Research Service. 
+https://crsreports.congress.gov/product/pdf/R/R47569  
+Chatterjee, A. (2022). Art in an age of artificial intelligence. Frontiers in Psychology , 13. 
+https://www.frontiersin.org/articles/10.3389/fpsyg.2022.1024449  
+Coeckelbergh, M. (2013). Human being risk: Enhancement, technology and the evaluation 
+of vulnerability transformations . Springer.  
+Coeckelbergh, M. (2020). Artificial Intelligence, Responsibility Attribution, and a 
+Relational Justification of Explainability. Science and Engineering Ethics , 26(4), 
+2051 –2068. https://doi.org/10.1007/s11948 -019-00146 -8 
+ 
+21 
+ Crabapple, M. (2022, December 21). Op-Ed: Beware a world where artists are replaced by 
+robots. It’s starting now . Los Angeles Times. 
+https://www.latimes.com/opinion/story/2022 -12-21/artificial -intelligence -artists -
+stability -ai-digital -images  
+Doneson, D. (2019). The Conquest of Fortune: On the Machiavellian Character of 
+Algorithmic Judgment. Social Research: An International Quarterly , 86(4), 871 –883. 
+Earl, P. E. (2016). Bounded Rationality in the Digital Age. In R. Frantz & L. Marsh (Eds.), 
+Minds, Models and Milieux: Commemorating the Centennial of the Birth of Herbert 
+Simon  (pp. 253 –271). Palgrave Macmillan UK. 
+https://doi.org/10.1057/9781137442505_15  
+Elgammal, A., Liu, B., Elhoseiny, M., & Mazzone, M. (2017). CAN: Creative Adversarial 
+Networks, Generating “Art” by Learning About Styles and Deviating from Style 
+Norms  (arXiv:1706.07068). arXiv. https://doi.org/10.48550/arXiv.1706.07068  
+Ellul, J. (2011). The technological society  (J. Wilkinson, Trans.). Vintage books. (Original 
+work published 1954)  
+Epstein, Z., Levine, S., Rand, D. G., & Rahwan, I. (2020). Who Gets Credit for AI -Generated 
+Art? iScience , 23(9), 101515. https://doi.org/10.1016/j.isci.2020.101515  
+Evans, S. K., Pearce, K. E., Vitak, J., & Treem, J. W. (2017). Explicating Affordances: A 
+Conceptual Framework for Understanding Affordances in Communication 
+Research. Journal of Computer -Mediated Communication , 22(1), 35 –52. 
+https://doi.org/10.1111/jcc4.12180  
+Feenberg, A. (2005). Heidegger and Marcuse: The catastrophe and redemption of history . 
+Routledge.  
+Fisher, E. (2020). Can Algorithmic Knowledge about the Self Be Critical? Helsinki 
+University Press . https://doi.org/10.33134/HUP -4-6 
+Frey, C. B. (2020). The technology trap: Capital, labor, and power in the age of Automation  
+(First paperback printing). Princeton University Press.  
+ 
+22 
+ Galanter, P. (2016). Generative Art Theory. In A Companion to Digital Art  (pp. 146 –180). 
+John Wiley & Sons, Ltd. https://doi.org/10.1002/9781118475249.ch5  
+Gibson, J. J. (1979). The Ecological Approach To Visual Perception . Psychology Press.  
+Gonzalez, A. (2020). Artificial Intelligence as an Art Director. Proceedings of the AAAI 
+Conference on Artificial Intelligence and Interactive Digital Entertainment , 16(1), 
+Article 1. https://doi.org/10.1609/aiide.v16i1.7454  
+Gülaçti, İ. E., & Kahraman, M. E. (2021). The Impact of Artificial Intelligence on 
+Photography and Painting in the Post -Truth Era and the Issues of Creativity and 
+Authorship. Medeniyet Sanat Dergisi , 7(2), 243 –270. 
+https://doi.org/10.46641/medeniyetsanat.994950  
+Harriet Flavel. (2022). Art and Artificial Intelligence —The robots are coming, for you and 
+your art. Vault , 42. 
+https://vaultmagazine.com/issue_features/ai_feature_ISS40.php  
+Hayles, N. K. (1999). How we became posthuman: Virtual bodies in cybernetics, literature, 
+and informatics . University of Chicago Press.  
+Heidegger, M. (2008). The Question Concerning Technology. In Basic Writings  (Revised, 
+Expanded ed. edition). Harper Perennial Modern Classics. (Original work published 
+1953)  
+Hoskins, A. (2011). 7/7 and connective memory: Interactional trajectories of remembering 
+in post -scarcity culture. Memory Studies , 4(3), 269 –280. 
+https://doi.org/10.1177/1750698011402570  
+Hoskins, A. (2017). Memory of the Multitude: The End of Collective Memory. In A. 
+Hoskins (Ed.), Digital Memory Studies: Media Pasts in Transition . Routledge.  
+Hutson, J., & Schnellmann, A. (2023). The Poetry of Prompts: The Collaborative Role of 
+Generative Artificial Intelligence in the Creation of Poetry and the Anxiety of 
+Machine Influence. Global Journal of Computer Science and Technology , 1–14. 
+https://doi.org/10.34257/GJCSTDVOL23IS1PG1  
+ 
+23 
+ Ihde, D. (1979). Technics and praxis . D. Reidel Pub. Co.  
+Ihde, D. (1990). Technology and the lifeworld: From garden to earth . Indiana University 
+Press.  
+Ihde, D. (2009). Postphenomenology and technoscience: The Peking University lectures . 
+SUNY Press.  
+Intelligence, S. (2016, December 6). The user demographics of Reddit: The Official App. 
+Medium . https://medium.com/@sm_app_intel/the -user -demographics -of-reddit -
+the-official -app-7e2e18b1e0e1  
+Jacques, L., Valley, T., Zhao, S., Lands, M., Rivera, N., & Higgins, J. A. (2023). “I’m going 
+to be forced to have a baby”: A study of COVID -19 abortion experiences on Reddit. 
+Perspectives on Sexual and Reproductive Health , 55(2), 86 –93. 
+https://doi.org/10.1363/psrh.12225  
+Jaspers, K. (1957). Man in the Modern Age . Anchor Books.  
+Koerner, K. (2023, March 28). Generative AI: Privacy and tech perspectives . 
+https://iapp.org/news/a/generative -ai-privacy -and-tech -perspectives/  
+Kolak, D. (1990). Art and Intentionality. The Journal of Aesthetics and Art Criticism , 48(2), 
+158–162. https://doi.org/10.2307/430907  
+Kozinets, R. (2015). Netnography: Redefined . SAGE.  
+Kozinets, R., Dolbec, P. -Y., & Earley, A. (2014). Netnographic Analysis: Understanding 
+Culture Through Social Media Data. In U. Flick, The SAGE Handbook of 
+Qualitative Data                     Analysis  (pp. 262 –276). SAGE Publications Ltd. 
+https://doi.org/10.4135/9781446282243.n18  
+Kozinets, R., & Gambetti, R. (Eds.). (2021). Netnography unlimited: Understanding 
+technoculture using qualitative social media research . Routledge/Taylor & Francis 
+Group.  
+Kupfer, J. (1987). Privacy, Autonomy, and Self -Concept. American Philosophical Quarterly , 
+24(1), 81 –89. 
+ 
+24 
+ Latour, B. (1992). ‘“Where Are the Missing Masses? The Sociology of a Few Mundane 
+Artifacts.”’ In W. Bijker & J. Law, (Eds.), Shaping Technology/Building Society: 
+Studies in Sociotechnical Change  (pp. 225 –258). MIT Press.  
+Latour, B. (1996). On actor -network theory: A few clarifications. Soziale Welt , 369 –381. 
+Latour, B. (1999). On recalling ANT. The Sociological Review , 47(S1), 15 –25. 
+https://doi.org/10.1111/j.1467 -954X.1999.tb03480.x  
+Latour, B. (2005). Reassembling the social: An introduction to actor -network -theory . 
+Oxford University Press.  
+LukeTheCyberpunk. (2023, July 6). Looking for ways to make my art “Ai proof”  [Reddit 
+Post]. R/ArtistLounge. 
+www.reddit.com/r/ArtistLounge/comments/14s16ge/looking_for_ways_to_make_
+my_art_ai_proof/  
+Mazzone, M., & Elgammal, A. (2019). Art, Creativity, and the Potential of Artificial 
+Intelligence. Arts , 8(1), Article 1. https://doi.org/10.3390/arts8010026  
+Mehozay, Y., & Fisher, E. (2019). How algorithms see their audience: Media epistemes and 
+the changing conception of the individual. Media, Culture, and Society . 
+https://www.academia.edu/38528339/How_algorithms_see_their_audience_media
+_epistemes_and_the_changing_conception_of_the_individual  
+Millet, K., Buehler, F., Du, G., & Kokkoris, M. D. (2023). Defending humankind: 
+Anthropocentric bias in the appreciation of AI art. Computers in Human Behavior , 
+143, 107707. https://doi.org/10.1016/j.chb.2023.107707  
+Mitcham, C. (1994). Thinking Through Technology: The Path Between Engineering and 
+Philosophy . University of Chicago Press.  
+Nimmo, R. (2011). Actor -Network Theory and Methodology: Social Research in a More -
+Than -Human World. Methodological Innovations Online , 6(3), 108 –119. 
+https://doi.org/10.4256/mio.2011.010  
+ 
+25 
+ OleanderYuri. (2023, July 14). How to know if art really is your passion?  [Reddit Post]. 
+R/ArtistLounge. 
+www.reddit.com/r/ArtistLounge/comments/14zcptp/how_to_know_if_art_really_
+is_your_passion/  
+Osborne, P., & Charles, M. (2015). Walter Benjamin. In E. N. Zalta (Ed.), The Stanford 
+Encyclopedia of Philosophy  (Fall 2015). 
+http://plato.stanford.edu/archives/fall2015/entries/benjamin/  
+Pickering, A. (2010). Material Culture and the Dance of Agency. The Oxford Handbook of 
+Material Culture Studies . https://doi.org/10.1093/oxfordhb/9780199218714.013.0007  
+Pleasure, Z. H., Frohwirth, L. F., Li, N., & Polis, C. B. (2022). A Content Analysis of Reddit 
+Users’ Posts about Challenges to Contraceptive care -seeking during COVID -19-
+related Restrictions in the United States. Journal of Health Communication , 27(10), 
+746–754. https://doi.org/10.1080/10810730.2022.2157911  
+Pollock, G. (1980). Artists, Mythologies and Media —Genius, Madness and Art History. 
+Screen , 21(3), 57 –96. https://doi.org/10.1093/screen/21.3.57  
+Pošćić, A., & Krekovi ć, G. (2020). On the Human Role in Generative Art: A Case Study of 
+AI-driven Live Coding. Journal of Science and Technology of the Arts , 12(3), Article 
+3. https://doi.org/10.34632/jsta.2020.9488  
+Proferes, N., Jones, N., Gilbert, S., Fiesler, C., & Zimmer, M. (2021). Studying Reddit: A 
+Systematic Overview of Disciplines, Approaches, Methods, and Ethics. Social 
+Media + Society , 7(2), 20563051211019004. 
+https://doi.org/10.1177/20563051211019004  
+ScionoicS. (2023, July 14). Important ML article about models trained on copyright work 
+being transformative and fair use. The ruling was upheld all the way to the US 
+Supreme Court. Generative models have precedence on their side  [Reddit Post]. 
+R/StableDiffusion. 
+ 
+26 
+ www.reddit.com/r/StableDiffusion/comments/14z6ueq/important_ml_article_abo
+ut_models_trained_on/  
+Searle, J. R. (1983). Intentionality, an essay in the philosophy of mind . Cambridge University 
+Press.  
+Searle, J. R. (2010). Making the social world: The structure of human civilization . Oxford 
+University Press.  
+Smith, M. N. (2017). Intentions: Past, present, future. Philosophical Explorations , 20(sup2), 
+1–12. https://doi.org/10.1080/13869795.2017.1356360  
+Sorgner, S. L. (2010). Beyond Humanism: Reflections on Trans - and Posthumanism. Journal 
+of Evolution and Technology , 21(2), 1 –19. 
+Sorgner, S. L. (2022). Philosophy of posthuman art . Schwabe Verlag.  
+Sternsafari. (2023, March 25). I lost everything that made me love my job through 
+Midjourney over night.  [Reddit Post]. R/Blender. 
+www.reddit.com/r/blender/comments/121lhfq/i_lost_everything_that_made_me_l
+ove_my_job/  
+Verbeek, P. -P. (2005). What things do: Philosophical reflections on technology, agency, and 
+design . Pennsylvania State University Press.  
+Wicaksana, G. D., & Candrasari, Y. (2023). Motives for Using Reddit Social Media on 
+Members of the r/Indonesia Community. Open Access Indonesia Journal of Social 
+Sciences , 6(4), Article 4. https://doi.org/10.37275/oaijss.v6i4.167  
+Wolfe, C. (2010). What is posthumanism?  University of Minnesota Press.  
+Zammit, M., Liapis, A., & Yannakakis, G. N. (2022). Seeding Diversity into AI Art  
+(arXiv:2205.00804). arXiv. https://doi.org/10.48550/arXiv.2205.00804  
+ 
+View publication stats

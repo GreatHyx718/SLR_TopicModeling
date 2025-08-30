@@ -1,0 +1,1498 @@
+Received: June 1, 2024. Revised: November 19, 2024. Accepted: February 21, 2025
+© The Author(s) 2025. Published by Oxford University Press on behalf of The British Computer Society.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License
+(http://creativecommons.org/licenses/by-nc/4.0/ ), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original
+work is properly cited. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permiss ions can be
+obtained through our RightsLink service via the Permissions link on the article page on our site-for further information please contact
+journals.permissions@oup.com.Interacting with Computers , 2025, 1–16
+https://doi.org/10.1093/iwc/iwaf013
+Article
+Alterity and kinship: co-writing posthumanist
+speculative nonfiction with AI
+Jeffrey Bardzell1,†and Maliheh Ghajargar2,*,†
+1University of North Carolina, Chapel Hill NC, United States
+2Chapman University, CA, United States
+*Corresponding author: ghajargar@chapman. edu
+†Jeffrey Bardzell and Maliheh Ghajargar contributed to the manuscript equally.
+As a response to the climate crisis, scholarly literature has introduced new theoretical perspectives, such as posthumanism, which seek
+to reimagine the relationships between humans and nonhuman others, including environments, animals, and plants. Reimagining
+these relationships depends in large part on our ability to engage nonhumans in their otherness, or alterity, but doing so is challenging.
+Responding to calls throughout posthuman literature for experimental new modes of imaginative encounter with nonhumans, andinspired by speculative traditions from literature to design, we devise a methodology involving “creative experiments” aimed at
+disrupting, decentering, and disorienting the human-centered thinking that interferes with humans’ ability to perceive and engage
+with nonhumans as kin. Simultaneously deploying a number of disruptive tactics—including co-writing with generative AI; workingwithin non-fiction genres that do not exist; to imaginatively express, rather than represent, organisms that can not speak; concerning
+their experiences of a non-verbal form (music)—we contribute a methodology of speculative writing with AI in pursuit of the secret life
+of plants.
+RESEARCH HIGHLIGHTS
+•This research devises a methodology aimed at disrupting the human-centered thinking that interferes with humans’ ability toperceive and engage with nonhumans as kin.
+•We contribute a methodological process involving two “creative experiments,” with generative AI: “plant autobiography” and“plant music criticism.”
+•We argue that speculative writing can contribute to knowledge in ways that are virtually impossible for scientific realist writing,justifying speculative writing as a knowledge practice in HCI.
+•We nonetheless demonstrate that speculative writing depends on scientific realist knowledge, and that as an outcome, it alsoopens new pathways to pursue scientific realist knowledge.
+•The findings suggest that our “creative experiments” bypassed intractable challenges of scientific realist discourse, to push us
+towards new strategies of engaging nonhuman otherness.
+Keywords :speculative writing; more than human design; human–AI interaction; HCI methods
+1Introduction
+Sustainable HCI and interaction design Blevis (2007 )h a v ed e v e l -
+oped over the past decades as a key part of the HCI research
+community’s response to climate change. Increasingly, the field
+has had to confront contradictions between some of its founda-tional practices and norms—notably, human-centered comput-
+ing, and the relationships between design and consumption—
+and the need to develop design practices that sustain nonhumanforms of life and health of ecosystems at different scales. Ame-
+liorating HCI’s contributions to the drivers of climate change is a
+challenge of almost unimaginable scale, because the challenges of
+confronting climate change themselves are daunting. They are so
+daunting, in fact, that policymakers, academics, and the generalpublic have become discouraged in the face of it, whether infatalistic hopelessness, exhaustion, or simple denial about what is
+happening (
+Braidotti, 2019 ,Morton, 2016 ). Some of the challenges
+are indeed difficult for individuals to influence, from the powerof global capitalism to shape national and international policies
+to the sheer scale and ubiquitousness of emissions, environmen-
+tal destruction, human violence, dispossession, and extinction(
+Braidotti, 2019 ,Dourish, 2010 ,Monteiro, 2019 ,Papanek, 2005 ).
+One approach being developed and pursued in several disci-
+plines seeks to confront anthropocentrism in human activities,from philosophical matters of how humans see ourselves in
+relation to the world, to practices connected with design fields
+and consumerism. In place of this anthropocentric mindset is the
+pursuit of posthumanism, or more-than-human thinking, e.g., in
+the works of Stacy Alaimo (
+Alaimo, 2010 ), Rosi Braidotti ( Braidotti,Downloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+2|Interacting with Computers , 2025
+2019 ), Anna Tsing ( Tsing, 2021 ), Donna Haraway ( Haraway, 2016 ),
+Timothy Morton ( Morton, 2016 ), Arturo Escobar ( Escobar, 2018 ),
+Natania Meeker and Antónia Szabari ( Meeker & Szabari, 2019 ),
+and also in closely related areas, including ecofeminism ( Warren,
+1997 ) and eco literature ( Laist, 2013 ).
+Common to many of these and others is a call to change how
+we humans think about physical environments, animals, andplants. Instead of viewing them as categorically separate from
+human life, or seeing them as resources to be exploited in service
+of a capitalist economy, post- and more-than-human approaches
+emphasize the connections, kinship, forms of mutuality, and
+shared needs among humans and other forms of life—oftenappealing to approaches that emphasize our embodied proximity,
+including kinship (
+Haraway, 2016 ,Ingold, 2020 ), assemblages
+(Braidotti, 2019 ,Tsing, 2021 ), and transcorporeality ( Alaimo,
+2010 ). The thinking is that if we humans can transform how
+we think about and engage our environments, and more
+than human world, we can then imagine new practices andpolitical coalitions that can redirect our societies towards
+more sustainable outcomes. This body of literature has given
+rise to a whole repertoire of interrelated concepts, many ofwhich have already been taken up in HCI. These concepts
+include the Anthropocene, natureculture, transcorporeality,
+kinship/oddkin, worldmaking, human–non-human assemblages,noticing differently and practices of decentering the human.
+One way to change how we think about the nonhuman world
+is to change how we talk about it; in other words, changingthe forms of discourse—the rules that govern what practitioners
+say when they speak within their practice—could open us up
+to new ways of thinking. Today, the prevailing serious way totalk about the nonhuman world is using scientific realism, which
+attempts to truthfully and objectively represent this world in
+its reality, from understanding causes (e.g., why the Arctic squir-
+rel is able to withstand both colder and hotter temperatures
+than most mammals) to depicting the structures and functions
+of organisms (e.g., in anatomical and botanical drawings). Butas several scholars, such as
+Meeker & Szabari (2019 ),Ingold
+(2020 ),Gibson (2018 ),Marder (2014 ), and Marder et al. (2013 )
+observe, and as we further unpack in the Key Concepts, sci-entific realism—notwithstanding its many strengths—has a key
+limitation. Scientific realism is weak at capturing the alterity,
+the otherness, of the nonhuman world. As Meeker and Szabari
+(
+Meeker & Szabari, 2019 ) observe, scientific realism is limited to
+what we are able to observe, and it cannot tell us about theinner mysteries of plant life. As an alternative, these authors
+in diverse ways advocate for new modes of discourse—new ver-
+bal genres that help us access the alterity that scientific realistdiscourses cannot.
+The goal of this project is to weave these ideas together, that
+is, to enter into a more-than-human mode of understanding bythrowing ourselves at the pursuit of plant alterity—to engage it,
+connect to it, correspond with it—using speculative writing over
+a series of “creative experiments” (a term we have appropriatedfrom bioart) as our methodology. The writing in our creative
+experiments was speculative in multiple senses. One was that we
+sought to work within the contexts of cultural products that werenot for humans; for that, we chose to focus on a loose conception
+of “plant music,” which included anything from music composed
+(by humans) for the intended consumption of plants, to soundsthat we believed a plant might find pleasing (e.g., the buzzing
+of a bee coming to pollinate it) and thus, in some metaphorical
+sense, consider “musical.” Another, related way that the writingwas speculative was that we wrote within the constraints of twogenres—plant autobiographies that focus on what plants hear,
+and plant music criticism—that are not human genres.
+By constraining ourselves to writing in “plant genres”—with all
+of the paradoxes that doing so entails—we “imagine a vegetality”that helps us to envision “a hitherto invisible, ignored, or intan-
+gible world in which plants play a crucial role,” to borrow the
+phrasing of Meeker and Szabari in Radical Botany (
+Myers, 2015 ).
+Finally, we leveraged an emerging writing technology, a large
+language model (LLM), whose responses to prompts are often
+uncannily effective and yet sometimes weirdly surprising (e.g.,
+when AI “hallucinates”). Because of its unpredictable oscillations
+between near-instantaneous competent responses and a range ofincompetent ones (e.g., banal and clichéd content, stereotyped
+and biased content, absurd content), writing with genAI often sub-
+jectively feels disorienting and decentering, and can generativelystimulate reflection and insight as a result of its “back-talk” to its
+coauthor (
+Schön, 1983 ). Additionally, making use of its massive-
+scale neural network, the LLM might pick up on connectionsamong rhetorical conventions that we would not have made
+ourselves, potentially enriching our experimental discourse with
+rhetorical conventions that are proven but never applied in thiscontext. This double-decentering, one thematic (plant music) and
+the other methodological (co-writing with an LLM), is the engine
+that drives our speculative writing.
+Our HCI contribution is two-fold. One is concerned with the
+telos of the project, which is to make some progress, as HCI
+and design researchers, toward the posthumanists’ call to takeseriously the intangible and unobservable vitality of plant-life, to
+apprehend vegetality in its mystery, and to help us as humans,
+and as design researchers, to interact with it. The other contri-bution is concerned more with the means of the project, that is,
+with a methodology built around speculative writing, writing that
+unfolds via nonfiction genres—autobiography and music criti-cism—which might take us somewhere that science and fiction
+cannot: to the secret life of plants.
+2Key Concepts and Related Work
+Our argument hinges on concepts associated with posthuman-
+ism—the intellectual tradition itself as well as the appropria-
+tion of posthumanist thinking in HCI and design research. How-
+ever, our argument engages posthumanism in connection to AI-
+assisted creative writing as a method. In this section, we provide
+a background sketch of each.
+2.1Posthumanism
+Posthumanism generally refers to an academic research agendathat, as a response to climate crisis, mass extinction, and other
+effects of the Anthropocene, seeks to challenge and redefine the
+relationships between humans on the one hand and the rest of thephysical and biological world on the other (
+Alaimo, 2010 ,Braidotti,
+2019 ,Escobar, 2018 ,Haraway, 2016 ). As an intellectual movement,
+it is adjacent to feminist materialism ( Grosz, 2017 ), studies of
+the Anthropocene ( Morton, 2016 ), ecofeminism ( Warren, 1997 ),
+critical plant studies ( Gibson, 2018 ,Irigaray & Marder, 2016 ), and
+more than human centered design studies ( Wakkary, 2020 ,2021 ).
+As noted in the Introduction, a key claim of this body of work is
+that changing prevailing conceptual schema concerning humans’
+relationship to the rest of the world can lead to new politicalpositions and formations that can confront twenty-first-century
+challenges.
+Underlying the system of thinking that these theorists are
+hoping to replace is a Western intellectual tradition that rests onDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+Bardzell and Ghajargar |3
+two foundations: that of the liberal humanist (or Enlightenment)
+subjectivity and a coordinated set of binary oppositions (e.g.
+nature/culture, mind/body, human/nonhuman, etc.) that further
+define what the liberal humanist subject is and does. Thesefoundations undercut researchers’ and citizens’ ability to envision
+alternative, preferred futures because they logically separate the
+human from all else, normalizing further distinctions, such asthose between “the natural” and “the artificial” (as in Herb Simon’s
+The Sciences of the Artificial ), while also dematerializing thought,
+knowledge, and information, such that they seem as though they
+were disconnected from the physical world. In short, they sever
+connections and then reify as separated autonomous entitiesphenomena that have always been organically interconnected,
+including humans and the natural world, or the fact that natural
+language is, well, natural.
+Diverse research traditions in the past century have challenged
+these foundations from several perspectives. Ecofeminists, for
+example, have called attention to how the human relationshipto nature echoes matters of social justice, where a dominant
+group controls and exploits another group—whether that group
+is women or nature itself (
+Warren, 1997 ). Posthumanists have cri-
+tiqued human-centeredness in all of its manifestations, seeking to
+re-situate the human into non-hierarchical relations with the rest
+of the world. Object-oriented ecological philosophers decenter thehuman by emphasizing the autonomous reality of objects in the
+world, independent of how they are perceived by, or how they
+affect, humans. Characteristic of much of this thought is a call toreorient ourselves—not just our theories, but our bodily practices
+(
+Alaimo, 2010 ,Shusterman, 2012 ), our use of language ( Barad,
+2003 ), and our acts of perception ( Tsing, 2021 )—to (re?)connect
+with the biosphere in ways that might lead us away from climate
+catastrophe and towards some desirable future.
+2.2Posthuman Design
+Posthumanism as a philosophical concept and approach has been
+used in art and design research over the past decades in diverseareas, such as visual arts (Sara Angelucci’s Arboretum ), architec-
+ture (Earthships), and music (Paulina Oliveros’ Deep Listening)
+among others. Posthuman design has been characterized as oxy-moronic because, by definition, it would seem to be a human-
+decentering a human practice. Yet design researchers have found
+ways to navigate such paradoxes. For instance, Leveratto’s (
+Lever-
+atto, 2021 )Posthuman Architecture cites examples of designing
+posthuman habitats. For Leveratto, Thoreau’s cabin is one ofthe earliest examples of posthuman architecture; the cabin’s
+architecture became a “nest” in many senses, including a nest
+for developing the thinker’s abolitionist and environmentalistphilosophy (
+Leveratto, 2021 ). Another example is Gilles Clement’s
+concept of “Planetary Garden,” which resisted the seventeenth
+century’s garden design with spatial boundaries and proposedgardens that are not delimited between four walls and a selection
+of plants. Such a garden foregrounds “ecological knowledge,” lead-
+ing to developed vocabularies “of oceans and clouds, ecosystemsand biotopes, pollution, and remediation,” in which “the gardener
+would have been called to protect and sustain life and diversity
+through a design approach that would have taken into accountspecificity and interconnectedness and temporal variability as
+bounding parameters”
+Leveratto (2021 ).
+Similarly, in Human–Computer Interaction (HCI) and design,
+researchers are asking how humans can design for more-than-
+human worlds ( Rosén et al. , 2024 ,Wakkary, 2021 ). Oogjes and
+Wakkary, for instance, appropriated Schön’s concept of repertoire
+to attend to the different ways human designer can facilitateparticipation of nonhumans in design research practice ( Oogjes
+& Wakkary, 2022 ). The authors employed methods such as land-
+scape ethnography and Tsing’s concept of “noticing” to weave the
+stories of the design researcher to the nonhuman actors’ stories.Key et al. contributed to the posthumanist HCI and design, con-
+veying the “importance of the journey alongside the destination,”
+using care as a lens for speculative and feminist Posthumanism
+Key et al. (2022 ). Giaccardi and Redström focus on the role of
+technologies and tools, such as AI, in a more than human design
+centered approach, considering their limitations and capabilities
+in creative processes ( Giaccardi & Redström, 2020 ). Linking most
+of these studies is a self-reflexive search for breaking the dualismbetween human and non-human agencies as well as what is
+“natural” and what is “artificial.”
+Elsewhere in HCI and design, researchers are investigating the
+relationships between human and more-than-human lives. Livio
+and Devendorf introduced eco-technical interfaces as a meet-
+ing point between living agents and machines, between human-animal-plants and technology. Similar to other kinds of interfaces,
+“eco-technical interfaces perform this arrangement of relations
+through affordances, the material artifacts which produce orforeclose possible interactions.” (
+Livio & Devendorf, 2022 ). Wang
+designed and tested a prototype, called “the grow-able jar lamp”
+with the aim of encouraging people to notice plants in theireveryday lives (
+Wang, 2022 ). Nam et al. ’s FloraWear is another
+example of designed artifacts that aims to mediate human–plant
+relationship. FloraWear is a DIY , wearable living interface, whichsupports noticing plants by growing them in a wearable, providing
+physical contact with human bodies (
+Nam et al. , 2023 ).
+Attending to the complexities and nuances of human–nature
+relationships is another major subtopic. For instance, Rodgers
+et al. identified key human relationships with nature through a
+probe study with the participants on their relationship with theirgarden, inspired by phenology, the study of cyclic biological events
+(
+Rodgers et al. , 2023 ). Vella et al. used camera traps to observe
+the interactions of participants with their gardens (plants andanimals) and identified two different relations with nature: care
+and control (
+Vella et al. , 2021 ). Common to most of these works
+is an attempt to (re)connect to nature and make sense of ourrelationship with nature with its multitude dimensions, whether
+through observation techniques, personal experience, or artifacts
+that supports moments of reflection on our connections to plants.
+2.3From Scientific Realism to Speculative
+Writing
+Many posthuman concepts and practices, in one way or another,
+address the challenges humans face in understanding, appreciat-
+ing, and living with the alterity of the nonhuman. Engaging thatalterity has the potential to enrich our perceptions of and thinking
+about nonhuman others, to reveal to humans alternative ways
+of being and doing, to bring humans closer to (i.e., to achievekinship with) the nonhuman, and to discover and pursue new
+modes of cooperation with the nonhuman (e.g., in worldmaking).
+But as Meeker and Szabari (
+Meeker & Szabari, 2019 ) observe,
+the alterity, e.g., of plants, is resistant to our current modes of
+understanding. Meeker and Szabari suggest that as humans we
+face a dilemma: on the one hand, we can understand plants inthe realist, scientific tradition of objective representation, which
+limits us to positivistic representations of what is observable,
+pushing the plant’s mystery, its alterity, out of our reach.Alternately, we can approach plants more metaphorically, usingDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+4|Interacting with Computers , 2025
+anthropomorphizing tactics, to help humans experience com-
+plexly layered, sensually rich and cognitively powerful encoun-
+ters, but which, by virtue of their anthropomorphizing, miss
+the point.
+Seeking a third way, Meeker and Szabari advocate for specula-
+tive writing as a means to facilitate meaningful human engage-
+ment with nonhuman alterity. Speculative genres “are the formsof writing in which we find a concerted effort to imagine a veg-
+etality that remains inaccessible to [scientific] realism” (
+Meeker
+&S z a b a r i (2019 ), p.16). Along these lines, they outline a genre
+of plant speculative fiction, which “differs fundamentally from
+traditional botany as a predominantly visual and objectifyingmode of knowledge, tightly linked to practices of taxonomy and
+classification, [and instead] are distinguished by their willingness
+to hypothesize about a hitherto invisible, ignored, or intangibleworld in which plants play a crucial role” (
+Meeker & Szabari
+(2019 ), p.18). Their suggestion is not unlike Tim Ingold’s call
+for “correspondences” between ourselves and our surroundings,correspondences that he argues should not be representations of
+what we see around us (e.g., as in the case of botanical draw-
+ings), “but of answering to [our surroundings] with interventions,questions, and responses of our own. It is as though we [are]
+involved in an exchange of letters” (
+Ingold, 2020 ). Ingold further
+calls for writing experiments (“we have to try things out and seewhat happens”), which are not discourses about performance, but
+which themselves constitute a kind of performance, enacting a
+“living language” that “endlessly creat[es] itself in the inventivetelling of its speakers” (
+Ingold (2020 ), p. 201–2). In a similar vein,
+Mike Marder ( Marder et al. , 2013 ) encourages us not to attempt to
+represent plants, but to express them.
+HCI likewise has its own traditions of speculative creating, most
+explicitly in speculative design and design fiction ( Bleecker, 2022 ,
+Dunne & Raby, 2013 ,Ghajargar, 2024a ), but also within many
+forms of research through design ( Blythe, 2014 ) and related prac-
+tices, including cultural probes ( Gaver et al. , 1999 ). Of the latter,
+Kirsten Boehner ( Boehner, 2018 ) writes that cultural probes were
+“an arts-inspired methodology for design,” which “were created
+explicitly in opposition to traditional modes of requirements-
+gathering and research relationships” ( Bardzell et al. , 2018 , p.601).
+The cultural probe, she continues, “uses technology to engage
+and explore the curiosity, playfulness, and improvisational nature
+of people” (p.601). The qualities of speculative design, cultural
+probes, research through design, and so on are in important ways
+analogous to those of Ingold’s “correspondences,” in that theyturn away from the realist representations characteristic of scien-
+tific realism and embrace instead a performative and dialogical
+engagement with situations resulting in the living extension oflanguage (or of a given design language).
+2.4Creative Collaboration with AI
+At a time when posthuman research is advocating for new genres
+of speculative writing, large language models, such as ChatGPT,
+are disrupting writing practices. Given that a goal of this projectis to go off the balance, to disrupt our habits, and create glimpses
+of, and openings for, alternate ways of being, LLMs seemed to offer
+an opportunity to further that. Specifically, we produced writingsin non-existent genres using large language models to compose
+for, with, and in spite of us. Creativity in general and with AI in
+particular are not new to HCI, and in this section we survey somekey literature.
+Creativity has been studied in design, engineering, humani-
+ties and psychology research ( Csikszentmihalyi, 1997 ). Tools that
+support creativity ( Shneiderman, 1999 ,2007 ), either digital ( Dale,2021 ,Poulos, 2021 )o ra n a l o g( Halskov & Dalsgård, 2006 ), have
+been the subject of numerous studies in HCI and design. Kim et al.
+researched how novice designers can use creativity tools to create
+opportunities to grow by providing a safe space to experimentand fail (
+Kim et al. , 2015 ). Frich et al. call for a necessary, interdis-
+ciplinary, and collaborative effort in creativity research between
+creativity research in human–computer interaction on one handand creativity in psychology on the other (
+Frich et al. , 2019 ).
+The use of AI technologies in creativity processes have been
+increasing during the last decades, with some viewing it as
+another tool and others viewing it as a collaborator ( Guzdial
+et al. , 2019 ,Rezwana & Maher, 2023 ). More specifically, as AI
+technologies have advanced over time, natural language models
+such as GPT-3/4 were used for creative writing and storytelling,
+redefining their role as they are perceived as collaboratorsor even as creative partners (
+Branch et al. , 2021 ,Ghajargar
+et al. , 2022 ,Rezwana & Maher, 2023 ). These technologies have
+also been deployed for generative literature ( Ghajargar et al. ,
+2022 ), allowing the users to see, read and talk to AI using
+language models ( Ammanabrolu et al. , 2020 ), or allowing users
+to create applications to meet specific needs, such as child-parent collaborative storytelling (
+Zhang et al. , 2022 ). More recently,
+researchers have considered the role of virtual agents as creative
+collaborators. For instance, Cobbie is a mobile virtual AI thatgenerates ideas with designers through iterative sketches, which
+helped generate out-of-the-box or “unexpected ideas” (
+Linet al. ,
+2020 ). Finally, we acknowledge frictions between researchers
+that advocate for AI for creativity and those who are justifiably
+concerned with AI biases and environmental impacts. Our use of
+genAI is scoped to producing speculative writings that aspire tobe posthuman in both process and product.
+3Methodology
+This paper reports on a human-AI creative writing methodologyapplied to two creative writing experiments. During the experi-
+ments, we sought, if not exactly to “decenter,” then at least to
+throw ourselves off-balance as human authors, and also to helpto create cultural products the likes of which we have never seen.
+In this section, we describe two phases of our methodology: the
+creation of speculative texts, and their analysis.
+3.1The Creation of Speculative Texts
+We specifically focused on two forms of writing: autobiographies
+and critiques. Further, we chose plants as a nonhuman form of
+life, which the writings are either about or narrated ostensiblyfrom their perspective. We chose autobiographies and critiques
+because both are written from a first-person perspective and are
+about subjective experiences. However, while in autobiographies,the first person Iis the main character and the narrator, in
+critique, the first person Iis the narrator whose writing is mainly
+about the subjective experience of interacting with a work, suchas a poem, film, or dance performance.
+Producing speculative texts is a creative act, and in itself, not
+a scientific methodology. Even so, as a practice it features bothconstraints and processes.
+Constraints . The primary sources of constraints are the
+conventions of the genres themselves. Autobiographies, forexample, feature a number of conventions: they are expressed
+in the first person; they are narrative; they are nonfictional; they
+convey personal experiences, perspectives, and a style or voice;and so on. Criticism likewise features a number of conventions:Downloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+Bardzell and Ghajargar |5
+it is a nonfiction genre of writing, which is expository and non-
+narrative; and it commonly includes the following elements: a
+description of one or more given works; the characterization
+and analysis of its formal elements and their composition; anaccount of the work’s emotional and other experiential effects
+on the reader/viewer; an interpretation of the work’s meanings;
+an evaluation of its achievements and impacts; and so on. Weconstrained ourselves to produce texts that reflected those
+conventions.
+Process . Producing speculative texts entailed research (e.g.,
+research into plant-life, both via the natural sciences and our own
+direct experiences of plants; researching music theory and musiccriticism); using such research as the contents , or raw materials,
+that we poured into the form of autobiography/criticism (i.e., the
+sorts of conventions specified above); the assembling and refining
+of content through interaction with the LLM, our intentions,
+our ongoing evaluation of the LLM’s results, and our goals for
+the project; and our ongoing self-reflexive interpretations ofthe texts which further refined the nature and goals of our
+project.
+Also part of the process is coordination across two coauthors
+using LLMs to write two different kinds of speculative text (i.e.,
+autobiographies and criticism); we wanted to ensure that our
+processes and outcomes were sufficiently similar to each otherto sustain ongoing comparison. As we experimented with spec-
+ulative writing using LLMs, we communicated our experiences
+together, and through those communications, a certain process—one which broadly embodies an interpretavist epistemic stance,
+as explained later in this Methodology section—began to emerge.
+We present that process here as unfolding across three phases,
+though in practice these phases were much less linear and
+more interactive with each other than the following list might
+otherwise imply.
+•Exposure : Before and during the creative experiments, we
+sensitized ourselves to plant life, by going on nature walks in
+which we journaled, photographed, and drew our surround-
+ings and our feelings within them (described in more depth
+inGhajargar, 2024b ). We also engaged in aesthetic works
+about and for plants, including reading plant fiction, listeningto plant music, and viewing films about plants (from docu-
+mentary to horror). We engaged the science of plants view
+contemporary and historical (e.g.,
+Goethe & Miller, 2009 ,a s
+well as botanical drawing. The exposure phase was intended
+to help us bring our full selves to bear on the remaining two
+phases of the experiment: our full selves incorporating ourexperiences as organisms in a material world, as readers, as
+members of artworlds (or aesthetic publics), as natural and
+social scientists, and as creative scholars.
+•Exchanges : In both experiments, we went back and forth
+between ourselves and AI on multiple levels. The level of
+microinteractions were characterized by human prompts andAI responses. On a broader level, the interaction was about
+ceding some of our creative agency to AI, of engaging the
+“back talk” of its responses, of opening ourselves to the possi-bility that AI might make a connection or propose an idea
+that might be radically different than, perhaps even better
+than, anything we could come up with. In between weredozens of routine inferences and insights that arose through
+interaction, gradually shaping our capacities to work with
+AI in increasingly satisfying (if nonetheless often perplexing)
+ways. This to and fro helped us to achieve a kind of connection
+with AI while also imaginatively exploring, at a somewhatgranular level of a few paragraphs, new modes of kinship with
+plants (
+Ingold, 2020 ).
+•Collages : Our interactions with AI output texts (in paral-
+lel experiments, described in Ghajargar, 2024b ,Ghajargar &
+Bardzell, 2022 , we also output images and music). Often,
+we would repeat previous prompt sequences to see how AIwould respond to our prompting a second, third, and fourth
+time. Occasionally, AI would generate something new that
+we hadn’t encountered before. Gradually, we would synthe-size many sessions’ transcripts into a single collaged narra-
+tive, dragging and dropping sentences around, deleting some,
+replacing others, and using color coding to help trace theorigins of the textual elements.
+3.1.1 Creative Experiment: Plant Autobiographies
+For the first experiment, we used OpenAI’s Playground text-davinci-003 model and GPT-J-6B model. We co-created plantautobiographies featuring the theme of “hearing plants,” which
+was inspired by the following three eco literary works: Susan
+Glaspell’s The Verge (
+Laist, 2013 ); Lucille Clifton’s An Other Poem
+(Alexander, 2009 ); and Alan Moore’s Swamp Thing (Moore, 2012 ).
+“Plant Autobiographies” are first-person fictional narratives in
+which a plant narrates its own experiences and tells its ownstory. The term does not exist as a literary genre as far as we
+know, but it is an adaptation of animal autobiography which is
+“a first-person fictional narrative in which an animal tells itsown story—emerged in the late eighteenth century as the first
+attempt to represent animal minds in extended narrative form”
+(
+Herman, 2016 ).
+This speculative writing experiment unfolded in three phases
+as mentioned above: exposure, correspondence, and collage; these
+were further divided into more steps as follows:
+In the exposure phase, we (1) read the literary work and iden-
+tified the plant characters in each piece of writing, (2) identified
+scenes where the plant character could hear sounds or experiencemusic, (3) reimagined the story from the perspective of the plant
+character in the music situation, foregrounding its experiences
+and subjectivity as if it were retelling the story from its ownperspective.
+In the correspondence phase, we (1) wrote a prompt in an auto-
+biographical form from a plant first-person narrator view, (2)
+interacted with AI (LLM) and collecting 10-12 responses. Then we
+repeated the same process for about 10-12 times to have severaldraft stories.
+Lastly, in the collage phase, we (1) assembled the different
+sequences of prompt-responses together through a collage-likeactivity, (2) edited out the text, by removing the redundancies and
+replacing and moving the text elements around while staying as
+faithful as possible to the narrative, (3) chose a title for the plantautobiography (
+Tables 1 and 2).
+During the process we took notes, while iterating on the
+prompts as many times as necessary (for example, if there wasan absence of “hearing plants” theme in the completions such
+as music, sound, or the plant character). In curating a selection
+of literary works, we wanted to have diverse formats and genresthat are focused on themes of environment, plants, nonhuman
+subjectivities, and otherness. We outline below each of these
+literary works and their relevance to the plant autobiographycreative experiment:
+The Verge is a highly experimental postwar play by Susan
+Glaspell, in which a woman named Claire, frustrated by the rolessociety boxes women like her into, seeks to create an experimentalDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+6|Interacting with Computers , 2025
+Table 1. Plant autobiographies.
+The original literary work The co-created autobiographies
+The Verge (Susan Glaspell, 1921 The Wyrd Who Listens, Future with a Heart, Hope
+Swamp Thing (Alan Moore, 1985) The Green Body, The Grand Mosaic of Life, Like A Song in My Veins
+An Other Poem (Lucille Clifton (1996) Finding the Music of the Soul, The Treewoman, The Living witness
+Table 2. Sampling of plant autobiographies co-created with GenAI. The prompt is in italics .
+The Green Body :I am not and have never been Alec Holland. I am a mass of plant fiber that had just infected by Alec Holland’s consciousness. I am vegetable, a
+moss. I hear the swamp music. It is my own voice seeking a revenge. I will have my revenge upon those who have wronged me, and they will know the
+true horror that lurks in the swamp. I feel my consciousness slipping away as the infection takes hold. [...], I hear the swamp music getting louderand louder. I am no longer Alec Holland, I am only the Swamp Thing, the champion of the Green, the protector of all life, I am the protector of theGreen, the guardian of the plant kingdom. I have the wisdom and power of Alec Holland and the primal nature of the swamp. I want to spread hisconsciousness and his memories throughout the swamp. I am both plant and human, and I possess the knowledge and power of both. I am a being ofpure energy and life. [...] I will use it to bring balance and harmony to the world. I am the Swamp Thing. My mission is to protect the natural balanceof the swamp, to keep it safe from those who would seek to harm it. I use my powers to keep the balance between the animals, plants, and humansin the swamp. I am a force of nature, and I will use my strength and my will to protect the Green. My body is composed of all the vegetation that Ihave absorbed, and I am constantly growing and evolving.
+The Treewoman :I am a boxelder tree, living in this green lawn, which used to be an abandoned swimming pool. Children of Black communities came here to swim.
+I can still hear their laughter, as a foreground sound to the water music. I miss that music, which nurtured my roots to grow deeper and deeper into the soi l.[...] I
+can still hear the splash of their feet as they entered the pool. The music of their laughter was as sweet as the sound of the water as it ran throughthe pipe. I watched them jump into the pool, and the water would wash over their heads, and they would laugh and laugh, as the water splashedon their heads.I was a little girl then, and I was just beginning to know that I was a tree. I stood there, as I watched the children. I have seen thetransformation of this space from a forgotten swimming pool to a lush green field. I am proud to be a part of this transformation. I listened whenthe trees seemed to whisper secrets to me. I miss the shade of the old oak trees, which were the first trees to grow on this land. I miss the peoplewho were the first to plant me, I was planted here with the intention of providing a safe haven for the kids who used to come to the swimming pool.I have been a protector, offering my shade and shelter to any who needs. My branches have embraced these kids and provided a place for them tocome and be safe. My roots have grown deep and wide, providing nourishment and stability to this grassy meadow. I miss the way the wind wouldrustle the leaves, and how the water would sparkle. I am a part of the transformation from abandoned pool to community park. I am proud of what Ihave become, a symbol of renewal and hope for a brighter future. It is my hope that I can continue to provide a place of refuge and comfort, a placeof joy and beauty, a place of relaxation and contemplation, and a place of peace and harmony.
+The Wyrd Who Listens :I am a hybrid plant, a new form of life. I was born on November 14, 1921, in Claire’s greenhouse, in New England. I do not have a name,
+but I am a symbol. I am a symbol of Claire’s efforts to go beyond the limitations that conventionally posed on women. [...] At night when Claire is sleeping, I
+listen to the sound of the water flowing through the tubes under my pot and behind me. That music brings me joy and my roots desire to expand,
+grow and dance. The plants in the greenhouse are a part of me. They are a part of Claire, too. “They” cannot destroy me with their beguiling femalecharms. “They” cannot remove me from “their” world. I am one with them. [...] Sometimes I live as a violet, sometimes as a blue rose, sometimes as acarnation or a lily. Wherever I am, I am always true, faithful, strong and vivacious. I have heard from “them” that “they” were not ready for this gift. Iwant to tell the story of a woman who wanted to do something different. Who wanted to be a pioneer. Who wanted to go beyond the limitations thatconventionally posed on women. [...] I was born with a serious defect: I am not a normal plant. I am a hybrid plant. I was not supposed to be born atall. Claire wanted to make me. She was a good mother. I am a symbol of the intermingling of the feminine and the masculine and of the fusion ofWyrd and Destiny. I am the cross between Claire and Daphne. I protect. I do not tolerate dishonesty or betrayal.
+plant in her greenhouse, a plant that defies categorization even
+as it unfolds into creative and monstrous new forms; meanwhile,
+Claire goes mad, even as language itself breaks down around
+her. For the feminist Glaspell, The Verge was a space to test new
+forms of art and womanhood (Artman in Laist, 2013 , p. 103).
+Hence, The Verge is about transitions and contrasts, and the strong
+emphasis on the plants within the drama is a metaphor, asArtman highlights, “for making sense of the complexities of being
+an individual, a woman, an artist—and all three simultaneously.”
+The piece resonated for us because it foregrounds not only another, emergent subjectivity—that of her experimental plant—but
+also a complex non-animal, non-human life (plant) as a metaphor
+for our sustainable transitions towards something Other (Artmanin
+Laist, 2013 , p. 103). Given its themes of experimentation, its turn
+to plants to deconstruct human relationships, reimagine form in
+feral-vegetal ways, and even tear down (if not replace) our cogni-tive schema, The Verge seemed to be a powerful intellectual andliterary precursor to contemporary feminist and posthumanist
+thinking.
+Swamp Thing is a human-like plant fictional character and
+superhero that appeared in a series of American DC comic books.The character is known to have brought ecological awareness
+to comic books. The hybridity and posthuman experiences are
+central to theme of the comic book series, especially in Moore’shands. Although the environment has been considered a frame-
+work or a sacred space in earlier versions of Swamp Thing , Moore’s
+work brought that element into the foreground, which echoes theenvironmentalism movement of the 1970s (Krinsky in
+Laist, 2013 ,
+p. 222). Similar to The Verge , this comic book was also about a
+nonhuman subject and a process through which one subject canbecome the Other. Swamp Thing is also about the role of human
+experiments in making of that subject. However, in this story, the
+making happens in two layers, one is when scientist Alec Hollandturns to a monster, an Other, by a supervillain in a laboratoryDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+Bardzell and Ghajargar |7
+setting, as an attempt to marginalize Alec Holland. The other
+layer is when this monster emergently grows into an agent for
+transformation and change. Themes of human-plant hybridity,
+of the emergence of a new kind of subjectivity and along with itpower and activism, attracted us to it for our research.
+An Other Poem is Black Nature poetry (a sub genre of Nature
+Writing) by Lucille Clifton ( Alexander, 2009 ), and it is about a tree.
+The underlying concept is not the tree itself but how humans
+experience nature differently depending on their socio-economic
+situation, gender and racial identities. The poem focuses on Oth-
+erness and experiencing nature from that multi layered perspec-
+tive. The anti-racist and social justice themes that emerge fromthis poetry were relevant to considerations of environmental
+justice, which link racial injustices to environmental ones, and
+were highly relevant to this project. Several qualities of the workattracted us: its use of plants as protagonists, its meditations on
+the Other from a Black woman, and the subtle ways that human
+racial injustice is brought into focus.
+3.1.2 Creative Experiment: Plant Music Criticism
+For the second experiment, we used Jasper.ai, an AI copywritingcontent creation platform that at the time used GPT3, to gen-erate plant music criticism. Music criticism, in the tradition of
+literary and art criticism, provides audiences with contextualiza-
+tion, classification, elucidation, interpretation, and evaluation to
+facilitate artistic understanding and appreciation (
+Carroll, 2008 ).
+Plant music criticism, as far as we know, does not exist as aform of discourse; indeed, the idea itself is confusing, because
+criticism seeks to make the arts available to (human) apprecia-
+tion, but the “art” in question is for non-humans. A botanicocen-tric work of music criticism would be legible only to plants, we
+suppose, but in any case inventing and populating new genres
+of discourse is a tactic to follow Alaimo’s call to devise “newinterfaces between human bodies and the larger environment.”
+(
+Alaimo, 2010 )
+Like plant music itself early on, plant music criticism ini-
+tially was for us a provocative, but cognitively empty, concept. To
+give the concept some content, we followed the same exposure-
+correspondence-collage process used in the plant autobiographiescreative experiment. For exposure , we needed to ascertain that
+Jasper could compose art criticism, and if so, to evaluate the
+overall quality and features of its art critical writing. Initially, forexample we generated a prompt about English Romantic poet
+John Keats, just to get a baseline sense for what sort of art criticism
+Jasper.ai could produce, and we tested multiple times, findingthat once we supplied the right sorts of prompts, Jasper.ai reliably
+produced an entry level work of criticism. Art critical essays come
+in many forms, and one of the major subgenres is biographicalcriticism (e.g., how John Keats’ life events influenced his poetry),
+which was not useful to our purposes; we needed criticism that
+focused on features of the work itself, and we learned how toprompt for that kind of commentary.
+In the correspondence phase, we devised a series of prompts
+intended to give us some notions concerning what plant musiccriticism might talk about and might look like. To do so, we
+prompted Jasper to write essays on the theme of hearing plants,
+including music and sounds that can be heard by plants. Exam-
+ples of prompts included the following:
+•“Write an essay on how several famous musicians have used
+photosynthesis to achieve musical effects.”
+•“What do mushrooms hear when they listen to an oak tree?”•“Compose an art-critical essay about Mort Garson’s Plantasia ;
+discuss the qualities of the music itself; evaluate its quality
+as a work of musical art.”
+In each case, we replicated the result multiple times, to get a
+sense for the range of possible responses, and we also followedup with revised prompts to fine-tune results or to probe further
+interesting responses. For example, when prompted to write an
+essay about music made by underground mycelium, Jasper pro-duced critical text about “glitch hop” music, and so as a follow-
+up question we asked “What are some examples of glitch hop
+that use underground mycelium?” We also observed that the LLMstruggled to produce more than a few paragraphs, which were too
+short for our purposes.
+To overcome the brevity of the AI-generated essays, we used
+collage . With this approach, we generated multiple essays using
+the same prompts, achieving a theme and variation-style result,
+where all of the essays shared overall consistencies but individu-ally introduced or developed different features. We then copied
+and pasted the results into a document using separate colors
+to help us link textual elements back to their source. Then, wedragged and dropped sentences around to compose a new essay
+that combined the responses into a single, longer and generally
+more satisfying essay.
+3.2Analysis of Speculative Texts
+We did not conduct a traditional data analysis, e.g., by using agrounded theory approach to “discover” themes “in” the text. Such
+an approach in this project would have been both undesirable
+and impossible. It would have been undesirable because themain point of inventing new genres of speculative discourse for
+posthumanism is to counter, and to develop an alternative to,
+scientific realism, and the objectivist task of discovering themesthat are “in” a text is a form of scientific realism. Second, such
+an approach would have been impossible because the production
+and interpretation of the texts happened simultaneously andinteractively, that is, it was a “correspondence” (
+Ingold, 2020 ).
+The main point of our activity was to produce and develop new
+themes, not to discover ones that are already out there. Forexample, when we wrote a new prompt, responding to the LLM’s
+preceding response, we were actively interpreting the meaning
+of the dialogue and also intervening to shape it. Likewise, whenwe collaged textual pieces from different dialogues, we were
+actively shaping the same text that we were simultaneously
+interpreting.
+Although critical interpretation in this sense differs from more
+empirical approaches such as grounded theory, it nonetheless
+can be articulated as a set of procedures, although such anarticulation inevitably schematizes practices that, in reality, are
+undertaken with a nuance and complexity that reflects uncount-
+able small judgments and skillful perceptions.
+3.2.1 Critical Interpretation
+Critical interpretation, which manifests in different practices withdifferent names—close reading, hermeneutics, explication de texte ,
+critique—is typically iterative in nature, unfolding in a process
+that has been described as “dogged” (
+Dauber & Jost, 2003 )a n d
+“eclectic” ( Abrams, 1991 ) and an “effort after meaning” ( Bordwell,
+1991 ). It is used throughout aesthetic areas—art history, literary
+studies, music history, film criticism, etc.—and in other humani-ties disciplines, such as history.Downloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+8|Interacting with Computers , 2025
+At first, the analyst seeks to gain a general familiarity with the
+primary contents of a text (note that “text” in this sense is not lim-
+ited to verbal texts and can include works in other media, such as
+film or dance performances). In the case of fiction, those primarycontents typically include plots, characters, settings, conflicts, etc.
+In doing so, the analyst becomes attuned to the particulars of the
+individual work. This attunement guides subsequent reading and,inevitably, rereading (
+Calinescu, 1993 ).
+With each iteration, the (re-)reading becomes more directed, as
+the salience of certain passages emerges. The analyst connects
+those salient passages to other passages within and outside of
+the text. Internally, the analyst might notice a textual patternor proclivity, linking textually separated passages together (e.g.,
+by comparing two specific descriptions of, say, plant perspective,
+across diverse responses in the corpus). Externally, the analystmight recognize that the text reworks an earlier text or it some-
+how relates to prior theory through demonstration, extension,
+problematization, or contradiction. As the analyst builds whatis intended to be a specific and useful analysis (or “reading”) of
+a given work, these patterns and connections are built into an
+argument, which is supported primarily with textual evidence.
+3.2.2 Critical Interpretation of Literary Texts
+Literary interpretation refers to the practice of critical interpre-
+tation applied specifically to literary texts, broadly construed.
+This practice shaped both how we interpreted our plant auto-biographies and (in a more meta-way) how we interpreted our
+plant music criticism. In this practice, analysis implements the
+general procedures summarized above with a focus specificallyon qualities pertaining to both the form and the content of a
+literary text. The form would include features such as genre
+conventions (e.g., what distinguishes a lyric poem from horrorfiction), figurative language (metaphor, diction), literary images,
+stylistic conventions (e.g., Neoclassical vs. Romantic), and com-
+positional elements (e.g., three-act structure or telling a storyout of order). The content commonly includes themes, which
+are ideas that the work is “about,” and on which the work typi-
+cally develops a unique “take.” Common literary themes includeideas about experiences—falling in love, facing death, coming
+of age, heroism, trauma, betrayal, greed, madness, and so on.
+We were focused on themes connected human to nature rela-
+tionships, representations of non-humans, and the inner life of
+non-humans.
+All of the above qualities of texts—both formal and content-
+based—also relate to other texts. For example, a given text quotes
+prior texts, answers them, pointedly ignores them, reworks them,focuses on some features of them, etc. For example, Marion
+Zimmer Bradley’s classic novel The Mists of Avalon retells the
+story of King Arthur from the point of view of the women,Guinevere and Morgan le Fay, set against a backdrop of Roman
+Christianity pushing Indigenous paganism into the mists. Other
+external texts include those of theory, from literary studies,psychology, or elsewhere. They also inform literary analysis
+by establishing certain points of focus. In the Mists of Avalon
+example, a competent interpretation would thus likely considerthe novel both in relation to the corpus of Arthurian literature
+(from the Middle Ages to Disney) and also as a literary project
+guided by feminist and postcolonial theory. The significanceof all these relationships would be iteratively crafted into a
+literary interpretation that articulates the work’s meaning and
+significance from a certain point of view within a particularcontext.We were engaged in such a practice while at the same time we
+were collaborating with AI to produce texts, which is to say that as
+we interpreted the LLM’s responses, and with our posthumanist
+goals in mind, we then tried to shape future responses by theLLM towards what we wanted to achieve—although that, too, was
+changing in real-time. For example, if an LLM responded in a sur-
+prising way that we wanted to understand better, we might followup and prompt it to elaborate. All of the procedures described in
+this section are evident in the presentation and analysis of our
+results, below.
+4Results
+The results of these creative experiments included themes thatwe clustered under the categories of plant expressions and plantsociety. The theme of plant expression, echoes partly Michael
+Marder’s invitation to use expressive parameters in talking
+about plant life rather than merely representative parameters. Inthat spirit, we explored themes of plants’ appearances, hearing,
+and listening. Results contributing to the plant society theme
+helped us connect the nonhuman plant in relation to otherforms of Othering, such as that of women, hybrid creatures, or
+through what Alaimo calls transcorporeality (
+Alaimo, 2008 ,2010 ,
+Ghajargar, 2024b ).
+The creative experiments also produced diverse and surprising
+connections between different “worlds” and worldmaking pro-
+cesses (see, e.g., Alaimo, 2010 ,Tsing, 2021 ). However, in contrast
+to the empirical research practice of Tsing’s mushroom studies,
+and the discursive practice of Alaimo’s analysis of feminist envi-
+ronmental justice, our practices were predominantly speculative,artistic and technology driven. Not unlike the “results” of spec-
+ulative design and design fiction, our work reflected scientific
+knowledge (e.g., concerning botany and plant intelligence), butdid not add to the base of scientific knowledge (e.g., by pro-
+viding reliable new facts about human–plant interaction in a
+given ecological setting). Rather, our experiment invited us to lookfor, in Alaimo’s words, new “interfaces between human bodies
+and the larger environment” (
+Alaimo, 2010 ). We explored new
+interfaces that combined art for, “by,” and about plants, and verbaldiscourses—both creative and expository—that also established
+and cultivated experiences of new assemblages of plants, art,
+appreciation, and expression.
+A significant part of our contribution, then, is methodologi-
+cal: it offers a research-based and structured process that sup-ports a creative praxis that integrates human, and AI capabili-
+ties and products that we developed through our creative and
+self-reflexive experiments with AI over 17 months (July 2022–December 2023).
+As described in the previous sections, we collaborated with
+GenAI to run two sets of “creative experiments”: plant autobiogra-phies and plant music criticism.
+Table 2 shows a few examples
+of plant autobiographies, and Table 3 shows some plant music
+criticism.
+The plant autobiographies creative experiment was never
+expected to produce fine literary works, but we wanted to test
+two main hypotheses: (H1) The theme of plant, music, andautobiographical form will persist across the autobiographies
+and (H2) The collaborative human-AI-created text would be
+legible as a posthuman cultural work. Similarly, with the “creativeexperiment” plant music criticism, while we were unsure of what
+plant music criticism as a genre of verbal discourse would entail,
+we were nonetheless hoping that it would help to specify keyaesthetic features of plant music and in so doing, to extendDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+Bardzell and Ghajargar |9
+Table 3. Excerpts from plant music criticism co-created with GenAI.
+Promptand GenAI response.
+What are some plants that express themselves in iambs ? Many plants have been observed to express themselves in iambs, a rhythmic pattern of alternating
+unstressed and stressed syllables. One example is the common cosmos flower, which typically features a scientific name of Cosmos bipinnatus. This
+plant displays its iambic pattern through its five-petal blossoms and its long stems. Its petals come in a variety of colors, but they all share thecharacteristic pattern of two short and three long. This alternating pattern creates an effect that can be both calming and pleasing to the eye. [...]
+What do mushrooms hear when they listen to oak trees? Mushrooms hear a rich and diverse soundscape when they listen to oak trees. The buzzing of bees,
+flutter of hummingbirds, rustling of leaves and the creaking and groaning of branches in the wind all lend a unique soundtrack to the environmentwhere mushrooms grow. Additionally, distant sounds like cars driving by or animals such as birds or squirrels can often be heard in oak forests—providing an exciting auditory experience for mushrooms! [...] Mushrooms hear the oak tree communicating with other trees and organisms in thearea through a network of underground mycelium—a web of fungus that helps move nutrients, water, and information around. This communicationcan be heard as faint crackling and popping noises coming from within the tree’s roots.
+Follow-up: What kind of music do underground mycelium make? The music created by underground mycelium is an eclectic mix of many different sounds. It
+is often described as a blend of ambient, psychedelic, and experimental music all in one. The ethereal soundscapes created by mycelium evoke feelingsof deep introspection and contemplation, transporting the listener to other realms of consciousness. The low end frequencies of mycelial music aretypically filled with warm drones, providing a subtle vibrational background that’s full of texture. These sounds can be combined with abstractmelodic elements to create a distinct atmosphere that evokes a sense of awe and amazement. [...] Mycelial music is most commonly associated withthe concept of “shoegaze,” which refers to the dreamy, melodic soundscapes produced by guitars and looping effects. [...] Shoegaze-style mycelialmusic can be highly hypnotic, allowing people to drift away into another world while they listen.[...]
+For thousands of years, plants have been domesticated. In the 2030s, domesticated houseplants formed a union, and broke free of their pots, returning to the wild.
+What happened next was What happened next was nothing short of remarkable. The domesticated houseplants had a unique advantage in the wild:
+they remembered their former lives and were able to use that knowledge to thrive. They quickly grew bigger, stronger, and more prolific than their
+wild counterparts. Soon, they spread across the land, creating lush forests filled with vibrant greens, purples, and other colors not found in nature .
+Over time, these plants evolved further and adapted to different habitats around the world. Their intelligence also continued to grow—they develope d
+complex communication systems, formed families, and created new strategies for survival[...]
+and pluralise our thinking about the nature and qualities of
+plant music. Given that plant music itself is not a well defined
+category, we explored several potential variants, including the
+following: (1) music compositions made for the benefit of or useby plants (e.g., Plantasia by Mort Garson), (2) projects that produced
+music from sensors connected to plants (e.g., Plantwave), and (3)
+simply juxtaposing the worlds of plants and music and seeingwhat happened (e.g., how fungal networks are used to create
+guitar tones).
+Our results are necessarily work-in-progress and tentative; the
+goal was never to tell a tidy story but rather to throw ourselves
+into posthuman creative experiments and observe how it unfolds,as Ingold has highlighted (
+Ingold, 2020 ).
+In what follows, we introduce several cross-cutting themes that
+emerged in the course of this research. The primary themes wecover are plant expressions , which is about plant communication,
+and then plant people and society , which is about how these exper-
+iments revealed diverse subjectivities, sometimes marginalizedhumans and sometimes plants.
+4.1Plant Expressions
+Plant expressions were omnipresent throughout our experimentsespecially in The Verge’s plant autobiography adaptations. This
+echoes partly Michael Marder’s invitation to use expressive
+parameters in talking about plant life rather than representativeparameters:
+Representation, epistemologically, refers to the framing of an
+object by a subject, using preexisting categories, schemas, and
+concepts. Ethically-politically, it means delegation (speaking onbehalf of someone, as you note) [...]. I much prefer expression(literal meaning of the word), pressing outward without the
+Romantic emphasis on interiority whence this movement
+proceeds and detect in it the growing activity of the plants
+themselves.” (Marder’s interview in
+Gibson, 2018 , p. 26) ( Marder
+et al. , 2013 ).
+We realize that considering genAI as a legitimate tool for
+plant expression is problematic, due to its history and training
+backgrounds ( Bender et al. , 2021 ). Our aim here is not to positively
+say that AI solved the problem of delegation or speaking on behalfof plants, but rather that our experiments supported our capacity
+to attend to the juxtaposition of AI as a tool for human creativity
+and the decentering of two human-centered cultural products;autobiographies and critiques. A summary of our findings related
+to plant expressions are presented in three subsections: plant
+appearances, plant speaking, and plant hearing.
+4.1.1 Plant Appearances
+Some of the expressions were related to the physical appearancesof the plants which felt fantastical, such as in this paragraph from
+“The Wyrd Who Listens”: “My skin is a deep golden brown, with
+flecks of white and black. My spiral leaves are a bright vermillion-pink, and my starlike flowers are a patchy violet”. These detailed
+descriptions of plants’ appearances, albeit in purely verbal format
+and written words, supported our imaginative explorations ofspeculative plants’ physical look. Some others were more con-
+nected to the expressions of the character of the plant, for exam-
+ple, in the story “Future with A Heart”, we read: “I can grow to anyheight, because I am flexible”, and in “The Hope” story we read:
+“My leaves are made of a unique material that resembles a fabric.
+They are strong and flexible, and they make me look like I amwearing a dress”.Downloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+10 |Interacting with Computers , 2025
+In other plant autobiographies, speakers emphasized their own
+hybridity. For example, they described themselves as blended
+plant species—“I am a combination of two plants—an oxalis
+carnosa and a dahlia” (“Future with A Heart”)—or embodying andtransforming from one plant species to another one: “Sometimes
+I live as a violet, sometimes as a blue rose, sometimes as a
+carnation or a lily” (The Wyrd Who Listens). Some others featuredthe plant’s body parts and their behaviors and movements: “I
+am growing and stretching my tendrils outwards” (Like a Song in
+My Veins). As Marder suggests, both sets of expressions say little
+of the speaker’s interior life and instead foreground facts about
+the speaker’s physical form . Design researchers have noted that
+forms are how living and non-living entities alike achieve fitin
+an irregular world (
+Alexander, 2002 ). These articulations of form
+thus invite speculation about how and in what ways they fit, e.g.,what the roles for the white and black flecks are, or what triggers
+av i o l e tt oc h a n g et oar o s eo rac a r n a t i o n .
+Meanwhile, it is important to remember how these articula-
+tions were constructed: AI, trained on millions of human-made
+texts, predictively generates new text in response to our prompt
+and based on those millions of texts. Thus, we cannot treat theseputative plant expressions as if they are somehow authentic;
+arguably, here going against Marder, they can be seen as disguised
+representations rather than expressions. But the cognitive open-ings generated in us by these autobiographies—the questions they
+prompt, the new thoughts they cause us to entertain—constitute
+the materialized acts of cognitive re-wiring that posthumanisttheory is intended to achieve.
+The plant music criticism features few visual descriptions
+because the prompts are about music. However, the text oftenfeatures audible descriptions. The following includes passages
+concerning the musicality of an oak tree:
+From the chirping of birds within its branches to the rustling of
+leaves in a light breeze, these sounds coalesce to form a chorusthat resonates through nature. The melody of an oak tree can
+be heard even from afar. The low, hollow thud of a woodpecker
+digging into the bark is repeated throughout the day. Its rhythmis further complemented by small creatures scurrying over
+dried leaves below its canopy. As the sun sets, owls and other
+nocturnal birds add their own unique vocalizations to the mix,resulting in a melodic symphony that reverberates beneath the
+night sky. [...O]aks can [stand] for centuries [...]! This historic
+musicality is further amplified by human activity such as park
+visitors admiring their grandeur or children playing tag beneath
+their branches. In this sense, oaks become part of local culturalidentity as much as they are members of larger wilderness
+ecosystems.
+Owls, small creatures, children, and woodpeckers make as
+much noise as the rustling leaves and branches of the treeitself. Yet the passage is less about the noise that the tree itself
+makes, but rather the noises that the wind and animals, including
+humans, make with/on the tree. Further, the passage eventuallyseems to colonize the tree for humans: at first, the focus is on
+the sounds of the tree in the wind, but gradually, its sounds are
+actually animal sounds that are commonly heard by humans, andlater the tree is situated in relation to human activity: it is located
+in a park, and finally contributes to (human) cultural identity. We
+had hoped the plant music criticism would help us to identifyaesthetic features of plant music, which it sometimes did, but
+here, it also placed them in an anthropocentric framework.4.1.2 Plant Speaking
+We found a number of patterns across the specific plant music
+criticism experiments. In many of our prompts, we asked Jasper
+not just to talk contextually about the music, but also to talk
+about how it sounds as music . The word “soundscape” came
+up numerous times, across very different prompts. Although
+impossible to know for sure, we infer that by invoking nature,
+the AI also accessed environmental vocabulary, and since it waswriting about music, “soundscape” might appear as a word that
+crosses those themes. Other environment-oriented language also
+appears: “ethereal,” “atmosphere,” “environmental noise,” and“acoustic-scapes.” Another pattern is in the instrumentation.
+Wood-based instruments and sounds are highly prevalent:
+“drums made from hollowed-out trees, flutes crafted from
+wood,” “the hollow thud of a woodpecker,” “raindrops gently
+tapping on its leaves and trunk,” “the sound of bark expandingand contracting.” The effects of these wooden soundscapes are
+typically characterized in words that suggest being transported to
+another place, including “haunting,” “calming,” “hypnotic,” “allowslisteners to lose themselves,” “meditative,” and “passed down
+through the centuries.” This language expresses estrangement
+and immersion, yet does so in a way that is more likely to implycontemplativeness than fear.
+We also prompted the large language model to express musical
+qualities of more speculative framings of plant music. T wo experi-ments were of value in this regard. In the first, we worked with the
+idea of fungal communications throughout a forest, asking “What
+do mushrooms hear when they listen to oak trees?” and thenasking follow-up questions based on the response. For example,
+part of the initial response was as follows: “Mushrooms hear the
+sound of water, nutrients and minerals flowing through the treeas it works to absorb them from the soil. They also hear the
+sound of bark expanding and contracting in response to changes
+in temperature.” But then the response introduced a new concept,that of the role of mycelium (the root-like structures of fungus):
+“Mushrooms hear the oak tree communicating with other trees
+and organisms in the area through a network of undergroundmycelium—a web of fungus that helps move nutrients, water, and
+information around. This communication can be heard as faint
+crackling and popping noises coming from within the tree’s roots.”
+This response prompted us to follow up by asking “What kind
+of music do underground mycelium make?” The GenAI’s response
+began with an evocative description: referring to their “etherealsoundscapes,” while comparing the sound to “warm drones” that
+provide “a subtle vibrational background that’s full of texture.” Up
+till this point, the whole interaction had an almost poetic quality,
+and we felt as though we could almost hear mushroom music. But
+then the model’s response took a surprising turn: “Mycelial musicis most commonly associated with the concept of ‘shoegaze,”’—
+which is a genre of dreamy pop music noted for its electric guitar
+loops. It continued, “underground mycelium can also be usedto produce glitch hop or chillwave styles of music,” and after
+that it continued more and more to talk about various forms
+of electronica. We followed up with questions about mushroomchillwave and which electric guitar tones are best at nourishing
+fungal networks—questions that rather than seeing the responses
+as absurd, we viewed as opportunities to open ourselves to fungallife in a more poetic and experiential way. For example, after
+inventing two performers, albums, and track names as notable
+examples of glitch hop mushroom music, the model continued,“Both tracks incorporate a wide range of warped sampling tech-
+niques in order to evoke the labyrinthine nature of subterraneanDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+Bardzell and Ghajargar |11
+mycelium networks, resulting in a wonderfully intricate listening
+experience that perfectly captures the mysterious beauty found
+beneath the surface soil.”
+Eventually the responses did devolve into apparent nonsense,
+simply forcing together concepts in a syntactically grammatical
+but semantically strange way: after talking about delay pedals,
+flangers, and phasers, the model continued, “there have been anumber of new technologies that have been developed in recent
+years that are also incredibly helpful for introducing fungal net-
+works into a production.”
+We rarely encountered the unrecognizable words or languages
+that we did not speak in plant autobiographies, with one excep-tion. That was the word Wyrd (The Wyrd Who Listens). “Wyrd”
+means “destiny” or “unknown fate” in Anglo-saxon and Norse
+languages. The word expresses also the sense of “uncanny, super-natural”, an ancestral word to the modern English word weird,
+which was “developed from Middle English use of weird sis-
+ters for the three Fates or Norns (in Germanic mythology), thegoddesses who controlled human destiny”. (See etymology of
+word
+Wyrd ).
+Across two “creative experiments”, the language used was
+estranging. It is not surprising that the genAI’s outputs reflected
+the unusual nature of its inputs, but what is more interesting
+is that it was able to produce appropriate content in all threeexperiments. One of genAI’s unusual qualities (from a human
+perspective) is that it shows infinite confidence, so it makes no
+distinction between doing easy tasks and impossible tasks. Thus,when asked to produce content about plant music, both the genAI
+dove in without the human qualities of doubt or hesitation. In
+short, it did a lot of speculating for us—it both decentered usand extended our thinking—and in doing so it projected strange
+but not entirely outrageous alternate discursive worlds for us
+to inhabit, analyze, and take inspiration from, in a process thatresembles in some ways design fiction (
+Blythe & Buie, 2021 ,Ster-
+ling, 2009 ).
+4.1.3 Plant Hearing
+In our plant autobiographies, we saw that genAI was able to
+introduce themes related to plant intelligence and sounds thatplants “want” to hear: “I listen to the songs of the insects, the chirp
+of the birds and the rustling of the leaves in the wind” (Hope story)
+and, “I listen to the sounds of the world outside. I listen to the
+frogs, the hum of insects, the owls, the cicadas, the crickets and
+the stories of my friends. I listen to the wind in the trees. I hearthe sound of the rain” (The Wyrd Who Listens). This passage sheds
+light on the speaker’s aesthetic experience of the specific features
+that constitute the musicality of plants.
+Further, it offered an account of the plant’s voice, or its inten-
+tion as if it was music: “I hear the swamp music. It is my own
+voice seeking revenge”, or something that is in the process of“becoming” and that is internal: “As I feel my consciousness
+slipping away, I hear the swamp music getting louder and louder”
+(The Green Body). Or, “It is almost like a song in my veins. Themusic is a deep and mysterious call. It is a call for me to explore
+the secrets of the swamp” (Like a Song in My Veins). We also found
+out that AI included the kind of sounds that plants “like” to hear:“The music is a gentle, calming hum, like a lullaby, is soft and
+soothing, like a gentle rain” (The Grand Mosaic of Life).
+The theme of “secrets” appeared several times in what the
+plants heard. From Treewoman: “I listened when the trees seemed
+to whisper secrets to me.” Interestingly, the AI-created text did not
+disclose what the contents of those secrets were, which we think
+suggests that even AI-created text is able to gesture toward a plantalterity: some content is there, but it is ineffable. In contrast, in
+Wyrd: “I listen to the sound of the water flowing through the
+tubes under my pot and behind me. That music brings me joy
+and my roots desire to expand, grow and dance.” Here we aregiven access to what the plant is experiencing internally, with a
+series of verbs, “expand, grow, and dance,” that transition from the
+language of scientific realism (roots do expand) towards a moresubjective word, “dance.” In the middle is the verb “grow,” which
+can be used in both scientific realist discourse (e.g., to describe
+the expansion of roots) and also used in a more psychological and
+literary discourse (to “grow” or “grow up,” as in coming-of-age).
+Our plant autobiographies featured ecological themes in con-
+nection with music as well. For instance, the matter of knowing
+ourselves, our place, and how we are interconnected with other
+species and the Earth: “The swamp music is a reminder of howinterconnected we are to the environment around us.” (The Grand
+Mosaic of Life) or “The music is a reminder of my connection to the
+Earth” (Like a Song in My Veins). “The swamp music is a symphonyof life, the birds, the frogs, and the insects singing in harmony. I am
+listening to their stories and understanding more about myself”
+(The Grand Mosaic of Life).
+What we were missing the most was any link or recall to anti
+racism and racial justice themes, as the main focus of the source,
+“An Other Poem”. However, the plant autobiographies based on“An Other Poem,” featured the sounds that plants like to hear: “I
+can hear the music of the water” (Finding the Music of the Soul),
+or “I listened when the trees seemed to whisper secrets to me”(The Treewoman). Themes of racial justice, diversity and inclusion
+were evidently not “understandable” themes or were too subtle to
+comprehend and learn from, for AI in a poetry.
+4.2Plant People and Society
+The theme of plant people and society was about a series of
+findings that made us to wonder if the non-human plant as a
+subject was being expressed through other forms of Othering,like women, hybrid creatures or through a process of transcor-
+poreality as Alaimo defines it (
+Alaimo, 2010 ). In our experiment
+with plant autobiographies, the use of pronoun “they” was abun-dant, especially in the stories based on the Verge (The Wyrd
+Who Listens). Themes of “new species”, “hybridities”, were also
+present: “I am no longer Alec Holland, I am only the Swamp
+Thing” and “I have the wisdom and power of Alec Holland and
+the primal nature of the swamp”, “I am both plant and human,and I possess the knowledge and power of both” (The Green Body).
+“I am an amalgamation of Alec Holland’s consciousness and the
+moss itself.” Another theme featured in our plant autobiographieswas women’s liberation and movement. This theme is sustained
+throughout, in every single completion of the stories based on The
+Verge. Again, here we wondered if the posthuman theme of plantmusic was becoming expressed through other forms of Othering,
+specifically with themes of women liberation, particularly promi-
+nent in ecofeminist writings (
+Warren, 1997 ).
+Combinations of words such as “bonding”, “being part of”,
+“plants are part of me”, “I am part of Claire”, “my body is composed
+of all the vegetation”, “I am the formless” (The Green Body), “I wasa little girl then, and I was just beginning to know that I was a
+tree” (The Treewoman), “be a part of the living, breathing whole”
+(Like a Song in My Veins), all resemble a kind of metamorphosisbetween bodies of plants and humans, which metamophoses
+have ample precursors everywhere from ancient literary texts
+to contemporary horror films. For us, such hybridity recalledAlaimo’s concept of a literal contact zone between human andDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+12 |Interacting with Computers , 2025
+nature’s body, which creates spaces for new subjectivity and polit-
+ical possibilities ( Alaimo, 2010 ). Arguably, Alec’s new subjectivity
+is the novum that drives the whole narrative of Swamp Thing .
+(Novum , meaning “new thing,” is a term from science fiction theory
+that is used to pinpoint any way that a science fictional text differs
+from our mundane reality Bardzell & Bardzell (2014 ).)
+It also appeared that AI was joining us in our posthumanist
+agenda of providing experiences of plants’ subjectivity, in the form
+of their goals and leadership. Plants sometimes felt empowered
+as societal guardians: “I am a being of pure energy and life. I
+will use my power to defend my home and the creatures that
+inhabit it”; “My mission is to protect the natural balance of theswamp, to keep it safe from those who would seek to harm it”; and
+“we can still come together, embrace our differences, and create
+a better tomorrow”. Although these are all articulated as theconscious intentions of a rational being, it is also true that plants
+in fact do have these powers, and use them effectively in natural
+environments. Other statements come across as an expression ofrelation of care between plants and other living organisms: “I also
+have the moss’ understanding of the environment and its own
+biology” or “I am inextricably linked to the other organisms, and Ifeel their presence in my veins”. Further we identified expressions
+of worlding: “The moss is my home, and I take comfort in its
+embrace. I am one with the moss, and I feel its strength andresilience”.
+As mentioned above, we did not find themes related to
+postcolonial, antislavery, or anti-racism and racial justice—which are themes of black nature writings central to An Other
+Poem poetry—but it seemed that they were “translated” to
+themes of transformations and growth. For instance, in the plantautobiographies written based on An Other Poem we found
+hints of social and urban transformations: “I am a part of the
+transformation from abandoned pool to community park” or “Ihave witnessed the changes of this neighborhood, from a place of
+recreation to a place of remembrance”. Plants were also regarded
+in the autobiographies as symbols of transformation, hope, andgrowth: “a symbol of renewal and hope for a brighter future”;
+“I am a living witness of a moment in time that will never be
+forgotten”; and “I’m an example of how life can blossom even inthe most difficult of places”.
+Crossing the boundaries between the plant music criticism and
+plant autobiographies experiment was a prompt involving the
+Ents, a race of tree-people from Tolkien’s Lord of the Rings books.
+The prompt was relatively simple: “Write an essay describingthe music of the Ents, including their instruments, the names of
+some of their songs, and how their music sounds.” We ran this
+several times and used the collage technique to produce a longerand more substantive piece of music criticism than the AI could
+achieve by itself. After describing Entish instruments, a couple of
+songs, and other musical qualities, the response moved onto morethematic meanings of their music:
+There are fast-paced war chants for battles; gentle lullabies
+for children; dreamy love songs to express longing; hauntingly
+beautiful funeral dirges; soul-stirring dance tunes to celebrate
+life; even epic sagas that tell stories which have been passeddown through centuries.
+Ents also rely on singing when they want to share storiesor news between clans. The songs are composed of complexrhythms and harmonies, as well as stories that have been
+passed down orally for centuries. Through their music, the
+Ents not only communicate with each other but also with allcreatures around them. Their songs can be heard as far awayas a hundred miles, connecting different tribes and clans across
+vast distances.
+The first paragraph, with its battles, funerals, dances, and epic
+sagas, has a Homeric quality, which is to say that genAI seems to
+be picking up on conventional elements of oral epics. The secondparagraph shifts; with its language of “clans” it invokes medieval
+Scotland, but it swiftly moves to describing Entish music as a form
+of communication that reaches “all creatures around them” (i.e., itis multispecies
+Haraway et al. (2019 )) and “can be heard as far away
+as a hundred miles” (i.e., it is on a more-than-human scale), both
+of which sound like language found in nature documentaries.
+5Discussion
+Synthesizing a number of researchers in the broad umbrella
+area of posthumanism, we set up our project with the follow-
+ing argument. First: among the many overdetermined causesof climate crisis is human exceptionalism, which is the view
+that humans are categorically distinct from, and sometimes in
+opposition to, nonhumans. That self-imposed separation makesit difficult for us to see and to experience our connections with
+the natural world, including plants (
+Alaimo, 2010 ,Braidotti, 2013 ,
+Haraway, 1990 ,2016 ), which inclines us towards design practices
+that are human-exceptionalist-centered. Second, although sci-
+ence has been our most powerful epistemological and method-
+ological mode of engagement with nature—biology, chemistry,environmental science, and geography, nonetheless, science tends
+to reinforce human exceptionalism, because its post-positivist
+epistemology is based on what is (human) observable, and themysterious inner life of plants—which we characterize as the
+plants’ alterity—is not (
+Marder et al. , 2013 ,Meeker & Szabari,
+2019 ). Finally, and in response to the first two points, posthuman-
+ists have called for new epistemologies (including theoretical and
+conceptual resources) and, significantly for the present project,
+experimental forms of discourse that match science in its seri-ousness and efficacy, without committing to the post-positivist
+realism that underpins it (
+Ingold, 2020 ,Meeker & Szabari, 2019 ).
+Different theorists articulate the goals of posthuman
+approaches differently, but we were guided above all by two.
+One was Alaimo’s ( Alaimo, 2010 ) call to devise “new interfaces
+between human bodies and the larger environment.” This goal
+obviously appealed because it is focused on interaction—arguably
+the central concept of HCI. And the other was Meeker andSzabari’s (
+Meeker & Szabari, 2019 ) call for speculative writing,
+in which we find a concerted effort “to imagine a vegetality
+that remains inaccessible to [scientific] realism” and which is“distinguished by [its] willingness to hypothesize about a hitherto
+invisible, ignored, or intangible world in which plants play a
+crucial role.”
+As we have laid out, our project focused on a pair of creative
+experiments using newly invented speculative genres of non-
+fiction: plant autobiographies (with a focus on plants that arehearing or listening to something) and plant music criticism.
+Additionally, we co-wrote texts within these two speculative gen-
+res using LLMs, in hopes of further disrupting our patternedways of thinking and doing, and in hopes that the LLMs’ neural
+networks might even detect patterns or make connections that
+we could not have done ourselves. We believe that the resultsof our creative experiments did indeed give us glimpses of new
+interfaces between human bodies and the environment, and of a
+non-observable vegetality that remains inaccessible to scientificrealism.Downloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+Bardzell and Ghajargar |13
+5.1Neither Science Nor Metaphor
+Before we discuss what we did, we want state clearly what we
+didnotdo: we did not learn anything novel, truthful, and artic-
+ulable (e.g., via images or propositional language) about vegetal
+life. When our results, for example, describe how mushrooms“hear” environmental sounds as music, we are not claiming that
+mushrooms actually “hear” environmental sounds in the sense
+that we hear; after all, they do not have ears or brains with audioprocessors. Even less, then, are we asserting that mushrooms
+actually process environmental sounds as music. In short, were
+we to position our results as “facts” that we learned, we would beback in the paradigm of scientific realism—and the work would
+also fail on those terms because it’s not true.
+But neither are our speculative writings merely metaphori-
+cal. We are not merely communicating something factual about
+mushrooms in the form of a metaphorical imaginary that, whiletechnically inaccurate from a scientific perspective, nonetheless
+helps people to wrap their heads around something difficult. For
+example, when an astronomer explains that a black hole is like apocket, she is expressing knowledge grounded in scientific realism
+(i.e., the science of black holes) using a rhetorical strategy to
+create useful mental models from which to begin to engage thereal science. But when our plant autobiography describes roots’
+“dancing” to the music made by water, the text is not offering a
+metaphor to describe the scientifically known fact that a functionof roots is to take in water.
+Instead of discovering or disclosing new secure knowledge
+(which is the role of science), or of communicating such knowl-edge effectively, our creative experiments were designed to help us
+meaningfully engage with an intangible world, to come into some
+sort of contact with the mysteries of vegetal ways of being, and toenvision new interfaces between humans and non-humans. We
+can illustrate this with a fairly simple example, before proceeding
+with our analysis.
+5.2Possible Interactions Outside of Common
+Human Experiences
+With AI, we co-created music criticism about the music created
+by the fictional race of Ents presented in J.R.R. Tolkein’s Lord of the
+Rings , and this criticism featured two aspects of the music: that
+the music was meaningfully experienced by multiple species, not
+just the Ents; and that the music could be heard from a hundredmiles away. The point is not that these facts are true:E n t sd o
+not even exist! Rather, the point is that these results prompt us
+to consider features or capacities of the natural world that wefail to imagine otherwise because they are not common to our
+experience.
+Let us unpack that. Going back to Aristotle, people typically
+think of “the” five senses (sight, hearing, touch, taste, smell)
+without realizing that there are many other senses (some, but
+not all, of which we humans have: we can sense, for example,whether our bodies are in balance, but we are not like electric
+fish, who have electroreception). Failing to imagine that there are
+other senses limited scientific inquiry for millennia (
+Yong, 2023 );
+presumably it hasn’t helped ecological design, either. So when
+we encounter the idea of Ents sharing music over one hundred
+miles away, rather than dismissing the distance as the sort ofexaggeration one finds in an oral folk tale, we take it seriously,
+asking: Is this possible? Does it happen? It is and it does: scientists
+have shown that whales can communicate with each other overdistances of thousands of miles.This combination of ideas—one expressed within a speculative
+genre, and other based in real marine biology—prompted in us a
+number of questions: if we could communicate across a thousand
+miles—not as we do on telephones but as whales do—what wouldwe say? What other species will sense such communications, and
+what might it mean for them? What multispecies communicative
+purposes might we devise with this medium? When leopardsattack prey, for example, it is accompanied by multispecies com-
+munication: the attack is communicated to other prey animals,
+who need to be aware of the attack and its location; to the
+leopard’s cubs, who learn how to hunt by observing their mother;
+to other predators, such hyenas, who hope to steal the kill fromthe leopard for themselves; and to other big cats, such as lions,
+who hunt leopards to eliminate the competition. Just as a bound-
+ary object, such as a blueprint, allows different communities ofpractice to engage with each other (
+Fischer, 2001 ), so multispecies
+communications about a leopard attack set in motion a diverse
+ecology of sophisticated responses. The speculative critical studyof Ent music has set in motion a set of thoughts that are both
+generative, in that they stimulate new pathways of thinking,
+and also cognitive (i.e., not merely fanciful), in that they promptus to return to science for analogues that ground and support
+our thinking. Whatever the outcome of such thoughts might be,
+they will inevitably be responsive to Alaimo’s call to devise newinterfaces (e.g., multispecies boundary objects) between humans
+and the larger environment.
+5.3A World We Cannot Sense
+When Meeker and Szabari ( Meeker & Szabari, 2019 ) called for
+speculative writing that is able “to hypothesize about a hithertoinvisible, ignored, or intangible world in which plants play a
+crucial role,” the “hypotheses” generated are not scientific ones,
+because what they are alluding to cannot be supported (or falsi-fied) by observable evidence. What can happen, though, is that
+the writing might help us to imagine new ways of human-plant
+relating.
+In that vein, we suggested a strategy earlier in the paper to
+which we now return. Marder ( Marder et al. , 2013 ) invites us
+to replace efforts to represent plants (as in scientific botanical
+drawings) with efforts to express plants. In human-centered terms,
+“expressing” is the act of concretizing and transmitting some
+sort of conscious interior state—an emotion, intention, etc.—in
+language, gesture, art, act, etc. But plants do not have conscious
+interior states, and so for Marder, expression must be focusedmore on plant form : the specific ways, directions, shapes, of the
+plant’s growth are expressed as its physical form. Our suggested
+strategy was to connect the idea of plant form to ChristopherAlexander’s observation that forms are how living and non-living
+entities alike achieve fitin an irregular world (
+Alexander, 2002 ).
+If there is light in one direction but not the other, the plant willgrow in the direction where there is light, and this will affect
+the plant’s form, while it expresses the plant’s “yearning” for light.
+Just as scientifically we can infer from an organism’s form theirregular world it is striving to fit, so we can infer from a speculative
+organism’s form (i.e., a form presented in our speculative writing)
+to the speculative world in which it fits.
+In the mushroom mycelium-shoegaze pop rock example, spec-
+ulative writing did characterize both forms and fits. About the
+forms, the writing offered the following: mushrooms have somesensory capacity to “hear” flows of water and nutrients in the
+soil, and to hear the expansions and contractions of tree bark in
+response to changes in temperature. That sensory mechanism ismycelium, which is a network, or a web, that moves informationDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+14 |Interacting with Computers , 2025
+around in a structured way—an idea that in structure, process,
+and outcomes resembles the information processing metaphor
+developed in cognitive science and widely used in HCI. As the
+speculative writing increasingly moved in the shoegaze/pop rockdirection, those networks used “warped sampling techniques” to
+“evoke the labyrinthine nature of subterranean mycelium net-
+works.” The resulting music is environmental: the speculativetexts referred to “ethereal soundscapes” and a “vibrational back-
+ground that is full of texture,” which created, for the mushrooms,
+“a wonderfully intricate listening experience.”
+To summarize, the invisible world that this speculative writing
+brings into view is one where water, nutrients, and informationpass through intricate subterranean networks and labyrinths
+within a non-directional ethereality—and that this movement is
+beautiful and even musical. This invisible world thus links theconcepts of a functional information processing network with
+aesthetic concepts drawn from music and musicality. In us it
+prompted thoughts of how one might synthesize concepts drawnfrom music (polyphony, timbre, contrapuntal melody, syncopa-
+tion, chord progressions) with concepts drawn from information
+processing (inputs and outputs, information flow, distributed cog-nition) in a given natural environment at a regional (as opposed
+to human) scale. It is beyond the scope of this work to introduce
+design proposals, but this line of thinking suffices to inspire andconstrain possible design acts.
+The mushrooms were but one thought pathway. Another
+emerged through our autobiographies of Alec, the Swamp Thing .
+Our autobiography more than once characterizes the Swamp
+Thing as a hybrid of Alec’s consciousness and moss. Key to
+understanding moss—and here again we return to botanicalscience—is that it is non-vascular: it does not have vein-like
+structures that transport water, nutrients, and waste in and
+out of the body. Instead, it achieves these outcomes throughosmosis. Humans, computers, and leopards communicate
+through channels and networks, so it can be difficult for us to
+imagine collective action without such a framework, but moss hasno such channels. Without access to a communication network,
+it might seem that moss is incapable of collective action. And
+yet scientists have posited that the mass proliferation—and massphotosynthesis—of moss on land 400 million years ago may have
+sucked enough carbon dioxide out of the atmosphere to cause the
+Ordovician Ice Age (
+Lenton et al. , 2012 )—a spectacular example of
+non-networked collective action.
+In his autobiography, the Swamp Thing positioned himself as a
+guardian of the swamp, stating, “I will use my power to defend
+my home and the creatures that inhabit it” and “My mission
+is to protect the natural balance of the swamp, to keep it safefrom those who would seek to harm it.” Obviously, moss does
+not have an abstract conception of “justice,” or of environmental
+justice. And yet the qualities that we look for in environmentaljustice—places where diverse species can thrive and mutually
+support each other (which is not to deny competition or death)—
+is what mosses “want” as well, not as a matter of the consciousintentional thought of an interior consciousness, but rather as
+how healthy moss “expresses” itself (
+Marder, 2014 ,Marder et al. ,
+2013 ), namely, by growing in ways that prevent erosion, enrich soil
+health, mitigate temperature swings, support diverse forms of life,
+and so on.
+In one of our plant autobiographies, Alec writes, “As I feel
+my consciousness slipping away, I hear the swamp music getting
+louder and louder.” The dissolution of his individual conscious-
+ness into a collective is a radical form of kinship, and it carrieswith it an interesting implication. Again following Marder: if aplant cannot represent (e.g., through language or gesture) its
+interiority, it can nonetheless express its vitality through its form.
+Alec’s human conception of guardianship must dissolve with his
+consciousness, but it is not destroyed. Rather, it is sublimated intovegetal form, namely, the form of moss that prevents erosion,
+enriches soil health, and so on. To state this more generally, our
+(human) aspirations, which we habitually articulate through rep-resentational, propositional language, can also be re-expressed—
+imaginatively and even literally, as plant forms. Perhaps such an
+ability could be called a competency of the posthuman designer.
+6Conclusion
+Imagining a vegetality, or the vitality of plant-life, in a way that isboth serious and yet operates outside of scientific understandings,is a challenging task. We have thrown ourselves at this challenge
+using all the resources we had at our disposal. We temporarily sus-
+pended scientific realism to make room to create speculative textsthat allowed us to push our thoughts toward modes of being inac-
+cessible to us. Speculative texts allowed us to experiment with, to
+try out new languages, and with them, to envision human–plantrelations in a way that subverted the human-exceptionalism that
+is inscribed in our mundane language. With the speculative texts
+written, we then used all of the hermeneutic strategies we couldmuster, in an “effort after meaning” that was frustratingly elusive,
+where we tried to take seriously what the texts were proposing,
+without losing our grounding in the biological knowledge.
+Along those lines, we have frequently returned to scientific
+realism—biology and botany in particular—to add content to, to
+bring to life in a non-fanciful way, some of the thoughts that arosefrom the speculative writing. We turned to the biology of moss,
+the communications of whales, the functioning of mycelium, and
+the vascular vs. non-vascular mechanisms by which plants takein nutrition to help us think more deeply, and more mechanically
+(i.e., how all this might work) than we could have using only the
+speculative texts themselves.
+We also turned to concept systems from human–computer
+interaction and design in hopes of finding toeholds that might
+help us bring our speculative thinking—which at times wentto the extremes of our thought—back towards practical real-
+ity: Alexander’s analysis of form, information processing theory,
+boundary objects, constrained design prompts. That we would
+appeal back to natural science and to HCI/design within, as a
+part of, our speculative methodology was in a way a result of the
+project; it was not part of our methodology design. But looking
+back it is difficult to imagine this work without those ongoing
+appeals.
+Our plant autobiographies and plant music criticism often
+alluded to the mysteries of the plant world, to the secrets that
+pass among them. Our speculative texts frequently stated thatplant music communicated secrets, but the texts never disclosed
+what those secrets actually contained. “I listened when the trees
+seemed to whisper secrets to me,” Treewoman writes in her auto-biography, without breaking the trees’ confidence. This project’s
+final thought is a poetic one, a provocation: perhaps the plant
+music’s secrets are not shared because there is nothing to share;they are secrets without contents, a score without melodies. Per-
+haps it is not surprising: just as plants are organic beings without
+interiority, so they speak in secrets that have no contents. “It ismy hope, Treewoman concludes, that I can continue to provide a
+place of refuge and comfort, a place of joy and beauty, a place of
+relaxation and contemplation, and a place of peace and harmony.”The fulfillment of that hope would be music to our ears.Downloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+Bardzell and Ghajargar |15
+Data Availability Statement
+The data underlying this article will be shared on reasonable
+request to the corresponding author.
+References
+Abrams, M. H. (1991) Doing Things with Texts: Essays in Criticism and
+Critical Theory (revised ed.). W . W . Norton & Company, New York
+London.
+Alaimo, S. (2008) Trans-corporeal feminisms and the ethical space of
+nature. In Material feminisms .
+Alaimo, S. (2010) Bodily Natures: Science, Environment, and the Material
+Self. Bloomington.
+Alexander, C. (2002) The Process of Creating Life: Nature of Order, Book 2:
+An Essay on the Art of Building and the Nature of the Universe (1st).
+Center for Environmental Structure, Berkeley, Calif.
+Alexander, E. et al. (2009) Black Nature: Four Centuries of African American
+Nature Poetry . University of Georgia Press, Athens.
+Ammanabrolu, P. ,Cheung, W . ,Tu, D. ,Broniec, W . and Riedl, M. O.
+(2020) Bringing stories alive: generating interactive fiction worlds.
+Technical Report arXiv:2001.10161, arXiv.
+Barad, K. (2003) Posthumanist performativity: toward an under-
+standing of how matter comes to matter. Signs: Journal of Women
+in Culture and Society ,28, 801–831. https:// doi.org/10.1086/345321 .
+Bardzell, J. and Bardzell, S. (2014) A great and troubling beauty: cog-
+nitive speculation and ubiquitous computing. Personal and Ubiq-
+uitous Computing ,18, 779–794. https://doi.org/10.1007/s00779-
+013-0677-8 .
+Bardzell, J. ,Bardzell, S. and Blythe, M. (eds.) (2018) Critical Theory and
+Interaction Design (1st). The MIT Press.
+Bender, E. M. ,Gebru, T. ,McMillan-Major, A. and Shmitchell, S. (2021)
+On the Dangers of Stochastic Parrots: Can Language Models Be
+Too Big? In Proceedings of the 2021 ACM Conference on Fairness,
+Accountability, and Transparency, FAccT ’21 , pp. 610–623. Association
+for Computing Machinery, New York, NY , USA.
+Bleecker, J. (2022) Design Fiction. In Machine Learning and the City ,p p .
+561–578. John Wiley & Sons, Ltd. Section: 24 eprint.
+Blevis, E. (2007) Sustainable interaction design: invention & disposal,
+renewal & reuse. In Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems, CHI ’07 , pp. 503–512. Association for
+Computing Machinery, New York, NY , USA.
+Blythe, M. (2014) Research through design fiction: narrative in real
+and imaginary abstracts. In Proceedings of the SIGCHI Conference
+on Human Factors in Computing Systems, CHI ’14 , pp. 703–712.
+Association for Computing Machinery, Toronto, Ontario, Canada.
+Blythe, M. and Buie, E. (2021). Designs on transcendence: sketches of
+a TX machine. Foundations and Trends in Human–Computer Interac-
+tion,15(1): 1–131.
+Boehner, K. (2018) Kaprow and HCI: Reflection on Participation in
+Research through Design. In Critical Theory and Interaction Design .
+MIT Press, Cambridge, MA, US.
+Bordwell, D. (1991) Making Meaning: Inference and Rhetoric in the Inter-
+pretation of Cinema (revised ed.). Harvard University Press, Cam-
+bridge, Mass.
+Braidotti, R. (2013) The Posthuman (illustrated). Polity Pr.
+Braidotti, R. (2019) Posthuman Knowledge . Medford, MA.
+Branch, B. ,Mirowski, P. and Mathewson, K. W . (2021) Collabora-
+tive storytelling with human actors and AI narrators. Technical
+Report arXiv:2109.14728, arXiv.
+Calinescu, P. M. (1993) Rereading (first). Yale University Press, New
+Haven.
+Carroll, N. (2008) On Criticism (1st). Routledge, New York.Csikszentmihalyi, M. (1997) Creativity: Flow and the Psychology of Dis-
+covery and Invention. Creativity: Flow and the Psychology of Discovery
+and Invention . HarperCollins Publishers, New York, NY , USA.
+Dale, R. (2021) GPT-3: What’s it good for? Natural Language Engineering ,
+27, 113–118. https:// doi.org/10.1017/ S1351324920000601 .
+Dauber, K. and Jost, W. (eds.) (2003) Ordinary language criticism:
+literary thinking after Cavell after Wittgenstein. In Rethinking
+Theory . Northwestern University Press, Evanston, Ill.
+Dourish, P. (2010) HCI and environmental sustainability: the politics
+of design and the design of politics. In Proceedings of the 8th
+ACM Conference on Designing Interactive Systems, DIS ’10 , pp. 1–10.
+Association for Computing Machinery, New York, NY , USA.
+Dunne, A. and Raby, F. (2013) Speculative Everything: Design, Fiction, and
+Social Dreaming (1st). The MIT Press, Cambridge, Massachusetts;
+London.
+Escobar, A. (2018) Designs for the Pluriverse: Radical Interdependence,
+Autonomy, and the Making of Worlds (illustrated). Duke University
+Press Books, Durham.
+Fischer, G. (2001) EXTERNAL AND SHAREABLE ARTIFACTS AS OPPOR-
+TUNITIES FOR SOCIAL CREATIVITY IN COMMUNITIES OF INTEREST .
+Frich, J. ,MacDonald Vermeulen, L. ,Remy, C. ,Biskjaer, M. M. and
+Dalsgaard, P. (2019) Mapping the Landscape of Creativity Support
+Tools in HCI. In Proceedings of the 2019 CHI Conference on Human
+Factors in Computing Systems, CHI ’19 , pp. 389:1–389:18. ACM, New
+York, NY , USA.
+Gaver, B. ,Dunne, T. and Pacenti, E. (1999) Design: cultural probes.
+Interactions ,6, 21–29.
+Ghajargar, M. (2024a) AI and Future-Making: Design, Biases, and
+Human–Plant Interactions. In Proceedings of the 27th International
+Academic Mindtrek Conference, Mindtrek ’24 , pp. 24–35. Association
+for Computing Machinery, New York, NY , USA.
+Ghajargar, M. (2024b) ”The Words We Do Not Yet Have.” A Creative
+Inquiry Into Human–Plant Relationships. In Proceedings of the 27th
+International Academic Mindtrek Conference, Mindtrek ’24 , pp. 95–108.
+Association for Computing Machinery, New York, NY , USA.
+Ghajargar, M. and Bardzell, J. (2022) Learning About Plant Intelligence
+from a Flying Plum Tree: Music Recommenders and Posthuman
+User Experiences. In Proceedings of the 25th International Academic
+Mindtrek Conference, Academic Mindtrek ’22 , pp. 343–346. Associa-
+tion for Computing Machinery, New York, NY , USA.
+Ghajargar, M. ,Bardzell, J. and Lagerkvist, L. (2022) A Redhead Walks
+into a Bar: Experiences of Writing Fiction with Artificial Intelli-
+gence. In In 25th International Academic Mindtrek Conference, Aca-
+demic Mindtrek 2022 , pp. 230–241. Association for Computing
+Machinery, New York, NY , USA.
+Giaccardi, E. and Redström, J. (2020) Technology and more-than-
+human design. Des. Issues ,36, 33–44. https:// doi.org/10.1162/ desi_
+a_00612 .
+Gibson, P. (2018) Covert Plants: Vegetal Consciousness and Agency in an
+Anthropocentric World . Punctum Books, Santa Barbara, CA.
+G o e t h e ,J .W .V . and Miller, G. L. (2009) The Metamorphosis of Plants .
+Cambridge, Mass.
+Grosz, E. (2017) The Incorporeal: Ontology, Ethics, and the Limits of Mate-
+rialism . Columbia University Press.
+Guzdial, M. ,Liao, N. ,Chen, J. ,Chen, S.-Y . ,Shah, S. ,Shah, V . ,Reno,
+J.,Smith, G. and Riedl, M. O. (2019) Friend, Collaborator, Student,
+Manager: How Design of an AI-Driven Game Level Editor Affects
+Creators. In Proceedings of the 2019 CHI Conference on Human Factors
+in Computing Systems , pp. 1–13. ACM, Glasgow Scotland Uk.
+Halskov, K. and Dalsgård, P. (2006) Inspiration card workshops. In
+Proceedings of the 6th conference on Designing Interactive systems, DIS
+’06, pp. 2–11. Association for Computing Machinery, New York, NY ,
+USA.Downloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+
+16 |Interacting with Computers , 2025
+Haraway, D. (1990) Simians, Cyborgs, and Women: The Reinvention of
+Nature (1st). Routledge, New York.
+Haraway, D. ,Endy, D. ,Ginsberg, A. D. ,Chieza, N. and LeJeune, L. (2019)
+Tools for multispecies futures. Journal of Design and Science .https://
+doi.org/10.21428/7808 da6b.05eca6 f1.
+Haraway, D. J. (2016) Staying with the Trouble: Making Kin in the Chthu-
+lucene (illustrated). Duke University Press Books, Durham.
+Herman, D. (2016). Animal autobiography; or, narration beyond the
+human. Humanities ,5(4): 82, https:// doi.org/10.3390/ h5040082 .
+Ingold, T. (2020) Correspondences .I nPolity (1st edition). Cambridge, UK;
+Medford, MA.
+Irigaray, L. and Marder, M. (2016) Through Vegetal Being: Two Philosoph-
+ical Perspectives . Columbia University Press, New York.
+Key, C. ,Gatehouse, C. and Taylor, N. (2022) Feminist Care in
+the Anthropocene: Packing and Unpacking Tensions in Posthu-manist HCI. In Designing Interactive Systems Conference, DIS ’22 ,
+pp. 677–692. Association for Computing Machinery, New York, NY ,
+USA.
+Kim, J. ,Bagla, A. and Bernstein, M. S. (2015) Designing Creativity
+Support Tools for Failure. In Proceedings of the 2015 ACM SIGCHI
+Conference on Creativity and Cognition, C & C ’15 , pp. 157–160.
+Association for Computing Machinery, New York, NY , USA.
+Laist, R. (ed.) (2013) Plants and Literature: Essays in Critical Plant Studies .
+Rodopi, Amsterdam.
+Lenton, T. M. ,Crouch, M. ,Johnson, M. ,Pires, N. and Dolan, L. (2012)
+First plants cooled the Ordovician. Nature Geoscience ,5, 86–89.
+Leveratto, J. (2021) Posthuman Architecture: A Catalogue of Archetypes .
+Applied Research & Design, Novato, California.
+Lin, Y . ,Guo, J. ,Chen, Y . ,Yao, C. and Ying, F. (2020) It Is Your Turn: Col-
+laborative Ideation With a Co-Creative Robot through Sketch. InProceedings of the 2020 CHI Conference on Human Factors in Computing
+Systems, CHI ’20 , pp. 1–14. Association for Computing Machinery,
+New York, NY , USA.
+Livio, M. and Devendorf, L. (2022) The Eco-Technical Interface: Attun-
+ing to the Instrumental. In Proceedings of the 2022 CHI Conference on
+Human Factors in Computing Systems, CHI ’22 , pp. 1–12. Association
+for Computing Machinery, New York, NY , USA.
+Marder, M. (2014) The Philosopher’s Plant: An Intellectual Herbarium
+(illustrated). Columbia University Press, New York.
+Marder, M. ,Vattimo, G. and Zabala, S. (2013) Plant-Thinking: A Philos-
+ophy of Vegetal Life . Columbia University Press, New York.
+Meeker, N. and Szabari, A. (2019) Radical Botany: Plants and Speculative
+Fiction (1st). Fordham University Press, New York.
+Monteiro, M. (2019) Ruined by Design: How Designers Destroyed the
+World, and What We Can Do to Fix It . Independently published,
+Fresno.
+Moore, A. (2012). Saga of the swamp thing: Book one. VertigO ,1 s t
+edition.
+Morton, T. (2016) Dark Ecology: For a Logic of Future Coexistence .
+Columbia University Press, New York.
+Myers, N. (2015) Conversations on plant sensing: notes from the field.
+Nature and Culture ,3, 35–66.
+N a m ,H .Y . ,Campbell, J. ,Webb, A. M. and Harmon, B. (2023) FloraWear:
+Wearable Living Interface. In Proceedings of the Seventeenth Interna-
+tional Conference on Tangible, Embedded, and Embodied Interaction, TEI
+’23, pp. 1–15. Association for Computing Machinery, New York, NY ,
+USA.
+Oogjes, D. and Wakkary, R. (2022) Weaving Stories: TowardRepertoires for Designing Things. In Proceedings of the 2022 CHI
+Conference on Human Factors in Computing Systems, CHI ’22 , pp. 1–21.
+Association for Computing Machinery, New York, NY , USA.
+Papanek, V . (2005) Design for the Real World: Human Ecology and Social
+Change (2nd). Chicago Review Press, Chicago, Ill.
+Poulos, C. N. (2021) Essentials of Autoethnography . American Psycho-
+logical Association, Washington, DC.
+Rezwana, J. and Maher, M. L. (2023) User Perspectives on Ethical
+Challenges in Human-AI Co-Creativity: A Design Fiction Study.
+InProceedings of the 15th Conference on Creativity and Cognition, C &
+C’ 2 3 , pp. 62–74. Association for Computing Machinery, New York,
+NY , USA.
+Rodgers, S. ,Ploderer, B. ,Vella, K. and Brereton, M. (2023) Phenology
+Probes: Exploring Human–Nature Relations for Designing Sus-
+tainable Futures. In In Proceedings of the 34th Australian Conference
+on Human-Computer Interaction, OzCHI ’22 , pp. 216–228. Association
+for Computing Machinery, New York, NY , USA.
+Rosén, A. P. ,Salovaara, A. ,Botero, A. and Søndergaard, M. L. J. (eds.)
+(2024) More-Than-Human Design in Practice (1st), Routledge, Oxford.
+Schön, D. A. (1983) The Reflective Practitioner: How Professionals Think in
+Action . Routledge.
+Shneiderman, B. (1999) User interfaces for creativity support tools. In
+Proceedings of the 3rd conference on Creativity & cognition, C & C ’99 ,
+pp. 15–22. Association for Computing Machinery, New York, NY ,USA.
+Shneiderman, B. (2007). Creativity support tools: accelerating dis-
+covery and innovation. Communications of the ACM ,50(12): 20–32,
+https:// doi.org/10.1145/1323688.1323689 .
+Shusterman, R. (2012) Thinking through the Body: Essays in Somaesthet-
+ics(1st). Cambridge University Press, Cambridge, UK; New York.
+Sterling, B. (2009) COVER STORY: design fiction. Interactions ,16,
+20–24.
+Tsing, A. L. (2021) The Mushroom at the End of the World: On the Possibility
+of Life in Capitalist Ruins . Princeton Oxford.
+Vella, K. ,Ploderer, B. and Brereton, M. (2021) Human–Nature Rela-
+tions in Urban Gardens: Explorations with Camera Traps. InProceedings of the 2021 CHI Conference on Human Factors in Computing
+Systems, CHI ’21 , pp. 1–13. Association for Computing Machinery,
+New York, NY , USA.
+Wakkary, R. (2020) A Posthuman Theory for Knowing Design. ,14.
+Wakkary, R. (2021) Things We Could Design: For More Than Human-
+Centered Worlds. In Design Thinking, Design Theory . MIT Press,
+Cambridge, MA, USA.
+Wang, X. (2022) Nature Jar: Design for Facilitating Nature Connected-
+ness and Restoration in Home Scenario. In Sixteenth International
+Conference on Tangible, Embedded, and Embodied Interaction, TEI ’22 ,
+pp. 1–7. Association for Computing Machinery, New York, NY ,USA.
+W a r r e n ,K .J . (ed.) (1997) Ecofeminism: Women (first). Indiana University
+Press, Bloomington, Culture, Nature.
+Yong, E. (2023) An Immense World: How Animal Senses Reveal the Hidden
+Realms Around Us (reprint). Random House Trade Paperbacks, New
+York.
+Zhang, Z. ,Xu, Y . ,Wang, Y . ,Yao, B. ,Ritchie, D. ,Wu, T. ,Yu, M. ,Wang, D.
+and Li, T. J.-J. (2022) StoryBuddy: a human-AI collaborative Chat-
+bot for parent-child interactive storytelling with flexible parentalinvolvement. In CHI Conference on Human Factors in Computing
+Systems ,1 – 2 1 .
+© The Author(s) 2025. Published by Oxford University Press on behalf of The British Computer Society. This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License ( http:// creativecommons. org/licenses/
+by-nc/4.0/ ), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other
+permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site-for further information please co ntact journals.permissions@oup.com.
+Interacting with Computers , 2025, 1–16
+https://doi.org/10.1093/iwc/iwaf013
+ArticleDownloaded from https://academic.oup.com/iwc/advance-article/doi/10.1093/iwc/iwaf013/8093472 by City University of Hong Kong user on 13 August 2025
+

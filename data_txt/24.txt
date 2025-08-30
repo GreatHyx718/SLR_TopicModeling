@@ -1,0 +1,382 @@
+Kniting the Sea Slugs – a Demonstration of a 
+Human-AI-Machine-Material Assemblage 
+Pei-Ying Lin Kristina Andersen Wijnand IJsselsteijn 
+p.y.lin@tue.nl h.k.g.andersen@tue.nl w.a.ijsselsteijn@tue.nl 
+Eindhoven University of Technology Eindhoven University of Technology Eindhoven University of Technology 
+Eindhoven, Netherlands Eindhoven, Netherlands Eindhoven, Netherlands 
+Figure 1: Knitted frst prototype of Jason mirabilis and Dendrodoris krusensternii. 
+ABSTRACT 
+This project explores the nuance of human-AI collaboration us-
+ing domestic knitting machines alongside a simple, task-based, AI 
+algorithm addressed through the research framework of more-than-
+human design. The textile design task is to use a broad range of 
+knitting techniques to develop textile prototypes that mimic sea 
+slugs, specifcally the New Zealand nudibranchs Jason mirabilis and 
+Dendrodoris krusensternii, both chosen for their colourful, organic 
+looks. The fnal outcome consists of a series of textile swatches and 
+prototypes along with a booklet documenting the digital patterns 
+and thought processes of the development. 
+CCS CONCEPTS 
+• Human-centered computing → Human computer interac-
+tion (HCI); Interaction design. 
+KEYWORDS 
+Knitting, Digital Craftsmanship, Refection, Design, Textile, Art 
+ACM Reference Format: 
+Pei-Ying Lin, Kristina Andersen, and Wijnand IJsselsteijn. 2024. Knitting the 
+Sea Slugs – a Demonstration of a Human-AI-Machine-Material Assemblage. 
+In Designing Interactive Systems Conference (DIS Companion ’24), July 01–05, 
+2024, IT University of Copenhagen, Denmark. ACM, New York, NY, USA, 
+5 pages. https://doi.org/10.1145/3656156.3665422 
+This work is licensed under a Creative Commons 
+Attribution-NonCommercial-ShareAlike International 4.0 License. 
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+© 2024 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-0632-5/24/07 
+https://doi.org/10.1145/3656156.3665422 1 INTRODUCTION 
+Designers and artists who work with textiles, particularly knitting, 
+are beginning to adopt Artifcial Intelligence (AI) into their creative 
+practices as it becomes more generally known and more easily 
+accessible. The current adaptation of AI for knitting fabrication 
+is mainly implemented through image generation such as Mid-
+journey [28], Dall-E [31], or StableDifusion [38]. Other computer-
+supported implementations of knitting textile fabrication include 
+optimisation [1, 3, 12, 20, 26], computation augmentation [2, 6, 36], 
+digital interfaces [9, 40, 44, 47], creative algorithmic explorations 
+[12, 15, 17, 18, 25, 32]. However, the combination of the creative 
+process with algorithmic support in knitting is much less explored, 
+unlike the feld of Architecture where there is a long tradition for 
+parametric and algorithmic designs. 
+In this project, we explore the nuance of human-AI collabora-
+tion with a domestic knitting machine (hereafter referred to as the 
+‘machine’) using a simple, task-based AI algorithm on the computer. 
+AI, as a general term, covers a vast area of algorithms with diferent 
+expertise. Previous research has found that knowing AI’s capabili-
+ties allows designers to use AI tools better and that as a result value 
+creation is closely related to specifc AI’s task expertise [46]. In the 
+context of this project, we focus on the pattern-making ability of an 
+extremely simple genetic algorithm to see how it would infuence 
+the creative outcomes. 
+This project adapts the framework of more-than-human de-
+sign, where the material and the knitting machine are also seen 
+as more-than-human designers [30, 41] in the craftsmanship tradi-
+tion [19, 34]. The knitted textiles are also seen as outcomes created 
+by the human-AI-machine-material assemblage [11]. Through the 
+iterative auto-ethnography and process documentations of both 
+the objective and the subjective perspectives, such as thought pro-
+cesses, refections, data, photographs, choreography, and time, as 
+an attempt to create a detailed depository of the happenings within 
+the human-AI-machine-material assemblage that would portrait 
+the interplay within the assemblage. 
+318
+
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Lin et al. 
+Figure 2: Excerpt from the booklet 
+2 RELATED WORKS 
+HCI research acknowledges the presence of fabrication machines, 
+materials, and AI [5, 7, 19, 30, 41], and that the making of textiles 
+is a collective process of the human-AI-machine-material assem-
+blage, in which each has its own agency within the process. Such 
+a framework shifts the perspective of AI as a tool towards AI as a 
+more-than-human designer, which urges for a diferent lens to look 
+at it as a more-than-human collective process. 
+Creative implementation using generative AI in textile-related 
+felds has become visible, especially within the feld of fashion 
+[8, 21, 24, 27] with tools specialised in generating garments [29, 37], 
+recommendations [22, 39, 43], or even as common as taking part in 
+ideation[ 23], and many more. These generative AI implementations 
+are mostly based on AI algorithms that are trained on a large image-
+text dataset, which makes the authorship and originality debatable 
+[13]. Beyond the fashion domain, in the textile realm, generative 
+AI is still weak in generating proper usable textile textures and 
+structures due to the fact that image generative AI works on im-
+ages rather than patterns and structural logic. As a result, using 
+generative AI to assist in the making of textiles requires further 
+translation into actionable elements. This corresponds with the 
+fnding from Yildirim et al. that, by focusing on sharing knowledge 
+on the capabilities of AI, potentially addresses the gap between 
+the capabilities of AI and the designer’s needs and thereby broad-
+ens how AI can potentially be used in design [46]. At the same 
+time, creatives are often looking for AI to deliver disruptive and 
+strange, unexpected outcomes rather than provide solutions [4]. 
+Furthermore, the concern of agency and originality when using AI 
+tools [45] brings deeper questions around art labour and copyrights which is beyond the scope of this demonstration [35] but lays an 
+important background for where generated data comes from. 
+Coming back to the more-than-human design framework with 
+the same question of how AI can integrate into the established 
+collective process of human-machine-material assemblage, based 
+on a meeting between its capabilities and the designer’s need, we 
+constructed a setup of a simple 0 and 1 matrix manipulating genetic 
+algorithm to participate in the creative development of textile de-
+sign tasks. We did this in order to investigate if the perspective shift 
+might bring new insight into the so-called human-AI collaboration 
+studies. 
+3 KNITTING THE SEA SLUGS 
+The First Author (hereafter FA) is an Asian PhD student in the feld 
+of design with a background in Biology, Computer Science, Cultural 
+Studies, and Critical/Speculative Design. She has been a practising 
+artist in international settings for more than 15 years in the feld 
+of art and science. Knitting and textiles are not FA’s expertise, but 
+she has amateur experience, having worked with domestic knit-
+ting machines for three years and some training in Stoll industrial 
+knitting machines. With this background, the project takes artistic 
+considerations as its frst priority with design observations added 
+on top of this practice. This approach is chosen with the aim of 
+centring the artistic practices in order to reveal important nuances 
+that are, in turn, at the core of the creative processes of design 
+research. 
+For this project, FA adapted a popular textile creative process 
+as practised by textile design students across institutions: Starting 
+from visual ideation, doing yarn swatches and simple swatches, and 
+then continuing to more sophisticated swatches, and fnally, the 
+319
+Kniting the Sea Slugs DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+fnal prototype. This approach is chosen to centre the perspective 
+from the craftsmanship tradition to explore diferent technology 
+engagements. Sea slugs were chosen to become the creative goal due 
+to FA’s previous experience with turning biological structures into 
+knitted textiles and to allow more freedom than a typical knitted 
+wearable garment where more precise calculation is needed for 
+practicalities. Sea slugs Jason mirabilis and Dendrodoris krusensternii 
+from the book ‘Super Sea Slugs – a guide to the sea slugs of New 
+Zealand’ written by Richard C. Willan and Niki Davy [42] was 
+chosen for their interesting shapes and colours that attracted the 
+FA instinctively. The yarns were chosen from FA’s collection of 
+yarns. 
+The creative process is recorded through photographs, auto-
+ethnography, digital patterns, and an annotated portfolio [ 14, 33]. 
+The whole process will be displayed in the format of a booklet, 
+along with the samples from each stage. The booklet is the diary 
+collection of the auto-ethnography notes, along with images of 
+each sample, displaying the complete timeline of the process. 
+3.1 The AI Algorithm 
+The AI algorithm was developed by FA using Python on the ba-
+sis of a genetic algorithm, which does not require a pre-trained 
+dataset. Each time, two parent patterns were plotted by FA and then 
+hybridised using the algorithm, generating a set of patterns with 
+diferent mutation rates as a gallery to be selected from. The algo-
+rithm goes through each digit of the two matrices (the two parents) 
+with the same dimension that consists of 0 and 1 and randomly 
+selects between the digits of the same position between the two 
+matrices with a specifc mutation rate that changes from 0 to 1 or 
+from 1 to 0. Then the algorithm assigns ftness to each generated 
+matrix according to two conditions: 1) if the matrix has more than 
+eight of the same digits continuously in a row, then a penalty is 
+assigned, this is to avoid long foats, and 2) if the matrix has more 
+than four of the same digits continuously in a column then a penalty 
+is assigned, this is to avoid too many tucks. Matrices with higher 
+ftness are selected and output as text fles along with images for 
+ease of reading. This algorithm is very primitive and aims merely 
+at generating pattern variations that might be more knittable in 
+order to facilitate a faster exploration of the knitting-scape. 
+3.2 Documenting the Crucial Nuances 
+The documentation format takes inspiration from biology research 
+lab journals from FAś previous education training and annotated 
+portfolios as proposed by Portfolio of Loose Ends [16], along with 
+auto-ethnography diaries to record cognitive processes, temporali-
+ties, refections, practical information, and fnally digital fles that 
+allow the whole choreography of creative knitting to happen. Con-
+sidering that the creative process is organic and nuances might not 
+ft into the preliminary settings, a draft documentation template 
+was used as a guideline but developed during the creative process 
+as well. The documentation form difered during diferent stages 
+and was revised multiple times by reviewing all the complete pro-
+cess records. The revision was to ensure that the documentation 
+matches the needs of each stage of the creative process. The fnal 
+documentation format is presented in the booklet, although all the photographs, drafts, and notes were kept during the creative 
+process as shown in Figure 2 
+The documentation contains four major categories of informa-
+tion: 1) human interpretations, refections, and decisions of the 
+information provided by the knitting machine and the material, 2) 
+digital plotting of needle choreography (in digital patterns) and 
+human choreography (manual manipulations), 3) physical facts 
+such as machine, material, textile swatches in images 4) temporal-
+ity that infuences the performances of all participating entities. 
+These categories are being recorded based on the theories of human 
+cognition that exist within the ’Embodied, Embedded, Enactive, and 
+Extended’ [10], to fully know what the other agencies within the 
+assemblage are thinking is impossible, we could still plot the sur-
+rounding landscape [30]. In this proposal of DIS demonstration, 
+the knitted textile samples along with the booklet of documenta-
+tion as shown in Figure 1, 2, and 3 will be exhibited together to 
+create a detailed representation of the occurrence of the specifc 
+human-AI-machine-material assemblage while making the textile 
+nudibranchs Jason mirabilis and Dendrodoris krusensternii. 
+4 CONCLUSION 
+This project demonstrates how humans, a simple genetic algorithm, 
+a knitting machine, and materials could mutually inform and in-
+teract with each other. The booklet and samples also reveal the 
+nuances of the negotiation, collaboration, refection, and modifca-
+tions at diferent levels between the human’s embodied cognitive 
+space, pattern generation, machine control and choreography, and 
+material performances in response to knitting structures. Although 
+the creative process in this research is highly personal to the FA 
+due to the fact that each designer would have their own creative 
+process, it illuminates the vibrancy of multifaceted interactions 
+within the human-AI-machine-material assemblage where the fnal 
+textile creation is the co-contribution of the four groups of entities. 
+ACKNOWLEDGMENTS 
+The images in the booklet are photographed by FA and extended 
+to the monochrome background using Photoshop Generative Fill 
+function while the main objects remain untouched. The Python 
+code for the AI algorithm that generates knitting patterns was 
+coded with the support of ChatGPT. 
+REFERENCES 
+[1] Lea Albaugh, Scott Hudson, and Lining Yao. 2019. Digital Fabrication of Soft 
+Actuated Objects by Machine Knitting. In Proceedings of the 2019 CHI Conference 
+on Human Factors in Computing Systems. ACM, Glasgow Scotland Uk, 1–13. 
+https://doi.org/10.1145/3290605.3300414 
+[2] Lea Albaugh, Scott E Hudson, and Lining Yao. 2023. An Augmented Knitting 
+Machine for Operational Assistance and Guided Improvisation. In Proceedings of 
+the 2023 CHI Conference on Human Factors in Computing Systems. ACM, Hamburg 
+Germany, 1–15. https://doi.org/10.1145/3544548.3581549 
+[3] Lea Albaugh, James McCann, Scott E. Hudson, and Lining Yao. 2021. Engineering 
+Multifunctional Spacer Fabrics Through Machine Knitting. In Proceedings of the 
+2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama 
+Japan, 1–12. https://doi.org/10.1145/3411764.3445564 
+[4] Kristina Andersen and Peter Knees. 2016. The Dial: Exploring Computational 
+Strangeness. In Proceedings of the 2016 CHI Conference Extended Abstracts on 
+Human Factors in Computing Systems. ACM, San Jose California USA, 1352–1358. 
+https://doi.org/10.1145/2851581.2892439 
+[5] Kristina Andersen, Ron Wakkary, Laura Devendorf, and Alex McLean. 2019. 
+Digital crafts-machine-ship: creative collaborations with machines. Interactions 
+27, 1 (Dec. 2019), 30–35. https://doi.org/10.1145/3373644 
+320
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Lin et al. 
+Jason mirabilis Jason mirabilis
+Sample name: 20231213_SeaSlugOne_20231219_1415_m03_i0_tile1 with Tencil Yarn in turns
+Task: Combining the computer generated part with manual manipulation to emphe-
+sis the tuck stitches
+Pattern:
+Pattern File: 20231213_SeaSlugOne_20231219_1415_m03_i0_tile1.txt
+Knitting  Mode: Tuck
+Autoethnography 
+Note:The transparency is very interesting, maybe this alternating yarn technique can be used with the mutated patterns?The Tincel yarn was used for 4 turns, and then switch back to wool yarns for two turns, and then switch to Tincel, such back and forth.
+Yarns: Knitworks London Tincel PinkB&F supermerinoYarnitaly col. magenta
+Process: Knit 2 rows with B&F supermerino + Yarnitaly col.magenta, then 4 rows of Knitworks London Tincel Pink
+Date: 2023/12/27 04:17 PM
+Time spent: 34m26s (making)
+Reflections: It turns out amazing. The Tincel yarn highlights the yarn routes of tuck stitches.This is too beautiful to be ignored. However, because of too many tuck stitches in a row, it is difficult to knit and creates loads of errors. Some editing is needed.The knit was terminated half way so I can see the effect earlier, just in case it turns out not as nice. But the result is amazing.
+Figure 3: Excerpt from the booklet 
+[6] Shahar Asor and Yoav Sterman. 2023. A Parametric 3D Knitting Workfow for 
+Punchcard Knitting Machines. In Extended Abstracts of the 2023 CHI Conference 
+on Human Factors in Computing Systems (CHI EA ’23). Association for Computing 
+Machinery, New York, NY, USA, 1–6. https://doi.org/10.1145/3544549.3585721 
+[7] Jane Bennett. 2010. Vibrant matter: a political ecology of things. Duke University 
+Press, Durham. 
+[8] BOF Team, McKinsey & Company. 2023. The Year Ahead: How Gen AI 
+Is Reshaping Fashion’s Creativity. https://www.businessofashion.com/ 
+articles/technology/the-state-of-fashion-2024-report-generative-ai-artifcial-
+intelligence-technology-creativity/ 
+[9] Sander de Bruijne. 2015. Stitch Fiddle. https://www.stitchfddle.com/ 
+[10] Leon de Bruin, Albert Newen, and Shaun Gallagher (Eds.). 2018. The Oxford Hand-
+book of 4E Cognition. Oxford University Press, Oxford. OCLC: on1034607855. 
+[11] Gilles Deleuze and Félix Guattari. 1987. A thousand plateaus: capitalism and 
+schizophrenia. University of Minnesota Press, Minneapolis. 
+[12] Anikó Ekárt. 2007. Evolution of lace knitting stitch patterns by genetic pro-
+gramming. In Proceedings of the 9th annual conference companion on Genetic and 
+evolutionary computation. ACM, London United Kingdom, 2457–2461. https: 
+//doi.org/10.1145/1274000.1274010 
+[13] European Parliment. 2023. EU AI Act: frst regulation on artifcial intelli-
+gence. https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-
+ai-act-frst-regulation-on-artifcial-intelligence 
+[14] Bill Gaver and John Bowers. 2012. Annotated portfolios. Interactions 19, 4 (July 
+2012), 40–49. https://doi.org/10.1145/2212877.2212889 
+[15] Kate Geck. 2022. Knitting Algorithmic Assemblages. TEXTILE (Nov. 2022), 1–18. 
+https://doi.org/10.1080/14759756.2022.2114240 
+[16] Bruna Goveia da Rocha, Kristina Andersen, and Oscar Tomico. 2022. Portfolio 
+of Loose Ends. In Designing Interactive Systems Conference. ACM, Virtual Event 
+Australia, 527–540. https://doi.org/10.1145/3532106.3533516 
+[17] Varvara Guljajeva, Mar Canet Sola, and Sebastian Mealla. 2013. NeuroKnitting. 
+https://var-mar.info/neuroknitting/ [18] Varvara Guljajeva and Mar Canet Sola. 2020. NeuroKnitting Beethoven. https: 
+//var-mar.info/neuroknitting-beethoven/ 
+[19] Tim Ingold. 2010. The textility of making. Cambridge Journal of Economics 34, 1 
+(Jan. 2010), 91–102. https://doi.org/10.1093/cje/bep042 
+[20] Alexandre Kaspar, Tae-Hyun Oh, Liane Makatura, Petr Kellnhofer, and Woj-
+ciech Matusik. 2019. Neural Inverse Knitting: From Images to Manufacturing 
+Instructions. In Proceedings of the 36th International Conference on Machine Learn-
+ing. PMLR, 3272–3281. https://proceedings.mlr.press/v97/kaspar19a.html ISSN: 
+2640-3498. 
+[21] LABELEDBY. 2022. Infnity Of The Artifcial Skin. https://www.labeledby.com/ 
+iotas 
+[22] Yoon Kyung Lee. 2022. How complex systems get engaged in fashion design 
+creation: Using artifcial intelligence. Thinking Skills and Creativity 46 (Dec. 
+2022), 101137. https://doi.org/10.1016/j.tsc.2022.101137 
+[23] Pei-Ying Lin, Kristina Andersen, Ralf Schmidt, Sanne Schoenmakers, Hèrm 
+Hofmeyer, Pieter Pauwels, and Wijnand IJsselsteijn. 2024. Text-to-Image AI 
+as a Catalyst for Semantic Convergence in Creative Collaborations. In Designing 
+Interactive Systems Conference. ACM, IT University of Copenhagen, Denmark. 
+https://doi.org/10.1145/3643834.3661543 
+[24] Maison Meta. 2023. AI FASHION WEEK| Worldwide AI Fashion Week made with 
+Artifcial Intelligence – The First Ai Fashion Week 2023. https://fashionweek.ai/ 
+[25] David N. G. McCallum. 2018. Glitching the fabric. Strategies of new media art 
+applied to the codes of knitting and weaving. University of Gothenburg, Goteborg. 
+OCLC: 1079863103. 
+[26] James McCann, Lea Albaugh, Vidya Narayanan, April Grow, Wojciech Matusik, 
+Jennifer Mankof, and Jessica Hodgins. 2016. A compiler for 3D machine knitting. 
+ACM Transactions on Graphics 35, 4 (July 2016), 1–11. https://doi.org/10.1145/ 
+2897824.2925940 
+[27] Lova McKnight and Kevin Ponce. 2023. Exclusive: Iris Van Herpen En-
+ters The World Of AI Technology With The Debut Of New FW23 Cam-
+paign. https://vmagazine.com/article/exclusive-iris-van-herpen-enters-the-
+world-of-ai-technology-with-the-debut-of-new-fw23-campaign/ 
+321
+Kniting the Sea Slugs 
+[28] Midjourney, Inc. 2024. Midjourney. https://www.midjourney.com 
+[29] Mintgrams Technologies, Inc. 2024. Refabric: AI Fashion - The Future of Style 
+and Design. https://www.refabric.com/ Running Time: 83. 
+[30] Doenja Oogjes and Ron Wakkary. 2022. Weaving Stories: Toward Repertoires for 
+Designing Things. In CHI Conference on Human Factors in Computing Systems. 
+ACM, New Orleans LA USA, 1–21. https://doi.org/10.1145/3491102.3501901 
+[31] OpenAI, L.L.C. 2024. Dall-E. https://openai.com/dall-e-3 
+[32] Daniela K. Rosner and Kimiko Ryokai. 2009. Refections on craft: probing the 
+creative process of everyday knitters. In Proceeding of the seventh ACM conference 
+on Creativity and cognition - C&C ’09. ACM Press, Berkeley, California, USA, 195. 
+https://doi.org/10.1145/1640233.1640264 
+[33] Niek Rutten, Jef Rouschop, Louise Mathiasen, Oscar Tomico, Bruna Goveia 
+Da Rocha, and Kristina Andersen. 2022. Flipping Pages: Exploring Physical 
+Workbooks as Refective Method for Documentation. In Nordic Human-Computer 
+Interaction Conference. ACM, Aarhus Denmark, 1–14. https://doi.org/10.1145/ 
+3546155.3547296 
+[34] Richard Sennett. 2008. The craftsman. Yale University Press, New Haven. OCLC: 
+ocn171287612. 
+[35] Serpentine Arts Technologies. 2024. Future Art Ecosystems 4: Art x Public AI. 
+https://reader.futureartecosystems.org/briefng/fae4 
+[36] Krishma Singal, Michael S. Dimitriyev, Sarah E. Gonzalez, A. Patrick Cachine, 
+Sam Quinn, and Elisabetta A. Matsumoto. 2024. Programming mechanics in 
+knitted materials, stitch by stitch. Nature Communications 15, 1 (March 2024), 
+2622. https://doi.org/10.1038/s41467-024-46498-z Publisher: Nature Publishing 
+Group. 
+[37] Matthew S. Smith. 2022. AI-Generated Fashion Is Next Wave of DIY Design. 
+https://spectrum.ieee.org/dall-e-fashion-design 
+[38] Stability AI Ltd. 2024. StableDifusion. https://stability.ai/stable-image DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+[39]
+ Moeko Takagi, Edgar Simo-Serra, Satoshi Iizuka, and Hiroshi Ishikawa. 2017. 
+What Makes a Style: Experimental Analysis of Fashion Prediction. In 2017 IEEE 
+International Conference on Computer Vision Workshops (ICCVW). IEEE, Venice, 
+2247–2253. https://doi.org/10.1109/ICCVW.2017.263 
+[40] Hannah Twigg-Smith. 2023. KnitScape. https://github.com/knitscape/knitscape 
+[41] Ron Wakkary. 2021. Things we could design: for more than human-centered worlds. 
+The MIT Press, Cambridge, Massachusetts. 
+[42] Richard C. Willan, Niki Davey, Michelle Kelly, and Blayne Herr. 2020. Super Sea 
+Slugs: A Guide to the Sea Slugs of New Zealand. NIWA, Taihoro Nukurangi. 
+[43] Di Wu, Zhiwang Yu, Nan Ma, Jianan Jiang, Yuetian Wang, Guixiang Zhou, Hanhui 
+Deng, and Yi Li. 2023. StyleMe: Towards Intelligent Fashion Generation with 
+Designer Style. In Proceedings of the 2023 CHI Conference on Human Factors in 
+Computing Systems. ACM, Hamburg Germany, 1–16. https://doi.org/10.1145/ 
+3544548.3581377 
+[44] Stephanie Yang. 2017. Knitting Visualizer: Connecting Craft and Code. In Pro-
+ceedings of the 2017 Conference on Interaction Design and Children. ACM, Stanford 
+California USA, 705–708. https://doi.org/10.1145/3078072.3091985 
+[45] Nur Yildirim, James McCann, and John Zimmerman. 2020. Digital Fabrication 
+Tools at Work: Probing Professionals’ Current Needs and Desired Futures. In 
+Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 
+ACM, Honolulu HI USA, 1–13. https://doi.org/10.1145/3313831.3376621 
+[46] Nur Yildirim, Changhoon Oh, Deniz Sayar, Kayla Brand, Supritha Challa, Violet 
+Turri, Nina Crosby Walton, Anna Elise Wong, Jodi Forlizzi, James McCann, and 
+John Zimmerman. 2023. Creating Design Resources to Scafold the Ideation of AI 
+Concepts. In Proceedings of the 2023 ACM Designing Interactive Systems Conference. 
+ACM, Pittsburgh PA USA, 2326–2346. https://doi.org/10.1145/3563657.3596058 
+[47] Tianhong Catherine Yu and James McCann. 2020. Coupling Programs and 
+Visualization for Machine Knitting. In Symposium on Computational Fabrication. 
+ACM, Virtual Event USA, 1–10. https://doi.org/10.1145/3424630.3425410 
+322

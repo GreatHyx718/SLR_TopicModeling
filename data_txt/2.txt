@@ -1,0 +1,857 @@
+Journa l of E c onom y C ultur e and Societ y ,
+JE C S 20 25, (7 1): 1– 20
+https:/ / doi. or g/ 10.266 50/JE C S 20 2 4- 146 7 4 2 4
+Journa l of E c onom y C ultur e and Societ ySubmitt ed: 1 1. 04.20 2 4
+R e vision R equest ed: 13. 10.20 2 4
+L a st R e vision R ec eiv ed: 26. 10.20 2 4
+Ac c ept ed: 0 2. 1 1.20 2 4
+P ublished Online 19. 0 3.20 25
+R ese ar ch Articl e
+  Open Ac c es s
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a
+Network
+Bor ab a y E rb a y ¹
+  & K ell y Jo y c e ²
+¹ İzmir Univ er sit y of E c onomics, Dep artment of Sociol ogy , İzmir , T ürkiy e
+² P r of es sor , Dr e x el Univ er sit y , Dep artment of Sociol ogy , P hil adelphia, U S A
+Abstr act This study pr o vides a sociol ogic a l under st anding of the pr oduction of AI, which is under e xpl or ed in the
+sociol ogy of AI. T o achie v e this, the study f oc uses on the AI de v el opment pr oc es s. Utilizing Act or -Network
+Theory (ANT), this study demonstr at es how the de v el opment of AI cr e at es a network c onsisting of both
+human and nonhuman act or s. The sociol ogic a l lit er atur e f oc uses on how AI is adopt ed in v arious socia l
+c ont e xts, identifying the socia l eff ects of its intr oduction and use . W e in v estig at e AI itself , showing the
+v a lues and politics that c onstitut e AI sociot echnic a l s y st ems in the Unit ed St at es. Ba sed on int erviews
+with softw ar e engineer s r esiding in Northe a st ern U S A who work on AI and music pl atf orms, the study
+highlights how humans and nonhuman act or s and socia l f or c es such a s c apit a lism and imperia lism c o-
+pr oduc e AI s y st ems. E ngineer s ’ t echnic a lit y -bound worl dview pl a y s a crucia l r ol e in their int erpr et ation of
+AI and the driv e f or efficiency and pr ofit ar e f oundationa l v a lues that justify including nonhuman act or s
+such a s g ener ativ e AI pl atf orms and dat a sets a s p articip ants in AI network s. This ultimat el y r esults in the
+pr oduction of AI sociot echnic a l s y st ems that r ecr e at e v a lues c entr a l t o c apit a lism and imperia lism.
+K e ywor ds Sociol ogy • Act or -Network Theory • Artificia l Int ellig enc e • Scienc e and T echnol ogy Studies (S T S) • Softw ar e
+E ngineering
+Author Not e This articl e is deriv ed fr om the c orr esponding author ’ s P hD thesis support ed b y TÜBİT AK 22 14- A Int erna-
+tiona l R ese ar ch F ell owship P r ogr amme f or P hD Students.
+Cit ation: E rb a y , B. & Jo y c e , K. (20 25). Opening the bl ack bo x of AI: A sociol ogic a l study of AI a s a network . Journal of E c onom y
+C ultur e and Societ y , (7 1), 1- 20 . https:/ / doi. or g/ 10.266 50/JE C S 20 2 4- 146 7 4 2 4
+This work is lic ensed under C r e ativ e C ommons Attribution-NonC ommer cia l 4. 0 Int ernationa l Lic ense . 
+20 25. E rb a y , B. & Jo y c e , K.
+C orr esponding author : Bor ab a y E rb a y bor ab a y . erb a y@ieu. edu. tr
+Journa l of E c onom y C ultur e and Societ y
+https:/jecs.ist anbul . edu. tr /
+e-IS SN: 264 5-8 77 21
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network
+The adv anc ements in both har dw ar e and softw ar e t echnol ogies and c ontinuous digit a liz ation in societies
+ar ound the worl d ha v e l ed t o an unpr ec edent ed pr ogr es s in the fiel d of artificia l int ellig enc e (AI). As a r esult
+of this pr ogr es s, we now e xperienc e an AI-bound worl d, with AI use bringing signific ant tr ansf ormations
+and cha ll eng es in diff er ent socia l spher es (P er c et a l ., 20 19; Jo y c e & C ruz 20 2 4). One of the most visibl e and
+signific ant imp acts of AI c an be observ ed in the l abor mark et , wher e aut omation driv en b y AI is r eshaping
+tr aditiona l empl o yment structur es (F or d, 20 15; O z er et a l ., 20 2 4). As AI s y st ems ar e adopt ed, the y fr equent l y
+displ ac e and chang e human l abor (Ac emoglu et a l ., 20 22; O z er & P er c , 20 2 4).
+Within sociol ogy , ther e is a gr owing body of lit er atur e that in v estig at es the societ a l imp act of AI adoption,
+e x amining if the t echnol ogy use e x ac erb at es inequa lities. Schol ar ship within the sociol ogy of AI ha s cr e at ed
+import ant knowl edg e that shows societ a l imp act in fiel ds such a s work , l a w , sec urit y and ent ert ainment . It
+a lso demonstr at es how humans, a s r efl e xiv e act or s, both ac c ept and r eject the AI output . C ritic a l ana l y sis of
+the v a lues and politics embedded in the design and c ont ent of AI pl atf orms, howe v er , t ends t o be ignor ed in
+this lit er atur e . This is not surprising. Questioning AI is not e a s y f or non- t ech e xperts sinc e it is per c eiv ed a s
+a ‘bl ack bo x’ . When a t echnol ogy is “bl ack bo x ed” its inner working s ar e uncl e ar or t ak en f or gr ant ed and its
+main v a lue is that it is per c eiv ed t o work in a c orr ect and efficient w a y (L at our , 2000). These tr aits a s sociat ed
+with AI rise not sol el y fr om the c ompl e xit y of a lg orithms and the e xt ensiv e , distribut ed knowl edg e and
+e xpertise needed t o under st and how the y oper at e but a lso fr om how scientists themsel v es t a lk about AI
+and the ma s siv e amounts of dat a the y pr oc es s e v ery sec ond; the mor e c ompl e x a lg orithms g et , the mor e
+op aque or bl ack bo x ed the y g et (P a squa l e , 20 15; Burr ell , 20 16). This op acit y shr ouds AI s y st ems in a m yth,
+which pr omot es e x a gg er at ed e xpect ations f or their futur e imp act (Nat a l e & Ba ll at or e , 20 20; 20 2 3). It a lso
+cr e at es a per c eption of AI a s a t echnol ogic a l f or c e that pos ses ses a human-lik e int ellig enc e and aut onom y ,
+obsc uring the actua l ‘r e a lit y’ of AI. This misint erpr et ation r esults in a l ack of under st anding of the human
+l abor , decisions, and v a lues in v ol v ed and r esults in a scribing a human-lik e natur e t o AI, in the end f orming
+a "bl ack bo x societ y" that is g o v erned b y a lg orithms seemingl y inc ompr ehensibl e t o humans (P a squa l e ,
+20 15). Exp anding the sociol ogy of AI t o e x amine the design of AI pl atf orms cha ll eng es the bl ack bo xing of
+AI, demonstr ating which v a lues ar e embedded in the design and c ont ent of AI.
+In this p aper , we aim t o pr o vide sociol ogic a l insight int o the AI de v el opment pr oc es s b y identifying the
+v a lues and politics embedded in AI sociot echnic a l s y st ems. T o achie v e this, we use a scienc e and t echnol ogy
+studies (S T S) appr o ach t o study AI a s a network c onsisting of humans, nonhumans, belief s and ideol ogies.
+Built on the f oundationa l ide a that t echnol ogy pos ses ses a socia l and politic a l char act er (Winner , 1980;
+V erbeek , 2005) with a c ert ain f orm of a g ency embedded in it , int er acting dir ect l y with humans in c onstituting
+societ y (C a ll on, 1986; V erbeek , 2005; L at our , 199 4; 2000), S T S c a lls f or ana l yzing t echnol ogy a s a sociot echnic a l
+s y st em, cha ll enging the r oot ed t echnol ogy/ societ y dichot om y in cl a s sic a l and mainstr e am sociol ogy . This
+view a s serts that t echnol ogy is not isol at ed fr om the socia l and politic a l en vir onment ; on the c ontr ary , it
+inher ent l y pos ses ses a socia l and politic a l natur e—indeed, t echnol ogy and societ y c o-pr oduc e e ach other
+( Ja s anoff , 200 2). Dr a wing on insights fr om the semi-structur ed int erviews with softw ar e engineer s who work
+in the fiel d of music AI, we dr a w on Act or -Network Theory (ANT) t o show how human and nonhuman act or s
+c o-c onstitut e (L at our , 2005) AI network s t og ether . Buil ding on sociol ogic a l criticisms of ANT ’ s negl ect of
+power and socia l c ont e xts (F ine , 2005; Gill e , 20 10; Whit e , 20 13), we adv anc e ANT in a w a y that c an ans wer
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  2
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+macr o-sociol ogic a l questions such a s how ma jor socia l f or c es lik e c apit a lism and imperia lism ar e embedded
+in the act or s and actions that c onstitut e the AI network .
+The es s a y is structur ed a s f oll ows: W e begin with a lit er atur e r e view on the sociol ogy of AI t o highlight
+both c ontributions and g aps. W e then disc us s how S T S c an help sociol ogists under st and AI a s a dynamic ,
+e v er -changing network . This r e view and disc us sion pr o vides the p aper ’ s fr amework . Ne xt , we pr o vide a
+methodol ogic a l out line f or the p aper , which in v ol v ed in-depth int erviews c onduct ed with softw ar e engi-
+neer s who work on AI and music pl atf orms and who r eside and work in the Northe a st ern U S A . In the finding s
+section, we highlight how the t echnic a l -r ationa l worl dview of engineering aff ects how softw ar e engineer s
+int erpr et g ener ativ e AI, such a s C hatGP T , and dat a sets. Aft er e x amining how engineer s c ompr ehend AI in
+a strict l y t echnic a l sense , we disc us s AI a s a network in the fr ame of ANT , highlighting how humans and
+nonhuman act or s (g ener ativ e AI and dat a sets) int er act with e ach other in AI de v el opment . These int er actions
+ar e shaped b y ma jor socia l f or c es, ideol ogies and belief s, l e ading t o the cr e ation of a t echnol ogy that
+r ecr e at es v a lues c entr a l t o c apit a lism and imperia lism.
+Theorizing AI: How S T S C an Help Sociol ogy Unl ock the Bl ack Bo x of AI?
+The Unit ed St at es hol ds a l e ading position in the de v el opment of AI, both ec onomic a ll y and c ultur a ll y ,
+l ar g el y due t o the influenc e of Silic on V a ll e y . This ha s l ed r ese ar cher s gl ob a ll y t o e x amine and ana l yz e
+the r el ationship between AI de v el opment and the pr e v ailing ideol ogy of Silic on V a ll e y (L ee , 20 18; Gr a y &
+Suri, 20 19; Sadowski, 20 20). The c onstitution of AI in the U S A is shaped b y the influenc e of Silic on V a ll e y’ s
+neoliber a l ideol ogy , which empha siz es t echnol ogic a l inno v ation a s a c entr a l driv er of ec onomic gr owth and
+societ a l adv anc ement . This ideol ogy , deepl y embedded in U S scienc e and t echnol ogy policy , ha s shaped AI
+de v el opment thr ough the ent angl ement of ac ademic scienc e , industry , and g o v ernment . The tr ansf ormation
+of Americ an univ er sities int o engines of ec onomic gr owth (Berman, 20 12) AI, lik e other t echnol ogic a l fiel ds,
+emer g ed within this mark et -orient ed fr amework , r efl ecting the v a lues of efficiency , entr epr eneur ship , and
+mark et -driv en solutions that char act eriz e Silic on V a ll e y (C ohen, 20 19; Sadowski, 20 20).
+Berman ’ s ana l y sis of how univ er sities incr e a singl y a ligned their r ese ar ch with mark et needs r e v e a ls the
+shift t ow ar d a mark et -b a sed model of ac ademic scienc e , wher e the c ommer cia l pot entia l of t echnol ogies lik e
+AI bec ame the driving f or c e behind r ese ar ch. AI de v el opment within this sp ac e mirr or s this tr ansf ormation,
+a s r ese ar ch is no l ong er driv en sol el y b y scientific c uriosit y but b y its pot entia l f or ec onomic r eturn. The
+c ommer cia liz ation of r ese ar ch tr ansl at es scientific inquiry int o pr oducts shaped b y v entur e c apit a l and
+mark et imper ativ es (Kl einman, 200 3; Jesk e , 20 22). In AI, this ha s l ed t o the c ommodific ation of AI s y st ems,
+wher e c orpor at e int er ests and in v estment ha v e defined not onl y the dir ection of r ese ar ch but a lso the v ery
+fr aming of AI a s a solution t o societ a l cha ll eng es and a w a y f or AI pr actitioner s t o mak e mone y thr ough
+p at ents and t echnol ogy tr ansf er .
+The politic a l ec onom y of AI r e v e a ls how inno v ation, though fr amed a s neutr a l , is deepl y tied t o c ommer-
+cia l int er ests. As ac ademic r ese ar ch bec omes incr e a singl y ent angl ed with industry and the desir e t o be
+entr epr eneuria l , the boundaries between public knowl edg e and scienc e blur , l e ading t o a blind f aith in t ech-
+nol ogy st emming fr om the t echnochauv anistic appr o ach of engineering (Br ous s ar d, 20 18). Thus, AI bec omes
+p art of a l ar g er sociot echnic a l s y st em that r efl ects and perpetuat es the neoliber a l v a lues of c ompetition,
+gr owth, and pr ofit . In other wor ds, the c onstitution of AI in the U S is not mer el y a t echnic a l pr oc es s but a
+sociopolitic a l one , shaped b y Silic on V a ll e y’ s ideol ogy (C ohen, 20 19). This pr oc es s ha s pr of ound socia l and
+politic a l implic ations, a s AI bec omes a mechanism f or r epr oducing c apit a list v a lues and maint aining gl ob a l
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  3
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+t echnol ogic a l dominanc e (L ee , 20 18; Sadowski, 20 20). R ather than e xisting a s a neutr a l t ool , AI serv es t o
+r einf or c e s y st ems of power and inequa lit y , perpetuating the v ery structur es that define the neoliber a l and
+t echnic a l worl dview embedded in its cr e ation.
+The e v er -gr owing lit er atur e in the sociol ogy of AI, which is a r el ativ el y new subfiel d of sociol ogy , studies
+how AI imp acts societ y and how peopl e use AI-in-pr actic e . Simil ar t o e arl y sociol ogic a l studies of the
+Int ernet and its r einf or cing eff ects on socia l inequa lities (c a ll ed the digit a l divide) (DiMa ggio et a l ., 2004;
+Selwyn, 2004; V an Dijk , 2005; 2006), the sociol ogy of AI in v estig at es the r el ationship between AI, power and
+socia l inequa lities (Nobl e , 20 18; Benjamin, 20 19), identifying how AI s y st ems discriminat e peopl e among
+cl a s s (O’Neil , 20 16; Dy er -Withef or d et a l ., 20 19; E ub ank s, 20 18; K atz, 20 20), g ender (Benjamin; 20 19; Ha shemi
+& Ha ll , 20 20), r ac e and ethnicit y (Benjamin, 20 19; Hanna et a l ., 20 19; Oberme y er e anst a l ., 20 19). The eff ects
+of this digit a l discrimination ar e widel y ana l yz ed in the sociol ogy of AI a s well sinc e cl a s sifying and l abeling
+peopl e b y cl a s s, g ender , r ac e and ethnicit y ha s hist oric a ll y been used a s a me ans f or the c entr a liz ation
+of power ar ound the ruling elit e . Mor e and mor e gig ab yt es of dat a ha v e been e xtr act ed and monetiz ed
+thr ough a lg orithmic pr oc es ses e v ery da y , cr e ating a f orm of digit a l c apit a lism that serv es both a s a t ool f or
+e xpl oit ation and surv eill anc e at the s ame time (Z uboff , 20 19; Sadowski, 20 20). Br a yne (20 20), f or e x ampl e ,
+ha s shown how dat a -driv en t ech c omp anies pr actic e their power on polic e dep artments thr ough monopo-
+liz ation of big dat a in the U S A . The sociol ogy of AI ha s built a f ar -r e aching c orpus of studies on the triangl e
+of AI, inequa lities and power due t o the e xt ensiv e work s of man y schol ar s ar ound the worl d (Z a jk o , 20 22;
+Liu, 20 2 1).
+In addition t o r einf or cing pr esent inequa lities and situating power , the sociol ogy of AI in v estig at es how AI
+might chang e or ha v e a lr e ady tr ansf ormed work . This schol ar ship v aries fr om critic a l ana l y sis of pr edictions
+about r obots t aking o v er human jobs, the c onsequenc es of aut omation thr oughout the job mark et and
+the pr edictiv e aft er eff ects of this dy st opian pr oc es s (Rhee , 20 18; Vicsek , 20 20; James & Whel an, 20 2 1) t o
+how a lg orithms chang e and r ec onfig ur e l abor a s c apit a listic v a lues of efficiency and pr ofit maximiz ation
+demands (Shest ak of sky , 20 17; K ell og et a l ., 20 20), how a lg orithms g o v ern work en vir onment detriment a l
+t o work er s, lik e f or cing work er s t o k eep p ac e with a lg orithmic s y st ems in work t o maximiz e efficiency
+and pr oductivit y (C r a wf or d, 20 2 1; Newl ands, 20 2 1). U sing ethnogr aphic methods, schol ar ship ha s critic a ll y
+e x amined how work er s use (or do not use) AI pl atf orms, demonstr ating the rich w a y s peopl e int er act with
+AI s y st ems at work (Br a yne and E ng el e , 20 2 1; Br a yne , 20 20; C hristin, 20 20; Tic ona and Mat eesc u, 20 18; Sachs,
+20 19; Shest ak of s y and K elk ar , 20 20; Shest ak of sky , 20 17). Although or g aniz ations ma y hope that AI use l e ads
+t o the triumph of Silic on V a ll e y ideol ogy o v er a ll (Sadowsky , 20 20), this schol ar ship shows that humans ar e
+r efl ectiv e act or s who mak e decisions about when and wher e t o use AI output and that AI use usua ll y does
+not r epl ac e human l abor but r ather r ec onfig ur es what c ounts a s work .
+This body of work r ec ogniz es AI a s c entr a l t o their ana l y sis. How AI bec ame c ap abl e of cr e ating socia l
+chang e is most l y addr es sed thr ough r ef er enc e t o a lg orithms, which c an be defined a s the main c omponents
+that g uide AI s y st ems t o desir ed out c omes (L upt on, 20 15; Sheikh et a l ., 20 2 3) and their power t o shape
+v arious socia l spher es. Sociol ogists and socia l theorists c onsider a lg orithms a s entities that c ontr ol and
+sort dat a sets, pos ses sing distinct c ont e xts, a ll owing AI t o mak e judgments and perf orm c ert ain actions
+b a sed on these c ont e xts (Beer , 20 13; 20 17). Alg orithms act a s “filt er bubbl es ” , t echnol ogic a l thing s that decide
+what Int ernet user s will enc ount er b a sed on inf ormation such a s l oc ation, clicking beha vior , and se ar ch
+hist ory (P ariser , 20 1 1, 20 13). This pr oc es s r esults in a lg orithms sorting, filt ering and sugg esting what peopl e
+shoul d list en (Air ol di et a l ., 20 16; K ar ak a y a li et a l ., 20 18), what news the y shoul d r e ad (Bucher , 20 12; Rieder ,
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  4
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+20 17), who the y shoul d meet , flirt and f a ll in l o v e with (Sl at er , 20 13) and so on. Thr ough a lg orithmic power ,
+the a s ymmetric power r el ations in societies ar e r epr oduc ed. Lif e itself bec omes a lg orithmic . In the end,
+a lg orithms bec ome the deciding p arts of the c odes that mak e up the AI s y st ems, g aining a socia l and politic a l
+char act er in this pr oc es s (Beer , 20 13; 20 17; Air ol di, 20 22).
+Although making subst antia l c ontributions, the af or ementioned studies do not  turn the sociol ogic a l l ens
+ont o the making of AI itself . What r emains t o be ans wer ed ar e questions such a s how is AI cr e at ed? Which
+socia l int er actions oc c ur in this pr oc es s, f or e x ampl e , who buil ds these s y st ems and f or whom ( Jo y c e et a l .,
+20 2 1)? Which socia l f or c es ar e s a lient ? What is the int er section of AI pl atf orms with these power s (Burr ell
+& F our c ade , 20 20)? Socia l scientific r ese ar ch on AI f oc uses on a pr e -c onc eptualiz e d  machine int ellig enc e ,
+identifying its use and societ a l imp act , r ather than shifting the l ens t o in v estig at e the ec os y st em of humans
+and nonhumans c onstituting AI ( Jat on, 20 20; K a ja v a & Sha wne y , 20 2 3). This, c an be s aid in a sociol ogic a l
+sense , is bl ack bo xing r e dux .  As P a squa l e st at es, op aque a lg orithms and AI s y st ems ar e c onc eptua liz ed
+a s bl ack bo x es thr oughout societ y , unc ompr ehensibl e f or non-e xperts of specific scientific fiel ds, thus
+bec oming t echnic a l entities r esiding in their own domain, f ar fr om societ y (P a squa l e , 20 15). In this sense ,
+bl ack bo xing r e dux  is what happens in pr e vious sociol ogic a l studies of AI bec ause the question of the v a lues
+embedded in AI pr oc es ses is not adequat el y e xpl or ed. Sociol ogists br ack et the AI s y st em, f oc using on its
+eff ects r ather than its c onstruction. In this p aper , we f oc us on the sociol ogic a l dimensions of AI itself . R ather
+than highlighting the eff ects of AI use on societ y , we in v estig at e the v ery v a lues and politics that c o-pr oduc e
+AI, music , and cr e ativit y . W e do this b y dr a wing on scienc e and t echnol ogy studies theories and methods.
+Scienc e and t echnol ogy studies (S T S) unl ock the bl ack bo x of AI bec ause it off er s an appr o ach that
+f oc uses on the t echnol ogy itself a s the object of study . E mer ging in the 19 7 0s in div er se sit es, S T S c a lls f or
+socia l scienc es t o e x c eed the dichot om y between t echnol ogic a l and socia l , empha sizing the sociot echnic a l
+natur e of t echnol ogy (Sismondo , 20 10). Built on the work s of schol ar s lik e Har a w a y ( 199 1), Akrich ( 199 2),
+L at our ( 199 3; 199 4; 2000; 2005), C a ll on ( 1984; 199 7), L a w (C a ll on & L a w , 199 7), and W oolg ar (W oolg ar , 1985;
+L at our & W oolg ar , 19 7 9), S T S c a lls f or a dep artur e fr om c on v entiona l sociol ogic a l studies of a t echnol ogy’ s
+imp act t o studying how v a lues and politics c omprise the design and use of a t echnol ogy . U sing S T S demon-
+str at es how AI is a sociot echnic a l s y st em, c onsisting of humans, non-human act or s, dat a and a lg orithms
+( Jat on, 20 20; R ober g e & C a st ell e , 20 2 1; Jo y c e et . a l , 20 2 1; K a ja w a & Sha wne y , 20 2 3). In other wor ds, S T S t ak es AI
+int o the c ent er of ana l y sis, r ather than c ompr ehending it a s a me ans in human- t o-human r el ations in wider
+socia l c ont e xts. It off er s a t oolbo x f or sociol ogy b y r ef ormul ating the question fr om how AI is embedded
+in socia l t o how socia l is embedded in AI, thus off ering insights int o the v a lues and politics that c onstitut e
+p artic ul ar AI s y st ems.
+W e use Act or -Network Theory (ANT) a s the main theor etic a l l ens. As f amousl y not ed b y L at our , what
+we c a ll societ y is a network c onsisting of network s which ar e popul at ed b y humans and nonhumans a lik e
+(L at our , 199 3; 2005). T aking an ANT appr o ach me ans identifying the human and non-human act or s that bring
+a p artic ul ar t echnol ogy or scientific cl aim int o being. Deb at es on ANT ar e not full y sett l ed t o this da y a s
+schol ar s question and criticiz e its methodol ogic a l and theor etic a l short c oming s. Such criticisms f oc us on
+how ANT a s sumes humans ar e r ationa l act or s and how ANT o v erl ook s the unique a spects of human a g ency
+in f a v or of nonhumans, thus, r educing socia l phenomena t o int er actions between act or s and negl ecting the
+br o ader socia l c ont e xts and power r el ations indispens abl e f or societies t o oper at e (F ine , 2005; Gill e , 20 10;
+Whit e , 20 13).
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  5
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+Be aring these criticisms in mind, we adv anc e ANT b y c ombining its unique f oc us on human and nonhu-
+man act or s with a sociol ogic a l ana l y sis of the br o ader socia l f or c es that imp act act or s in the cr e ation of AI
+music -r el at ed pl atf orms. In doing so , we c ombine the rich insights of sociol ogy with S T S ’ s empha sis on the
+t echnol ogy itself a s the object of ana l y sis. In doing so , we cha ll eng e bl ack bo xing r e dux .  W e theoriz e AI a s a
+network c onsisting of peopl e , a lg orithms, dat a, belief s, ideol ogies and t echniques t o pr o vide a sociol ogic a l
+under st anding of the v a lues and politics that c o-c onstitue the AI pl atf orms r el at ed t o music .
+D at a and Method
+This study aims t o illuminat e the embedded socia l , politic a l and ec onomic power r el ations that shape
+AI de v el opment . In a lignment with the aim of this study , we f oc us on the de v el oper s of AI and a lg orithms,
+in p artic ul ar t o music c omposition a lg orithms that ar e writt en, c oded and depl o y ed b y AI pr actitioner s. As
+mentioned abo v e , we off er an under st anding of AI a s a network c onsisting of softw ar e/ c omput er engineer s,
+a lg orithms, dat a and pr ogr amming l ang ua g es (softw ar es). F inding s indic at e that the de v el opment of AI is
+a multif ac et ed pr oc es s c onsisting of c ompl e x l a y er s of int er actions between humans and nonhumans, who
+ar e both be ar er s and at the s ame time , c onsequenc es of c ert ain v a lues, belief s and ideol ogies embedded
+within them. In this c ont e xt , qua lit ativ e methods, which ar e useful t o describe and under st and how socia l
+int er actions c onstitut e phenomena (Marv a sti, 200 3) f orms the b a sis of the r ese ar ch.
+A purposiv e s ampling method w a s empl o y ed t o r ecruit p articip ants with e xpertise in AI de v el opment
+f or music , ensuring that the dat a c oll ect ed w a s rich in r el e v ant insights. The r ese ar ch includes in-depth
+int erviews with 20 softw ar e/ c omput er engineer s with at l e a st a Ma st er ’ s degr ee in the fiel d, a ll r esiding in
+the U S A , suppl ement ed b y fiel dwork at AI music c onf er enc es and work shops. T o obt ain in-depth qua lit ativ e
+dat a, engineer s specific a ll y in v ol v ed in designing music c omposition a lg orithms wer e sel ect ed a s p artici-
+p ants. No g ender or a g e quot a s wer e applied. 14 of the 20 p articip ants identified a s men and 6 of the 20
+p articip ants identified a s women, r epr esenting the a s ymmetric g ender div er sit y of the fiel d (C hang, 20 19;
+C amper o , 20 2 1). 5 of 20 p articip ants work ed in the priv at e sect or and 15 of them wer e ac ademics. The primary
+dat a c oll ection t ool used in this study w a s semi-structur ed int erviews, chosen specific a ll y f or the method’ s
+suit abilit y in achie ving the pr oject ’ s descriptiv e and e xpl or at ory objectiv es. The int erview g uide includes
+questions c at eg oriz ed int o f our k e y t opics: the char act eristics of softw ar e/ c omput er engineering educ ation,
+the c onc eptua liz ation of AI and a lg orithms, AI de v el opment in action, and the int er section of AI and music .
+The int erview g uide w a s used with a ll int erviews. The int erviews had a dur ation of 4 5-60 minut es and wer e
+c onduct ed in per son. Bef or e the int erviews, a ll p articip ants wer e giv en adv anc ed inf ormation about the
+r ese ar ch and wer e pr o vided with an inf ormed c onsent f orm. Audio r ec or ding s wer e c onduct ed during the
+int erviews. Det ail ed not es wer e t ak en during int erviews with p articip ants who did not pr o vide c onsent f or
+audio r ec or ding. E thics c ommitt ee appr o v a l w a s obt ained bef or e the r ese ar ch. Int erviews wer e c oded f or
+r eoc c urring themes and s atur ation of r eoc c urring themes w a s r e ached.
+In the ne xt section, we describe how engineer s ima gine AI and how the y under st and the pr oc es s of
+cr e ating c ode f or an AI s y st em. Thr oughout the int erviews, engineer s r epe at edl y highlight ed AI and the
+decisions the y made in t erms of the choic e of tr aining dat a a s a t echnic a l matt er with litt l e under st anding
+or int er est in the socio-politic a l dimensions of their work . Ana l y sis of int erview dat a a lso r e v e a ls the k e y
+human and nonhuman act or s in the cr e ation of AI pl atf orms.
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  6
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+F inding s
+Ima gining AI: Expl oring the P er spectiv e of AI P r actitioner s
+Acr os s a ll of our int erviews, engineer s ima gined and c onc eptua liz ed AI a s a highl y t echnic a l s y st em. When
+disc us sing their choic es when cr e ating an AI s y st em, p articip ants r epe at edl y r ef err ed t o a desir e t o incr e a se
+ac c ur acy and efficiency — two k e y v a lues of engineering. Alg orithms and tr aining dat a, the main p arts that
+bring AI int o being ar e under st ood thr ough the l ens of the t echnic a l , ac c ur acy , and efficiency . P articip ants
+do not see their decisions (or the imp act of their decisions) a s socia l .
+When a sk ed t o describe the t erms AI, a lg orithms and dat a in their own t erms, without using t e xtbook
+definitions, engineer s —usua ll y aft er a l ong p ause whil e the r espondent c onsider s the question, and aft er
+the c ommon phr a se of “ this is actua ll y a gr e at question, I ha v e ne v er defined it in m y own wor ds ” - t end
+t o giv e an e xpl anation that highlights AI a s an ac c ur at e , efficient machine . One r espondent e x emplifies this
+when he e xpl ains, “It is actua ll y a s y st em that appr o ximat es human beha vior in the most ac c ur at e w a y . It ha s
+a lg orithms, b a sed on c ert ain mathematic a l models which charts the w a y f or the s y st em t o f oll ow and dat a,
+which is the sour c e that these a lg orithms pr oc es s and pr ob abilit at e th out c omes ” (P 3, Ac ademic). Another
+r espondent lik ened AI t o a c ar , “ The thing about AI is, it is actua ll y a c at eg ory of c omput ationa l s y st ems
+ha ving a g o a l t o mimic humans. Y ou ha v e y our a lg orithms a s the engine of AI and the dat a, that is the fuel
+f or y our engine . Think of AI a s a c ar , when fuel is not efficient l y pr oc es sed b y the engine , y ou ar e l eft in a
+desp ar at e situation. Either y ou c annot c ompl et e y our tr a v el fr om y our point of dep artur e t o y our arriv a l , or
+y ou do it in an undesir ed w a y , the c ost of y our tr a v el might e x c eed y our mone y or y ou might end up ther e
+l at e . Y ou l ost mone y , y ou l ost time . (…) It is the s ame thing with ML pr ojects, y ou need t o efficient l y pr oc es s
+the dat a t o ha v e the most ac c ur at e out c ome ” (P 6, C omp an y owner). Her e a g ain, we see the ent angl ement of
+the t echnic a l with ac c ur acy and efficiency .
+Ac c ur acy is oft en int ertwined with efficiency , a s it is c ommonl y r ef err ed t og ether with mathematic a l and
+st atistic a l models that c a ll f or a c ert ain degr ee of e xpertise in natur a l scienc es, which ha s a f oundationa l
+eff ect on the per c eption of pr ecision and efficiency in the worl d of engineering (Nobl e , 19 77; L uc ciarr elli,
+199 4; Newberry , 20 15). In a sense , efficiency l a y s the gr oundwork f or ac c ur acy in AI s y st ems. P articip ants
+o v erwhelmingl y not ed that when it is efficient and ac c ur at el y meets the need, AI is working c orr ect l y .
+E fficiency , the main v a lue of cl a s sic a l engineering (F aulkner , 20 15; Newberry , 20 15), is r epr oduc ed in softw ar e
+engineering a s well .
+When a sk ed what a lg orithmic bia s is, 14 of 20 p articip ants empha siz ed the t echnic a l and its c onnection t o
+ac c ur acy . One p articip ant not ed, f or e x ampl e , “I me an, [a lg orithmic bia s] is simpl y a de viation, the a lg orithm
+doing thing s in a w a y that y ou don ’ t e xpect it t o do . It de viat es fr om y our w a y , y ou know ? R esulting in an
+undesir abl e out c ome that might t ak e l ong er t o g et or with r educ ed ac c ur acy , something lik e that ” (P 10,
+P riv at e Sect or). When a sk ed if the y pr o vided a t echnic a l or socia l description of a lg orithmic bia s and wh y
+that description c ame t o their mind, the s ame p articip ant ans wer ed right a w a y , with a cl e ar , one-wor d
+ans wer f oll owed b y an int er esting question: “ T echnic a l . (…) What is [a lg orithmic]  bia s in sociol ogy ? Y ou g uy s
+know how t o c ode ?!” (P 10, P riv at e Sect or). F or our p articip ants, the peopl e who writ e , c ode and de v el op
+a lg orithms, a lg orithmic bia s is a s y st ematic de viation, a set of err or s and l oops that hinder s the efficiency
+of the out c omes of a lg orithmic dat a pr oc es sing (D ank s & L ondon, 20 17; F az elpour & D ank s, 20 2 1)
+K e y finding s indic at e that the per c eption of engineer s on AI is he a vil y shaped b y a t echnic a l -r ationa l
+worl dview , underlining efficiency a s both the main v a lue in engineering and the main g o a l t o be achie v ed
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  7
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+in AI s y st ems. In this r eg ar d, the finding s a lign with pr e vious r ese ar ch on engineer s, which show that the
+driv e f or efficiency is an indispensibl e p art of engineering identities built on a t echnic a l/ socia l dichot om y
+(Hughes, 1986; Buc ciar elli, 199 4; Newberry , 20 15). In pr actic a l t erms, inc orpor ation of this dichot omic natur e
+of engineering subt l y dict at es softw ar e engineer s t o c onc eptua liz e AI a s a t echnic a ll y mediat ed, ac c ur at e and
+efficient t echnol ogy f or dat a pr oc es sing, oft en o v erl ooking the socia l a spects that c onstitut e this t echnol ogy ,
+in the end, juxt aposing them with the t echnic a l a spects of AI r ather than the socia l a spects a s t ech e xperts
+with a limit ed under st anding of the socia l a spects. The f oll owing section will pr esent how engineer s per c eiv e
+g ener ativ e AI and dat a sets in their own work .
+Sidekick or an Unlik el y Her o ? E ngineer s ’ Int erpr et ation of Gener ativ e AI P l atf orms in
+Their W ork s
+AI de v el opment c an be br ok en down int o two pha ses: a lg orithm c oding and tr aining. In or der t o under-
+st and the initia l c oding pha se , p articip ants wer e a sk ed t o pr o vide a chr onol ogic a l e xpl anation on how the y
+c ode and tr ain a lg orithms in their work . 15 out of 20 p articip ants st at ed that , at the v ery beginning of AI
+de v el opment , the y use g ener ativ e AI softw ar e t o g ener at e c ode f or a specific pr oject . F or the engineer s that
+we int erviewed, g ener ativ e AI, in p artic ul ar C hatGP T , w a s an import ant member of their t e am. The y oft en
+beg an the c oding pr oc es s b y c onsulting C hatGP T and then woul d g o b ack and f orth with C hatGP T a s the y
+c ontinued t o r efine the c ode . A p articip ant e x emplified this p att ern when he e xpl ained, “F ir st thing I do .
+Hmm… F ir st , I g o and a sk C hatGP T how t o writ e the c ode in the [c oding] l ang ua g e that I am using, ha v e m y self
+a solid gr ound t o work on. ” (P 1, Ac ademic).
+F ig ur e 1
+E ngine er E mpl o ying C hatGP T as a knowl e dge sour c e (P 13, Ac ademic)
+When a sk ed wh y the y used C hatGP T , p articip ants oft en e xpl ained that “it is a time s a v er ” a s the y oft en
+r ef err ed t o mark et needs on being time and l abor efficient a s a must . A p articip ant e x emplifies this p att ern
+when she not es, “ Y ou know , actua ll y nobody c odes fr om scr at ch an ymor e . It s a v es y ou so much time using
+C hatGP T and C opil ot . In our c omp an y , we use C hatGP T a s a t ool t o sk et ch ide a s and C opil ot t o writ e c odes
+f a st and c ompl et e . Sometimes it will t ak e da y s or e v en week s t o find an err or in y our c ode and c orr ect it . If
+y ou do it on y our own, y ou ha v e t o g o thr ough thous ands of lines [of c odes], map them and det ect err or s.
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  8
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+This is a f a st -gr owing industry ; y ou actua ll y r ac e a g ainst time in c ompl eting a pr oject . [U sing AI] is a must in
+this busines s, if I am t o be honest ” (P 6, C omp an y owner).
+F ig ur e 2
+E ngine er pr o viding det ails f or C hatGP T t o make it writ e the c ode (P 13, Ac ademic)
+All p articip ants (20 out of 20) r eport ed using C hatGP T t o sort out err or s in the c ode . Ag ain, the r e a son
+f or using C hatGP T w a s r el at ed t o achie ving maximum time efficiency . Ex emplifying this r esponse among
+p articip ants, one not ed, “Mor e oft en than not , the c ode ha s some err or s and fl a ws in it (…) In a l ar g e sc a l e
+pr oject , y ou ha v e ma ybe t ens of thous ands of lines of c ode writt en t o g et y our a lg orithm t o work . It is lit er a ll y
+impos sibl e t o g o b ack , find the err or , c orr ect it and try giving it a g o a g ain, bec ause ther e will a lw a y s be
+err or s. If y ou try t o do it on y our own y ou will need the whol e time in the worl d!” (P 13, Ac ademic).
+E ngineer s t end t o not question what v a lues ar e embedded in C hatGP T and other g ener ativ e AI pl atf orms.
+When a sk ed if the y know how C hatGP T work s and what eff ects it might ha v e on their pr ojects, a ll p articip ants
+r eport ed that the y do not know how C hatGP T work s. As one p articip ant st at ed, “No one knows how C hatGP T
+work s. Y ou c an onl y a s sume it . OpenAI does not discl ose [the t echnic a lities of ] its models and the truth is,
+e v en if the y went a ll -open, it is t oo c ompl e x t o under st and how a s y st em that big work s. (…) But the most
+import ant thing is that : their models ar e tr ained on c ert ain dat a bef or e the y ar e out and the y ar e not open
+on which dat a it is and how the y c oll ect ed it ” (P 4, Ac ademic).
+Thr oughout the int erviews, it is observ ed that the driv e f or achie ving maximum efficiency ha s bec ome the
+ma jor v a lue f or engineer s ’ per c eption of the t echnol ogies the y both cr e at e and use . As the pr e vious section
+ha s highlight ed, the eff ect of the efficiency -driv en char act er of engineering identities ha s a c onstitutiona l
+eff ect on how engineer s per c eiv e AI. Their per c eptions of the use of g ener ativ e AI pl atf orms in their work s
+show a diff er ent a spect of efficiency f etishism. E ngineer s empl o y C hatGP T in their work s t o meet the mark et
+demands, which the y c onc eptua liz e a s a highl y c ompetitiv e one . C hatGP T giv es them a t ool , or a sour c e
+of knowl edg e , t o efficient l y c ompl et e their work s in a time and l abor efficient w a y that the fiel d itself
+demands. At the int er section of efficiency -b a sed engineering identities (Newberry , 20 15; F aulkner , 20 15) and
+the a lienating eff ect of the t ech-driv en pur suit of efficiency c onstituting the mark et/ fiel d (Br a v erman; 19 7 4;
+Marx , 199 2/ 186 7), p articip ants ’ view of C hatGP T det aches the pl atf orm fr om its socia l a spects, r educing it
+t o a mer e t echnol ogy used f or efficient l y handling busines s. The socia l is o v erl ook ed in f a v or of efficiency
+onc e mor e .
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  9
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+F uel f or the Machine: How Do E ngineer s Int erpr et D at a sets in Their W ork ?
+The sec ond pha se of AI de v el opment in v ol v es using dat a sets t o tr ain a lg orithms t o identify p att erns. T o
+under st and the tr aining pha se and how engineer s per c eiv e dat a sets, the y wer e a sk ed t o e xpl ain what dat a
+is and how the y use it in their work . When thinking about the tr aining dat a, the p articip ants empha siz ed
+appr o ximation and c onsist ency . As one p articip ant not ed, dat a is a clust er of knowl edg e that needs t o be
+pr oc es sed with c orr ect t echnic a l appr o aches:
+“D at a is b a sic a ll y appr o ximating what we do not know . T o mak e sense of it , y ou use c ert ain ML methods
+t o pr oc es s the dat a and the a lg orithms st art t o l e arn and discriminat e between what dat a hol ds. Y our model
+must meet the dat a [it pr oc es ses], that is the main point of AI de v el opment ; finding the right appr o ach t o
+dat a ” (P 1, Ac ademic).
+P articip ants wer e a sk ed if the y use their own dat a or r e ady dat a sets pr o vided b y c ert ain c ommunities or
+c orpor ations. In a ll c a ses, p articip ants st at ed that the y do not use their own dat a but inst e ad used dat a sets
+fr om other sour c es. When a sk ed which dat a sets the y mainl y use in their music AI work s, ans wer s pr o vided b y
+the v a st ma jorit y of p articip ants show that dat a sets utiliz ed a s the main sour c e of tr aining dat a b y engineer s
+who aim t o de v el op music c omposition a lg orithms actua ll y r esembl e a monopol y in the fiel d of music AI:
+“LAKH and Wikif onia ” (P 2, Ac ademic).
+“LAKH, mainl y . Wikif onia is a lso g ood” (P 1 1, P riv at e Sect or).
+“LAKH and sometimes Music2 1” (P 4, Ac ademic).
+The most mentioned dat a set emer g ed a s LAKH. It ha s a description on its websit e a s “ the L akh MIDI
+dat a set is a c oll ection of 17 6. 58 1 unique MIDI fil es, 4 5. 12 9 of which ha v e been mat ched and a ligned t o entries
+in the Million Song D at a set ” . Ba sic a ll y , this dat a set ha s appr o ximat el y 180. 000 sound entries and a lmost
+46. 000 of them ar e a ligned t o Million Song D at a set , f e aturing the met adat a of a million c ont empor ary song s.
+As mentioned abo v e , this r esembl es a monopol y ; one dat a set dominating the fiel d of music AI.
+When p articip ants wer e a sk ed if the y ha v e an opinion on wh y c ert ain dat a sets ar e dominating the fiel d of
+music AI, none of the p articip ants pr o vided a cl e ar ans wer a s it is seen that the y int erpr et ha ving pr emade
+dat a sets a s a c on v entiona l w a y of doing work , pr o viding c onsist ent dat a f or their AI models. This situation
+is e x emplified in t erms of c onsist ency b y the engineer s, l e aning on qua lities a s ses sed with t echnol ogy onc e
+mor e . In other wor ds, the t echnic a l -r ationa l worl dview of engineering is a g ain at pl a y in c onc eptua lizing and
+using tr aining dat a in AI. When a sk ed wh y the y buil d AI models on other peopl e ’ s dat a sets, the ma jorit y
+of p articip ants point ed out t o the c onsist ency the y ar e trying t o achie v e , using t erms “input ” and “ output ”
+most l y . F or p articip ants, the g o a l is t o g ener at e c onsist ent models that woul d t ak e dat a a s input and pr o vide
+‘me aningful ’ outputs. A p articip ant illustr at es this point of view when he e xpl ained, “ Think it a s this: y ou
+ha v e y our input , which is dat a and y our end g o a l is ha ving me aningful outputs b a sed on this input , lik e
+estimations. Y ou might think this a s the human mind; this is c off ee , what ’ s me aningful f or me is the t a st e of
+c off ee , not its c ol or , right ? This is wh y y ou st art b y deciding on y our dat a. If y ou wish t o ha v e an opinion on
+c off ee , y ou need t o l e arn what c off ee t a st es lik e in or der t o det ermine which one is best f or y ou. If y ou try
+t o estimat e c off ee b y its c ol or , it won ’ t do an ything g ood, right ?” (P 16, Ac ademic).
+When pr es sed t o think about how inequa lities ar e built int o tr aining dat a, p articip ants r eport ed that
+a lg orithms without bia s is a non- achie v abl e ide a l sinc e it is impos sibl e t o ha v e unbia sed dat a t o tr ain
+a lg orithms and AI s y st ems. Mor eo v er , e v en if ther e is an AI s y st em running on a lg orithms fr ee of bia s, the
+s y st em will not r efl ect the actua l worl d, making it both l es s ac c ur at e and l es s useful . As one p articip ant
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  10
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+e xpl ained, “Unbia sed AI s y st ems or a lg orithms in t erms of that is not achie v abl e . Wh y , y ou a sk ? It is simpl e
+bec ause the tr aining dat a is bia sed. It is human dat a. So , humans ar e bia sed, right ? W e c annot e xpect t o ha v e
+unbia sed dat a fr om humans. In theory , fir st , y ou’ll need the dat a of a ll peopl e who ar e actua ll y pr esent in the
+worl d. Sec ond, y ou’ll need ma ybe thous ands of months, ma ybe y e ar s t o l abel these dat a ac c or dingl y . Thir d,
+ther e is no c omput er that c an actua ll y pr oc es s that amount of dat a, ma ybe with quantum c omput er s in the
+futur e , but not t oda y . Also , what is the point of that ? If we c an do that , we do not need AI” (P 7, Ac ademic).
+Aft er being a sk ed if the y know who made the dat a sets the y use in their work and the origin of the sounds
+in the dat a sets, a ll p articip ants r eport ed that the y did not know who made their dat a set , the dat a set ’ s origin,
+if musicians wer e in v ol v ed in the cr e ation of the dat a set and if ther e wer e an y c op yright is sues. Not onl y did
+the y not know about these is sues, the y wer e a lso not ma jor c onc erns. Ex emplifying this per spectiv e , one
+p articip ant not ed, “it is open sour c e , an y one c an c ontribut e t o it . C an be a musician or not , it is b a sed on a
+digit a l f orm of sound so it is not actua ll y sound. (…) C op yright is a har d thing, a big is sue in music AI. Y ou
+c annot use lic ensed c ont ent in y our work . But peopl e a lw a y s find a w a y [t o short cir c uit lic ensing is sues]
+(l aughs)” (P 6, C omp an y owner).
+F or p articip ants, tr aining dat a is a clust er (or man y clust er s) of inf ormation, which pr o vides the b a sis f or
+AI—it needs t o be pr oc es sed using c orr ect t echnic a l t ools and appr o aches t o achie v e c onsist ent out c omes.
+The t echnic a lit y imbued worl dview of engineering seems t o ha v e a crucia l eff ect on how engineer s
+per c eiv e dat a, a s in engineer s ’ minds, it is det ached fr om its socia l and politic a l a spects and r educ ed
+t o a t echnol ogic a l t ool t o achie v e the best pos sibl e out c omes with maximum c onsist ency and efficiency .
+Although p articip ants r ec ogniz e the politics of dat a sets when pr es sed, the y c onsider this is sue a s outside
+their purview . In the ne xt section, we will pr esent an ana l y sis of AI a s a network c onsisting of humans and
+nonhumans, showing how the y c o-c onstitut e AI t og ether with c ert ain ideol ogies embedded in.
+Under st anding AI thr ough Act or Network Theory (ANT)
+Thr ough the ana l y sis of the int erview dat a and fiel dwork not es, an under st anding of the act or s in the AI
+network emer g es. In a sociol ogic a l sense , working with g ener ativ e AI c an be under st ood a s the fir st st ep of
+the pr oc es s of AI being f ormed a s a network . Gener ativ e AI pl atf orms, in p artic ul ar C hatGP T , ar e empl o y ed a s
+sour c es of knowl edg e b y p articip ants in their network s. As described in ANT , nonhuman act or s (act ants) in a
+network g ain a g ency thr ough their c ap acit y t o manipul at e and chang e human action (L at our , 199 3; 2005). In
+the c ont e xt of AI, a g ency in a network is defined b y its c ap acit y t o c onnect the other act or s t og ether ( Jat on,
+20 20). AI int erv ention does not st op ther e , though. E mpl o y ed at the beginning, g ener ativ e AI bec omes a
+p articip ant in the pr oject a s it is used b y p articip ants t o c orr ect mist ak es and debug the a lg orithm. In the
+pr oc es s, thr ough a set of int er actions b ack and f orth, g ener ativ e AI bec omes a p articip ant of the network ;
+human and machine a g ency working t og ether , lines blurring, with a new , sociot echnic a l h ybrid f ormed
+(L at our , 199 3, 2000; 2005).
+As ANT pr o vides the nec es s ary c onc eptua l fr amework and t ools t o depict how this h ybrid network , one
+c omprised of human and nonhuman act or s, is f ormed, a k e y sociol ogic a l question r emains unans wer ed
+sinc e it does not question if nonhumans in network s ha v e a socia l and politic a l char act er embedded in
+them or how these act or s politic a ll y shape the network (F ine , 2005; Gill e , 20 10; Whit e , 20 13). T o adv anc e ANT ,
+both human and nonhuman act or s that f orm the network shoul d be addr es sed in t erms of the f oll owing
+questions. How does the int er action between engineer s and g ener ativ e AI aff ect the pr oc es s of AI de v el-
+opment ? How ar e socia l f or c es embedded in the network and who (a s human and nonhuman) bring s what t o
+the network ? C apit a lism is a c entr a l c ont e xt that shapes the de v el opment of AI (Gr a y & Suri, 20 19; C r a wf or d,
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  1 1
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+20 2 1; O z er et a l . 20 2 4). E fficiency , which is ana l yz ed a s a c entr a l theme and one of the f ounding v a lues of
+c apit a lism (Marx , 199 2/ 186 7), is crucia l t o this c ont e xt .
+Studies on g ener ativ e AI ha v e shown that man y questions still need t o be ans wer ed in t erms of what
+v a lues ar e embedded in these t echnol ogies. Ba sed on an e xt ensiv e lit er atur e r e view , some schol ar s ha v e
+observ ed se v en c ontr o v er sies and risk s g ener ativ e AI t echnol ogies, including a) no r eg ul ation in AI mark et ,
+b) l ack of qua lit y c ontr ol and a lg orithmic bia s, c c) job displ ac ement , d d) per sona l dat a viol ation and
+surv eill anc e e) socia l manipul ation and we ak ening ethics, f f ) widening socio-ec onomic inequa lities, and g)
+AI-r el at ed t echnostr es s (W ach et a l ., 20 2 3). Ba sed on our observ ations, these c ontr o v er sies and risk s inc or-
+por at ed in g ener ativ e AI s y st ems ar e not unknown t o engineer s a s none of the p articip ants ha v e ans wer ed
+the question if ther e is a pos sibilit y of achie ving unbia sed a lg orithms. As mentioned abo v e , engineer s ar e
+a w ar e of a lg orithmic bia s, but the y c onc eptua liz e it in a diff er ent w a y than sociol ogists, underlining the
+t echnic a lities intrinsic t o the fiel d. This c onc eptua liz ation, c ombined with the driv e f or efficiency , mak es
+engineer s empl o y g ener ativ e AI in their network a s a sour c e of knowl edg e , or e v en a t e ammat e without an
+e xt ensiv e c onsider ation of its socia l and politic a l char act eristics with c apit a list v a lues embedded in them.
+C onsequent l y , g ener ativ e AI bec omes an act or in AI de v el opment . It c an be c onsider ed a s a mediating
+act ant in t erms of ANT , manipul ating and a lt ering human action on the c our se , r esulting in a pr oc es s that
+diff er s fr om what woul d ha v e happened without their int erv ention (L at our , 199 3; 2005). E ngineer s empl o y
+g ener ativ e AI t o s a v e time and achie v e maximum efficiency , with AI g aining a g ency in t erms of amplifying
+human action with its speed. The fina l pr oduct will not be the s ame if ther e w a s no int erv ention fr om g ener-
+ativ e AI a s it acts a s a sour c e of knowl edg e t o engineer s, charting the w a y f or AI de v el opment . In this sense ,
+the lines between human and machine ar e blurr ed, thus cr e ating a sociot echnic a l h ybrid (L at our , 2000;
+2005; Jat on, 20 20). At the int er section of c apit a list v a lues such a s meeting mark et demands, e xpl oit ation of
+l abor and dat a viol enc e , the s acrific ation of ethics f or the need t o achie v e maximum efficiency and pr ofit
+embedded within both human and nonhuman act or s, the network bec omes a c o-pr oc es s of humans and
+nonhumans, oper at ed b y the c apit a list driv e of efficiency acting a s the f oundationa l v a lue . In this sense ,
+engineer s adopting the worl dview of engineering bec ome the de ac ons of c apit a lism (Nobl e , 19 77) embedded
+in t echnol ogic a l efficiency and neutr a lit y (F aulkner , 20 15; Newberry , 20 15). One crucia l p art of AI must be
+addr es sed in t erms of these t o full y under st and this network , that is, tr aining dat a, the fuel f or the AI engine .
+The AI network c ontinues t o e xp and b y including tr aining dat a t o f eed the a lg orithms aft er the initia l
+c oding pha se . Ther e ar e two main a lg orithm tr aining appr o aches in ML methods. The fir st is r einf or c ement
+l e arning, in which a lg orithms tr ain under human supervision, and the sec ond is pr of oundl y named a s deep
+l e arning, which empl o y s l ar g e number s of l abel ed dat a induct ed int o AI a lg orithms t o mak e them l e arn
+on their own (Sheikh et a l ., 20 2 3). Besides t echnic a lities, dat a c an be a s ses sed a s the p art that det ermines
+what an AI a lg orithm will l e arn. In sociol ogy , dat a is widel y c onsider ed a s how high- t ech empir es built
+on e xpl oit ation of l abor of man y peopl e making litt l e or no mone y f or l abeling v olumes of dat a used in
+tr aining a lg orithms (F uchs, 20 10; Gr a y & Suri, 20 19; Mühlhoff ; 20 20) and how c ultur a l bia s is tr ansmitt ed int o
+AI s y st ems (K atz, 20 20; Air ol di, 20 22).
+In t erms of ANT , dat a bec omes y et another non-human act or in the network , pl a ying its r ol e in shaping
+the network . The dat a set functions a s a c ompr ehensiv e r eposit ory of music a l c ompositions that shape the
+a lg orithm ’ s adv anc ement and influenc e the a lg orithm ’ s under st anding of music theory and structur e , a s
+well a s its abilit y t o g ener at e c ompositions. Inc orpor ating these dat a sets int o the de v el opment pr oc es s
+r equir es b a l ancing the int er ests of the softw ar e engineer , the a lg orithm, and the dat a set . The engineer needs
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  12
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+t o a s ses s the dat a set ' s appr opriat enes s f or their g o a ls, adjust the a lg orithm t o efficient l y l e arn fr om the
+dat a set , and the dat a set ' s c omposition imp acts the dir ection and empha sis of the de v el opment work . The
+use of dat a sets f or a lg orithmic tr aining signific ant l y aff ects the origina lit y and distinctiv enes s of the music
+it g ener at es; thus, it g ains a g ency in t erms of ANT (L at our , 199 3; 2005). It e x erts an influenc e on the cr e ativ e
+pr oc es s b y a s simil ating specific music a l inf ormation and pr ejudic es int o the a lg orithm, ther eb y aff ecting
+the fina l out c ome t o r efl ect the char act eristics of the dat a set . The network c ontinues t o e xp and with the
+addition of a new nonhuman act or . E ngineer , C hatGP T and dat a sets ar e now seem t o be mer g ed in one
+another , cr e ating the fina l f orm of the h ybrid AI network (L at our , 2005).
+As we na vig at e our w a y thr ough the c ompl e x r el ationships and int er actions c onstituting AI-in-pr actic e ,
+the c onc eptua l and methodol ogic a l t oolset of ANT made it pos sibl e t o depict the act or network of AI
+de v el opment . Her e we adv anc e ANT b y situating human and non-human act or s lik e engineer s, g ener ativ e
+AI and dat a sets within socia l f or c es such a s the ideol ogies of c apit a lism; the driv e f or efficiency , r ationa lit y
+and t echnic a lit y t o bring the unseen int o light . The r ese ar ch indic at es that c apit a lism is not the onl y power
+structur e at pl a y in the network . Ther e is one mor e power structur e embedded in the fina l pr oduct , the
+music c omposition a lg orithm itself : W est ern imperia lism.
+The c onc eptua liz ation of dat a a s a neutr a l t ool b y p articip ants poses a question that c an be briefl y
+f ormul at ed a s f oll ows: What kind of music do the y c ompose ? Is it bia sed? T o ans wer that question, p artic-
+ip ants wer e fir st a sk ed what kind of music their a lg orithms c ompose or tr anscribe best . All p articip ants
+g a v e the ans wer a s W est ern music , none of them mentioned an AI a lg orithm c omposing E a st ern music a s
+their work . As v a st l y e xpl or ed in the sociol ogy of music , music ha s been utiliz ed b y c ol onia l f or c es and the
+c apit a list elit e t o institutiona liz e W est ern imperia lism (Gilr o y , 1995; T urino , 2000) and c apit a lism (Adorno ,
+1988; 200 1/ 19 44) in societies, using instruments, music schools, musicians and the music itself a s a f orm
+of art .
+In or der t o elucidat e how these two ma jor socia l f or c es ar e embedded in the network of music AI, the
+p articip ants wer e a sk ed if it is pos sibl e t o c ompose non-W est ern music (lik e T urkish, P er sian, C hinese ,
+Indian music , r epr esenting the middl e or f ar E a st) using their a lg orithms. The main themes onc e mor e
+emer g e a s efficiency and c onsist ency of dat a and a lg orithm pr oduc e t og ether , showing the int ertwinement
+of c apit a lism and W est ern imperia lism in the network of AI:
+“Of c our se it won ’ t work c orr ect l y bec ause it is not b a sed on that music . [By that ]  I me an the dat a. T o
+c ompose g ood E a st ern music , y ou must tr ain y our model on E a st ern music dat a. It will be irr el e v ant I think ,
+a b ad song. ” (P 3, Ac ademic).
+This r eturns us t o the question of dat a and the eff ects of the socia l and politic a l char act er embedded
+within it . Ac c or ding t o the p articip ants, most dat a sets c omprise sound fil es r epr esenting W est ern popul ar
+music and r el at ed subg enr es a s dat a; in other wor ds, the abo v ementioned monopol y o v er dat a imbues
+it with W est ern music , inc orpor ating W est ern imperia lism within. Thus, imperia lism bec omes the politic a l
+char act er of dat a, which is tr ansmitt ed t o the AI network b y one of the act or s shaping it . The question, then,
+bec omes a s this: wh y is ther e not a r eliabl e sour c e of dat a f or non-W est ern music ? Y et a g ain, the int er section
+between ma jor socia l f or c es and act or s of AI network ar e at int erpl a y a s ans wer s pr o vided b y p articip ants
+mak e two themes emer g e r esting on embedded c apit a lism and imperia lism both in human and nonhuman,
+fir st being st andar diz ation:
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  13
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+“W ell , micr ot ona l music is diffic ult t o annot at e a s dat a, the c omma s mak e it har d [t o l abel and pr oc es s
+a s dat a]. Ther e ar e man y not es in E a st ern music . Some peopl e need t o dedic at e r e a l l abor t o this. This is
+the main r e a son [of l ack of non-W est ern music dat a] I think . ” (P 2, Ac ademic).
+F inding s indic at e that the main r e a son f or W est ern music being the dominant mode of music in music
+AI is cl osel y link ed with the r ationa liz ation of music . Opennes s t o st andar diz ation, which r ests upon or der ,
+pr edict abilit y and st abilit y in W est ern music harmonies and t ona lities, mak es W est ern music a r ationa liz ed
+institution, giving w a y f or it t o be the dominant mode of music both in the E a st and the W est , instilling
+c apit a list bur e aucr atiz ation and imperia list power structur es int o music (W eber , 1958/ 19 2 1). This sociol ogic a l
+f e atur e of W est ern music is c arried int o the digit a l worl d thr ough music c omposition AI a lg orithms, r epr o-
+ducing imperia lism in a digit a liz ed and subt l e mode .
+The sec ond theme , cl osel y int erlink ed with the st andar diz ation of music c omposed b y AI, c an be
+described a s g etting a ligned with c apit a list int er ests. When p articip ants a sk ed t o what is their end g o a l
+with their AI a lg orithms and if these t echnol ogies ar e c ap abl e of cr e ating artistic music , the ans wer s ar e
+surprisingl y div er se , y et r esembling e ach other . E ngineer s t end t o cl a s sify artistic music a s a humane f orm
+of music , r efl ecting human cr e ativit y . What music AI c omposes is cl a s sified a s b ack gr ound or el e v at or music ,
+which is a f orm of c ommer cia l music used a s jingl es in st or es, TV series, or b ack gr ound music of an y kind.
+The end g o a l seems simpl e: selling big. One p articip ant who is a P hD student working a s a t e aching a s sist ant
+in a univ er sit y describes his g o a l a s f oll ows:
+“W ell , I do not g et p aid enough in m y job . Ther e is no mone y in the music busines s, though. My endg ame
+is selling m y pr oduct t o big c omp anies, this is how y ou g et p aid. Str e aming servic es, f or inst anc e , the y p a y
+g ood mone y f or jingl es, or st or es, ma lls, the b ack gr ound music . This is wher e the mone y is at ” (P 4, Ac ademic).
+The s ame g oes f or priv at e busines ses a s well :
+“Our aim is t o help peopl e cr e at e music , y es. But music AI is not at a l e v el that c an actua ll y g ener at e g ood,
+artistic music . It is used f or b ack gr ound music most l y ; the music y ou list en whil e shopping or an opening
+jingl e f or a TV series, ma ybe some atmospheric music in mo vies ” (P 10, C omp an y owner).
+Ac c or ding t o engineer s, AI is not c ap abl e of pr oducing artistic music , which sugg ests that “music” and
+“musicians ” ma y r emain l ar g el y unaff ect ed b y aut omation. Howe v er , questions r emain about the implic a-
+tions f or studio musicians — the oft en unseen c ontribut or s who cr e at e b ack gr ound music t ypic a ll y designed
+t o enhanc e an atmospher e or mood without dr a wing f oc us a w a y fr om the main activit y or setting, such a s
+in r est aur ants, st or es, or films and the musicians whose music ha s been annot at ed a s tr aining dat a t o f eed
+AI s y st ems. This r aises is sues about c apit a lism ’ s r ol e in the AI l andsc ape , with AI e xp anding l abor mark et
+tr ansf ormations cr e ating new socia l cha ll eng es and amplifying inequa lities (O z er et a l ., 20 2 4; Ac emoglu et
+a l ., 20 22) t o benefit c orpor at e int er ests. These cha ll eng es, besides the macr ostructur a l ec onomic chang es,
+mainl y st em fr om the c onc eptua liz ation of AI t echnol ogies b y AI pr actitioner s. As mentioned abo v e ,
+engineer s t end t o per c eiv e dat a pur el y a s a t echnic a l r esour c e , oft en o v erl ooking the c ompl e x ethic a l
+c onsider ations of st ak ehol der s. When a sk ed if the y wer e a w ar e of the ethic a l c onc erns a s sociat ed with the
+dat a sets used t o tr ain AI models, such a s is sues of c onsent and c ompens ation f or musicians, the r esponses
+wer e oft en v a g ue and ambiv a l ent . One engineer st at ed, f or e x ampl e , "I do not know , t o be honest . I see
+wher e y ou’r e c oming fr om—dat a priv acy is a c onc ern, y es… In short , y es, it is not pos sibl e t o g et c onsent fr om
+e v ery one , and ma ybe ther e ar e some peopl e—musicians —who might f eel upset about it " (P 1, Ac ademic).
+E ngineer s ’ f oc us on the t echnic a l a spects of t echnol ogies helps pr oduc e a l ack of att ention t o and knowl edg e
+about how t o na vig at e the ethic a l a spects of AI.
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  14
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+Mor eo v er , the is sue of c ompens ating musicians whose work is used a s tr aining dat a f or music AI a lso
+appe ar s unr esol v ed. When a sk ed if musicians wer e c ompens at ed f or their c ontributions t o tr aining dat a,
+r esponses oft en signa l ed ac c ept anc e of the l ack of p aid work . One p articip ant r emark ed, "W ell , of c our se ,
+not e v ery one ’ s g etting p aid. That p art is true . But no one is g etting p aid, man. I t ol d y ou bef or e , ther e is no
+mone y in the music busines s. Who ’ s g oing t o p a y the musicians ? Me ? I don ’ t g et p aid either!" (P 4, Ac ademic).
+In this c ont e xt , musicians ar e incr e a singl y bec oming a sour c e of l ow-c ost or unp aid l abor in the AI industry ,
+a shift that e x emplifies br o ader tr ansf ormations in l abor that e x ac erb at e inequa lities within the job mark et
+(O z er & P er c , 20 2 4). This dynamic mirr or s what Gr a y and Suri (20 19) describe a s "ghost work"— the oft en
+in visibl e , underv a lued l abor f or c e that supports AI s y st ems, l ar g el y unr ec ogniz ed and under c ompens at ed
+f or their c ontributions.
+Ultimat el y , music AI emer g es a s a highl y st andar diz ed pr oduct of an AI network , c o-pr oduc ed b y
+engineer s, g ener ativ e AI models, and dat a sets — a ll of which c arry embedded socia l and politic a l power
+dynamics in the f orm of v a lues and belief s. P rimaril y g ener ating W est ern-c entric popul ar music , music AI
+sociot echnic a l s y st ems r efl ect and r epr oduc e e xisting power a s ymmetries, subt l y r einf or cing the W est ern
+influenc e in the digit a liz ed music l andsc ape . This network of human and non-human c oll abor at or s is imbued
+with c apit a list v a lues, including efficiency , t echnic a lit y , and pr ofit maximiz ation. In this c ont e xt , the driv e
+f or maximum efficiency oft en super sedes ethic a l c onsider ations, r el eg ating musicians t o the in visibl e l abor
+f or c e , or "ghost work , " which c onstitut e music AI.
+C onclusion
+In this p aper , we in v estig at ed the pr oduction of AI a s a sociot echnic a l s y st em. T o under st and how AI is
+de v el oped and how it g ains its socia l and politic a l char act er , we utiliz ed ANT a s our theor etic a l fr amework ,
+sugg esting that AI c an not be under st ood sol el y b a sed on t echnic a l or socia l viewpoints. U sing ANT ’ s
+c onc epts of h ybridit y and network s shows how AI is de v el oped a s a network thr ough the int er c onnect ed
+work of both human and nonhuman act or s. T o adv anc e ANT in a w a y that c an ans wer macr o sociol ogic a l
+questions, we e x amined the socia l f or c es that c o-pr oduc e the int er actions of human and nonhuman act or s
+and the de v el opment of AI pl atf orms.
+Adopting this viewpoint showed that AI a lg orithmic bia s is not sol el y b a sed on engineer s ’ c ultur a l and
+politic a l dispositions. Inst e ad, bia s is pr oduc ed thr ough a c ompl e x set of int er actions between socia l c on-
+t e xts (e . g., c apit a lism and imperia lism) and human and nonhuman act or s. In the pr oc es ses of writing/ c oding
+and tr aining a lg orithms, nonhuman act or s such a s g ener ativ e AI and dat a sets pl a y a crucia l r ol e , mediating
+the pr oc es s we named a s AI network . E ngineer s, who ha v e adopt ed the main v a lues of c apit a lism such a s
+achie ving maximum efficiency , r eliabilit y and pr ofit , and pr omot e t echnol ogic a l neutr a lit y , utiliz e C hatGP T
+a s a sour c e of knowl edg e in the pr oc es s of AI de v el opment . This use in turn aff ects their modes of thought
+and pr actic es, cr e ating a h ybrid network in which human and machine a g encies bec ome ine xtr act abl e
+thr oughout c ontinuous int er actions. With C hatGP T , which is a lso a bl ack bo x t o engineer s, the AI network
+not onl y g ains its fir st nonhuman act or but thr oughout a ll these int er actions the v a lues and ideol ogies of
+c apit a lism ar e intr oduc ed int o the network , a lt ering the network’ s c our se of action t o prioritiz e the desir e
+t o achie v e maximum efficiency and pr ofit . With the intr oduction of homog eneous dat a sets, the network
+e xp ands not onl y b y being a h ybrid entit y with incr e a sed c ompl e xit y but a lso b y bringing imperia lism int o
+the network a s an embedded socia l f or c e . The end r esult : whether int entiona l or not , the music c omposition
+a lg orithm equa ls the v a lues, c our ses of action, and socia l and politic a l char act er s of c apit a lism, imperia lism,
+and the int er actions of human and nonhuman act or s.
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  15
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+This study c ontribut es t o the sociol ogy of AI lit er atur e b y pr o viding a fr amework f or sociol ogists t o open
+the bl ack bo x r edux of AI. T o help ima gine mor e just AI sociot echnic a l s y st ems, it is crucia l t o cha ll eng e the
+t echnol ogic a l/ socia l dichot om y and identify the v a lues and politics embedded in the choic es that c omprise
+the c ont ent and design of AI s y st ems. Thus, this p aper is a lso a c a ll f or sociol ogists t o eng a g e with S T S mor e
+and bring sociot echnic a l s y st ems int o question using sociol ogic a l methods. It is our hope that this p aper
+will serv e the c ommunit y of sociol ogy a s a st epping st one t o e xpl or e AI a s a network within diff er ent socia l
+c ont e xts other than the U S.
+E thics C ommitt ee Appr o v a l E thics appr o v a l w a s obt ained fr om Ay dın Adnan Mender es Univ er sit y Socia l and Human Scienc es
+Scientific R ese ar ch P ublic ation E thics Bo ar d (D at e: 0 1. 12.20 2 3, Decision: 0 9 / 18).
+Inf ormed C onsent C onsent w a s obt ained fr om the p articip ants ' p ar ents.
+P eer R e view Ext erna ll y peer -r e viewed.
+Author C ontributions C onc eption/Design of Study - B.E., K.J.; D at a Ac quisition- B.E.; D at a Ana l y sis/Int erpr et ation- B.E., K.J.;
+Dr afting Manuscript - B.E.; C ritic a l R e vision of Manuscript - K.J.; F ina l Appr o v a l and Ac c ount abilit y - B.E.,
+K.J.
+C onflict of Int er est The author s ha v e no c onflict of int er est t o decl ar e . 
+Gr ant Support The author s decl ar ed that this study ha s r ec eiv ed no financia l support .
+Author Det ails Bor ab a y E rb a y (R ese ar ch As sist ant)
+¹ İzmir Univ er sit y of E c onomics, Dep artment of Sociol ogy , İzmir , T ürkiy e
+ 0000-000 2- 5 7 44- 16 38
+  bor ab a y . erb a y@ieu. edu. tr
+K ell y Jo y c e (P r of es sor)
+² P r of es sor , Dr e x el Univ er sit y , Dep artment of Sociol ogy , P hil adelphia, U S A
+ 0000-000 2- 28 22- 1548
+R ef er enc es
+Ac emoglu, D ., Aut or , D ., Haz ell , J., & R estr epo , P . (20 22). Artificia l int ellig enc e and jobs: E videnc e fr om online v ac ancies. Journal of L abor
+E c onomics , 40 ( 1), 2 9 3- 3 40.
+Adorno , T . W . ( 1988). Intr oduction t o the sociol ogy of music .  Se abury . Adorno , T . W . (200 1). The c ultur e industry : Sel e ct e d es sa y s on mas s
+c ultur e  ( J. M. Bernst ein, E d.). R out l edg e . (Origina l work published 19 44).
+Air ol di, M. (20 22). Machine habitus: T owar d a sociol ogy of al gorithms.  P olit y P r es s.
+Air ol di, M., Ber a l do , D . & Gandini, A . (20 16). F oll ow the a lg orithm: An e xpl or at ory in v estig ation of music on Y ouT ube , P oetics , 5 7.  1- 13.
+https:/ / doi. or g/ 10. 10 16 /j.poetic .20 16. 05. 00 1
+Akrich, M. ( 199 2). The description of t echnic a l objects. In Bijk er , W . E., and L a w , J. (E ds.), Shaping t e chnol ogy -buil ding societ y : Studies in
+sociot e chnic al change , MIT P r es s.
+Ang èl e , C. (20 17). Alg orithms in pr actic e: C omp aring web journa lism and crimina l justic e .  Big Dat a & Societ y ,   4 (2). 1– 14. https:/ / doi. or g/
+10. 1 177 / 205 3 95 17 177 1885 5
+Ang èl e , C. (20 20).  Metrics at work: Journalism and the c ont est e d me aning of al gorithms . P rinc et on Univ er sit y P r es s.
+Bar oc a s, S., & Selbst , A . D . (20 16). Big dat a ’ s disp ar at e imp act . C alif ornia L aw R e vie w , 104 (3). 6 7 1- 7 3 2. https:/ / www .jst or . or g/ st abl e/
+2 4 7 58 7 20
+Beer , D . (20 13). P opul ar c ultur e and ne w me dia: The politics of cir c ul ation.  P a lgr a v e Macmill an.
+Beer , D . (20 17). The socia l power of a lg orithms. Inf ormation, C ommunic ation & Societ y ,  20 ( 1).  1- 13. https:/ / doi. or g/ 10. 1080/ 136 9 1 18 X.
+20 16. 12 16 14 7
+Berman, E. P . (20 12). C r e ating the market univ er sit y : How ac ademic scienc e be c ame an e c onomic engine . P rinc et on Univ er sit y P r es s.
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  16
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+Br a v erman, H. ( 19 7 4). L abor and monopol y c apit al : The de gr adation of work in the twentieth c entury . Monthl y R e view P r es s.
+Br a yne , S. (20 20). P r e dict and surv eil : Dat a, discr etion, and the futur e of policing . O xf or d Univ er sit y P r es s.
+Br ous s ar d, M. (20 18). Artificial unint elligenc e: How c omput er s misunder st and the worl d.  MIT P r es s.
+Buchanan, B. G. (2005). A (v ery) brief hist ory of artificia l int ellig enc e . AI Magazine,  26 ( 4).  5 3-60. https:/ / doi. or g/ 10. 160 9 / aima g. v 26i4. 1848
+Bucher , T . (20 12). W ant t o be on t op ? Alg orithmic power and the thr e at of in visibilit y on F ac ebook .  Ne w Me dia & Societ y ,  14.  1 164– 1 180.
+https:/ / doi. or g/ 10. 1 177 / 146 14448 12 440 15
+Burr ell , J. & F our c ade , M. (20 2 1). The societ y of a lg orithms. Annual R e vie w of Sociol ogy ,  4 7. 2 13- 2 17. https:/ / doi. or g/ 10. 1 146 / annur e v -soc -
+0 908 20-0 20800
+C a ll on, M. ( 1984). Some el ements of a sociol ogy of tr ansl ation: domestic ation of the sc a ll ops and the fishermen of St Brieuc b a y .  The
+Sociol ogic al R e vie w ,  3 2 ( 1), 196- 2 33. https:/ / doi. or g/ 10. 1 1 1 1/j. 146 7- 954X. 1984. tb00 1 13 .
+C a ll on, M. ( 1986). The sociol ogy of an act or -network : The c a se of the el ectric v ehicl e . In C a ll on, M., L a w , J., Rip , A . (E ds.), Mapping the
+dynamics of scienc e and t e chnol ogy . P a lgr a v e Macmill an.
+C a ll on, M., L a w , J. & Rip , A . ( 1986). P utting t e xts in their pl ac e . In C a ll on, M., L a w , J. & Rip , A . (E ds.), Mapping the dynamics of scienc e and
+t e chnol ogy ,  P a lgr a v e-Macmill an.
+C amper o , S. (20 2 1). Hiring and intr a -oc c up ationa l g ender segr eg ation in softw ar e engineering.  Americ an Sociol ogic al R e vie w ,  86 ( 1),
+60- 9 2.  https:/ / doi. or g/ 10. 1 177 / 000 3 122 4 20 9 7 1805
+C hang, E. 20 19 . Br ot opia: br e aking up the bo y s ’ club of Silic on V all e y . P eng uin Book s.
+C ohen, N. (20 19). The know-it -alls: The rise of Silic on V all e y as a politic al powerhouse and social wr e cking ball . The New P r es s.
+C r a wf or d, K. (20 2 1). At l as of AI.  Y a l e Univ er sit y P r es s.
+C r a wf or d, K., & P a gl en, T . (20 2 1). Ex c a v ating AI: The politics of ima g es in machine l e arning tr aining sets. AI & Soc , 36.  1 105– 1 1 16. https:/ /
+doi. or g/ 10. 100 7 / s00 146-0 2 1-0 1 16 2-8
+D ank s, D ., & L ondon, A . J. (20 17). Alg orithmic bia s in aut onomous s y st ems. In C. Sierr a (E d.), P r oc e e dings of the 26th Int ernational Joint
+C onf er enc e on Artificial Int elligenc e,  46 9 1- 46 9 7.
+DiMa ggio , P ., Har gitt ai, E., C el est e , C., & Shaf er , S. (2004). Digit a l inequa lit y : F r om unequa l ac c es s t o diff er entiat ed use . In K. M. Neck erman
+(E d.), Social ine qualit y . New Y ork :Rus sel Sa g e F oundation P r es s.
+Dy er -Withef or d, N., K josen, A . M. & St einhoff , J. (20 19). Inhuman power : Artificial int elligenc e and the futur e of c apit alism.  L ondon:P lut o
+P r es s.
+E ub ank s, V . (20 18). Aut omating ine qualit y : How high- t e ch t ools pr ofil e, polic e, and punish the poor .  Martin ’ s P r es s.
+F aulkner , W . (20 15). ‘Nuts and bolts and peopl e ’: Gender tr oubl ed engineering identities. In C hrist ensen, S., Didier , C., Jamison, A .,
+Meg anck , M., Mit cham, C., Newberry , B. (E ds.), E ngine ering identities, epist emol ogies and v alues: E ngine ering e duc ation and
+pr actic e in c ont e xt , v olume 2  (pp . 2 3- 40) .  C ham:Spring er P r es s.
+F az elpour , S., & D ank s, D . (20 2 1). Alg orithmic bia s: Senses, sour c es, solutions. P hil osoph y C ompas s , 16 (8). 1- 16. https:/ / doi. or g/ 10. 1 1 1 1/
+phc3. 12 7 60
+F ine , B. (2005). F r om act or -network theory t o politic a l ec onom y . C apit alism, Natur e, Socialism, 16 ( 4). 9 1- 108. “ https:/ / doi. or g/ 10. 1080/
+104 5 5 7 50500 3 7 605 7
+F or d, M. (20 15). Rise of the r obots: T e chnol ogy and the thr e at of mas s unempl o yme nt . Ba sic Book s.
+F or s ythe , D . E. ( 199 3). E ngineering knowl edg e: The c onstruction of knowl edg e in artificia l int ellig enc e . Social Studies of Scienc e, 2 3 (3),
+44 5- 4 77. https:/ / doi. or g/ 10. 1 177 / 0 306 3 12 7 9 30 2 300 300
+F uchs, C. (20 10). L abour in inf ormationa l c apit a lism and on the Int ernet . The Inf ormation Societ y , 26 (3). 17 6- 196. https:/ / doi. or g/ 10.
+1080/ 0 19 7 22 4 100 3 7 122 15
+Gill e , Z. (20 10). Act or network s, modes of pr oduction, and w a st e r egimes: R e a s sembling the macr o-socia l . E n vir onment and P l anning,
+4 2.  104 9- 1064. https:/ / doi. or g/ 10. 1068/ a4 2 122
+Gilr o y , P . ( 1995). The bl ack At l antic : Modernit y and doubl e c onsciousnes s . Harv ar d Univ er sit y P r es s.
+Gr a y , M. L. & Suri, S. (20 19). Ghost work: How t o st op silic on v all e y fr om buil ding a ne w gl obal under cl as s.  Harper Busines s.
+Gol dber g, D . E. (2006). The entr epr eneurial engine er . Wil e y P r es s.
+Hanna, A ., Dent on, E., Smart , A ., & Smith-L oud, J. (20 19). T ow ar ds a critic a l r ac e methodol ogy in a lg orithmic f airnes s. P r oc e e dings of
+C onf er enc e on F airnes s, Ac c ount abilit y , and T r anspar ency .  https:/ / doi. or g/ 10. 485 50/ arXiv . 19 12. 0 35 9 3
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  17
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+Ha shemi, M., & Ha ll , M. (20 20). C rimina l t endency det ection fr om f acia l ima g es and the g ender bia s eff ect . Journal of Big Dat a, 7 (2), 1–
+16. doi: 10. 1 186 / s405 3 7-0 19-0 28 2- 4
+Hughes, T . ( 1986). The se aml es s web: T echnol ogy , scienc e , et c et er a, et c et er a. Social Studies of Scienc e , 16 (2) , 28 1– 2 9 2. https:/ / doi. or g/
+10. 1 177 / 0 306 3 12 7 860 1600 2004
+James, A ., & Whel an, A . (20 2 1). ‘E thic a l ’ artificia l int ellig enc e in the welf ar e st at e: Disc our se and discr ep ancy in Austr a lian socia l servic es.
+C ritic al Social P olicy ,  4 2, 1– 4 2. https:/ / doi. or g/ 10. 1 177 / 0 26 10 183 20 98546
+Ja s anoff , S. (200 2). New Modernities: R eima gining Scienc e , T echnol ogy and De v el opment . E n vir onment al V alues , 1 1 (3), 25 3– 2 7 6. https:/ /
+www .jst or . or g/ st abl e/ 30 30 18 96
+Jat on, F . (20 20). The c onstitution of al gorithms: Gr ound- truthing, pr ogr amming, f ormul ating.  C ambridg e: MIT P r es s.
+Jesk e , M. (20 22). Or gans and humans on chips: T r ansl ation, biome dic al models, and the politic al e c onom y of inno v ation  (Doct or a l
+dis sert ation, Univ er sit y of C a lif ornia, San F r ancisc o).
+Johnson, G.M. (20 2 1).  Alg orithmic bia s: on the implicit bia ses of socia l t echnol ogy .  S ynthese , 198 , 99 4 1– 996 1. doi: 10. 100 7 /
+s 1 122 9-0 20-0 26 96- y
+Jo y c e , K., & C ruz, T . M. (20 2 4). A Sociol ogy of Artificia l Int ellig enc e: Inequa lities, P ower , and D at a Justic e .  Socius ,  10 .   https:/ / doi. or g/ 10.
+1 177 / 2 3 7 80 2 3 12 4 12 7 5 3 9 3
+Jo y c e , K., Smith-Doerr , L., Al egria, S., Bell , S., C ruz, T ., Hoffman, S. G., Nobl e , S. U ., & Shest ak of sky , B. (20 2 1). T ow ar d a sociol ogy of artificia l
+int ellig enc e: A c a ll f or r ese ar ch on inequa lities and structur a l chang e . Socius , 7. 1- 1 1. https:/ / doi. or g/ 10. 1 177 / 2 3 7 80 2 3 12 19995
+K a ja v a, K. & Sa whne y , N. (20 2 3). L ang ua g e of a lg orithms: Ag ency , met aphor s and deliber ations in AI disc our ses. In S. Lindgr en (E d.),
+Handbook of critic al studies of artificial int elligenc e.  E dw ar d E lg ar P ublishing.
+K ar ak a y a li, N., K ost em, B. and, & Ga lip , I. (20 18). R ec ommendation s y st ems a s t echnol ogies of the self : Alg orithmic c ontr ol and the
+f ormation of music t a st e .  The ory , C ultur e & Societ y ,  35 (2), 3- 2 4. https:/ / doi. or g/ 10. 1 177 / 0 26 3 2 7 64 177 22 3
+K atz, Y . (20 20). Artificial whit enes s: P olitics and ide ol ogy in artificial int elligenc e.  C olumbia Univ er sit y P r es s.
+K ell ogg, K. C., V a l entine , M. A ., & C hristin, A . (20 20). Alg orithms at work : The new c ont est ed t err ain of c ontr ol . The Ac adem y of Management
+Annals, 14 ( 1), 366– 4 10. https:/ / doi. or g/ 10. 546 5 / anna ls.20 18. 0 17 4
+Kit chin, R. (20 14). The dat a r e v olution: Big dat a, open dat a, dat a infr astructur es and their c onse quenc es . S A GE.
+Kl einman, D . L. (200 3). Impur e c ultur es: Univ er sit y biol ogy and the worl d of c ommer c e . Univ er sit y of Wisc onsin P r es s.
+L at our , B. ( 199 3). W e ha v e ne v er be en modern.  Harv ar d Univ er sit y P r es s.
+L at our , B. ( 199 4). On t echnol ogic a l mediation: P hil osoph y , sociol ogy , g ene a l ogy , C ommon Knowl e dge, 3 (2), 2 9-64. https:/ / scienc espo .
+ha l . scienc e/ha l -0 205 7 2 33
+L at our , B. (2000). P andor a ’ s hope: E s sa y s on the r e alit y of scienc e studies.  Harv ar d Univ er sit y P r es s.
+L at our , B. (2005). R e as sembling the social : An intr oduction t o act or -network the ory . O xf or d Univ er sit y P r es s.
+L at our , B. & W oolg ar , S. ( 1986). L abor at ory lif e: The c onstruction of scientific f acts.  P rinc et on Univ er sit y P r es s.
+L ee , K. (20 18). AI superpower s: C hina, Silic on V all e y and the ne w worl d or der .  Hought on Mifflin.
+Liu, Z. (20 2 1). Sociol ogic a l per spectiv es on artificia l int ellig enc e: A t ypol ogic a l r e ading. Sociol ogy C ompas s, 15 ( 1) .  https:/ / doi. or g/ 10. 1 1 1 1/
+soc 4. 1285 1
+L upt on, D . (20 15). Digit al sociol ogy .  R out l edg e P r es s.Marx , K. ( 199 2). C apit al : V olume 1  (B. F owk es, E d..). P eng uin Book s. (Origina l work
+published 186 7).
+Marv a sti, A . B. (200 3). Qualit ativ e r ese ar ch in sociol ogy .  Thous and O ak s:S A GE.
+Mat eesc u, A . & Tic ona, J. (20 20). In visibl e work , visibl e work er s: Visibilit y r egimes in online pl atf orms f or domestic work .   In D . Ac e v edo
+(E d.), Be y ond the al gorithm: Qualit ativ e insights f or r e gul ating gig work . C ambridg e Univ er sit y P r es s.
+Me y er , A ., Barr , E., Bir d, C. & Zimmermann, T . (20 2 1). T oda y W a s a Good D a y : The D ail y Lif e of Softw ar e De v el oper s. IEEE T r ansactions on
+Softwar e E ngine ering, 4 7 (5), 86 3-880. https:/ / doi.ieeec omput er societ y . or g/ 10. 1 10 9 /T SE.20 19.2 904 95 7
+Mühlhoff , R. (20 20). Human ‐ aided artificia l int ellig enc e: Or , how t o run l ar g e c omput ations in human br ains ? T ow ar d a media sociol ogy
+of machine l e arning. Ne w Me dia & Societ y , 22 ( 10), 1868– 1884. doi: 10. 1 177 / 146 14448 19885 33
+Nat a l e , S., & Ba ll at or e , A . (20 20). Ima gining the thinking machine: T echnol ogic a l m yths and the rise of artificia l int ellig enc e .  C on v er-
+genc e ,  26 ( 1), 3- 18. https:/ / doi. or g/ 10. 1 177 / 1354856 5 177 15 164
+Nat a l e , S., & Ba ll at or e , A . (20 2 3). T echnol ogic a l f ailur es, c ontr o v er sies and the m yth of AI. In S. Lindgr en (E d.), Handbook of critic al
+studies of artificial int elligenc e.  E dw ar d E lg ar P ublishing.
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  18
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+Newberry , B. (20 15a). E fficiency anima ls: E fficiency a s an engineering v a lue . In C hrist ensen, S., Didier , C., Jamison, A ., Meg anck , M.,
+Mit cham, C., Newberry , B. (E ds.), E ngine ering identities, epist emol ogies and v alues: E ngine ering e duc ation and pr actic e in c ont e xt ,
+v olume 2  (pp . 199- 2 15). Spring er P r es s.
+Nobl e , D . F . ( 19 77). Americ a b y design: Scienc e, t e chnol ogy and the rise of c orpor at e c apit alism.  Alfr ed A . Knopf P ublishing.
+Nobl e , S. U . (20 18). Al gorithms of oppr es sion: How se ar ch engines r einf or c e r acism . NYU P r es s.
+O’Neil , C. (20 16). W e apons of math destruction: How big dat a incr e ases ine qualit y and thr e at ens democr acy . C r own.
+Oberme y er , Z., P ower s, B., V og eli, C., & Mull ainathan, S. (20 19). Dis secting r acia l bia s in an a lg orithm used t o mana g e the he a lth of
+popul ations. Scienc e,  366(6464), 44 7– 4 5 3. https:/ / doi. or g/ 10. 1 126 / scienc e .a ax2 3 4 2
+O z er , M., P er c , M., & Suna H.E. (20 2 4). Artificia l int ellig enc e bia s and the amplific ation of inequa lities in the l abor mark et . Journal of
+E c onom y C ultur e and Societ y , 6 9, 15 9– 168. doi: 10.266 50/JE C S 20 2 3- 14 15085 5
+O z er , M. & P er c , M. (20 2 4). Human c ompl ement ation must aid aut omation t o mitig at e unempl o yment eff ects due t o AI t echnol ogies in
+l abor mark et . R efl ek tif Journal of Social Scienc es, 5( 2). 50 3- 5 14. https:/ / doi. or g/ 10. 4 7 6 13 / r efl ektif .20 2 4. 17 6
+P ariser , E. (20 1 1). The filt er bubbl e: How the ne w per sonaliz e d web is changing what we r e ad and how we think.  P eng uin P r es s.
+P arisi, L. (20 13).  C ont agious ar chit e ctur e: C omput ation, aesthetics, and spac e . MIT P r es s.
+P a squa l e , F . (20 15). The bl ack bo x societ y : The se cr et al gorithms that c ontr ol mone y and inf ormation . Harv ar d Univ er sit y P r es s.
+P er c , M., O z er , M., & Hojnik , J. (20 19). Socia l and juristic cha ll eng es of artificia l int ellig enc e . P al gr a v e C ommunic ations , 5 (6 1). doi: 10. 105 7 /
+s4 15 99-0 19-0 2 7 8- x https:/ / doi. or g/ 10. 105 7 / s4 15 99-0 19-0 2 7 8- x
+Rhee , J. (20 18). The r obotic imaginary : The human and the pric e of dehumaniz e d l abor . Univ er sit y of Minnesot a P r es s.
+R ober g e , J., & C a st ell e , M. (20 2 1). T ow ar d an end- t o-end sociol ogy of 2 1st -c entury machine l e arning. In J. R ober g e & M. C a st ell e (E ds.),.
+The c ultur al lif e of machine l e arning: An inc ur sion int o critic al AI studies  (pp . 1– 2 9). Spring er Int ernationa l P ublishing.
+Rus sell , S. & Norvig, P . (20 20). Artificial int elligenc e: A modern appr oach.  P e ar son P r es s.
+Sachs, S. E. (20 19). The Alg orithm at work ? Expl anation and r ep air in the enactment of simil arit y in art dat a.  Inf ormation, C ommunic ation
+& Societ y ,   2 3 ( 1 1). 168 9– 17 05. https:/ / doi. or g/ 10. 1080/ 136 9 1 18 X.20 19. 16 12 9 33
+Sadowski, J. (20 20). T oo smart : How digit al c apit alism is e xtr acting dat a, c ontr olling our liv es, and t aking o v er the worl d.  MIT P r es s.
+Selwyn, N. (2004). R ec onsidering politic a l and popul ar under st anding s of the digit a l divide . Ne w Me dia & Societ y , 6 (3), 3 4 1– 36 2. https:/ /
+doi. or g/ 10. 1 177 / 146 144480404 25 1
+Sheikh, H., P rins, C. & Schrijv er s, E. (20 2 3). Mis sion AI: The ne w s y st em t e chnol ogy .  Spring er P r es s.
+Shest ak of sky , B. (20 17). W orking a lg orithms: Softw ar e aut omation and the futur e of work . W ork and Oc c upations, 44 ( 4), 3 7 6– 46 2. https:/ /
+doi. or g/ 10. 1 177 / 0 7 308884 177 26 1 19
+Shest ak of s y B. & K elk ar . (20 20). Making P l atf orms W ork : R el ationship L abor and the Mana g ement of P ublics. The ory & Societ y ,   4 9 , 86 3–
+96. https:/ / doi. or g/ 10. 100 7 / s 1 1 186-0 20-0 9 40 7- z
+Sismondo , S. (20 10). An intr oduction t o scienc e and t e chnol ogy studies.  Bl ackwell .
+Sl at er , M. (20 13). L o v e in the time of al gorithms: What t e chnol ogy does t o me eting and mating.  C urr ent P ublishing.
+Tic ona, J. Mat eesc u, A . (20 18). T rust ed str ang er s: C ultur a l entr epr eneur ship on domestic work pl atf orms in the on-demand ec onom y .  Ne w
+Me dia & Societ y ,   20 ( 1 1). 4 384– 4404. https:/ / doi. or g/ 10. 1 177 / 146 14448 18 77 3 7 2 7
+T urino , T . (2000). Nationalists, c osmopolit ans, and popul ar music in Zimbabwe . Univ er sit y of C hic a g o P r es s.
+V an Dijk , J. A . G. M. (2005). The de epening divide: Ine qualit y in the inf ormation societ y . S A GE.
+V an Dijk , J. A . G. M. (2006). Digit a l divide r ese ar ch, achie v ements and short c oming s. P oetics, 3 4 ( 4– 5), 22 1– 2 35. https:/ / doi. or g/ 10. 10 16 /j.
+poetic .2006. 05. 004
+V erbeek , P . (2005). What things do: P hil osophic al r efl e ctions on t e chnol ogy , agency and design.  P enns yl v ania Univ er sit y P r es s.
+Vicsek , L. (20 20). Artificia l int ellig enc e and the futur e of work : L es sons fr om the sociol ogy of e xpect ations . Int ernational Journal of
+Sociol ogy & Social P olicy , 4 1 (7 / 8), 84 2–86 1. doi: 10. 1 108/IJS SP -05- 20 20-0 17 4
+W ach, K., Duong, C.D ., Ejdy s, J., K azl ausk ait ė , R., K or zynski, P ., Maz ur ek , G., P a liszkiewicz, J., & Ziemb a, E. (20 2 3). The dark side of g ener ativ e
+artificia l int ellig enc e: A critic a l ana l y sis of the c ontr o v er sies and risk s of C hatGP T . E ntr epr eneurial Busines s and E c onomics R e vie w ,
+1 1 (2), 7- 30. https:/ / doi. or g/ 10. 156 7 8/EBER.20 2 3. 1 10 20 1
+W eber , M. ( 1958). The r ational and social f oundations of music  (D . Martinda l e , J. Riedel , & G. Neuwirth, T r ans. & E ds.). Southern Illinois
+Univ er sit y P r es s. (Origina l work published 19 2 1).
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  19
+Opening the Bl ack Bo x of AI: A Sociol ogic a l Study of AI a s a Network  
+  E rb a y & Jo y c e , 20 25
+Whit e , H. (20 13). Mat eria lit y , f orm and c ont e xt : Marx c ontr a L at our . Vict orian Studies, 5 5 ( 4). 66 7-68 2. https:/ / doi. or g/ 10.2 9 7 9 / vict orianst
+udies. 5 5. 4. 66 7
+Winner , L. ( 1980). Do artif acts ha v e politics ? . Dae dalus, 10 9 ( 1). 12 1- 136. https:/ / www .jst or . or g/ st abl e/ 200 2 46 5 2
+W oolg ar , S. ( 1985). Wh y not a sociol ogy of machines ? The c a se of sociol ogy and artificia l int ellig enc e . Sociol ogy , 19 ( 4). 5 5 7- 5 7 2. https:/ /
+www .jst or . or g/ st abl e/ 4 285 3 468
+Z a jk o , M. (20 22). Artificia l int ellig enc e , a lg orithms, and socia l inequa lit y : Sociol ogic a l c ontributions t o c ont empor ary deb at es. Sociol ogy
+C ompas s, 16 (3). https:/ / doi. or g/ 10. 1 1 1 1/ soc 4. 12 96 2
+Z uboff , S. (20 19). The age of surv eill anc e c apit alism: The fight f or a human futur e at the ne w fr ontier of power .  P ublicAff air s.
+Journa l of E c onom y C ultur e and Societ y , (7 1): 1– 20  
+  20

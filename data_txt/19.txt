@@ -1,0 +1,625 @@
+The History of Technical Communication and the Future of
+Generative AI
+Bill Hart-Davidson
+Writing, Rhetoric, and Cultures, Michigan State University
+USA
+hartdav2@msu.eduMichael Ristich
+Writing, Rhetoric, and Cultures, Michigan State University
+USA
+ristich@msu.edu
+Casey McArdle
+Writing, Rhetoric, and Cultures, Michigan State University
+USA
+cmcardle@msu.eduLiza Potts
+Writing, Rhetoric, and Cultures, Michigan State University
+USA
+lpotts@msu.edu
+Abstract
+This article addresses the critical intersection of generative AI tech-
+nology and Technical and Professional Communication (TPC) prac-
+tices, highlighting the urgent need for scholarly inquiry into its
+implications for learning, research, and workplace environments.
+Drawing on key conversations within TPC history, including itera-
+tion and process, theory and agency, actors and activity, and social
+justice, this article delves into the ethical and social ramifications
+of generative AI adoption. By revisiting these conversations, and
+framing current and future work, we aim to showcase the tools and
+perspectives necessary to navigate the evolving landscape of com-
+munication design with a focus on vigilance and justice. Through
+this exploration, TPCs must consider TPC’s ongoing role in ensur-
+ing the ethical and inclusive integration of emerging technologies
+into both scholarly and practical contexts.
+CCS Concepts
+•Computing methodologies !Artificial intelligence; Dis-
+tributed artificial intelligence; Cooperation and coordination.
+Keywords
+Generative AI, technical communication, information design, pro-
+fessional communication design, disaster, user experience, social
+justice, activity, power, process, artificial intelligence, robots
+ACM Reference Format:
+Bill Hart-Davidson, Michael Ristich, Casey McArdle, and Liza Potts. 2024.
+The History of Technical Communication and the Future of Generative
+AI. InThe 42nd ACM International Conference on Design of Communication
+(SIGDOC ’24), October 20–22, 2024, Fairfax, VA, USA. ACM, New York, NY,
+USA, 6 pages. https://doi.org/10.1145/3641237.3691682
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+onthefirstpage. Copyrightsforthird-partycomponentsofthisworkmustbehonored.
+For all other uses, contact the owner/author(s).
+SIGDOC ’24, October 20–22, 2024, Fairfax, VA, USA
+© 2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0519-9/24/10
+https://doi.org/10.1145/3641237.36916821 Introduction
+Technical Communication scholars and practitioners have long
+been engaged in critical discussions surrounding the role of tech-
+nology, including writing technologies, in shaping communication
+practicesinvariouscontexts. WiththeadventofgenerativeAI,and
+as this conference call suggests, there is a pressing need to examine
+how this technology may influence and transform communication
+practices in learning, research, and workplace settings.
+Thisneedtothinkcriticallyaboutemergingtechnologiesandthe
+ongoing challenges they pose is especially pointed when consider-
+ing the potential amplification of inherent biases by generative AI.
+IBM notes that generative AI “refers to deep-learning models that
+can generate high-quality text, images, and other content based on
+the data they were trained on” [ 64]. Scholars have been trained
+via a number of systems to research, develop, and deploy content
+for their fields. They build models for themselves to be proficient
+and efficient in the development of work they want to research and
+publish.
+Unsurprisingly, there has been an increase in scholarship explor-
+ingthefutureofAIandtheworkofTechnicalandProfessionalCom-
+munication(TPC)andUser-Experience(UX)[ 5,10,14,18,37,56,58].
+These efforts have provided salient insights into generative AI’s
+impact and potential in our field. Stephen Carradini [ 9] does an
+excellent job of breaking down the impact AI is having on our
+current and future scholarship and notes that we should be aware
+of the work, even as it rapidly changes. Such immediate change,
+he notes, “should not stop scholars and practitioners from marking
+this moment—as short as it may be—and future moments with dis-
+cussions of where TPC has been, where it is, and where it might be
+going with AI tools” (p. 8) [9].
+These recent studies have made clear, the advent and adoption of
+generativeAI acrossourvarious contextspromptsTPCresearchers,
+teachers,andpractitionersto(re)examinemanyofourfoundational
+ideas and assumptions, particularly our understandings of power,
+agency, and authority. Thus, we hope readers will remember TPC’s
+long history of engagement with emerging technologies. Remind-
+ing ourselves of the four “conversations” will, we hope, reiterate
+our role in and responsibility to ensure that TPC, including our
+courses, designs, and scholarship, are grounded in vigilance and
+justice.
+Tothat end, this article will lay outfour distinct conversationsof
+TPC that have played a pivotal role in the field’s development and
+253
+
+SIGDOC ’24, October 20–22, 2024, Fairfax, VA, USA Bill Hart-Davidson et al.
+expansion with emerging technologies. The first section will focus
+on iteration and process; the second section will focus on theory,
+agency, and power; the third section will focus on actors and activ-
+ity; and the final section will focus on the social justice turn in our
+field and its future. In presenting these four conversations from the
+history of TPC, we will explore the ethical, and social implications
+of widespread adoption of generative AI in communication design
+practices. This includes considerations of data privacy, research
+agendas, curriculum design, and the potential for misuse or ma-
+nipulation of generative AI content. By revisiting four familiar
+and important conversations within TPC, we hope to provide a
+framework of ideas, approaches, methodologies for interrogating
+generative AI and its potential futures in our disciplinary research,
+workplace practices, and broader social justice work.
+2 Iteration and Process in TPC
+Looking back at the history of Technical and Professional Commu-
+nication, we confront a cornerstone concept shared across TPC and
+broader writing studies: the process. The process of composing can
+run parallel to previous models used to generate content. Within
+this expansive domain, diverse perspectives and frameworks con-
+verge to better understand the act of writing. Central to many
+of these frameworks is the notion of iteration—a recognition that
+repetition and recursion are inherent to the human act of writing,
+fostering evolution and growth in both readers and writers. How-
+ever, the rise of generative AI, promising fewer iterations, prompts
+us to question its impact on learning and composing.
+Janet Emig’s seminal work in 1977 ignited empirical inquiry
+into writing as a cognitive and social activity, shedding light on its
+unique role in facilitating learning [ 15]. This early scholarship laid
+the groundwork for understanding the intricate interplay between
+the process and product of writing. Building on Emig’s insights,
+Lee Odell and Dixie Goswami advocated for the exploration of
+writing practices beyond educational settings in 1982, recognizing
+the multifaceted nature of writing as a human activity embedded
+in various contexts [ 39]. This call to broaden the scope of inquiry
+gave rise to workplace writing studies, offering new avenues for
+understanding the role of writing in professional domains.
+Bill Hart-Davidson notes the importance of using a process to
+provide feedback on writing. His process of “describe, evaluate,
+suggest,” is a framework used in the application Eli Review, an
+online system that provides a framework for authors to share texts,
+offer organized feedback, reflect on the feedback received, build a
+framework for how the feedback will be incorporated into the text
+so it can be revised, and then revise the text [ 22]. It is an organized
+version of a model that many internalize in their revision process,
+but to this end, it has been structured to support authors at all
+levels: K through 12 students, undergraduate students, graduate
+students, faculty, and industry professionals.
+Processes can also be developed and deployed to aid in the cre-
+ation of a variety of texts or systems. The Agile Software Develop-
+ment Cycle is a process that works to create a system of support
+and iteration, something that has been incorporated into course
+designandcurriculumdesign[ 6,7,20]. Thereisusageofthedesign
+thinking process in TPC and healthcare [ 44,55]. Such approachesare also being researched to utilize generative AI to create pro-
+cesses and assessment [ 13,61]. These processes replicate research
+methods in a way that supports innovation and repeatability - the
+foundation of the work many of us do in TPC.
+As we contemplate the integration of AI writing agents into
+our research practices, pedagogical practices, and systems develop-
+ment, we are confronted with a paradigm shift akin to the broader
+conversation that propelled writing studies to acknowledge the
+collaborative nature of writing processes [ 43]. The potential im-
+plications of generative AI for the writing process are manifold,
+with the role of human authors potentially evolving to encompass
+collaborative endeavors with non-human agents. However, amidst
+thesechanges,itisparamounttoheedtheenduringlessonsgleaned
+from our scholarly inquiries into process: namely, that shortcuts
+enabled by technology may come at a human cost. The essence of
+learning lies not merely in expediency, but in the iterative journey
+of discovery and growth—a foundational process that should un-
+derpin our considerations about the design and use of generative
+AI in our shared work.
+As writers, we constantly reflect on our identities and thinking,
+which often includes considering questions of process. Our focus
+on iteration and process, then, has us pose some interesting ques-
+tions about composing with or alongside generative AI. How, for
+instance, might the processes that facilitate learning and produc-
+tivity change, as we are able to more fully incorporate generative
+AI into our workplaces and classrooms? As we entrust generative
+AI to generate content, how does our understanding of the writing
+process shift or change? Or, to be more provocative, we might
+ask: how do we give feedback to generative AI? In short, we know
+processes and understandings will change as a result of generative
+AI, and our past inquiries into and understandings of writing as a
+process will remain of the utmost importance as generative AI’s
+presence becomes even more ubiquitous in our classrooms and
+workplaces.
+3 Theory, Agency, Power
+Just as the earlier conversations around process-oriented ap-
+proaches to writing provide a productive set of ideas and methods
+for understanding the role of generative AI in supporting learning
+and for the design of communication, so too might our field’s ear-
+lier engagement with Theory. And while Theory might not enjoy
+the reputation it once did or serve as an important methodological
+frame as often as it did in the past, we suggest Theory might still
+focus our efforts in thinking about questions related to generative
+AI and agency, power, and social justice.
+While a full discussion of the history and nuances of critical
+thought is beyond the scope of this paper, what we mean by The-
+ory is the broad and interdisciplinary area of inquiry that “both
+explains and criticizes existing social inequalities with an eye to-
+wards creating possibilities for change. Stated differently, critical
+social theories aim to reform what is in the hope of transforming it
+into something else” (p. 5) [ 24]. Such inquiry has focused, among
+others, on questions of race [ 12], gender [ 8], power [ 16], the con-
+nection between knowledge and politics [ 30], culture [ 47, 62], and
+the legacies of Enlightenment thought [ 26]. Such theorizing, in the
+wordsofBernardHarcourt, hassought“[t]oturnthecontemplative
+254
+History of TechComm and the Future of GenAI SIGDOC ’24, October 20–22, 2024, Fairfax, VA,USA
+philosophical tradition into a practice of emancipation. To push
+thought in the direction of action and toward human liberation” (p.
+1) [19].
+In fact, as we think about the role generative AI can play in
+our work, including how its uses and design can be oriented to-
+wards social justice, it is important to recognize that the history
+of professional and technical writing as a discipline is intimately
+connected to the rise of Theory in academia [ 64]. Patricia Sullivan
+and Jim Porter’s 1993 piece, “Remapping Curricular Geography:
+Professional Writing in/and English,” offers a “postmodern and/or
+feminist”modelofprofessionalwritinginfluencedbyJean-Francois
+Lyotard’s postmodern theory (p. 411) [ 52], while Bernadette Longo
+(1998) suggested “By adding cultural studies to our more scientifi-
+cally modeled research in technical writing, we can add discussions
+of power, politics, ethics, and cultural tensions to our understand-
+ings of what it is we do when we communicate [ 35]. With an
+expanded idea of culture, we can expand our understanding of
+technical writing practice” (p. 69) [ 35]. Similarly, in 2001, Bill Hart-
+Davidson notes, “We need theory. By this I mean that the ranks of
+working professionals andacademics in technical communication
+should participate in activity that makes the core expertise of tech-
+nical communication explicit” (p. 147) [ 21]. In examining the way
+Theory informs discussion about technical writing curricula, Tony
+Scott (2006) suggests: “we foster ideologically diverse discussions
+in our curriculums that more critically examine the terms of work
+in late capitalism—from a civic and labor, rather than exclusively a
+managerial, perspective” (p. 239) [48].
+Looking back, then, at technical and professional writing’s en-
+gagementwithTheory–andhowthatengagementhasshapedsome
+of the field’s most important ideas and enduring questions–should,
+we suggest, serve us well today. To give but one example, we might
+look to Walter Benjamin’s concept of aura in the “The Work of
+Art in the Age of Mechanical Reproduction,” which was originally
+published in 1935. “Aura,” according to Benjamin (1965), is “that
+which withers in the age of mechanical reproduction” and points to
+“symptomatic process whose significance points beyond the realm
+of art” (p. 4) [ 4]. Further, he suggests, “By making many reproduc-
+tions it substitutes a plurality of copies for a unique existence. And
+in permitting the reproduction to meet the beholder or listener in
+his own particular situation, it reactivates the object reproduced”
+(p. 4) [4]. While Benjamin’s nearly century-old observations about
+the function of art amidst rapid technological change and a rising
+fascism in his home country might strike us as outdated, careful en-
+gagement with Benjamin’s concerns might render some important
+questions for us today, as we chart out potential futures alongside
+AI, much like we have done in the past [ 62,63]. We might ask, for
+example: should we consider texts generated by AI “reproductions”
+of previous materials/texts or “original compositions?” If some
+“aura” is, in fact, lost in the shift from human-composed texts to
+AI generated texts, how can that aura be named and described?
+Is there a corresponding “aura” or defining characteristics that
+mark an encounter with AI-generated writing? How might such
+an “aura” limit or expand human agency? Too, what new modes
+of perception, reading, and/or analysis might generative AI need,
+suggest, or create? Or, perhaps, we might ask, what have humans
+missed about rhetoric and writing that generative AI now allows
+us to see?WhileafullinquiryintoBenjamin’scriticalmeditationsonrapid
+technological change is beyond our purview here, we hope this
+section, which both reminds us of our discipline’s long engagement
+with Theory and provides a brief example of how Theory can help
+us formulate questions about power and agency (of humans and
+AI alike) in a time that seems not unlike Benjamin’s own historical
+moment, reaffirms the fact that we have always been concerned
+with how writing and writing technologies can reproduce injustice
+or open pathways towards a more just future. And the body of
+knowledge called Theory, including its methodologies and objects
+of analysis, have been part and parcel of those concerns of and
+commitments to creating a just and equitable future.
+4 Actors and Activity
+As we continue to investigate writing as a process shared with
+generative AI, we can lean on previous research on actor-network
+theory (ANT). Developed originally by Latour to push his field of
+sociology to center technology use and consider the impacts on
+society, this thought experiment proposes that nonhuman actors
+(smartphones, platforms, connectivity) and human actors (people,
+groups, organizations) have equal agency in any scenario [ 31,32].
+While we can understand that this position is extreme, it does get
+us to consider what part our technology plays in our communities
+and how we ought to be more involved in the deployment of said
+technologies.
+Several researchers in our field have looked at how we can apply
+actor-network theory to technical communication work [ 17,28,42,
+45,49,50,54], not the least of which Spinuzzi, who combined the
+concept of actors and activity in the recent Keywords in Technical
+and Professional Communication collection [ 51]. And whilst can
+all too easily fall into thoughts of dystopian dread and destruction
+when considering what AI could do to our societies, could our
+field’s application of ANT have any place in these discussions?
+At the very least, we can use ANT to help us reevaluate and
+reconsider our use of these technologies, the agency we surrender
+to them, and the ways in which we can continue to sit at the helm
+toguidetheiruse. Lookingatexamplesinrealtimeduringdisasters
+and considering what science fiction is exploring in terms of AI can
+point towards solutions and possible pitfalls. In thinking about our
+expertise as technical communicators and our understanding of
+human-computer interaction, our role is to conduct these kinds of
+analysis and share findings more broadly. Our application of frame-
+works such as ANT can help us investigate and better understand
+the use, misuse, and possibilities of artificial intelligence.
+Certainly, AI can help us predict weather outcomes, curb nat-
+ural disasters, and even fight climate change. These are often
+algorithmically-driven solutions, without need for a rhetorician’s
+care when communicating across systems. However, in those mo-
+ments when people are in the midst of or struggling through the
+aftermath of a disaster, that humanity and agency cannot easily
+be replicated by ones and zeroes. While there are several exam-
+ples of artificial intelligence use in these moments, we can stick
+to two simple examples to emphasize the issue of giving up our
+agency as humans to our robot overlords. For example, perhaps it
+is unwise to use, much less note that ChatGPT inspired the team to
+write an email of condolence and solidarity after a mass shooting
+255
+SIGDOC ’24, October 20–22, 2024, Fairfax, VA, USA Bill Hart-Davidson et al.
+[34]. In further consideration, maybe you should not leave issues
+of bereaved customers to chatbots nor your legal briefs to imagi-
+nary robots [ 40]. And finally, we would encourage failsafes in any
+system where a lack of humanity could lead to sheer panic and
+outrage (CDC 2019) [ 11], such as sending out alerts to the residents
+of Hawai ʻi, shouting to them to “SEEK IMMEDIATE SHELTER”
+because of an “INBOUND” threat of a “BALLISTIC MISSILE” [ 33].
+In such cases, an Emergency Management Agency might want
+to keep those drills offline rather than trusting systems that take
+people out of the equation. Keeping the need for human agency
+at front of mind, we must consider much larger issues of systems,
+societies, and justice.
+5 Social Justice
+While generative AI is limited by its inputs and the data that trains
+the AI, it has an expansive reach for those seeking to develop short-
+cuts, some of which reproduce a host of inequities. Employers are
+using it to screen candidates they feel do not meet their standards
+[29]. UX and product designers are not incorporating inclusive
+research practices and are still utilizing older, exclusive, and racist
+practices that are undermining public health [ 57]. Algorithms are
+being developed to exploit marginalized communities and advance
+racism [ 38]. Generative AI based research is being developed to
+recognize and study users’ emotional perceptions of dark patterns
+in an effort to influence and exploit behavioral patterns [ 2]. For
+every step forward we believe we are taking, there are countless
+efforts being used to undermine ethical practices around emerging
+technologies.
+Our field faces the challenge of addressing material disparities
+and inequities exacerbated by its practices. A renewed urgency for
+meaningful change and social justice, particularly in advocating for
+the marginalized and harmed by these dynamics, has been called
+for by many scholars.
+Rebecca Walton’s scholarship emphasizes TPC’s role in com-
+bating forms of oppression through strategic communication. In
+their exploration of justice-oriented approaches to technical com-
+munication, Walton, along with Kristen Moore and Natasha Jones
+(2019) [60], underscore the ethical imperatives inherent within our
+profession. They challenge us to critically examine our privileges
+and responsibilities as communicators in an increasingly digital
+landscape.
+TPC scholars have also shown how AI systems can replicate and
+reinforce biases present in training data, leading to discriminatory
+outcomesindecision-makingprocesses[ 53]. Consequently,thecall
+to be vigilant and to work toward justice is becoming a common
+cause for those entering the field and a call we all must amplify
+[36]. So, any inquiry into generative AI should seek to better un-
+derstand how such technologies impact marginalized communities
+and exacerbate inequities in access to resources and opportunities,
+all with the goal of creating more inclusive systems and designs.
+ThereisotherextensiveworkbeingdonetoaidinturningTPCto-
+wards pathways of inclusion. Godwin Agboka (2014) offers decolo-
+nial approaches to how researchers engage with post-colonial, de-
+veloping, and disenfranchised spaces [ 1]. Akshata Balghare (2022)
+reflects on struggles navigating the US healthcare system as an
+international student and recommends using a participatory designapproach that incorporates simplified language to improve health-
+care communication to minimize health conditions [ 3]. Other texts
+explore the ways in which TPC has been used for justice via the
+environment [ 46], accessibility [ 41], research and pedagogy [ 27],
+and design [25].
+Even with inclusive frameworks and inclusive scholarship in the
+field, we must be vigilant. Scholars from all over TPC are trying to
+advance the field via inclusive practices, but gaps exist so long as
+we do not revisit the past to amplify the work we have yet to do.
+6 Looking Back to Move ahead
+In the process of writing this piece, our friend, mentor, and col-
+league (and lead author on this piece) Bill Hart-Davidson passed
+away suddenly. As a result, we questioned whether or not we
+would be able to finish this piece without Bill’s guidance and cama-
+raderie. Indeed, withoutBill’sthoughtfulquestionsandwillingness
+to tackle difficult problems, this piece would never have seen the
+light of day. To us, this piece–including Bill’s willingness to facil-
+itate the writing process–is yet another example of the fact that
+Bill’s expansive intelligence was matched only by his limitless kind-
+ness. And his commitment to creating a just and better future was
+amplified by a contagious optimism and his resilience [ 23]. So, to
+both conclude this piece and to pay tribute to our dear friend, we
+want to revisit two ideas that Bill and his many fellow-travelers
+have been making for a long time.
+First, as we hope the foregoing pages make clear, technical com-
+munication teachers, researchers, and practitioners have a set of
+ideas and a history that is both deep and wide. This fact, we hope,
+should serve as something of a salve to the uncertainty caused by
+therapidascentofgenerativeAI.Asaresult,wewanttoechosome-
+thing that Bill–and others–said back in 2011: “Writing teachers and
+researchers should not fear the coming swarm. As we engage these
+bits of code to do what is operationally necessary, we will have an
+expanding scope of rhetorical action to investigate, embrace, and
+yes, teach” (p. 334) [ 59]. Inquiring into the expanding scope of
+rhetoricalactionmeansrecognizingthatthefutureposesimportant
+questions for us to consider today. It also means that grappling
+with those questions will require simultaneously looking towards
+the future and excavating our past. In that way, we argue that TPC
+is well-positioned to continue its good work of tackling wicked
+problems.
+Perhaps looking back to TPC’s earlier conversations about pro-
+cess, theory, actors/activities, and justice all lead to another propo-
+sition advanced by Hart-Davidson and others:
+[Y]ou should be building robots. Robots need direc-
+tion. Someone who knows writing practices and how
+they work in social structures must be the brains that
+set them in motion, tell them how to listen and how
+to respond, tell them when they are going too far and
+when they could be doing something more. (p. 334)
+[59]
+If we substitute “generative AI” for “robot,” then we argue the claim
+holds true today. To be clear, we hope that the conversations out-
+lined above not only lead us to more thought-provoking inquiries
+into the effects of generative AI on writing and the work of writing
+256
+History of TechComm and the Future of GenAI SIGDOC ’24, October 20–22, 2024, Fairfax, VA,USA
+or to the development of more streamlined processes in the work-
+place, but to the design, production, and deployment of AI capable
+of helping others realize their potential and/or creating opportuni-
+ties for individuals and communities to thrive. While there is room
+for us to provide more case studies and practical applications that
+explore challenges and successes, the few listed above provide a
+small glimpse of such potential. Understanding AI’s history within
+TPC (iteration and process; theory, agency, and power; actors and
+activity; and social justice) can provide the fulcrum for an ethical
+exploration of what is to come.
+Perhaps what TPC has done in the past will help to ensure a
+future with robots whose expansive intelligence is matched only by
+their limitless kindness. Perhaps we can imagine a future alongside
+robots whose commitment to creating a better future is amplified
+by a contagious optimism.
+References
+[1]Agboka, G. Y. (2014). Decolonial Methodologies: Social Justice Perspectives in
+Intercultural Technical Communication Research. Journal of Technical Writing
+and Communication ,44(3), 297-327.https://doi.org/10.2190/TW.44.3.e
+[2]Avolicino, S., Di Gregorio, M., Palomba, F., Romano, M., Sebillo, M., Vitiello,
+G. (2022). “AI-Based Emotion Recognition to Study Users’ Perception of Dark
+Patterns.” In: Kurosu, M., et al.HCI International 2022 - Late Breaking Papers.
+Design, User Experience and Interaction. HCII 2022. Lecture Notes in Computer
+Science, vol 13516. Springer, Cham. https://doi.org/10.1007/978-3-031-17615-9_13
+[3]Balghare, A. (2022). “Healthcare Communication as a Social Justice Issue: Strate-
+gies for Technical Communicators to Intervene.” Present Tense: A Journal of
+Rhetoric in Society. 9(3).
+[4]Banjamin, W. (1969). Illuminations , edited by Hannah Arendt. Translated by
+Harry Zohn, New York: Schocken Books.
+[5]Baro D. (2022). Metadata and content management bridging technical
+documentation and automation technology. SHS Web of Conferences , 139,
+02001.https://www.shs-conferences.org/articles/shsconf/abs/2022/09/shsconf_
+etltc2022_02001/shsconf_etltc2022_02001.html
+[6]Borgman, J., & McArdle, C. (2019). Personal, Accessible, Responsive, Strategic:
+Resources and Strategies for Online Writing Instructors . The WAC Clearinghouse;
+University Press of Colorado. https://doi.org/10.37514/PRA-B.2019.0322
+[7]Borgman, J., & McArdle, C. (2022). Continuous Delivery: A PARS Online Course
+Development Cycle. Computers and Composition , 66.
+[8]Butler,J.(1990). Gendertrouble: Feminismandthesubversionofidentity .Routledge.
+[9]Carradini, S. (2024). On the Current Moment in AI: Introduction to Special Issue
+on Effects of Artificial Intelligence Tools in Technical Communication Pedagogy,
+Practice, and Research, Part 1. Journal of Business and Technical Communication ,
+0(0).https://doi.org/10.1177/10506519241239638
+[10]Cardon P., Getchell K., Carradini S., Fleischmann C., Stapp J. (2023). Generative
+AI in the workplace: Employee perspectives of ChatGPT benefits and organizational
+policies. Osf.io.https://doi.org/10.31235/osf.io/b3ezy
+[11]CenterforDiseaseControl.(2019).PublicHealthEmergencyRiskCommunication
+and Social Media Reactions to an Errant Warning of a Ballistic Missile Threat —
+Hawaii, January 2018. Morbidity and Mortality Weekly Report . https://www.cdc.
+gov/mmwr/volumes/68/wr/mm6807a2.htm?s_cid$=$mm6807a2_w
+[12]Davis, A. Y. (1983). Women, race & class . Vintage.
+[13]Decardi-Nelson, B., Alshehri, A. S., Ajagekar, A., & You, F. (2024). “Generative AI
+and process systems engineering: The next frontier.” Computers and Chemical
+Engineering . 187(108723).
+[14]Duin, A.H., & Pedersen, I. (2023). Augmentation Technologies and Artificial
+Intelligence in Technical Communication: Designing Ethical Futures (1st ed.).
+Routledge. https://doi.org/10.4324/9781003288008
+[15]Emig, J. (1977). Writing as a Mode of Learning . College Composition and Commu-
+nication, 28(2), 122. https://doi.org/10.2307/356095
+[16]Foucault, M. (1980). Power/Knowledge: Selected Interviews and Other Writings,
+1972-1977. Knopf Doubleday.
+[17]Fraiberg, S. (2017). Start-up nation: Studying transnational entrepreneurial prac-
+tices in Israel’s start-up ecosystem. Journal of Business and Technical Communica-
+tion, Communication, 31(3), 350-388. https://doi.org/10.1177/1050651917695541
+[18]Graham, S. S., & Hopkins, H. R. (2022). AI for Social Justice: New Methodological
+HorizonsinTechnicalCommunication. TechnicalCommunicationQuarterly ,31(1),
+89–102. https://doi.org/10.1080/10572252.2021.1955151
+[19]Harcourt, B. E. (2020). Critique & praxis: A critical philosophy of illusions, values,
+and action . Columbia University Press.
+[20]Harkins (2006). Using the Software Development Life Cycle as a Curriculum
+Design Tool in the Development of a “Companion Course” for Beginning Pro-
+grammers. Information Systems Education Journal , 4 (96).[21]Hart-Davidson, W. (2001). On writing, technical communication, and informa-
+tion technology: The core competencies of technical communication. Technical
+communication ,48(2), 145-155.
+[22]Hart-Davidson, W. (2016). “Describe – Evaluate – Suggest : A Helpful Feedback
+Pattern.” The Eli Review Blog . Retrieved from: https://elireview.com/2016/08/03/
+describe-evaluate-suggest/.
+[23]Hart-Davidson, W. (2020). Imagining a resilient pedagogy . Michigan State Univer-
+sity https://cal.msu.edu/news/imagining-a-resilient-pedagogy/.
+[24]Hill Collins, P. (2019). Intersectionality as critical social theory . Duke University
+Press.
+[25]Hodges,A.,Ponce,T.,Quijano,J.,Shaffer,B.,&Sosko,V.”DesignJusticeinTechni-
+cal and Professional Communication: Equity for Teaching Faculty and Graduate
+Student Instructors”. Amplifying Voices in UX: Balancing Design and User Needs
+in Technical Communication , edited by Amber L. Lancaster and Carie S. Tucker
+King, SUNY Press, 2024, pp. 327-355.https://doi.org/10.1515/9781438496757-015
+[26]Horkheimer, M., Adorno, T. W., & Schmid Noerr, G. (2002). Dialectic of enlighten-
+ment: Philosophical fragments . Stanford University Press.
+[27]Jones, N. N. (2016). The Technical Communicator as Advocate: Integrating a
+SocialJusticeApproachinTechnicalCommunication. JournalofTechnicalWriting
+and Communication ,46(3), 342-361.https://doi.org/10.1177/0047281616639472
+[28]Jones, N. N. (2016). Found things: Genre, Narrative, and identification in a
+networked activist organization. Technical Communication Quarterly, 25(4),
+298-318. https://doi.org/10.1080/10572252.2016.1228790
+[29]Kong,Y.,&Ding,H.(2024).Tools,Potential,andPitfallsofSocialMediaScreening:
+Social Profiling in the Era of AI-Assisted Recruiting. Journal of Business and
+TechnicalCommunication ,38(1),33-65.https://doi.org/10.1177/10506519231199478
+[30]Laclau, E., & Mouffe, C. (2001). Hegemony and socialist strategy: Towards a radical
+democratic politics (Second edition.). Verso.
+[31]Latour, B. (1987). Science in action: How to follow scientists and engineers
+through society. Open University Press.
+[32]Latour, B. (2007). Remembering the Social . Oxford University Press.
+[33]Lecher, C. (2018). Here’s how Hawaii’s emergency alert design led to a false
+alarm.The Verge . https://www.theverge.com/2018/1/18/16905512/hawaii-missile-
+software-false-alarm-emergency-alert
+[34]Levine, . (2023). “Vanderbilt apologizes for using ChatGPT in email on Michigan
+shooting.” The Guardian. https://www.theguardian.com/us-news/2023/feb/22/
+vanderbilt-chatgpt-ai-michigan-shooting-email.
+[35]Longo, B. (1998): An approach for applying cultural study theory to technical
+writing research, Technical Communication Quarterly , 7:1, 53-73
+[36]Mckoy, T., Shelton, C. D., Sackey, D. J., Jones, N. N., Haywood, C., Wourman,
+J. L., & Harper, K. C. (2022). Introduction to Special Issue: Black Technical and
+Professional Communication. Technical Communication Quarterly . 31(3), 221-228.
+[37]MoranK.,NielsenJ.(2023). AIforUX:Gettingstarted .NielsenNormanGroup .https:
+//www.nngroup.com/articles/ai-ux-getting-started/
+[38]Noble, S. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism .
+NYU Press.
+[39]Odell, L. & Goswami, D. (1986). Writing in nonacademic settings. Guilford Press.
+[40]Olavsrud, T. (2024). “10 famous AI disasters.” CIO. https://www.cio.com/article/
+190888/5-famous-analytics-and-ai-disasters.html.
+[41]Oswal, S. (2013). “Exploring accessibility as a potential area of research for
+technical communication: a modest proposal.” Communication Design Quarterly .
+1(4), 50-60. https://doi.org/10.1145/2524248.2524261
+[42]Potts, L. (2009). Using actor network theory to trace and improve multimodal
+communicationdesign.TechnicalCommunicationQuarterly,18(3),281-301.https:
+//doi.org/10.1080/10572250902941812
+[43]Prior, P., & Shipka, J. (2003). Chronotopic Lamination: Tracing the Contours of
+Literate Activity. In C. Bazerman & D. R. Russell (Eds.), Writing Selves/Writing So-
+cieties: ResearchfromActivityPerspectives (pp.181–239).TheWACClearinghouse;
+Mind, Culture, and Activity. https://doi.org/10.37514/PER-B.2003.2317.2.06
+[44]Ponce,T. (2021). Technical Writing Pedagogy and Empathetic Medical Interven-
+tion: UsingDesignThinkingtoTeachWholisticPatientCare. Stimulus: A Medical
+Humanities Journal ,1, 21. https://doi.org/10.32855/stimulus.2021.008
+[45]Read, S. (2016). The net work genre function. Journal of Business and Technical
+Communication, 30(4), 419-450. https://doi.org/10.1177/1050651916651909
+[46]Sackey, D. (2018). An environmental justice paradigm for technical communica-
+tion. Michelle Eble and Angela Haas, (Eds.) Integrating Theoretical Frameworks
+for Teaching Technical Communication (pp. 138-160). Logan, UT: Utah State Uni-
+versity Press.
+[47]Said, Edward W. (1994). Culture and imperialism . New York: Vintage Books.
+[48]Scott, T. (2006). Writing work, technology, and pedagogy in the era of late capi-
+talism.Computers and Composition ,23(2), 228-243.
+[49]Spinuzzi, C. (2008). Network: Theorizing knowledge work in telecommunications .
+Cambridge University Press. https://doi.org/10.1017/CBO9780511509605
+[50]Spinuzzi, C. (2011). Losing by Expanding: Corralling the runaway object. Journal
+of Business and Technical Communication, 25(4), 449-486. https://doi.org/10.
+1177/1050651911411040
+257
+SIGDOC ’24, October 20–22, 2024, Fairfax, VA, USA Bill Hart-Davidson et al.
+[51]Spinuzzi, C. (2023). Actor/Activity. Keywords in Technical and Professional Com-
+munication . Ed: Han Yi and Jonathan Buehl. WAC Clearinghouse: Founda-
+tions and Innovations in Technical and Professional Communication. https:
+//wac.colostate.edu/books/tpc/tpc/
+[52]Sullivan, P. A., & Porter, J. E. (1993). Remapping Curricular Geogra-
+phy: Professional Writing in/and English. Journal of Business and Technical
+Communication , 7(4), 389-422–422. https://doi-org.proxy1.cl.msu.edu/10.1177/
+1050651993007004001
+[53]Sun, L., Wei, M., Sun, Y., Suh, Y. J., Shen, L., & Yang, S. (2023). Smiling Women
+Pitching Down: Auditing Representational and Presentational Gender Biases in
+Image Generative AI. arXiv preprint arXiv:2305.10566 .
+[54]Swarts, J. (2010). Recycled writing: Assembling actor networks from reusable
+content. Journal of Business and Technical Communication. 24(2), 127-163. https:
+//doi.org/10.1177/1050651909353307
+[55]Tham, J. (2021). Design Thinking in Technical Communication: Solving Problems
+through Making and Collaboration (1st ed.). Routledge. https://doi.org/10.4324/
+9781003036760
+[56]Tham, J., Howard, T., & Verhulsdonck, G. (2022). Extending Design Thinking,
+Content Strategy, and Artificial Intelligence into Technical Communication and
+User Experience Design Programs: Further Pedagogical Implications. Journal
+of Technical Writing and Communication ,52(4), 428-459. https://doi.org/10.1177/
+00472816211072533
+[57]Tun, LC. (2023). “What “racist” soap dispensers reveal about the in-
+equities in the public health tech industry.” Oct. 17. Retrieved from:https://edinazephyrus.com/what-racist-soap-dispensers-reveal-about-the-
+inequities-in-the-public-health-tech-industry/
+[58]Verhulsdonck, G., Howard, T., & Tham, J. (2021). Investigating the Impact of
+Design Thinking, Content Strategy, and Artificial Intelligence: A “Streams”
+Approach for Technical Communication and User Experience. Journal of
+Technical Writing and Communication ,51(4), 468-492. https://doi.org/10.1177/
+00472816211041951
+[59]Walker, J. R., Blair, K. L., Eyman, D., Hart-Davidson, B., McLeod, M., Grabill, J., &
+Vitanza, V. J. (2011). Computers and composition 20/20: A conversation piece,
+or what some very smart people have to say about the future. Computers and
+Composition , 28(4), 327-346.
+[60]Walton, R. W., Moore, K. R., & Jones, N. N. (2019). Technical communication after
+the social justice turn: Building coalitions for action (First edition). Routledge.
+[61]Weisz, J.D., He, J., Muller, M., Hoefer, G., Miles, R., & Geyer, W. (2024). Design
+Principles for Generative AI Applications. Association for Computing Machinery,
+New York, NY, USA, Article 378, 1–22. https://doi.org/10.1145/3613904.3642466
+[62]Williams, Raymond (2006) Culture and Materialism. Verso.
+[63]Wilson, G., & Wolford, R. (2017). The technical communicator as (post-
+postmodern) discourse worker. Journal of Business and Technical Communication ,
+31(1), 3-29.
+[64]What is generative AI? (2023). April, 20. Retrieved from: https://research.ibm.
+com/blog/what-is-generative-AI.
+258

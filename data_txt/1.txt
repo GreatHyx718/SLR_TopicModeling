@@ -1,0 +1,748 @@
+Human –AI resource relations
+in value cocreation
+in service ecosystems
+Valtteri Kaartemo
+Department of Marketing and International Business,
+Turku Institute for Advanced Studies, University of Turku, Turku, Finland, and
+Anu Helkkula
+Department of Marketing,
+The Centre for Relationship Marketing and Service Management (CERS),
+Hanken School of Economics, Helsinki, Finland
+Abstract
+Purpose –Applications of artificial intelligence (AI), such as virtual and physical service robots, generative
+AI, large language models and decision support systems, alter the nature of services. Most service research
+centers on the division between human and AI resources. Less attention has been paid to analyzing theentangled resource relations and interactions between humans and AI entities. Thus, the purpose of this paper
+is to extend our metatheoretical understanding of resource integration and value cocreation by analyzing
+different human –AI resource relations in service ecosystems.
+Design/methodo logy/approach –The conceptual paper adapts a novel framework from
+postphenomenology, specifically cyborg intentionality. This framework is used to analyze what kinds of
+human –AI resource relations enable resource integration and value cocreation in service ecosystems.
+Findings –We conceptualize seven different human –AI resource relations, namely background, embodiment,
+hermeneutic, alterity, cyborg, immersion and composite relation. The sociotechnical entangled perspective on
+human –AI resource relations challenges and reframes our understanding of interactions between humans and
+nonhumans in resource integration and value cocreation and the distinction between operant and operand
+resources in service research.
+Originality/value –Our primary contribution to researchers and service providers is dissolving the
+distinction between operant and operand resources. We present two foundational propositions. 1. Humans and
+AI become entangled value cocreating resources in inherently sociotechnical service ecosystems; and 2. Human
+and AI entanglements in value cocreation manifest through seven resource relations in inherentlysociotechnical service ecosystems. Understanding the combinatorial potential of different human –AI
+resource relations enables service providers to make informed choices in service ecosystems.
+Keywords Value, Cocreation, Artificial intelligence, Service ecosystem, Resource, Postphenomenology
+Paper type Conceptual paper
+Introduction
+Artificial intelligence [1](AI) applications, such as virtual and physical service robots, are
+claimed to alter frontline service ( Wirtz et al., 2018 ;Paluch et al., 2020 ). With its ability to learn,
+adapt, connect and exhibit features of human intelligence, AI can act as a customer interface
+(Huang and Rust, 2018 ). Therefore, service robots and chatbots represent an increasing share
+of frontline service employees. While recent marketing and service research has witnessed anJournal of Service
+Management
+© Valtteri Kaartemo and Anu Helkkula. Published by Emerald Publishing Limited. This article is
+published under the Creative Commons Attribution (CC BY 4.0) licence. Anyone may reproduce,distribute, translate and create derivative works of this article (for both commercial and non-commercialpurposes), subject to full attribution to the original publication and authors. The full terms of this licencemay be seen at http://creativecommons.org/licences/by/4.0/legalcode
+We would like to thank the Editor, Guest Editors and reviewers for their valuable comments that
+helped us improve the paper. ChatGPT was used for initial ideation and for parts of language editing.The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/1757-5818.htm
+Received 10 March 2023
+Revised 31 October 2023
+3 April 2024
+Accepted 23 April 2024
+Journal of Service Management
+Emerald Publishing Limited
+1757-5818
+DOI 10.1108/JOSM-03-2023-0104
+exponential growth of articles discussing different types of AI applications, such as
+generative AI, large language models (LLMs) and decision support systems (DSSs), the
+emphasis has been on the division and differences between human and nonhuman actors,
+and the AI ’s potential for value cocreation and automation at the task level ( Hottat et al., 2023 ).
+The human vs AI dichotomy can be misleading, as it directs the discussion away from
+recognizing the combinatorial potential of humans and AI for value cocreation, which takes
+place in service ecosystems. In service-dominant (S-D) logic, Vargo and Lusch (2016) refer to
+Maglio et al. (2009) and define a service ecosystem as a configuration of people, technologies
+and other resources interacting to create mutual value. In information systems literature, the
+synergistic assemblage of humans and AI is discussed as augmented intelligence (e.g. Jain
+et al., 2021 ) and human –AI collaborative environments ( F€ugener et al., 2022 ). Nevertheless,
+despite the recent interest in the topic, the understanding of human –AI augmentation
+remains limited ( Teodorescu et al., 2021 ). Further, while AI could augment professionals,
+studies on decision-making indicate that technology is not always utilized ( Lebovitz et al.,
+2022 ). Recognizing the challenges of studying AI in isolation from humans, Anthony et al.
+(2023) and Pakarinen and Huising (2023) shift away from the perspective of AI as a
+standalone tool or medium that merely augments human capabilities. Instead, they embrace a
+relational perspective, conceptualizing AI as an integral component of the ongoing system of
+interactions, where value is cocreated and experienced.
+Instead of considering humans and AI as separate actors, the purpose of this paper is to
+extend our metatheoretical understanding of resource integration and value cocreation in
+service ecosystems by analyzing different human –AI resource relations. Nuanced aspects of
+coconstituted and co-dependent resource relations are characteristic of service-dominant
+(S-D) logic ( Vargo and Lusch, 2008 ). As resources only exist in relation to other entities,
+humans and AI as resources only exist in relation to one another ( Barad, 2007 ;Anthony et al.,
+2023 ;Pakarinen and Huising, 2023 ).Kleinaltenkamp et al . (2023) characterize this as
+resources becoming entangled within service ecosystems.
+Resource integration is driven by intentional and unintentional human behavior (e.g.
+Findsrud et al., 2018 ). Traditionally, operant resources were associated with intangible
+human attributes, such as explicit and tacit knowledge; operand resources with tangible
+(material) resources ( Constantin and Lusch, 1994 ). In S-D logic, Akaka and Vargo (2014) were
+forerunners in positioning technology as an operant resource, recognizing that technology,
+coupled with knowledge and skills, may play a pivotal role in resource integration. Despitethe increasing number of articles acknowledging the role of technology in value cocreation,
+the anthropocentric view that regards humans as the primary knowledge-creating actors and
+operant resources in value cocreation has remained dominant. We argue that the dichotomy
+between operant and operand resources lacks the conceptual power to explain technology ’s
+various roles in value cocreation in service ecosystems (see also Kleinaltenkamp
+et al., 2023 ).
+In our conceptual paper, we employ theory adaptation ( Jaakkola, 2020 ) to contribute to
+service research, broadening the scope and comprehension of resource integration and value
+cocreation. We identify various human –AI resource relations in service ecosystems by
+incorporating insights from S-D logic and postphenomenology ( Ihde, 1995 ), with a notable
+emphasis on cyborg intentionality ( Verbeek, 2008 ;Aydin et al., 2019 ), which studies human –
+technology relations. We employ various forms of cyborg intentionality to answer our
+research question: What kinds of human –AI resource relations exist in value cocreation in
+service ecosystems ? This question assists us in examining the diverse ways in which the
+entanglement of humans and AI influences the cocreation and experience of value within
+service ecosystems.
+As our contribution, we present two propositions for human –AI research in service based
+on our theoretical discussion on seven different human –AI resource relations: background ,
+embodiment ,hermeneutic ,alterity ,cyborg ,immersion andcomposite relation. First, humansJOSM
+and AI become entangled value cocreating resources in inherently sociotechnical service
+ecosystems. Here, we extend the recent advancements in S-D logic ( Kleinaltenkamp et al.,
+2023 ) by focusing on the particular resource relation between humans and AI. We direct the
+attention to entangled resources to guide human –AI research toward acknowledging the
+inseparability of humans and AI. This leads to our second proposition: human and AI
+entanglements in value cocreation manifest through seven resource relations in inherently
+sociotechnical service ecosystems. The seven human –AI resource relations give service
+scholars and practitioners a unique perspective, helping them grasp the intricate
+entanglement of humans and AI in cocreating value within service ecosystems.
+Emphasizing human –AI resource relations offers a more comprehensive perspective on
+value creation and service ecosystem evolution than relying solely on humans as operant
+resources. We also present future research avenues for service research building on the
+identified resource relations. Our managerial implications focus on various human –AI
+resource relations and their potential for improved value cocreation.
+Human and AI in resource relation and value cocreation
+The traditional division between humans and technology, and between operant and operand
+resources, has constrained our conceptual understanding of human –technology interactions,
+especially regarding human –AI resource relations in service ecosystems. Next, we discuss
+two main arguments challenging the human vs nonhuman actor and operant vs operand
+resource divisions in human –AI resource relations and value cocreation.
+Firstly, service is increasingly cocreated with AI. As a result, the division between humans
+and AI has become liminal in value cocreation. For instance, there has been a surge in articles
+within service research discussing service robots, chatbots and AI in general. Human-type
+service robots have triggered an active discussion (e.g. Pitardi et al., 2022 ), and service robots
+are now viewed as a new employee category ( Paluch et al., 2022 ). In S-D logic, Akaka and
+Vargo (2014) have applied thinking from science and technology studies, such as actor-
+networks ( Callon, 1986 ;Latour, 2007 ), sociotechnical ensembles ( Bijker, 1997 ) or mangles of
+practice ( Pickering, 2010 ), which all challenge the traditional dichotomy between humans
+(social) and technology (material). Nevertheless, the conceptual basis of human –technology
+relations needs to be developed for theory development and practical implications.
+Secondly, the rise of sociotechnical ecosystems, which combine social (people) and
+technical components in goal-oriented behaviors ( Sony and Naik, 2020 ), also challenges the
+established divisions. We contend that service ecosystems are inherently sociotechnical, and
+agency emerges from the interaction between various entities, whether members of the biotic
+community, inanimate objects, hybrids or their configurations ( Helkkula and Arnould, 2022 ;
+Kleinaltenkamp et al., 2023 ;Arnould and Helkkula, 2024 ). Customers sometimes might not
+differentiate between interacting with a human or an AI. For example, a chatbot might handle
+the initial customer service interaction when booking an airline ticket online. However, if the
+query becomes more complex, the chatbot might redirect the customer to a human
+“colleague. ”The transition from traditional service to a service that uses AI technology could
+be so smooth and unnoticeable that the customer may not even realize or understand to what
+degree AI is being utilized by the service provider. Moreover, generative AI, capable of
+producing new content (e.g. audio, text, images) based on prompts from humans or software,
+has emerged as a cocreator of knowledge in service. This challenges the traditional division
+between humans and AI and the practice of attributing agency solely to humans. As a result,
+AI should be considered a part of entangled resources in a service ecosystem ( Kleinaltenkamp
+et al., 2023 ). As AI does not preexist as an independent actor but emerges from computing
+power, algorithms, training data sets and human inquiries, focusing on human –AI resource
+relations in value cocreation becomes more meaningful.Journal of Service
+Management
+Postphenomenological approach to human –AI resource relations
+Our study offers a fresh perspective on human –AI resource relations. We draw on the
+postphenomenological research tradition ( Ihde, 1995 ;Verbeek, 2008 ), which explores how
+technology shapes our perception of the world and influences our behavior. As value
+cocreation emerges from entangled human and nonhuman resources, grasping how we study
+human experience toward and with technology, here AI is pivotal.
+Postphenomenology argues that technologies coconstitute both the subject (actor) and the
+world (context). As a result, technology acts as a mediator within this context. For service
+research, technology is not simply a tool humans use in the physical world; instead, it
+significantly impacts how they interact with the world ( Aydin et al., 2019 ).
+S-D logic has a tradition of employing phenomenology to study value cocreation and service
+experience ( Vargo and Lusch, 2008 ;Helkkula et al. , 2012 ). Phenomenology focuses on first-
+person subjective experiences in a social context. Therefore, phenomenology does not consider
+technology to mediate our experiences. Instead, postphenomenology considers that technology
+shapes the world, enabling and constraining humans ’ability to know and act in the world
+(Goeminne, 2011 ). Technology is characterized by nonneutrality as it displays a particular
+intentionality. For instance, AI may affect value cocreation through “smart nudging ”(Mele et al.,
+2021), resulting in widened resource accessibility, extended engagement and augmented agency
+of human actors. By combining social and technological elements ( Aydin et al. , 2019 ),
+postphenomenology emphasizes technology ’s importance in cocreating distinctive resource
+relations and contexts of entangled systems for value cocreation. Thus, postphenomenology
+enables service researchers and managers to understand how technology as a nonneutral,
+entangled resource affects how value is cocreated and experienced.
+We use postphenomenology as a method theory ( Jaakkola, 2020 ) to analyze human –AI
+resource relations in value cocreation. In a co nceptual paper, a method theory provides the
+conceptual framework for studying the dom ain theory. We use postphenomenology ’s recent
+conceptualization of intentionality to identify human –AI resource relations in value cocreation in
+service ecosystems ( Aydin et al., 2019 ). In earlier postphenomenologi cal research, intentionality
+referred to the experiences that arise from an individual ’s attention directed at an event, another
+agent or artifacts ( van Manen, 2016 ). For example, Verbeek (2008) —one of the founders of
+postphenomenology —ascribed intentionality only to humans. In more recent research, Aydin
+et al. (2019) deploy cyborg intentionality as a meta-t erm for technology-mediated, hybrid,
+augmented and composite intentionality. Our paper draws on Aydin et al.’s (2019) four types of
+cyborg intentionality to rethink human –AI value cocreation in service ecosystems. Within Aydin
+et al.’s (2019) framework of the four types of cyborg in tentionality, human and technological
+intentionalities intertwine. When human and technological intention alities intertwine, technology
+seamlessly integrates with human intentio nalities and becomes a novel contextual “world ”.W e
+note that while cyborg intentionality is the meta-term in Aydin et al.’s (2019) framework to define
+human technology value coc reation relationships, Aydin et al. (2019) also use the term cyborg to
+describe one of the seven types of human –AI cyborg relations they defin e, referring specifically to
+the case of human and AI as a hybrid, bionic system.
+Aydin et al.’s (2019) cyborg-intentionality framework encourages re-examining human –
+AI resource relations, encompassing medi ated, hybrid, augmented and composite
+intentionality. Next, we elaborate on these four types of intentionality and the seven
+human –AI resource relations: background ,embodiment ,hermeneutic ,alterity ,cyborg ,
+immersion andcomposite resource relation.
+Mediated intentionality in human –AI resource relations
+In mediated intentionality, human intentionality occurs “through ”AI (Ihde, 1995 ;Verbeek, 2008 ).
+The four types encompass human –AI background, embodiment, herme neutic and alterity relations:JOSM
+In the human –AI background resource relation , AI technologies operate subtly, enhancing
+human activities without dominating attention or consciousness. In this relation, AI is a tool
+or extension of human abilities, allowing humans to perform tasks more efficiently or
+effectively. For example, speech recognition software transcribes speech in real-time, or AI-
+powered personal assistants schedule appointments and perform tasks on their users ’behalf.
+In the human –AI background relation, people focus on the task or goal accomplished rather
+than the technology as long as the AI functions as expected.
+The human –AI embodiment resource relation refers to integrating AI technologies with
+the human body, enhancing, and influencing human experience and capabilities. This
+resource relation integrates technologies with the user ’s body, forging a connection between
+humans and their environment. For example, when wearing glasses, the glasses are not
+explicitly noticed but are “incorporated ”into the body, becoming an extension of the human
+form ( Ihde, 1995 ). This resource relation involves closely integrating technology and the
+body, resulting in seamless and constant communication. Examples of the human –AI
+embodiment resource relation include wearable smart devices, like sleep and activity trackers
+people wear to improve physical abilities.
+The human –AI hermeneutic resource relation underscores the importance of interpreting
+and understanding the output of AI systems. These technologies provide representations of
+reality necessitating interpretation to form a “perception ”—like a thermometer merely
+providing a value that must be “read ”to determine something about temperature rather than
+producing an experience of hot or cold ( Ihde, 1995 ). AI helps humans interpret complex
+datasets and information by applying AI algorithms and models to analyze data and create
+predictions. For example, financial analysis and medical diagnosis tools analyze massive
+amounts of data to help experts understand the situation. The human –AI hermeneutic
+resource relation emphasizes interpretation and comprehension while acknowledging the
+influence of human judgment and decision-making on the interaction.
+The human –AI alterity resource relation characterizes the interaction between humans
+and AI systems, such as service robots. Humans engage with robots as if they are “quasi-
+other, ”possessing human-like intentions ( Benjamin, 2023 ). AI appears capable of exerting
+agency over its environment on behalf of humans interacting with it. In the human –AI
+background resource relations, humans typically notice the AI only when it malfunctions or
+ceases to function. In alterity resource relations, technological artifacts become opaque
+figures of human experience. Examples of human –AI alterity resource relations include
+robots in frontline service.
+Hybrid intentionality
+The human –AI cyborg resource relation pertains to the fusion of human and AI systems,
+culminating in a bionic entity or cyborg. This integration can lead to an increase in human
+abilities. Technology and a human become a single, hybrid entity. The lines between humans
+and technology are blurred in this relation, unlike in the embodiment relation, where one can
+easily (physically) separate human and nonhuman elements. Rather than merely altering the
+human perception of the world, technology in human –AI cyborg relations transforms
+humans into a novel human –technology hybrid. Examples of human –AI cyborg resource
+relations include brain –computer interfaces, AI-powered prosthetics and implantable
+medical devices using AI algorithms to regulate the function of internal organs.
+Augmented intentionality
+In the human –AI immersion resource relation, technology makes an artificially expanded
+form of human intentionality accessible. This resource relation describes scenarios where AIJournal of Service
+Management
+technologies integrate seamlessly with the human environment, influencing human
+experiences and perceptions. In contrast to the human –AI background relation, immersion
+can be viewed as a more dynamic version where the environment not only senses humans but
+actively engages with them ( Vindenes and Wasson, 2021 ). AI is not just a background but an
+integral part of the human experience, influencing and nudging behavior and creating a
+highly interactive and responsive environment. For instance, AI-based augmented reality
+(AR) can produce alternative representations of the world to humans, such as showing the
+impact of their intended purchase on the natural environment or spotlighting a product the
+customer is most likely to buy in a walk-in store based on the AI ’s real-time data analysis.
+Given AI ’s capability to discern emotions and relay information to other technologies,
+human –AI immersion resource relations add new layers of meaning and depth to the human
+experience and value cocreation processes.
+Composite intentionality
+In the human –AI composite resource relation , humans and AI collaborate to form a new
+hybrid entity, further blurring the line between humans and machines (nonhumans).
+Composite intentionality pertains to scenarios where both human intentionality and
+technological intentionalities intersect. It entails a dual intentionality: one from technology
+directed toward its environment and another from humans toward the results of
+technological intentionality. Technological intentionality refers to the deliberate use of
+certain technologies to engage with and shape particular facets of the world, such as detecting
+sounds inaudible to humans. Here, unlike in cyborg relations, the boundary is solely based on
+intentionality, not the physical. The two components coexist in a continuous dynamic loop,
+where one ’s output becomes the other ’s input. As a unique perspective, technological
+intentionality can reveal realities only accessible via technology ( Verbeek, 2008 ). In simple
+terms, humans are attuned to how technology is directed at the world. This type of relation is
+common in areas such as human –robot interaction, where service robots work with humans
+to accomplish tasks. Through this fusion, humans and AI create a new reality that can only be
+experienced in this unique resource relation.
+Table 1 summarizes the different forms of cyborg intentionality and gives examples of
+human –AI resource relations and cyborg intentionality in value cocreation.
+Discussion
+Our discussion centers on the sociotechnical entangled perspective of human –AI resource
+relations and their potential to cocreate value in service ecosystems. The core of the
+sociotechnical perspective encompasses both the social and technical aspects of value
+cocreation. We reference Bijker ’s (1997) assertion that in today ’s sociotechnical ecosystems,
+human and technological resources can no longer be compartmentalized into separate silos.
+"Society is not determined by technology, nor is technology determined by society. Both emerge as
+two sides of the socio-technical coin.
+Wiebe E. Bijker (1997 , p. 274)
+Our study introduces a fresh metatheoretical viewpoint on human –AI resource relations,
+underlining AI ’s pivotal function in cocreating value with humans and other entangled
+sociomaterial resources. Our contribution is to characterize sociotechnical value cocreation.
+In this context, the focus shifts from the human vs AI dichotomy to the value cocreation
+emerging from entangled human –AI resources. We present two foundational propositions
+capturing the entangled human –AI resource relations in service ecosystems.JOSM
+Relation Examples of the human –AI resource relations in value cocreation
+Technology-meditated intentionality
+Background AI-powered personal assistants: These assistants are designed to perform tasks on behalf of their
+users automatically, such as scheduling appointments and sending reminders. By taking care of these
+routine tasks, AI-powered personal assistants free up time for humans to focus on more important
+tasksPredictive maintenance systems: These AI systems are used in manufacturing plants and other
+industrial settings to monitor equipment and predict when maintenance is needed. By detecting
+potential issues before they become major problems, predictive maintenance systems allow humans
+to take proactive measures and prevent downtime
+Embodiment Sleep and activity trackers: These devices are physically integrated into the human body. They track
+sleep and activity patterns and by analyzing the data extend the human body ’s capabilities. They
+make it easier to track health and wellness, and provide real-time information and feedback, which
+influences human decision making and experienceSmart clothing: This technology integrates sensors, conductive materials, and wireless
+communication to create clothing that can sense and react to the wearer and its environment. Smart
+clothing can be used in a variety of contexts, from athletic performance tracking to medical
+monitoring, rehabilitation and personal protection
+Hermeneutic Financial analysis: AI is used to analyze vast amounts of financial data and generate predictions and
+recommendations for investment decisions. This human –AI hermeneutic resource relation allows for
+more effective and efficient investment strategies, while also ensuring that human judgment and
+decision-making remain central to the processPersonalized education: AI systems can analyze student performance data and generate personalized
+recommendations and resources to help students achieve their learning goals. This human –AI
+hermeneutic resource relationship allows for more personalized and effective learning experiences,while also ensuring that human educators remain central to the process
+Alterity Service robots: Humans engage with service robots as if they possessed human-like intentions and
+capabilities. Typical to human –AI alterity resource relation, service robots appear to exert agency over
+their environment on behalf of th e humans interacting with them
+Autonomous vehicles: Various autonomous vehicles are able to navigate and respond to their environment.As a result, people can rely on them as drivers freeing humans to focus on other tasks
+Hybrid intentionality
+Cyborg Brain-computer interfaces (BCIs): This technology allows humans to control various technologies
+using their thoughts, thereby blurring the boundary between human and technology. Humans cancontrol, for instance, prosthetic limbs, computers or even wheelchairs with BCIs. This human –AI
+cyborg resource relation allows humans to achieve greater control over their environment while
+reshaping our very understanding of what it means to be humanImplantable medical devices: AI algorithms may be used to monitor and regulate the function of
+internal organs, thereby transforming human health. Individuals may have implantable devices
+that monitor their health in real-time and adjust their activities accordingly. For instance, an
+individual with a heart condition may have a device that monitors their heart rate and uses AI to
+detect and prevent dangerous arrhythmias. This human –AI cyborg resource relation allows
+individuals to maintain their health and well-being, while also relying on technology to do so,
+offering new avenues for controlling and managing human health
+Augmented intentionality
+Immersion Smart homes: AI technology can create a completely personalized and immersive environment
+for humans. By analyzing previous behavior and preferences, AI can adjust lighting,
+temperature, and music, making the living space responsive to the inhabitant ’s needs.
+Additionally, AI can interact with humans through voice-activated commands, assisting withdaily activities and providing a responsive envi ronment that makes living more efficient and
+enjoyable
+AI-powered virtual reality: When VR is powered by AI algorithms, there is an entirely new worldfor humans to explore. The environment generated by AI is incredibly realistic, and intelligent
+virtual characters respond to human behavior , enhancing the immersive experience. The line
+between reality and virtual reality becomes blurred as the interactive and responsiveenvironment mimics the real world
+(continued )Table 1.
+Human –AI resource
+relations and cyborg
+intentionality in value
+cocreationJournal of Service
+Management
+1. Humans and AI become entangled value cocreating resources in inherently
+sociotechnical service ecosystems.
+So far, S-D logic has yet to emphasize the pivotal role of AI in value cocreation. With this
+proposition, we argue that AI not only has a mediating role in value cocreation ( Vargo, 2018 ).
+Assessing humans and AI as entangled resources in inherently sociotechnical service
+ecosystems is meaningful. When AI is present with its ability to display intelligent behavior, the
+dynamics of human interactions with resources change compared to interactions with non-AI
+technology. This has important implications for managing service ecosystems, emphasizing the
+need to recognize the increased role of human –AI relations alongside human efforts. What we
+add to existing cocreation research is that AI can act on humans just like humans act on other
+humans and technologies in service ecosystems. Furthermore, we question the human-centered
+understanding of only human beings as knowledge-creating, resource-integrating actors and
+claim that human –AI resources are increasingly taking this role. This is imperative as value
+increasingly emerges from human –AI resource relations. Even when we think about a human-
+centered, manual service, such as a haircut, AI often mediates the experience along the customer
+journey. For instance, when booking the service, a customer may ask the iPhone Siri (human –AI
+alterity relation): “Where is a barber store open nearby? ”.
+Postphenomenology offers a framework for understanding human –AI resource relations
+from various aspects. To continue the barber example, the customer whose hair was manually
+cut pays the bill using a payment system mediated by the AI (human –AI background resource
+relation). Thus, from the service provider ’s side, either a person, an AI application, or their
+combination can take care of the payment. Even these simple examples indicate that the
+distinction between entangled human –AI resource relations is never clear-cut. Our theoretical
+discussion and examples show how postphenomenology, particularly cyborg intentionality, can
+advance a service ecosystems approach to replace a human vs AI and the operant vs operand
+dichotomies in service research. We indicate how intentionality is not conceptually meaningful
+to solely assign to humans or AI but to the entangled resources ( Barad, 2007 ;Orlikowski, 2007 ;
+Kleinaltenkamp et al., 2023 ). In our managerial implications, we will further elaborate on the
+specific postphenomenological resource relations for value cocreation.
+2. Human and AI entanglements in value cocreation manifest through seven resource
+relations in inherently sociotechnical service ecosystems.
+Resource integration in sociotechnical ser vice ecosystems is not human vs AI but includes
+human –AI resource relations. Service ecosyst em elements are connected to a shared
+purpose, where physical and AI elemen ts are architecturally designed ( Mele et al. , 2010 ;Relation Examples of the human –AI resource relations in value cocreation
+Composite intentionality
+Composite Generative AI: The field of generative AI allows humans and machines to collaborate and create new
+forms of art, music and research. A musician, for example, can use an AI system to generate new
+melodies, and then modify and expand upon them to produce a unique, hybrid composition thatblends the human touch with machine-generated creativity
+Medical diagnosis: In some medical specialties, such as radiology, AI systems are used to aid human
+doctors in making diagnoses. The AI system analyzes medical images and provides suggestions tothe doctor, who then makes the final decision based on their medical knowledge and expertise. This
+human –AI composite resource relation results in a collaborative diagnosis that combines the
+strengths of both human and machine input, ultimately leading to more accurate diagnoses andimproved patient outcomes
+Source(s): The content of the table was created by the authors, utilizing OpenAI ’s ChatGPT for original ideation
+Table 1.JOSM
+Mele and Russo-Spena, 2022 ). Therefore, designing value co creation focuses on facilitating
+intended value cocreation for service provid ers and customers. Resourcing the intended
+value cocreation can be designed using different human –AI resource relations. For
+example, a fast-food takeaway restaurant o ffers two kinds of food ordering and pick-up
+options: a customer can stand in line and order food at the counter (human –human) or via a
+voice app in their wristwatch (human –embodied AI), get home delivery by a food delivery
+firm (human –background AI), or a service robot delivery (human –alterity AI).
+These examples are positive human –AI resource relations. The two sides of the
+sociotechnical coin include the tremendous potential for new types of service innovations on
+one side and risks and threats on the other. For example, AI-powered autonomous vehicles
+can be safe and comfortable but raise people ’s fears, which may cause reluctance to adopt the
+service ( Meyer-Waarden and Cloarec, 2022 ). Moreover, certain AI-based innovations, like
+autonomous military drones ( Dyndal et al., 2017 ), are perceived as threats to humanity. This
+underscores the need to recognize human –AI resource relations and revisit ethical guidelines
+and legislation. Ethical considerations extend beyond concerns about threats to humanity in
+human –AI interactions. They also encompass issues such as accountability and
+transparency regarding the utilization of AI within service ecosystems. We anticipate our
+work will illuminate the intricate dynamics of these entangled human –AI resource relations,
+aiding in addressing these challenges. Next, we discuss some possible future research topics
+that could advance human –AI resource relations in value cocreation.
+Future research agenda for service research
+Postphenomenology, particularly cyborg inte ntionality, provides a unique foundation for
+researching human –AI resource relations in value cocreation. We delineate future research for
+advancing service research within thre e interconnected areas: (1) studying human –AI resource
+relations in service, (2) advancing understanding of human –technology resource relations and (3)
+conceptualizing agency and intentionality in service ecosystems. Table 2 lists potential research
+questions for service research encompassing al l three areas. In sociotechnical ecosystems,
+individual and collective social factors are relevant to all human –AI resource relations. When
+designing for human –AI value cocreation, it is vital to incorpo rate networks of actors, rules, social
+norms and institutions into the process ( Vargo and Akaka, 2012 ;Vink et al., 2021 ).
+Studying human –AI resource relations in service
+Our study initiates a new approach to studying the roles of humans and AI in resource
+integration and value cocreation in service ecosystems. We need more research that does not
+simply draw a line between humans and AI but explores the consequences when these
+boundaries become indistinct. We call for studies to uncover how various human –AI resource
+relations impact the service frontline, which can be approached from the perspective of
+customers and frontline employees. The implications of this integration extend beyond the
+frontline. Further studies are needed to explore the influence of human –AI resource relations
+on areas ranging from actor engagement to market shaping and transformative service
+research. In empirical research, the effect may be contextually sensitive; hence, we need more
+studies to uncover the role of the cultural context in shaping human –AI resource relations.
+Further, there is a need to understand the ethical and social implications of the blurring
+boundaries between humans and AI in service ecosystems.
+Advancing understanding of human –technology resource relations
+This study purposefully focuses on AI as a technology. We recognize that our decision limits
+the direct applicability of our work beyond human –AI resource relations. Therefore, we inviteJournal of Service
+Management
+other scholars to employ postphenomenology as a method theory to further our general
+understanding of human –technology resource relations. More studies are needed to
+understand how AI stands apart from other technologies in value cocreation. For example,while AI is capable of autonomous decision-making, other technologies do not possess this
+skill. Thus, service scholars might explore how other human –technology resource relations
+impact value cocreation. These questions could influence not just service research but also
+other disciplines. For example, Hoffman and Novak (2018) observed that the recognizedRelation
+Technology-meditated intentionality
+Background How does the human –AI background resource relation influence service encounters and value
+cocreation?
+How does the human –AI resource relation change when the background is made visible with
+cues, and what are its implications to service experience?What role do contextual factors, such as physical environment and social norms, play inshaping the human –AI background resource relation?
+Embodiment What ethical and social implications arise from the human –AI embodiment resource relations
+in frontline service?
+How do customers perceive and respond to service agents wearing AI-assisted devices?
+How can service providers facilitate the human –AI embodied resource relations to improve
+customer engagement?
+Hermeneutic What are the different ways the human –AI hermeneutic resource relation could influence
+market-shaping processes?How could service providers design the human –AI hermeneutic resource relations to facilitate
+a shared understanding of needs and preferences?
+How does cultural context shape the human –AI hermeneutic resource relation?
+Alterity How do customers perceive and respond to the human –AI alterity resource relations when
+service robots exhibit autonomous decision-making and behavior?What are the key aspects of human –AI alterity resource relations that make them different
+from human-human interaction in service frontline?What are the ethical and social implications of integrating AI-powered service agents with
+varying degrees of alterity into service encounters?
+Hybrid intentionality
+Cyborg How does the human –AI cyborg resource relation influence the cocreation of value?
+What is the difference between the human –AI and human –(non-AI) cyborg resource relations,
+and what are its implications for service experiences?How do we update ethical principles and legislation when the boundary between humans andAI becomes increasingly blurred in service ecosystems?
+Augmented intentionality
+Immersion Does the human –AI immersion resource relation enhance actor engagement in nonimmersive
+contexts?How can the human –AI immersion resource relations promote transformative change for
+service users and other stakeholders?How do sensory and affective elements shape the human –AI immersion resource relation?
+Composite intentionality
+Composite How can service providers leverage the human –AI composite resource relations for value
+cocreation?How can the human –AI composite resource relations enhance the efficiency and effectiveness
+of service ecosystems?
+What are the aspects of human-composite resource relations that can support the developmentof sustainable service ecosystems?
+Source(s): Table by authorTable 2.
+Potential researchquestions for service
+researchersJOSM
+emergence of consumer-object assemblages prompts new inquiries and suggests broadening
+the scope of consumer behavior.
+Conceptualizing agency and intentionality in service ecosystems
+As service researchers move from a human-centric approach to a sociotechnical perspective
+on value cocreation, they will encounter new questions about resources and actors. For
+example, we need to deepen our understanding of agency and intentionality within service
+ecosystems and evaluate the significance of these conceptual terms. The merging of humans
+and technology into bionic beings or cyborgs further obscures the distinction between
+humans and technology. As these boundaries blur, it becomes crucial to comprehend how
+institutions shape human –AI relations and the consequent impacts. This understanding
+could aid programmers and service designers enhance AI ’s contextual sensitivity within
+service ecosystems. Given that AI ’s self-awareness in its autonomous decisions contrasts
+with human reflexivity, there is a pressing need for more research on agentic technology
+(Murray et al. , 2021 ). The challenges posed by AI technology bring forth ethical and legal
+issues, especially when the line between human and nonhuman agency becomes blurred
+(Kleinaltenkamp et al., 2023 ). Further, the dark side of AI opens up intriguing research
+avenues.
+Our two propositions adopt a metatheoretical perspective on human –technology resource
+relations, explicitly focusing on human –AI resource relations. We neither build models for
+specific human types or roles, such as customer or employee, nor particular AI applications or
+methods, such as image recognition or recommendation systems. Using the S-D logic lexicon:
+it’s all human –AI.
+Managerial implications
+As the cocreation environment evolves with new technology, service providers need to
+remain agile and responsive to customers ’needs. The perception of people and AI as
+entangled resources in value cocreation necessitates reconfiguring resource integration.
+Thus, understanding what kind of human –AI resource relations exist and what type of value
+cocreation processes can be designed is essential. We introduce a postphenomenological
+approach to human –AI value cocreation, outlining managerial responsibilities across four
+main types and their sub-types, as detailed in Table 3 . Managers can use this approach to
+have a better understanding of alternative human –AI resource relations and rethink the roles
+of humans and AI in value cocreation. When service experience is understood as AI-mediated,
+managers can start experimenting, how various AI technologies can contribute to service
+provision as well as how they impact the perceived service experience in various contexts.
+Through this experimentation, managers can find human –AI resource relations that cocreate
+value in service ecosystems.
+Human –AI resource relations do not always yield positive outcomes. Emphasizing the
+relationality of humans and AI in service ecosystems, we argue that the negative impact does
+not depend solely on the quality of the AI component. Value cocreation is also dependent on the
+capabilities and other characteristics of a human in the human –AI resource relation, as well as
+institutional arrangements of service ecosystems. Sometimes, institutions may need to be altered
+to embrace certain human –AI resource relations, such as brain-computer interfaces and
+implantable medical devices. This kind of institutional work requires managers to be aware of
+existing institutional arrangements, such as legislation and norms in medical practice, and
+capable of changing them through service ecosystem design ( Vink et al., 2021 ).
+In the first AI-mediated value cocreation type, AI is an entangled resource that mediates
+human experience. Table 3 further inventories four sub-types: background, embodied,Journal of Service
+Management
+hermeneutic (knowledge process), and alterity (a new type of “other ”). Embodied wearables
+and “other ”frontline employees, such as robots ( Odekerken-Schr €oder et al. , 2022 ) and
+chatbots ( Mozafari et al. , 2022 ), can cocreate positive and negative customer experiences,
+depending on the service frontline setting. Therefore, a new type of value cocreation requires
+strategic reorientation to retain customers in changing conditions.
+In the second type, hybrid human –AI value cocreation, a customer and AI merge
+physically. For instance, this type offers cocreation possibilities for healthcare service
+providers when a chip is implanted into the body for monitoring purposes. Here, the AI ’s role
+is physically different from the first type, which can lead to new legal and ethical challenges
+that managers need to consider.
+In the third type, AI-augmented value cocreation, the human and AI merge virtually. AR
+and virtual reality (VR) are also used in health care, such as in surgeries and physical therapy,
+but their usage could be, and most probably will be, expanded to various other use cases soon.
+While AR and VR enhance reality, AR provides physical world enhancements, e.g. projecting
+an anatomy chart on a patient; VR detaches the user from the physical world. AR, VR, and the
+combination of mixed reality (MR) enable a new type of service cocreation reality ( De Keyser
+et al., 2019 ). Here, managers can consider how human –AI resources can work together in a
+virtual world to cocreate value.
+In the fourth type, the AI composition resource relation refers to value cocreation, which
+would be outside human experience without AI. For instance, AI-powered computational
+imaging may generate a picture of an ancestor by combining various data points. This resource
+relation provides opportunities for value cocreation that often extend beyond our current human
+imagination, enabling unique opportunities for those who can build on these relations.1. Mediation: entangle AI as a resource that mediates customer experience
+Background AI 1. Establish an environment or servicescape that facilitates value cocreation. 2. Customize
+various experiential cues based on individual customer preferences to foster an environmentconducive to collaboration and innovation
+Embodied AI 1. Implement tailored embodied tools for specific customer segments such as sleep trackers
+or brain wave-triggered smart prosthetics to enhance human capabilities. 2. Provide
+substantial benefits for individuals seeking tracking assistance or grappling withdisabilities, thereby demonstrating commitment to fostering accessibility and progress
+HermeneuticAI1. Enhance efficiency and streamline information access by structuring it in an easily
+navigable format. 2. Consider involving experiential cues, such as converting voice inputs totext or transitioning between different sensory modalities, such as converting sound cues to
+symbols
+AI alteration 1. Strategically develop AI systems that embody an AI altered persona. 2. Exemplify service
+robots or robotic pets to cultivate emotional connections and meaningful engagements,enriching user experiences
+2. Hybridization: merge AI and a customer physically
+Cyborg AI 1. Initiate exploration into applications of cyborg AI. 2. Implement cyborg AI through
+initiatives such as developing a medical brain chip capable of translating thoughts into
+sound or text
+3. Augmentation: merge AI and human a virtually
+Immersive AI 1. Strategically integrate immersive technologies such as VR or AR to enhance service
+offerings. 2. Provide immersive service experiences to reshape customer interactions
+4. Composition: cocreate value beyond human experience without AI
+Composite AI 1. Explore implementing AI composition methodologies to advance a cutting-edge
+technological innovation in a chosen field. 2. Consider computational imaging to surpass the
+limitations of human senses and acquiring invaluable insights into previously imperceptiblesignals
+Source(s): Table by authorTable 3.
+Managerial
+opportunities for
+postphenomenologicalhuman –AI value
+cocreationJOSM
+Table 3 presents the different entangled human –AI resource relations and their potential
+for resource integration and value cocreation. Understanding the possible human –AI value
+cocreation types enables service providers to make conscious choices in their specific service
+context. We advise a strategic assessment of which types or mixtures offer fresh perspectives
+on resource integration and value cocreation, considering the possible impacts on customer
+experiences.
+We claim that when designing resource integration, extending operant human resources
+to entangled combinations of humans and AI is imperative. The human –AI value cocreation
+types can assist managers to design different human –AI combinations and understand their
+potential for improved value cocreation.
+Conclusion
+In this metatheoretical study, we adapt a novel framework from postphenomenology,
+specifically cyborg intentionality, and introduce seven entangled human –AI resource
+relations. While the dominant discussion in service research has focused on how humans use
+and experience AI in service, we take a broader sociotechnical view of AI. This enables us to
+realize different human –AI value cocreation potentials in service ecosystems.
+We claim the conventional division of human and nonhuman actors, such as AI in value
+cocreation, must be questioned and repositioned within the relational sociotechnical
+understanding of technology. Given the increasingly blurred resource relations between
+people and AI, research and practice should avoid overly celebrating or dramatizing risks in
+using AI in service.
+By presenting various cyborg intentionality and resource relation types, we help scholars
+in service research and beyond to study value cocreation by entangled human –AI resource
+relations in service ecosystems (e.g. F€ugener et al., 2022 ;Lebovitz et al., 2022 ;de Vericourt and
+Gurkan, 2023 ). We argue that to understand AI ’s full potential and recognize the challenges it
+creates for ethical principles and legislation, it is imperative to consider AI as a pivotal part of
+resource integrating and value cocreating service ecosystems. We encourage future research
+to examine the specific potentials and challenges of the seven different human –AI resource
+relations in sociotechnical value cocreation in service ecosystems.
+Notes
+1. AI is defined as “the capability of computers or other machines to exhibit or simulate intelligent
+behavior ”(Oxford English Dictionary, 2019 , s.v. “artificial intelligence ”).
+References
+Akaka, M.A. and Vargo, S.L. (2014), “Technology as an operant resource in service (eco) systems ”,
+Information Systems and E-Business Management , Vol. 12 No. 3, pp. 367-384, doi: 10.1007/
+s10257-013-0220-5 .
+Anthony, C., Bechky, B.A. and Fayard, A.L. (2023), “‘Collaborating ’with AI: taking a system view to
+explore the future of work ”,Organization Science , Vol. 34 No. 5, pp. 1672-1694, doi: 10.1287/orsc.
+2022.1651 .
+Arnould, E. and Helkkula, A. (2024), “Imagining post-marketing: neo-animist resource circulation and
+value cocreation ”,Journal of Business Research , Vol. 176 April, 114590, doi: 10.1016/j.jbusres.
+2024.114590 .
+Aydin, C., Gonz /C19alez Woge, M. and Verbeek, P.P. (2019), “Technological environmentality:
+conceptualizing technology as a mediating milieu ”,Philosophy and Technology , Vol. 32 No. 2,
+pp. 321-338, doi: 10.1007/s13347-018-0309-3 .Journal of Service
+Management
+Barad, K. (2007), Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and
+Meaning , Duke University Press, Durham, NC.
+Benjamin, J.J. (2023), Machine Horizons: Post-Phenomenological Studies , University of Twente,
+Enchede.
+Bijker, W.E. (1997), Of Bicycles, Bakelites, and Bulbs: toward a Theory of Sociotechnical Change , MIT
+Press, Cambridge, MA.
+Callon, M. (1986), “The sociology of an actor-network: the case of the electric vehicle ”,i nMapping the
+Dynamics of Science and Technology: Sociology of Science in the Real World , Palgrave Macmillan
+UK, London, pp. 19-34.
+Constantin, J.A. and Lusch, R.F. (1994), Understanding Resource Management: How to Deploy Your
+People, Products, and Processes for Maximum Productivity , The Planning Forum, Oxford, OH.
+De Keyser, A., K €ocher, S., Alkire, L., Verbeeck, C. and Kandampully, J. (2019), “Frontline service
+technology infusion: conceptual archetypes and future research directions ”,Journal of Service
+Management , Vol. 30 No. 1, pp. 156-183, doi: 10.1108/josm-03-2018-0082 .
+de V /C19ericourt, F. and Gurkan, H. (2023), “Is your machine better than you? You may never know ”,
+Management Science . doi: 10.1287/mnsc.2023.4791 .
+D y n d a l ,G . L . ,B e r n t s e n ,T . A .a n dR e d s e - J o h a n s e n ,S .( 2 0 1 7 ) , “Autonomous military drones: no longer
+science fiction ”,NATO Review , available at: https://www.nato.int/docu/review/articles/2017/
+07/28/autonomous-military-drones-no -longer-science-fiction/index.html (accessed 10
+March 2023).
+Findsrud, R., Tronvoll, B. and Edvardsson, B. (2018), “Motivation: the missing driver for theorizing
+about resource integration ”,Marketing Theory , Vol. 18 No. 4, pp. 493-519, doi: 10.1177/
+1470593118764590 .
+F€ugener, A., Grahl, J., Gupta, A. and Ketter, W. (2022), “Cognitive challenges in human –artificial
+intelligence collaboration: investigating the path toward productive delegation ”,Information
+Systems Research , Vol. 33 No. 2, pp. 678-696, doi: 10.1287/isre.2021.1079 .
+Goeminne, G. (2011), “Postphenomenology and the politics of sustainable technology ”,Foundations of
+Science , Vol. 16 Nos 2-3, pp. 173-194, doi: 10.1007/s10699-010-9196-5 .
+Helkkula, A. and Arnould, E.J. (2022), “Using neo-animism to revisit actors for Sustainable
+Development Goals (SDGs) in SD logic ”,Journal of Business Research , Vol. 149, pp. 860-868,
+doi:10.1016/j.jbusres.2022.05.031 .
+Helkkula, A., Kelleher, C. and Pihlstr €om, M. (2012), “Characterizing value as an experience:
+implications for service researchers and managers ”,Journal of Service Research , Vol. 15 No. 1,
+pp. 59-75, doi: 10.1177/1094670511426897 .
+Hoffman, D.L. and Novak, T.P. (2018), “Consumer and object experience in the internet of things: an
+assemblage theory approach ”,Journal of Consumer Research , Vol. 44 No. 6, pp. 1178-1204,
+doi:10.1093/jcr/ucx105 .
+Hottat, E., Leroi-Werelds, S. and Streukens, S. (2023), “To automate or not to automate? A
+contingency approach to service automation ”,Journal of Service Management , Vol. 34 No. 4,
+pp. 696-724, doi: 10.1108/josm-04-2022-0125 .
+Huang, M.H. and Rust, R.T. (2018), “Artificial intelligence in service ”,Journal of Service Research ,
+Vol. 21 No. 2, pp. 155-172, doi: 10.1177/1094670517752459 .
+Ihde, D. (1995), Postphenomenology: Essays in the Postmodern Context , Northwestern University Press,
+Evanston, IL.
+Jaakkola, E. (2020), “Designing conceptual articles: four approaches ”,AMS Review , Vol. 10 Nos 1-2,
+pp. 18-26, doi: 10.1007/s13162-020-00161-0 .
+Jain, H., Padmanabhan, B., Pavlou, P.A. and Raghu, T.S. (2021), “Editorial for the special section on
+humans, algorithms, and augmented intelligence: the future of work, organizations, andsociety ”,Information Systems Research , Vol. 32 No. 3, pp. 675-687, doi: 10.1287/isre.2021.1046 .JOSM
+Kleinaltenkamp, M., Kleinaltenkamp, M.J. and Karpen, I.O. (2023), “Resource entanglement and
+indeterminacy: advancing the service-dominant logic through the philosophy of Karen Barad ”,
+Marketing Theory , doi: 10.1177/14705931231207327 .
+Latour, B. (2007), Reassembling the Social: an Introduction to Actor-Network-Theory , Oup, Oxford.
+Lebovitz, S., Lifshitz-Assaf, H. and Levina, N. (2022), “To engage or not to engage with AI for critical
+judgments: how professionals deal with opacity when using AI for medical diagnosis ”,
+Organization Science , Vol. 33 No. 1, pp. 126-148, doi: 10.1287/orsc.2021.1549 .
+Maglio, P., Vargo, S.L., Caswell, N. and Spohrer, J. (2009), “The service system is the basic abstraction
+of service science ”,Information Systems and E-Business Management , Vol. 7 No. 4, pp. 395-406,
+doi:10.1007/s10257-008-0105-1 .
+Mele, C. and Russo-Spena, T. (2022), “The architecture of the phygital customer journey: a dynamic
+interplay between systems of insights and systems of engagement ”,European Journal of
+Marketing , Vol. 56 No. 1, pp. 72-91, doi: 10.1108/ejm-04-2019-0308 .
+Mele, C., Pels, J. and Polese, F. (2010), “A brief review of systems theories and their managerial
+applications ”,Service Science , Vol. 2 Nos 1-2, pp. 126-135, doi: 10.1287/serv.2.1_2.126 .
+Mele, C., Russo-Spena, T., Kaartemo, V. and Marzullo, M.L. (2021), “Smart nudging: how cognitive
+technologies enable choice architectures for value co-creation ”,Journal of Business Research ,
+Vol. 129, pp. 949-960, doi: 10.1016/j.jbusres.2020.09.004 .
+Meyer-Waarden, L. and Cloarec, J. (2022), “‘Baby, you can drive my car ’: psychological antecedents
+that drive consumers ’adoption of AI-powered autonomous vehicles ”,Technovation , Vol. 109,
+102348, doi: 10.1016/j.technovation.2021.102348 .
+Mozafari, N., Weiger, W.H. and Hammerschmidt, M. (2022), “Trust me, I ’m a bot –repercussions of
+chatbot disclosure in different service frontline settings ”,Journal of Service Management ,
+Vol. 33 No. 2, pp. 221-245, doi: 10.1108/josm-10-2020-0380 .
+Murray, A., Rhymer, J.E.N. and Sirmon, D.G. (2021), “Humans and technology: forms of conjoined
+agency in organizations ”,Academy of Management Review , Vol. 46 No. 3, pp. 552-571, doi: 10.
+5465/amr.2019.0186 .
+Odekerken-Schr €oder, G., Mennens, K., Steins, M. and Mahr, D. (2022), “The service triad: an empirical
+study of service robots, customers and frontline employees ”,Journal of Service Management ,
+Vol. 33 No. 2, pp. 246-292, doi: 10.1108/josm-10-2020-0372 .
+Orlikowski, W.J. (2007), “Sociomaterial practices: exploring technology at work ”,Organization Studies ,
+Vol. 28 No. 9, pp. 1435-1448, doi: 10.1177/0170840607081138 .
+Oxford English Dictionary (2019), “Artificial intelligence ”, Oxford English Dictionary. Oxford: Oxford
+University Press.
+Pakarinen, P. and Huising, R. (2023), “Relational expertise: what machines can ’t know ”,Journal of
+Management Studies . doi: 10.1111/joms.12915 .
+Paluch, S., Wirtz, J. and Kunz, W.H. (2020), “Service robots and the future of services ”,i nMarketing
+Weiterdenken: Zukunftspfade f €ur eine marktorientierte Unternehmensf €uhrung , pp. 423-435.
+Paluch, S., Tuzovic, S., Holz, H.F., Kies, A. and J €orling, M. (2022), “‘My colleague is a robot ’–exploring
+frontline employees ’willingness to work with collaborative service robots ”,Journal of Service
+Management , Vol. 33 No. 2, pp. 363-388, doi: 10.1108/josm-11-2020-0406 .
+Pickering, A. (2010), The Mangle of Practice: Time, Agency, and Science , University of Chicago Press,
+Chicago, IL.
+Pitardi, V., Wirtz, J., Paluch, S. and Kunz, W.H. (2022), “Service robots, agency and embarrassing
+service encounters ”,Journal of Service Management , Vol. 33 No. 2, pp. 389-414, doi: 10.1108/
+josm-12-2020-0435 .
+Sony, M. and Naik, S. (2020), “Industry 4.0 integration with socio-technical systems theory: a
+systematic review and proposed theoretical model ”,Technology in Society , Vol. 61, 101248,
+doi:10.1016/j.techsoc.2020.101248 .Journal of Service
+Management
+Teodorescu, M.H., Morse, L., Awwad, Y. and Kane, G.C. (2021), “Failures of fairness in automation
+require a deeper understanding of human-ML augmentation ”,MIS Quarterly , Vol. 45 No. 3,
+pp. 1483-1500, doi: 10.25300/misq/2021/16535 .
+Van Manen, M. (2016), Phenomenology of Practice: Meaning-Giving Methods in Phenomenological
+Research and Writing , Routledge, New York, NY.
+Vargo, S.L. (2018), “Situating humans, technology and materiality in value cocreation ”,Journal of
+Creating Value , Vol. 4 No. 2, pp. 202-204, doi: 10.1177/2394964318809191 .
+Vargo, S.L. and Akaka, M.A. (2012), “Value cocreation and service systems (re) formation: a service
+ecosystems view ”,Service Science , Vol. 4 No. 3, pp. 207-217, doi: 10.1287/serv.1120.0019 .
+Vargo, S.L. and Lusch, R.F. (2008), “Service-dominant logic: continuing the evolution ”,Journal of the
+Academy of Marketing Science , Vol. 36, pp. 1-10, doi: 10.1007/s11747-007-0069-6 .
+Vargo, S.L. and Lusch, R.F. (2016), “Institutions and axioms: an extension and update of service-
+dominant logic ”,Journal of the Academy of Marketing Science , Vol. 44 No. 1, pp. 5-23, doi: 10.
+1007/s11747-015-0456-3 .
+Verbeek, P.P. (2008), “Obstetric ultrasound and the technological mediation of morality: a
+postphenomenological analysis ”,Human Studies , Vol. 31 No. 1, pp. 11-26, doi: 10.1007/
+s10746-007-9079-0 .
+Vindenes, J. and Wasson, B. (2021), “A postphenomenological framework for studying user experience
+of immersive virtual reality ”,Frontiers in Virtual Reality , Vol. 2, p. 40, doi: 10.3389/frvir.2021.
+656423 .
+Vink, J., Koskela-Huotari, K., Tronvoll, B., Edvardsson, B. and Wetter-Edman, K. (2021), “Service
+ecosystem design: propositions, process model, and future research agenda ”,Journal of Service
+Research , Vol. 24 No. 2, pp. 168-186, doi: 10.1177/1094670520952537 .
+Wirtz, J., Patterson, P.G., Kunz, W.H., Gruber, T., Lu, V.N., Paluch, S. and Martins, A. (2018), “Brave
+new world: service robots in the frontline ”,Journal of Service Management , Vol. 29 No. 5,
+pp. 907-931, doi: 10.1108/josm-04-2018-0119 .
+Corresponding author
+Anu Helkkula can be contacted at: anu.helkkula@hanken.fi
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htmOr contact us for further details: permissions@emeraldinsight.comJOSM

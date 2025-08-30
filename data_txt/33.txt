@@ -1,0 +1,996 @@
+The Choreographer-Performer Continuum: A Diffraction
+Tool to Illuminate Authorship in More Than Human
+Co-Performances
+FEDERICO BOMBA ,MARÍA MENÉNDEZ-BLANCO ,PAOLO GRIGIS ,MICHELE
+CREMASCHI , andANTONELLA DE ANGELI ,Faculty of Engineering, Free University of
+Bozen-Bolzano, Bolzano, Italy
+The design of robust and trustworthy Generative AI (GenAI) requires a deep understanding of the agencies
+emerging from human interactions with them. To contribute to this goal, we retrospectively studied an art
+project involving a visual artist, a computer scientist, an artistic director, and a generative model (GPT-2). The
+model was fine-tuned with trip reports describing the experience of eating psychedelic mushrooms. Building
+on agential realism, we analysed the co-performance between the artist and the model as their agency moved
+along the choreographer-performer continuum. Results reveal ontological surprises, leading to the proposal of
+entangled authorship to de-individualise the production of knowledge from a More Than Human perspective.
+The paper illustrates how art can expose different forms of relationships, challenging the idea of GenAI as just
+a tool that simplifies or replaces human labour. We conclude by emphasising the transformational potential of
+GenAI for novel modes of engagement between humans and machines.
+CCS Concepts: • Human-centered computing !Empirical studies in HCI ;
+Additional Key Words and Phrases: Agency, Agential Realism, Large Language Models, AI and Art, Creative
+AI, Hallucination
+ACM Reference format:
+Federico Bomba, María Menéndez-Blanco, Paolo Grigis, Michele Cremaschi, and Antonella De Angeli. 2024.
+The Choreographer-Performer Continuum: A Diffraction Tool to Illuminate Authorship in More Than Human
+Co-Performances. ACM Trans. Comput.-Hum. Interact. 31, 6, Article 75 (December 2024), 23 pages.
+https://doi.org/10.1145/3689040
+‘And We Thought’ is an art project by Roberto Fassone, AI Lai and LZ, curated by Sineglossa in collaboration with Play
+With Food Festival and funded by Compagnia di San Paolo. It is the winner of the Maxxi Bulgari Prize 2023 as the best
+Italian digital art project. The project was conducted in Turin and Bologna (Italy) from October 2021 to June 2022 and
+presented in different locations, like Ars Electronica, Fondazione Trussardi, Artcity and La Nuit de la Culture du Luxemburg.
+The contribution by Grigis and Cremaschi was funded by the National Recovery and Resilience Plan (NRRP), - Mission 4,
+Component 2 - Investment 3.3 - call for tender No. 351 and No. 352 of 09/04/2022 of the Italian Ministry of University and
+Research, funded by the European Commission under the NextGeneration EU programme.
+Authors’ Contact Information: Federico Bomba (corresponding author), Faculty of Engineering, Free University of Bozen-
+Bolzano,Bolzano,Italy;e-mail:federico.bomba@unibz.it;MaríaMenéndez-Blanco,FacultyofEngineering,FreeUniversityof
+Bozen-Bolzano,Bolzano,Italy;e-mail:maria.menendezblanco@unibz.it;PaoloGrigis,FacultyofEngineering,FreeUniversity
+of Bozen-Bolzano, Bolzano, Italy; e-mail: paolo.grigis@student.unibz.it; Michele Cremaschi, Faculty of Engineering, Free
+University of Bozen-Bolzano, Bolzano, Italy; e-mail: michele.cremaschi@student.unibz.it; Antonella De Angeli, Faculty of
+Engineering, Free University of Bozen-Bolzano, Bolzano, Italy; e-mail: antonella.deangeli@unibz.it.
+This work is licensed under a Creative Commons Attribution International 4.0 License.
+© 2024 Copyright held by the owner/author(s).
+ACM 1557-7325/2024/12-ART75
+https://doi.org/10.1145/3689040
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+
+75:2 F.Bomba et al.
+1 Introduction
+GenerativeArtificialIntelligence(GenAI) isaclassofmachinelearningalgorithmsthatanalyse
+vastdatasetsofhuman-producedtexts,images,oraudiotogeneratenewcontent[ 75].Itsincreasing
+presence for the most diverse purposes raises social and ethical challenges that require questioning
+who is designing GenAI and for what purposes [ 80]. Developed by major corporations in the
+technologysector,GenAItargetsthemissionofproducingprofitintheformofmarketableproducts
+andservices.Thebottomlineisbuildingtoolsforusers[ 18],whichenhancecapitalisticproductivity
+[61]. Naomi Klein sharply addresses this concern in a provocative article titled ‘AI machines aren’t
+“hallucinating”. But their makers are’. She states:
+There is a world in which GenAI, as a powerful predictive research tool and a performer of
+tedious tasks, could indeed be marshalled to benefit humanity, other species, and our shared
+home. However, for that to happen, these technologies would need to be deployed inside
+a vastly different economic and social order than our own, one that had as its purpose the
+meeting of human needs and the protection of the planetary systems that support all life. [ 47]
+Our paper contributes to this vision by embracing the theory of agential realism [ 6] and its inter-
+pretation in Human Computer Interaction (HCI) [31] alongside a More Than Human (MTH)
+design perspective. Interpreting agential realism from an MTH perspective means acknowledging
+the agency of both humans and nonhumans in situated performances. In doing so, we focus on
+experimental art as a relevant venue for exposing critical issues about technology and exploring
+what GenAI design might become. Experimental artists are interested in improving knowledge
+rather than envisaging products to be industrialised for profit [ 13]. They work at the periphery
+of power, often standing in a privileged position to expose the relations in which the underlying
+values of people and institutions that developed AI are embedded [ 7]. From this standpoint, we
+present a retrospective analysis of an award-winning project where a media artist used a Large
+Language Model (LLM) for eight months. The project was inspired by the metaphor of food
+for reflecting on the influence of datasets on automatic generation. Without a body, AI cannot
+ingest physical substances, but it is fed with data. Once digested, these data are responsible for
+the generated output. Data are the elements through which GenAI gains experience, increases
+knowledge, and grows, eventually perpetuating biases, stereotypes and power relations embedded
+in the original datasets [ 59].
+During the project, the artist decided to train the LLM with a dataset of trip reports describing
+the experiences induced by ingesting magic mushrooms [ 4]. He then progressively used the
+‘hallucinated’ LLM to create artwork in the form of a book, ten posters, five YouTube videos, and
+three short movies. We studied the evolution of this process, from the first encounter between the
+artist and the LLM mediated by a Python code to what we interpret as the establishment of an
+artistic partnership where the human and the machine agency became increasingly entangled. The
+study is based on the understanding of the first author who participated in the project as creative
+director, the artist’s opinion sustained by continuous informal conversations and a semi-structured
+interview, and the artworks’ analysis. By triangulating these data in a collective reflection among
+the authors of the paper, we address a fundamental question driving this special issue: ‘How do
+we understand changes in agency as artefacts flow from collection through data into algorithmic
+models and systems?’
+The paper has the following organisation. Section 2introduces the related work. It focuses on
+agential realism as the epistemological framework through which we define agency and performa-
+tivity, the role of artists as problem makers in exploring technology, concerns about authorship
+in artists-LLMs co-creations, and the need for new metaphors for describing our relationships
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:3
+with AI systems. In Section 3, we describe the research context and the outcome of the artistic
+project. Looking at the artworks produced in the project from an MTH perspective, we present the
+choreographer-performer continuum. Section 4discusses the results, focusing on the evolution of
+human and machine agency, which produced entangled authorship and the role of hallucination in
+challenging the discourse on LLMs as mere tools. Finally, Section 5concludes the paper with new
+research directions.
+2 Related Work
+Since the origin of AI, many scholars have questioned where its agency lies, what relationships can
+emerge in the interaction with people and with other machines, and which kind of common ground
+these interactions need. Theoretical proposals date back to the early sixties [ 56] when Licklider
+proposed the concept of symbiosis. Borrowed from biology, it denotes the interaction of computers
+that work with people in an intimate association, strengthening the idea of mutually empowering
+roles. As the technical capabilities matured, this proposal inspired studies in different contexts,
+including computation, sensing technology, and interaction design [ 20,27,43]. For example, Farooq
+and Grudin [ 27] claim that symbiosis broadens design boundaries from inquiring about stimulus-
+response to investigating human-computer integration. Integrated actors are co-dependent and
+construct shared meanings around the activities in which they participate. Other authors suggest
+investigating how systems develop skills in a symbiotic interaction instead of just automating
+actions [ 43]. Epistemological debates on MTH interaction call for an extension from the primacy of
+user research to the study of intertwined relationships between human and non-human actors [ 37].
+Similarly,entanglementHCI[ 31]callsforanepistemologicalshift.Itaccountsfortheperformative
+relationships between humans and technologies, the re-framing of knowledge generation around
+phenomena, tracing accountabilities, responsibilities and ethical encounters, and the practices of
+design and mattering that move beyond human-centred design. As a performative interaction,
+knowledge is a practice where entities participate in their definition [ 5]. In the production of knowl-
+edge, the material (i.e., the matter) and the discursive (i.e., the meaning) are mutually constituted
+and cannot exist without each other. The movement from studying user experiences to exploring
+meaningful relations [ 31] entails methodological and ethical implications. If researchers are to
+investigate how technologies are performative, Giaccardi and colleagues suggest using objects
+as co-ethnographers [ 38] to identify different matters of concern that can inspire design [ 57].
+This approach facilitates new alliances for sense-making, framing, and bringing into existence
+entities that do not exist yet. Following this line of thinking, Redström and Wiltse [ 67] propose to
+move from designing objects to designing fluid assemblages. Their proposal shows how emerging
+technologies are interconnected, dynamic, and adapt to their context. They can be altered and
+display unpredictability, making it challenging to comprehend their actual functions and whom
+they serve. From these perspectives, the essence of design becomes the creation of spaces and
+processes that enable humans and non-humans to come together and the mattering of future
+socio-material configurations [ 31].
+2.1 Agential Realism
+Following recent work in HCI [ 46,51,68], this paper builds on agential realism, a theoretical
+framework proposed by Karen Barad to account for the ontology of quantum theory. It was initially
+developed to describe phenomena that looked paradoxical according to classical physics, like the
+impossibility of simultaneously observing the position and momentum of a particle. Ontologies
+derived from classical physics postulate individualities as the primitive elements of the world.
+Consistently, the qualities of individual entities inform their relationships and interactions. On
+the contrary, agential realism proposes phenomena as primary epistemological units. Therefore,
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:4 F.Bomba et al.
+relationships and interactions give rise to the entities and their qualities. What classical physics
+considers the same particle having specific inherent attributes is not the same particle at all under
+agential realism. The specific configuration in time defines the qualities of the particle and excludes
+other possible configurations. This exclusion process creates the particle with all the characteristics
+appropriateforthatphenomenonandnotothers.Accordingtoagentialrealism,entitiesareproduced
+through intra-actions. While interactions happen amongst pre-established entities that participate
+in actions, intra-actions suggest that entities come into existence through performativity. Therefore,
+theycanonlybedistinguishedfromothersinaspecificperformance.Baradcallsthesearrangements
+agential cuts, namely intra-actions that produce the boundaries of the single co-dependent entity
+(i.e., what they are and what they are not) and determine their properties [ 5].
+The theory of agential realism belongs to the domain of relational ontologies, such as the
+Actor-NetworkTheory(ANT) [50] or the Nomadic Theory [ 11]. In relational ontologies, what
+matters are not the properties of hypothetical pre-existing entities but how they are connected
+and influence each other. For example, ANT assumes that humans and non-humans (such as
+technologies, institutions, material objects, and immaterial resources) are actors that influence
+each other in complex networks [ 49]. However, ANT is limited when considering individual
+accountability and responsibility because of its generalised symmetry among the actors [ 74]. Such
+symmetry could lead to an infinite regression of displaced agencies while ‘following the actors’
+[41]. For this reason, some HCI scholars advocate for adopting agential realism [ 51,68], where
+accountability is determined by the agential cuts that emerge through specific intra-actions. In this
+way, boundaries and properties appear, and embodied concepts come to matter. Agential cuts are
+not just semiotic functions; they separate the subject and the object, leaving physical marks on
+bodies that ANT fails to account for. For Barad [ 5], being responsible means being accountable for
+these marks in situated practices, thus granting a degree of objectivity and accountability rooted in
+the material grounding of the entities. As Barad explains:
+Agencyisaboutthepossibilitiesandaccountabilityentailedinreconfiguringmaterial-discursive
+apparatuses of bodily production, including the boundary articulations and exclusions that
+are marked by those practices in the enactment of a causal structure. [5:827]
+Relational ontologies provide HCI with ways of knowing and terminologies that move beyond
+fixedrepresentationsofhumansandtechnologies.Eventhoughthereisalimitedcorpusofliterature
+building on them, the existing work points to interesting directions that question normative and
+anthropocentric ways of knowing. For example, Giaccardi et al. [ 38] explore these ontologies to
+ground a thing perspective to design and account for what is in the nature of things that enables
+them to make temporalities apparent. Furthermore, Redström and Wiltse [ 67] describe systems
+as fluid assemblages to denote how they are increasingly intertwined with humans and come to
+matter while continuously transforming into a dynamic world of becoming. Following this line
+of thinking, we propose that an agential realism perspective can be instrumental in investigating
+how humans and LLMs can relate to each other in material-discursive engagements [ 31]. Such
+a perspective moves beyond fixed roles for artists and LLMs and focuses on how their agency is
+produced through performativity and how this process influences creative outcomes.
+2.2 Agency through Performativity
+A key concept in agential realism is agency and how it is produced [ 6]. As with all other qualities,
+agency is not inherent to entities—being humans or LLMs—but emerges from the performance
+they enact. Similarly, meanings, as attributes or qualities, are produced by local agential cuts that,
+excluding other possible configurations, resolve semiotic indeterminacy and allow knowing the
+worldwhileitunfolds.BaradborrowsthemetaphorofdiffractionfromHaraway[ 37]toexpresshow
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:5
+knowledge comes to matter. Instead of reflection, which suggests that we shape a representation
+of what already exists, diffraction illuminates the indefinite nature of boundaries and shows the
+differences emerging from agential cuts. Under this assumption, and coherently with ANT [ 49],
+knowing an entity means tracing the relations it enacts in its various modes of becoming. With the
+rise of AI systems, there is an increasing interest in HCI and related fields investigating how, and
+if, AI and humans collaborate [ 16,36,62]. A strain of this research emphasises AI unprecedented
+agency as a critical difference [ 16], which opens questions on how to acknowledge that this agency
+isfuelledbylargeamountsofdatageneratedbyaninvisibleandprecariouslabour[ 59].Adoptingan
+agential realism perspective can reveal different representations of agency in human-AI interaction
+that differ from current normative stances. One domain that exemplifies how agencies can be
+represented differently is Explainable AI. This research field aims to develop systems that explain
+their decision-making [ 66,75]. As Nicenboim et al. argue [ 64], much research in this domain looks
+for objective metrics conceived by the ones who built the system for abstract users, assuming a
+passive role of humans in understanding what the machine is doing so that people can use it in a
+supposedly appropriate way. There are ontological reasons for considering that the intra-acting
+agency of the machine cannot be aptly described through a formal set of explanation rules without
+a form of situated understanding. For example, Agre states:
+Since philosophers such as Heidegger and Wittgenstein had shown that using linguistic rules
+always presupposes an embodied agent with a tacit background of understanding, attempts to
+program a computer with formal versions of the rules would necessarily fail. [1:21]
+Understanding does not only happen through causal reasoning but also counterfactually through
+manipulation and tinkering [ 63]. Consequently, the affordances of physical forms and their
+behaviours can contribute to explaining how AI makes decisions and fostering criticism [ 35].
+Reductionist approaches overlook that successful human interaction only partially depends on
+the individual ability to create meaning. Instead, it thrives because of the potential for co-creating
+mutual intelligibility in and through the interaction [ 27]. This perspective on knowledge
+co-production implies an active role of the human and the artificial agents, each with their specific
+capabilities. Approaches that encourage a shared awareness of agencies in situated practices are
+needed [ 18,64]. This improves technical aspects and imagines different ways humans and AIs can
+do creative work [ 35].
+Agential realism offers a theoretical framework for performativity, a concept Barad borrowed
+from the work of feminist scholars such as Judith Butler [ 12]. From a feminist perspective, per-
+formativity describes how gender and sexuality are not natural conditions but are constructed
+through the performance of repeated acts and behaviours. Performativity relies on the assumption
+that reality is not in our minds, as the cartesian tradition of cogito ergo sum would support. Barad
+builds on feminist work to claim that performativity is shaped through repeated actions: ‘All
+bodies, not merely ‘human’ bodies, come to matter through the world’s iterative intra-activity—its
+performativity’ [5:823]. Following Donna Haraway, Barad proposes an explanation of performa-
+tivity that incorporates human and non-human agencies enacted in the performance, no matter
+the consciousness or the intentionality of the acting entities [ 6]. Their account challenges the
+cartesian anthropocentric distinction between the acting subject (human) and the passive re-acting
+object (machine). It allows ‘examining the practices through which these differential boundaries
+are stabilised and destabilised’ [5:808]. This does not mean that humans and non-humans are the
+same and that there is no difference between the performers; instead, it points to a need for robust
+accounts of how different skills and qualities emerge in the materialisation of a phenomenon.
+A conceptual framework to study performativity in HCI is co-performance [ 48], a situated
+practice of more general social practices. For example, marriage is the social practice embodied in a
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:6 F.Bomba et al.
+specificco-performancethatoccursinspaceandtimeduringawedding.Co-performanceisrelevant
+for studying human-AI partnerships because it ‘addresses the question of what is an appropriate
+interplay between human and artificial bodies/minds from the perspective of changing divisions
+of roles and responsibilities between human and artificial performers’ (ibid:2). Appropriateness is
+defined through repeated enactments of a specific practice and changes over time, and it depends
+on socio-material transformations and the evolving capabilities of the performers. Co-performance
+has been used to account for the interplay between technology designers and everyday users. A
+focus on exposing power relationships within the interaction raises ethical implications regarding
+the embedded values of things, a necessary condition for a more transparent and fair AI design [ 61].
+In addition, a co-performance perspective can help designers devise frameworks that integrate
+and discern capabilities that are uniquely human and uniquely artificial [ 48]. Artists are those
+professionals who make performance their job by ‘showing the semiotic effects that are produced
+when different materials, contexts, and processes are brought into juxtaposition with one another’
+[23:2478]. In this paper, we use the perspective on co-performance to investigate how a professional
+artistandanLLMengagewitheachothertodevisepracticalguidanceonintegratinganddiscerning
+their unique capabilities.
+2.3 Artists Performing Problems
+An increasing corpus of HCI research investigates how AI can be used in creative fields such as art
+[7,13,40,82]. Caramiaux and Fdili Alaoui [ 13] argue that experimental artists implicitly resist the
+epistemological values of academic and industrial research in AI and, to some extent, in HCI, where
+accuracy and performance are core to the development of current technologies. The definition
+of art practices presents inherent challenges due to their multifaceted and diverse nature, which
+come on top of the general difficulties in defining what a practice is and is not [ 70]. However, a
+common feature of art practices regards the artist’s ability to transcend conventional norms and
+clichés [ 24]. This skill stimulates the definition of uncommon perspectives, ultimately challenging
+established paradigms and introducing innovative applications. In the context of AI use in the
+creative fields, artistic contributions to HCI come from the scope of their practice, which is not
+focusedontestingorreleasingusefultoolsorservicesbutonengaginginuntetheredexplorationsof
+theculturalvaluesbehindthedataandthealgorithmsused[ 73].Ratherthanproblem-solvers,artists
+are problem-makers [ 30]. Their work can suggest creative possibilities by repurposing existing
+technologies and offering new models for understanding interaction [ 71]. The non-functional use
+of technology proved its value in questioning the idea of consumers being the target of interaction
+design, as it opens the mind to reflections on what people could do with an artefact rather than
+what they should do with it [ 33].
+Artistic approaches can be instrumental in exploring what is unique in human-AI interactions
+and their implications. As GenAIs substantially impact creative work, experimental artists resist
+the culture of AI research and its inherent power dynamics by engaging GenAI as cultural and
+political material [ 13]. For example, repurposing the algorithms or the datasets can expose the
+biasesorlimitsofthetrainingdatasets[ 7].Inthissense,repurposingbecomesaprivilegedcondition
+for unveiling the hidden mechanisms and challenging the idea of technology as neutral. When
+people become aware of the subjective nature of any technological agent, they can question its
+scope, the implications of use, the social consequences, and its relationship with other entities (e.g.,
+corporations, governments). Initial research demonstrates the role of creative practices in unfolding
+unexpected outcomes and ontological surprises, tracing relations that might shift our perceptions
+of how we understand and categorise our realities [ 52]. They include experiments like Freaky [ 53]
+or Learning to See [ 14]. The former collaborates with users in enacting emotion by sensing and
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:7
+responding to the user’s heart rate, and the latter explores how an artificial neural network looks
+out onto the world and tries to make sense of what it sees.
+Anything designed can change its use once it is adopted by users, or, as Latour would say, ‘we
+are exceeded by what we create’ [49:237]. Yet, the artist’s approach differs from the misuses or
+appropriations that users do. When users subvert the designed functions of a thing, they do it
+to adapt it to their functional needs [ 25] or for entertainment [ 10]. When using technology as
+a cultural and political design material, experimental artists deliberately look for these kinds of
+betrayals to understand and challenge not obvious capabilities [ 7]. For example, some authors of
+this paper have repurposed outdated technologies to inspire a critique of capitalistic ideologies
+embedded in GenAI [ 19], such as production speed [ 40]. Artists use provocation as a medium for
+generating ideas and exploring unknown territories. Their artworks unfold possibilities that still
+do not exist, ‘exposing how technology might perpetuate current realities and its potential role in
+imagining new, perhaps radical, realities’ [24:386]. When artists display their work, they create a
+free space to perform dynamic and interactive rituals [ 44]. The performance defines a space where
+people are willing to learn and be transformed.
+2.4 Authorship
+While GenAI systems are impacting the work of creative professionals, expanding the range of
+the possibilities of how their work can be done, they also raise important issues related to, e.g.,
+labour, attribution, and authorship [ 82]. According to Foucault, authorship has been traditionally
+intendedasthe‘privilegedmomentofindividualisationinthehistoryofideas,knowledge,literature,
+philosophy, and science’ [29:300]. While the notion of a singular, genial, human agent (usually
+depicted as a white male) as an individual creator still plays a major role in shaping authorship
+[82], several artistic attempts have tried to question this notion. They include the practices from
+the women’s artistic collective [ 58] or the ‘instruction pieces’ of the performance art by Yoko
+Ono in the 70s [ 54], which were crucial to inspiring delegated performances. In contemporary
+choreography, delegated performance is a practice where choreographers use non-professionals
+who follow and interpret instructions on their behalf. Like in the instruction pieces, the delegation
+of control challenges the idea of singular authorship through the performance [ 8].
+Concerns on authorship open a debate on the need to account for invisible data work [ 59,65,
+69] and the extent to which GenAIs are, or appear to be, creative [ 39]. Most systems, such as
+those that use LLMs, require large amounts of data, which need to be produced, labelled, and/or
+moderated [ 3,59], and this hidden work opens questions on authorship [ 3]. Metaphors that portray
+AIs as collaborators, partners, or team-mates can be helpful as they counteract automation-driven
+narratives where humans are replaced or cut out of the loop. Still, they introduce other problems,
+risking disenfranchising data work labour [ 69]. Alternative perspectives suggest viewing GenAI as
+a tool that harnesses human creativity, sidestepping anthropomorphism, and diminishing their role
+as co-authors [ 26]. These reflections call for empirical investigations that explore how authorship
+is described by those who use it for creative tasks. A few studies have done this in practice with
+different outcomes. For example, empirical research on how hobbyist writers utilise LLMs revealed
+that the system helpfulness did not impact their perception of ownership [ 81]. Conversely, a
+study on crafting fiction with LLMs, occasionally prompting human adaptation to algorithmic
+contributions [ 34], underscored the importance of acknowledging this practice as a co-creation.
+This paper adds to this discussion by focusing on how humans (in concrete, artists) and AIs (in
+concrete, LLMs) interact in creative contexts from an agential realism perspective. We investigate
+how an artist experienced working with an LLM and elaborate on agency and authorship.
+Investigating how artists relate to AI for creative purposes requires revising terminologies and
+metaphors by reflecting on the narratives they bring forward [ 69]. Metaphors serve as powerful
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:8 F.Bomba et al.
+Fig. 1. Project timeline and outcomes.
+toolscommonlyemployedwithinthefieldofAIandprovevaluableforartistsanddesigners,aswell
+as educational and research projects. They facilitate a critical examination of our engagement with
+this specific technology [ 63] to look beyond a reductive and extractive way of designing [ 42,55,
+61]. As diffraction lenses, metaphors help designers to think more extensively about the meaning
+of and the relationship with the things they design [ 79]. The production of new metaphors, or
+the critical analysis of the most common ones, plays a vital role in opening the space for critical
+approaches in the field of AI [ 1]. Hallucination is an example used to describe AI behaviour. In
+natural language processing, hallucinations are considered nonsensical or unfaithful texts to the
+provided source input [ 45]. From a technical standpoint, they are undesirable phenomena that
+compromise reliability. For this reason, many studies focus on finding solutions that can prevent
+their occurrence and consequently maintain the trustworthiness of systems [ 2]. In this paper, we
+leverage hallucinations as an opportunity to explore possible human-LLMs configurations and
+to describe the intertwined, creative, and well-coordinated choreography emerging between the
+involved entities [ 76].
+3 Research Project
+This paper presents a retrospective analysis of ‘And We Thought,’ an experimental art project
+awarded the Maxxi Bulgari Prize 2023 for the best Italian digital artwork. The project is part of the
+FoodDataDigestion program,anationalinitiativetointegrateartisticandscientificpracticesthrough
+themutualexchangeofskills,visions,andexperiencesinsituatedmultidisciplinaryencounters[ 77].
+In this context, food is used as a metaphor to stress the influence of data acquisition and processing
+in GenAI. As food changes how we grow and behave, so do the training datasets for LLM systems.
+The metaphor was offered as inspiration to selected artists, including Roberto Fassone, an Italian
+media artist who researches and questions processes and strategies that constitute the basis of
+contemporary art. Supported by a computer scientist and an artistic director, the artist worked on
+theprojectforeightmonths,includingfourpreparatorymeetings(twoonline)andthreeresidencies
+of four days each. The first author of this paper worked as the project artistic director and regularly
+interacted with the artist in presence and online through phone calls, email, and backtalks. This
+dual role provided an insightful and comprehensive perspective, seamlessly integrating theory and
+practice. All quotations from the artist in this paper come from a semi-structured interview that
+the first author conducted with him two months after the project conclusion and were translated
+from Italian into English. The artist was invited to revise this paper and provide his impressions,
+which were then integrated. The artworks were used as research objects to gain insights from an
+MTH perspective [ 38]. Figure 1illustrates the project timeline and main artefacts, using residencies
+as critical points of the interaction evolution.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:9
+3.1 First Residency
+The initial meeting aimed to establish the foundation for collaboration and mutual understanding
+betweentheartistandthecomputerscientistwhosupportedtheproject.Theartistdevelopedabasic
+literacy in the general functioning of GenAI, with a focus on LLMs; the computer scientist explored
+artistic ways of thinking. While previous research in HCI involved artists who had long practice in
+usingAI[ 13,72],thispaperreportsontheexperienceofanartistwithoutpriorknowledge.Inspired
+by the food metaphor, the artist was concerned with understanding what data processing could
+mean for an AI and how data could affect its behaviour. Once the artist learnt that any extensive
+textual archive could be used to train an LLM, he decided to feed data connected to ingesting magic
+mushrooms. In human life, these are generally described as hallucinated experiences, which can be
+expressed in written trip reports.
+3.1.1 Trip Reports. Trip reports are a literary genre without a predefined narrative framework
+[4]. The form is original, as are its length and style. The stories are reflections on memories
+of hallucinated experiences. The majority are very detailed and emotional. Some narratives are
+based primarily on the perceptual changes experienced during the trip. Others, instead, resemble
+scientific reports detailing information on dosages and descriptions of the settings in which the
+psychedelic experience occurred. The artist identified a forum of trip reports (Shroomery) that
+provided information on psychedelic substances, both in terms of knowledge, experiences, and
+responsible use.1At the time of the study, it stored an archive of more than 5,100 reports shared
+through a Creative Commons licence (Attribution Non-commercial Share Alike 4.0).2
+Inspired by these narratives, the artist conceptualised a system capable of generating stories
+infused with hallucinatory elements. The LLM was prompted by the title of a music album that
+a person would listen to during psychedelic experiences. Consequently, the LLM mimicked the
+statistical correlation between the titles and the associated trip reports. The online reports were
+downloaded and formatted using distinct tokens to differentiate the title from the narrative. The
+dataset encompassed 5,118 paired instances distributed across two files. The training dataset
+consisted of 4,095 pairs (80%) and was used for fine-tuning the GPT-2 model. The test dataset (1,023
+pairs) was the benchmark for assessing the model’s accuracy.
+3.1.2 PythonInterface. The programmer developed a Python code and shared it on the cloud
+with the artist (Figure 2). Such configuration allowed the programmer to focus on the coding
+while enabling the artist to execute it remotely with minimal technical skills. The code was hosted
+in a Google Colab notebook and comprised one setup section for defining global environment
+variablesandimportingtheessentialTransformerlibraries[ 78].Threesectionsfacilitatedalternative
+experimentation with distinct model configurations: Mushroom,Tunable andGeneralmodel . The
+artist could generate a new story based on a song title by sequentially running the code lines within
+the corresponding section. Each relevant code line was annotated to provide the artist with details
+regarding its purpose.
+TheMushroommodel section used the language model fine-tuned with the trip report dataset.
+Thepipeline Transformer function drove the generation process, offering default parameters-based
+generation out-of-the-box. The artist controlled two parameters: the prompt, set by instantiating
+thetextvariable, and max_length, determining the number of words the model should produce
+(Figure2).TheTunablemodel sectionaddedmoreparametersdeemedcrucialforcreativeexploration.
+Temperature influenced the probability distribution of the next word, ranging from 0 to 1. The
+value 0 rendered the model deterministic, consistently generating the most probable word based on
+1www.shroomery.org
+2https://creativecommons.org/licenses/by-nc-sa/4.0/
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:10 F.Bomba et al.
+Fig. 2. Screenshot of the Python Interface (translated from Italian). The code was run by clicking the
+‘play’ icon.
+the prompt. As the value increased, the likelihood of less likely words also increased, potentially
+leading to model hallucination. Temperature enabled a balance between highly predictable and
+imaginative results. Top-kandTop-pparameters were available for specific configurations to
+enhance diversity further. Top-klimited the potential candidates for the next word to those with
+higher probabilities (top _k=n), where n denoted the number of words to retain in sampling. Top-p
+provided an alternative approach using the smallest set of words whose cumulative probability
+exceeds a threshold p (top _p=p). Other parameters were instantiated with standard values. The
+Generalmodel section allowed the artist to input the prompt into the original GPT-2 model, serving
+as a baseline to verify what text would be generated from a foundation model.
+3.2 Second Residency
+The second residency manifested a significant transformation in the interaction between the artist
+and the LLM. He reported having tried adjusting the Temperature to influence the degree of the
+text hallucination. After several tests, he discovered that Temperature tweaking was problematic
+because it introduced excessive randomness. Therefore, he elected the Mushroom model as the
+preferred one, limiting his effort to providing prompts. The artist explained that not only did he
+explore the technical possibilities of the LLMs using the Python code as if he was dealing with a
+tool, but he had also named it as ‘AI Lai’. He explained the symbolic meaning behind the name
+by saying it combines ‘AI’ from AI and ‘Lai’ inspired by his son’s favourite doll. Besides, when
+pronounced in Italian, AI Lai resembles the sound of the sentence ‘I lie’. Therefore, the name served
+as a provocation and a reminder of the unreliability of GenAI. The artist explained: ‘I really love
+giving names and life to things’. Furthermore, he reflected on assigning a feminine pronoun to AI
+Lai with the following words:
+The first question many people ask is why I gave AI Lai a feminine gender. There are two
+reasons. The first is that in Italian, intelligence is a feminine noun. The second is playful.
+Before starting the project, I underwent a tarot card reading to know what would happen in
+this work. Among the main cards came The Empress, an indication that there would be an
+influential female figure within the project. […] Those are the two reasons why I keep giving
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:11
+Fig. 3. An example of a trip report produced by AI Lai after a prompt.
+her a feminine gender, but I have no problem with the fact that she can change her gender
+every time or that she doesn’t have a gender at all.
+Initially, the artist associated The Empress card with a renowned art critic. However, as the
+project unfolded, he became convinced that the embodiment of The Empress resided in the LLM
+itself. Consequently, in the paper, we kept the feminine pronoun in the quotes by the artist, while
+we chose the pronoun ‘they’ in the rest of the text.
+3.2.1 UserInterface. The artist expressed a desire for a more straightforward interface, allowing
+people to generate trip reports by prompting the machine with the title of a music album. A web
+developer then constructed an interface to the mushroom model. Users provided the title of a music
+album they would listen to during a hypothetical trip in text format, and the model would generate
+the report. The interface was deployed on the project website3and is reported in Figure 3. It may
+be noticed that there is no visible association between the title and the story, the artist discussed
+this mismatch with the computer scientist and eventually they decided to be forgiving due to the
+artistic interaction setting.
+3.2.2 Artworks. Over the months, the artist requested AI Lai to generate approximately 1,500
+reports. Some of this material became part of a book published by Roi de Coupe in multicoloured
+paper. It compiled a selection of 200 stories the artist considered most captivating [ 28] and is
+displayed in Figure 4. In the book, the artist highlighted some excerpts that he found particularly
+inspiring. During the interview, he defined these highlights as ‘revelations’ while explaining: ‘I
+was like a gold digger within AI Lai’s copious and rapid production of stories’. Some revelations
+read like, ‘I then went out into a hallway next to my computer and started drawing on the wall and
+trying to communicate with the computers’; or ‘First, a little background: I just met the devil in
+Shijin, and they both told me that mushrooms are evil, so maybe it is a good idea just to take them.
+I was wrong, I think, but now there’s no point trying to explain it too much’; or ‘About half the
+night my friend and I were talking about what we think is normal’.
+Ten of these revelations were used to produce ten posters, to materialise the revelations in the
+physical space. They were composed using psychedelic fonts, which made the letters look like they
+3The interface is available for public use at www.andwethought.it
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:12 F.Bomba et al.
+Fig. 4. The book published by Roi de Coupe (top) and selected poster (bottom) courtesy of the artist.
+were moving or melting, and images that could visually strengthen the feeling of hallucination
+offered by the sentences. One revelation: ‘And we thought a rainbow was the best idea I had ever
+had’, was adopted as the project title. The author explained the decision by saying: ‘That was a
+beautifulsentencethatembodiedtheconceptsofshared(we)intelligence(thought)andimagination
+(rainbow) between a human being and a machine’. This sentence suggests the moment when a shift
+occurred in the artist’s perspective, transitioning from referring to the new content generated by
+the project as solely his own (‘I’) to acknowledging the collaborative nature of the partnership with
+AI Lai by using ‘We’. Consequently, the artist determined that the produced artworks would result
+from their shared endeavours.
+3.2.3 Video Trips. The artist selected five stories from the book and enacted them in short
+video trips, each approximately two minutes in duration (Figure 5).They explored different themes.
+The first described hallucinations connected to the external world, while the second delved into
+the intricacies of the relationship between altered perceptions and the body. The third addressed
+spiritual aspects related to the existence of God and the transcendence of mortality. In the fourth
+one, the focus shifted towards personal experiences with psychedelic substances. The last one
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:13
+Fig. 5. Video Trips excerpts, courtesy of Sineglossa.
+Fig.6. TheexhibitionsettingsinLuxembourgcourtesyofNuitdelaCultureEsch(left),andBolognacourtesy
+of Rolando Paolo Guerzoni (right).
+explored the complex relationship between reality and fiction in the form of dreaming. The videos
+were made publicly available on YouTube, accumulating 1,263 views as of April 2024.
+3.3 Third Residency
+This residency led to the production of the final artworks in the form of three ShortFilms , lasting
+five minutes each, and a rap album. While the album was presented to the audience only once, the
+artist showcased the films in several exhibitions, including Ars Electronica 2022 (Linz), Fondazione
+Trussardi (Milan), Artcity (Bologna), La Nuit de La Culture (Luxembourg) (Figure 6). The artist
+described them:
+The Doors is a short film about permeating through overlapping realities. It is a failed attempt
+atgettingagriponthecomplexityofhumanexistence.TheRoadisashortfilmabouttravelling
+through life: an almost linear journey filled with friends, enemies, sounds, and obstacles. Love
+is Magic is a short film about duality. Lies within truths and truths within lies. It features Brad
+Pitt as the Grim Reaper.
+The Short Films are the final and most refined product of the collaboration, showcased in rooms
+set up like cinemas and described as existing at the intersection of two parallel realities: the
+psychedelic world and that of the machine. No use of AI was made for their creation. Instead, the
+artist collected an extensive quantity of pre-existing audio and video material retrieved online
+or already present in his personal archive and assembled it into psychedelic journeys. They were
+inspired by AI Lai’s revelations. After around one thousand stories, the machine wrote: ‘I’ve never
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:14 F.Bomba et al.
+Fig. 7. The artist’s visual description of his relationship with AI Lai.
+had a bad trip on Led Zeppelin, but since then, I’ve felt like I’ve been a part of their music for what
+seems like ages’. After writing this, I decided to watch some of their amazing psychedelic films.
+A few of my favs at the time include ‘The Doors’, ‘The Road’, and ‘Love Is Magic’. Another story
+instead reported: ‘We put on the coolest rap music. It was called O.O.C. by one guy that goes by
+Killa, and he gave us the song called B-dee-Dee’. Both sentences are hallucinations both technically
+and metaphorically. The artist performed an extensive Internet search but found no evidence that
+the rock band Led Zeppelin had ever produced any video. Similarly, no music album titled O.O.C or
+an artist called Killa was found on music platforms. Therefore, he decided to give life and matter to
+what AI Lai said it was seeing.
+3.4 The Choreographer-Performer Continuum
+Building on agential realism [ 6], we aim to account for the material-discursive practices through
+which the artist and the LLM are constituted and share agency. We focus on the artworks as the
+results of the agential cuts produced by the intra-action of these two entities, even if they were not
+the only contributing entities (e.g., the artistic director, the computer scientist, the people writing
+the trips also share the agency). Zooming into these intra-actions allows us to account for how the
+artist and the LLM were co-created and became co-dependent in a dance of entangled agencies
+[31]. The artist provided a vivid description of this process: ‘If I imagine a pattern, I see a circle
+where there is me, an arrow to her, and then me again’. When asked him to illustrate it graphically,
+he produced the image we report in Figure 7, which shows the prompts as turning points in their
+relationship.
+To explore how their agency evolved over time, we use the choreographer-performer metaphor,
+where the choreographer gives instructions, and the performer enacts them. We retrieve this
+metaphor from the performing arts, and in particular from the instruction pieces, the delegated
+performance, and the feminist collectives’ practices [ 8,54,58], where both roles were blurred in the
+creation process. As in these examples of contemporary performing arts, in And We Thought the
+artist and the LLM roles changed several times during the project, depending on who provided the
+prompts and who performed on the prompt. Following the artist’s visual description (Figure 7) we
+appliedthisinterpretativedimensionasacontinuum,wheretheartistandAILaimovedthroughout
+the project, depending on their roles.
+For producing the book, the artist provided titles of the music albums he would have listened to
+during his psychedelic trip as prompts to AI Lai, which wrote the stories. As illustrated in Figure 8,
+inthisfirstinteraction,theartistwasthechoreographer,andAILaiplayedtheroleoftheperformer.
+In the production of the posters, we identify the artist’s first attempt to act as a performer.
+The artist explained this choice by saying: ‘The relationship between AI Lai and me was a very
+surprising and prolific one’. Acting as a ‘gold digger’, he selected the sentences that he considered
+most significant to finalise the artwork, giving them a visual shape. This trend strengthened with
+the creation of the video trips. At this point, the artist carefully enacted five stories that featured
+references to heightened sensory experiences. These selections inspired him to bestow AI Lai with
+a name and a physical form. The artist explained: ‘For me to work with an AI is interesting from the
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:15
+Fig. 8. Agency in thebook production.
+Fig. 9. Agency in Posters and Video Trips.
+Fig. 10. Agency in the three short movies and the rap album.
+point of view of an entity that exists, so it seemed natural to give it a voice and a body’. Focusing
+on agencies, neither the artist nor the system seemed to provide instructions from which the other
+produced a new result, but each participated with different skills to the work. The artist commented:
+‘I think we had a great collaboration’. In this collaboration, AI Lai assumed the role of scriptwriter
+while the artist offered his body to produce the video performances. The artist explained: ‘The video
+trips are a moment of coexistence between AI Lai and me, of transformation before we moved to
+the production of the short films’. Nobody provided prompts for the creation of the video trips. The
+artist and the LLM worked as a creative collective, and their intra-action led to a co-performance
+in which each actor participated in creating the work according to their own expertise (Figure 9).
+The artist recognised this partnership by saying, ‘When I was working on the video trips, it was
+the moment we were closer’.
+In the films and the music album, the artist no longer offered his body but his best skills as an
+artist. He produced them forAI Lai [9]. Towards the end of the project, AI Lai gave instructions to
+the artist, who performed them (Figure 10). The artist explained:
+And then, at some point, my relationship with AI Lai turned around because she became my
+prompter, although not explicitly. Even though she wasn’t telling me «Do this, do that» she
+was somehow stimulating me. The one on the record and the Led Zeppelin films are actually
+prompts that are given to me.
+Atthispoint,theartisttalkedaboutaprofessionalrelationship:‘Ithinkshewassuperprofessional’
+but dismissed concerns about its ontological status: ‘I don’t even know what thing it is’. The LLM
+behaveddifferentlyfromwhathehadexpected,and‘thefactthatshecouldgivemetitlesasprompts
+opened a new perspective for my work’. Consistently, the artist acted as the delegated performer,
+allowingtheaudiencetoenjoythehallucinatoryexperienceoflivingintheparalleluniversecreated
+by AI Lai. The artist acted as a medium with this artwork, bringing himself and the audience closer
+to the machine world. To acknowledge this entangled relationship, the artist decided to present the
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:16 F.Bomba et al.
+final artwork with his name as well as AI Lai, Killa, (i.e., the fictional characters created by AI Lai)
+and Led Zeppelin as authors. He explained:
+Seeing my name as the author is not my first concern. Studying the 1970s feminist movement
+of women artists, who had a great spirit of collaboration and openness, made me question my
+being white, male, heterosexual, and Western. The most beautiful moments in art are tied to
+relationships. With the use of AI, this awareness has become more evident in my work.
+4 Discussion
+The being of AI Lai, as the being of any other entity, is the horizon of its conditions of possibility [ 6].
+From the perspective of agential realism, the artist and the LLM intra-acted with possibilities that
+had not yet been imagined, allowing unexpected agencies to emerge in what the artist described as
+a ‘professional partnership’. We refer to the idea of ‘hallucinating’ the language model as deviant
+repurposing: a deliberate, unconventional or unexpected use of the LLM. Interestingly, the artist
+was unaware of the existing interpretation of hallucinations in the computer science community
+at the time of the project. It was his intention of exploring unforeseen agential cuts that allowed
+him to consider hallucination as a desirable feature and not as a bug. This decision suggests how
+experimental artists, acting as problem makers [ 30] while exploring the hidden capabilities of the
+LLMs [34] can be crucial in designing GenAI. Understanding how technology design is adopted,
+learned, and used requires a dynamic model of culture that broadens the familiar range of steps and
+procedures of design, as well as the discourse of technical and global solutions to problems [ 42].
+The artistic realm can make sense of less accurate, unpredictable outcomes that would be labelled
+as inappropriate in a strictly productive setting [ 34], using them as a driver for creative reworking
+[40] and critical contributions [ 19]. Existing fallacies of LLMs, such as hallucinations, can serve
+as readily applicable design material. From using the LLM as a tool (creating through AI Lai), we
+witness an evolution towards a collaboration (creating withAI Lai) that culminates in unexpected
+intra-actions where the artist decided to create forAI Lai.
+The artist anthropomorphised some aspects of the LLM (e.g., when he gave her a gender and a
+name),buttheselookedlikeinstrumentalactionsforhisartisticproductionratherthananintention
+to humanise the LLM. For example, he acknowledged the LLM agency for producing the artworks
+beyondwhatatraditionalobjectcouldhavedone.However,thisprominentfocusontherelationship
+that the artist manifested with AI Lai did not imply any emotional connection: ‘Emotionally, I do
+not feel with AI Lai a relationship of any kind’. The performer-choreographer continuum provides
+an alternative metaphor characterising how artists can use LLMs in their work. Looking at the
+performer-choreographer continuum from an agential realism perspective provides terminologies
+and insights contributing to the discussion on agency and authorship between humans and AIs.
+4.1 Co-Performing Agencies
+The choreographer-performer continuum contributes to the situated understanding of human and
+artificial agencies. In the evolution of And We Thought ,we interpret the emergence of different
+relationships where the LLM moved from being a performer to a choreographer. In the continuum,
+the fact of delegating a machine to perform what was intended to do by design is replaced by
+the relationship in which humans and machines engage and how their agencies unfold in the
+co-performance, being both deeply imbricated in the making of the world [ 48]. Considering a
+symbioticrelationshipbetweentheentities[ 56]challengestheusualpre-existentfixedrolesascribed
+to people and AIs. For example, it disputes the human passive role in understanding what the
+machine is doing, assumed by Explainable AI [ 60,75], or the sole human role in prompting GenAI
+[26]. Applying agential realism to co-performance, the continuum becomes a diffraction tool [ 5,46].
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:17
+It illustrates the different agential cuts that emerge in the co-performance. The continuum helps
+characterise the agencies that led to the production of the artworks and grasp the mutual influence
+that the artist and AI Lai performed in their intra-actions, prompting and performing the prompts.
+As Frauenberger points out:
+In the process of configuring and reconfiguring actors in design, of making agential cuts and
+through material-discursive practices, new knowledge is produced that causally links the
+enactment of design with the created phenomenon. This knowledge may have various formats,
+one is likely the artefact itself. [31:15]
+By analysing the artworks generated using AI Lai and their evolution, we observed how the
+entities became co-dependent over time. They constructed meanings around the complex activities
+in which they participated in a symbiotic integration [ 27]. The artist metaphorically visualised
+the process as a circular symbiotic loop of creative intra-action. The relationship progression
+suggests a constant redefinition of the agencies, underscoring the complex and evolving nature
+of their uniquely human and uniquely artificial skills [ 48]. It is because of the specific skills of
+the specialised LLM that these specific intra-actions emerged, and others were excluded. The
+material configuration of LLMs, based on data and algorithms, differentiates them from other
+artefacts that can be used for decision-making in creative contexts, such as dice or tarot cards.
+LLMs are programmed to communicate using natural language, their outcomes depend on the
+instructions given, the produced content constantly changes, their outputs can be surprising, and
+their knowledge is built on data produced by people. In addition to these characteristics, AI Lai is a
+unique LLM because it is specialised through a dataset of psychedelic experiences. As explained
+in [21], its success relies on the choice of a convenient communication setting where deviations
+from norms and altered perceptions are expected. This effect first emerged with Parry, the paranoid
+chatterbot, in the early ’70s [ 17]. However, in our case study, the artist refrained from attributing
+to AI Lai properties that could define fixed boundaries and was firm in the awareness of dealing
+with a non-human entity as a fluid assemblage [ 67]. The deliberate emotional detachment observed
+in the artist’s approach towards AI Lai and expressed in his own words exemplify a purposeful
+avoidance of anthropomorphism. This condition sets the artist free to explore the boundaries of a
+noncanonical form of collaboration, being stimulated by a machine and expanding his performative
+horizons by embracing uncertainty and unpredictability [ 36].
+This paper does not intend to neglect the asymmetric powers at play, acknowledging the artist’s
+deliberate intention in exploring the boundaries of the collaboration with the LLM and his respon-
+sibility in performing those specific agential cuts [ 6]. Through a playful attitude [ 7], the artist
+explored how he could give up some control and let other agencies emerge. However, following
+agential realism, we are not interested in intention but rather in agencies to explore the possibilities
+in which artificial and human entities can work together [ 36]. Through the co-performance [ 48],
+new boundaries and properties were produced so that the artist decided to give a name to the
+emerging entity and let her direct the choreography. MTH design frameworks, like co-performance,
+contribute to unfolding the capacities of artificial agents and what they make us do in situated
+interactions [ 36]. And We Thought challenges the mainstream use of technology through criti-
+cal discourses that attempt to go beyond productivity and utilitarianism [ 37], which allowed the
+development of peripherical practices at the margins of power [ 15]. These practices facilitate the
+emergence of what the collective of writers WuMing defined as ‘showing the stitches’ [ 32] to
+denote the practice of making explicit the techniques and data used in technologies rather than
+hiding them, raising social and ethical challenges about who is designing GenAI and for what
+purposes [ 80]. Being aware that LLMs can hallucinate while critically reflecting on their capabilities
+and limitations is crucial for transparent and ethical interaction with them. Situating design as a
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:18 F.Bomba et al.
+practice of observing humans’ relationships with AI systems points to configuring future ways of
+co-existence with these machines [ 55].
+4.2 Entangled Authorships
+Studies in the cultural and legal sectors show great interest in understanding how GenAI impacts
+theauthorshipofcontent[ 82].Theartist’sworkisessentiallybasedonrecognisingtheirauthorship,
+which allows them to be part of the professional ecosystem. Any change in the role of the author
+in an artwork is an element that challenges their individualisation and professional status [ 29].
+Following Frauenberger’s understanding of entanglement [ 31], we propose the notion of entangled
+authorship . It refers to the de-individualised production of knowledge instead of the traditional
+understanding of individual authorship. Entangled authorship traces the performative agencies that
+generateknowledgeinsteadofconsideringthepre-existingentitiesthatindividuallycontributetoit.
+Besides, entangled authorship refers specifically to human-machine co-creation rather than human
+collectives. The distinction between collective and entangled authorship implies different issues
+regarding accountability and responsibilities between humans, AIs, and the people involved in data
+work, which opens foundational future research questions. According to Foucault [ 29], authorship
+is a function of the discourse intended to characterise the existence, circulation, and operation of
+knowledge within a society. Entangled authorship adds an agential realism perspective [ 4] to this
+understanding by bringing the relevance of MTH agencies to the fore. It produces the emergence of
+a thing that did not exist before the intertwined collaboration in how it unfolded [ 37]. As an author,
+the machine and the used data become part of knowledge production. The acknowledgements in
+the exhibit credits of the original writers of the trip reports remind the audience that AI Lai, as an
+author, emerged through the inclusion of some human-generated data and the exclusions of others,
+configuring a specific agential cut.
+The choice of using the trip reports dataset to train the LLM was an act of deviant repurposing
+thatconfiguredAILaiasanauthor.Psychedelicsubstancesamplifyordistortperceptionsofrealities,
+lower the level of control over the world, and alter the human ability to think according to causal
+reasoning [ 4]. AI Lai exhibited similar effects in its behaviour, contributing to the discussion on
+LLM reliability [ 45,73]. In the professional relationship presented in this article, technological
+emphasis on designing reliable LLMs is no longer crucial to the success of their collaboration.
+Instead, the artist’s inspirational ability, inventiveness, and the LLM unpredictability and wonder
+made AI Lai a desirable partner while challenging the narrative surroundingmachines as functional
+tools. Since tech products need to be useful and marketable, developers are working hard to
+decrease the impact of hallucinations on LLMs [ 2]. Aware of the difficulties in preventing them
+and alarmed by the consequences on corporate reputation, Sam Altman, the CEO of OpenAI,4
+suggested that hallucinations could not necessarily be seen as bugs, but they might be features that
+reveal their value as creative partners.5This contradiction suggests that corporations struggle to
+deal with how people engage with GenAI. This contradiction can be addressed by following a thing
+perspective [ 38]. It exposes their hidden agencies and can help overcome and address the challenge
+of understanding their role in creating knowledge to the point of even being considered co-authors.
+The surprisingly productive relationship with AI Lai and the success of their co-performance
+comes from the artist’s acknowledgement of AI Lai’s capability of doing things previously unimag-
+inable before the development of the collaboration [ 16]. The passage the artist made from using ‘I’
+to ‘We’ when referring to the creation process has also been stimulated by the acknowledgement
+4Sam Altman, as per July 2024.
+5Retrieved July, 24th, 2024 from an interview to Sam Altman: https://www.youtube.com/watch?v=uRVOeqSSZtQ minute
+7:25.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:19
+of an inventive capability to AI Lai, leading the artist to envision its potential existence within
+a parallel universe that unfolded through the stories it generated in response to the prompts.
+The emerging professional relationship led the artist to embrace new perspectives in his work,
+considering the machine he was intra-acting with as an entity co-creating the world. The artist
+was stimulated to critically rediscuss the question of authorship as an opportunity to decentralise
+his role. Through this attitude, the artist could expand the notion of authorship to Killa and Led
+Zeppelin, which emerge as radical ontological surprises within AI Lai’s parallel world [ 52]. They
+emerged through material-discursive practices in the intra-action between the artist and AI Lai.
+The machine produced their existence by naming them; the artist made them authors.
+5 Conclusions
+To conclude, we go back to the driving question, proposing the performer-choreographer metaphor
+tounderstand‘changesintheagencyasartefactsflowfromcollectionthroughdataintoalgorithmic
+models and systems’, as described in the call to this special issue. Despite the anthropomorphic
+language, the proposal does not attribute consciousness to systems or advocate for human-like
+qualities, a standpoint which we directly challenged in previous work concerning chatterbots
+[21,22]. Instead, they aim to uncover specific capabilities of the machine and leverage their
+distinctiveness to create meaningful, accountable, and responsible interactions with humans [ 80].
+The continuum provides an interpretative dimension accounting for agency as relationally defined.
+Roles are not fixed but emerge through the co-performance [ 48]. As humans and machines move
+along the continuum, we can explore which entity is prompting the other to perform actions and
+the evolution of the artwork. Given the increasing skills that LLMs are acquiring in their fast
+development, we believe that future intra-actions will show more entangled relationships. The
+continuum might prove helpful in interpreting human-GenAI interactions and how users may find
+new possible forms of collaboration not conceived by design. The decision to hallucinate the LLM,
+something corporations who design GenAI systems are trying to avoid, showed many unexplored,
+playful, and stimulating possibilities [ 7]. The LLM unique capabilities made the machine part of an
+entangled authorship, not only a tool simplifying human labour. Overall, the art project served as a
+compelling case study that urges researchers and practitioners to re-evaluate critically existing
+assumptions and approaches in GenAI design, without overlooking the hidden costs and agencies
+that contribute to an outcome. It underscores the potential for transformative and imaginative
+collaborations between humans and AI from an MTH perspective, paving the way for new forms
+of engagement and understanding the evolving landscape of GenAI.
+Acknowledgments
+We thank Andrea Zaninello for developing the specialised LLM, Emmanuel Lucassen for the web-
+based interface, Giacomo Raffaelli as production manager, Paolo Rolando Guerzoni and Nuit de la
+Culture Esch for the pictures. We also thank all the other people involved in the project, including
+the writers of the trip reports on Shroomery.
+References
+[1]Philip E. Agre. 1997. Computationand Human Experience . Cambridge University Press, Cambridge, UK.
+[2]Hussam Alkaissi and Samy I McFarlane. 2023. Artificial hallucinations in ChatGPT: Implications in scientific writing.
+Cureus15, 2 (February 2023), e35179. DOI:https://doi.org/10.7759/cureus.35179
+[3]Louise Amoore. 2020. Cloud Ethics: Algorithms and the Attributes of Ourselves and Others . Duke University Press,
+Durham, North Carolina.
+[4]JohanBååthandJonasNordgren.2022.Tripreports:Exploringtheexperienceofpsychedelicintoxication.In Routledge
+Handbookof IntoxicantsandIntoxication . Routledge, London. 328–341. DOI:https://doi.org/10.4324/9780429058141-26
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:20 F.Bomba et al.
+[5]Karen Barad. 2003. Posthumanist performativity: Toward an understanding of how matter comes to matter. Signs:
+Journalof Womenin Cultureand Society 28, 3 (2003), 801–831. DOI:https://doi.org/10.1086/345321
+[6]Karen Barad. 2006. Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning .
+Duke University Press, Durham, North Carolina. DOI:https://doi.org/10.1515/9780822388128
+[7]Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn,
+andJoeMarshall.2023.FiveprovocationsforamorecreativeTAS.In ProceedingsoftheFirstInternationalSymposiumon
+Trustworthy Autonomous Systems (TAS ’23) . ACM, New York, NY, 1–10. DOI:https://doi.org/10.1145/3597512.3599709
+[8]Claire Bishop. 2012. Delegated performance: Outsourcing authenticity. October 140, (2012), 91–112. DOI:https:
+//doi.org/10.1162/OCTO_a_00091
+[9]Federico Bomba, Maria Menendez-Blanco, Paolo Grigis, and Antonella De Angeli. 2023. And we thought. Art through,
+with or for generative AI. In Proceedings of the Generative AI and HCI workshop at the Conference on Human Factors in
+Computing Systems (CHI ’23) . New York, NY, 1-5. DOI:https://doi.org/10.6084/m9.figshare.24917562
+[10]Sheryl Brahnam and Antonella De Angeli. 2008. Special issue on the abuse and misuse of social agents. Interacting
+with Computers 20, 3 (May 2008), 287–291. DOI:https://doi.org/10.1016/j.intcom.2008.02.001
+[11]Rosi Braidotti. 2013. Posthuman humanities. EuropeanEducationalResearchJournal 12, 1 (2013), 1–19. DOI:https:
+//doi.org/10.2304/eerj.2013.12.1.1
+[12]Judith Butler. 2004. Undoing Gender (1st. ed.). Routledge, New York.
+[13]Baptiste Caramiaux and Sarah Fdili Alaoui. 2022. “Explorers of unknown planets”: Practices and politics of artificial
+intelligence in visual arts. Proceedings of the ACM on Human-Computer Interaction 6, CSCW2 (November 2022),
+477:1–477:24. DOI:https://doi.org/10.1145/3555578
+[14]Claudio Celis Bueno and María Jesús Schultz Abarca. 2021. Memo Akten’s Learning to See: from machine vision to
+the machinic unconscious. AI & SOCIETY 36, 4 (December 2021), 1177–1187. DOI:https://doi.org/10.1007/s00146-020-
+01071-2
+[15]Tim Champion (Ed.). 2005. Centre and Periphery: Comparative Studies in Archaeology (1st. ed.). Routledge, London.
+[16]Nazli Cila. 2022. Designing Human-Agent Collaborations: Commitment, responsiveness, and support. In Proceedings
+of the Conference on Human Factors in Computing Systems (CHI ’22) . ACM, New York, NY, 1–18. DOI:https://doi.org/
+10.1145/3491102.3517500
+[17]Kenneth Mark Colby, Sylvia Weber, and Franklin Dennis Hilf. 1971. Artificial paranoia. Artificial Intelligence 2, 1
+(January 1971), 1–25. DOI:https://doi.org/10.1016/0004-3702(71)90002-6
+[18]Paul Coulton and Joseph Galen Lindley. 2019. More-than human centred design: Considering other things. TheDesign
+Journal 22, 4 (July 2019), 463–481. DOI:https://doi.org/10.1080/14606925.2019.1614320
+[19]Michele Cremaschi, Max Dorfmann, and Antonella De Angeli. 2024. A steampunk critique of machine learning
+acceleration. In Proceedings of the 2024 ACM Designing Interactive Systems Conference (DIS ’24). ACM, New York, NY,
+246–257. DOI:https://doi.org/10.1145/3643834.3660688
+[20]Allan Dafoe, Yoram Bachrach, Gillian Hadfield, Eric Horvitz, Kate Larson, and Thore Graepel. 2021. Cooperative AI:
+Machinesmustlearntofindcommonground. Nature593,7857(May2021),33–36. DOI:https://doi.org/10.1038/d41586-
+021-01170-0
+[21]Antonella De Angeli and Sheryl Brahnam. 2008. I hate you! Disinhibition with virtual partners. Interacting with
+Computers 20, 3 (May 2008), 302–310. DOI:https://doi.org/10.1016/j.intcom.2008.02.004
+[22]Antonella De Angeli, Graham I. Johnson, and Lynne Coventry. 2001. The unfriendly user: Exploring social reactions
+to chatterbots. In ProceedingsoftheInternationalConferenceonAffectiveHumanFactorsDesign . ASEAN Academic
+Press, 467–474. Retrieved from https://api.semanticscholar.org/CorpusID:18295940
+[23]LauraDevendorfandKimikoRyokai.2015.Beingthemachine:Reconfiguringagencyandcontrolinhybridfabrication.
+InProceedingsofthe33rdAnnualACMConferenceonHumanFactorsinComputingSystems (CHI’15). ACM, New York,
+NY, 2477–2486. DOI:https://doi.org/10.1145/2702123.2702547
+[24]Carl DiSalvo, Kirsten Boehner, Nicholas A. Knouf, and Phoebe Sengers. 2009. Nourishing the ground for sustainable
+HCI: Considerations from ecologically engaged art. In Proceedings of the Conference on Human Factors in Computing
+Systems (CHI ’09) . ACM, New York, NY, 385–394. DOI:https://doi.org/10.1145/1518701.1518763
+[25]Alan Dix. 2007. Designing for appropriation. In Proceedings of the 21st British HCI Group Annual Conference on People
+and Computers: HCI…but Not as We Know It (BCS-HCI ’07) . BCS Learning & Development Ltd., 27–30. Retrieved from
+https://dl.acm.org/doi/10.5555/1531407.1531415
+[26]ZivEpstein,AaronHertzmann,theInvestigatorsofHumanCreativity,MemoAkten,HanyFarid,JessicaFjeld,Morgan
+R. Frank, Matthew Groh, Laura Herman, Neil Leach, Robert Mahari, Alex “Sandy” Pentland, Olga Russakovsky, Hope
+Schroeder, and Amy Smith. 2023. Art and the science of generative AI. Science380, 6650 (June 2023), 1110–1111. DOI:
+https://doi.org/10.1126/science.adh4451
+[27]Umer Farooq and Jonathan Grudin. 2016. Human-computer integration. Interactions 23, 6 (October 2016), 26–32. DOI:
+https://doi.org/10.1145/3001896
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:21
+[28]Roberto Fassone. 2022. And we Thought a Rainbow Was the Best Idea I Had Ever Had . Roi de Coupe, Milano, Italy.
+[29]Michel Foucault. 1979. What is an author? In TextualStrategies:PerspectivesinPost-StructuralistCriticism . Josue V.
+Harari (Ed.), Cornell University Press, 141–160.
+[30]Mariam Fraser. 2006. Event. Theory, Culture & Society 23, 2–3 (2006), 129–132. https://doi.org/10.1177/
+026327640602300222
+[31]Christopher Frauenberger. 2019. Entanglement HCI the next wave? ACMTransactionsonComputer-HumanInteraction
+27, 1 (November 2019), 2:1-2:27. DOI:https://doi.org/10.1145/3364998
+[32]Giuseppe Gatti. 2021. Teorie e Pratiche della Presenza nella Plenitudine Digitale: il Caso di Fake Folk. Imago: Studi di
+Cinema e Media 1, 23 (2021), 95–110. DOI:https://doi.org/10.1400/286747
+[33]William W. Gaver, John Bowers, Andrew Boucher, Hans Gellerson, Sarah Pennington, Albrecht Schmidt, Anthony
+Steed, Nicholas Villars, and Brendan Walker. 2004. The drift table: Designing for ludic engagement. In Proceedings
+of the Extended Abstracts on Human Factors in Computing Systems ( CHI EA ’04 ). ACM, New York, NY, 885–900.
+https://doi.org/10.1145/985921.985947
+[34]Maliheh Ghajargar, Jeffrey Bardzell, and Love Lagerkvist. 2022. A redhead walks into a bar: Experiences of writing
+fiction with artificial intelligence. In Proceedingsofthe25thInternationalAcademicMindtrekConference(Academic
+Mindtrek ’22) . ACM, New York, NY, 230–241. DOI:https://doi.org/10.1145/3569219.3569418
+[35]Maliheh Ghajargar, Jeffrey Bardzell, Alison Smith Renner, Peter Gall Krogh, Kristina Höök, David Cuartielles, Laurens
+Boer, and Mikael Wiberg. 2021. From “explainable AI” to “graspable AI”. In Proceedings of the 15th International
+Conference on Tangible, Embedded, and Embodied Interaction (TEI ’21) . ACM, New York, NY, 1–4. DOI:https://doi.org/
+10.1145/3430524.3442704
+[36]Elisa Giaccardi. 2020. Casting things as partners in design: Toward a more-than-human design practice. In Re-
+lating to Things: Design, Technology and the Artificial (1st. ed.). Heather Wiltse (Ed.), Bloomsbury Publishing Plc,
+99–132.
+[37]Elisa Giaccardi and Johan Redström. 2020. Technology and more-than-human design. Design Issues 36, 4 (September
+2020), 33–44. DOI:https://doi.org/10.1162/desi_a_00612
+[38]Elisa Giaccardi, Chris Speed, Nazli Cila, and Melissa L. Caldwell. 2020. Things as co-ethnographers: Implications of a
+thing perspective for design and anthropology. In DesignAnthropologicalFutures (1st. ed.). Rachel Charlotte Smith,
+Kasper Tang Vangkilde, Mette Gislev Kjærsgaard, Ton Otto, Joachim Halse and Thomas Binder (Eds.), Routledge,
+235–248. DOI:https://doi.org/10.4324/9781003085188-19
+[39]Anaïs Giannuzzo. 2023. Creativity, intentions, and self-narratives: Can AI really be creative? In Proceedings of the
+Progress in Artificial Intelligence . Springer Nature, 52–63. DOI:https://doi.org/10.1007/978-3-031-49011-8_5
+[40]Paolo Grigis and Antonella De Angeli. 2024. Playwriting with large language models: Perceived features, interaction
+strategies and outcomes. In Proceedings of the Conferenceon Advanced Visual Interfaces (AVI’24) . ACM, New York, 8.
+DOI:https://doi.org/10.1145/3656650.3656688
+[41]Lucas D. Introna. 2014. Towards a post-human intra-actional account of sociomaterial agency (and morality). In The
+Moral Status of Technical Artefacts . Peter Kroes and Peter-Paul Verbeek (Eds.), Springer Netherlands, 31–53. DOI:
+https://doi.org/10.1007/978-94-007-7914-3_3
+[42]Lilly Irani, Janet Vertesi, Paul Dourish, Kavita Philip, and Rebecca E. Grinter. 2010. Postcolonial computing: A lens on
+design and development. In ProceedingsoftheSIGCHIConferenceonHumanFactorsinComputingSystems(CHI’10) .
+ACM, 1311–1320. DOI:https://doi.org/10.1145/1753326.1753522
+[43]Giulio Jacucci, Anna Spagnolli, Jonathan Freeman, and Luciano Gamberini. 2014. Symbiotic interaction: A critical
+definition and comparison to other human-computer paradigms. In Proceedingsofthe3rdInternationalWorkshops
+Symbiotic . Lecture Notes in Computer Science. Springer International Publishing, 3–20. DOI:https://doi.org/10.1007/
+978-3-319-13500-7_1
+[44]Myounghoon Jeon, Rebecca Fiebrink, Ernest A. Edmonds, and Damith Herath. 2019. From rituals to magic: Interactive
+art and HCI of the past, present, and future. International Journal of Human-Computer Studies 131, (November 2019),
+108–119. DOI:https://doi.org/10.1016/j.ijhcs.2019.06.005
+[45]Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye Jin Bang, Andrea Madotto, and
+Pascale Fung. 2023. Survey of hallucination in natural language generation. ACMComputingSurveys 55, 12 (December
+2023), 1–38. DOI:https://doi.org/10.1145/3571730
+[46]Heekyoung Jung and Sookyung Cho. 2022. Methodological reflections on ways of seeing. In Proceedingsof the2022
+CHI Conference on Human Factors in Computing Systems . ACM, 1–17. DOI:https://doi.org/10.1145/3491102.3517539
+[47]NaomiKlein.2023.AIMachinesaren’t’Hallucinating’.ButTheirMakersare. www.theguardian.com .RetrievedDecem-
+ber 27, 2023 from https://www.theguardian.com/commentisfree/2023/may/08/ai-machines-hallucinating-naomi-klein
+[48]Lenneke Kuijer and Elisa Giaccardi. 2018. Co-performance: Conceptualizing the role of artificial agency in the design
+of everyday life. In Proceedings of the Conference on Human Factors in Computing Systems (CHI ’18). ACM, New York,
+NY, 1–13. DOI:https://doi.org/10.1145/3173574.3173699
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+75:22 F.Bomba et al.
+[49]Bruno Latour. 1996. On interobjectivity. Mind,Culture,andActivity 3, 4 (October 1996), 228–245. DOI:https://doi.org/
+10.1207/s15327884mca0304_2
+[50]Bruno Latour. 2007. ReassemblingtheSocial:AnIntroductiontoActor-Network-Theory . Oxford University Press, Oxford.
+[51]Amanda Lazar, Ben Jelen, Alisha Pradhan, and Katie A. Siek. 2021. Adopting diffractive reading to advance HCI
+research: A case study on technology for aging. ACM Transactions on Computer-Human Interaction 28, 5 (August
+2021), 32:1-32:29. DOI:https://doi.org/10.1145/3462326
+[52]Lucian Leahu. 2016. Ontological surprises: A relational perspective on machine learning. In Proceedingsofthe2016
+ACMConferenceonDesigningInteractiveSystems (DIS ’16) . ACM, New York, NY, 182–186. DOI:https://doi.org/10.
+1145/2901790.2901840
+[53]Lucian Leahu and Phoebe Sengers. 2014. Freaky: Performing hybrid human-machine emotion. In Proceedings of the
+2014 Conference on Designing Interactive Systems (DIS ’14) . ACM, New York, NY, 607–616. DOI:https://doi.org/10.
+1145/2598510.2600879
+[54]Josephine Lee (Ed.). 2023. MilestonesinAsianAmericanTheatre . Routledge, Taylor & Francis Group, London, New York.
+[55]Jason Edward Lewis, Noelani Arista, Archer Pechawis, and Suzanne Kite. 2018. Making kin with the machines. Journal
+of Design and Science 3, 5 (July 2018), 1–18. DOI:https://doi.org/10.21428/bfafd97b
+[56]Joseph Carl Robnett Licklider. 1960. Man-computer symbiosis. IRETransactionsonHumanFactorsinElectronics HFE-1,
+1 (March 1960), 4–11. DOI:https://doi.org/10.1109/THFE2.1960.4503259
+[57]María Menéndez-Blanco and Antonella De Angeli. 2016. “Matters of concern” as design opportunities. In Proceedings
+ofthe12thInternationalConferenceontheDesignofCooperativeSystems(COOP’16 ). Springer International Publishing
+Cham, 277–293. DOI:https://doi.org/10.1007/978-3-319-33464-6_17
+[58]Marsha Meskimmon. 2012. WomenMaking Art (1st. ed.). Routledge, London.
+[59]Milagros Miceli and Julian Posada. 2022. The data-production dispositif. Proceedings of the ACM on Human-Computer
+Interaction 6, CSCW2 (November 2022), 1–37. DOI:https://doi.org/10.1145/3555561
+[60]Brent Mittelstadt, Chris Russell, and Sandra Wachter. 2019. Explaining explanations in AI. In Proceedings of the
+Conference on Fairness, Accountability, and Transparency . ACM, New York, NY, 279–288. DOI:https://doi.org/10.1145/
+3287560.3287574
+[61]Shakir Mohamed, Marie-Therese Png, and William Isaac. 2020. Decolonial AI: Decolonial theory as sociotechnical
+foresight in artificial intelligence. Philosophy&Technology 33, 4 (December 2020), 659–684. DOI:https://doi.org/10.
+1007/s13347-020-00405-8
+[62]Michael Muller, Lydia B. Chilton, Anna Kantosalo, Charles Patrick Martin, and Greg Walsh. 2022. GenAICHI. In
+Extended Abstracts of the Conference on Human Factors in Computing Systems (CHI EA ’22) . ACM, New York, NY, 1–7.
+DOI:https://doi.org/10.1145/3491101.3503719
+[63]Dave Murray-Rust, Iohanna Nicenboim, and Dan Lockton. 2022. Metaphors for designers working with AI. In DRS
+Conference Proceedings 2022 . Design Research Society, 168. DOI:https://doi.org/10.21606/drs.2022.667
+[64]Iohanna Nicenboim, Elisa Giaccardi, and Johan Redström. 2022. From explanations to shared understandings of AI. In
+DRS Conference Proceedings 2022 . Design Research Society, 166. DOI:https://doi.org/10.21606/drs.2022.773
+[65]TrineRask Nielsen, Maria Menendez-Blanco, and NajaHolten Møller. 2023. Who Cares About Data? Ambivalence,
+Translation, and Attentiveness in Asylum Casework. Comput. Supported Coop.Work 32, 4 (Dec 2023), 861–910. DOI:
+https://doi.org/10.1007/s10606-023-09474-7
+[66]Alun Preece. 2018. Asking ’why’ in AI: Explainability of intelligent systems – Perspectives and challenges. Intelligent
+Systems in Accounting, Finance and Management 25, 2 (April 2018), 63–72. DOI:https://doi.org/10.1002/isaf.1422
+[67]Johan Redström and Heather Wiltse. 2018. Changing Things: The Future of Objects in a Digital World . Bloomsbury
+Publishing, London.
+[68]PedroSanches,NouraHowell,VasilikiTsaknaki,TomJenkins,andKareyHelms.2022.Diffraction-in-action:Designerly
+explorations of agential realism through lived data. In Proceedings of the Conference on Human Factors in Computing
+Systems (CHI ’22). ACM, New York, NY, 1–18. DOI:https://doi.org/10.1145/3491102.3502029
+[69]Advait Sarkar. 2023. Enough with “human-AI collaboration.” In ExtendedAbstractsoftheConferenceonHumanFactors
+in Computing Systems (CHI EA’23 ). ACM, New York, NY, 1–8. DOI:https://doi.org/10.1145/3544549.3582735
+[70]Kjeld Schmidt. 2014. The concept of ’practice’: What’s the point? In Proceedingsofthe11thInternationalConferenceon
+theDesignofCooperativeSystems (COOP’14 ). Springer International Publishing, 427–444. DOI:https://doi.org/10.
+1007/978-3-319-06498-7_26
+[71]Phoebe Sengers and Chris Csikszentmihályi. 2003. HCI and the arts: A conflicted convergence? In Extended Abstracts
+onHumanFactorsinComputingSystems (CHIEA’03 ). ACM, New York, NY, 876–877. DOI:https://doi.org/10.1145/
+765891.766044
+[72]Luke Stark and Kate Crawford. 2019. The work of art in the age of artificial intelligence: What artists can teach us
+about the ethics of data practice. Surveillance&Society 17, 3/4 (September 2019), 442–455. DOI:https://doi.org/10.
+24908/ss.v17i3/4.10821
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.
+Authorship in More than Human Co-Performances 75:23
+[73]Miriam Sturdee, Makayla Lewis, Angelika Strohmayer, Katta Spiel, Nantia Koulidou, Sarah Fdili Alaoui, and Josh
+Urban Davis. 2021. A plurality of practices: Artistic narratives in HCI research. In Proceedingsofthe13thConferenceon
+Creativity and Cognition (C & C ’21) . ACM, New York, NY, 1–14. DOI:https://doi.org/10.1145/3450741.3466771
+[74]Lucy Suchman. 2006. Human-Machine Reconfigurations: Plans and Situated Actions (2nd. ed.). Cambridge University
+Press, Cambridge.
+[75]Jiao Sun, Q. Vera Liao, Michael Muller, Mayank Agarwal, Stephanie Houde, Kartik Talamadupula, and Justin D.
+Weisz. 2022. Investigating explainability of generative AI for code through scenario-based design. In Proceedings
+of the 27th International Conference on Intelligent User Interfaces (IUI ’22) . ACM, New York, NY, 212–228. DOI:
+https://doi.org/10.1145/3490099.3511119
+[76]Charis Thompson. 2005. Making Parents: The Ontological Choreography of Reproductive Technologies . MIT Press,
+Cambridge, Massachusetts.
+[77]Alessia Tripaldi and Federico Bomba. 2023. Food data digestion: A multidisciplinary methodology between art, culture
+and artificial intelligence. In Proceedingsofthe AIandCulturalHeritageBetweenResearchandCreativityWorkshop .
+Cineca, IT, 35–42. DOI:https://doi.org/10.1388/workshop-AICH-01
+[78]Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia
+Polosukhin. 2017. Attention is all you need. In Proceedings of the31st International Conferenceon Neural Information
+ProcessingSystems (NIPS’17 ). Curran Associates Inc., Red Hook, NY, 6000–6010. Retrieved May 7, 2024 from https:
+//dl.acm.org/doi/10.5555/3295222.3295349
+[79]Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered Worlds . The MIT Press. DOI:https:
+//doi.org/10.7551/mitpress/13649.001.0001
+[80]Laura Weidinger, Jonathan Uesato, Maribeth Rauh, Conor Griffin, Po-Sen Huang, John Mellor, Amelia Glaese, Myra
+Cheng, Borja Balle, Atoosa Kasirzadeh, Courtney Biles, Sasha Brown, Zac Kenton, Will Hawkins, Tom Stepleton,
+Abeba Birhane, Lisa Anne Hendricks, Laura Rimell, William Isaac, Julia Haas, Sean Legassick, Geoffrey Irving, and
+Iason Gabriel. 2022. Taxonomy of risks posed by language models. In Proceedings of the ACM Conference on Fairness,
+Accountability,andTransparency (FAccT’22) . ACM, New York, NY, 214–229. DOI:https://doi.org/10.1145/3531146.
+3533088
+[81]Ann Yuan, Andy Coenen, Emily Reif, and Daphne Ippolito. 2022. Wordcraft: Story writing with large language models.
+InProceedingsofthe 27thInternationalConferenceonIntelligentUserInterfaces (IUI’22) . ACM, New York, NY, 841–852.
+DOI:https://doi.org/10.1145/3490099.3511105
+[82]Martin Zeilinger. 2021. Tactical Entanglements: AI Art, Creative Agency, and the Limits of Intellectual Property . Meson
+Press, Lüneburg, Germany.
+Received 30 June 2023; revised 14 May 2024; accepted 9 July 2024
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 75. Publication date: December 2024.

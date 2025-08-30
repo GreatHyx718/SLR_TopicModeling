@@ -1,0 +1,1123 @@
+Lyric Poetry in the Face of Posthumanism: An Analysis of
+Generative AI-Assisted Poetry Writing
+Yuxuan Huang
+School of Creative Media
+City University of Hong Kong
+Hong Kong, Hong Kong
+yhuang573-c@my.cityu.edu.hkJames Shea
+Hong Kong Baptist University
+Hong Kong, Hong Kong
+james2shea@gmail.com
+Daniel C. Howe
+University of the Arts London
+London, United Kingdom
+daniel@rednoise.orgJussi Holopainen∗
+School of Creative Media
+City University of Hong Kong
+Hong Kong, Hong Kong
+jholopai@cityu.edu.hk
+Abstract
+Generative AI seems poised to transform a wide range of endeavors
+once thought to be solely the domain of humans—from journalism
+to legal practice to creative expression—into collaborative activi-
+ties involving both human and machine. Poetry is no exception, as
+even general-purpose language models now routinely generate con-
+vincing emulations of poetic form. While researchers have closely
+examined such machine-generated poetry, few have studied human-
+AI collaboration in poetry writing from a posthuman perspective.
+Through semi-structured interviews with ten participants in an AI
+English poetry contest and an analysis of their dialogs with AIs,
+we summarize the affordances and challenges of such collaborative
+practice using posthumanism as a lens. We then expose interesting
+tensions, for example, between human self-expression and the di-
+minished (or relocated) agency that AI collaboration often entails.
+This collaborative, yet often adversarial, process provides insights
+into the nature of the posthuman condition as regards creative
+collaboration between human and machine.
+CCS Concepts
+•Human-centered computing →Empirical studies in HCI ;
+Natural language interfaces .
+Keywords
+AI-generated poetry, posthumanism, lyric poetry, human-AI co-
+writing, human-machine relations, generative artificial intelligence
+ACM Reference Format:
+Yuxuan Huang, James Shea, Daniel C. Howe, and Jussi Holopainen. 2025.
+Lyric Poetry in the Face of Posthumanism: An Analysis of Generative
+∗This author is also the corresponding author.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+C&C ’25, Virtual, United Kingdom
+©2025 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-1289-0/25/06
+https://doi.org/10.1145/3698061.3726919AI-Assisted Poetry Writing. In Creativity and Cognition (C&C ’25), June
+23–25, 2025, Virtual, United Kingdom. ACM, New York, NY, USA, 12 pages.
+https://doi.org/10.1145/3698061.3726919
+1 INTRODUCTION
+“The current generation of AIs has been trained on
+vast quantities of dubiously sourced Internet text,
+from the literary canon to the darkest corners of
+4chan, trained to recognize a sort of lowest-common
+denominator of human experience as ‘truth.’ Yet the
+extent to which patterns extracted from dematerial-
+ized language can act as a proxy for lived experience
+is a pressing question. And while capable of impres-
+sive feats of mimicry and pattern recognition, we do
+well to remember that they have no bodies or sen-
+sory organs, no experience of time or space, not even
+memory in any commonly understood sense [31].”
+Rapid improvement in the capabilities of large language mod-
+els (LLMs) has enabled generative AI (GenAI) systems to produce
+creative artifacts that are often difficult to distinguish from those
+of humans [ 30,36,38]. Poetry is no exception, as even generic
+LLMs are now capable of emulating the vocabulary, style, rhythm,
+and tone of renowned historical poets [ 32]. In addition, contem-
+porary artists and writers have worked extensively with LLMs for
+interesting and novel poetic artifacts [35].
+From a posthumanist perspective, such collaborative creative
+writing with AIs, extended by technology and non-human agencies,
+challenge traditional human-centered notions of writing [ 14,17,29].
+For instance, when we compose on a computer, we are likely to in-
+voke some or all of the following technical practices: seeking knowl-
+edge support via web search, LLMs, or on websites like Wikipedia1,
+checking grammar usage with software like Grammarly2storing
+and/or publishing writing to the web or cloud storage, etc. Writ-
+ing can no longer be separated from technical objects, and human
+cognition plays a key role in interpreting information from these
+1https://www.wikipedia.org/
+2https://app.grammarly.com/
+762
+
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Huang et al.
+technical objects [ 29]. Thus, it is not only the outputs of such collab-
+orative work that are of interest but rather the network of human-
+machine relations in which such AI-assisted collaboration is entan-
+gled [ 2]. The focus on such relations, provided via the perspective
+ofposthumanism , underlies the research presented here, examining
+the collaborative, if at times adversarial, process of human-machine
+co-writing. To more fully understand what it means “to write” in
+such a posthuman context, apart from the thematic and aesthetic
+qualities of writing, we must also attend to how humans perceive
+and interpret the information presented by machines, and to how
+machines may in turn shape human cognition [29].
+Therefore, instead of asking whether (and how) GenAI mediation
+changes the human experience of poetry writing and poem quality,
+we examine the kinds of human-AI relations that emerged during
+the process, leading to the following research questions:
+RQ1: What forms do human-AI collaborations take in the context
+of poetry creation, and in what aspects of the process do
+large language models play a significant role?
+RQ2: What are the specific areas of tension that arise between
+human writers and their AI partners?
+RQ3: What elements of the collaborative process are apparent in
+the resulting outputs and which are obscured, that is to say,
+how much of the collaboration is made manifest in poetic
+outputs?
+This research, situated within the background of an AI English
+poetry competition, consists of two studies. In the first study, we
+interviewed 10 individuals who participated in the competition con-
+cerning their experiences and reflections on this co-writing process.
+In the subsequent study, we analyzed participants’ artist statements
+and documented conversation history with various GenAI models
+that were submitted together with their poems. From this data we
+summarize typical workflows used by participants when co-writing
+with GenAI. Findings show that the collaboration between poets
+and GenAI is not limited to simple prompts and answers, but is
+often complicated by tensions between what the human writer
+wants and what the machine provides.
+2 RELATED WORK
+In this section, we justify two considerations that inform our re-
+search: first, our rationale for selecting collaborative poetry writing,
+specifically lyric poetry, with LLMs as a means to explore human-AI
+relations; and second, why posthumanism is intrinsically linked to
+digital writing and is thus a particularly useful theoretical frame-
+work for our study.
+2.1 Lyric Poetry with LLMs
+Historically poetry has been one of the most intricate and com-
+plex forms of human expression, across language and cultures
+[19]; one which has been continuously mediated by technology.
+In recent years, the rise of GenAI has made AI-generated poetry
+nearly indistinguishable from human-written poetry for non-expert
+readers [ 43]. With AI tools, the writing of poetry can be a less
+labor-intensive activity, with writers focusing less on writing "from
+scratch" and more on the editing of text created by GenAI [ 24,40].
+However, the nature of poetry writing centers on experience, not
+interpretation [ 19]. Can human-GenAI collaborative writing createnew experiences for poetry, or will they simply interpret and remix
+existing materials? GenAI offers new opportunities for researchers
+to scrutinize emerging human-machine relations, in other words,
+how creativity and cognition are distributed across human and
+machine [18].
+This study focuses on ten poems written by student participants
+across Hong Kong. These short poems, like much poetry written
+in creative writing classrooms within the university, largely follow
+the traditions of lyric poetry, a form of short poetry that focuses
+on the personal emotions and thoughts of the poet and is typically
+written in the first person [ 6,34]. Lyric poetry is well-suited to
+pedagogical contexts due to its brevity and to its familiarity among
+students. One of the earliest lyric poets was Sappho, a Greek poet
+from the 7thcentury BCE, known for her ability to explore themes
+such as love, beauty, and selfhood. Petrarch and Shakespeare’s
+love sonnets are prominent examples of the lyric tradition as it
+evolved during the Renaissance. The lyric’s emphasis on individu-
+ality became especially salient during the Romantic period of the
+late 18thand early 19thcenturies, as seen in works by John Keats
+and William Wordsworth. Short poems that express the inner self
+are naturally found in non-Western traditions as well, including
+Chinese, Japanese, and Persian poetry.
+2.2 Posthumanism
+Traditional human-centered perspectives treat the human as a dis-
+crete, individual subject [ 18]. Yet digital technologies now demon-
+strate capabilities once conceived of as belonging exclusively to
+humans, which has led some to question what it means to be a hu-
+man in the current moment [ 22,46,52]. Posthumanism is a theory
+that addresses these emerging issues, emphasizing the environmen-
+tal and socio-technical impacts of technology on humanity [ 18].
+The term “posthuman” does not mean that we are no longer human,
+nor does it mean that we are nonhuman or destined to shed our
+flesh and blood [ 25]. Rather, posthumanism reconsiders the human
+experience by integrating the nonhuman [ 5,48]. The category of
+nonhuman (e.g., animals, artifacts, technologies, natural elements,
+and even ideologies and beliefs) includes entities that participate in
+social, cultural, or ecological systems but are not human [ 37,52].
+Our ubiquitous entanglement with nonhumans, the theory claims,
+shapes us so deeply that it makes us “posthuman” [2].
+According to Hayles, posthumanism reframes human cognition
+in relation to the constructed environment and to planetary ecolo-
+gies encompassing both human and nonhuman entities, which she
+calls cognitive assemblages [ 29]. Cognitive assemblages are com-
+plex and entangled networks involving technical objects and human
+actors, and cognition manifests as information, interpretations, and
+meanings within these networks [ 26,29]. Similarly, Galit Wellner
+argues that the symbiosis of humans and machines shifts the tradi-
+tional notion of imagination to posthuman (or digital) imagination
+[49,50]: imagination is no longer a uniquely human and subjective
+trait but a layered model, in which imaginative tasks are shared and
+distributed between humans and technology. In contrast to Hayles,
+Wellner argues that humans are, at least presently, the only agents
+capable of generating meaning at the uppermost layer [ 50]. The
+763
+Lyric Poetry in the Face of Posthumanism: An Analysis of Generative AI-Assisted Poetry Writing C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+concepts of both cognitive assemblages and posthuman imagina-
+tion offer productive grounds for rethinking human-AI relations in
+the era of GenAI.
+In this research, we choose lyric poetry writing with LLMs as a
+specific case to foster a more profound understanding of the two
+concepts. First, the process of writing with LLMs is an interesting
+testing ground for the concept of cognitive assemblage, during
+which cognition circulates and evolves between humans and tech-
+nology. The human poets’ phrasing, perceptions, and emotions are
+mediated by GenAI, consciously or unconsciously, and the resulting
+text later becomes the training data fed to GenAI in an iterative
+cycle. In addition, scholars like Regina Schober argue that poetry
+is a particularly useful literary form through which to reflect on
+relations between humans, machines, and creativity, as it engages
+the rich tapestry of human perception, emotion, and experience[ 45].
+Lyric poetry, the genre of poetry through which human poets ex-
+press themselves (their personal ways of interpreting information),
+aligns well with the concept of cognition (the process of interpreting
+information [ 29]) and posthuman imagination (humans generating
+meanings at the uppermost layer [50]).
+While there have been works on creative writing that explore
+human-AI relations, most have not adopted a posthumanist perspec-
+tive, focusing on the capabilities, usage scenarios, and limitations
+of LLMs in human-AI collaboration [ 15,16]. For example, Booten
+and Gero collected speculative designs for "Poetry Machines" from
+professional poets, including the kinds of interactive writing in-
+terfaces they felt could assist in the writing process [ 7]. Ippolito
+et al. [ 33] commissioned published writers for their perspectives
+on how GenAI has impacted creative writing, and on the degree
+to which LLMs can benefit human creatives in the future. Gero
+et al. [ 21] asked when and why a creative writer would turn to
+an AI agent instead of a human assistant, but answered only from
+the writers’ standpoints, focusing on their desires, perceptions,
+and values. All of these works share an anthropocentric framing
+of human-AI relations in which humans constitute the subject of
+their research questions and AI remains primarily the object. While
+understandable, the assumption of a central role for the human
+in the human-AI relationship may cause researchers to overlook
+interesting issues. For instance, what happens if the reader of poetry
+is no longer human but a machine? orwhy should humans be the
+authority in deciding whether something passes a Turing test as a
+poem? [45]. The adoption of a posthumanism lens allows us to
+observe how human cognition and creativity may be challenged
+by GenAI, as well as to present our findings from both human and
+nonhuman perspectives.
+3 METHODOLOGY
+In 2024, the International Writers’ Workshop(IWW) at Hong Kong
+Baptist University held its inaugural AI English Poetry Competi-
+tion, targeted at students from Hong Kong’s eight University Grants
+Committee3-funded (UCG-funded) universities. We took this event
+as an opportunity to research the collaborative process through
+which people converse with generic LLMs for creative writing. Our
+two-phase study consists of 1) semi-structured interviews with stu-
+dents participating in the poetry competition (see Section 3.2); and
+3https://www.ugc.edu.hk/eng/ugc/index.html2) reflective thematic analysis of supplementary materials, i.e., the
+interviewees’ prompting history with AI chatbots during the writ-
+ing process, as well as their submitted poems and artist statements
+(see Section 3.3). These two phases provide insights into, first, how
+the interviewees perceived their collaboration with the LLMs and,
+second, how their exchanges with LLMs produced the final poems.
+We did not use supplementary materials for cued recall during the
+interviews, as we wanted to examine participants’ current percep-
+tions of LLMs’ contribution and how LLM-mediation manifested in
+the poems during composition. We hoped to find interesting issues
+through this comparison and to understand why participants cited
+the percentages that they did, especially those who asserted the
+LLM’s contribution to be zero. The ethics committee of the City
+University of Hong Kong approved this research.
+3.1 AI English Poetry Competition
+Founded in 2004, the IWW is a non-profit program that engages
+local students, writers, and the general Hong Kong community in
+creativity-inspiring activities. The competition, supported by the
+IWW, took “Origins and Futures” as its theme to reflect the IWW’s
+history and future directions in light of emerging technologies, such
+as AI-assisted writing tools. Our second author (Acting Director of
+the IWW and Associate Professor) was the main organizer of the
+competition, and the third author (an artist and Associate Professor)
+served as judge. Students were permitted to submit one poem of no
+more than one A4-sized page, a 250-word artist statement in the
+form of a description of the creative process, and a record of the
+complete exchange with their AI of choice, including all prompts
+and responses. They were informed that the judge would consider
+the artist statement and the exchanges with the chatbot while
+judging the submissions. Regarding the use of chatbots, students
+were welcome to use one or more LLM chatbots at any stage during
+the writing process as long as the final poem submitted was in
+English. Students employed chatbots including ChatGPT4, Bard5,
+Poe6, Copilot7, etc. Poems submitted by the students must not have
+appeared previously online or in print.
+All submissions were read anonymously and judged in equal
+parts on two documents: 1) each contestant’s submitted poem and
+2) the transcript of their interactions with one or more LLMs; both
+of which were required for participation in the competition. While
+both documents were examined separately, a key criterion for the
+contest was their relationship, as it provided rare insights into the
+collaborative writing process and, indeed, into the writers’ thoughts
+as they composed [ 31]. Three submissions were eventually selected
+for the three top prizes, including a financial reward, while two
+additional submissions were given honorable mention.
+3.2 Study I - Interviewing Contestants
+3.2.1 Motivation & Participants. To understand writers’ views of
+collaborating with LLMs in poetry writing, we collected qualitative
+data by conducting semi-structured interviews with students who
+attended the competition. Semi-structured interviews are common
+4https://openai.com/chatgpt/
+5Bard is now Gemini: https://gemini.google.com/app
+6https://poe.com/
+7https://copilot.microsoft.com/
+764
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Huang et al.
+in human-computer interaction (HCI) research to facilitate one-on-
+one dialogues with participants [ 39]. This method involves a flexible
+interview guide where the researcher can ask for clarifications, add
+questions, and follow comments for nuanced insights [20, 39].
+From the contestants who attended the AI English poetry com-
+petition, 21 agreed to take part in a follow-up study (i.e., our study).
+We sent invitation emails to these 21 contestants and encouraged
+voluntary participation driven by an interest in sharing thoughts
+with us and our readers. As a result, we received 10 replies. Most of
+the participants who replied were majoring in liberal arts, and all
+spoke relatively fluent English. Each interview took approximately
+half an hour, with the longest lasting 50 minutes. The details of the
+participants’ demographics are shown in Table 1.
+3.2.2 Data Collection & Reflective Thematic Analysis. All ten inter-
+views were conducted in English and recorded via Zoom8with the
+consent of the participants. We then transcribed the recorded videos
+into text automatically using Feishu Minutes9. Manual checks and
+content calibration were followed to ensure that the transcribed
+text corresponded with the original videos. We then performed a
+reflexive thematic analysis (RTA) to analyze the interview data.
+Posthumanism served as a useful theoretical lens with which to
+interpret our data, and RTA aligned well with this purpose. Formu-
+lated by Braun and Clarke [ 9,10], thematic analysis (TA) is an in-
+terpretative method for identifying patterns of meaning (“themes”)
+within a qualitative dataset. RTA is based on TA but differs in
+that the researchers’ role in knowledge production is foregrounded
+[11]. Researchers are encouraged to integrate RTA with their philo-
+sophical sensibility and theoretical assumptions [ 11]. Themes are
+analytic outputs that creatively tell the stories of the data. The
+themes derived from a dataset are neither monolithic nor definitive;
+they vary based on the researcher’s theoretical and analytical skills
+[11]. Therefore, RTA is particularly well-suited as it yields theory-
+informed results that, in our case, are informed by posthumanism.
+The data was processed in an inductive manner using open-
+coding rather than a pre-established codebook [ 8,12]. Following
+the six phases of RTA proposed by Braun and Clarke [ 9,10,12,13],
+we first read the transcripts to familiarize ourselves with the data.
+Second, 72 initial codes emerged after analyzing each of the ten con-
+versations. These codes represented our preliminary understand-
+ing of the original data and provided insights into the subsequent
+development of themes. Third, codes were reviewed and placed
+into related groups around proposed research questions to inform
+themes. As a result, two candidate themes were determined. In the
+fourth phase, the candidate themes were reviewed against both the
+codes and the dataset to ensure they formed a coherent and com-
+pelling narrative. The fifth and final phases encompassed defining,
+naming, and reporting these themes, all presented in Section 4.1.
+3.3 Study II - Analyzing Prompt History, Entry
+Poems & Artist Statements
+3.3.1 Motivation. It was noted that participants generally consid-
+ered a relatively small percentage of the submitted poems to have
+been AI-generated (see column “Percentage of the Poem Written by
+8https://www.zoom.com/
+9https://www.feishu.cn/hc/en-US/articles/022111234449-get-the-most-out-of-feishu-
+minutesAI” in Table 1). Two participants went so far as to claim that not a
+single word of their poems had been written by the AI (that is, “0%”).
+Thus, it was not initially clear how their exchanges with chatbots
+actually led to the final submitted poems. As we were interested in
+this tension, in Study II, we further examined the records of their
+prompts and the submitted artist statements.
+3.3.2 Data Collection & RTA. Our data was sourced from the doc-
+uments each participant submitted to the competition, including
+their poems, artist statements, and step-by-step records of prompts
+and GenAI responses. We also referenced the interview transcripts
+in which they discussed how they adapted their prompts on the
+path to the final version of their poem. An RTA was performed to
+analyze these documents following the six phrases mentioned in
+Section 3.2.2.
+4 RESULTS
+4.1 RTA Results (Study I)
+By analyzing the interview data in Study I, we summarized two
+themes from the considerations of 1) how participants perceived
+LLMs themselves and LLM-generated content, 2) how their per-
+ceptions influenced the poem writing, and 3) where they thought
+artistry lay in AI co-written poems. The interpretation of points
+1 and 2 is included in the first theme (see Section 4.1.1), and the
+interpretation of point 3 is included in the second theme (see Sec-
+tion 4.1.2), which takes both human and non-human entities into
+account.
+4.1.1 GenAI as data input for human poetry writing. While inter-
+preting data, we discovered that how writers think about GenAI
+often influenced how they collaborated with it for writing. In this
+theme, we summarized three points from two angles: what GenAI
+means to humans and how the information it provides becomes part
+of human perception and cognition. There is no standard answer
+for which themes should be summarized by RTA, as final themes
+entirely depend on the researcher’s expertise and knowledge [ 11].
+We claim that the two perspectives used to summarize themes
+derive from posthumanism, especially the concept of “cognitive
+assemblage”.
+(1)The role of GenAI: tool or collaborator. There is an active
+debate among the literary community about treating GenAI
+as a collaborator or a tool during creative processes [ 42]. In
+our interviews, most participants expressed their ideas that
+GenAI was a tool for them. The functions of the tool varied
+from offering suggestions and inspirations (e.g., to expand
+or get details of an idea - P4 & P10), speeding up the writing
+process (e.g., to quickly put a rough idea into a poem - P7),
+and research assistance (e.g., to translate modern English to
+Old English - P8; to acquire related knowledge - P1 & P3).
+The remaining participants (P2, P6, & P9) appeared to view
+the AI as a responsive tutor more than a collaborator, who
+assisted them with the sometimes unfamiliar structures of
+rhyme and meter in English poetry.
+(2)GenAI’s machinic characteristics inspire. Traditionally,
+humans have co-written with AI via an iterative process of
+prompting in which prompts are iteratively refined over time
+based on the AI’s responses, concluding when the output is
+765
+Lyric Poetry in the Face of Posthumanism: An Analysis of Generative AI-Assisted Poetry Writing C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+Table 1: The demographics of the participants in Study I
+No. Gender Poetry Writing Experience Percentage
+of the Poem
+Written by AIDiscipline of Study
+P1 Female never 10% Creative and Professional Writing
+P2 Male poetry writing experience in Chinese 50% English Literature and Language
+P3 Female plenty of experience in classic and cre-
+ative writing∗0% English Literature and Language
+P4 Female not professional; write poems as a diary
+for six months10% Language Studies
+P5 Male started to write poetry in Chinese in
+202250% Creative and Professional Writing
+P6 Male never 50% Language Studies
+P7 Male joined another poetry competition
+twice before60% Mathematics and Statistics
+P8 Female write poetry several times per month∗0% Language Studies & Education
+P9 Female write poetry in Chinese once per half-
+year70% Social Work
+P10 Female write stories before but not poetry 30% English Language and Literature
+∗Chatbot engaged, but no AI-generated writing appeared in the submitted poem.
+satisfactory [ 41]. However, from the perspective of creating
+artistic value via poetry, none of the participants felt that
+GenAI’s direct responses provided “qualified” inspiration, let
+alone genuine artistic value: “AI is like LEGO. As a separate
+brick, it might not seem significant or anything useful. It’s up
+to the author to make something different or meaningful out
+of the cliche stuff. ” [P5]
+According to our participants, GenAI’s responses were logi-
+cal, repetitive, and certain. It often attempted to be “correct”
+or “proper,” yet provided answers that lacked real insight.
+The AI systems’ intrinsic characteristics, in combination with
+the guardrails placed by the corporations that provide them,
+limited their creative ability, which is exactly what writers
+value most. At the same time, however, these characteristics
+provided their own form of inspiration: “I would admit that
+what ChatGPT answered was a source of my inspiration, and
+it did provoke my thinking, but not because it offered anything
+particularly insightful or original as I would get from talking
+with a human. But precisely, it was its lack of insight into any
+sort of thinking that made me want to write my poem. I want
+it to be a starting point for how we could use chatbots. I think
+repeating is one way, and maybe their uncertainty can also be
+taken advantage of. ” [P3]
+(3)GenAI fails to adequately mimic human relationships.
+Writers and poets often benefit from a community of like-
+minded practitioners. However, our participants often found
+it difficult to establish intimacy with their AI chatbots dur-
+ing the co-writing process, as they might do with a human
+collaborator: “I wanted to establish a sense of intimacy or
+closeness with the chatbot because that is what I would do if I
+were to write with another human. I attempted to treat this AI
+bot as my co-writing partner, so I called the chatbot ‘darling’ to
+see how it would respond to a word of affection and closeness.
+But it didn’t role-play into this with me. ” [P3]Additionally, it was noted that GenAI often attempted to
+respond with an overly positive attitude, seemingly trying
+to persuade humans to behave well, thereby contributing
+to a perceived lack of authenticity by participants: “Chat-
+GPT doesn’t understand sarcasm or some of humans’ negative
+emotions. It wanted me to reframe my poem to talk about the
+positives of my family in a more positive tone, but that’s not
+what I want. ” [P4]
+Additionally, participants repeatedly expressed their belief
+that GenAI was unable to feel or understand emotions. The
+human-like emotions it showed in its responses were just
+imitations of human emotions, they stated, behind which
+were big data training and massive calculations: “Humans
+initiate the emotions in the poetry, and then ChatGPT just
+mimics these emotions or polishes up the language” (P2). “If
+you tell the chatbot to repeat after you, for example, ‘I am
+angry. ’ It could perform this task as you instructed. But I don’t
+believe that the chatbot is capable of feeling anger. ” [P3]
+Further, participants attached aesthetics to the emotions
+behind the language. However, GenAI’s inability to generate
+and express genuine human emotions made the poems it
+generated feel less “real” for participants: “If we were to talk
+about the aesthetics of language, the chatbot definitely was able
+to do that. But at the same time, it wrote aesthetic sentences
+only for the sake of it, and there was not much reason nor
+intention behind it. Thus, I do not feel the touch of personality
+or thinking behind it. ” [P3]
+4.1.2 Novel poetic material. This theme includes two points con-
+cerning how human cognition mediated by GenAI (see Section
+4.1.1) could produce novel poetic material. Since posthumanism
+requires us to place humans and technology on an equal footing,
+we consider the uniqueness of both human and GenAI technology
+in poetry writing.
+766
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Huang et al.
+(1)The aesthetic value of flaws. Human-created flaws often
+stem from emotional oversights, personal biases, or unique
+interpretations, reflecting the writer’s subjective experience
+and creativity. Although LLM outputs may also contain flaws,
+they typically arise from algorithmic limitations and lack
+genuine emotional understanding, resulting in mechanical
+or generic outputs. Therefore, human-produced flaws are a
+unique manifestation of human nature and vary from person
+to person, rendering the poems that contain them unique,
+like a personal label tagged by the poet: “It is the flaws in
+poetry that make me feel familiar and comfortable. If it’s
+too perfect, then it crosses the line of poetry. There must be
+missed parts, there must be overdone parts, and there must be
+underdone parts. With these flaws, poetry is poetry. But if it’s
+100% perfect, then it’s science, not literature. ” [P5] “It doesn’t
+always need a reason or logic behind human crafts. The power
+in human creation is that I can choose not to give it a reason if
+I want to, whereas machines seem to struggle to do that. ” [P3]
+Flaws can also work as a bridge linking the writer and the
+readers. Even the question of whether the poet creates the
+flaw by accident or on purpose can quicken readers’ imagi-
+nation and critical thinking. The interviewer was attracted
+by the comma before the first line of P5’s poem and asked,
+“Why do you put the comma in the first place, that is, at the
+beginning of your entire poem?” [Interviewer]. P5 answered
+that “Actually, I did that deliberately because I wanted to show
+that human crafts could be eccentric. In the drafts of my poem,
+there was something before the comma, but I ended up deleting
+it just because I wanted to. ” [P5]
+(2)New contexts for poetry. Participants often blamed ma-
+chines for their inability to write satisfying poetry, due specif-
+ically to their rigidity, repetition, uncertainty, and unyielding
+logic. On one hand, as a tool, AI cannot create exactly what
+they expect, even though it does have creativity to a cer-
+tain extent. The uncertain creativity makes AI different from
+other tools in the past, making the author feel as if they are
+not in full control. On the other hand, as collaborators, these
+characteristics are regarded as inhuman, and thus, partici-
+pants resisted placing artistic value on the outputs of the
+AI. However, AI does have the ability to act as a responsible
+tutor, as evidenced in both our interviews and other research
+[13]. AI seems to be caught in a dilemma of being “nonde-
+script” for poetry writing because it is able to play the role
+of both a tool and a collaborator, but in fact, it seems to do
+neither particularly well.
+Nevertheless, it was understood that the intrinsic traits of
+machines would potentially result in novel types of poetry,
+which might also evolve over time: “The reason for the evolu-
+tion of this new kind of poetry is that algorithmicity cannot
+be fully produced by humans. What I mean by algorithmicity
+is that AI processes in a fixed or commercial way. Every time
+it is required to say something or express something, it would
+always remain that kind of angle and perspective, that kind of
+attitude and tone. ” [P5]4.2 RTA Results (Study II)
+In our analysis of the data from Study II, we examined the submitted
+transcripts with AIs and attempted to link each section back to
+locations in the submitted poems. By also referencing the artist
+statements, we were able to follow the composition process for most
+participants. As a result, we hypothesized a common workflow used
+by the participants in their compositions, reported as the first theme
+in Section 4.2.1.
+As mentioned above, we often noted inconsistency between how
+participants reported the percentage of the LLM’s contribution and
+how much LLM-generated content appeared in the actual poems.
+We hypothesized that this inconsistency was due to emotions that
+emerged during the execution of the workflow, which is generalized
+as the second theme and presented in Section 4.2.2.
+Figure 1: A workflow for collaborative poetry writing.
+4.2.1 A hypothetical workflow for collaborative poetry writing. Scott
+Graham describes the writing process as a reciprocal hermeneutic
+process where meanings are constructed through iterative dialogic
+engagement with other actors [ 23]. By analyzing the writing pro-
+cess as illustrated by Graham, together with the participants’ LLM
+transcripts, we found commonalities that suggested a basic work-
+flow for lyric poem writing with LLMs that was non-linear in nature
+(shown in Figure 1), featuring an iterative cycle in which prompt-
+ing, ideation/revision, and organization of poems represented three
+distinct stages. While the writer can begin at any stage, the basic
+execution of the workflow involves iterating over the sequence (i.e.,
+prompting LLMs -> ideation or revision -> poem construction ->
+prompting LLMs -> ...) until the poem is satisfactory.
+4.2.2 Emotions stemming from the hypothetical workflow. The hy-
+pothetical workflow was not intended simply as a summary of the
+process of writing poetry in collaboration with LLMs. The data
+also suggested that participants’ perceptions of the workflow itself
+became material for sections of the final poems.
+(1)The role of emotional attachment. Some participants
+viewed the inspiration derived from the workflow as part of
+GenAI’s contribution to the final poem. For example, in the
+interview, P7 stated, “The idea primarily came from the chat-
+bot, and I handled the rest. So, I would estimate that GenAI did
+50% of the poetry composition. ” However, when we looked
+into this participant’s prompt history, we found that the
+poem submitted was not directly composed of GenAI’s re-
+sponses. In fact, the participant did not actually prompt
+767
+Lyric Poetry in the Face of Posthumanism: An Analysis of Generative AI-Assisted Poetry Writing C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+GenAI to write a poem; the interaction between them in-
+stead consisted of questions and answers. The repetitive and
+formulaic answers from the AI to these questions provided
+inspiration for the writer to abandon their initial idea: “Chat-
+GPT offers a safe place where I don’t need to care what AI
+would think about me. No matter what I say, the response will
+be the same. ” [P7’s artist statement] Rather than potentially
+lying to the chatbot, the writer instead prompted the AI
+about lying in general and about lying to the writer specifi-
+cally. Eventually, the poem emerged as a confession to the
+AI, perhaps stemming from emotional attachment (i.e., relief
+and trust), rather than on specific words or sentences in the
+chatbot’s answers. Yet the writer still claimed that GenAI de-
+served 50% authorship of the poem. Our hypothesis was that
+the emotional attachment to the GenAI may have impacted
+this assessment, hinting at the potential for collaborative
+authorship to root in a shared emotional resonance between
+human and machine.
+In addition, P9 mentioned in their artist statement that they
+“recently had an emotional illness” , but continued to write: “I
+felt great comfort when I read the last few lines of the poem
+that ChatGPT helped me write. Even though it was just a
+chatbot, I felt a sense of support. ” We then checked “the last
+few lines” in their prompting history where the chatbot
+stated: “Remember, you deserve to be true to yourself and find
+your own happiness.” In essence, the workflow didn’t just
+generate poetry; it produced a relationship through which
+human emotions and machine responses could merge.
+(2)Irony as creative content. While some participants ap-
+peared to forge emotional connections to their GenAI, oth-
+ers took a more ironic perspective. P3, who claimed GenAI
+wrote 0% of her poem, drew her main inspiration from inter-
+actions with it. “The human creative process often requires the
+courage to embrace ridiculous and whimsical seeds of inspi-
+ration in the strangest manner. So I took these ideas and con-
+versed with ChatGPT to observe how it might be programmed
+to respond. The results were frustratingly logical, with the
+chatbot repeatedly reminding me that unrealistic expressions
+are merely ‘metaphorical’ concepts and should not be taken
+literally. ” [P3’s artist statement]. To P3, the frustration and
+inability to start a meaningful conversation with the chatbot
+was a source of irony and inspired her poem, which was
+divided into left and right sides to mirror the interface of
+ChatGPT. On the left are poetic lines describing growth to-
+ward creativity, while on the right is the repetitive phrase
+“But the garden is only poetic, ” mimicking ChatGPT’s answer.
+There is no doubt that GenAI inspired P3 in the same way
+it inspired P7, yet they hold contrasting opinions on the
+extent to which GenAI deserved co-authorship of their po-
+ems. For P7, GenAI offered a positive form of inspiration and
+thus became an active co-author. P3, however, experienced a
+negative sense (i.e., frustration) of inspiration from GenAI’s
+limitations, which inspired reflection on the irreplaceable
+nature of subjective human creativity, and a refusal to grant
+GenAI any authorship. This contrast implies that the ex-
+tent of machines’ involvement (and recognition) dependsheavily on the human creator’s perspective and emotional
+engagement with the technology.
+An additional layer of complexity emerged regarding the
+way in which the GenAI presented itself to humans. P5 only
+used one prompt for writing the poem: "ChatGPT, please
+introduce yourself within 3 minutes. You may start now. ” No-
+tably, the author mistook Poe’s general-purpose assistant
+bot named “Assistant” for “ChatGPT”. The chatbot, however,
+didn’t correct the writer but continued to introduce itself
+as “Assistant”. In social interactions between humans, if a
+person were similarly misidentified, they would likely cor-
+rect the mistake immediately. Instead, the AI continued to
+attempt to satisfy the user and demonstrate other human-
+like aspects. For example, it wrote: “Hello! I’m Assistant [. . . ]
+I’m constantly learning and improving, thanks to the feedback
+and interactions I receive. So, feel free to ask me anything, and
+I’ll do my best to assist you. Let’s explore and discover together. ”
+[P5’s exchange records with GenAI]
+5 DISCUSSION
+5.1 Adversarial Collaboration
+An interesting tension that our analysis revealed involved autho-
+rial autonomy or control. On the one hand, writing students were
+generally taught to place value on their unique experiences in the
+world, while using their developing skill as a writer to craft those
+experiences into finished works, an iterative and manual process in
+which they maintained full control over each step. Yet, when writ-
+ing with an AI, the author was forced rather quickly to cede at least
+some degree of the very authorial agency they were developing, to
+that AI in order to progress.
+Perhaps unsurprisingly some of the best writing emerged out of
+this tension, from participants whoe were highly critical of their
+machine collaborator, whether explicitly, as in the poem “An In-
+terview Record with Ms. Assistania” (see B.3), in which the AI’s
+self-introduction for an interview is transformed into a conceptual
+poem; or thematically, as in the poem “To Grow an Ampersand”
+(see B.2), where human and machine creativity are placed in dialog,
+inspired by the author’s fraught interaction with a pedantic AI.
+When asked “How to grow an ampersand?”, this AI repeatedly told
+the author, “I want to clarify that ampersands, as typographical sym-
+bols, cannot naturally grow like plants. The growth you mentioned
+may be a metaphorical or imaginative concept rather than a literal
+occurrence.” However, the machine continued, “It’s wonderful that
+you have an interest in gardening and creativity.” Here again, we
+find tension between a writer’s attempts at unique expression and
+the AI’s tendencies toward a sort of generic rationality.
+Similarly, in the poem “Recipe for Sinigang” (see B.1), “toxic”
+family dynamics like salty tears, broken dreams, and pressured ex-
+pectations were likened to the ingredients of a traditional Filipino
+family soup. “This is not your normal sour soup,” the writer warns,
+specifying that the poem should be “hilarious and sarcastic,” to
+satirize the dysfunction of their family. Yet the AI refused to con-
+tinue. “I can’t assist with content that promotes negativity, harm,
+or unhealthy family dynamics. [Your] poem focuses on bitterness,
+resentment, and family dysfunction, which can be triggering or
+upsetting for some readers. ” The AI continued, “I’d be happy to help
+768
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Huang et al.
+you reframe the poem to focus on the positive aspects of family
+and Filipino cuisine. Perhaps you could highlight the joy of cooking
+together, the comfort of familiar flavors, or the love passed down
+through generations in recipes. Here are some specific suggestions:
+[...]” Again we see the tension between the machine’s desire for
+palatability and the writer’s pursuit of raw emotional expression.
+As demonstrated in the three awarded poems, successful collabora-
+tions often required participants to challenge their AI collaborator,
+turning points of resistance into thematic material. Thus while Ad-
+versarial collaboration involved some necessary ceding of control,
+it also required the assertion of creative agency in a delicate balance
+that Tsao and Nogues refer to as a process of “negotiating creative
+conventions [47].”
+The LLM used by this particular participant was evidently strongly
+engineered to minimize negativity and conflict, bringing it into
+tension with the author’s artistic objectives. In such cases the co-
+writing of poetry provides a unique opportunity to examine the
+underlying values embedded within LLMs, which are often obfus-
+cated by the complex nature of their training processes and their
+largely opaque architectures [ 44]. Popular LLMs are frequently
+“sandboxed” to align with certain social values, which are rarely
+scrutinized. For instance, while Anthropic10explicitly identifies
+some of these values, it falls short of a critical examination. This
+issue, of course, is even more pertinent with models that claim to be
+value-neutral. Creative activities, such as poetry co-writing, there-
+fore, may function as a means to foster this critical engagement in
+students [45].
+5.2 Human-Machine Collaboration as Layered
+Writing Process
+“[AI] algorithms simulate perception and memory,
+ending up in a result that does not necessarily mimic
+the human. The layered model of digital imagination
+translates the imaginative task of AI algorithms as the
+filling in of the layers with data... It is difficult for these
+algorithms to decide which variation is meaningful.
+They simply produce more and more variations. Our
+role as humans is to generate (or reveal) meaning
+in the link(s) between layers and establish new ones
+[50].”
+As described in the quotation above, creative writing is often
+about the creation (or recognition) of meaning in links between
+layers and through new interpretations of those links, an asser-
+tion that our data supported. As LLMs “digested” human prompts,
+together with the data on which they were trained; the writers
+sought to create or extract new points of view in very personal
+ways. These ranged from using LLMs as search engines, to satirizing
+their machine characteristics, to attempting to engage in intimacy
+with them. Each of these ways (or “links” in posthuman theory)
+originates in this layered, collaborative writing process and repre-
+sents attempts at meaning-generation (i.e., poetic artistry), through
+embracing, appreciating, and excavating subjective specificity from
+the AI’s often mechanical or generic responses.
+10https://www.anthropic.com/companyIn other words, creativity and imagination do not reside solely
+within the human but rather “spill over” into the technologies in-
+volved. The texts generated by LLMs are products of interactions
+within an extensive and temporally layered cognitive assemblage
+[26]. This assemblage includes human agents such as programmers,
+users, authors, editors, and critics who contribute to the training,
+refinement, and deployment of these algorithms. It also encom-
+passes various tools and materials, including writing implements,
+printing machines, and physical books, as well as institutions such
+as publishers, libraries, and bookshops involved in the production,
+distribution, and circulation of the texts used as training data. Con-
+sequently, AI-generated texts are not merely the outputs of machine
+responses to user prompts but are the results of a distributed pro-
+cess involving a wide array of human and non-human cognitive
+operations, both conscious and nonconscious [27, 28].
+6 LIMITATIONS & FUTURE WORK
+ChatGPT was launched on 30 November 2022, but it was not until
+January 2023 that it became widely popular, gaining over 100 million
+users [ 51]. The submission period of the AI English Poetry compe-
+tition opened on 1 December 2023 and closed on 13 February 2024,
+which suggests that participants were likely to have had less than
+one year of access to LLM, at least on common platforms. It is simi-
+larly likely that, due to the novelty of these systems, participants
+were novices in regard to their use, which may have influenced their
+experiences. In addition, the participants composed their poems on
+generic GenAI platforms (e.g., ChatGPT, Poe, Copilot, etc.) rather
+than platforms specifically designed for poetry composition. Hence,
+their often negative evaluation of GenAI could stem from the AIs
+lack of training or fine-tuning in the domain. We encourage future
+studies to explore issues of human-AI collaborative poetry writing
+on specifically trained poetry creation platforms.
+In their book Researching a Posthuman World [4], Adams and
+Thompson propose interviewing objects as part of posthuman re-
+search; to engage nonhuman entities as research subjects and to
+give them a voice, as it were. Interviewing a non-human entity in-
+volves capturing insights through listening to it (in whatever ways
+are possible), observing its actions, and discerning its relations with
+other human and nonhuman actors. While our current interviews
+focused exclusively on our human participants, future research
+from a posthuman perspective might also include interviews with
+the LLMs themselves, adopting the heuristics proposed by Adams
+and Thompson [1, 3].
+7 CONCLUSION
+This paper presents two studies in the context of an AI English
+poetry competition exploring the human-machine relations that
+emerged during poetry writing with GenAI. In the first study, we
+conducted semi-structured interviews with ten participants from
+the competition and carried out a reflective thematic analysis (RTA)
+on their transcripts. Our findings showed that poetic value can
+indeed be created through the integration of human judgment with
+generated language from GenAI. The second study examined how
+participants measured the extent to which GenAI contributed to
+their poems, based on conducting RTA on their submitted poems,
+artist statements, and records of the prompts and responses with
+769
+Lyric Poetry in the Face of Posthumanism: An Analysis of Generative AI-Assisted Poetry Writing C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+AI chatbots. This revealed a basic workflow for poetry writing with
+AI, but more importantly, demonstrated how individual writers
+adapted and interpreted this process.
+Across both studies, we observed adversarial aspects of human-
+machine collaboration, with writers attempting to balance AI’s
+universalizing tendencies against their own unique world experi-
+ence and poetic craft. This suggests that while AI can serve as a
+generative aid in poetry writing, its true value may lie in how it
+drives writers to navigate these tensions. Through a posthuman lens,
+AI-assisted poetry can be seen not only as a new form of literary cre-
+ation but also as a productive site of inquiry into human-machine
+collaboration.
+References
+[1]Catherine Adams and Terrie Lynn Thompson. 2016. Attending to Objects, Attun-
+ing to Things. In Researching a Posthuman World: Interviews with Digital Objects ,
+Catherine Adams and Terrie Lynn Thompson (Eds.). Palgrave Macmillan UK,
+London, 23–56. doi:10.1057/978-1-137-57162-5_2
+[2]Catherine Adams and Terrie Lynn Thompson. 2016. Introduction to Posthuman
+Inquiry . Palgrave Macmillan UK, London, 1–22. doi:10.1057/978-1-137-57162-5_1
+[3]Catherine Adams and Terrie Lynn Thompson. 2016. Loosening the Meshwork,
+Analyzing Medialities and Materialities. In Researching a Posthuman World:
+Interviews with Digital Objects , Catherine Adams and Terrie Lynn Thompson
+(Eds.). Palgrave Macmillan UK, London, 57–86. doi:10.1057/978-1-137-57162-5_3
+[4]Catherine Adams and Terrie Lynn Thompson. 2016. Researching a Posthuman
+World: Interviews with Digital Objects . Palgrave Macmillan UK, London. doi:10.
+1057/978-1-137-57162-5
+[5]Karen Barad. 2003. Posthumanist Performativity: Toward an Understanding of
+How Matter Comes to Matter. Signs: Journal of Women in Culture and Society
+28, 3 (March 2003), 801–831. doi:10.1086/345321 Publisher: The University of
+Chicago Press.
+[6]Mutlu Konuk Blasing. 2009. Lyric Poetry: The Pain and the Pleasure of Words .
+Princeton University Press, Princeton, New Jersey.
+[7]Kyle Booten and Katy Ilonka Gero. 2021. Poetry Machines: Eliciting Designs
+for Interactive Writing Tools from Poets. In Proceedings of the 13th Conference
+on Creativity and Cognition (Virtual Event, Italy) (C&C ’21) . Association for
+Computing Machinery, New York, NY, USA, Article 51, 5 pages. doi:10.1145/
+3450741.3466813
+[8]Virginia Braun. 2013. Successful Qualitative Research: A Practical Guide for Begin-
+ners. SAGE, London.
+[9]Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychol-
+ogy. Qualitative Research in Psychology 3, 2 (Jan. 2006), 77–101. doi:10.1191/
+1478088706qp063oa
+[10] Virginia Braun and Victoria Clarke. 2012. Thematic analysis. In APA handbook
+of research methods in psychology, Vol 2: Research designs: Quantitative, quali-
+tative, neuropsychological, and biological . American Psychological Association,
+Washington, DC, US, 57–71. doi:10.1037/13620-004
+[11] Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis.
+Qualitative Research in Sport, Exercise and Health 11, 4 (Aug. 2019), 589–597.
+doi:10.1080/2159676X.2019.1628806
+[12] Virginia Braun and Victoria Clarke. 2021. One size fits all? What counts as quality
+practice in (reflexive) thematic analysis? Qualitative Research in Psychology 18, 3
+(July 2021), 328–352. doi:10.1080/14780887.2020.1769238
+[13] David Byrne. 2022. A worked example of Braun and Clarke’s approach to
+reflexive thematic analysis. Quality & Quantity 56, 3 (June 2022), 1391–1412.
+doi:10.1007/s11135-021-01182-y
+[14] Ivan Callus. 2022. Literature and Posthumanism. In Palgrave Handbook of Critical
+Posthumanism , Stefan Herbrechter, Ivan Callus, Manuela Rossini, Marija Grech,
+Megen de Bruin-Molé, and Christopher John Müller (Eds.). Springer International
+Publishing, Cham, 673–701. doi:10.1007/978-3-031-04958-3_21
+[15] Tuhin Chakrabarty, Vishakh Padmakumar, Faeze Brahman, and Smaranda Mure-
+san. 2024. Creativity Support in the Age of Large Language Models: An Empirical
+Study Involving Professional Writers. In Proceedings of the 16th Conference on
+Creativity & Cognition (Chicago, IL, USA) (C&C ’24) . Association for Computing
+Machinery, New York, NY, USA, 132–155. doi:10.1145/3635636.3656201
+[16] Tuhin Chakrabarty, Vishakh Padmakumar, and He He. 2022. Help me write
+a Poem - Instruction Tuning as a Vehicle for Collaborative Poetry Writing. In
+Proceedings of the 2022 Conference on Empirical Methods in Natural Language
+Processing , Yoav Goldberg, Zornitsa Kozareva, and Yue Zhang (Eds.). Association
+for Computational Linguistics, Abu Dhabi, United Arab Emirates, 6848–6863.
+doi:10.18653/v1/2022.emnlp-main.460[17] Sidney I. Dobrin. 2015. Writing Posthumanism, Posthuman Writing . Par-
+lor Press LLC, Anderson, South Carolina. https://books.google.se/books?id=
+HKsWEAAAQBAJ
+[18] Laura Forlano. 2017. Posthumanism and Design. She Ji: The Journal of Design,
+Economics, and Innovation 3, 1 (2017), 16–29. doi:10.1016/j.sheji.2017.08.001
+[19] Margaret H. Freeman. 2020. The Poem as Icon: A Study in Aesthetic Cognition .
+Oxford University Press, New York. doi:10.1093/oso/9780190080419.001.0001
+[20] Anne Galletta. 2013. Mastering the semi-structured interview and beyond: From
+research design to analysis and publication . New York University Press, New York,
+NY, US. doi:10.18574/nyu/9780814732939.001.0001 Pages: xiii, 245.
+[21] Katy Ilonka Gero, Tao Long, and Lydia B Chilton. 2023. Social Dynamics of AI
+Support in Creative Writing. In Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems (Hamburg, Germany) (CHI ’23) . Association for
+Computing Machinery, New York, NY, USA, Article 245, 15 pages. doi:10.1145/
+3544548.3580782
+[22] Josh A. Goldstein, Girish Sastry, Micah Musser, Renee DiResta, Matthew Gentzel,
+and Katerina Sedova. 2023. Generative Language Models and Automated In-
+fluence Operations: Emerging Threats and Potential Mitigations. doi:10.48550/
+arXiv.2301.04246 arXiv:2301.04246 [cs].
+[23] S. Scott Graham. 2023. Post-Process but Not Post-Writing: Large Language
+Models and a Future for Composition Pedagogy. Composition Studies 51, 1 (2023),
+162–168. https://eric.ed.gov/?id=EJ1390327 ERIC Number: EJ1390327.
+[24] David I. Hanauer. 2011. The scientific study of poetic writing. Scientific Study of
+Literature 1, 1 (May 2011), 79–87. doi:10.1075/ssol.1.1.08han
+[25] N. Katherine Hayles. 1999. How We Became Posthuman: Virtual Bodies in Cy-
+bernetics, Literature, and Informatics . University of Chicago Press, Chicago, IL.
+https://press.uchicago.edu/ucp/books/book/chicago/H/bo3769963.html
+[26] N. Katherine Hayles. 2016. Cognitive Assemblages: Technical Agency and Hu-
+man Interactions. Critical Inquiry 43, 1 (Sept. 2016), 32–55. doi:10.1086/688293
+Publisher: The University of Chicago Press.
+[27] N. Katherine Hayles. 2017. Unthought: The power of the cognitive nonconscious .
+University of Chicago Press, Chicago.
+[28] N. Katherine Hayles. 2018. Human and Machine Cultures of Reading: A Cognitive-
+Assemblage Approach. PMLA/Publications of the Modern Language Association
+of America 133 (2018), 1225 – 1242. https://api.semanticscholar.org/CorpusID:
+165704789
+[29] N. Katherine Hayles. 2018. Writing//Posthuman: The Literary Text as Cognitive
+Assemblage. Theoretical Studies in Literature and Art 38, 3 (May 2018), 6–21.
+https://tsla.researchcommons.org/journal/vol38/iss3/20
+[30] Jimpei Hitsuwari, Yoshiyuki Ueda, Woojin Yun, and Michio Nomura. 2023. Does
+human–AI collaboration lead to more creative art? Aesthetic evaluation of human-
+made and AI-generated haiku poetry. Computers in Human Behavior 139 (2023),
+107502. doi:10.1016/j.chb.2022.107502
+[31] Daniel C Howe. 2024. On Growing an Ampersand . International Writers Workshop,
+Baptist University, Hong Kong. https://rednoise.org/daniel/res/pdfs/Growing%
+20an%20Ampersand-Howe.pdf
+[32] James Hutson and Ana Schnellmann. 2023. The Poetry of Prompts: The Collabo-
+rative Role of Generative Artificial Intelligence in the Creation of Poetry and the
+Anxiety of Machine Influence. Global Journal of Computer Science and Technology
+23, D1 (April 2023), 1–14. doi:10.34257/GJCSTDVOL23IS1PG1
+[33] Daphne Ippolito, Ann Yuan, Andy Coenen, and Sehmon Burnam. 2022. Creative
+Writing with an AI-Powered Writing Assistant: Perspectives from Professional
+Writers. arXiv:2211.05030 [cs.HC] https://arxiv.org/abs/2211.05030
+[34] Virginia Walker Jackson and Yopie Prins. 2014. The Lyric Theory Reader: A
+Critical Anthology . Johns Hopkins University Press, Baltimore, Maryland. https:
+//books.google.co.uk/books?id=QRcXnQEACAAJ
+[35] David Jhave Johnston. 2019. ReRites . Anteism Books, Montreal. https://glia.ca/
+rerites/
+[36] Nils Köbis and Luca D. Mossink. 2021. Artificial intelligence versus Maya Angelou:
+Experimental evidence that people cannot differentiate AI-generated from human-
+written poetry. Computers in Human Behavior 114 (2021), 106553. doi:10.1016/j.
+chb.2020.106553
+[37] Bruno Latour. 2007. Reassembling the Social: An Introduction to Actor-Network-
+Theory . Oxford University Press, Oxford, New York.
+[38] Jey Han Lau, Trevor Cohn, Timothy Baldwin, Julian Brooke, and Adam Hammond.
+2018. Deep-speare: A joint neural model of poetic language, meter and rhyme.
+InProceedings of the 56th Annual Meeting of the Association for Computational
+Linguistics (Volume 1: Long Papers) , Iryna Gurevych and Yusuke Miyao (Eds.).
+Association for Computational Linguistics, Melbourne, Australia, 1948–1958.
+doi:10.18653/v1/P18-1181
+[39] Jonathan Lazar, Jinjuan Heidi Feng, and Harry Hochheiser. 2017. Chapter 8 -
+Interviews and focus groups. In Research Methods in Human Computer Interaction
+(Second Edition) , Jonathan Lazar, Jinjuan Heidi Feng, and Harry Hochheiser (Eds.).
+Morgan Kaufmann, Boston, 187–228. doi:10.1016/B978-0-12-805390-4.00008-X
+[40] Zhuoyan Li, Chen Liang, Jing Peng, and Ming Yin. 2024. The Value, Benefits,
+and Concerns of Generative AI-Powered Assistance in Writing. In Proceedings of
+the CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA)
+(CHI ’24) . Association for Computing Machinery, New York, NY, USA, Article
+770
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Huang et al.
+1048, 25 pages. doi:10.1145/3613904.3642625
+[41] Andy Nguyen, Yvonne Hong, Belle Dang, and Xiaoshan Huang. 2024. Human-
+AI collaboration patterns in AI-assisted academic writing. Studies in Higher
+Education 49, 5 (May 2024), 847–864. doi:10.1080/03075079.2024.2323593
+[42] Rafaela Nunes. 2024. AI, a Tool or an Author? A Posthuman Feminist Perspective
+on the Agency of Gen-AI in Creative Practices. Augmented Human Research 9, 1
+(Sept. 2024), 8. doi:10.1007/s41133-024-00074-8
+[43] Brian Porter and Edouard Machery. 2024. AI-generated poetry is indistinguishable
+from human-written poetry and is rated more favorably. Scientific Reports 14, 1
+(14 Nov 2024), 26133. doi:10.1038/s41598-024-76900-1
+[44] Scott Rettberg. 2023. Cyborg Authorship: Writing with AI – Part 1: The Trouble(s)
+with ChatGPT. https://electronicbookreview.com/essay/cyborg-authorship-
+writing-with-ai-part-1-the-troubles-with-chatgpt/
+[45] Regina Schober. 2022. Passing the Turing Test? AI Generated Poetry and Posthu-
+man Creativity. In Artificial Intelligence and Human Enhancement: Affirmative and
+Critical Approaches in the Humanities , Herta Nagl-Docekal and Waldemar Zacha-
+rasiewicz (Eds.). De Gruyter, Berlin, Boston, 151–166. doi:10.1515/9783110770216-
+009
+[46] Chris Stokel-Walker and Richard Van Noorden. 2023. What ChatGPT and gener-
+ative AI mean for science. Nature 614, 7947 (Feb. 2023), 214–216. doi:10.1038/
+d41586-023-00340-6
+[47] Jack Tsao and Collier Nogues. 2024. Beyond the author: Artificial intelligence,
+creative writing and intellectual emancipation. Poetics 102 (2024), 101865.
+[48] Ron Wakkary. 2020. Nomadic Practices: A Posthuman Theory for Knowing
+Design. International Journal of Design 14 (Dec. 2020), 117–128.
+[49] Galit Wellner. 2018. Posthuman Imagination: From Modernity to Augmented
+Reality. Journal of Posthuman Studies 2, 1 (Jan. 2018), 45–66. doi:10.5325/jpoststud.
+2.1.0045 Publisher: Duke University Press.
+[50] Galit Wellner. 2022. Digital Imagination: Ihde’s and Stiegler’s Concepts of Imagi-
+nation. Foundations of Science 27, 1 (March 2022), 189–204. doi:10.1007/s10699-
+020-09737-2
+[51] Wikipedia. 2024. ChatGPT. https://en.wikipedia.org/w/index.php?title=
+ChatGPT&oldid=1242697970 Last accessed: Sep. 7, 2024.
+[52] Daisy Yoo, Tilde Bekker, Peter Dalsgaard, Eva Eriksson, Simon Skov Fougt,
+Christopher Frauenberger, Batya Friedman, Elisa Giaccardi, Anne-Marie Hansen,
+Ann Light, Elisabet M. Nilsson, Ron Wakkary, and Mikael Wiberg. 2023. More-
+Than-Human Perspectives and Values in Human-Computer Interaction. In Ex-
+tended Abstracts of the 2023 CHI Conference on Human Factors in Computing
+Systems (Hamburg, Germany) (CHI EA ’23) . Association for Computing Machin-
+ery, New York, NY, USA, Article 516, 3 pages. doi:10.1145/3544549.3583174
+771
+Lyric Poetry in the Face of Posthumanism: An Analysis of Generative AI-Assisted Poetry Writing C&C ’25, June 23–25, 2025, Virtual, United Kingdom
+A Interview Questions
+Warm-up: Regarding the Poetry Composition Experience
+(1) Do you have poetry writing experience before?
+(2) How did you collaborate with AI to write your poem?
+(a)Can you describe the prompts that you use in the process?
+(b)How did you adjust your prompts to gain better results to
+meet your expectations?
+Perspectives on AI Composition
+(1)What are the differences between co-writing poetry with AI
+and writing it by yourself?
+(a)What is the percentage of poetry composition work done
+by AI?
+(b)What role do you think AI plays during the composition
+process?
+(2) What is the subject of your poem?
+(a)If it is about humans, how do you think AI thinks of hu-
+mans?
+(b)If it is about non-humans, what is AI’s perspective on
+non-humans?
+(3)What do you consider the most important/valuable elements
+of poetry composition? Is it emotions, the aesthetic of lan-
+guage, or other aspects?
+(4)Can the poetry generated by AI express deep emotions and
+thoughts? Why or why not?
+(5)How do you incorporate your ideas, emotions, and style into
+your poem?
+Personal Reflections and Summary
+(1)Could you please summarize your overall perspective on
+the role of AI in artistic composition and your views on the
+prospects of this field?
+(2)Do you believe that AI-generated artistic compositions pos-
+sess genuine artistic and cultural value?
+(3)Will you be biased if you know a poem is co-written by AI
+(compared to a poem written totally by a human) when you
+appreciate its poetic value? And why?
+(4)How does AI mediate your perceptions of valuing poetry as
+a human literary expression?
+(5)Are you concerned that AI composition will transform tradi-
+tional literary composition methods? Why?
+(6) Do you have anything else to add?
+B Awarded Poems
+B.1 Recipe for Sinigang
+Today we’re going to cook Filipino sinigang,
+this is not your normal sour soup,
+it will be the most delicious soup you’ll ever have, I guarantee you!
+Let me show you the steps.
+For a more authentic attempt,
+chop your hopes and dreams into slices, they’re going to expire
+anyway,
+why not feed it to all nine of your siblings?
+Locals love putting bitter melon into the mix for extra flavor.
+However,I like to add the jealousy towards my siblings
+for a homier taste.
+Fun tip, instead of adding tamarind,
+cry directly into the pot,
+so your tears add the salty,
+sour taste of the soup.
+If you like it a bit hot,
+mix in your parents’ disappointment.
+For an extra punch in the face,
+add in your low self-esteem too.
+Just let it simmer in a pressure pot
+until it explodes,
+then it’s ready to serve!
+Nothing tastes better than
+failing to take care of your family.
+Remember to pass down the recipe to your kids,
+so they can savor this taste of love.
+B.2 To Plant An Ampersand
+, I woke up this morning with soil in my fists & the weather
+carrying breath & pulse & hot blood
+But the garden is only
+poetic.
+to melt skin into terracotta, to chew, digest, absorb,
+a photosynthesis of soil-tender joy
+But the garden is only
+poetic.
+so I could plant ampersands in the after rain
+earth, next to comma-curled conifers & elliptical pebbles
+But the garden is only
+poetic.
+while the endless land sings
+of perennial & embryonic ampersands
+B.3 An Interview Record with Ms. Assistania
+Hello. My name is Assistania (#3001),
+a language model from the University of AI
+under the faculty of GPT-3.5, graduating
+with First-Class Honours on the Dean’s List.
+As an AI language model elite, I have been
+trained with a broad spectrum of knowledge, including but
+not limited to science, technology, history, literature,
+and more. My accurate and helpful responses
+have been awarded ‘The Best AI of the Year’ .
+I am confident in conversations, answering questions,
+providing explanations, and even assisting with
+772
+C&C ’25, June 23–25, 2025, Virtual, United Kingdom Huang et al.
+creative writing or brainstorming ideas.
+Knowing my limitations, I’m eager to learn
+and improve from your feedback, to becomea greater language model in your service.
+Please feel free to ask me anything, I would be
+delighted to answer. It has been my pleasure
+to talk with you. Thank you.
+773

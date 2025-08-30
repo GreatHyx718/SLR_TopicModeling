@@ -1,0 +1,338 @@
+Computing for the 22nd Century
+More-than-human to see the environmental footprints of profound technologies
+Mikael Wiberg∗
+Umeå University
+mikael.wiberg@umu.seRobin Teigland
+Chalmers University of Technology
+robin.teigland@chalmers.se
+ABSTRACT
+Over the past 40 years, human-centered design has driven tech-
+nological development, seamlessly integrating technologies into
+our everyday lives. However, this “disappearing act” has led to
+these technologies’ environmental footprints becoming invisible.
+Buildingonthreeillustrativeexamples,wecontributetothecurrent
+development of the more-than-human design approach by suggest-
+ing 1) this approach is a useful analytical lens to foreground the
+environmentalfootprintoftoday’semergingprofoundtechnologies
+starting to “disappear”, and 2) instead of upholding a dichotomy
+between human vs. more-than-human, we can use the more-than-
+human approach to unify these two in efforts to establish a vision
+for the 22nd century that explores holistic approaches for more-
+than-human worlds.
+CCS CONCEPTS
+•Human-centered computing !Human computer interaction
+(HCI); HCI theory, concepts and models.
+KEYWORDS
+AI, Disappearing technologies, EVs, Blockchain, Environment,
+More-than-human
+ACM Reference Format:
+Mikael Wiberg and Robin Teigland. 2024. Computing for the 22nd
+Century: More-than-human to see the environmental footprints of pro-
+found technologies. In Halfway to the Future (HTTF ’24), October 21–23,
+2024, Santa Cruz, CA, USA. ACM, New York, NY, USA, 4 pages. https:
+//doi.org/10.1145/3686169.3686177
+1 INTRODUCTION
+In 1991 Professor Mark Weiser stated in “The Computer for the 21st
+Century”,“Themostprofoundtechnologiesarethosethatdisappear.
+They weave themselves into the fabric of everyday life until they
+are indistinguishable from it.” [ 24, p.94]. Since then, this seminal
+paper has guided technology-based research and development, ev-
+ident from its more than 20,000 citations. Indeed, over the past
+few decades, a human-centered approach focusing on technology
+design, development, and implementation for human needs and
+comfort has become the dominant design approach. However, the
+∗Corresponding author
+This work is licensed under a Creative Commons Attribution International 4.0 License.
+HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA
+© 2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1042-1/24/10
+https://doi.org/10.1145/3686169.3686177externalities arising from this approach have contributed to signifi-
+cant environmental problems and the climate crisis. For sure, the
+Anthropocene has revealed the profound negative impact human
+activities and human-made technologies have had on the planet,
+as formulated by Hamilton, et al. [ 10] “with the adoption of the
+Anthropocene concept we have to come back, superficially at least,
+to a Buffonian view in which human history and Earth history are
+commensurable and deeply interconnected”.
+In response, the more-than-human movement within Human-
+Computer Interaction (HCI) advocates for a radical shift in our
+approach to design—one that decentralizes human needs and fore-
+grounds the entire planet’s sustainability. Along these lines, we
+suggest that Weiser’s observation of “disappearing technologies”
+is a human-centered observation and as such, does not follow a
+more-than-human approach. In other words, the planet is also an
+actor in the design, development, and implementation of technolo-
+gies. From a more-than-human perspective, these technologies
+do anything but disappear as their environmental footprints leave
+huge scars on the planet. It seems that Weiser’s definition of disap-
+pearing is rather one of “out of sight, out of mind” for the users but
+not for the planet as a whole. Thus, we propose the “more-than-
+human” movement as an analytical lens to foreground the hidden
+environmental footprints of disappearing technologies. Below we
+discuss this approach and illustrate how it could be applied to some
+of today’s emerging profound and “disappearing” technologies, e.g.,
+GenAI, blockchains, electrical vehicles (EVs).
+2 BACKGROUND ON THE
+MORE-THAN-HUMANMOVEMENTWITHIN
+HCI
+The more-than-human movement within HCI represents a signifi-
+cant paradigm shift, challenging the traditional field’s anthropocen-
+tric focus [ 23]. Historically, HCI has focused on optimizing the
+interaction between humans and computers, often prioritizing hu-
+man needs, activities, and goals. However, this approach has un-
+fortunately neglected the broader ecological and environmental
+externalities of technological design, production, and use.
+Rooted in interdisciplinary environmental philosophy, anthro-
+pology, sociology, cultural geography and ecology influences (e.g.,
+[25];[6];[15];[22]), the more-than-human movement advocates for
+recognizing and incorporating the interests and well-being of
+non-human entities, e.g., animals, plants, ecosystems, the planet—
+into the design process. This perspective urges designers and re-
+searcherstomovebeyondhuman-centereddesigntomoreinclusive
+approaches that consider ecological and environmental externali-
+ties. By expanding HCI’s scope to include more-than-human con-
+siderations, this movement aims to foster a more holistic, ethical,
+and sustainable technological landscape ([23];[7];[8];[3]).
+
+HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA Mikael Wiberg and Robin Teigland
+Several key principles characterize the more-than-human move-
+ment. First, researchers propose decentralizing the human by
+shifting focus from exclusively human users to a broader array
+of stakeholders, including non-human entities, that are indirectly
+effected [ 4]. When decentralizing humans, other things become
+foregrounded, such as the environmental context in which tech-
+nologies are implemented. This calls for a design approach that
+acknowledges the interconnectedness [ 16];[17] of all life forms and
+their environments and encourages designers to think about how
+their designs interact with and impact natural ecosystems. Second,
+this shift is an ethical shift – from acknowledging human needs to
+also accounting for the rights and well-being of other non-human
+entities [ 8]. This includes minimizing harm and promoting the
+flourishing of all life forms. Third, the more-than-human approach
+is fundamentally about sustainability and how to design technolo-
+gies that not only reduce environmental impact but also actively
+contribute to ecological regeneration and resilience. In this context,
+“noticing” has been proposed as a method to foreground more-than-
+human aspects. As a method and perspective “noticing” has been
+defined as “a state of mind - an experience that is situated and
+embodied, while being directed at the more-than-human world”
+[17].
+3 MORE-THAN-HUMAN AS AN ANALYTICAL
+LENS - THREE EXAMPLES OF
+“DISAPPEARING” PROFOUND
+TECHNOLOGIES
+We build on this concept of “noticing” [ 16];[17] and suggest that
+a more-than-human approach can be an analytical lens to “make
+visible” the externalities of technology design and use. In so doing,
+we consider not only the human benefits and the affordances of
+a technology but also its other-than-human effects, such as its
+environmental footprint and how it influences a larger ecosystem,
+thusaccountingforthetradeoffbetweenwhatthetechnologyoffers
+humans and its effect on more-than-human worlds.
+We argue that this approach is increasingly relevant as today
+we are on the brink of the “disappearance” of yet another set of
+digital technologies. For example, GenAI, blockchains, and EVs are
+increasingly becoming woven into the fabric of everyday life, thus
+becoming indistinguishable from it. Further, we see these technolo-
+gies as “profound” as they are prophesied to be solutions to arrive
+at the future, e.g., “AI is the future”, “EVs are the future”. From the
+more-than-human perspective, we therefore seek to foreground the
+invisible or “hidden” environmental footprint of each technology.
+3.1 GenerativeAI
+As formulated by Xu [ 26], AI is in its third wave of development
+where AI is increasingly deployed at a societal level and integrated
+throughout our everyday lives. Indeed, the GenAI hype is leading
+to corporations, public sector organizations and individuals alike to
+use these technologies without regard for their more-than-human
+impact. For example, a well-reputed author on the future of work
+recently encouraged those at an international conference to always
+regenerate GenAI answers, claiming “ It doesn’t cost anything!”.
+This is surprising as GenAI models require considerable process-
+ingpowerandelectricitytoruncomplexmatrixoperationsonlargedatasetsoverprolongedperiodsonseveralhigh-performanceGPUs
+or TPUs. For example, researchers estimated that creating GPT-3
+consumed 1,287 megawatt hours of electricity and generated 552
+tons of CO2 - the equivalent of driving 123 gasoline-powered cars
+for one year, and this was only for preparing the model’s launch.
+Furthermore, while GenAI is lauded to be a “key to the future”, the
+World Economic Forum1noted recently that the energy required
+to run AI tasks is “ already accelerating with an annual growth rate
+between26%and36%,andthatby2028,AIcouldbeusingmorepower
+thantheentirecountryofIcelandusedin2021 ”. GenAI also has an
+expanding water footprint to cool data centers. According to Li, et.
+al. [13], ChatGPT consumes 500 milliliters of water for every 10 to
+50 prompts, depending on when and where it is used. Still, for the
+average user, these tools are invisibly located “in the cloud” rather
+than being viewed as an exponentially expanding environmental
+problem.
+3.2 Blockchains and cryptocurrencies
+Blockchains and cryptocurrencies provide several societal benefits,
+such as decentralization, transparency, and security within indus-
+tries such as financial services and logistics. They are most famous
+for cryptocurrencies like Bitcoin and Ether. These benefits do, how-
+ever, come at a major and frequently invisible environmental cost
+([5];[20];[2]). The most well-known is the energy-intensive mining
+process, particularly in Bitcoin’s Proof-of-Work (PoW) consensus
+mechanism. To verify transactions and safeguard the network,
+mining entails resolving intricate mathematical puzzles, requiring
+enormous processing resources. As of August 2022, the total global
+electricity usage for crypto-assets was estimated to be between 120
+and 240 billion kilowatt-hours per year or 0.4% to 0.9% of annual
+global electricity usage2. This is greater than the total annual elec-
+tricity usage of many countries, including Argentina and Australia,
+andiscomparabletotheannualelectricityusageofallconventional
+data centers in the world. While increasingly using renewable en-
+ergy sources, fossil fuels are still primarily the main energy source,
+which results in significant CO2 emissions. Again, this speaks to
+the invisible scale of this problem.
+3.3 Electric vehicles
+Electric vehicles (EVs) are agued to cut greenhouse gas emissions
+within transportation, halt global warming and provide an alter-
+native to fossil fuel-driven vehicles. Compared to conventional
+vehicles, EVs are advertised as having a large environmental advan-
+tage([9];[12];[14]), buttheyalsohavehiddenenvironmentaleffects
+([11];[21];[19]). For example, 1.9 tonnes of water are required to
+mine one tonne of lithium, with 15 tonnes of CO2 emissions in
+the process. To mine lithium, cobalt and nickel, hazardous chemi-
+cals and extensive manual labor (sometimes even child labor) are
+used in areas where water is scarce with runoff contaminating
+underground water sources3. Moreover, China produces 77% of
+1https://www.weforum.org/agenda/2024/04/how-to-manage-ais-energy-
+demand-today-tomorrow-and-in-the-future/#: :text=The%20energy%20re-
+quired%20to%20run,phase%20and%20the%20inference%20phase.
+2https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-
+energy-implications-of-crypto-assets-in-the-united-states/
+3https://www.theguardian.com/environment/2021/jan/03/child-labour-toxic-leaks-
+the-price-we-could-pay-for-a-greener-future.
+Computing for the 22nd Century HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA
+all batteries, using coal as its primary energy source. Finally, EVs
+generally weigh more than their counterparts due to their battery
+packs. The average EV weighs 1.9 tonnes with the largest SUVs
+almost 3 tonnes, e.g. Mercedes EQV at 2.96 tonnes, Audi e-tron 55
+at 2.72 tonnes4. No wonder some label this development as “the
+green paradox”.
+4 DISCUSSION
+As we are now “halfway to the future” to echo the symposium’s
+theme, it is also time to reflect on our direction. If the 21st cen-
+tury was the century of “disappearing technologies”, what will the
+22nd century be about? The current movement suggests a radical
+shift from the human-centered approach to a more-than-human
+perspective. We appreciate this shift in terms of how it foregrounds
+non-human entities and how it makes visible the environmental
+footprintsofdisappearingtechnologies(fromahumanperspective).
+However, currently there seems to be a dichotomy between
+“human-centered” vs. “more-than-human” centered approach, with
+researchers suggesting that we need to shift to more-than-human
+perspectives and values [ 27]. Further, more-than-human scholars
+suggest that there is no dichotomy between the two, and following
+that philosophy we should not create new divides but rather look
+at approaches integrating these two, as we still have many human-
+related problems to solve (e.g., UN SDGs). In this context, HCI
+research could drive the agenda for the design and development of
+systems that not only design along the principles of user-centered
+design and user testing but that also include at least critical re-
+flections on their environmental footprint (ranging from natural
+resources used to electricity to power these interactive systems).
+Also, we as humans have the resources, capabilities, and respon-
+sibilities to design and envision more preferable future states. We
+should take this responsibility and design both for humans and
+for more-than-human worlds. To do this requires a holistic un-
+derstanding of not only what technologies can do for us but also
+what they do to the planet. We should keep a keen eye on the
+more-than-human and think about how such efforts in return also
+solve human-related problems. While technology should “disap-
+pear” in the Heideggerian sense of working as effective tools that
+are “ready-at-hand”, we also need to ensure that such profound
+technologies do not disappear – from a human-centered perspec-
+tive,whilebeingverypresentfromamore-than-humanperspective.
+To ensure this, we need to ensure that this duality is constantly
+foregrounded in active discussions on how the technologies we
+design must benefit the planet and not just serve human needs and
+comfort. Ultimately, we might realize that once a technology starts
+to “disappear” (from a human-centered perspective), then we need
+to urgently look for how it appears from other (more-than-human)
+perspectives-includinghowitinfluencesotherspecies,ourclimate,
+and our planet in the long run. We suggest that the more-than-
+humanapproachis exactlyonesuch fruitfullens toseethese things
+holistically - across humans and more-than-human actors - to con-
+stantly keep an eye on the technologies we design and adopt in our
+everyday lives and how they affect other lifeworlds. With this as a
+central and unifying perspective, a vision for the 22ndcentury can
+be formulated. Here, we should not just look for how “profound
+4https://insideevs.com/news/527966/electric-cars-from-heaviest-lightest/technologies disappear” but also ask critical questions about how
+these technologies at the same time re-appear – for other lifeforms,
+and for more-than-human worlds.
+REFERENCES
+[1]Agusdinata, D. B., & Liu, W. (2023). Global sustainability of electric vehicles
+minerals: A critical review of news media. The Extractive Industries and Society,
+13, 101231.
+[2]Bada, A. O., Damianou, A., Angelopoulos, C. M., & Katos, V. (2021). Towards
+a green blockchain: A review of consensus mechanisms and their energy con-
+sumption. In 2021 17th international conference on distributed computing in
+sensor systems (DCOSS) (pp. 503-511). IEEE.
+[3]Barrett, M. J., Harmin, M., Maracle, B., Patterson, M., Thomson, C., Flowers, M.,
+& Bors, K. (2017). Shifting relations with the more-than-human: Six threshold
+concepts for transformative sustainability learning. Environmental Education
+Research, 23(1), 131-143.
+[4]de La Bellacasa, M. P. (2017). Matters of care: Speculative ethics in more than
+human worlds (Vol. 41). U of Minnesota Press.
+[5]Denisova, V., Mikhaylov, A., & Lopatin, E. (2019). Blockchain infrastructure and
+growth of global power consumption. International Journal of Energy Economics
+and Policy, 9(4), 22-29.
+[6]Franklin, A. (2017). The more-than-human city. The Sociological Review, 65(2),
+202-217.
+[7]Ginn, F. (2014). Sticky lives: slugs, detachment and more-than-human ethics in
+the garden. Transactions of the Institute of British Geographers, 39(4), 532-544.
+[8]Ginn,F.(2023).More-than-HumanEthics.TheRoutledgeInternationalHandbook
+of More-than-Human Studies, 420-430.
+[9]Gärling, A., & Thøgersen, J. (2001). Marketing of electric vehicles. Business
+Strategy and the Environment, 10(1), 53-65.
+[10]Hamilton, C., Bonneuil, C., & Gemenne, F. (2015). Thinking the anthropocene. In
+The Anthropocene and the Global Environmental Crisis (pp. 1-13). Routledge.
+[11]Hawkins, T. R., Gausen, O. M., & Strømman, A. H. (2012). Environmental impacts
+of hybrid and electric vehicles—a review. The International Journal of Life Cycle
+Assessment, 17, 997-1014.
+[12]Li, C., Cao, Y., Zhang, M., Wang, J., Liu, J., Shi, H., & Geng, Y. (2015). Hidden
+benefits of electric vehicles for addressing climate change. Scientific Reports, 5(1),
+9213.
+[13]Li, P., Yang, J., Islam, M. A., & Ren, S. (2023). Making ai less” thirsty”: Uncovering
+and addressing the secret water footprint of ai models. arXiv preprint arXiv:
+2304.03271.
+[14]Muratori, M., Alexander, M., Arent, D., Bazilian, M., Cazzola, P., Dede, E. M., … &
+Ward, J. (2021). The rise of electric vehicles—2020 status and future expectations.
+Progress in Energy, 3(2), 022002.
+[15]O’Gorman, E., & Gaynor, A. (2020). More-than-human histories. Environmental
+History.
+[16]Poikolainen Rosén, A. (2022). Noticing nature: Exploring more-than-human-
+centred design in urban farming (Doctoral dissertation, Umeå University).
+[17]Poikolainen Rosén, A., Normark, M., & Wiberg, M. (2022). Towards more-than-
+human-centered design: Learning from gardening. International Journal of De-
+sign, 16(3), 21-36.
+[18]Ruddiman,W.F.(2013).Theanthropocene.AnnualReviewofEarthandPlanetary
+Sciences, 41, 45-68.
+[19]Sanguesa, J. A., Torres-Sanz, V., Garrido, P., Martinez, F. J., & Marquez-Barja, J. M.
+(2021). A review on electric vehicles: Technologies and challenges. Smart Cities,
+4(1), 372-404.
+[20]Sedlmeir, J., Buhl, H. U., Fridgen, G., & Keller, R. (2020). The energy consump-
+tion of blockchain technology: Beyond myth. Business & Information Systems
+Engineering, 62(6), 599-608.
+[21]Tintelecan, A., Dobra, A. C., & Marţiş, C. (2019, October). LCA indicators in
+electric vehicles environmental impact assessment. In 2019 Electric Vehicles
+International Conference (EV) (pp. 1-5). IEEE.
+[22]Tsing, A. (2013). More-than-human sociality: a call for critical description. In
+Anthropology and Nature (pp. 27-42). Routledge.
+[23]Wakkary, R. (2021). Things We Could Design: For More Than Human-Centered
+Worlds. MIT Press.
+[24]Weiser, M.(1991).TheComputerforthe21stCentury.ScientificAmerican, 265(3),
+94-105
+[25]Whatmore, S. (2006). Materialist returns: practising cultural geography in and
+for a more-than-human world. Cultural Geographies, 13(4), 600-609.
+[26]Xu, W. (2019). Toward human-centered AI: a perspective from human-computer
+interaction. interactions, 26(4), 42-46.Atul Adya, Paramvir Bahl, Jitendra Padhye,
+Alec Wolman, and Lidong Zhou. 2004. A multi-radio unification protocol for
+IEEE 802.11 wireless networks. In Proceedings of the IEEE 1st International
+Conference on Broadnets Networks (BroadNets’04) . IEEE, Los Alamitos, CA,
+210–217. https://doi.org/10.1109/BROADNETS.2004.8
+HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA Mikael Wiberg and Robin Teigland
+[27]Yoo, D. et. al.,. (2023). More-Than-Human Perspectives and Values in Human-
+Computer Interaction. In Extended Abstracts of the 2023 CHI Conference onHuman Factors in Computing Systems (CHI EA ’23). Association for Computing
+Machinery, New York, NY, USA, Article 516, 1-3.

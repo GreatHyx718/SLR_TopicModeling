@@ -1,0 +1,2308 @@
+Navigating the Posthuman Turn in Computing and Design: A
+Posthuman Vocabulary
+Çağdaş Dedeoğlu
+Yorkville University
+Toronto, Canada
+The Posthuman Lab
+Toronto, Canada
+cdedeoglu@yorkvilleu.caPriyank Chandra
+University of Toronto
+Toronto, Canada
+priyank.chandra@utoronto.ca
+Abstract
+As multifaceted concerns related to humans, nonhumans, ecologies,
+and technologies gain prominence within the design community,
+posthumanism is emerging as a key intellectual pathway for crit-
+ical design theory and research. This study surveys 151 design
+papers published in ACM venues up to September 2024 to explore
+the operationalization of posthumanism in computing and design
+scholarship. Our findings indicate that papers incorporating posthu-
+manism are shaping an emerging field of posthuman design. We
+argue that the posthuman turn in computing and design can be
+characterized into three phases: early encounters with the posthu-
+man, the integration of posthuman concepts, and transformation
+into a material-discursive practice. To support and advance the
+objectives of this third phase, we propose a posthuman vocabu-
+lary — a conceptual framework composed of five guiding princi-
+ples — post-humanism, post-anthropocentrism, post-dualism, post-
+Enlightenment, and post-technologism. These principles address
+issues of justice, sustainability, relationality, agency, subjectivity,
+and critique of technological intensification, offering a guide for
+future material-discursive design practices.
+CCS Concepts
+•Human-centered computing →HCI theory, concepts and
+models .
+Keywords
+design, posthuman, posthumanities, posthuman design, semi-
+systematic review, computing, sustainability, justice, design princi-
+ples
+ACM Reference Format:
+Çağdaş Dedeoğlu and Priyank Chandra. 2025. Navigating the Posthuman
+Turn in Computing and Design: A Posthuman Vocabulary. In ACM SIG-
+CAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS
+’25), July 22–25, 2025, Toronto, ON, Canada. ACM, New York, NY, USA,
+26 pages. https://doi.org/10.1145/3715335.3735487
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+COMPASS ’25, Toronto, ON, Canada
+©2025 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-1484-9/25/07
+https://doi.org/10.1145/3715335.37354871 Introduction
+In recent years, the term posthuman has gained significant traction
+within the critical computing and design research community. This
+growing interest aligns with efforts to respond to the challenges and
+complexities of the third wave of HCI [ 28,78] and to seek alterna-
+tives that can be linked to pathways towards a possible fourth wave
+[1,7,13,102]. Scholars and practitioners are increasingly exploring
+the potential of posthumanism to address ecological and techno-
+logical challenges through developing innovative frameworks that
+transcend traditional humanist paradigms. This presents an op-
+portune moment to map the various approaches being adopted
+and to examine their underlying intellectual foundations, thereby
+fostering community dialogue on the future directions of the field.
+Bodker [ 28] characterizes the third wave of HCI as “a chaos of
+multiplicity in terms of technologies, use situations, methods, and
+concepts.” Our study focuses specifically on the posthuman as a
+conceptual lens through which to engage with this complexity. The
+selection of “posthuman” as a keyword for this study is intentional:
+it emphasizes the term’s conceptual dynamism and its potential to
+address pressing challenges in computing and design. While related
+concepts like “more-than-human” [ 68], “post-anthropocentrism”
+[57], and “nonanthropocentrism and the nonhuman” [ 61] provide
+valuable perspectives, we focus on the posthuman due to its dis-
+tinct onto-epistemo-ethical stance that is not always shared across
+adjacent terms. Unlike approaches that broaden the user or context
+in design, the posthuman helps researchers engage deeply with
+questions of ontology, epistemology, and ethics offering a unique
+lens to explore design transformations.
+Drawing on Barad’s [ 12] insights, we approach the concept of
+posthuman as not a static label but a material-discursive enactment,
+inherently tied to the specific arrangements and practices of ob-
+servation. This aligns with the agential realist perspective, where
+concepts are dynamic, political, and instantiated in action rather
+than free-floating abstractions. Our aim is not to fixate on posthu-
+manism as a fixed or coherent theory, but to explore its modes of
+enactment, reflecting its capacity to reframe design as a politically
+engaged and ethically attuned practice.
+In this paper, we present a semi-systematic literature review
+[188] of posthuman concepts in relation to computing and design,
+grounded in posthuman onto-epistemo-ethical perspectives. We
+trace how the concept of posthuman is being operationalized in the
+context of design as conceptualized by the ACM community. Rather
+than claiming to offer a comprehensive theory of posthuman design,
+we build on Barad’s notion of theorizing — understood not as the
+production of stable theories but as an ongoing discursive-material
+504
+
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+practice [ 12]. From this perspective, we understand every paper in
+our corpus not as an object of theory but rather an enactment of
+posthuman design. Our review seeks to map the contours of these
+enactments — by examining how posthuman design papers reflect
+their authors’ posthuman onto-epistemo-ethical positions, we seek
+to showcase how these contributions are collectively reshaping the
+field of computing and design.
+We approach this investigation by analyzing a corpus of 151 peer-
+reviewed computing and design papers published in ACM venues
+up to the end of September 2024. In our review, we categorize these
+works based on their engagement with posthuman scholarship. Our
+findings highlight the emergence of a posthuman turn in computing
+and design, marked by a self-sustaining discursive-material practice
+that engages both historical and contemporary challenges.
+We identify three distinct but overlapping phases of the posthu-
+man turn in design research: (1) early encounters with posthuman
+concepts, (2) partial integration of these concepts into design re-
+search agendas, and (3) the emergence of comprehensive material-
+discursive practices that address both ecological and technological
+concerns. Through all these phases, engagement with various schol-
+ars and ideas enriches material-discursive design practices, tackling
+challenges related to sustainability, equity, and multispecies care.
+We also analyze emerging trends of posthuman design in the cor-
+pus, focusing on primary research areas and onto-epistemo-ethical
+stances. We capture the diversity of approaches through introduc-
+ing two key terms: technological posthuman design andecological
+posthuman design . We relate the analysis to five different charac-
+teristics of posthumanism that we derive from its genealogy: post-
+humanism ,post-anthropocentrism ,post-dualism ,post-Enlightenment ,
+andpost-technologism .
+Building on this analysis, we offer two major contributions. First,
+we provide an account of how posthumanism is being enacted
+across computing and design research, highlighting both trajecto-
+ries and gaps. Second, we propose a conceptual vocabulary, a set of
+five design principles, to guide future material-discursive design
+practices that aim to be more just, inclusive, and sustainable.
+As the field of computing tackles complex issues of sustain-
+ability in the face of ecological crises, from climate change to the
+Sixth Mass Extinction, traditional paradigms in design are prov-
+ing inadequate to address the complex entanglements of human
+and nonhuman actors. At the same time, powerful actors — often
+with TESCREAL (Transhumanism, Extropianism, Singularitarian-
+ism, (modern) Cosmism, Rationalist ideology, Effective Altruism,
+and Longtermism) agendas[ 81] — have unprecedented influence
+over economies and governance. This growing concentration of
+power raises ethical and ontological questions about who or what
+gets to shape the future and for whom. Posthumanism offers a
+timely and generative framework that aligns with key sustainabil-
+ity efforts in computing that are already looking at new approaches
+to tackle these wicked problems. By mapping current posthuman
+approaches in computing and design and offering a conceptual
+vocabulary for future inquiry, this paper contributes to reimagining
+sustainability in computational and design practices.2 Background
+2.1 A Brief Genealogy of Posthumanism
+Posthumanism can be understood through its distinctive concerns
+with the construction of the human, as well as human-human and
+human-nonhuman relationships, in dialogue with diverse intellec-
+tual traditions such as new materialism, antihumanism, metahu-
+manism, and transhumanism [ 70]. In its cultural, critical, philosoph-
+ical, and political forms, posthuman scholarship draws deeply from
+a range of continental philosophers who challenge the foundations
+of humanism and anthropocentrism. For instance, Friedrich Niet-
+zsche is foundational for his radical critique of humanist values and
+emphasis on becoming [ 125], while Martin Heidegger’s critique
+of metaphysics and technology is central to attempts to rethink
+being beyond human-centred paradigms [168]. Similarly, Maurice
+Merleau-Ponty’s ontology of intercorporeality provides an ethical
+framework for understanding human agency as an open, relational
+system [ 59]. Gilles Deleuze and Félix Guattari further offer concepts
+such as assemblage, becoming, and deterritorialization, which serve
+as key tools in developing alternatives to philosophies of imma-
+nence or non-linear, rhizomatic models of subjectivity and agency
+[50]. Michel Foucault’s work on power, discourse, and biopolitics
+enables scholars to interrogate the historical construction of the
+human and to theorize alternative modes of governance across
+species and systems [ 214]. These thinkers, together with Indige-
+nous philosophies and traditional ecological knowledge systems
+[21,27,186,201,212], provide a philosophical foundation for chal-
+lenging humanist, anthropocentric, and dualist assumptions, and
+for imagining a world beyond the boundaries of the human and
+humanity.
+Within this broader framework, different strands of posthuman-
+ism focus on distinct yet overlapping themes. Cultural posthuman-
+ism focuses on how technological and cultural shifts challenge
+traditional humanist frameworks [ 97,148]. Critical posthumanism
+engages with the ethical implications of the posthuman condition,
+interrogating the centrality of the human in systems of power and
+knowledge [ 31,92]. Philosophical posthumanism critiques anthro-
+pocentrism at the ontological level, advocating for a reconceptu-
+alization of existence in terms of the interrelations between hu-
+man and nonhuman entities [ 71]. Political posthumanism addresses
+issues of citizenship, security, political agency, responsibility, ac-
+countability, and activism, offering politically nuanced perspectives
+on contemporary global challenges [ 48,52,87,127]. These distinct
+intellectual and sociopolitical concerns are shaping the develop-
+ment of the “Posthumanities” as a pluriverse. According to Rosi
+Braidotti [ 32], this pluriverse represents a “convergence of posthu-
+manism and post-anthropocentrism.” Francesca Ferrando [ 71] fur-
+ther conceptualizes it through a tripartite model: post-humanist,
+post-anthropocentric, and post-dualist. Following Dedeoglu and
+Zampaki [ 53], we understand posthumanism as also encompassing
+post-Enlightenment and post-technologist characteristics.
+2.1.1 Post-humanism: Post-humanism (with a hyphen) differs
+from posthumanism [ 71]. While the former addresses injustices
+associated with humanist praxis, the latter represents a more com-
+prehensive approach that also encompasses the former.
+505
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+Post-humanism critiques human domination over other humans
+and examines the intersections of race, gender, and class through a
+posthuman lens. Rosi Braidotti, for instance, scrutinizes how Eu-
+rocentric humanism has historically marginalized non-Western,
+non-male, and non-heteronormative individuals, calling for a “no-
+madic subjectivity” that resists static categories [ 31]. In parallel,
+Achille Mbembe, in Necropolitics [140], shows how colonial and ne-
+oliberal powers continue to govern who is deemed fully human. A
+post-humanist sensibility is also critical for recognizing the ideolog-
+ical, value-based, and belief-based biases that shape technology and
+policy design[ 54]. This framework emphasizes that posthumanism
+is not merely a critique of the idea of the human, but a deconstruc-
+tion of specific humanist traditions that sustain power and value
+hierarchies. This corresponds to the post-humanist characteristic
+of posthumanism, distinct from post-anthropocentrism as both an
+intellectual and political project [71].
+2.1.2 Post-anthropocentrism: Post-anthropocentrism critiques the
+human domination of nonhumans, proposing new frameworks
+of coexistence. Donna Haraway’s concept of “companion species”
+inWhen Species Meet [91] offers an example of how posthuman-
+ism reconfigures human-animal relations by envisioning humans
+as entangled with nonhuman others in co-evolutionary histories.
+Bruno Latour’s actor-network theory (ANT) [ 128] similarly posi-
+tions nonhuman entities as active participants in shaping human
+societies. Barad [ 11] also challenges traditional human-centred
+onto-epistemo-ethical stances by proposing that agency is not an
+exclusive property of humans but is instead distributed across hu-
+man and non-human entities through intra-actions. Meanwhile,
+Graham Harman’s Object-Oriented Ontology [ 93] further pushes
+the boundaries of post-anthropocentrism by assigning agency to all
+objects, challenging human exceptionalism and imagining a flatter
+ontological landscape where humans no longer occupy the centre
+of existence.
+2.1.3 Post-dualism: The post-dualist dimension of posthuman-
+ism deconstructs rigid binaries, such as nature/culture and hu-
+man/nonhuman. For instance, Katherine Hayles, in How We Became
+Posthuman [97], provides an early critique of mind-body dualism,
+illustrating how cybernetic systems and humans are mutually con-
+stitutive, thereby dissolving the distinction between the biological
+and the technological. Barad further introduces a comprehensive
+post-dualist framework through the concepts of intra-action, the
+entanglement of matter and meaning, relational ontology — includ-
+ing onto-epistemo-ethics — and a critique of representationalism
+in scientific inquiry and knowledge production [10–12].
+2.1.4 Post-Enlightenment: The critique of Enlightenment ideals of
+rationality and autonomy is central to posthumanism’s engagement
+with subjectivity. Post-Enlightenment thinkers like Braidotti call
+for moving beyond the bounded, autonomous individual towards a
+subjectivity that is dynamic, embodied, and relational. Katherine
+Hayles extends this critique by examining the posthuman condition,
+where human cognition is deeply intertwined with digital technolo-
+gies, arguing that the idea of a disembodied rational agent is an
+illusion. Michel Foucault’s work on biopower also helps scholars
+to deconstruct the notion of autonomous individuality by showing
+how power operates on and through bodies, linking the critiqueof the Enlightenment to questions of governance and control in
+posthuman contexts [214].
+2.1.5 Post-technologism: Posthumanism can be understood as a
+critique of technologism — or post-technologism — which posits
+that technological advancements alone are insufficient to resolve
+complex ecological and social issues. On the contrary, technological
+policy processes — such as the creation and governance of smart
+cities, often dominated by public-private partnerships — tend to
+exacerbate the problems faced by already vulnerable communities.
+In this context, Hayles’ emphasis on the co-evolution of humans
+and technology becomes crucial for re-examining these assem-
+blages through a new lens. Similarly, Haraway’s cyborg metaphor
+[92] challenges simplistic technological optimism, offering instead
+a vision of hybridity that resists the binary opposition between
+human and machine and highlights the entanglements of human,
+dehumanised and nonhuman.
+It is important to note that these five characteristics, which
+address technological and ecological concerns, are not mutually ex-
+clusive. Researchers exploring technological or ecological problems
+may find connections to all these characteristics in the writings of
+Donna Haraway, Rosi Braidotti, Bruno Latour, and others. However,
+our aim here is not to present an exhaustive list either. We align
+with Karen Barad’s notion of posthumanism: “My point is not to
+get beyond the human, but to ask the prior question of what differ-
+entially constitutes the human — and for whom” [ 12]. We believe
+these five characteristics provide a framework for questioning the
+construction of the human and the world, whether scientifically or
+otherwise.
+2.2 Posthuman Theorizing of Design in
+Computing
+Responding to an interview question on theory, Barad asserts that
+“[f]or all theorizing, all materializing, and all mattering is political”
+[12]. Drawing from this notion, we approach design not as a static
+body of knowledge but as a dynamic material-discursive practice
+that evolves through ongoing political intra-actions among humans,
+nonhumans, and their environments. This stance invites designers
+to critically reflect on the ethical implications of their work, posi-
+tioning design as a deeply political act embedded in socio-ecological
+systems.
+The political-ethical dimension of design extends beyond merely
+solving problems; it acknowledges the augmented responsibility of
+the computing and design community to consider how their deci-
+sions co-shape the material-discursive landscape. Inspired by calls
+for designing with nature [ 205] and response-able design [ 166], as
+well as the premise of incorporating augmented political respon-
+sibility in assemblaged systems [52], we propose that designing is
+akin to a citizenship deed, positioning designers as co-authors of
+both technological and ecological futures.
+Posthuman theorizing in design has already gained momentum
+through diverse methodologies and epistemologies that address dif-
+ferent characteristics of posthumanism mentioned in the previous
+section. For instance, Verbeek [ 203] redefines the designer’s role
+through mediation theory, emphasizing technology’s influence on
+human practices and advancing responsible design as a deliberate,
+ethical act. Forlano [ 75] expands on this by tracing posthumanist
+506
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+perspectives across fields like actor-network theory and feminist
+new materialism, focusing on socio-technical systems and advo-
+cating for justice and equality in design. Liu et al. [ 130] introduce
+“symbiotic encounters” in sustainable agriculture, demonstrating
+how humans and nonhumans co-create evolving assemblages and
+relational practices. Frauenberger [ 78] proposes “Entanglement
+HCI,” grounded in relational ontologies, to address ontological un-
+certainties and ethical responsibilities in human-technology re-
+lationships. Wakkary [ 205] advocates for “nomadic practices,” a
+framework that embraces situated knowing, multiplicity, and the
+dismantling of universalist design paradigms. More recently, Biggs
+et al. [ 26] have introduced methods like “noticing” to decenter
+the human, using autoethnographic practices to foster ecologi-
+cal thinking and relational attunement. Similarly, Nicenboim et al.
+[151] explore “decentering through design,” emphasizing material
+practices where more-than-human designers generate and enact
+posthuman knowledge. Together, these works shape a posthuman
+ethos that reimagines design as an ethical, relational, and political
+material-discursive practice.
+In the following sections, we seek to contribute to such ethos
+by providing a detailed mapping of the posthuman in the design
+corners of computing.
+3 Methods
+To understand how posthuman concepts are used in design papers,
+we searched for papers in the ACM Digital Library. The corpus
+included papers from diverse conferences, including CHI, DIS, CC,
+NordiCHI, OzCHI, SIGGRAPH, TEI, and others. Table 1 provides a
+summary of the counts by venue. It is important to note that our
+claims are limited to the ACM Library corpus and do not extend to
+the entire field of design.
+3.1 Phase 1: Identifying a Broad Corpus
+The search was confined to the ACM Digital Library, filtering for
+only full research papers utilizing the keywords “posthuman*” or
+“post-human*,” capturing variants such as “posthumanist,” “posthu-
+manism,” “post-humanist,” “post-humanism,” alongside the key-
+word “design.” The search period included papers published up to
+September 2024. The search query used was:
+’query’: AllField:(posthuman* OR post-human*) AND
+AllField:(Design)
+’filter’: Article Type: Research Article, E-Publication
+Date: (* TO 09/30/2024), ACM Content: DL
+This search yielded an initial corpus of 216 papers that included
+both “posthuman” (and variants) and “design” anywhere in the text.
+3.2 Phase 2: Filtering
+In the filtering phase, papers were subjected to stricter inclusion
+criteria to ensure relevance to the review. While 216 papers within
+the initial corpus utilised both “posthuman*” / “post-human*” and
+“design” within their text, not all aimed to operationalise posthu-
+man concepts. Papers were excluded if they mentioned the term
+“posthuman” / “post-human*” only in the bibliography, appendix, or
+footnotes, or referred to it only in passing within one of the paper
+sections. Similarly, we filtered out any papers that did not explicitly
+engage with “design,” i.e., did not have substantive content in thepaper that reflected on, applied, or critically interrogated design
+processes, but instead only referenced the word “design” in passing.
+We also removed papers that, while they used the term “posthuman”
+/ “post-human*,” were transhumanist in their focus.
+Following this stage of filtering, the corpus was reduced to 151
+papers that met the criteria for inclusion. For each included paper,
+metadata such as publication year, author names, author affiliations,
+institutional regions, and additional keywords were documented.
+The papers were further clustered based on their associated publica-
+tion venue. Further, the research team included a brief description
+of how the paper defined and used posthuman concepts.
+3.3 Phase 3: Reading Papers, Tracking Terms,
+and Tracking Scholars
+After the corpus was finalized, the research team applied reflexive
+thematic analysis [ 33] to collaboratively analyze the corpus. This
+approach involved an iterative process of familiarization with the
+text in the papers, coding, theme generation, and refining of themes.
+While primarily emic, where we focused on how posthuman con-
+cepts were operationalized within the ACM design research com-
+munity, this was complemented by etic moments, particularly in
+interpreting these enactments through broader posthuman genealo-
+gies and ontological commitments, as detailed in the Background
+section.
+Our analysis was not aimed at producing a prescriptive theory
+of posthuman design; rather, aligning with Barad’s conception of
+“theorizing” [ 10], each paper in the corpus was treated as an enact-
+ment of posthuman thinking in situated research contexts. In other
+words, our purpose is not to theorize posthuman design, but to read
+our corpus as an instance of design theorizing that engages with
+and contributes to the concept of the “posthuman.” Accordingly,
+we analysed each paper’s use of posthuman concepts alongside its
+scholarly influences. The authors then created working definitions
+of posthumanism based on the five characteristics discussed in
+the Background section, i.e., post-humanist, post-anthropocentric,
+post-dualist, post-Enlightenment, and post-technologist, emphasis-
+ing the diverse influences within the field. After establishing these
+definitions, we then compared them with how these characteristics
+aligned with existing definitions or were being interpreted or re-
+configured by authors within the corpus. These definitions were
+used not as rigid taxonomies, but as sensitising concepts to help
+characterise the conceptual tendencies across the field.
+After generating initial codes, the team engaged in collaborative
+discussions to refine and merge them into coherent themes. Using
+these themes, we categorized how a paper engaged with posthu-
+man concepts. We came up with three subsets of papers: (1) early
+encounters with the posthuman, (2) the integration of relevant con-
+cepts into design research agendas, and (3) the emergence of more
+comprehensive posthuman material-discursive practices.
+Our coding process further revealed distinct thematic orienta-
+tions across the corpus, particularly with respect to the primary
+concerns of the papers. We used this distinction — between eco-
+logical concerns, technological concerns, or both — as an analytic
+heuristic to trace recurring patterns of engagement. Importantly,
+this distinction was grounded not in surface-level topics, but rather
+507
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+Conference Count of Papers
+CHI 40
+DIS 27
+NordiCHI 7
+SIGDOC 6
+SIGMIS 6
+PDC 6
+MOCO 6
+TEI 5
+TOCHI 5
+C&C 4
+Other 39
+Grand Total 151
+Table 1: Paper Count by Conference, Until September 2024
+in the underlying objective(s) articulated by the authors. For exam-
+ple, a paper may focus on human–animal relations, yet its primary
+objective might not be ecological. Instead, it may be an attempt to
+understand what can be learned from animal (or plant) behaviour
+to design better technologies. Conversely, a paper might centre
+on a technology, such as environmental sensing, but its objective
+could be ecological, such as improving the well-being of nature.
+This analytic distinction enabled us to remain attentive to the in-
+tentionality of the paper and its entanglement with broader ethical
+and onto-epistemological commitments.
+3.4 Limitations
+This is a semi-systematic review [ 188], which differs from a system-
+atic review in its objectives and methodological flexibility. While a
+systematic review aims for exhaustive coverage, a semi-systematic
+review is more appropriate for mapping emergent or fragmented
+fields (such as posthuman design). The interpretive analysis af-
+forded by this approach allows an analysis of multiple forms of
+engagement with a concept, highlighting the evolving (often het-
+erogeneous) nature of scholarly discourse. In this paper, it supports
+the goal of tracing how posthuman concepts are being taken up, in-
+terpreted, and instantiated within the ACM computing and design
+research community. As such, the findings should be understood
+as indicative rather than comprehensive.
+Our review is thus limited by a) reliance on a single database
+— the ACM digital library, b) focus on full research papers, and
+c) filtering by keywords “post-human”/“posthuman” and “design.”
+Given the fragmented nature of this field, this review does not
+aim for exhaustive coverage. Instead, it seeks to map the corpus to
+clarify some of the ways “posthuman” concepts have been used and
+operationalized in relation to design. Additionally, while mapping
+the authors’ engagement and citations, we narrow our focus to
+thinkers and researchers who are engaged in conceptual framework
+or discussion sections of the papers in our corpus.
+We also recognize that early contributions by scholars such as
+Ron Wakkary [ 207] and Carl DiSalvo contributed to posthuman
+themes well before the terminology became prevalent. For instance,Carl DiSalvo and Jonathan Lukens published two relevant works in
+2009 and 2011 on nonanthropocentric design, aiming to decenter the
+human in design [ 60,61]. These foundational works undoubtedly
+informed later developments, even if not always captured under
+the same lexicon.
+We further acknowledge that our exclusion of short papers
+or extended abstracts omits avenues where community engage-
+ment around these ideas happens. However, by focusing on peer-
+reviewed published papers, we are able to analyse research papers
+that have engaged more rigorously with posthuman concepts. Fur-
+thermore, by not including terms such as “more-than-human,” the
+review deliberately focuses on the “posthuman” terminology, and
+we concede that this will exclude overlapping but other distinct
+discourses (e.g., Eriksson et al. [68]).
+4 Mapping the Posthuman in Computing and
+Design
+We categorize our findings into three main sections: (1) the general
+trend of the posthuman turn in design, (2) the evolving scholarly
+composition of the field over time, and (3) the technological and
+ecological concerns of posthuman design, along with the domi-
+nance of post-anthropocentric and post-dualist characteristics of
+posthumanism.
+4.1 Posthuman Turn: General Remarks
+Papers in our corpus exhibit a consistent publication trajectory
+beginning in 2011 (Figure 1), with a notable spike in 2016 coincid-
+ing with a special issue on sociomateriality in the ACM SIGMIS
+Database — and a sustained upward trend since 2019. Given the
+number of papers published up to our cutoff date (September 2024),
+this trajectory suggests continued growth through 2025. We refer
+to this shift as a posthuman turn — an onto-epistemo-ethical turn in
+computing and design research. The ontological, epistemological,
+and ethical aspects of this turn are experienced simultaneously
+[12], since our assumptions about the world and our place in it
+are inherently connected to our assumptions about knowledge
+and our experience of it. This shift also carries significant ethical
+508
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+and methodological implications, as will be seen in the following
+sections.
+Several factors contribute to the trend of the posthuman turn.
+First, as design scholars increasingly focused on ecological and
+climate crises, contributing to areas like sustainable computing and
+HCI [ 62,185], posthumanism has provided them with new concep-
+tual tools to further navigate these challenges. Second, alongside
+ecological concerns, technological advancements — such as artifi-
+cial intelligence — created new opportunities and imperatives to
+move beyond anthropocentric design paradigms. Third, the rise of
+interdisciplinary approaches aligns with the emergence of posthu-
+manities beyond ACM venues. Notable developments include the
+launch of the Posthumanities book series by Minnesota University
+Press in 2007 and the Journal of Posthuman Studies by Penn State
+University Press in 2017. Meanwhile, influential scholars such as
+Bruno Latour, Donna Haraway, and Rosi Braidotti have continued
+to publish works and shape discourse, extending their impact be-
+yond the social sciences and humanities into computing and design
+research.
+4.2 Three Phases of Posthuman Turn
+The evolving collaboration between posthumanism and design in
+computing can be understood through three phases (Figure 1).
+4.2.1 Phase I: Encounter. The first phase marks the initial emer-
+gence of “the posthuman” in computing and design, characterized
+by isolated and exploratory engagements. While precise periodiza-
+tion remains challenging, the earliest paper identified in our search
+— “Computer Aided Creativity: Practical Experience and Theoretical
+Concerns” by Robert Pepperell [ 163] — signals an early engage-
+ment with posthuman themes. Pepperell, also the author of The
+Post-Human Condition [162], is recognized as one of the early con-
+tributors to posthuman scholarship more broadly. However, his
+work appears to have been largely overlooked within the comput-
+ing and design community in subsequent years.
+During this first phase — which extended into the mid-2010s —
+scholars began to address issues tangentially related to posthuman-
+ism, often without explicit references to posthuman scholarship.
+Technological concerns dominated this phase, with researchers ex-
+perimenting with ways to move beyond user-centred paradigms.
+These papers explored how technologies could reshape notions
+of interaction [ 82], identity [ 190], subjectivity [ 94], and creativity
+[163] among others, setting the groundwork for more comprehen-
+sive posthuman theorizing in later years. However, in this phase,
+the term “posthuman” has not yet been clarified, often oscillating
+between posthumanist and transhumanist interpretations.
+Towards the end of this phase, some papers engaged more di-
+rectly with posthumanities, while others continued to explore
+posthuman concepts without explicitly referencing it. For example,
+“Smelling, Pulling, and Looking: Unpacking Similarities and Differ-
+ences in Dog and Human City Life” [ 8] explored animal-computer
+interaction without citing any posthuman scholarship, yet it chal-
+lenged anthropocentric view of human-dog relations in the city
+and discussed the opportunities that arise from doing so. In con-
+trast, “Self-Tracking Cultures: Towards a Sociology of PersonalInformatics” [ 136] explicitly drew on the “entanglements of bod-
+ies, technologies, and selves,” incorporating the works of Donna
+Haraway and Katherine Hayles into its sociological approach.
+4.2.2 Phase II: Integration. The second phase, spanning from the
+mid-2010s to around 2019–2020, reflects deeper integration, as schol-
+ars purposefully applied posthuman concepts to computing and de-
+sign. This phase also shows scholars embracing diverse approaches
+rooted in posthumanities, and an increasing recognition of eco-
+logical concerns alongside technological ones, reflecting a shift in
+priorities. A notable change in this phase was the dominance of new
+materialist approaches, often described as part of the “entanglement
+turn” [ 78], alongside an increased attention in post-anthropocentric
+design [57].
+Studies during this phase explored a wide array of topics, in-
+cluding agriculture [ 130], agency [ 15,57,74], animal and plant
+well-being [ 9,211], the body [ 34,83], automated driving systems
+[36], and performative arts [ 146,192], each adopting a posthuman
+onto-epistemo-ethical perspective. Some notable works published
+during this phase that exemplify this shift include:
+•“Becoming With: Towards the Inclusion of Animals as Par-
+ticipants in Design Processes”, by Westerlaken and Gualeni
+[211], aligns with the animal-computer interaction agenda,
+exploring post-anthropocentric interaction design method-
+ologies through the concept of “becoming with,” inspired
+by the works of Latour and Haraway. Their contribution
+advances a participatory design paradigm that transcends
+anthropocentrism.
+•“Designing for Cohabitation: Naturecultures, Hybrids, and
+Decentering the Human in Design” [ 187], by Nancy Smith,
+Shaowen Bardzell, and Jeffrey Bardzell [ 187] examines urban
+contexts to reveal the potential of concepts such as naturecul-
+ture [ 89], hybridity, and decentering the human in design,
+offering new perspectives on animal-human-computer inter-
+action.
+•“Politics of Mattering in the Practices of Participatory De-
+sign” [ 165]. Pihkala and Karasti advocate for reimagining
+participatory design in ways that align with the ontological
+turn and the posthuman landscape.
+With the rise of new materialist and post-anthropocentric ap-
+proaches, this phase witnessed the exploration of increasingly di-
+verse topics and integration of posthuman onto-epistemologies
+into participatory design, multispecies interactions, and sustain-
+able technological practices. This phase set the stage for a more
+self-sustaining posthuman material-discourse, preparing the field
+for a deeper transformation.
+4.2.3 Phase III: Transformation. The third phase marks a certain
+maturation of posthuman scholarship in computing and design,
+characterized by a deeper engagement with posthumanities by
+scholars such as Laura Forlano, Chris Frauenberger, Ron Wakkary,
+Shaowen Bardzell, Jeffrey Bardzell, and colleagues. Unlike earlier
+phases, where scholars frequently drew on posthuman scholarship
+beyond ACM venues, from this phase onwards there is a greater
+engagement with scholarship within the ACM corpus, suggesting
+the development of a self-sustaining body of posthuman research
+within computing and design.
+509
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+Figure 1: Paper Counts over Time
+A notable development in this phase is the increasing conceptual
+distinction between posthumanism and transhumanism. While a
+few papers continue to use “posthuman” to describe enhanced hu-
+man capacities and capabilities, reflecting a transhumanist perspec-
+tive, recent scholarship predominantly aligns with posthumanism’s
+critical focus on decentering the human in design. This shift also
+challenges the myth of human exceptionalism and exemptionalism,
+particularly in relation to ecological concerns. Further, although
+new technological agendas, such as music performance [ 218], con-
+tinue to emerge, the primary focus of this phase is largely ecological
+— essentially, to “design with nature.” Scholars who seek to inves-
+tigate more ecological design alternatives engage with Forlano,
+Wakkary, S. Bardzell, and J. Bardzell, while Frauenberger’s work is
+preferred by the papers concerned with technological concerns. For
+instance, recent scholarship on music and technology [ 173,193]
+follows Karen Barad through the “entanglement turn, ” as described
+by Freuenberger [78].
+4.3 Bridging Computing and Design with
+Posthumanities
+One way to trace the evolution of posthuman scholarship in com-
+puting and design is through an analysis of the scholars that the
+corpus has engaged with. This approach also offers insights into
+how the field has transformed over the three phases. Figures 2 and
+3 illustrates the evolution of scholarly engagement and posthu-
+man knowledge accumulation throughout the years for the top 5
+scholars from within and outside the ACM community.
+Examining these trends and considering the three phases of
+posthuman theorizing, we make three observations: First, while
+postmodern and poststructuralist thinkers such as Gilles Deleuze,Felix Guattari, and Michel Foucault, as well as phenomenologists
+like Martin Heidegger and Maurice Merleau-Ponty, appear in these
+discussions, they are not the primary sources of knowledge produc-
+tion. Instead, their ideas traverse through the works of posthuman-
+ities scholars.
+Second, the scholars mentioned in Figures 2 and 3 are rarely en-
+gaged with in isolation; they are often referenced alongside others,
+depending on the paper’s main concern, i.e. whether ecological or
+technological. Nevertheless, most papers engage with at least one or
+two key concepts from these scholars. This practice of engagement
+enables us to map the primary themes within the corpus.
+Donna Haraway emerges as the most-engaged-with posthu-
+manities scholar, offering foundational concepts such as cyborg
+theory, natureculture, and companion species [ 89,91,92], which
+have guided post-anthropocentric design approaches. Karen Barad
+[10,11] follows closely, influencing both theoretical perspectives
+and methodological frameworks through concepts like agential re-
+alism and intra-action. Bruno Latour and Rosi Braidotti contribute
+significantly, with Latour’s ANT informing discussions on non-
+human agency [ 127] and Braidotti’s The Posthuman [31] shaping
+definitions of posthuman hybridity. Similarly, Katherine Hayles
+[97] provides critical insights into posthuman embodiment and
+the critique of Cartesian dualism, influencing studies in computing
+and design from a post-dualist, post-Enlightenment angle. More
+recently, María Puig de la Bellacasa [ 51] has gained prominence for
+her conceptualization of care, integrating ethical and ecological con-
+cerns into computing and design. Likewise, Anna Tsing’s practice
+of noticing [ 200] and Tim Ingold’s object-oriented anthropology
+[109] have been attracting considerable interest among researchers
+in the field.
+510
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+Figure 2: Engagement Trends over Time: Non-ACM scholars
+Other scholars and concepts that migrate from posthumanities
+into the papers in our corpus include, but are not limited to, Jane
+Bennett’s vibrant matter [ 20], Don Ihde’s [ 107] and Peter-Paul
+Verbeek’s postphenomenology [ 179], Graham Harman’s object-
+oriented ontology [ 94], Timothy Morton’s agrilogistics and hy-
+perobjects [ 144,145], Stacy Alaimo’s transcorporeality [ 3], Diana
+Coole’s and Samantha Frost’s new materialist approach to agency
+[46], and Patricia MacCormack’s posthuman teratology (the study
+of monsters) [ 137]. Collectively, these scholars and their theories
+signal a shift toward more entangled, relational, and materially
+engaged modes of thinking and designing, signalling a significant
+posthuman turn in computing and design research.
+Third, there has been a posthuman knowledge accumulation
+in the field of computing and design. Initially, posthuman scholar-
+ship was predominantly influenced by research published outside
+ACM venues. Since the late 2010s, scholars such as Jeffrey Bardzell,
+Shaowen Bardzell, Laura Forlano, Chris Frauenberger, and Ron
+Wakkary — along with their collaborators — have contributed to
+the development of a self-sufficient posthuman material-discourse
+within computing and design. This development also reflects a con-
+vergence of posthuman scholarship across both ACM and non-ACM
+venues, as evidenced by the trends of papers engaging with these
+scholars.
+Laura Forlano emerges as a key bridging figure between com-
+puting, design, and the broader field of posthumanities. Althoughher 2017 paper “Posthumanism and Design” [ 75] was published
+during the second phase, we argue that its conceptual impact places
+it as an early signal of the third phase, given the limited engage-
+ment it received before the 2020s. In this work, Forlano provides a
+toolkit for moving beyond human-centred and user-centred design.
+She traces posthumanist influences in ANT, feminist new materi-
+alism, object-oriented ontology, non-representational theory, and
+transhumanism. Crucially, she also presents critical perspectives
+on posthumanism from critical race theory and decolonial theory,
+broadening posthuman material-discourse beyond Eurocentric con-
+cerns. We consider this critical approach essential for developing
+a multi-dimensional understanding of posthumanism in design,
+which we will revisit in the Discussion section.
+Shaowen Bardzell and Jeffrey Bardzell are other two scholars
+who enormously contributed to the shaping of posthuman design
+in the third phase. One example of these contributions is “Symbiotic
+Encounters: HCI and Sustainable Agriculture” [ 130], by Szu-Yu Liu,
+Shaowen Bardzell, and Jeffrey Bardzell. This ethnographic study of
+alternative farming practices incorporates Anna Tsing’s concept
+of “noticing” from The Mushroom at the End of the World [200]
+and Haraway’s “companion species” [ 89,91]. This study aims to
+situate design within posthuman assemblages and temporalities
+while exploring design alternatives through the concepts of “Earth
+as a lab” and “intimacy beyond the Biosphere.”
+511
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+Figure 3: Engagement Trends over Time: ACM Scholars
+Ron Wakkary’s “Nomadic Practices: A Posthuman Theory for
+Knowing Design” [ 205] and Things We Could Design: For More Than
+Human-Centered Worlds [206], represent some of the most influen-
+tial contributions to the posthuman transformation of design. In
+these works, Wakkary develops a design paradigm called “design-
+ing with,” which acknowledges the interconnectedness of human
+and nonhuman entities and recognizes the agency of nonhumans.
+Oogjes and Wakkary [ 158] demonstrate this approach by combin-
+ing Tsing’s concept of noticing with Latour’s translations and Laura
+Watts’ landscape ethnography to develop a posthuman repertoire.
+Finally, Frauenberger’s “Entanglement HCI: The Next Wave?”
+[78] maps the field of HCI through its engagement with actor-
+network theory, object-oriented ontology, post-phenomenology,
+and agential realism — what he refers to as theories of relational on-
+tology — and describes the tendency toward relational ontologies as
+the “entanglement turn.” Although the emphasis on entanglement
+as a central concept appears to be a scholarly choice, Frauenberger’s
+work is one of the few in the corpus that effectively addresses the
+five characteristics of posthumanism discussed earlier. We expand
+on this in the Discussion section.
+4.4 Posthuman Design and Computing:
+Different Concerns, Similar Characteristics
+As shown in the previous section, researchers in computing and
+design engage with different aspects of posthumanism and variousscholars, depending on their specific research concerns. While these
+engagements vary in focus, they reflect both the diverse concerns
+and the shared characteristics of posthumanism.
+Figure 4 illustrates the distribution of papers across two broad
+concerns — technological (n = 106) and ecological (n = 65) — and
+their intersections with the five defining characteristics of posthu-
+manism: post-humanism (PH) (n = 34), post-anthropocentrism (PA)
+(n = 132), post-dualism (PD) (n = 98), post-Enlightenment (PE) (n
+= 21), and post-technologism (PT) (n = 9). As shown in the figure,
+a significant portion of papers exhibit both post-anthropocentric
+(PA) and post-dualist (PD) characteristics (n=40 for technological,
+n=19 for ecological), or are solely post-anthropocentric (PA) (n=18
+for technological, n=12 for ecological). This indicates that papers
+address design concerns related to relationships between humans
+and nonhuman relations, including animals, plants, or technologies
+(PA), as well as issues stemming from a dualistic understanding of
+subjectivity and agency (PD).
+There are also papers that exhibit additional posthuman charac-
+teristics, either in conjunction with PA and PD or independently
+of them. Papers aligned with post-humanism (PH) critique the
+exclusionary legacies of humanist thought. While papers engag-
+ing with post-Enlightenment (PE) question the figure of the au-
+tonomous, rational subject, those attentive to post-technologism
+(PT) problematize techno-solutionism and interrogate its associated
+socio-ecological harms. Collectively, this distribution demonstrates
+512
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+Figure 4: This plot visualizes the relationships between five posthumanist characteristics (PH, PA, PD, PE, PT) and ecological
+and technological orientations. The set size bars represent the total number of papers categorized under each dimension, while
+the intersection bars display co-occurrences, highlighting significant overlaps in conceptual frameworks.
+that while post-anthropocentric and post-dualist themes dominate,
+there is an emergent attention to the political, epistemological, and
+technocritical dimensions of posthumanism in computing and de-
+sign research. The Appendix captures the coding for each paper
+in the corpus, including its primary concern(s) and posthuman
+characteristics.
+Notably, four papers [ 25,78,106,118] address both technological
+and ecological concerns while exhibiting all five characteristics of
+posthumanism. In the Discussion, we explore the value of engaging
+with all these characteristics.
+4.4.1 Technological posthuman design. Technological posthuman
+design challenges the assumption that agency is exclusively a hu-
+man trait. Papers in this domain consider technology as possessing
+nonhuman agency within the design process. In this context, sus-
+tainability should not be understood solely in terms of ecological
+sustainability but rather as the sustainability and maintenance of
+design processes and artifacts. The posthuman condition, therefore,offers both challenges and opportunities for rethinking human-
+machine interactions through the lens of sustainable design.
+As an attempt to turn the posthuman challenge into an opportu-
+nity, designers attribute creative agency to interactive and digital
+technologies. For instance, “Cracking the Code” [ 116] and “Design
+Ideation with AI” [ 197] (by the same authors, published in different
+venues) explore processes of “co-creation.” These papers engage
+with and expand contemporary perspectives by emphasizing the
+uncertainties and inconsistencies inherent in programming, while
+incorporating creative, embodied, and craft-oriented approaches.
+Moreover, the authors of “Message Ritual” [ 170] suggest that posthu-
+man design can take many forms, with their contribution specifi-
+cally focusing on the integration of artificial intelligence into “the
+assembly of agents within the system.” Remarkably, while all three
+papers exhibit post-anthropocentric and post-dualist characteris-
+tics, “Cracking the Code” also demonstrates post-Enlightenment
+attention, as it implicitly questions the Enlightenment subject(ivity).
+513
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+4.4.2 Ecological posthuman design. Ecological posthuman design
+emphasizes ecological sustainability and the well-being of organic
+human and nonhuman forms. Following Biggs et al. [ 26], this con-
+cern can be seen as the extension of sustainable HCI’s response to
+the Anthropocene. The papers in this subsection explore various
+topics, such as small farm practices as an alternative to agrilogis-
+tics [ 23] — a hegemonic agricultural practice that has prioritized
+human civilization at the expense of other life for centuries [ 145],
+the potential role of blockchain technologies in promoting global
+food justice [ 98], the intersection of care ethics and posthumanism,
+proposing epistemological care as a design approach in designing
+for more-than-humans [ 121], nature-related technology design for
+forest-goers [ 4], autoethnographic design experiments with liv-
+ing matters such as bacteria [ 155] and bees [ 108] and posthuman,
+place-based design methodologies such as “Dear Nature” [72].
+Among ecological posthuman design papers, some also demon-
+strate the multi-dimensionality of posthumanism. For instance,
+Lindström et al. [ 129] foreground grief and hope as affective ped-
+agogical tools, emphasizing the need to unlearn optimism and
+confront environmental realities. The study circles introduced in
+their research challenge the Enlightenment ideal of the rational, au-
+tonomous individual, advocating instead for collective, situated, and
+emotional engagement with the future through decarbonization be-
+yond technology. Another multi-dimensional posthuman approach
+to ecological concerns comes from Ikeya et al. [ 108], whose design
+experiment with bees leads to a critical self-reflection on the an-
+thropogenic remnants in the study. They acknowledge that “[t]he
+introduction of the red mason bees is an anthropogenic action
+which could instead have been done by waiting for the species to
+naturally visit and inhabit there” [ 108]. This reflection aligns with
+alternative approaches to designing-with, which we will revisit in
+our discussion of the post-technologist principle.
+4.4.3 Bridging technological and ecological concerns. We observe
+that some papers combine technological posthuman design and
+ecological posthuman design, demonstrating how these concerns
+intersect in practice. In “Weaving Stories,” Oogjes and Wakkary
+address the question of how nonhuman agency can be incorporated
+into design by drawing on Wakkary’s concept of “repertoires” —
+actions that human designers can take to enable nonhuman par-
+ticipation in the design process [ 158]. Building on Anna Tsing’s
+concept of noticing, Bruno Latour’s translations, and Laura Watts’
+landscape ethnography, the paper develops three repertoires: notic-
+ing through fragility, translating through questions, and employing
+landscape ethnography through temporalities. Ultimately, the pa-
+per interprets the results of weaving projects as repertoires for “the
+speaking subject,” or for understanding what the non-speaking sub-
+ject communicates with designers. Such repertoires are valuable as
+they can be applied to both technological and ecological concerns
+in design.
+Similarly, the researchers of “Plant Radio” [ 177] grapple with
+the challenge of incorporating nonhuman agency into design by
+enhancing the agency of a plant. They achieve this by removing the
+button that controls the radio, which is connected to the plant via
+sensors, thus giving the plant more control over the system. This
+experiment addresses both the ecological concern related to plantagency and the technological challenge of designing with plants in
+a viable way.
+Lastly, there are also papers in our corpus that bridge technolog-
+ical and ecological concerns through technological interventions.
+For instance, Brown et al. [ 35] explore post-human design research
+through the development of “Nature Scenes,” a project that inte-
+grates DIY technological devices with urban ecological engineering
+to create interspecies interactions.
+5 Discussion: A Posthuman Design Vocabulary
+Remembering that all theorizing is inherently political, we contend
+that posthuman theorizing of design — and of designers — should
+remain attentive to the various interpretations of posthumanism.
+We propose that a more comprehensive application of posthuman-
+ism in design is necessary, one that aligns with the five charac-
+teristics of post-humanism, post-anthropocentrism, post-dualism,
+post-Enlightenment, and post-technologism (Table 2). Our analysis
+suggest that some of these characteristics are already reflected, in
+varying degrees, in the corpus.
+As noted, four studies address both technological and ecological
+concerns while demonstrating all five characteristics of posthu-
+manism. We believe that Frauenberger’s comprehensive study [ 78]
+offers a compelling example of this effort, bringing a fresh perspec-
+tive to HCI by exploring the potential of various interpretations
+of entanglement for design and for mattering beyond user-centred
+approaches. Similarly, Ianniello et al. [ 106] engage with all five char-
+acteristics, by incorporating decolonial and posthuman feminist
+frameworks into their discussion. Jääskeläinen et al. [ 118] extend
+diverse posthuman perspectives into AI-driven design, critiquing
+the embedded biases of Creative-AI systems and proposing care
+ethics as a speculative method for reimagining AI’s interactions
+with both humans and more-than-humans. This study particularly
+emphasizes multispecies cohabitation, distributed agency, and a
+commitment to care and responsibility toward ecological and social
+sustainability. Additionally, Biggs et al. [ 24] investigate how historic
+redlining — an explicitly racialized housing policy from the 1930s
+— intersects with contemporary sustainability issues through an
+interdisciplinary lens, attending to both human and nonhuman fac-
+tors. By incorporating a multi-dimensional framework, this study
+also introduces a political dimension to posthuman design.
+We particularly value these efforts because they highlight the
+inseparability of onto-epistemo-ethics. By addressing all five char-
+acteristics, the researchers advance a design praxis that promotes
+sustainability in relation to both technological and ecological con-
+cerns. Through the integration of theory and practice, they support
+our view of posthuman theorizing as a form of intra-action.
+Within this context, we propose a vocabulary of design princi-
+ples corresponding to each posthuman characteristics to advance
+a more comprehensive posthuman design approach toward just
+and inclusive sustainable futures. We believe this goal aligns with
+the concerns regarding ethical conundrums [ 78] and ‘not always
+positive’ consequences [ 84], such as unseen labour [ 121] or food
+insecurity [64].
+Design-PA. It is evident that posthumanism is primarily under-
+stood as post-anthropocentrism in the papers within our corpus.
+514
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+Design Principle Concepts Key Problems
+Design-PA
+(Post-anthropocentrism)Decentering the human, Noticing, Multispecies
+cohabitation, Nomadic practices, Designing-
+with, Material expressivityAnthropocentric design norms, Lack of nonhuman
+agency in design, Over-reliance on human intentions,
+Ethical considerations in decentering the human
+Design-PD
+(Post-dualism)Beyond binaries, Natureculture, Intra-action,
+Subject/abject relations, TranscorporealityPersisting dualistic thinking, Challenges in integrating
+nonhuman perspectives, Othering in design methodolo-
+gies
+Design-PH
+(Post-humanism)Intersectional justice, Decolonial perspectives,
+Pluriversal design, Response-abilityRisk of overlooking human injustices, Need for inter-
+sectional inclusivity, Persisting techno-colonialism
+Design-PE
+(Post-Enlightenment)Distributed agency, Algorithmic subjectivities,
+Situated knowledge, Epistemic humilityAutonomy-centric design frameworks, Mastery and
+control in design, Human exceptionalism in knowledge
+production
+Design-PT
+(Post-technologism)Critical technological reflection, Undesigning,
+Design inactionUncritical technological progress, Overemphasis on in-
+novation, Environmental and social harms of extractive
+design
+Table 2: Principles, Concepts, and Key Problems in Design
+Moving beyond the primacy of the human species, Design-PA re-
+configures the human as one among many actants within an in-
+terconnected network [ 57]. This principle compels us to design
+with an empathy to the symbiotic relationships between human
+and more-than-human worlds, promoting ecologies of concern that
+foreground the sustainability of all life forms, not merely human
+interests.
+This principle aligns with the efforts of other design researchers.
+For instance, Wakkary’s nomadic practices [ 205] reconfigures de-
+sign as an evolving, decentralized, and interconnected set of knowl-
+edge systems that do not privilege the human as the sole or primary
+agent. Instead of adhering to universalizing, human-centred dis-
+ciplinary structures, those practices emphasize situated knowing,
+multiplicity of intentionalities, and nomadism, allowing for a more
+fluid engagement with nonhuman entities.
+Another relevant effort was recently made by Bourgault and Ja-
+cobs [ 30]. They contribute to the principle of post-anthropocentrism
+by emphasizing the decentering of the human in digital fabrica-
+tion processes. The study argues that digital fabrication should not
+merely serve human intentions but should engage with machines
+and materials as active participants in the design process. This work
+extends post-anthropocentric thinking into HCI fabrication by fos-
+tering new ways of designing with rather than of materials and
+machines, promoting an approach that values distributed agency
+and material expressivity.
+Design-PD. Design grounded in post-dualism rejects the binary
+oppositions — such as nature vs. culture, human vs. machine, or
+mind vs. body — that have long structured Western thought. In-
+stead, it envisions existence as a fluid and dynamic interplay of
+forces, where boundaries dissolve into interfaces of co-emergence.
+This principle requires design to flourish symbiotic connections,
+acknowledging that all systems, whether biological, technological,
+or cultural, are deeply enmeshed in one another [78].In “Watching Myself Watching Birds: Abjection, Ecological
+Thinking, and Posthuman Design,” Biggs et al. [ 26] argue that al-
+though there is no strict binary between humans and nonhumans,
+dualistic thinking has historically caused humans to define them-
+selves through the process of Othering. Since the abject — following
+Julia Kristeva’s concept of abjection — is a psychological extension
+of the human, they argue that designing for nonhumans presents
+significant challenges. The authors therefore propose replacing the
+subject/object distinction between humans and nonhumans with a
+subject/abject relationship.
+Contrary to this assumption, Sondergaard and Woytuk argue
+that the “understanding of more-than-human bodies should not
+be seen merely as an extension of the body” [ 194]. Instead, they
+highlight the “fluidity, porosity, and ‘transcorporeality’” — a con-
+cept borrowed from Stacy Alaimo — that exists between human
+and nonhuman bodies, reflecting a more complex experience and
+interaction. Stacy Alaimo’s concept of “transcorporeality” is indeed
+useful here in understanding the interconnectedness and encoun-
+ters between human and nonhuman bodies and for post-dualist
+principle. According to Alaimo, “[t]ranscorporeality does the op-
+posite of distancing or dividing the human from external nature”
+[3]. From a posthuman design perspective, the human is inherently
+posthuman; without the nonhuman, the human cannot exist. In this
+light, we interpret the statement in “Watching Myself Watching
+Birds” regarding the nonhuman as an extension of the human sub-
+ject as based on psychoanalytic, rather than biological, ecological, or
+evolutionary grounds. While humans are biologically, ecologically,
+and evolutionarily intertwined with the material world, human civ-
+ilization has distanced itself from the nonhuman conceptually and
+psychologically. This feature of civilization is what Timothy Morton
+critiques in their problematization of agrilogistics, a foundational
+but problematic pillar of human civilization [144, 145].
+Design-PH. We contend that posthuman design must go beyond
+simply being more-than-human-centred. In order to design for just
+515
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+and inclusive sustainability futures, we should decenter the human
+but still take injustices against marginal human communities into
+account. Several papers in our corpus, as well as others encountered
+during our research, argue that posthuman perspectives should be
+integrated with indigenous and decolonial philosophies, as they
+risk overlooking the human in their focus on decentering it [ 106,
+121, 194].
+Pihkala and Karasti’s [ 166] emphasis on relational ontologies
+through the concept of response-ability aligns with the posthuman
+commitment to dismantling exclusionary structures and fostering
+ethical engagements both within the human species and across
+species and material entanglements. Similarly, Falk et al. [ 69] argue
+for diversity computing as a means to integrate pluralistic perspec-
+tives into design, resisting tokenistic inclusion and instead creating
+agonistic spaces where intersecting identities and perspectives can
+coexist meaningfully. This resonates with the posthuman imper-
+ative to not only decenter the human (post-anthropocentric) but
+also confront historical and systemic inequalities that shape partic-
+ipation in design (post-humanist). Similarly, Ianniello et al.’s [ 106]
+exploration of pluriversal design further reinforces this approach
+by advocating for decolonial and post-human feminist perspec-
+tives, dismantling species hierarchies, and positioning design as a
+facilitator of more-than-human symbiosis.
+The discussion of “post-growth” [ 183], by introducing an alter-
+native economic orientation, also questions computing’s role in ex-
+acerbating unsustainable growth and advocating for redistributive,
+localized, and care-based approaches in sociotechnical systems. Jan-
+icki et al. [ 113] demonstrate how more-than-human entanglements
+are not merely ecological but also deeply political, intersecting
+with histories of racial capitalism and environmental disposses-
+sion. Lastly, Biggs et al.’s work [ 25] highlight how interdisciplinary
+methods, such as map-making, can reveal the entanglements of
+past and present, advocating for posthuman design principles that
+take racial and social justice into account. Together, these works
+highlight that posthuman design is not merely about expanding the
+scope of agency beyond humans but also about embedding justice,
+care, and political responsibility into design methodologies.
+In this respect, the Design-PH principle must fundamentally chal-
+lenge and subvert systems of domination and exclusion that have
+historically privileged certain groups of humans while marginal-
+izing others. At its core, this principle seeks to dismantle human
+hierarchies rooted in the legacies of advanced capitalism, colonial-
+ism, and racial and gender oppression. Design-PH envisions a world
+where the inherent worth of all individuals is recognized, irrespec-
+tive of race, gender, belief, ability, or socio-economic standing. By
+resisting the commodification and instrumentalization of human
+life, this approach refuses to reduce individuals to their economic
+or functional roles. Instead, it calls for design practices that foster
+human dignity, promote equity, and cultivate spaces of collective
+flourishing, thus transcending exclusionary humanist frameworks.
+Design-PE. A post-Enlightenment approach to design critiques
+the ideal of the autonomous, rational individual that dominated
+modernity. It embraces a relational and embodied onto-epistemo-
+ethics that challenges notions of knowledge and agency as pre-
+determined by the figure of the Western, Christian man. Design,from this perspective, must move beyond mastery and control, cul-
+tivating forms of practice that recognize the interdependence of all
+beings and the situated nature of knowledge.
+This shift requires recognizing knowledge and agency as dis-
+tributed across human and nonhuman actants, material infras-
+tructures, and algorithmic processes. In this respect, Baumer et
+al.’s [ 16] discussion of algorithmic subjectivities critiques the as-
+sumption of an autonomous human subject, instead highlighting
+the co-constitution of human identities, technological infrastruc-
+tures, and systemic classification mechanisms. On a similar ground,
+Ikeya et al. [ 108] critiques traditional human-centric approaches
+by demonstrating how design can foster multispecies relationships
+through attentiveness to local ecologies. This aligns with the post-
+Enlightenment rejection of mastery and control, positioning the
+designer as a cohabitant rather than a dominant force. Similarly,
+Ferreira and Hsi [ 72] undermine the Enlightenment ideal of ob-
+jective, universal knowledge by emphasizing the subjective and
+affective dimensions of data representation. These studies illustrate
+how post-Enlightenment design methodologies cultivate epistemic
+humility — which aligns with situated knowing behind the ideal
+of “designing with” [ 205]. This embraces pluralistic, embodied, and
+contextual forms of knowledge while actively resisting the hierar-
+chical structures of modernity.
+Design-PT. In resisting the uncritical celebration of technological
+progress, Design-PT calls for a reflective stance on the socioeco-
+logical consequences of technological intensification [ 164]. It urges
+design to interrogate the entanglement of technology with systems
+of injustice and exploitation, advocating for a reorientation toward
+technologies that promote sustainability, ethical accountability,
+and the flourishing of both human and nonhuman worlds. Post-
+technologism can be practiced in two ways: designing differently
+and undesigning.
+We can imagine Design-PT in terms of alternate ways of design-
+ing with [ 206]. In this sense, “Designing for Interdependence of
+Bees” [ 108] challenges conventional technological interventions
+by demonstrating how design can foster reciprocal relationships
+with nonhuman entities, encouraging attunement to ecological
+rhythms rather than technological control. Similarly, “Dear Nature”
+[72] offers an alternative to the dominant data-driven paradigm,
+where qualitative, embodied, and context-rich data practices pro-
+mote deeper engagement with environmental sensemaking instead
+of reducing nature to quantifiable metrics. These works exemplify
+alternative approaches that align with post-technologism’s call to
+not only reflect on the socioecological consequences of technolog-
+ical intensification but also actively explore forms of design that
+move beyond innovation-driven problem-solving.
+The design field is still understandably dominated by techno-
+logical innovation. However, we also need to focus on unmaking
+and undesigning material-discursive practices as a social inno-
+vation, which corresponds to post-technologism. This principle
+is reinforced by scholarship advocating for undesigning and de-
+sign inaction as legitimate — and even necessary — responses to
+unsustainable technological intensification. Pierce’s Undesigning
+Technology [164] introduces the concept of intentional negation
+of technology, arguing that design should not only create but also
+dismantle technologies that contribute to environmental and social
+516
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+harms. Sandelin and Homewood [ 182] further develop this idea
+by framing inaction as a form of activism, where the decision to
+not design can be an ethical, political, and designerly act. These
+interventions align with the principle of Design-PT by emphasizing
+inhibition, displacement, and even erasure of harmful technolog-
+ical interventions rather than perpetuating an innovation-driven
+approach.
+We argue that posthuman design must incorporate these five
+principles (Design-PH, Design-PA, Design-PD, Design-PE, and
+Design-PT) to effectively address the intersectional challenges of
+the posthuman condition. While Rajcic and McCormack suggest,
+“[p]osthuman design explores what it is like to design with humans
+and non-humans, rather than for an idealized ‘user’” [ 170], we sug-
+gest that posthuman design should encompass more, bringing atten-
+tion to onto-epistemo-ethical dimensions. Based on the papers in
+our corpus and the preceding discussion, we propose the following
+definition: Posthuman Design is a critical and inclusive approach to
+design that challenges traditional human-centred paradigms by inte-
+grating the five principles of posthumanism: post-humanism, post-
+anthropocentrism, post-dualism, post-Enlightenment, and post-
+technologism. Grounded in these principles, posthuman design
+aims to dismantle hierarchical power and knowledge structures,
+avoid human exceptionalism and exemptionalism, and promote eth-
+ical engagements among human, nonhuman, and material realms
+— in short, among posthumans.
+This includes avoiding the creation of new binaries, such as
+human versus more-than-human, while maintaining a critical focus
+on marginalized posthuman communities affected by oppressive
+structures like agrilogistics, patriarchy, colonialism, and racism. As
+Donna Haraway has argued, “we have never been human” [ 90], but
+have always existed within systems of marginalization, exploitation,
+and domination. Furthermore, Karen Barad’s assertion [ 12] about
+the importance of attending to material-discursive phenomena in
+their entanglements — particularly in addressing “the questions of
+justice that are integral to the doing of science” — is equally relevant
+to design. A more critical political stance is necessary in design and
+designerly speculations about sustainable futures [ 189], one that
+explicitly rejects both human exceptionalism and exemptionalism
+[55] and advocates for an ethical reconfiguration of technological
+development that acknowledges the rights and agency of animals
+and ecosystems [ 35]. The posthuman design papers in our corpus
+illustrate how such a stance can be articulated and applied through
+multidimensional understandings of posthumanism.
+6 Conclusion
+Through this study, we demonstrate that posthuman design is
+emerging as a significant paradigm that moves beyond human-
+centred approaches in design and computing research. Our findings
+build upon and extend Bødker’s emphasis on participatory and
+shared interactions [ 28] and Harrison et al.’s [ 95] discussion on
+paradigms by framing posthuman design as a multi-species par-
+ticipatory response to contemporary challenges in computing and
+design.
+Our findings show how posthuman design is actively challeng-
+ing anthropocentric and technocentric biases, addressing injustices
+against both marginalized human and nonhuman communities,and applies posthuman perspectives through material-discursive
+practices. From participatory engagements with nonhuman ecolo-
+gies to critical technological interventions resisting extractivist and
+exclusionary design models, posthuman design is reshaping the
+field.
+At the core of posthuman design are five interconnected princi-
+ples: post-humanism (Design-PT; an inclusive understanding of the
+human), post-anthropocentrism (Design-PA; an inclusive under-
+standing of species), post-dualism (Design-PD; rejection of binary
+oppositions), post-Enlightenment (Design-PE; critique of the ratio-
+nal, autonomous individual), and post-technologism (Design-PT;
+a critical stance toward technological progress). These principles
+challenge the dominant narratives of modernity, human exception-
+alism, and techno-solutionism, urging us to rethink design in ways
+that promote just sustainabilities. Our findings illustrate how these
+principles are already being explored in the computing and design
+research communities, but they also highlight the need for a more
+explicit articulation of posthuman design’s political and ethical
+commitments. By integrating these principles, posthuman design
+offers a transformative framework for reimagining policy and tech-
+nology design, including the design of AI systems, in shaping more
+just, equitable, and sustainable futures.
+While this study has mapped the landscape of posthuman de-
+sign and articulated its foundational principles, future work should
+further explore how posthuman perspectives can be leveraged as a
+lens for understanding and advancing social justice within human
+communities. Although posthuman design has largely focused on
+decentering the human and addressing injustices against nonhu-
+man entities, there remains an opportunity to explicitly examine
+how posthumanism can contribute to intersectional justice efforts,
+particularly in relation to race, gender, disability, and class. Future
+research should investigate how posthuman design principles —
+such as post-dualism and post-Enlightenment critique — can be
+applied to dismantle social hierarchies that persist within techno-
+logical development and design practices.
+Acknowledgments
+The authors acknowledge Kit Haehnel for their assistance with
+data collection for this project.
+References
+[1]Muhammad Sadi Adamu and Makuochi Samuel Nkwo. 2023. "Remembering” as
+a Decolonial Praxis in African HCI and Design. In Proceedings of the 4th African
+Human Computer Interaction Conference . 118–124.
+[2]Yoko Akama, Ann Light, and Takahito Kamihira. 2020. Expanding Participation
+to Design with More-Than-Human Concerns. In Proceedings of the 16th Partici-
+patory Design Conference 2020 - Participation(s) Otherwise - Volume 1 (PDC ’20) .
+ACM. https://doi.org/10.1145/3385010.3385016
+[3]Stacy Alaimo et al .2008. Trans-corporeal feminisms and the ethical space of
+nature. Material Feminisms 25, 2 (2008), 237–264.
+[4]Ferran Altarriba Bertran, Jordi Márquez Puig, Maria Llop Cirera, Eva Forest Illas,
+Joan Planas Bertran, Ernest Forts Plana, Oğuz “Oz” Buruk, Çağlar Genç, Mattia
+Thibault, and Juho Hamari. 2023. Designing and Using the Wild Probes Toolkit
+(v1) to Co-Design From-the-Wild. In Proceedings of the 2023 ACM Designing
+Interactive Systems Conference (DIS ’23) . ACM. https://doi.org/10.1145/3563657.
+3596102
+[5]Timothy R. Amidon and W. Michele Simmons. 2016. Negotiating “Messy”
+Research Context and Design Through Adaptive Research Stances: Experience
+Report. In Proceedings of the 34th ACM International Conference on the Design
+of Communication (SIGDOC ’16, Vol. 61) . ACM, 1–6. https://doi.org/10.1145/
+2987592.2987622
+517
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+[6]Kayla Anderson. 2014. Object intermediaries: how new media artists translate
+the language of things. In ACM SIGGRAPH 2014 Art Gallery (SIGGRAPH ’14) .
+ACM, 352–359. https://doi.org/10.1145/2601080.2677712
+[7]Simone Ashby, Julian Hanna, Sónia Matos, Callum Nash, and Alexis Faria.
+2019. Fourth-wave HCI meets the 21st century manifesto. In Proceedings of the
+Halfway to the Future Symposium 2019 . 1–11.
+[8]Fredrik Aspling, Oskar Juhlin, and Elisa Chiodo. 2015. Smelling, pulling, and
+looking: unpacking similarities and differences in dog and human city life.
+InProceedings of the 12th International Conference on Advances in Computer
+Entertainment Technology (ACE 2015, Vol. 38) . ACM, 1–9. https://doi.org/10.
+1145/2832932.2837013
+[9]Fredrik Aspling, Jinyi Wang, and Oskar Juhlin. 2016. Plant-computer interaction,
+beauty and dissemination. In Proceedings of the Third International Conference on
+Animal-Computer Interaction (ACI ’16) . ACM. https://doi.org/10.1145/2995257.
+2995393
+[10] Karen Barad. 2003. Posthumanist performativity: Toward an understanding of
+how matter comes to matter. Signs: Journal of women in culture and society 28,
+3 (2003), 801–831.
+[11] Karen Barad. 2007. Meeting the universe halfway: Quantum physics and the
+entanglement of matter and meaning. Duke Up (2007).
+[12] Karen Barad and Daniela Gandorfer. 2021. Political desirings: Yearnings for
+mattering (,) differently. Theory & Event 24, 1 (2021), 14–66.
+[13] Manuhuia Barcham. 2023. Decolonizing Computing and the Quest for Ontolog-
+ical Justice-Putting Fourth-Wave HCI/IxD Into Practice. In Proceedings of the
+35th Australian Computer-Human Interaction Conference . 486–492.
+[14] Jeffrey Bardzell, Shaowen Bardzell, and Ann Light. 2021. Wanting To Live Here:
+Design After Anthropocentric Functionalism. In Proceedings of the 2021 CHI
+Conference on Human Factors in Computing Systems (CHI ’21) . ACM. https:
+//doi.org/10.1145/3411764.3445167
+[15] Eric P. S. Baumer and Jed R. Brubaker. 2017. Post-userism. In Proceedings of the
+2017 CHI Conference on Human Factors in Computing Systems (CHI ’17) . ACM.
+https://doi.org/10.1145/3025453.3025740
+[16] Eric P. S. Baumer, Alex S. Taylor, Jed R. Brubaker, and Micki McGee. 2024.
+Algorithmic Subjectivities. ACM Transactions on Computer-Human Interaction
+31, 3 (June 2024), 1–34. https://doi.org/10.1145/3660344
+[17] Fiona Bell, Derrek Chow, Hyelin Choi, and Mirela Alistar. 2023. Scopy breast-
+plate: Slowly growing a microbial interface. In Proceedings of the Seventeenth
+International Conference on Tangible, Embedded, and Embodied Interaction (TEI
+’23). ACM. https://doi.org/10.1145/3569009.3572805
+[18] Fiona Bell, Erin Mcclure, Camila Friedman-Gerlicz, Ruby Ta, and Leah Buechley.
+2024. Shape-Changing Clay-Dough: Taking a Material-Oriented Approach to
+3D Printing Ceramic Forms. In Proceedings of the CHI Conference on Human
+Factors in Computing Systems (CHI ’24, Vol. 13) . ACM, 1–19. https://doi.org/10.
+1145/3613904.3642246
+[19] Jesse Josua Benjamin, Arne Berger, Nick Merrill, and James Pierce. 2021. Machine
+Learning Uncertainty as a Design Material: A Post-Phenomenological Inquiry. In
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(CHI ’21) . ACM. https://doi.org/10.1145/3411764.3445481
+[20] Jane Bennett. 2020. Vibrant matter: A political ecology of things . Duke University
+Press.
+[21] Fikret Berkes. 1993. Traditional ecological knowledge in perspective. Traditional
+ecological knowledge: Concepts and cases (1993).
+[22] Heidi Biggs and Shaowen Bardzell. 2024. Thrown from Normative Ground:
+Exploring the Potential of Disorientation as a Critical Methodological Strategy
+in HCI. In Proceedings of the CHI Conference on Human Factors in Computing
+Systems (CHI ’24) . ACM, 1–11. https://doi.org/10.1145/3613904.3642724
+[23] Heidi Biggs, Tejaswini Joshi, Ries Murphy, Jeffrey Bardzell, and Shaowen
+Bardzell. 2021. Alternatives to Agrilogistics: Designing for Ecological Thinking.
+Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct. 2021),
+1–31. https://doi.org/10.1145/3479557
+[24] Heidi Biggs, Alexa Marcotte, and Shaowen Bardzell. 2023. TikTok as a Stage:
+Performing Rural #farmqueer Utopias on TikTok. In Proceedings of the 2023
+ACM Designing Interactive Systems Conference (DIS ’23) . ACM. https://doi.org/
+10.1145/3563657.3596038
+[25] Heidi Biggs, Shellye Suttles, and Shaowen Bardzell. 2023. Redlining Maps and
+Terrains of Sustainability:: Interdisciplinary Mapping of Racialized Redlining
+to Present-Day Sustainability Agendas in HCI. In Proceedings of the 2023 CHI
+Conference on Human Factors in Computing Systems (CHI ’23, Vol. 25) . ACM,
+1–18. https://doi.org/10.1145/3544548.3581491
+[26] Heidi R. Biggs, Jeffrey Bardzell, and Shaowen Bardzell. 2021. Watching Myself
+Watching Birds: Abjection, Ecological Thinking, and Posthuman Design. In
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(CHI ’21) . ACM. https://doi.org/10.1145/3411764.3445329
+[27] Simone Bignall, Steve Hemming, and Daryle Rigney. 2016. Three ecosophies
+for the Anthropocene: Environmental governance, continental posthumanism
+and indigenous expressivism. Deleuze Studies 10, 4 (2016), 455–478.
+[28] Susanne Bødker. 2015. Third-wave HCI, 10 years later—participation and sharing.
+interactions 22, 5 (2015), 24–31.[29] Ashley Boone, Christopher A. Le Dantec, and Carl DiSalvo. 2024. Embodied
+Traces: Multispecies Entanglement in Urban Spaces. In Designing Interactive
+Systems Conference (DIS ’24) . ACM, 1074–1086. https://doi.org/10.1145/3643834.
+3660746
+[30] Sam Bourgault and Jennifer Jacobs. 2024. Millipath: Bridging Materialist Theory
+and System Development for Surface Texture Fabrication. In Designing Interac-
+tive Systems Conference (DIS ’24) . ACM, 50–68. https://doi.org/10.1145/3643834.
+3661599
+[31] Rosi Braidotti. 2013. The Posthuman . Polity Press, Malden, MA, USA.
+[32] Rosi Braidotti. 2019. A theoretical framework for the critical posthumanities.
+Theory, Culture & Society 36, 6 (2019), 31–61.
+[33] Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic
+analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (2019), 589–597.
+[34] Lauren M. Britton and Bryan Semaan. 2017. Manifesting the Cyborg through
+Techno-Body Modification: From Human-Computer Interaction to Integration.
+InProceedings of the 2017 CHI Conference on Human Factors in Computing Systems
+(CHI ’17) . ACM. https://doi.org/10.1145/3025453.3025629
+[35] Dean Brown, Liliana Ovalle, and Naho Matsuda. 2023. A Practice-Based Ap-
+proach to Post-Human Computer Interaction: Design Notes from Nature Scenes.
+InProceedings of the Seventeenth International Conference on Tangible, Embedded,
+and Embodied Interaction (TEI ’23) . ACM, 1–14. https://doi.org/10.1145/3569009.
+3572802
+[36] Sandra Buchmüller, Corinna Bath, and Roman Henze. 2018. To whom does the
+driver’s seat belong in the future?: a case of negotiation between gender studies
+and automotive engineering. In Proceedings of the 4th Conference on Gender &
+IT - GenderIT ’18 (GenderIT ’18) . ACM Press, 165–174. https://doi.org/10.1145/
+3196839.3196866
+[37] Shannon Butts and Madison Jones. 2021. Deep mapping for environmental
+communication design. Communication Design Quarterly 9, 1 (March 2021),
+4–19. https://doi.org/10.1145/3437000.3437001
+[38] Tara Capel and Margot Brereton. 2023. What is Human-Centered about Human-
+Centered AI? A Map of the Research Landscape. In Proceedings of the 2023 CHI
+Conference on Human Factors in Computing Systems (CHI ’23, Vol. 24) . ACM,
+1–23. https://doi.org/10.1145/3544548.3580959
+[39] Chiara Ceccarini, Marta Ferreira, Catia Prandi, Nuno Nunes, and Valentina Nisi.
+2023. Unusual suspects - visualizing unusual relationships of complex social
+phenomena with climate change. In Proceedings of the 2023 ACM Conference
+on Information Technology for Social Good (GoodIT ’23, Vol. 30) . ACM, 494–503.
+https://doi.org/10.1145/3582515.3609572
+[40] Priyank Chandra. 2021. Piracy and the Impaired Cyborg: Assistive Technolo-
+gies, Accessibility, and Access. Proceedings of the ACM on Human-Computer
+Interaction 4, CSCW3 (Jan. 2021), 1–21. https://doi.org/10.1145/3432941
+[41] Michelle Chang, Chenyi Shen, Aditi Maheshwari, Andreea Danielescu, and
+Lining Yao. 2022. Patterns and Opportunities for the Design of Human-Plant
+Interaction. In Designing Interactive Systems Conference (DIS ’22) . ACM. https:
+//doi.org/10.1145/3532106.3533555
+[42] Yuning Chen and Larissa Pschetz. 2024. Microbial Revolt: Redefining biolab
+tools and practices for more-than-human care ecologies. In Proceedings of the
+CHI Conference on Human Factors in Computing Systems (CHI ’24, Vol. 130) . ACM,
+1–16. https://doi.org/10.1145/3613904.3641981
+[43] Hyungjun Cho, Jiyeon Lee, Bonhee Ku, Yunwoo Jeong, Shakhnozakhon
+Yadgarova, and Tek-Jin Nam. 2023. ARECA: A Design Speculation on Everyday
+Products Having Minds. In Proceedings of the 2023 ACM Designing Interactive
+Systems Conference (DIS ’23) . ACM. https://doi.org/10.1145/3563657.3596002
+[44] Patricia Ciobanu and Oskar Juhlin. 2022. Me, the Hill and My Browser – Inves-
+tigating the Role of Time in Posthuman Interaction. In Nordic Human-Computer
+Interaction Conference (NordiCHI ’22) . ACM. https://doi.org/10.1145/3546155.
+3546651
+[45] Mary Clinkenbeard. 2018. Multimodal conversation analysis and usability
+studies: exploring human-technology interactions in multiparty contexts. Com-
+munication Design Quarterly 6, 2 (Oct. 2018), 103–113. https://doi.org/10.1145/
+3282665.3282675
+[46] Diana Coole and Samantha Frost. 2010. New materialisms: Ontology, agency, and
+politics . Duke University Press.
+[47] Ned Cooper. 2022. Would the Trees Dim the Lights? Adopting the Inten-
+tional Stance for More-Than-Human Participatory Design. In Proceedings of
+the Participatory Design Conference 2022 - Volume 2 (PDC 2022) . ACM. https:
+//doi.org/10.1145/3537797.3537799
+[48] Erika Cudworth and Stephen Hobden. 2017. The emancipatory project of posthu-
+manism . Routledge.
+[49] Michael J. Cuellar. 2016. Critical Realism as a Sociomaterial Stream of Research.
+ACM SIGMIS Database: the DATABASE for Advances in Information Systems 47,
+4 (Dec. 2016), 60–66. https://doi.org/10.1145/3025099.3025106
+[50] Christine Daigle and Terrance H McDonald. 2022. Posthumanisms through
+Deleuze and Guattari. From Deleuze and Guattari to Posthumanism (2022), 1.
+[51] Maria Puig de La Bellacasa. 2017. Matters of care: Speculative ethics in more than
+human worlds . University of Minnesota Press.
+518
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+[52] Çağdaş Dedeoğlu. 2023. Posthuman citizenship. Citizenship Studies 27, 8 (2023),
+983–1002. https://doi.org/10.1080/13621025.2023.2271867
+[53] Çağdaş Dedeoğlu and Nikoleta Zampaki. 2023. Posthumanism for sustainability:
+A scoping review. Journal of Posthumanism 3, 1 (2023), 33–57. https://doi.org/
+10.33182/joph.v3i1.2761
+[54] Çağdaş Dedeoğlu. 2020. Hey Siri: Do you believe in god? A posthuman exposé
+of belief bias in AI programming. In Technology and Theology , William H.U.
+Anderson (Ed.). Vernon Press, 77–90.
+[55] Jaime del Val and Çağdaş Dedeoğlu. 2023. Introduction: Metahuman futures
+forum and ontological therapies. Journal of Posthumanism 3, 2 (2023), 85–102.
+https://doi.org/10.33182/joph.v3i2.3096
+[56] Audrey Desjardins, Heidi R. Biggs, Cayla Key, and Jeremy E. Viny. 2020. IoT
+Data in the Home: Observing Entanglements and Drawing New Encounters. In
+Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems
+(CHI ’20) . ACM. https://doi.org/10.1145/3313831.3376342
+[57] Laura Devendorf, Abigail De Kosnik, Kate Mattingly, and Kimiko Ryokai. 2016.
+Probing the Potential of Post-Anthropocentric 3D Printing. In Proceedings of the
+2016 ACM Conference on Designing Interactive Systems (DIS ’16) . ACM. https:
+//doi.org/10.1145/2901790.2901879
+[58] Laura Devendorf, Kathryn Walters, Marianne Fairbanks, Etta Sandry, and
+Emma R Goodwill. 2023. AdaCAD: Parametric Design as a New Form of Nota-
+tion for Complex Weaving. In Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems (CHI ’23) . ACM, 1–18. https://doi.org/10.1145/
+3544548.3581571
+[59] Rosalyn Diprose. 2009. Toward an ethico-politics of the posthuman: Foucault
+and Merleau-Ponty. Parrhesia 8, December (2009), 7–19.
+[60] Carl DiSalvo and Jonathan Lukens. 2009. Seeing the City Through Machines:
+Non-Anthropocentric Design and Youth Robotics. Digital Cities 6 (2009).
+[61] Carl DiSalvo and Jonathan Lukens. 2011. Nonanthropocentrism and the nonhu-
+man in design: possibilities for designing new forms of engagement with and
+through technology. In From social butterfly to engaged citizen: urban informat-
+ics, social media, ubiquitous computing, and mobile technology to support citizen
+engagement , Marcus Foth, Laura Forlano, Christine Satchell, and Martin Gibbs
+(Eds.). MIT Press Cambridge.
+[62] Carl DiSalvo, Phoebe Sengers, and Hrönn Brynjarsdóttir. 2010. Mapping the
+landscape of sustainable HCI. In Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems . 1975–1984.
+[63] Fernanda Dobal and Vali Lalioti. 2021. Circular Species: Designing critical
+thinking into children’s science education through biomaterials and augmented
+reality. In Interaction Design and Children (IDC ’21) . ACM. https://doi.org/10.
+1145/3459990.3460698
+[64] Olivia Doggett, Kelly Bronson, and Robert Soden. 2023. HCI Research on Agricul-
+ture: Competing Sociotechnical Imaginaries, Definitions, and Opportunities. In
+Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+(CHI ’23) . ACM, 1–24. https://doi.org/10.1145/3544548.3581081
+[65] Graham Dove and Anne-Laure Fayard. 2020. Monsters, Metaphors, and Ma-
+chine Learning. In Proceedings of the 2020 CHI Conference on Human Factors
+in Computing Systems (CHI ’20, Vol. 104) . ACM, 1–17. https://doi.org/10.1145/
+3313831.3376275
+[66] Ewa Drygalska. 2024. Technologically Mediated Experiences of Visitors to the
+Frederic Chopin Museum: Postphenomenological Perspective on Touchscreens
+Affordances. Journal on Computing and Cultural Heritage 17, 1 (Feb. 2024), 1–22.
+https://doi.org/10.1145/3631127
+[67] Amany R. Elbanna. 2016. Doing Sociomateriality Research in Information
+Systems. ACM SIGMIS Database: the DATABASE for Advances in Information
+Systems 47, 4 (Dec. 2016), 84–92. https://doi.org/10.1145/3025099.3025108
+[68] Eva Eriksson, Daisy Yoo, Tilde Bekker, and Elisabet M Nilsson. 2024. More-
+than-Human Perspectives in Human-Computer Interaction Research: A Scoping
+Review. In Proceedings of the 13th Nordic Conference on Human-Computer Inter-
+action . 1–18.
+[69] Jeanette Falk, Moritz Kubesch, Anna Blumenkranz, and Christopher Frauen-
+berger. 2023. Three Design Directions for a Diversity Computing Design Space.
+InProceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+(CHI ’23, Vol. 1) . ACM, 1–16. https://doi.org/10.1145/3544548.3581155
+[70] Francesca Ferrando. 2013. Posthumanism, transhumanism, antihumanism,
+metahumanism, and new materialisms. Existenz 8, 2 (2013), 26–32.
+[71] Francesca Ferrando. 2019. Philosophical posthumanism . Bloomsbury Publishing.
+[72] Marta Galvão Ferreira and Sherry Hsi. 2024. Dear Nature: Using data drawings
+to promote sensemaking in human-nature relations. In Designing Interactive
+Systems Conference (DIS ’24) . ACM, 1426–1438. https://doi.org/10.1145/3643834.
+3660732
+[73] Marta Galvão Ferreira, Nuno Jardim Nunes, and Valentina Nisi. 2024. Towards
+Relatable Climate Change Data: Untangling Tensions in Engaging with a Hyper-
+object. In Designing Interactive Systems Conference (DIS ’24) . ACM, 3029–3045.
+https://doi.org/10.1145/3643834.3661606
+[74] Patricia Flanagan and Raune Frankjaer. 2018. Rewilding Wearables: Sympoeitic
+Interfaces for Empathic Experience of Other-than-human Entities. In Proceedings
+of the Twelfth International Conference on Tangible, Embedded, and EmbodiedInteraction (TEI ’18) . ACM. https://doi.org/10.1145/3173225.3173316
+[75] Laura Forlano. 2017. Posthumanism and design. She Ji: The Journal of Design,
+Economics, and Innovation 3, 1 (2017), 16–29.
+[76] Laura E. Forlano and Megan K. Halpern. 2023. Speculative Histories, Just Futures:
+From Counterfactual Artifacts to Counterfactual Actions. ACM Transactions on
+Computer-Human Interaction 30, 2 (April 2023), 1–37. https://doi.org/10.1145/
+3577212
+[77] Raune Frankjaer and Peter Dalsgaard. 2020. Knowledge-creation Processes
+in Crafts-based HCI Research: Introducing a Sympoietic Framework. In Pro-
+ceedings of the 11th Nordic Conference on Human-Computer Interaction: Shap-
+ing Experiences, Shaping Society (NordiCHI ’20, Vol. 6) . ACM, 1–12. https:
+//doi.org/10.1145/3419249.3420114
+[78] Christopher Frauenberger. 2019. Entanglement HCI The Next Wave? ACM
+Transactions on Computer-Human Interaction 27, 1 (Nov. 2019), 1–27. https:
+//doi.org/10.1145/3364998
+[79] Jonas Fritsch, Joanna Saad-Sulonen, and Giacomo Poderi. 2022. The Problem(s)
+of Caring for the Commons. In Nordic Human-Computer Interaction Conference
+(NordiCHI ’22) . ACM. https://doi.org/10.1145/3546155.3547287
+[80] Philip B. Gallagher. 2019. Redesigning audiences in technical communication.
+InProceedings of the 37th ACM International Conference on the Design of Com-
+munication (SIGDOC ’19, Vol. 78) . ACM, 1–10. https://doi.org/10.1145/3328020.
+3353914
+[81] Timnit Gebru and Émile P Torres. 2024. The TESCREAL bundle: Eugenics
+and the promise of utopia through artificial general intelligence. First Monday
+(2024).
+[82] Petra Gemeinboeck. 2005. Constituting, traversing and perforating boundaries:
+embodied interaction in immersive virtual spaces. In Proceedings of the 5th
+conference on Creativity & cognition - C&C ’05 (C&C ’05) . ACM Press, 41. https:
+//doi.org/10.1145/1056224.1056232
+[83] Petra Gemeinboeck and Rob Saunders. 2017. Movement Matters: How a Robot
+Becomes Body. In Proceedings of the 4th International Conference on Movement
+Computing (MOCO ’17) . ACM. https://doi.org/10.1145/3077981.3078035
+[84] Elisa Giaccardi, Johan Redström, and Iohanna Nicenboim. 2025. The making (s)
+of more-than-human design: Introduction to the special issue on more-than-
+human design and HCI. Human-Computer Interaction 40, 1-4 (2025), 1–16.
+[85] Oliver Gingrich, Alain Renaud, Eugenia Emets, and Zhidong Xiao. 2014. Trans-
+mission: a telepresence interface for neural and kinetic interaction. In ACM
+SIGGRAPH 2014 Art Gallery (SIGGRAPH ’14, Vol. 3) . ACM, 375–385. https:
+//doi.org/10.1145/2601080.2677715
+[86] Andrea Gogova. 2021. Transient Pattern – the Model of Digital Layout. In 10th
+International Conference on Digital and Interactive Arts (ARTECH 2021) . ACM,
+1–5. https://doi.org/10.1145/3483529.3483716
+[87] Chris Hables Gray. 2000. Cyborg citizen: Politics in the posthuman age . Routledge.
+[88] Lone Koefoed Hansen and Margrete Lodahl Rolighed. 2024. Encountering
+Human-Plant Relations: a Discussion of How Interaction Design Can encourage
+Human Sensibility to More-than-human Plants. In Designing Interactive Systems
+Conference (DIS ’24) . ACM, 1400–1411. https://doi.org/10.1145/3643834.3661586
+[89] Donna Haraway. 2003. The companion species manifesto: dogs, people, and
+significant otherness . Prickly Paradigm Press.
+[90] Donna Haraway. 2004. We Have Never Been Human. (2004). http://hdl.handle.
+net/1828/6848 Presentation, Pacific Centre for Technology and Culture, Victoria,
+B.C., March 18, 2004.
+[91] Donna Haraway. 2008. When species meet . University of Minnesota Press.
+[92] Donna Haraway. 2013. A cyborg manifesto: Science, technology, and socialist-
+feminism in the late twentieth century. In The transgender studies reader . Rout-
+ledge, 103–118.
+[93] Graham Harman. 2018. Object-oriented ontology: A new theory of everything .
+Penguin UK.
+[94] Ellie Harmon and Melissa Mazmanian. 2013. Stories of the Smartphone in
+everyday discourse: conflict, tension & instability. In Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems (CHI ’13) . ACM. https:
+//doi.org/10.1145/2470654.2466134
+[95] Steve Harrison, Deborah Tatar, and Phoebe Sengers. 2007. The three paradigms
+of HCI. In Alt. Chi. Session at the SIGCHI Conference on human factors in com-
+puting systems San Jose, California, USA . 1–18.
+[96] Nik Rushdi Hassan. 2016. Editorial: A Brief History of the Material in Socio-
+materiality. ACM SIGMIS Database: the DATABASE for Advances in Information
+Systems 47, 4 (Dec. 2016), 10–22. https://doi.org/10.1145/3025099.3025101
+[97] N Katherine Hayles. 1999. How We Became Posthuman: Virtual Bodies in
+Cybernetics, Literature, and Informatics.
+[98] Sara Heitlinger, Lara Houston, Alex Taylor, and Ruth Catlow. 2021. Algorith-
+mic Food Justice: Co-Designing More-than-Human Blockchain Futures for the
+Food Commons. In Proceedings of the 2021 CHI Conference on Human Factors in
+Computing Systems (CHI ’21) . ACM. https://doi.org/10.1145/3411764.3445655
+[99] Karey Helms. 2021. Entangled Reflections on Designing with Leaky Breastfeed-
+ing Bodies. In Designing Interactive Systems Conference 2021 (DIS ’21) . ACM,
+1998–2012. https://doi.org/10.1145/3461778.3462048
+519
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+[100] Daniel Hocutt. 2021. Interrogating Alexa: Holding Voice Assistants Accountable
+for Their Answers. In The 39th ACM International Conference on Design of
+Communication (SIGDOC ’21, Vol. 7) . ACM, 142–150. https://doi.org/10.1145/
+3472714.3473634
+[101] Sarah Homewood, Marika Hedemyr, Maja Fagerberg Ranten, and Susan Kozel.
+2021. Tracing Conceptions of the Body in HCI: From User to More-Than-Human.
+InProceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(CHI ’21) . ACM. https://doi.org/10.1145/3411764.3445656
+[102] Sarah Homewood, Amanda Karlsson, and Anna Vallgårda. 2020. Removal as a
+method: A fourth wave HCI approach to understanding the experience of self-
+tracking. In Proceedings of the 2020 ACM designing interactive systems conference .
+1779–1791.
+[103] Sarah Homewood, Amanda Karlsson, and Anna Vallgårda. 2020. Removal as
+a Method: A Fourth Wave HCI Approach to Understanding the Experience
+of Self-Tracking. In Proceedings of the 2020 ACM Designing Interactive Systems
+Conference (DIS ’20) . ACM. https://doi.org/10.1145/3357236.3395425
+[104] Mark-David Hosale, Erika Batdorf, Kate Digby, and Alan Macy. 2019. Perfor-
+mance, Art, and Cyber-Interoceptive Systems (PACIS). In Proceedings of the 6th
+International Conference on Movement and Computing (MOCO ’19, Vol. 2) . ACM,
+1–8. https://doi.org/10.1145/3347122.3347142
+[105] Noura Howell, John Chuang, Abigail De Kosnik, Greg Niemeyer, and Kimiko
+Ryokai. 2018. Emotional Biosensing: Exploring Critical Alternatives. Proceedings
+of the ACM on Human-Computer Interaction 2, CSCW (Nov. 2018), 1–25. https:
+//doi.org/10.1145/3274338
+[106] Alessandro Ianniello, Alessia Romani, and Francesca Casnati. 2022. Technol-
+ogy toward more-than-human symbiosis: Critical reflections from the design
+perspective. In Proceedings of the 25th International Academic Mindtrek Confer-
+ence (Academic Mindtrek 2022, Vol. 7) . ACM, 158–166. https://doi.org/10.1145/
+3569219.3569379
+[107] Don Ihde. 1995. Postphenomenology: Essays in the postmodern context . North-
+western University Press.
+[108] Yuta Ikeya, Miguel Bruns, and Bahareh Barati. 2024. Designing for Inter-
+dependence of Bees, Garden, Designer, and the Changing Season. In De-
+signing Interactive Systems Conference (DIS ’24) . ACM, 1385–1399. https:
+//doi.org/10.1145/3643834.3660743
+[109] Tim Ingold. 2021. Being alive: Essays on movement, knowledge and description .
+Routledge.
+[110] Lucija Ivsic, Nina Rajcic, Jon McCormack, and Vince Dziekan. 2021. The Art
+of Point Clouds: 3D LiDAR Scanning and Photogrammetry in Science & Art.
+In10th International Conference on Digital and Interactive Arts (ARTECH 2021) .
+ACM. https://doi.org/10.1145/3483529.3483702
+[111] Steven J. Jackson and Laewoo Kang. 2014. Breakdown, obsolescence and reuse:
+HCI and the art of repair. In Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems (CHI ’14) . ACM. https://doi.org/10.1145/2556288.
+2557332
+[112] Sylvia Janicki, Nassim Parvin, and Noura Howell. 2024. Crip Reflections on
+Designing with Plants: Intersecting Disability Theory, Chronic Illness, and
+More-than-Human Design. In Designing Interactive Systems Conference (DIS ’24) .
+ACM, 1044–1058. https://doi.org/10.1145/3643834.3661509
+[113] Sylvia Janicki, Alexandra Teixeira Riggs, Noura Howell, Anne Sullivan, and
+Nassim Parvin. 2024. Sensing Bodies: Engaging Postcolonial Histories through
+More-than-Human Interactions. In Proceedings of the Eighteenth International
+Conference on Tangible, Embedded, and Embodied Interaction (TEI ’24, Vol. 5) .
+ACM, 1–15. https://doi.org/10.1145/3623509.3633389
+[114] Ian Jarvis and Doug Van Nort. 2018. Posthuman Gesture. In Proceedings of the
+5th International Conference on Movement and Computing (MOCO ’18) . ACM,
+1–8. https://doi.org/10.1145/3212721.3212807
+[115] Mads Møller Jensen and Jesper Aagaard. 2018. A postphenomenological method
+for HCI research. In Proceedings of the 30th Australian Conference on Computer-
+Human Interaction (OzCHI ’18) . ACM. https://doi.org/10.1145/3292147.3292170
+[116] Martin Jonsson and Jakob Tholander. 2022. Cracking the code: Co-coding with
+AI in creative programming education. In Creativity and Cognition (C&C ’22) .
+ACM. https://doi.org/10.1145/3527927.3532801
+[117] Heekyoung Jung and Sookyung Cho. 2022. Methodological Reflections on Ways
+of Seeing. In CHI Conference on Human Factors in Computing Systems (CHI ’22,
+Vol. 56) . ACM, 1–17. https://doi.org/10.1145/3491102.3517539
+[118] Petra Jääskeläinen, André Holzapfel, and Cecilia Åsberg. 2022. Exploring More-
+than-Human Caring in Creative-Ai Interactions. In Nordic Human-Computer
+Interaction Conference (NordiCHI ’22, Vol. 14) . ACM, 1–7. https://doi.org/10.
+1145/3546155.3547278
+[119] Gopinaath Kannabiran and Anuradha Venugopal Reddy. 2022. Exploring Kolam
+As An Ecofeminist Computational Art Practice. In Creativity and Cognition
+(C&C ’22, Vol. 90) . ACM, 336–349. https://doi.org/10.1145/3527927.3531452
+[120] Karlheinz Kautz and Melinda Plumb. 2016. Strong versus Weak Sociomateriality:
+Neither Subordinate nor Privileged- A rejoinder to “New Technology and the
+Post-human self: Rethinking Appropriation and Resistance”. ACM SIGMIS
+Database: the DATABASE for Advances in Information Systems 47, 4 (Dec. 2016),34–40. https://doi.org/10.1145/3025099.3025103
+[121] Cayla Key, Cally Gatehouse, and Nick Taylor. 2022. Feminist Care in the Anthro-
+pocene: Packing and Unpacking Tensions in Posthumanist HCI. In Designing
+Interactive Systems Conference (DIS ’22) . ACM. https://doi.org/10.1145/3532106.
+3533540
+[122] Sandjar Kozubaev and Noura Howell. 2024. “Tuning in and listening to the
+current”: Understanding Remote Ritual Practice in Sufi Communities. In De-
+signing Interactive Systems Conference (DIS ’24) . ACM, 2633–2648. https:
+//doi.org/10.1145/3643834.3661593
+[123] Alinta Krauth. 2020. Making-with: Nonhuman Animal Inclusivity in an Elec-
+tronic Literature Practice. In Proceedings of the Seventh International Confer-
+ence on Animal-Computer Interaction (ACI’2020, Vol. 1) . ACM, 1–5. https:
+//doi.org/10.1145/3446002.3446051
+[124] Cherie Lacey and Catherine Caudwell. 2019. Cuteness as a ‘Dark Pattern’ in
+Home Robots. In 2019 14th ACM/IEEE International Conference on Human-Robot
+Interaction (HRI) . IEEE. https://doi.org/10.1109/hri.2019.8673274
+[125] Edgar Landgraf. 2023. Nietzsche’s posthumanism . U of Minnesota Press.
+[126] Ricelli Laplace and Joel Peter Weber Letkemann. 2022. Science Fictioning
+Participatory Design. In Participatory Design Conference 2022: Volume 1 (PDC
+2022, Vol. 52) . ACM, 1–12. https://doi.org/10.1145/3536169.3537775
+[127] Bruno Latour. 2004. Politics of nature . Harvard University Press.
+[128] Bruno Latour. 2007. Reassembling the social: An introduction to actor-network-
+theory . Oup Oxford.
+[129] Kristina Lindström, Li Jönsson, and Per-Anders Hillgren. 2024. Reorientations:
+Practicing Grief and Hope in Post-Carbon Futures. In Participatory Design
+Conference 2024 (PDC ’24) . ACM, 187–196. https://doi.org/10.1145/3666094.
+3666104
+[130] Szu-Yu (Cyn) Liu, Shaowen Bardzell, and Jeffrey Bardzell. 2019. Symbiotic
+Encounters: HCI and Sustainable Agriculture. In Proceedings of the 2019 CHI
+Conference on Human Factors in Computing Systems (CHI ’19) . ACM. https:
+//doi.org/10.1145/3290605.3300547
+[131] Szu-Yu (Cyn) Liu, Justin Cranshaw, and Asta Roseway. 2020. Making Air Quality
+Data Meaningful: Coupling Objective Measurement with Subjective Experience
+through Narration. In Proceedings of the 2020 ACM Designing Interactive Systems
+Conference (DIS ’20) . ACM. https://doi.org/10.1145/3357236.3395517
+[132] Maya Livio and Laura Devendorf. 2022. The Eco-Technical Interface: Attuning
+to the Instrumental. In CHI Conference on Human Factors in Computing Systems
+(CHI ’22) . ACM. https://doi.org/10.1145/3491102.3501851
+[133] P. Love. 2018. Rhetorically Defining “Information” For Designers and Technical
+Communicators: Transport, Institutional Shift, and Usability. In Proceedings of
+the 36th ACM International Conference on the Design of Communication (SIGDOC
+’18, Vol. 6) . ACM, 1–7. https://doi.org/10.1145/3233756.3233945
+[134] Alex Jiahong Lu, Shruti Sannon, Cameron Moy, Savana Brewer, Jaye Green,
+Kisha N. Jackson, Daivon Reeder, Camaria Wafer, Mark S. Ackerman, and
+Tawanna R. Dillahunt. 2023. Shifting from Surveillance-as-Safety to Safety-
+through-Noticing: A Photovoice Study with Eastside Detroit Residents. In Pro-
+ceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+(CHI ’23, Vol. 60) . ACM, 1–19. https://doi.org/10.1145/3544548.3581474
+[135] Christina Lu, Jackie Kay, and Kevin McKee. 2022. Subverting machines, fluc-
+tuating identities: Re-learning human categorization. In 2022 ACM Confer-
+ence on Fairness, Accountability, and Transparency (FAccT ’22) . ACM. https:
+//doi.org/10.1145/3531146.3533161
+[136] Deborah Lupton. 2014. Self-tracking cultures: towards a sociology of personal
+informatics. In Proceedings of the 26th Australian Computer-Human Interaction
+Conference on Designing Futures: the Future of Design (OzCHI ’14) . ACM. https:
+//doi.org/10.1145/2686612.2686623
+[137] Patricia MacCormack. 2017. Posthuman teratology. In The Ashgate research
+companion to monsters and the monstrous . Routledge, 333–350.
+[138] Thor Magnusson, Kit Braybrooke, Sophie Skach, Giacomo Lepri, Marco Don-
+narumma, Adam Pultz Melbye, Jack Armitage, Victor Shepardson, Nicola Privato,
+Miguel Angel Crozzoli, Halldor Ulfarsson, and Sean Patrick O’Brien. 2024. The
+Organium: A Library of Technical Elements for Improvisatory Design Thinking.
+InAudio Mostly 2024 - Explorations in Sonic Cultures (AM ’24) . ACM, 198–208.
+https://doi.org/10.1145/3678299.3678319
+[139] Tatu Marttila. 2011. Unpleasurable products and interfaces: provocative design
+communication for sustainable society. In Proceedings of the 2011 Conference
+on Designing Pleasurable Products and Interfaces (DPPI ’11) . ACM, 1–4. https:
+//doi.org/10.1145/2347504.2347546
+[140] Achille Mbembe. 2020. Necropolitics . Duke University Press.
+[141] Avital Meshi. 2024. The New Vitruvian: Becoming-with an AI Recognition
+Algorithm. In Proceedings of the 9th International Conference on Movement and
+Computing (MOCO ’24) . ACM, 1–4. https://doi.org/10.1145/3658852.3658862
+[142] Jessica R Mindel, Miles Baird, Allison Prisloe, Feifei Shen, Cherry Wu, Yang
+Yi, and Hiroshi Ishii. 2023. Pull It Together: Textile Patina as an Interface for
+Externalizing Invisible Tension. In Designing Interactive Systems Conference (DIS
+’23). ACM, 232–236. https://doi.org/10.1145/3563703.3596638
+[143] Landon Morrison and Andrew McPherson. 2024. Entangling Entanglement:
+A Diffractive Dialogue on HCI and Musical Interactions. In Proceedings of the
+520
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+CHI Conference on Human Factors in Computing Systems (CHI ’24, Vol. 21) . ACM,
+1–17. https://doi.org/10.1145/3613904.3642171
+[144] Timothy Morton. 2013. She stood in tears amid the alien corn: Thinking through
+agrilogistics. Diacritics 41, 3 (2013), 90–113.
+[145] Timothy Morton. 2016. Dark ecology: For a logic of future coexistence . Columbia
+University Press.
+[146] Teoma J. Naccarato and John MacCallum. 2017. Critical Appropriations of
+Biosensors in Artistic Practice. In Proceedings of the 4th International Conference
+on Movement Computing (MOCO ’17) . ACM. https://doi.org/10.1145/3077981.
+3078053
+[147] Troy Nachtigall, Oscar Tomico, Ron Wakkary, and Pauline van Dongen. 2019.
+Encoding Materials and Data for Iterative Personalization. In Proceedings of the
+2019 CHI Conference on Human Factors in Computing Systems (CHI ’19, Vol. 11) .
+ACM, 1–12. https://doi.org/10.1145/3290605.3300749
+[148] Pramod K. Nayar. 2014. Posthumanism . Polity.
+[149] Ruth Neubauer. 2019. Reconfiguring Human-centred Design of Technology
+as a Technohuman Intervention. In Proceedings of the Halfway to the Future
+Symposium 2019 (HTTF 2019, Vol. 10) . ACM, 1–4. https://doi.org/10.1145/3363384.
+3363473
+[150] Quynh Nguyen, Julia Himmelsbach, Diotima Bertel, Olivia Zechner, and Man-
+fred Tscheligi. 2022. What Is Meaningful Human-Computer Interaction? Under-
+standing Freedom, Responsibility, and Noos in HCI Based on Viktor Frankl’s
+Existential Philosophy. In Designing Interactive Systems Conference (DIS ’22,
+Vol. 14) . ACM, 654–665. https://doi.org/10.1145/3532106.3533484
+[151] Iohanna Nicenboim, Doenja Oogjes, Heidi Biggs, and Seowoo Nam. 2025. De-
+centering through design: Bridging posthuman theory with more-than-human
+design practices. Human–Computer Interaction 40, 1-4 (2025), 195–220.
+[152] Greg Nijs, Giulietta Laki, Rafaella Houlstan, Guillaume Slizewicz, and Thomas
+Laureyssens. 2020. Fostering More-than-Human Imaginaries: Introducing DIY
+Speculative Fabulation in Civic HCI. In Proceedings of the 11th Nordic Conference
+on Human-Computer Interaction: Shaping Experiences, Shaping Society (NordiCHI
+’20, Vol. 10) . ACM, 1–12. https://doi.org/10.1145/3419249.3420147
+[153] Charlotte Nordmoen and Andrew P. McPherson. 2022. Making space for material
+entanglements: A diffractive analysis of woodwork and the practice of making
+an interactive system. In Designing Interactive Systems Conference (DIS ’22) .
+ACM. https://doi.org/10.1145/3532106.3533572
+[154] Claudia Núñez-Pacheco and Anton Poikolainen Rosén. 2024. Articulating Felt
+Senses for More-Than-Human Design: A Viewpoint for Noticing. In Designing
+Interactive Systems Conference (DIS ’24) . ACM, 1029–1043. https://doi.org/10.
+1145/3643834.3661554
+[155] Netta Ofer and Mirela Alistar. 2023. Felt Experiences with Kombucha Scoby:
+Exploring First-person Perspectives with Living Matter. In Proceedings of the
+2023 CHI Conference on Human Factors in Computing Systems (CHI ’23) . ACM,
+1–18. https://doi.org/10.1145/3544548.3581276
+[156] Netta Ofer and Mirela Alistar. 2024. Tracing as a Strategy for Orienting to
+Nonhuman Perspectives. In Designing Interactive Systems Conference (DIS ’24) .
+ACM, 1087–1100. https://doi.org/10.1145/3643834.3661621
+[157] Lynda Olman and Danielle DeVasto. 2020. Hybrid collectivity: hacking en-
+vironmental risk visualization for the anthropocene. Communication Design
+Quarterly 8, 4 (Dec. 2020), 15–28. https://doi.org/10.1145/3431932.3431934
+[158] Doenja Oogjes and Ron Wakkary. 2022. Weaving Stories: Toward Repertoires for
+Designing Things. In CHI Conference on Human Factors in Computing Systems
+(CHI ’22) . ACM. https://doi.org/10.1145/3491102.3501901
+[159] Daniëlle Ooms, Bahareh Barati, Miguel Bruns, and Teresa van Dongen. 2022.
+From Concern to Care: A Transformative Reflection on Designing-with the
+Living. In Nordic Human-Computer Interaction Conference (NordiCHI ’22) . ACM.
+https://doi.org/10.1145/3546155.3547285
+[160] Jo Orsatti, Ella Hafermalz, and Dirk S. Hovorka. 2016. Rethinking, “Rethinking:
+Post-Human Boundaries”: Pre-given or Performed? ACM SIGMIS Database:
+the DATABASE for Advances in Information Systems 47, 4 (Dec. 2016), 41–44.
+https://doi.org/10.1145/3025099.3025104
+[161] Penny Papageorgopoulou, Dimitris Delinikolas, Natalia Arsenopoulou, Louiza
+Katsarou, Charalampos Rizopoulos, Antonios Psaltis, Iouliani Theona, Alexan-
+dros Drymonitis, Antonios Korosidis, and Dimitrios Charitos. 2021. Embedding
+an interactive art installation into a building for enhancing citizen’s awareness
+on urban environmental conditions. In Media Architecture Biennale 20 (MAB20) .
+ACM, 160–169. https://doi.org/10.1145/3469410.3469426
+[162] Robert Pepperell. 1995. The post-human condition: Consciousness beyond the
+brain . Intellect Oxford.
+[163] Robert Pepperell. 2002. Computer aided creativity: practical experience and
+theoretical concerns. In Proceedings of the fourth conference on Creativity &
+cognition - C&C ’02 (C&C ’02) . ACM Press, 50–56. https://doi.org/10.1145/
+581710.581720
+[164] James Pierce. 2012. Undesigning technology: considering the negation of de-
+sign by design. In Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems . 957–966.
+[165] Suvi Pihkala and Helena Karasti. 2018. Politics of mattering in the practices of
+participatory design. In Proceedings of the 15th Participatory Design Conference:Short Papers, Situated Actions, Workshops and Tutorial - Volume 2 (PDC ’18,
+Vol. 14) . ACM, 1–5. https://doi.org/10.1145/3210604.3210616
+[166] Suvi Pihkala and Helena Karasti. 2022. Towards Response-able PD: Putting
+Feminist New Materialisms to Work in the Practices of Participatory Design.
+InParticipatory Design Conference 2022: Volume 1 (PDC 2022) . ACM. https:
+//doi.org/10.1145/3536169.3537784
+[167] Sebastian Prost, Irina Pavlovskaya, Kahina Meziant, Vasilis Vlachokyriakos, and
+Clara Crivellaro. 2021. Contact Zones: Designing for More-than-Human Food
+Relations. Proceedings of the ACM on Human-Computer Interaction 5, CSCW1
+(April 2021), 1–24. https://doi.org/10.1145/3449121
+[168] Gavin Rae. 2014. Heidegger’s influence on posthumanism: The destruction of
+metaphysics, technology and the overcoming of anthropocentrism. History of
+the Human Sciences 27, 1 (2014), 51–69.
+[169] Nina Rajcic, Maria Teresa Llano Rodriguez, and Jon McCormack. 2024. Towards
+a Diffractive Analysis of Prompt-Based Generative AI. In Proceedings of the CHI
+Conference on Human Factors in Computing Systems (CHI ’24, Vol. 23) . ACM,
+1–15. https://doi.org/10.1145/3613904.3641971
+[170] Nina Rajcic and Jon McCormack. 2023. Message Ritual: A Posthuman Account
+of Living with Lamp. In Proceedings of the 2023 CHI Conference on Human Factors
+in Computing Systems (CHI ’23, Vol. 1) . ACM, 1–16. https://doi.org/10.1145/
+3544548.3581363
+[171] Vineetha Rallabandi, Alice C Haynes, Courtney N. Reed, and Paul Strohmeier.
+2024. Base and Stitch: Evaluating eTextile Interfaces from a Material-Centric
+View. In Proceedings of the Eighteenth International Conference on Tangible,
+Embedded, and Embodied Interaction (TEI ’24, Vol. 9) . ACM, 1–13. https://doi.
+org/10.1145/3623509.3633363
+[172] Neil Ramiller. 2016. New Technology and the Post-human Self: Rethinking Ap-
+propriation and Resistance. ACM SIGMIS Database: the DATABASE for Advances
+in Information Systems 47, 4 (Dec. 2016), 23–33. https://doi.org/10.1145/3025099.
+3025102
+[173] Courtney N. Reed, Landon Morrison, Andrew P. McPherson, David Fierro, and
+Atau Tanaka. 2024. Sonic Entanglements with Electromyography: Between
+Bodies, Signals, and Representations. In Designing Interactive Systems Conference
+(DIS ’24) . ACM, 2691–2707. https://doi.org/10.1145/3643834.3661572
+[174] Nicole Robson, Andrew McPherson, and Nick Bryan-Kinns. 2024. Thinking with
+Sound: Exploring the Experience of Listening to an Ultrasonic Art Installation.
+InProceedings of the CHI Conference on Human Factors in Computing Systems
+(CHI ’24, Vol. 4) . ACM, 1–14. https://doi.org/10.1145/3613904.3642616
+[175] Shannon Rodgers, Bernd Ploderer, Kellie Vella, and Margot Brereton. 2022. Phe-
+nology Probes: Exploring Human-Nature Relations for Designing Sustainable
+Futures. In Proceedings of the 34th Australian Conference on Human-Computer
+Interaction (OzCHI ’22) . ACM. https://doi.org/10.1145/3572921.3572936
+[176] Shannon Rodgers, Kellie Vella, Bernd Ploderer, and Margot Brereton. 2023.
+Nature Fictions: Designing for a Sustainable Future through Nature Relations.
+InProceedings of the 2023 ACM Designing Interactive Systems Conference (DIS
+’23). ACM. https://doi.org/10.1145/3563657.3595981
+[177] Margrete Lodahl Rolighed, Ester Marie Aagaard, Marcus Due Jensen, Raune
+Frankjaer, and Lone Koefoed Hansen. 2022. Plant Radio: Tuning in to plants by
+combining posthumanism and design. In Designing Interactive Systems Confer-
+ence (DIS ’22, Vol. 1) . ACM, 666–676. https://doi.org/10.1145/3532106.3533517
+[178] Emma J. Rose and Rebecca Walton. 2015. Factors to actors: implications of
+posthumanism for social justice work. In Proceedings of the 33rd Annual In-
+ternational Conference on the Design of Communication (SIGDOC ’15) . ACM.
+https://doi.org/10.1145/2775441.2775464
+[179] Robert Rosenberger and Peter PCC Verbeek. 2015. Postphenomenological inves-
+tigations: Essays on human-technology relations . Lexington Books.
+[180] Karin Ryding, Vasiliki Tsaknaki, Stina Marie Hasse Jørgensen, and Jonas Fritsch.
+2023. Lydspor: An Urban sound experience weaving together past and present
+through vibrating bodies. In Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems (CHI ’23, Vol. 3) . ACM, 1–16. https://doi.org/10.
+1145/3544548.3581523
+[181] Yaara Sadetzki and Orit Hirsch-Matsioulas. 2021. Leashing the City: Dog-Leash-
+Human Entanglements and the Urban Space. In Eight International Conference
+on Animal-Computer Interaction (ACI’21) . ACM. https://doi.org/10.1145/3493842.
+3493889
+[182] Erik Sandelin and Sarah Homewood. 2020. Design (In)actions. In Proceedings of
+the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences,
+Shaping Society (NordiCHI ’20) . ACM. https://doi.org/10.1145/3419249.3420172
+[183] Vishal Sharma, Neha Kumar, and Bonnie Nardi. 2023. Post-growth Hu-
+man–Computer Interaction. ACM Transactions on Computer-Human Interaction
+31, 1 (Nov. 2023), 1–37. https://doi.org/10.1145/3624981
+[184] Hira Sheikh, Kavita Gonsalves, and Marcus Foth. 2021. Plant(e)tecture: Towards
+a Multispecies Media Architecture Framework for amplifying Plant Agencies.
+InMedia Architecture Biennale 20 (MAB20, Vol. 30) . ACM, 87–99. https://doi.
+org/10.1145/3469410.3469419
+[185] M. Six Silberman, Lisa Nathan, Bran Knowles, Roy Bendor, Adrian Clear, Maria
+Håkansson, Tawanna Dillahunt, and Jennifer Mankoff. 2014. Next steps for
+sustainable HCI. Interactions 21, 5 (2014), 66–69.
+521
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+[186] Linda Tuhiwai Smith et al .2019. Decolonizing research: Indigenous storywork as
+methodology . Bloomsbury Publishing.
+[187] Nancy Smith, Shaowen Bardzell, and Jeffrey Bardzell. 2017. Designing for
+Cohabitation: Naturecultures, Hybrids, and Decentering the Human in Design.
+InProceedings of the 2017 CHI Conference on Human Factors in Computing Systems
+(CHI ’17) . ACM. https://doi.org/10.1145/3025453.3025948
+[188] Hannah Snyder. 2019. Literature review as a research methodology: An overview
+and guidelines. Journal of Business Research 104 (2019), 333–339.
+[189] Robert Soden, Pradnaya Pathak, and Olivia Doggett. 2021. What We Speculate
+About When We Speculate About Sustainable HCI. In ACM SIGCAS Conference
+on Computing and Sustainable Societies (COMPASS) (COMPASS ’21) . ACM. https:
+//doi.org/10.1145/3460112.3471956
+[190] Julian Stadon and Raphael Grasset. 2011. Syncretic Post-Biological Digital Iden-
+tity: Hybridizing Mixed Reality Data Transfer Systems. In 2011 IEEE/ACM 15th
+International Symposium on Distributed Simulation and Real Time Applications ,
+Vol. 2 1. IEEE, 120–125. https://doi.org/10.1109/ds-rt.2011.28
+[191] Anna Ståhl, Madeline Balaam, Rob Comber, Pedro Sanches, and Kristina Höök.
+2022. Making New Worlds – Transformative Becomings with Soma Design.
+InCHI Conference on Human Factors in Computing Systems (CHI ’22) . ACM.
+https://doi.org/10.1145/3491102.3502018
+[192] Prophecy Sun, Shannon Cuykendall, Kristin Carlson, Maria Lantin, and Thecla
+Schiphorst. 2016. spaceDisplaced: Investigating Presence Through Mediated
+Participatory Environments. In Proceedings of the 3rd International Symposium
+on Movement and Computing (MOCO’16, Vol. 3) . ACM, 1–6. https://doi.org/10.
+1145/2948910.2948945
+[193] Steve Symons. 2024. The Perceptron: A Multi-player Entangled Instrument based
+on Interpretive Mapping and Intra-action.. In Audio Mostly 2024 - Explorations in
+Sonic Cultures (AM ’24) . ACM, 385–391. https://doi.org/10.1145/3678299.3678338
+[194] Marie Louise Juul Søndergaard and Nadia Campo Woytuk. 2023. Feminist
+Posthumanist Design of Menstrual Care for More-than-Human Bodies. In Pro-
+ceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+(CHI ’23, Vol. 9) . ACM, 1–18. https://doi.org/10.1145/3544548.3581083
+[195] Marie Louise Juul Søndergaard, Nadia Campo Woytuk, Noura Howell, Vasiliki
+Tsaknaki, Karey Helms, Tom Jenkins, and Pedro Sanches. 2023. Fabulation as
+an Approach for Design Futuring. In Proceedings of the 2023 ACM Designing
+Interactive Systems Conference (DIS ’23) . ACM. https://doi.org/10.1145/3563657.
+3596097
+[196] Marc Teyssier, Marion Koelle, Paul Strohmeier, Bruno Fruchard, and Jürgen
+Steimle. 2021. Eyecam: Revealing Relations between Humans and Sensing
+Devices through an Anthropomorphic Webcam. In Proceedings of the 2021 CHI
+Conference on Human Factors in Computing Systems (CHI ’21, Vol. 4) . ACM, 1–13.
+https://doi.org/10.1145/3411764.3445491
+[197] Jakob Tholander and Martin Jonsson. 2023. Design Ideation with AI - Sketching,
+Thinking and Talking with Generative Machine Learning Models. In Proceedings
+of the 2023 ACM Designing Interactive Systems Conference (DIS ’23) . ACM. https:
+//doi.org/10.1145/3563657.3596014
+[198] Oscar Tomico, Anton Poikolainen Rosén, Svenja Keune, Ferran Altarriba Bertran,
+Danielle Wilde, Daniel Fernández Galeote, Tau Ulv Lenskjold, Ruut Tikkanen,
+Oğuz ’Oz Buruk, and Velvet Spors. 2024. Seeding a Repository of Methods-
+To-Be for Nature-Entangled Design Research. In Designing Interactive Systems
+Conference (DIS ’24) . ACM, 1101–1115. https://doi.org/10.1145/3643834.3660745
+[199] Giovanni Maria Troiano, Matthew Wood, and Casper Harteveld. 2020. “And This,
+Kids, Is How I Met Your Mother”: Consumerist, Mundane, and Uncanny Futures
+with Sex Robots. In Proceedings of the 2020 CHI Conference on Human Factors in
+Computing Systems (CHI ’20) . ACM. https://doi.org/10.1145/3313831.3376598
+[200] Anna Lowenhaupt Tsing. 2015. The Mushroom at the End of the World: On the
+Possibility of Life in Capitalist Ruins . Princeton University Press.
+[201] Eve Tuck, Marcia McKenzie, and Kate McCoy. 2014. Land education: Indige-
+nous, post-colonial, and decolonizing perspectives on place and environmental
+education research. Environmental Education Research 20, 1 (2014), 1–23.
+[202] Laia Turmo Vidal, José Manuel Vega-Cebrián, Amar D’Adamo, Marte Roel Lesur,
+Mohammad Mahdi Dehshibi, Joaquín Díaz Durán, and Ana Tajadura-Jiménez.
+2023. On Futuring Body Perception Transformation Technologies: Roles, Goals
+and Values. In 26th International Academic Mindtrek Conference (Mindtrek ’23,
+Vol. 8) . ACM, 169–181. https://doi.org/10.1145/3616961.3616991
+[203] Peter-Paul Verbeek. 2015. COVER STORY beyond interaction: a short introduc-
+tion to mediation theory. Interactions 22, 3 (2015), 26–31.
+[204] Lorella Viola. 2023. Networks of Migrants’ Narratives: A Post-authentic Ap-
+proach to Heritage Visualisation. Journal on Computing and Cultural Heritage
+16, 1 (March 2023), 1–21. https://doi.org/10.1145/3575863
+[205] Ron Wakkary. 2020. Nomadic practices: A posthuman theory for knowing
+design. International Journal of Design 14, 3 (2020), 117.
+[206] Ron Wakkary. 2021. Things we could design: For more than human-centered
+worlds . MIT press.
+[207] Ron Wakkary, Audrey Desjardins, Sabrina Hauser, and Leah Maestri. 2013. A
+sustainable design fiction: Green practices. ACM Transactions on Computer-
+Human Interaction (TOCHI) 20, 4 (2013), 1–34.[208] Ron Wakkary, Doenja Oogjes, and Armi Behzad. 2022. Two Years or More
+of Co-speculation: Polylogues of Philosophers, Designers, and a Tilting Bowl.
+ACM Transactions on Computer-Human Interaction 29, 5 (Oct. 2022), 1–44. https:
+//doi.org/10.1145/3514235
+[209] Hannah Walter, Eric Larrieux, Robert Torche, Cedric Spindler, and Patrick Müller.
+2024. NEXUS: A Tangible Multi-User Sensor-Based Telematic Novel Mixing-
+Interface for Multimedial Exploration. In Audio Mostly 2024 - Explorations in
+Sonic Cultures (AM ’24) . ACM, 245–259. https://doi.org/10.1145/3678299.3678323
+[210] Josephine N. Walwema. 2012. Designing with templates in instructional design.
+InProceedings of the 30th ACM International Conference on Design of commu-
+nication (SIGDOC 2012, Vol. 19) . ACM, 17–22. https://doi.org/10.1145/2379057.
+2379061
+[211] Michelle Westerlaken and Stefano Gualeni. 2016. Becoming with: towards the
+inclusion of animals as participants in design processes. In Proceedings of the
+Third International Conference on Animal-Computer Interaction (ACI ’16) . ACM.
+https://doi.org/10.1145/2995257.2995392
+[212] Kyle Whyte. 2020. Indigenous environmental justice: Anti-colonial action
+through kinship. In Environmental justice . Routledge, 266–278.
+[213] Ryan Wittingslow. 2012. What does it mean to be enhanced?. In Proceedings of
+the 2012 Virtual Reality International Conference (VRIC ’12, Vol. 19) . ACM, 1–9.
+https://doi.org/10.1145/2331714.2331724
+[214] Cary Wolfe. 2017. Posthumanism Thinks the Political: A Genealogy for Fou-
+cault’s The Birth of Biopolitics. Journal of Posthuman Studies 1, 2 (2017), 117–135.
+[215] Rewa Wright and Simon Howden. 2023. Exploring the Eco-Digital: Performative
+Sensing with Plants and Data. In SIGGRAPH Asia 2023 Art Papers (SA ’23) . ACM,
+1–4. https://doi.org/10.1145/3610591.3616428
+[216] Bieke Zaman, Maarten Van Mechelen, and Lizzy Bleumers. 2018. When toys
+come to life: considering the internet of toys from an animistic design perspec-
+tive. In Proceedings of the 17th ACM Conference on Interaction Design and Children
+(IDC ’18, Vol. 2) . ACM, 170–180. https://doi.org/10.1145/3202185.3202745
+[217] Jiwei Zhou, Zjenja Doubrovski, Elisa Giaccardi, and Elvin Karana. 2024. Living
+with Cyanobacteria: Exploring Materiality in Caring for Microbes in Everyday
+Life. In Proceedings of the CHI Conference on Human Factors in Computing Systems
+(CHI ’24, Vol. 9) . ACM, 1–20. https://doi.org/10.1145/3613904.3642039
+[218] Marine Zorea and Katsuhiko Kushi. 2024. All Is Heard: Reimagining The Sounds
+of Home With Care. In Designing Interactive Systems Conference (DIS ’24) . ACM,
+2708–2718. https://doi.org/10.1145/3643834.3660686
+522
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+A Corpus of Papers with Classifications
+Paper Title Conference YearPosthumanist
+PrinciplesEco, Tech,
+or Both
+Computer aided creativity: practical experience and theo-
+retical concerns [163]C&C 2002 PA T
+Constituting, traversing and perforating boundaries: em-
+bodied interaction in immersive virtual spaces [82]C&C 2005 PA, PD T
+Syncretic Post-Biological Digital Identity: Hybridizing
+Mixed Reality Data Transfer Systems [190]DS-RT 2011 PA T
+Unpleasurable products and interfaces [139] DPPI 2011 PA B
+What does it mean to be enhanced? [213] VRIC 2012 PA, PD T
+Designing with templates in instructional design [210] SIGDOC 2012 PA T
+Stories of the Smartphone in everyday discourse: conflict,
+tension & instability [94]CHI 2013 PA T
+Breakdown, obsolescence and reuse: HCI and the art of
+repair [111]CHI 2014 PA, PD T
+Object intermediaries: How New Media Artists Translate
+the Language of Things [6]SIGGRAPH 2014 PA, PD B
+Transmission: A Telepresence Interface for Neural and Ki-
+netic Interaction [85]SIGGRAPH 2014 PA T
+Self-tracking cultures: Towards a sociology of personal in-
+formatics [136]OzCHI 2014 PH, PA, PD T
+Smelling, pulling, and looking [8] ACE 2015 PA E
+Factors to actors: implications of posthumanism for social
+justice work [178]SIGDOC 2015 PH, PA T
+Probing the Potential of Post-Anthropocentric 3D Printing
+[57]DIS 2016 PA T
+Plant-computer interaction, beauty and dissemination [9] ACI 2016 PA E
+Becoming with: Towards the Inclusion of Animals as Par-
+ticipants in Design Processes [211]ACI 2016 PA, PD E
+spaceDisplaced: Investigating Presence Through Mediated
+Participatory Environments [192]MOCO 2016 PA T
+Doing Sociomateriality Research in Information Systems
+[67]SIGMIS 2016 PA, PD T
+Negotiating "Messy" Research Context and Design Through
+Adaptive Research Stances: Experience Report [5]SIGDOC 2016 PA T
+New Technology and the Post-human Self: Rethinking Ap-
+propriation and Resistance [172]SIGMIS 2016 PA, PD T
+Rethinking, "Rethinking: Post-Human Boundaries": Pre-
+given or Performed? [160]SIGMIS 2016 PA, PD T
+Strong versus Weak Sociomateriality: Neither Subordinate
+nor Privileged- A rejoinder to "New Technology and the
+Post-human self: Rethinking Appropriation and Resistance"
+[120]SIGMIS 2016 PA, PD T
+Critical Realism as a Sociomaterial Stream of Research [ 49]SIGMIS 2016 PA, PD T
+Editorial: A Brief History of the Material in Sociomateriality
+[96]SIGMIS 2016 PA, PD T
+523
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+Designing for Cohabitation: Naturecultures, Hybrids, and
+Decentering the Human in Design [187]CHI 2017 PA, PD E
+Post-userism [15] CHI 2017 PH, PD, PE T
+Manifesting the Cyborg through Techno-Body Modification:
+From Human-Computer Interaction to Integration [34]CHI 2017 PA, PD T
+Movement Matters: How a Robot Becomes Body [83] MOCO 2017 PA, PD T
+Critical Appropriations of Biosensors in Artistic Practice
+[146]MOCO 2017 PA, PD T
+To whom does the driver’s seat belong in the future? [36] GenderIT 2018 PH, PA, PD T
+When toys come to life: Considering the internet of toys
+from an animistic design perspective [216]IDC 2018 PA, PD T
+Posthuman Gesture [114] MOCO 2018 PA, PD T
+Emotional Biosensing: Exploring Critical Alternatives [ 105]CSCW 2018 PA, PD T
+A postphenomenological method for HCI research [115] OzCHI 2018 PD T
+Rewilding Wearables: Sympoeitic Interfaces for Empathic
+Experience of Other-than-human Entities [74]TEI 2018 PA, PD B
+Politics of mattering in the practices of participatory design
+[165]PDC 2018 PD T
+Rhetorically Defining ’Information’ For Designers and Tech-
+nical Communicators: Transport, Institutional Shift, and
+Usability [133]SIGDOC 2018 PE T
+Multimodal conversation analysis and usability studies [ 45]CDQ 2018 PA, PD T
+Encoding Materials and Data for Iterative Personalization
+[147]CHI 2019 PA T
+Symbiotic Encounters: HCI and Sustainable Agriculture
+[130]CHI 2019 PA, PD E
+Cuteness as a ’dark pattern’ in home robots [124] HRI 2019 PD T
+Reconfiguring Human-centred Design of Technology as a
+Technohuman Intervention [149]HTTF 2019 PA, PD T
+Performance, Art, and Cyber-Interoceptive Systems (PACIS)
+[104]MOCO 2019 PA, PD T
+Redesigning audiences in technical communication [80] SIGDOC 2019 PA T
+Entanglement HCI The Next Wave? [78] TOCHI 2019PH, PA, PD, PE,
+PTB
+And This, Kids, Is How I Met Your Mother: Consumerist,
+Mundane, and Uncanny Futures with Sex Robots [199]CHI 2020 PA, PD T
+Monsters, Metaphors, and Machine Learning [65] CHI 2020 PH T
+IoT Data in the Home: Observing Entanglements and Draw-
+ing New Encounters [56]CHI 2020 PA T
+Making Air Quality Data Meaningful: Coupling Objective
+Measurement with Subjective Experience through Narra-
+tion [131]DIS 2020 PH, PA, PD, PT B
+Removal as a Method: a Fourth Wave HCI Approach to
+Understanding the Experience of Self-Tracking [103]DIS 2020 PH, PD T
+Fostering More-than-Human Imaginaries: Introducing DIY
+Speculative Fabulation in Civic HCI [152]NordiCHI 2020 PA E
+524
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+Design (In)actions [182] NordiCHI 2020 PA, PT E
+Knowledge-creation Processes in Crafts-based HCI Re-
+search: Introducing a Sympoietic Framework [77]NordiCHI 2020 PA, PD T
+Making-with: Nonhuman Animal Inclusivity in an Elec-
+tronic Literature Practice [123]ACI 2020 PA, PD T
+Piracy and the Impaired Cyborg: Assistive Technologies,
+Accessibility, and Access [40]CSCW 2020 PH, PA T
+Expanding Participation to Design with More-Than-Human
+Concerns [2]PDC 2020 PA, PD E
+Hybrid collectivity: Hacking environmental risk visualiza-
+tion for the anthropocene [157]CDQ 2020 PA, PD B
+Watching Myself Watching Birds: Abjection, Ecological
+Thinking, and Posthuman Design [26]CHI 2021 PA, PD E
+Algorithmic Food Justice: Co-Designing More-than-Human
+Blockchain Futures for the Food Commons [98]CHI 2021 PH, PA E
+Tracing Conceptions of the Body in HCI: From User to
+More-Than-Human [101]CHI 2021 PH, PA, PD B
+Machine Learning Uncertainty as a Design Material: A Post-
+Phenomenological Inquiry [19]CHI 2021 PD T
+Wanting To Live Here: Design After Anthropocentric Func-
+tionalism [14]CHI 2021 PH, PA E
+Eyecam: Revealing Relations between Humans and Sensing
+Devices through an Anthropomorphic Webcam [196]CHI 2021 PD T
+Entangled Reflections on Designing with Leaky Breastfeed-
+ing Bodies [99]DIS 2021 PA, PD T
+What We Speculate About When We Speculate About Sus-
+tainable HCI [189]COMPASS 2021 PA E
+Circular Species [63] IDC 2021 PA, PD E
+Transient Pattern – the Model of Digital Layout [86] ARTECH 2021 PA, PD T
+Embedding an interactive art installation into a building
+for enhancing citizen’s awareness on urban environmental
+conditions [161]MAB 2021 PA, PD T
+Plant(e)tecture: Towards a Multispecies Media Architecture
+Framework for amplifying Plant Agencies [184]MAB 2021 PA B
+Leashing the City: Dog-Leash-Human Entanglements and
+the Urban Space [181]ACI 2021 PA, PD, PE E
+The Art of Point Clouds: 3D LiDAR Scanning and Pho-
+togrammetry in Science & Art [110]ARTECH 2021 PA, PD T
+Alternatives to Agrilogistics: Designing for Ecological
+Thinking [23]CHI 2021 PA, PD E
+Contact Zones: Designing for More-than-Human Food Re-
+lations [167]CSCW 2021 PH, PA, PD E
+Interrogating Alexa: Holding Voice Assistants Accountable
+for Their Answers [100]SIGDOC 2021 PD T
+Deep mapping for environmental communication design
+[37]CDQ 2021 PA, PD E
+525
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+Cracking the code: Co-coding with AI in creative program-
+ming education [116]C&C 2022 PA, PD, PE T
+Exploring Kolam As An Ecofeminist Computational Art
+Practice [119]C&C 2022 PA, PD E
+Methodological Reflections on Ways of Seeing [117] CHI 2022 PA, PD T
+Making New Worlds – Transformative Becomings with
+Soma Design [191]CHI 2022 PA, PD T
+The Eco-Technical Interface: Attuning to the Instrumental
+[132]CHI 2022 PA, PD E
+Weaving Stories: Toward Repertoires for Designing Things
+[158]CHI 2022 PA, PD, PE, PT B
+Patterns and Opportunities for the Design of Human-Plant
+Interaction [41]DIS 2022 PA E
+What Is Meaningful Human-Computer Interaction? Under-
+standing Freedom, Responsibility, and Noos in HCI Based
+on Viktor Frankl’s Existential Philosophy [150]DIS 2022 PH T
+Plant Radio: Tuning in to plants by combining posthuman-
+ism and design [177]DIS 2022 PA, PD, PE B
+Feminist Care in the Anthropocene: Packing and Unpacking
+Tensions in Posthumanist HCI [121]DIS 2022 PH, PA, PD, PE E
+Making space for material entanglements: A diffractive anal-
+ysis of woodwork and the practice of making an interactive
+system [153]DIS 2022 PA, PD T
+From Concern to Care: A Transformative Reflection on
+Designing-with the Living [159]NordiCHI 2022 PA, PD E
+Exploring More-than-Human Caring in Creative-Ai Inter-
+actions [118]NordiCHI 2022PH, PA, PD, PE,
+PTB
+Me, the Hill and My Browser – Investigating the Role of
+Time in Posthuman Interaction [44]NordiCHI 2022 PA, PD, PE B
+The Problem(s) of Caring for the Commons [79] NordiCHI 2022 PA, PD E
+Phenology Probes: Exploring Human-Nature Relations for
+Designing Sustainable Futures [175]OzCHI 2022 PA, PD E
+Technology toward more-than-human symbiosis: Critical
+reflections from the design perspective [106]Mindtrek 2022PH, PA, PD, PE,
+PTB
+Subverting machines, fluctuating identities: Re-learning hu-
+man categorization [135]FAccT 2022 PD T
+Science Fictioning Participatory Design [126] PDC 2022 PD E
+Towards Response-able PD: Putting Feminist New Mate-
+rialisms to Work in the Practices of Participatory Design
+[166]PDC 2022 PH, PA, PD T
+Would the Trees Dim the Lights? Adopting the Intentional
+Stance for More-Than-Human Participatory Design [47]PDC 2022 PA E
+Two Years or More of Co-speculation: Polylogues of Philoso-
+phers, Designers, and a Tilting Bowl [208]TOCHI 2022 PA, PD T
+Feminist Posthumanist Design of Menstrual Care for More-
+than-Human Bodies [194]CHI 2023 PH, PA E
+526
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+AdaCAD: Parametric Design as a New Form of Notation
+for Complex Weaving [58]CHI 2023 PA, PD T
+Felt Experiences with Kombucha Scoby: Exploring First-
+person Perspectives with Living Matter [155]CHI 2023 PA, PD, PE E
+Message Ritual: A Posthuman Account of Living with Lamp
+[170]CHI 2023 PA, PD T
+Redlining Maps and Terrains of Sustainability: Interdisci-
+plinary Mapping of Racialized Redlining to Present-Day
+Sustainability Agendas in HCI [25]CHI 2023PH, PA, PD, PE,
+PTB
+Lydspor: An Urban Sound Experience Weaving Together
+Past and Present Through Vibrating Bodies [180]CHI 2023 PA, PD T
+What is Human-Centered about Human-Centered AI? A
+Map of the Research Landscape [38]CHI 2023 PA T
+Three Design Directions for a Diversity Computing Design
+Space [69]CHI 2023 PH T
+Shifting from Surveillance-as-Safety to Safety-through-
+Noticing: A Photovoice Study with Eastside Detroit Res-
+idents [134]CHI 2023 PH, PA T
+HCI Research on Agriculture: Competing Sociotechnical
+Imaginaries, Definitions, and Opportunities [64]CHI 2023 PA E
+Design Ideation with AI - Sketching, Thinking and Talking
+with Generative Machine Learning Models [197]DIS 2023 PA, PD T
+Pull It Together: Textile Patina as an Interface for External-
+izing Invisible Tension [142]DIS 2023 PA T
+Fabulation as an Approach for Design Futuring [195] CHI 2023 PH, PA T
+Nature Fictions: Designing for a Sustainable Future through
+Nature Relations [176]DIS 2023 PA E
+ARECA: A Design Speculation on Everyday Products Hav-
+ing Minds [43]DIS 2023 PA, PE T
+Designing and Using the Wild Probes Toolkit (v1) to Co-
+Design From-the-Wild [4]DIS 2023 PA E
+TikTok as a Stage: Performing Rural #farmqueer Utopias
+on TikTok [24]CHI 2023 PH E
+Unusual suspects - visualizing unusual relationships of com-
+plex social phenomena with climate change [39]GoodIT 2023 PH, PA B
+On Futuring Body Perception Transformation Technologies:
+Roles, Goals and Values [202]Mindtrek 2023 PA, PD T
+Networks of Migrants’ Narratives: A Post-authentic Ap-
+proach to Heritage Visualisation [204]JOCCH 2023 PD T
+Exploring the Eco-Digital: Performative Sensing with Plants
+and Data [215]SIGGRAPH 2023 PA, PD, PE B
+A Practice-Based Approach to Post-Human Computer In-
+teraction: Design Notes from Nature Scenes [35]TEI 2023 PH, PA B
+SCOBY BREASTPLATE: SLOWLY GROWING A MICRO-
+BIAL INTERFACE [17]TEI 2023 PA, PT B
+Speculative Histories, Just Futures: From Counterfactual
+Artifacts to Counterfactual Actions [76]TOCHI 2023 PH, PD T
+527
+Navigating the Posthuman Turn in Computing and Design: A Posthuman Vocabulary COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada
+Post-growth Human–Computer Interaction [183] TOCHI 2023 PH, PA E
+Entangling Entanglement: A Diffractive Dialogue on HCI
+and Musical Interactions [143]CHI 2024 PH, PA, PE T
+Living with Cyanobacteria: Exploring Materiality in Caring
+for Microbes in Everyday Life [217]CHI 2024 PA, PD E
+Towards a Diffractive Analysis of Prompt-Based Generative
+AI [169]CHI 2024 PA, PD T
+Thinking with Sound: Exploring the Experience of Listening
+to an Ultrasonic Art Installation [174]CHI 2024 PA T
+Shape-Changing Clay-Dough: Taking a Material-Oriented
+Approach to 3D Printing Ceramic Forms [18]CHI 2024 PA T
+Thrown from Normative Ground: Exploring the Potential
+of Disorientation as a Critical Methodological Strategy in
+HCI [22]CHI 2024 PH, PA B
+Microbial Revolt: Redefining biolab tools and practices for
+more-than-human care ecologies [42]CHI 2024 PA E
+Technologically Mediated Experiences of Visitors to the
+Frederic Chopin Museum: Postphenomenological Perspec-
+tive on Touchscreens Affordances [66]JOCCH 2024 PA T
+Base and Stitch: Evaluating eTextile Interfaces from a
+Material-Centric View [171]TEI 2024 PA T
+Sensing Bodies: Engaging Postcolonial Histories through
+More-than-Human Interactions [113]TEI 2024 PA, PD E
+Algorithmic Subjectivities [16] TOCHI 2024 PA, PD, PE T
+Encountering Human-Plant Relations: a Discussion of How
+Interaction Design Can encourage Human Sensibility to
+More-than-human Plants [88]DIS 2024 PA, PE B
+Articulating Felt Senses for More-Than-Human Design: A
+Viewpoint for Noticing [154]DIS 2024 PA, PD E
+The Organium: A Library of Technical Elements for Impro-
+visatory Design Thinking [138]AM 2024 PA, PD T
+Seeding a Repository of Methods-To-Be for Nature-
+Entangled Design Research [198]DIS 2024 PA, PD E
+Crip Reflections on Designing with Plants: Intersecting Dis-
+ability Theory, Chronic Illness, and More-than-Human De-
+sign [112]DIS 2024 PA, PD E
+Designing for Interdependence of Bees, Garden, Designer,
+and the Changing Season [108]DIS 2024 PA, PD, PE, PT E
+Sonic Entanglements with Electromyography: Between Bod-
+ies, Signals, and Representations [173]DIS 2024 PA, PD T
+All Is Heard: Reimagining The Sounds of Home With Care
+[218]DIS 2024 PA T
+Tracing as a Strategy for Orienting to Nonhuman Perspec-
+tives [156]DIS 2024 PA E
+NEXUS: A Tangible Multi-User Sensor-Based Telematic
+Novel Mixing-Interface for Multimedial Exploration [209]AM 2024 PA, PD T
+Reorientations: Practicing Grief and Hope in Post-Carbon
+Futures [129]PDC 2024 PH, PA, PD, PE E
+528
+COMPASS ’25, July 22–25, 2025, Toronto, ON, Canada Dedeoğlu and Chandra
+Dear Nature: Using data drawings to promote sensemaking
+in human-nature relations [72]DIS 2024 PH, PA, PD, PE E
+The New Vitruvian: Becoming-with an AI Recognition Al-
+gorithm [141]MOCO 2024 PH, PD T
+"Tuning in and listening to the current": Understanding
+Remote Ritual Practice in Sufi Communities [122]DIS 2024 PH, PD T
+Millipath: Bridging Materialist Theory and System Devel-
+opment for Surface Texture Fabrication [30]DIS 2024 PA, PD T
+Towards Relatable Climate Change Data: Untangling Ten-
+sions in Engaging with a Hyperobject [73]DIS 2024 PA E
+The Perceptron: A Multi-player Entangled Instrument based
+on Interpretive Mapping and Intra-action. [193]AM 2024 PA, PD T
+Embodied Traces: Multispecies Entanglement in Urban
+Spaces [29]DIS 2024 PA. PD E
+529

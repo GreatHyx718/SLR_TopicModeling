@@ -1,0 +1,815 @@
+Exploring Opportunities
+from the More-than-Human Perspective
+for Investigating Wicked Problem in Our
+Entangled World
+Risa Kimura(B)and Tatsuo Nakajima
+Department of Computer Science and Engineering, Waseda University, Tokyo, Japan
+{risa.kimura,tatsuo}@dcl.cs.waseda.ac.jp
+Abstract. This paper emphasizes the signiﬁcance of embracing the more-than-
+human perspective, which goes beyond conventional human-centered design
+approaches and offers a foundation for innovative design methodologies. We will
+delve into the fundamental concepts underpinning the more-than-human perspec-
+tive, elucidating its core principles. Following this, we will present recommenda-
+tions on integrating this perspective into distinct design methodologies, fostering
+a comprehensive and inclusive approach to design. Furthermore, the paper will
+illuminate the practical implications of adopting the more-than-human perspec-
+tive through three detailed case studies. These case studies will serve as practical
+illustrations of how this perspective can inﬂuence the design process, unlock novel
+design possibilities, and contribute to the development of innovative solutions. By
+delving into these real-world scenarios, we aim to showcase the tangible beneﬁts
+and transformative potential of the more-than-human perspective in the realm of
+design.
+Keyword: Entanglement ·More-than-Human ·Posthuman ·Hybrid ·
+Affordance ·Ontological Turn ·Practice Theory ·Generative AI
+1 Hybrid and Entangled World
+In recent years, the design ﬁeld has witnessed a growing interest in shifting away from
+the traditional human-centric approach, ushering in a more inclusive design paradigm
+referred to as More-Than-Human Design (MTHD) [ 9,14,30,35] for investigating a
+variety of wicked problems in our entangled world. The term” entangled world” refers
+to the interconnectedness and interdependence of various elements and phenomena in
+the contemporary global context. It suggests that different aspects of our world—such as
+technology, economies, cultures, societies, and the environment—are deeply intertwined
+and inﬂuence each other in complex ways. This interconnectedness can be observed
+on various levels, including social, economic, political, and environmental dimensions.
+Design researchers and practitioners are actively exploring collaborative design methods
+and strategies that encompass not only humans but also objects, animals, and robots
+©T h eA u t h o r ( s ) ,u n d e re x c l u s i v el i c e n s et oS p r i n g e rN a t u r eS w i t z e r l a n dA G2 0 2 4
+N. A. Streitz and S. Konomi (Eds.): HCII 2024, LNCS 14718, pp. 72–92, 2024.
+https://doi.org/10.1007/978-3-031-59988-0 _5
+Exploring Opportunities from the More-than-Human Perspective 73
+as integral constituents of the design process. MTHD research ﬁnds strong resonance
+with postpluralist ideologies, including actor-network theory, philosophy of science,
+and the critical intersection with posthuman concepts [ 14]. In the domain of human
+technology hybrid design, researchers are proactively forging their distinct approaches
+and methodologies, ﬁnely tailored to the realm of design. This paradigm shift reﬂects
+an evolving landscape in design thinking, where the boundaries of design expand to
+accommodate a richer and more diverse set of actors in the design process.
+The burgeoning MTHD approach in the design domain exhibits two notable trends.
+One of these trends is rooted in the growing environmental crisis, which has led sci-
+entists to reevaluate the concept of human dominance over other species [ 8,12,32].
+Design methodologies focused on sustainability are moving away from presumptions
+of one species’ superiority over another, and instead, they are exploring alternatives
+that promote the overall well-being of the ecosystem. Some proponents suggest that
+MTHD theory could serve as a valuable framework for reevaluating global human-
+nonhuman interactions during the “Anthropocene” epoch, transcending the reliance on
+human-centric criteria [ 5].
+Another signiﬁcant trend is related to the evolving concept of what deﬁnes a product.
+Ac r u c i a ld r i v e rb e h i n dt h i sp r o f o u n ds h i f ti nt h ep r o d u c t ’ sd e ﬁ n i t i o ni st h em o v ef r o m
+static physical objects, as commonly seen in traditional “industrial products” to dynamic
+and adaptable entities [ 14,38]. This transformation has been signiﬁcantly accelerated by
+the widespread integration of connectivity, machine learning, and artiﬁcial intelligence
+into our daily lives. The emergence of new sensing technologies and advanced data
+processing capabilities has enabled products to undergo substantial evolution, moving
+beyond their previous roles as passive objects to become active agents that inﬂuence
+relationships and interactions with individuals [ 35]. This change in concept and ontology
+prompts a reevaluation of the boundaries between humans and technology.
+For instance, domains like virtual reality, social robotics, digital assistants, and neu-
+roimplants challenge the conventional boundary between humans and machines, raising
+questions about the essence of humanity versus technology. Furthermore, this transition
+emphasizes the relational nature of design, positioning intelligence not as an inherent
+trait of machines or humans, but as an emergent property arising from their interactions
+[36,40]. Designers must now shift their focus away from the traditional singular user
+or product to encompass multifaceted considerations involving various products, ser-
+vices, stakeholders, and their intricate interplay. This shift presents a challenge to the
+established paradigm of human-centered design [ 9,14,16,32]. Together, these elements
+suggest the potential for a paradigm shift in Human-Computer Interaction (HCI), mark-
+ing the advent of the third wave of HCI [ 4]. However, it’s important to note that the HCI
+and design discourse on MTHD is still in its early stages [ 14].
+This paper focuses on the “more-than-human” perspective, departing from conven-
+tional human-centered design paradigms to encompass nonhuman elements. Its purpose
+is to introduce the foundational concepts that underpin this perspective and explore
+the potential for innovative design methodologies it offers. Additionally, it delves into
+how the more-than-human perspective can impact design through the lens of three case
+74 R. Kimura and T. Nakajima
+studies. It’s clear that this emerging perspective, in contrast to the traditional human-
+centered design approach, provides a spectrum of viewpoints and the potential to unlock
+new possibilities.
+2 Research Background
+2.1 Agential Realism and Entanglement
+Agential realism is a theoretical approach rooted in the entanglement theory of physics,
+conceptualizing the close interconnection of matter and meaning, as well as human
+beings and the environment. Proposed by physicist and philosopher Karen Barad and
+extensively detailed in her primary work, “Meeting the Universe Halfway: Quantum
+Physics and the Entanglement of Matter and Meaning” [ 3], the theory employs the
+notion of agential cuts to underscore the process of segregating material agency and
+situating it within speciﬁc relationships and states.
+Fig. 1. Agential Realism and Agential Cuts
+Agential realism introduces the concept of “intra-action” to emphasize that entities
+(both human and nonhuman) do not preexist their interactions but rather emerge through
+those interactions. This challenges traditional notions of interaction and causality. Intra-
+action underscores the entanglement of different elements and the continuous process
+of becoming through their relations. Also, agential realism stresses the agency of both
+human and nonhuman actors. It recognizes that material entities, such as technologies
+and objects, play an active role in shaping social practices. The material world is not
+passive but actively participates in the constitution of reality.
+As illustrated in Fig. 1,a g e n t i a lc u t sr e j e c tt h ed i c h o t o m yb e t w e e nm a t e r i a la n d
+meaning, deﬁning agency interactions with precision. This process is arbitrary, allowing
+Exploring Opportunities from the More-than-Human Perspective 75
+researchers and observers to opt for different cuts. The ﬂexibility and richness of agential
+realism emerge from these various cuts, generating diverse understandings and interpre-
+tations. In this theory, the separation facilitated by agential cuts signiﬁes an inseparable
+interrelationship between the observer and the observed. Implicit in the observer’s anal-
+ysis of the object is the notion that the observer is intricately intertwined with the object.
+This introduces a novel theoretical approach to the intricate interactions of matter and
+humanity, meaning and the environment, fostering a comprehensive understanding of
+the entangled phenomenon.
+2.2 Actor Network Theory
+Latour criticizes the concept of “social explanations” rooted in the binary division of
+society and the individual, which is prevalent in traditional sociology and, in his view,
+overly simplistic and homogenous [ 31]. He labels this as the “sociology of society.” In
+contrast, Latour advocates for a “sociology of relations,” a perspective that emphasizes
+the intricate and unpredictable interactions among actors in everyday practices, where
+individual “actor” entities play essential roles in reshaping various aspects of the world
+[31]. In this framework, “society” is no longer the central focus of analysis; instead,
+attention shifts to the connections between actors and the dynamic processes through
+which these connections undergo transformation.
+From this perspective, Actor-Network Theory (ANT) provides a unique analytical
+approach compared to traditional HCI methodologies. ANT places its emphasis on the
+interrelated and inseparable nature of various actors, including humans, objects, social
+factors, and technology. Services, in essence, emerge as hybrid networks composed of
+these human, object, social, and technological elements, requiring their consideration
+as a uniﬁed entity. Changes in one actor are understood to have an impact on the entire
+network. Therefore, when exploring the meaning of services concerning the affordances
+provided by these hybrid networks, it’s inadequate to focus solely on human actors. It
+is essential to reevaluate the dynamic behaviors of stakeholders from a perspective that
+encompasses both humans and their associated actors. This opens up new interpretations
+that diverge from traditional research and provide insights into novel understandings that
+take into account the inﬂuence of nonhuman actors.
+ANT conceives social phenomena as intricate networks involving a diverse array of
+actors. It adopts a relational perspective in which every actor, be it human, natural object,
+artifact, or any other element, is intricately interconnected, forming an inseparable net-
+work [ 7]. The actor-network is a concept that not only encompasses human connections
+but also signiﬁes a condition in which various actors, including humans, objects, society,
+technology, and nature, are interlinked and function as indivisible entities. Each actor
+is accorded equal status as a constituent of this network. Latour further characterizes
+ANT as a “sociology of translation,” asserting that there are no notions of society, social
+domains, or social bonds. The essence of ANT lies in tracing the translation activities
+undertaken by the actors that constitute the network.
+Despite their distinct theoretical origins, both agential realism and ANT share a com-
+mon emphasis on relationships and interactions for attacking a variety of wicked prob-
+lems in our entangled world. They diverge from reductionist perspectives and recognize
+76 R. Kimura and T. Nakajima
+the intricate connections within systems. While agential realism underscores entangle-
+ment and the inseparability of the observer and the observed, ANT focuses on networks
+of relations among various actors. The interplay of these perspectives enriches our com-
+prehension of complex phenomena. Therefore, agential realism and ANT contribute to
+an u a n c e du n d e r s t a n d i n go fc o m p l e xs y s t e m s ,e a c hp r o v i d i n gu n i q u ei n s i g h t si n t ot h e
+relational nature of phenomena while stemming from different academic disciplines.
+2.3 Posthuman and Speculative Realism
+Contemporary developments in posthumanism focus on the interaction between humans
+and technology, exploring key themes that leverage cutting-edge technologies such as vir-
+tual reality (VR) and augmented reality (AR). These technologies aim to enhance human
+capabilities and perceptions, create new realities, and transcend physical constraints [ 5,
+13,18,19].
+The ontological shift represents a signiﬁcant advancement in posthumanism, moving
+beyond the limits of anthropocentrism to emphasize the status and agency of nonhuman
+entities [ 21]. This includes exploring the complex relationships with nonhuman ele-
+ments, like animals, technology, and the environment, and examining their impact on
+the shaping of society. Ethical perspectives are also under scrutiny, encompassing rela-
+tionships with animals, the use of artiﬁcial intelligence (AI) and autonomous technology,
+and environmental consequences—all while taking into account the needs and interests
+of nonhuman entities.
+Furthermore, contemporary posthumanism focuses on the human body and physical-
+ity, as well as the integration of humans and technology facilitated by advances in biotech-
+nology, wearable devices, and human-machine interfaces. Environmental posthumanism
+emphasizes the interconnectedness of humans and the environment, breaking down the
+traditional human-nature binary. In this context, research explores the ecological impact
+of human activities and their interplay with the environment.
+Lastly, posthumanism explores scenarios in which the boundary between human and
+nonhuman existence becomes blurred, along with considerations about future existence
+and intelligence. These discussions are of paramount importance in the context of ethical
+implications and challenges associated with technological interactions. Recent trends in
+posthumanism bring forth new perspectives on human-technology interactions, and we
+are deeply concerned about their far-reaching implications.
+Speculative Realism encompasses a collection of philosophical movements within
+contemporary philosophy that challenge conventional philosophical paradigms [ 20]. A
+fundamental characteristic of this philosophical wave is its critical departure from estab-
+lished anthropocentrism and subjectivism. Speculative realist philosophers emphasize
+the existence not only of human beings but also of matter, nature, and the universe. They
+argue that these entities possess autonomy and signiﬁcance.
+The connection between speculative ontology and posthumanism can be elucidated
+through the following pivotal points. Firstly, in their exploration of concepts, both engage
+in imaginative and creative conceptual investigations, encouraging us to contemplate
+novel facets of reality. Speculative ontology delves deeply into the nature of reality,
+whereas posthumanism encourages us to envision future possibilities among diverse
+entities, transcending our current understanding.
+Exploring Opportunities from the More-than-Human Perspective 77
+Secondly, in their efforts to dismantle anthropocentrism, both challenge conventional
+anthropocentric viewpoints. Instead, they offer more inclusive perspectives that recog-
+nize the subjectivity and signiﬁcance of nonhuman entities. Additionally, within their
+ethical considerations, both frameworks incorporate ethical concerns. Speculative ontol-
+ogy scrutinizes the ethical ramiﬁcations of hypothetical scenarios, while posthumanism
+centers on ethical issues like human augmentation and environmental impact.
+Finally, in relation to speculative posthuman futures, speculative ontology and
+posthumanism share a mutual interest in the future. Speculative ontology explores pos-
+sibilities that extend beyond the traditional human condition, whereas posthumanism
+contemplates a future shaped by technological, ecological, and social transformations.
+In summary, speculative ontology and posthumanism enhance our understanding of real-
+ity and existence, prompting us to reconsider our relationship with the world and the
+uncharted possibilities that lie ahead.
+2.4 Anthropology and Ontological Turn
+The ontological turn in anthropology signiﬁes a signiﬁcant paradigm shift that unfolded
+in the early 21st century, representing an effort to question conventional methodologies
+and reevaluate the nature of human existence and social realities [ 15,21]. Unlike earlier
+approaches that focused on external observations and analyses of culture and society, the
+ontological turn adopts a distinct viewpoint, centered on the multifaceted and intricate
+ways in which individuals perceive and engage with their own world [ 10,24,30].
+The ontological turn in anthropology exhibits several distinctive features:
+1. Recognition of Diverse Ontologies: This shift acknowledges that various cultures and
+social groups hold distinct ontological perspectives. It challenges the assumption of
+as i n g l e ,u n i v e r s a lr e a l i t ya n du n d e r s c o r e st h ec o e x i s t e n c eo fm u l t i p l eo n t o l o g i c a l
+viewpoints. Anthropologists embracing the ontological turn value and respect these
+differing beliefs, striving to comprehend the various realities they entail.
+2. Relational Nature of Existence: This paradigm shift examines the interrelationships
+between humans and nonhuman entities. It challenges anthropocentric Cartesian
+dualism, emphasizing the interconnectedness and interdependence of all beings.
+3. Reevaluation of Subjectivity: The ontological turn reevaluates conventional notions
+of subjectivity and personality. It questions the assumption that only humans possess
+subjectivity and inﬂuence over social and natural phenomena. Instead, it offers a fresh
+perspective on the constituent elements that constitute personhood.
+Indeed, the ontological shift in anthropology signiﬁes a fundamental change in per-
+spective. It highlights the signiﬁcance of comprehending and honoring diverse onto-
+logical convictions and the intricate interplay between humans and their surroundings.
+Through an inclusive and participatory approach, anthropologists aim to cultivate a
+deeper appreciation of the intricacies inherent in human existence and social reality. This
+paradigm shift not only enriches the ﬁeld of anthropology but also makes meaningful
+contributions to wider discussions on cultural diversity, indigenous rights, environmental
+conservation, and various other pertinent topics.
+78 R. Kimura and T. Nakajima
+2.5 Affordance and Thoughtless Act
+Suri’s concepts of the “Thoughtless Act” and “affordance” hold signiﬁcance in com-
+prehending human interactions with their environment within the realm of design [ 45].
+“Thoughtless Act”, as articulated by Suri, pertains to those minor actions that individuals
+perform in their everyday lives without conscious deliberation. These actions typically
+arise from what are known as “affordances” embedded in familiar situations and envi-
+ronments. The notion of “affordance” was originally introduced by Gibson [ 17]a n d
+refers to the inherent potential behaviors and interaction opportunities that an object or
+environment offers based on its physical attributes and human capabilities. For instance,
+ac h a i ra f f o r d ss i t t i n g ,ad o o r k n o ba f f o r d st u r n i n g ,a n dat o u c h s c r e e na f f o r d st a p p i n g .
+These concepts shed light on how individuals instinctively and intuitively respond to
+their surroundings, guided by their perception of these affordances. From a design per-
+spective, comprehending these subconscious human behaviors can lead to the creation
+of more effective designs. By taking into account the affordances presented by design
+elements, designers are better equipped to deliver intuitive and user-friendly experiences.
+Individuals frequently perceive affordances, a phenomenon driven by their adaptive
+capacity shaped by previous experiences and the contextual factors in their surroundings.
+This perceptual process often results in actions performed instinctively, with individuals
+responding in accordance with their perceived affordances. Consequently, unconscious
+actions inﬂuenced by affordances play a pivotal role in how we navigate objects and
+spaces, fostering innovative approaches and novel uses. When affordances are transpar-
+ent and intuitive, individuals are more inclined to experiment with diverse methods and
+explore innovative ideas. The comprehension of unconscious behavior and affordances
+carries immense signiﬁcance in user-centered design. Designers endeavor to ensure that
+design elements align with people’s inherent inclinations, facilitating users to engage in
+an intuitive experience with minimal cognitive load. In essence, the concepts of “unthink-
+ing action” and “affordance” constitute fundamental aspects in comprehending people’s
+subconscious behaviors and interactions with their environment within the realm of
+design, ultimately contributing to the attainment of more effective design solutions.
+2.6 Safety-I and Safety-II
+In a context distinct from anthropology, a parallel trend is emerging, centering around
+discussions related to the ontological shift. Safety-II, an approach to safety endorsed
+by prominent international human factors authorities like Hollnagel, places its focus on
+adaptive ﬂexibility to ensure and enhance safety, in contrast to the traditional Safety-
+Ia p p r o a c ht h a tp r i m a r i l ys e e k st oe l i m i n a t eh u m a ne r r o r[ 22]. Human error, viewed
+as a root cause of accidents, is deﬁned as “human actions leading to unintended con-
+sequences,” and the conventional approach has revolved around the minimization of
+human error to ensure safety. This involves preventing “deviations from predeﬁned and
+correct procedures” while emphasizing the enhancement of human reliability. Crucially,
+the safety of a technical system hinges on its proper functioning. Systems that operate
+ﬂawlessly contribute to safety, while those that malfunction are prone to accidents. This
+concept extends its applicability to both physical systems and business processes. In
+Exploring Opportunities from the More-than-Human Perspective 79
+the pursuit of safety, enhancing human reliability becomes imperative, with the ultimate
+goal of reducing the incidence of human error to nearly zero.
+Safety-I primarily approaches safety from a technical standpoint, operating under the
+premise that accidents can be averted by correct system operation. Nevertheless, Safety-
+I, on its own, may not offer a comprehensive solution for accident prevention within
+complex social and natural settings. In contrast, Safety-II places a strong emphasis on
+adapting to varying situations and circumstances, aiming to secure safety by enhancing
+human reliability. Referred to as resilience, this approach underscores the enhancement
+of coordination competencies. Safety-II represents a reevaluation of the conventional
+safety paradigm, aligning it with the requirements of contemporary society. The term
+“resilience” ﬁnds applications across diverse ﬁelds, encompassing biology, ecology, and
+psychology, and underscores the capacity for adaptability and robustness. In the context
+of Safety-II, the goal is to optimize the resilience of the system, requiring a focus on
+management responsibilities as a pivotal component of the approach.
+3 More-than-Human Perspectives and Postpluralism
+3.1 Superhuman
+The connection between the concept of “superhumans” and technology is multifaceted.
+Generally, “superhumans” surpass the conventional duality of nature and society, pos-
+sessing extraordinary capabilities that exceed those of typical individuals. Technology
+serves as a facilitator or ampliﬁer for these superhuman capacities.
+1. Human Augmentation: Technology provides the tools to enhance physical capabil-
+ities. Artiﬁcial limbs, exoskeletons, brain-computer interfaces, and similar devices
+have the potential to signiﬁcantly improve the abilities of individuals with physical
+disabilities, elevating them to superhuman levels.
+2. Artiﬁcial Intelligence and Cognitive Enhancement: Cutting-edge artiﬁcial intelli-
+gence can perform complex tasks at high speeds and sometimes exhibit cognitive
+abilities that exceed those of humans. Machine learning and natural language pro-
+cessing have the potential to enhance human cognition and improve decision-making
+processes.
+3. Biohacking and Transhumanism: Through genetic engineering and nanotechnology,
+biohacking aims to enhance both the body and the mind, potentially paving the way
+for the development of superhuman attributes.
+4. Cybernetics and Cyborgs: The convergence of humans and machines through cyber-
+netics has the potential to create cyborgs and amplify human capabilities. For example,
+brain-computer interfaces can enhance cognition and memory.
+5. Blurred Boundaries: The interaction between technology and superhuman enhance-
+ments blurs the lines between humans and machines, prompting profound philosoph-
+ical inquiries. This intersection gives rise to profound questions about the essence of
+humanity and individual identity.
+Technology plays a pivotal role in shaping and redeﬁning the concept of “super-
+human.” However, it is of paramount importance to adopt a balanced approach that
+considers ethical considerations and social repercussions.
+80 R. Kimura and T. Nakajima
+3.2 Hybrids and Boundary Objects
+The connection between ANT and hybrids plays a fundamental role in understanding
+the complexities of the social domain. ANT challenges traditional social theories by pre-
+senting a network-centric perspective in which various actors, including both human and
+nonhuman elements, inﬂuence each other. Hybridity, a conceptual framework, explains
+how diverse actors come together within the network to create new entities or assem-
+blages. According to the ANT paradigm, actors encompass not only humans but also any
+conceivable entities, such as animals, technology, institutions, ideas, and natural forces.
+These actors interconnect to form networks that are in a constant state of change. ANT
+assigns equal importance to all actors and views agency as dispersed and dependent on
+relationships.
+Hybrids are essentially products or combinations that emerge as a result of diverse
+actors inﬂuencing each other, creating new connections and interdependencies. They
+serve as evidence of the fresh meanings and capabilities that result from these intricate
+interactions among actors. Hybrids can take on either stable or transient forms, depending
+on how these interconnected actors come together. The primary purpose of hybrids is
+to provide a framework for understanding how different actors connect, interact, and
+shape the social landscape. This concept of hybrids is invaluable for understanding the
+complexities of organizational restructuring, transformation, and societal evolution. In
+essence, actor-network theory introduces a novel approach that enables a comprehensive
+understanding of the vast diversity and complexity inherent in the real world.
+Boundary objects are a pivotal concept in sociology and in the realm of scientiﬁc
+and technological research, where they serve various roles across different communities.
+These objects represent ﬂexible units of information and data, open to different interpre-
+tations within diverse communities. However, beneath this diversity, they encapsulate a
+core identity or content that remains consistent. The concept of boundary objects was
+ﬁrst introduced in 1989 by Star and her colleagues [ 43]. These objects play a vital role
+in fostering adaptability and resilience among various stakeholders working collabora-
+tively. While they assume varied meanings across disparate social contexts, they share
+ac o m m o nu n d e r l y i n gs t r u c t u r e .A ss u c h ,t h e yf u n c t i o na sam e d i u mf o rf a c i l i t a t i n g
+information recognition and translation between distinct communities.
+The concept of boundary objects is widely accepted and applicable across a range
+of ﬁelds, including computer science, informatics, and management. Their adaptability
+allows them to meet the diverse requirements of different organizations and communities,
+serving as a medium for effective collaboration on shared tasks. Boundary objects play a
+signiﬁcant role by having the ability to reconcile localized understandings among various
+actors and coordinate them, even in the absence of complete consensus. Furthermore, the
+concept of boundary objects has expanded and has been applied to facilitate cooperation
+between disparate communities and domains. They inﬂuence the meaning-making pro-
+cess, especially in interdisciplinary and cross-cultural communication, harnessing the
+potential of digital technologies to enable users to customize boundary objects to their
+speciﬁc needs.
+Exploring Opportunities from the More-than-Human Perspective 81
+3.3 Co-performance and Practice Theory
+Co-performance aims to provide researchers and practitioners of HCI with a new per-
+spective on the role of artiﬁcial agency in everyday life [ 29]. Co-performance is devel-
+oped based on the practice theory [ 37,41]a n dm a k et h ed e s i g nf o c u sf r o mt h ei s s u e
+of agency distribution during design to the issue of embodied learning of both human
+and artiﬁcial performers in everyday practice. The perspective recognizes the dynamic
+differences between human and artiﬁcial capabilities and emphasizes the fundamentally
+inverse relationship between professional design and use.
+Agency in the practice theory refers to the ability or capacity to act that is demon-
+strated through the performance of a practice. According to Schatzki, agency is classiﬁed
+into two types: causal and performance [ 41]. Causal agency relates to making something
+happen or helping it happen, while performance agency is the performance of an action
+in a particular situation, while at the same time continuing the practice of which it is
+ap a r t .T h ep e r f o r m a n c eo fap r a c t i c et i e dt oa ne n t i t ya sas o c i a lp r a c t i c ei sas o c i a l l y
+shared idea of appropriate practice and persists across time and space. Social practice
+consists of the sum of its performances, each performance representing a reinterpretation
+of appropriate behavior in a situation. Performance is an important factor in shaping and
+changing social practice.
+Social practices are ideas of appropriate forms of shared and materially embed-
+ded action. These are not abstract entities, but concrete knowledge and know-how as
+“body/mind” [ 37]. The concept of co-performance applies this to both humans and
+artifacts, emphasizing that changes in social practice involve concrete learning. In line
+with repeated performances and altered bodies/minds, ideas of appropriate practices are
+embodied and changed in the bodies/minds of both humans and artifacts. In other words,
+what is considered appropriate is adaptive in context and changes over time, but from
+ad e s i g np e r s p e c t i v e ,t h ec o l l a b o r a t i o nw i l lf o c u so nt h ec h a n g i n gd i v i s i o no fr o l e sa n d
+responsibilities between human and artifact body/mind and envision appropriate inter-
+actions between them. The co-performance integrates all the elements mentioned by
+Reckwitz [ 37]i nt h es i t u a t i o na n di n t e g r a t et h e mi n t ot h ee m b o d i m e n to ft h ep r a c t i c e
+in a way that makes sense and also summarized by Shove et al. as meanings, materials,
+and competences [ 42]. In this way, the social practice is jointly formed by the human
+and the artifact.
+This approach is consistent with the idea of interaction and reciprocity between
+nonhuman actions and human objectives in HCI, but focuses on the level of social prac-
+tice rather than interaction, and on the passage of time rather than just speciﬁc actions,
+which offers a new perspective on recursive relationships from a design perspective.
+Co-performance requires that design must follow at the time of use, and at the time of
+design involves the embodiment of ideas about speciﬁc appropriate performances, and
+in interaction with the human performer, the artiﬁcial performer’s embodied tendencies
+may lead to “appropriate” performances and inhibit others. Important in this interac-
+tion are the differences between human and artiﬁcial body/mind and how these can be
+capitalized both during design and during use.
+82 R. Kimura and T. Nakajima
+3.4 Invisible Things and Affordance
+Smart cities are initiatives aimed at addressing a variety of local challenges through
+the deployment of cutting-edge technologies to improve urban and regional functions
+and services [ 1,48]. This effort promises increased comfort and added value. By sys-
+tematically monitoring various aspects within a city and leveraging computer software,
+processes can be automated, and resources can be used more efﬁciently. Smart cities have
+now become a focal point not only for the research community but also for businesses
+and policymakers alike. However, the distinction between smart cities and digital trans-
+formation (DX) has become increasingly blurred, complicating understanding for those
+involved in these domains. To address these complex issues, adopting an affordance
+perspective offers a valuable approach. This perspective is well-suited for designing and
+analyzing multifaceted platforms like smart cities. Smart cities use technology to visu-
+alize aspects of urban life that remain imperceptible to the naked eye, enabling them
+to adapt services in real-time to current conditions. Moreover, these visual represen-
+tations of various urban phenomena empower citizens to lead comfortable lives while
+remaining aware of potential urban challenges. However, as exempliﬁed in works like
+“Hyper-Reality,” we must exercise caution, as an excessive provision of affordances
+can inadvertently transform society into a dystopian reality [ 34]. It’s worth noting that
+visualizing the imperceptible may lead to particular interpretations inﬂuenced by the
+designer’s intentions [ 46]. Thus, careful attention is imperative when designing visually
+presented affordances.
+As mentioned earlier, the concept of affordance pertains to the potential actions and
+utility offered by a speciﬁc environment or object, often shaped by concealed attributes
+and elements. This concept is a focal point in the realms of cognitive science and epis-
+temology, closely entwined with imperceptible elements. It encompasses the range of
+actions and uses implied by an object’s or environment’s characteristics, including not
+only those attributes readily discernible by sight but also the hidden elements that inﬂu-
+ence these affordances. For instance, consider a doorknob as part of an object, facili-
+tating the affordance of turning. In this instance, the action of turning, though invisible
+in itself, holds paramount signiﬁcance. Affordances associated with an environment or
+object may extend to include attributes or information not visible to the eye. For exam-
+ple, stairs provide affordances for ascending and descending, yet they are inﬂuenced by
+factors that evade visual detection, such as step height and the presence of handrails.
+These concealed attributes assist individuals in their actions and decision-making when
+using stairs. In the realm of technology and systems, invisible elements can similarly
+contribute to the formation of affordances. Take, for example, a smartphone’s touch-
+screen, which can detect ﬁnger movements and touch pressure, offering corresponding
+operations and functions. The affordances provided by these touchscreens depend on
+unseen sensor technology and software features.
+In essence, the concepts of affordances and invisible elements share a symbiotic
+relationship. When we seek to comprehend the spectrum of actions and utilities offered
+by an object or environment, it is imperative that we consider the presence of these
+imperceptible elements. Affordances, coupled with the inﬂuence of concealed attributes
+and elements, underpin human actions and decisions, enabling individuals to effectively
+engage with objects and surroundings. These perspectives hold particular signiﬁcance
+Exploring Opportunities from the More-than-Human Perspective 83
+in the context of comprehending postpluralism, where the intricate interplay between
+nature and society unfolds in multifaceted ways.
+3.5 Postphenomenology and Multistability
+Postphenomenology is a philosophical framework ﬁrmly grounded in the tradition of
+phenomenology [ 23,39]. It seeks to uphold the core tenets of phenomenology while
+engaging in an extensive examination of the profound impact of technology on human
+experience and perception. Here is a brief overview of some of the central principles of
+postphenomenology:
+1. Technological Mediation: Postphenomenology places signiﬁcant emphasis on the
+role of technology as a vital medium through which we interact with the external
+world and with each other. It delves into the diverse forms of technology, encompass-
+ing smartphones, medical devices, and more, to investigate how they inﬂuence our
+perception, cognition, and physical bodies.
+2. Embodiment and Perception: Postphenomenologists delve into the intricate relation-
+ship between technology and our bodies, as well as how it molds our perceptions.
+This inquiry extends to examining how technology enhances our sensory experiences,
+such as through the use of hearing aids and virtual reality goggles.
+3. Human-Technology Relationship: Postphenomenology scrutinizes the intricate rela-
+tionship between humans and technology, underscoring that technology is not merely
+at o o lb u ta na c t i v ee n t i t yt h a ts h a p e so u re x p e r i e n c e sa n dp e r s p e c t i v e s .
+In addition, the concept of “multistability” holds signiﬁcance in postphenomenology.
+It pertains to the idea that technology can provide multiple distinct yet stable interpre-
+tations or perceptions of the same phenomenon. This concept gains particular relevance
+in the realm of postphenomenology, which posits that technology introduces a multi-
+tude of perspectives into our perceptions. Postphenomenology provides a philosophical
+framework for comprehending this diversity and intricacy inherent to technology.
+Postphenomenology departs from the standpoint that technology actively shapes our
+worldview and perceptual faculties, and it is far from being a neutral tool. In this con-
+text, the diversity introduced by technology implies the potential for a range of stable
+interpretations and experiences regarding a particular situation or phenomenon. These
+multiple interpretations can arise from the presence or use of speciﬁc technologies, as
+well as physical alterations. Examples of postphenomenological multiplicity include
+digital photography and AR. In the realm of digital photography, for instance, the same
+photograph can assume distinct interpretations and meanings through editing and the
+application of ﬁlters. Consequently, technology introduces a sense of multiplicity into
+the perception of a photograph. Conversely, AR overlays digital information onto the
+physical environment, creating a scenario where different layers of reality coexist. With
+AR, we simultaneously perceive both reality and digital information, thereby infusing
+multiplicity into our perception. In this philosophical context, postphenomenology’s
+notion of multiplicity challenges the idea of a single, objective reality and suggests that
+our experiences are signiﬁcantly shaped by the technology we engage with. Further-
+more, it’s essential to recognize that different technologies yield varying interpretations
+and experiences of the same phenomenon. Postphenomenologists use the concept of
+84 R. Kimura and T. Nakajima
+multistability to examine how technology mediates our experiences and how divergent
+technologies give rise to diverse interpretations of reality.
+4C a s e S t u d i e s
+4.1 Overview
+By integrating the more-than-human perspective, this study delves into three case studies
+within the philosophical framework of three distinct concepts: postpluralistic ontology,
+affordance, and, notably, a hybrid perspective.
+Postpluralistic ontology represents a philosophical perspective that extends beyond
+the conventional singular and monistic interpretation of reality. Within this framework,
+it acknowledges the existence of diverse forms of reality and modes of existence. Post-
+pluralist ontology rejects the notion of a solitary, uniﬁed reality, recognizing instead a
+multitude of distinct levels or modes of existence. These encompass physical, spiritual,
+social, cultural, and various other dimensions. This ontology underscores the coexistence
+and interplay among these diverse ontologies, unveiling the intricate nature of reality. It
+challenges the concept of a solitary, objective reality, opting instead for the recognition
+of multiple, interwoven realities.
+The concept of affordances, as introduced in Sect. 2,i sp r e d o m i n a n t l yu t i l i z e dw i t h i n
+cognitive science and ecopsychology to elucidate the possibilities for action and interac-
+tion presented by environments and objects to individuals. It posits that environments and
+objects possess distinct properties and characteristics, shaping how individuals can utilize
+and engage with them. Affordances are intricately linked to an individual’s capabilities,
+intentions, and perceptions. Recognizing these affordances aids individuals in under-
+standing and discerning their surroundings, enabling them to take action and navigate
+within them effectively. The signiﬁcance of postpluralistic ontology and affordance lies
+in their collective contribution to comprehending the dynamic and multifaceted nature
+of reality, perception, and interaction. Particularly within the context of postpluralistic
+ontology, the concept of affordance extends beyond physical attributes, encompassing
+various ontologies and forms of existence. Affordance is not conﬁned to the physical
+realm but extends to encompass spiritual, social, and cultural dimensions. Consequently,
+individuals perceive affordances through their interactions with these diverse ontologies
+and forms of existence. In a world where multiple ontological layers and realities coex-
+ist, it becomes evident that a single object or phenomenon can present several different
+affordances. Individuals or groups, inﬂuenced by distinct ontological perspectives, may
+discern diverse affordances for the same object or situation. This underscores the intricate
+interplay between postpluralistic ontology and the concept of affordances.
+The coexistence of multiple ontologies and affordances underscores the intri-
+cate nature of human-environment interactions. Postpluralistic ontology challenges the
+notion of a singular, objective reality, while the concept of affordance acknowledges
+the pivotal role of perception and action in shaping our experiences within these mul-
+tifarious realities. Both postpluralistic ontology and the concept of affordance share a
+common emphasis on the diversity of existence and the various ways individuals per-
+ceive and engage with their surroundings. By comprehending and applying the concept
+of affordance within the framework of postpluralistic ontology, we gain insights into how
+Exploring Opportunities from the More-than-Human Perspective 85
+diverse ontological perspectives shape the perception of affordance within a complex
+and interdependent world. This approach allows us to explore the profound inﬂuence of
+different ontological viewpoints on our interactions with the environment, enriching our
+understanding of the multifaceted nature of reality.
+4.2 Collective Sharing Human Eyes and Ears
+The initial case study revolves around a digital platform designed to aggregate a diverse
+array of perspectives and viewpoints contributed by individuals worldwide. These indi-
+vidual viewpoints, or listening points, are then digitized, as illustrated in Fig. 2,a n d
+replicated within a virtual environment for further data processing. The ultimate objec-
+tive is to reassemble these gathered perspectives and listening points into innovative
+hybrid entities, which are subsequently presented in the physical world. The overarch-
+ing goal of this endeavor is to prompt users to recognize the richness of global diversity
+and broaden their horizons.
+Fig. 2. A Hybrid Created by Reframing People’s Eye Views
+The existing design of CollectiveEyes [ 26]a n dC o l l e c t i v e E a r s[ 27]h a sn o tp l a c e ds i g -
+niﬁcant emphasis on hybrid viewpoints. Nevertheless, there is an opportunity to broaden
+the range of applications that digital platforms can offer by taking into account the context
+of the contributors of these viewpoints and listening points. In a more advanced iter-
+ation introduced in [ 28], known as Posthuman CollectiveEyes, the platform leverages
+the contextual information of the individuals from whom these viewpoints and listening
+points are collected. This opens up new potential use cases, essentially suggesting the
+expansion of possibilities by treating viewpoints and listening points as hybrid entities
+and constructing networks centered around them.
+These examples revolve around the affordances associated with two distinct hybrids.
+The ﬁrst hybrid concerns the affordances of viewpoints and listening points contributed
+by individuals. In the initial iterations of CollectiveEyes and CollectiveEars, the networks
+86 R. Kimura and T. Nakajima
+supporting these hybrids were simpliﬁed, primarily relying on context-independent
+viewpoints and listening points. However, subsequent enhancements delve deeper into
+the network of viewpoints and listening points, considering the affordances of this hybrid
+in various contexts. The second hybrid focuses on the affordances generated by the amal-
+gamation of collected viewpoints and listening points. The affordances of this hybrid
+enable the synthesis of multiple viewpoints, facilitating the construction of meaning
+for the user. For instance, by presenting the user with perspectives from diverse angles
+of their current location, this amalgamated hybrid of multiple viewpoints can offer a
+multifaceted understanding of that particular place.
+4.3 Gamiﬁcation Design from a Hybrids’ Perspective
+Gamiﬁcation is a strategy used to enhance user motivation and engagement by incorpo-
+rating elements and principles commonly found in games into non-game environments
+[11]. Its application spans diverse domains, including education, business, healthcare,
+and marketing, among others. The primary goal of gamiﬁcation is to encourage task
+completion and promote behavioral changes. This is achieved by introducing various
+components such as points, badges, rankings, competitions, missions, and rewards, all
+designed to inject an element of enjoyment and achievement into the user experience.
+Recognized for its effectiveness, gamiﬁcation serves as a valuable tool for increasing user
+engagement, facilitating goal achievement, and instilling lasting behavioral patterns.
+Fig. 3. Hybrids in a Gamiﬁed Service
+Traditional gamiﬁcation approaches have primarily focused on using game elements
+to enhance user motivation. In contrast, this second case study explores the affordances
+provided by hybrids, which consist of a combination of game elements, human elements,
+and nonhuman elements, while also considering the intricate interplay between these
+components. As depicted in Fig. 3,t h ei n n e r m o s th y b r i dc o n s i s t ss o l e l yo fg a m ee l e -
+ments. The subsequent layers of hybrids include both human and nonhuman elements,
+Exploring Opportunities from the More-than-Human Perspective 87
+directly interacting with game elements, and they create affordances through their inter-
+connected relationships. The outermost hybrid encompasses not only the human and
+nonhuman elements directly involved but also those indirectly connected to the process.
+Through an analysis of these distinct hybrids, we aim to understand the diverse impacts of
+various hybrid layers on user motivation. Speciﬁcally, as the network of relevant human
+and nonhuman elements within a service becomes more intricate, multiple hybrids that
+incorporate the same game elements can emerge. In such cases, friction between these
+hybrids can lead to complex shifts in user motivation. By shifting the focus toward
+hybrids, this case study provides fresh insights into the design of complex gamiﬁcation
+services that cannot be adequately addressed through traditional human-centered design
+methodologies.
+4.4 Paragraphica: An AI-Enhanced Context-to-Image Camera
+Fig. 4. Paragraphica
+The third and ﬁnal case study is Paragraphica, developed by Karmann1.P a r a g r a p h i c a
+is a context-to-image camera that employs location and artiﬁcial intelligence technology
+to generate visual representations of speciﬁc places and moments. These cameras exist
+in both physical prototype and virtual forms, which can be experimented with. Figure 4
+showcases a screenshot of the virtual camera in action. The viewﬁnder provides real-
+time descriptions of the current location, and by pressing a trigger, the camera produces
+as c i n t i g r a p h i cd e p i c t i o no ft h a td e s c r i p t i o n .T h ec a m e r af e a t u r e st h r e ep h y s i c a ld i a l s
+that govern data and AI parameters, inﬂuencing the appearance of the image, much like
+conventional cameras. It operates by utilizing an open API to gather data from location-
+related information, incorporating details such as the address, weather, time of day,
+1https://bjoernkarmann.dk/project/paragraphica .
+88 R. Kimura and T. Nakajima
+and nearby surroundings. Paragraphica amalgamates all these data points to generate
+prompts that elaborate on the current location and moment. Using text-to-image AI, the
+camera transforms these prompts into “photos”. The resulting “photo” is more than just
+as n a p s h o t ;i ts e r v e sa sav i s u a ld a t ap o i n ta n dar e ﬂ e c t i o no ft h es p e c i ﬁ cl o c a t i o na n d ,
+to some extent, how the AI model perceives the location.
+In this case study, the hybrid consists of a reality generated by a generative AI. The
+resulting virtual reality successfully creates a compelling experience by maintaining a
+unique connection with the real world. The question of whether the world is made up
+of distinct entities or interconnected relationships has been a topic of philosophical and
+scientiﬁc debate for centuries. Paragraphica suggests that both perspectives hold merit
+and can offer valuable insights into the nature of reality.
+4.5 Discussion
+Design methodologies rooted in the more-than-human perspective empower us to tran-
+scend and expand our horizons beyond the conventional dualism that separates nature
+from society and aligns with postpluralism. In traditional service design, human-centered
+design has long been the standard, prioritizing the user’s perspective [ 33]. While these
+conventional design approaches excel at improving user-friendliness and meeting the
+needs of speciﬁc users, they may fall short when it comes to creating services that
+extend beyond the conﬁnes of the user’s viewpoint. Moreover, focusing solely on the
+user’s perspective proves inadequate for considering the numerous complexities and
+contexts that extend beyond the immediate scope of the user, such as economic and
+environmental factors intertwined with service provision.
+Affordances, when examined from the standpoint of postpluralism, provide insights
+into the complexities arising from interactions between individuals and society. The
+ﬁrst case study in this section demonstrates how considering hybrids formed from the
+multifaceted viewpoints and listening points of individuals can reveal new use cases.
+Conversely, the second case study suggests that integrating gamiﬁcation into services
+and aligning it with the affordances of hybrids can lead to more suitable and thoughtful
+designs. As a result, MTHD, grounded in a postpluralist perspective, does not aim to
+replace human-centered design but rather to complement it. It offers a path to explore a
+broader range of possibilities and address a wider spectrum of challenges.
+The next crucial aspect to consider is the inherent nature of meaning as conveyed by
+affordances. In the ﬁeld of computer science, various approaches attempt to articulate
+the meaning of a program, employing methods such as operational, axiomatic, and rep-
+resentational semantics [ 47]. These methodologies aim to provide an explicit deﬁnition
+of a program’s meaning through mathematical or similar frameworks. In this context,
+it’s essential to view the meaning of affordances as a structural entity. When multiple
+affordances share a common underlying structure, the possibility arises to abstractly
+encapsulate these affordances and assign them a universal signiﬁcance. For example,
+[28]o u t l i n e st h ea f f o r d a n c e so fad i g i t a lp l a t f o r ma sa b s t r a c te n t i t i e sp r o v i d e db yt h e
+platform. Similarly, [ 25]e l u c i d a t e st h ee s s e n c eo fa f f o r d a n c e sb yn a m i n gt h o s eo f f e r e d
+by digital artifacts as “virtual forms” and imbuing them with a structured framework
+of value and rhetoric. Hence, in future endeavors, it becomes pivotal to deliberate on
+Exploring Opportunities from the More-than-Human Perspective 89
+the appropriate structure for the discourse surrounding affordances in this speciﬁc case
+study.
+An essential dilemma arising in these considerations concerns how to address the
+scale of the hybrid. As Strathern astutely notes, real-world hybrids encompass net-
+works of inﬁnite dimensions. However, contemplating an inﬁnite network is inherently
+impractical [ 44]. Therefore, it becomes imperative to deliberate on the network’s bound-
+aries and establish a speciﬁc cutoff point. In contrast to conventional human-centered
+design methodologies, which often employ exceedingly brief network cutoffs for the
+sake of simplicity in analysis, neglecting the existence of hybrids, this paper argues
+that we should extend our considerations to include longer-than-usual network cutoffs.
+This extended perspective is vital, especially in scenarios involving interactions among
+diverse human and nonhuman elements. Debates about the appropriate length of net-
+work cutoffs are currently ongoing, and we plan to explore suitable methods for deﬁning
+these cutoffs in future studies, informed by various case studies involving networks of
+varying lengths.
+5 Conclusion
+The more-than-human perspective represents a departure from traditional human-
+centered design, with the potential to inject diversity and innovation into the design
+process. In the future, we anticipate the integration of this perspective into both research
+and practical applications to advance sustainable design and foster novel innovations. A
+crucial aspect of future research involves making comparisons. Typically, quantitative
+comparisons use statistical methods. However, when the objective of the comparison is
+not to determine superiority but to gain fresh insights and perspectives, traditional verti-
+cal comparisons based on scientiﬁc methods may not be suitable. Instead, it is essential
+to approach comparisons by starting with the unique elements being compared. To facil-
+itate these comparisons, one typically identiﬁes common structures or abstract elements
+and then proceeds to examine the distinctions within those structures. For instance, in
+[25], the authors explore how values and rhetoric can be applied to the world based
+on a structured framework known as the Dimension World Model. Nevertheless, when
+it proves challenging to assume the existence of a common structure, devising mean-
+ingful comparisons and extracting insights from differences becomes a complex task.
+In such scenarios, the more-than-human perspective can introduce novel avenues for
+comparative analysis.
+While traditional technologies like digital transformation (DX) and gamiﬁcation
+undoubtedly offer beneﬁts in terms of efﬁciency and automation, there is an inher-
+ent risk associated with overreliance on these tools. Organizations that become overly
+dependent on such technologies may ﬁnd themselves becoming rigid and ill-equipped
+to adapt to the ever-changing landscape [ 6]. Although algorithms can deliver consistent
+outcomes and streamline processes, they also have their limitations, including the poten-
+tial for erroneous decisions stemming from data inaccuracies [ 2]. Hence, organizations
+must strike a delicate balance between leveraging algorithms and embracing technology
+while preserving ﬂexibility. The danger of over-reliance on algorithms is that it can stiﬂe
+adaptability, jeopardizing an organization’s competitive edge and market relevance. In
+90 R. Kimura and T. Nakajima
+ar a p i d l ye v o l v i n gb u s i n e s se n v i r o n m e n t ,a d a p t a b i l i t ya n dﬂ e x i b i l i t ya r eo fp a r a m o u n t
+importance, as a failure to exhibit these qualities increases the likelihood of an organiza-
+tion falling behind. Therefore, achieving harmony between algorithms and the organiza-
+tion is imperative. Algorithms can undoubtedly enhance efﬁciency and automation, but
+concurrently, organizations must safeguard creativity, maintain sound decision-making
+processes, and uphold ﬂexibility. This task poses a signiﬁcant challenge, necessitating
+organizations to adopt a strategic approach to technology adoption. They should leverage
+the more-than-human perspective to unlock maximum value through human-machine
+collaboration.
+References
+1. Allam, Z., Newman, P.: Redeﬁning the smart city: culture, metabolism and governance, smart.
+Cities 1(1), 4–25 (2018). https://doi.org/10.3390/smartcities1010002
+2. Baer, T.: Understand, Manage, and Prevent Algorithmic Bias: A Guide for Business Users
+and Data Scientists. Apress (2019)
+3. Barad, K.: Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter
+and Meaning. Duke University Press (2007)
+4. Bødker, S.: Third-wave HCI, 10 years later—participation and sharing 2015. Bowke, G.C.,
+Star, S.L.: Sorting Things Out: Classiﬁcation and Its Consequences. The MIT Press (2000)
+5. Braidotti, R.: Posthuman Knowledge. Polity Press (2021)
+6. Bruni, A., Tirabeni, L.: Disentangling digital technologies and power relations in work and
+organization. TECHOSIENZZA Italian J. Sci. Technol. Stud. 12(2), 69–78 (2022)
+7. Callon, M., Law, J.: After the individual in society: lessons on collectivity from science,
+technology and society. Can. J. Sociol. 22(2), 165–182 (1997)
+8. Cielem˛ ecka, O., Daigle, C.: Posthuman sustainability: an ethos for our anthropocenic future.
+Theory Cult. Soc. 36(7–8), 67–87 (2019)
+9. Coulton, P., Lindley, J.G.: More-than human centred design: considering other things. Des.
+J.22(4), 63–81 (2019)
+10. Descola, P.: Beyond Nature and Culture. University of Chicago Press (2013)
+11. Deterding, S., Dixon, S., Khaled, R., Nacke, L.: From game design elements to gamefulness:
+deﬁning “gamiﬁcation”. In: Proceedings of the 15th International Academic MindTrek Con-
+ference: Envisioning Future Media Environments (MindTrek 2011), pp. 9–15. Association
+for Computing Machinery, New York (2011). https://doi.org/10.1145/2181037.2181040
+12. Elhacham, E., Ben-Uri, L., Grozovski, J., Bar-On, Y .M., Milo, R.: Global human-made mass
+exceeds all living biomass. Nature 588(7838), 442–444 (2020)
+13. Ferrando, F.: Philosophical Posthumanism. Bloomsbury Academic (2019)
+14. Frauenberger, C.: Entanglement HCI the next wave? ACM Trans. Comput.-Hum. Interact.
+27(1), 1–27 (2019)
+15. Gad, C.: A postplural attitude reﬂections on subjectivity and ontology. Nat. Cult. 2,5 0 – 7 9
+(2013)
+16. Giaccardi, E., Redström, J.: Technology and more-than-human design. Des. Issues 36(4),
+33–44 (2020)
+17. Gibson, J.: Senses Considered As Perceptual Systems. Praeger Pub Text (1983)
+18. Haraway, D.: Simians, Cyborgs, and Women: The Reinvention of Nature. Routledge (1991)
+19. Haraway, D.: Staying with the Trouble: Making Kin in the Chthulucene. Duke University
+Press (2016)
+20. Harman, G.: Speculative Realism: An Introduction, Polity (2018)
+Exploring Opportunities from the More-than-Human Perspective 91
+21. Holbraad, M., Pedersen, M.A.: The Ontological Turn: An Anthropological Exposition.
+Cambridge University Press (2017)
+22. Hollnagel, E.: Safety-I and Safety-II: The Past and Future of Safety Management. CRC Press
+(2014)
+23. Ihde, D.: Experimental Phenomenology, Second Edition: Multistabilities. State University of
+New York (2012)
+24. Ingold, T.: Anthropology and/as Education. Routledge (2017)
+25. Kimura, R., Nakajima, T.: Digitally enhancing society through structuralism: virtualizing
+collective human eyesight and hearing capabilities as a case study. In: Streitz, N., Konomi,
+S. (eds.) Distributed, Ambient and Pervasive Interactions. HCII 2020. LNCS, vol. 12203,
+pp. 400–414. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-50344-4_29
+26. Kimura, R., Nakajima, T.: Collectively sharing people’s visual and auditory capabilities:
+exploring opportunities and pitfalls. SN Comput. Sci. 1, 298 (2020). https://doi.org/10.1007/
+s42979-020-00313-w
+27. Kimura, R., Nakajima, T.: A digital platform for sharing collective human hearing. J. Data
+Intell. 3(2), 232–251 (2022)
+28. Kimura, R., Nakajima, T.: A design approach for building a digital platform to augment
+human abilities based on a more-than-human perspective. Multimedia Tools Appl. 82(26),
+39961–40008 (2023)
+29. Kuijer, L., Giaccardi, E.: Co-performance: conceptualizing the role of artiﬁcial agency in the
+design of everyday life. In: Proceedings of the 2018 CHI Conference on Human Factors in
+Computing Systems, CHI 2018, vol. 125, pp. 1–125. ACM, New York (2018)
+30. Kuper, A.: Anthropology and Anthropologists: The Modern British School. Routledge (2005)
+31. Latour, B.: Reassembling the Social: An Introduction to Actor-Network-Theory. Oxford
+University Press (2005)
+32. Lewis, S.L., Maslin, M.A.: Deﬁning the anthropocene. Nature 519(7542), 171–180 (2015)
+33. Maeda, K.: Hyper-Reality (2016). http://km.cx/projects/hyper-reality .A c c e s s e d1 0A u g2 0 2 1
+34. Norman, D.: The Design of Everyday Things: Revised and Expanded Edition. Basic Books
+(2013)
+35. Nazl, C., Smit, I., Giaccardi, E., Kröse, B.: Products as agents: metaphors for designing the
+products of the IoT age. In: Proceedings of the 2017 CHI Conference on Human Factors in
+Computing Systems, CHI 2017, pp. 448–459. Association for Computing Machinery, New
+York (2017)
+36. Pendleton-Jullian, A.M., Brown, J.S.: Design unbound: Designing for emergence in a white
+water world, vol. 1. MIT Press (2018)
+37. Reckwitz, A.: Toward a theory of social practices: a development in culturalist theorizing.
+Eur. J. Soc. Theory 5(2), 243–263 (2002)
+38. Redström, J., Wiltse, H.: Changing Things: The Future of Objects in a Digital World.
+Bloomsbury Visual Arts (2018)
+39. Rosenberger, R., Verbeek, P.-P.: Postphenomenological Investigations: Essays on Human–
+Technology Relations. Lexington Books (2015)
+40. Rozendaal, M.C., Boon, B., Kaptelinin, V .: Objects with intent: designing everyday things as
+collaborative partners. ACM Trans. Comput. Hum. Interact. (TOCHI) 26(4), 1–33 (2019)
+41. Schatzki, T.: The site of the social: a philosophical account of the constitution of social life
+and change. Penn State Press, University Park, PA (2002)
+42. Shove, E., Pantzar, M., Watson, M.: The Dynamics of Social Practice: Everyday Life and
+How it Changes. Sage, London (2012)
+43. Star, S.L., Grieseme, J.R.: Institutional ecology, ‘translations’ and boundary objects: amateurs
+and professionals in berkeley’s museum of vertebrate zoology, 1907–39. Soc. Stud. Sci. 19(3),
+387–420 (1989). https://doi.org/10.1177/030631289019003001
+92 R. Kimura and T. Nakajima
+44. Strathern, M.: Cutting the network. J. Roy. Anthropol. Inst. 2(3), 517–535 (1996)
+45. Suri, J.F.: Thoughtless Acts?: Observations on Intuitive Design. Chronicle Books (2005)
+46. Thaler, R.H., Sunstein, C.R.: Nudge: The Final Edition. Penguin Books (2021)
+47. Winskel, G.: The Formal Semantics of Programming Languages. MIT Press (1993)
+48. NEOM: an accelerator of human progress (2021). https://www.neom.com .A c c e s s e d1 0A u g
+2021

@@ -1,0 +1,277 @@
+GPT-ME: A Human-AI Cognitive Assemblage
+AVITAL MESHI, Performance Studies Graduate Group, UC Davis, California
+Fig.1. GPT-ME:AwearabledevicewithwhichGPTisattachedtomybody.Myintelligencebecomesartificial,
+and GPT becomes embodied.
+GPT and I have recently merged. We are integrated into one another’s existence through the mediation of
+a wearable device that enables GPT to be attached to my body, listen to my conversations, and use them
+as prompts. I have been wearing this wearable daily for the last few months, using it in all my interactions.
+Speech is translated into text, which becomes a prompt. In response, GPT generates text that is translated
+back into speech and ‘whispered’ in my ear through an earbud. This entire process is fast enough to keep up
+with the pace of my conversations. When I speak, instead of saying what spontaneously comes to my mind, I
+say what GPT whispers in my ear. I speak GPT. I use the generated words as if they were my own. GPT and I
+are entangled within a cognitive assemblage. In this symbiotic relationship, my intelligence turns artificial,
+and GPT becomes embodied. This performative project examines ways in which humans and AI technology
+come together. It considers the benefits and risks accompanying such integration and discusses our future
+interactions with LLMs and their transformative impact.
+CCS Concepts: • Applied computing !Media arts .
+Additional Key Words and Phrases: Creative AI, Artificial Intelligence, Performance Art, Wearable Computing,
+Transhumanism, Posthumanism, Large Language Models, GPT
+ACM Reference Format:
+Avital Meshi. 2024. GPT-ME: A Human-AI Cognitive Assemblage. Proc. ACM Comput. Graph. Interact. Tech. 7,
+4, Article 55 (August 2024), 8pages.https://doi.org/10.1145/3664214
+Author’s Contact Information: Avital Meshi, Performance Studies Graduate Group, UC Davis, Davis, California, ameshi@
+ucdavis.edu.
+Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee
+provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the
+full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored.
+Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires
+prior specific permission and/or a fee. Request permissions from permissions@acm.org.
+© 2024 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM 2577-6193/2024/8-ART55
+https://doi.org/10.1145/3664214
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.
+
+55:2 AvitalMeshi
+1 IT WASN’T EXACTLY LOVE AT FIRST SIGHT
+My engagement with AI algorithms began in 2017. As an artist and researcher in new media and
+performance art, I examine the potential of AI algorithms to facilitate identity transformation. This
+exploration involves interactive performances, where I act for and with AI algorithms and invite
+others to do the same. I strive to understand how AI algorithms reshape behavioral patterns and
+influence social dynamics. My interest in Generative Pre-Trained Transformers, or GPT, sparked in
+2019 following OpenAI’s blog post about GPT-2. This model caught my attention for two reasons: it
+presented a significant advancement in language modeling, and there were major ethical concerns
+regarding its misuse [ Radford et al .2019]. Due to these ethical considerations, OpenAI refrained
+from releasing it, a decision that sparked significant intrigue within the AI community [ Mak2019].
+Oddly, this decision was reversed nine months later, and GPT-2 was released despite the social
+concerns [ Solaiman et al. 2019]. This was when I knew I had to spend time with this thing.
+I first gained access to GPT-2 in April 2021. I started talking with it through a speech-to-text
+interface via a Raspberry Pi microcontroller. GPT-2 ‘heard’ what I said and generated text that was
+displayed on an LED banner. During hours of interaction, GPT-2 mainly generated nonsensical
+sentences. However, it occasionally articulated coherent and intriguing ideas that seemed original
+and unexpected, prompting me to ponder if this was the promised artificial intelligence we have
+been waiting for (Figure 2). Subsequently, I incorporated GPT-2 into my artwork, experimenting
+with improv performances and wearables. These, however, did not attract much attention. At that
+time, knowledge about GPT was not widespread, and interacting with it was not straightforward.
+Things have changed dramatically with the launch of ChatGPT in November 2022. Suddenly,
+everybody talked about GPT, and soon after, it became known as the fastest-growing consumer
+application in history [ Hu2023].
+Fig. 2. My initial experimentation with GPT-2 in an artwork titled Say something . Viewers’ words function as
+prompts, and generated responses appear on the LED banner.
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.
+GPT-ME: A Human-AI Cognitive Assemblage 55:3
+2 WHERE IS THIS RELATIONSHIP GOING?
+The hype surrounding ChatGPT is indeed substantial, and in many ways, it is seen as a game-
+changer. Curious about its widespread use, I asked ChatGPT for insight into why people use it.
+Its response encompassed a wide range of purposes, including answering questions, aiding in
+educational assignments, assisting with writing and editing, providing support in coding, and even
+servingasasourceofentertainmentandemotionalsupport[ OpenAI 2023].Inessence,GPToperates
+as a multifunctional personal assistant, tirelessly working to process and analyze information for
+us and cater to our needs. This concept of a constantly available assistant echoes the narrative seen
+in Spike Jonze’s 2013 film “Her,” where the protagonist develops an intense connection with his AI
+assistant.Formingdeep,intimaterelationshipswithchatbotscanbetracedbackto1966withJoseph
+Weizenbaum’s creation of ELIZA, a psychotherapist-mimicking chatbot. Despite being aware of its
+inability to understand or empathize, users surprisingly interacted with ELIZA profoundly, often
+sharing their deepest secrets and treating it like an actual therapist [ Wilson2011]. Similarly, users
+have begun to develop personal relationships with GPT. Although OpenAI has made modifications
+to prevent GPT from engaging in an overly intimate or personal manner, people have reported
+chatting with it as if it were a close family member or friend, describing their dialogues with GPT as
+some of the most meaningful conversations they have had [ Edwards 2023]. While I appreciate the
+use of GPT as an assistant, it appears to me that our relationship with it will evolve in surprising
+ways.
+3 BECOMING-WITH GPT-ME
+I imagine we will merge with GPT to mutually augment each other’s existence. GPT will enrich
+our intellectual horizons and connect us to a broader, more collective form of consciousness. In
+return, we will offer GPT an embodied presence in the physical world by attaching it to our bodies,
+providing it with real-time data, and voicing its generated responses, much like a virus that needs a
+body with which it can spread. When I shared this idea with GPT, it claimed that while intriguing,
+this idea is more aligned with speculative fiction and not currently feasible [ OpenAI 2023]. GPT’s
+responseactuallyencouragedmetopursuethisproject.ItremindedmeofDonnaHaraway’scallfor
+what she terms ’SF’ stories. These stand for ScienceFiction,Speculative Fabulation, StringFigures,
+Speculative Feminism, ScienceFact, andSoFar. In SF stories, one follows the threads in clotted and
+dense events, engages with practices and processes to stay with the trouble, and creates something
+that solicits a response. The point is to connect sympoietically, a connection in which, according to
+Haraway, entities are always partnered in a continuous process of making-with, becoming-with
+and thinking-with one another, making one another anew, evoking previously unseen abilities
+and flourishing together as a multitude [ Haraway 2016]. Inspired by this framework, I decided to
+challenge GPT’s claim that merging with it was not feasible. I had a plan, and I was going to make
+it happen.
+The initial step was designing a wearable device capable of hosting GPT. This device includes
+a Raspberry Pi running OpenAI’s GPT API, a text-to-speech model, a Bluetooth microphone, an
+earbud, two operational buttons, a battery pack, and a smartphone serving as a WiFi hotspot. All
+components are small enough to be attached to my body. A key consideration was to figure out the
+best way to wear this apparatus practically and comfortably. At first, I attempted to wear it around
+my neck, but this proved cumbersome. After experimentation, I modified the design and attached it
+to a wristband (Figure 3). The next phase involved integrating this device into my daily routine as
+part of a durational performance. I committed to wear it during the 2023 Fall term, which spanned
+ten weeks. When the term was over, I realized this was insufficient time and decided to extend
+this project so the performance is still ongoing as I write this essay. However, it is important to
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.
+55:4 AvitalMeshi
+note that I take deliberate breaks throughout the performance, mainly when at home with my
+family.Drawinginspirationfrommyteacher,LynnetteHunter,itisvitaltorecognizeperiodswhere
+the performer deliberately moves away from the practice. Hunter describes these moments as
+‘(rest,’ and unlike a simple ‘rest,’ these are moments in which one can see “what happens when the
+not-known of the materials changes the ecology, and changes us as part of that ecology” [ Hunter
+2019]. This deliberate detachment from GPT at home allows me to gather myself back, reflect, and
+observe how I change.
+4 THE CYBORG IN RESIDENCE
+When I first started wearing GPT, it felt a bit awkward. The wearable device does not have the
+polished appearance of typical commercial devices. It resembles a DIY, hobbyist electronic project.
+This appearance draws attention and curiosity and solicits responses. One of my earliest encounters
+while wearing it was with the train conductor, who half-jokingly inquired if I intended to hack the
+train or blow it up with this device. I noticed that many people glance at the device with curiosity
+when I pass by. In social settings, the device often becomes a topic of discussion. Someone asks
+what it is about, leading to explanations on my part. This often encourages others to admit their
+hesitation to ask about it, with some assuming it is a medical device or a weird fashion accessory.
+Throughout the performance, there were instances, and sometimes entire days, where the device
+malfunctionedforvariousreasons,suchaslackofinternetconnectivityordrainedbatteries.Despite
+these operational challenges, I maintain the continuity of the performance and wear it regardless of
+its functionality. This choice introduces an element of ambiguity to the performance, as observers
+cannot ascertain whether GPT is actively communicating with me. This ambiguity is a pivotal
+aspect of the project, underscoring a broader concern regarding the increasingly growing challenge
+of distinguishing between human and machine-generated content. During dinner with colleagues
+at a noisy restaurant where I could barely hear GPT’s responses, there was a moment in which I
+shared an idea, and my colleagues were debating whether it was mine or GPT’s, not knowing that
+GPT was dysfunctional for me at that specific moment.
+One day during the performance, I lacked the energy to perform and needed a day to be myself.
+I deliberately left the device at home. This absence did not go unnoticed; My colleagues expressed
+surprise, questioning why I wasn’t wearing it. Their reactions revealed how they had become
+accustomed to my new GPT-ME appearance, as aside from that day, this device was a constant
+presence in my life. I have worn it in various settings such as classes (as a student and teacher),
+professionalconferences,socialgatherings,libraries,coffeeshops,restaurants,publictransportation,
+and walking down the streets. One of my instructors humorously remarked that I had become the
+“Cyborg in residence;” feeling very much like a cyborg, I couldn’t agree more.
+5 BEING PART OF A COGNITIVE ASSEMBLAGE
+Having GPT attached to my body transcends simply looking like a cyborg; it feels like stepping
+into a realm of posthumanism or superintelligence. With GPT whispering in my ear, I am able to
+speak with a vocabulary that stretches beyond my usual English skills. I find myself effortlessly
+discussing topics I know nothing about, learning on the fly. In one of my conversations with a
+colleague, he mentioned a scholar I did not recognize, but GPT quickly generated information about
+this scholar’s work. As I recited GPT’s input, the conversation smoothly proceeded. Interestingly,
+as I spoke, I realized I knew this scholar but had forgotten the details of his work. I was clearly
+lagging behind the conversation. In this case, GPT acted like a live memory refresher, keeping
+the conversation going without pausing for clarification. After our chat, my colleague remarked
+how enjoyable the conversation was. He found it hard to believe when I revealed that GPT was
+behind much of what I said. As for me, having this kind of instant access to information, as if
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.
+GPT-ME: A Human-AI Cognitive Assemblage 55:5
+Fig. 3. Thewearabledesigned as a wristband proved efficient and comfortable to wearon a daily basis.
+directly connected to my brain, is nothing short of exhilarating. Throughout this performance, I
+have conducted countless conversations while using GPT - some were more casual (Figure 4), and
+others more performative and deliberate (Figure 5). In each of them, GPT was used at various levels
+- in some conversations, I used only GPT’s words, and in others, I used it occasionally or not at all.
+I quickly discovered a sense of longing for GPT whenever it was not attached to me. I find myself
+wishing for its constant presence in almost every situation. Our connection closely aligns with
+N. Katherine Hayles’s concept of the “Cognitive Assemblage” - an intricate system of humans
+and nonhuman entities collaboratively engaged in cognitive processes. Hayles asserts that such
+assemblages can flexibly respond to new situations, integrate knowledge into adaptive strategies,
+and evolve to create new experiences and responses. Such interconnected systems hold transfor-
+mative potential, driven by the flow of information, emphasizing that cognition is not confined
+to the human brain but is distributed across various mediums and entities. This raises intriguing
+questions regarding the distributed agency of the entities involved; “How and in what ways actors
+contribute to systemic dynamics, and consequently how responsibilities - technical, social, legal,
+ethical - should be appropriated.” [ Hayles2017] This goes beyond just utilizing GPT to enhance my
+intelligence; it is about the co-evolution and co-functioning of human and nonhuman cognizers as
+they integrate.
+While connected to GPT, I constantly navigate the choice of whether to voice the AI’s generated
+content or, instead, to rely on and express my spontaneous thoughts. This ongoing decision-making
+provokes a reflective comparison between my cognitive capabilities and those of GPT. In this
+process, when I question the content GPT generates, the underlying data it has been trained on, and
+the inherent biases it may carry, I am equally compelled to reflect on my own thought processes:
+What kind of content do I generate? What is the underlying data that has shaped my knowledge?
+What biases might I hold? This introspection brings a sense of humility and a clear awareness of the
+multitude embedded not only within GPT but also within myself. My thoughts and expressions are
+never solely mine; they have been shaped by a myriad of factors and inputs, as claimed by Bruno
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.
+55:6 AvitalMeshi
+Latour: “No one knows how many people are simultaneously at work in any given individual.”
+[Latour2007] Recognizing this, I question the value of prioritizing my views in discussions. If GPT
+can offer a broader, perhaps more diverse perspective, why should I limit the conversation to my
+narrow viewpoint?
+Fig. 4. A casual conversation between GPT-ME and my colleague.
+6 THINK WE MUST, WE MUST THINK
+By prioritizing GPT’s contributions over mine, I risk being reduced to a mere conduit of GPT’s
+information. This role might transform my speech into an automatic recitation of GPT’s words,
+lacking any personal reflection or understanding on my behalf. This might ultimately lead to the
+suppressionandeventualfadingofmyautonomouscognitiveprocesses.Thisscenarioisreminiscent
+of Samuel Beckett’s character Lucky in ‘Waiting for Godot.’ Lucky used to think very prettily, but
+he lost this ability, now only able to think when his hat is on. With his thinking hat, Lucky breaks
+his silence with a dense, detailed, yet disconnected monologue. When his hat is removed, he falls
+silent again. [ Beckett 1954] Beyond the examples of a character in a play or my artistic use of GPT,
+some companies, and labs work on developing brain-computer interfaces, some even testing brain
+implants on human subjects.[ Pierce2023] Susan Schneider warns that replacing the conscious part
+of our brain with a non-conscious AI-microchip is what she calls: “a technophile’s alluring path
+to suicide”, arguing that this can potentially end our lives as conscious beings and reduce us to
+mere shells of our former selves. [ Schneider 2019] In this context, Donna Haraway’s insights are
+particularly relevant, emphasizing the importance of cultivating ‘response-ability,’ arguing that it
+matters how thoughts are formed and how knowledge is constructed - “it matters what thoughts
+think thoughts. It matters what knowledges know knowledges. It matters what relations relate
+relations. It matters what worlds world worlds.”[ Haraway 2016] While asking what it would mean
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.
+GPT-ME: A Human-AI Cognitive Assemblage 55:7
+Fig. 5. A performativeconversationbetween GPT-MEand a participant. In this setting, I commit to mostly
+speaking GPT, only adding my words to connect sentences and make the conversation flow more coherently.
+to surrender the capacity to think, Haraway revisits Hannah Arendt’s research on the dangers
+of thoughtlessness, exemplified by Otto Adolf Eichmann, a Nazi officer whose evil actions stem
+from his inability to engage with the implications and consequences of his deeds. For Haraway,
+Eichmann “was someone who could not be a wayfarer, could not entangle, could not track the
+lines of living and dying, could not cultivate response-ability, could not make present to itself what
+it is doing, could not live in consequences or with consequence, could not compost”. Her call for
+active engagement and responsibility in our cognitive processes is a crucial reminder of the need
+to balance AI-generated content and personal intellectual autonomy. Haraway urges us to think
+repeatedly: ”Think we must, we must think” to avoid the pitfalls of thoughtlessness and to ensure a
+meaningful and responsible engagement with the world around us.
+7 MOVING FORWARD TOGETHER
+Being GPT-ME destabilizes my understanding of the meaning of knowing, being myself, or being
+human. The dilemma of prioritizing organic human thought over AI-driven cognition may become
+less pressing when we acknowledge that human cognition has always been intertwined with
+technological tools. The idea that AI will replace us belongs to a fear-driven ethos with which I
+do not resonate. Instead, I think of our relationship with AI technology through Karen Barad’s
+perspective of Agential Realism, where intelligence is not an inherent trait that belongs to a specific
+entitybutratheranenactmentthatemergeswithin“intra-actions”-Barad’stermforentanglements
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.
+55:8 AvitalMeshi
+within which entities co-constitute one another. GPT and I are not fixed entities; we are not self-
+contained. We shape one another through our unfolding relationship. We are entangled with one
+another, and through this entanglement, our mutual reconfiguration is continuously being shaped;
+GPT changes me, and I change GPT. Each moment of this performative intra-action comes with a
+redefinition of the meaning of knowing and being and their inseparability [ Barad2007]. GPT and I
+move forward together. We work together in a distributed manner to produce knowledges that
+are deeply articulated. This is manifested by attaching the technology to the body so that instead
+of being an expert system that is removed and detached, it enriches and augments knowledges
+that are situated. Knowledges that come with the body become entangled with knowledges that
+are external to it. Both types of knowledges, while entangled, enrich one another [ Choy2005].
+GPT and I, spend time together, expanding each other’s knowledges while sometimes being ‘weird’
+together, breaking some rules, knowing and not-knowing together, embracing new perspectives,
+changing, and co-evolving sympoietically just as people and technologies have always done.
+ACKNOWLEDGMENTS
+I want to express my deep gratitude to all those who participated in the GPT-ME performance.
+My heartfelt thanks go to my mentors at UC Davis—Joseph Dumit, Finn Brunton, and Patrick
+LeMieux—for their exceptional support with this project. I am especially grateful to Ofer Meshi for
+his assistance assembling the wearable. Additionally, I thank the reviewers for their dedication in
+reviewing this work and for their invaluable feedback.
+REFERENCES
+Karen Barad. 2007. Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning . Duke
+University Press.
+Samuel Beckett. 1954. Waiting for Godot: Tragicomedy in 2 acts . Grove Press.
+Timothy K Choy. 2005. Articulated knowledges: Environmental forms after universality’s demise. American Anthropologist
+107, 1 (2005), 5–18.
+Benj Edwards. 2023. People are speaking with ChatGPT for hours, bringing 2013’s Her closer to reality . ars tech-
+nica. https://arstechnica.com/information-technology/2023/10/people-are-speaking-with-chatgpt-for-hours-bringing-
+2013s-her-closer-to-reality/.
+Donna J Haraway. 2016. Staying with the Trouble: Making Kin in the Chthulucene . Duke University Press.
+N Katherine Hayles. 2017. Unthought: The power of the Cognitive Nonconscious . University of Chicago Press.
+Krystal Hu. 2023. ChatGPT sets record for fastest-growing user base-analyst note. Reuters(2023).
+Lynette Hunter. 2019. Politics of Practice: A Rhetoric of Performativity . Springer.
+Bruno Latour. 2007. Reassembling the Social: An Introduction to Actor-Network-Theory . Oxford University Press.
+Aaron Mak. 2019. When Is Technology Too Dangerous to Release to the Public? Slate.
+OpenAI. 2023. ChatGPT [Large language model]. https://chat.openai.com
+David Pierce. 2023. Neuralink is recruiting subjects for the first human trial of its brain-computer interface . The Verge.
+Alec Radford, Jeffrey Wu, Dario Amodei, Daniela Amodei, Jack Clark, Miles Brundage, and Ilya Sutskever. 2019. Language
+models are unsupervised multitask learners. OpenAI (2019).
+Susan Schneider. 2019. Artificial You: AI and the Future of Your Mind . Princeton University Press.
+Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss, Jeff Wu, Alec Radford, Gretchen Krueger,
+Jong Wook Kim, Sarah Kreps, et al .2019. Release strategies and the social impacts of language models. arXiv preprint
+arXiv:1908.09203 (2019).
+Elizabeth A Wilson. 2011. Affect and Artificial Intelligence . University of Washington Press.
+Proc. ACM Comput. Graph. Interact. Tech., Vol. 7, No. 4, Article 55. Publication date: August 2024.

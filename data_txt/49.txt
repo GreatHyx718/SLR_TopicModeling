@@ -1,0 +1,645 @@
+Diffraction, Creativity and AI: Towards New Methods for Design
+Research
+Charlotte Bird
+Institute for Design Informatics
+University of Edinburgh
+Edinburgh, United Kingdom
+charlotte.bird@ed.ac.uk
+Abstract
+My research explores the intersection of diffraction theories, cre-
+ativity, and artificial intelligence (AI) to develop new methodologies
+for design research in Human-Computer Interaction (HCI). By em-
+ploying Karen Barad’s theory of agential realism and the concept
+of diffraction, I research how diffractive methodologies can offer
+deeper insights into the complex relationships between humans
+and AI. My aim is to contribute to the ongoing formalisation of
+diffractive methodologies for design research, demonstrating their
+potential to generate novel insights and design directions that may
+be overlooked by traditional user-centered approaches.
+CCS Concepts
+•Human-centered computing →Interaction design theory,
+concepts and paradigms ;•Applied computing →Arts and
+humanities .
+Keywords
+creativity, AI, entanglement theories, diffraction, methods
+ACM Reference Format:
+Charlotte Bird. 2025. Diffraction, Creativity and AI: Towards New Methods
+for Design Research. In Extended Abstracts of the CHI Conference on Human
+Factors in Computing Systems (CHI EA ’25), April 26–May 01, 2025, Yokohama,
+Japan. ACM, New York, NY, USA, 6 pages. https://doi.org/10.1145/3706599.
+3721091
+1 BACKGROUND AND MOTIVATION
+The emergence of AI as a creative tool has fundamentally challenged
+our understanding of creative practice. Traditional user-centered
+approaches struggle to capture the complex dynamics when hu-
+mans and AI collaborate creatively, as the boundaries between user
+and tool become increasingly blurred. This dissertation investigates
+these challenges through empirical studies of creative practitioners
+working with AI technologies. Therefore, as AI systems become
+increasingly sophisticated and pervasive, there is a growing need
+to re-conceptualize our understanding of the relationship between
+humans, technology, and the world around us. A handful of HCI
+researchers have therefore began to engage with Entanglement
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+CHI EA ’25, Yokohama, Japan
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1395-8/25/04
+https://doi.org/10.1145/3706599.3721091HCI [18] (an adoption of entanglement theories: actor-network the-
+ory, post-phenomenology, object-oriented ontology and agential
+realism), with a view to to finding a pathway for the perceived short-
+comings of HCI thinking [ 13,15,17,28,30,32,34,42,44,45,47,48].
+Entanglement HCI [ 18] offers compelling frameworks for exploring
+these complex interactions and their implications for AI research
+and development. Of the entanglement theories offered by Frauen-
+berger [18], Karen Barad’s theory of agential realism and object/
+methodology of diffraction [5] appear to offer new pathways to-
+wards understanding the world and our position within it. Agential
+realism can be briefly summarized as a philosophical framework
+that posits that entities do not have inherent boundaries or proper-
+ties prior to their interactions. Instead, phenomena emerge through
+what Barad terms intra-actions within an entangled state of reality
+[5]. Diffraction is used as a conceptual and methodological tool to
+explore the entangled nature of reality and knowledge production.
+Barad [5]proposes diffraction as the method of "reading insights
+through one another in attending to and responding to the details
+and specificities of relations of difference and how they matter”.
+Simply put, agential realism and diffraction suggest a more nuanced
+understanding of my research focus: the human-AI interaction, one
+that is mutually shaping. This mutual co-constitution is especially
+evident in the context of creative interaction, which can often func-
+tion as an ill-defined, iterative and exploratory process.
+Agential realism provides valuable tools for understanding how
+creative boundaries blur in human-AI collaboration. Rather than
+treating AI as a simple tool, this framework helps us examine how
+creative agency emerges through complex interactions between
+human and machine. The diffractive methodology offers specific
+analytical techniques for studying these interactions without reduc-
+ing them to simple cause-effect relationships. Therefore, the work
+of my PhD operates within this space: diffraction and creativity
+with AI. I seek to cultivate connections between the spaces, finding
+where knowledge can be exchanged, and how one might inform
+a closer understanding of another. Understandably, there is uncer-
+tainty about the potential of entanglement theories for HCI. One
+of the significant criticisms is the challenge of converting entan-
+glement theories to actionable design methods [ 42]. As such, the
+research of my PhD operates with two goals. The first: cultivating
+a better understanding of how AI impacts human creativity, under-
+stood and analyzed through the lens of diffraction. Secondly, using
+this knowledge to develop novel and actionable design methods
+that look towards cultivating better tools, technologies and interac-
+tions. The importance of this research is based on the premise that
+user-centered design, whilst often useful and important, leaves a
+number of questions unanswered. Frauenberger [18] suggests that
+in leaving user-centered design behind, we can develop "agonistic,
+
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Bird.
+participatory speculation methods to design meaningful relations",
+rather than optimizing for user experiences. I am steered by the
+questions asked within Entanglement HCI: what futures should we
+designing for ourselves?
+2 Objectives and Approach
+In defining my objectives, I first discuss the key related work in
+order to contextualize my questions.
+2.1 Related Work
+2.1.1 Creativity and AI. Creativity plays a crucial role in HCI [ 20],
+influencing both the design process and the development of tools
+(creativity support tools) to support creative work [ 19]. Advance-
+ments in AI technologies have allowed for the development of new
+human machine creative tasks. From an array of design tasks [ 23–
+25,37,56,59] to considering AI as a design element [ 6,10,27,55,57],
+to stage design [ 24], drawing [ 39,51,58], performance [ 49,53,54],
+creative writing [ 16,21,36,46] and exhibition [ 35,38]. In particular,
+AI for artistic applications has received much attention, such as
+the political, cultural [ 40,60], aesthetic [ 22] and socio-technical
+dimensions of AI in creative work [ 1,3,8,11,12,26,33,50,52].
+Notably, AI for creative tasks because it often re-defines and re-
+shapes the creative act, creating a new human-tool balance with
+the creative process. However as I will discuss, current research is
+limited in its ability to take stock of the ontological uncertainties
+generated by AI, and as such tends to approach the research task
+as a question of improving the user experience through iterative
+refinement of algorithms, which is a huge simplification of the ways
+in which humans live with technologies. Given this shortfall of the
+user-centered research method, I turn to diffractive theories.
+2.1.2 Diffractive Theories and Methods. Entanglement HCI [ 18]
+discusses the ontological uncertainties generated by our changing
+relationship with technologies. Frauenberger [18]advocates that
+entanglement theories [ 43] such as feminism, post-humanism and
+post-phenomenology should be applied to the study of technologies,
+in order to understand how technologies become entangled with our
+bodies and lives. Among other theories, Frauenberger [18] adopts
+diffraction and agential realism [ 5]. Diffraction forms a central
+theory around which my PhD is built. Diffraction involves reading
+insights from different disciplines and approaches through one
+another to produce new understandings by exploring differences
+and interferences between perspectives. It moves beyond reflecting
+or representing the world to actively intervening in it [ 5]. There
+is an emergence of diffractive methodologies (DM) within HCI
+[2,4,14,41,42,44,45,47], and often the utilization of DM facilitates
+a deeper and difference-attentive understanding of technologies,
+environments and people. Diffraction can also be investigated as an
+object: Sanches et al . [48] present an insightful study of diffraction-
+in-action , whilst others have applied diffractive studies to various
+sub fields [29, 31, 32].
+2.2 Questions and Goals
+Given these two foci briefly explained in Section 2.1, I now turn to
+the questions of my dissertation.
+How do creative practitioners navigate and negotiate AI within
+their work? I believe in the value of gathering new data, and a focusof my PhD research has been on cultivating connections with those
+in creative industries in order to closely understand their interac-
+tions with AI technologies, including building, breaking, changing
+and resisting. My publications under review report the findings
+of this data collection with diverse creatives. I have also worked
+extensively with the Bridging Responsible AI Divides (BRAID)1
+programme at the University of Edinburgh to map the global land-
+scape of creative action with AI.
+What methodological tools can help us understand and design for
+human-AI creative collaboration? Simply collecting data does not
+answer any questions. It is the process of the analysis in which new
+ideas and results emerge. Therefore, the analysis process must be
+led by a framework that is able to account for the complexities of
+the data. In considering the countless ways creatives can use AI, it
+is especially significant to not flatten the data. A diffractive analysis
+or a diffractive reading should retain the dynamism and depth of
+the data, accounting for differences and instability of boundaries.
+How can diffractive research be used to preserve the complexity of
+creativity, evaluate its forms and precipitate the development of better
+interactions? The final question of my dissertation is to formalize
+the diffractive lens I began to work on in Study 2. In doing so, I aim
+to present a set of unique findings for creativity with AI. My work
+with diffraction as a tool for analysis and reading will be formal-
+ized into a diffractive methodology that challenges the notion of
+user-centered design thinking.
+2.3 Approach
+The approach of this PhD is qualitative; I am focused on gather-
+ing real world data of people using their technologies, and — in
+partnership with these people — developing new methods for think-
+ing about these interactions. Simply put, many involved artistic
+interactions with AI are not viewed by the human as a simple user-
+tool engagement, so why should the user-centered approach be
+the most insightful way to investigate? I have chosen to engage
+with diffraction for a number of reasons. Firstly, it is ill-defined as a
+method and an object to investigate within HCI, not only by virtue
+of its characteristics as a philosophical concept that it is difficult to
+concretize into method, but in that the HCI field has seemed unwill-
+ing to undertake the task of converting diffraction to an actionable
+design method. In addition, it has been noted that in the process
+of converting the concept of diffraction to a method we would
+lose the flexibility that makes a diffractive view valuable. The HCI
+community has much to do to unpack the meanings of diffraction
+and entanglement, and their implications for design practices. My
+approach seeks to not prematurely close around diffraction as the
+only means to do future research in HCI, but rather to explore the
+potential for diffractive research within HCI.
+3 Contributions
+3.1 On the Generative Text-to-Image Model
+[7, 9]
+During the first year of my PhD I focused on the complexities of
+text-to-image models as tools in the public domain. Within this,
+I looked at AI ethics. We conducted and presented a systematic
+1https://braiduk.org
+Diffraction, Creativity and AI: Towards New Methods for Design Research CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+examination of the anticipated and observed risks associated with
+modern text-to-image generative models [ 9]. We built a taxonomy
+of risk across six key stakeholder groups, identified 22 distinct risk
+types from data bias to malicious use. The investigation we con-
+ducted was intended to enhance the ongoing discourse on respon-
+sible model development and deployment and has subsequently
+achieved this goal, becoming the most cited investigation of the
+risks of text-to-image models. In addition, by highlighting previ-
+ously overlooked risks and gaps we aimed to shape research and
+governance initiatives, guiding toward the responsible, secure, and
+ethically conscious evolution of text-to-image models. During this
+focus on text-to-image models, I conducted and published a study
+focused on exploring the ability to empirically evaluate the pres-
+ence of creativity in human interactions with generative models
+[7]. In this work, I adopted evaluative frameworks from the field of
+computational creativity and applied them to the interactions that
+users can have with text-to-image models. We presented a number
+of failings in generative models such as pastiche and imitation,
+limited interaction and opaque process. Further, we showed the
+connections that can be drawn between the work of computational
+creativity and the mass use of deep generative models in a creative
+context, as these new interactions offer ripe opportunity to under-
+standing the processes and interactions of the user with “creative”
+systems.
+3.2 Study 1: Exploring the Practices of Creatives
+Working with AI [8]
+In the second year of my doctoral studies, I designed and con-
+ducted a qualitative study that aimed to understand and explore the
+real-world experiences of artists interacting with AI in their cre-
+ative practices. ‘AI’ encompasses a countless range of technologies,
+including text-to-image models, large language models, recommen-
+dation systems and computer vision tools. We specifically recruited
+artists who were both practicing professionally and who pursued
+new ways to use AI tools. We discussed their identity as a cre-
+ative, their creative history, their practice with AI and their visions
+for the future. We uncovered a number of insightful findings that
+contribute to the growing body of knowledge around how AI can
+cultivate or dampen human creativity. We found a number of ten-
+sions around our participants choice to use AI and their identity as
+an AI practitioner, such as not being accepted by academic circles
+for using AI. Furthermore, we looked closely at the mechanics of
+their interactions, such as how they overcome TTI models not work-
+ing as expected. We touched upon responsibility, and found that our
+participants had developed complex opinions on ‘being responsible’
+with AI. For example, some felt troubled by their choice to present
+work made with AI, whilst others chose to allude to the presence of
+AI in their work but not expose audience to the technology. Based
+on our findings, and the feedback from presenting this work at CHI’
+24, we developed Study 2, discussed in Section 3.3.
+3.3 Study 2: Investigating Diffraction as a
+Method for Design Research in HCI Using a
+Study of Creative Interactions with AI
+Expanding on the results of Study 1, we designed and conducted a
+second phase. This phase was focused on expanding the creativeprofessions of our participants. We recruited a wide array of profes-
+sions, including writers, performers, filmmakers, CEOs, musicians,
+choreographers and dancers. Currently in review is the paper pre-
+senting the results of this study. In this paper, we framed AI as a new
+design material, using the affordances of the technology to seek
+out the diffractive actions of our 20 participants. Particularly the
+paper articulated findings of diffractive action, or the ways creative
+practitioners shape projects diffractively. We answer the question:
+how does diffraction play out in the process of creative interactions?
+, articulating examples of how diffraction is practically enacted.
+We explored how creative practitioners engage diffractively with
+AI technologies, revealing insights that can inform future HCI re-
+search and design practices. By examining the ways in which artists,
+designers, and technologists interact with AI tools, we uncovered
+several key themes that demonstrate the value of diffractive method-
+ologies in HCI: adopting the machine vision, reshaping teaching and
+learning processes, developing symbiotic relationships, intentional
+resistance, exploring entanglements with the human body, rethink-
+ing ethics and responsibility, and speculating on alternative futures
+that redefine our relationship with AI. The study reveals that when
+creative practitioners engage diffractively with AI, they embrace
+complexity and contradiction rather than seeking simple solutions
+or optimal outcomes. This approach surfaces alternative visions
+of technologies and new design directions that can help address
+the challenges of building for a world grappling with technolog-
+ical anxieties and uncertainties about the future. These findings
+highlight the potential of diffractive approaches to generate novel
+insights and design directions that may be overlooked by traditional
+reflexive methodologies. By attending to differences and exploring
+the entanglements between humans, AI, and the broader socio-
+technical context, diffractive practices can help HCI researchers
+and designers move beyond notions of human-centered design
+towards more nuanced, ethically-engaged, and transformative ap-
+proaches. Our research also demonstrates the practical application
+of diffraction as a methodological tool in HCI research. By actively
+searching for diffractive actions in our participants’ practices, we
+uncovered insights that might have been missed through more
+traditional analytical approaches. This suggests that diffraction
+can be a valuable complement to existing HCI research methods,
+particularly when studying emerging technologies and complex
+human-technology relationships. Reflecting on our methods, we
+present four provocations that offer a starting point for integrating
+diffractive thinking into HCI research and practice. As AI technolo-
+gies continue to evolve and permeate various aspects of human life,
+adopting diffractive methodologies may become increasingly cru-
+cial for addressing the complex challenges and opportunities that
+arise at the intersection of humans and intelligent systems. In rec-
+ognizing the difficulty of translating theory to design methods and
+practice, we did not offer a practical guide to investigating diffrac-
+tion, but rather use our findings of AI in creativity to investigate the
+realities of diffraction-in-action. We presented our findings across
+seven themes: the view from the machine, teaching and learning,
+symbiosis, breaking and resistance, the body, ethics, responsibility
+and safety, and shaping the future of AI. We found that in searching
+for the diffractive across these themes we uncovered valuable and
+timely results that would have remained hidden had we framed
+the human as simply ’user’. Following our results, we turned to a
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Bird.
+discussion around the process of searching for the diffractive, and
+identifying how these insights can assist us in developing diffractive
+methodologies for HCI practitioners.
+4 Expected Next Steps
+The future of diffractive design in HCI holds significant potential
+for advancing research methodologies and design practices. As
+the field continues to grapple with complex socio-technical chal-
+lenges, diffractive approaches offer a way to engage with multiple
+perspectives and generate novel insights. By reading different anal-
+yses, theories, or disciplines through one another, researchers can
+uncover new patterns of difference and create more nuanced under-
+standings of human-computer interactions. Therefore, by reading
+the nuances of creativity with AI through the diffractive lens, we
+can uncover new understandings of our relationships with tech-
+nology. Subsequently, we can develop the diffractive methodology
+through our closer understanding of the new ways we are creative
+with AI (a complex and boundary challenging task).
+Therefore, I plan to focus on the complexities and intricacies of
+interacting creatively with AI by ’zooming in’ on the processes of a
+handful of participants, and working with them over the course of
+months. Specifically, I will focus on cultivating knowledge that takes
+stock of the complexity of the creative process life cycle by working
+closely with my participants to develop shared understandings and
+analysis of their experiences.
+I will contribute a detailed understanding of the human-AI cre-
+ative dynamic, and present —from these findings— a development
+and application of the diffractive methodology for HCI. Through
+my focus on longitudinal case studies with creative practitioners, I
+will document specific patterns of human-AI interaction and test
+new diffractive analytical tools. This work will produce concrete
+guidelines for designing and evaluating AI-enabled creative tools. I
+will focus on maintaining and developing the theoretical founda-
+tion while strengthening its connection to practical challenges and
+outcomes in human-AI creative collaboration.
+Concrete Methodological Steps.
+•Document specific patterns of human-AI interaction through
+detailed case studies of creative practitioners.
+•Identify limitations of traditional methods in capturing these
+interactions.
+•Develop analytical tools based on diffractive methodology
+for studying human-computer interactions.
+•Validate and test tools through longitudinal studies with
+creative practitioners.
+5 Dissertation Progress and Goals
+I am a third year student at the University of Edinburgh in the
+Design Informatics department, under the guidance of Professor
+Ewa Luger and Doctor Caterina Moruzzi. I aim to present my disser-
+tation by Spring 2027. At this stage I am working on planning and
+developing my next study. I have begun to draft my thesis and have
+my theoretical chapters sketched. I am also currently working as a
+research assistant on the BRAID (Bridging Responsible AI Divides)
+programme. The findings of Study 1, Study 2 and the defined next
+steps — alongside my publications in AI ethics — will form the
+body of my thesis. Post-graduation I wish to pursue an industryrole in research, focused on developing new ways to think about
+building technologies for humans, and engaging with users in novel
+ways. I would like to continue working in the field of creativity
+technologies, such as building better tools for artists, musicians and
+designers. Participating in the CHI ’25 Doctoral Consortium would
+be immensely valuable to my progress as a PhD student, and will
+meaningfully and practically assist me in shaping the direction of
+my PhD by providing constructive conversations on how best to
+define analytical tools for user research and how to shape my re-
+sults into insightful and valuable publications. I have not previously
+attended a Doctoral Consortium.
+Acknowledgments
+I am eternally grateful to my advisors Prof. Ewa Luger and Dr.
+Caterina Moruzzi.
+References
+[1]Alyse Marie Allred and Cecilia Aragon. 2023. Art in the Machine: Value Misalign-
+ment and AI “Art”. In Cooperative Design, Visualization, and Engineering (Lecture
+Notes in Computer Science) , Yuhua Luo (Ed.). Springer Nature Switzerland, Cham,
+31–42. https://doi.org/10.1007/978-3-031-43815-8_4
+[2]Ferran Altarriba Bertran, Samvid Jhaveri, Rosa Lutz, Katherine Isbister, and
+Danielle Wilde. 2019. Making Sense of Human-Food Interaction. In Proceedings of
+the 2019 CHI Conference on Human Factors in Computing Systems . ACM, Glasgow
+Scotland Uk, 1–13. https://doi.org/10.1145/3290605.3300908
+[3]Sofian Audry. 2021. Art in the Age of Machine Learning . MIT Press. Google-
+Books-ID: y01KEAAAQBAJ.
+[4]Paulo Bala, Pedro Sanches, Vanessa Cesário, Sarah Leão, Catarina Rodrigues,
+Nuno Jardim Nunes, and Valentina Nisi. 2023. Towards Critical Heritage in
+the wild: Analysing Discomfort through Collaborative Autoethnography. In
+Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+(Hamburg, Germany) (CHI ’23) . Association for Computing Machinery, New York,
+NY, USA, Article 771, 19 pages. https://doi.org/10.1145/3544548.3581274
+[5]Karen Barad. 2007. Meeting the Universe Halfway: Quantum Physics and the
+Entanglement of Matter and Meaning . Duke University Press. Google-Books-ID:
+U8frDwAAQBAJ.
+[6]Jesse Josua Benjamin, Arne Berger, Nick Merrill, and James Pierce. 2021. Machine
+Learning Uncertainty as a Design Material: A Post-Phenomenological Inquiry. In
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(CHI ’21) . Association for Computing Machinery, New York, NY, USA, 1–14.
+https://doi.org/10.1145/3411764.3445481
+[7]Charlotte Bird. 2023. Evaluating Prompt Engineering as a Creative Practice. In
+AAAI/ACM Proceedings of the 14th International Conference on Computational
+Creativity . Association for Computing Machinery.
+[8]Charlotte Bird. 2024. Artists and AI: Creative Interactions and Tensions. In
+Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing
+Systems (CHI EA ’24) . Association for Computing Machinery, New York, NY, USA,
+1–6. https://doi.org/10.1145/3613905.3651041
+[9]Charlotte Bird, Eddie Ungless, and Atoosa Kasirzadeh. 2023. Typology of Risks of
+Generative Text-to-Image Models. In Proceedings of the 2023 AAAI/ACM Confer-
+ence on AI, Ethics, and Society (AIES ’23) . Association for Computing Machinery,
+New York, NY, USA, 396–410. https://doi.org/10.1145/3600211.3604722
+[10] Nico Brand, William Odom, and Samuel Barnett. 2021. A Design Inquiry into
+Introspective AI: Surfacing Opportunities, Issues, and Paradoxes. In Proceedings
+of the 2021 ACM Designing Interactive Systems Conference (DIS ’21) . Association
+for Computing Machinery, New York, NY, USA, 1603–1618. https://doi.org/10.
+1145/3461778.3462000
+[11] Baptiste Caramiaux and Marco Donnarumma. 2020. Artificial Intelligence in
+Music and Performance: A Subjective Art-Research Inquiry. https://doi.org/10.
+48550/arXiv.2007.15843 arXiv:2007.15843 [cs].
+[12] Eva Cetinic and James She. 2022. Understanding and Creating Art with AI: Review
+and Outlook. ACM Transactions on Multimedia Computing, Communications, and
+Applications 18, 2 (Feb. 2022), 66:1–66:22. https://doi.org/10.1145/3475799
+[13] Anna Croon. 2022. Thinking with care in human–computer interaction. Feminist
+Theory 23, 2 (April 2022), 232–246. https://doi.org/10.1177/14647001221082294
+Publisher: SAGE Publications.
+[14] Dipto Das and Bryan Semaan. 2022. Collaborative Identity Decolonization as
+Reclaiming Narrative Agency: Identity Work of Bengali Communities on Quora.
+InCHI Conference on Human Factors in Computing Systems . ACM, New Orleans
+LA USA, 1–23. https://doi.org/10.1145/3491102.3517600
+Diffraction, Creativity and AI: Towards New Methods for Design Research CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+[15] Laura Devendorf, Kristina Andersen, and Aisling Kelliher. 2020. Making Design
+Memoirs: Understanding and Honoring Difficult Experiences. In Proceedings of
+the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI,
+USA) (CHI ’20) . Association for Computing Machinery, New York, NY, USA, 1–12.
+https://doi.org/10.1145/3313831.3376345
+[16] Paramveer S Dhillon, Somayeh Molaei, Jiaqi Li, Maximilian Golub, Shaochun
+Zheng, and Lionel Peter Robert. 2024. Shaping Human-AI Collaboration: Varied
+Scaffolding Levels in Co-writing with Language Models. In Proceedings of the
+CHI Conference on Human Factors in Computing Systems . 1–18.
+[17] Claude Draude. 2020. “Boundaries Do Not Sit Still” from Interaction to Agential
+Intra-action in HCI. In Human-Computer Interaction. Design and User Experience:
+Thematic Area, HCI 2020, Held as Part of the 22nd International Conference, HCII
+2020, Copenhagen, Denmark, July 19–24, 2020, Proceedings, Part I 22 . Springer,
+20–32.
+[18] Christopher Frauenberger. 2020. Entanglement HCI The Next Wave? ACM
+Transactions on Computer-Human Interaction 27, 1 (Feb. 2020). https://doi.org/
+10.1145/3364998
+[19] Jonas Frich, Lindsay MacDonald Vermeulen, Christian Remy, Michael Mose
+Biskjaer, and Peter Dalsgaard. 2019. Mapping the Landscape of Creativity Support
+Tools in HCI. In Proceedings of the 2019 CHI Conference on Human Factors in
+Computing Systems (CHI ’19) . Association for Computing Machinery, New York,
+NY, USA, 1–18. https://doi.org/10.1145/3290605.3300619
+[20] Jonas Frich, Michael Mose Biskjaer, and Peter Dalsgaard. 2018. Twenty Years of
+Creativity Research in Human-Computer Interaction: Current State and Future
+Directions. In Proceedings of the 2018 Designing Interactive Systems Conference
+(Hong Kong, China) (DIS ’18) . Association for Computing Machinery, New York,
+NY, USA, 1235–1257. https://doi.org/10.1145/3196709.3196732
+[21] Katy Ilonka Gero, Tao Long, and Lydia B Chilton. 2023. Social Dynamics of
+AI Support in Creative Writing. In Proceedings of the 2023 CHI Conference on
+Human Factors in Computing Systems . ACM, Hamburg Germany, 1–15. https:
+//doi.org/10.1145/3544548.3580782
+[22] Dejan Grba. 2022. Deep Else: A Critical Framework for AI Art. Digital 2, 1
+(March 2022), 1–32. https://doi.org/10.3390/digital2010001 Number: 1 Publisher:
+Multidisciplinary Digital Publishing Institute.
+[23] Matthew Guzdial, Nicholas Liao, Jonathan Chen, Shao-Yu Chen, Shukan Shah,
+Vishwa Shah, Joshua Reno, Gillian Smith, and Mark O Riedl. 2019. Friend,
+collaborator, student, manager: How design of an ai-driven game level editor
+affects creators. In Proceedings of the 2019 CHI conference on human factors in
+computing systems . 1–13.
+[24] Yuanning Han, Ziyi Qiu, Jiale Cheng, and Ray Lc. 2024. When Teams Embrace AI:
+Human Collaboration Strategies in Generative Prompting in a Creative Design
+Task. In Proceedings of the CHI Conference on Human Factors in Computing Systems .
+ACM, Honolulu HI USA, 1–14. https://doi.org/10.1145/3613904.3642133
+[25] Qingyang He, Weicheng Zheng, Hanxi Bao, Ruiqi Chen, and Xin Tong. 2024.
+Exploring Designers’ Perceptions and Practices of Collaborating with Generative
+AI as a Co-creative Agent in a Multi-stakeholder Design Process: Take the Domain
+of Avatar Design as an Example. In Proceedings of the Eleventh International
+Symposium of Chinese CHI (Denpasar, Bali, Indonesia) (CHCHI ’23) . Association
+for Computing Machinery, New York, NY, USA, 596–613. https://doi.org/10.
+1145/3629606.3629675
+[26] Drew Hemment, Morgan Currie, Sj Bennett, Jake Elwes, Anna Ridler, Caroline
+Sinders, Matjaz Vidmar, Robin Hill, and Holly Warner. 2023. AI in the Public
+Eye: Investigating Public AI Literacy Through AI Art. In 2023 ACM Conference
+on Fairness, Accountability, and Transparency . ACM, Chicago IL USA, 931–942.
+https://doi.org/10.1145/3593013.3594052
+[27] Lars Erik Holmquist. 2017. Intelligence on tap: artificial intelligence as a new
+design material. Interactions 24, 4 (June 2017), 28–33. https://doi.org/10.1145/
+3085571
+[28] Sarah Homewood, Marika Hedemyr, Maja Fagerberg Ranten, and Susan Kozel.
+2021. Tracing Conceptions of the Body in HCI: From User to More-Than-Human.
+InProceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(CHI ’21) . Association for Computing Machinery, New York, NY, USA, 1–12.
+https://doi.org/10.1145/3411764.3445656
+[29] Sarah Homewood, Marika Hedemyr, Maja Fagerberg Ranten, and Susan Kozel.
+2021. Tracing Conceptions of the Body in HCI: From User to More-Than-Human.
+InProceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(Yokohama, Japan) (CHI ’21) . Association for Computing Machinery, New York,
+NY, USA, Article 258, 12 pages. https://doi.org/10.1145/3411764.3445656
+[30] Sarah Homewood, Amanda Karlsson, and Anna Vallgårda. 2020. Removal as a
+method: A fourth wave HCI approach to understanding the experience of self-
+tracking. In Proceedings of the 2020 ACM designing interactive systems conference .
+1779–1791.
+[31] Sarah Homewood, Amanda Karlsson, and Anna Vallgårda. 2020. Removal as a
+Method: A Fourth Wave HCI Approach to Understanding the Experience of Self-
+Tracking. In Proceedings of the 2020 ACM Designing Interactive Systems Conference
+(Eindhoven, Netherlands) (DIS ’20) . Association for Computing Machinery, New
+York, NY, USA, 1779–1791. https://doi.org/10.1145/3357236.3395425[32] Michaela Honauer and Christopher Frauenberger. 2024. Exploring Child-AI
+Entanglements. In Proceedings of the 23rd Annual ACM Interaction Design and
+Children Conference (Delft, Netherlands) (IDC ’24) . Association for Computing
+Machinery, New York, NY, USA, 1029–1031. https://doi.org/10.1145/3628516.
+3661155
+[33] Maurice Jakesch, Zana Buçinca, Saleema Amershi, and Alexandra Olteanu. 2022.
+How Different Groups Prioritize Ethical Values for Responsible AI. In Proceedings
+of the 2022 ACM Conference on Fairness, Accountability, and Transparency (FAccT
+’22). Association for Computing Machinery, New York, NY, USA, 310–323. https:
+//doi.org/10.1145/3531146.3533097
+[34] Amanda Lazar, Ben Jelen, Alisha Pradhan, and Katie A. Siek. 2021. Adopting
+Diffractive Reading to Advance HCI Research: A Case Study on Technology for
+Aging. ACM Trans. Comput.-Hum. Interact. 28, 5, Article 32 (aug 2021), 29 pages.
+https://doi.org/10.1145/3462326
+[35] RAY LC. 2023. HUMAN ENOUGH: A Space for Reconstructions of AI visions in
+Speculative Climate Futures. In Proceedings of the 15th Conference on Creativity
+and Cognition (C&amp;C ’23) . Association for Computing Machinery, New York,
+NY, USA, 217–222. https://doi.org/10.1145/3591196.3593341
+[36] Mina Lee, Percy Liang, and Qian Yang. 2022. Coauthor: Designing a human-
+ai collaborative writing dataset for exploring language model capabilities. In
+Proceedings of the 2022 CHI conference on human factors in computing systems .
+1–19.
+[37] Jie Li, Hancheng Cao, Laura Lin, Youyang Hou, Ruihao Zhu, and Abdallah El Ali.
+2024. User Experience Design Professionals’ Perceptions of Generative Artificial
+Intelligence. In Proceedings of the CHI Conference on Human Factors in Computing
+Systems (CHI ’24) . Association for Computing Machinery, New York, NY, USA,
+1–18. https://doi.org/10.1145/3613904.3642114
+[38] Jingke Li, Guoyu Sun, Congyun Tang, Wenjuan Chen, Wenwen Yang, Wenxuan
+Kou, Zhonghe Ruan, Wanqing Ma, and Xuran Nie. 2024. Silk Road Journey: A Real-
+time AI-based Interactive Art Installation for Silk Road Cultural Reenactment
+and Experience. In Extended Abstracts of the CHI Conference on Human Factors in
+Computing Systems . 1–5.
+[39] Yuyu Lin, Jiahao Guo, Yang Chen, Cheng Yao, and Fangtian Ying. 2020. It Is
+Your Turn: Collaborative Ideation With a Co-Creative Robot through Sketch. In
+Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems
+(CHI ’20) . Association for Computing Machinery, New York, NY, USA, 1–14.
+https://doi.org/10.1145/3313831.3376258
+[40] Lev Manovich. 2021. AI Aesthetics . Strelka Press.
+[41] Brigid Mary Costello. 2020. Paying attention to rhythm in HCI: Some thoughts on
+methods. In Proceedings of the 32nd Australian Conference on Human-Computer
+Interaction . 471–480.
+[42] Landon Morrison and Andrew McPherson. 2024. Entangling Entanglement:
+A Diffractive Dialogue on HCI and Musical Interactions. In Proceedings of the
+CHI Conference on Human Factors in Computing Systems (CHI ’24) . Association
+for Computing Machinery, New York, NY, USA, 1–17. https://doi.org/10.1145/
+3613904.3642171
+[43] Wanda J Orlikowski. 2010. The sociomateriality of organisational life: considering
+technology in management research. Cambridge journal of economics 34, 1 (2010),
+125–141.
+[44] Nina Rajcic, Maria Teresa Llano Rodriguez, and Jon McCormack. 2024. Towards
+a Diffractive Analysis of Prompt-Based Generative AI. In Proceedings of the CHI
+Conference on Human Factors in Computing Systems . ACM, Honolulu HI USA,
+1–15. https://doi.org/10.1145/3613904.3641971
+[45] Nina Rajcic and Jon McCormack. 2023. Message Ritual: A Posthuman Account of
+Living with Lamp. In Proceedings of the 2023 CHI Conference on Human Factors in
+Computing Systems (Hamburg, Germany) (CHI ’23) . Association for Computing
+Machinery, New York, NY, USA, Article 634, 16 pages. https://doi.org/10.1145/
+3544548.3581363
+[46] Mohi Reza, Nathan M Laundry, Ilya Musabirov, Peter Dushniku, Zhi
+Yuan “Michael” Yu, Kashish Mittal, Tovi Grossman, Michael Liut, Anastasia
+Kuzminykh, and Joseph Jay Williams. 2024. ABScribe: Rapid Exploration & Or-
+ganization of Multiple Writing Variations in Human-AI Co-Writing Tasks using
+Large Language Models. In Proceedings of the CHI Conference on Human Factors
+in Computing Systems . 1–18.
+[47] Nicole Robson, Andrew McPherson, and Nick Bryan-Kinns. 2024. Thinking with
+Sound: Exploring the Experience of Listening to an Ultrasonic Art Installation.
+InProceedings of the CHI Conference on Human Factors in Computing Systems
+(Honolulu, HI, USA) (CHI ’24) . Association for Computing Machinery, New York,
+NY, USA, Article 496, 14 pages. https://doi.org/10.1145/3613904.3642616
+[48] Pedro Sanches, Noura Howell, Vasiliki Tsaknaki, Tom Jenkins, and Karey Helms.
+2022. Diffraction-in-action: Designerly Explorations of Agential Realism Through
+Lived Data. In CHI Conference on Human Factors in Computing Systems . ACM,
+New Orleans LA USA, 1–18. https://doi.org/10.1145/3491102.3502029
+[49] Hugo Scurto, Baptiste Caramiaux, and Frederic Bevilacqua. 2021. Prototyping
+Machine Learning Through Diffractive Art Practice. In Designing Interactive
+Systems Conference 2021 . ACM, Virtual Event USA, 2013–2025. https://doi.org/
+10.1145/3461778.3462163
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Bird.
+[50] Renee Shelby, Shalaleh Rismani, and Negar Rostamzadeh. 2024. Generative
+AI in Creative Practice: ML-Artist Folk Theories of T2I Use, Harm, and Harm-
+Reduction. In Proceedings of the CHI Conference on Human Factors in Computing
+Systems (CHI ’24) . Association for Computing Machinery, New York, NY, USA,
+1–17. https://doi.org/10.1145/3613904.3642461
+[51] Yang Shi, Nan Cao, Xiaojuan Ma, Siji Chen, and Pei Liu. 2020. EmoG: Supporting
+the Sketching of Emotional Expressions for Storyboarding. In Proceedings of
+the 2020 CHI Conference on Human Factors in Computing Systems (Honolulu, HI,
+USA) (CHI ’20) . Association for Computing Machinery, New York, NY, USA, 1–12.
+https://doi.org/10.1145/3313831.3376520
+[52] Luke Stark and Kate Crawford. 2019. The Work of Art in the Age of Artificial Intel-
+ligence: What Artists Can Teach Us About the Ethics of Data Practice. Surveillance
+& Society 17, 3/4 (Sept. 2019), 442–455. https://doi.org/10.24908/ss.v17i3/4.10821
+[53] Milka Trajkova. 2020. Designing ai-based feedback for ballet learning. In Extended
+Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems .
+1–9.
+[54] Milka Trajkova, Duri Long, Manoj Deshpande, Andrea Knowlton, and Brian
+Magerko. 2024. Exploring Collaborative Movement Improvisation Towards
+the Design of LuminAI—a Co-Creative AI Dance Partner. In Proceedings of the
+CHI Conference on Human Factors in Computing Systems (CHI ’24) . Association
+for Computing Machinery, New York, NY, USA, 1–22. https://doi.org/10.1145/
+3613904.3642677
+[55] Qian Yang, Justin Cranshaw, Saleema Amershi, Shamsi T. Iqbal, and Jaime Teevan.
+2019. Sketching NLP: A Case Study of Exploring the Right Things To Design
+with Language Intelligence. In Proceedings of the 2019 CHI Conference on Human
+Factors in Computing Systems (CHI ’19) . Association for Computing Machinery,
+New York, NY, USA, 1–12. https://doi.org/10.1145/3290605.3300415[56] Qian Yang, Alex Scuito, John Zimmerman, Jodi Forlizzi, and Aaron Steinfeld. 2018.
+Investigating How Experienced UX Designers Effectively Work with Machine
+Learning. In Proceedings of the 2018 Designing Interactive Systems Conference
+(DIS ’18) . Association for Computing Machinery, New York, NY, USA, 585–596.
+https://doi.org/10.1145/3196709.3196730
+[57] Nur Yildirim, Alex Kass, Teresa Tung, Connor Upton, Donnacha Costello, Robert
+Giusti, Sinem Lacin, Sara Lovic, James M O’Neill, Rudi O’Reilly Meehan, Eoin
+Ó Loideáin, Azzurra Pini, Medb Corcoran, Jeremiah Hayes, Diarmuid J Caha-
+lane, Gaurav Shivhare, Luigi Castoro, Giovanni Caruso, Changhoon Oh, James
+McCann, Jodi Forlizzi, and John Zimmerman. 2022. How Experienced De-
+signers of Enterprise Applications Engage AI as a Design Material. In Pro-
+ceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+(CHI ’22) . Association for Computing Machinery, New York, NY, USA, 1–13.
+https://doi.org/10.1145/3491102.3517491
+[58] Chao Zhang, Cheng Yao, Jiayi Wu, Weijia Lin, Lijuan Liu, Ge Yan, and Fangtian
+Ying. 2022. StoryDrawer: a child–AI collaborative drawing system to support
+children’s creative visual storytelling. In Proceedings of the 2022 CHI conference
+on human factors in computing systems . 1–15.
+[59] Jiayi Zhou, Renzhong Li, Junxiu Tang, Tan Tang, Haotian Li, Weiwei Cui, and
+Yingcai Wu. 2024. Understanding Nonlinear Collaboration between Human and
+AI Agents: A Co-design Framework for Creative Design. In Proceedings of the
+CHI Conference on Human Factors in Computing Systems (CHI ’24) . Association
+for Computing Machinery, New York, NY, USA, 1–16. https://doi.org/10.1145/
+3613904.3642812
+[60] Joanna Zylinska. 2020. AI Art: Machine Visions and Warped Dreams . Open
+Humanities Press, London. http://www.openhumanitiespress.org/books/titles/
+ai-art/

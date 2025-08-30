@@ -1,0 +1,727 @@
+https://doi.org/10.5325/jpoststud.8.1.0006
+Journal of Posthuman Studies, Vol. 8, No. 1, 2024
+Copyright © 2024 The Pennsylvania State University, University Park, PAAUGUSTINE AND THE POSTHUMAN 
+WRITER: TOWARD AN AMBIGUOUS 
+AUTHORSHIP IN THE AGE OF  
+ARTIFICIAL INTELLIGENCE
+TAMARA KAMATOVIĆ, CENTRAL EUROPEAN UNIVERSITY
+ABSTRACT
+/T_his article explores emerging hybrid ontologies of the posthuman in the context 
+of generative AI technologies and their impact on writing practices. We should 
+regard arguments mobilizing fear of AI-assisted or -generated writing as based on 
+misguided anxieties about the potentials of human creative acts and man/machine 
+hybrid creations (what this article refers to as a model of “weak authorship”). A 
+reading of St. Augustine’s Confessions , a key work in the Judeo-Christian tradition, 
+shows how an early Christian humanist text can give us a model for understanding 
+paternalist structures that place human authorship and human creators within 
+a hierarchy of creation, where the transcendental and divine is identiﬁed as the 
+highest source of creation, and where the “human creator” must seek legitimation 
+and authorization from that higher power to create in the ﬁrst place. /T_he article 
+explores creativity through the concept of ambiguity , speculating on the extent 
+to which AI and human authorship might be combined and to what extent such 
+hybrid forms might impact our understanding of human creativity. As generative 
+technologies continue to be integrated into our lifeworld, we should develop a 
+strong account of authorship that embraces the concept of ambiguity as a means 
+of orienting ourselves toward a nondualist ontology of becoming.
+KEYWORDS
+ambiguity, artiﬁcial intelligence, augustine, authorship, writing
+/T_he emerging ﬁeld of aesthetics exploring the posthuman emphasizes that as 
+we become less certain about what form the human will take in the future, we 
+are also called on to adapt to new forms of ambiguity that cause us to reject 
+02_Kamatovic.indd   602_Kamatovic.indd   6 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /seven.lf
+dualism and embrace new forms of plurality (Sorgner ). Digitization 
+in our lifeworld and in the ﬁeld of creative production forces us to confront 
+emerging forms of technology in order to address the ambiguities of new hybrid 
+tech/human creations. Posthumanist aesthetics builds both on twentieth-  
+century postmodernist ontology and on aesthetics, which sought to overcome 
+conventional dualistic distinctions by removing “the artist” and “the author” 
+from their creative product and replacing the category of “artwork” with more 
+ﬂuid categories such as “happening,” “experimentation,” or “event” (Lyotard 
+(). In addition to making ontological arguments about the relationship of 
+a “creator” to an artistic or creative product, postmodernists and posthumanists 
+also examine the way in which knowledge and artworks are controlled and 
+regulated within the sociopolitical domain. Both traditional postmodernists 
+and scholars of posthumanism prefer collective to individualist-oriented or 
+“creator-centered” models of creation, refusing hierarchical relations of own -
+ership and possession.
+Postmodernists place a speciﬁc value on understanding how creative prod -
+ucts can be catalogued in the general “order of things” so that they can be 
+made intelligible for both scientiﬁc knowledge and philosophical reﬂection 
+(Foucault , ).( Generative AI technologies represent a turning point in 
+human–technological orientation. No longer merely tools understood through 
+the Promethean model, these technologies, which generate and “produce,” pose 
+challenges to our capacity to control and catalogue artistic representations. 
+For some, this poses a threat to the human capacity to create from needs and 
+desires that are speciﬁcally structured around human experience, such as lack, 
+shame, or drives that are psychically and libidinally constituted. Both Freud and 
+Nietzsche, for example, saw in the act of creation a drive linked to the need to 
+“sublimate” or “overcome” either unconscious drives or the state of being all too 
+human—a feature of experience denied to neural networks (Freud ). For 
+Nietzsche, this was part of redirecting libidinal drives into creative ones, ﬁnding 
+perhaps its most apposite expression in the aphorism that to make “music is 
+another way of making children” (Nietzsche , ([)], KSA .). For 
+posthumanists, however, embracing these new technologies as co-producers 
+of knowledge does not necessarily mean denying the human experience, nor 
+arguing for the “superiority” of AI over carriers of human genomes. Instead, 
+scholarship focused on the relationship between generative AI and creativity 
+attempts to revisit anthropocentric models based both in “physical” and “sym -
+bolic” violence in order to determine the future outlines of the “human” and 
+to challenge structures of paternalism (Kalpokiene and Kalpokas, ).
+Predicting the upheaval that dispersive technologies like generative AI would 
+bring about in the organization of society, the philosopher–psychoanalyst duo 
+Deleuze and Guattari draw a distinction between what they call “primitive 
+02_Kamatovic.indd   702_Kamatovic.indd   7 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/eight.lf | TAMARA KAMATOVIĆ
+machines,” which they characterize as instruments organizing organic produc -
+tion ﬂows according to the logic of “segmentation” that preserves genealogical 
+hierarchies (entitlements, titles, privileges, etc.) and what they call machines of 
+“dispersion,” which ﬂow “on a blind, mute, deterritorialized socius”(Deleuze 
+and Guattari )), ). /T_hey argue that this “decoded ﬂow,” like the “black 
+box” of generative technologies, will trigger a primitive fear of incest—a fear 
+of unfamiliar parentage that cannot be classiﬁed, organized, or understood 
+(Deleuze and Guattari )), ).
+For decades, anti-technology activists have used these “primitive” anxieties 
+around emerging technologies to marshal consensus around their curbing.) A 
+recent example of how such activism is applied to generative AI shows that this 
+fearmongering often comes from the very top of state and academic hierar -
+chies. In an opinion column written by the late Henry Kissinger, together with 
+experts in technology and science, the former US Secretary of State expressed 
+apprehensions about the “cumulative ambiguities” brought about by generative 
+artiﬁcial intelligence, suggesting that this technology might usher in a counter-  
+Enlightenment, if not a dark age (Kissinger, Schmidt, and Huttenlocher ).
+I argue that embracing these untraceable “monsters” of ambiguity may o,er 
+a path to overcoming limitations on human creative potential, not a backslid -
+ing into barbarism, and that we should not fear an age in which generative AI 
+competes with our talents or challenges our ability to think and write. I base my 
+argument, on one hand, on generative AI technology’s ability to release us from 
+coercive binaries found in the institutions regulating our knowledge (what can be 
+called the question of “open access”) and the ﬂawed weak historical ontological 
+position toward human creation itself. My analysis focuses speciﬁcally on the 
+institution of “authorship” as an institution touching on both these ontological 
+and open-access-related topics. I show that authorship serves as an ontological 
+orientation, deriving its position on creation from theological proscriptions about 
+the legitimacy of divine creation, and I suggest that ownership, possession, and 
+circulation of creative works was condensed into the idea of authorial creation. 
+My reading does not seek to uphold the value  of GenAI creation over human 
+creation, nor do I mean to ignore the speciﬁcity of human creativity as a means 
+either of compensating for human deﬁciencies or of “overcoming” in favor of 
+smoother, easier, and more e-cient machines. Instead, I wish to show that, in 
+a future where generative AI cannot be avoided and will increasingly be used 
+by artists, we must support means of understanding hybrid creations in a more 
+creative  way, without ignoring or dismissing the relevance of speciﬁc human 
+psycho-libidinal structures or, as one of the leading ﬁgures in the posthuman 
+movement, Stefan Lorenz Sorgner, calls them, “psychophysiological drives” 
+(Sorgner , ().
+02_Kamatovic.indd   802_Kamatovic.indd   8 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /nine.lf
+/T_hrough a close reading of St. Augustine’s Confessions , a Christian humanist 
+work, this article reveals how notions of an artwork’s “legitimacy” are rooted in 
+inherited beliefs based in paternalistic structures with normative implications 
+(Sorgner ). Despite the secular Renaissance and Enlightenment’s challenging 
+of this speciﬁc Christian humanist paradigm of authorship, I argue that the 
+dualistic relations undergirding this notion persisted in institutions regulating 
+the economic exchange of artworks. I conclude by proposing a new aesthetic 
+paradigm for engaging with authorship in the age of AI, which opposes dualist 
+ontologies and recommends an understanding of writing as an ambiguous prac -
+tice in which the integration of emerging technologies into writing and creative 
+practices can promote self-enhancement and experimentation with new forms.
+TEXTOLATRY AND THE POSITION OF THE AUTHOR IN LITERARY STUDIES
+For most of the twentieth century, the role of the author was not considered 
+signiﬁcant, as “authorship” could not be rigorously applied to the study of ideas, 
+cultural phenomena, or the formal aspects of literary language. As a result, the 
+recent historical study of literature could be described as a practice of “textolatry.” 
+/T_his approach prioritizes the “centrality of text” over the “romantic centrality 
+of the artist” (Pavel , ). One reason for this excision of the author from 
+literary study owed to the ambiguity of ﬁctional creations and their unintel -
+ligibility for science. In his study of the semantics of ﬁction, the literary critic 
+and author /T_homas Pavel surveys the impact of scientistic-based approaches 
+on literary theory and critiques the dominance of structuralism in literary the -
+ory, which had an outsized inﬂuence on the education and training of literary 
+scholars in the West. /T_hat tradition, which rejected ambiguity in all its forms, 
+was preceded by the analytical school of philosophy’s pursuit of clariﬁcation of 
+philosophical language, with its mission of eliminating ambiguous statements. 
+With the emergence of structuralism, the concept of “mythocentrism,” which 
+sought universal properties of language through phonological models, privileged 
+abstract narrative functions to the extent that they could be universalized. Both 
+the analytical philosophical and structuralist schools were eventually supplanted 
+by the transformational generative approach, which examined literature through 
+a lens that enabled the study of issues such as “literary truth,” the “nature of 
+ﬁction,” and the “resemblance between literature and reality,” aspects neglected 
+by the logical positivist and structuralist schools (Pavel , ). For this new 
+school of literary thought, the act of human creativity needed to be understood 
+in the vocabulary of the “imagination”—the drives and a,ects constituting the 
+02_Kamatovic.indd   902_Kamatovic.indd   9 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/one.lf/zero.lf | TAMARA KAMATOVIĆ
+speciﬁc capacity and need of the human to create—not in terms of “building 
+blocks” that could be understood through the cipher of language.
+In addition to these language-based scientiﬁc models, schools such as the 
+Frankfurt School analyzed literature in connection with dialectical historical 
+materialism. For these scholars, authorship was associated with bourgeois 
+notions of “human dignity” and “freedom” that emerged in art during the 
+nineteenth century (Adorno , ). /T_he incorporation of subjectivity or 
+authorial voice into artwork reﬂected bourgeois art forms, such as the novel, 
+and was directly tied to the emergence of a self-conscious bourgeois class that 
+would eventually be supplanted by more revolutionary forms of social orga -
+nization. /T_his, at least, was a hope articulated by critics such as the Marxist 
+scholar György Lukács, who saw the eventual redemption of literature in the 
+birth of the rise of the working class. A new world, Lukacs hoped, would usher 
+in a new literary form, the “renewed epic,” to supplant ﬂawed bourgeois forms 
+(Lukács (, ). /T_he temptation to turn this anti-author textolatry into 
+a utopia was strong for many reasons. Structuralists such as Roland Barthes 
+were particularly optimistic about the end of the domination of authorship on 
+literary practice (Barthes and Heath , (). Referring to the achievements 
+of literary modernism represented by outstanding ﬁgures such as Mallarmé and 
+Proust, Barthes aimed to show that the authorless future would be a future in 
+which language could unfold in all its combinatory and splendid possibilities, 
+independent of subjective human imprint.
+Although this anti-author approach has remained inﬂuential and “author” 
+is not applied rigorously as a category in the interpretation of works, the sig -
+niﬁcance of “authorship” and its relevance has not gone away with the birth 
+and development of critical literary studies. /T_his is patently obvious in the 
+publishing world, where books sell because of the personalities of their authors. 
+/T_he recent cases of Jeanine Cummins and Elena Ferrante show that the “author” 
+has gained in importance as identity politics forces questions of “authenticity” 
+into mainstream literary reception. It is also true, however, in literary studies, 
+where ﬁgures such as Goethe, Shakespeare, Byron, and Cervantes continue to 
+organize the transmission of knowledge in course lectures and seminars and 
+serve as central reference points for canonical transmission.(
+Formalist, language-based schools were able to advocate interpretive styles 
+that focused on language and its correspondence either to truth or to universal 
+properties. Yet they failed to extirpate the author as a normative practice, nor 
+did they get to the real “heart” of what the ontology of the author was. For 
+scholars such as Barthes or Lukács, the author was a historical phenomenon 
+to be overtaken by new—and more revolutionary—social conﬁgurations. 
+Once the nineteenth century and its visions of Romantic genius had receded, 
+02_Kamatovic.indd   1002_Kamatovic.indd   10 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /one.lf/one.lf
+they believed we would be rid of the disease of bourgeois individualism that 
+attended forms of subjective intrusion, such as strong claims on authorship. In 
+the following close reading of Augustine’s Confessions , I show that the speciﬁc 
+ontology of authorship is circumscribed by a far older binary than the nineteenth 
+century, with its roots in Christian humanism. /T_his may go a little way toward 
+explaining why authorship continues to organize the way that we think about 
+the relationship between intellectual or creative property.
+THE ONTOLOGY OF AUTHORSHIP AND DIVINE CREATION: ST. AUGUSTINE’S 
+CONFESSIONS
+/T_he Confessions  ()–( AD) represent a signiﬁcant contribution to the 
+Judeo-Christian tradition for many reasons, not least for their vivid narration 
+of Augustine’s life, including the famous recounting of his vast carnal appetites 
+as well as his reﬂections on Christianity, competing religions, and conversion. 
+/T_hey also contain many insights into the signiﬁcance of human creation and 
+the connection between learning and creating. /T_his analysis will also show how 
+the work conceives of the relationship between creation, human autonomy, 
+and authorship. /T_his is explicitly thematized in the work through Augustine’s 
+insecurities surrounding his right to author the story of his life and his concern 
+with how writing might interfere with God’s jurisdiction over him and his soul.
+A crucial question posed throughout the Confessions  is whether Augustine 
+can make a claim to author his text at all. He treats and resolves this question 
+through a dialectical analysis—rendered poetically in the work’s framing dia -
+logue with God—on the limits placed on human creation by man’s insu-cient 
+capacities on one hand and by the human tendency to go “mad” through cre -
+ation that happens without authorization or consent from God on the other. 
+In this account, all human beings must accept their position as mediators of 
+God’s sovereignty in creation. He is, furthermore, the only entity that can create 
+perfection: “You gather all things to yourself though you su,er no need. You 
+support, you ﬁll, and you protect all things. You create them, nourish them, 
+and bring them to perfection” (Augustinus , ). Humans, by contrast, can 
+only create after seeking consent from God.
+/T_hus, before beginning his diegetic act, Augustine must ﬁrst obtain con -
+sent from God, or ask for permission to both create and authorize his writing: 
+“Help me to ﬁnd words to explain” (Augustinus , ). Augustine is careful 
+to highlight man’s relative vulnerability and insu-ciency before asking for this 
+consent, since he cannot concede a position in which humans possess any form 
+of “creative capacity” over which God has no jurisdiction or for which God is 
+not responsible: “My soul is like a house, small for you to enter, but I pray you 
+02_Kamatovic.indd   1102_Kamatovic.indd   11 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/one.lf/two.lf | TAMARA KAMATOVIĆ
+to enlarge it” (Augustinus , ). In this way, the act of authoring a text, or 
+the act of telling the story of his life, ﬂows from a hierarchy in which di,erent 
+entities have di,erent determined capacities. God is the most gifted creator, 
+since He is the most “gifted with speech” (Augustinus , ). Notwithstanding 
+this relative insu-ciency of man compared with this God, Augustine ﬁnds it 
+possible to begin writing his text insofar as he accepts his position as a vessel of 
+God, or as subordinate within the greater hierarchy of creativity.
+If the human is only one of many creations of God and all capacity to create 
+given to humans is granted by God, then it also follows that it is only through 
+God’s will that man can create. In this way, consent and authorization become 
+connected to creative capacities. To demonstrate a capacity to create means, 
+accordingly, to accept authorization from a higher power. Augustine renounces 
+any claim to a human capacity in which God plays no role. He asks for God to ﬁll 
+him with his speech so that he can write: “Help me to ﬁnd words to explain .  . .  
+My heart has ears ready to listen to you, Lord. Open them wide and whisper 
+in my heart” (Augustinus , (–). To ask for this consent to author his 
+text means to appeal to God’s forgiveness for man’s innate weaknesses and 
+vulnerabilities: “But dust and ashes though I am, let me appeal to your pity, 
+since it is to you in your mercy that I speak, not to a man, who would simply 
+laugh at me. Perhaps you too may laugh at me, but you will relent and have 
+pity on me” (Augustinus , (–).
+Education and learning play a crucial role in Augustine’s recounting of 
+his conversion and in underlining the di,erences between di,erent forms of 
+learning and mastering toward the act of creation. /T_he illustration of chapters 
+from his later life, particularly the recounts of his sexual exploits, ﬂow from 
+his experiences as an adolescent and the knowledge and experience that he 
+obtained under the schoolmasters (and their canes). Augustine is particularly 
+committed to showing how schooling and education represent a form of false 
+authority and that learning without the authority or law of God leads only to 
+“noxious pleasures which cause us to desert [God]” (Augustinus , (). His 
+account of how he came to learn language serves to justify this warning. For 
+Augustine, language and learning are linked to the temptation that arises from 
+man’s desire to seek autonomy:
+All the same I was compelled to learn and good came to me as a 
+result, although it was not of my own making. For I would not have 
+studied at all if I had not been obliged to do so, and what a person 
+does against his will is not to his own credit, even if what he does is 
+good in itself. Nor was the good which came of it due to those who 
+compelled me to study, but to you, my God. For they had not the 
+02_Kamatovic.indd   1202_Kamatovic.indd   12 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /one.lf/three.lf
+insight to see that I might put the lessons which they forced me to 
+learn to any other purpose than the satisfaction of man’s insatiable 
+desire for the poverty he calls wealth and the infamy he knows as fame. 
+(Augustinus , –)
+Similarly, Augustine’s account defends the notion that the acquisition of 
+reason through language is based, ﬁrst and foremost, on acceptance of God’s 
+universal language. With this understanding of language, Augustine further 
+entrenches his role as author as that of a “mediator” or “vessel” instead of a 
+“creator.” Augustine defends this position by explaining that the learning of 
+language does not happen through communication of symbols or words, or 
+learning within the family or at school, but rather through grasping the full 
+spectrum of language’s natural characteristics, which make up God-given creation:
+I can remember that time, and later on I realized how I had learnt 
+to speak. It was not my elders who showed me the words by some 
+set system of instruction, in the way that they taught me to read not 
+long afterwards; but, instead, I taught myself by using the intelligence 
+which you, my God, gave to me. . . . for there is a kind of universal 
+language, consisting of expressions of the face and eyes, gestures and 
+tones of voice, which can show whether a person means to ask for 
+something and get it, or refuse it and having nothing to do with it. 
+(Augustinus , )
+/T_his allows Augustine to make a hierarchical distinction between what might 
+be deﬁned as a quasi-phonetic or naturalistic conception of language and a 
+morphemic one. /T_he second deﬁnes language as the acquisition of the word 
+and is linked to rationality, while the ﬁrst is based in the divine gift of God’s 
+creation (in the phenomena making up the natural features of speech). In 
+Augustine’s account, morphemic systems are secondary to naturalistic and 
+phonetic ones. By extension, rationality, as secondary in the process of language 
+acquisition, is also God-given. Indeed, rationality as a God-given gift has long 
+been adduced as evidence and justiﬁcation for human-centered ontologies in 
+which God gives authorization to man to master and tamper with the world. 
+/T_his further supports laws in which the acquisition of God-granted rationality 
+regulates the adjudication of rights.
+Having language as a God-given gift and learning to speak words or write 
+are, by extension, not synonymous processes. /T_he applies also to the distinction 
+conventionally made between speaking and writing, which was a strong motif 
+in ancient philosophy, as in Plato’s dialogues in the Phaedrus . For ancient phi -
+losophers, writing was a form of technological (or Promethean) enhancement. 
+02_Kamatovic.indd   1302_Kamatovic.indd   13 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/one.lf/four.lf | TAMARA KAMATOVIĆ
+For Augustine, the “human-centered” aspect occurs in the learning of words. 
+Acquisition of language consists in two steps—ﬁrst learning through one’s own 
+inherent ability to interpret God’s sounds as universal language and then learn -
+ing to produce words—and thus writing is a further extension of a logos-based 
+language taught primarily by teachers in schools. To the extent that logos is not 
+understood as a secondary, but as a primary process that reﬂects man’s inherent 
+and autonomous capacities, it represents a signiﬁcant threat to God’s creation 
+and endangers a proper understanding of the human as a “vessel” or weaker 
+actor in the hierarchy of creation.
+Writing or creating represents a dangerous potential to bypass God’s autho -
+rizing consent and go mad. “Madness” here must be understood not only as 
+a form of delusions of grandeur, but also as a way of distinguishing between 
+“real” and “false” knowledge in writing without the consent or authorization 
+of God. Augustine refuses to endorse a comparison between human and 
+divine creation, but rather accepts a hierarchy where “rationality” derives from 
+logos-based speech and should properly lead to a closer connection with God, 
+or to the virtue of accepting His word. Augustine describes what he means 
+by “madness” and epitomizes the misguided ancient notion of creativity that 
+compares the human with the divine in his recounting of reading the Homeric 
+epics and Virgil’s Aeneid as an adolescent. Both, to him, were pleasurable to read 
+and represented diversions from “valuable studies” that taught him to read and 
+write through rote memorization. Yet they both are described as mere “fancies 
+dreamed up by poets” and “empty romances” without the authorization of God. 
+/T_hus, even though “the burning of T roy and .  . . the ghost of Creusa” were 
+“enchanting dreams,” they were inferior to the “loathsome jingles” learned in 
+school to master timetables or arithmetic (Augustinus , (–). Learning for 
+the sake of being a vessel or a tool has as its goal the promulgation of God’s will 
+and can thus be said to be within the boundaries of man’s authority to create. 
+/T_his learning is based in “practicality” that gives the power to “read whatever 
+is set before me and write whatever I wish to write” (Augustinus , ). 
+However, romances with the goal of upholding man’s ability to create without 
+any due recognition of God or without the authorization of divine consent are 
+mere fantasies, representing delusions and falsehood.
+Even where Augustine concedes that the capacity that brings about such 
+dreams and empty romances can be described as the product of human creativ -
+ity or invention, he takes pains to clarify that such acts are done with ulterior 
+motives. In the example of Homer and the human weaknesses attributed to 
+the Greek gods, Augustine points out that Homer may have invented these 
+tales and stories but would have only done so to justify human sinfulness. 
+/T_hus, the Homeric works—which endorse criminal acts—lose their authority 
+02_Kamatovic.indd   1402_Kamatovic.indd   14 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /one.lf/five.lf
+as texts, as they cannot be the basis of any normative law or have a claim as to 
+authority as a text.
+/T_he ﬁnal step that is important in Augustine’s hierarchy of distinctions 
+between legitimate and illegitimate forms of creation is the relationship between 
+creation and procreation. To further highlight the sinfulness of creation without 
+God’s consent, Augustine makes an astonishing comparison between schools 
+and brothels, thereby further entrenching the notion of “legitimate” and “ille -
+gitimate” forms of creating through comparison to sexual acts occurring inside 
+marriage and the procreative begetting done merely for the sake of pleasure: 
+“It is true that curtains are hung over the entrances to the schools where liter -
+ature is taught, but they are not so much symbols in honor of mystery as veils 
+concealing error” (Augustinus , (). /T_he meaning of these veils becomes 
+clear through the following statement: “/T_he words are certainly not learnt 
+any the more easily by reason of the ﬁlthy moral, but ﬁlth is committed with 
+greater conﬁdence as a result of learning the words”(Augustinus , )). /T_he 
+teachers, themselves, were misguided in their learning, for though the “words,” 
+that is, “reason” and “human autonomy,” were not in and of themselves ﬁlthy, 
+it was the ends to which they were put into service that deluded and corrupted 
+Augustine in his youth.
+/T_hese reﬂections on authorship make it possible to consider writing in rela -
+tion to what one might call a weak  ontology of authorship. /T_his weak ontology 
+presupposes not only a single creator, but also a legitimizing structure built on 
+dualist foundations with the goal of obtaining higher consent. Authorship and 
+writing practices have, for a very long time, related to normativity deriving from 
+divine consent and established by the legitimizing example of a “perfect creator.” 
+In e,ect, Augustine delegates to the writer the task of the “work” of writing, 
+while reserving the cream of that creation for another—a position on creation 
+that runs exactly against the “Romantic genius” endorsed by the structuralists 
+in their criticism of authorship.
+Augustine’s work suggests that a weak ontology of authorship is tied up with 
+what it means to create as an imperfect being in relation to a perfect one . According 
+to this model, to be human is to accept that human creation is subordinate to 
+other greater beings. /T_he material proof of this ontology is copyright, which 
+has been given di,erent names throughout the history of print but was once 
+signiﬁcantly called a “grace” bestowed on a lesser creator by a higher executive 
+power. /T_he printing of the book then is the concession of “privileges” to an 
+author, enacted by a higher authority. /T_his weak view of authorship, which 
+runs counter to the atheistic Renaissance or Romantic view of authorship 
+that saw creation as a means of self-liberation from dogma—Goethe’s Faust is 
+tragically unable to do this, but Shelley’s Prometheus succeeds—saw human 
+02_Kamatovic.indd   1502_Kamatovic.indd   15 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/one.lf/six.lf | TAMARA KAMATOVIĆ
+creative propensities as a weakness in and of themselves, not a strength. It is 
+important to note this distinction, given the bias of literary criticism toward 
+the Romantic model of authorship, as described in the next section.
+NON-DUALISM, AI, AND AUTHORSHIP: TOWARD A STRONG ACCOUNT  
+OF WRITING AND AUTHORSHIP
+“Ambiguous,” from “ ambi ” (both) and “ agere” (to steer), means to “steer both 
+ways”: not to decide on one path or lay claim to one truth, but to remain 
+open to many possible futures of creating and being. Embracing an ontology 
+of becoming means embracing ambiguous forms—Haraway’s cyborgs, the 
+monsters and hybrids of posthuman artworks—or remaining open to the pos -
+sibilities of writing futures (Haraway ). An ontology of becoming rejects 
+the notion that there is “one truth” in the non-empirical world, and instead 
+takes seriously ambiguous and evolving forms of life, including the emergence 
+and development of new technologies. Although the evolution of literary the -
+ory shows that there is no “truth” in ﬁction or writing, only correspondences, 
+semantics, and generative possibilities, the search for unambiguous language 
+and truth was, as described in the second section of this article, the grounds 
+for exorcising the author—as a subjective and statistically unrepresentable “free 
+radical”—from formal literary criticism.
+Studies on the mainstream chatbot ChatGPT so far have concluded that its 
+abilities are limited in comparison to human writing—that its rule-based thinking 
+curtails its ability to be inventive in terms of style, and that its propensity to 
+take on “impersonal it positions” and not “I-positions” marks it as substantially 
+di,erent from the idiosyncrasies of personalized human writing (Matusov  
+et al. ). Several experimental studies with chatbots that have designed tasks 
+for Bing or ChatGPT, such as the “grandomastry” activities based in random 
+educational design, conclude that AI is proﬁcient at “storytelling,” noting an 
+ability to tell stories that are “captivating” (Popov Alexander ). /T_his view -
+point is marginal and the number of these empirical studies is limited, but there 
+is a strong consensus on chatbot and generative AI use and its instrumental 
+value, that is, its capacity to assist in writing, perform editing tasks, assist with 
+organization, and proofread (Altmäe, Sola-Leyva, and Salumets ).
+ChatGPT’s capacity to generate human-like text has also been signiﬁcantly 
+noted, including by Kissinger et al. By this they refer to the chatbot’s ability to 
+“produce unique responses,” that is, select information from a human-generated 
+data set on the basis of probabilistic thinking, which constitutes a unique response 
+in accordance with the principles of deeper syntactic structures (Chomsky ).
+02_Kamatovic.indd   1602_Kamatovic.indd   16 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /one.lf/seven.lf
+However, what has also emerged as a consensus point is that the devel -
+opment of AI generative technologies may yet surprise us, as the mind and 
+engine of these machines “lie under the hood,” with even their inventors 
+unable to predict their future capacities. Given that there are many critics of 
+the “black box” theory of ChatGPT, we need not make any predictions about 
+the immediate future of such technologies, but may rather accept their existence 
+and accept that they will be integrated into future artworks. Large language 
+models, such as ChatGPT, have pushed the needle on public opinion about 
+what it means to work and live with generative AI, with many Americans 
+now agreeing that AI can be classiﬁed as sentient. /T_here is a direct correlation 
+between this perception and support for blanket bans on its use (Pauketat, 
+Ladak, and Anthis ). In terms of this article, this would suggest that as the 
+perception of AI’s ability to author and produce original and authentic works 
+increases (a strong ontology of authorship), it becomes more threatening (a 
+weak ontology of authorship).
+My argument emphasizes that as AI becomes mores sentient or more rec -
+ognized as such, the threat of its ability to “author” original texts in the strong 
+sense of creation becomes more of a possibility. /T_he “weak” ontological position 
+of authorship supported by the Christian humanist tradition and modeled by 
+Augustine shows what is at stake here. /T_he machine’s ability to generate and 
+author cannot be contained, sourced, understood, or regulated. For this reason, 
+there is a correlation between the increasing perception of its sentience and the 
+urge to ban its use.
+For a perspective that embraces the ambiguities of an ontology of becom -
+ing, such outright bans are implausible and a weak ontology of authorship 
+is impractical in an age of information ﬂow and new restructuring of the 
+archeology of human sciences (Foucault ). What must, instead, be stressed 
+is the way in which such technologies can be used both instrumentally and 
+perhaps (eventually) creatively. For college students writing term papers and 
+seminar papers and confronted with the task of thinking as it evolves via 
+writing, the use of ChatGPT must not be “banned,” but should rather be 
+moderated and guided. In educational contexts, for example, it is possible to 
+admit certain uses of generative technologies to teach students about their use 
+and engage with their own writing styles more reﬂectively. Most intentional 
+pedagogies stress this approach to writing, accepting that these technologies 
+not only not will go away, but will continue to develop in unexpected ways 
+(Ng et al. ).
+Although it seems remote, if, in the future, AI generative tools can write an 
+original and inventive work such as  In Search of Lost Time , then the authorship 
+of such a work ought to be celebrated, just as the authorship of Marcel Proust’s 
+02_Kamatovic.indd   1702_Kamatovic.indd   17 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/one.lf/eight.lf | TAMARA KAMATOVIĆ
+work is recognized as an achievement. Such works may also take the shape of 
+hybrid realizations. Once paternalistic structures of legitimizing consent are 
+denied, there seems to be no plausibly good reason to deny a future in which 
+such cultural products could be realized, whether by carbon-based lifeforms or 
+neural networks. Future uses of AI in writing, as the technology develops, must 
+not prohibit nor deny the possibility of co-authorship, when possible. /T_hrough 
+AI, we can learn also what it means to have a strong account of authorship, 
+that is, to embrace the ambiguity of language and the subjectivity of writing 
+by new forms of cognition, where we may not be able to understand or cannot 
+predict how it will create. What is required here is not a forensic analysis of 
+what is or is not human, but rather that we ask the right questions: For what 
+and for whom do we create and why? If large language models are part of our 
+lifeworld, they will be part of that equation.
+CONCLUSIONS
+Studies of large language models such as Chat GPT and generative AI have 
+focused on the ability of AI to create texts that are “humanlike” and have thus 
+considered the problem of sentience in relation to the powers of creativity. /T_his 
+article examines this problem as both a historical and a philosophical problem. 
+To answer the philosophical problem of AI bans fully and consider it critically, 
+we need to ﬁnd many rich examples of what it means to author a text and to 
+consider di,erent ontologies of authorship. Such examples touch on interrelated 
+topics discussed brieﬂy in this article, such as the relationship between truth, 
+ﬁction, and subjective human imprints on writing and the historical question of 
+open access, or the way in which knowledge is circulated within the archeology 
+of the human sciences (Foucault ).
+/T_his article analyzes a speciﬁc “weak” ontology of authorship to assess the 
+constraints that limit human creativity outside of the powers of human cogni -
+tion and capacity for artistic representation. St. Augustine’s moving—and, for 
+us, remote—autobiographical narrative discourse may not seem like a natural 
+interlocutor for chatbots, but this article has shown that its reﬂections on the 
+meaning of creation warn us about the dangers of imposing metaphysical barriers 
+on creation. Augustine’s writing was a philosophical acceptance of subjugating 
+creativity to an otherworldly, better, truer form of divine creation. /T_hat meta -
+physical position was part of a discursive logic that was historically inscribed into 
+institutions of copyright that control, regulate, source, and authenticate human 
+creativity and discourse. /T_hus, his perspective clariﬁes how bans on creativity 
+might reinforce a dualistic ontology that is becoming even more implausible 
+02_Kamatovic.indd   1802_Kamatovic.indd   18 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /one.lf/nine.lf
+with the evolution of new technological forms that are introducing new forms 
+of cognition and new approaches to creativity into our lifeworld.
+One valid concern and objection that may be raised here is that by admit -
+ting the use of generative technologies into artistic and daily practic—or even 
+celebrating it—we fetishize the technological object and make a “godhead” 
+out of chatbots such as ChatGPT, thus failing to overcome the foundational 
+dualist distinction underlying our culture. ChatGPT, in this equation, becomes 
+Augustine’s God. Given the absorption of technological objects into a political 
+capitalist system based on exploitation of surplus labor and resting on juridical 
+traditions steeped in Christian humanist dualities, this may even seem highly 
+likely. Moreover, without overcoming the dualist distinctions internalized 
+within the human psychic structure, we will not be able to overcome symptoms 
+of the “Promethean shame” discussed by the German philosopher Günther 
+Anders, whereby the human becomes dependent on the technological object 
+(Anders ). Yet this makes reﬂecting on such generative technologies even 
+more important, as it will become increasingly necessary to consider how our 
+political, social, and aesthetic orientation to technologies can become liberatory 
+instead of placatory.
+Technologies are widely used to promote self-enhancement and development. 
+AI technologies such as AI-powered reference managers or generative AI are 
+used to promote accuracy and e-ciency, a reason that they will not become 
+obsolete, but will become more developed as the data on which they are trained 
+multiply. /T_his is not a value judgment; there is simply a high likelihood that this 
+will occur, considering the way in which technologies are being integrated into 
+our lifeworld. Given the inevitability of further developments and the skill of 
+AI tools in mastering storytelling and narrative already, it is not implausible to 
+suppose that AI generative tools will eventually be able to write passable ﬁction 
+or experimental texts. An ontology of becoming and an approach that embraces 
+new ambiguous forms a-rm such developments, without leaving behind the 
+creativity of human beings. It is not the “overcoming” ( Überwindung ) but the 
+“twisting” ( Verwindung ) of our weak ontology toward creativity with emerging 
+technologies to create a “strong account” of authorship that may be the future 
+of writing (Sorgner ).
+TAMARA KAMATOVIĆ  received her PhD in German studies at the University 
+of Chicago in . She works as a lecturer at CEU’s Yehuda Elkana Center. 
+Her research interests include educational technologies, censorship, new phi -
+losophical approaches to technology, the history of science, and the history 
+of books.
+02_Kamatovic.indd   1902_Kamatovic.indd   19 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/two.lf/zero.lf | TAMARA KAMATOVIĆ
+NOTES
+. As Sorgner explains in this monograph on the philosophy of posthuman art and in other 
+monographs and interviews, “posthumanism” has its own schismatic tendencies and can -
+not be referred to as a single philosophical movement with a-liated goals. It encompasses 
+submovements such as the trans-, post-, and metahumanist movements, which have unique 
+philosophical backgrounds and agendas. However, the break with ontological dualism is a 
+common factor shared between all submovements.
+. Postmodernists consider postmodern art also a project of reﬂection, emphasizing postmodern 
+art’s ability to become philosophical (Bennington ).
+. One very recent example of this is represented by the Open Access Movement and the “Guerilla 
+Open Access Manifesto,” which argues that scholars with access to information have a moral 
+duty to share this information with the rest of the world through sabotage and disruptive 
+resistance including, for example, sharing passwords.
+(. What Foucault describes as the “ ordre” (order) underlying all scientiﬁc theories as well as 
+philosophical explanations.
+. “Musik machen ist auch noch eine Art Kindermachen.”
+. It is, of course, possible to point to AI deﬁciencies such asthe self-driving car’s failures or the 
+failure of the AI chess player to “understand what the game means to those who play it” to point 
+to the fundamental di,erence between human and machine endeavors. In terms of creative 
+output, e-ciency, and accuracy, AI generative outputs are already extremely impressive and 
+their capacity to become more “sentient” or “self-aware” is not even disputed by technoskeptics 
+(Osborne and Rose ).
+). Often these “bioluddites” defend terms such as “natural law” to uphold their view that only 
+“human-genomes” have rights (Hughes (, )).
+. Sorgner di,erentiates between paternalistic and nihilistic cultures by arguing that paternalistic 
+cultures are those that pretend to understand what is universally good or right, whereas nihilistic 
+cultures are those that teach us to move beyond such structures (Sorgner ). /T_he pervasive 
+idea of “universality” occurs then in “encrusted” structures existing in institutions that include 
+the Church, laws regulating reproduction and human fertility, and sexuality (Sorgner ).
+. While it is true that structuralism no longer dominates the human sciences, structuralist 
+approaches have remained incredibly inﬂuential and the movement’s proponents are some of 
+the most revered in literary studies, and include Julia Kristeva, Jonathan Culler, and Franco 
+Moretti.
+. Adorno cites Kant, Schiller, and Hegel as having displaced the idea of the “Naturschöne,” 
+that which is naturally beautiful, with concepts linked to the autonomous subject, such as 
+“freedom” and “human dignity,” implying that “all that owed in the world is achieved by the 
+autonomous subject.”
+. “/T_he novel is the form of the epoch of absolute sinfulness, as Fichte said, and it must remain 
+the dominant form so long as the world is ruled by the same stars. In Tolstoy, intimations 
+of a breakthrough into a new epoch are visible; but they remain polemical, nostalgic and 
+abstract” (Lukács (, ).
+. /T_his is why Barthes’ essay ends with an appeal to the critic to embrace and celebrate the death 
+of authorship: “Classical criticism has never paid any attention to the reader; for it, the writer 
+is the only person in literature. We are now beginning to let ourselves be fooled no longer 
+by the arrogant antiphrastical recriminations of good society in favour of the thing it sets 
+02_Kamatovic.indd   2002_Kamatovic.indd   20 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+AUGUSTINE AND THE POSTHUMAN WRITER  | /two.lf/one.lf
+aside, ignores, smothers, or destroys; we know that to give writing its future, it is necessary to 
+overthrow the myth: the birth of the reader must be at the cost of the death of the Author” 
+(Barthes and Heath , ().
+. /T_hese are just two of the most public scandals to rock the publishing world. Jeanine Cummins’s 
+book “American Dirt” was the subject of controversy for her supposed lack of “authentic” 
+Mexican identity. /T_he revelation of the identity of Elena Ferrante, whose pseudonym was 
+penetrated by an Italian journalist via ﬁnancial documents, represents another example of the 
+mainstream’s ﬁxation on the author.
+(. In literary studies, it is still common to be identiﬁed as a scholar of an author, for example, 
+“Goethe scholar” or “Shakespeare scholar.”
+. An example of this might be found in the Apostolicae Sedis , a bull issued by Pope Pius IX 
+in , which lays out the present sanctions of the Catholic Church and is based on an 
+account of how the rational soul becomes connected to the body at the point of fertil -
+ization. Such a view, which has had enormous consequences for all ethical matters, not 
+least abortion, also has important implications for what it means to be able to speak and 
+write or be an author.
+. As the literary historian Robert Darnton () documents meticulously in his study of book 
+printing in the French Enlightenment, these emerged in the form of “privileges” and “special 
+permits” given by the sovereign—usually a nation’s king but later other (bureaucratic and state) 
+forms of authority—that permitted a book’s printing. /T_hose privileges were the only means by 
+which an author could obtain rights to his or her work. Built, therefore, into every copyright 
+law is a metaphorical dispossession of the person’s creation of their own work. Overall, the 
+balance has tipped historically to the higher power that permits circulation of that work more 
+than to the “technical creator.”
+WORKS CITED
+Adorno, /T_heodor W. . Ästhetische /T_heorie , ed. Gretel Adorno. . Auﬂ. Suhrkamp-Taschenbuch 
+Wissenschaft . Frankfurt am Main: Suhrkamp.
+Altmäe, Signe, Alberto Sola-Leyva, and Andres Salumets. . “Artiﬁcial Intelligence in Scientiﬁc 
+Writing: A Friend or a Foe?” Reproductive Biomedicine Online  (): –. https://doi.org/./j  
+.rbmo..(..
+Anders, Günther. . Die Antiquiertheit des Menschen Bd. I: Über die Seele im Zeitalter der 
+zweiten industriellen Revolution . Munich: Beck.
+Augustinus, Aurelius. . Confessions , transl. R.S. Pine-Co-n. Harmondsworth, UK: Penguin 
+Books.
+Barthes, Roland, and Stephen Heath. . Image, Music, T ext . New York: Hill and Wang.
+Bennington, Geo,. . “From Discourse and Figure to Experimentation and Event.” Paragraph  
+ (October): –).
+Chomsky, Noam. . Syntactic Structures , nd ed. Berlin/New York: Mouton de Gruyter.
+Darnton, Robert. . Pirating and Publishing: /T_he Book Trade in the Age of Enlightenment . New 
+York: Oxford University Press.
+Deleuze, Gilles, and Félix Guattari. )). Anti-Oedipus: Capitalism and Schizophrenia . New 
+York: Viking.
+Foucault, Michel. . Les mots et les choses: Une archéologie des sciences humaines . Bibliothèque 
+des sciences humaines. Paris: Gallimard.
+02_Kamatovic.indd   2102_Kamatovic.indd   21 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.
+/two.lf/two.lf | TAMARA KAMATOVIĆ
+Freud, Sigmund. . Der Dichter und das Phantasieren:Schriften zur Kunst und Kultur . Stuttgart: 
+Reclam.
+Haraway, Donna J. . “A Cyborg Manifesto: Science, Technology, and Socialist-Feminism 
+in the Late T wentieth Century.” In Simians, Cyborgs, and Women: /T_he Reinvention of Nature , 
+(–. New York: Routledge.
+Hughes, James. (. Citizen Cyborg: Why Democratic Societies Must Respond to the Redesigned 
+Human of the Future . Cambridge, MA: Westview.
+Kalpokiene, Julija, and Ignas Kalpokas. n.d. “Creative Encounters of a Posthuman Kind—  
+Anthropocentric Law, Artiﬁcial Intelligence, and Art.” T echnology in Society  ): article ). 
+https://doi.org/./j.techsoc..).
+Kissinger, Henry A., Eric Schmidt, and Daniel Huttenlocher. . “ChatGPT Heralds an Intellec -
+tual Revolution.” /T_he Wall Street Journal , ( February. Available at https://www.henryakissinger  
+.com/articles/chatgpt-heralds-an-intellectual-revolution/.
+Lukács, Georg. (. /T_he /T_heory of the Novel: A Historico-Philosophical Essay on the Forms of Great 
+Epic Literature , transl. Anna Bostock. Cambridge, MA: MIT Press.
+Lyotard, Jean-François. (. /T_he Postmodern Condition: A Report on Knowledge . /T_heory and 
+History of Literature, vol. , transl. Goe, Bennington and Brian Massumi. Minneapolis: 
+University of Minnesota Press.
+Matusov, Eugene, ChatGPT, Mark Philip Smith, and Olga Shugurova. . “Does ChatGPT( Have 
+a Dialogical Self? A Bakhtinian Perspective.” Culture and Psychology , article ()X((.
+Ng, Davy Tsz Kit, Wanying Luo, Helen Man Yi Chan, and Samuel Kai Wah Chu. . “Using 
+Digital Story Writing as a Pedagogy to Develop AI Literacy among Primary Students.” Com-
+puters and Education: Artiﬁcial Intelligence  : article (.
+Nietzsche, Friedrich. Nachlass , ([)], KSA ..
+Osborne, /T_homas, and Nikolas Rose. . “Against Posthumanism: Notes towards an Ethopolitics 
+of Personhood.” /T_heory, Culture and Society , article )()().
+Pauketat, Janet V.T., Ali Ladak, and Jacy Reese Anthis. . “Artiﬁcial Intelligence, Morality, 
+and Sentience (AIMS) Survey:  Update.” PsyArXiv, ) September. https://doi.org/.(  
+/osf.io/xsav.
+Pavel, /T_homas G. . Fictional Worlds . Cambridge, MA: Harvard University Press.
+Popov, Alexander. . Balancing AI Advancements: Preserving Human Creativity Amidst Growing 
+Artiﬁcial Ingenuity , version v. Zenodo,  August.
+Sorgner, Stefan Lorenz. . “Paternalistic Cultures versus Nihilistic Cultures.” European Journal 
+of Science and /T_heology  : –.
+Sorgner, Stefan Lorenz. . We Have Always Been Cyborgs: Digital Data, Gene T echnologies, and 
+an Ethics of Transhumanism . Bristol: Bristol University Press.
+Sorgner, Stefan Lorenz. . Philosophy of Posthuman Art . Posthuman Studies. Basel: Schwabe.
+02_Kamatovic.indd   2202_Kamatovic.indd   22 12-12-2024   11:04:4812-12-2024   11:04:48Downloaded from http://scholarlypublishingcollective.org/psup/posthuman-studies/article-pdf/8/1/6/2180986/jpoststud.8.1.0006.pdf by PENNSYLVANIA STATE UNIVERSITY user on 14 August 2025
+This material may be protected by the Hong Kong Copyright Ordinance Cap.528. The copy is supplied for
+private study or non-commercial use only. It is not for publication or further reproduction.

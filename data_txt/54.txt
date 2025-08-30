@@ -1,0 +1,1583 @@
+Designing Biotopia: A Transmedia Experience for Natureculture
+Heritage and More-than-Human Entanglements
+Marta Ferreira∗
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+amartaferreira@tecnico.ulisboa.ptPedro Galvão-Ferreira
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+pngf.woolfian@gmail.comLavinia Rossini
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+lavinia.rossini@tecnico.ulisboa.pt
+Matteo Cappello
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+matteo.cappello@tecnico.ulisboa.ptMaritza Silva
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+maritza.silva13@gmail.comYing Xu
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+ying.xu@tecnico.ulisboa.pt
+Mathilde Gouin
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+mathilde.gouin@tecnico.ulisboa.ptNuno Jardim Nunes
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+nunojnunes@tecnico.ulisboa.ptValentina Nisi
+Instituto Superior Técnico,
+Universidade de Lisboa
+Interactive Technologies Institute,
+LARSyS
+Lisbon, Portugal
+valentina.nisi@tecnico.ulisboa.pt
+Figure 1: The iterative phases of the research-through-design process of Biotopia . First, the exploratory phase led to diverse
+insights about the contexts and actors. These insight were summarized in three Design Constructs to inform the design of
+this experience and future HCI work. Finally these design constructs inspired and informed the design of the transmedia
+experience by being translated to design concepts and ideas.
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+DIS ’25, Funchal, Portugal
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1485-6/25/07
+https://doi.org/10.1145/3715336.3735803Abstract
+In recent years, HCI research around post-anthropocene design
+has been gaining traction. Caring and inclusive stances towards
+more-than-humans, multispecies dialogues, and decentering the
+human in design are imbuing HCI and other disciplines. Similarly,
+critical heritage scholars have pointed to the need to re-frame
+160
+
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+heritage in light of the challenges of the Anthropocene. As part
+of a heritage-focused EU-funded project, we extend these efforts,
+thinking through collaborative research-through-design to design
+"Biotopia" – a transmedia experience that aims to connect mu-
+seum and nature walk visitors with entangled natureculture and
+more-than-human heritage. We propose three Design Constructs
+from our exploratory phase and detail how they have informed
+the design of the critical heritage experience, contributing with
+the transmedia experience design and proposing ways of applying
+emerging posthuman concepts in practice. By reflecting on our
+process, we discuss the opportunities and challenges of designing
+for more-than-human heritage in a posthuman world, working
+towards decentered practices in HCI.
+CCS Concepts
+•Human-centered computing →Interaction design ;•Inter-
+action design →Theory, concepts and paradigms .
+Keywords
+Critical Heritage; Natureculture; Storytelling; HCI; Posthuman;
+More-than-human; Research-through-design
+ACM Reference Format:
+Marta Ferreira, Pedro Galvão-Ferreira, Lavinia Rossini, Matteo Cappello,
+Maritza Silva, Ying Xu, Mathilde Gouin, Nuno Jardim Nunes, and Valentina
+Nisi. 2025. Designing Biotopia: A Transmedia Experience for Natureculture
+Heritage and More-than-Human Entanglements. In Designing Interactive
+Systems Conference (DIS ’25), July 05–09, 2025, Funchal, Portugal. ACM, New
+York, NY, USA, 18 pages. https://doi.org/10.1145/3715336.3735803
+1 Introduction
+The criteria for creating and selecting heritage have long been de-
+bated, particularly in the context of authorized heritage discourses
+(AHD) that reinforce Western elitist values and histories [ 46,47,78].
+These processes often limit the potential scope of what heritage
+can represent. While natural heritage is frequently perceived as a
+static category, it is also socially and culturally constructed [ 70],
+making it an integral part of AHD. The interplay between culture
+and nature within heritage narratives is especially pertinent amidst
+global challenges such as climate change and biodiversity loss. We
+contribute to these discussions by presenting the design of a novel
+transmedia experience informed by proposed design constructs –
+guiding principles derived from posthuman proposals and our ex-
+ploratory research that informed and shaped the development of
+the design ideas and prototypes.
+The work presented in this paper is part of the broader context of
+the LoGa Culture EU project, focused on promoting accessible and
+ethical heritage practices by using collaborative digital tools that
+provide inclusive access to both tangible and intangible cultural
+heritage. The project addresses diverse challenges within heritage
+landscapes and cultural institutions by involving various technical,
+social, and artistic partners across three European sites. The work
+discussed here is part of a case study that takes a nature-inclusive ap-
+proach to heritage, aiming to enhance local well-being and support
+sustainable development. Contextualised in the Madeira Islands, its
+heritage comprises natural sites with cultural aspects where natureis considered a central tenant of its cultural heritage. The assump-
+tion and challenges for this case study are twofold: i) relying on
+posthuman theories, nature is inseparable from culture, being both
+a man-defined construct that can be referred to as natureculture
+[34]; ii) the importance of feeling aware of and connected with
+nature is a key component of the local culture and should be highly
+valued by locals and visitors to the islands, who should be supported
+in preservation and conservation actions towards such heritage
+[27].
+The prevailing heritage narratives often centre on human ap-
+preciation and value materiality over meaning [ 73], neglecting the
+entangled relationships between humans, more-than-humans, and
+their environments. This anthropocentric focus marginalizes al-
+ternative perspectives, particularly in regions where natural and
+cultural heritage are inseparable. With the Anthropocene urging
+critical reflection on human-nature relationships [ 21], it is vital
+to challenge established heritage frameworks and foster inclusive,
+diverse, and sustainable narratives. Posthuman theories, feminist
+posthumanism, and critical heritage studies offer frameworks to de-
+center humans and incorporate multispecies perspectives [13, 45].
+This research aligns with these efforts by exploring how technol-
+ogy and design can contribute to diverse and pluriversal heritage
+narratives.
+We respond to Braidotti’s [ 14] call to materialize posthuman
+theory with a focus on "displacing anthropocentrism", also working
+towards consolidating "a wide array of posthumanist approaches
+to design and HCI under the overarching idea of the more-than-
+human" [ 41]. Combining exploratory research, stakeholder engage-
+ment, and Research-through-Design (RtD) [ 38,88], this study aims
+to: i) develop design constructs that support nature-inclusive her-
+itage practices, ii) create a transmedia experience that engages users
+with entangled cultural and natural narratives, and iii) demonstrate
+how posthuman theories can inform HCI practices. These aims
+led to the exploration of an emergent type of heritage: more-than-
+human heritage . This concept is explored through the design of a
+transmedia experience – a connected narrative experienced through
+different media, each one adding something different to the over-
+all story [ 51,52]. The experience is connected to popular natural
+hotspots and a natural history museum to generate digitally en-
+riching and inspiring experiences of and in these naturally and cul-
+turally entangled landscapes. According to Sterling, the challenge
+lies in "how can critical thinking in the contact zone of heritage
+studies engage with the urgent challenges of the present in a way
+that is analytically insightful and socio-politically transformative"
+[79]. We use our design practice to detail considerations around
+posthuman HCI and critical heritage, contributing to ongoing dis-
+cussions around these pressing design challenges and illustrating
+pathways of formalizing posthuman ideas into design practice.
+After the positionality and reflexivity subsection, the remainder
+of the paper is organized as follows: Section 2 presents the theoret-
+ical background and related work; Section 3 details the exploratory
+research that informed the design; Section 4 describes the three
+design constructs and how they were used in the design of Biotopia ;
+Section 5 discusses the research-through-design process, reflects
+on more-than-human representation and critical heritage design,
+and closes with future directions.
+161
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+1.1 Research Context, Positionality and
+Reflexivity
+Madeira islands are an outermost region of Europe recognized by
+Article 349 TFEU. These regions are special because of their remote-
+ness, rich biodiversity and natural resources. They are also very
+dependent on limited economic activities, in particular tourism.
+This case study attempts to promote a deeper understanding of
+natural and cultural heritage as an integrated system and a basis
+for holistic management in touristic destinations that are simulta-
+neously biodiversity preservation spots and highly dependent on
+tourism as an economic activity.
+The areas of expertise of the authors mainly focus on commu-
+nication design, HCI, architecture, neuroscience, psychology and
+computer science. Within the LoGa Culture project and our par-
+ticular work package, our primary responsibility was to mindfully
+reflect with the social, cultural, and technical partners to finally
+design a posthuman intervention related to Madeira’s heritage
+formalized as a transmedia experience. All project partners were
+actively invested in using the project tools to increase inclusion, re-
+spect, and conservation of nature, enhance multispecies dialogues,
+and highlight the local communities’ values and stories. To this
+end, the project explicitly stated to nurture actions that contribute
+to, rather than undermine, practices of recognizing differences by
+giving individuals a voice to promote cultural diversity.
+The authors of this publication have all lived and worked in
+Lisbon and/or Funchal. We saw ourselves as "HCI and design ex-
+perts" and "friendly outsiders" of the local community committed to
+learning from and standing with the participants. We acknowledge
+to partially understand the larger systems in natural and cultural
+heritage contexts, and acknowledge the bias that our expertise and
+experiences bring to this research.
+Posthuman theory is something designers actively create through
+their own research and practice in more-than-human design [ 57].
+In such a complex context as designing in the Anthropocene with
+posthuman considerations, the "correct" path (if it even exists) is
+not a linear one. On the contrary, it can be a very controversial
+endeavour molded by the researchers’ experiences. We have not
+set out to define a methodology for posthuman HCI practices for
+critical heritage, but illustrate the complexity of such a process and
+discuss the design considerations that can assist in a sustainable
+and inclusive path forward.
+2 Background and Related Work
+First, we propose an overview of the posthuman HCI theories we
+build on to inform our critical heritage views and the heritage ap-
+proach chosen. We then focus on a branch of critical heritage –
+more-than-human heritage – the approach explored in the trans-
+media experience design. We close by analyzing related works in
+HCI and transmedia interventions for more-than-human heritage.
+2.1 Critical Heritage and Posthuman HCI
+Design researchers have been debating the role and responsibilities
+of design in the current Anthropocene. Interest in moving beyond
+human exceptionalism and human-centric design is rising, withscholars advocating for broader ethical considerations beyond hu-
+mans [ 31,32,58]. Braidotti [ 15] argues that we are witnessing a con-
+vergence of posthumanism , which rejects the humanist ideal of the
+human as the universal measure, and post-anthropocentrism , which
+rejects species hierarchy and human exceptionalism. This shift
+prompts a transition from user-centered design to inclusive posthu-
+manistic perspectives [ 5,84] that need to support equality and jus-
+tice for humans and nonhumans simultaneously [ 32]. The current
+entanglement HCI age is greatly influenced by posthuman theo-
+ries such as posthumanism, feminism, and post-phenomenology
+applied to science and technological innovation [ 33]. This wave
+understands relations between humans, more-than-humans and
+objects as producing realities through their interactions [ 49]. Knowl-
+edge is shown to be socially constructed, and technologies become
+entangled in and with our bodies and lives. As Ulmer puts it, "the
+importance of posthumanism may not be in knowing, but in ex-
+ploring how we are entangled with other organisms around us"
+[83]. This call greatly inspired us to explore our (humans’) entan-
+glements with the diverse environments and actors around us and
+how these relations influence our view of heritage.
+These approaches advocate for a broadening of design participa-
+tion to include more-than-human interactions [ 1] to ground design
+in more-than-human perspectives [ 41], fostering wider understand-
+ing and collaboration [ 6,22]. Diverse theoretical views and applied
+experimentation have been developed recently, attempting to re-
+define what design could and should be in the post-Anthropocene.
+Wakkary has proposed ‘designing-with’ as an approach where
+humans share the stage with nonhumans and are "materially, ethi-
+cally, and existentially" connected [ 84]. Fuchsberger and Frauen-
+berger [ 35] propose that ‘doing responsibilities’ should be carried
+out within hybrid assemblages of both humans and nonhumans,
+grounded in fluid relationships. Concepts such as co-performance
+and co-creation with more-than humans [ 55,69], entanglements
+[33], fluid assemblages [ 74], or methods like noticing with more-
+than-humans [ 9,60,71], sketching in nature [ 29], material specu-
+lations [ 10,65,85], or photographic observations [ 11], have been
+proposed and explored to assist in orienting HCI posthumanistic
+way forward. These strategies help the researcher to think "differ-
+ently and re-envisioning research" in the "uncertain messiness of
+knowledge production as an ongoing opportunity in a politics of
+hope, creativity, and imagination" [ 83]. We have applied several
+of these methods in our explorations into posthumanistic heritage
+design to broaden our perspectives.
+In line with these posthuman approaches in HCI, modern ap-
+proaches to heritage have begun to include diverse voices and
+perspectives in their discourse, favouring a polyvocal, critical, and
+future-oriented view of heritage [42, 44]. Posthumanism in heritage
+studies challenges the idea that humans are the sole producers
+of knowledge, instead acknowledging the potential for other be-
+ings, objects and phenomena [ 83]. Critical heritage has emerged
+as a sub-field in heritage studies that asks "uncomfortable ques-
+tions of traditional ways of thinking about and doing heritage"
+[19] working towards democratisation, decolonisation, inclusion of
+marginalised perspectives, and a shift towards non-human centered
+approaches. Critical heritage sees heritage as a political, cultural,
+and social phenomenon [40] that should consider dynamics such as
+162
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+power, identity or conflicts; a phenomenon that crosses human and
+non-human worlds [34].
+Posthumanism and critical heritage call for "thinking and doing
+heritage otherwise", through an "alliance of critical heritage praxis
+and critical posthumanist thinking" [ 79] as possible pathways for an
+expansion of the field. The various ‘components’ that form heritage ,
+including museology, tourism, site management, or interpretation,
+should be addressed with a critical lens. Traditional museology
+often perpetuates colonial and exclusionary narratives, demanding
+that current heritage practices become more inclusive, reflective,
+and reparative by engaging communities and revising narratives.
+Museums, in particular, can be places of dialogue and transforma-
+tion [ 80]. Through this work, we resonate with previous research
+[46,68,79] by expanding on traditional views of heritage to include
+more critical posthuman views explored through posthuman HCI.
+In particular, we focused on exploring ways of diversifying heritage
+voices and perspectives, going beyond the normative authorized
+heritage discourses (AHD) [ 46,78]. Critical-creative heritage prac-
+tice can assist in tackling important societal challenges, such as
+climate change, the loss of biodiversity, and environmental jus-
+tice [ 79], and HCI can propel these endeavours. These complex
+issues are formed by multiple and situated entanglements of hu-
+mans, more-than-humans and their different temporalities, and
+critical heritage can harness the liveliness of the posthuman debate
+to engage with these complex topics. Considering these aspects,
+we decided to explore more-than-human heritage that articulates
+the diversity, relationality, and pluriversality of posthuman critical
+heritage. Moving away from the limited view of the ‘privileged
+human’ [ 13], with research-through-design we work towards post-
+anthropocentric and decentered perspectives of heritage [ 79] that
+thrive to include non-human voices and their role in heritage con-
+ceptualization and creation.
+2.2 Heritage as Interconnectivity:
+More-than-human Heritage
+Heritage has recently started embracing the “nonhuman turn” [ 43].
+The promotion of human dominance over nature and ignoring
+multi-species interdependencies has been critiqued by Tsing [ 82],
+aligning with Haraway’s [ 45] view that this mindset is conceited
+and shortsighted. Such perspectives risk undervaluing sustainable
+inter-species relationships by excluding many actors. It is important
+to consider human perception of heritage, but allowing this ‘cultural
+filter’ to appropriate all notions of ‘nature’ furthers human-centered
+and purely human-meaning-making perspectives [ 34]. Braidotti
+[13] suggests viewing subject positions as figurations rather than
+identities, seeing humans as ‘more-than-humans’, embedded in
+complex natureculture relationships. This posthuman shift is pro-
+pelled by posthuman feminism’s responses to contemporary narrow
+anthropocentric views [ 16]. Naturecultures need to be acknowl-
+edged as crucial in heritage practices.
+The complex interconnections between human and non-human
+beings, the realities outside our human perception, and self-knowledge
+of our responsibilities are crucial aspects to consider [ 63]. The idea
+of ‘intercorporeality’, attempting to become ‘more than ourselves’
+through, for example, deep observation of natural processes, is
+one example of working towards broadening our perception andrelations to others [48]. Human experience is inseparable from our
+local ecologies [ 83], and our way of perceiving and representing
+nonhuman perspectives is always relational and situated, demand-
+ing a critical assessment of one’s biases [ 41]. More-than-human
+contributions need to be considered in heritage creation as they
+change the way landscapes are ‘created’. Furthermore, "heritage
+sites and monuments can be understood as assemblages that gather
+the world around them in situated ways" [ 34], representing im-
+portant contexts of use that help shape ideals that could inspire
+alternative sustainable practices. Importantly, these heritage experi-
+ences can work purposefully to restore positive and hopeful visions
+in diverse multi-species communities. Haraway [ 44], for instance,
+proposes a focus on care between different species over time as
+an alternative to catastrophe-focused histories. These strategies
+that consider more-than-human agencies work towards inspiring
+de-colonizing practices through heritage [34].
+Nicenboim et al. ask “what is decentered and what is instead
+accounted for” when designing for decentering in HCI [ 66]. In the
+case of this research, we work towards more-than-human heritage
+by recognising and deeply considering the complex systems we hu-
+mans inhabit, interacting with non-human entities such as technol-
+ogy, animals and the environment [ 41]. In critically engaging with
+the different contexts that form the experience’s entangled environ-
+ment, we strive to decenter the human-focused and user-focused
+directions in the design process. These considerations challenged us
+to move away from human exceptionalism by confronting different
+scales to the natural heritage context and the entanglements of
+these complex environments, aiming to bring an alternative and
+more inclusive narrative to the museology we were intervening in.
+Throughout the design process, we aimed to explore new ways of
+bringing more-than-human voices and narratives to the heritage
+experience.
+2.3 Transmedia and HCI for More-than-human
+Heritage
+The growing disconnection between humans and nature has been
+mentioned as one contributor to the environmental crisis [ 67,89].
+Therefore, exploring ways of enhancing this connection is of crucial
+importance.
+2.3.1 HCI for More-than-human Heritage.
+A critical shift in Human-Computer Interaction (HCI) involves
+reconceptualising participation to include more-than-human stake-
+holders [ 31,32]. In this direction, various strategies have emerged
+that challenge anthropocentric design paradigms. For instance,
+frameworks such as phenology probes [ 75] and Natureculture
+probes [ 8,36] explore human-nature relationships through sensory
+and temporal mappings, advancing sustainable and participatory
+design practices. Similarly, the Umwelt-sketch methodology seeks
+to decenter the human by visualising overlapping "Umwelts" of
+non-human actors, thereby fostering more inclusive design inter-
+ventions [ 24]. These approaches align with broader calls for ethical
+participatory practices that integrate plants, animals, and spirits
+into the design process [1].
+Digital tools further extend these participatory efforts by lever-
+aging mobile and place-based learning to uncover the relational
+affordances of nature, cultivating curiosity and deeper connection
+163
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+[4,77]. Immersive technologies such as Tree Box promote mindful-
+ness in natural settings through embodied interaction [ 61], while
+augmented and virtual reality applications expand the possibilities
+for environmental learning and engagement [18, 64].
+Interactive storytelling also plays a significant role in fostering
+more-than-human connections. Workshops and artefacts, such as
+Finding Arcadia , use narrative and positive framing to facilitate
+emotional engagement with complex climate data, encouraging em-
+pathy between humans and more-than-human entities [ 30]. Simi-
+larly, initiatives like Hackeanos embrace co-creative and speculative
+design to cultivate relationality with the ocean as a dynamic and
+interconnected being [25].
+Integrating more-than-human perspectives into education, how-
+ever, presents distinct challenges. For example, designing digital ex-
+periences in natural history museums that resonate with teenagers
+requires an understanding of personality traits and behavioural dy-
+namics [ 20]. Concurrently, workshops such as Digital Technologies
+in Nature surface ethical tensions and design complexities when
+deploying technology in ecological contexts, advocating for the
+inclusion of local communities and non-human stakeholders alike
+[87].
+Artistic practices offer yet another dimension for exploring these
+interactions. The use of point cloud datasets in art reveals the ex-
+pressive potential of remote sensing to engage with theories of new
+materialism and entanglement [ 50]. Projects like EdenX exemplify
+the blending of artistic and technological approaches to articulate
+more-than-human dialogues that address both environmental and
+social justice concerns [72].
+2.3.2 Transmedia for More-than-human Heritage.
+Expanding on the possibilities of exploring different media and
+contexts, transmedia storytelling bridges cultural and natural her-
+itage through narrative and interaction. As proposed by Jenkins
+[52], each individual intervention, exploring different media, is a
+possible entry-point to the journey and should contribute with a
+different facet of the overall narrative. This structure allows for the
+engagement of users with different interests and media literacies,
+and the exploration of various aspects of the narrative without
+over-complexifying each one. Especially for projects using digi-
+tal technologies for diverse audiences (e.g. for schools, museums
+and other public spaces), there is great potential for using a mix
+of different media for inclusive experiences. However, within HCI
+research venues – namely the ACM Digital Library, IEEE, Springer
+LNCS, Convergence Journal, and DIGRA, from 2000 to 2024 – we
+found very few results related to transmedia for natural heritage
+that actually explore more than one medium.
+The potential of geostorytelling in transmedia has been explored
+[12] by using mobile devices and georeferenced multimedia content
+to create emotional and participatory narratives that enhance the
+experience of small heritage sites, promoting slow and conscious
+tourism. The 3D-Pitoti project uses technologies like augmented
+reality, 3D cinema, and virtual exhibitions to showcase Valcamonica
+rock engravings, transforming scientific data into engaging, inter-
+active cultural experiences for the public [ 53].Bear 71 explores the
+intersection of the human and animal worlds through a multimedia
+web documentary that maps wildlife encounters [ 62].Fragmentsof Laura integrates mobile virtual reality and location-aware sto-
+rytelling to uncover challenges and opportunities for immersive
+public experiences [ 26]. Mixed-reality projects like Bitter and Sweet
+explore postcolonial narratives of slavery, employing digital sketch-
+ing to reveal hidden layers of cultural heritage [28].
+Work on technology for nature engagement should integrate
+direct and indirect nature experiences, respect cultural diversity,
+and foster environmental identity [ 86]. Despite the growing body
+of work exploring more-than-human heritage in HCI, existing stud-
+ies often focus on specific applications or theoretical frameworks.
+This paper proposes an underutilized transmedia experience as an
+actionable strategy for bridging posthuman heritage theory with
+design practice derived from a detailed, exploratory design process.
+Our aim is to propose and illustrate novel approaches to applying
+posthuman principles in critical heritage experience design that
+represent and consider more-than-human entities and systems.
+3 Exploratory Phase: Understanding the
+Context and Actors
+In this section, we outline the different phases of the design process,
+leading to our proposal for designing a more-than-human focused
+transmedia experience detailed in section 4. The design of Biotopia is
+a culmination of multiple steps meant to better understand different
+components of the project and how they could inform the design
+of a decentered natureculture experience. Arguably, "posthuman
+research is as much about what knowledge is as it is how knowledge
+comes to be" [ 83], and so we contribute to these explorations and
+debate by carefully presenting and reflecting on each phase of the
+work and how they informed the proposed design constructs.
+3.1 Initial Field Research: Probing
+More-than-human Considerations
+The first phase of the LoGa Culture project focused on explor-
+ingdifferent facets of the implementation context and theoretical
+frameworks (Fig. 2). We started by engaging with visitors of the
+sites through self-reports [ 37] and creative probes [ 8] designed
+specifically for these natureculture contexts. The probes were de-
+veloped as research tools to gather in-depth, subjective data about
+participants’ sensory and emotional experiences while visiting the
+sites. Drawing on feminist posthuman approaches, these tools cap-
+tured natural heritage’s relational and more-than-human aspects,
+emphasizing a multi-sensory and embodied engagement [36].
+This research identified four main design directions to address
+the challenge of balancing over-tourism with conservation efforts
+at natural heritage sites [ 36]. These directions are: 1) Cultivating
+Empathetic Connections and Holistic Education, which aims to
+deepen visitors’ understanding of nature through immersive, mul-
+tisensory experiences; 2) Encouraging Collective Stewardship and
+Community Resilience, fostering community-driven conservation
+efforts by promoting collaborative caretaking and shared steward-
+ship through gamified experiences and participatory projects; 3)
+Reflecting and Respecting Diverse Narratives and Agencies, high-
+lighting the diverse cultural and ecological narratives of the region;
+and 4) Fostering Inclusivity and Adaptability in Interconnected
+164
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+Figure 2: Overview of the project’s phases and outputs of each phase: Exploratory Phase: four moments of exploration to
+better understand the context and actors involved; Design and Development Phase: Three Design Constructs (DC) were derived
+from the exploratory phase to inform future work. These were interpreted through six design ideas for Biotopia ; and the
+Implementation Phase: with three stages of future work.
+Ecosystems, emphasizing resilient, adaptable designs that accom-
+modate diverse visitor needs and dynamic environmental condi-
+tions.
+The data collected from these tools offered a nuanced under-
+standing of visitors’ experiences and the challenges in designing
+for these sites.
+3.2 Exploratory Field Research: Fostering
+More-than-human Connections in Nature
+and in a Museum Space
+The results from the initial field research inspired further explo-
+rations, now more focused on design considerations – first, for the
+researchers to explore their connection with the natural environ-
+ment in a more immersive manner; second, to better understand
+the needs and challenges of the museum implementation context.
+3.2.1 Exploratory Noticing and Sketching in Nature.
+We felt it was crucial for us as individuals and researchers to better
+understand the different actors and their relationships in a closer
+and embodied way. Emphasizing the value of situated practices
+in nature-related technology design [ 2,3], we used noticing and
+sketching in nature as an embodied exploratory practice [ 11,29,
+56,76,81] that would help us see beyond our usual experiences
+of the Madeira’s natural environment and hopefully guide a more
+decentered design approach [ 59,60] with a deeper consideration for
+more-than-human entanglements. With this purpose, two authors
+(R1 and R2) performed two nature walks in Madeira’s Levadas –water canals first built in the 15th century to take fresh water from
+rainy parts of the island to others, now used as nature walk paths.
+During the walks, two researchers (the first and second authors –
+R1 and R2 respectively) collected field notes and sketches performed
+on-location to notice human/nonhuman tensions, their feelings in
+different moments of the journey, and their connection or discon-
+nection to more-than-humans. These methods were chosen for
+their ease and versatility – R1 is a designer and has an affinity for
+sketching, while R2, a neuroscientist, prefers the written word. Still,
+both researchers engaged with this mixed-method approach so that
+each could adapt and explore it freely while following the same
+methodology.
+By analysing their sketches and reflections, R1 noticed a prefer-
+ence for solitude and quiet and an appreciation for simple, intro-
+spective moments. These reflective moments allowed R1 to engage
+with the natural surroundings fully and facilitated an embodied un-
+derstanding of the space. R2, despite finding sketching challenging,
+observed that drawing the Levadas made him more aware of the
+spatial relationships and specific elements within the landscape.
+R2’s suggestion to promote mindfulness and awareness without
+overwhelming the senses aligns with R1’s reflections. Both high-
+lighted the impact of tourism on the natural setting, acknowledging
+its role in transforming the Levadas from serene nature escapes to
+busy, human-modified spaces.
+Both researchers emphasized various more-than-human ele-
+ments that contributed to their experiences. R1 noted interactions
+with birds, lizards, water, and flora, emphasizing how the pres-
+ence of living organisms shaped her sense of connection to the
+165
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+Levadas. For R2, elements like moss, rocks, and water canals were
+vital, indicating a blend of natural and man-made features that felt
+alive and integral to the experience. These observations suggest
+that more-than-human entities play a crucial role in shaping how
+people perceive and interact with the Levadas, highlighting the
+interconnectedness between human and non-human elements.
+3.2.2 Understanding More-than-human Connections in a Museum
+Space.
+Another important layer to informing the design was to understand
+visitors’ experience in the museum related to the representation of
+more-than-humans and how to improve and foster these connec-
+tions. We also interviewed four experts from two natural history
+museums. By understanding the needs and expectations of museum
+visitors, alongside the museum’s internal objectives, we aim to iden-
+tify opportunities to integrate more-than-human considerations
+into the museum’s design and interactions.
+Museum Visitors
+The purpose of the interviews conducted at the Funchal Natural
+History Museum was to gain insights into visitors’ expectations,
+experiences, and suggestions for enhancing the museum’s repre-
+sentation of the natural heritage of Madeira. One researcher (the
+fifth author) casually approached visitors at the museum entrance
+and asked them to reply to an anonymous questionnaire composed
+of three demographic questions and seven open questions (Annex
+1.1). We engaged 19 participants: 13 females and 6 males, ranging
+in age from 16 to 69 years old, and an educational background that
+varied from basic education (n=4, up to High School level n=4) to
+those holding advanced degrees (n=9, Bachelor to PhD n=2). The
+respondents were predominantly tourists (n=16), with only a few
+residents of Madeira Island (n=3). This demographic information
+suggests that the museum attracts a wide range of visitors, both in
+age and educational background, most of whom are not residents.
+However, the walk-in affluence is low, with the museum relying on
+organised visits, mainly from schools.
+Responses were thematically analysed [ 17] and discussed among
+the authors. Several visitors mentioned a desire for more detailed in-
+formation about the species on display, including aspects like their
+habitat, diet, and conservation status, as well as suggestions for
+integrating modern technologies, such as interactive exhibits and
+multimedia presentations, to create a more engaging experience.
+Many visitors expressed satisfaction with the museum’s current of-
+ferings, particularly the audio elements in the forest-themed room
+(the only audio element in the main exhibition space). However,
+they also highlighted the need for expanded content, such as addi-
+tional species and interactive elements that could appeal to younger
+audiences. The interviews reveal a strong interest in interactive
+and immersive technologies, particularly related to the museum’s
+representation of Madeira’s biodiversity. There was a consensus on
+the value of these experiences, such as moving models or digital
+projections, and providing guided tours or audio guides to offer
+deeper insights into the exhibits.
+Cultural Partners
+In addition to gathering visitors’ perspectives, we interviewed fourexperts from two natural history museums (Project Cultural Part-
+ners) – from Portugal (CP1, CP2) and Germany (CP3, CP4). The
+questionnaire was composed of six open questions (Annex 1.2) and
+results were also thematically analysed and discussed among the
+authors. We aimed to gain insights into the institution’s role in
+preserving and communicating more-than-human heritage. Their
+insights are particularly valuable as they provide a professional
+perspective on the museums’ mission, challenges and potential
+areas for improvement.
+CP1 emphasized the institution’s core mission to document and
+disseminate knowledge about Madeira’s natural heritage through
+its extensive scientific collections. They advocated using modern
+technologies to enhance visitor engagement and suggested expand-
+ing educational resources to foster a deeper connection between
+visitors and the exhibits. CP2 also highlighted the museum’s role in
+local education, stressing its long-standing integration into school
+curricula. They identified areas for improvement, including the
+need for more immersive and interactive displays, particularly for
+underrepresented species like plants and terrestrial invertebrates.
+To bridge this gap, CP2 recommended leveraging digital tools to
+provide more engaging and informative experiences for a diverse
+audience.
+CP3 focused on the institution’s role in preserving and inter-
+preting natural heritage through its vast collection of specimens.
+They emphasized the museum’s efforts to balance regional and
+international biodiversity representation while highlighting the
+importance of emotional storytelling and contextual information to
+enhance visitor engagement. CP3’s insights suggested that muse-
+ums could improve visitor experiences by incorporating narratives
+that provide historical and cultural context to the exhibits, thus
+fostering a deeper connection between visitors and nature. CP4
+highlighted the value of digital interactive options, such as aug-
+mented reality (AR) and small games, to engage younger visitors
+and enhance interaction with exhibits. They suggest incorporat-
+ing questions in media guides and worksheets to promote visitor
+reflection and engagement. Additionally, CP4 emphasized the im-
+portance of personalized guided tours and the use of AR to improve
+accessibility, particularly for younger visitors and those with visual
+impairments. Incorporating touch and other sensory experiences
+like smell and hearing would create a multi-sensory, immersive
+experience.
+Connecting these perspectives, it becomes evident that while
+museums have strong foundations in education and conservation,
+and are appreciated for their collections and thematic focus, they
+could benefit from incorporating more interactive and emotion-
+ally engaging elements. By using technology-driven strategies and
+compelling narratives, museums can enhance their educational im-
+pact, promote environmental awareness, and create more dynamic
+presentations of natural heritage.
+4Biotopia : Designing a More-than-Human
+Transmedia Experience
+Biotopia , a transmedia experience which strives to connect visitors
+with more-than-human perspectives, was inspired by a vision of
+thriving coexistence between humans and the more-than-human
+166
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+Figure 3: The implementation contexts of the transmedia experience Biotopia : A) Madeira’s Levadas (nature walks along the
+water canals); B) Museum’s permanent exhibition space; C) Museum’s Map room adjacent to the room installation.
+world. This multi-context and transmedia experience proposes con-
+necting with and representing various local nonhuman actors and
+their complex interconnections, fostering links between different
+locations and their natural heritage. This work illustrates ways of
+"thinking and doing heritage otherwise" [79].
+Research-through-design naturally allows for learning and cre-
+ating theory through continuous exploration. In line with the idea
+ofemergence in design practice, what we learned from each stage
+led to a better understanding of the context in which we were op-
+erating ( design in settings ) and adaptation to technical affordances
+[39]. We also "drifted by intention" [ 54] as some design explorations
+demanded a shift of initial ideas to reply to the needs of the contexts
+or audiences.
+Through this process, we "illuminate the evolving nature of
+designing within the more-than-human paradigm" [ 41], and work
+towards effective engagement with natureculture and non-human
+others through HCI. To accomplish this, we translated the various
+theoretical frameworks and results from the exploratory phases
+into three inspirational Design Constructs to inform future work:
+DC1) Digital Balance ; DC2) Sensory Symbiosis ; DC3) Webs of Life .
+We performed four brainstorming workshops with the research
+team to ideate how to transform these constructs into practice—two
+sessions for the transmedia journey and two sessions focused on
+ideating the storytelling component. The first author (R1) further
+developed the ideas between each session. We also shared the ideas
+with the museum partners at various stages of development to get
+their feedback and approval.
+We illustrate how these Design Constructs can inspire and in-
+form future natureculture work by interpreting them in the design
+ofBiotopia . After each of the three design constructs we illustrate
+how we applied them in our designs: DC1.1) An Holistic Journey ;
+DC1.2) The Levada Companion ; DC1.3) Mindful Use of LLMs ; DC2.1)
+On-location vs Remote Embodiment ; DC3.1) MtH Characters and
+Narratives ; and DC3.2) A Story of Entanglements . We envision that
+this process will contribute to their application by other HCI re-
+searchers.4.1 Design Construct 1 – Digital Balance :
+Mindful Integration of Technology in
+Reflective Visitor Journeys
+Inspired by the probes and self-reports, our own noticing activ-
+ities, and previous research (e.g. [ 33,86]), this design construct
+proposes highlighting the mindful use of technology – essential
+when implementing digital experiences in natural contexts.
+When working in natural settings, one should prioritize non-
+intrusive technologies that harmonize with and respect the sur-
+rounding environment. The design needs to iteratively adapt sus-
+tainability practices to ensure that technology integration is context-
+specific and environmentally mindful.
+Furthermore, previous work on transmedia [ 26] indicates the
+need to explore structured, meaningful journeys that include differ-
+ent moments, balancing action, and reflection. Each moment adds
+meaning to the overall experience and can cater to different media
+literacies and knowledge levels, ensuring accessibility for various
+abilities and backgrounds. Carefully considering the experience
+journey can include more or less attention-demanding technolo-
+gies depending on the moment’s communication needs and the
+context’s considerations.
+The overarching aim of this design construct is to respect visitors’
+need for stillness, contemplation, and reflection, especially in natu-
+ral settings, by minimizing distractions and ensuring technology
+enhances rather than detracts from the immersive experience of
+each context. At the same time, a well-conceptualised user journey
+with different interaction moments can still reply to the project’s
+information and interaction needs without detracting from the
+environment. It also avoids fragmented or overwhelming visitor
+experiences by balancing actively engaging moments with spaces
+for personal observation and meaning-making.
+4.1.1 Digital Balance in Biotopia (DC1.1): An Holistic Journey .
+Considering the possibility of exploring multiple implementation
+locations with very different characteristics and demands, we de-
+cided to create a transmedia experience with a well-defined, albeit
+flexible, journey composed of several moments – each bringing a
+167
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+Figure 4: Biotopia trasmedia journey design: The three contexts of implementation of the transmedia experience: 1) In Nature
+(Levadas), 2) Museum Space (the permanent exhibition), and 3) Museum Room (a room exclusively dedicated to the interactive
+experience). Each of the three moments are accompanied by some of the conceptual aspects considered while designing the
+experience and, in green, the Design Constructs (DC) applied.
+different layer of meaning to the experience.The overarching nar-
+rative becomes more complete and engaging with each moment.
+The various artefacts can be experienced independently and in any
+order, allowing for a flexible transition between sites. The very
+different nature of each context and the physical distance between
+the museum and the Levadas help avoid possible dissonance when
+transitioning between the various experiences.
+The transmedia experience is, therefore, divided into three arte-
+facts (Fig. 4). The first is the Levada Companion [42] that focuses on
+"experiencing" – engagement with the MtHs through an embodiedand sensorial interaction. In nature , we propose a technological so-
+lution that requires little interaction with the device. This mode of
+interaction was devised to not detract from nature. The experience
+facilitates a "direct dialogue" with more-than-humans in a subtle,
+non-intrusive manner (details in 4.1.2). On the other hand, with the
+second artefact in the museum space – the MtH Dialogues – we pro-
+pose an alternative approach to dialoguing with the MtHs. Using a
+large-language model (LLM), we facilitate "fictional dialogues" with
+four of the collections’ more-than-human entities. Inspired by Ben-
+ford et al.’s [ 7] work that proposed an emotional journey through
+a museum’s collection to add layers of emotional content to the
+168
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+exhibits and a physical postcard for further reflection, we invite vis-
+itors to take a map that guides them through the museum collection
+to learn about the MtHs and collect tokens to open an extra feature
+in the room installation. The visitors impersonate characters de-
+pending on the adventure they choose (e.g. an explorer, an animal,
+a time-traveller). We saw the museum exhibition as a context that
+permitted the exploration of more attention-demanding technol-
+ogy solutions with a more ludic experience with the species when
+compared to the natural environment. These interactive solutions
+also add new layers of experience and meaning to the traditional
+exhibition format of the taxidermy animals (Fig. 3-B) characterized
+by high scientific value but low engagement for visitors. This arte-
+fact is focused on "learning" – enhancing visitors’ knowledge and
+ecological literacy through MtH empathy. Finally, the third artefact
+– the MtH Entanglement Map – aims to "change perspectives" by
+decentering the heritage narrative and show the complexity of MtH
+entanglements. For the museum room , we designed a multisensory
+experience with screens, a controlling console, and decoration that
+represents different natural environments through light and sound.
+This artefact revolves around two interactive entanglement stories
+(4.3.2) with the MtHs as protagonists (4.3.1). The story is explored
+through multiple moments of interactive exploration that dive into
+the entity’s perspectives and connections. We strive to incentivize
+reflection through playful interactions.
+Each implementation space affords different ethical considera-
+tions and modes of technological exploration in or about nature,
+guiding very different forms of representing and connecting with
+MtHs – some more experiential, some more informative, and all
+working together as a cohesive experience.
+4.1.2 Digital Balance in Biotopia (DC1.2): The Levada Compan-
+ion.
+To respect visitors’ contemplative experiences in nature, we
+decided to use minimal and non-intrusive technological solutions in
+this implementation context. Interestingly, this decision contradicts
+our initial ideas, as we hypothesized implementing more complex
+games and mechanics during the nature walks. Still, we revised this
+approach based on the exploratory research results. In the case of
+theLevadas , people tend to want to be immersed in nature. They are
+not keen to have more digital "interference". Therefore, building on
+R7’s previous experiments, we propose a device that allows visitors
+to the natural site to "dialogue" with some species in a less intrusive
+manner.
+The Levada companion is a compact arm wearable designed to
+minimise its impact on visitors’ walks and their experience of nature.
+Its waterproof materials, discreet green colour, and simplicity of
+use, with only two buttons, ensure wearability in any weather
+and environment. The device’s design moves away from traditional
+technological cues (such as screens and vibrations), fully immersing
+the wearer in the Levadas’ environment. Connected through GPS
+to a static database of species geolocation based on scientists’ and
+volunteers’ observations, the device will leverage diverse sensory
+stimuli (touch and vision) to let the wearer know they’ve entered
+another being’s area or ‘contact zone’. Tactile stimuli are tailored
+to each species to deepen the visitors’ connection with that specific
+animal. Once in a contact zone, a speaker activates, allowing thewearer to play the species call by pressing a button to engage
+in multispecies dialogues. The device’s emphasis on sensory-rich
+multispecies interactions (through sound, touch, and vision) allows
+visitors to experience nature from different perspectives, fostering
+a deeper connection with a specific ecosystem. The mechanics of
+this interaction can foster stillness and reflection by inviting users
+to observe more closely.
+4.1.3 Digital Balance in Biotopia (DC1.3): Mindful Use of LLMs .
+In recent years, LLMs have developed as a crucial AI technol-
+ogy supporting intelligent chatbots in various application settings.
+However, integrating LLMs introduces unpredictability and uncon-
+trollability into current dialogue-based interactions. The generated
+content from LLMs includes aspects like outdated recommenda-
+tions, which are limited by the static training dataset, knowledge
+from non-authoritative sources, and information that could be in-
+accurate and fabricated. These points become unacceptable in rig-
+orous scientific and educational contexts, such as Natural History
+Museums—our implementation context.
+With this in mind, we designed our dialogue system leveraging
+RAG (Retrieval-Augmented Generation). This technique does not
+require costly resources to retrain the LLMs, achieving preferen-
+tial information retrieval from authoritative sources of knowledge
+prepared by the researchers. Together with the LLMs’ paraphras-
+ing ability, our dialogue system realized the goal of giving users
+playful feedback, digestible (e.g., by rephrasing a dry scientific pre-
+sentation colloquial) and, most importantly, rigorously traceable.
+Furthermore, we believe this greater transparency in the source of
+generated information will improve the public’s trustworthiness of
+AI-based dialogue systems (Fig. 6–2). We also used an open-source
+LLM running locally to reduce the technology’s environmental
+impact.
+4.2 Design Construct 2 – Sensory Symbiosis :
+Multisensory and Embodied Storytelling
+From the feedback of nature and museum visitors and previous
+work on more-than-human HCI [ 49,83], we point to the potential
+of developing immersive, multisensory experiences that engage
+visitors emotionally and empathetically with more-than-human
+heritage. These experiences can explore embodied approaches, such
+as interactive sensory elements, to deepen understanding of eco-
+logical systems. When applied to museum spaces, this construct
+also addresses the cultural partners’ need for interactive, engaging
+and informative experiences.
+Designers should strive to meaningfully use the media choices
+to represent more-than-human perspectives – for example, through
+participatory and sensory methods that allow visitors to “step into
+the world” of more-than-human entities (e.g., feeling temperature
+changes, hearing species’ sounds, or experiencing simulated in-
+terdependencies). Ultimately, these strategies strive to overcome
+emotional disconnection between visitors and natural heritage by
+fostering embodied, multisensory interactions based on compelling
+narratives. These lead to inclusive and innovative engagement
+methods that invite diverse visitor participation. Immersive story-
+telling can make more-than-human entities tangible and relatable,
+169
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+enabling visitors to empathize with them and enhance their under-
+standing of ecological relationships.
+4.2.1 Sensory Symbiosis in Biotopia (DC2.1): On-location vs Re-
+mote Embodiment .
+We explored two embodied approaches: on-location, in the Lev-
+adas, and remote, in the museum room. Being physically in nature
+differs from being in a room inspired by nature. Adapted to the
+implementation contexts, we developed different strategies to en-
+hance the sense of embodiment and bring about alternative forms
+of MtH connection.
+The Levada companion highlights the embodied experience of
+being in nature by aligning the visitor’s presence with that of a MtH.
+By pointing to this possible proximity and facilitating the means
+for connection, the artefact opens up the opportunity for pause and
+reflection, making the human closer and more conscious of their
+environment. It uses the already immersive natural surroundings
+to add a layer of experiential meaning.
+In the museum room, we wanted to link to the embodied ex-
+perience of being in nature to enhance the engagement with the
+interactive story. We did this by designing a space inspired by nat-
+ural environments (ocean and forest) that is visually very different
+from the remaining museum and gives a sense of entering a dif-
+ferent world (Fig. 6). The intention was not to "replace" natural
+encounters inside the room walls, as warned by [ 87], but to use a
+sensorial and tangible experience to bring out a sense of wonder
+that would give meaning to the more-than-human heritage infor-
+mation being shown. The immersive environment is composed of
+nature sounds, digital visuals, and exhibition design inspired by
+plants and algae that change their look through different coloured
+lights – e.g. blue for ocean ecosystems, green for forests, red for
+volcanic environments.
+4.3 Design Construct 3 – Webs of Life : Ecological
+Interconnectedness and More-Than-Human
+Narratives
+Inspired by HCI previous work that advocates for inclusive ap-
+proaches (e.g. [ 55,66]), and our exploratory research in nature,
+this design construct focuses on developing empathic more-than-
+human narratives by drawing attention to the relationships and
+interdependencies within ecosystems, such as the connection be-
+tween water, flora, humans and fauna. These proposals encourage
+collective stewardship by involving visitors in diverse and inclusive
+narratives – a need derived from the probes and self-reports.
+Encouraging people to feel connected to natural systems – a
+part of them but also responsible for them – can be accomplished
+through participatory narratives and gamified interactions that
+promote empathy for more-than-human entities and highlight the
+entanglements between humans and the environment, inviting
+visitors to explore and question relationships. Expanding on this
+argument, the aim is to work towards eliminating these divisions
+(natureculture) and guiding visitors to see themselves as part of
+nature.Design directions should work towards encouraging visitors to
+engage with inclusive narratives through subtle cues and open-
+ended exploration, allowing for personal meaning-making while
+respecting the dynamic character and complexity of nature. These
+explorations expand the scope of AHD by deeply considering and
+representing more-than-human narratives in traditional heritage
+experiences. It also explores the need to engage non-expert audi-
+ences with scientific topics through storytelling [ 23]. This design
+construct addresses the museum partners’ needs for alternative,
+more engaging and detailed stories about species and ecosystems,
+fostering collective engagement by putting the audience as a part
+of a complex and interdependent ecosystem.
+4.3.1 Webs of Life in Biotopia (DC3.1): MtH Characters and Nar-
+ratives .
+Informed by the museum’s collection, we selected five MtH enti-
+ties representing different aspects of Madeira’s natural heritage and
+allowing for exploring human/more-than-human entanglements
+(Fig. 5).
+We started by selecting two "emblematic" species of the island:
+the Mediterranean monk seal and the Zino’s petrel. The first inhab-
+its a coastal marine ecosystem. The second is a seabird that lives
+in the central mountainous areas of the island and travels to the
+open sea (high mountain and deep-sea ecosystems). To complement
+these species, we selected two others that inhabit mid-altitude for-
+est ecosystems and are typically regarded as "less popular". The
+Trocaz pigeon is endemic to Madeira and lives in the laurel forests.
+Interestingly, it is not well-loved by some humans as it sometimes
+feeds off farmers’ crops, but it is fundamental for its ecosystem as it
+disperses the seeds of the laurel forest trees. On the other hand, the
+Iberian green frog was introduced to Madeira by humans, bringing
+up the question of human interference in natural habitats. This,
+allied with inhabiting the human-made water canals, illustrates the
+complexities of natureculture. Both these species brought interest-
+ing tensions to the more-than-human heritage discourse. Finally, as
+a non-living entity, the volcanic rock introduced a distinct nuance
+to the experience. For example, we saw exciting temporal oppor-
+tunities, allowing to link visitors with the concept of deeptime
+and make them question their place in these more-than-human
+temporalities.
+We explore two very different approaches to representing the
+MtHs in the transmedia experience (Fig. 5-3). In the Levada Com-
+panion , there is no character development and the interaction with
+a wild animal in their own language and habitat are the main as-
+pects of the interaction. In contrast, in the museum artefacts, we
+create anthropomorphic characters to make use of narrative con-
+ventions and structures to convey specific information but also
+draw on empathy and narrative transportation – the feeling of
+being completely immersed in the world of a narrative. The bi-
+ological and behavioural characteristics of each entity are used
+to inform the traits of their fictional characters. This selection of
+MtHs brought diversity and versatility to the transmedia narrative,
+making the information flow entertaining but based on accurate
+scientific information. Furthermore, the different MtH representa-
+tions afforded by the transmedia experience allow us to explore
+contrasting strategies.
+170
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+Figure 5: Biotopia trasmedia narrative design: This figure visually summarizes the different elements considered in developing
+the narrative journey and storytelling. 1) First, we settled on the main aim of the narrative. 2) Then, we selected the more-
+than-human characters considering their habitats and usual movements (diversity and connections/entanglements to explore):
+Pigeon (P), Monk Seal (S), Zino’s Petrel (Z), Vulcanic Rock (R) and Frog (F). 3) We settled on which characters to explore in each
+of the experience’s artefacts and some considerations taken for each particular story section/context. 4) Finally, we created two
+stories each with several of the characters, based on planned hero’s journeys for the protagonists. The Design Constructs (DC)
+are marked in green to illustrate where they were considered.
+The characters are presented through two narrative mechanics
+mediated by digital technologies. In the museum space, the open-
+ended nature of the stories created with the LLM dialogue feature
+is adaptable to the visitor’s own interests while also being ludic
+and informative. With a different narrative strategy, the immersive
+room installation uses two stories with a MtH as the protagonist
+and others as characters. These stories follow the hero’s journey
+structure to give an emotional base to the natural heritage infor-
+mation (Fig. 5-4) – about the species, ecosystems and conservation
+efforts – which the visitor can explore in key interactive moments.These interactive narratives expand the museum’s offerings with
+empathetic and informative experiences about the species on dis-
+play.
+4.3.2 Webs of Life in Biotopia (DC3.2): A Story of Entanglements .
+Expanding the museum’s natural heritage discourses led to the
+conceptualization of a story of entanglements with the five MtHs
+as the main vectors. By exploring the complexity of Madeira’s
+171
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+ecosystems, we intend to foster decentered thinking through a
+deeper sense of our interconnectedness and interdependencies with
+more than humans.
+Our inspirational starting point was a wooden, table-sized map of
+Madeira, a centerpiece of the museum’s permanent exhibition (Fig.
+3-C). We interpreted this map as an Anthropocentric and reductive
+point-of-view regarding the island’s complex and dynamic natural
+heritage. Considering the potential that the museum’s diverse col-
+lection presents, and intending to bring posthuman narratives to the
+heritage discourse, we decided to design a complexity-embracing
+point-of-view of natureculture. This MtH Entanglement map is
+designed to explore the connections between human and more-
+than-human actors. We changed the viewpoint to a lateral cut of
+the island (Fig. 5-2) to also show the massive underwater area that
+is part of Madeira but usually ignored. In this representation, land
+and ocean are intrinsically connected.
+As mentioned in the previous section, the five MtHs were se-
+lected for their diversity in terms of physical characteristics and,
+importantly, usual habitat and opportunities for connections with
+the other entities. The two stories have been written to highlight
+entanglements through fictional journeys that also link to recent
+environmental events—for example, last summer’s forest fires, how
+they affect humans and more-than-humans, and how humans and
+more-than-humans are crucial for the forest’s regeneration (exam-
+ple in Fig. 5-4).
+5 Discussion
+By detailing our RtD approach, we contribute to ongoing research
+linking more-than-human heritage and HCI practice-based work.
+Our process illustrates how posthuman theory and exploratory
+research can inform the design of interactive natureculture experi-
+ences in real-world implementations. The three design constructs
+proposed and how they inspired and informed the design of Biotopia
+demonstrate the value of each step of the design process for criti-
+cal HCI research. In this section, we reflect on our design journey
+to discuss how the work sits within current critical heritage and
+posthuman HCI explorations. We also incorporate considerations
+discussed with the Portuguese and German cultural partners while
+presenting the final designs.
+5.1 Reflections on Posthuman
+Research-through-Design
+Calls to move design processes beyond human exceptionalism and
+human-centric approaches are not new in HCI [ 31,32]. However,
+how to apply these proposals in real-world design is continuously
+being explored. We align with Nicenboim et al’s argument that
+decentering practices must "be entangled with the activities, tools,
+and daily challenges of design processes" [ 66]. How to “decenter
+through design” and think beyond user-centred methods towards
+more inclusive ones has been one of the main challenges of this re-
+search. An example of how we materialized these ideas is the Levada
+companion artefact. Our design decisions considered the animal’s
+needs and the "functionality" of the device. In our concept, the
+interaction does not need to "work" in a traditional usability sense.
+A no-resolution (not having a reply from the contacted species) is
+part of the interaction design, not a flaw. This exercise is meant tocreate a connection between the human and the animal, but it is
+also meant to educate the user that we do not control these interac-
+tions, nor should we attempt to. In line with our intention, one of
+the partners suggested that the tool could be an educational tool to
+teach people about nature conservation. Also, for ethical reasons,
+it should not be used excessively so as not to disturb the animals.
+We build on previous work exploring cohabitation in practice [ 22]
+through the design of forms of interaction that unite contained and
+serendipitous interactivity with respect towards the multiple actors
+involved (human and more-than-human).
+Another crucial aspect in our process has been questioning how
+to explore HCI to go beyond restrictive human-meaning-making
+perspectives [ 34]. We built on evolving methodologies that con-
+nect theoretical ideas with lived experiences [ 1] and help designers
+connect with and interpret natural spaces and more-than-human
+relations [ 9,29,60,71] to guide us in understanding the partic-
+ularities of the context in which we are intervening. R2, despite
+finding sketching challenging, observed that drawing the Levadas
+made him more aware of the spatial relationships and specific el-
+ements within the landscape, which traditional cultural probes
+hadn’t captured as effectively. This act of sketching, despite its
+difficulty, encouraged him to engage with the physicality of the
+trail in a more exploratory manner, suggesting that such activities
+can help break conventional modes of interaction and foster new
+ways of perceiving space and build situated knowledges [83].
+The designs we create are inevitably moulded by our biases, and,
+as we pointed out regularly throughout our process, our perspec-
+tives are always relational and situated [ 41]. There are no universal
+methods for posthuman design, and that is why it is crucial to
+present and debate the rationale that guides these design experi-
+ments.
+5.2 Tensions in More-than-human Interactions
+and Representation
+When designing an intervention that connects visitors with wild an-
+imals, we tried to base our approach on "humility and cohabitation",
+being acutely aware of the dangers of "exploitation of nonhuman
+species" [ 84] in our design. Initially, we thought of building the dia-
+logue with the Zino’s Petrel, a more emblematic bird on the island.
+However, this endangered species lives in secluded habitats high in
+the mountains. We decided to work with more approachable species
+for the animal’s protection and the visitor’s safety in a, hopefully,
+non-invasive deployment. Here, we considered Webber et al.’s [ 87]
+ethical tensions when designing in natural spaces. Still, our team
+has continuously discussed these considerations, and we intend to
+build on them as the work progresses. In alignment with our ethical
+debates, both the German and Portuguese partners emphasized
+the importance of respecting the animals and their environment
+– on the one hand, discussing the importance of considering the
+potential impact of the animal call on other species, and on the
+other, the need to respect spatial distances.
+Contrary to our expectations, none of the partners expressed con-
+cerns about using LLMs, anthropomorphized characters or fictional
+stories to present the MtHs, affirming that the audience understands
+the nature of these communication strategies and that it all depends
+172
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+Figure 6: Proposals for the design of the artefacts: 1) The MtH Entanglement Map room installation (3D render of the room and
+floor plan); 2) The MtH Dialogues experience in the museum permanent exhibition and tablet with the first version of the UI
+design; 3) The first version of Levada Companion [42] for the nature walks.
+on the purpose of each artefact. One partner highlighted the im-
+portance of scientific accuracy in the LLM responses and biological
+accuracy when developing character traits for species representa-
+tions – aspects that we have already carefully addressed. Together
+with the Levada Companion, we worked towards using the different
+artefacts of the transmedia experience to explore diverse strategies
+to represent and engage with more-than-humans.
+Through continuous iterations and improvements of the arte-
+facts, we are considering "the long-term environmental or social
+consequences of the products and systems" [ 41] we are developingbut with the open realization that our approach is inherently limited.
+The debate on these issues within the HCI community is crucial for
+the collective evolution of sustainable and ethical design processes
+and we hope this research contributes to it. The importance of mul-
+tidisciplinarity and multiple worldviews in building more inclusive
+and sustainable design processes is also key [ 1]. Our close collabo-
+ration with the culture partners’ team, which includes biologists,
+science museum curators and communicators, allowed us to inte-
+grate insights from different disciplines to account for the welfare
+and needs of wildlife [ 87]. Still, being based on the global north, we
+173
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+see the need to include other perspectives apart from our own. Our
+work acknowledges the roles and interdependencies of humans and
+nonhumans in shaping worlds and futures [ 1]. However, R1 rec-
+ognizes the discomfort of how some pluriversal worldviews push
+against hard-set biases of her Western-based ways of thinking and
+user-centred design methodologies. This paper illustrates how she
+and the team replied to these crucial challenges and incrementally
+reflected them in their design practices. We humbly acknowledge
+that we have a long way to go and that each experiment is a step
+in the right direction.
+5.3 Critical Heritage Discourses as a Posthuman
+Endeavor
+The narratives we propose for more-than-human heritage extend
+on previous HCI explorations on MtH connections [ 25,30]. Our
+design concepts replied to the challenge of converging posthu-
+manism andpost-anthropocentrism ideals [ 15] to expand Madeira’s
+heritage discourses in a decentered direction. By focusing the nar-
+rative on MtHs and building the heritage narrative around them,
+we are attempting to contradict human exceptionalism in heritage
+discourses. However, this approach needs to build interest in the
+heritage information. We addressed this balance by focusing on the
+entanglements of humans and non-humans – how we are not at
+the centre of any natural hierarchy and MtH’s are crucial for our
+and the environment’s well-being.
+As proposed by Sterling [ 79], our detailed process demonstrates
+the diverse and critical considerations discussed for the various
+‘components’ that form heritage . Each of these design decisions
+influences the heritage narrative and we strived to build discourses
+that are inclusive and reparative. As the construct of natureculture
+proposes [ 34], landscapes, archaeological sites, and ecosystems are
+interconnected and should not be treated as separate fields. This
+proposal became the cornerstone of our design concept. In Biotopia ,
+we worked towards merging ’nature’ (MtHs) and ’culture’ (the
+man-made canals) for critical heritage where both constructs are
+equally defining of Madeira’s heritage. We interpreted the sites as
+assemblages of multiple actors [34].
+The Levadas are an example of "a landscape constructed through
+the human gaze" that "colonizes nature and materiality by depriving
+materiality and a range of naturalized others of an active role in the
+co-creation of events" [34]. These tensions demand a critical analysis
+and consideration when creating interventions for these naturecul-
+ture contexts. Our designs reply to critical heritage’s purpose of
+questioning traditional ways of doing heritage [ 19] while, at the
+same time, testing how open to these strategies a heritage insti-
+tution – a natural history museum – would be. Madeira’s natural
+heritage is intrinsically linked to Portuguese colonization. Despite
+the island not being inhabited by humans prior to the Portuguese
+arrival, the subsequent human presence shaped the natural envi-
+ronment. The choice of species is meant to explore these tensions.
+When discussing the species chosen, one of the museum’s partners
+questioned the choice of the frog, mentioning it is not an endemic
+species. But after we explained that it was precisely for that reason
+that it was selected, they agreed on the interesting points it raised.
+In their view, the five species naturally couldn’t represent the whole
+diversity of the island, but the selection was appropriate to givea broad view of the complex ecosystems. Furthermore, they high-
+lighted the importance of these modern technological solutions
+to make Madeira’s natural heritage more accessible and appealing
+to a 21st-century audience and to inform the museum’s curatorial
+future.
+5.4 Limitations and Future Work
+This research is intrinsically moulded by the researchers’ expe-
+riences, worldviews and areas of practice. We see great value in
+expanding this work by involving researchers with varying and
+contrasting perspectives.
+This paper contributes to the HCI community with the design
+process of the natureculture artefacts and the crucial reasoning be-
+hind theoretical, conceptual and interaction decisions. Our research
+highlights the need for continuous discussions on the work and
+ethical considerations implemented in the design. Next, the project
+will enter the crucial phase of testing in the various contexts and
+with diverse user groups. This next phase will further inform these
+design directions.
+6 Conclusion
+This research explores the intersection of critical heritage and
+posthuman HCI, demonstrating how theoretical proposals and ex-
+ploratory research inspire and inform the design of an HCI-based
+transmedia experience for more-than-human heritage.
+The design process underwent various phases, each based on
+the previous one. First, through exploratory research, we worked
+towards understanding the multiple facets and actors in the spaces
+we were intervening in. This phase led to several insights that were
+compiled in three Design Constructs for natureculture heritage
+design: 1) Digital Balance – Mindful Integration of Technology in
+Reflective Visitor Journeys; 2) Sensory Symbiosis : Multisensory and
+Embodied Storytelling; and 3) Webs of Life : Ecological Interconnect-
+edness and More-Than-Human Narratives. We then describe how
+these design constructs were translated in the design of Biotopia , a
+transmedia experience for more-than-human heritage. The trans-
+media journey connects three sites – nature walks, the museum
+collection and a museum room installation – through a narrative
+centered on human/non-human entanglements.
+We contribute to the HCI community by discussing the design de-
+cisions for three interactive artefacts combined into a cohesive trans-
+media journey that embody posthuman theories, more-than-human
+considerations and decentering practices. This research-through-
+design highlights the challenges and opportunities in translating
+these propositions in real-world applications, balancing the evo-
+lution of more inclusive ways of thinking and doing design away
+from user-centred paradigms, with the needs and constraints of
+cultural institutions and diverse audience groups. We hope our
+work contributes to crucial discussions on decentering HCI design
+practices and posthuman ways of thinking.
+Acknowledgments
+We would like to thank our colleagues Anna Bertmark, Beatrice
+Maggipinto, Katerina Iglezaki, Mathilde Gouin and Valentina De-
+marchi for their open-hearted availability and insightful discussions
+174
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+into more-than-human design and HCI research. The authors ac-
+knowledge the use of ChatGPT 4o (Open AI, https://chat.openai.com)
+to summarise some initial notes and to proofread sections of the
+text. This research was funded by the LoGaCulture Horizon Eu-
+rope funded project, under grant agreement 101094036, and by FCT
+projects: 10.54499/LA/P/0083/2020; 10.54499/UIDP/50009/2020 and
+10.54499/UIDB/50009/2020.
+References
+[1]Yoko Akama, Ann Light, and Takahito Kamihira. 2020-06-15. Expanding Par-
+ticipation to Design with More-Than-Human Concerns. In Proceedings of the
+16th Participatory Design Conference 2020 - Participation(s) Otherwise - Volume 1
+(Manizales Colombia). ACM, 1–11. https://doi.org/10.1145/3385010.3385016
+[2]Ferran Altarriba Bertran, Oðuz ’Oz’ Buruk, and Juho Hamari. 2022-04-27. From-
+The-Wild: Towards Co-Designing For and From Nature. In CHI Conference on
+Human Factors in Computing Systems Extended Abstracts (New Orleans LA USA).
+ACM, 1–7. https://doi.org/10.1145/3491101.3519811
+[3]Ferran Altarriba Bertran, Jordi Márquez Puig, Maria Llop Cirera, Eva Forest Il-
+las, Joan Planas Bertran, Ernest Forts Plana, Oğuz ’Oz’ Buruk, Çağlar Genç,
+Mattia Thibault, and Juho Hamari. 2023-07-10. Designing and Using the Wild
+Probes Toolkit (v1) to Co-Design From-the-Wild. In Proceedings of the 2023 ACM
+Designing Interactive Systems Conference (Pittsburgh PA USA). ACM, 765–778.
+https://doi.org/10.1145/3563657.3596102
+[4]Alexandra Baixinho, Sónia Matos, Ana M. Arroz, Isabel R. Amorim, and Rosalina
+Gabriel. 2024. “Although I was alone, I always felt accompanied”: the experiences
+of adolescent girls walking in a forest. Journal of Adventure Education and Outdoor
+Learning (June 2024), 1–18. https://doi.org/10.1080/14729679.2024.2367272
+[5]Jeffrey Bardzell, Shaowen Bardzell, and Ann Light. 2021-05-06. Wanting To Live
+Here: Design After Anthropocentric Functionalism. In Proceedings of the 2021
+CHI Conference on Human Factors in Computing Systems (Yokohama Japan). ACM,
+1–24. https://doi.org/10.1145/3411764.3445167
+[6]2017. Participatory research in more-than-human worlds (London ; New York,
+NY). Number 67 in Routledge studies in human geography. Routledge, Taylor &
+Francis Group.
+[7]Steve Benford, Anders Sundnes Løvlie, Karin Ryding, Paulina Rajkowska, Edgar
+Bodiaj, Dimitrios Paris Darzentas, Harriet Cameron, Jocelyn Spence, Joy Egede,
+and Bogdan Spanjevic. 2022. Sensitive Pictures: Emotional Interpretation in the
+Museum. In CHI Conference on Human Factors in Computing Systems . ACM, New
+Orleans LA USA, 1–16. https://doi.org/10.1145/3491102.3502080
+[8]Anna Bertmark, Mathilde Gouin, Nuno Nunes, Pedro Galvão-Ferreira, Vera
+Fearns, Marta Ferreira, and Valentina Nisi. 2025. Natureculture Probes: Opening
+up dialogues in heritage(s) landscapes. In 19th International Conference on Tangible
+Embedded and Embodied Interaction . ACM, Bordeaux, France. https://doi.org/10.
+1145/3689050.3704430
+[9]Heidi R. Biggs, Jeffrey Bardzell, and Shaowen Bardzell. 2021. Watching Myself
+Watching Birds: Abjection, Ecological Thinking, and Posthuman Design. In Pro-
+ceedings of the 2021 CHI Conference on Human Factors in Computing Systems .
+ACM, Yokohama Japan, 1–16. https://doi.org/10.1145/3411764.3445329
+[10] Heidi R. Biggs and Audrey Desjardins. 2020. High Water Pants: Designing
+Embodied Environmental Speculation. In Proceedings of the 2020 CHI Conference
+on Human Factors in Computing Systems . ACM, Honolulu HI USA, 1–13. https:
+//doi.org/10.1145/3313831.3376429
+[11] Eli Blevis. 2018-04-21. Seeing What Is and What Can Be: On Sustainability, Re-
+spect for Work, and Design for Respect. In Proceedings of the 2018 CHI Conference
+on Human Factors in Computing Systems (Montreal QC Canada). ACM, 1–14.
+https://doi.org/10.1145/3173574.3173944
+[12] Letizia Bollini and Chiara Facchini. 2022. I Wish You Were Here. Designing a
+Geostorytelling Ecosystem for Enhancing the Small Heritages’ Experience. In
+Computational Science and Its Applications – ICCSA 2022 Workshops , Osvaldo
+Gervasi, Beniamino Murgante, Sanjay Misra, Ana Maria A. C. Rocha, and Chiara
+Garau (Eds.). Vol. 13378. Springer International Publishing, Cham, 457–472. https:
+//doi.org/10.1007/978-3-031-10562-3_32 Series Title: Lecture Notes in Computer
+Science.
+[13] Rosi Braidotti. 2013. The posthuman . Polity Press, Cambridge, UK Malden, MA.
+[14] Rosi Braidotti. 2019. Posthuman knowledge . Polity, Medford, MA.
+[15] Rosi Braidotti. 2019-11. A Theoretical Framework for the Critical Posthumanities.
+36, 6 (2019-11), 31–61. https://doi.org/10.1177/0263276418771486
+[16] Rosi Braidotti. 2022. Posthuman feminism . Polity, Cambridge, UK. OCLC:
+ocn989027148.
+[17] Virginia Braun and Victoria Clarke. 2022. Thematic analysis: a practical guide .
+SAGE, London ; Thousand Oaks, California. OCLC: on1247204005.
+[18] Shannon Butts and Madison Jones. 2021. Deep mapping for environmental
+communication design. Communication Design Quarterly 9, 1 (March 2021), 4–19.
+https://doi.org/10.1145/3437000.3437001[19] Gary Campbell and Laurajane Smith. 2011. Association of Critical Heritage
+Studies Manifesto. https://www.criticalheritagestudies.org/history
+[20] Vanessa Cesário, Daniela Petrelli, and Valentina Nisi. 2020. Teenage Visitor
+Experience: Classification of Behavioral Dynamics in Museums. In Proceedings of
+the 2020 CHI Conference on Human Factors in Computing Systems . ACM, Honolulu
+HI USA, 1–13. https://doi.org/10.1145/3313831.3376334
+[21] Dipesh Chakrabarty. 2009. The Climate of History: Four Theses. Critical Inquiry
+35, 2 (Jan. 2009), 197–222. https://doi.org/10.1086/596640
+[22] Rachel Clarke, Sara Heitlinger, Marcus Foth, Carl DiSalvo, Ann Light, and Laura
+Forlano. 2018-08-20. More-than-human urban futures: speculative participatory
+design to avoid ecocidal smart cities. In Proceedings of the 15th Participatory Design
+Conference: Short Papers, Situated Actions, Workshops and Tutorial - Volume 2
+(Hasselt and Genk Belgium). ACM, 1–4. https://doi.org/10.1145/3210604.3210641
+[23] Michael F. Dahlstrom. 2014. Using narratives and storytelling to communicate
+science with nonexpert audiences. Proceedings of the National Academy of Sci-
+ences 111, supplement_4 (Sept. 2014), 13614–13620. https://doi.org/10.1073/pnas.
+1320645111
+[24] Bert De Roo and Giliam Antonie Ganzevles. 2023. The Umwelt-sketch as More-
+than-human Design Methodology: Decentering the design process from human-
+centered towards more-than-human-centered. In Designing Interactive Systems
+Conference . ACM, Pittsburgh PA USA, 203–206. https://doi.org/10.1145/3563703.
+3596628
+[25] Valentina Demarchi, Valentina Nisi, and Nuno Jardim Nunes. 2024. Hackeanos:
+A new collaborative event format for hacking the Ocean-humanity relationship.
+InDesigning Interactive Systems Conference . ACM, IT University of Copenhagen
+Denmark, 162–165. https://doi.org/10.1145/3656156.3663722
+[26] Mara Dionisio, Paulo Bala, Valentina Nisi, and Nuno Nunes. 2017. Fragments of
+laura: incorporating mobile virtual reality in location aware mobile storytelling
+experiences. In Proceedings of the 16th International Conference on Mobile and
+Ubiquitous Multimedia . ACM, Stuttgart Germany, 165–176. https://doi.org/10.
+1145/3152832.3152868
+[27] Mara Dionisio and Valentina Nisi. 2021. Leveraging Transmedia storytelling to en-
+gage tourists in the understanding of the destination’s local heritage. Multimedia
+Tools and Applications (June 2021). https://doi.org/10.1007/s11042-021-10949-2
+[28] Maria Engberg, Susan Kozel, and Temi Odumosu. 2017. Postcolonial Design
+Interventions: Mixed Reality Design for Revealing Histories of Slavery and their
+Legacies in Copenhagen. Nordes: Nordic Design Research 7 (2017). https://archive.
+nordes.org/index.php/n13/article/view/542
+[29] Marta Galvão Ferreira and Sherry Hsi. 2024-07. Dear Nature: Using data drawings
+to promote sensemaking in human-nature relations. In Designing Interactive
+Systems Conference (IT University of Copenhagen Denmark). ACM, 1426–1438.
+https://doi.org/10.1145/3643834.3660732
+[30] Marta Galvão Ferreira, Nuno Jardim Nunes, and Valentina Nisi. 2024. Towards
+Relatable Climate Change Data: Untangling Tensions in Engaging with a Hy-
+perobject. In Designing Interactive Systems Conference . ACM, IT University of
+Copenhagen Denmark, 3029–3045. https://doi.org/10.1145/3643834.3661606
+[31] Laura Forlano. 2016-07. Decentering the Human in the Design of Collaborative
+Cities. 32 (2016-07), 42–54. https://doi.org/10.1162/DESI_a_00398
+[32] Laura Forlano. 2017. Posthumanism and Design. She Ji: The Journal of Design,
+Economics, and Innovation 3, 1 (2017), 16–29. https://doi.org/10.1016/j.sheji.2017.
+08.001
+[33] Christopher Frauenberger. 2019. Entanglement HCI The Next Wave? ACM
+Transactions on Computer-Human Interaction 27, 1 (Nov. 2019), 1–27. https:
+//doi.org/10.1145/3364998
+[34] Christina Fredengren. 2015. Nature:Cultures – Heritage, Sustainability and
+Feminist Posthumanism. Current Swedish Archaeology 23, 1 (Jan. 2015), 109–130.
+https://doi.org/10.37718/CSA.2015.09
+[35] Verena Fuchsberger and Christopher Frauenberger. 2023. Doing responsibilities
+in entangled worlds. Human–Computer Interaction (Oct. 2023), 1–24. https:
+//doi.org/10.1080/07370024.2023.2269934
+[36] Pedro Galvão-Ferreira, Vera Fearns, Nuno Nunes, and Valentina Nisi. 2024.
+Posthumanist Care and Ecologies of Empathy: Investigating Design Potentials for
+Nature:Culture HCI. In Proceedings of the 27th International Academic Mindtrek
+Conference . ACM, Tampere Finland, 81–94. https://doi.org/10.1145/3681716.
+3681731
+[37] Pedro Galvão-Ferreira, Marta Ferreira, Maritza Silva, Nuno Nunes, and Valentina
+Nisi. 2025. The Entangled Tales that Landscapes Tell: An Embodied HCI
+Pedagogy for Re-enchanted Nature Walks. In Nineteenth International Confer-
+ence on Tangible, Embedded, and Embodied Interaction . ACM, Bordeaux, France.
+https://doi.org/10.1145/3689050.3705012
+[38] William Gaver. 2012. What should we expect from research through design?. In
+Proceedings of the SIGCHI Conference on Human Factors in Computing Systems .
+ACM, Austin Texas USA, 937–946. https://doi.org/10.1145/2207676.2208538
+[39] William Gaver, Peter Gall Krogh, Andy Boucher, and David Chatting. 2022.
+Emergence as a Feature of Practice-based Design Research. In Designing In-
+teractive Systems Conference . ACM, Virtual Event Australia, 517–526. https:
+//doi.org/10.1145/3532106.3533524
+175
+Designing Biotopia DIS ’25, July 05–09, 2025, Funchal, Portugal
+[40] Kynan Gentry and Laurajane Smith. 2019. Critical heritage studies and the
+legacies of the late-twentieth century heritage canon. International Journal of
+Heritage Studies 25, 11 (Nov. 2019), 1148–1168. https://doi.org/10.1080/13527258.
+2019.1570964
+[41] Elisa Giaccardi, Johan Redström, and Iohanna Nicenboim. 2024. The making(s)
+of more-than-human design: introduction to the special issue on more-than-
+human design and HCI. Human–Computer Interaction (May 2024), 1–16. https:
+//doi.org/10.1080/07370024.2024.2353357
+[42] Mathilde Gouin, Nuno Nunes, and Valentina Nisi. 2025. Critter Connect, wearable
+design for place-based & multisensory species encounters. In Proceedings of
+the 2025 ACM Designing Interactive Systems Conference . ACM Press, Funchal.
+https://doi.org/10.1145/3715336.3735426
+[43] Richard A. Grusin (Ed.). 2015. The nonhuman turn . University of Minnesota
+Press, Minneapolis.
+[44] Donna Haraway. 2011. Speculative Fabulations for Technoculture’s Generations:
+Taking Care of Unexpected Country. Australian Humanities Review 50 (May
+2011). https://doi.org/10.22459/AHR.50.2011.06
+[45] Donna Jeanne Haraway. 2008. When species meet . Number 3 in Posthumanities.
+University of Minnesota Press, Minneapolis. OCLC: ocn156975211.
+[46] Rodney Harrison. 2013. Heritage: critical approaches (1. publ ed.). Routledge,
+London.
+[47] David C. Harvey. 2001. Heritage Pasts and Heritage Presents: temporality, mean-
+ing and the scope of heritage studies. International Journal of Heritage Studies 7,
+4 (Jan. 2001), 319–338. https://doi.org/10.1080/13581650120105534
+[48] Eva Hayward. 2008. More Lessons from a Starfish: Prefixial Flesh and Transspe-
+ciated Selves. WSQ: Women’s Studies Quarterly 36, 3-4 (Sept. 2008), 64–85.
+https://doi.org/10.1353/wsq.0.0099
+[49] Kristina Höök and Jonas Löwgren. 2021. Characterizing Interaction Design by
+Its Ideals: A Discipline in Transition. She Ji: The Journal of Design, Economics,
+and Innovation 7, 1 (2021), 24–40. https://doi.org/10.1016/j.sheji.2020.12.001
+[50] Lucija Ivsic, Nina Rajcic, Jon McCormack, and Vince Dziekan. 2021. The Art of
+Point Clouds: 3D LiDAR Scanning and Photogrammetry in Science & Art. In 10th
+International Conference on Digital and Interactive Arts . ACM, Aveiro, Portugal
+Portugal, 1–8. https://doi.org/10.1145/3483529.3483702
+[51] Henry Jenkins. 2003. Transmedia Storytelling - Technology Review. Tech-
+nology Review (2003). https://www.technologyreview.com/2003/01/15/234540/
+transmedia-storytelling/
+[52] Henry Jenkins. 2006. Convergence culture: where old and new media collide . New
+York University Press, New York and London.
+[53] Marcel Karnapke and Frederick Baker. 2018. Digital Heritage and 3D Printing:
+Trans-media Analysis and the Display of Prehistoric Rock Art from Valcamonica.
+InDigital Cultural Heritage , Marinos Ioannides (Ed.). Vol. 10605. Springer Interna-
+tional Publishing, Cham, 227–238. https://doi.org/10.1007/978-3-319-75826-8_19
+Series Title: Lecture Notes in Computer Science.
+[54] Peter Gall Krogh and Ilpo Koskinen. 2020. Drifting by Intention . Springer Cham.
+https://doi.org/10.1007/978-3-030-37896-7
+[55] Lenneke Kuijer and Elisa Giaccardi. 2018. Co-performance: Conceptualizing the
+Role of Artificial Agency in the Design of Everyday Life. In Proceedings of the
+2018 CHI Conference on Human Factors in Computing Systems . ACM, Montreal
+QC Canada, 1–13. https://doi.org/10.1145/3173574.3173699
+[56] Makayla Lewis, Miriam Sturdee, Jason Alexander, Jelle Van Dijk, Ma-
+jken Kirkegård Rasmussen, and Thuong Hoang. 2017-06-10. SketchingDIS: Hand-
+drawn Sketching in HCI. In Proceedings of the 2017 ACM Conference Companion
+Publication on Designing Interactive Systems (Edinburgh United Kingdom). ACM,
+356–359. https://doi.org/10.1145/3064857.3064863
+[57] Joseph Lindley, Jesse Benjamin, David Green, Glenn McGarry, Franziska Pilling,
+Laura Dudek, Andy Crabtree, and Paul Coulton. 2023. Productive Oscillation
+as a strategy for doing more-than-human design research. Human–Computer
+Interaction (Nov. 2023), 1–26. https://doi.org/10.1080/07370024.2023.2276393
+[58] Szu-Yu (Cyn) Liu, Jeffrey Bardzell, and Shaowen Bardzell. 2019-03-17. Decomposi-
+tion as Design: Co-Creating (with) Natureculture. In Proceedings of the Thirteenth
+International Conference on Tangible, Embedded, and Embodied Interaction (Tempe
+Arizona USA). ACM, 605–614. https://doi.org/10.1145/3294109.3295653
+[59] Szu-Yu (Cyn) Liu, Shaowen Bardzell, and Jeffrey Bardzell. 2019. Symbiotic Encoun-
+ters: HCI and Sustainable Agriculture. In Proceedings of the 2019 CHI Conference
+on Human Factors in Computing Systems . ACM, Glasgow Scotland Uk, 1–13.
+https://doi.org/10.1145/3290605.3300547
+[60] Szu-Yu (Cyn) Liu, Jen Liu, Kristin Dew, Patrycja Zdziarska, Maya Livio, and
+Shaowen Bardzell. 2019. Exploring Noticing as Method in Design Research. In
+Companion Publication of the 2019 on Designing Interactive Systems Conference
+2019 Companion . ACM, San Diego CA USA, 377–380. https://doi.org/10.1145/
+3301019.3319995
+[61] Sónia Matos and Daniel Sousa. 2022. Tree Box: Designing embedded and em-
+bodied interaction for contemplative experiences in nature-rich environments.
+https://doi.org/10.21606/drs.2022.675
+[62] Jeremy Mendes and Leanne Allison. 2017. Bear 71. https://bear71vr.nfb.ca/
+[63] Timothy Morton. 2016. Dark ecology: for a logic of future coexistence . Columbia
+University Press, New York.[64] Mackenzie Muir, Cael Aidin Gallagher, David Conroy, Ross Andrew Brown,
+Christoph Eckart Schrank, and Selen Türkay. 2022. Development of an Immersive
+Visualisation System for the 3D Learning of Complex Rock Structures. In Pro-
+ceedings of the 34th Australian Conference on Human-Computer Interaction . ACM,
+Canberra ACT Australia, 248–253. https://doi.org/10.1145/3572921.3572939
+[65] Iohanna Nicenboim, Elisa Giaccardi, Marie Louise Juul Søndergaard, Anu-
+radha Venugopal Reddy, Yolande Strengers, James Pierce, and Johan Redström.
+2020. More-Than-Human Design and AI: In Conversation with Agents. In Com-
+panion Publication of the 2020 ACM Designing Interactive Systems Conference . ACM,
+Eindhoven Netherlands, 397–400. https://doi.org/10.1145/3393914.3395912
+[66] Iohanna Nicenboim, Doenja Oogjes, Heidi Biggs, and Seowoo Nam. 2023. Decen-
+tering Through Design: Bridging Posthuman Theory with More-than-Human
+Design Practices. Human–Computer Interaction (Nov. 2023), 1–26. https:
+//doi.org/10.1080/07370024.2023.2283535
+[67] Elizabeth K. Nisbet, John M. Zelenski, and Steven A. Murphy. 2009-09. The
+Nature Relatedness Scale: Linking Individuals’ Connection With Nature to Envi-
+ronmental Concern and Behavior. 41, 5 (2009-09), 715–740. https://doi.org/10.
+1177/0013916508318748
+[68] Valentina Nisi, Paulo Bala, Vanessa Cesário, Stuart James, Alessio Del Bue, and
+Nuno Jardim Nunes. 2023. "Connected to the people": Social Inclusion & Cohesion
+in Action through a Cultural Heritage Digital Tool. Proceedings of the ACM on
+Human-Computer Interaction 7, CSCW2 (Sept. 2023), 1–37. https://doi.org/10.
+1145/3610168
+[69] Charlotte Nordmoen and Andrew P. McPherson. 2023. What the Sensor Knows:
+More-Than-Human Knowledge Co-Production in Wood Carving. In Proceedings
+of the 2023 ACM Designing Interactive Systems Conference . ACM, Pittsburgh PA
+USA, 779–789. https://doi.org/10.1145/3563657.3596075
+[70] Kenneth Olwig and David Lowenthal (Eds.). 2015. The nature of cultural heritage
+and the culture of natural heritage: northern perspectives on a contested patrimony .
+Routledge, London New York.
+[71] Doenja Oogjes and Ron Wakkary. 2022. Weaving Stories: Toward Repertoires for
+Designing Things. In CHI Conference on Human Factors in Computing Systems .
+ACM, New Orleans LA USA, 1–21. https://doi.org/10.1145/3491102.3501901
+[72] Joana Pestana and Mariana Pestana. 2023. EdenX. https://edenx.pt/
+[73] Þóra Pétursdóttir. 2013. Concrete matters: Ruins of modernity and the things
+called heritage. Journal of Social Archaeology 13, 1 (Feb. 2013), 31–53. https:
+//doi.org/10.1177/1469605312456342
+[74] Johan Redström and Heather Wiltse. 2019. Changing things: the future of objects
+in a digital world . Bloomsbury Visual Arts, London New York Oxford New Delhi
+Sydney.
+[75] Shannon Rodgers, Bernd Ploderer, Kellie Vella, and Margot Brereton. 2022. Phe-
+nology Probes: Exploring Human-Nature Relations for Designing Sustainable
+Futures. In Proceedings of the 34th Australian Conference on Human-Computer
+Interaction . ACM, Canberra ACT Australia, 216–228. https://doi.org/10.1145/
+3572921.3572936
+[76] Donald A. Schön. 2017-03-02. The Reflective Practitioner (0 ed.). Routledge.
+https://doi.org/10.4324/9781315237473
+[77] Alexandra Silva, Rosalina Gabriel, Ana Arroz, Daniel Sousa, Flora Piasentin,
+Isabel Rosário, and Sónia Matos. 2022. Ask a Scientist : using place-based mobile
+learning to promote adolescents’ interest in nature. Universidade do Algarve.
+https://doi.org/10.34623/mt6n-ef36
+[78] Laurajane Smith. 2006. Uses of Heritage (1 ed.). Routledge. https://doi.org/10.
+4324/9780203602263
+[79] Colin Sterling. 2020. Critical heritage and the posthumanities: problems and
+prospects. International Journal of Heritage Studies 26, 11 (Nov. 2020), 1029–1046.
+https://doi.org/10.1080/13527258.2020.1715464
+[80] Colin Sterling and Jamie Larkin. 2021. Towards reparative museology. Museums
+& Social Issues 15, 1-2 (July 2021), 1–3. https://doi.org/10.1080/15596893.2021.
+2151728
+[81] Miriam Sturdee and Joseph Lindley. 2019-11-19. Sketching & Drawing as Future
+Inquiry in HCI. In Proceedings of the Halfway to the Future Symposium 2019
+(Nottingham United Kingdom). ACM, 1–10. https://doi.org/10.1145/3363384.
+3363402
+[82] Anna Tsing. 2012. Unruly Edges: Mushrooms as Companion Species. Environ-
+mental Humanities 1, 1 (May 2012), 141–154. https://doi.org/10.1215/22011919-
+3610012
+[83] Jasmine B. Ulmer. 2017. Posthumanism as research methodology: inquiry in the
+Anthropocene. International Journal of Qualitative Studies in Education 30, 9 (Oct.
+2017), 832–848. https://doi.org/10.1080/09518398.2017.1336806
+[84] Ronald Wakkary. 2021. Things we could design: for more than human-centered
+worlds . The MIT Press, Cambridge, Massachusetts.
+[85] Ron Wakkary, Doenja Oogjes, Sabrina Hauser, Henry Lin, Cheng Cao, Leo Ma, and
+Tijs Duel. 2017. Morse Things: A Design Inquiry into the Gap Between Things and
+Us. In Proceedings of the 2017 Conference on Designing Interactive Systems . ACM,
+Edinburgh United Kingdom, 503–514. https://doi.org/10.1145/3064663.3064734
+[86] Sarah Webber, Ryan M. Kelly, Greg Wadley, and Wally Smith. 2023. Engaging with
+Nature through Technology: A Scoping Review of HCI Research. In Proceedings of
+the 2023 CHI Conference on Human Factors in Computing Systems . ACM, Hamburg
+176
+DIS ’25, July 05–09, 2025, Funchal, Portugal Ferreira, et al.
+Germany, 1–18. https://doi.org/10.1145/3544548.3581534
+[87] Sarah Webber, Jessica Oliver, Wally Smith, Julia Hoy, Kellie Vella, Margot Brereton,
+Helena Bender, Alasdair Davies, and Kate Judith. 2021. Digital Technologies in
+Nature. In Eight International Conference on Animal-Computer Interaction . ACM,
+Bloomington IN USA, 1–7. https://doi.org/10.1145/3493842.3493885
+[88] John Zimmerman, Jodi Forlizzi, and Shelley Evenson. 2007. Research through
+design as a method for interaction design research in HCI. In Proceedings of theSIGCHI Conference on Human Factors in Computing Systems - CHI ’07 . ACM Press,
+San Jose, California, USA, 493–502. https://doi.org/10.1145/1240624.1240704
+[89] Matthew J. Zylstra, Andrew T. Knight, Karen J. Esler, and Lesley L. L. Le Grange.
+2014-12. Connectedness as a Core Conservation Concern: An Interdisciplinary
+Review of Theory and a Call for Practice. 2, 1 (2014-12), 119–143. https://doi.
+org/10.1007/s40362-014-0021-3
+177

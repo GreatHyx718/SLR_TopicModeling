@@ -1,0 +1,397 @@
+A Research Ensemble of Humans, Machines, and Algorithms:
+Future Designs of Research and Scholarly Communication
+Michael J Salvo
+Purdue University
+USA
+salvo@purdue.eduJohn T Sherrill
+Independent Scholar
+USA
+jtsherri.g@gmail.com
+Abstract
+BillHart-Davidson’s“WritingwithRobots”[ 1]describescurrent
+practicesofcreatingaugmentedresearchandwritingteamsthat
+includerobots,algorithms,andothermachinepartnerswiththeir
+human collaborators in designed space. In writing about emergent
+workplace practices in high technology environments, we (authors
+Michael and John) created a team of researchers, undergraduate
+research interns, and robot assistants to create the forthcoming
+book Artificial Infrastructures. In preparing the book, we used
+Otter.ai [2] to transcribe interviews with three working profession-
+als. Theseroughtranscriptions,producedbyalgorithmicassistants,
+saved the team important resources, namely time, money, and
+attention. TranscriptiontoolslikeOtter.aiquicklycreatetranslit-
+eratedtexts—word-for-wordtranscriptsofspokenspeech. Inour
+ensemble, transcriptions were then edited by undergraduate re-
+searchers trained using Weiss’s Learning From Strangers [ 3] as
+well as practice editing transcripts of other recordings of subject
+matter experts. The core finding was that we, as researchers, were
+abletoconcentrateonwritingouranalysesandorganizingbook
+contentswhileourundergraduateteammembersremainedfocused
+and more productive than previous teams working without ad-
+vancedartificial intelligence(AI)tools. Overall,it wasa productive
+and enjoyable research process with less frustration and tedious,
+repetitious work, leading to more productive engagement. Our
+initialfindingssuggestthataslongasresearchersretaintheirau-
+tonomyinestablishingthestudyagenda,andSMEsareinformed
+how AI tools are going to be used, research can be streamlined
+and made more productive. We are realizing the Human-Centered
+ArtificialIntelligence(HCAI)outlinedinShneiderman[ 4]inwhich
+AI becomes a “superpower.” This experience report describes how
+AI tools, such as Otter.ai’s transcription service, played a role in
+our research ensemble for creating our forthcoming book Artificial
+Infrastructures. Itoutlinestheresearchteamstructure,useofAI
+tools, and the interplay between human and algorithmic agents to
+createaresearchensemblethatgesturestowardsafutureforthe
+design of communication.
+This work is licensed under a Creative Commons Attribution-NonCommercial
+International 4.0 License.
+SIGDOC ’24, October 20–22, 2024, Fairfax, VA, USA
+© 2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0519-9/24/10
+https://doi.org/10.1145/3641237.3691666CCS Concepts
+•Human-centered computing !Human computer interaction
+(HCI);HCItheory,conceptsandmodels;• Computingmethodolo-
+gies!Artificialintelligence;Planningandscheduling;Multi-agent
+planning.
+Keywords
+ArtificialIntelligence,AIAgents,Infrastructure,Assemblage,En-
+semble, HCAI
+ACM Reference Format:
+Michael J Salvo and John T Sherrill. 2024. A Research Ensemble of Hu-
+mans,Machines,andAlgorithms: FutureDesignsofResearchandScholarly
+Communication. In The 42nd ACM International Conference on Design of
+Communication (SIGDOC ’24), October 20–22, 2024, Fairfax, VA, USA. ACM,
+New York, NY, USA, 4 pages. https://doi.org/10.1145/3641237.3691666
+1 Ensemble, Assemblage, Collaboration
+Shneiderman’s Human-Centered Artificial Intelligence [4],Weiss’s
+Learning From Strangers [3],andOtter.ai’stranscriptiontechnology
+are all important actors in the research collaborative at the cen-
+terofthisstudy. Humanparticipantsincludeaseniorresearcher
+(Michael), newer faculty researcher (John), and a team of six un-
+dergraduate students who, assisted by artificial intelligence (AI)
+technologies,producedareadabletextinfarlesstimethanitwould
+havewithoutthesupportofAItechnologies. Oneoftheseunder-
+graduateresearchinterns(Teah)distinguishedherselfbybecoming
+a capable leader, and developed workflows for representing the
+visual content of video interviews (see section 2, Exemplar node ,
+for more).
+ArtificialInfrastructures isaforthcomingbookthatarticulatesthe
+emergent roles of AI specifically in high technology environments,
+with an eye towards the concerns of technical and professional
+writingexpertsandwritinginstructors,accessibletoreaderswith
+awiderangeoffamiliaritywithAItechnology. Thebookaddresses
+thequestionsof What now? Inanagewhenartificialagentsdraft
+text and respond to requests for unique prose. We are mindful
+that by the time this text is published, the capabilities and even the
+namesofthetechnologiesreferencedwilllikelyhavechanged, and
+mayhavecycledthroughmorethan oneor twogenerations, leav-
+ing the technologies more capable and evenmore discomfortingly
+uncanny. Yetundeniablyartificial. Artificial Infrastructures devel-
+opsadurableargumentaboutthenatureoftechnology,ensuringit
+lasts longer than the current generation of AI tools.
+Aresearchensembleis anassemblage. Wetendtoconcentrate
+on the tools, the machines, the technologies, and even have a term
+to describe excessive emphasis on the technologies over the hu-
+man participants in research networks: technological determinism.
+178
+
+SIGDOC ’24, October 20–22, 2024, Fairfax, VA, USA Michael Salvoand John Sherrill
+Technological determinism tends to erase human agency while
+ascribinghumancharacteristicstoartifacts: ananthropomorphic
+transformation that erases human activity. But it’s important to
+remember that the assemblage doesn’t work without its people
+andweassertinsteadahuman-centereddescriptionofaresearch
+network. Theresearchensembleisanassemblage,ofhumans,their
+technological tools, and the impacts of place, of context, on the
+functioning of the human and algorithmic nodes in the network.
+Collaborationinaresearchensembletranscendstechnological
+interaction, embodying a complex interplay among elements of
+human creativity, technological tools, and contextual influences.
+This ensemble approach emphasizes the symbiotic relationship be-
+tweenresearchersandtheirtools,advocatingforahuman-centered
+framework that acknowledges the indispensable role of human
+agencywithinthenetwork. Eachparticipant,whetherhumanor
+algorithmic,contributesuniquelytotheresearchprocess,fostering
+anenvironmentwhereinnovationthrives. Thiscollectiveendeavor
+mitigates the risks of technological determinism and enhances the
+richness and depth of scholarly inquiry. By integrating diverse
+perspectives and capabilities, the research ensemble cultivates a
+dynamic, adaptive, and resilient research ecosystem, capable of
+evolvingalongsidetheverytechnologiesitscrutinizes. Thus,the
+collaborative nature of a research ensemble ensures that human
+insight remains at the forefront of technological advancement, fos-
+tering a holistic understanding of networks containing human and
+artificial nodes.
+SomuchoftheconcernaroundAIisaboutthereplacementof
+peoplewithautomatedmachines. Advocatingforaparticipatory
+approachtointegratingrobotsintoindustrialprocess,TomSorell
+argued in his Ethics and Information Technology article that “To
+the extent that work contributes to human well-being (Arneson,
+1990), the replacement of human beings in industrial processes
+mayberecognisedbymanagersassomethingtobeavoided”[ 5].
+Thereareunethicalwaystousetechnologies,includingdisplace-
+ment of human labor, but as Shneiderman [ 4] reminds us, effective
+user-centereddeploymentofAI givespeoplewhatamountsto,in
+hispowerfulphrase, superpowers . Itdoesn’ttakethenecessityof
+workawaybutmultiplieshumaneffortandrefocuseshumanatten-
+tiononnovelandchallengingwork,withthepotentialtoreduce
+repetitionanddrudgery. AItoolschangelabor,andSorellacknowl-
+edges that participatory approaches cannot always prevent worker
+replacement. But changes in labor are not technologically deter-
+mined. Used ethically, artificial agents become powerful assistants,
+improving potential enjoyment. Artificially intelligent tools do not
+displacehumansnormakeusunemployedontheirown. Unethical
+labor practices do.
+We do not aim to dismiss concerns regarding replacement of
+human labor, but rather emphasize that it is not an inevitable or
+“natural” outcome of automation. Administrators choose how they
+involve employees in decision-making about AI’s impact. This
+decision-making process is crucial for ensuring ethical integration
+of AI technologies in the workplace, much like in the classroom.
+Towards that end, Alan M. Knowles, in “Machine-in-the-loop writ-
+ing,”discussestheconceptof load sharing theory [6]. Heexplains
+that“thegoalofmostHRI[human-robotinteraction]researchinto
+load sharing is to evaluate ‘the quality of human-robot interaction
+and collaboration by examining the acceptability of the frameworkby human volunteers.”’ This framing emphasizes the impact on
+humansratherthansolelyfocusingonproductivity. Extendingthis
+further,Knowlesprovidesa frameworkforevaluatingthe ethical-
+ity of “machine-in-the-loop” writing processes that students use
+when collaborating with LLMswithin writing classrooms. Techni-
+calcommunicationinstructorsexpectstudentstomakeethically
+responsibledecisionsabouthowtheyintegrateAIintotheirwriting
+workflows. Wesharethat expectation for administrators.
+Wemustrememberthatweareassemblingafunctionalworking
+collective, facilitated by people, withtechnologies serving asthe
+glue. These technologies don’t deliver content; rather, communi-
+cationdesigners relyon their ensemble’seffectiveness. Obscuring
+technology’shumanoriginsoccludesissuesofpower—makingit
+difficulttounravelthedynamicsthatmakepeoplefeelsubjected
+totechnology—insteadofrecognizingoppressionashumanssub-
+jugating other humans, it becomes easier to ascribe motives to
+technological artifacts.
+Our ensemble consists of researchers, one Senior, one Junior,
+and six undergraduate students connected together in the desire to
+create a book that records the experiences of three working pro-
+fessionals, who have integrated AI technologies into their work to
+differentdegreesoverlongspansoftime. Whattheseprofessionals
+are concerned about is efficiency and time saving andcreating
+opportunities for people to do fulfilling work that meets both eco-
+nomic and workflow needs. In Knowles’ terminology, our aim was
+tocreateamachine-in-the-loopensembleinordertoeffectivelyde-
+scribe innovative workplaces. These tools enabled working groups
+tomeettherequirementsoftheirorganizationsaswellasthepeople
+working in these groups. Perhaps this has to do with our selection
+of participants and their institutional roles, but none of them ex-
+pressed concerns about what so many of our colleagues seem to
+beworriedabout: replacementbytechnologyordisplacementby
+work speedup.
+Ourresearchensemblefunctionswellbecausewesharecommon
+goals: making the wordsofexperienced professionalsaccessible,
+durable, and meaningful to readers. We knew that three hour-long
+interviews—three hours of transcripts—would be prohibitively ex-
+pensive to have transcribed professionally. We understood from
+thestartthatwewouldnotbeabletocreatehighqualitytranscripts
+through a professional service. Otter.ai was one tool that could
+easilybeincorporatedwithintheassemblagethatmadethetran-
+scription process not only timely, but affordable. For a nominal
+annualsubscription,wequicklyobtainedreasonablepreliminary
+transcriptions.
+Important to the ensemble is the growing expertise of the six
+undergraduateresearchinterns. Theirworkwasintrinsicinturning
+literal transcriptions of speech into readable prose. One other
+technology in our assemblage is Weiss’s 1995 book Learning From
+Strangers [3]. Weiss’sisthebestsourceweknowforturningoral
+transcriptsintoreadabletranscriptionsofinterviews. Weiss’swork
+humanely massages spoken words of research participants into
+prosethatistruetothespiritofwhatpeoplemeant. Weissacted
+as our guide for translating spoken word to formal written English,
+a remediation of spoken speech into electronic text, and eventually
+into formal printed text.
+Whenwewrite about creatinga researchensemble,wearecre-
+atinganassemblage,acommunity,agroupofpeoplededicatedtoa
+179
+A Research Ensemble of Humans, Machines, and Algorithms: FutureDesigns of Researchand Scholarly Communication SIGDOC ’24, October 20–22, 2024, Fairfax, VA,USA
+goal. Hunter[ 7]recentlyrevisitedAssemblagetheory,placingitin
+thecategoryofpost-humanrhetoricforUXliterature. Hunterlinks
+assemblage to Latour’s Actor-Network theory, indicating the inter-
+relationshipofnetworkmetaphorsindescriptionsofhumanand
+artificialcollaboratorsasnormalizedelementsofsymbolic-analytic
+work.
+For the time that we, humans and machines, work together, our
+ensembleconcentratesonthesamegoalofproducingameaning-
+ful transcript of expert interviews. The language the team used
+to describe its work— concentration ,goal,meaningful ,collabora-
+tion—reflect human valuations that are incomprehensible to the
+artificial agents. However much they multiply our productivity
+whenengaged,algorithmsareinertwhenhumansarenotdirect-
+ingactioninthenetwork. Evenautonomousagents,engagingin
+programmedaction,areonlycapableoffunctionsdeterminedby
+initialhumaninstruction. Eventhoseagentsenabledwithmachine-
+learning are limited by the vision of their human creators.
+The tools and the connections that we make in building our
+community of researchers becomes an important means of un-
+derstanding the contributions of AI and how these programmed
+agents support processes wealready know and use well. These as-
+semblages, these groups, experience frustration and face problems
+precisely at thosemoments wherecommunication vacillates. And
+that communication can falter for any number of reasons.
+2 Exemplar Node: Teah
+Assemblageisthecollectionofpeopleandtechnologiesinparticular
+places; we emphasize the importance of the peoplein the assem-
+blage. Teah(oneoftheundergraduateresearchers)emergedasa
+leader. Quickly, Michael and John were able to give Teah complex
+tasks. AnAItoolcannotachieveleadership. ButasTeahwassched-
+uling group meetings, planning meeting agendas, and breaking
+down complextasks into smaller duties and assigning them to the
+appropriateinterns,shewasalsoworkingwithAI-enhancedimage
+tools. JohnandMichaelaskedhertocreatecamera-readyscreen
+captures—still images—fromthree minute selections of video (see
+Figure 1). Our interviewsubject shared livevideo of AI-enhanced
+workingprocesseswithdetailedlivescreencaptures. Inanhour-
+long interview, we aimed to capture the essence of 5 or 6 mo-
+ments. We were translating complex thoughts into meaningful
+procedures—standard technical communication tasks—for exam-
+ple,translatingminutes13through16intoasinglescreenshotto
+includeasacamera-readyillustration. Thechallengerequiredcom-
+plextechnorhetoricalwork: tryingtotranslatevideoandvoiceinto
+ameaningfulstillimagepresentedavisualrhetoricalchallenge. As
+partoftheprocess,TeahaskedAI-enhancedimagecreationtoolsto
+generatenumerousversionsofelementsoftheimageshewanted.
+None met our exact needs, but having multiple images allowed
+her to focus on one or two stronger versions to further alter and
+manipulate in illustration software. Teah leveraged the affordance
+ofgenerativeAI:automaticallygeneratingvariedpossibilitiesfaster
+than a human could render 10 distinct draft images. The AI did not
+replacethehumanlaborofstructuringaninterview,deliveringa
+screencast, or refining an idea, but offset the labor of searching for
+sampleimagesandtemplatesorcrowdsourcingmock-updesigns.
+Figure 1: Example of Teah’s mock-up image illustrating 3
+minutes’ worth of video from interview.
+UsingKnowles’spectrumofhuman-in-the-loopandmachine-in-
+the-loopwriting,wesituateTeah’sworkasmachine-in-the-loop.
+Sheleveragedautomatedtoolstosummarizehuman-authoredin-
+formationandgeneratecondensedoutput,selectivelyintegrating
+that output into deliverables as she decided was rhetorically ap-
+propriate. Revising the AI-generated output into a usable form
+required rhetorical knowledge and technical skills.
+Teah did not merely proofread what the AI produced, she de-
+veloped a visual language for representing the video content in
+still images. Teah did not use the AI output as the printed image
+here,butthe AI assistedher by generatingmultiple options. Teah
+quicklysortedthroughalternativestosettleonavisuallanguage
+without significant time or resource expenditure. One of our inter-
+viewsubjectsdescribedhowtheirteamusedAItogenerate12or
+20differentmock-upsforprojects. Theycouldneveraffordtohave
+aprofessionalillustratorcreatethatmanybrainstormedsamplesto
+workwith,mostofwhichwouldbeimmediatelyeliminated. And
+noneofthesampleswouldbecometheworkingdraft—allplayed
+a role in prompting visual conversations and moving the project
+forward. By using the AI tool, her team and ours generated nu-
+merous different “good enough” images that served the purpose
+oftheteam—inspiringfurthercommunicationanddesign. TheAI
+tools did not replace the work of collaborative brainstorming or
+development. Teah, as the human in this loop, “retain[ed] majority
+of the rhetorical load,” and used AI tools as important assistants (p.
+8) [6].
+For the purpose of our assemblage, AI was an assistant in differ-
+entforms. Itwasatimeandmoneysaver. Asmentioned,transcrip-
+tionserviceswouldbeprohibitivelyexpensiveforthreeone-hour
+interviews,rangingfrom$0.25to$0.90perminute. Ottercost$0.01
+per minute, or $0.42 per hour(at the $8.33/month tier). Many tran-
+scription services now use AI for initial transcriptions and add a
+nominalfee(e.g.,$0.10perminute)forhumanproofreading,aneth-
+icallyfraught exampleofhuman-in-the-loopwriting. Using Otter,
+transcribinganhour-longinterviewbecameanafternoontaskof
+editing,rather thanan all-dayproject. Incomparison, purchasing
+Express Scribe Pro and a transcription foot pedal costs about $144.
+180
+SIGDOC ’24, October 20–22, 2024, Fairfax, VA, USA Michael Salvoand John Sherrill
+For the $8.33 cost of a one-month Otter.ai subscription, one would
+needtomanuallytranscribe12hoursdailyforamonthtojustify
+the cost of transcription software and equipment.
+Though the economic affordances and impact of AI in this in-
+stanceareremarkable,automatedtranscriptionhasconsiderable
+limitations. Before integrating Otter into our research workflow,
+we carefully considered our use cases. Each interview involved
+onlythreesimultaneousspeakers. AllparticipantsspokeEnglishas
+theirfirstlanguage,withMidwesternaccents—privilegeddefaults
+embeddedintrainingdata. TheIRBdeterminedthatourinterviews
+posedminimal risk. Weinterviewed industryexperts aboutinfor-
+mation that was neither proprietary nor confidential, and in many
+cases already publically documented. We disclosed to participants
+that interviews would be recorded and transcribed via Otter.ai and
+that we would invite participant feedback on drafts. Ultimately,
+Otter was viable because our interviews fit the use cases Otter’s
+programmersenvisioned,andwerenothighlyconfidential(though
+alternativessuchasWhisperAI,designedtominimizeprivacyrisks,
+exist). Otter’s output was useful, but still required considerable
+human editing to textually represent spoken conversations.
+Otterperformedtheinitialtransliteration,andthentheunder-
+graduate students learned to transform that raw transcript into
+readableprose. Itwasanimportantskillforthestudentstolearn
+and focused their attention on the rhetorical elements of what
+wouldotherwisebearoutinetask. Studentsfinishedtheirintern-
+ship expressing great satisfaction with their participation in the
+group. TheseactivitiesallowedTeahtoemergeasaleaderandto
+fulfill the requirements of her credit-bearing internship. Teah, as a
+member of the ensemble, translated an interview subject’s show
+andtellfromlivescreencasttosimplifiedstillimagesappropriate
+for book presentation over just a few weeks.
+Overayear’sinternship,Teahtooktheinitiativeatdifferentmo-
+ments,bringingussamplesanddescribingherAI-assistedworkflow.
+TeahexplainedthattheAI-assistedworkflowhelpedherquickly
+andeasilytranslatecomplexproceduralinformationintosample
+images while removingany identifying corporate information, a
+process she termed “genericizing.” The assemblage focused on the
+people in communication, supported at different points by AI tools.
+Thesetoolsenabledustofocusonkeepingourresearchassemblage
+functional, efficient, and effective.
+3 Conclusion: AI Assemblages
+This research report emphasizes the impact of integrating AI tools
+within research teams. By detailing the collaborative process in-
+volved in producing the forthcoming book Artificial Infrastructures ,
+thisreportshowcaseshowAIcanstreamlineandenhanceresearch
+efforts. Using Otter.ai for transcription, coupled with the grow-
+ing human expertise of undergraduate researchers, exemplifies
+a productive synergy between human and machine intelligence.
+This collaboration facilitated a more efficient research workflow
+while maintaining researchers’ autonomy. The article illustrates
+theimplementationofAItechnologieslikeOtter.aiinsupporting
+Shneiderman’s vision of Human-Centered Artificial Intelligence
+(HCAI),whereAIamplifiesratherthanreplacinghumancapabili-
+ties. By embracing these advancements, research ensembles canconcentrate on higher-order tasks, fostering innovation and allevi-
+atingtheburdenofrepetitiveactivities. Furthermore,integrating
+network theory underscores the interconnectedness of human and
+algorithmic agents in the research process.
+Latour’sActor-NetworkTheory(ANT)andKnowles’Machine-
+in-the-loop (MITL) highlights the various nodes in this network:
+seniorresearchers,newerfaculty,undergraduatestudents,AItools,
+andcontextualinfluences. Eachnodeplaysacrucialrole,empha-
+sizing the distributed agency and collaborative nature essential for
+advancing research. This report serves as an example of emerging
+practices for technologically-enhanced research communication,
+advocatingforafuturewherehumanintellectandAIcollaborate
+to advance knowledge and discovery.
+Acknowledgments
+MichaelandJohnacknowledgethededication,hardwork,andgood
+humor of Teah Goode, Carissa Bauerband, Jeffrey Chen, Ean Hunt,
+Eva Voelker, and Nina Taylor: good humans all.
+References
+[1]W. Hart-Davidson, “Writing with Robots and other Curiosities of the Age of
+Machine Rhetorics,” in The Routledge Handbook of Digital Writing and Rhetoric ,
+Routledge,2018.
+[2]“Otter.ai - AI Meeting Note Taker & Real-time AI Transcription.” Accessed: May
+23, 2024. [Online].Available: https://otter.ai/
+[3]R.S.Weiss, Learning From Strangers: The Art and Method of Qualitative Interview
+Studies. New York: Free Press,1995.
+[4]B. Shneiderman, Human-Centered AI . Oxford, New York: Oxford University Press,
+2022.
+[5]T.Sorell,“Cobots,‘co-operation’andthereplacementofhumanskill,” Ethics Inf
+Technol, vol. 24, no. 4, p. 44, Oct. 2022, doi: 10.1007/s10676-022-09667-6.
+[6]A. M. Knowles, “Machine-in-the-loop writing: Optimizing the rhetorical load,”
+Computers and Composition , vol. 71, p. 102826, Mar. 2024, doi: 10.1016/j.comp-
+com.2024.102826.
+[7]P.T.Hunter,“TowardTPC-UX:UXTopicsinTPCJournals2013–2022,” Journal
+of Technical Writing and Communication ,p.00472816231191998,Aug.2023,doi:
+10.1177/00472816231191998.
+181

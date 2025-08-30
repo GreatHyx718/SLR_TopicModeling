@@ -1,0 +1,828 @@
+Exploring opportunities for language
+immersion in the posthuman
+spectrum: lessons learned from
+digital agents
+Heather Lotherington
+Faculty of Education, York University, Toronto, Canada
+Mark Pegrum
+The Graduate School of Education, University of Western Australia,
+Perth, Australia
+Kurt Thumlert
+Faculty of Education, York University, Toronto, Canada
+Brittany Tomin
+Faculty of Education, University of Regina, Regina, Canada
+Taylor Boreland
+Digital Learning, eCampusOntario, Toronto, Canada, and
+Tanya Pobuda
+Creative Industries, Toronto Metropolitan University, Toronto, Canada
+Abstract
+Purpose –Technologically-enhanced language education has shifted from computer-assisted language
+learning (CALL) to mobile-assisted language learning (MALL), including the use of conversational digital
+agents, and more recently, towards the use of generative arti ﬁcial intelligence (AI) large language model
+(LLM) programmes for language learning purposes. This paper aims to explore the interplay between suchposthuman communication and posthumanist applied linguistics, and between digital agents and humanagency in response to the increasing permeation of AI in life and learning.
+Design/methodology/approach –A core team of four researchers investigated how digital agents could
+be leveraged to support immersive target language learning and practice, focusing speci ﬁcally on the
+© Heather Lotherington, Mark Pegrum, Kurt Thumlert, Brittany Tomin, Taylor Boreland and Tanya
+Pobuda. Published by Emerald Publishing Limited. This article is published under the Creative
+Commons Attribution (CC BY 4.0) license. Anyone may reproduce, distribute, translate and createderivative works of this article (for both commercial and non-commercial purposes), subject to full
+attribution to the original publication and authors. The full terms of this license may be seen at http://
+creativecommons.org/licences/by/4.0/legalcode
+The authors gratefully acknowledge the Social Sciences and Humanities Research Council of
+Canada for funding this research project and thank York University and The University of Western
+Australia for supporting the collaborations underpinning the data analysis and ﬁnal writing. The
+authors also acknowledge and thank for the helpful guidance of research collaborator, Professor BobHeller of Athabasca University on conversational digital agents.Interactive
+Technology and
+Smart Education
+Received15 February 2024
+Revised 13 June 2024
+Accepted24 June 2024
+Interactive Technology and Smart
+Education
+Emerald Publishing Limited
+1741-5659
+DOI 10.1108/ITSE-02-2024-0038The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/1741-5659.htm
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+conversational AI that pervaded digitally-mediated communication prior to the release of generative AI. Each
+researcher engaged in a digital autoethnography using conversational agents found in the digital wilds to learna target second language via digital immersion.
+Findings –Through qualitative data analysis of autoethnographic narratives using NVIVO, four key thematic
+codes characterizing the learning journeys emerged: context, language learning, posthuman engagement and
+technological parameters. The posthuman learning experiences con ﬂicted with the multisensory, embodied
+and embedded ethos of posthumanist applied linguistics, indicating that informed human pedagogical agencymust crucially be exercised to bene ﬁt from the learning potential of posthuman agents. Interactions with
+conversational agents did provide small-scale, just-in-time learning opportunities, but these fell short of
+immersive learning.
+Originality/value –The methodology and ﬁndings offer a unique and valuable lens on the language learning
+potential of emerging LLM-based generative agents that are rapidly infusing conversational practices.
+Keywords Artiﬁcial intelligence (AI), Conversational AI, Generative AI, Mobile-assisted language
+learning (MALL), Posthumanist applied linguistics
+Paper type Research paper
+1. Introduction
+Contemporary language learning is facing a number of linguistic, technological and
+pedagogical transformations. Firstly, language is changing thanks to digital mediation,global physical and digital mobility and the expansion of arti ﬁcial intelligence (AI). At the
+same time, our understanding of language is shifting towards a posthumanist perspective on
+communication that emphasizes the interconnectedness of humans, tools −including digital
+platforms −and environments (
+Pennycook, 2018 ). Secondly, technology is rapidly evolving,
+notably due to the rise of AI and its smart interfaces, making language-mediated programmesincreasingly available, convenient and ubiquitous. At the same time, awareness is dawningof the embeddedness of such technology, particularly resource-intensive AI, within capitalist
+proﬁt structures that mine users ’data while exploiting human labour and degrading
+biophysical environments ( Crawford, 2021 ). Thirdly, technologically-enhanced language
+education has shifted its emphasis from computer-assisted language learning (CALL) tomobile-assisted language learning (MALL), with a growing focus on the potential ofconversational digital agents, and more recently towards generative AI large language model(LLM) programmes, to mediate the everyday “digital wilds ”, which Sauro and Zourou
+(2019 , p. 2) describe as “digital spaces, communities, and networks that are independent of
+formal instructional contexts ”, that is, environments where learning, making and doing with
+digital media are not mediated –or“domesticated ”–by institutions, curricular purposes or
+the priorities and policies of educators or school boards, including the administration ofacceptable internet use within institutions.
+This article explores the potential for using a variety of conversational digital agents to
+support personal language learning journeys anchored in everyday environments; it is anexploration of the digital wilds using available digital tools. We queried whether the digital
+wilds could support an immersive experience parallel to cultural immersion. Given the
+notoriously behaviouristic designs of MALL, we were not searching for digital drills but forconversational learning opportunities: engaging posthumans agents towards humanlanguage learning.
+Following the wave of generative AI that ensued from the release of OpenAI ’s ChatGPT
+on 30 November 2022, the technology press has begun to distinguish betweenconversational AI, whose software bases were designed to provide help over limited
+conversational turns on smartphones (e.g. Apple ’s Siri) and smart speakers (e.g. Amazon ’s
+Alexa), and generative AI , LLMs that are trained on vast data sets of language in multipleITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+uses and designed to generate “novel ”content in response to user queries (e.g. OpenAI ’s
+GPT, Google ’s Gemini and Meta ’s LLaMA) (see Brown, 2023 ;Sridhar, 2023 ). ChatGPT [ 1],
+which caught the world ’s attention on its release, creates an interface which is both
+conversational and generative. Our research, conducted during the ﬁrst winter of the
+pandemic, focuses on what is currently conceived as conversational AI: conversational
+(digital) agents , and has implications for generative AI operating on conversational
+interfaces: generative (digital) agents. These digital interfaces fall within a spectrum of
+posthuman agents that draw on human data to act semi-autonomously within the
+posthumanist language landscape. Like other researchers working in this space (e.g. Jeon
+et al. , 2023 ), we ﬁnd there is much to be learned from conversational agents about rapidly
+evolving generative agents.
+Informed by Braidotti ’s (2019) foundational work on posthumanism, and grounded in
+Pennycook ’s (2018) theorizing of posthumanist applied linguistics, which suggests
+“important ways of thinking about language, the individual, context, cognition and
+communication that open up new avenues for research and education ”(p. 2), our inquiry
+asked the following research questions:
+RQ1. Can posthuman conversational agents support immersive language learning in the
+digital wilds?
+RQ2. How do posthuman conversational agents ﬁt within a posthumanist linguistic
+landscape?
+RQ3. Where does communicative agency lie in human interactions with posthuman
+conversational agents?
+Responding to these questions, we report on the autoethnographic journeys of four language
+learners in three languages (Portuguese, German and French) where learners explored theaffordances of various digital resources for target language practice, principally, Apple ’s Siri
+as an interlocutor, and non-player characters (NPCs) and in-game help resources in the
+massively multiplayer online role-playing game (MMORPG), Bloodstone . Our posthuman
+interactions were aided by supportive digital tools, including translation software.
+The research was conducted as part of a larger study that was reframed during Covid-19
+lockdowns in tune with the pivot from physical classrooms to digitally-mediated learning.The tools selected were socially pervasive conversational agents that we consulted in ourdaily digital lives: tools we saw as embedded in the digital wilds we inhabited. Our studyﬁndings illuminate potential language learning bene ﬁts and drawbacks with the selected
+digital agents.
+2. Literature review
+2.1 Changing language: towards a posthuman(ist) communication environment
+Language usage is changing with the growth of digital communications, particularly those
+associated with mobile devices, Web 2.0 and social media cultures of instantaneous,informal, multidirectional, multimodal sharing (
+Lotherington and Bradley, 2024 ;Pegrum,
+2019 ); the growth of human physical and digital mobility, enhancing the superdiversity of
+both local geographical spaces and online spaces, where languages, dialects and registersoverlap and interpenetrate ( Creese and Blackledge, 2018 ); and more recently, the growth of
+the AI-enabled Web 3.0 and conversational agents (e.g. Klopfenstein et al. , 2017 ;van Dis
+et al., 2023 ).Interactive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+The way we understand and frame language(s) is also changing, which ﬁnds its clearest
+expression in posthumanist applied linguistics (Pennycook, 2018 ). Building upon a
+succession of social and critical turns in applied linguistics, posthumanist applied linguisticscan be seen as elemental to posthumanist philosophy, which seeks to move beyond the
+limitations of European subject-centred humanism and anthropocentrism ( Braidotti, 2019 ).
+In posthumanist applied linguistics ( Pennycook, 2018 ), communication is viewed as social,
+translingual, multimodal and multisensory, and distributed across people, objects, spaces,times and linguacultural traditions ( Pegrum, 2019 ), while humans are seen as closely
+connected with other people, life forms and the environment ( Kukulska-Hulme et al. , 2020 ).
+Note that posthumanist, describing current language usage, is distinct from posthuman,
+describing conversational and generative AI agents, though these developments are
+contemporaneous.
+2.2 Changing technology: towards posthuman(ist) interactions
+The past decades have borne witness to rapidly morphing hardware and software: frommainframe computers to personal devices, smartphones to wearables, Web 1.0 to 2.0 to 3.0and desktop software to mobile apps and cloud-based platforms. The most signi ﬁcant recent
+changes have been associated with AI and machine learning, in particular deep learning
+based on arti ﬁcial neural networks (
+Kaplan, 2016 ), giving rise to intelligent computing,
+including speech recognition, natural language processing and machine translation, all of
+which feed into today ’s posthuman conversational agents.
+The earliest example of a chatbot −a programme to “hold a text- or speech-based
+dialogue with people through an interactive interface ”(Bendig et al. , 2019 ,p .3 ) −was
+Weizenbaum ’s ELIZA ( Klopfenstein et al. , 2017 ), rolled out in the mid-1960s, and patterned
+to Rogerian psychotherapy statements ( Cristea et al. , 2013 ).Weizenbaum (1966) insisted
+that ELIZA was not intended to be mistaken for a human, though an ELIZA effect has been
+observed whereby humans anthropomorphize chatbots ( Cristea et al. , 2013 ;Hofstadter,
+1996 ). Moreover, people have been observed applying principles of human interactional
+politeness to computers whether or not there is a vocal interface ( Reeves and Nass, 1996 ).
+Chatbots have now transformed into sophisticated commercial bots and smart voice-
+activated assistants and, more recently, generative agents. Even prior to generative AI,
+conversational agents had been continually improving at answering human questions andsending us apposite reminders in apparently friendly language. Current rebuilds now includegenerative AI capabilities (e.g.
+Perez, 2023 ;Wiggers, 2023 ). In the background, technology
+corporations are exploiting our attention ( Berthon and Pitt, 2019 ), pushing us to create
+mineable data by posting, tweeting, sharing and liking ( Fuchs, 2017 ;Grimshaw, 2018 ).
+Thus, technological advances have occurred in tandem with the rise of platform capitalism
+(Srnicek, 2016 ) and surveillance capitalism ( Zuboff, 2019 ).
+2.3 Changing language teaching: towards posthuman(ist) pedagogies
+The impetus to customize digital technologies for language learning purposes is not new.There has been a long history of CALL (e.g.
+Levy and Stockwell, 2006 ;Son, 2014 ) followed
+by a more recent history of MALL (e.g. Godwin-Jones, 2017 ;Stockwell, 2021 ). Yet CALL
+and MALL outcomes have often been disappointing; this is seen most notably in commercial
+language learning apps grounded in outdated pedagogies, which fail to re ﬂect contemporary
+mobile uses of language and modes of interaction ( Lotherington, 2018 ).
+Associated with MALL, recent years have seen growing interest in the language teaching
+potential of conversational agents ( Fryer et al. , 2020 ;Godwin-Jones ,2022, 2023 ;Kukulska-
+Hulme, 2019 ). Until late 2022, this typically involved digital assistants on smartphones orITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+standalone speakers, allowing humans to communicate while remaining mobile within
+interior spaces or in vehicles. Such agents provide “models of expert speakers, and,
+compared to humans, possess in ﬁnite patience, allowing for extensive trial and error without
+judgment ”(Godwin-Jones, 2022 , p. 126), though it has been noted that they may fail to
+recognize learners ’accents or grammatical constructions. Digital agents have also been
+found to encourage direct imperatives and unvarying pronunciation, thus nudging learners to
+reduce their conversational politeness, shift pronunciation towards dominant norms andsimplify vocabulary and grammar ( Finn, 2017 ;Pullen, 2017 ). Moreover, all posthuman
+agents, including generative AI programmes, e.g. ChatGPT, can misunderstand and factually
+misinform ( Alkaissi and McFarlane, 2023 ;Kukulska-Hulme, 2019 ). Nonetheless, there is
+untapped promise in posthuman conversational exchanges for language learning purposes,
+and we stand with Godwin-Jones ’(2022) recommendation to experiment with digital agent
+applications.
+Going beyond CALL and MALL, recurrent themes in language education research
+include the value of immersion in target language contexts ( Collentine and Freed, 2004 )a n d
+the importance of encouraging learner agency in self-study settings, e.g. by using mobile
+devices to access digital tools from multiple locations outside the classroom ( Lotherington
+et al. , 2021 ) in concert with self-directed inquiry. Indeed, students ’engagement in dynamic,
+purpose-driven learning stands in contrast to the passive, behaviouristic learning
+programmed into many MALL apps ( Loewen et al. , 2019 ;Shortt et al. , 2023 ). The notions
+of immersive and agentive self-study meet CALL and MALL in the concept of informal
+language learning outside traditional classroom contexts in the digital wilds, where novel
+language learning opportunities, potentially accommodating plurilingual exchanges, mightbe forged. So we, as language learners, undertook to investigate interacting with posthuman
+agents for informal language practice in the digital wilds.
+3. Research designThe exploratory study reported in this article was situated within a multistage research
+project to build mobile production pedagogies for immersive language learning. Ourtransdisciplinary research community comprised a team of core researchers and a roster
+of collaborating consultants, spanning three nationalities. The project included a review of
+changes in digitally-mediated language (Lotherington et al. , 2024) and a follow-up survey of
+language teacher candidates ’preferred practices with digital resources (
+Boreland et al. ,
+2023 ). The study described here was conducted in preparation for the development of
+interactive mobile language learning pedagogies, which proved methodologically
+impossible during the pandemic. Ultimately, however, our Covid-enforced autoethnographic
+language journeys with digital agents anticipated potential bene ﬁts and limitations of
+language learning now emerging with generative agents, as discussed in the conclusion.
+Four researchers in the core team, including two faculty members in Education and two
+PhD research assistants, conducted coordinated autoethnographic journeys exploringselected digital interlocutors for immersive conversational practice. Autoethnography is “an
+approach to research and writing that seeks to describe and systematically analyse (graphy)
+personal experience (auto) in order to understand cultural experience (ethno) ”(
+Ellis et al. ,
+2011 , p. 273), leading to documentation of an ethnographic inquiry. Digital ethnography
+fundamentally includes exploration of digitally-mediated communication and ethnographicmethods ( Varis, 2016 ). As an approach, rather than set of techniques, it explores context and
+contextualization in environments shaped by diverse digital affordances. Both game
+and phone assistants are digital agents that exemplify the inextricable link between online
+and of ﬂine interaction and activity.Interactive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Over the course of two weeks in January –February 2020, the researchers carved out
+individual digital conversational pathways with selected agents in a target language of
+personal interest. All were native English speakers with varying histories of languagelearning both generally and in the target language: Portuguese ( N= 2), German ( N=1 )a n d
+French ( N= 1). The primary software explored included Siri, Apple ’s virtual assistant and
+NPCs in the MMORPG Bloodstone, with support from a variety of online translators
+and occasional use of the commercial language app, Duolingo.
+Writing of the individual autoethnographies was analysed qualitatively, using open
+coding, consolidation of open coding across team members and ﬁne-grained iterative
+analysis, supported by NVIVO software (see, for example,
+Allsop et al. , 2022 ). We
+proceeded as follows. The core researchers met weekly on Zoom during quarantine isolation;
+all discussions were recorded and transcribed. After standardizing story reporting, andamalgamating the stories into a data set, each core researcher individually coded the full dataset. Via weekly discussions, we compared and commented on individual results. Throughsuccessive data-driven coding, we arrived at a uni ﬁed coding matrix and recoded the full data
+set using NVIVO software. Interpretation of the results included both core and collaborating
+researchers, working in person and online.
+4. The autoethnographic journeys
+This section brie ﬂy summarizes the comments of the four core researchers on their
+autoethnographic digital language immersion experiments in Portuguese (P1; P2), German(G1) and French (F1).
+4.1 P1 (Portuguese)
+P1 is an English-French bilingual whose background in learning Portuguese has included
+Duolingo and interactions with Portuguese relatives.
+I explored Siri as a conversational mediator over the course of ﬁve conversations in
+Portuguese: three with my English-Portuguese bilingual partner and two with arelative in Portugal. The conversations lasted 20 –30 minutes each over a two-week
+period.
+My immersion experiment began with a self-assessment. In conversation with my
+partner, I realized that I hadn ’t remembered as much as I ’d hoped from personal
+interactions and Duolingo study. I turned to Siri as a conversational mediator but
+soon realized that I didn ’t have a high enough language threshold level to interact
+with or manipulate the program for personal communicative purposes. So, Siri wasrepurposed as an agent of direct translation. This did not go well either:
+P1: Siri, how do I say ‘I spent all day reading ’in Portuguese?
+Siri: Passei o dia todo lendo. [I spent all day reading.]
+P1 [to S2]: Passei o dia todo lendo. [I spent all day reading.]
+S2: Por que você esta a falar brasileiro? [Why are you speaking Brazilian?]
+P1 [to S2]: I just repeated what Siri told me [ …] I don ’t know the difference with
+pronunciation and Brazilian slang. Siri, what is the word terminou in English?
+Siri: I can ’t translate into English yet.
+P1 [to S2]: How do I say ‘what does the word terminou mean in English ’in
+Portuguese to ask Siri?
+S2 [to Siri]: Siri, o que terminou signi ﬁca em inglês? [What does terminou mean in
+English?]ITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Siri: I ’m not sure I understand.
+S2: O que terminou signi ﬁca em inglês? [What does terminou mean in English?]
+Siri: Sorry I missed that. Can you say it again? [Pause.] I ’m not sure I understand.
+I had switched Siri to Portuguese on my phone to discover that the default variety of
+Portuguese for both Siri and Duolingo is Brazilian. I hadn ’t realized how different
+this was from the variety spoken in Portugal. In any case, Siri was unable totranslate from Portuguese into English even after the language settings had beenadjusted.
+There were positives: from listening to Siri ’s pronunciation, I could repeat until I
+was better understood, although I apparently didn ’t sound like I was from Portugal.
+But using Siri to learn a language was problematic given the lack of physical cueswith a disembodied digital agent. There was also the complication of languagepower; I defaulted to English as the conversation faltered.
+4.2 P2 (Brazilian Portuguese)
+P2 is an experienced digital game player who studied Portuguese through Rosetta Stone,
+Duolingo and cultural immersion in Brazil.
+I wanted to improve my Portuguese by using my personal interest in medieval
+fantasy-style MMORPGs to play a similar game designed for a predominantly
+Brazilian Portuguese-speaking population, Bloodstone, where the game client and
+NPC scripts are in Portuguese. I immersed myself in Bloodstone over a 2-week
+period, with two hours dedicated to exploring the website and eight hours to
+playing the game. The gameplay occurred in two 1-hour blocks and two 3-hourblocks.
+Bloodstone uses a guild system, through which players can connect with each
+other and team up. It has a website that provides instructional support and an
+in-game tutorial area but my tutorial gameplay was slow, given my emphasis onL2 learning/comprehension plus notetaking, so my immersion experience took
+place in the instructional part of the game world. I did not engage much with
+other human players, mostly focusing on understanding quest details and the
+underlying game lore or backstories. I also relied heavily on a voice-activated
+translation app.
+I created a character (Nessilia [P2]), and began playing in Bloodstone ’s in-game
+tutorial area. The playable tutorial phase features pop-ups in Portuguese on ﬁrst
+login, and symbols/icons drawing your focus to different parts of the client, such as
+an arrow pointing to your character ’s backpack, and colored outlines around
+inventory slots. The visual aspects are supported by text-based instructions (see
+Figure 1
+).
+I misunderstood the part of the tutorial that instructed me to speak to a particular
+NPC to ﬁnd a weapon. The NPCs require speci ﬁc prompts in order to give the
+correct line of dialogue; without the exact words, there is no way to progress.
+After going around in circles, I decided I was lost and had to default to another
+human player for help (Speaker 2 [S2]), attempting to explain my problem in
+Portuguese:Interactive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+P2:oi[hi]
+S2:opa[hi]
+P2:voce ajudar pra mim? [can you help me?]
+P2: ???????????
+P2:desculpe, eu e canadense e eu e jogar por apprendir portugues [sorry, I am
+Canadian and I am playing to learn Portuguese]P2:muito di ﬁcil[very dif ﬁcult]
+S2: yehh, very hard
+It was clear to Portuguese-speaking players that I was not a ﬂuent user of
+Portuguese, and once I told them where I was from, players started using Englishwith me (with varying degrees of ﬂuency). While this made it easier for me to ﬁgure
+out how to play, it negatively impacted the immersion experience. Even when Istated I was playing to learn Portuguese, players still used English.
+I expected signs and vocabulary items in the game world to be context-appropriate,
+but this wasn ’t always the case. I found myself stuck when engaging with NPCs
+unless I knew the exact word to use to prompt the next line of instruction, whichforced me to turn to other players instead of engaging exclusively with NPCs and
+other game features. Playing the game with access to English instructions made me
+consider how ﬂexible contexts shape language learning experiences. My partner
+didn’t have the option of switching game clients to Portuguese, and so was forced to
+learn English in order to play. This suggests that for English speakers, games andother media are only as target language-immersive as the player chooses.
+Figure 1. P2 [Nessilia] engaging with an NPC in BloodstoneITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+4.3 G1 (German)
+G1 learned German as well as Polish through both formal schooling and, more successfully,
+cultural immersion, applying self-study methods.
+The goal of this experiment was to immerse myself in the target language through
+conversation with Siri in order to refresh my German language knowledge and to testthe AI “rules of the game ”, as programmed in this help software. I spent four or ﬁve
+30-plus minute sessions and one extended driving session using German with Siri.
+My experience attempting immersive conversations was endlessly frustrated.
+Given Siri ’s minimal conversational memory, any attempt to continue a
+conversational thread was quickly thwarted. Siri used confusing expressions,
+failed to understand my questions and could not maintain a logical course of
+interaction. Interactions were reduced to the most utilitarian of transactions.Eventually I ended up trying to “game ”(rule-test) Siri with a proposal of
+marriage, compliments, and cries for help, to which Siri could only offer web
+links or help numbers, with algorithmic expressions of generic and unconvincingpity ( Mitleid ).
+Over several attempts, I tried to converse with Siri about Goethe, which Siri
+consistently misunderstood as Götter [gods], replying variously that this was a big
+mystery and whereas people have religion, Siri has silicon. I did, however, learn anew word: Silizium [silicon]. In a more successful exchange, I learned the idiomatic
+phrase Ich steh leider auf dem Schlauch , which translates literally to “I stand,
+unfortunately, on the hose, ”meaning “I don ’t get it ”(seeFigure 2
+). I also learned,
+after addressing Siri using Sie(formal you), that Siri “preferred ”Du(informal you);
+the request that I use the informal, conversational form was ironic, given Siri ’s
+systematic inability to engage in chatty conversation.
+Siri could be provoked into generating simple sentences providing contextual clues
+for understanding new vocabulary and observing grammar rules. However, engaging
+with Siri proved frustrating, except when I activated the iPhone map directions in mycar and, to my surprise, Siri started directing me in German. The driving instructions,
+situated in the context of action and spatial cues, were the closest I came to being
+immersed in German, as words, things and actions coalesced.
+Despite my frustrations, Siri forced me to articulate more clearly through constant
+repetition, and attempted to compensate for my unclear or halting sp eech with a voice
+Figure 2. Siri is standing on the hose. [I don't get it. But I can search the internet for * “I understand how
+are you ”if you would like.]Interactive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+translation algorithm. While pronunciation improvement was the most demonstrable
+outcome, I also refreshed my German vocabulary, learned new words includingidioms, and by observing sentence-level context clues, got reacquainted with grammar
+rules. Perhaps the most useful aspect of Siri was that I was prompted to go elsewhere,
+including German websites and online translation apps like Google Translate, to ﬁgure
+out idioms or pursue emergent inquiries.
+4.4 F1 (Canadian French)
+F1 lived in bilingual communities as a teenager, studied French at school, and periodically took
+adult classes. F1 has also studied other languages formally and through cultural immersion.
+My aim was to explore the potential of immersion in the digital wilds using Siri as
+interlocutor in French conversations. I hoped to improve my ﬂuency and accuracy.
+My experiment talking with Siri daily took place over two weeks.
+I turned the default language on my iPhone to Canadian French so that help functions
+and spoken noti ﬁcations, as well as Siri ’s wake-up words, were automatically in
+French. This forced me to use French for everyday functions though I tended to avoid
+asking dif ﬁcult questions of Siri, which admittedly defeated the purpose.
+I seemed to mostly fail at getting Siri to understand me. If I hesitated, Siri tried to
+ﬁll in the blanks, which I could see because Siri “writes and speaks ”at the same
+time. Software programs do not think, they pattern-match, so conversation with Siri
+required a degree of pronunciation and grammatical accuracy that would beunrealistic for beginning language learners. Upon asking Siri how to say thank you
+in a variety of languages which, curiously, was ungrammatically transcribed to
+accommodate my hesitations, I got a response, even if it was a negative one: “Sorry,
+I cannot translate from this language at the moment ”(seeFigure 3
+).
+Figure 3. Siri is sorry [*Siri how does one I say thanks in several languages/Touch to modify/ Sorry, I
+cannot translate from this language at the moment.]ITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+My questions to Siri often dead-ended. On my third try to get a piece of information
+from Siri in French, with Siri continually misinterpreting my input, Siri replied“coucou ”. Google Translate indicated coucou meant “hello ”(not in Canada), as
+well as “imbecile, idiot ”. Siri, built for native speakers of a variety of French
+seemingly other than Canadian, did eventually interpret my request, but this led torenewed questions about the target language threshold needed to work a voice-activated program and highlighted the inauthenticity of having to mimic Siri ’s
+algorithmically correct pronunciation (not to mention lexicon) in order to ignite a
+conversation. Siri ’s repeated failure to understand me led me to doubt my
+pronunciation. “Sorry, I didn ’t get that ”is hardly encouraging for learners trying to
+form a question in a target language and needing support.While I did bene ﬁt from increased passive exposure to French, which popped up
+unexpectedly after Siri “learned ”to use French with me and thereafter announced
+phone calls en français , I was foiled in attempts to get any extended interaction with
+Siri as a “conversational ”agent.
+5. Analysis and discussion
+In this section, we explore the four overlapping macro-themes that emerged from our
+collaborative coding process of the full data set −context, language learning, posthuman
+engagement andtechnological parameters −and the threads crosscutting these themes. The
+data were coded using NVIVO; the resultant codes and subcodes are shown in Figure 4
+.G i v e n
+thattechnological parameters , coded in short form as technology , documented the software we
+used in addition to other technological parameters, the central importance and richness oflearning , including the subcoded areas in the “ﬁshtail ”, can be seen at a glance. The implications
+of our experiences with conversational agents for emerging language learning practices with
+generative AI programmes are discussed in the conclusion, following our analysis.
+5.1 Theme 1: context
+Contex.t was coded simply in terms of facilitating or impeding language learning (see Figure 5 ).
+However, context in digital and, particularly, mobile use proved to be complex, encompassinginterwoven physical and digital dimensions, including local time and geographical space as wellas the global, “timeless time ”and“space of ﬂows”into which users connect ( Castells, 2013 ).
+Accordingly, it included the affordances (and limitations) of hardware, software and network
+connectivity, online and of ﬂine support and interactions with digital and physical environments,
+ranging from in-game settings to driving a car.
+A facilitating context is obviously instrumental to effective language learning. The
+programmed nature of digital contexts undermined the language varieties sought by P1, who
+discovered that Siri and Duolingo systematically defaulted to Brazilian Portuguese, offering no
+other variety, nor any translation layer in Siri ’s case, and by F1, whose French Canadian Siri used
+idiomatic continental French. Neither disembedded digital agents nor game-embedded NPCswere equipped with topic memory beyond an immediate problem-solving response (G1; F1; P2),
+and for P2, exact words were sometimes needed to trigger needed information, so conversational
+turns were, by default, linguistically, logically and socially discontinuous.
+Disembodied agents, by de ﬁnition, have no facial expressions or gestures to support
+communication paralinguistically (cf. P1; P2). Decontextualized cues, hints and NPCencounters (P2) limited the inherent potential of gameplay to co-locate new vocabulary itemsInteractive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+in contexts of use and make clear situated meanings (Gee, 2003 ). Nonetheless, impasses that
+required follow-up help or translation directed us all to explore wider digital and humanecologies, so a negative digital context sometimes, counterintuitively, piqued further
+inquiries and learning.
+Figure 5. Coding of context
+Figure 4. Coded data setITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Contextual hindrances in wider physical environments included low bandwidth, which
+could interrupt participation in an MMORPG, and a noisy setting, which foiled being“understood ”by Siri. Interestingly, our most successful learning was situated within physical
+environments that provided natural, practical context clues, e.g. driving instructions (G1) viasmartphone GPS satellite connection. Overall, our interactions with conversational agents
+were far removed from the embedded, embodied ethos of posthumanist language use
+(
+Pennycook, 2018 ).
+5.2 Theme 2: language learning
+Language learning, coded as learning, yielded a richly layered thematic code, comprising
+varied motivational drivers for learning, positive and negative ; learning strategies and
+preferences; problems, including target language threshold, domain-speci ﬁc language
+requirements (important in gaming) and activity competency; andunexpected learning (see
+Figure 6 ).
+Obstacles to learning were pervasive. We had to work within conversational agents ’
+databanks of stock replies (P2), restricted topic memories (G1; F1) and narrow pronunciationcomprehension and production range (P1; G1). This limited language –culture orientations,
+contextual support (Theme 1) and human –posthuman engagement (Theme 3) thanks to
+algorithmic in ﬂexibility (Theme 4). Designed for pro ﬁcient speakers, neither Siri nor NPCs
+had the facility to adjust their language for learners as would sensitive human interlocutorsand, certainly, teachers.
+There were mitigated successes. We associatively learned and then researched Siri ’s
+quirky databank replies, e.g. Siri ’s atypical use of “coucou ”, translating as both hello and
+idiot (F1), and the idiomatic “Ich steh leider auf dem Schlauch ”(G1). To overcome the
+inherent gatekeeping limitations of Siri ’s phonetic programming, a shortcoming in
+conversational agents ’comprehension systems noted by
+Godwin-Jones (2023) , P1 and G1
+were forced to enunciate more carefully, effectively improving their pronunciation. Butwhose agency determined the target pronunciation standards (see Themes 3 and 4)?
+Figure 6. Coding of language learningInteractive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+We had expected posthuman agents to be able to provide language help; this was seldom
+the case, so we turned to available human help when stymied (P1; P2). We exploited
+translation software for just-in-time learning and self-assessed assistance needs. Faced with
+Siri’s transactional as opposed to conversational programming, G1 “gamed ”the app for
+humorous replies, reasserting human agency while exploring system rules and boundaries.
+In the context of Bloodstone , programmed NPCs required speci ﬁc lexical input to
+respond meaningfully in the target language, based on the closed-ended, decision-tree logic
+of common NPC designs. While NPCs were not perceived to support language immersion in
+this particular game experience, the MMORPG provided P2 with a signi ﬁcant community
+resource within and outside the game −effectively, a paratext which could serve as a site of
+self-directed language learning ( Walsh and Apperly, 2012 ). Tools like Siri could only
+awkwardly activate self-directed inquiry, not stimulating curiosity or interest in any
+sustainable, meaningful way.
+Ultimately, our problems led to informative learning experiences, especially on the meta-
+level of how to learn languages with digital agents. Our teaching backgrounds and past
+language learning experiences emerged as critically important as we self-identi ﬁed learning
+gaps and recalibrated strategies. Pedagogical understanding, an exploratory disposition and a
+willingness to leverage a wider network of linguistic resources emerged as prerequisites for
+human language learners to assert agency vis-à-vis the digital agents we engaged with. For
+non-teachers, this speaks to the importance of adequate learner preparation prior to
+embarking on learning journeys in digital spaces ( Palalas and Hoven, 2016 ;Stockwell,
+2021 ).
+5.3 Theme 3: posthuman engagement
+Posthuman engagement , which encapsulated human agency versus algorithmic
+programming, encoded user goal-driven interaction ;authenticity of language use; linguistic
+authority regarding correctness and social appropriateness; and in-system feedback,
+referencing the quality and appropriateness of programmed replies (see Figure 7 ).
+Monolingual programming and limited modality, both indicating algorithmic in ﬂexibility
+(Theme 4), were coded as separate categories, given our language learning focus.
+In response to the critical question of who or what directed, constrained or terminated
+conversational interactions, the balance consistently tipped towards digital agents. We
+defaulted to what we could say so the software would “understand ”us and, in cases of
+limited in-system feedback, resorted to online translation tools (P2; G1; F1) and occasional
+human support (P1; P2). We implicitly, if naively, trusted the programs we consulted. As
+already brie ﬂy suggested (see Theme 2), this begs questions about linguistic authority and
+the agency to exercise it: who determines the language “standards ”–whether pronunciation,
+idiomatic usage or translations –of posthuman agents? It equally anticipates questions about
+rhetorical authority, given that digital agents often sound authoritative −an issue that
+becomes even more pressing with generative AI (see Conclusion) −but, in fact, have no
+built-in basis for truth or factuality, ethical compass or lived experience of the human world.
+Limited in-system feedback foiled expectations of conversational authenticity, as seen in
+Siri’s sometimes inauthentic idiomatic usage (F1) or prepackaged empathizing (G1), which
+led to bewilderment, frustration or laughter. This should come as no surprise: authentic usesof idioms or expressions of empathy rely on an understanding of context, both conversational
+and real-world, neither of which are accessible to posthuman conversational agents.
+Plurilingual interaction, which is possible in the digital wilds and offers support for
+language learners, was undermined by conversational agents ’programmatically
+monolingual and modally limited databases. The tendency to default to English indexed aITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+powerful bias, both human and posthuman (P1; P2), which was also re ﬂected in Siri ’s
+translation capabilities: while English-speaking Siri could translate into different languages
+(P1), the same facility was not available vice versa (P1; F1). Overall, notwithstanding small-
+scale learning successes, the digital agents studied offered quite limited posthuman
+engagement for language learning.
+5.4 Theme 4: technological parameters
+Theme 4 documented the conversational agents, games and mobile support software we
+accessed in our explorations and captured technological parameters that interconnected with
+posthuman engagement, notably algorithmic ﬂexibility –inﬂexibility andon-demand and just-
+in-time resources (seeFigure 8 ).
+A factor threading across Themes 1, 2 and 3 was algorithmic in ﬂexibility .Braidotti
+(2019) points to the familiar gatekeeping I’m not a robot in reCAPTCHA as an example of
+having to prove one ’s humanity against a central reference of algorithmic computational
+culture. In our study, posthuman algorithmic in ﬂexibility was pervasive across both Siri
+and NPCs, frustrating learner agency. The internet transcends terrestrial nations, but
+conversational agents manage language varieties according to their programming biases
+(P1; F1). Apart from speaking robots, conversational agents are disembodied, so can offer
+no paralinguistic clues (P1). They are socially decontextualized and have no emotions, so
+lack a base for conversational appropriacy and impart stock replies when words trigger a
+need for emotionally nuanced responses (G1). Moreover, the agents we accessed lacked
+topic memory across turns, having been designed to support simple help requests (P1; P2;
+G1; F1).
+Figure 7. Coding of posthuman engagementInteractive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Nonetheless, algorithmic in ﬂexibility did make space for judgement-free repetition and
+self-testing towards improved pronunciation (P1; G1), and even inspired unintended learningas we tried to make sense of socially awkward replies (G1; F1). Online translation resourceswere useful for on-demand support when inquiries or curiosities emerged out of interactions(P1; P2; G1; F1). This suggests that ﬂexibility derives less from individual software
+programmes than from the learner developing an ecology of resources and the know-how toaccess various on-demand supports. It is important for language teachers to recognize this tocapably guide learners through the potholed terrain of digital language learning tools.
+Signiﬁcantly, the macro-context of the digital wilds proved far less “wild”than we had
+initially anticipated on the platforms our team explored. Since the heyday of Web 2.0startups, the digital wilds have been increasingly fenced in by expanding technologycorporations mining users ’interactions for pro ﬁt(
+Fuchs, 2017 ). Indeed, a key purpose of
+conversational digital agents (though not NPCs) is to learn from us, thus improving theirunderlying algorithms and honing the monetization of their functions. Conceivably, Sirilearned more from our interactions than we did.
+6. Conclusion
+Our research explored the possibility of immersive target language learning and practice
+with selected conversational digital agents that team members consulted in daily life. Our
+Figure 8. Coding of technological parametersITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+aim was to explore available tools in the digital wilds, as conceptualized by Sauro and
+Zourou (2019) , that could be co-opted for immersive language learning.
+6.1 What we learned about conversational digital agents
+It is important to note at the outset that NPCs have different capacities from phone helpagents, though both are posthuman interlocutors. Our ﬁrst research question, “Can
+posthuman conversational agents support immersive language learning in the digital wilds? ”,
+revealed that across our digital autoethnographic journeys we experienced marginal gains in
+pronunciation, vocabulary acquisition and idiomatic knowledge, thanks in part to the
+capacity of digital agents for tireless repetition, but we categorically failed in attempts to
+engage any digital agents in sustained conversations. (This shortcoming, though, has been
+addressed in generative AI programmes.) On the other hand, researchers using digital agentsin real-world settings where physical actions were required encountered meaningful and
+practical just-in-time language input: immersive applications included driving with German
+navigation (G1), and attending to phone announcements in French (F1), though neither
+situation permitted interactive conversation.
+In short, digital agents can play a supportive role as a component of language learning.
+However, their database lacunae, restricted comprehension of learner pronunciation and/or
+lexis and limited topic memory all undermine the possibility of immersive conversational
+learning. Moreover, their con ﬁnement within heavily surveilled corporate reserves limits the
+extent to which they can be viewed as part of the digital “wilds ”.
+Our second question, “How do posthuman conversational agents ﬁt within a
+posthumanist linguistic landscape? ”, revealed a poor ﬁt. Posthuman agents ’DNA is binary
+code, rooted in algorithmic patterns abstracted from the messy embodiment and experiential
+socialization which shape human language use.
+Halliday (1993) considered “a natural
+language [to be] a theory of experience ”(p. 108), explaining that “meaning is at once both
+doing and understanding ”(p. 100). The “natural language processing ”of digital agents is far
+from the natural, the particular or the lived. By contrast, posthumanist applied linguistics is
+grounded in an ethos of communication which is multisensory, fully embedded in localcontexts and dependent on an interwoven web of people, other life forms, objects,
+experiences, spaces and times ( Pennycook, 2018 ). The internationalized, standardized,
+disembedded and disembodied posthuman agents engaged with constitute at best one
+element of such a communicative environment.
+Ourﬁnal question, “Where does communicative agency lie in human interactions with
+posthuman conversational agents? ”, highlighted the ﬁne line between humans using a digital
+assistant for human-designed purposes, and humans submitting to technologically
+determinist programming. We were readily ensnared in the ELIZA effect ( Hofstadter, 1996 ),
+anthropomorphizing posthuman agents, assuming that they were trustworthy and that our
+interactions were linguistically authentic. Yet trusting software as a linguistic (or epistemic)
+authority is hazardous. We are not privy to the quali ﬁcations, purposes or assumptions of the
+programmers, and the direct-to-consumer model of the digital marketplace skirtsprofessional quality control measures and democratic governance (Lotherington et al. ,
+2024); perhaps even more importantly, neither we nor the programmers are privy to the full
+functioning of the black box algorithms developed through machine learning from large data
+sets ( Pasquale, 2015 ). Bots (though not NPCs) are language learners too, learning from us as
+much as −if not more than −we learn from them to improve their underpinning algorithms.
+Siri (and Alexa, etc.) are ultimately agents of extractive capitalism ( Grimshaw, 2018 ),
+mining earthly resources for their production and operation and mining human cultural andconversational resources for their data.Interactive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+In summary, we found the embedded, embodied ethos of posthumanist language use
+(Pennycook, 2018 ) to stand in stark contrast to the largely abstract, context-free linguistic
+ethos of the posthuman conversational agents we explored. It is vital for humans to develop
+AI literacy (Miao and Holmes, 2021 ;Pegrum et al. ,2 0 2 2 ), also called critical algorithmic
+literacies ( Dasgupta and Hill, 2021 ;Thumlert et al. , 2022 ), to ensure we keep a critical eye
+on technological opacity and corporate imbrication, and to direct technological tools in ways
+that optimally support human learning purposes. Teachers as language learners have keyadvantages here, being well-placed to prepare learners to exercise the pedagogical agency
+essential for maximizing the sporadic language learning support provided by posthuman
+conversational agents, while bearing in mind their misalignment with the posthumanistlinguistic ethos.
+6.2 What conversational agents can teach us about generative agentsAs
+MacKenzie and Wajcman (1999 , p. 1) explained, “technologies change, either because of
+scienti ﬁc advance or following a logic of their own; and they then have effects on society ”.
+Since late 2022, the emergence of generative AI programmes using conversational interfaces,
+e.g. ChatGPT, has changed public expectations of posthuman communication. Although based
+essentially on sophisticated pattern matching and functioning as “stochastic parrots ”(Bender
+et al. , 2021 , p. 610), generative AI chatbots create an illusion of near-sentient intelligence.
+Underpinned by vastly larger databases than conversational agents, LLM-based generative
+agents support greater topic memory, ﬂexible interpretation of user input, plurilingual
+processing and translation, multimodal interaction and are increasingly accessible through
+voice interfaces. In the present, this has already opened up an array of language learning
+possibilities including target la nguage conversations, with generative agents able to take on the
+role of Socratic tutors, an approach currently being explored by the likes of the Khan Academy
+and Duolingo in its Max subscription version. On the horizon are revamped digital assistantslike Siri or Alexa, updated with generative AI capacities (e.g. Perez, 2023 ;Wiggers, 2023 ), as
+well as NPCs capable of responsive, on-the- ﬂy, procedurally-generated conversations that are
+potentially more supportive of language learning ( Papp, 2023 ). Nonetheless, while generative
+agents appear to have solved the short topic memory, limited lexical and pronunciation
+acceptance and conversational breadth problems of earlier c onversational agents, a closer look
+reveals that many of the issues we identi ﬁed with conversational agents remain pertinent; some
+are exacerbated. Our experiences offer a cautionary tale.
+Regarding our ﬁrst macro-theme, context, generative agents demonstrate substantial
+improvements over conversational agents in large part because their conversational memory
+extends over multiple turns. Nonetheless, generative agents remain disembodied (despite
+growing multimodal input and output options), disembedded (despite users being able tosupply contextual details manually in their prompts) and disconnected from any real-world
+knowledge or experience. Meanwhile, the bandwidth requirements of generative agents
+render questions of technology access more problematic than with conversational agents.
+Regarding our second macro-theme, language learning, generative agents show much
+greater ﬂexibility than conversational agents in interpreting and responding to user input,
+adjusting language to user levels (especially if prompted to do so), handling language
+varieties and providing language support and correction on demand. Furthermore, generative
+agents enable users to converse on topics of interest where domain-speci ﬁc vocabulary might
+be situationally engaged. However, researchers have questioned the linguistic and cultural
+biases inherent in programmes like ChatGPT (
+Walker-Rettberg, 2022 ), not to mention the
+plagiarism detection software that has sprung up to police its use by students ( Liang et al. ,
+2023 ). It remains essential to approach all posthuman agents with informed pedagogical andITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+critical understanding to use such tools effectively as part of a comprehensive ecology of
+language learning resources.
+Regarding our third macro-theme, posthuman engagement, generative agents are
+increasingly being programmed towards greater facility with multiple languages and canshuttle more easily between them than monolingual conversational agents. Yet all generativeAI is subject to linguistic, gender, sexual, racial and other biases baked into the historical datasets drawn on (
+Bender et al. , 2021 ;Leaver and Srdarov, 2023 ). Concerns over linguistic and
+epistemic authority therefore not only remain, but are intensi ﬁed, since generative agents can
+“hallucinate ”(Alkaissi and McFarlane, 2023 ;Sharples, 2023 ) factual-sounding false data
+couched in a con ﬁdent rhetorical authority that has neither linguistic nor real-world referents.
+Regarding our fourth macro-theme, technological parameters, generative agents offer
+greater algorithmic ﬂexibility, contextualization and multilingual support than conversational
+agents, though super ﬁcialﬂexibility may mask database ﬁxities: even programmers have little
+insight into what is going on inside their black box algorithms. Most ICT technologies areimplicated in platform capitalism; this is entrenched in AI with its “extractive politics ”
+(
+Crawford, 2021 ). AI is extraordinarily expensive to develop and run, with the costs borne by
+users, labourers and the environment ( Bender et al. ,2 0 2 1 ;Leaver and Srdarov, 2023 ).
+Wittingly or unwittingly, all of us are a source of free labour for AI, which blithely scrapes ourpublished online data to inform its algorithms and learns from us each time we interact with it.Asking critical questions of our devices, and balancing costs against bene ﬁts when
+considering educational and wider uses, has never been more urgent.
+To brie ﬂy revisit our research questions: generative agents have better potential for supporting
+immersive language learning but, like conversational agents, remain disconnected from real-world contexts. They are dependent on unknowable algorithms that mine biased data sets and
+entail development and operational costs far removed from idealistic conceptions of digital wilds.
+Like conversational agents, generative agents are, at best, one (albeit literally more generative)component of our wider posthumanist linguistic landscape, which they can supplement but in noway supersede. AI is sophisticated black box programming, not arti ﬁcial humanity.
+Agency remains a vexed question: what is certain is that educators must help students
+develop the pedagogical expertise, coupled with AI literacy, to use all available technologiesin critical and self-directed ways. Only thus can we as humans retain a measure of agencyover our posthuman agents.
+Lastly, though the digital agents we investigated have been superseded by more
+conversationally generative agents, our ﬁndings remain broadly applicable to the project of
+developing immersive language learning and practice opportunities with posthuman agents.Going forward, we invite research which retools and expands our autoethnographic experimentto include next-generation AI, while bearing in mind the lessons of ﬁrst-generation AI.
+Note
+1. Also see for example Anthropic ’s Claude, Microsoft ’s Copilot and Google ’s Gemini.
+References
+Alkaissi, S. and McFarlane, S.I. (2023), “Artiﬁcial hallucinations in ChatGPT: implications in scienti ﬁc
+writing ”,Cureus , V ol. 15 No. 2, pp. 1-4, doi: 10.7759/cureus.35179 .
+Allsop, D.B., Chelladurai, J.M., Kimball, E.R., Marks, L.D. and Hendricks, J.J. (2022), “Qualitative
+methods with Nvivo software: a practical guide for analyzing qualitative data ”,Psych , Vol. 4
+No. 2, pp. 142-159, doi: 10.3390/psych4020013 .Interactive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Bender, E.M., Gebru, T., McMillan-Major, A. and Shmitchell, S. (2021), “On the dangers of
+stochastic parrots: can language models be too big? ”,FA cc T ’21: Proceedings of the 2021
+ACM Conference on Fairness, Accountability, and Transparency, Virtual Event ,Canada ,
+pp. 610-623, doi: 10.1145/3442188.3445922 .
+Bendig, E., Erb, B., Schulze-Thuesing, L. and Baumeister, H. (2019), “The next generation: chatbots in
+clinical psychology and psychotherapy to foster mental health –a scoping review ”,
+Verhaltenstherapie , Vol. 32 No. Suppl. 1, pp. 1-13, doi: 10.1159/000501812 .
+Berthon, P.R. and Pitt, L.F. (2019), “Types of mindfulness in an age of digital distraction ”,Business
+Horizons , Vol. 62 No. 2, pp. 131-137, doi: 10.1016/j.bushor.2018.10.003 .
+Boreland, T., Lotherington, H., Tomin, B. and Thumlert, K. (2023), “The use of digital tools in French
+as a second language teacher education in Ontario ”,TESL Canada Journal , Vol. 39 No. 2,
+pp. 1-37, doi: 10.18806/tesl.v39.i2/1375 .
+Braidotti, R. (2019), Posthuman Knowledge , Polity Press, Cambridge.
+Brown, R. (2023), “A complete guide: Conversational AI vs. generative AI ”, Data Science Central,
+available at: www.datasciencecentral.com/a-complete-guide-conversational-ai-vs-generative-ai/
+Castells, M. (2013), Communication Power , Oxford University Press, 2nd ed, Oxford.
+Collentine, J. and Freed, B.F. (2004), “Learning context and its effects on second language acquisition:
+Introduction ”,Studies in Second Language Acquisition , V ol. 26 No. 2, pp. 153-171.
+Crawford, K. (2021), Atlas of AI: Power, Politics, and the Planetary Costs of Arti ﬁcial Intelligence , Yale
+University Press.
+Creese, A. and Blackledge, A. (Eds), (2018), The Routledge Handbook of Language and
+Superdiversity: An Interdisciplinary Perspective , Routledge, Abingdon.
+Cristea, I.A., Sucala, M. and David, D. (2013), “Can you tell the difference? Comparing face-to-face
+versus computer-based interventions. The ‘Eliza ’effect in psychotherapy ”,Journal of Cognitive
+and Behavioral Psychotherapies , V ol. 13 No. 2, pp. 291-298.
+Dasgupta, S. and Hill, B. (2021), “Designing for critical algorithmic literacies ”, MIT Press: Works in
+Progress, available at: www.wip.mitpress.mit.edu/pub/designing-for-critical-algorithmic-
+literacies/release/1
+Ellis, C., Adams, T.E. and Bochner, A.P. (2011), “Autoethnography: an overview ”,Historical Social
+Research , Vol. 36 No. 4, pp. 273-290, doi: 10.17169/fqs-12.1.1589 .
+Finn, E. (2017), What Algorithms Want: Imagination in the Age of Computing , MIT Press, Cambridge,
+MA.
+Fryer, L.K., Coniam, D., Carpenter, R. and L ăpușneanu, D. (2020), “Bots for language learning now:
+current and future directions ”,Language Learning and Technology , Vol. 24 No. 2, pp. 8-22, doi:
+10125/44719 .
+Fuchs, C. (2017), Social Media: A Critical Introduction , Sage, 2nd ed, London.
+Gee, J.P. (2003), “What video games have to teach us about learning and literacy ”,Computers in
+Entertainment , V ol. 1 No. 1, Palgrave Macmillan.
+Godwin-Jones, R. (2017), “Smartphones and language learning ”,Language Learning and Technology ,
+V ol. 21 No. 2, pp. 3-17, doi: 10125/44607 .
+Godwin-Jones, R. (2022), “Chatbots in language learning: AI systems on the rise ”,i n
+Arnbjörnsdóttir, B., Bédi, B., Bradley, L., Friðriksdóttir, K., Garðarsdóttir, H., Thouësny, S.and Whelpton, M.J. (Eds), Intelligent CALL, Granular Systems and Learner Data: short
+Papers from EUROCALL 2022 , Research-publishing.net, pp. 124-128, doi: 10.14705/
+rpnet.2022.61.1446 .
+Godwin-Jones, R. (2023), “Emerging spaces for language learning: AI bots, ambient intelligence,
+and the metaverse ”,Language Learning and Technology , Vol. 27 No. 2, pp. 6-27, doi: 10125/
+73501 .ITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Grimshaw, M. (2018), “Towards a manifesto for a critical digital humanities: critiquing the extractive
+capitalism of digital society ”,Palgrave Communications , Vol. 4 No. 1, pp. 1-8, doi: 10.1057/
+s41599-018-0075-y .
+Halliday, M.A.K. (1993), “Towards a language-based theory of learning ”,Linguistics and Education ,
+V ol. 5 No. 2, pp. 93-116, doi: 10.1016/0898-5898(93)90026-7 .
+Hofstadter, D.R. (1996), “The ineradicable Eliza effect and its dangers ”, in Hofstadter, D.R. (Ed.), Fluid
+Concepts and Creative Analogies: computer Models of the Fundamental Mechanisms of
+Thought , Basic Books, pp. 155-169. New York, NY .
+Jeon, J., Lee, S. and Choe, H. (2023), “Beyond ChatGPT: a conceptual framework and systematic
+review of speech-recognition chatbots for language learning ”,Computers and Education ,
+V ol. 206, doi: 10.1016/j.compedu.2023.104898 .
+Kaplan, J. (2016), Artiﬁcial Intelligence: What Everyone Needs to Know , Oxford University Press,
+Oxford.
+Klopfenstein, L.C., Delpriori, S., Malatini, S. and Bogliolo, A. (2017), “The rise of bots: a survey of
+conversational interfaces, patterns, and paradigms ”,DIS’17: Proceedings of the 2017
+Conference on Designing Interactive Systems , pp. 555-565, doi: 10.1145/3064663.3064672 .
+Kukulska-Hulme, A. (2019), “Vignette 5.3: to be or not to be …beholden to an AI assistant? ”,In M.
+Pegrum, Mobile Lenses on Learning: Languages and Literacies on the Move , pp. 185-186,
+Springer.
+Kukulska-Hulme, A., Beirne, E., Conole, G., Costello, E., Coughlan, T., Ferguson, R., FitzGerald, E.,
+Gaved, M., Herodotou, C., Holmes, W., Mac Lochlainn, C., Mhichíl, M.N.G., Rienties, B.,
+Sargent, J., Scanlon, E., Sharples, M. and Whitelock, D. (2020), “Innovating pedagogy 2020 ”,
+Open University Innovation Report 8. The Open University, available at: www.iet.open.ac.uk/
+ﬁle/innovating-pedagogy-2020.pdf
+Leaver, T. and Srdarov, S. (2023), “ChatGPT isn ’t magic: the hype and hypocrisy of generative arti ﬁcial
+intelligence (AI) rhetoric ”,M/C Journal , Vol. 26 No. 5, doi: 10.5204/mcj.3004 .
+Levy, M. and Stockwell, G. (2006), CALL Dimensions: Options and Issues in Computer-Assisted
+Language Learning , Routledge, New York, NY .
+Liang, W., Yuksekgonul, M., Mao, Y., Wu, E. and Zou, J. (2023), “GPT detectors are biased against
+non-native English writers ”,ArXiv , doi: 10.48550/arXiv.2304.02819 .
+Loewen, S., Crowther, D., Isbell, D.R., Kim, K.M., Maloney, J., Miller, Z.F. and Rawal, H. (2019),
+“Mobile-assisted language learning: a Duolingo case study ”,ReCALL , V ol. 31 No. 3,
+pp. 293-311, doi: 10.1017/S0958344019000065 .
+Lotherington, H. (2018), “Mobile language learning: the medium is ^not the message ”,L2 Journal ,
+V ol. 10 No. 2, pp. 198-214, doi: 10.5070/L210235576 .
+Lotherington, H. and Bradley, N. (2024), “Hey Siri: Should #language, and follow me be taught? A
+historical review of evolving communication conventions across digital media environments and
+uncomfortable questions for language teachers ”,Language Learning and Technology , V ol. 28
+No. 1, pp. 1-19. www.hdl.handle.net/10125/73552 .
+Lotherington, H., Thumlert, K., Boreland, T. and Tomin, B. (2021), “Redesigning for mobile plurilingual
+futures, ”Cahiers de L ’ILOB ”,/OLBI Journal , Vol. 11, pp. 141-172, doi: 10.18192/olbij.v11i1.6179 .
+MacKenzie, D. and Wajcman, J. (1999), “The social shaping of technology ”, LSE Online, available at:
+www.eprints.lse.ac.uk/28638/1/Introductory%20essay%20(LSERO).pdf
+Miao, F. and Holmes, W. (2021), International forum on AI and the futures of education: developing
+competencies for the AI era, 7-8 December 2020. Synthesis Report. UNESCO .www.unesdoc.
+unesco.org/ark:/48223/pf0000377251 .
+Palalas, A. and Hoven, D. (2016), “Emerging pedagogies for MALL ”, in Palalas, A. and Ally, M. (Eds),
+The International Handbook of Mobile-Assisted Language Learning , China Central Radio and
+TV University Press, pp. 44-85.Interactive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Papp, D. (2023), “With ChatGPT, game NPCs get alot more interesting ”, Hackaday, available at: www.
+hackaday.com/2023/02/08/with-chatgpt-game-npcs-get-a-lot-more-interesting/
+Pasquale, F. (2015), The Black Box Society: The Secret Algorithms That Control Money and
+Information , Harvard University Press, Cambridge, MA.
+Pegrum, M. (2019), Mobile Lenses on Learning: Languages and Literacies on the Move , Springer, doi:
+10.1007/978-981-15-1240-7 .
+Pegrum, M., Hockly, N. and Dudeney, G. (2022), Digital Literacies , 2nd ed., Routledge.
+Pennycook, A. (2018), Posthumanist Applied Linguistics , Routledge.
+Perez, S. (2023), “Google assistant is getting AI capabilities with Bard ”, TechCrunch, available at:
+www.techcrunch.com/2023/10/04/google-assistant-is-getting-ai-capabilities-with-bard/
+Pullen, J.P. (2017), “A lesson in communication ”, in Kennedy, K. and Mifsud, C. (Eds), Artiﬁcial
+Intelligence: The Future of Humankind , Time Special Editions.
+Reeves, B. and Nass, C. (1996), The Media Equation: How People Treat Computers, Television, and
+New Media like Real People , Cambridge University Press.
+Sauro, S. and Zourou, K. (2019), “What are the digital wilds? ”,Language Learning and Technology ,
+V ol. 23 No. 1, pp. 1-7 , available at: www.lltjournal.org/item/895/
+Sharples, M. (2023), “Generative AI and education futures ”,2023 UCL Education Conference,
+University College London , available at: www.ucl.ac.uk/teaching-learning/case-studies/2023/
+aug/generative-ai-and-education-futures
+Shortt, M., Tilak, S., Kuznetcova, I., Martens, B. and Akinkuolie, B. (2023), “Gami ﬁcation in mobile-
+assisted language learning: a systematic review of Duolingo literature from public release of2012 to early 2020 ”,Computer Assisted Language Learning , V ol. 36 No. 3, pp. 517-554, doi:
+10.1080/09588221.2021.1933540 .
+Son, J.-B.E. (2014), Computer-Assisted Language Learning: Learners, Teachers and Tools , Cambridge
+Scholars Publishing.
+Sridhar, C.S. (2023), “Differences between conversational AI and generative AI ”, Purple Slate.,
+available at:
+www.purpleslate.com/differences-between-conversational-ai-and-generative-ai/
+Srnicek, N. (2016), Platform Capitalism , Polity Press.
+Stockwell, G. (2021), Mobile Assisted Language Learning: Concepts, Contexts and Challenges ,
+Cambridge University Press.
+Thumlert, K., Tomin, B., Nolan, J., McBride, M., Lotherington, H. and Boreland, T. (2022),
+“Algorithmic literacies: identifying educational models and heuristics for engaging the challenge
+of algorithmic culture ”,Digital Culture and Education , V ol. 14 No. 4, pp. 19-35 , available at:
+www.digitalcultureandeducation.com/volume-14-4 .
+van Dis, E.A., Bollen, J., Zuidema, W., van Rooij, R. and Bockting, C.L. (2023), “ChatGPT: ﬁve
+priorities for research ”,Nature , Vol. 614 No. 7947, pp. 224-226, doi: 10.1038/d41586-023-
+00288-7 .
+Varis, P. (2016), “Digital ethnography ”, in A. Georgakopoulou and T. Spilioti, Eds, The Routledge
+Handbook of Language and Digital Communication , Routledge, pp. 55-68.
+Walker-Rettberg, J. (2022), “ChatGPT is multilingual but monocultural, and it ’s learning your values ”,
+jill/txt, available at: www.jilltxt.net/right-now-chatgpt-is-multilingual-but-monocultural-but-its-
+learning-your-values/
+Walsh, C. and Apperly, T. (2012), “Using gaming paratexts in the literacy classroom ”, in Martin, C.,
+Oschner, A. and Squire, K. (Eds), Proceedings GLS 8.0 Games + Learning + Society
+Conference , ETC Press, pp. 322-329.
+Weizenbaum, J. (1966), “ELIZA –a computer program for the study of natural language
+communication between man and machine ”,Communications of the ACM , Vol. 9 No. 1,
+pp. 36-45, doi: 10.1145/365153.365168 .ITSE
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025
+Wiggers, K. (2023), “Amazon brings generative AI to Alexa ”, TechCrunch, available at: www.
+techcrunch.com/2023/09/20/amazon-brings-generative-ai-to-alexa/
+Zuboff, S. (2019), The Age of Surveillance Capitalism: The Fight for a Human Future at the New
+Frontier of Power , Public Affairs.
+Further reading
+Crothers, E., Japkowicz, N., Viktor, H. and Branco, P. (2022), “Adversarial robustness of neural-
+statistical features in detection of generative transformers ”,2022 International Joint Conference
+on Neural Networks (IJCNN) IEEE , pp. 1-8, doi: 10.1109/IJCNN55064.2022.9892269 .
+Corresponding author
+Heather Lotherington can be contacted at: hlotherington@edu.yorku.ca
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htmOr contact us for further details: permissions@emeraldinsight.comInteractive
+Technology and
+Smart Education
+Downloaded from http://www.emerald.com/itse/article-pdf/doi/10.1108/ITSE-02-2024-0038/9756437/itse-02-2024-0038.pdf by guest on 10 August 2025

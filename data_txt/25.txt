@@ -1,0 +1,1000 @@
+Governance Design of Collaborative Intelligence for Public Policy
+and Services
+Yu-Che Chen
+School of Public Administration,
+University of Nebraska at Omaha
+ychen@unomaha.eduHelen K. Liu
+Department of Political Science,
+National Taiwan University
+helenliu4@ntu.edu.twYi-Fan Wang
+Department of Political Science,
+National Taiwan University
+molinawang@gmail.com
+ABSTRACT
+The existing literature presents an opportunity to address the gov-
+ernance challenge of collaborative intelligence for public policy
+and services. This paper seizes the opportunity by developing a
+governance framework for public value creation. This proposed
+framework builds on a novel conceptualization of collaborative
+intelligence that advances collaboration as the governance goal
+and treats technology-enabled platforms as central to collaboration.
+This framework draws from the scholarly foundation of collabo-
+rative governance that focuses on rules and addresses levels and
+dynamics. Moreover, this framework integrates both technologi-
+cal and administrative dimensions. The important advancements
+of this proposed framework lie both in treating AI as an actor
+in governance structures and processes and in understanding the
+interactions between technologies and rules. Another important
+contribution is to integrate various mechanisms of collaborative
+public service production into this unified governance framework
+for collaborative intelligence.
+CCS CONCEPTS
+•Social and professional topics ; •Computing / technology
+policy; •Government technologypolicy ;
+KEYWORDS
+Collaborative intelligence, governance, digital government, collab-
+oration
+ACM Reference Format:
+Yu-Che Chen, Helen K. Liu, and Yi-Fan Wang. 2024. Governance Design of
+Collaborative Intelligence for Public Policy and Services. In 25th Annual
+InternationalConferenceonDigitalGovernmentResearch(DGO2024),June
+11–14, 2024, Taipei, Taiwan. ACM, New York, NY, USA, 10 pages. https:
+//doi.org/10.1145/3657054.3657075
+1 INTRODUCTION
+The rise of artificial intelligence presents significant governance
+challengestoorganizationsforadvancingpublicpolicyandservices.
+These include governance design to address the challenge of in-
+volving artificial intelligence in making decisions that significantly
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish,topostonserversortoredistributetolists,requirespriorspecificpermission
+and/or a fee. Request permissions from permissions@acm.org.
+DGO 2024, June 11–14, 2024, Taipei, Taiwan
+© 2024 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-0988-3/24/06
+https://doi.org/10.1145/3657054.3657075impact the rights and welfare of members of society [ 10,32,45,69].
+Another salient challenge is to identify and implement governance
+principles and design structures and processes for addressing bias
+that can be introduced at various stages of the development and
+design of AI systems [12].
+At the same time, opportunities exist for addressing these gover-
+nance challenges regarding the integration of artificial intelligence
+in public services. The existing literature on the theory and prac-
+tice of AI governance provides several avenues to address these
+challenges. The first is to approach governance from multiple and
+embedded levels of policy and legal frameworks [ 66]. The second
+is to take a cross-sector or collaborative approach to accountability
+and public value creation [ 37,59]. Third is a process-orientation
+for understanding and assessing the interaction between artificial
+intelligence and public values [ 12]. Fourth is to build the micro
+foundation of the unique strengths and complementary collabora-
+tion between artificial intelligence and humans in the context of
+public organizations [8, 67].
+Multiple conceptualizations exist for understanding human-AI
+collaboration. Hybrid intelligence brings humans and AI together
+by leveraging the complementary strengths of humans and AI [ 17].
+Collectiveintelligenceutilizesacollaborativeorganization-directed
+platform for people working together to achieve a common organi-
+zational goal [ 56]. Although these streams of studies and the diver-
+sity of conceptualizations offer significant insights independently,
+there is a missed opportunity to build a collaborative governance
+framework that integrates these insights for public value creation.
+This paper seizes the opportunity by offering a novel conceptual-
+ization that advances collaboration for public value creation as the
+governancegoalandtreatstechnology-enabledplatformsascentral
+to collaboration.
+This paper proposes the term ”collaborative intelligence” as a
+moreinclusiveandintegrativeconceptualizationthatregardscollab-
+orationbothasthegoalandastheprocess, recognizesadiversityof
+actors (humans and machines), and covers a collection of collabora-
+tive mechanisms (e.g. platform and crowd-sourcing). The proposed
+framework builds on public governance and institutional design
+literature as the unifying intellectual foundation for the purpose of
+governance design for public services. Moreover, this framework
+explicitlyaddressesgovernanceactivitiesforcollaborationbetween
+humans and AI across levels.
+This paper achieves its goal of developing a governance frame-
+work by first introducing the conceptualization of collaborative
+intelligenceassituatedintheexistingbodiesofliterature. Itfollows
+with the challenges facing the use and integration of AI in public
+service decision-making in the continuum and variety of human-AI
+collaboration. Next is the articulation of the proposed governance
+framework to address the governance challenges grounded in the
+146
+
+DGO 2024, June 11–14, 2024, Taipei, Taiwan Yu-CheChen et al.
+literature on collaborative public governance and institutional de-
+sign. This paper concludes with future research opportunities.
+2 COLLABORATIVE INTELLIGENCE FOR
+PUBLIC POLICY AND SERVICES
+This paper aims to develop a conceptualization of collaborative in-
+telligence that promotes an effective design of collaboration across
+multiple intelligent actors for public value creation. It draws from
+the insights of AI governance, collective intelligence, collaborative
+governance,andactornetworktheory. Theproposedconceptualiza-
+tion first recognizes multiple intelligences and treats both humans
+and AI as intelligent actors. A unifying conceptualization of hu-
+man and artificial intelligences concerns intelligent capabilities,
+including sensing, learning, reasoning, communicating, and taking
+actions [ 61]. Another quality is to carry out these capabilities with
+foresight [ 49,61]. Both humans and AI are intelligent actors as
+supported by the Actor Network Theory [ 28] which treats both
+human and machines as actors in a network to decide on and im-
+plement tasks. The notion of actors recognizes the ability of both
+humans and AI to make decisions and should be treated as actors of
+decisions. For instance, AI is responsible for information analysis
+to identify potential fraudulent activities, while humans draw from
+theirfieldexperiencesindecidingonwhotopursue[ 19]. Moreover,
+this paper further extends the conceptualization to organizations
+such as a governmental agency as an organizational actor and a
+network of computers as a collective actor.
+These intelligent actors have respective strengths and weak-
+nesses in the context of public services and governance for public
+value creation. Bullock et al. [ 9] use complexity and uncertainty
+as the two dimensions to define task characteristics for comparing
+the strengths of humans and machines. Complexity refers to the
+level at which a task deviates from the standard procedure, and
+uncertainty means the degree to which the task cannot be pre-
+dicted and analyzed. Humans are more competent to tackle com-
+plex tasks than machines, but AI agents process uncertainty better
+than public employees. In other words, human agents dominate
+in highly complex and uncertain tasks, but machine intelligence
+outperforms in simple and straightforward work. In addition, AI
+leads the collaboration in public services with high uncertainty and
+low complexity, while human agents can maintain more power in
+completing missions with low uncertainty and high complexity [ 9].
+Humans are good at tackling tasks that require more discretion
+[15]. Moreover, human agents can develop strategies to improve
+socially- and service-oriented values in collaborating with AI even
+if their traditional discretion has been replaced by machines [6].
+The proposed conceptualization of collaborative intelligence re-
+gards collaboration as both the goal and the process. The goal of
+collaboration is to achieve a result that is better than the work of a
+single type of actors, either humans or AI. Moreover, collaborative
+intelligence is about the collaborative mechanisms that make col-
+laboration productive. For public service and governance, there has
+been a growth in the variety and sophistication of digital platforms
+to engage citizens to participate in public policy and engage in
+public service production [34, 40].Similarly,therehasbeengrowthinpolicy,organizational,andin-
+stitutional arrangements to foster human-AI collaboration for pub-
+licpolicyandservice[ 19,37]. Morebroadly,thecoproductionindig-
+ital transformation in the public sector includes co-planning (stake-
+holder participation for national digital transformation strategies),
+codesign(userstories,prototypes,andworkshops),co-management
+(public-private partnership, contracting out), co-delivery (data en-
+try, provision of services), and co-assessment (forums for evalua-
+tion) [53].
+This paper extends the public governance literature in public
+administration to explicitly address the role of digital technologies
+and platforms in collaboration between human intelligence and
+artificial intelligence. The studies of digital transformation [ 20,53]
+inform the governance design. Digital transformation requires
+consideration of cultural, organizational, structural, and relational
+aspects of changes in the public sector [ 20,35]. Moreover, copro-
+duction in digital transformation creates economic, administrative,
+citizen, and democratic values [53].
+The research on collaborative digital platforms further intro-
+duces integrated governance and technology design. Governments
+leverage the functions of digital platforms for public services [ 27].
+Digital government platforms are increasingly recognized as criti-
+cal public governance and service components. Noveck [ 40] argues
+that decisions made by public institutions would be more legiti-
+mate and effective if the decision-making process involved internal
+and external expertise through advanced technologies, known as
+crowd-sourcing. To enhance the governance of digital and plat-
+form government, Noveck [ 40] proposes a further understanding
+of who participates, what type of incentives and motivations the
+participantshave, andwhat institutions aredesigned as the guiding
+principles of digital platform governance.
+Furthermore, Liu [ 30] reveals three components of digital and
+platform government governance: alignment, motivation, and eval-
+uation. On alignment, Liu [ 30] stresses the importance of aligning
+policy goals with crowd-sourcing initiatives and matching crowd-
+sourcing tasks with participants’ skills. On motivation, it is critical
+to create incentives for participation and quality of contribution
+[30]. Finally, on evaluation, it is important to design a peer review
+process and establish a reputation system to build trust for the
+governance of the digital and platform government.
+3 BENEFITS AND CHALLENGES OF
+COLLABORATIVE INTELLIGENCE FOR
+PUBLIC POLICY AND SERVICES
+The opportunities for collaborative intelligence come from the com-
+plementary role that human and AI actors play by leveraging their
+respective strengths to compensate for their respective weaknesses.
+Humans’ strengths lie in understanding complexity and dealing
+with uncertainty [ 9]. However, humans are limited in gathering
+and processing a large amount of data and information with accu-
+racy. On the other hand, AI is superior in gathering and analyzing
+big data with precision. Nonetheless, AI is constrained by the data
+and its ability to solve complex and uncertain problems. Working
+together, humans and AI can produce significant results [17, 26].
+The collaboration of humans and AI has seen positive impacts in
+several public service areas [ 64]. In governmental operations, there
+147
+Governance Design of Collaborative Intelligence for Public Policy and Services DGO 2024, June 11–14, 2024, Taipei, Taiwan
+is an increase in the capabilities of gathering and analyzing a large
+amount of data for fraud detection, resource planning, customer
+services, work productivity, etc [ 19]. The most recent development
+and application of ChatGPT can provide digital knowledge and
+writing assistance that is comprehensive and personalized.
+The benefits of collaborative intelligence also come from
+platform-based coproduction and co-creation between citizens and
+governments. Noveck [ 41] first notes that new technology facili-
+tates collaboration and enables collective action to resolve complex
+problems. She emphasizes the importance of designing a trans-
+parent process to exchange information between the government
+and the public through the rise of social media. Most importantly,
+policy experts selected by government officials might not be knowl-
+edgeable about all aspects of the policy needs. Therefore, new
+technology allowing crowd-sourcing and open peer review can
+help the government be more informed about policy decisions [ 41].
+Citizen service information systems such as 311 can also benefit
+from collaborative intelligence [ 50]. By reporting issues, citizens
+help local governments sense the problems experienced by citizens
+on the ground. By asking for information, citizens assist govern-
+mentsinidentifyingthemostcriticalinformationservices. Indoing
+so, citizens play the dual roles of customers and partners [ 58]. AI
+can be deployed for its natural language processing capability to
+provide on-demand targeted responses to inquiries. Moreover, pub-
+lic innovation can be enhanced through better digital and platform
+government governance by engaging different social and political
+actors in collaborative processes addressing differences [ 60]. The
+processes of constructive managing differences are critical for pub-
+lic innovation because they help identify problems and simulate
+solutions to facilitate innovation.
+However, there are risks and dangers in the rise of algorithmic
+governance with the deployment of AI for public governance and
+services. Some government use of AI, internally created by the
+collaboration between AI and government employees, can threaten
+personal autonomy by nudging citizens to behave in the way that
+enhances government control [ 38]. Information asymmetry can
+further erode the ability of regular citizens to respond or challenge
+algorithmic or AI-based decisions [10, 45].
+Moreover, the use of AI in public governance can increase the
+risk of administrative evil [ 68]. Such risks arise from technology
+instructability, automation bias, and domination of technological
+rationality. The risks further increase when there is a lack of con-
+sideration of social and democratic values, insufficient testing of AI-
+enabledsolutions,andanoverrelianceonquantitativeandmachine-
+readable data.
+The use of AI can result in discrimination against certain social
+groups [ 65]. Digital inequality has been a long-standing challenge
+since the advancement and use of digital technologies by govern-
+ment [21,45]. The deployment of artificial intelligence, in some
+instances, has further resulted in discrimination in the areas of
+policing and hiring practices.4 A GOVERNANCE FRAMEWORK OF
+COLLABORATIVE INTELLIGENCE FOR
+PUBLIC POLICY AND SERVICES
+This proposed framework takes a sociotechnical system perspec-
+tive with an explicit focus on digital technologies and intelligent
+characteristics for collaboration. The goal is governance design in-
+formed primarily by the collaborative governance framework [ 18]
+and the studies of institutional analysis and development [ 42,52].
+Thecontextispublicgovernanceandservicesthatspanfromcitizen
+participation in public policy to government provision of services.
+This framework, as depicted in Figure 1, has the following com-
+ponents. First are the design principles for the governance of col-
+laborative intelligence. Design principles are essential for effective
+governance. Moreover, it will discuss mechanisms for integration.
+The second component is the consideration of levels. Levels are an
+important consideration for understanding the effectiveness of net-
+work governance [ 47,48]. Such networks can include both human
+actors and AI ones. The distinction between levels is important
+[25] and can serve as an analytical frame to identify and leverage
+governance design opportunities. The third component is the con-
+ceptualization and development of governance as a configuration
+of rules for behaviors and interactions. A rule-based analytical
+approach can provide more specific governance recommendations
+as advanced by scholars working on institutional analysis and de-
+velopment[ 51]and institutional grammar [ 22]for the development
+of collaborative intelligence.
+Moreover, this framework addresses the interactions of these
+components by describing the governing mechanisms in the so-
+ciotechnicalsystemforachievingthepublicgovernanceandservice
+results of collaborative intelligence. These interactions integrate
+levelsandrulesbyengagingactionssuchasprincipledengagement,
+shared motivation, and capacity for joint action [ 18]. Moreover, the
+incorporation of the sociotechnical system perspective addresses
+the dynamics of these areas of activities. The feedback loops from
+governance results to governance design and activities are essential
+considerations for the framework [23, 57].
+4.1 Design Principles
+The first principle is to use public values to guide the governance
+framework. This principle aligns with the context of public gover-
+nance and services and addresses the need to serve public interests.
+Advancing public interests requires articulation and inclusion of
+public values. These values for digital governance can include
+societal values such as equity, justice, fairness, and impartiality;
+service-oriented ones such as efficiency, effectiveness, and trans-
+parency; and duty-oriented ones such as democratic governance
+and accountability [ 4]. Moreover, the guidance of public values
+also implies the understanding of the interactions between public
+values and governing activities. A productive way to understand
+such interactions is to examine the process of the collaboration
+between humans and AI to study how public values are first intro-
+duced for the AI system design, then codified into the goals of AI
+systems, followed by the actual implementation of AI systems, and
+concluded with an evaluation of the public value implications for
+various stakeholders [12].
+148
+DGO 2024, June 11–14, 2024, Taipei, Taiwan Yu-CheChen et al.
+Figure 1: A multi-levelprinciple-guided governanceframeworkfor public policy and services
+The second design principle is to explicitly model and design a
+sociotechnical system by recognizing both the distinctive charac-
+teristics of a social system and a technical one and the interactions
+between both systems to form a holistic sociotechnical system. The
+social one mainly involves the social interactions between humans
+to coordinate among themselves to create shared understanding
+and accomplish collective tasks. The technical one consists of the
+use of data and various technologies. The primary focus is the digi-
+tal format of these data and technologies. The holistic attribute of
+the sociotechnical system comes from the networked interactions
+andcouplingsofhumansandcomputers. Forinstance,adistributed
+computing environment requires the integration of computer net-
+works and human networks [ 54]. Moreover, a sociotechnical sys-
+tem is a dynamic one that includes feedback loops between various
+inputs, conditions, and outputs. A feedback loop can reinforce a
+condition or balance it in a complex web of many feedback loops.
+Identifying key dynamics and feedback loops helps evaluate and
+identify policy solutions [ 23]. The proposed framework will follow
+a similar approach to identifying governance solutions.
+The third principle is to design collaborative structures and pro-
+cesses to leverage the characteristics and strengths of different ac-
+tors and focus on their complementarity. Humans are social beings
+with emotional attributes. Governance of collaborative intelligence
+can design rules and processes to enhance social connections and
+attend to emotional motivators. Humans are also the primary ac-
+tors who embody public values. Humans can design collaborative
+rules to ensure the consideration and infusion of public values into
+collaboration. Collaborative processes can explicitly draw on the
+strengthsofAIsystemsininformationprocessingandanalysis. The
+recent development in the natural language processing capabilityof generative AI provides additional communication capabilities
+between humans and information systems.
+4.2 Levels
+The proposed governance framework explicitly addresses levels.
+The distinction between levels is important for the study of public
+policy and governance [ 25,39] and for digital platforms [ 34]. The
+proposed framework follows the categorization of levels by Jilke et
+al. [25] to include macro, meso, and micro levels. The focus at each
+level is the policies and rules that govern the behaviors of various
+entities. The goal is to conduct institutional design [42, 43].
+At the macro level, the digital governance of collaborative intel-
+ligence pertains to the broad policy and institutional environment
+as well as the technological one. This is usually at the level of
+a nation or a union of nations that has its own legal and policy
+framework on the collaboration between AI and humans as well as
+on citizen-government collaboration utilizing digital platforms. In
+the United States, examples of such a framework are the Executive
+Order of the Biden Administration titled ”Executive Order on the
+Safe, Secure and Trustworthy Development and Use of Artificial
+Intelligence” on the specific requirements for federal agencies and
+the general statements in the AI Bill of Rights. The technological
+environment also shapes the strengths of AI in relation to humans
+as well as the ways in which AI and humans can collaborate. The
+fast development of generative AI, such as ChatGPT demonstrates
+the capability of generative AI in leveraging all publicly available
+digital content and the ability to communicate in human-like prose
+writing.
+At the meso level, governance designs are about the rules for
+digital platforms that foster collaboration between an organiza-
+tion and individuals or a collaborative network of organizations
+149
+Governance Design of Collaborative Intelligence for Public Policy and Services DGO 2024, June 11–14, 2024, Taipei, Taiwan
+and technical entities for public service. Digital platforms can
+foster collaboration between government agencies and individual
+citizens/residents to produce public services [ 29]. There are gov-
+ernance arrangements that foster collaboration between citizens
+and government by utilizing digital platforms. For example, Peer
+to Patent case taps into the public service motivation of citizens for
+public service production [ 29,41] facilitated by digital platforms.
+Another type of coproduction of public service is the resident infor-
+mationservicesasgatheredanddisseminatedby311systems. These
+platforms can also help with the generation of policy ideas, such as
+those seen in the UK’s My2050. These governance arrangements
+address the collective action of individuals in the coproduction of
+public policy and service.
+The technological advancements at the meso level are the devel-
+opment of applications and information systems that significantly
+increase the ease of collaboration across a diversity of skills and
+conditions for the production of public service and the generation
+of public policy ideas. Moreover, the aggregation and sharing of
+information have been significantly streamlined. For instance, such
+streamlining is evident in sophisticated citizen service systems run
+by local governments. In addition, the development of AI chatbots
+combinedmuchimprovednaturallanguageprocessingcapabilityto
+understand and respond to human service queries. For producing
+publicly funded computing resources, the advancement in tech-
+nology allows the integration of software and hardware as well as
+humansforprovidingadvancedcomputingresourcestoresearchers
+[13].
+At the micro level, it is the design of collaborative interactions
+between individuals and a specific AI system. This involves the
+specification of the role that humans play in collaborating with AI
+systems. Such collaboration should take advantage of the respec-
+tive strengths and capabilities of human and AI actors. Building
+on the automation literature, the involvement of humans can vary
+depending on the stages [ 44]. Moreover, the question of author-
+ity and corresponding accountability is important in structuring
+collaboration. An AI system for fraudulent activity investigation
+is particularly productive in analyzing a large amount of textual
+data. At the same time, humans can provide a ”bag of words” based
+on their investigatory experiences that flag potentially fraudulent
+activities [ 19]. What the AI system offers is recommendations.
+The final decision authority still lies in the human investigators,
+recognizing the accompanying accountability.
+4.3 Rules as Governance Structure
+This proposed design framework adapts pertinent rules of institu-
+tional design [ 42,43,51] to model the governance structure of a
+socio-technical system for collaborative intelligence. First, partici-
+pant rules prescribe who can participate in various positions and
+decisions. For an AI-enabled system for public information service,
+a participant rule can require someone to be a registered local resi-
+dent or citizen to contribute to the system. Second, position rules
+specify the positions that participants can take in the governance
+structure. Atthemesolevel,onepositioncanbepolicymakers,who
+decide whether to adopt a certain AI system for a particular digital
+government platform to be used. At the micro level is the position
+of the AI system developer. Such a position provides the systemdeveloper with an official role in participating in the governance
+decisions.
+The third type is authority rules, which prescribe a set of de-
+cisions attached to a position. For instance, a software developer
+typicallyhastheauthoritytomaketechnicaldecisionsonthechoice
+of the AI development environment. Public service professionals
+have the authority to make decisions on whether to follow the
+recommendations of an AI system. The policymakers can decide
+on what the core public values are advanced. The question of au-
+thority is particularly salient in public service organizations, as
+accountability usually follows authority.
+The fourth type is information rules, which prescribe what infor-
+mation is available to each position and decision. For instance, an
+information rule can allow city council members to have full access
+to the AI system development history and system specifications for
+making the decision on city-wide adoption of the system. Informa-
+tion rules are salient for the collaboration between humans and AI
+systems at the micro level. At the meso level, the development of
+explainable AI can assist in not only making information available
+but also more understandable [3].
+The payoff rules specify how benefits and costs are allocated to a
+participant in a specific position. For instance, a citizen may benefit
+from a digital government platform to contribute and receive city
+information services such as a 311 system. A public manager may
+benefit from making an AI system more transparent to gain the
+trust and support of citizens. There could be costs of facility, time,
+and resources for the operation of a digital government platform.
+The costs can be borne by taxpayers. Some of the costs could be
+borne by the users of the system.
+The typology and the specifics of rules help model the gover-
+nance structure and assess the governance outcomes [ 22,43]. The
+governance structure includes the specifics of each type of rules
+and their configuration. Rule configuration is important to under-
+standing the governance structure and its impact on outcomes [ 42].
+Moreover, attention will be paid to the rules-in-use, which reflect
+practice better than the rules in the book. Rules-in-use structure
+the actual behavior of the participants taking on various positions
+and making decisions.
+4.4 Governance Activities and Mechanisms
+The embeddedness of levels is a key design consideration of gov-
+ernance activities and mechanisms. The system context should be
+commensurate with the scope of the investigation. For the interest
+in public governance and service, the broad system context needs
+to capture the national context that includes core public values,
+typeofadministrativesystems, technologicalcapabilities, economy,
+and demographics [ 55]. The meso-level governance of interorgani-
+zational networks and digital government platforms is embedded
+in this broader sociotechnical context. Such embeddedness recog-
+nizes the important influence of values as well as administrative,
+technological, and economic factors at the system context level
+on prescribing and constraining the boundary of possibilities for
+institutional design at the meso level. The micro-level governance
+design is further conditioned and structured by the rules at both
+the meso and the macro levels. A digital government platform for
+coproduction of public service prescribes the respective roles of
+150
+DGO 2024, June 11–14, 2024, Taipei, Taiwan Yu-CheChen et al.
+citizensandgovernments. Thesemeso-levelrulesgovernthedesign
+of collaborative interactions between humans and AI systems.
+The levels also imply the relative magnitude of effort for change
+as well as trade-offs. The macro-level institutions require the most
+effort for change as they are related to the changes that Ostrom
+characterizes as constitutional-level change. Such change usually
+requires a significant modification to the constitutions of the col-
+lective. The meso-level change such as the change in collaborative
+arrangement between government and citizens utilizing a digital
+platform, is relatively easier than those at the constitutional level.
+At the micro level, government agency managers and AI system
+developers can make changes within their scope of responsibilities.
+The focus of the proposed framework is governance design on
+the meso level while considering the constraints and conditions at
+themacrolevelandtheimplicationsofgovernanceatthemesolevel
+for activities at the micro level. Moreover, the proposed framework
+conceptualizes activities and dynamics by organizing around the
+three areas of activities as proposed by Emerson et al. [ 18] in their
+work on an integrative framework for collaborative governance,
+namely principled engagement, shared motivation, and capacity
+for joint action. The governance activities and mechanisms are
+also informed by the literature on network governance and digital
+government platforms.
+4.4.1 Principled Engagement. Principled engagement, as proposed
+by this framework, builds on the principles suggested by Emerson
+et al. [18], expands to the inclusive incorporation of public values
+and recognition of AI systems as an actor, and addresses the char-
+acteristics of information and technologies. More specifically, the
+guiding principles for engagement are open and civil communi-
+cation and discourse, representation of stakeholder interests, and
+incorporation of stakeholder perspectives and knowledge [2, 7].
+These principles align with several key public value consider-
+ations for the effective design of digital platforms for collabora-
+tion between government, humans, and AI systems [ 12]. Such
+engagement can promote equity in participation. A salient digital
+participation challenge facing underserved communities is access
+to broadband services. Accessibility and usability challenges can
+be barriers to effective collaboration via digital government plat-
+forms [36]. The implementation of collaborative platforms needs
+to consider and implement an in-person supporting mechanism for
+utilizing digital platforms. Such equity in participation can be sup-
+ported mainly by participant rule that allows for the participation
+of key stakeholder groups at a particular phase of collaboration.
+For instance, the participation of the stakeholders impacted by an
+AI system is considered important for achieving equity in partici-
+pation. Information rules allowing for the sharing of information
+to under-represented stakeholder groups can further strengthen
+equity.
+Engagement needs to explicitly consider AI systems as an actor
+for collaborative intelligence and engage them accordingly. As
+stated previously, AI can complement human actors in conduct-
+ing analysis of big data and identifying emerging patterns. Such
+engagement can be supported by participant rules to allow for an
+explicit role for AI systems and then governed by authority rules
+to delineate their decision-making authority.Transparency in engagement is particularly important for in-
+cluding AI systems. Transparency is one of the primary concerns
+for collaborating with AI systems [ 15]. How and why a particular
+conclusion is reached by an AI system are difficult to ascertain. For
+public policy and service, there is a need to actively design and
+implement transparency measures to ensure a reasonable under-
+standing of how and why for meaningful participation.
+A digital government platform typically embodies a multitude
+of public values and engagement approaches. Several civic engage-
+ment projects implemented in the public sector demonstrate core
+values like human dignity, digital equity, transparency, account-
+ability, and democracy. For instance, Philadelphia’s Change by Us
+platform empowered citizens to voice ideas to improve their neigh-
+borhoods, reinforcing human dignity and democratic participation
+[1]. In New York, the Big Ideas challenge exemplified transparency
+and accountability by inviting citizens to submit online ideas for
+applications to improve civic services [ 1]. Additionally, Helsinki’s
+initiativeillustratesdigitalequityandtransparency,whereCodefor
+Europe fellows created an app to catalog public museum art, and
+citizens contributed by tagging uncatalogued art images [ 1]. These
+open calls for ideas promoted equitable participation through digi-
+tal platforms and upheld democratic values by involving citizens
+directly in the service provision or policymaking.
+4.4.2 Shared Motivation and Mutual Trust. The cultivation of
+shared motivation and mutual trust is an important governance
+activity for collaborative intelligence. Articulation of shared values
+is an essential source of shared motivation. For collaborative ar-
+rangements for public service, the shared motivation for improving
+our society is productive. Public service motivation can explain the
+energy and commitments of public service professionals [ 46]. Such
+motivation can be a unifying force to bring various groups of par-
+ticipants together for the creation and advancement of a common
+goal. Such shared motivation is the basis for the creation of mutual
+understanding, shared commitment, and mutual trust.
+For digital platforms facilitating collaboration among citizens
+themselves and citizens with a public-sector organization, there
+are various mechanisms for creating shared motivation and mutual
+trust. Citizens commonly evaluate and improve public policy or
+public service ideas through voting or commenting, as seen in
+platforms like Open Government Dialogue. This method is crucial
+for refining outcomes, controlling content quality, and predicting
+preferences[ 31]. Atransparent,fairaggregationprocessofcitizens’
+input in policy idea generation and evaluation is essential to the
+generation of trust [ 31]. Such a process should also respect and
+value participant contributions for the generation of mutual trust.
+Trust in the government systems can foster trust in e-services
+[5]. The general trust in government plays an important role in
+the determination of trust in government AI systems [ 63]. Build-
+ing trust in government AI systems requires the consideration of
+AI system qualities and openness. Governing activities such as
+the participatory design in AI chatbots have shown promise in ad-
+dressing the deficiency in the trust of indigenous people in the U.S.
+government [ 62]. A more open participant rule can support trust
+building. Moreover, an authority rule that empowers historically
+marginalized stakeholder can also support trust building. Hav-
+ing the representative of tribal nations to chair AI system design
+151
+Governance Design of Collaborative Intelligence for Public Policy and Services DGO 2024, June 11–14, 2024, Taipei, Taiwan
+meeting is perceived to earn more trust from the tribal members
+[62].
+Transparency can enhance trusting relationships between gov-
+ernmentsandcitizens[ 24]. Digitalgovernmentplatformstoengage
+citizens/residents have emphasized the importance of transparency
+in the aggregation of their opinions and preferences [ 31]. Informa-
+tion rules can codify who can receive what information to ensure
+transparency to various stakeholder groups. Transparency is con-
+sidered one of the most critical factors for a trusting relationship
+between humans and AI when AI systems can make independent
+information utilization and analysis decisions. For public policy
+and service decisions, providing transparency in the involvement
+of AI in decision-making and the line of authority is important
+not only for the public managers involved but also for the general
+public.
+4.4.3 Capacity for Joint Action. At the meso level, the capacity
+for joint action includes the technical and administrative capacity.
+There are activities and mechanisms that support capacity building.
+There are several areas of technical capacity for digital government
+networks and platforms. First is the need to address disparate data
+standards to ensure quality and a service-oriented view of informa-
+tion and service [ 14,16]. Second is the capability for collaborative
+communication and coordination [ 13]. A shared information and
+communication infrastructure helps with information-sharing and
+coordination. Acommoncommunicationplatformwithknowledge
+managementcapabilityhelpscoordinatethecomputingandhuman
+resources available via a distributed network. Government-citizen
+collaborative platforms typically have a technical infrastructure
+that allows access and collaboration, such as in the case of 311
+systems [ 11]. For cross-sector collaboration, the underlying infor-
+mation architecture of a platform is essential, shaping how various
+stakeholders, including government, businesses, civil society, and
+citizens, interact [ 34]. The next area of technical capability is the
+feedback to participants of the networks and platforms about their
+use and contributions to the network or platform. A sophisticated
+platform typically allows for a personalized participant view.
+Leadership and management play a critical role in growing ad-
+ministrative capability for managing digital governance networks
+or platforms [ 14]. Such administrative capacity allows for the align-
+ment of collaborative interactions to the goals of public policy and
+services. Collaborative public managers can engage in the acti-
+vation of key network member organizations to ensure certain
+capacity [ 33]. Mobilization is another main area of activity that
+helps address the interdependence among members of policy and
+service networks [ 33] and fosters joint innovation [ 60]. For digi-
+tal government platforms, administrative capacity for structuring
+and implementing tasks to facilitate individual participation is im-
+portant. In a citizen-facing crowd-sourcing platform, a structured
+approach to matching tasks with crowd members’ specific skills
+and interests enhances effectiveness [ 30]. For example, the Peer to
+Patent project [ 41] structures the review as a five-step process with
+clear instructions available on the project website.
+At the micro level, joint action refers to the collaboration be-
+tween humans and AI to complement each other. The technical
+capacity for joint action requires a technical infrastructure thatallows for effective communication and collaboration. Such a tech-
+nical infrastructure needs to have several qualities. First is clear
+documentation of the data utilized and the respective roles of hu-
+mans and AI in data input. Such documentation is important to
+address potential biases in the data that are a central concern for
+public service. Second is the specification of the technical capabil-
+ities of AI systems. AI systems vary significantly in capabilities.
+Some AI systems focus on natural language processing. Some are
+specific about computer visions. Knowing the specific capability
+that AI brings to the public service task is crucial for designing
+and implementing appropriate collaboration. Technical capacity
+for collaboration also includes the communication between AI and
+humans in the predictive framework models specified by humans
+and the AI’s communication with humans about the process and
+results of reasoning and learning.
+The administrative aspect of collaboration between humans and
+AI can be modeled after the process of information acquisition,
+information analysis, decision, and action selection, and then ac-
+tion implementation, as suggested by the work on automation [ 44].
+Humans and AI can collaborate on each of the steps depending
+on their relative strengths. For instance, humans can help acquire
+qualitative data from humans and convert them into digital format.
+AI systems such as ChatGPT can gather publicly available digital
+data. Humans can provide value-based guidance for decision and
+action selection, while AI can help explore and rank various deci-
+sions and their consequences. One focus should be on explainable
+AI (XAI) for collaboration at various stages of the process.
+4.4.4 Dynamics and Feedback Loop. The three aforementioned ar-
+eas of activities interlock with one another to form various dynam-
+ics. Principled engagement can provide guidance for the key values
+to advance in developing capacity for joint actions. For instance,
+principled engagement can promote openness and transparency
+to help build joint capacity to address bias and digital inequity.
+Principled engagement can foster the creation and sustainability
+of shared motivation and mutual trust. An increased level of trust
+allows for a more involved engagement of the participants. For
+public service, a unifying and anchored motivation is the public
+service contribution to our society. Such shared motivation helps
+activate and mobilize resources for building capacity for joint ac-
+tion. Given the resource interdependence between actors both at
+the meso (network) and micro levels, such shared motivation and
+mutual trust can increase the contribution of various actors to the
+collective benefits.
+Action can be taken to drive dynamics [ 18]. The enactment of
+supporting rules can enable all three areas of activity for collabo-
+ration. These include participant, decision, information, authority,
+and other rules that can support collaboration across organizations
+and individuals. Openness in information sharing and standardiza-
+tion of data for interoperability are productive [ 14,34]. Achieving
+compliance with rules at the macro and meso levels is one of the
+essential actions to connect the three areas of activity to impact. In
+addition, enacting payoff rules in favor of individuals and groups
+contributing to the network or platforms can facilitate productive
+dynamics leading to impact.
+These actions lead to impacts. An articulation of the impacts is
+critical for focused effort. Governance of collaborative intelligence
+152
+DGO 2024, June 11–14, 2024, Taipei, Taiwan Yu-CheChen et al.
+for public policy and service has the normative goal of public value
+creation. These public values include those for society as a whole,
+suchassocialequityandsocietalaccountabilityandthoseforpublic
+service, such as responsiveness, efficiency, and transparency [ 4].
+Taking a process perspective in a dynamic system to understand
+the role of public values is important. Attention should be given to
+how these values have been introduced, codified, and implemented
+to lead to their impacts [12].
+Asystemdynamicperspectivehighlightstheimportanceoffeed-
+back loops [ 23]. A reinforcing feedback loop identifies a circular of
+actions and impacts that reinforce a particular result. This could be
+about the positive impact of the involvement of marginalized pop-
+ulations to gain mutual understanding and trust. A balancing loop
+is one that reduces a certain impact. This could be a collection of
+governing activities that reduce bias in data. Advancement of tech-
+nology and changes in technical capabilities are important inputs
+of these feedback loops. The user-friendly task organization and
+support are helpful, such as those in digital government platforms
+facilitating citizen contribution to public service.
+An understanding of the feedback loop assists with the adapta-
+tion of the governance structure and processes. The adaptation of
+rules can take place at various levels [ 18]. At the macro system
+context level, these adaptations can be the initiation and implemen-
+tationofnationalpolicychanges. Thesechangesarerelativelymore
+challenging and time-consuming and subject to various political,
+economic, and social factors. At the meso network and platform
+level, these adaptations are more within the influence of the pub-
+lic service managers who wish to design and implement rules to
+achieve public policy and service goals. These adaptations can be
+abouthavinganAIgovernanceboardthathasawiderepresentation
+of various stakeholder groups rather than just the government. An-
+otherexampleisthechangeintransparencyrequirementstoensure
+the data, goals, and involvement of AI in public decision-making
+are understandable by the general public.
+5 CONCLUSIONS AND FUTURE RESEARCH
+OPPORTUNITIES
+This paper develops a conceptual framework for the governance
+of collaborative intelligence for public policy and services. The
+goal is to advance governance design for public value creation.
+This framework builds on the scholarly foundation of collabora-
+tive governance that focuses on rules and addresses levels and
+dynamics. Moreover, this framework integrates both technological
+and administrative dimensions. The important advancement lies
+both in treating AI as an actor in governance structure and process
+and in the understanding of the interactions between technologies
+and rules. Another important contribution is to integrate various
+mechanisms of collaborative public service production, such as
+digital government platforms for crowd-sourcing, into this unified
+governance framework for collaborative intelligence.
+The proposed framework provides a further specification on the
+role of public values and the type of rules. Public values are the
+outcomes of the governance of collaborative intelligence for public
+policy and service. A broader frame of public values goes beyond
+service-oriented public values to include society-oriented ones [ 4].
+Governance design for collaborative intelligence can introduce,codify, implement, and produce these values [ 12]. The typology of
+rulesoffersamoreanalyticalapproachtoidentifyinganddesigning
+a specific type of rule for impact, such as participant rule to include
+marginalized stakeholders for equity. The typology of rules can
+offer the specifics for governance and allow for tracing the impact
+of a particular type of rule.
+Moreover, the proposed framework places emphasis on gover-
+nance actions and system dynamics in the context of levels. The
+three areas of activity are principled engagement, shared motiva-
+tion and mutual trust, and technical and administrative capacity
+for joint action, adapted from the areas of collaborative dynamics
+as proposed by Emerson and Nabatchi [ 18] with an enhanced fo-
+cus on digital technology and artificial intelligence. The proposed
+framework distinguishes between reinforcing and balancing feed-
+back loops and models feedback to identify governance design and
+implementation opportunities.
+Future research opportunities include development in the fol-
+lowing areas. The first is to study specific cases to help refine and
+update the framework. These cases can show how a specific col-
+laboration dynamic takes place and its impact on the public value
+outcomes. A rich collection of cases should feature a diversity of
+contexts and dynamics. The second is to have more specifications
+on the rules and, more importantly, rule configuration. The work
+on formalizing these rules and conducting computational analysis
+[22] is particularly helpful. At the same time, more empirical work
+needs to be done on the rules in practice to enhance our under-
+standing of the dynamics. Lastly, a productive area of development
+istoexaminetheco-evolutionofhumansandAIinthefastdevelop-
+ment of AI capabilities. The fast development of both generic and
+specific AI offers research opportunities for evolving collaboration
+betweenhumansandAIandidentifyingsomeenduringgovernance
+mechanisms for public value creation.
+REFERENCES
+[1][1] Almirall, E. et al.2014. Open innovation requires integrated competition-
+community ecosystems: Lessons learned from civic open innovation. Business
+horizons . 57, 3 (2014), 391–400.
+[2][2]Ansell,C.andGash,A.2008.CollaborativeGovernanceinTheoryandPractice.
+Journal of Public Administration Research and Theory . 18, 4 (2008), 543–572.
+[3][3] Arrieta, A.B. etal.2020. Explainable Artificial Intelligence (XAI): Concepts,
+Taxonomies, Opportunities and Challenges toward Responsible AI. Information
+Fusion. 58, (2020), 82–115.
+[4][4] Bannister, F. and Connolly, R. 2014. ICT, Public Values and Transformative
+Government: A Framework and Programme for Research. Government Informa-
+tion Quarterly . 31, 1 (2014), 119–128.
+[5][5] Belanche, D. et al.2014. Trust transfer in the continued usage of public
+e-services. Information & Management . 51, 6 (2014), 627–640.
+[6][6] Bernhard, I. and Wihlborg, E. 2022. Bringing all clients into the system–
+Professional digital discretion to enhance inclusion when services are automated.
+Information Polity . 27, 3 (2022), 373–389.
+[7][7] Bingham, L.B. et al.2005. The New Governance: Practices and Processes
+for Stakeholder and Citizen Participation in the Work of Government. Public
+Administration Review . 65, 5 (2005), 547–558.
+[8][8]Bullock,J. etal.2020.ArtificialIntelligence,BureaucraticForm,andDiscretion
+in Public Service. Information Polity: The International Journal of Government &
+DemocracyintheInformationAge . 25, 4 (2020), 491–506. DOI:https://doi.org/10.
+3233/IP-200223.
+[9][9] Bullock, J. 2019. Artificial Intelligence, Discretion, and Bureaucracy. American
+Review of Public Administration . 49, 7 (2019), 751–761.
+[10][10] Busuioc, M. 2021. Accountable Artificial Intelligence: Holding Algorithms
+to Account. PublicAdministrationReview . 81, 5 (Sep. 2021), 825–836. DOI:https:
+//doi.org/10.1111/puar.13293.
+[11][11] Chen, Y.-C. 2010. Citizen-Centric E-Government Services: Understanding
+Integrated Citizen Service Information Systems. Social Science Computer Review .
+28, 4 (2010), 427–442.
+153
+Governance Design of Collaborative Intelligence for Public Policy and Services DGO 2024, June 11–14, 2024, Taipei, Taiwan
+[12][12] Chen, Y.-C. and Ahn, M. 2022. Governing AI Systems for Public Values: De-
+sign Principles and a Process Framework. TheOxfordHandbookofAIGovernance .
+J.B. Bullock et al., eds. Oxford University Press.
+[13][13] Chen, Y.-C. and Knepper, R. 2017. Cyberinfrastructure for Collaborative
+Scientific Networks: Institutional Design and Management Strategies. Routledge
+HandbookonInformationTechnologyinGovernment . Y.-C. Chen and M. Ahn, eds.
+Routledge. 341–361.
+[14][14] Chen, Y.-C. and Lee, J. 2018. Collaborative Data Networks for Public Service:
+Governance, Management, and Performance. PublicManagementReview . 20, 5
+(2018), 672–690.
+[15][15] Criado, J.I. etal.2020. Algorithmic transparency and bureaucratic discretion:
+ThecaseofSALERearlywarningsystem. InformationPolity .25,4(2020),449–470.
+[16][16] Dawes, S.S. 2009. Governance in the Digital Age: A Research and Action
+Framework for an uncertain Future. Government Information Quarterly . 26, 2
+(2009), 257–264.
+[17][17] Dellermann, D. et al.2019. Hybrid intelligence. Business & Information
+Systems Engineering . 61, (2019), 637–643.
+[18][18] Emerson, K. et al.2012. An Integrative Framework for Collaborative Gover-
+nance.Journal of Public Administration Research & Theory . 22, 1 (2012), 1–29.
+[19][19] Engstrom, D.F. etal.2020.GovernmentbyAlgorithm: ArtificialIntelligencein
+Federal Administrative Agencies . Administrative Conference of the United States.
+[20][20] Eom, S.-J. and Lee, J. 2022. Digital government transformation in turbulent
+times: Responses, challenges, and future direction. Government Information
+Quarterly . 39, 2 (Apr. 2022), 101690. DOI:https://doi.org/10.1016/j.giq.2022.101690.
+[21][21] Eubanks, V. 2017. Automating Inequality: How High-Tech Tools Profile, Police,
+and Punish the Poor . St. Martin’s Press.
+[22][22] Frantz, C.K. and Siddiki, S. 2022. Institutional Grammar . Springer.
+[23][23] Ghaffarzadegan, N. et al.2011. How Small System Dynamics Models Can
+Help the Public Policy Process. System Dynamics Review . 27, 1 (January-March)
+(2011), 22–44.
+[24][24] Im, T. etal.2014. Internet, Trust in Government, and Citizen Compliance.
+Journal of Public Administration Research and Theory . 24, 3 (2014), 741–763.
+[25][25] Jilke, S. et al.2019. Microbrook, Mesobrook, Macrobrook. Perspectives on
+Public Management and Governance . 2, 4 (2019), 245–253. DOI:https://doi.org/10.
+1093/ppmgov/gvz015.
+[26][26] Kamar, E. 2016. Directions in Hybrid Intelligence: Complementing AI Sys-
+tems with Human Intelligence.
+[27][27] Kim, S. et al.2022. Platform Government in the Era of Smart Technology.
+PublicAdministrationReview . 82, 2 (Mar. 2022), 362–368. DOI:https://doi.org/10.
+1111/puar.13422.
+[28][28] Latour, B. 2005. ReassemblingtheSocial: AnIntroductiontoActor-Network-
+Theory. Oxford University Press.
+[29][29] Liu, H.K. 2021. Crowdsourcing: Citizens as coproducers of public services.
+Policy & Internet . 13, 2 (Jun. 2021), 315–331. DOI:https://doi.org/10.1002/poi3.249.
+[30][30] Liu, H.K. 2017. Crowdsourcing Government: Lessons from Multiple Disci-
+plines.Public Administration Review . 77, 5 (September/October) (2017), 656–667.
+[31][31] Liu, H.K. 2017. Exploring Online Engagement in Public Policy Consultation:
+The Crowd or the Few? AustralianJournalofPublicAdministration . 76, 1 (Mar.
+2017), 33–47. DOI:https://doi.org/10.1111/1467-8500.12209.
+[32][32] Marsh, S. 2020. Councils scrapping use of algorithms in benefit and welfare
+decisions. The Guardian .
+[33][33] McGuire, M. 2002. Managing Networks: Propositions on What Managers
+Do and Why They Do It. Public Administration Review . 62, 5 (2002), 599–609.
+[34][34] Meijer, A. and Boon, W. 2021. Digital platforms for the co-creation of public
+value.Policy& Politics . 49, 2 (2021), 231–248.
+[35][35] Mergel, I. etal.2019. Defining digital transformation: Results from expert
+interviews. GovernmentInformationQuarterly .36,4(Oct.2019),101385.DOI:https:
+//doi.org/10.1016/j.giq.2019.06.002.
+[36][36] Mergel, I. 2011. Using wikis in government: A guide for public managers.
+(2011).
+[37][37]Mikhaylov, S.J. etal.2018.ArtificialIntelligenceforthePublicSector: Oppor-
+tunities and Challenges of Cross-sector Collaboration. Philosophical Transactions
+of the Royal Society A: Mathematical, Physical and Engineering Sciences . 376, 2128
+(2018), 20170357.
+[38][38] Milano, S. etal.2020. Recommender systems and their ethical challenges. AI
+&SOCIETY . 35, 4 (Dec. 2020), 957–967. DOI:https://doi.org/10.1007/s00146-020-
+00950-y.
+[39][39] Nabatchi, T. et al.2017. Varieties of Participation in Public Services: The
+Who, When, and What of Coproduction. PublicAdministrationReview . 77, 5 (Sep.
+2017), 766–776. DOI:https://doi.org/10.1111/puar.12765.
+[40][40] Noveck, B.S. 2015. SmartCitizens,SmarterState: TheTechnologiesofExpertise
+and the Futureof Governing . Harvard University Press.
+[41][41]Noveck,B.S.2009.Wikigovernment: Howtechnologycanmakegovernment
+better, democracy stronger, and citizens more powerful. Brookings Institution
+Press.
+[42][42] Ostrom, E. 2010. Institutional Analysis and Development: Elements of the
+Framework in Historical Perspective. Historical Developments and TheoreticalApproachesinSociology . C. Crothers, ed. EOLSS (Encyclopedia of Life Support
+Systems) Publishers, Co. Ltd. 261–288.
+[43][43] Ostrom, E. etal.1994.Rules,GamesandCommon-PoolResources . The Univer-
+sity of Michigan Press.
+[44][44] Parasuraman, R. et al.2000. A Model for Types and Levels of Human Inter-
+action with Automation. IEEE Transactions on Systems, Man, and Cybernetics -
+Part A: Systems and Humans . 30, 3 (2000), 286–297.
+[45][45] Peeters, R. and Widlak, A. 2018. The digital cage: Administrative exclusion
+through information architecture – The case of the Dutch civil registry’s master
+data management system. GovernmentInformationQuarterly . 35, (2018), 175–183.
+[46][46]Perry,J.2000.BringSocietyIn: TowardaTheoryofPublic-ServiceMotivation.
+Journal of Public Administration Research and Theory . 10, 2 (2000), 471–488.
+[47][47] Provan, K. and Kenis, P. 2008. Modes of Network Governance: Structure,
+Management, and Effectiveness. JournalofPublicAdministrationResearchand
+Theory. 18, 2 (2008), 229–252.
+[48][48]Provan,K.G.andMilward,B.2001.DoNetworksReallyWork? AFramework
+for Evaluating Public-Sector Organizational Networks. Public Administration
+Review. 61, 4 (2001), 414–423.
+[49][49] Russell, S.J. and Norvig, P. 2015. ArtificialIntelligence: AModernApproach .
+Pearson India.
+[50][50] Schiff, K.J. 2023. Does collective citizen input impact government service
+provision? Evidence from SeeClickFix requests. Public administration review .
+(2023). DOI:https://doi.org/10.1111/puar.13747.
+[51][51] Schweik, C. and Kitsing, M. 2010. Applying Elinor Ostrom’s Rule Classifica-
+tion Framework to the Analysis of Open Source Software Commons. Transna-
+tional Corporations Review . 2, 1 (2010), 13–16.
+[52][52] Schweik, C.M. 2014. Toward the Comparison of Open Source Commons
+Institutions. Governing knowledge commons . B.M. Frischmann et al., eds. Oxford
+University Press.
+[53][53] Scupola, A. and Mergel, I. 2022. Co-production in digital transformation of
+public administration and public value creation: The case of Denmark. Govern-
+mentInformationQuarterly . 39, 1 (2022), 101650. DOI:https://doi.org/10.1016/j.
+giq.2021.101650.
+[54][54] Stewart, C.A. et al.2019. Cyberinfrastructure, Cloud Computing, Science
+Gateways, Visualization, and Cyberinfrastructure Ease of Use. Advanced Method-
+ologies and Technologies in Network Architecture, Mobile Computing, and Data
+Analytics . M. Khosrow-Pour, ed. IGI Global. 157–170.
+[55][55] Stillman II, R. 2004. TheAmericanBureaucracy: TheCoreofModernGovern-
+ment. Wadsworth/Thomson Learning.
+[56][56] Suran, S. et al.2022. Building Global Societies on Collective Intelligence:
+Challenges and Opportunities. Digital Government: Research and Practice . 3, 4
+(Oct. 2022), 1–6. DOI:https://doi.org/10.1145/3568169.
+[57][57] Teisman, G. etal.2009. Managing Complex Governance Systems: Dynamics,
+Self-Organization, and Coevolution in Public Investment. Taylor and Francis.
+[58][58] Thomas, J.C. 2012. Citizen, Customer, Partner: Engaging the Public in Public
+Management . M.E. Sharpe.
+[59][59] Todolí-Signes, A. 2019. Algorithms, artificial intelligence and automated
+decisions concerning workers and the risks of discrimination: the necessary
+collectivegovernanceofdataprotection. Transfer: EuropeanReviewofLabourand
+Research . 25, 4 (2019), 465–481. DOI:https://doi.org/10.1177/1024258919876416.
+[60][60] Torfing, J. et al.2019. Transforming the Public Sector Into an Arena for
+Co-Creation: Barriers, Drivers, Benefits, and Ways Forward. Administration&
+Society. 51, 5 (2019), 795–825. DOI:https://doi.org/10.1177/0095399716680057.
+[61][61] U. S. National Science Foundation and NSF 2019. National Artificial Intel-
+ligence (AI) Research Institutes: Accelerating Research, Transforming Society,
+and Growing the American Workforce (Program Solicitation).
+[62][62] Wang, Y.-F. 2023. Artificial Intelligence System Codesign with Native Amer-
+ican Communities for Tribal Emergency Management. University of Nebraska at
+Omaha.
+[63][63] Wang, Y.-F. et al.2023. Citizens’ intention to follow recommendations from
+a government-supported AI-enabled system. Public Policy and Administration .
+(May 2023), 095207672311761. DOI:https://doi.org/10.1177/09520767231176126.
+[64][64] Wirtz, B.W. et al.2019. Artificial Intelligence and the Public Sector—
+Applications and Challenges. International Journal of Public Administration . 42, 7
+(2019), 596–615.
+[65][65]Wirtz,B.W. etal.2020.TheDarkSidesofArtificialIntelligence: AnIntegrated
+AI Governance Framework for Public Administration. InternationalJournalof
+Public Administration . 43, 9 (Jul. 2020), 818–829. DOI:https://doi.org/10.1080/
+01900692.2020.1749851.
+[66][66] Wirtz, B.W. and Müller, W.M. 2019. An integrated artificial intelligence
+framework for public management. Public Management Review . 21, 7 (2019),
+1076–1100.
+[67][67] Young, M.M. et al.2019. Artificial discretion as a tool of governance: a
+framework for understanding the impact of artificial intelligence on public ad-
+ministration. Perspectives on Public Management and Governance . 2, 4 (2019),
+301–313.
+[68][68] Young, M.M. etal.2021. Artificial intelligence and administrative evil. Per-
+spectives on Public Management and Governance . 4, 3 (2021), 244–258.
+154
+DGO 2024, June 11–14, 2024, Taipei, Taiwan Yu-CheChen et al.
+[69][69] Zuiderwijk, A. et al.2021. Implications of the use of artificial intelligence
+in public governance: A systematic literature review and a research agenda.GovernmentInformationQuarterly . 38, 3 (Mar. 2021), 1–19. DOI:https://doi.org/
+10.1016/j.giq.2021.101577.
+155

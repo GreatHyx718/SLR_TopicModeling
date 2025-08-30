@@ -1,0 +1,917 @@
+Human-AI Co-Dancing: Evolving Cultural Heritage through
+Collaborative Choreography with Generative Virtual Characters
+Pat Pataranutaporn
+MIT Media Lab
+Cambridge, MA
+patpat@media.mit.eduPhoomparin Mano
+Creatorsgarten
+Bangkok, Thailand
+poom@creatorsgarten.orgPiyaporn Bhongse-tong
+Pichet Klunchun Dance Company
+Bangkok, Thailand
+bopipee@gmail.com
+Tas Chongchadklang
+Pichet Klunchun Dance Company
+Bangkok, Thailand
+tas210201@gmail.comChayapatr Archiwaranguprok
+Creatorsgarten
+Bangkok, Thailand
+pub@creatorsgarten.orgLamtharn Hantrakul
+Independence
+Bangkok, Thailand
+hanoi7@gmail.com
+Jirach Eaimsa-ard
+Pichet Klunchun Dance Company
+Bangkok, Thailand
+Ejirach@hotmail.comPattie Maes
+MIT Media Lab
+Cambridge, MA
+pattie@media.mit.eduPichet Klunchun
+Pichet Klunchun Dance Company
+Bangkok, Thailand
+pichetklunchun@gmail.com
+EnergyCircles & CurvesAxis Points
+External Body SpacesShifting RelationsSynchronous Limbs
+Virtual Dancer with Choreographic Intelligence Based on Traditional KnowledgeHuman DancerThai Traditional Dance Knowledge “Mae Bot Yai”Human-AI Co-Dancing
+Figure 1: The overall concept of "Human-AI co-dancing" involves human dancers interacting with virtual partners powered by a
+computational model derived from Pichet Klunchun’s No. 60 choreographic principles, which are based on the Thai traditional
+dance knowledge of Mae Bot Yai.
+ABSTRACT
+This research introduces an approach for translating traditional
+dance knowledge into interactive computational models extending
+beyond static dance performance recordings. Specifically, this paper
+presents the concept of "Human-AI co-dancing," which involves
+integrating human dancers with virtual dance partners powered by
+models derived from dance principles. To demonstrate this concept,
+the research focuses on the choreographic principles deconstructed
+from the knowledge of traditional Thai dance. The principles are
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands
+©2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0994-4/24/05
+https://doi.org/10.1145/3658852.3661317analyzed and translated into computational procedures that dynam-
+ically manipulate the movements of a virtual character by altering
+animation keyframes and the motions of individual joints in real-
+time. We developed an interactive system that enables dancers
+to improvise alongside the virtual agent. The system incorporates
+voice control functionality, allowing the dancer, choreographer, and
+even the audience to participate in altering the choreography of the
+virtual agents by adjusting parameters that represent traditional
+Thai dance elements. Human-AI rehearsals yielded intriguing artis-
+tic results, with hybrid movement aesthetics emerging from the
+synergy and friction between humans and machines. The result-
+ing dance production, "Cyber Subin," demonstrates the potential
+of combining intangible cultural heritage, intelligent technology,
+and posthuman choreography to expand artistic expression and
+preserve traditional wisdom in a contemporary context.
+
+MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands Pataranutaporn et al.
+CCS CONCEPTS
+•Human-centered computing →Human computer interac-
+tion (HCI) ;Systems and tools for interaction design ;Collab-
+orative and social computing systems and tools ;•Applied
+computing→Performing arts ;Media arts ;Fine arts .
+KEYWORDS
+Human-AI Interaction, Computer-generated choreography, Virtual
+Agent, AI-generated Character, Cultural Computing
+ACM Reference Format:
+Pat Pataranutaporn, Phoomparin Mano, Piyaporn Bhongse-tong, Tas Chongchad-
+klang, Chayapatr Archiwaranguprok, Lamtharn Hantrakul, Jirach Eaimsa-
+ard, Pattie Maes, and Pichet Klunchun. 2024. Human-AI Co-Dancing: Evolv-
+ing Cultural Heritage through Collaborative Choreography with Generative
+Virtual Characters. In 9th International Conference on Movement and Com-
+puting (MOCO ’24), May 30–June 02, 2024, Utrecht, Netherlands. ACM, New
+York, NY, USA, 10 pages. https://doi.org/10.1145/3658852.3661317
+1 INTRODUCTION
+Dancing exists as a living form of cultural heritage [ 3,38], with
+choreographic knowledge transmitted between bodies across tem-
+poral bounds. Tacit encodings of movement vocabularies are con-
+tinuously expanded through improvised moments that connect
+traditional forms with new explorations. Recent developments in
+motion capture technology have enabled the digitization of tradi-
+tional dance movements, providing a means to preserve this intangi-
+ble heritage [ 36,41,62,63,63,75]. While the digitization approach
+can preserve the visual form of dance, the deeper layers, including
+the tacit knowledge and improvisational techniques, remain frozen
+in time rather than flourishing as living practices.
+This research introduces an approach to computationally formal-
+ize traditional dance knowledge as an interactive model [ 53,58,69]
+that extends beyond a mere static recording of a dance performance.
+Specifically, this paper presents the idea of "Human-AI co-dancing,"
+which involves combining human dancers with virtual dance part-
+ners powered by computational systems derived from dance prin-
+ciples. We refer to this model as a form of "artificial intelligence"
+system because it aims to encode the "choreographic intelligence"
+of traditional dances into a computational model capable of re-
+sponding and choreographing with human dancers in real-time.
+We acknowledge the importance of non-Western knowledge sys-
+tems that are often overlooked in the colonial understanding of
+AI [1,16,51,83]. To demonstrate this concept, a multidisciplinary
+team of researchers developed a Human-AI system based on the
+"No. 60" principles established by the Thai choreographer Pichet
+Klunchun. These principles are derived from the deconstruction
+of the traditional Thai traditional dance known as "Mae Bot Yai"
+[74]. The researchers analyze the six choreographic principles of
+No. 60 and create corresponding computational procedures to ma-
+nipulate a virtual character’s movements, simulating the effects
+of the principles. These procedures aim to replicate the effects of
+the choreographic principles on the virtual character. The system
+allows the dancer to interrogate the principles by calling upon them.
+This paradigm enables present-day practitioners to creatively and
+respectfully interact with computational manifestations of ancestral
+choreographic knowledge.Rehearsals and live performances highlighted artistic synergies
+between human and machine as both familiar dance movements and
+novel aesthetics intersected within an imaginative vision of posthu-
+man choreography [ 4,28,43], expanding out from its traditional
+roots and advancing the research in computational choreography
+[14,48,53,65,67,69]. This paper discusses both conceptual visions
+and technical developments behind the system. By bridging the
+creative possibilities of computation with the accumulated wisdom
+woven into traditional movement vocabularies, this research culti-
+vates a form of dance that unites the past and future, as well as the
+human and the machine, as shown in Figure 1.
+1.1 Cultural Context
+Contemporary dance performances in Southeast Asia have been
+experiencing growing recognition and appreciation, as evidenced
+by increasing audience engagement. Choreographers across the re-
+gion have gained greater visibility due to their diverse artistic forms
+of expression, which are informed by rich cultural backgrounds. A
+notable aspect of this contemporary dance scene is that many of
+its pioneers and practitioners began their creative journeys within
+the context of local traditions or folk dance practices. These artists
+have skillfully expanded upon long-standing movement traditions
+unique to Southeast Asia, incorporating new elements and tech-
+niques to create distinct contemporary forms [ 54]. A prominent
+choreographer from Southeast Asia who has inspired this research
+is Pichet Klunchun. Renowned as a contemporary Thai dancer
+and choreographer, Klunchun is celebrated for his reinterpretation
+of traditional Thai dance into modern performances. Among his
+notable works are "I Am a Demon" (2005), "Pichet Klunchun and
+Myself" with Jérôme Bel (2006) [ 6,17,44], "Nijinsky Siam" (2010),
+"Black and White" (2011), and "Dancing with Death" (2015) [ 54,73].
+In 2017, Klunchun and his dance company embarked on a project
+titled No. 60, which sought to encapsulate two decades of Klunchun’s
+research and artistic praxis within Thailand’s classical dance tradi-
+tion. The project was centered around Klunchun’s deconstruction
+of the fundamental set of 59 interconnected poses and movements
+known as Mae Bot Yai (the "Greater Fundamentals") or "Thep-
+panom," with the latter term denoting the inaugural posture within
+the sequence. This repertoire of poses and movements constitutes
+the foundational core curriculum imparted to all students of Thai
+traditional dance [73].
+The mastery of the Theppanom, and the other Mae Bot Yai fun-
+damentals enables dancers to execute the demanding choreography
+and movements of Khon [ 42], a Thai classical court masked dance
+with a history spanning centuries. Khon performances enact the Ra-
+makien, the Thai rendition of the Ramayana epic. The Mae Bot Yai
+fundamentals, as shown in Figure 2, comprise highly stylized and
+codified gestures and body positions derived from Indian dance tra-
+ditions as well as Thai culture, including movements with symbolic
+hand gestures, graceful walking patterns, and varied arm positions.
+Additionally, Khon features distinctive footwork and lower body
+movements such as circular stepping patterns, fluid knee move-
+ments, and rhythmic stamping actions. Other characteristics are
+elaborate hand and finger movements like intricate finger curls and
+stylized finger poses. There is also coordinated isolation and articu-
+lation of various body parts, muscles, and joints to create flowing,
+Human-AI Co-Dancing: Cultural Heritage and Choreography with Generative Virtual Characters MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands
+lyrical motions while maintaining firm stances. Dancers employ
+techniques like shifts in body weight, controlled torso movements,
+and the integration of arm and leg actions. Fundamental to exe-
+cuting the Mae Bot Yai properly is achieving smooth transitions
+between poses and an unbroken continuity of movement.
+1.2 No. 60 & the Deconstruction of Thai Dance
+Klunchun deconstructed the embodied knowledge within the Mae
+Bot Yai, the fundamental poses underlying Thai traditional per-
+formance. He created diagrams and annotations analyzing the 59
+constituent movements and postures to catalyze a reimagining of
+classical Thai dance from a novel perspective. This approach of-
+fers an introduction to Thai dance that is free from mythological
+or ideological influences. Through meticulous movement analysis,
+Klunchun sought to extract choreographic principles from the Mae
+Bot Yai fundamentals and gain new insight into their possibilities.
+His work aims to deconstruct and reassemble the elements of tra-
+ditional vocabulary, creating innovative combinations that could
+revitalize the form.
+Klunchun has uncovered six choreographic principles, as shown
+in Figure 3, from Mae Bot Yai through his analysis, which are demon-
+strated in his recent work No. 60. The work aims to reimagine a
+hypothetical 60th movement, outside of the traditional 59 move-
+ments in Mae Bot Yai, through a re-synthesis of the principles. The
+six principles include Energy, Circles & Curves, Axis Points, Syn-
+chronous Limbs, External Body Spaces, and Shifting Relations. Here
+are explanations for the six elements distilled from the analysis of
+the Mae Bot Yai fundamentals:
+•Energy - Exploring the dynamic quality and vitality of the
+movement and dance phrases. Looking at aspects like force,
+momentum, acceleration/deceleration.
+•Circles & Curves - Examining the circular pathways, arcs,
+and curved lines that the body makes in space. Analyzing
+rounded versus linear patterns.
+•Axis Points - Considering points on joints and segments of
+the body that serve as axes of rotation and balance. Identify-
+ing the key pivot points around which motion occurs.
+•Synchronous Limbs - Analyzing the coordinated move-
+ment between different limbs, sides, or parts of the body.
+Looking at synchronous versus asynchronous body move-
+ments.
+•External Body Spaces - Exploring the spatial patterns,
+geometry, and relationships between the body and envi-
+ronment. Observing the directions, planes, and dimensions
+moved through.
+•Shifting Relations - Investigating how transitions between
+movements and poses direct audience attention and focus
+to different body parts and actions. Analyzing how progres-
+sions from one form to another create a seamless flow.
+The pursuit led Klunchun to view the elements he discovered
+through his analysis of the Mae Bot Yai as valuable tools for gener-
+ating improvisational abilities, not only for dancers familiar with
+the Thai tradition but also for those without any experience or
+knowledge of Thai dance [ 73]. This perspective opens up possibil-
+ities for exploring these elements through a computational lens
+using technology, as depicted in Figure 4.
+Figure 2: Left: Mae Bot Yai, the fundamental poses underlying
+Thai traditional dance. Right: No. 60 by Pichet Klunchun,
+which deconstructed the embodied knowledge within the
+Mae Bot Yai.
+EnergyCircles & Curves
+Synchronous LimbsAxis Points
+External Body SpacesShifting Relations
+Original MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementModifying “Synchronous Limbs”Modifying “Circles & Curves”
+Modifying “Joint Rotations”Modifying “External Body Spaces”
+EnergyCircles & CurvesSynchronous Limbs
+Axis PointsExternal Body SpacesShifting Relations
+Original MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementModifying “Synchronous Limbs”Modifying “Circles & Curves”
+Modifying “Joint Rotations”Modifying “External Body Spaces”
+EnergyCircles & CurvesSynchronous Limbs
+Axis PointsExternal Body SpacesShifting Relations
+Original MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementModifying “Synchronous Limbs”Modifying “Circles & Curves”
+Modifying “Joint Rotations”Modifying “External Body Spaces”
+Figure 3: The six principles deconstructed from Thai tradi-
+tional movements include Energy, Circles & Curves, Axis
+Points, Synchronous Limbs, External Body Spaces, and Shift-
+ing Relations.
+1.3 Technology and Choreography
+The integration of technology in dance has its roots in Merce Cun-
+ningham’s groundbreaking use of 3D computer graphics to create
+choreography [ 70,71], as well as the Bauhaus Ballet’s influence on
+applying geometric and mathematical concepts to the human body
+and movement [ 8,68,79,81]. Over time, computational choreog-
+raphy [ 18,19,46,47,53,67,69] has progressed alongside develop-
+ments in virtual theatre environments [ 26,29,30], virtual agents
+and 3D avatars [ 2,5,7,10,20,22,23,31,52,77], wearable comput-
+ing [ 45,56,66,80], motion capture and annotation technologies
+[11,34,39,57,64,72], human-computer interaction techniques
+[12,15,21,25,37,40,48,61,84,85], and, more recently, the emer-
+gence of generative AI models [13, 32, 49, 50, 59, 78, 82, 86].
+This research presents an approach to advancing Thai traditional
+dance through computational choreography. The model encapsu-
+lates the Mae Bot Yai fundamentals, allowing human dancers to co-
+create performances and develop new choreography with a virtual
+dancer that embodies the intelligence of traditional choreographic
+knowledge.
+MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands Pataranutaporn et al.
+Deconstruction of Traditional Movements Reconstructing Movements into a Computational Model
+A performance between Human Dancers and Virtual Characters
+Figure 4: Conceptual framework of Human-AI co-dancing. The process involves deconstructing traditional dance movements
+and reconstructing them into a computational model. This enables a collaborative performance between human dancers and
+virtual characters, where the AI system generates dance movements that complement and respond to the human dancer’s
+actions in real-time.
+1.4 Artistic Concept
+The fundamentals of Mae Bot Yai are traditionally used to depict the
+Ramakien [ 9,33,60], a significant work of Thai literature based on
+the ancient Indian epic, the Ramayana. One passage in the Ramakien
+that has inspired this work depicts the demon king Thotsakan
+(known as Ravana in India) struggling with haunting visions in his
+dreams. Bibhek, Thotsakan’s brother and a shaman, interprets these
+dreams as omens of impending apocalyptic battle that threatens to
+destroy the demonic realms. Enraged by Bibhek’s interpretation,
+Thotsakan expels Bibhek from the kingdom, pushing him to become
+an ally with Prince Rama, which eventually results in Thotsakan’s
+demise.
+The cautionary tale of heeding a premonition holds significant
+relevance in the contemporary era. The story of Bibhek, who fore-
+saw the destruction of the demons, serves as a powerful metaphor
+for the potential threat AI poses to human artistic creativity and
+spirit. Instead of casting aside this complex, perilous vision, this
+project proposes an alternate path where humans could have a
+symbiotic relationship with machines, cultivating a novel form of
+contemporary dance. In this project, the artist’s dream presents a
+glimpse of how tradition can thrive in the contemporary world,
+where machines, humans, legends, and myths intermingle. Just as
+Bibhek’s unheeded warnings proved, valid, prophetic dreams of
+posthuman choreography begin materializing through peaceful
+machine kinships rather than destructive rejection.
+2 METHODOLOGY
+This research formalizes Thai traditional dance knowledge as inter-
+active computational models, enabling human dancers to co-create
+performances and develop novel choreography with virtual dancers
+embodying traditional choreographic intelligence, as demonstratedin Figure 5. The development process, involving interdisciplinary
+collaboration between technologists, choreographers, and dancers,
+consists of four major stages:
+(1)Capturing Movement Data : The creation of a virtual char-
+acter begins with capturing a human dancer’s movements
+through motion capture technology. This step provides the
+foundational movements for the virtual character, which
+the computational model can then modulate and modify to
+generate novel choreography.
+(2)Encoding Choreographic Intelligence : Building an AI
+model involves translating principles from traditional dance
+knowledge into a computational process that manipulates
+and transforms the captured movement data of the virtual
+character. This model equips the virtual character with the
+choreographic intelligence derived from traditional dance.
+(3)Interface Development & System Integration : Integrat-
+ing the model and virtual character into an interactive in-
+terface that allows the dancer, choreographer, and audience
+to control various aspects of the system. This interface sup-
+ports real-time, responsive, and improvisational co-creation
+through voice control, enabling users to dance alongside the
+virtual agent.
+(4)Rehearsing Human-AI Co-dancing : Collaborative per-
+formances and exercises utilizing this technology explore
+new choreography through human-AI interaction. These
+endeavors act as an experimental research platform for the
+future of dance.
+2.1 Capturing Movement Data
+Creating a virtual character involves capturing the movements
+of a human dancer using motion capture technology, specifically
+Human-AI Co-Dancing: Cultural Heritage and Choreography with Generative Virtual Characters MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands
+Movement Recording
+EnergyCircles & CurvesSynchronous LimbsAxis PointsExternal Body SpacesShifting Relations
+Human DancerVirtual Character with Pre-recorded MovementInteractive InterfacesVirtual CharacterHuman DancerPrinciples from No. 60Computational Model of the Principles
+Voice ControlProjection
+3D Modeling via ThreeJS
+Figure 5: Technical pipeline of the project consists of 4 major processes: 1) Capturing movement data, 2) Encoding choreographic
+intelligence, 3) Interface development & system integration, and 4) Rehearsing Human-AI co-dancing.
+Figure 6: Capturing traditional Thai dance movements using
+motion capture technology. The process involves attaching
+sensors from the Perception Neuron suit to 17 primary axis
+points on a dancer’s body.
+through Axis Studio and the Perception Neuron suit. This process
+requires attaching sensors to the dancer’s body, which track the
+position of each joint and limb in 3D space, as shown in Figure 6.
+The capture focuses on 17 primary axis points on the human body
+as the dancer performs 59 signature poses from the traditional Thai
+dance repertoire. This generates a robust library of movements
+that reflect the techniques of a skilled dancer. The sensor data is
+recorded and processed to construct a .BVH data file. The captured
+data is then mapped onto a virtual character by aligning the .BVH
+file to the virtual model’s skeleton. The final result is a 3D virtual
+character that embodies the traditional Thai dance movements
+captured by the human dancer. These movements provide the basis
+for the virtual character, which can then be further manipulated by
+computational models to create new choreography.
+2.2 Encoding choreographic intelligence
+This step integrates traditional dance principles and techniques
+into a model composed of computational procedures that serve
+as adjustable parameters to alter movement data in the virtual
+characters. Building this model requires a thorough analysis of the
+six choreographic principles of No. 60: Energy, Circles & Curves,
+Axis Points, Synchronous Limbs, External Body Spaces, and ShiftingRelations. The research team then creates corresponding generative
+computational procedures to manipulate the virtual character by
+dynamically adjusting animation keyframes and modifying specific
+joint movements using TypeScript. These generative procedures
+aim to replicate the impact of the choreographic principles on
+the virtual character. This method enables the system to create
+new movement possibilities while preserving the core essence of
+traditional dance vocabulary. Here are the algorithmic procedures
+that represent the six choreographic elements:
+•Energy - This principle represents the dynamic range of
+motion in different parts of the body over time, which is im-
+portant to the aesthetics of Mae Bot Yai, such as the unique
+knee movements and rhythmic stamping actions. To compu-
+tationally model energy, the algorithm scales the timing of
+the different groups of the limb’s animation keyframes to in-
+crease or decrease the velocity of each individual part’s move-
+ments, resulting in a variation of movement speed across
+the bodies.
+•Circles & Curves - This principle represents the circular
+and curved movement trajectories with rounded rather than
+linear pathway transformations, which make the Mae Bot
+Yai dance fluid, graceful, and pleasing to watch. To computa-
+tionally model this principle, we apply mathematical equa-
+tions to the rotational quaternions of the limb’s animation
+keyframes, such as a Gaussian smoothing filter, derivatives,
+low-pass, and high-pass filters. This results in an increase or
+reduction of curvature in the movement.
+•Axis Points - This principle represents key pivot points
+and body segments, which serve as the reference points
+for hand movement. The hand points towards this reference
+point, creating elaborate hand and finger gestures in Mae Bot
+Yai. To computationally model this principle, the algorithm
+applies inverse kinematics and smooth linear interpolation
+to gradually interpolate the position and rotation of arm
+and leg limbs towards the core axis points. The original
+movement is altered to gravitate towards the core skeletal
+axes points.
+•Synchronous Limbs andShifting Relations - These two
+principles represent opposing qualities in Mae Bot Yai, where
+synchronous limbs create synchronous bodily movement
+MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands Pataranutaporn et al.
+across the body, and shifting relations create an asynchro-
+nous movement that draws the audience’s attention to spe-
+cific body parts. To model these principles, the algorithm
+applies timing offsets to the individual limb’s animation
+keyframe to de-synchronize the limb movements from the
+original movement. While the original movement is often
+mirrored and synchronized due to the nature of the dance,
+the resulting movement becomes more independent and
+uncoordinated.
+•External Body Spaces - This principle represents the nega-
+tive geometric shapes outside the body that create beauty in
+Mae Bot Yai. In order to computationally model this principle,
+the algorithm detects transition signals between sequence
+positions to slow down the movement and influence the
+audience to see the negative space in the frozen pose. The
+algorithm identifies the movement sequences containing
+minimal rotational changes and then extends the timing of
+the animation keyframe for those sequences to pause the
+movement. The resulting movement highlights the external
+spaces around and within the dancer’s body.
+Additionally, outside of the six principles derived from Mae
+Bot Yai, we have introduced additional parameters such as Joint
+Rotations . This parameter allows the algorithm to manipulate
+the virtual character’s joint angles and orientations. In reality, a
+dancer’s joint rotation is restricted by their own physical capability.
+However, in the realm of the virtual, such restrictions are obvi-
+ated. By experimenting with the joint rotations, we can create new,
+novel body configurations for the virtual character, enabling move-
+ments that would ordinarily be impossible in reality. This expansion
+into possibilities that transcend physical constraints deepens the
+dance vocabulary of the virtual character and further heightens the
+creative scope of the system.
+The developed model features a set of adjustable parameters that
+embody the principles of No. 60. These parameters can be modified
+by both performers and spectators, allowing for exploration of how
+a given principle affects a specific movement. When a parameter is
+set to 0%, the virtual character performs the original dance move
+without incorporating the principle. On the other hand, setting the
+parameter to 100% significantly alters the character’s movements,
+fully integrating the specified principle. The model allows for flex-
+ible use of these elements, either individually or in combination,
+and can be applied to the whole body or specific body parts. This
+versatility makes it a valuable tool for studying the dynamics of
+motion and the impact of various algorithmic procedures. Figure 7
+depicts the example outcomes of applying the principles to dance
+movement.
+2.3 Interface Development & System Integration
+The responsive user interface is developed with the Vue.js frame-
+work. The virtual character is rendered and integrated into a 3D
+environment using the Three.js library. The interface supports voice
+recognition, allowing users to issue spoken commands to control
+the character’s movements. Choreographic elements are accessible
+via dropdown menus, where users can, for example, select "Energy"
+and then specify details such as which body parts to modify, as
+EnergyCircles & CurvesSynchronous Limbs
+Axis PointsExternal Body SpacesShifting Relations
+Original MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementOriginal MovementGenerated MovementModifying “Synchronous Limbs”Modifying “Circles & Curves”
+Modifying “Joint Rotations”Modifying “External Body Spaces”
+Figure 7: Modification of pre-recorded motions using the
+computational model: Top left: Altering the "Synchronous
+Limbs" principle misaligns leg and body motions; Top right:
+Modification of the "Circles & Curves" principle creates more
+curved movements; Bottom left: Changing joint rotations
+generates a new body configuration; Bottom right: Alteration
+of the "External Body Spaces" principle slows movements at
+peaks to better depict the body’s external spaces.
+illustrated in Figure 8. Additionally, slider controls provide fine-
+tuned parameter adjustments, while timeline widgets enable the
+visualization of movement sequences. Human dancers can observe
+the character’s live animated responses, facilitating an improvisa-
+tional, call-and-response interaction during the performance. The
+interactive interface is projected on a screen, allowing the dancer
+to interact with the virtual character in real-time. This real-time in-
+teractivity promotes creative experimentation between the human
+and virtual dancer, leading to the co-development of innovative
+choreography that merges tradition and technology.
+2.4 Rehearsing Human-AI Co-dancing
+To investigate the creative potential of Human-AI co-dancing, we
+organized a two-week workshop involving technologists, choreog-
+raphers, and dancers. The workshop integrated rehearsals, reflec-
+tion, and technological development to delve into computational
+choreography, merging tradition with technology. During these
+sessions, the human dancers and virtual characters engaged in im-
+provisation, reacting to each other’s movements. The performance
+could be adjusted using voice commands or interface controls. The
+dancer channeled their traditional vocabulary while the virtual
+character exhibited new responses generated algorithmically from
+traditional choreographic knowledge.
+Different interaction methods were explored to enable co-dancing
+with the virtual character in real-time. In the "Direct Control mode,"
+the dancer could activate computational procedures by voicing
+specific principles and providing immediate feedback during the
+dance. In the "Mediated Mode," another dancer or choreographer
+adjusted the parameters in real-time, allowing for more intricate
+Human-AI Co-Dancing: Cultural Heritage and Choreography with Generative Virtual Characters MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands
+Figure 8: The interface allows users to control character movements through spoken commands and access choreographic
+elements via dropdown menus. Upon selecting an element, such as "Energy," the interface displays further options to modify
+specific body parts. The system then generates new choreography accordingly.
+commands without hindering the primary dancer’s movements.
+The most intriguing results emerged from the impromptu "Audi-
+ence Control mode," where viewers changed the movement of the
+virtual character mid-performance, allowing for emergent collective
+choreographic interventions.
+During co-creation exercises, the human dancers were chal-
+lenged to intentionally resist, embrace, or conceptualize contrast-
+ing responses to the virtual agent’s generative dance offerings.
+Attempts to harmonize with machine-generated interpretations
+opened spaces of synergy, where hybrid vocabularies organically
+arose from fusions of traditional principles and synthetic outcomes.
+Alternately, foregrounding moments of rupture, friction, and oppo-
+sition highlighted the technology’s non-human quality against the
+dancer’s physicality. This fluid spectrum between resonance and
+dissonance highlights the complex interplay between humans and
+AI. The emerging choreographic process points to the rich potential
+for developing future posthuman performances [4].
+The virtual character was rendered at multiple scales during
+experimentation to explore its impact. When visualized at a one-to-
+one proportionality with the human dancer, it conveyed a deeper
+sense of direct dialogue and similarity. Conversely, enlarging the
+avatar to heights beyond the human scale emphasized its digital
+nature, creating a more towering, transcendent presence. These
+scale variations influenced the perceived role and semantics of the
+virtual character during the performances in intriguing ways.
+Additionally, we simulated scenarios involving two virtual char-
+acters representing different aspects of our experiment. One vir-
+tual character maintained an unaltered choreography, serving as
+a baseline. In contrast, the second virtual character represented
+the generated choreography, acting as a contrasting variable. This
+juxtaposition provided valuable insights into how shifts in move-
+ment presentation affect viewer perception and interaction. The
+approach offered a multi-dimensional perspective on the relation-
+ship between human dancers and virtual counterparts.
+After the workshop, the culmination of this research was the
+dance production "Cyber Subin," co-created by Pichet Klunchun
+and Pat Pataranutaporn, which debuted at the National Theatre in
+Taiwan in March 2024, as shown in Figure 9. By seamlessly coupling
+human creativity with AI-generated choreography, this work not
+only expands the boundaries of artistic expression but also fosters
+a deeper appreciation and understanding of traditional knowledge
+within a contemporary context.3 DISCUSSION
+As the human dancer physically challenges, resists, follows, and
+improvises with the virtual dance partner’s computational interpre-
+tations of traditional dance vocabularies, intriguing frictions arise
+that highlight each intelligence’s distinct perspectives and capa-
+bilities. This dynamism suggests rich questions around autonomy,
+influence, control, and co-dependence as humans and virtual agents
+entangle through points of resonance and dissonance. Such inter-
+play prompts vital discourses on the essence of the human spirit
+and freedom when choreographically coupled with non-human
+outputs operating in the same social and cultural space.
+The influence of the machine on the dancer and the dancer’s
+influence on the machine, forming a cybernetic loop [ 27,35,76],
+prompts the inquiry into the future of human creativity. It pro-
+vokes the question of how human-machine assemblage could be
+more than the sum of its parts. What role does technology play
+in re-animating wisdom from the past? How can integrating di-
+verse epistemologies [51, 83] into computational systems counter-
+act humanity’s potential homogenization and preserve experiential
+heterogeneity amidst rapid technological change?
+Situating this research within the concept of "experimental preser-
+vation" offers an alternative approach to safeguarding cultural
+knowledge [ 24,55,58]. Unlike traditional preservation methods
+that often present culture as a static and lifeless object, experimental
+preservation acknowledges culture as a living, evolving phenome-
+non that belongs to everyone. By democratizing cultural knowledge,
+such as traditional dance, through technology, this approach could
+foster a sense of ownership and connection to ancestral heritage for
+future generations. Ultimately, this paper presents an imaginative
+vision for the future of intangible cultural expressions through the
+fusion of dance, data, code, and culture.
+4 LIMITATIONS AND FUTURE WORK
+The Human-AI co-dancing paradigm introduced in this study high-
+lights the role intelligent systems can play in preserving living
+cultural knowledge through continuously evolving artistry, extend-
+ing beyond the bounds of tradition. We address the limitations of
+static digitization approaches by demonstrating rich interactive
+capabilities. However, there are limitations to consider and areas
+for future exploration. The current system focuses on a specific
+dance tradition and choreographic principles of a single artist. Fu-
+ture work should expand to encompass a wider range of dance
+MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands Pataranutaporn et al.
+Figure 9: Photographs from the performance "Cyber Subin," co-created by Pichet Klunchun and Pat Pataranutaporn, which
+debuted at the National Theatre in Taiwan in March 2024.
+styles, cultural traditions, and choreographic knowledge from di-
+verse artists and regions to create a more comprehensive repository
+of dance heritage.
+Secondly, future research could investigate modern machine
+learning techniques and generative AI models to enable the sys-
+tem to generate novel movements and sequences based on learned
+principles, leading to more creative choreographic possibilities.
+However, this approach may introduce challenges, such as the AI
+system becoming a "black box," making it difficult to understand
+how the generated movements relate to the original choreographic
+principles. This lack of interpretability could be problematic for
+traditional dance forms, where cultural heritage and meaning are
+crucial. Ensuring transparency and explainability is important for
+maintaining the integrity and authenticity of the dance tradition.
+Furthermore, the limited availability of high-quality datasets for
+traditional dance forms may hinder the development of robust
+machine learning models.
+Finally, to fully understand the implications of this approach,
+it is crucial to conduct long-term studies and evaluations that as-
+sess the cultural impact and acceptance of Human-AI co-dancing
+within various dance communities. Engaging with a diverse rangeof stakeholders, including dancers, choreographers, cultural her-
+itage experts, and audiences, will be essential to ensure that the
+technology is developed and applied in a manner that is culturally
+sensitive, respectful, and beneficial to the communities it serves.
+5 CONCLUSION
+In conclusion, the Human-AI co-dancing paradigm presents a novel
+approach to preserving and extending traditional dance knowledge
+through the integration of human dancers and virtual dance part-
+ners. By deconstructing the choreographic principles of Thai tradi-
+tional dance and translating them into computational procedures,
+the developed interactive system allows for the real-time synthe-
+sis of virtual characters’ movements. The incorporation of voice
+control functionality further enhances the participatory nature of
+the system, enabling dancers, choreographers, and even audiences
+to contribute to the choreography of the virtual agents. This work
+highlights the importance of non-Western cultural knowledge sys-
+tems that are often overlooked in modern perspectives on AI. The
+developed system facilitates emergent choreographic dialogues
+between the past, present, and future of this art form.
+Human-AI Co-Dancing: Cultural Heritage and Choreography with Generative Virtual Characters MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands
+REFERENCES
+[1]Rachel Adams. 2021. Can artificial intelligence be decolonized? Interdisciplinary
+Science Reviews 46, 1-2 (2021), 176–197.
+[2]Saliha Akbas, Asim Evren Yantac, Terry Eskenazi, Kemal Kuscu, Sinem Semsioglu,
+Onur Topal Sumer, and Asli Ozturk. 2022. Virtual Dance Mirror: A Functional
+Approach to Avatar Representation through Movement in Immersive VR. In
+Proceedings of the 8th International Conference on Movement and Computing
+(Chicago, IL, USA) (MOCO ’22) . Association for Computing Machinery, New
+York, NY, USA, Article 25, 4 pages. https://doi.org/10.1145/3537972.3538003
+[3]Andreas Aristidou, Alan Chalmers, Yiorgos Chrysanthou, Céline Loscos, Franck
+Multon, J Parkins, Bhuvan Sarupuri, and Efstathios Stavrakis. 2022. Safeguarding
+our dance cultural heritage. In Eurographics’ 2022 .
+[4]Graham Francis Badley. 2020. Human (and posthuman?) dancing: An assemblage.
+Qualitative Inquiry 26, 6 (2020), 697–702.
+[5]Dimitrios Batras, Judith Guez, and Jean-François Jégo. 2016. InterACTE: Im-
+provising with a Virtual Actor. In Proceedings of the 3rd International Sympo-
+sium on Movement and Computing (Thessaloniki, GA, Greece) (MOCO ’16) . As-
+sociation for Computing Machinery, New York, NY, USA, Article 52, 2 pages.
+https://doi.org/10.1145/2948910.2955109
+[6]Jérôme Bel. 2006. Pichet Klunchun and myself. J. Bel, & P. Klunchun, Artistas)
+Bangkok Fringe festival, Banguecoque, Tailândia (2006).
+[7]Elisabetta Bevacqua, Romain Richard, Julien Soler, and Pierre De Loor. 2016.
+INGREDIBLE: A platform for full body interaction between human and virtual
+agent that improves co-presence. In Proceedings of the 3rd International Sym-
+posium on Movement and Computing (Thessaloniki, GA, Greece) (MOCO ’16) .
+Association for Computing Machinery, New York, NY, USA, Article 22, 8 pages.
+https://doi.org/10.1145/2948910.2948943
+[8]Johannes Birringer. 2013. Bauhaus, constructivism, performance. PAJ: A Journal
+of Performance and Art 35, 2 (2013), 39–52.
+[9]Saranpat Boonhok. 2024. Indian Myth, Korean Wave, and ‘Thainess’: Politics
+of Hybridity in Thai Literature in the 21st Century. TRaNS: Trans-Regional
+and-National Studies of Southeast Asia (2024), 1–18.
+[10] Kristin Carlson and Greg Corness. 2020. Perceiving the Light: Exploring Embod-
+ied Cues in Interactive Agents for Dance. In Proceedings of the 7th International
+Conference on Movement and Computing (Jersey City/Virtual, NJ, USA) (MOCO
+’20). Association for Computing Machinery, New York, NY, USA, Article 22,
+4 pages. https://doi.org/10.1145/3401956.3404241
+[11] Kristin Carlson, Thecla Schiphorst, Karen Cochrane, Jordon Phillips, Herbert H
+Tsang, and Tom Calvert. 2015. Moment by moment: Creating movement sketches
+with camera stillframes. In Proceedings of the 2015 ACM SIGCHI Conference on
+Creativity and Cognition . 131–140.
+[12] Kristin Carlson, Thecla Schiphorst, and Philippe Pasquier. 2011. Scuddle: Gener-
+ating Movement Catalysts for Computer-Aided Choreography.. In ICCC . Citeseer,
+123–128.
+[13] Caroline Chan, Shiry Ginosar, Tinghui Zhou, and Alexei A. Efros. 2019. Everybody
+Dance Now. In Proceedings of the IEEE/CVF International Conference on Computer
+Vision (ICCV) .
+[14] Marianela Ciolfi Felice, Sarah Fdili Alaoui, and Wendy E Mackay. 2016. How do
+choreographers craft dance? Designing for a choreographer-technology part-
+nership. In Proceedings of the 3rd International Symposium on Movement and
+Computing . 1–8.
+[15] Marianela Ciolfi Felice, Sarah Fdili Alaoui, and Wendy E Mackay. 2018. Knotation:
+exploring and documenting choreographic processes. In Proceedings of the 2018
+CHI Conference on Human Factors in Computing Systems . 1–12.
+[16] Matthew Crosston. 2020. Cyber colonization: The dangerous fusion of artificial
+intelligence and authoritarian regimes. Cyber, Intelligence, and Security Journal
+4, 1 (2020), 149–171.
+[17] Love Dances. 2021. Pichet Klunchun and Myself. Love Dances: Loss and Mourning
+in Intercultural Collaboration (2021), 32.
+[18] Kohinoor M Darda and Emily S Cross. 2023. The computer, A choreographer?
+Aesthetic responses to randomly-generated dance choreography by a computer.
+Heliyon 9, 1 (2023).
+[19] Scott DeLahunta. 2002. Software for dancers: coding forms. Performance Research
+7, 2 (2002), 97–102.
+[20] Scott DeLahunta. 2017. Wayne mcGregor’s choreographic language agent. Trans-
+mission in motion: the technologizing of dance (2017), 108–117.
+[21] Jialin Deng, Nathalie Overdevest, Patrick Olivier, and Florian ‘Floyd’ Mueller.
+2024. From Plating to Tasting: Towards Understanding the Choreography of
+Computational Food. In Proceedings of the CHI Conference on Human Factors in
+Computing Systems . 1–17.
+[22] Soumia Dermouche and Catherine Pelachaud. 2018. Attitude Modeling for Virtual
+Character Based on Temporal Sequence Mining: Extraction and Evaluation. In
+Proceedings of the 5th International Conference on Movement and Computing
+(Genoa, Italy) (MOCO ’18) . Association for Computing Machinery, New York, NY,
+USA, Article 23, 8 pages. https://doi.org/10.1145/3212721.3212806[23] Marc Norman Downie. 2005. Choreographing the Extended Agent: performance
+graphics for dance theater . Ph. D. Dissertation. Massachusetts Institute of Tech-
+nology, School of Architecture and Planning . . . .
+[24] Kevin Dunnell, Gauri Agarwal, Pat Pataranutaporn, Andrew Lippman, and Pattie
+Maes. 2024. AI-Generated Media for Exploring Alternate Realities. In Extended
+Abstracts of the CHI Conference on Human Factors in Computing Systems . 1–8.
+[25] Sara Eriksson, Åsa Unander-Scharin, Vincent Trichon, Carl Unander-Scharin,
+Hedvig Kjellström, and Kristina Höök. 2019. Dancing with drones: Crafting
+novel artistic expressions through intercorporeality. In Proceedings of the 2019
+CHI Conference on Human Factors in Computing Systems . 1–12.
+[26] Kathryn Farley. 2002. Digital dance theatre: The marriage of computers, chore-
+ography and techno/human reactivity. Body, Space & Technology 3, 1 (2002).
+[27] Eleni Filippidou and Maria Koutsouba. 2020. Dance and Socio-Cybernetics.
+Journal of ethnic and cultural studies 7, 2 (2020), 30–49.
+[28] Petra Gemeinboeck. 2019. Dancing with the nonhuman. Thinking in the World
+(2019), 214–239.
+[29] Gabriella Giannachi. 2004. Virtual theatres: an introduction . Routledge.
+[30] Marco Gillies. 2016. What is Movement Interaction in Virtual Reality for?. In
+Proceedings of the 3rd International Symposium on Movement and Computing
+(Thessaloniki, GA, Greece) (MOCO ’16) . Association for Computing Machinery,
+New York, NY, USA, Article 31, 4 pages. https://doi.org/10.1145/2948910.2948951
+[31] Marco Gillies. 2018. Creating Virtual Characters. In Proceedings of the 5th In-
+ternational Conference on Movement and Computing (Genoa, Italy) (MOCO ’18) .
+Association for Computing Machinery, New York, NY, USA, Article 22, 8 pages.
+https://doi.org/10.1145/3212721.3212835
+[32] Kehong Gong, Dongze Lian, Heng Chang, Chuan Guo, Zihang Jiang, Xinxin
+Zuo, Michael Bi Mi, and Xinchao Wang. 2023. TM2D: Bimodality Driven 3D
+Dance Generation via Music-Text Integration. In Proceedings of the IEEE/CVF
+International Conference on Computer Vision (ICCV) . 9942–9952.
+[33] Frederick B Goss. 2012. Living literature: Ramakien, the Thai Rendition of the
+Rama Epic. Asia-Pacific Centre of Education for International Understanding
+(APCEIU) 35 (2012).
+[34] Lamtharn Hantrakul and Konrad Kaczmarek. 2014. Implementations of the Leap
+Motion device in sound synthesis and interactive live performance. In Proceedings
+of the 2014 International Workshop on Movement and Computing (Paris, France)
+(MOCO ’14) . Association for Computing Machinery, New York, NY, USA, 142–145.
+https://doi.org/10.1145/2617995.2618020
+[35] Frank White Hatch. 1973. A behavioral cybernetic interpretation of dance and
+dance culture. The University of Wisconsin-Madison.
+[36] Mohd Firdaus Mohd Herrow and Nur Zaidi Azraai. 2021. Digital Preservation of
+Intangible Cultural heritage of Joget Dance Movement Using Motion Capture
+Technology. Int. J. Herit. Art Multimed 4 (2021), 1–13.
+[37] Chi-Min Hsieh and Annie Luciani. 2005. Generating dance verbs and assisting
+computer choreography. In Proceedings of the 13th Annual ACM international
+Conference on Multimedia . 774–782.
+[38] Valeria Lo Iacono and David HK Brown. 2016. Beyond binarism: Exploring a
+model of living cultural heritage for dance. Dance Research 34, 1 (2016), 84–105.
+[39] Mikhail Jacob and Brian Magerko. 2015. Viewpoints ai. In Proceedings of the 2015
+ACM SIGCHI Conference on Creativity and Cognition . 361–362.
+[40] Leva Janauskait ˙e and George Palamas. 2019. Establishing dialogues between
+movement and atmospheric ambiances. In Proceedings of the 6th International
+Conference on Movement and Computing . 1–11.
+[41] Iris Kico, Nikos Grammalidis, Yiannis Christidis, and Fotis Liarokapis. 2018. Digi-
+tization and visualization of folk dances in cultural heritage: a review. Inventions
+3, 4 (2018), 72.
+[42] Amolwan Kiriwat. 2001. Kh ¯on: masked dance drama of the Thai epic Ramakien.
+(2001).
+[43] Kaisa Kortekallio. 2022. Dancing with the Posthumans: Readerly Choreographies
+and More-than-Human Figures. Partial Answers: Journal of Literature and the
+History of Ideas 20, 2 (2022), 277–295.
+[44] SanSan Kwan. 2014. Even as We Keep Trying: An Ethics of Interculturalism in
+Jerome Bel’s Pichet Klunchun and Myself. Theatre Survey 55, 2 (2014), 185–201.
+[45] Kate Ladenheim, Reika McNish, Wali Rizvi, and Amy LaViers. 2020. Live dance
+performance investigating the feminine cyborg metaphor with a motion-activated
+wearable robot. In Proceedings of the 2020 ACM/IEEE international conference on
+human-robot interaction . 243–251.
+[46] John Lansdown. 1978. The computer in choreography. Computer 11, 08 (1978),
+19–30.
+[47] Amy LaViers and Catherine Maguire. 2023. Making Meaning with Machines: So-
+matic Strategies, Choreographic Technologies, and Notational Abstractions through
+a Laban/Bartenieff Lens . MIT Press.
+[48] Alison E Leonard, Shaundra B Daily, Sophie Jörg, and Sabarish V Babu. 2021.
+Coding moves: Design and research of teaching computational thinking through
+dance choreography and virtual interactions. Journal of Research on Technology
+in Education 53, 2 (2021), 159–177.
+[49] Yimeng Liu and Misha Sra. 2024. DanceGen: Supporting Choreography Ideation
+and Prototyping with Generative AI. arXiv preprint arXiv:2405.17827 (2024).
+MOCO ’24, May 30–June 02, 2024, Utrecht, Netherlands Pataranutaporn et al.
+[50] Yimeng Liu and Misha Sra. 2024. Exploring AI-assisted Ideation and Prototyping
+for Choreography. In Companion Proceedings of the 29th International Conference
+on Intelligent User Interfaces . 11–17.
+[51] Suvradip Maitra. 2020. Artificial intelligence and indigenous perspectives: Protect-
+ing and empowering intelligent human beings. In Proceedings of the AAAI/ACM
+Conference on AI, Ethics, and Society . 320–326.
+[52] John McCormick, Kim Vincs, Saeid Nahavandi, Douglas Creighton, and Steph
+Hutchison. 2014. Teaching a Digital Performing Agent: Artificial Neural Network
+and Hidden Markov Model for recognising and performing dance movement.
+InProceedings of the 2014 International Workshop on Movement and Computing
+(Paris, France) (MOCO ’14) . Association for Computing Machinery, New York,
+NY, USA, 70–75. https://doi.org/10.1145/2617995.2618008
+[53] Klara Nahrstedt, Ruzena Bajcsy, Lisa Wymore, Renata M Sheppard, and Katherine
+Mezur. 2008. Computational Model of Human Creativity in Dance Choreography..
+InAAAI Spring Symposium: Creative Intelligent Systems . 53–60.
+[54] Lim How Ngean. 2014. Choreographic modernities: Movement, mobility and
+contemporary dance from Southeast Asia. (2014).
+[55] Jorge Otero-Pailos. 2016. Experimental preservation. Places Journal (2016).
+[56] Robin Otterbein, Elizabeth Jochum, Daniel Overholt, Shaoping Bai, and Alex
+Dalsgaard. 2022. Dance and Movement-Led Research for Designing and Evaluat-
+ing Wearable Human-Computer Interfaces. In Proceedings of the 8th International
+Conference on Movement and Computing (Chicago, IL, USA) (MOCO ’22) . As-
+sociation for Computing Machinery, New York, NY, USA, Article 9, 9 pages.
+https://doi.org/10.1145/3537972.3537984
+[57] Antti Oulasvirta, Teemu Roos, Arttu Modig, and Laura Leppänen. 2013. Informa-
+tion capacity of full-body movements. In Proceedings of the SIGCHI conference on
+human factors in computing systems . 1289–1298.
+[58] Pat Pataranutaporn, Valdemar Danry, Lancelot Blanchard, Lavanay Thakral,
+Naoki Ohsugi, Pattie Maes, and Misha Sra. 2023. Living Memories: AI-Generated
+Characters as Digital Mementos. In Proceedings of the 28th International Confer-
+ence on Intelligent User Interfaces . 889–901.
+[59] Abby Plone. 2019. The influence of artificial intelligence in dance choreography.
+(2019).
+[60] Amalia Rachmawati. 2020. Comparative Study Between Javanese’s Kakawin
+Ramayana And Thai’s Ramakien As The Derivative Of Indian’s Greatest Epic
+Ramayana. Karangan: Jurnal Bidang Kependidikan, Pembelajaran, dan Pengem-
+bangan 2, 02 (2020), 76–82.
+[61] Katerina El Raheb, George Tsampounaris, Akrivi Katifori, and Yannis Ioannidis.
+2018. Choreomorphy: A whole-body interaction experience for dance impro-
+visation and visual experimentation. In Proceedings of the 2018 International
+Conference on Advanced Visual Interfaces . 1–9.
+[62] Ioannis Rallis, Athanasios Voulodimos, Nikolaos Bakalos, Eftychios Protopa-
+padakis, Nikolaos Doulamis, and Anastasios Doulamis. 2020. Machine learning
+for intangible cultural heritage: a review of techniques on dance analysis. Visual
+Computing for Cultural Heritage (2020), 103–119.
+[63] MR Reshma, B Kannan, VP Jagathy Raj, and S Shailesh. 2023. Cultural her-
+itage preservation through dance digitization: A review. Digital Applications in
+Archaeology and Cultural Heritage (2023), e00257.
+[64] Claudia Ribeiro, Rafael Kuffner dos Anjos, and Carla Fernandes. 2017. Capturing
+and Documenting Creative Processes in Contemporary Dance. In Proceedings
+of the 4th International Conference on Movement Computing (London, United
+Kingdom) (MOCO ’17) . Association for Computing Machinery, New York, NY,
+USA, Article 7, 7 pages. https://doi.org/10.1145/3077981.3078041
+[65] Tessa Rixon. 2019. Symbiosis in digital performance: the relationship between
+interactive technologies and improvisational choreography. Behind the Scenes:
+Journal of Theatre Production Practice 2, 1 (2019), Article–number.
+[66] Amit Rogel, Richard Savery, Ning Yang, and Gil Weinberg. 2022. RoboGroove:
+Creating Fluid Motion for Dancing Robotic Arms. In Proceedings of the 8th Inter-
+national Conference on Movement and Computing (Chicago, IL, USA) (MOCO ’22) .
+Association for Computing Machinery, New York, NY, USA, Article 7, 9 pages.
+https://doi.org/10.1145/3537972.3537985
+[67] Francisco Sagasti. 2019. Information technology and the arts: the evolution of
+computer choreography during the last half century. Dance Chronicle 42, 1 (2019),
+1–52.
+[68] Antonella Salucci and Eleonora Giancristofaro. 2022. Dance and Architecture.
+Representations. Surveying the Geographies of Space. Digital Modernism Heritage
+Lexicon (2022), 625–642.
+[69] GJ Savage and JM Officer. 1977. Choreo: An interactive computer model for
+choreography. In Proc. 5th Man-Machine Communication Conf, Calgary, Alberta .
+[70] Thecla Schiphorst. 1993. A case study of merce cunningham’s use of the lifeforms
+computer choreographic system in the making of trackers . Simon Fraser University.
+[71] Thecla Schiphorst. 2013. Merce Cunningham: Making dances with the computer.
+InMerce Cunningham . Routledge, 79–98.
+[72] Vikash Singh, Celine Latulipe, Erin Carroll, and Danielle Lottridge. 2011. The
+choreographer’s notebook: a video annotation system for dancers and choreog-
+raphers. In Proceedings of the 8th ACM Conference on Creativity and Cognition .
+197–206.[73] Lowell Skar. [n. d.]. Reimagining Classical Thai Dance for the 21st Century: The
+Evolution of Pichet Klunchun’s “No. 60”. In Lives in Motion . Routledge India,
+65–80.
+[74] Lowell Skar. 2023. Reimagining Classical Thai Dance for the 21st Century. Lives
+in Motion: Celebrating Dance in Thailand (2023).
+[75] Maria Skublewska-Paszkowska, Pawel Powroznik, Jakub Smolka, Marek Milosz,
+Edyta Lukasik, Dilbar Mukhamedova, and Elzbieta Milosz. 2021. Methodology of
+3D scanning of intangible cultural heritage—The example of Lazgi dance. Applied
+Sciences 11, 23 (2021), 11568.
+[76] Frederick Steier and Jane Jorgenson. 2016. Dancing with Cybernetics (on Bridges
+in the Wind). Cybernetics & Human Knowing 23, 1 (2016), 50–58.
+[77] Marina Stergiou and Spyros Vosinakis. 2022. Exploring costume-avatar in-
+teraction in digital dance experiences. In Proceedings of the 8th International
+Conference on Movement and Computing (Chicago, IL, USA) (MOCO ’22) . As-
+sociation for Computing Machinery, New York, NY, USA, Article 5, 6 pages.
+https://doi.org/10.1145/3537972.3537980
+[78] Guofei Sun, Yongkang Wong, Zhiyong Cheng, Mohan S Kankanhalli, Weidong
+Geng, and Xiangdong Li. 2020. Deepdance: music-to-dance motion choreography
+with adversarial learning. IEEE Transactions on Multimedia 23 (2020), 497–509.
+[79] Nicolas Salazar Sutil. 2014. Mathematics in motion: a comparative analysis of
+the stage works of Schlemmer and Kandinsky at the Bauhaus. Dance Research
+32, 1 (2014), 23–42.
+[80] Ana Tajadura-Jimenez, Judith Ley-Flores, Omar Valdiviezo, Aneesha Singh, Mi-
+lagrosa Sanchez-Martin, Joaquin Diaz Duran, and Elena Márquez Segura. 2022.
+Exploring the Design Space for Body Transformation Wearables to Support
+Physical Activity through Sensitizing and Bodystorming. In Proceedings of the
+8th International Conference on Movement and Computing (Chicago, IL, USA)
+(MOCO ’22) . Association for Computing Machinery, New York, NY, USA, Article
+23, 9 pages. https://doi.org/10.1145/3537972.3538001
+[81] Yi-Wen Ting, Po-Shien Lin, and Rung-Tai Lin. 2022. A Study of Applying Bauhaus
+Design Idea into the “Body Workshop of Bauhaus”. In Knowledge Innovation
+on Design and Culture: Proceedings of the 3rd IEEE International Conference on
+Knowledge Innovation and Invention 2020 (IEEE ICKII 2020) . World Scientific,
+25–28.
+[82] Markus Toverud Ruud, Tale Hisdal Sandberg, Ulrik Johan Vedde Tranvaag,
+Benedikte Wallace, Seyed Mojtaba Karbasi, and Jim Torresen. 2022. Reinforce-
+ment Learning Based Dance Movement Generation. In Proceedings of the 8th
+International Conference on Movement and Computing (Chicago, IL, USA) (MOCO
+’22). Association for Computing Machinery, New York, NY, USA, Article 28,
+5 pages. https://doi.org/10.1145/3537972.3538007
+[83] Deborah H Williams and Gerhard P Shipley. 2021. Enhancing artificial intelligence
+with indigenous wisdom. Open Journal of Philosophy 11, 01 (2021), 43–58.
+[84] Qiushi Zhou, Cheng Cheng Chua, Jarrod Knibbe, Jorge Goncalves, and Eduardo
+Velloso. 2021. Dance and choreography in HCI: a two-decade retrospective. In
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems .
+1–14.
+[85] Qiushi Zhou, Louise Grebel, Andrew Irlitti, Julie Ann Minaai, Jorge Goncalves,
+and Eduardo Velloso. 2023. Here and Now: Creating Improvisational Dance
+Movements with a Mixed Reality Mirror. In Proceedings of the 2023 CHI Conference
+on Human Factors in Computing Systems . 1–16.
+[86] Wenlin Zhuang, Congyi Wang, Jinxiang Chai, Yangang Wang, Ming Shao, and
+Siyu Xia. 2022. Music2dance: Dancenet for music-driven dance generation.
+ACM Transactions on Multimedia Computing, Communications, and Applications
+(TOMM) 18, 2 (2022), 1–21.

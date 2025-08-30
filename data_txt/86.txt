@@ -1,0 +1,649 @@
+Вестник Томского государственного университета. Культурология и искусствоведение . 
+2025. № 57. С. 25–39. 
+© D.V. Galkin, Weng Wei , 2025 Tomsk State University Journal of Cultural Studies and Art History . 2025. 57. pp. 25– 39. 
+ 
+Original article  
+УДК 7.01  
+doi: 10.17223/22220836/57/ 3 
+THE ROLE OF GENERATI VE ARTIFICIAL INTELL IGENCE  
+IN MODERN DESIGN: TH EORETICAL CONSIDERAT IONS  
+Dmitry V. Galkin1, Weng Wei2 
+1, 2 National Research Tomsk State University, Tomsk, Russian Federation  
+1 gdv_t@mail.ru  
+2 vivianglia2022@outlook.com  
+Abstract.  This paper explores the role of artificial intelligence (AI) in modern design, 
+particularly focusing on the theoretical foundations of delegation of functional tasks. It 
+begins by discussing the agency of things from an object -oriented approach and how it  
+relates to AI. The concept of delegation is examined in detail, considering its meaning and 
+implications for design. The capabilities of AI are analyzed, and different levels of AI 
+development are presented. The paper then delves into the shift from humanism to non-
+humanism in design, highlighting the changes brought about by generative AI, such as deep 
+human -computer collaboration, data as a core resource, and systematic innovation. It also 
+addresses issues like data quality, design originality, and the i ntegration of AI in various 
+design aspects. Additionally, it touches on AI governance and the influence of object -
+oriented ontology (OOO) on design thinking. Finally, it concludes that design should aim to maximize the quality of human -centered lives, whil e also acknowledging the growing 
+importance of design synergy in complex cultures.  
+Keywords:  generative design, artificial intelligence, delegation, non- human a gents, object -
+oriented approach  
+For citation:  Galkin D.V.  & Weng Wei  (2025) . The role of generative artificial intelligence 
+in modern design: theoretical considerations . Vestnik Tomskogo gosudarstvennogo univers i-
+teta. Kul’turologiya i iskusstvovedenie – Tomsk State University Journal of Cultural Studies 
+and Art History . 57. pp. 25 –39. (In Russ ian). doi: 10.17223/22220836/57/ 3 
+Научная статья  
+РОЛЬ ГЕНЕРАТИВНОГО ИСКУССТВЕННОГО ИНТЕЛЛЕКТА  
+В СОВРЕМЕННОМ ДИЗАЙН Е: ТЕОРЕТИЧЕСКИЕ АСП ЕКТЫ 
+Дмитрий Владимирович Галкин1, Вэн Вэй2 
+1, 2 Национальный исследовательский Томский государственный университет,  
+Томск, Россия  
+1 gdv_t@mail.ru  
+2 vivianglia2022@outlook.com  
+Аннотация.  В статье исследует ся роль генеративного искусственного интеллекта в 
+современном дизайне, особенно сосредоточив внимание на теоретических основаниях 
+делегирования функциональных задач. Ав торы исходят из объектно- ориенти-
+рованного подхода, обсуждая структуру практики и их отношение с искусственным 
+интеллектом. Понятие делегирования подробно исследуется, учитывается его знач е-
+ние и влияние на дизайн. Анализируются способности генеративного ис кусственного 
+Galkin D.V. , Weng Wei . The role of generative artificial intelligence in modern design  
+26 интеллекта и представлены различные уровни развития искусственного интеллекта. 
+Авторы обращаются к проблеме перехода от гуманизма к не- гуманизму в дизайне, 
+подчеркивая изменения, принесенные генеративным искусственным интеллектом, та-
+кие как гл убокое человеко- машинное сотрудничество, использование данных как 
+ключевого ресурса и систематизированное инновационное творчество. Также обсу ж-
+даются проблемы качества данных, оригинальности дизайна и интеграции иску с-
+ственного интеллекта с различными облас тями дизайна. Кроме того, затрагивает ся 
+влияние управления искусственным интеллектом и объектно -ориентированной онто-
+логии на дизайнерское мышление. В заключение подчеркивается, что дизайн должен 
+стремиться максимизировать качество жизни, ориентированное на  человека, и призн а-
+ет важность возрастающей синергии дизайна в сложной культуре.  
+Ключевые слова:  генеративный дизайн, искусственный интеллект, делегирование, не-
+человеческие агенты, объектно- ориентированный подход  
+Для цитирования:  Галкин  Д.В., Вэн Вэй. Роль  генеративного искусственного инте л-
+лекта в современном дизайне: теоретические аспекты // Вестник Томского госуда р-
+ственного университета. Культурология и искусствоведение . 2025. № 57. С. 25–39. doi: 
+10.17223/22220836/57/ 3 
+1. Introduction  
+The agency of things, as proposed by the object -oriented approach in 
+anthropological theory, is strongly influencing the analysis of technological 
+achievements today. This approach suggests taking into account various 
+manifestations of non- human action. The development of artificial intelligence 
+systems in various fields demonstrates the importance of considering this agency. 
+The delegation of functional tasks that are realized by a professionals is an 
+important aspect that the paper will consider. The paper will look at  the application 
+of AI based on artificial neural networks in design from the point of view of this 
+delegation. What type of partnership can be formed with 'non- human' agents in the 
+design profession? In what manner can the object be seamlessly incorporate d into 
+our cognition? What actions can be taken under extreme hypothetical circumstances, such as when a non -human attains consciousness analogous to that 
+of a human being? In what manner can the relationship between humans and objects be modeled?  
+2. Probl em Space of Design  
+In the history of thought, the 'Argument from Design' posits the existence of a 
+supernatural designer based on the regularity and order of nature, asserting that all 
+entities in the world are designed by God to benefit humanity (known as  the 
+'teleological argument'). Conversely, evolution (or cosmogony) refutes the notion 
+of a purposive designer while simultaneously denying the exis tence of a 
+supernatural creator  [1. P. 75]. The paradigm shift in design that confronts problem 
+solving at this time, when our design is in a period of transition from a symbolist 
+AI to a connectivist AI, corresponds to both of these philosophical proposit ions. 
+The problem space is the internal representation of the task environment used by 
+the subject. The subject of this paper, 'From Delegation of Functional Tasks to 
+Design Synergy,' encompasses both a pre -assignment and a post -assignment state, 
+each situ ated within a problem space, which refers to the internal representation of 
+the task environment utilized by the subject. environment utilized by the subject  
+[2. P. 56], the problem space is used to describe all possible states and operations 
+involved in the problem solving process. Functional tasking proble ms are design 
+Культурология, теория и история культуры / Culturology, the theo ry and cultural history  
+27 challenges that involve addressing specific issues in the real world. Simon 
+discerned certain 'non -discussable problems' within his Problem Space Theory via 
+the process of elimination, and Simon and Newell formulated the foundational 
+framewor k of the General Problem Solver (GPS) theory  [2. P. 15]. The concept of 
+problem space is extensively utilized in the design of search algorithms, including the A* algorithm, within the domain of artificial intelligence.  
+Solutions to this problems in traditional professional fields are often limited, 
+as Herbe rt Simon describes the ‘limited problems’ that arise in a closed and well -
+defined world [3. P. 181–201] . Herbert Simon characterizes marginal design 
+problems that are challenging to explicitly define for problem -solving, specifically 
+the application of ill -structured problem s (ISPs) to address the issue of design 
+definition. This approach is ingenious as it preserves the scalability of the problem 
+space while systematically narrowing the definition through exclusion. The 
+design's purpose is clearly articulated as a response t o a persistent issue, rather than 
+the achievement of a particular objective. Simon and his colleagues utilized heuristics in their research; for instance, in the creation of the General Problem Solver (GPS), they applied the heuristic of means -end analysis  to replicate the 
+human problem -solving process. Simon has introduced heuristics into the design 
+process by defining design as an activity grounded in logical inquiry and the 
+achievement of specific objectives, thereby rendering it more scientific and 
+peda gogically accessible [4]. 
+Simon's design theory remains prevalent in the design community. His model 
+of the decision- making process characterizes design as the identification, 
+formulation, and evaluation of feasible alter natives. Simon's theories, highlighting 
+the scientific and methodical aspects of the design process, have propelled the 
+evolution of contemporary applications like parametric design, which has shifted 
+design from dependence on intuition and experience to a  mathematically and 
+logically manipulable form. He partnered with CAD expert Eastman to create 
+ICAD and enabled the transition from command -line interfaces to graphical user 
+interfaces (GUIs). Simon contends that problems can be perceived as structured 
+processes [3], while 'unstructured problems' (ISPs) are characterized by an absence 
+of clear structure. I f a problem is not a structured problem (WSP), it is classified as 
+an unstructured problem (ISP). Simon illustrates the process of designing a house, 
+wherein the architect encounters an initially unstructured problem that progressively evolves into a struc tured problem through recollection and 
+experience. Notwithstanding the constraints of these methodologies in addressing intricate and inadequately structured design challenges, they nonetheless represent the preliminary investigation of heuristics for desi gn automation. 
+During the Symbolic period, Artificial Intelligence (Symbolic AI) embraced 
+Simon's problem methodology, which focused on structured knowledge 
+representation that was easily manipulable and conducive to reasoning, applicable 
+across various do mains. Prevalent methodologies for knowledge representation 
+encompass rule -based systems and ontologies. In the mid -1960s, John McCarthy 
+introduced contextual algorithms to address events and actions in a dynamic environment, which became a crucial instrum ent for managing time and change in 
+Symbolic AI, with applications in automated planning and reasoning systems, including floor -sweeping robots and autonomous vehicles. In 1997, IBM's Deep 
+Blue, utilizing advanced hardware and search algorithms, achieved v ictory over the 
+Galkin D.V. , Weng Wei . The role of generative artificial intelligence in modern design  
+28 world chess champion, highlighting the significance of symbolic processing and 
+heuristic search in intricate strategy games. The AI of AlphaGo that triumphed 
+over Ke Jie employed analogous concepts.  
+Symbolist AI depends on rigid rules and l ogical reasoning, resulting in 
+suboptimal performance when confronted with ambiguous or incomplete information. In natural language understanding and sentiment analysis, human 
+language and emotional expressions are often ambiguous and polysemous, 
+presentin g a challenge for systems reliant on fixed symbols and rules. Moreover, 
+symbolic systems necessitate a knowledge base that is manually encoded by 
+experts, which is both time -consuming and labor -intensive, thereby constraining 
+the system's flexibility. The system may require reconfiguration or expansion of 
+the knowledge base upon encountering a new context. The scalability of Symbolist AI is constrained by the necessity for pre -established rules and knowledge to 
+accommodate extensive or dynamically evolving data. In the Internet era, the rapid 
+evolution of data and the proliferation of information render it exceedingly 
+challenging to sustain and update the knowledge base of a Symbolist system, thereby underscoring its limitations for specific design issues. 
+3. Gen -AI and Problem Spaces  
+The design task involving generative AI transcends the rule -based model of 
+problem spaces, confronting multiple simultaneous problem spaces, each with 
+distinct environments (semiospheres), thereby rendering the problem an unsolvable 
+Wicked Problem [5]. Occasionally, rather than simplifying, the resolution to the 
+problem may lead to an increase in entropy; design thinking could address the 
+challenge of Wicked Problem when a limited number of those are engaged [6], yet 
+in distributed AI collaborating with widespread crowds, it  may not be effective due 
+to a divergence between the methodologies employed by generative AI and those 
+utilized by conventional designers  (Conventionalist). The primary objective of 
+contemporary connectionist AI is to train it to accurately perceive reali ty. This 
+objective includes several renowned methodologies, such as AlphaGo's forecasting 
+of Go moves and the 1986 backpropagation algorithm by Hinton and Rumelhart, 
+which modifies parameters via error to enhance precision. Bengio examined 
+techniques for deriving useful insights from unlabeled data utilizing 
+backpropagation. Yann LeCun, Bengio, and Hinton created the convolutional 
+neural network LeNet -5 for handwriting recognition, while AlexNet, developed by 
+Szegedy, Krizhevsky, in conjunction with Hinton, significantly enhanced image 
+recognition accuracy. Hassabis' AlphaFold forecasts protein three -dimensional 
+structures utilizing amino acid distance histograms, thereby enhancing AI 
+recognition capabilities in microbiology. The self -attention mechanism of the 
+Transformer model enhances the efficiency of processing extensive sequential 
+data, facilitating advancements in tasks like natural language processing. These 
+technologies consistently acquire and analyze real -world data, generating a 'stream' 
+of inform ation that provides AI with Method of Exhaustion within a clearly 
+delineated dialogue problem domain. 
+Chomsky contends that despite the Method of Exhaustion applied to 
+conversational AI, generative AI is fundamentally a program, which he perceives 
+as a theory articulated in machine -readable notation. Machines such as ChatGPT 
+do not withhold responses and will address any inquiries posed, generating strange 
+Культурология, теория и история культуры / Culturology, the theo ry and cultural history  
+29 theories; however, strange theories are still classified as theories [7]. These theories 
+originate from data, and he emphasiz es that data do not constitute explanations as 
+they fail to provide evidence; evidence is a relational concept, and data do not 
+directly yield evidence, much less explanations. Furthermore, vast quantities of 
+data can be simulated, yet simulation does not equate to explanation. Hinton 
+criticised Chomsky's theory of language, language is obviously learned; Large neural networks learn language without any innate structure, they just start learning 
+from random weights and large amounts of data; Chomsky never proposed any kind of theory about semantics, his theories were all about syntax [8]. The 
+neurological or strong AI perspective posits that causal reasoning and human comprehension of the world are inherent within the data. J. Searle's Chinese Room argument posits that a computer merely manipulates symbols according to 
+predefined rules and lacks awareness of the meaning of the symbols it processes. “The contrast is that according to Strong AI, the correct simulation really is a mind. 
+According to Weak AI, the correct simulation is a model of the mind.”  It is a 
+strong criticism of the Strong AI position, which claims that the mind is merely a computer programme [9]. 
+The author experienced a similar phenomenon when using GPT to translate 
+text daily. Learning a second language often involves grammar. Grammatical 
+usage is  often overlooked by first language learners. In Chinese and English, the 
+author wanted to distinguish between ‘ 生成设计’ and ‘ 设计生产’ when studying 
+the translation problem. In contrast, the author discovered that in Chinese, the verb 
+and adjective lexemes of ‘ 生成’  a n d  ‘ 设计 ’ can be automatically switched after 
+their inflections swap. The author was inspired to write because these two phrases 
+can confuse Chinese readers. However, the suffix in English requires the adjective 
+to be in front of the noun, and the exchange of position must be preceded by a 
+change in the word's lexical nature, which is equivalent to the automatic setting of 
+an inflectional premise in English. There is no confusion, which cancels the 
+author's previous motivation to write.  
+English is strict, while Chinese is freer. The formal rules of Chinese and 
+English differ. GPT doesn't know this until the user consciously pursues the 
+question, at which point it organizes its language to give the database answer. So 
+far, GPT is a search engine with a sel f-ordering mechanism from known to known. 
+This shows that just one language mechanism is enough to influence the motivation of a person's behaviour, but the GPT does not know how to be silent. 
+Wittgenstein's game theory of language has helped AI researcher s understand its 
+complexities and meaning. Many rule -based or statistical NLP methods ignore 
+context. Modern AI models like the Transformer architecture and the GPT family use context -aware mechanisms like attention mechanisms to better capture 
+language dy namics and contextual dependencies.  
+4. Gen -AI's Design Creativity Status  
+Design is a typical service industry that targets a population. AI is needed to 
+unlock data's potential and bring data and mathematical models ‘from the known to the unknown’. Culture  is ‘collective non -hereditary memory’ [10],  ‘ a  s y s t e m  o f  
+symbols subject to structural rules’ [11], the semiosphere [12]. This clarifies why 
+today's generative AI can easily change image style from a humanistic perspective. 
+Designers usually use their intuition to evoke memories and turn them into 
+Galkin D.V. , Weng Wei . The role of generative artificial intelligence in modern design  
+30 symbols, which can be visualized as images or verbalized as language. GPT proves 
+that language can be structured. The designer must incorporate symbols (visual, 
+stylistic, or structural) into the language to achieve synergy and resource 
+deployment to make the program feasible. As if building a wheel, designers must 
+contact the developer to start working from the source, where the symbols are not 
+yet fully dematerialized. AI developers are pioneering this multimodal process of data translation.  
+So-called creativity, in a statistical sense, may in most cases be the very 
+‘coincidence’ that has never been to uched in human history. They say we can't 
+imagine what we haven't seen. If the whole world has never been exposed to an event, 
+the coincidence has not yet occurred, and even if it has, it may be forgotten without a symbol. Artistic creation or innovative d esign is usually an unstructured problem, but 
+statistical creativity may be a ‘search’. Modern Generative Artificial Intelligence uses “language games ” to structure this unstructured task. Generative AI and language 
+have rationalized ‘stylized’ creativity.  Since we still don't have established GPT 
+creativity status, OpenAI's O series of products are trying to break through this area. Creativity belongs to what Herbert Simon called the unstructured ‘The residual’ 
+[2. P. 314]. Reasoning can compensate for the ‘The residual’. The problem space can 
+be construc ted incrementally as the need for each component arises. The fact that B ig 
+Data has become so big is a side effect of the fact that much of the domain 
+knowledge cannot be shared within existing structures and frameworks. 
+Designing for one's own needs shows  that man acts as his own God. Evolution 
+is the end in itself, expanding mankind's boundaries. Traditional design's problem 
+space e xists only in the world where humans are alive; as long as they are human, 
+they can only live in society and culture. Symboli sm design's problem space is 
+constrained by human beings, so it lives in symbols and dies under symbols and 
+cannot escape the shackles of ‘style’. In the early 20th century, the phenomenologist 
+Husserl pioneered the epoch “brackets,Ф  which suppresses judgment, puts aside 
+controversy, ‘exists but does not exist’, and uses all pre -existing concepts (theories, 
+preconceptions, authorities, traditions...) as the basis for a new design approach. The fatal attraction of the ‘non -human’, whic h can expand our imagination for life and 
+functioning beyond our reach, compels us to always extend these possibilities, and this 
+problematic space has become intercultural. Collaboration with ‘non- human’ is 
+meaningful and life -affirming. With a clear dire ction , at least when using “non-
+human" agents, cooperation still solves human- oriented problems, and our problem 
+space is always established. We all know AI's ‘non -human’ properties, but we all 
+know it has ‘superhuman’ properties. The simple definition of AI as a ‘thing’ or 
+‘non- human’ leaves room for problems.  
+5. Subjective Activity and Automation  
+In Heidegger’s account humans and techne connected in taking care. Care 
+shows in our use of tools like hammers, as well as in our concern for others and the world. We used to view machines as tools without considering that they were 
+completely “out of control. ” With the rapid development of AI, when the ‘non-
+human’ is more and more likely to act independently from human control, we need a new perspective to examin e the possibility and necessity of appropriately 
+assigning roles to AI in future design to prepare for man -made accidents that 
+threaten human survival.  
+Культурология, теория и история культуры / Culturology, the theo ry and cultural history  
+31 For object -oriented ontology the idea is that humans, non- human and things 
+should be regarded equally and allowed to play the same role in actor networks. 
+Speculative realism focuses on the relationship between subject and object and emphasizes the independence and autonomy of the object. In some viewpoints of 
+speculative realism, the subject's understanding  of the object is limited, and the 
+object has characteristics that transcend the subject's cognition. “Delegation ” can 
+be regarded as a behavior in which the subject entrusts power or tasks to the object. 
+This has a certain similarity to the relationship b etween subject and object in 
+speculative realism. For example, from the perspective of speculative realism, 
+human subjects may not be able to fully understand and control natural objects. In 
+the process of human exploration and utilization of nature, some tasks may be 
+“entrusted ” to nature, allowing nature to complete certain things according to its 
+own laws and characteristics. This has a certain echo with the concept of “delegation ”. 
+The specialized field of artificial intelligence was created for this pu rpose. The 
+idea that AI mimics humans is to view them as machines with abstract algorithms and parameters to mimic human behavior. The ‘digitization’ of the office has led 
+AI scientists to see humans as machines. Today's big language models are good at 
+structuring unstructured data, which will replace many industries and office 
+workers. For instance, customer service and receptionists process data, especially in a loft with a single workstation, turning people into data processing machines 
+with no actual work. Effective data classification and processing by AI frees people 
+from digital Verdinglichung.  
+People have spontaneous flexible processing of information and data, they 
+take the initiative, but they are also obsessive -compulsive, which is why they still 
+play an important role in the digitization process nearly half a century later. AI 
+technology's self -directed learning matches human autonomy. Humans must fight 
+the “discomfort ” (pain) of the ever -changing natural world to gain autonomy. In 
+phenomenology i t is believed that suffering changes how we perceive and exist in 
+the world. Regarding subjective agency, existentialist philosopher Jean- Paul Sartre 
+believed that even in the most difficult situations, people have the freedom to choose their own attitudes , which is subjective agency.  
+Everyone acts because they know pain will come. All this discomfort becomes 
+pain and reaching body limits is death. The pineal gland in the brain, where the 
+mind interacts with the body, receives nerve signals when the body is  hurt, 
+according to René Descartes' mind -body dualism. Minds perceive pineal gland 
+signals as pain. Everyone acts because they know pain will come. All this discomfort becomes pain, and reaching body limits is death. The pineal gland in 
+the brain, where the mind interacts with the body, receives nerve signals when the 
+body is hurt, according to René Descartes' mind -body dualism. Minds perceive 
+pineal gland signals as pain. (On Man, 1667, § 78) [13]. Bianchin developed the 
+“Pleasurist's algorithm ” to measure behavior's pleasure and pain [14. P. 56] . 
+Humans improve design strategies to meet their needs. Scientists must set AI's 
+thresh old to automate. 
+6. Delegation as a Mediator  
+Graham Harman reinterpreted the book of Eric, McLuhan's son, and 
+emphasized that “medium ” is both a thing and a mediator. Harman pointed out an 
+Galkin D.V. , Weng Wei . The role of generative artificial intelligence in modern design  
+32 important part in McLuhan's thought. Artists' creative use of old m edia may 
+establish its meaning. In this sense, “delegation ” can be regarded as a special 
+intermediary behavior. It establishes a relationship of entrusting and being 
+entrusted between the subject and the object, thus influencing the way and result of 
+the s ubject's action on the object. Through extended thinking on the concept of 
+“intermediary ”, “delegation ” can be connected with speculative realism. However, 
+the old media used by designers and artists are mostly static. There are also genetic 
+artists who us e artificial hearts and blood to simulate the human body to trigger the 
+emotions of the audience. But the media significance of generative AI has 
+obviously exceeded that of general old media. It is untrue to say, according to the 
+current threat hypothesis, that AI will replace mental labor. This is the reason why:  
+The industrial revolution replaced manual production with machine 
+production, which altered the relationship between humans and machines. In the beginning, humans had to screw; in the control of t he industrial era, humans 
+controlled the machine; in the information age, humans designed complex automation procedures based on the industrial process, and these procedures instructed the machine to screw; in the intelligent era, humans instructed AI to 
+manufacture A; AI used a database to calculate which components of A contained 
+screws; therefore, the manufacturing process was likely to result in an event of screwing, and AI generated automation instructions to tell the machine to screw. 
+This phenomenon suggests that the evolution of the link between humans and 
+machines is moving from direct to indirect, and the ultimate objective of AI design 
+is for it to become a human agent. And this strategy is consistent with evolutionary 
+‘altruism’.  
+Automation is re ally primarily an “interface problem, ” it's also an interface 
+issue [15]. or the task of translating the output of human brain impulses into a form 
+that computers can read and process automatically. The degree of automation 
+difficulty for each connection is as follows: “man to man ” > “object to object”  > 
+“man to object ” = “object to man. ” The more automation grows, the more similar 
+the interfac e is and the more effectively the signal is sent. The significance of 
+individuals in work is determined by their role in decision- making. The likelihood 
+of AI replacing a given employment increases with its level of mediation. The 
+distinctive social characteristics of people who live in groups make it impossible 
+for robots to replace man -oriented employment at this time temporarily. We find 
+that it is a challenge for AI to replace human- oriented employment since, up until it 
+develops a cluster intelligence, it lacks any human social characteristics.  
+Anything – whether it is an event or an act –can be counted as an object as 
+long as it meets two simple criteria: (a) it is ontologically irreducible; it cannot be 
+reduced downward  – “undermined"; (b) or reduced upward – “overmined". These 
+two types are called undermining and overmining in OOO. More commonly, these two kinds of mining are combined, w hich is the so -called duomining [16. P. 50]. 
+Real objects – as opposed to what we call sensual objects – can only be alluded to 
+indirectly; they never take  on literal form, and need not even be physical. When a 
+hammer is damaged, broken, or loses its normal function, sensory properties are 
+redistributed from the sensory hammer to an unknown but real hammer that is 
+deeper than the hammer we previously thought  we knew  [16. P. 152] . In terms of 
+delegation issues, according to the train of thought of OOO, humans are on an 
+equal footing with objects. Whether AI is regarded as a pure tool or a quasi -
+Культурология, теория и история культуры / Culturology, the theo ry and cultural history  
+33 companion, it should be considered as a hammer that may break or a non- human 
+traitor may appear. Regar ding whether one can delegate power with confidence or 
+not, the confidence or lack of confidence among humans can be equally transmitted 
+to non- humans. There is no physical difference. OOO basically does not consider 
+sociality, politics, and humanity, blur ring the distinction between humans and 
+objects as well as agents.  
+7. The delegation issue  
+Before discussing the issue of non- human agents, we must clarify the specific 
+meaning of delegation and what it implies for design. Delegation is the assignment 
+of any responsibility  or authority to another person (normally from a manager to a  
+subordinate) to carry out specific activities. The corresponding strategy is “Divide and Conquer” method. In this context, the subject of delegation is accountable; the 
+subject can delegate tasks to others, but ultimately, the subject is responsible for 
+the consequences of the delegated work. For example, project managers are generally only accountable for three aspects: “delivery time, ” “cost, ” and “quality. ” 
+Assuming that the project is delayed due to the design time being too long, the 
+project manager absolutely cannot shift the responsibility onto the design engineer; 
+they can only say that the delay was caused by their own failure to prompt the 
+design progress in a timely manner. If the design plan has issues that lead to project 
+failure, the project manager is not accountable; instead, the responsibility falls on 
+the design engineer.  
+Therefore, the key responsibility of a design engineer is the proposal and 
+design plan. After  clarifying the responsibilities of design engineers, take AI as an 
+example to consider what role non- human agents should play in design work and 
+what tasks can currently be delegated to them. The premise for discussing this 
+issue should first clarify the capabilities that artificial intelligence currently 
+possesses. Based on the level of abilities that non- human agents of artificial 
+intelligence may exhibit now and, in the future, we can determine the scope of 
+tasks that can be entrusted to it. 
+Humans have  substantial plasticity. The majority of individuals in society are 
+not specialists, but rather average citizens. An individual may remain in a specific position for a long time or may transition between jobs, careers, and 
+roles.  Professions are diverse, w ith varying levels of entry requirements, but they 
+are all built upon the foundational abilities of adults. The greatest success of 
+general artificial intelligence is that it has made significant breakthroughs in 
+mimicking basic human abilities. Several researchers from Google DeepMind have 
+proposed a framework consisting of five progressively increasing levels of AI [17]. 
+They classified through a matrix and believe that under the narrow definition of a 
+clearly scoped task or set of tasks, existing AI product s have already covered levels 
+0 to 5 (No AI, Emerging, Competent, Expert, Virtuoso, Superhuman). However, 
+general artificial intelligence capable of a wide range of non -physical tasks, 
+including metacognitive tasks like learning new skills, currently only reaches level 
+2, with OpenAI being a representative. OpenAI executives have further categorized 
+the levels of AGI. OpenAI believes its technology is approaching the second level 
+of five on the path to artificial general intelligence. The third tier to AGI is 
+“Agents ” (AI systems taking actions on a user's behalf for several days). Level 4 is 
+AI with new innovations. The most advanced level is “Organizations.”  However, it 
+Galkin D.V. , Weng Wei . The role of generative artificial intelligence in modern design  
+34 should also be noted that whether current AI can take on the responsibilities and 
+oblig ations of this position is still in question, as the ethics of AI as a constraint has 
+yet to be established. 
+Due to the significant enhancement of general capabilities, the cross -industry 
+execution power of artificial intelligence has become more prominent . In 2019 
+Harman put forward relevant viewpoints on “artificial non -intelligence ”. He 
+believed that robots are more accurate in tasting and measuring red wine and can 
+also print data, but the evaluations of sommeliers are full of poetry. At the same time, he emphasized that sommeliers are necessary. Although people hate wine-
+tasting robots, what they really want is not an exhaustive analysis of the components of wine, but a poetic expression about wine, that is, non- intelligent 
+feelings rather than intellig ent analysis. This is like drawing an unequal sign 
+between artificial intelligence and poetry in advance. Until ChatGPT came out, the wine -tasting poems it writes may be better than those written by most sommeliers, 
+although it may not have drunk wine. If a humanoid AI that cannot determine truth 
+or falsehood holds a wine glass and expresses the same opinion, will you still question its taste and poetic nature? Obviously, we cannot blame Harman in 2019 
+for seeing intelligence only as a component analyzer.  
+Among human collectives, there are also quite a number of people who like to 
+study the components of red wine rather than poeticize it. However, we will give 
+them the identity of “wine chemical experts ” rather than “sommeliers ”. But we 
+cannot say that chemi cal experts are non -intelligent. Therefore, our traditional 
+expectations for the identity of intelligence are consistent with our inherent 
+impressions of occupations. Harman's definition of an object. Object -oriented 
+philosophy is based on two overlapping dualisms: object and property, reality and 
+sense. An object is any unified entity, whether it is a reality existing in the world or 
+existing in thought. The scope of philosophy must be broad enough to include two 
+types of objects. The first type is called “real object ” or “thing ”. Real objects are 
+autonomous forces in the world and exist even if observers die or are asleep. The 
+second type is called “sensory object ”. Sensory objects exist only when the 
+attention of an observer is directed at them. These observers need not be human.  
+Harman's definition of an object is that which can escape or disappear from 
+any relationship. His theory of independent transformation holds that real objects 
+cannot be touched, exhausted, or directly known, so they can only be  known 
+indirectly. Reality is never present. Objects are essentially non -relational in nature. 
+At the relevant observational level, there is nothing in the world called a hammer. A hammer is an epistemological bubble of consciousness and not a hidden yet r eal 
+agent that causes causal relationships. An AI is holding a hammer. The observer 
+then becomes the AI. This has already realized the authorization of humans to non-
+humans. 
+8. From humanism to non -humanism  
+The rise in complexity of the global economy and society since the 17 -th 
+century has required more technological inventions to meet the needs of various 
+segments of complex societies. Design is one of them. Raymond Williams, who 
+expanded the field of cultural studies by defining culture in three dimensions: all 
+human- made material and spiritual civilizations fall under the largest category; 
+culture as a way of life falls into the middle category; and culture as literature and 
+Культурология, теория и история культуры / Culturology, the theo ry and cultural history  
+35 art falls into the smallest category. It is clear from the definition that desig n is 
+dedicated to improving humankind's quality of life. It is obvious that it falls under 
+the category of intermediate culture, acting as a link between literature and the arts and social civilization.  
+At present, artificial intelligence is still developing continuously. Generative 
+artificial intelligence, which represents a huge impact, has enormous potential in 
+how it will empower thousands of industries. This also brings unprecedented 
+opportunities and challenges to design research. There are no precedents to follow, 
+no competitors to analyze, and no users to research. The established research 
+paradigm needs to be reformed to adapt to the new research direction and requires 
+entirely new design theories: new approaches and methods to support. The design 
+community has deeply realized that the change has already arrived. 
+Generative artificial intelligence has brought about significant changes in the 
+field of design, with AI capable of generating text, images, and videos. AI has 
+become an important pr oductive force in design, greatly enhancing its efficiency. 
+Overall, the design in the intelligent era is characterized by the following features:  
+For example, in the field of software engineering, methods may be used to 
+design software systems. Agents can  be used to implement the functionality of a 
+software system. Agents can improve the methods to make them more effective based on actual operation. First of all, there is deep human -computer collaboration. 
+In the early days of computer -aided design, designers primarily “manipulated ” 
+computers by adjusting relatively fixed elements within industrial software to assist 
+in realizing their design ideas. In the era of generative intelligence, designers 
+engage in multiple rounds of dialogue with AI, gradually ite rating and 
+collaboratively refining design solutions. In this collaborative process, the role of 
+the “machine”  has transformed into that of an “intelligent agent, ” which not only 
+can recognize user intentions but also possesses the ability to active learni ng, make 
+decisions, then execute actions. This kind of interaction allows designers and 
+artificial intelligence to jointly become the subjects of creation, working hand in 
+hand to drive innovation in design. 
+Secondly, data has become the core resource of i ntelligent design. The training 
+of artificial intelligence technology relies on data, especially in machine learning's 
+deep learning models, which require vast amounts of data to recognize patterns and 
+extract features. For example, user data is regarded as the foundation for analyzing user needs and plays a crucial role in design decisions. By utilizing artificial 
+intelligence technology to real -time access and analyze vast amounts of user 
+behavior data, we can further enhance the ability to analyze complex data, thereby 
+providing users with large -scale and personalized experiences that more 
+comprehensively meet people's diverse needs. Once again, a systematic innovation model. In the course of over a hundred years of development, the focus of design 
+has ex panded beyond just innovating specific products or services to encompass 
+systematic innovation, strategically addressing problems.  
+Nowadays, many new definitions of design prominently emphasize the 
+systematic nature of design. Artificial intelligence provides powerful analytical and 
+generative capabilities, in certain fields, it has already removed the technical 
+limitations on design, providing the conditions for design to participate in system -
+level tasks, and at the same time putting forward higher requir ements for design 
+innovation. 
+Galkin D.V. , Weng Wei . The role of generative artificial intelligence in modern design  
+36 Thirdly, data quality determines generation quality. However, data does not 
+necessarily have to be collected with humans as the center. The advantages of 
+artificial intelligence generation lie in quantity and speed. Works gene rated by 
+artificial intelligence exhibit a certain degree of randomness and unpredictability, 
+but this does not mean they are uncontrollable. Designers should fully understand 
+the logic of computation and grasp its characteristics in order to fully leverage 
+artificial intelligence as a collaborative entity.  
+Although achieving high- quality design has traditionally relied on the 
+aesthetic experience, judgment, and specific execution of designers as a guarantee of good results, this understanding is now being broken through by non-
+anthropocentric practices. For example: AI -assisted scientific paper illustration 
+creation begins with AI analyzing hundreds of illustration designs. The results revealed a strategic approach to image design, enabling intelligent creative 
+proposals. Several rounds of dialogue revised the design requirements. Many 
+reference intention images were generated during text -image cross -training, which 
+completed the image design and helped the paper's illustrations meet popular 
+science standard s. A high- quality data repository is the cornerstone of artificial 
+intelligence applications. In the practical application of AI, industries are increasingly inclined to use small models tailored for specific fields. The 
+performance of these models largely  depends on the availability of high- quality 
+datasets. Moreover, the originality of design is crucial. For research and 
+development institutions, establishing a design data resource library with 
+independent intellectual property rights is a fundamental tas k. The resource library 
+should contain a rich variety of high- quality design works, covering multiple styles 
+and elements, and have a clear structure with detailed annotations, such as style tags and emotion tags, to support the breadth, depth, and accurac y of machine 
+learning. 
+Conclusion  
+At present, artificial intelligence has penetrated every aspect of content 
+production. The training data it uses not only determines the quality of the design 
+but also relates to cultural autonomy and safety. Currently, so me widely used 
+image generation tools often lack cultural elements specific to certain regions in their datasets, resulting in numerous inaccuracies and low quality in the content 
+generated that is related to those specific regional cultures. When building  a design 
+data resource library focused on the traditional cultural content of a specific region, 
+it should comprehensively include the core elements, cultural symbols, and cultural 
+images of that region's culture. At the same time, it is essential to emph asize the 
+accuracy of the data and the depth of cultural aspects, clearly labeling the cultural 
+connotations and characteristics behind the data to ensure the cultural relevance 
+and accuracy of the generated content.  
+Contemporary design is actively involve d in addressing issues such as 
+collaboration, convenience, communication, and environmental friendliness. The 
+so-called formation of integrated innovation is design innovation carried out from 
+the system level by comprehensively considering dimensions such as policy, art, 
+technology, market, and culture. In response to the traditional human- centered 
+design concept, OOO provides a relatively new and more comprehensive 
+perspective in the humanities field from the perspective of ontological philosophy. 
+Культурология, теория и история культуры / Culturology, the theo ry and cultural history  
+37 Firstly , AI can learn aesthetics and principles from vast data and create high -
+quality designs, not just rely on quantity and speed. Secondly, AI can develop its 
+own aesthetic sense and offer novel perspectives. Finally, with technological progress, AI is increasingly capable of specific execution and can even optimize 
+designs for manufacturing. Thus, high- quality design isn't solely guaranteed by 
+human designers.  
+Facing the application of new technologies such as artificial intelligence, 
+designers should not only  consider the products and services formed by them, but 
+also consider the application scenarios and industrial ecology. Through delegating power to AI, a new thinking space can be created to a certain extent. For example.  
+The San Francisco -based startup Skyfire is committed to becoming the Alipay 
+in the AI world. It has received $8.5 million in seed round financing. Its goal is to build a global payment network and achieve fully autonomous transactions, serving 
+AI agents and other services. The company has launched a globally universal 
+payment protocol. It has technologies such as an automatic budget and control system, agent ID and historical verification system, etc., allowing users to recharge AI agents through traditional banks or stablecoins.  
+The introduction of relevant policies and the exploration of AI governance 
+practices are in a symbiotic state. For example, in November 2021, UNESCO of 
+the United Nations adopted the world's first AI ethics agreement, the 
+“Recommendation on the Ethics of Artificial Intelligence. ” On December 12, 2023, 
+the artificial intelligence advisory body established by the UN Secretary -General 
+released the interim report “Governing AI for Humanity.”  IBM participated in 
+defining what AI governance is: refers to protective measures to ensure that AI tools and systems remain safe and comply with ethical standards.  
+Relevant research institutions and industry organizations in China have put 
+forward ethical guidelines and self -discipline conventions for AI one after another 
+to provide  ethical guidance for enterprises' AI activities. Representatives include 
+the “AI Industry Self -discipline Convention”  and “Trusted AI Operation 
+Guidelines ” of the China Artificial Intelligence Industry Development Alliance 
+(AIIA), the “Beijing Consensus on Artificial Intelligence ” and the “Declaration on 
+the Responsibility of the Artificial Intelligence Industry ” of the Beijing Academy 
+of Artificial Intelligence, and the “Practical Guide to Cybersecurity Standards – 
+Guidelines for Preventing Ethical and Se curity Risks of Artificial Intelligence ” of 
+the National Information Security Standardization Technical Committee.  
+These frameworks inevitably still have regional and geopolitical requirements. 
+However, apart from the restrictive meaning, we can also verif y whether the so -
+called general artificial intelligence is truly general through different governance 
+methods in different regions. 
+Furthermore, combined with non- Western ideological texts, it is also possible 
+to further explore the reinterpretation of loc al concepts of non- anthropocentrism. 
+For example, when dialoguing with ancient Chinese scholars, there are also 
+writings similar to object- oriented theory – Guo Xiang's theory of independent 
+transformation “Return to and let things be according to their na ture, and the nature 
+of things is naturally unified, so there is no specific trace to be found.”  “No one 
+knows to return to unity to stop the traces, but only chases the traces to seek unity. The more one obtains the traces, the more one loses unity. This is truly a great 
+mistake.” “Those who obtain it do not rely on the Tao externally and do not depend 
+Galkin D.V. , Weng Wei . The role of generative artificial intelligence in modern design  
+38 on themselves internally. They obtain it abruptly and transform independently.” 
+“So, they are interdependent. Form and shadow are generated together. Even i f 
+they are mysteriously merged again, it is not a matter of mutual dependence and 
+waiting1.” 
+Under the framework of OOO, break through the traditional design sense's 
+understanding of objects. For example, events and performances, as long as they 
+meet the d uomining conditions, all belong to the category of objects. Design is not 
+a relationship entity between artistic philosophy and the real world. All designed 
+artifacts have independent existence and agency. From a non- anthropocentric 
+stance, object -oriented  ontology is based on the rejection of “correlationism. ” 
+Originally, OOO starts design thinking from objects. For those who are firm 
+believers in more traditional design levels, there is still some reluctance when 
+facing non- mental objects. However, for non- human agents, when their potential 
+simulated mental level gradually approaches that of humans (although we cannot 
+simply equate IQ with mentality), the flexible application of OOO becomes even 
+more urgent. In the research direction of human- computer inte raction, research on 
+metaphor has become increasingly abundant in recent years. Some researchers, 
+contrary to Norman's human -centered psychological -oriented approach [18],  
+transform object -oriented ontology into an accessible form that can be used in 
+desig n / research projects.  
+In conclusion, design should ultimately maximize the brilliance of human -
+centered people's lives regardless of specific circumstances. Humans' demand for novelty in their living spaces can be met by some inventive designs. In the 
+traditional industrial paradigm, design tactics are determined by designers through 
+manual research and aggregated summaries of user preferences. In complex 
+cultures, humans and technology coexist, as indicated by eclecticism. The field of 
+design synergy is becoming increasingly important. 
+References  
+1. McPherson, T.  (1965) Philosophy of Religion . Van Nostrand.  
+2. Newell, A. & Simon, H.A. (1972) Human Problem Solving . Prentice -Hall.  
+3. Simon, H.A. (1973) The structure of ill structured problems.  Artificial Intelligence . 4(3). 
+pp. 181– 201. 
+4. Huppatz, D. (2015) Revisiting Herbert Simon’s “science of design.” Design Issues . 31(2). 
+pp. 29–40. 
+5. Rittel, H.W. & Webber, M.M. (1973) Dilemmas in a general theory of planning. Policy Sci-
+ences . 4(2). pp. 155 –169. 
+6. Buchanan, R. (1992) Wicked problems in design thinking. Design Issues . 8(2). pp. 5 –21. 
+7. Chomsky, N., Roberts, I. & Watumull, J. (2023) Noam Chomsky: the False Promise of 
+ChatGPT: Opinion. New York Times . 8th March. [Online] Available from: 
+https://www.nytimes.com/202 3/03/08/opinion/noam -chomsky -chatgpt -ai.html (Accessed: 13th Jan u-
+ary 2025).  
+8. Hinton, G. (2024) Will digital intelligence replace biological intelligence? [Online] Available 
+from: https://www.youtube.com/watch?v=N1TEjTeQeg0 (Accessed: 15th January 2025).  
+9. Searle, J. (2009) Chinese room argument. Scholarpedia. 4(8). pp. 3100.  
+10. Lotman, Y.M., Uspensky, B.A. & Mihaychuk, G. (1978) On the semiotic mechanism of cul-
+ture. New Literary History . 9(2). pp. 211– 232.  
+11. Tamm, M. (2019) Introduction: Juri Lotman’s semiotic theory of history and cultural 
+memory. In: Tamm, M. (ed.) Juri Lotman -Culture, Memory and History: Essays in Cultural Semiotics . 
+Palgrave Macmillan Cham. pp. 1 –26.  
+                            
+1 By Guo Xiang who was a prominent Chinese philosopher of the Jin dynasty (266 -420 CE) and a key 
+figure in interpreting the Daoist classic Zhuangzi.   
+Культурология, теория и история культуры / Culturology, the theo ry and cultural history  
+39 12. Lotman, Y.M. (2005) On the semiosp here. Σημειωτκή – Sign Systems Studies . 33(1). 
+pp. 205– 229. 
+13. Benini, A. & DeLeo, J.A. (1999) Rene Descartes’ physiology of pain. Spine. 24(20). 
+pp. 2115.  
+14. Hospers, J. (1961) Human Conduct: Problems of Ethics . Cengage Learning.  
+15. Galkin, D.V. (2014 ) Osnovaniya sotsial'noy robototekhniki v kontekste sotsial'no-
+gumanitarnykh issl edovaniy [Foundations of social robotics in the context of social and humanitarian 
+research]. Vestnik Omskogo universiteta . 2(72). pp. 167– 177. 
+16. Harman, G. (2018) Object -oriented ontology: a new theory of everything . Penguin UK.  
+17. Morris, M.R., Sohl- Dickstein, J., Fiedel N. et al. (2023) Levels of AGI: operationalizing  
+progress on the path to AGI . arXiv preprint arXiv:2311.02462.  
+18. Coulton, P. & Lindley, J.G. (2019) More- than human centred design: considering other 
+things. Design Journal . 22(4). pp. 463 –481. 
+Information about authors:  
+Galkin D.V.  – National Research Tomsk State University (Tomsk, Russian Federation ). E-mail: 
+gdv_t@mail.ru  
+Weng Wei  – National Research Tomsk State University (Tomsk, Russian Federation ). E-mail: 
+vivianglia2022@outlook.com  
+The authors declare no conflicts of interests . 
+Сведения об авторах:  
+Галкин Д.В . – доктор философских наук, профессор кафедры культурологии и музеол о-
+гии Национального исследовательского Томского государственного университета  (Томск, 
+Россия). E -mail: gdv_t@mail.ru  
+Вэн Вэй  – аспирант кафедры культурологии и музеологии Национального исследовател ь-
+ского Томского государственного университета (Томск, Россия).  E-mail: 
+vivianglia2022@outlook.com  
+Авторы заявляют об отсутствии конфликт а интересов.  
+ 
+The article was submitted 10.02.2025;  
+approved after reviewing 11.02.2025; accepted for publication 15.02.2025.  
+Статья поступила в редакцию 10.02.2025;  
+одобрена после рецензирования 11.02.2025; принята к публикации 15.02.2025.  
+ 
+ 

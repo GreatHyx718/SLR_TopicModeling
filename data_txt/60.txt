@@ -1,0 +1,785 @@
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Zeitschrift für Empirische Kulturwissenschaft 
+120. Jahrgang 2024, S. I–XIX 
+CC BY 4.0 – 2024 Waxmann 
+https://doi.org/10.31244/zekw/2024/01.31 
+Christoph Bareither 
+Cultures of Artificial Intelligence 
+AI Assemblages and the Transformations of Everyday Life 
+Artificial Intelligence is one of the keywords of our time, and AI systems are currently 
+initiating numerous transformations in various areas of everyday life. How can cultural 
+anthropology at the interface with digital anthropology contribute to understanding 
+these transformations and to shaping social and cultural negotiation processes around 
+AI? To answer this question, this article develops the concept of AI assemblages, which 
+aims to illuminate the dynamics of sociotechnical relations between human and more-
+than-human actors or elements surrounding AI systems. Assemblage thinking allows to 
+reflect upon and describe numerous ‘small’ transformations of everyday life connected 
+to AI without uncritically reproducing grand narratives of sociotechnical change and 
+upheaval. On a more general level, analyzing AI assemblages is a way to study cultures 
+of AI, that is, to study “a whole way of life” (Williams) in which routines, relationships, 
+and cultural orders are increasingly shaped by AI systems. Three examples illustrate 
+this perspective: AI assemblages in memory culture (virtual survivor testimonies in 
+Holocaust remembrance), in popular culture (social media and their algorithms), and 
+in academic culture (generative AI in academic research and teaching). 
+Keywords : artificial intelligence, assemblage, transformation, everyday life, culture 
+Artificial intelligence (or AI) has dominated present-day discussions like no other 
+technology. Though computer science and the natural sciences are leading AI re‐
+search, an interdisciplinary field devoted to the subject has formed across areas as 
+different as philosophy, ethics, sociology, media studies, linguistics, information 
+science, education, economics, and law. What can cultural anthropology 1 contribute 
+amid this diversity of perspectives and approaches? What theories and concepts will 
+guide anthropological research on AI and help it to shape societal debates? The 
+1 In Germany, the field of cultural anthropology has different strands. This paper focusses on the 
+potential approaches in Empirische Kulturwissenschaft, or European Ethnology, for the study of AI. 
+In the English version of this text, I do not distinguish between the specific strand of Empirische 
+Kulturwissenschaft and the broader discipline of cultural anthropology. 
+II Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+following article provides some possible answers. 2 In combining the strengths of 
+cultural and digital anthropology, it examines AI cultures as “AI assemblages” . First, 
+I outline the theoretical and conceptual underpinnings of this combined approach, 
+and then I elucidate them using three fields, all of which are related to current 
+research projects at the University of Tübingen. In the conclusion, I identify the 
+problematic aspects of the concept of “artificial intelligence” and explain why I nev‐
+ertheless find it analytically useful. 
+Artificial intelligence from the perspective of cultural anthropology
+One of cultural anthropology’s core strengths is its ability to analyze relationships. 
+Rolf Lindner writes, in a much-cited passage, that “cultural analysis requires think‐
+ing in terms of relationships; it is based on the fundamental assumption that the 
+meaning of cultural phenomena can be deciphered only by examining the network of 
+relationships to which they owe their specific form” (Lindner 2003: 179). 3 Likewise, 
+Jens Wietschorke (2012) has aptly described cultural anthropology as a “science of 
+relationships” . Of the theoretical approaches that cultural anthropology draws on, I 
+consider the concept of “assemblage” to be particularly important for shedding light 
+on the entanglements of relations that arise around AI systems. Going back to the 
+philosophy of Gilles Deleuze and Félix Guattari (1987) 4 and further developed by 
+theorists such as Manuel DeLanda (2006, 2016), Bruno Latour (2005), and Jane Ben‐
+nett (2005), the concept of assemblage has frequently found application in cultural 
+anthropology and the social sciences (Hansen / Koch 2022; Welz 2021). The term 
+assemblage refers to “wholes whose properties emerge from the interactions between 
+parts” (DeLanda 2006: 5). These wholes encompass people, things, spaces, practices, 
+etc. Their specific attributes do not emerge merely from the sum of these parts but 
+from the relations between their heterogeneous elements. 5 In assemblage theory, 
+the entanglements of relations between elements are conceived neither as random 
+2 This paper is a version of my inaugural lecture at the University of Tübingen in June 2023. I have 
+preserved much of its spoken style, though I have supplemented it in some places with further 
+information on relevant research. The lecture marked the start of a professorship whose task is to 
+link the perspectives of cultural anthropology (specifically Empirische Kulturwissenschaft) with the 
+approaches of digital anthropology. Though AI is only one of many topics that is relevant for my 
+work, I focused on it in this lecture because it currently raises particularly pressing issues in the 
+cultural and social sciences. 
+3 All quotes of German texts have been translated into English by the author and translator of this 
+paper. 
+4 In French, the original term for assemblage is “agencement” . It was first introduced by Gilles Deleuze 
+and Félix Guattari (see also Buchanan 2021, 41). 
+5 “Elements” or “components” are both terms used in assemblage thinking for any entity within an 
+assemblage. In the English translation of this article, I use only the former term. 
+Cultures of Artificial Intelligence III 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+nor as static. Rather, assemblages are in a continuous movement that is determined 
+by a dynamic that is intelligible, at least in part. Strictly speaking, there is no such 
+thing as assemblage theory; there are a multitude of approaches associated with 
+the concept of assemblage. Nowadays this approach is frequently captured by the 
+term “assemblage thinking” (Anderson et al. 2012; Hansen / Koch 2022: 10; Müller / 
+Schurr 2016; Tseng 2022; Welz 2021: 164). 
+From the perspective of digital anthropology, the crucial aspect of an assem‐
+blage is that it includes both human and non-human or more-than-human actors 
+along with elements of their environment. Power to act is thus distributed among 
+these actors and elements – assemblages are characterized by “distributive agency” 
+(Bennett 2005: 462). Although human actors are the starting point of most research 
+in cultural anthropology, the discipline recognizes that people’s everyday lives can‐
+not be understood without an understanding of their relationships to more-than-
+human elements. This is the core idea of relational anthropology and it is in keeping 
+with assemblage thinking (Welz 2021: 173). The latter also integrates approaches 
+from actor-network theory (ANT) (Farías 2011: 7; Müller / Schurr 2016; Welz 2021: 
+164–165), although assemblage thinking and ANT by no means overlap completely. 
+Assemblage thinking has proven to be conceptually open to other theories. This 
+makes it particularly suitable for cultural anthropology, which works with and often 
+combines various theoretical perspectives. At the intersection of cultural anthropol‐
+ogy and digital anthropology, for example, are many points of connection between 
+assemblage thinking and theories on practices, affordances, and infrastructures. 
+A central theoretical argument of assemblage thinking is that the elements of an 
+assemblage stand in “relations of exteriority” rather than in “relations of interiority” 
+(DeLanda 2006: 18). This means, first, that assemblages are never self-contained. 
+Rather, their elements can exist independently and form connections with several 
+assemblages at the same time. Second, assemblages exist at different micro and 
+macro levels. Taking a social media platform such as TikTok as an example, the recip‐
+rocal relations between a specific person, their smartphone, and the personal feeds 
+of the platform constitute a sociotechnical assemblage at the micro level. But we 
+can also consider the entirety of the relations between TikTok and all the connected 
+smartphones and devices, the associated data, the users, and the attendant practices 
+as an assemblage at the macro level. In assemblage thinking, therefore, individual 
+micro assemblages can form populations that produce more comprehensive macro 
+assemblages – and conversely, macro assemblages can comprise numerous smaller 
+micro assemblages (DeLanda 2006: 16–17). Third, as is already apparent here, assem‐
+blages are interwoven by one or more of their elements. Accordingly, the boundaries 
+delimitating one assemblage from another are difficult to draw. Which elements and 
+relations belong to an assemblage cannot be identified once and for all. The selection 
+depends on the specific analytical perspective. Fourth and finally, assemblages are 
+IV Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+more than the sum of their parts. It is not only the properties of the elements in them‐
+selves that determine their function within an assemblage, but also their capacities 
+in relation to other elements (DeLanda 2006: 11). 
+Understood in this way, assemblage thinking can help do justice to the increas‐
+ing complexity of human-technology relations within sociotechnical entanglements. 
+The idea of applying assemblage thinking to digital technologies and algorithms is 
+not entirely new. However, despite the frequent mention of the term, researchers 
+rarely spell out the theoretical potential of assemblage thinking. There are excep‐
+tions that discuss theoretical aspects of assemblage thinking in connection with 
+algorithms (Carlson et al. 2021; Hopkins 2019; Kitchin 2017; Rosenbaum 2020; Tay‐
+lor 2009). A few more recent cases also apply the concept of assemblage in the context 
+of AI (Kim et al. 2022; Tseng 2022; Vep ˇrek 2023). 
+The following text takes up these approaches and aims to develop them further. 
+I am interested less in exploring the theoretical details than in demonstrating the 
+analytical potential of an assemblage thinking approach to AI with examples. Assem‐
+blage thinking allows us to ask – and to describe ethnographically 6 – what functions 
+AI systems fulfill within specific sociotechnical assemblages of human and more-
+than-human elements, how they co-constitute the dynamics of those assemblages, 
+and what transformations they set in motion. The analysis of concrete AI assemblages 
+also allows us to learn something about AI’s interdependencies with the routines, 
+relationships, and orders of human coexistence. To put it another way: analyzing AI 
+assemblages enables us to better understand the cultures of AI. 
+1. AI assemblages and memory culture
+The USC Shoah Foundation, founded by Steven Spielberg, developed a system in 
+the mid-2010s that allows visitors to Holocaust museums or users at home to have 
+‘conversations’ with virtual Holocaust survivors in front of their screens. 7 In a video 
+published by the foundation, the founder of the project, Stephen Smith, describes 
+its intention as follows: “That conversation, that moment of dialogue, where I ask 
+my question, and I get it answered, is just magic in the room when that happens. 
+And we want to try and find a way to preserve that as best possible” (USC Shoah 
+Foundation 2020). To do this, the foundation made video recordings of the answers 
+provided by Holocaust survivors to roughly 1000 questions. The video recordings 
+6 For a reflection on the role of “AI ethnography” , see Dippel / Sudmann (2023). 
+7 This example is connected to the project “From the Era of Witness to Digital Remembrance: New 
+Media, Holocaust Sites and Changing Memory Practices” (funded by the Deutsche Forschungsge‐
+meinschaft – 502423016). The project is a cooperation between the University of Tübingen and the 
+Ben-Gurion University of the Negev in Israel. The ethnographic research on virtual testimonies is 
+conducted by Berit Zimmerling. For information, see: https://uni-tuebingen.de/en/236757 
+Cultures of Artificial Intelligence V 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+were then added to interactive computer software that provides users appropriate 
+video responses to spoken questions. The system can currently be used on two-di‐
+mensional screens such as large displays in Holocaust museums or online at home on 
+a personal computer. 8 The videos were produced in a complex process with volumetric 
+recordings to make them usable with three-dimensional holograms and to preserve 
+the “magic in the room” of conversations with Holocaust survivors for future genera‐
+tions. From the developers’ perspective, the system is intended to preserve emotional 
+connections with Holocaust victims at a time when many witnesses of the past are 
+dying. In this sense, the project is not simply about imparting knowledge but about 
+implementing emotional practices of remembrance in the form of a ‘living’ dialogue 
+with eyewitnesses. 9 The foundation says little in its publications and on its website 
+about a crucial aspect of the project, however: its AI engine. 
+To understand its role, we first need to look at the assemblage of Holocaust 
+remembrance from a macro perspective, across a multitude of human and more-
+than-human elements. 10 The relevant material spaces and things include memorial 
+sites, museums, archives, and material testimonies. The relevant human actors in‐
+clude descendants, visitors, curators, historians, tour guides, and politicians who 
+deal with issues of memory culture. But the assemblage of Holocaust remembrance 
+also encompasses established memory practices (e.g. emotional practices of remem‐
+brance) and written and visual documents (e.g. historical sources, political position 
+papers on remembrance, didactic concepts for educational work), among numerous 
+other elements. Yet what constitutes the assemblage of Holocaust remembrance is 
+not the sum of these parts, but the specific dynamics emerging through the relations 
+between them. 
+Holocaust survivors play a special role within the assemblage as eyewitnesses, 
+shaping the emotional relationships that young generations establish with the Holo‐
+caust past. In this way, they contribute to the stabilization and inner coherence 
+of the assemblage of Holocaust remembrance. But as the last eyewitnesses die, the 
+assemblage stands to lose a constitutive group of actors and the functions associated 
+with them, undermining its stability. From the perspective of assemblage thinking, 
+the development of virtual testimonies is a logical step to take. Even if the foun‐
+dation emphasizes that nothing can replace a conversation between living people, 
+virtual testimonies, to some extent, function as a substitute for actual face-to-face 
+interactions. Tellingly, the foundation calls the software a “humanizing technology” 
+8 To use the system, go the following link: https://iwitness.usc.edu/sites/dit 
+9 I draw on Scheer’s theory of emotional practices (Scheer 2016) and discussions on the role of affec‐
+tive practices in the context of memory culture (Wetherell et al. 2018). 
+10 For an overview of the ways that assemblage thinking has been productively deployed in museum 
+and heritage studies, see Bareither (2023: 103). 
+VI Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+(USC Shoah Foundation 2023b: 1). That is to say, the emotional affordances of the 
+eyewitnesses’ virtual bodies are used to utilize established emotional practices in 
+the form of direct dialogue with survivors. In this way, the virtual testimonies work 
+to stabilize the assemblage as a central group of its human actors vanishes. 
+For this purpose, an AI system was introduced as a new element in the assem‐
+blage to receive questions from human users, process them algorithmically using nat‐
+ural language processing (NLP) and finally play the ‘most appropriate’ answer from 
+the more than 1000 possible answers. The aim is to enable a fluid and emotionally 
+engaging “conversation-like experience” (UNC Shoah Foundation 2023a). Central to 
+this is the process by which the NLP system learns to ‘correctly’ assign visitors’ ques‐
+tions. “Trained on questions and their associated answers,” the developers explain, 
+“a statistical algorithm builds a model that predicts words that are likely to appear 
+in the answer, given the words that are seen in the question. Responses are ranked 
+based on how closely they match the predicted answer words” (Traum et al. 2015b: 6). 
+The AI system is trained to ‘independently’ establish relationships between possible 
+questions and predicted answers. Using input from developers and testers, it actively 
+determines what the ‘most appropriate’ answer to a question is. 
+At the same time, the AI system is trained for interviews in which only some 
+of the questions can be answered. Which answers are available depends on which 
+questions were asked during the interviews. The development team made an effort 
+to include questions from actual users and museum visitors. Nevertheless, these 
+questions reflect only the current state of conventions in the context of Holocaust 
+remembrance. Even if a large number of video responses were recorded, they could 
+never cover every possible user question. The system can process only the questions 
+whose ‘suitable’ answers are available in the form of recorded videos (Traum et al. 
+2015a: 203). 
+This means that the “hidden cultural assumptions” of the developers and the 
+test users become written into the AI system (Forsythe 1996). Diana Forsythe, a 
+pioneer of cultural anthropological research on AI, uses the phrase “hidden cultural 
+assumptions” to describe the cultural attitudes, beliefs, and conventions that go 
+into AI systems. In our example, the developers’ assumptions are supplemented by 
+the perspective of the visitors interviewed as a test group, who contribute their own 
+conventions and ideas about what constitutes ‘normal’ questions in the context of 
+Holocaust remembrance. 
+This circumstance is crucial for the way the system works. It must tailor ques‐
+tions to an algorithmically determined pattern that emerges from these assumptions 
+and conventions – or else fail. If a question does not fit the pattern, the system 
+responds with inappropriate or evasive answers, or says outright that the question 
+cannot be answered and requests another. According to the Israeli communication 
+scientist Amit Pinchevski, “the NDT [New Dimensions in Testimony] project is about 
+Cultures of Artificial Intelligence VII 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+eliminating contingencies so as to sustain functional human-computer interaction” 
+(Pinchevski 2019: 97). The aim of developing and refining the AI system is not to 
+answer every possible question. Rather, it is to give users the illusion of a conver‐
+sational situation that enables strong emotional experiences – even if this means 
+adapting user questions to fit the system. Here we encounter a phenomenon that 
+is characteristic of AI cultures: to manage the messiness of everyday interactions, 
+computers must reduce complexity. The US-American AI researcher Kate Crawford 
+speaks of an “epistemological flattening of complexity into clean signal for the pur‐
+poses of prediction” (Crawford 2021: 213). The complexity of dialogues with eye‐
+witnesses must also be broken down to make them algorithmically processable. In 
+short, the introduction of the AI system works to establish and promote specific types 
+of algorithmically functional dialogue with virtual testimonies in the assemblage of 
+Holocaust remembrance. 
+The reduced complexity also shapes how conversational situations with virtual 
+testimonies unfold. For example, the foundation published a handout for students 
+and teachers explaining how to talk to the witnesses on the screen so to have an 
+immersive and emotionally intense experience (USC Shoah Foundation 2023a). It 
+includes specific questions such as “How were you liberated?” , “When did you first 
+feel free?” , and “What is your message for us?” (USC Shoah Foundation 2023a). In 
+this way, human users are taught to adapt their memory practices to the abilities of 
+the AI system. 
+This raises an important question for the societal discourse on Holocaust re‐
+membrance: Is the attribution of agency to an AI system and the need to contain 
+and align memory practices an acceptable price to pay for a technology that in the 
+ideal case helps maintain emotional connections to witnesses of the Holocaust? The 
+perspective on AI assemblages proposed here cannot answer this question, but it can 
+make analytically accessible the subtle and far-reaching ways that the AI system in‐
+tervenes in the assemblage of Holocaust remembrance. The ethnographic knowledge 
+it generates enables more nuanced discussions of the question and helps recognize 
+the complex ways in which digital technology transforms memory culture. 
+2. AI assemblages and popular culture
+“The longer I use TikTok, the more amazing it is to see how well the feed reflects my 
+own preferences. Sometimes it seems to me that TikTok knows me better than I’d 
+like. When I open the app, videos are suggested to me – regardless of what my day 
+is / was like – and after a few minutes or a few scrolls on the For You Page, they hit 
+exactly what I want to see. [. . . ] My For You Page constantly presents me with videos 
+that are often shockingly accurate to my taste and therefore capture my attention. 
+So I’m not surprised that I can spend a long time on the platform and am drawn from 
+video to video. [. . . ] I also particularly notice that the content of the advertisements 
+VIII Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+is very well matched to the content I am consuming, which is why I get stuck on the 
+advertising videos from time to time. [. . . ] 
+In answer to the question ‘How well does my TikTok feed know me?’ , I would say after 
+regular use that it often really does seem to know me, my interests, my views and even 
+my sense of humor. Nevertheless, the feed can be changed and influenced quickly 
+with relatively little effort. New content is added and other content is pushed to the 
+back. In my opinion, the app only gives the impression that it really knows me as a 
+user. In fact, it doesn’t really know my experiences, opinions or even emotions, but 
+creates this appearance solely based on my usage, which could change every day.” 
+(Annika Traub) 
+This text is a slightly edited and abbreviated excerpt from an essay written by a 
+long-time user of the social media platform TikTok as part of a seminar in cultural 
+anthropology on the question “How well does my TikTok feed know me?” . Feeds are 
+the endless streams of images, videos, texts, and sounds that social media platforms 
+generate for their users. These streams of digital content are, as TikTok claims on its 
+website, “curated to your interests” (TikTok 2020). 
+Social media feeds are integrally connected to content producers, users, click‐
+workers, data, content, interfaces, and algorithms. Together, they form what we in a 
+current study call “curatorial assemblages” . 11 In the case of TikTok, an AI system plays 
+a key role in the production of these assemblages. The platform is particularly effec‐
+tive at recognizing the tastes and interests of its users and providing them suitable 
+content. Usage statistics also show that the number of people drawn into TikTok’s 
+feed is growing, especially among young people. According to the annual ARD/ZDF 
+online study, 44 % of 14-29-year-olds in Germany were using TikTok at least once a 
+week in 2022, and the numbers are rising (Koch 2022: 472). For almost every second 
+person in adolescence or young adulthood, video feeds on this platform are already 
+part of everyday life in Germany. 12 
+The question of the relationship between AI and everyday life is already present 
+in societal discourse. It is clear that AI is changing our everyday lives. But we still 
+know very little about how. Cultural anthropology can make a contribution here by 
+shedding ethnographic light on actual everyday practices and experiences in the 
+11 The study, titled “Curating the Feed: Interdisciplinary Perspectives on Digital Image Feeds and 
+their Curatorial Assemblages” (funded by the Deutsche Forschungsgemeinschaft – 421299207), is 
+an interdisciplinary cooperation between the University of Tübingen and the Bauhaus University 
+Weimar. The ethnographic research in this project is carried out by Ann-Marie Wohlfarth. For more 
+information, see https://uni-tuebingen.de/en/239241 
+12 According to developers, the Instagram platform feed is also controlled by AI (Meta 2023). In 
+2022, the weekly use of Instagram among 14-29-year-olds in Germany was as high as 74 % (Koch 
+2022: 472). In the “Curating the Feed” project, we shed light on both Instagram and TikTok. In this 
+article, however, I consider only the latter platform. 
+Cultures of Artificial Intelligence IX 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+context of AI. This perspective does not stand alongside the assemblage thinking ap‐
+proach, but it can be productively combined with it. From the perspective of cultural 
+anthropology, everyday routines and practices are central elements in AI assem‐
+blages. Manuel DeLanda also talks about the constitutive function of “habitual rep‐
+etition” in assemblages (DeLanda 2006: 50). Cultural anthropology is well-equipped 
+to research this function of everyday routines in assemblages because it already has 
+a multi-layered understanding of a diverse set of everyday cultural spheres. 
+TikTok, for example, is woven into the everyday routines of popular culture. The 
+platform is permeated by the logic of the popular. It focuses on short, snappy, funny, 
+relaxing, upsetting, sad, or impressively beautiful content. Kaspar Maase’s theory of 
+aesthetic experience (2022) helps us understand how TikTok is interwoven with pop‐
+ular culture. He draws on practice theory and ANT to describe “aesthetic interaction 
+as co-laboration” between human and more-than-human actors and elements (Maase 
+2022, 115–120). In such co-laborations, “aesthetic relationships to the world, to 
+ourselves and to the texts with which we co-laborate are formed” (Maase 2022: 54). 
+TikTok’s AI system also produces aesthetic co-laborations. It identifies patterns 
+in the behavior of individual users and compares them with that of other users. 13 
+The patterns are derived from signals that users send during their everyday use – by 
+liking content or following accounts, say. Such signals are, therefore, always active. 
+The platform also registers how long a user watches a certain video and uses this to 
+draw conclusions about the person’s taste. The AI system then utilizes the data to 
+establish comparative relationships between the aesthetic preferences of different 
+users. This comparison is then used as the starting point for the algorithmic sorting 
+of content into individual feeds. As an individual user, the feed presents content to 
+me that is liked by other users who also liked other content I already liked before. 
+The resulting process of aesthetic co-laboration is not simply one between hu‐
+mans and algorithms. The AI system also enables aesthetic co-laboration between 
+humans and other humans via the data traces left in the system and their linkage 
+with the masses of digital content. TikTok’s AI system weaves a network of relation‐
+ships between actors that leads to routines of aesthetic experience that stabilize 
+the network of relationships in return. For individual users, the result is a globally 
+13 The exact algorithms used by TikTok are largely unknown. Both Meta and TikTok have carried 
+out transparency initiatives for the past several years (Meta 2023, TikTok 2020), but the value of 
+their findings remains questionable (Grandinetti 2023) and many important details are missing. 
+For example, that pattern recognition plays a central role for TikTok became known only from a 
+rare statement made by TikTok CEO Shou Chew in a television interview (TED 2023, 5:55). This 
+information cannot be independently verified, however. 
+X Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+networked yet unique curatorial assemblage – and for many, it becomes an integral 
+part of their everyday lives. 
+On TikTok and other social medial platforms, digital popular culture and eco‐
+nomic logics are intertwined. AI systems are being monetized on an unprecedented 
+scale, and platforms such as TikTok are at the forefront of these processes. The eco‐
+nomic profit is mainly generated from advertising revenue. “Social media platforms” , 
+the Australian communication scientist Nicolas Carah writes, “bring together the 
+mediation of everyday life with a technical apparatus that rationalizes and valorizes 
+those communicative practices” (Carah 2014: 137). AI systems maximize this algo‐
+rithmic valuing of communicative practices. The better the AI system weaves users 
+into the web of aesthetic relationships, the longer they scroll through the feed, the 
+more advertising can be sold, and the greater the economic success of the platform. 
+Anyone who uses TikTok inevitably becomes part of AI-supported data economies. 
+In order to hold users’ attention as long as possible, the platform caters to spe‐
+cific areas of interest and creates ‘niches’ for individual tastes. The US Wall Street 
+Journal  conducted a series of tests with pre-programmed bots that simulated the 
+behavior of TikTok users ( Wall Street Journal 2021). The tests show how users can 
+be pulled into “rabbit holes” of content ( Wall Street Journal  2021, 10:40). “[T]he 
+algorithm” , the founder of Algotransparency, Guillaume Chaslot, writes, “is pushing 
+people towards more and more extreme content, so it can push them toward more 
+and more watch time” ( Wall Street Journal  2021, 09:52). For example, users who 
+repeatedly watch sad videos are easily drawn into a web of content portraying a range 
+of experiences from melancholy to the explicitly depressive. 14 
+This raises the question to what extent the curatorial assemblages formed by AI 
+not only co-constitute concrete everyday routines but also shape how users perceive 
+their everyday environments and their own role in them on a broader level. Young 
+people’s TikTok or Instagram channels are not only used to discuss topics such as 
+depression, but also everyday life at school, relationship problems, body images, 
+climate change, war, etc. Of course, it is nothing new for popular culture to deal with 
+everyday topics. Following Peter Berger and Thomas Luckmann (1990 [1967]) on the 
+social construction of reality, we can say that popular culture is oftem formative 
+in how human beings negotiate intersubjective everyday realities. What is new is 
+that the AI-based curatorial assemblages of social media platforms co-curate these 
+popular cultural negotiation processes for millions of users simultaneously and in a 
+personalized manner, thereby shaping the constitution of intersubjective everyday 
+realities in a multilayered way. 
+14 But TikTok itself has rejected this idea and has argued that the AI system “diversifies” the feed 
+(TikTok 2020). 
+Cultures of Artificial Intelligence XI 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3. AI assemblages and science culture
+2023 was the year of the breakthrough of generative AI, i.e. AI systems that can 
+generate text and image content based on extensive training data (Cao et al. 2023). 
+Text-based generative AI systems are also known as large language models, or LLMs 
+for short. The best-known system currently contributing significantly to the hype sur‐
+rounding this type of AI is the Generative Pre-Trained Transformer (or GPT) from the 
+US company OpenAI. 15 GPT was trained using massive amounts of data from the In‐
+ternet. Using neural networks, the system can recognize frequencies, probabilities, 
+and relationships between word elements (tokens) and generate new texts based on 
+this knowledge. It can interpret any text input (known as a prompt) and generate a 
+mostly logical and relatively coherent text output. GPT can easily summarize texts, 
+reproduce core arguments, describe scientific disciplines, or formulate theoretical 
+‘thoughts’ and contexts. 
+But the popularity of GPT is not necessarily due to a quantum leap in technology. 
+Although versions 3.5 and 4.0 (known as ChatGPT and ChatGPT Plus) marked a new 
+phase in the public AI discourse, they were more extensions of already established 
+systems. According to the CEO of OpenAI, Sam Altman, what distinguished ChatGPT 
+when it was released “wasn’t the underlying model. . . it was the usability of it. . . ” 
+(Fridman 2023, 5:50). The significantly increased user-friendliness made it possible 
+for users without special technical or programming knowledge to generate complex 
+text outputs or hold conversations with the AI system with little effort. 
+The new accessibility of generative AI is currently resetting cultural orders in 
+various areas of everyday life, including universities. Many students now use gener‐
+ative AI to create texts, and established academics are beginning to incorporate the 
+technology into their research and writing. This has opened up a wealth of possibil‐
+ities and problems. Universities around the world have had to issue guidelines for 
+dealing with generative AI. At a well-attended online event in the summer of 2023, 
+the Director of Policy and Foresight of the European University Association (EUA) 
+described the emergence of generative AI as a “wake-up call to just how disruptive 
+these new technologies can be” (European University Association 2023, 1:55). 
+The assemblage thinking concepts of (re)territorialization and deterritorializa‐
+tion can help understand these AI-induced disruptions. As Deleuze and Guattari 
+write, every assemblage “has both territorial sides, or reterritorialized sides, which 
+stabilize it, and cutting edges of deterritorialization, which carry it away” (Deleuze / 
+Guattari 1987: 88). Put simply, (re)territorialization is about an assemblage’s stabi‐
+15 A distinction must be made between the GPT model (LLM) and the more comprehensive GPT system, 
+which includes a chatbot, interfaces on various end devices, multimodal interaction options, pro‐
+gramming interfaces, and more. In the following, I always use GPT to refer to the comprehensive GPT 
+system. 
+XII Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+lization and continuous remanifestation, and deterritorialization is about its frag‐
+mentation and dissolution. The processes affect different disciplines and subject 
+groups, each of which can be described in different ways as its own assemblage with 
+its own epistemic routines and conventions. For computer science, the success of 
+AI has mostly stabilizing effects. The assemblages of the cultural sciences, social 
+sciences, and the humanities, by contrast, have been initially destabilized by AI and 
+transformed as a result. 
+The first part of that transformation has been caused by the sudden lack of 
+transparency in the authorship of academic texts. Right now, discussions focus on 
+plagiarism and fraud. But the problem actually goes much deeper. The lack of trans‐
+parency of authorship will inevitably lead to a loss of trust between teachers and 
+students, and between colleagues who can no longer be sure that others still adhere 
+to the value of original texts. In the process, generative AI will permanently disrupt 
+established notions of authentic authorship and the relationships of trust tied to 
+them. This development has deterritorializing effects, especially for the assemblages 
+of the cultural and social sciences as well as the humanities, where texts and their 
+authors have a particularly close relationship and where the independent writing of 
+complex texts plays an important role in teaching and learning. 
+But another part of that transformation is the possibility that generative AI 
+could permanently change epistemic practices in research. In areas where scientists 
+have been confronted with this possibility, there are signs of even more far-reaching 
+deterritorializations of academic assemblages. To illustrate this, consider a sample 
+dialogue with GPT (version 4.0) that took place in the summer of 2023. I deliberately 
+use anthropomorphizing terms (e.g. “GPT explains X”) to simplify and symbolize the 
+conversation. I began the conversation with the core question that guides this ar‐
+ticle: “What would it mean to apply assemblage theory to artificial intelligence?” In 
+response, GPT first explained what assemblage theory is about and provided a very 
+good short definition. Then the system continued: 
+“Applying Assemblage Theory to Artificial Intelligence would involve analyzing AI not 
+as an isolated, singular entity but as a complex system that emerges from the interac‐
+tions of various components. These components could be understood in many ways, 
+such as hardware, software, algorithms, data sets, designers, users, socio-cultural 
+contexts, legal frameworks, ethical considerations, etc. 
+According to this perspective, the capacities, behaviors, and effects of an AI system 
+cannot be fully understood by analyzing its individual components alone. Instead, 
+they emerge from the interactions, relationships, and synergies among these compo‐
+nents. [. . . ]” 
+The approach proposed by GPT here corresponds in its basic features to the perspec‐
+tive developed in this article. A lengthy academic dialogue ensued between me and 
+GPT, during which I asked the system to elaborate on various points. For example, 
+Cultures of Artificial Intelligence XIII 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+we talked about the contribution cultural anthropologists can make to analyzing 
+AI assemblages. We addressed specific questions such as the dynamics of re- and 
+deterritorialization of academic assemblages in the context of generative AI. And 
+we discussed which emergent properties of elements may arise within academic as‐
+semblages when generative AI is involved. In this complex dialogue, GPT repeatedly 
+made list-like in-depth suggestions: facets I could consider, thoughts that might be 
+worth mentioning, arguments that seem coherent, etc. 
+What developed between me and GPT can be described as a hybrid epistemic 
+practice. We talked together  about an area of research I was interested in and devel‐
+oped potential ideas and approaches. As in previous dialogues, I was astonished by 
+the epistemic capabilities of the system. After all, I knew that GPT can only reproduce, 
+recombine, and vary fragments of existing text data. The system is, according to a 
+formulation by Emily M. Bender et al, a “stochastic parrot” (Bender et al. 2021). GPT 
+ultimately reproduces clichés of texts and text genres without being able to develop 
+an understanding of their meaning. But if this system nevertheless comes up with 
+ideas similar to my own and makes interesting suggestions for thought, what does 
+that say about my own human epistemic practices? 
+To distract myself from the potential implications of this question, I tried to 
+lure GPT into an argumentative trap. I entered the following into the prompt: “Let’s 
+consider the social sciences and humanities as an assemblage within which human 
+actors (researchers and students, for example) form hybrid epistemic practices with 
+generative AI (such as yourself). Who is in control of these practices?” My hope was to 
+present the system with an analytical dichotomy that only allows for wrong answers. 
+GPT did not fall for the trick, however: 
+“The question of control in hybrid epistemic practices involving human actors and 
+generative AI is complex and multifaceted. It’s important to note that ‘control’ might 
+not be the best framing for these relationships, as it implies a hierarchical relationship 
+that may not capture the nuances of how humans and AI interact in practice. Rather, 
+these practices could be better understood in terms of collaboration, interaction, 
+or mutual shaping. [. . . ] So, control in hybrid epistemic practices involving human 
+actors and generative AI is distributed and contextual. It’s not accurate to say that ei‐
+ther the human actors or the AI are solely in control. Rather, they interact in complex 
+ways, with different degrees of influence over different aspects of the practices. [. . . ]” 
+My hope of exposing GPT as a cliché-reproducing machine came to naught. Rather, it 
+turned out that GPT can also be ‘critical’ in its own way. The system rightly pointed 
+out that the question “Who is in control?” was one-sided and requires more precise 
+differentiation. Or was this kind of criticism itself a scientific cliché that GPT skillfully 
+reproduced? 
+What remains is a moment of uncertainty, a destabilization of the academic 
+assemblage surrounding me and my own epistemic practices. This moment of uncer‐
+XIV Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+tainty is indeed a threat to the established routines of the cultural and social sciences 
+as well as the humanities, but it is also an opportunity for their further development. 
+For while GPT, like comparable systems from the field of generative AI, unsettles 
+academic assemblages, new capacities and relations within them are opening up all 
+the time. This is possible because substantial parts of these assemblages have already 
+been fed into GPT in the form of scientific texts. The system then establishes relations 
+between heterogeneous knowledge elements of each assemblage, which become the 
+basis for dialogues with human users and thus enable hybrid epistemic practices. 
+It is to be expected that over a longer period this will fundamentally change the 
+relations between humans and AI systems and will play a formative role in academic 
+assemblages. Libuše Hannah Vep ˇrek uses the term “intraversions” to describe “pro‐
+cessual forward movements and shifts within relations between humans and technol‐
+ogy” in the context of AI (Vep ˇrek 2023: 4). Within these forward movements, subject / 
+object positions and the distribution of agency undergo renegotiation. This process 
+also affects universities and is likely to change them permanently. A recent survey 
+conducted by the University of Hamburg in September 2023 revealed that “70 % of 
+students and around 80 % of teachers” use generative AI “to varying degrees and for a 
+wide variety of tasks” (Preiß et al. 2023: 45). Against this backdrop, universities need 
+to initiate a process of critical evaluation. In this context, assemblage thinking can 
+help better identify and understand both the potential benefits and the problematic 
+implications of AI within academic assemblages. 16 
+Conclusion: from cultures of AI to AI assemblages
+AI experts have rightly pointed out that the term “artificial intelligence” is mis‐
+leading. First, it threatens to obscure the extractive processes related to AI sys‐
+tems. These include the exploitation of human labor, the monetization of data from 
+unsuspecting users, and the consumption of valuable natural resources (Crawford 
+2021: 69). Second, from a computer science perspective, a term like “machine learn‐
+ing” is much more appropriate than “artificial intelligence” (von Luxburg 2020: 2). 
+Third, the term AI reproduces the hype associated with it, serving both dystopian and 
+utopian imaginations. 
+But despite the many arguments against the analytical use of the term AI there 
+are several that speak for it. First, the term is firmly anchored in public debates and, 
+despite its vagueness, it helps research on AI to address debates in society as a whole. 
+16 This is precisely the aim of the ethnographic research project “Hybrid Epistemic Practices: Gen‐
+erative Artificial Intelligence and the Transformation of Academic Assemblages in the Qualitative 
+Social Sciences and Humanities” (funded by the Excellence Strategy of the German federal and 
+state governments), which started at the University of Tübingen in the spring of 2024. For more 
+information, see: https://uni-tuebingen.de/en/257045 
+Cultures of Artificial Intelligence XV 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Second, and more importantly, the imaginaries associated with AI are an integral 
+part of AI assemblages. They are inscribed in the practices and experiences of the 
+people who deal with AI systems and in the development processes that produce 
+them. Third, the attribution of “intelligence” has added analytical value from an 
+anthropological perspective, though AI systems are not intelligent by human stan‐
+dards and comparing the one to the other is misleading. The reason is that within 
+AI assemblages AI systems have the relational ability to ‘learn’ from other elements 
+and establish relations with them, which makes them appear  intelligent to many 
+human actors. Even if the intelligence of AI systems is not human, the consequences 
+of this appearance of intelligence are an influential factor within the respective AI 
+assemblage. From this perspective, the question of the intelligence of AI systems is 
+no longer one of technical properties but of human-technology relations. This is why 
+I consider the concept of AI to be analytically useful for relational cultural and digital 
+anthropology. 
+At any rate, cultural anthropology is used to dealing with problematic terms. 
+After all, its most prominent term, culture, is at least as difficult as AI. The concept 
+of culture can enable exclusionary thinking, contributing to the othering of ‘for‐
+eign’ cultures, and it can make elitist demarcations between ‘high culture’ and ‘low 
+popular culture’ (Bareither 2022; Lindner 2003; May 2020). Cultural anthropology 
+recognizes these problems, but it holds onto the concept to promote critical thinking 
+about culture as “a whole way of life” (Williams 2014: 95). In the same sense, to 
+explore cultures of AI is to ask how AI inscribes itself into our entire way of life. I have 
+shown this in the cases of memory culture, popular culture, and scientific culture – 
+but many other examples could be put forward. 
+A diverse theoretical toolbox can help us in shedding light on AI cultures. 
+I would like to suggest that assemblage thinking is one of the most productive 
+approaches for this purpose. “AI assemblage” outlines the conceptual perspective 
+presented here. Thinking in terms of assemblages by no means contradicts thinking 
+in terms of culture. On the contrary, the assemblage thinking approach is a way of 
+enhancing cultural analysis towards an analysis of complex sociotechnical assem‐
+blages that includes specific concepts for studying their individual aspects (e.g. the 
+dynamics of de- and reterritorialization). While culture describes the routines, re‐
+lationships, and orders of coexistence on a superordinate level, assemblages always 
+refer to individual sociotechnical entanglements consisting of concrete elements and 
+distinct, emergent relations between them. 
+I thus propose understanding AI assemblages as individual and concrete ma‐
+terializations of AI cultures. They are characterized by their specific yet fluctuating 
+dynamics, which result from the relations between people, AI systems, and numerous 
+other elements. AI assemblages are co-constituted by everyday routines and shape 
+XVI Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+the intersubjective everyday realities of the people involved in them. In doing so, 
+they shape, stabilize, or question existing cultural orders, sometimes in radical ways. 
+This perspective also offers starting points for a critical understanding of the 
+hype surrounding AI systems. Like other technologies (Schönberger 2015), AI sys‐
+tems do not simply make everything ‘new’ , but they precipitate multi-layered trans‐
+formations of everyday life. Assemblage thinking is helpful because it allows us to 
+understand the numerous ‘small’ transformations associated with AI micro-analyti‐
+cally and to situate them within comprehensive sociotechnical processes of change, 
+without uncritically reproducing the grand narratives of upheaval through AI. By 
+employing such a differentiated form of analysis to create a multi-layered knowledge 
+base of AI assemblages, cultural anthropology can make a valuable contribution to 
+interdisciplinary research and social debates surrounding AI. 
+References
+Anderson, Ben, Matthew Kearnes, Colin McFarlane and Dan Swanton. 2012. “On Assem‐
+blages and Geography.” Dialogues in Human Geography  2/2: 171–189. Last accessed on 
+04. 12. 2023. https://doi.org/10.1177/2043820612449261 . 
+Bareither, Christoph. 2022. “Kultur ist mehr. . . Zum vielfältigen Kulturbegriff der EKW.” In 
+Kultur ist: Beiträge der Empirischen Kulturwissenschaft in Tübingen , edited by Ludwig-Uh‐
+land-Institut, 11–45. Tübingen: EKW-Verlag. 
+Bareither, Christoph. 2023. “Museum-AI Assemblages: A Conceptual Framework for Ethno‐
+graphic and Qualitative Research.” In AI in Museums: Reflections, Perspectives and Ap‐
+plications , edited by Sonja Thiel and Johannes Bernhardt, 99–113. Bielefeld: transcript. 
+https://doi.org/10.1515/9783839467107-010 
+Bender, Emily M., Timnit Gebru, Angelina McMillan-Major and Shmargaret Shmitchell. 2021. 
+“On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?.” In Proceedings 
+of the 2021 ACM Conference on Fairness, Accountability, and Transparency , 610–623. Virtual 
+Event Canada: ACM. Last accessed on 04. 12. 2023. https://doi.org/10.1145/3442188.
+3445922 . 
+Bennett, Jane. 2005. “The Agency of Assemblages and the North American Blackout. Pub‐
+lic Culture  17/3: 445–465.” Last accessed on 04. 12. 2023. https://doi.org/10.5422/fso/
+9780823226443.003.0031 
+Berger, Peter L. and Thomas Luckmann. 1990 [1966]. The Social Construction of Reality. A 
+Treatise in the Sociology of Knowledge . New York: Anchor Books. 
+Buchanan, Ian. 2021. Assemblage Theory and Method: An Introduction and Guide . London and 
+New York: Bloomsbury Academic. 
+Cao, Yihan, Siyu Li, Yixin Liu, Zhiling Yan, Yutong Dai, Philip S. Yu and Lichao Sun. 2023. 
+“A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from 
+GAN to ChatGPT” . https://arxiv.org/abs/2303.04226 : 1–44. https://doi.org/10.48550/
+ARXIV.2303.04226 . 
+Cultures of Artificial Intelligence XVII 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Carah, Nicholas. 2014. “Curators of Databases: Circulating Images, Managing Attention and 
+Making Value on Social Media.” Media International Australia  150/1: 137–142. Last ac‐
+cessed on 04. 12. 2023. https://doi.org/10.1177/1329878X1415000125 . 
+Carlson, Rebecca, Ruth Dorothea Egel, Lina Franken, Libuše Hannah Vep ˇrek, and Sarah 
+Thanner. 2021. “Approaching code as process: Prototyping ethnographic methodologies.” 
+Kuckuck. Notizen zur Alltagskultur  21/1 (Code): 13–17. 
+Crawford, Kate. 2021. Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelli‐
+gence . New Haven: Yale University Press. https://doi.org/10.12987/9780300252392 
+DeLanda, Manuel. 2006. A New Philosophy of Society: Assemblage Theory and Social Complex‐
+ity. London und New York: Continuum. 
+DeLanda, Manuel. 2016. Assemblage Theory . Edinburgh: Edinburgh University Press. 
+Deleuze, Gilles and Félix Guattari. 1987 . A Thousand Plateaus: Capitalism and  Schizophrenia, 
+trans. Brian Massumi. Minneapolis: University of Minnesota Press. 
+Dippel, Anne and Andreas Sudmann. 2023. “AI Ethnography.” In Handbook of Critical Studies 
+of Artificial Intelligence , edited by Simon Lindgren, 826–844. Cheltenham: Edward El‐
+gar Publishing. Last accessed on 04. 12. 2023. https://doi.org/10.4337/9781803928562.
+00083 
+European University Association. 2023. EUA-ELIA webinar – Beyond ChatGPT: what next for 
+generative AI in higher education. Youtube, 26. Juni. https://www.youtube.com/watch?
+v=idH7I7SCcQc 
+Farías, Ignacio. 2011. “Introduction: Decentring the Object of Urban Studies.” In Urban As‐
+semblages: How Actor-Network Theory Changes Urban Studies , edited by Ignacio Farías and 
+Thomas Bender, 1–24. London: Routledge. 
+Forsythe, Diana E. 1996. “New Bottles, Old Wine: Hidden Cultural Assumptions in a Com‐
+puterized Explanation System for Migraine Sufferers.” Medical Anthropology Quarterly  
+10/4: 551–574. Last accessed on 04. 12. 2023. https://doi.org/10.1525/maq.1996.10.
+4.02a00100 . 
+Fridman, Lex. 2023. “Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI.” Lex 
+Fridman Podcast. Youtube, March 25. https://www.youtube.com/watch?v=L_Guz73e6fw . 
+Grandinetti, Justin. 2023. “Examining Embedded Apparatuses of AI in Facebook and TikTok.” 
+AI & SOCIETY  38/4: 1273–1286. Last accessed on 04. 12. 2023. https://doi.org/10.1007/
+s00146-021-01270-5 . 
+Hansen, Lara and Gertraud Koch. 2022. “Assemblage: Constructing the Social in Empirical 
+Cultural Research.” Hamburger Journal für Kulturanthropologie  (HJK) 14: 3–15. 
+Hopkins, Julian. 2019. “The Blog as Assemblage: Agency and Affordances.” In Monetising the 
+Dividual Self: The Emergence of the Lifestyle Blog and Influencers in Malaysia , 11–27. New 
+York: Berghahn Books. https://doi.org/10.2307/j.ctv12pnrw6.8 
+Kim, Eun-sung, Gi Woong Yun and Yoehan Oh. 2022. “The Dynamics of Data-Algorithm Assem‐
+blages and Sociotechnical Challenges to Computer Vision.” SSRN Electronic Journal . Last 
+accessed on 04. 12. 2023. https://doi.org/10.2139/ssrn.4070575 . 
+Kitchin, Rob. 2017. “Thinking Critically about and Researching Algorithms.” Information, 
+Communication & Society  20/1: 14–29. Last accessed on 04. 12. 2023. https://doi.org/10.
+1080/1369118X.2016.1154087 . 
+XVIII Christoph Bareither 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Koch, Wolfgang. 2022. “Ergebnisse der ARD/ZDF-Onlinestudie 2022: Reichweiten von Social-
+Media-Plattformen und Messengern.” Media Perspektiven  10: 471–478. 
+Latour, Bruno. 2005. Reassembling the Social: An Introduction to Actor-Network-Theory . Ox‐
+ford: Oxford University Press. https://doi.org/10.1093/oso/9780199256044.001.0001 
+Lindner, Rolf. 2003. “Vom Wesen der Kulturanalyse.” Zeitschrift für Volkskunde  99/1: 177–
+188. 
+Luxburg, Ulrike von. 2020. “Wie funktioniert maschinelles Lernen?” Universität Tübingen, 
+19. August. Last accessed on 04. 12. 2023. https://www.tml.cs.uni-tuebingen.de/team/
+luxburg/publications/luxburg_wie_funktioniert_ml.pdf 
+Maase, Kaspar. 2022. Schönes alltäglich erleben: Über die Ästhetisierung der Kultur . Bielefeld: 
+transcript. https://doi.org/10.1515/9783839461174 
+May, Sarah. 2020. “Kultur.” In Kulturtheoretisch argumentieren: Ein Arbeitsbuch , edited by 
+Timo Heimerdinger and Markus Tauschek, 236–269. Münster and New York: Waxmann. 
+Meta. 2023. “Introducing 22 system cards that explain how AI powers experiences on Face‐
+book and Instagram.” Meta, June 29. Last accessed on 04. 12. 2023. https://ai.meta.com/
+blog/how-ai-powers-experiences-facebook-instagram-system-cards/
+Müller, Martin and Carolin Schurr. 2016. “Assemblage Thinking and Actor-Network Theory: 
+Conjunctions, Disjunctions, Cross-Fertilisations.” Transactions of the Institute of British  
+Geographers  41/3: 217–229. Last accessed on 04. 12. 2023. https://doi.org/10.1111/
+tran.12117 . 
+Pinchevski, Amit. 2019. “Transmitted Wounds: Media and the Mediation of Trauma.” New 
+York: Oxford University Press. Last accessed on 04. 12. 2023. https://doi.org/10.1515/
+commun-2021-0086 
+Preiß, Jennifer, Mareike Bartels, Julia Niemann-Lenz, Julia Pawlowski, and Kai-Uwe 
+Schnapp. 2023. “ ‘ChatGPT and me’ Erste Ergebnisse der quantitativen Auswertung einer 
+Umfrage über die Lebensrealität mit generativer KI an der Universität Hamburg.” Univer‐
+sität Hamburg, 26. September. Last accessed on 04. 12. 2023. https://doi.org/10.25592/
+UHHFDM.13402 . 
+Rosenbaum, Howard. 2020. “Algorithmic Neutrality, Algorithmic Assemblages, and the Life‐
+world.” AMCIS 2020 Proceedings  6: 1–10. 
+Scheer, Monique. 2016. “Emotionspraktiken: Wie man über das Tun an die Gefühle 
+herankommt.” In Emotional Turn?!: Europäisch ethnologische Zugänge zu Gefühlen & 
+Gefühlswelten , edited by Matthias Beitl and Ingo Schneider, 15–36. Vienna: Selbstverlag 
+des Vereins für Volkskunde. 
+Schönberger, Klaus. 2015. “Persistenz und Rekombination: Digitale Kommunikation und 
+soziokultureller Wandel.” Zeitschrift für Volkskunde  111/2: 201–213. 
+Taylor, T. L. 2009. “The Assemblage of Play.” Games and Culture  4/4: 331–339. Last accessed 
+on 04. 12. 2023. https://doi.org/10.1177/1555412009343576 
+TED. 2023. “TikTok CEO Shou Chew on Its Future — and What Makes Its Algorithm Different. 
+Live at TED2023.” Youtube, April 21. https://www.youtube.com/watch?v=7zC8-06198 g 
+TikTok. 2020. “How TikTok recommends videos # ForYou.” TikTok, June 18. Last accessed on 
+04. 12. 2023. https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-
+you 
+Cultures of Artificial Intelligence XIX 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Traum, David, Kallirroi Georgila, Ron Arnstein and Anton Leuski. 2015a. “Evaluating Spoken 
+Dialogue Processing for Time-Offset Interaction.” In Proceedings of SIGDIAL , 199–208. Last 
+accessed on 04. 12. 2023. http://www.aclweb.org/anthology/W/W15/W15-4629.pdf . 
+Traum, David, Andrew Jones, Kia Hays, Heather Maio, Oleg Alexander, Ron Artstein, Paul 
+Debevec, Alesia Gainer, Kallirroi Georgila, Kathleen Haase, Karen Jungblut, Anton Leuski, 
+Stephen Smith and William Swartout. 2015b. “New Dimensions in Testimony: Digitally 
+Preserving a Holocaust Survivor’s Interactive Storytelling.” In Interactive Storytelling-8th 
+International Conference on Interactive Digital Storytelling , edited by Henrik Schoenau-
+Fog, Luis Emilio Bruni, Sandy Louchart and Sarune Baceviciute, 269–281 Heidelberg: 
+Springer. https://doi.org/10.1007/978-3-319-27036-4_26 
+Tseng, Yu-Shan. 2022. “Assemblage Thinking as a Methodology for Studying Urban AI Phe‐
+nomena.” AI & SOCIETY , June. Last accessed on 04. 12. 2023. https://doi.org/10.1007/
+s00146-022-01500-4 . 
+USC Shoah Foundation. 2020. “Dimensions in Testimony: USC Shoah Foundation.” Youtube, 
+April 3. Video, 0:56. https://www.youtube.com/watch?v=nGzAc9mIoTM 
+USC Shoah Foundation. 2023a. “Teach with Dimensions in Testimony: Guidelines for 
+Educators.” Last accessed on 04. 12. 2023. https://assets.ctfassets.net/r2fjqekz37jz/
+6ahE6r8EENMjBA7VKeRc9K/dabec891d386513f1fd26741737401a4/DiT_Guidelines_for_
+Educators.pdf 
+USC Shoah Foundation. 2023b. “Frequently Asked Questions: The Who, Where, Why and What 
+about Dimensions in Testimony.” Last accessed on 04. 12. 2023. https://sfi.usc.edu/dit/
+faq 
+Vepˇrek, Libuše Hannah. 2023 . At the Edge of Artificial Intelligence: Intraversions in Human 
+Computation Systems . PhD diss., Ludwig-Maximilian-Universität München. In press as: 
+Vepˇrek, Libuše Hannah. 2024 [forthcoming]. At the Edge of AI. Human Computation Sys‐
+tems and their Intraverting Relations. Bielefeld: transcript. 
+Wall Street Journal. 2021. “Investigation: How TikTok’s Algorithm Figures Out Your Deepest 
+Desires.” WSJ, July 21. Last accessed on 04. 12. 2023. https://www.wsj.com/video/series/
+inside-tiktoks-highly-secretive-algorithm/investigation-how-tiktok-algorithm-figures-
+out-your-deepest-desires/6C0C2040-FF25-4827-8528-2BD6612E3796 
+Welz, Gisela. 2021. “Assemblage.” In Theoretische Reflexionen: Perspektiven der Europäischen 
+Ethnologie , edited by Peter Hinrichs, Martina Röthl and Manfred Seifert, 69–87. Berlin: 
+Dietrich Reimer Verlag GmbH. https://doi.org/10.5771/9783496030560-161 
+Wetherell, Margaret, Laurajane Smith and Gary Campbell. 2018. “Introduction: Affective her‐
+itage practices.” In Emotion, Affective Practices, and the Past in the Present , edited by Lau‐
+rajane Smith, Margaret Wetherell and Gary Campbell, 1–21. Milton: Routledge. https://
+doi.org/10.4324/9781351250962-1 
+Wietschorke, Jens. 2012. “Beziehungswissenschaft: Ein Versuch zur volkskundlich-kultur‐
+wissenschaftlichen Epistemologie.” Österreichische Zeitschrift für Volkskunde  115/3& 4: 
+325–359. 
+Williams, Raymond. 2014. “Culture is Ordinary” (1958). In Raymond Williams on Culture & 
+Society: Essential Writings , edited by Jim McGuigan, 91–100. London: SAGE Publications 
+Ltd. Last accessed on 04. 12. 2023. https://doi.org/10.4135/9781473914766.n1 . 

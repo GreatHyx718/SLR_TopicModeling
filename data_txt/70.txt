@@ -1,0 +1,589 @@
+Revisiting Four
+Conversations in
+Technical andProfessional WritingScholarship to Frame
+Conversations About
+Artiﬁcial Intelligence
+Bill Hart-Davidson1,
+Michael Ristich2,
+Casey McArdle2, and Liza Potts2
+Abstract
+This article explores four different topics of conversation in technical and
+professional communication (TPC) scholarship that overlap and connect
+with contemporary issues in generative arti ﬁcial intelligence (AI): process
+and iteration, theory and power, actors and activity, and the social justice
+turn. The authors offer four nonexhaustive reviews of these conversations,
+offering insight into key issues and texts that have animated discourse intheﬁeld and can directly or indirectly address the complex relationship
+between TPC work and generative AI.
+1College of Arts and Letters, Michigan State University, East Lansing, MI, USA
+2Department of Writing, Rhetoric, and Cultures, Michigan State University, East Lansing, MI, USA
+Received: September 22, 2023; accepted: November 28, 2023
+Corresponding Author:
+Casey McArdle, Department of Writing, Rhetoric, and Cultures, Michigan State University,434 Farm Lane, 235A Bessey Hall, East Lansing, MI 48824, USA.
+E-mail: cmcardle@msu.eduArticle
+Journal of Business and Technical
+Communication
+2025, Vol. 39(1) 75-92© The Author(s) 2024
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOI: 10.1177/10506519241280642
+journals.sagepub.com/home/jbt
+
+Keywords
+artiﬁcial intelligence, technical writing, process, justice, actor-network
+theory, power critical theory
+Writing is a technology (Ong, 1983). As a ﬁeld of academic inquiry, technical
+and professional communication (TPC) has an orientation toward and a richliterature in writing as a technology that is helpful to draw from when we see
+shifts, even leaps, in what writing technologies can do (Johnson-Eilola,
+1996). In this article, we point to four speci ﬁc scholarly conversations
+within the ﬁeld of TPC that correspond with epistemic and technological
+shifts in both learning and workplaces. We gather them here so that those
+new to TPC and those in adjacent ﬁelds may draw on these conversations
+for guidance in theorizing and strategizing the emergence of generative arti-
+ﬁcial intelligence (AI). We highlight these four conversations as starting
+places for reading (see Appendix for a reading list of sources fromConversations 1 –3) and re ﬂecting on what TPC has dealt with substantively
+in its recent scholarship and provide ideas about how we, as TPC scholars,
+might offer our expertise. While each of these had its moment of being thepredominant conversation in the ﬁeld, all are ongoing. We have selectively
+chosen speci ﬁc works that can serve as entry points for shaping our under-
+standing of AI and writing and the impact of writing with AI on learningand working.
+The four conversations can be understood as moments of reckoning.
+Perhaps our current moment —characterized by the ﬁeld’s“social justice
+turn”to matters of equity, identity and representation, and justice —makes
+this most clear. It is not by coincidence that these topics are ascendant as
+we grapple with generative AI and its potential to amplify bias, (re)normal-ize modalities and value structures of language that erase linguistic differ-
+ence, and spread disinformation.
+The expertise our ﬁeld has built related to the role of technical and pro-
+fessional writing in maintaining structural inequity may prove helpful for
+understanding how disparities can grow from generative AI. For example,
+AI could amplify and normalize biases that are (over)represented in the
+materials it has been trained on (Sun et al., 2023). And generative AI,
+when presented as a monetized service that may become standard or essen-tial for a competitive labor or learning situation, could widen inequities for
+those whose access may be limited (Hatzius et al., 2023).76 Journal of Business and Technical Communication 39(1)
+Conversation 1: Process and Iteration
+We begin with perhaps the most fundamental concept in TPC and across
+writing studies: process. The ﬁeld of TPC is rich with perspectives and
+frameworks to help writers, readers, and users of information create withwords and images. A common element in these frameworks is iteration, a
+recognition that repetition and recursivity are key elements in writing as a
+human activity. A key takeaway: repetition helps people to learn andbecome better readers and writers. With fewer repetitions, as promised by
+generative AI, what becomes of learning?
+Process and Writing Beyond School Settings
+The act of interrogating process and iteration goes back to 1977 and more
+broadly to composition studies, when Emig noted that “writing serves learn-
+ing uniquely because writing as process-and-product possesses a cluster of
+attributes that correspond uniquely to certain powerful learning strategies ”
+(p. 122). Emig ’s work helped to ignite a research interest in empirically
+observing the activity of writing in order to gain insights from learning
+more about writers ’thoughts, contexts, and decision-making.
+In 1986, Odell and Goswami made the compelling case for studying
+writing in nonschool settings. They argued that “researchers need to
+examine writing that is not assigned by a teacher and that has a purpose
+beyond improving writing skill or generating research data ”(p. 201) in
+order to build our collective understanding of writing as a kind of essential
+human activity in modern life and work. Since then, workplace writing
+studies have proliferated. These studies extend theories of writing toinclude the lived experience of people in many different contexts. As
+researchers, we can draw on this expansion today as we contemplate
+where, when, and why to use AI writing technologies in everyday writingprocesses. While the use of AI writing tools may indeed be problematic
+in many school contexts, for people at work, it can make dif ﬁcult processes
+easier, faster, and less expensive. Such nonschool contexts will no doubtmake for fascinating research opportunities to come.
+Multimodality and Multiliteracies
+In 2003, Prior and Shipka proposed a framework for considering an
+expanded scope of literate activity in order to render the writing process
+in a more fulsome way —“not for ﬁrst drafts [but as] a step in a longer
+and blurrier chain of textual invention and production ”(p. 181). AsHart-Davidson et al. 77
+writers, we map our process, and when success comes, we strive to duplicate
+it—we develop internal algorithms to deploy again and again. Thus, the use
+of generative AI would be just one of many steps in the invention, reinven-tion, and revising that make up the multimodal process of writing.
+InMultiliteracies for a Digital Age , Selber (2004) provided a framework
+for using three literacies: functional (How does it work?), critical (Why doesit work the way it does?), and rhetorical (How can I contribute to the con-
+versation?). Selber wanted to help teachers of writing build and design effec-
+tive, responsible computer literacy programs (p. xi). What better way to aidfaculty in developing such a program than an algorithm —one that provides
+room for iteration and learning —that can be used by humans to improve it?
+In 2019, Borgman and McArdle developed the PARS (personal, accessi-
+ble, responsive, strategic) framework to help contingent faculty build, write,
+design, and develop their own online classes. They view “digital technology
+as an opportunity to take advantage of online spaces already being used bystudents and refocusing them for improving writing ”(p. 11). In doing so,
+faculty can meet students in spaces they currently inhabit and will inhabit
+beyond the perceived beta test of the university. Although the frameworkwas developed for course design, it leaves room for iteration and process.
+The TPC ﬁeld is devoted to simplifying systems to be more inclusive, to
+provide space for iteration and equity. Such attention to inclusivity, itera-tion, and equity should be applied to its pedagogy and research on genera-
+tive AI.
+Practice, Process, and Change With AI
+Research conversations in TPC about writing practice must now evolve
+once more to include nonhuman writing agents as routine participants in
+the practice. We see this moment as parallel to the conversation that
+sparked the broader ﬁeld of writing studies to consider collaborative dynam-
+ics, common in workplace settings, not as the exception but rather as the rule
+for the majority of writers doing the everyday work of composing, review-
+ing, and revising texts. As writers, we are seldom individual authors andmuch more often part of larger systems, as Odell and Goswami (1986)
+showed us: The organization is the author (see Paradis et al., 1986).
+As generative AI further complicates this dynamic, possibly even
+moving into the role of coauthor or author, the human contributions to the
+writing process will likely shift and evolve. Not everything will change,
+but the speed of our process steps, such as drafting, will change. The collab-orators might change. Where writing occurs and where it is distributed will78 Journal of Business and Technical Communication 39(1)
+continue to change. The lingering lesson from our scholarship on process,
+however, is that humans will pay a price if we take process shortcuts
+enabled by technology. That is, with fewer iterations, human learning islost. And getting a textual result faster may be of little value to TPC
+because learning is the goal, not speed.
+Conversation 2: Theory, Agency, and Power
+Technology ampli ﬁes power, and it can sometimes distribute it. Powerful
+people have always had access to agents who can write on their behalf.With AI amplifying and distributing generative capability, some barriers
+to access will likely fall. But new disparities may just as rapidly appear.
+Although theory —which we use here as an umbrella term for a set of ideas
+and concepts concerned with power, representation, culture, epistemology,
+and the legacies of Marxist politics —might not have the currency it once
+did within business and technical communication, many will be familiar
+with its ascendancy and prominence within English departments across
+U.S. universities (see Berlin, 2003). Eagleton (2003) noted that the body ofideas that came to be known as theory was largely a response to World
+War II and “had their Roots deep in the age of civil rights and student insur-
+gency, national liberation fronts, anti-war and anti-nuclear campaigns, theemergence of the women ’s movement and the Heyday of cultural liberation ”
+(p. 24). The explosion of theory and its various expressions and permutations
+(literary theory, cultural theory, postcolonial theory, etc.) changed the natureof academic inquiry in the humanities. As Eagleton (2003) observed, “The
+universities which had been the very home of traditional culture, the citadels
+of disinterested inquiry, became for a ﬂeeting moment, most unusually, the
+cockpits of culture as political struggle ”(pp. 25 –26).
+When English departments began offering courses in business and tech-
+nical communication, faculty looked to theory as a productive body ofknowledge to outline the shape and aims of their work. In their reexamina-
+tion of postmodern theory in business and technical communication, Wilson
+and Wolford (2017) pointed out that much of the discipline ’s early scholar-
+ship“was in ﬂuenced by the zeitgeist of 1980s and 1990s postmodern theory
+and drew on postmodern and critical theory to de ﬁne and rede ﬁne, not just
+workplace roles but some of our fundamental thinking about technical com-munication ”(p. 4). It is unsurprising, then, that Sullivan and Porter ’s (1993)
+seminal “Remapping Curricular Geography: Professional Writing in/and
+English, ”offers a “postmodern and/or feminist ”model of professional
+writing in ﬂuenced by Jean-Francois Lyotard ’s postmodern theory (p. 411).Hart-Davidson et al. 79
+Studying Organizational Contexts Means Reckoning With Power
+Considering Sullivan and Porter ’s (1993) important mapping of the ﬁeld,
+people might say that theory was an essential component in shaping the dis-
+ciplinary identity of business and technical/professional writing as an area ofacademic inquiry. For example, drawing on Jacques Derrida, Hart-Davidson
+(2001) argued that “we need theory. By this I mean that the ranks of working
+professionals andacademics in technical communication should participate
+in activity that makes the core expertise of technical communication explicit ”
+(p. 147). Or, in another example, Winsor (2003) used the ideas of Pierre
+Bourdieu, Michel Foucault, and other post structuralist thinkers to examinehow generic texts (re)produce power, direct action, and “distribute cognition ”
+among multiple writers over a period of time. Further, revisiting Sullivan and
+Porter ’s“Remapping Curricular Geography, ”Kent (2007) observed that their
+“article continues to serve us well today by providing us with a better under-
+standing of the social forces that shape our ﬁelds of study and, consequently,
+regulate what we can and cannot teach ”(p. 13).
+Our point here is that business and technical communication has a long
+history of engaging theory. And while this history might be less familiar,
+taken for granted, or overlooked by faculty today, the ﬁeld’s long engage-
+ment with theory provides a useful set of concepts and vocabularies to
+engage with the questions and implications of the rapid rise of generative
+AI, especially, as we show in the next section, given the ﬁeld’s commitment
+to understanding materiality and the in ﬂuence of nonhuman actors.
+Foucault ’s (1998) “What Is an Author? ”is one possible, if not obvious,
+starting point for excavating theory ’s usefulness in thinking through gener-
+ative AI in business and technical communication. As a contrast to the view
+of a self-aware and agentic writer who “deposits, with in ﬁnite wealth and
+generosity, an inexhaustible world of signi ﬁcations ”(p. 221), Foucault
+wrote about the “author function, ”which is “characteristic of the mode of
+existence, circulation, and functioning of certain discourses within a
+society ”(p. 211). Taking up the question of how the ﬁgure of the author
+and authorship are articulated and reproduced at a certain cultural
+moment, Foucault pointed to four characteristics to guide our understanding
+of the “author function ”: (a) a link to “juridical and institutional systems ”
+that determine and reproduce discourse (e.g., copyright, pro ﬁt), (b) some
+culturally and historically speci
+ﬁc degree of in ﬂuence on other discourses
+(e.g., that of literary writers on scienti ﬁc discourses or vice versa), (c) a col-
+lection of speci ﬁc and complex operations that lead to the construction of
+“author ”(e.g., literary criticism, the attribution of style and motives, a80 Journal of Business and Technical Communication 39(1)
+writer ’s personal history), and (d) the rhetorical elements within a text that
+signify the existence of a “plurality of self ”and not a uni ﬁed subject called
+the“author ”that precedes the production of a text/work (p. 216).
+Authority and Authorship
+As we better understand the impact of generative AI on our teaching,
+research, and day-to-day lives, Foucault ’s (1998) analysis of the “author func-
+tion”provides us with a useful heuristic. Following Foucault ’s four-part
+method, we might ask, for instance, (a) How will generative-AI technologies
+be monetized by the large tech companies? What regulations might be devel-
+oped and implemented by legislative bodies across the globe? (b) How mightgenerative AI in ﬂuence policymaking? How might such technologies be used
+to compose workplace documents? (c) How do we, as a ﬁeld, contribute to the
+construction and perception of generative AI as a recognizable “author ”or
+writing technology? What does the history of AI teach us about our present
+moment? and (c) How might TPC researchers contribute to theorizing AI rhe-
+toric and interpretive frameworks for identifying AI-generated writing?
+As AI technologies continue to develop and our understanding evolves,
+the questions we ask will surely be sharpened, expanded, revised. Indeed,
+Foucault (1998) suggested as much when he ended his essay with one pro-vocative question that might serve us well today: “What difference does it
+make who is speaking? ”(p. 222). With AI as an increasingly embedded
+resource within our writing technologies, devices, and spaces rather thana stand-alone technology, we can see the currency of contemporary
+theory such as Rickert ’s (2013) Ambient Rhetoric , which calls us to consider
+more pervasive, subtle, and yet critical sensibilities such as attunement —an
+ability to bring intentionality to moments when the conditions are right for
+rhetorical action. Such critical sensibilities may well become (or are becom-
+ing) new workplace literacies.
+Thus, AI will, at least while it is new, create a compelling need for a new
+understanding of the dynamics of power, agency, and authority. As we for-
+mulate and pose questions, then, we should recognize that, as Eagleton(2003) posited, “if theory means a reasonably systematic re ﬂection on our
+guiding assumptions, it remains as indispensable as ever ”(p. 2).
+Conversation 3: Actors and Activity
+Theory ’s proclamation and the ﬁeld of writing studies ’assimilation of “the
+death of the author ”(Logie, 2013) may have already prepared us for anHart-Davidson et al. 81
+alarming idea: The machines might soon replace us. Thinking about the
+potential perils of AI could make us feel threatened. And indeed, we have
+faced several recent examples exposing the precarious relationshipbetween human and nonhuman actors during times of disaster.
+When Latour proposed the actor-network theory (ANT), it was to shake
+up sociology ’s understanding of technology use and its effects on society,
+countering a human-centered bias in the discipline of sociology. Latour
+(1987, 2007) engaged in a thought experiment in which human and nonhu-
+man actors might have equal agency in a given situation, suggesting that asan analytic frame, such a view is helpful for investigating situations in which
+humans and nonhumans interact. Many in TPC have applied this frame to
+technical communication work (Fraiberg, 2017; Jones, 2016; Potts, 2009;Read, 2016; Spinuzzi, 2008; Swarts, 2010). But with nonhuman agents ’
+prominence and in ﬂuence seemingly on the rise with AI, does ANT have
+any validity today? At a minimum, we need to reevaluate the ﬂattened hier-
+archy that Latour proposed. Recent issues relating to disaster, expertise,
+human intervention, and trust in machines have led to serious issues.
+Nonhumans in the Loop
+Let us consider a situation that occurred in 2018 in Hawaii. A worker at the
+Hawaii Emergency Management Agency (EMA) made a mistake during a
+drill that resulted in sending out alerts to the residents of Hawaii, advising
+them, in all caps —the parlance of shouting online —to“SEEK
+IMMEDIATE SHELTER ”because of an “INBOUND ”threat of a
+“BALLISTIC MISSILE. ”As reported by the Centers for Disease Control
+(Murthy et al., 2019), residents experienced feelings of sheer panic andthen anger as they received the alert and then learned that the alert was
+indeed a mistake.
+We could take the stance that this mistake was human error until we take
+a look at the opaque interface used to send the alert in AlertSense ’s software.
+Reporters at The Verge conducted an excellent breakdown of the failures in
+the interface and the EMA ’s governance of the emergency alert system
+(Lecher, 2018). The trust we have in government alerts is only as strong
+as the reliability of these systems, but it is ultimately up to technical commu-
+nicators to ethically design these interfaces, algorithms, policies, andsystems. Without a doubt, all of these issues are the fault of poor choices
+made by leaders who trusted in these systems. Does that mean we should
+have trusted the machines more fully, or does it mean we need a betterset of best practices about the governance of technology?82 Journal of Business and Technical Communication 39(1)
+Should We Maintain a Positive Bias Toward the Human?
+What does all of this mean for the future of AI and human actors collaborat-
+ing on writing projects? It certainly points toward the continuous need for
+human intervention. Writing involves more than just delivery. It involvesreﬁnement and understanding. That is, invention, iteration, testing, and
+review require nuance, discussion, understanding, and the kind of encod-
+ing/decoding that is less algorithmic and more empathetic. Without thecorrect ratio of human to nonhuman actors, your content may write itself,
+but it certainly will not guarantee the context in which people will use it.
+And at this point, we need to consider the activity theory with an emphasis
+on human collaboration (Kaptelinin & Nardi, 2006), an emphasis that TPC
+examines within con ﬁnes across time and space (Potts & Jones, 2011;
+Sherlock, 2009; Spinuzzi, 2011). Rather than focusing only on the actionsand reactions behind these systems, perhaps we ought to use our available
+means of persuasion to outline the ethical ways in which we can humanely
+coexist. That is, perhaps we should think about technology and how it caneffect societal change for social good. As Spinuzzi (2023) pointed out, activity
+theory and ANT offer complementary ways for us to examine these systems
+and develop best practices for their use. A key difference, for Spinuzzi, isthat activity theory builds in a bias toward human consciousness by creating
+a hierarchy of action that depends on motivated, purposeful behavior. In this
+way, activity theory ’s humanistic bias can be an affordance, particularly in a
+situation in which the overdetermined or hegemonic in ﬂuence of nonhuman
+actors is more aligned with power than is the in ﬂuence of human actors. It is
+easy to see, then, that in certain arenas such as policymaking, a human-centeredperspective may be seen as the most just.
+Conversation 4: Social Justice Turn and What
+Lies Ahead
+TPC has recently had to reckon with the complexity of writing and commu-
+nication as organizational processes. That is, the increasingly distributed
+nature of textual work has blurred the line between human and nonhumanagency and the identity of the authorial agent. Now the ﬁeld is also reckon-
+ing with the material disparities and inequities that its practices —and even
+its ways of knowing —contribute to rather than work to improve. TPC ’s
+efforts to understand writing practices across all the dynamics characterizing
+the eras of process, theory, and activity/actor networks continue with a
+renewed urgency in order to make a meaningful change with and forthose marginalized and harmed by these practices.Hart-Davidson et al. 83
+Theﬁeld routinely brings a critical sensibil ity to the study of process and prac-
+tice frameworks. Walton (2016) noted that TPC is “well positioned to combat
+forms of oppression ”because “TPC is involved in crafting the communications ”
+that can enact change (p. 412). In 2019, Walton et al. released Technical
+Communication After the Social Justice Turn :Building Coalitions for Action ,a
+book that reexamines the role of technical communication as a whole and theresponsibilities that come wit h it. They offer overviews of “distributive justice,
+procedural justice, and three forms of legal justice (retributive, restorative, transi-
+tional) before landing on social justice ”(p. 34). These overviews provide a frame-
+work for us, as TPC researchers, to examine our own privilege and the privilege
+that TPC work can perpetuate. Understanding privilege “provides insight into the
+ways that technology prioritizes particula r users and in doing so, particular per-
+spectives ”(p. 85). This insight can be used in examining generative AI: That
+is, how can we, as TPC researchers and practitioners, be responsible and use
+the privilege that comes with that responsibility to advance justice?
+Less recent voices from each of the prior three conversations have also called
+attention to social justice matters. For instance, in his landmark essay “The Ethic
+of Expediency, ”Katz (1992) turned our attention to the weaponization of orga-
+nizational authorship and its massive de humanizing, violent potential as talk of
+the ludic possibility of a decentralized authorial subject reached its nadir in the
+theory era. His warning is a check on dynamics that we see surfacing in discus-sions of generative AI today, including the ways that appeals to expediency can
+afford rapid and massive scaling of deadly rhetorical power. As the excitement
+about nonhuman actors was heating up, Sauer (2003), in her study of coalminer ’s embodied rhetoric, directed us to the distinctly human, material risks
+of communication in hazardous conditions. And more recently, Sun (2020)
+reminded us that the TPC community is a global one that comprises technologyusers, writers, and researchers and that the U.S.-centric view that dominates in
+TPC scholarship sheds light on only a fraction of the rich activity that the ﬁeld
+aims to understand. Both Katz and Sauer, then, in contrast to the tenor of mostTPC scholarship in their respective moments, raised alarms as calls for the
+TPCﬁeld to use its knowledge to prevent harm. Today, by contrast, the call to
+be vigilant and to work toward transform ation, toward justice, is becoming a
+common cause for those entering the ﬁeld (Mckoy et al., 2022).
+Prompting Dialogue: Can the TPC Community Lead
+the Way on GenAI and Writing?
+Although the Call for Papers for this special issue of the Journal of Business
+and Technical Communication invited submissions that “center on how AI84 Journal of Business and Technical Communication 39(1)
+tools change or do not change aspects of TPC work, ”our piece evades such
+evaluations or predictions about generative AI and TPC work. Instead, we
+have looked to work in TPC —to conversations that build and utilize itera-
+tive frameworks, theorize human activity and power, and attend to the mate-
+riality of writing and writing technologies in order to advance justice and
+equity. By taking this kind of inventory, we are calling on our colleaguesto recognize that in these conversations, our ﬁeld has led and contributed
+to an opportunity to bring our expertise to the table as our institutions and
+the culture at large deal with how to adjust to generative AI in our workand personal lives. We are not starting from scratch.
+The time to do this work is now, when generative AI is as transparent and
+stand-alone as it will likely ever be. In the near future, GenAI capability willbe more embedded, more integrated into other systems and devices, making
+it harder to detect, understand, scrutinize, and critique. Our voices as writing
+experts matter a great deal. We understand from other moments of rapid anddisruptive technological change that there will be both positive and negative
+developments within TPC as both a ﬁeld of academic inquiry and profes-
+sional practice. With GPT (generative pretrained transformer), a technologywhose inception was not linked to solving a problem with writing, all of
+these developments —positive and negative —are in a sense unintended
+(Vaswani et al., 2017).
+Indeed, we look forward to reading what others have to say about the
+impact and implications of generative AI on our collective work.
+Although we do not know what is to come regarding the effects of genera-tive AI —including shifting and new criteria to evaluate these effects —we
+do know that the conversations we have outlined here serve as productive
+commonplaces and starting points for understanding, in ﬂuencing, theoriz-
+ing, and working alongside generative AI.
+Appendix
+Reading List for Conversations 1, 2, and 3
+Conversation 1. Borgman, J. (2019). Creating a User-Centered Experience in
+Online Courses Through Content Strategy. In G. Getto, J. Labriola, &S. Ruszkiewicz (Eds.), Content Strategy in Technical Communication
+(pp. 154 –170). Routledge.
+Borgman, J., & Dockter, J. (2018). Considerations of access and design
+in the online writing classroom. Computers and Composition ,49,94–105.Hart-Davidson et al. 85
+Borgman, J., & McArdle, C. (2022). Continuous delivery: A PARS
+online course development cycle. Computers and Composition ,66, 102741
+Crowe, D., LaPierre, M., & Kebritchi, M. (2017). Knowledge-based arti-
+ﬁcial augmentation intelligence technology: Next step in academic instruc-
+tional tools for distance learning. TechTrends ,61, 494 –506. https://doi.org/
+10.1007/s11528-017-0210-4
+Fidan, M., & Gencel, N. (2022). Supporting the instructional videos with
+chatbot and peer feedback mechanisms in online learning: The effects on learn-
+ing performance and intrinsic motivation. Journal of Educational Computing
+Research ,60(7), 1716 –1741. https://doi.org/10.1177/07356331221077901
+Greer, M., & Harris, H. S. (2018). User-centered design as a foundation
+for online writing instruction. Computers and Composition ,49,1 4–24.
+Hart-Davidson, W. (2013). What are the work patterns of technical com-
+munication. In J. Johnson-Eilola & S. A. Selber (Eds.), Solving problems in
+technical communication (pp. 50 –74). University of Chicago Press.
+Hart-Davidson, W. (2018). Writing with robots and other curiosities of
+the machine age. In J. Alexander & J. Rhodes (Eds.), The Routledge hand-
+book of digital writing and rhetoric (pp. 248 –255). Routledge.
+Jackson, J., Swierenga, S. J., & Hart-Davidson, W. (2014). Assistive
+technology support for complex reading. Journal on Technology and
+Persons with Disabilities ,1, 212 –219. CSUN
+Jones, N. N. (2016). Found things: Genre, narrative, and identi ﬁcation in
+a networked activist organization. Technical Communication Quarterly ,
+25(4), 298 –318. https://doi.org/10.1080/10572252.2016.1228790
+McKee, H. (2018, April 25). The impact of AI on writing and writing
+instruction . Digital Rhetoric Collaborative. https://www.digitalrhetoric
+collaborative.org/2018/04/25/ai-on-writing/
+McLeod, M., Hart-Davidson, W., & Grabill, J. (2013). Theorizing and
+building online writing environments: User-centered design beyond the
+interface. In G. Pullman & B. Gu (Eds.), Designing web-based applications
+for 21st century writing classrooms (pp. 7 –18). Baywood.
+Miyazoe, T. (2022). Exploring the potentials of performance-centred
+instructional design in online and blended learning: Students ’perspectives.
+SN Computer Science ,3, 270. https://doi.org/10.1007/s42979-022-01132-x
+Moore, K. R. (2017). Place-based methodology for experience architecture.
+In M. J. Salvo & L. Potts (Eds.), Rhetoric and experience architecture (p. 18).
+Parlor Press.
+Omizo, R., & Hart-Davidson, B. (2016, May 12). Hedge-O-Matic.
+Enculturation , 22. http://enculturation.net/hedge-o-matic86 Journal of Business and Technical Communication 39(1)
+Skurat Harris, H., & Greer, M. (2017). Over, under, or through: Design
+strategies to supplement the LMS and enhance interaction in online writing
+courses. Communication Design Quarterly ,4(4), 46 –54.
+Swarts, J. (2017). Together with technology: Writing review, encultura-
+tion, and technological mediation . Routledge.
+Conversation 2. Berlin, J. A. (1992). Poststructuralism, cultural studies, and
+the composition classroom: Postmodern theory in practice. Rhetoric
+Review ,1 1 ( 1 ) ,1 6 –33.
+Berlin, J. A. (2003). Rhetorics, poetics, and cultures: Re ﬁguring college
+English studies. Parlor Pres.
+Collins, P. H. (2019). Intersectionality as critical social theory. Duke
+University Press.
+Eagleton, T. (2003). After theory . Basic Books.
+Foucault, M. (1998). What is an author? Aesthetics, method, and episte-
+mology: Essential works of Foucault, 1954 –1984 (Vol. 2; J. D. Faubion,
+Ed.; pp. 205 –222). New Press.
+Green ﬁeld, A. (2017). Radical technologies: The design of everyday life .
+Verso Books.
+Hart-Davidson, W. (2001). On writing, technical communication, and
+information technology: The core competencies of technical communica-
+tion. Technical Communication, 48 (2), 145 –155.
+Kent, T. (2007). The “remapping ”of professional writing. Journal of
+Business and Technical Communication ,21(1), 12 –14. https://doi-org.proxy1.
+cl.msu.edu/10.1177/1050651906293506
+Pruchnic, J. (2013). Rhetoric and ethics in the cybernetic age: The trans-
+human condition . Routledge.
+Rickert, T. (2013). Ambient rhetoric: The attunements of rhetorical
+being . University of Pittsburgh Press.
+Sanchez, R. (2012). The function of theory in composition studies. State
+University of New York Press.
+Scott, J. B., Longo, B., & Wills, K. V. (Eds.). (2007). Critical power
+tools: Technical communication and cultural studies. SUNY Press.
+Sullivan, P. A., & Porter, J. E. (1993). Remapping curricular geography:
+Professional writing in/and English. Journal of Business and Technical
+Communication ,7(4), 389 –422. https://doi-org.proxy1.cl.msu.edu/10.
+1177/1050651993007004001
+Sun, H. (2006). The triumph of users: Achieving cultural usability goals
+with user localization. Technical Communication Quarterly ,15(4), 457 –481.Hart-Davidson et al. 87
+Winsor, D. A. (2003). Writing power: Communication in an engineering
+center . State University of New York Press.
+Conversation 3. Fraiberg, S. (2017). Start-up nation: Studying transnational
+entrepreneurial practices in Israel ’s start-up ecosystem. Journal of Business
+and Technical Communication ,31(3), 350 –388. https://doi.org/10.1177/
+1050651917695541
+Jones, N. N. (2016). Found things: Genre, narrative, and identi ﬁcation in
+a networked activist organization. Technical Communication Quarterly ,
+25(4), 298 –318. https://doi.org/10.1080/10572252.2016.1228790
+Kaptelinin, V., & Nardi, B. A. (2006). Acting with technology: Activity
+theory and interaction design . MIT Press.
+Latour, B. (1987). Science in action: How to follow scientists and engi-
+neers through society . Open University Press.
+Latour, B. (2007). Remembering the Social . Oxford University Press.
+Potts, L. (2009). Using actor-network theory to trace and improve multi-
+modal communication design. Technical Communication Quarterly ,18(3),
+281–301. https://doi.org/10.1080/10572250902941812
+Potts, L., & Jones, D. (2011). Contextualizing experiences: Tracing the
+relationships between people and technologies in the social web. Journal
+of Business and Technical Communication ,25(3), 338 –358. https://doi.
+org/10.1177/1050651911400839
+Read, S. (2016). The net work genre function. Journal of Business and Technical
+Communication ,3 0 ( 4 ) ,4 1 9 –450. https://doi.org/10.1177/1050651916651909
+Sherlock, L. (2009). Genre, activity, and collaborative work and play in
+World of Warcraft: Places and problems of open systems in online gaming.Journal of Business and Technical Communicatio n,23(3), 263 –293. https://
+doi.org/10.1177/1050651909333150
+Spinuzzi, C. (2008). Network: Theorizing knowledge work in telecommunica-
+tions. Cambridge University Press. ht tps://doi.org/10.1017/CBO9780511509605
+Spinuzzi, C. (2011). Losing by expanding: Corralling the runaway object.
+Journal of Business and Technical Communication ,25(4), 449 –486. https://
+doi.org/10.1177/1050651911411040
+Spinuzzi, C. (2023). Actor/activity. In H. Yu & J. Buehl (Eds.),
+Keywords in technical and professional communication (pp. 36 –43).
+WAC Clearinghouse. https://wac.colostate.edu/books/tpc/tpc/
+Swarts, J. (2010). Recycled writing: Assembling actor networks from
+reusable content. Journal of Business and Technical Communication ,
+24(2), 127 –163. https://doi.org/10.1177/105065190935330788 Journal of Business and Technical Communication 39(1)
+Acknowledgment
+We dedicate this publication to Bill, our mentor, our jedi master, our captain, our col-
+league, our maillot jaune. Whenever he would publish with scholars more junior thanhimself, he would insist on being listed as the second author. That tradition lives onin writing, information, and digital experience (WIDE) research and his students. Inkeeping with his ethos, we have listed ourselves in order accordingly with onechange: Bill gets to be ﬁrst this time.
+Declaration of Con ﬂicting Interests
+The authors declared no potential con ﬂicts of interest with respect to the research,
+authorship, and/or publication of this article.
+Funding
+The authors received no ﬁnancial support for the research, authorship, and/or publi-
+cation of this article.
+References
+Berlin, J. A. (2003). Rhetorics, poetics, and cultures: Re ﬁguring college English
+studies . Parlor Press.
+Borgman, J., & McArdle, C. (2019). Personal, accessible, responsive, strategic:
+Resources and strategies for online writing instructors . WAC Clearinghouse.
+https://doi.org/10.37514/PRA-B.2019.0322
+Eagleton, T. (2003). After theory . Basic Books.
+Emig, J. (1977). Writing as a mode of learning. College Composition and
+Communication ,28(2), 122. https://doi.org/10.2307/356095
+Foucault, M. (1998). What is an author? In J. D. Faubion (Ed.), Aesthetics, method,
+and epistemology: Essential works of foucault, 1954 –1984 (Vol. 2, pp. 205 –222).
+New Press.
+Fraiberg, S. (2017). Start-up nation: Studying transnational entrepreneurial practices
+in Israel ’s start-up ecosystem. Journal of Business and Technical Communication ,
+31(3), 350 –388. https://doi.org/10.1177/1050651917695541
+Hart-Davidson, W. (2001). On writing, technical communication, and information
+technology: The core competencies of technical communication. Technical
+Communication ,48(2), 145 –155.
+Hatzius, J., Briggs, J., Kodnani, D., & Pierdomenico, G. (2023, March 26). The
+potentially large effects of arti ﬁcial intelligence on economic growth (Briggs/
+Kodnani) . Goldman Sachs. https://static.poder360.com.br/2023/03/Global-
+Economics-Analyst_-The-Potentially-Large-Effects-of-Arti ﬁcial-Intelligence-on-
+Economic-Growth-Briggs_Kodnani.pdfHart-Davidson et al. 89
+Johnson-Eilola, J. (1996). Relocating the value of work: Technical communication in
+a post-industrial age. Technical Communication Quarterly ,5(3), 245 –270.
+https://doi.org/10.1207/s15427625tcq0503_1
+Jones, N. N. (2016). Found things: Genre, narrative, and identi ﬁcation in a networked
+activist organization. Technical Communication Quarterly ,25(4), 298 –318. https://
+doi.org/10.1080/10572252.2016.1228790
+Kaptelinin, V., & Nardi, B. A. (2006). Acting with technology: Activity theory and
+interaction design . MIT Press.
+Katz, S. (1992). The ethic of expediency: Classical rhetoric, technology, and the
+holocaust. College English ,54(3), 255. https://doi.org/10.58680/ce19929392.
+Kent, T. (2007). The “remapping ”of professional writing. Journal of Business and
+Technical Communication ,21(1), 12 –14. https://doi-org.proxy1.cl.msu.edu/10.
+1177/1050651906293506
+Latour, B. (1987). Science in action: How to follow scientists and engineers through
+society . Open University Press.
+Latour, B. (2007). Remembering the Social . Oxford University Press.
+Lecher, C. (2018). Here ’s how Hawaii ’s emergency alert design led to a false alarm.
+The Verge . https://www.theverge.com/2018/1/18/16905512/hawaii-missile-
+software-false-alarm-emergency-alert
+Logie, J. (2013). 1967: The birth of “the death of the author. ”.College English ,
+75(5), 493 –512. https://doi.org/10.58680/ce201323564
+Mckoy, T., Shelton, C. D., Sackey, D. J., Jones, N. N., Haywood, C., Wourman,
+J. L., & Harper, K. C. (2022). Introduction to special issue: Black technicaland professional communication. Technical Communication Quarterly ,31(3),
+221–228. https://doi.org/10.1080/10572252.2022.2077455
+Murthy, B. P., Krishna, N., Jones, T., Wolkin, A., Avchen, R. N., & Vagi, S. J.
+(2019, February 22). Public health emergency risk communication and socialmedia reactions to an errant warning of a ballistic missile threat —Hawaii,
+January 2018. Morbidity and Mortality Weekly Report ,68(7), 174 –176. https://
+doi.org/10.15585/mmwr.mm6807a2
+Odell, L., & Goswami, D. (1986). Writing in nonacademic settings . Guilford Press.
+Ong, W. J. (1983). Writing is a humanizing technology. ADE Bulletin ,74,1 3–16.
+https://doi.org/10.1632/ade.74.13.
+Paradis, J., Dobrin, D., & Miller, R. (1986). Writing at Exxon ITD: Notes on the
+writing environment of an R&D organization. In L. Odell, & D. L. Goswami(Eds.), Writing in nonacademic settings (pp. 281 –307). Guilford.
+Potts, L. (2009). Using actor network theory to trace and improve multimodal com-
+munication design. Technical Communication Quarterly ,18(3), 281 –301. https://
+doi.org/10.1080/1057225090294181290 Journal of Business and Technical Communication 39(1)
+Potts, L., & Jones, D. (2011). Contextualizing experiences: Tracing the relationships
+between people and technologies in the social web. Journal of Business and
+Technical Communication ,25(3), 338 –358. https://doi.org/10.1177/
+1050651911400839
+Prior, P., & Shipka, J. (2003). Chronotopic lamination: Tracing the contours of lit-
+erate activity. In C. Bazerman & D. R. Russell (Eds.), Writing selves/writing soci-
+eties: Research from activity perspectives (pp. 181 –239). WAC Clearinghouse.
+https://doi.org/10.37514/PER-B.2003.2317.2.06
+Read, S. (2016). The net work genre function. Journal of Business and Technical
+Communication ,30(4), 419 –450. https://doi.org/10.1177/1050651916651909
+Rickert, T. (2013). Ambient rhetoric: The attunements of rhetorical being .
+University of Pittsburgh Press.
+Sauer, B. A. (2003). The rhetoric of risk: Technical documentation in hazardous
+environments . Taylor & Francis.
+Selber, S. A. (2004). Multiliteracies for a digital age . Southern Illinois University
+Press.
+Sherlock, L. (2009). Genre, activity, and collaborative work and play in World of
+Warcraft: Places and problems of open systems in online gaming. Journal of
+Business and Technical Communication ,23(3), 263 –293. https://doi.org/10.
+1177/1050651909333150
+Spinuzzi, C. (2008). Network: Theorizing knowledge work in telecommunications .
+Cambridge University Press. https://doi.org/10.1017/CBO9780511509605
+Spinuzzi, C. (2011). Losing by expanding: Corralling the runaway object. Journal of
+Business and Technical Communication ,25(4), 449 –486. https://doi.org/10.
+1177/1050651911411040
+Spinuzzi, C. (2023). Actor/activity. In H. Yu & J. Buehl (Eds.), Keywords in tech-
+nical and professional communication (pp. 36 –43). WAC Clearinghouse.
+https://wac.colostate.edu/books/tpc/tpc/
+Sullivan, P. A., & Porter, J. E. (1993). Remapping curricular geography: Professional
+writing in/and English. Journal of Business and Technical Communication ,7(4),
+389–422. https://doi-org.proxy1.cl.msu.edu/10.1177/1050651993007004001
+Sun, H. (2020). Global social media design: Bridging differences across cultures .
+Oxford University Press.
+Sun, L., Wei, M., Sun, Y., Suh, Y. J., Shen, L., & Yang, S. (2023). Smiling women
+pitching down: auditing representational and presentational gender biases inimage generative AI. ArXiv:2305.10566. https://arxiv.org/abs/2305.10566
+Swarts, J. (2010). Recycled writing: Assembling actor networks from reusable
+content. Journal of Business and Technical Communication ,24(2), 127 –163.
+https://doi.org/10.1177/1050651909353307Hart-Davidson et al. 91
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser,
+L., & Polosukhin, I. (2017). Attention is all you need. Advances in Neural
+Information Processing Systems ,30,1–11. https://doi.org/https://papers.nips.cc/
+paper_ ﬁles/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.
+html.
+Walton, R. (2016). Supporting human dignity and human rights: A call to adopt the
+ﬁrst principle of human-centered design. Journal of Technical Writing and
+Communication ,46(4), 402 –426. https://doi.org/10.1177/0047281616653496
+Wilson, G., & Wolford, R. (2017). The technical communicator as (post-
+postmodern) discourse worker. Journal of Business and Technical
+Communication ,31(1), 3 –29. https://doi.org/10.1177/1050651916667531
+Winsor, D. A. (2003). Writing power: Communication in an engineering center .
+State University of New York Press.
+Author Biographies
+Bill Hart-Davidson was a professor in the Department of Writing, Rhetoric and
+Cultures and associate dean for Research and Graduate Education in the Collegeof Arts and Letters at Michigan State University. His research focused on developingnew writing technologies and interventions that have positive, measurable impactson people ’s lives. This article is published posthumously.
+Michael Ristich is an academic specialist in the Department of Writing, Rhetoric,
+and Cultures at Michigan State University. He is also the director of the CitizenScholars Program in the College of Arts and Letters. His work focuses on criticaland rhetorical theory, leadership, and writing pedagogy.
+Casey McArdle is the director of the Experience Architecture program at Michigan
+State University. He is an assistant professor in the Department of Writing, Rhetoric,and Cultures, where he is an advocate for accessibility and has several publicationsand conference presentations on experience architecture, generative arti ﬁcial intelli-
+gence, learning experience design, online writing instruction, technical and profes-sional communication, web development, user experience research, and userexperience design.
+Liza Potts is a professor, director of the Rhetoric and Writing graduate program, and
+leader of WIDE research in the Department of Writing, Rhetoric, and Cultures atMichigan State University. Her research focuses on networked participatoryculture, social user experience, and content strategy, developing practices and poli-cies for ethically designing, deploying, and sustaining community-centeredtechnologies.92 Journal of Business and Technical Communication 39(1)

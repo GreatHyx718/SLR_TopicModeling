@@ -1,0 +1,433 @@
+Symbiotic Futures: co-designing marine conservation efforts with
+intelligent aquatic agents in maritime Singapore
+Yiran Qu
+Division of Industrial Design
+National University of Singapore
+Singapore, Singapore
+e1350638@u.nus.eduLi Yee Liang
+Division of Industrial Design
+National University of Singapore
+Singapore, Singapore
+e1356544@u.nus.edu
+Ruoying Su
+Division of Industrial Design
+National University of Singapore
+Singapore, Singapore
+e1352028@u.nus.eduGabriel Lipkowitz
+Division of Industrial Design
+National University of Singapore
+Singapore, Singapore
+gel@nus.edu.sg
+Figure 1: Leveraging emerging technologies from spatial computing and 3D generation models, Symbiotic Futures encourages
+participants to proactively engage with maritime conservation efforts through interactive experiences that immerse users in –
+and encourage them to critically reflect upon – past, present, and future maritime scenarios.
+Abstract
+As an island nation at the epicenter of marine geopolitics and cli-
+mate change, Singapore provides the context for this research-
+through-design project that critically examines posthumanist de-
+sign practices, aiming to rethink ocean conservation alongside non-
+human voices. This demonstration merges natural language-driven
+conversational AI, AI-based 3D model generation technologies,
+and spatial computing interactions. The system leverages spatial
+computing capabilities to transform natural language inputs into
+immersive 3D scenes and provide intuitive spatial interaction ex-
+periences. Participants become maritime planners of symbiotic
+futures, co-creating with non-human agents through voice dia-
+logue and spatial gesture controls to address sea level rise, plastic
+pollution, and habitat collapse. The project combines advanced tech-
+nologies with design fiction, local culture, and marine conservation
+to encourage multi-species thinking and interdependent futures.
+CCS Concepts
+•Human-centered computing →Spatial user interfaces, Mixed
+/ augmented reality, Systems and tools for interaction design .
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+DIS ’25 Companion, Funchal, Portugal
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1486-3/25/07
+https://doi.org/10.1145/3715668.3735603Keywords
+natural language interaction, spatial computing, 3D model genera-
+tion, memory-driven, marine AI agents, posthumanism
+ACM Reference Format:
+Yiran Qu, Li Yee Liang, Ruoying Su, and Gabriel Lipkowitz. 2025. Symbiotic
+Futures: co-designing marine conservation efforts with intelligent aquatic
+agents in maritime Singapore. In Designing Interactive Systems Conference
+(DIS ’25 Companion), July 05–09, 2025, Funchal, Portugal. ACM, New York,
+NY, USA, 6 pages. https://doi.org/10.1145/3715668.3735603
+1 Introduction
+Pollution, coral bleaching, and overfishing and broader climate-
+related problems contribute to the devastation of ocean habitats
+and loss of animal lives. This includes in areas local to Singapore,
+our context as a quintessential maritime city-state that relies on
+port economics, shipping, fishing, and land reclamation for its de-
+velopment, such as the Johor Strait and South China Sea. While
+populations may understand the need for marine life conservation,
+they are often not fully cognisant of the severity of the oceans’ cur-
+rent state or truly understand the impacts of various conservation
+efforts. How they, as an individual and as a collective, can play an
+active part in those global efforts may often be abstract and hard to
+appreciate.
+To address this gap, we developed "Symbiotic Futures", utiliz-
+ing recently-introduced spatial computing technologies to propose
+new ways of communicating conservation media to users. Using
+294
+
+DIS ’25 Companion, July 05–09, 2025, Funchal, Portugal Yiran Qu, Li Yee Liang, Ruoying Su, and Gabriel Lipkowitz
+Figure 2: Overview of Symbiotic Futures user interaction sequence and proposed technical architecture.
+voice input to drive 3D content generation, our system creates an
+immersive ocean environment and 3D interactive marine agents,
+which can be viewed as personified non-human agents capable of
+dialogue-based interactions with users to collaboratively consider
+sustainable solutions. Our system specifically proposes to utilize
+recently-introduced real-time 3D generation capabilities, includ-
+ing from natural language user input, to transform users’ ocean
+memories into visualized scenes and interactive elements.
+Symbiotic Futures in particular seeks to draw upon the tradi-
+tional knowledge systems of the Malay, Chinese, Indian, and in-
+digenous communities in Singapore, such as the Orang Laut, which
+contain extensive and undertapped wisdom with respect to co-
+existing with the ocean. These memories and wisdom will guide
+people to reconsider their relationship with the sea. Using real-time
+3D generation methodologies in this manner, and for the specific
+purpose of ocean conservation, Symbiotic Futures breaks human-
+centrism in design methodologies by incorporating non-human
+life into co-design dialogues. Our system aims to impart a greater
+understanding and appreciation for both marine life and various
+conservation efforts, therefore motivating users to take genuine
+action in their daily lives.
+2 Related Work
+2.1 Posthumanist Design and Environmental
+Interaction
+Posthumanist design challenges traditional human-centered design
+paradigms by viewing non-human entities (such as animals, plants,
+ecosystems) as active participants rather than passive objects in the
+design process. [ 9] This approach is particularly important in envi-
+ronmental interaction design as it encourages designers to consider
+broader ecological relationships and multi-species coexistence. [ 10]
+Researchers have explored methods for integrating non-human
+perspectives into the design process, such as through data visu-
+alization, embodied simulation, or bio-inspired design. [ 4] These
+efforts reflect a growing recognition that effective environmental
+design must transcend human needs and embrace a more inclusive
+multi-species perspective. [8]2.2 Spatial Computing and Natural
+Language-Driven 3D Generation
+Spatial computing devices represent a new frontier in human-
+computer interaction, moving beyond traditional augmented reality
+(AR) and virtual reality (VR) to create computing environments that
+seamlessly blend physical and digital worlds. These devices enable
+users to intuitively interact with 3D digital content through gesture
+recognition, eye tracking, and spatial mapping technologies. Such
+technologies have been shown to offer significant advantage in
+environmental visualization, capable of immersively demonstrating
+complex ecosystems to users [13].
+Simultaneously, advances in natural language-driven 3D content
+generation technologies have created new possibilities for environ-
+mental narratives. Large language models (LLMs) combined with
+3D generative AI can use textual descriptions to create rich visual
+scenes [ 14], enabling non-technical users to create complex 3D con-
+tent. This combination allows environmental educators to translate
+abstract ecological concepts into concrete, visible 3D representa-
+tions and enables users to explore and modify these environments
+through natural language dialogue.
+The combination of natural language as an interaction interface
+with spatial computing provides powerful tools for more intuitive,
+immersive environmental education, serving as a "time machine"
+that can display past environmental conditions or future climate
+scenarios [2], reinforcing the urgency of climate action.
+3 Symbiotic Futures Working Principle
+Symbiotic Futures is an interactive system based on natural lan-
+guage processing and spatial computing, combining large language
+models, real-time 3D generation technology, and spatial gesture
+recognition. The system uses an AI agent (named "Kaya") as a medi-
+ator between users and the ocean world. Our system is summarized
+inFigure 2 . The system operates through four key technical stages:
+3.1 Natural Language Memory Solicitation
+The system first invites users to share personal ocean memories
+as an entry point for interaction through a voice interface. It pro-
+poses to utilize advanced speech recognition and natural language
+processing technologies to convert users’ natural language into
+text and perform semantic analysis. This design choice is based on
+research showing that personal narratives can effectively connect
+with environmental care. [ 12] Users share brief ocean memories
+295
+Symbiotic Futures: co-designing marine conservation efforts with intelligent aquatic agents DIS ’25 Companion, July 05–09, 2025, Funchal, Portugal
+Figure 3: Window-based user introduction to Symbiotic Fu-
+tures, an application natively designed and developed for
+Apple Vision Pro.
+Figure 4: User view of immersive maritime scene serving as
+the backdrop to the conservation-based content.
+through dialogue-based interaction (e.g., "As a child, I chased baby
+sea turtles on the beaches of Tioman Island"), from which the sys-
+tem’s natural language processing module identifies key entities
+("sea turtle"), emotional tones ("childhood memory"), and geograph-
+ical locations ("Tioman Island") for subsequent content generation.
+3.2 Natural Language-Driven 3D Model
+Generation
+Once users share memories, the system’s AI model analyzes key
+elements in the language input (such as "sea turtle") and triggers a
+3D generation pipeline. The system uses text-to-3D generation tech-
+nology to transform abstract language descriptions into concrete
+visual forms, generating Kaya’s 3D model in real-time. [ 7]Kaya may
+appear as a sea turtle, coral, or other marine organism, adapting
+to the user’s memory and materializing in the user’s spatial en-
+vironment. This text-to-3D conversion is completed in real-time,
+allowing the system to provide dynamic responses. [6]
+Our approach aims to generate an interactive agent not merely
+as a static model but possessing skeletal animation and procedural
+actions, enabling natural movement and interaction in space. [ 11]
+Additionally, the natural language model generates dialogue re-
+sponses expressed in the first person, establishing emotional con-
+nections e.g., "I remember the waves were gentle that day... but
+now, my children are often born among plastic." These responses
+are conveyed through speech synthesis technology while the 3D
+model performs corresponding animations, creating a multimodal
+communication experience.
+3.3 Interactive Spatial Co-Creation Session
+At the core of the system is a 3D co-creation session implemented
+using newly-introduced spatial computing capabilities, where users
+collaborate with AI agents in a mixed reality environment to design
+solutions addressing ocean challenges directly related to the user’s
+memories. Through a combination of procedural generation andpreset models, the system provides five basic interactive elements:
+biological filter strips (filtering microplastics), beach reinforcement
+strips (resisting erosion), light-shadow shields (blocking nighttime
+light), temperature-controlled incubation shells (helping regulate
+hatching temperature), and implantable directional totems (guiding
+hatchlings to sea).
+In our implementation, users can directly grasp, rotate, scale,
+and combine these elements in 3D space through gesture track-
+ing without additional hardware interfaces. The system leverages
+spatial computing’s depth perception and environmental under-
+standing capabilities to enable virtual objects to interact naturally
+with physical space, such as placement on tables or floors. [ 3] Such
+user interactions are visualized in Figures 3-4 . Through this spa-
+tial interaction, users co-design interventions that address marine
+conservation problems.
+4 System Implementation
+4.1 Proposed Technical Architecture
+The Symbiotic Futures system proposes four integrated technical
+modules:
+4.1.1 Natural Language Understanding and Generation: Our system
+proposes to employ large language models for user input under-
+standing, semantic analysis, and dialogue generation. This module
+processes multilingual inputs (English, Chinese, etc.), extracts key
+entities and relationships, and connects to a knowledge base con-
+taining local expertise in marine ecology, ocean pollution, and
+existing conservation efforts.
+4.1.2 Real-time 3D Generation Engine: Combining text-to-3D gen-
+eration technology with a preset model library, the system aims to
+transform natural language descriptions into 3D visual content. [ 1]
+This engine supports model deformation, material generation, and
+296
+DIS ’25 Companion, July 05–09, 2025, Funchal, Portugal Yiran Qu, Li Yee Liang, Ruoying Su, and Gabriel Lipkowitz
+Figure 5: Introduction to aquatic agent, Kaya, guiding the
+user through the immersive experience.
+Figure 6: User interacting with marine conservation 3D mod-
+els in an immersive space.
+scene synthesis, enabling AI agents and environments to dynami-
+cally adapt to user input. The generation process is optimized to
+run with low latency on spatial computing devices.
+4.1.3 3D Asset Management and Physics Simulation: The designed
+system proposes to employ a multi-level asset management archi-
+tecture combining automatically generated and manually optimized
+3D models. The asset database uses a distributed storage system
+indexed by semantic tags and physical properties, supporting real-
+time retrieval and dynamic loading. Core assets include basic en-
+vironments (ocean base, beach topography), Kaya’s various forms
+(turtle, coral, etc.), pollution elements (plastic waste, microplastics),
+and co-creation components (biological filters, directional totems,
+etc.). An implementation of our design would entail an intelligent
+asset generation pipeline that automatically generates low-polygon
+initial models based on semantic descriptions from user inputs and
+optimizes details and textures, dynamically adjusting rendering
+complexity based on viewing distance and system load through
+level of detail technology. User interactions with such 3D assets
+that would be generated by such a technical pipeline are described
+inFigures 5-6 .
+4.1.4 Spatial Computing Interface: Utilizing spatial computing ca-
+pabilities, including high-precision gesture recognition, eye track-
+ing, and environmental understanding, to create mixed reality ex-
+periences. This interface employs spatial anchoring technology
+to fix digital content to physical space while achieving physically
+realistic interaction feedback. The system supports multiple input
+modes: voice commands, gesture control, and gaze selection. The
+physics simulation engine, based on particle systems and constraint
+solving, would calculate water flow, buoyancy, and collisions, such
+that generated assets would have physical credibility in the virtual
+environment e.g. by simulating the effects of waves, tides, and water
+currents on marine life and artificial structures.4.2 Interaction Design
+The system’s emotional design is based on establishing empathy
+between users and non-human AI agents. [ 5]Kaya’s dialogue is
+carefully designed to balance information delivery with emotional
+expression, avoiding excessive anthropomorphism while remain-
+ing expressive. Sound design e.g., ocean waves and water ripples,
+further enhances emotional immersion, while visual aesthetics e.g.,
+translucent materials and bioluminescent effects, emphasize the
+wonder and fragility of marine life. The interaction design follows
+three core principles of spatiality ,tangibility , and fluidity , and are
+visualized in an example user experience flow in Figure 7 .
+4.2.1 Spatiality. The system utilizes spatial mapping capabilities to
+naturally integrate digital content into the user’s physical environ-
+ment. Generated ocean environments can appear on any surface
+around the user, while generated agents can move freely in 3D
+space.
+4.2.2 Tangibility. Although a digital experience, the system em-
+phasizes tangible interaction where users can "grasp," "rotate," and
+"combine" virtual elements, simulating physical making processes.
+This design choice aims to create a more substantial environmental
+crafting experience.
+4.2.3 Fluidity. The entire interaction process is designed as a smooth
+narrative flow from memory elicitation to AI manifestation to co-
+creation to work preservation, forming a complete emotional jour-
+ney. Water ripples, particle effects, and flowing transitions enhance
+this sensation.
+5 Application Scenario
+The following is a typical user interaction scenario. First a user
+shares a memory:
+I remember seeing sea turtles hatching on Tioman Is-
+land, hundreds of baby turtles scrambling toward the
+ocean.
+297
+Symbiotic Futures: co-designing marine conservation efforts with intelligent aquatic agents DIS ’25 Companion, July 05–09, 2025, Funchal, Portugal
+a b
+c d
+Figure 7: Symbiotic Futures user interaction sequence, beginning with (a) splash screen in an immersive space, (b) 3D avatar
+introduction, (c) natural language prompting, and (d) 3D marine content co-design.
+The system manifests Kaya in turtle form, explaining the challenges
+facing sea turtles today:
+Our hatching grounds are shrinking, light pollution
+causes my children to lose their way, and plastics are
+mistaken for food.
+Then, various interactive tool models immersively surround the
+user—temperature-controlled incubation shells, light-shadow shields,
+biological filter strips, beach reinforcement strips, and implantable
+directional totems. Kaya encourages the user to create innovative
+combinations:
+The BioFilter works well with temperature regulation
+systems.
+The user grasps, rotates, and combines these elements through ges-
+tures. When they successfully combine the temperature-controlled
+incubation shells with light-shadow shields, Kaya responds excit-
+edly:
+The perfect combination to guide young turtles safely
+from nest to ocean.
+When the user tries less suitable combinations, Kaya provides guid-
+ance:
+An interesting combination! This could help address
+multiple challenges in our oceans.The user collaborates with Kaya to create a Turtle Nest Guardian,
+combining temperature-controlled incubation shells, light-shadow
+shields, and implantable directional totems to help sea turtles cope
+with climate change and human interference. Finally, Kaya provides
+feedback:
+This design considers our complete life cycle, from eggs
+to hatchlings to adults. It not only protects our nesting
+grounds but also creates a safe path for our return home.
+The AI agent Kaya not only provides feedback and contextual
+information through voice but also actively moves and interacts in
+3D space, demonstrating how to use the created tools or showing
+the impact of environmental problems, thereby visualizing how
+the design affects ocean systems. After completing the co-creation,
+users can save their work to the "Ocean Memory Wall" to share
+with other participants or download images of their creation and
+narrative cards. The AI provides a final response, reinforcing the
+emotional connection and encouraging the user to remember their
+experience and act upon it in their daily life.
+6 Conclusion and Future Work
+Symbiotic Futures demonstrates a novel approach using natural
+language-driven spatial computing and AI agents to promote empa-
+thy and understanding between humans and marine ecosystems. By
+connecting personal memories with environmental challenges, the
+system creates a unique design space that encourages posthumanist
+298
+DIS ’25 Companion, July 05–09, 2025, Funchal, Portugal Yiran Qu, Li Yee Liang, Ruoying Su, and Gabriel Lipkowitz
+thinking and multi-species empathy. The system represents a new
+paradigm for marine environmental education, providing experien-
+tial learning through spatial computing and 3D interaction, making
+abstract environmental issues personally relevant and enhancing
+emotional investment. The system integrates traditional marine
+knowledge from Singapore’s multicultural background with mod-
+ern scientific understanding, enabling learners to understand ocean
+issues from non-human perspectives through Kaya’s anthropomor-
+phic expression, fostering cross-species empathy and ecocentric
+thinking, serving as an effective bridge connecting the public with
+marine science.
+Future work will advance simultaneously in technological, ed-
+ucational, and application domains: we will focus on improving
+the efficiency and precision of natural language to 3D generation,
+exploring multimodal inputs; evaluating the long-term impact of
+immersive learning methods on environmental knowledge acquisi-
+tion and behavior change; adding more marine ecosystem modules
+and AI agents; expanding the system into a multi-user platform
+to promote community involvement; and developing mechanisms
+to transform virtual designs into actual environmental protection
+actions. Symbiotic Futures is not merely a technological demonstra-
+tion but a proof of concept showing how spatial computing, natural
+language interaction, and AI can reimagine human relationships
+with the ocean, nurturing a new generation of ocean stewards, pro-
+moting multi-species symbiotic design thinking, and pioneering
+new pathways for sustainable marine education.
+In future, we plan to evaluate the effectiveness of the system
+through the following methods:
+(1)User Experience Evaluation: Collecting user feedback on sys-
+tem usability, emotional responses, and engagement levels.
+(2)Environmental Attitude Assessment: Measuring the system’s
+impact on users’ environmental attitudes and behavioral
+intentions.
+(3)Design Outcome Analysis: Analyzing solutions created by
+users to assess their innovation and ecological awareness.
+References
+[1]Jiaqi Chen, Guanhong Yuan, Xiaotian Xu, Xiaofeng Shao, Meryem Bousse-
+jra, Kenta Koyama, Takashi Moriya, Masaki Saijo, and Shoji Takahashi. 2023.
+StreamingViT: Streaming Language-Guided 3D Scene Segmentation with Spa-
+tial Prompts. In Proceedings of the 2024 CHI Conference on Human Factors in
+Computing Systems . Article 274.
+[2]Valentina Demarchi, Valentina Nisi, and Nuno Jardim Nunes. 2024. Hackeanos: A
+New Collaborative Event Format for Hacking the Ocean-Humanity Relationship.
+InDesigning Interactive Systems Conference (DIS Companion ’24) . ACM, 162–165.
+[3]Philip Grimmett, Emma Krantz, Nagida Helsby-Clark, Dominic Branchaud, and
+Viveka Weiley. 2023. Dynamic Ocean Explorer: XR Experience. In SIGGRAPH
+Asia 2023 XR (SA ’23) . ACM, Article 8.
+[4]Wenqi Jiang, Hsiao-Yu Wu, Dong Yoon Lim, Yifan Zhao, Feiran Gong, Tao Shi, and
+Linjie Yang. 2024. Diffusion-SIF: A Unified Score Implicit Function Framework
+for 3D Generation. Proceedings of the ACM on Computer Graphics and Interactive
+Techniques 7, 1 (2024), Article 1.
+[5]Cassandra Lee and Jessica R Mindel. 2024. Closer and Closer Worlds: Using
+LLMs to Surface Personal Stories in World-building Conversation Games. In
+Proceedings of the 2024 ACM Designing Interactive Systems Conference Companion
+(DIS Companion ’24) . ACM.
+[6]Xiaoyang Li, Peng Wang, Kin Wong, Aohan Wu, Yuchao Zhou, Di Kong,
+Hongyang Li, Guillaume Cerutti, Zhi Chen, Yash Ukidave, and Anbang Liu. 2024.
+PalGen: Scaling 3D Generation via Efficient Coarse-to-Fine Diffusion Models.
+IEEE Transactions on Visualization and Computer Graphics (2024).
+[7]Setareh Aghel Manesh, Tianyi Zhang, Yuki Onishi, Kotaro Hara, Scott Bateman,
+Jiannan Li, and Anthony Tang. 2024. How People Prompt Generative AI to
+Create Interactive VR Scenes. In Proceedings of the 2024 ACM Designing Interactive
+Systems Conference (DIS ’24) . ACM, 2319–2340.[8]Nels Numan, Shwetha Rajaram, Jacob Gettig, Steve Oney, and Anhong Guo. 2024.
+SpaceBlender: Creating Context-Rich Collaborative Spaces Through Generative
+3D Scene Blending. In Proceedings of the 37th Annual ACM Symposium on User
+Interface Software and Technology (UIST ’24) . ACM, 1–13.
+[9]Laura J. Perovich, Catherine Titcomb, Tad Hirsch, Brian Helmuth, and Casper
+Harteveld. 2023. Sustainable HCI Under Water: Opportunities for Research with
+Oceans, Coastal Communities, and Marine Systems. In Proceedings of the 2023
+CHI Conference on Human Factors in Computing Systems (CHI ’23) . ACM, Article
+525, 16 pages.
+[10] Marko Radeta, Miguel Andrade, Rúben Freitas, Michael Sousa, António Ramos,
+Victor Azevedo, Jorge Lopes, Ricardo Jardim, João Gouveia, Maria João Gouveia,
+et al.2020. Interaquatica-designing interactive aquatic experiences with geodesic
+domes in-the-wild. In Proceedings of the 2020 ACM International Conference on
+Interactive Media Experiences . 170–173.
+[11] Janet Read, Matthew Horton, Daniel Fitton, John King, Gavin Sim, Julie Allen,
+Ioannis Doumanis, Tony Graham, Dongjie Xu, Michelle Tierney, Mark Lochrie,
+and I. Scott MacKenzie. 2024. Inclusive Child Engagement in HCI: Exploring
+Ocean Health with Schoolchildren. In Proceedings of the Interaction Design and
+Children Conference (IDC ’24) . ACM, 83–92.
+[12] Rui Yu, Shiyang Chen, Yifan Xie, Hongfeng Yao, Jared Willard, and Xuezhe Jia.
+2025. Foundation Models for Environmental Science: A Survey of Emerging
+Frontiers. Proceedings of the ACM on Measurement and Analysis of Computing
+Systems 37, 4 (2025), Article 111.
+[13] Lei Zhang, Jin Pan, Jacob Gettig, Steve Oney, and Anhong Guo. 2024. VRCopilot:
+Authoring 3D Layouts with Generative AI Models in VR. In Proceedings of the
+37th Annual ACM Symposium on User Interface Software and Technology (UIST
+’24). ACM, 1–13.
+[14] Jiayi Zhu, Cheng Liu, Hongyu Xie, and Qian Yu. 2024. GPEI: Enhancing 3D
+Generation with GPT-Enabled Point Cloud Editing Based on Compositional Text
+Instructions. IEEE Transactions on Visualization and Computer Graphics (2024).
+299

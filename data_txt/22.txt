@@ -1,0 +1,336 @@
+AI Cat Narrator: Designing an AI Tool for Exploring the Shared 
+World and Social Connection with a Cat 
+Zhenchi Lai Janet Yi-Ching Huang Rung-Huei Liang 
+mookcherie@gmail.com y.c.huang@tue.nl liang@mail.ntust.edu.tw 
+National Taiwan University of Eindhoven University of Technology National Taiwan University of 
+Science and Technology Eindhoven, The Netherlands Science and Technology 
+Taipei, Taiwan Taipei, Taiwan 
+Figure 1: As a part of the research project, Bochan (Left), a cat, was given an Insta Go3 camera and worked with his caretaker to 
+complete eight video recording tasks within two weeks. The research team used the collected video data (Middle), as well as 
+input from interviews with the participants and photographs of Bochan, to create an AI Narrator cover for Bochan (Right). 
+ABSTRACT 
+As technology continues to advance, the interaction between hu-
+mans and cats is becoming more diverse. Our research introduces 
+a new tool called the AI Cat Narrator, which ofers a unique per-
+spective on the shared lives of humans and cats. We combined the 
+method of ethnography with fctional storytelling, using a defamil-
+iarization strategy to merge real-world data seen through the eyes 
+of cats with excerpts from cat literature. This combination serves 
+as the foundation for a database to instruct the AI Cat Narrator 
+in crafting alternative narrative. Our fndings indicate that using 
+defamiliarized data for training purposes signifcantly contributes 
+to the development of characters that are both more empathetic 
+and individualized. The contributions of our study are twofold: 1) 
+proposing an innovative approach to prompting a reevaluation of 
+living alongside cats; 2) establishing a collaborative, exploratory 
+tool developed by humans, cats, and AI together. 
+CCS CONCEPTS 
+• Human-centered computing; • Interaction design; • Systems 
+and tools for interaction design; 
+Permission to make digital or hard copies of all or part of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for proft or commercial advantage and that copies bear this notice and the full citation 
+on the frst page. Copyrights for components of this work owned by others than the 
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or 
+republish, to post on servers or to redistribute to lists, requires prior specifc permission 
+and/or a fee. Request permissions from permissions@acm.org. 
+© 2024 Copyright held by the owner/author(s). Publication rights licensed to ACM. notions about daily life with cats and encourages individuals to ACM ISBN 979-8-4007-0632-5/24/07 
+https://doi.org/10.1145/3656156.3663692 reevaluate these everyday experiences through a lens of creativity DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark KEYWORDS 
+AI, Human-Cat Interaction, More-than human design, fction 
+ACM Reference Format: 
+Zhenchi Lai, Janet Yi-Ching Huang, and Rung-Huei Liang. 2024. AI Cat 
+Narrator: Designing an AI Tool for Exploring the Shared World and Social 
+Connection with a Cat. In Designing Interactive Systems Conference (DIS 
+Companion ’24), July 01–05, 2024, IT University of Copenhagen, Denmark. 
+ACM, New York, NY, USA, 5 pages. https://doi.org/10.1145/3656156.3663692 
+1 INTRODUCTION 
+As the internet and smart technologies become increasingly in-
+tegrated in our daily lives, design researchers are encountering 
+a broader range of design contexts. Our cat companions are also 
+beginning to be engaged with these innovations. Automatic feeders 
+and health-monitoring litter boxes are among such advancements, 
+emerging as promising aids in pet care. These advancements have 
+signifcantly changed both cats’ living conditions and the way hu-
+mans interact with them. Therefore, to adequately address this 
+future shift in human-cat cohabitation, designers require new tools 
+and methods to explore the increasingly complex living scenarios 
+that involve both humans and cats. 
+The study aims to explore the shared lives of humans and cats 
+using a fctional narrative approach[ 5] through an innovative tool 
+called "AI Cat Narrator". The AI Cat Narrator is a tool that aims 
+to create alternative narrative in the daily lives of cat and human. 
+By transforming monotonous, repetitive everyday routines into 
+imaginative and  fctional situations, it challenges preconceived 
+224
+
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Zhenchi Lai, Janet Yi-Ching Huang, and Rung-Huei Liang 
+Figure 2: (Left) Under the theme of "Deliberately capturing oneself on camera as the cat’s subject," a participant lowered her 
+body posture to the ground to interact with the cat, aiming to be captured by the cat. (Middle) Under the theme of "Natural 
+shooting in the absence of humans," a scene where the cat is seen eating toilet paper is captured. (Right) In the theme of 
+"Persuading the cat to remain in a specifc location with humans presence," a participant placed a paper bag on the foor to 
+attract the cat to a designated area. 
+and newfound understanding. We utilize the narrative potential of 
+Generative AI (GAI) system: ChatGPTs, to create AI Cat Narrator, 
+which with a distinct personality based on the behavioral traits 
+observed in the real-world cat. 
+To gain deeper insights from this study, we propose two key 
+research questions: 1) how are the material and social relationships 
+between humans and cats formed in a cohabiting environment? 2) 
+how can people be prompted to discover and refect on their relation-
+ships with cats through their everyday interaction? To answer these 
+questions, we combine methods of thing ethnography and fctional 
+narrative, employing “defamiliarization ” [1] as a strategy to create 
+an AI Cat Narrator that could inspire refection. The training data 
+for this narrator came from both real-world data and fctional nar-
+ratives. Our goal to create an AI Cat Narrator that encapsulates 
+familiar traits recognized by cat owners, while also incorporating 
+fctional elements to provoke thoughts. To achieve the goal, we col-
+lected real-life video data from a cat perspective on the coexistence 
+of humans and cats. We then analyzed the video data alongside 
+the content of interviews conducted with the participants. From 
+this, we extracted information about each cat’s personality, pref-
+erences, background, and relationships with their human family 
+members, and compiled this information into text documents. Fur-
+thermore, the researchers selected some interesting plots from pop-
+ular cat literature [9] and combine them with raw interview data, 
+and the compiled data. This served as the foundation for training 
+customized GPTs to create AI Cat Narrator. This work-in-progress 
+paper presents preliminary fndings, emphasizing the development 
+of AI Cat Narrator. It delves into the design mechanism of AI Cat 
+Narrator, contributing in two ways: 1) Introducing a novel method 
+to encourage an alternative perspective on cohabitation with cats; 
+2) Creating a joint exploration device co-developed by humans, cats, 
+and AI. 
+2 PERSONALIZED AI CAT NARRATOR 
+This research aims to introduce novel approaches that allow design-
+ers and participants to explore the divers interactions and relation-
+ships between humans and cats in everyday life, moving beyond 
+the usual stereotypes associated with cats. To achieve this, we have 
+developed an AI Cat Narrator which presents alternative scenarios 
+of human-cat relationships, and encourages refection and critical thinking. The research process includes three stages: exploration, 
+data collection, and training of the AI Cat Narrator. In the initial 
+phase, to ensure the utmost comfort for the participating cats, we 
+provided the human participants with an Insta Go3 camera a week 
+before the start of the experiment. This gave the cats plenty of 
+time to get used to the device. We also asked the participants to 
+closely observe the cats’ reactions during this time. If they noticed 
+any discomfort or unusual behavior, the participants were allowed 
+to withdraw from the experiment at any time without any obli-
+gation to continue. During the second phase, the participants and 
+their cats worked together to collect video data of cat’s perspective 
+within their homes. Finally, the AI Cat Narrator was developed 
+using ChatGPTs, after we analyze interview data to extract themes 
+related to cats for the training database. Through iterative training 
+and adjustments, an AI Cat Narrator that provokes thought and 
+resonance was created. 
+2.1 Data Collection 
+The First-Cat Perspective: Visual materials are crucial in con-
+veying information, especially in the pet care industry. They are 
+widely used in various products such as pet surveillance cameras 
+and remote feeders, which have signifcantly improved the ef-
+ciency of pet care. In felds such as thing ethnography[ 6], motor-
+cycle studies[ 2], and home observation[ 3], capturing images from 
+various perspectives is a common way to study environments and 
+their changes over time. As such, to more efectively capture the 
+daily life of cats, we conducted a detailed exploration of diferent 
+shooting angles and tested it in the feld. Our pilot testing indicates 
+that while the third-person perspective ofers a broad overview of 
+the scene, it may overlook crucial interaction details if the shooting 
+distance is too far. On the other hand, images captured from the 
+frst-person perspective can ofer an interesting angle to investigate 
+the daily life of cats, enabling a novel but detailed analysis of the 
+social interactions between cats and people, and objects. 
+The Shooting Tasks for Participants and Their Cats: Build-
+ing upon critical play theory, Tan et al. [7] suggest that devising 
+engaging activities and speculative scenarios through specifc pho-
+tographic tasks can introduce unusual real-world situation. This 
+encourages individuals to refect and engage in meaningful con-
+versations. To stimulate refection and dialogue, we have prepared 
+225
+AI Cat Narrator DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+Figure 3: The Training Procedure of the AI Cat Narrator 
+eight innovative photographic tasks. These tasks prompt partici-
+pants to explore diferent ways to interact with their cats. The tasks 
+include: 
+• Natural shooting in the absence of humans 
+• Natural shooting in the presence of humans 
+• Deliberately capturing oneself on camera as the cat’s subject 
+• Intentionally avoiding the feline subject in shots 
+• Persuading the cat to remain in a specifc location with hu-
+mans presence 
+• Persuading the cat to remain in a specifc location without 
+humans presence 
+• Encouraging the cat to interact with a specifc object while 
+humans are present 
+• Encouraging the cat to interact with a specifc object without 
+humans presence. 
+Prior to the ofcial implementation of these activities, the research 
+team had already tested the feasibility of the tasks in a home setting 
+and made necessary adjustments. 
+2.2 Training of AI Cat Narrator 
+To develop an AI Cat Narrator that embodies defamiliarization [1], 
+a combination of real-world data and sentences from fctional nov-
+els served as the foundation for training the AI. When a material 
+possesses the quality of defamiliarization, the messages it produces 
+may be challenging to comprehend, enigmatic, and open to diverse 
+interpretations. These circumstances typically encourage individ-
+uals to actively pursue a clearer understanding of the ambiguous 
+elements within the message. Therefore, this approach of mixing 
+real-world and imagined data enables the AI Cat Narrator to spon-
+taneously create narratives, which not only connect with users but 
+also spark their imagination. Moreover, due to the user-friendly 
+platform of ChatGPT for customizing models, we chose to build 
+this unique cat persona using ChatGPT’s GPTs service. 
+Creating training database based on real-world and fc-
+tional data: We initially established key prompts for the AI Cat 
+Narrator, grounded in factual information obtained from real-world 
+raw data, including images sequences from videos, interview data, 
+and structured data extracted from content analysis. To ensure char-
+acter authenticity, we conducted interviews with the participants 
+after they had fnished their photography task. These interviews, 
+lasting one to two hours, aimed to capture a deeper understanding 
+of the real-life situations of the cats. Through thematic analysis, 
+our research team summarized the material and temporal social 
+relationships between the participants and their cats. Then we thoroughly analyzed the cats’ traits, preference, behavior, and life 
+patterns. The fndings were organized into several structured text 
+documents according to themes, which serve as the factual data 
+foundation for training the AI Cat Narrator. Due to the training 
+on factual data, we noticed that AI Cat Narrator often generate 
+narratives that stick to reality and are mundane, thus lacking en-
+gaging personalized storytelling. To tackle this, we extended the 
+training data with elements of fction, adding a layer of imagina-
+tion to the original content. This enhancement involved speculated 
+“pet phrases ” from their owners, and fctional narratives from cat-
+themed novels, including I am a Cat [9], into the training dataset 
+for shaping the cat personality. We also modify the instructions to 
+ask the custom GPT to use the database of pet phrases and fctional 
+narratives as a basis for creating more related content. The aim 
+of this strategy is to enhance the narratives with openness and 
+unpredictability, enabling the AI Cat Narrator to exhibit a more 
+distinct personality and generate narratives that are intriguing and 
+compelling. 
+Improve training quality through the collaboration among 
+AI Cat Narrator, AI Cat Evaluator and researchers: During the 
+model training process, we iterated and debugged multiple times to 
+create a model that meets our expectations. To improve the quality 
+of the AI at model, we draw an inspiration from Generative Ad-
+versarial Networks (GANs) to construct two distinct cat models: 
+The AI Cat Narrator and the AI Cat Evaluator. We treated AI Cat 
+Narrator as the generative model and developed the AI Cat Evalu-
+ator to mirror the conditions of the AI Cat Narrator, but with an 
+evaluation function. The AI Cat Evaluator was trained to scrutinize 
+the content generated from the AI Cat Narrator and assess its rel-
+evance to the original database content, providing its judgement 
+along with a detailed reasoning for its judgement. The purpose of 
+this AI evaluator was designed to help researchers optimize the de-
+scriptions generated by the AI Cat Narrator. By using a model of the 
+same type for evaluation, we were able to more precisely identify 
+and explain potential issues or errors in the narrative generation 
+process, leading to more efcient model training. Moreover, some 
+tips about training AI models suggest that AI models often perform 
+better when instructing GPT to externalize its thinking process or 
+prompting it with signals of urgency or importance, such as emo-
+tion prompts. Therefore, we integrated an emotion prompt, "This is 
+very important to my career" [8], and a Zero-Shot Chain-of-Thought 
+prompt, “Let’s think progress step by step”, to increase the output 
+quality [8]. The results showed that the model indeed generated 
+226
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Zhenchi Lai, Janet Yi-Ching Huang, and Rung-Huei Liang 
+Figure 4: The fgure showcases the diferent outcomes of sentences generated by two versions of the AI Cat Narrator, each 
+using distinct databases. AI Cat Narrator (A) produces narratives based on factual data stored in its database. On the other hand, 
+AI Cat Narrator (B) integrates counterfactual data such as pet phrases and the sentences from cat fction, resulting in narratives 
+that include relevant descriptions from these sources. Sentences in AI Cat Narrator (B) that are linked to novels and catchphase 
+are highlighted with yellow color to emphasize their inclusion. 
+content more aligned with researchers’ expectations when these 
+prompting techniques were used. 
+2.3 Preliminary Training Results 
+To accurately present our initial result in training personalized AI 
+Cat Narrators, we examined the diferences in narratives produced 
+by two versions of AI Cat Narrators. The database of AI Cat Narrator 
+(A) is comprised solely of factual data, while the database for AI Cat 
+Narrator (B) has been augmented with pet phrases and narratives 
+from novels. The analysis revealed that narratives from AI Cat 
+Narrator (B), due to their incorporation of specifc phrases, more 
+efectively capture and express the unique personalities of cats. For 
+instance, in Fig.4-1, phrases such as "Such a coward" and "Time to 
+check my gear" highlight the cats’ penchant for adventure. Moreover, 
+compared to AI Cat Narrator (A), which directly describes the scenes 
+in images, AI Cat Narrator (B) enhances its storytelling by weaving 
+in these pet phrases and novelistic elements, creating narratives 
+with deeper emotional resonance and contextual richness. This 
+approach not only deepens the narrative’s complexity but also 
+more strongly engages the audience’s interest. 
+3 DISCUSSION & FUTURE WORK 
+This study presents a method for developing an AI Cat Narrator 
+capable of interpreting real-life data from a unique perspective. We 
+analyzed video data collected from the viewpoint of cats to create 
+a database for building the AI Cat Narrator. The collected data is categorized into two types: Factual data and Counterfactual data 
+both based on individual interpretations of reality. We also inte-
+grated fctional plots from novels into the AI Cat Narrator’s training 
+database. The AI Cat Narrator’s defamiliarized fctional narratives 
+encourage participants to discover hints about their everyday in-
+teractions between humans and cats. These stories not only evoke 
+memories and connections but also promote deep contemplation 
+and discussion regarding the nature of reality. While attributing 
+human characteristics to animals can stimulate our imagination and 
+has infuenced pop culture in various media forms, this practice can 
+also lead to misunderstandings about animal behavior. However, 
+we propose that anthropomorphism, when used to spark intellec-
+tual curiosity rather than debate the truth of fctional stories, can 
+enhance our reasoning and interpretive abilities through analogy. 
+For instance, scientist Seven Dijkgraaf [4] gained insights into bat 
+behavior by imagining what it would be like to experience life as a 
+bat. As such, we argue that employing fctional techniques to study 
+human-animal interactions, with appropriate frameworks, can of-
+fer designers and researchers more comprehensive perspectives 
+when investigating the design of such interactions, especially those 
+involving cats. For our future work, we are currently conducting 
+extensive experiments and interviews to gain a deeper understand-
+ing of the dynamics between humans and cats in shared living 
+spaces, as well as evaluate the utility of this tool. We are currently 
+engaging participants to interpret videos using the AI Cat Narrator, 
+aiming to draw design insights from these varied interpretations. 
+227
+AI Cat Narrator 
+This approach is intended to reveal design possibilities to designers 
+and researchers, facilitating the development of practical solutions 
+for future smart living spaces accommodating both humans and 
+cats. 
+4 CONCLUSION 
+This paper presents an innovative tool called AI Cat Narrator, which 
+ofers a fresh interpretation of everyday life from the cats’ perspec-
+tive. Research fndings suggest that integrating real-world data and 
+creative fctional content to construct an AI Cat Narrator results 
+in the development of an AI model with unique characteristics. 
+Therefore, AI Cat Narrators can create unique stories that merge 
+reality with fantasy, not only stimulating people’s imagination but 
+also potentially making the stories resonate with people. 
+REFERENCES 
+[1] Genevieve Bell, Mark Blythe, and Phoebe Sengers. 2005. Making by making strange: 
+Defamiliarization and the design of domestic technologies. ACM Transactions on DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+Computer-Human
+ Interaction (TOCHI) 12, 2 (2005), 149–173. 
+[2] Wen-Wei Chang, Elisa Giaccardi, Lin-Lin Chen, and Rung-Huei Liang. 2017. " 
+Interview with Things" A First-thing Perspective to Understand the Scooter’s 
+Everyday Socio-material Network in Taiwan. In Proceedings of the 2017 Conference 
+on Designing Interactive Systems. 1001–1012. 
+[3] Yu-Ting Cheng, Mathias Funk, Wenn-Chieh Tsai, and Lin-Lin Chen. 2019. Peeka-
+boo Cam: Designing an Observational Camera for Home Ecologies Concerning 
+Privacy. In Proceedings of the 2019 on Designing Interactive Systems Conference. 
+823–836. 
+[4] Frans De Waal. 2016. Are we smart enough to know how smart animals are? WW 
+Norton & Company. 
+[5] Audrey Desjardins and Heidi R Biggs. 2021. Data epics: Embarking on literary 
+journeys of home internet of things data. In Proceedings of the 2021 CHI Conference 
+on Human Factors in Computing Systems. 1–17. 
+[6] Elisa Giaccardi, Nazli Cila, Chris Speed, and Melissa Caldwell. 2016. Thing ethnog-
+raphy: Doing design research with non-humans. In Proceedings of the 2016 ACM 
+conference on designing interactive systems. 377–387. 
+[7] Neilly H. Tan, Brian Kinnee, Dana Langseth, Sean A. Munson, and Audrey Des-
+jardins. 2022. Critical-playful speculations with cameras in the home. In Proceed-
+ings of the 2022 CHI Conference on Human Factors in Computing Systems. 1–22. 
+[8] Cheng Li, Jindong Wang, Yixuan Zhang, Kaijie Zhu, Wenxin Hou, Jianxun Lian, 
+Fang Luo, Qiang Yang, and Xing Xie. 2023. Large language models understand 
+and can be enhanced by emotional stimuli. arXiv preprint arXiv:2307.11760 (2023). 
+[9] S¯oseki Natsume. 1906. I am a cat. Vol. 1. Hattori Shoten. 
+228

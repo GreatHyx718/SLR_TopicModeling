@@ -1,0 +1,1234 @@
+Vol.:(0123456789)AI & SOCIETY 
+https://doi.org/10.1007/s00146-025-02446-z
+RESEARCH
+Commodification in academic writing: a comparative analysis of two 
+LLM apps
+Sebastian Weydner‑Volkmann1
+Received: 9 December 2024 / Accepted: 17 June 2025 
+© The Author(s) 2025
+Abstract
+This paper investigates the impact of Large Language Model (LLM)-assisted writing on reflective thinking, building on exist-
+ing adaptations of Albert Borgmann’s device paradigm to Don Ihde’s postphenomenology. Academic writing can facilitate 
+engagement with our beliefs and pre-judgments, making it highly conducive to reflective thinking. However, generative AI 
+tools, such as OpenAI’s ChatGPT and Microsoft Word Copilot, may undermine such meaningful engagement as they ‘dis-
+burden’ users of the effort inherent in reflective writing. Still, we fall short when we leave unexamined the kinds of uses each 
+writing app inclines its users to pursue. Despite using the same LLM, a cross-comparison reveals that the user interface (UI) 
+design of ChatGPT and Word Copilot affords distinct forms of interaction: ChatGPT’s UI design may, in principle, facilitate 
+reflective engagement through conversational interactions, prompting users to formulate and engage with their beliefs on 
+a given topic. In contrast, Word Copilot emphasizes automated document production, making a similar kind of engaging 
+use unviable. As a conceptual basis for the argument, this paper extends Ihde’s history of writing ‘technics’ and brings it 
+together with recent conceptual developments in postphenomenology by discussing the apps in terms of ‘quasi-materiality’ 
+of application UIs and the affordances they offer as part of ‘multistabilities’. This paper concludes with a call for academic 
+writers to critically assess how their tools mediate academic writing and thinking processes, arguing that choosing a writing 
+tool for academic writing has ceased to be a matter of personal preference and has become one of academic ethos.
+Keywords Borgmann, Albert · Commodification · Postphenomenology · Large language model · Academic writing · 
+Reflective thinking
+1 Introduction
+Writing has deep connections to “critical” or “reflective” 
+thinking. Especially in academia, writing helps us develop 
+and scrutinize our arguments and beliefs. At times, the rela-
+tion between thought and writing is so intimate that writing 
+can be considered part of the thinking process. In his post-
+phenomenological philosophy, Don Ihde asks how writing is 
+influenced by technology and its “capacities and constraints” 
+(Ihde 2010, 77): Clay tablets do not lend themselves to cal-
+ligraphic letter writing in the same way that pen and paper 
+does (Ihde 2010, 74).
+The recent introduction of large language model (LLM)-
+based generative AI tools, such as ChatGPT, has once again transformed how we think about technology in academic 
+writing and sparked controversial discussions on whether 
+they should or shouldn’t be used (Milano et al. 2023). This 
+is part of a broader discussion on how the use of Big Data 
+and AI technologies impacts academic research (cf. Leo-
+nelli 2020). I will contribute to this discussion by analyzing 
+what capacities and constraints such apps have, specifically 
+regarding forms of writing that are part of the thinking pro-
+cess. Through an adaptation of Albert Borgmann’s (1984) 
+ethical concept of the “device paradigm” to a postphenom-
+enological methodology (Verbeek 2005; Rosenberger 2017), 
+I will demonstrate that LLM-assisted writing may incline the 
+user toward “commodified text production”: as I will argue, 
+this commodification disconnects writers from engaging 
+with their own pre-judgments and beliefs on a given topic, 
+thus undermining reflective thinking.
+As will become clear in a cross-examination, this is 
+much more pronounced in Microsoft’s implementation of 
+Copilot in Word (version 16.88) than in OpenAI’s ChatGPT  * Sebastian Weydner -Volkmann 
+ sebastian.weydner-volkmann@ruhr-uni-bochum.de
+1 Ruhr University Bochum, Bochum, Germany
+ AI & SOCIETY
+(October 2024). Both apps make use of the same underlying 
+LLM, however. This demonstrates, therefore, that we fall 
+short when we consider only the decision whether or not to 
+make use of LLM apps for writing, but leave unexamined to 
+what kinds of uses (stabilities) each writing app inclines the 
+users. Based on this, I will conclude that academic writers 
+are well-advised to understand capacities and constraints of 
+the different LLM apps in relation to reflective writing. As I 
+will argue, choosing an app for academic writing has ceased 
+to be a matter of personal preference and has become one 
+of academic ethos.
+For this, I will need to lay substantial conceptual ground-
+work in both Sects.  2 and 3 . In Sect.  2, I will begin by intro-
+ducing Borgmann’s main ideas and then continue to discuss 
+reflective writing as a focal practice. I will also explain, how 
+this has been adapted as an evaluative criterion in postphe-
+nomenology, extending its otherwise more descriptive focus. 
+In Sect.  3, I will briefly introduce Ihde’s relational theory of 
+technological mediation and show, based on his discussion 
+of historical writing ‘technics’, how a technology’s material-
+ity shapes its use. Extending this discussion to LLM-based 
+writing apps, however, makes it necessary to connect several 
+more recent methodological contributions in postphenom-
+enology. As I will show, such apps can be discussed in terms 
+of ‘quasi-materiality’ of application UIs and the affordances 
+they offer as part of so-called ‘multistabilities’. Covering this 
+extensive conceptual ground will yield the intellectual tools 
+necessary for cross-examining the use of Copilot in Word 
+and of ChatGPT in terms of their commodifying effects on 
+reflective writing (Sect.  4).
+2  Commodified writing: LLM apps 
+and the device paradigm
+2.1  Commodification and Borgmann’s device 
+paradigm
+I will start my discussion of LLM-assisted writing by 
+means of an “analog” detour via Albert Borgmann’s cri-
+tique of modern technological culture, which is encapsu-
+lated in what he calls the “device paradigm”. This denotes 
+a larger cultural pattern that leads to the displacement of 
+meaningful practices (Borgmann 1984, 47–48). He clari-
+fies this by differentiating a thing that requires our involve-
+ment (e.g., an old wood burning stove) from a device that 
+makes “no demands on our skill, strength, or attention” 
+(Borgmann 1984, 42). In contrast to the stove (thing) that 
+needs skill and attention in preparing wood and in starting 
+and maintaining the fire, a central heating plant (device) 
+“procures mere warmth and disburdens us of all other ele-
+ments” (Borgmann 1984, 42). It is the hallmark of tech-
+nological devices to provide commodities, here warmth, through a machinery that disburdens us of the means usu-
+ally connected with it. “A commodity is truly available 
+when it can be enjoyed as a mere end, unencumbered by 
+means” (Borgmann 1984, 44).
+This technological promise, however, comes with a catch. 
+While procuring warmth is certainly more convenient in 
+rooms equipped with central heating, something is also lost 
+in this process of commodification that makes the stove’s 
+demand for skillful effort obsolete:
+“In calling forth a manifold engagement, a thing neces-
+sarily provides more than one commodity. Thus a stove 
+used to furnish more than mere warmth. It was a focus, 
+a hearth, a place that gathered to work and leisure of a 
+family and gave the house a center.” (Borgmann 1984, 
+41-42)
+As Verbeek (2005, 178) comments, the “device paradigm 
+is thus a pattern in which things that promote engagement 
+become replaced by devices that invite only consumption.” 
+What is at stake here is what Borgmann (1984, 199) terms 
+“focal things and practices”: We are enthralled by the con-
+venience of modern technology to fulfill our every need and 
+desire with commodities. These, however, forego the neces-
+sity of contextual effort and engagement. This inadvertently 
+also replaces engaging elements that constitute the mean-
+ingful fabric of our lives: the commodification of warmth 
+through central heating facilitates dispersing family life to 
+multiple separate rooms and makes the social roles con -
+nected with heating obsolete. As a broader trend, commodi-
+fication thus undermines meaningfulness: “That, according 
+to Borgmann, is the irony of technology, it fulfills its prom-
+ise of enrichment and disburdening in such a way that the 
+disburdening it offers stands in the way of true enrichment” 
+(Verbeek 2005, 180).
+In his analysis, Borgmann makes a cultural reform propo-
+sition that involves caring for existing focal practices but 
+also seeking out and consciously incorporating new ones 
+into our lives. This is meant to “counter technology in its 
+patterned pervasiveness and to guard focal things in their 
+depth and integrity. Countering technology through a prac-
+tice is to take account of our susceptibility to technological 
+distraction” (Borgmann 1984, 210). This reform could lead 
+to a more fulfilled and meaning-oriented life, or, at least, 
+limit its erosion. This often implies keeping technology 
+more at the periphery of our lives to make room for focal 
+things and practices (Verbeek 2005, 184–185).
+Unfortunately, there is no clear-cut distinction that can 
+tell focal practices from non-focal or commodifying ones 
+(Verbeek 2005, 184). Instead, Borgmann (1986, 203) refers 
+to vivid testimonies of focal practices. While not testable, 
+focal practices are, hence, attestable (Hickman 2007, 103). 
+Because of this, Borgmann’s concepts remain somewhat 
+elusive; their explanatory power relies on whether such 
+AI & SOCIETY 
+testimonies and his account of the device paradigm resonate 
+with the readers’ personal experiences.
+For my own argument, this implies that there will also be 
+no hard criterion to determine in how far the introduction of 
+LLM apps into (academic) writing may constitute, as I will 
+contend in the next section, another example of the device 
+paradigm. Instead, readers will have to consider my pro-
+posed depiction of reflective writing as a focal practice in the 
+next section and see whether this resonates with their own 
+experiences. Where this is the case, however, Borgmann’s 
+ethical conceptions of commodification and the device para-
+digm can be productively taken up as part of a postphenom-
+enological analysis of those tools (cf. Section  2.3).
+2.2  Reflective thinking, focal writing, 
+and LLM‑assisted writing
+One premise of my argument is that some forms of writing 
+can facilitate reflective (or critical) thinking. As a first func-
+tional definition, I will term these forms “reflective writing”. 
+What, then, is reflective thinking? John Dewey (1978, 182) 
+distinguished reflective thinking from two other notions of 
+thinking: (1) from broad conceptions of thinking in the sense 
+of whatever comes to mind (stream of consciousness, “now I 
+think of this, now of that”); and (2) from thinking something 
+as opposed to actually perceiving something (“I sit in my 
+office and think of the sound of the waves of the ocean”). 
+Such thoughts, Dewey argues, can change on a whim.
+Reflective thinking, in contrast, rests on some kind of evi-
+dence or testimony; it commits us to keeping formed beliefs 
+in coherence with each other (Dewey 1978, 184–185). There 
+is, however, a difference in the degree to which beliefs actu -
+ally rest on reflection rather than on pre-judgment or preju-
+dice (Dewey 1978, 182, 191): ‘uncritical’ thinking forms the 
+negative end in the continuum of reflection, while “turning 
+the thing over in mind” and hunting for additional evidence 
+forms the positive end.
+To remain uncritical is more convenient, however, as 
+seemingly plausible suggestions are simply accepted. This 
+ends the “mental uneasiness” that motivates the effort of 
+thinking something through.
+“Reflective thinking is always more or less trouble-
+some because it involves overcoming the inertia that 
+inclines one to accept suggestions at their face value; 
+it involves willingness to endure a condition of mental 
+unrest and disturbance. Reflective thinking, in short, 
+means judgment suspended during further inquiry; and 
+suspense is likely to be somewhat painful.” (Dewey 
+1978, 191)
+This is not simply because reflective thinking involves 
+effort, but because it may involve the destruction of con-
+victions we hold dear. Hannah Arendt (1999, 57) similarly points toward the perils of critical thinking in that it has the 
+potential to undermine everything: “there are no dangerous 
+thoughts for the simple reason that thinking itself is such a 
+dangerous enterprise.” Hence, Dewey ( 1978, 191) claims we 
+need to establish good mental habits by continuously prac-
+ticing a certain mental ethos. This ethos consists of main-
+taining a state of doubt with respect to our beliefs, which in 
+turn can motivate us to exert the necessary effort of thinking 
+something through.
+Reflective thinking can then be understood as what Kegan 
+(1994, 231) describes as an “active demonstration of a mind 
+that can stand enough apart from its own opinions.” Such 
+a mind is able to “keep from feeling that the whole self has 
+been violated when its opinions, values, rules, or defini-
+tions are challenged.” Regarding current debates on whether 
+teaching intellectual virtues (‘character education’) or reflec-
+tive, ‘critical thinking’ should be the main goal of education, 
+a Deweyan answer thus takes a middle position of integrat-
+ing both into a coherent whole (Axtell 2024).
+The reflective part in ‘reflective thinking’, then, does not 
+so much denote the idea of self-reflection as in certain prac-
+tices of meditation or journalling. Rather, it denotes one of 
+the most fundamental competences for academic work. What 
+is reflected here are our initial opinions, values, or beliefs; 
+it is those thoughts and pre-judgments that become the the -
+matic1 object of our attention as part of critical engagement.
+What is presupposed here is that our beliefs are rendered 
+in a fixed form. They need to be actively lifted out of the 
+stream of our thinking processes. Making a thought the 
+object of attention requires giving it some permanence if 
+only for so long as to consider it and move on to the next 
+suggestion. Here, we see why writing is so conducive to 
+thinking: writing suggestions down disburdens us from hold-
+ing them fixed in memory. This is crucial for my argument as 
+it elucidates the connection between writing and reflective 
+thinking. In a similar vein, Arendt (2003, 204–205) high-
+lights the transformation from lived thinking processes to 
+thought rendered in fixed form and then objectified in writ-
+ing. Writing is not just the recording of a product of think -
+ing, but an essential part of the thinking process itself; we 
+“think on paper” (or in another medium).
+It is obvious that not all instances of writing in the 
+academic context can qualify as a focal practice. In fact, 
+Borgmann (1984 , 201) criticized contemporary academic 
+philosophy for failing to be a haven for such practices. 
+Today, one may similarly assess that current academic work 
+involves many facets that are detrimental to focal practices 
+1 As Husserl (1976, 62) notes, for something to become thematic 
+involves a shift of attention to something previously “unthematic”, 
+but which was still, if only implicitly, already “there” in conscious-
+ness.
+ AI & SOCIETY
+in research and teaching. Much of what is written has little 
+to do with reflective writing or thinking. Where writing is 
+neither reflective nor “focal”, commodification may, in fact, 
+be quite welcome.
+Still, I believe it is an uncontroversial claim that many 
+in academia experience the painstaking effort involved in 
+“thinking something through” as meaningful work , i.e., as a 
+focal practice. Furthermore, this work is embedded within 
+the social fabric of the academic community. As Rodgers 
+(2002, 856, cf. Dewey 1985, 8) highlights, Dewey’s under -
+standing of reflective thinking is not a solipsistic matter: the 
+act of formulation implicitly addresses others and requires 
+that we move outside of our own private experience and 
+consider other points of view. This is a crucial part of reflect-
+ing our beliefs.
+It is here that the introduction of generative AI tools 
+threatens to commodify reflective writing: using such tools 
+can disburden us from identifying our implicit beliefs, our 
+prejudices, and pre-judgments. This is because they can dis-
+burden us from putting those beliefs into a temporarily fixed 
+form by writing them down in a form that helps to consider 
+them in relation to others’ perspectives. And it can disbur -
+den us from (re-)constructing argumentative connections 
+between these beliefs and from turning them over in mind. 
+This is true at least insofar as generative AI is taken up on 
+its promise to produce text without the investment of skillful 
+effort and engagement.
+In these cases, writing degrades into a form of editing 
+or re-writing of “thoughts” that originated elsewhere. This 
+implies, however, that the thematic object of the thinking 
+that is involved here ceases to be reflective. This is because 
+the thinking stops being about our own implicit beliefs. If 
+generated text can be said to contain a rendering of beliefs at 
+all, it would likely be beliefs that are prevalent in the training 
+data. While I may implicitly share these beliefs, it makes 
+all the difference whether the formulation results from an 
+explication of our own thoughts or whether it comes from 
+without. In the latter situation, we lose the moment of dis-
+covering what is implicit as part of the explication process. 
+Consequently, the commodification of reflective writing can 
+indeed be seen as a potential threat to the academic ethos 
+envisioned by Dewey.
+2.3  Commodification as a normative criterion 
+in postphenomenology
+As Verbeek (2005, 186, 192) demonstrates, Borgmann’s 
+ethical contributions can be productively adapted to com -
+plement the more descriptively focused postphenomenologi-
+cal analysis we will use in the remainder of the paper. This 
+is particularly helpful since Ihde has already developed a 
+postphenomenological discussion of historical writing technologies. In this sense, my own analysis continues this 
+discussion but complements it with an ethical perspective.
+Verbeek identifies a conceptual problem in Borg-
+mann’s theory, however, in that he conflates two distinct 
+ideas regarding the loss of engagement due to the device 
+paradigm:
+“The type of engagement Borgmann sees as compen-
+sating for this loss is supposed to be regained in focal 
+practices, which are valuable in themselves without 
+serving a particular end, and which constitute mean-
+ingfulness … In contrast to a technological device, a 
+thing does not provide the most convenient path to 
+achieve a goal, but involves its users in the realization 
+of it. The engagement that focal things call for is of a 
+completely different sort. Borgmann does not describe 
+it in terms of effort and exertion, but of meaningful-
+ness …” (Verbeek 2005, 186)
+This highlights a crucial differentiation to be made for 
+forms of engagement: (1) those that require skillfull effort  
+and (2) those that produce meaningfulness. Borgmann ends 
+up blending the two ideas together: if “people give up focal 
+practices, they do not do this because they use technological 
+devices, but because they are entirely submerged in the con-
+sumptive attitude that the use of devices invites.” (Verbeek 
+2005, 187–188).
+In order to counter commodification, technology there-
+fore doesn’t necessarily have to be pushed to the sideline. 
+Verbeek highlights that it is not so much the technological 
+device itself to be rejected, but the disengaging effect that 
+undermines meaningful involvement. This directs attention 
+to the design properties of specific technologies, as this is 
+where commodification “materializes”. Whether or not a 
+certain piece of technology promotes or prevents commodi-
+fication can thus become a normative criterion for making 
+choices about using a certain technology and integrating it 
+into our lives. Some technologies may reduce effort but still 
+protect engagement, and other technologies may require 
+effort but will not be engaging in meaningful ways. “Borg-
+mann only admits a single aspect, disengagement, of the 
+implications of technology for the involvement of human 
+beings with their world, and systematically disregards the 
+ability of technology to invite new forms of engagement.” 
+(Verbeek 2005, 190).
+Rosenberger (2017) takes up Verbeek’s idea of a postphe-
+nomenological technology ethics based on Borgmann’s con -
+ceptions. He points out that this introduces a new problem, 
+however: Borgmann highlights a pattern in modern techno-
+logical culture (which is also why his view focusses so much 
+on the results of this pattern, the reduction of engagement). 
+Showing, as Verbeek does, that some forms of technology 
+use can also have positive and engaging effects, then, does 
+not speak against Borgmann’s diagnosis of a more general, 
+AI & SOCIETY 
+problematic trend (Rosenberger 2017 , 491, cf. also Borg -
+mann 2005, where he responds similarly to Verbeek). From 
+an ethical point of view, hence, little is gained by only show -
+ing that there may exist some ways to use generative AI apps 
+that facilitate reflective writing and, thus, reflective thinking. 
+If these ways are not how we are likely to use the technology 
+and if it is foreseeable that commodifying forms of use will 
+dominate, Borgmann’s concerns remain valid and pressing. 
+Hence, Rosenberger (2017, 491) proposes to examine for 
+different technology designs how forms of use play out and 
+to then assess how realistic it is that commodification or 
+engagement will typically prevail situationally in what he 
+calls dominant stabilities (cf. Rosenberger 2023, 2234).
+As will become clear in the next sections, this line of 
+thinking points us toward a postphenomenological analysis 
+of the affordances of writing technologies. As a first step, 
+however, it will be necessary to develop some of Ihde’s core 
+concepts and the role that materiality plays in them. This 
+will allow us to return to Borgmann’s ideas in Sect.  4 and 
+comparatively assess the impact of using two generative AI 
+apps regarding the commodification of academic writing.
+3  Affordances of writing technologies
+I will begin this section with a very brief introduction of 
+Ihde’s human–technology relations and his idea of multi-
+stability in the context of LLM apps. Both concepts will 
+be used in Sect.  4’s postphenomenological analysis of the 
+affordances of ChatGPT and Microsoft Word Copilot. After 
+this, I will reconstruct Ihde’s history of writing technologies 
+so as to show how the dominant stabilities of these apps can 
+be analyzed in terms of the affordances of their specific UIs.
+3.1  Ihde’s relational theory of technological 
+mediation
+Postphenomenology aims at micro-scale analyses of how 
+specific kinds of technologies mediate our experience of and 
+relation to the world. It retains many aspects of phenom-
+enological intentionality, such as the opposition to dualist 
+conceptions of experience and their stark division of an 
+experiencing subject from the experienced world. Instead, 
+it presupposes a relational unity in experience. As opposed 
+to phenomenology, however, it posits that today, this rela-
+tional unity is influenced by the manifold technologies that 
+surround us. Postphenomenology, thus, typically formalizes 
+experience as an I–technology–world relationship (Rosen-
+berger and Verbeek 2017, 11–12, 14). Ihde (1979, 6–14, 55, 
+1990, 97–108) distinguishes four types of these relations: 
+embodiment relations, hermeneutic relations, alterity rela-
+tions, and background relations.Laaksoharju et al. (2023) have laid the groundwork for 
+a postphenomenological analysis of LLM apps by going 
+through each of the four relations. When technologies in 
+embodiment relations work as they are expected, they 
+become a kind of transparent prosthetic extension of our 
+body through which we act and experience the world (Ihde 
+2002, 7, 14). Embodied relations to generative AI apps, for 
+example, could seamlessly change a user’s rambling draft 
+to a well-formulated, concise version of what they want to 
+say in digital conversations (Laaksoharju et al. 2023, 37).
+In hermeneutic relations, on the other hand, technolo-
+gies mediate our experience of the world by providing 
+information or representations that are interpreted by us. 
+When posing a question to an LLM app, its answers can 
+be seen as a highly flexible way of providing such infor -
+mation. “When asking ChatGPT and Bing AI in which of 
+Ihde’s relationships they are with their users, they both 
+lean toward describing the relationship as hermeneutic” 
+(Laaksoharju et al. 2023, 38) – a textual explanation about 
+itself that needs to be read and interpreted by us.
+LLM apps like ChatGPT may, furthermore, become 
+anthropomorphized “partners” in conversations, thus 
+establishing alterity relations. We can ask them to refor -
+mulate an answer they gave and pose follow-up questions, 
+thus leading a kind of conversation. “Ihde is clear that it 
+is in the perception of the human, rather than a reciprocal 
+relationship; the relationship does not require an ‘other’ 
+but will suffice with a ‘quasi-other’” (Laaksoharju et al. 
+2023, 41).
+Finally, background relations denote situations where 
+technologies are not related to in a direct way but form 
+contextual factors in the lifeworld. One may think of air 
+conditioning in a room or of LLM apps that seamlessly 
+translate what is said in a conversation to another lan-
+guage (Laaksoharju et al. 2023, 43; cf. Orland 2023 for an 
+empirical example of a similar use case).
+It is important to note that specifically what these types of 
+mediation entail depends largely on the situational use case. 
+Here, postphenomenology takes a middle ground between 
+a variant of technological neutrality, where everything 
+depends on how the subject wants to use a technology, and 
+one of technological determinism, where the design of tech-
+nologies prescribes their usage. Instead, Ihde refers to multi-
+stabilities, another one of its core methodological concepts:
+“No technology is ‘one thing’, nor is it incapable of 
+belonging to multiple contexts … I argue that the 
+very structure of technologies is multistable, with 
+respect to uses, to cultural embeddedness, and to 
+politics as well. Multistability is not the same as 
+‘neutrality’. Within multistability there lie trajecto-
+ries - not just any trajectory, but partially determined 
+trajectories.” (Ihde 1999, 47)
+ AI & SOCIETY
+Thus, in my comparison of ChatGPT and Microsoft’s 
+Word Copilot in Sect.  4, only some of the possible uses will 
+prove stable in the end (Rosenberger and Verbeek 2017, 
+26) and some of those stabilities will emerge as dominant 
+(Rosenberger 2023, 2234). As part of this analysis, explor -
+ing the types of human–technology relations involved in the 
+dominant stabilities will help reveal their role in commodi-
+fication. Since the emergence of a technology’s dominant 
+stabilities is closely connected to its materiality, however, I 
+will now discuss Ihde’s original conception of materiality in 
+the context of his history of writing technics.
+3.2  Materiality, multistability, and writing 
+technologies
+3.2.1  Embodied perception and the materiality of writing 
+technologies
+In his essay “IT: Clouds and Cyberspace-Time”, Ihde (2010, 
+69–84) discusses computer “stations” as part of the tech-
+nological development of writing technologies. Here, he 
+reiterates a point often made throughout his writings, i.e., 
+that he starts from the premise of embodied experience. In 
+fact, his re-conception of phenomenological intentionality 
+builds on Merleau-Ponty: “To put it simply, postphenom-
+enology substitutes an embodied action for consciousness 
+or subjectivity. Perception for postphenomenology is bod-
+ily and actional” (Ihde 2010, 70, cf.  2016, 130; Mykhailov 
+2020, 622–623; Aagaard and Rosenberger 2024, 8). This is 
+important to note as it means that not only the embodiment 
+relation can be conceptualized through the lens of embodied 
+action, but all four of the human–technology-relations. This 
+is also reflected in Ihde’s (2022, 129) remarks on what he 
+calls material hermeneutics, highlighting the pivotal role of 
+bodily perceptual  interpretation of instrument readouts in 
+natural science research. As will be noted later-on, not all 
+postphenomenologists follow Ihde’s embodied perception 
+stance.
+Ihde (1979, xxiv; cf. 2010, 70) has often highlighted 
+the centrality of materiality in his turn to embodied praxis: 
+“only in concrete or ‘material’ shapes and motions does 
+body-technology occur. In effect, the secret of ‘materialism’ 
+is the notion of praxis.” The question raised by Ihde regard-
+ing writing technologies may, thus, be phrased as: How did 
+the material evolvement of writing technics change writing 
+practices? Or, since a range of writing technics may co-exist, 
+how do different writing technics (from chisel and stone 
+through styluses and clay tablet, further through pen and 
+paper, onwards to typewriters and computerized word pro-
+cessors) each shape our techniques of writing? Here, mate-
+riality plays a crucial role in embodied use, as, for example, 
+a Roman chisel and stone lends itself much more to straight 
+cuts than curved ones (hence the letter U is often shaped as a V). With the upcoming of “soft writing” technics like pen 
+and ink, on the other hand, it became easier to write curves 
+and circles than straight lines, requiring the writer to have 
+‘embodied’ the capacities and constraints of the new mate-
+rial medium (Ihde 2010, 69–84).
+Ihde (2010, 75) goes on to discuss the change toward 
+the use of mechanical typewriters—and the controversies in 
+philosophical writing with writers like Nietzsche embracing 
+the new technology while others, like Heidegger, condemned 
+its use claiming that “the word no longer passes through the 
+hand, but becomes mechanized as pressure on the hand with 
+the script ‘snatched’ from the hand”. Ihde aptly comments 
+that Heidegger obviously never mastered the skill of type -
+writing. This is more than a quip at Heidegger’s expense; it 
+highlights that to write competently, one must develop bod-
+ily skills that relate to the “capacities and constraints” (Ihde 
+2010, 77) of the material technics and be responsive to the 
+“latent telic inclinations” (Ihde 1979, 42) that make its use 
+elegant or at least less cumbersome. Dominant stabilities, 
+one may conclude, thus correspond to the materiality of the 
+technics in some form.
+More pertinent to my discussion of ChatGPT and Word’s 
+Copilot, however, is Ihde’s analysis of writing with a word 
+processor on a computer: “In the immediate use, the screen  
+now becomes the tablet, first in glowing green letters, then 
+amber, now the full color range. In the composition process 
+the screen substitutes for paper.” (Ihde 2010, 76). What the 
+screen offers in terms of capacities and constraints is that 
+words can be just as easily produced as erased, i.e., typical 
+word processors allow for constant re-writing and editing of 
+what has already been written (Ihde 2010, 78).
+It is noteworthy that, here, Ihde’s focus on materiality 
+in embodied perception leads him to shift his attention to 
+discussing screens, but not the writing applications that 
+enable this constant re-writing and editing. It appears that 
+‘material technics’ primarily implies something that can 
+be touched or manipulated, not something informational 
+like machine code, or the mathematics behind it. This also 
+becomes evident in Ihde’s exchange with phenomenologist 
+Andreas Kaminski: Ihde rejects Kaminski’s argument that, 
+when Husserl describes Galileo’s mathematization of the 
+lifeworld in his Crisis text, he discussed technology. Here, 
+Ihde replies that for mathematics to become mediating tech-
+nics, it would need to materialize in the form of Personal 
+Computers and other devices and instruments (Ihde and 
+Kaminski 2020, 275).
+Still, Kaminski has a point in noting that we need to 
+distinguish between different notions of materiality when 
+it comes to digital technology (Ihde and Kaminski 2020, 
+281). This is especially relevant regarding the multistability 
+of computers, which transgresses many stabilities as they 
+allow a range of completely different uses by simply switch-
+ing to another application (i.e., different informational code).
+AI & SOCIETY 
+In Ihde’s (2010, 78) description, word processing appli-
+cations offer what he calls a reading stability of a screen 
+displaying paper which can be scrolled through, and he notes 
+that the next application may display a movie or a whole new 
+(virtual) world in a video game. In a rather quaint sounding 
+formulation, he notes that, in the age of the internet,
+“… the computer station is not simply that of a typing 
+station – it is a locus where human and world interact 
+globally … With the internet one could say the ‘screen 
+speaks out to us’ just as we to the screen. It is the inter -
+active interface where the cyberworld is mediated … 
+We remain situated and embodied human beings and 
+our locus of this experience is at our station … [T]he 
+experiential locus remains the screen at the computer 
+station which we occupy, although sometimes in our 
+office, our home, or while away at hotel or university 
+sub-stations.” (Ihde 2010, 80-81)
+Ihde’s (2010, 83) lager point here is that despite our 
+increasing interconnectedness and despite the compression 
+of time and spatial distance through IT and the internet, 
+humans remain embodied and situated. Therefore, the mate-
+riality of digital technologies continues to play an important 
+role.
+3.2.2  (Quasi‑)materiality of digital writing technologies
+While I share this commitment to an embodied perception 
+stance in postphenomenology, Ihde’s conception of material-
+ity raises issues. His focus on screens and keyboards (as the 
+material technics that afford certain multistable relations) 
+seems dysfunctional for analyzing digital technologies such 
+as ChatGPT. This is because ChatGPT has not changed the 
+screens, keyboards and computing devices in front of us; it 
+runs on the same material technics we have used for years 
+(Gerlek and Weydner-Volkmann 2025).
+Still, using LLM apps profoundly changes the writing 
+process. This makes it implausible to claim that an analysis 
+of the multistabilities and mediating relations should focus 
+on the material technics. Rather, it becomes clear that we 
+also need to account for how different writing applications  
+mediate the writing process differently. Hence, we also 
+need to analyze how  applications present information on the 
+screen, i.e., how certain aspects of applications have similar 
+effects on multistability as materiality has.
+One way to deal with this would be to move away from 
+Ihde-style conceptions of materiality as Wellner (2020, 
+110–111, 2023) does, at least in terms of hermeneutic rela-
+tions with digital technologies (cf. also Kudina 2021). While 
+this is a possible approach, it also implies a move away from 
+Ihde’s decidedly embodied conception of intentionality (cf. 
+Wellner 2020, 110–111). As will become evident in the next 
+section, however, remaining committed to this conception grounds the connection between the materiality of technics 
+and stable uses in terms of affordances. I therefore choose 
+to forgo Wellner’s (2023) proposal to adopt a different onto-
+logical stance.
+Instead, Gerlek and Weydner-Volkmann ( 2025 ) have pro-
+posed a “conceptual fix”: introducing quasi-materiality as 
+an extension to Ihde’s conception of materiality can address 
+the largely immaterial,  informational User Interface (UI) of 
+digital applications like ChatGPT. The concept of quasi-
+materiality denotes two core ideas: (1) that informational 
+UIs allow embodied multistable human-technology rela-
+tions in similar ways regarding embodied praxis that Ihde’s 
+materiality of technics does; and (2) that we don’t mistake 
+their informational status for actual materiality. We neither 
+believe that our material devices have changed when an 
+update to an app inevitably moves UI elements around; just 
+as we don’t commonly mistake a natural feeling conversa-
+tion with ChatGPT for an interaction with an actual person.
+This conceptual fix allows overcoming some of the limi-
+tations of an Ihde-style conception of materiality while 
+retaining the strengths of Ihde’s embodied perception stance 
+for digital technology. To be clear: when using ChatGPT, 
+writing is still mediated through a screen, keyboard etc. and 
+we remain situated and embodied human beings. Quasi-
+material UIs are, thus, themselves mediated through the 
+material technics we hold in our hands, sit in front of or 
+type on with our fingers.
+Quasi-materiality is not a new notion, however. At least 
+implicitly,  it has been assumed in previous postphenomeno -
+logical studies that immaterial UI elements can be treated 
+as if they were material aspects of digital technology. For 
+example, when Rosenberger (2009, 178) discusses embodi-
+ment relations with a PC, he groups the mouse and keyboard 
+with UI elements like “often-used onscreen icons or but-
+tons”. But for apps like ChatGPT, introducing the explicit 
+notion of quasi-materiality better captures the role UIs play 
+when comparing different writing apps on the same material 
+device. In turn, (quasi-)materiality offers the conceptual link 
+between a technology’s affordances and the establishment 
+of dominant stabilities. In the next section, I will discuss 
+this link.
+3.3  Connecting multistability with affordances
+As mentioned above, retaining Ihde’s embodied perception 
+stance in postphenomenology has the advantage of ground-
+ing the link between multistabilities and a devices’ (quasi-)
+material ‘capacities and constraints’ or ‘latent telic inclina-
+tions’: it is because of these that some stabilities will turn 
+out to become dominant while others don’t; they “predispose 
+human beings to develop certain technolife forms over oth-
+ers” (Mitcham 2006, 30). Or, as Ihde (1979, 48–49) puts it: 
+These inclinations act as a “center of gravity which allows 
+ AI & SOCIETY
+a direction to be followed from the inclined possibility 
+structure of technics.” Aagaard (2018) has shown that an 
+adaptation of James Gibson’s concept of affordances cap-
+tures this “magnetic” characteristic of certain stabilities in 
+human–technology interaction very well.
+Ihde’s embodied perception stance also grounds the link 
+between a technic’s (quasi-)material latent telic inclinations 
+and the establishment of bodily habits. As Rosenberger 
+(2013) argues, already established bodily habits can provide 
+“abstract relational strategies” in dealing with the require-
+ments of new, unfamiliar technologies. De Boer (2023) 
+extends Aagaard’s postphenomenological adaptation of 
+affordances further:
+“According to Gibson, not only the physical environ-
+ment, but also social and cultural phenomena can be 
+understood in terms of affordances. For example, a 
+postbox affords the possibility to post a letter to a 
+friend, or a composition by Bach affords to be played 
+or listened to …” (De Boer 2023, 2270)
+Hence, interpreting a specific stability in terms of affor -
+dances allows us to better take the situational context into 
+account: Which of the manifold affordances appear relevant 
+to us depends not only on the (quasi-)material properties 
+of a device and application, but also on the “norms and 
+customs constituting what would be ‘adequate action’ in 
+this environment” (De Boer 2023, 2272). A certain use of 
+a technology becomes stable if it is afforded and fits the 
+normative and social requirements of the situation. Neither 
+a device’s material properties nor the context predetermine  
+which affordances solicit action; but where (quasi-)mate-
+rial properties of technologies optimally afford uses that are 
+also socially adequate within a given situation, stabilities 
+are likely to emerge in technological mediation (De Boer 
+2023, 2274–2275). Consequently, they are also much more 
+likely to become dominant stabilities, as more users can be 
+expected to engage with the technology in such a stability.
+This is a crucial point for my argument. My concern 
+was that the use of LLM-based writing apps may under -
+mine reflective writing by promoting commodification 
+(cf. Sects.  2.1 and  2.2). While such tools are multistable  
+in that some users may also find engaging uses that consti-
+tute a focal practice, this doesn’t mean that the concern is 
+unfounded; instead, the broader impact will depend on what 
+stabilities will emerge as dominant (cf. Sect.  2.3). As we 
+have seen in Sect.  3, this depends on the affordances of the 
+writing tools. In turn, the affordances of these digital apps 
+depend on (1) the capacities and constraints offered by the 
+quasi-material properties of the app’s UIs and (2) on how 
+socially adequate different uses are within a given situative 
+context.
+While affordances never predetermine technology use, 
+an analysis of the “centers of gravity” offered by the UIs of LLM-based writing apps should therefore reveal in how far 
+certain stabilities are likely or unlikely to become dominant . 
+In turn, where dominant stabilities reflect commodified writ-
+ing, it is reasonable to assume that these apps undermine 
+reflective writing. In the next section, I will compare two 
+different writing apps that make use of the same LLM (GTP-
+4o) and analyze how their UIs promote commodification.
+4  Comparing the affordances of ChatGPT 
+and word co‑pilot
+4.1  Preliminary methodological remarks
+Since “postphenomenology is committed to the anti-essen-
+tialism and non-foundationalism of American pragmatist 
+thought, its claims cannot appeal to essences or foundations” 
+(Rosenberger 2023, 2237). To make claims about dominant 
+uses, one therefore needs to employ a cross-examination  
+between different stabilities of using that technology (Rosen-
+berger 2017, 491, 2023, 2237).
+In the following, I will therefore start with comparing 
+commodifying variants of using OpenAI’s ChatGPT with 
+alternative, engaging variants of use. I will do so based on 
+the affordances of its quasi-material UI within the context 
+of academic writing. ChatGPT’s UI will, thus, be the “pivot 
+point” of my analysis (Whyte 2015, 76), i.e., the aspect that 
+remains the constant reference in my comparison; the two 
+forms of stable uses are the “axes” (Rosenberger 2023, 2238) 
+along which the comparison takes place. After that, I will do 
+likewise with Microsoft’s Word Copilot. As both apps make 
+use of the same underlying LLM (as of writing, GPT 4o), 
+this will highlight the differences between the two apps in 
+terms what their UIs afford. As will become clear, the two 
+apps differ considerably in regards of affording reflective 
+writing.
+4.2  Communicative production of text: ChatGPT
+ChatGPT (version October 2024) can be run as a stand-alone 
+app, but on PCs, it is typically run through the browser. 
+What we see in Fig.  1 on the left is the minimal UI users 
+see when starting the app with some suggestions for using 
+it. On the bottom of the window, we see a textbox labeled 
+“message ChatGPT” that resembles a UI element known 
+from various digital instant messaging apps. This design 
+affords a conversational man–machine interaction: it affords 
+natural feeling conversations with a quasi-other; and it does 
+so by piggybacking on our established habits of electronic 
+communication (Gerlek and Weydner-Volkmann 2025): we 
+are expected to “chat” with the app.
+For example, asking ChatGPT to explain Borgmann’s 
+concept of commodification (Fig.  1, right) causes the app 
+AI & SOCIETY 
+to generate a corresponding answer. In follow-up questions, 
+one can continue the conversation. As is well-known, Chat-
+GPT can generate false statements, which is made explicit 
+below the chat box. Still, in this stability, ChatGPT’s UI 
+affords an alterity relation that enables, among other things, 
+an academic conversation in natural language with a (some-
+what unreliable) quasi-other.
+This can be put to productive use in academic writing. 
+For example, Szücs (2023) suggests that using ChatGPT 
+as a conversational partner may help academic writers to 
+clarify thoughts and offer them new forms of expression. 
+What is afforded through ChatGPT’s UI as part of this stabil-
+ity is a conversational process that can involve formulating 
+one’s beliefs on a certain topic. As mentioned above, this is 
+a crucial step in reflective thinking as envisioned in Dewey’s 
+academic ethos. Here, the user formulates as if they would 
+write a colleague via Signal or a similar electronic messen-
+ger. While one “only” writes to a quasi-other, the conversa-
+tional frame can help with the sometimes “painful” process 
+of formulating one’s beliefs. While not a perfect match for 
+academic writing, it is striking that in a meta-study on the 
+impact of ChatGPT in education, conversational forms of 
+use are typically mentioned in studies that report improved 
+student engagement, also regarding constructs for critical 
+thinking (Lo et al. 2024, 2, 9).
+While the specific habits of students in ChatGPT use 
+“remain inadequately addressed” in current research, nega-
+tive impact on student engagement (including constructs 
+for critical thinking) is strongly connected with a different form of use that in the educational context is associated 
+with laziness, cheating and plagiarism, i.e., “copying and 
+pasting text generated by ChatGPT” (Lo et al. 2024, 9–11). 
+In academic writing, such well-afforded stabilities involve 
+asking ChatGPT to generate a possible structure or even 
+to write a first draft of an argument. Such interactions lose 
+their conversational character, however, and resemble more 
+traditional forms of human–computer interaction, such as 
+typing a command. While one can use natural language, 
+the output can be improved by carefully tuning the request 
+(“prompt engineering”). Here, elements of an alterity rela-
+tion are clearly retained, but the interaction strongly gains 
+characteristics of a hermeneutic relation, as textual output 
+is read and interpreted by us to learn something in relation 
+to my request.
+Irrespective of the quality of the resulting output, this 
+constitutes a commodified form of text production: ChatGPT 
+disburdens us not only from the skillful effort of writing 
+clearly and coherently, but also from formulating our beliefs. 
+Hence, the generated text doesn’t resemble our own pre-
+judgments or prejudices, which is why this stability forgoes 
+a meaningful engagement with them and relegates the writer 
+to editing another’s writing (cf. Sect.  2.2). Therefore, such 
+writing ceases to constitute reflective writing as envisioned 
+in Dewey’s academic ethos.
+At least in education, studies prominently report this 
+form of use (Lo et al. 2024 , 9). Here, commodified text 
+production seems to have become a dominant stability. On 
+closer inspection, however, it seems not what ChatGPT 
+Fig. 1  ChatGPT’s minimal user interface (left) and an example interaction (right)
+ AI & SOCIETY
+primarily was designed to afford. The primary form of 
+interaction is geared toward leading a natural feeling 
+conversation via messaging. Hence, my typing in the 
+chat box that “I am currently writing a new philosophi-
+cal article” leads to the reply “That’s great! What topic 
+are you exploring in your philosophical article? I’d be 
+happy to assist with ideas, structuring, research, or even 
+refining your arguments.” – an invitation to the user to 
+play along and interact with ChatGPT as a quasi-other. It 
+therefore seems plausible to assume that forms of engag-
+ing interaction for the purpose of reflective writing are 
+another dominant stability afforded through the app’s 
+quasi-material UI.
+As mentioned in Sect.  3.3, affordances relate to the 
+situative context as well. In academic writing, it is well-
+known that commodified text generation conflicts with 
+certain expectations around academic integrity and 
+authorship (cf. the association with plagiarism in educa-
+tion). At the same time, however, norms of academic pro -
+ductivity (the “publish or perish” culture) give incentives 
+to take ChatGPT up on its friendly offer to disburden us 
+from the effort of writing. Since reflective thinking is by 
+its very nature unsettling, this pressure is compounded. 
+Lastly, since ChatGPT is mimicking not just any quasi-
+other by default, but a helpful assistant, it becomes clear 
+that engaging forms of use must be chosen very deliber -
+ately. While well-afforded, it is a form of use that con -
+stantly needs to resist the situational lure of the device 
+paradigm and its ensuing commodification.4.3  Automated document production: Word Copilot
+I now turn toward Microsoft’s Word Copilot (version 16.88). 
+Currently, the LLM functionalities must be enabled sepa -
+rately, incurring extra costs. Once it has been enabled, the 
+blinking cursor is amended in the UI by a Copilot symbol 
+to the left for any new paragraph and whenever existing text 
+is selected; new documents present an invitation message 
+to click this icon. This opens a dialog box (cf. Fig.  2, left). 
+Here, users are asked to enter what they want to write about 
+so that Copilot can create a draft “to help you get started”. 
+For example, declaring that “I want to write an academic 
+article on Albert Borgmann’s device paradigm and the use 
+of Copilot in Word” the app drafts a structured argument 
+straight into the document. Once this task has completed , 
+the Copilot dialog offers to automatically change the gener -
+ated text, suggesting to, “for example ‘make it formal’” (cf. 
+Fig. 2, right) or to keep the draft.
+The way Microsoft Word Copilot’s UI primarily affords 
+use thus centers around automated document production. 
+The resulting text does not need to be selectively copied and 
+pasted into a draft document; instead, a full draft awaits the 
+user to make edits directly within the word processor. The 
+second dialog box and the icon remind users that Copilot 
+can do parts of the editing automatically: highlighting any 
+section in the document lets users choose to automatically 
+“rewrite” this section. Inserting a new paragraph in an exist-
+ing document allows, for example, to automatically “add a 
+short paragraph on Borgmann’s life”.
+Irrespective of the (often questionable) quality of the 
+generated drafts, what the app’s UI affords is a highly 
+Fig. 2  Word Copilot’s drafting interface (left) and sample of a user interaction (right)
+AI & SOCIETY 
+commodified form of writing. It is also important to note the 
+subtle difference between ChatGPT’s requirement to copy 
+text into a document opened in another word processor and 
+Word Copilot’s generation of a fully formatted, “complete” 
+draft document. While the former affords selective copying, 
+the latter requires active deletion of those passages the users 
+may want to write themselves or find unfitting.
+The relegation of the users’ role into one of editing is, 
+thus, considerably more pronounced in Word Copilot. In 
+terms of capacities and constraints of the quasi-material UI, 
+the interaction hardly invokes the users’ established habits 
+of electronic communication and their respective relational 
+strategies. The interaction has fewer characteristics of an 
+alterity relation, where the user would constitute Word Copi-
+lot as a conversational partner. Instead, the interaction is 
+strongly geared toward writing commands (‘prompts’) and 
+it seems forced to understand the produced document as 
+a ‘reply’ that is part of a natural conversation. Rather, it 
+appears as textual output that is then read, interpreted and 
+edited, inclining the users toward a hermeneutic relation. 
+Overall, we can observe that the dominant stability for using 
+Word Copilot largely mediates writing in similar ways as 
+“asking” ChatGPT for a draft: it affords a commodified 
+writing process that ceases to constitute reflective writing  
+as envisioned in Dewey’s academic ethos as it disengages 
+us from formulating our own suggestions.Apart from the drafting interface of Word Copilot, a chat 
+pane can be opened on the right-hand side of the app win-
+dow via clicking on the Copilot icon in Word’s “ribbon” 
+interface (cf. Fig.  3). This reveals a chat function, where 
+users are informed that they can ask Copilot “anything 
+about this document”. Through this part of the UI, the user 
+is inclined to use Word Copilot in a similar communicative 
+way, as described above for ChatGPT, i.e., leading natu-
+ral feeling conversations with a quasi-other in an alterity 
+relation. For example, users can task Copilot with posing 
+questions that help structuring an outline and trying similar 
+prompts as above for ChatGPT leads to similar results. Here, 
+information can be selectively copied and pasted into the 
+document. Through this pane, Word Copilot’s quasi-material 
+UI therefore affords a stability for potentially engaging inter -
+actions that facilitate reflective writing.
+However, it is also clear that this is not the primary 
+and intended use case: the users are invited to “ask ques-
+tions about the document”, implying that a draft document 
+already exists, and that the conversational interface is pri -
+marily used to assist in editing or re-writing. While it is 
+possible to use the chat pane in isolation from an existing 
+draft by activating it in a blank document, the out of center 
+positioning in the UI and the small writing incline the user 
+to perceive this as a mere “aside” that complements the 
+“main” interaction described earlier. Furthermore, once 
+Fig. 3  Word Copilot’s chat pane
+
+ AI & SOCIETY
+a document is drafted, Word Copilot uses the content as 
+additional context for generating responses in the chat 
+pane. Thus, when I asked it to summarize my own answers 
+about a possible structure that I entered in the chat pane, 
+Word Copilot mixed in bits of content from the document 
+that it had previously generated automatically.
+Given that the app continues to highlight the automated 
+drafting function, an engaging use of the app seems like 
+an uphill battle. The latent telic inclinations present in its 
+quasi-material UI require a highly deliberate resistance to 
+the lure of the device paradigm: the user would need to 
+fully focus on the communicative “aside” function to an 
+otherwise empty document. This, of course, is exacerbated 
+by the contextual factors of academic writing outlined 
+above, especially regarding the publish or perish culture 
+and its pressure to produce “academic output”. Therefore, 
+it seems unlikely that deliberately using Word Copilot’s 
+communicative interface to facilitate reflective writing will 
+turn into a viable stability for many users and, hence, turn 
+into a dominant stability.
+4.4  Comparing ChatGPT and Word Copilot
+As outlined above, the primary use afforded by ChatGPT 
+is an open conversational interaction with a quasi-other. 
+This stability may become dominant if users interact delib-
+erately with it and resist the lure of the device paradigm.  
+After all, transitioning to a stability of commodified text 
+production is always just one interaction away.
+While a commodifying use presents one of ChatGPT’s 
+dominant stabilities, the capacities and the constraints of 
+its UI hardly undermine a user’s deliberate choice to use 
+it differently, i.e., in an engaging manner (even though its 
+“eagerness” to assist must sometimes be resisted). The 
+fact that ChatGPT’s output, but especially the user’s input 
+needs to be (selectively) copied into another app creates a 
+level of friction that underscores the qualitative differences 
+regarding commodification to Word Copilots automatic 
+document production.
+While Word Copilot, in principle, allows a similar 
+engaging use through its chat pane, the way the UI is 
+designed makes this stability not well-afforded and disin-
+cline the user from conversational interaction. Functions 
+of automated document generation and even certain edit-
+ing tasks are actively put in the center of the app window 
+and advertised frequently. Even though both apps use the 
+same underlying LLM, this makes it implausible to assume 
+that engaging practices of reflective writing become a 
+dominant stability with Word Copilot. Hence, with Copilot 
+activated, reflective writing tasks requires users to resist 
+to a considerably higher degree the lure toward commodi-
+fied writing.5  Conclusions
+Generative AI apps have the potential to negatively affect 
+reflective thinking tasks by undermining reflective writ-
+ing. This is because what makes writing so effective in 
+facilitating reflective thinking is the latter’s need to lift our 
+beliefs regarding a certain topic, our pre-judgments and 
+prejudices, out of the stream of our thinking process and 
+make them the thematic object of our attention. Writing 
+these down disburdens us from holding them in a fixed 
+state in memory. At the same time, however, it leaves the 
+burden of formulation, of finding the right words, on the 
+author. This is a crucial part in engaging with these sug-
+gestions as outlined in Dewey’s academic ethos. However, 
+generative AI tools promise to lift this burden from us as 
+well, effectively relegating the users into the role of editing 
+an existing draft.
+As shown in Sect.  2, this can be interpreted as part 
+of a larger societal pattern, where technical devices dis-
+place activities that require effort but also give meaning 
+by offering mere commodities. Thus, LLM-based writing 
+tools promise to make our life easier by disburdening us 
+from the time-consuming effort of formulating our beliefs. 
+Ironically, however, by relegating users to an editing role, 
+this disburdening stands in the way of engaging with what 
+is meaningful in reflective writing, i.e., our own opinions, 
+values, beliefs, or conceptions.
+Based on a postphenomenological analysis of two LLM-
+based tools that can be used in similar ways for academic 
+writing, I have shown, that the prevalent focus on the 
+technical functionalities of LLMs fails to make important 
+distinctions. Both, ChatGPT and Microsoft Word Copilot 
+use the same underlying LLM, but they mediate text pro-
+duction differently due to how the UI structures the user 
+interactions, and this also changes the likely dominance of 
+commodifying stabilities. As part of the argument, three 
+methodological revisions of Borgmann’s device paradigm 
+and Ihde’s postphenomenology were necessary:
+(1) Verbeek’s critique of Borgmann highlighted the 
+necessity to take alternative, engaging stabilities into 
+account, and, as Rosenberger argued, to analyze how 
+likely it is that these stabilities become a dominant form 
+of use.
+(2) To answer this question, one must take contextual fac-
+tors and UI design into account. Ihde has often men-
+tioned how technologies offer ‘latent telic inclinations’ 
+or ‘centers of gravity’. Based on the works of Aagaard, 
+De Boer and Rosenberger, I have made use of a post-
+phenomenological adaptation of Gibson’s affordances 
+to prepare my comparative analysis of the two LLM-
+based apps. This adaptation allows identifying contex-
+AI & SOCIETY 
+tual factors (situative norms of adequacy) as well as 
+material factors in technology design to explain why 
+certain stabilities become viable or even dominant and 
+why others don’t.
+(3) However, Ihde’s embodied perception stance poses 
+problems for dealing with digital technologies: Ihde’s 
+focus on the materiality of technics poses conceptual 
+issues in regard of analyzing LLM-based apps that run 
+on the same material devices we have used since long 
+before ChatGPT became public. Following Gerlek and 
+Weydner-Volkmann (2025), Ihde’s concept of material-
+ity needs to be extended with the notion of quasi-mate-
+riality. This captures how mostly immaterial, infor -
+mational UI elements further shape the affordances of 
+technology use, allowing for a cross-comparison of the 
+affordances of different applications.
+What can be taken away from this cross-comparison is 
+that concerns of a substantially negative impact of LLM-
+based writing tools on academic work are well-founded 
+whenever those tools are used for reflective writing tasks. 
+Both, situative norms of academic productivity as well as 
+technology’s promise to disburden us from the effort and 
+discomfort of formulating our own beliefs clearly incline 
+writers toward commodifying forms of use, something that 
+is well-afforded by both of the analyzed apps.
+But I also showed that the UI design and its imple -
+mentation of generative AI functionality has a significant 
+impact on the relevant affordances. ChatGPT’s primary 
+way of interaction affords “chatting” with a quasi-other. 
+This can, alternatively, assist users in the crucial step of 
+putting their premises, pre-judgments and prejudices into 
+their own words and finding a way of expression as part 
+of a conversational interaction. While Microsoft’s Word 
+Copilot can in principle be used in a similar fashion, its 
+affordances incline users toward commodifying forms of 
+automated document production and make engaging con-
+versations with a quasi-other unlikely to become a domi-
+nant stability.
+These implications for academic writing are part of a 
+broader discussion on how the use of Big Data and AI 
+technologies impact academic research (cf. Leonelli 2020). 
+As I have shown, however, the discussion falls short when 
+it is limited to whether generative AI should or shouldn’t 
+be used in academic writing. But given that Word is one of 
+the most prevalent writing tools in academic work, we can 
+see clearly that choosing a writing app has ceased to be a 
+matter of personal preferences. Instead, in light of Dewey’s 
+academic ethos, it has become necessary to thoroughly 
+reflect how our writing apps mediate reflective writing and 
+thinking and choose accordingly.Author contribution S.W.V. is the sole author of this paper. While this 
+paper concerns the use of LLMs, no generative AI tools were used in 
+the writing of this manuscript.
+Funding Open Access funding enabled and organized by Projekt 
+DEAL.
+Data availability No datasets were generated or analysed during the 
+current study.
+Declarations  
+Competing interests The authors declare no competing interests.
+Open Access This article is licensed under a Creative Commons Attri-
+bution 4.0 International License, which permits use, sharing, adapta-
+tion, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, 
+provide a link to the Creative Commons licence, and indicate if changes 
+were made. The images or other third party material in this article are 
+included in the article’s Creative Commons licence, unless indicated 
+otherwise in a credit line to the material. If material is not included in 
+the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will 
+need to obtain permission directly from the copyright holder. To view a 
+copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+References
+Aagaard J (2018) Magnetic and multistable: reinterpreting the affor -
+dances of educational technology. Int J Educ Technol High Educ 
+15(1):4. https:// doi. org/ 10. 1186/ s41239- 017- 0088-4
+Aagaard J, Rosenberger R (2024) Experience without essentialism: on 
+‘posting’ phenomenology. Qual Res Psychol. https:// doi. org/ 10.  
+1080/ 14780 887. 2024. 23552 77
+Arendt H (1999) Interviewing Hannah Arendt [Reconstructed Tran-
+script of the O.R.T.F. Interview, aired on 06 July 1974] Inter -
+view by Roger Errera. HannahArendt.Net 2(1). https:// doi. org/  
+10. 57773/ hanet. v2i1. 190
+Arendt, Hannah. 2003. Vita activa oder Vom tätigen Leben. 2. Aufl. 
+Serie Piper 3623. Piper, München
+Axtell G (2024) A Deweyan critique of the critical thinking versus 
+character education debate. Philos Inquiry Educ 31(2):140–154
+Borgmann A (1984) Technology and the character of contemporary 
+life: a philosophical inquiry. University of Chicago Press, Chicago
+Borgmann A (2005) Review of Peter-Paul-verbeek’s what things do: 
+philosophical reflections on technology, agency, and design. Penn-
+sylvania State University Press, University Park
+De Boer B (2023) Explaining multistability: postphenomenology and 
+affordances of technologies. AI Soc 38(6):2267–77. https://  doi. 
+org/ 10. 1007/ s00146- 021- 01272-3
+Dewey J (1978) (=MW6) The middle works volume 6: how we think 
+and selected essays. 1910–1911. In: Jo Ann Boydston (ed) Car -
+bondale (Ill.). Southern Illinois University Press
+Dewey J (1985) (= MW9) The middle works volume 9: democracy 
+and education. 1916. In: Jo Ann Boydston (ed) Carbondale (Ill.). 
+Southern Illinois University Press
+Gerlek Selin, Weydner-Volkmann Sebastian (2025) Materiality and 
+machinic embodiment. A postphenomenological inquiry into 
+ChatGPT’s active user interface. J Hum Technol Relations 3:1–15. 
+https:// doi. org/ 10. 59490/ jhtr. 2025.3. 7387
+Hickman LA (2007) A Neo-Heideggerian critique of technology. In: 
+Pragmatism as post-postmodernism. Lessons from John Dewey. 
+ AI & SOCIETY
+Fordham University Press, pp 92–111. https:// doi. org/ 10. 2307/j.  
+ctvh4 zdh4. 10
+Husserl E (1976) (=Hua III/1). Ideen zu einer reinen Phänomenologie 
+und phänomenologischen Philosophie. 1. Halbband. Edited by 
+Karl Schuhmann. Nijhoff, Den Haag
+Ihde D (1979) Technics and Praxis. Boston studies in the philosophy 
+of science, vol 24. D. Reidel Pub. Co., Dordrecht
+Ihde D (1990) Technology and the lifeworld: from garden to earth. 
+Indiana University Press, Bloomington and Indianapolis
+Ihde D (1999) Technology and prognostic predicaments. AI Soc 13(1–
+2):44–51. https:// doi. org/ 10. 1007/ BF012 05256
+Ihde D (2002) Bodies in technology. Electronic mediations, vol 5. Uni-
+versity of Minnesota Press, Minneapolis
+Ihde D (2010) Embodied technics. S.l. Automatic Press, New York
+Ihde D (2016) Husserl’s missing technologies. Perspectives in conti-
+nental philosophy, 1st edn. Fordham University Press, New York
+Ihde D (2022) Material hermeneutics: reversing the linguistic turn. 
+Routledge, London and New York
+Ihde D, Kaminski A (2020) What Is postphenomenological philosophy 
+of technology? In: Friedrich A, Gehring P, Hubig C, Kaminski 
+A, Nordmann A (eds) Jahrbu.ch Technikphilosophie Autonomie 
+Und Unheimlichkeit. Nomos, Bengaluru, pp 259–88. https:// doi.  
+org/ 10. 5771/ 97837 48904 861- 259
+Kegan R (1994) In over our heads: the mental demands of modern life. 
+Harvard University Press, Cambridge
+Kudina O (2021) ‘Alexa, Who Am I?’: voice assistants and hermeneu-
+tic lemniscate as the technologically mediated sense-making. Hum 
+Stud 44(2):233–253. https://  doi. org/ 10. 1007/  s10746-  021- 09572-9
+Laaksoharju M, Lennerfors TT, Persson A, Oestreicher L (2023) “What 
+is the problem to which AI Chatbots are the solution? AI eth-
+ics through Don Ihde’s embodiment, hermeneutic, alterity, and 
+background relationships. In: Ethics and sustainability in digital 
+cultures. Routledge
+Leonelli S (2020) Scientific research and big data. In: Zalta EN (eds) 
+The Stanford Encyclopedia of Philosophy (Summer 2020 Edi-
+tion). https:// plato. stanf  ord. edu/ archi ves/ sum20 20/ entri es/ scien  
+ce- big- data/
+Lo CK, Hew KF, Jong M-Y (2024) The influence of ChatGPT on stu-
+dent engagement: a systematic review and future research agenda. 
+Comput Educ 219:105100. https:// doi. org/ 10. 1016/j. compe du.  
+2024. 105100
+Milano S, McGrane JA, Leonelli S (2023) Large language models chal-
+lenge the future of higher education. Nat Mach Intell 5(4):333–
+334. https:// doi. org/ 10. 1038/ s42256- 023- 00644-2
+Mitcham Carl (2006) From phenomenology to pragmatism: using tech -
+nology as an instrument. In: Selinger E (ed) Postphenomenology: 
+a critical companion to Ihde. SUNY series in the philosophy of 
+the social sciences. State University of New York Press, Albany, 
+pp 21–33Mykhailov D (2020) The phenomenological roots of technological 
+intentionality: a postphenomenological perspective
+Orland K (2023) These AI-generated news anchors are freaking me out. 
+Ars Technica (blog). December 15, 2023. https:// arste chnica. com/  
+ai/ 2023/ 12/ these- ai- gener  ated- news- ancho rs- are- freak ing- me- out/
+Rodgers C (2002) Defining reflection: another look at John Dewey 
+and Reflective thinking. Teach Coll Record Voice Scholar Educ 
+104(4):842–866. https:// doi. org/ 10. 1111/ 1467- 9620. 00181
+Rosenberger R (2009) The sudden experience of the computer. AI Soc 
+24(2):173–180. https:// doi. org/ 10. 1007/ s00146- 009- 0190-9
+Rosenberger R (2013) The importance of generalized bodily habits for 
+a future world of ubiquitous computing. AI & Soc 28(3):289–296
+Rosenberger R (2017) Notes on a nonfoundational phenomenology of 
+technology. Found Sci 22(3):471–494. https:// doi. org/ 10. 1007/  
+s10699- 015- 9480-5
+Rosenberger R (2023) On variational cross-examination: a method for 
+postphenomenological multistability. AI Soc 38(6):2229–2242. 
+https:// doi. org/ 10. 1007/ s00146- 020- 01050-7
+Rosenberger R, Verbeek P-P (2017) A Field Guide to Postephenom-
+enology. In: Rosenberger R, Verbeek P-P (eds) Postphenomeno-
+logical investigations: essays on human-technology relations. 
+Lexington Books, Lanham, pp 9–41
+Szücs B (2023) Not replacing but enhancing: using ChatGPT for 
+academic writing. The Times Higher Education. June 14, 2023. 
+https:// www. times highe reduc ation. com/ campus/ not- repla cing-  
+enhan cing- using- chatg pt- acade mic- writi ng
+Verbeek P-P (2005) What things do: philosophical reflections on tech-
+nology, agency, and design. Penn State University Press, Univer -
+sity Park. https:// doi. org/ 10. 1515/ 97802 71033 228
+Wellner G (2020) The multiplicity of multistabilities: turning multista-
+bility into a multistable concept. In: Miller G, Shew A (eds) Reim-
+agining philosophy and technology, reinventing Ihde. Philosophy 
+of engineering and technology, vol 33. Springer, Cham, pp 105–22
+Wellner G (2023) Material hermeneutic of digital technologies in the 
+age of AI. AI Soc 38(6):2159–2166. https://  doi. org/ 10. 1007/  
+s00146- 020- 00952-w
+Whyte KP (2015) What is multistability? A theory of the keystone 
+concept of postphenomenological research. In: Technoscience and 
+postphenomenology: the Manhattan papers. Lexington Books, pp 
+69–81
+Publisher's Note Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.

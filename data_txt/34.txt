@@ -1,0 +1,962 @@
+Turning Back to Planet Earth: Defining the Aestheticsof a New
+Sustainable High-Tech
+Ylva Fernaeus
+Umeå Institute of Design
+Umeå University
+Umeå, Sweden
+EECS
+KTH Royal Institute of Technology
+Stockholm, Sweden
+ylva.fernaeus@umu.se
+Abstract
+This paper explores the aesthetic value shifts required for sustain-
+able design of so called ‘high-tech’ products, highlighting an in-
+creasing down-to-earth ethos within the field. Using a spaceship
+metaphor and drawing from principles of post-industrial design
+and visions for long-term sustainable transformation, a high-level
+analysis is presented of how grassroot activist cultures and alterna-
+tive tastemaking practices are currently steering designs towards
+the systemic, earthy and organic. This direction is illustrated by
+diverse examples from within the TEI discourse that investigates
+new material approaches and that critically challenge conventional
+aesthetic orientations. While such approaches can be criticized
+for insufficiently addressing interactive and electronic components,
+thisresearchunderscorestheiressentialroleinreimaginingtechnol-
+ogy and materials, to navigate complex cultural interdependencies
+and advance sustainable design futures.
+CCS Concepts
+•Human-centered computing ; •Interaction design ; •Interac-
+tion design theory, concepts and paradigms ;
+Keywords
+Sustainable TEI, post-industrial design, Aesthetics in interaction
+design
+ACM Reference Format:
+Ylva Fernaeus. 2025. Turning Back to Planet Earth: Defining the Aesthetics
+of a New Sustainable High-Tech. In Nineteenth International Conference
+on Tangible, Embedded, and Embodied Interaction (TEI ’25), March 04–07,
+2025, Bordeaux / Talence, France. ACM, New York, NY, USA, 10 pages. https:
+//doi.org/10.1145/3689050.3704935
+1 Introduction
+This essay is in response to the conference theme of ‘Sustainable
+TEI’, for the 19th annual conference dedicated to Tangible, Em-
+bedded, and Embodied Interaction. Much research has concerned
+This work is licensed under a Creative Commons Attribution International 4.0 License.
+TEI ’25, March 04–07, 2025, Bordeaux / Talence, France
+© 2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1197-8/25/03
+https://doi.org/10.1145/3689050.3704935interaction design for sustainability [see e.g. 2,3], with the theme
+of Human-Computer Interaction for Sustainability now a flourish-
+ing research area of its own, and we see how social, ethical and
+environmental concerns have been increasingly recognized also
+within more technology-oriented fields like TEI. Here, we discuss
+some of the aestheticorientations and approaches to sustainability
+in works presented within this academic discourse and discuss its
+broader implications for design as well as for theory. The term
+aesthetics is here used as is common in interaction design, with
+attentiontoconceptssuchasuserexperience[seee.g, 10,32,39,50],
+at interplay with varied and shifting cultural norms. While aes-
+thetics is sometimes implied as an insignificant surface layer of
+interactive products, it is fundamentally shaped by as well as shap-
+ing cultural contexts, with powerful ethical implications [ 38]. It is
+thus an embedded quality of our world and the futures we hope for,
+and therefore affects the shapes and materials of the designs we
+produce, as well as the lifestyles and practices we want our design
+efforts to fit into.
+TEI is fundamentally concerned with ‘high-tech’, by studying,
+developing, and showcasing designs at the cutting edge of interac-
+tive technology. Here we use the Spaceship as a metaphor for the
+design discourse in this research area. Stemming from the space
+age era of the 1960s, it is no coincidence that high-tech design has
+often spoken to us using a sci-fi inspired visual language. Also,
+conceptually for the topic of sustainability, the spaceship doubles
+as a longstanding metaphor for understanding systemic and envi-
+ronmental dependencies, as in Buckminster Fuller’s concept of the
+‘Spaceship Earth’, established within that era [10]].
+Asanyresearchdomainofdesignorengineering, thefieldofTEI
+idealizes the new, and in a sense therefore also the short-lived, and
+many have argued that this general culture of short-termism is one
+of the main causes of the current instability of the world [see e.g.
+27,41]. As famously phrased by Arturo Escobar [ 19], we need “a
+significantreorientationofdesignfromthefunctionalist,rationalistic,
+and industrial traditions from which it emerged, and within which it
+stillfunctionsatease,towardsatypeofrationalityandsetofpractices
+attuned to the relational” (p42). Considerations for sustainability
+have a long tradition in the design discourse [ 50], even within the
+early modern movement [ 20], yet it cannot be neglected how the
+very principle of mass production, which still governs much of
+industrial design, has had significant impact on our research field
+and the contemporary world as we know it.
+
+TEI ’25, March 04–07, 2025, Bordeaux / Talence, France Ylva Fernaeus
+Figure 1: Examples of cool, ‘beigeless’ computing. A) The Metadesk, by Ullmer & Ishii, 1997 ©ACM. B) G-Speak, by Undekoffler
+et al, set in the film Minority Report, by Steven Spielberg 2002 ©20th Century Fox. C) Lumino by ©Baudisch et al, 2010. D)
+inFORCE by ©Nakagaki et al, 2019.
+ThenotionofPost-IndustrialDesignwasintroducedaround1980,
+asdesigntheoristNigelCross[ 13]arguedthatthe‘hyperexpansion-
+ist’ Modern Movement approach to design had to be phased out.
+This new approach would entail a resource-conserving attitude to
+materialsandproduction,itwouldadvancequalityandpromote “so-
+cial and economic life reorganised in small-scale units” [ 7, p. 6].This
+could be said to represent a call for re-uniting the craft disciplines
+with design, and a revival of the so-called Arts and Crafts move-
+ment, which from within the crafts field since more than a century
+had represented an ongoing cultural resistance to the industrial de-
+sign project. The concept of crafting had become increasingly seen
+as a form of hobby, folk art, or as a playful school activity among
+children, and the post-industrial design ideals brought with it a
+re-appreciation of traditional crafts as precious [68].Now, almost
+half a century later, this notion of post-industrial design appears
+more relevant than ever. The post-industrial design ideals, as ar-
+ticulated above and by many others since, can be seen reflected
+both on the contemporary arts scene [ 9,60], in subculture [ 57], and
+even in the commercial sector. It has clear parallels to the so-called
+‘makermovement’[ 18], callsforlocal-, environmental-andsocially
+just production [ 58], and the large amount of low-tech crafts pop-
+ularly shared and showcased via online platforms such as Etsy,
+Instructables, TikTok and Instagram. Attention to the handmade
+is also present in a variety of contemporary design styles, such
+as wabi-sabi [ 72], steampunk [ 66], neo retro [ 75], and bricolage
+[72]. At the yearly TEI conferences, we observe an ever-growing
+enthusiasm for projects related to manual crafts, such as bamboo
+weaving[ 24], stainedglasswork[ 23], shoemaking[ 45], andcrochet
+[26].
+A shift away from modernist ideals in early HCI research (man-
+ifested e.g. in its focus on single user interfaces and search for
+objectively optimal solutions) has in TEI previously been mani-
+fested as a reorientation of design values towards the pragmatic,
+material, social, and subjective [ 22]. A main insight highlighted by
+Fernaeus et al in 2008 [ 22] was for instance that designers need to
+acknowledge a world more complex than is often assumed, yet they
+did not bring attention to the environmental disruptions caused by
+technology, and neither did they reflect on the entanglements of
+other-than-human lifeforms as part of interactive contexts. A simi-
+lar critique was formed in van Dijk et al’s ‘Radical Clashes’ [ 14],
+highlighting the gap in orientation between research stemmingfrom a human-centred design perspective, and research conducted
+from a perspective of engineering. Brenda Laurel [ 40] later pro-
+posedthatdesignworkshouldbegroundedinanawarenessthatwe
+belong to the biosphere, and in which ‘Technology is not the other’
+and‘Natureisnottheother’. LentonandLatour[ 41]similarlyhigh-
+lighted how, rather than focusing on relationships between specific
+organisms, the ambition should be to maintain a ‘planetary-scale
+self-regulating system’.
+Brought into design practice, these new principles could hold
+an enormous potential in the drive towards long-term sustainable
+transformations, a theme we currently see many research projects
+grappling with. Some well-known conceptual explorations include
+‘Eternally Yours’ [ 49], ‘Technology Heirlooms’ [ 35], ‘Gaian IxD’
+[40], ‘Interaction Design Otherwise’ [ 15,25], and ‘Wanting to live
+here’ [5]. More concretely we see growing number of projects that
+explicitly engage with other-than-human entanglements, not only
+withplantsandanimals[ 2,34,36,47,74],butalsoluminescentalgae
+[31],bacteria[ 56],yeast[ 8],mold[ 53],andevenhumanbodyfluids
+[29], as parts of interactive systems. The use of organic and bio-
+based materials is seen both as surface materials and for interactive
+functions, but also as core contextual elements or as props for
+staging design to be set in warm and liveable environments. This
+essay follows directly upon these developments, by a more explicit
+focus on what these works might bring to our understanding of
+aesthetics in relation to long-term sustainable transformations.
+2 Background
+In Jeffrey Bardzells introduction to the practice of Interaction Crit-
+icism from 2011 [ 4], he used the then contemporary, now classic,
+tangible interaction design exemplar Lumino [7] as an example
+case for critique. In his analysis, Bardzell brought to light some
+obvious but rarely discussed aspects of interaction design from a
+perspective of visual aesthetics, including the inherent masculine
+coding of a cold blue colour scheme, and its sleek and geometric
+forms. The analysis revealed a deep aesthetic preference, prevalent
+also in much previous works in the field, coded with similar visual
+expressions. From the Metadesk [ 32], to G-Speak, famous from
+Steven Spielberg’s 2002 science fiction film Minority Report [ 63], to
+InForce [ 46] and Radical Atoms [ 33] – they all display a preferred
+taste for translucent objects set in dark rooms, illuminated by tech-
+nology(seeFigure1). Thoughthisfamilyofprojectswereoriginally
+Turning Back to Planet Earth: Defining the Aestheticsof a NewSustainable High-Tech TEI ’25, March04–07, 2025, Bordeaux/ Talence,France
+Figure 2: FromCyberpunk (left) to Solarpunk (right).
+described as a reaction against the standard desktop paradigm of
+the time, as in Underkoffler’s notion of ‘Antisedantory Beigeless
+Computing’ [71], it can also be argued to reflect a self-image of
+technology as detached from natural ecosystems.
+Here,wewouldliketopointouthowthisshapingofa‘high-tech
+taste’, which was so prevalent in many of the early TEI exemplars,
+holds some clear aesthetic parallels to the dystopian style of the
+‘Cyberpunk’, and that the Minority Report did not depict a future
+anyonewashopingfor. TheaestheticsoftheCyberpunk,developed
+asasci-fiinspireddesignstyleduringthe1990s,tightlyfollowedthe
+legacy of early industrial ideals, with a machine aesthetics drawing
+directly on modernist visions of the future [62]. At a surface level
+one may see this reflected in much of early HCI work as a tendency
+to scientize certain forms, promoting e.g. geometrical shapes above
+ornamentation, and adverse attitude to colour (see e.g. [ 6]). The
+design ideals of the cyberpunk aesthetics were challenged already
+by Kathrine Hayles in 1999, proposing alternative visions of the
+posthuman, not to be ‘seduced by fantasies of unlimited power’ [28].
+In contrast, the science fiction genre of Solarpunk [ 55,76] repre-
+sents an aesthetic ideal that imagines an optimistic future in which
+our current problems have been successfully solved. Recurring
+technologiesinthesevisionsincludesolarpanels,solarovens,wind-
+mills, vertical gardens, bicycles, earthships, greenhouses, aquapon-
+ics, and technology being repaired, repurposed and reused. As a
+contemporary design style, Solarpunk has been most influential in
+architecture, where instead of lifeless glass and steel, the designers
+look forward to shared gardens, crafted woodwork, and cosy textile
+interiors (see illustrations in Figure 2). In interaction design we
+can see this aesthetic traced visually in surface appearances and
+layouts, and in the many niche projects concerned with nature,
+gardening and (inter)personal care, as already mentioned above.
+In particular, we would like to point to a growing range of de-
+sign exemplars that expose technology alongside and interwoven
+with green plants, organic materials, the outdoors, and rudimen-
+tary everyday use contexts populated by people. Importantly, this
+tendency appears not limited to technology but also other areas
+of design. Compare Breuer’s iconic Bauhaus chair ‘Wassily’ from
+1925, with the contemporary ‘Green Hideaway Chair’ , by European
+design agency Front in collaboration with the DIY chain Hornbach,
+from 2023 (see Figure 3). The two pieces represent fundamentally
+different ideals in terms of production, use, and visual appearance,
+butperhapsmostprominentlyinitsrelationshipto theliving ,where
+the hideaway chair doubles as a climbing structure for a live plant,
+growing from under its seat. Designed along with instructions for
+construction and assembly, it also elevates the value of the homebuilt as a form of local production, and downplays, or overrides,
+the value of the factory-made.
+One could see the above developments as a parallel to how no-
+tionsaroundtheposthumanhavesweptoverHCIindifferentwaves.
+The first wave in the late 1990s, in critiques of the sci-fi inspired
+discourse of the time, articulating cognition as distributed, em-
+bodied, and situated through thinkers like Katherine Hayles [ 28],
+Lucy Suchman [ 64], Lakoff and Johnson [ 39]. Many of the princi-
+ples of tangible and embodied interaction stem from these ideas.
+In the late 2010s, we began to see a second wave of emphasizing
+more-than-human designs as an approach to sustainable futures
+of interactive systems, now drawing more extensively on feminist
+new materialist scholars such as Donna Haraway [ 27], Karen Barad
+[3], and Rosi Braidotti [ 10]. While the first wave worked to most
+part as a counter-reaction to the disembodied ideals of the early
+computer era, the contemporary discourse on posthuman HCI is
+coming from a broader philosophical discourse of new materialism,
+eco feminism, and postcolonial studies. Our current discourse of
+TEI provides an exciting blend of these different strands, one focus-
+ing more on designing for human practice, while the latter takes
+on a broader eco-social perspective, focusing more on relations
+and interferences. Both strands however share the fundamental
+grounding in human experience and survival as deeply situated
+in the material world. In the following, we will try to articulate
+how these ideas are reflected concretely in contemporary design
+directions.
+3 Returning to “Eternally Yours”
+Back in the late nineties, about the same time as the rise of the con-
+ceptoftangibleinterfaces[ 32],VerbeekandKockelkoren[ 49],listed
+four possible strategies for sustainable product design: 1) to focus
+on services, e.g. repairing and renting, instead of new products, 2)
+eco-design,i.e. minimisepollutionthroughoutaproduct’slifecycle,
+3) recycling, of the whole product and its components, and 4) work-
+ing to expand a product’s life span. While their mission focused on
+the final point through a design vision called ‘Eternally Yours’, all
+four strategies are still relevant pointers to revisit in the context of
+sustainable tangible and embodied interaction design. How may
+these seemingly simple principles translate to the contemporary
+world of advanced high-tech products, and our felt experiences in
+the interaction with such artefacts? How might current theories
+around eco-social entanglements resonate with these design princi-
+ples, and how might they interconnect with ongoing tastemaking
+practices and aesthetic ideals? Below follows an overview of how
+TEI ’25, March 04–07, 2025, Bordeaux / Talence, France Ylva Fernaeus
+Figure3: FromBauhaustoHornbach. Left: ‘Wassily’chairbyMarcelBreuer,1925-26. ©Knoll,2024. Right: ‘GreenHideaway
+Chair’, by ©Hornbach in collaboration with Front Design, 2023.
+contemporary works approach each of these strategies. Thereafter
+follows an analysis of how these approaches can be understood
+through a broader lens of aesthetics in contemporary culture.
+3.1 Services
+The first strategy highlighted by Verbeek and Kockelkoren was
+to focus design efforts on services such as repairing and renting,
+instead of mere production of new physical products. This res-
+onates directly with current principles of the sharing economy,
+which blends interaction design, typically via smartphone apps and
+connected devices, with people, places and physical things. Devel-
+opment of such services are now tightly intertwined with physical
+productdesign. Thismeansthatbeyond‘meresoftware’, servicesto
+support shared use of the product is now often an inherent part of
+thephysicaldesign,witheverydayexamplessuchassmartspeakers
+used in families and at social gatherings, electronic house locks,
+communal eBikes with mechanical functionality connected to on-
+line payment models, and a variety of ticketing solutions used for
+public transport. One may argue that today’s electronic products
+are indeed as much about services as of production of goods.
+There are still many wicked problems surrounding this setup,
+ranging from everyday media devices losing their functionality due
+to unforeseen changes in the media landscape, to horror stories of
+users of medical prostheses being ripped off their new body parts
+as MedTech startups lost their funding for continued maintenance
+[59]. The types of services that Verbeek and Kockelkoren talked
+about were aligned more specifically to the sharing economy in a
+pre-smartphone world, and the current reality highlights that new
+troubles have appeared. Perhaps most paradoxically, despite this
+abundance of services, people in our service-oriented and so-called
+post-industrial society still use up much more resources than any
+other civilization [40].
+Theseexampleshighlighthow,comparedtothedaysofEternally
+Yours, today’s design efforts take place in fluid assemblages of
+connected devices and services [ 54], with for instance a connected
+loudspeaker requiring not only an internet connection but also auser account for some of its operations, and a subscription to a
+music library service for other operations, which in turn requires a
+smartphonewithassociatedapplications,connectionsandaccounts.
+These are fundamental features of most current high-tech gadgets,
+and which every interaction designer in this domain will need to
+be adjusted towards.
+Designing for shared use has indeed been a fundamental theme
+in much research at TEI, not least at works concerned with the
+design of physical interactions in real world settings, but attention
+to how these technologies align with online services has remained
+relatively limited. Yet the steady flow of initiatives for sharing- and
+circular use holds much potential in terms of sustainable use of
+advancedtechnology. Thecurrenttheoreticalemphasisonrelations
+is exactly in line with this understanding, which will bring more
+weight to how the interplay between service designs in the real
+world may hinder or promote long-term sustainable use practices
+with and around high-tech products.
+3.2 Eco-design
+The strategy of eco design aims to minimise pollution from a prod-
+uct’s entire life cycle through e.g. the use of organic materials, local
+production, and minimized waste during use, packaging and trans-
+portation. As repeatedly reiterated within the discourse of TEI, the
+design of computer systems can be claimed to fundamentally be
+about the shaping of electrical currents (bits) [ 70]. Yet, the default
+context for design within this field has until recently been based
+on conventional, industrial ways of living, with assumptions of,
+for instance, an endless and affordable supply of energy, for the
+shaping of bits, and for manufacturing of tangible elements [30].
+One of the main concerns for TEI is tangible interaction, i.e.
+interactive systems that are partially based on graspable items,
+such as cards, blocks, dolls, pens, and other physical objects, which
+forms a design space that historically has covered some of the most
+innovative, but also some very mundane forms of interactions. One
+ofthemostcommon,yetundistinguished,usesofsuchtechnologies
+can be found in NFC tags used for physical access and payment,
+Turning Back to Planet Earth: Defining the Aestheticsof a NewSustainable High-Tech TEI ’25, March04–07, 2025, Bordeaux/ Talence,France
+Figure 4: Examples of down-to-earth high-tech designs. A) Multimedia Wireless Bamboo Keyboard, by ©Green Stationary. B)
+An NFC Tag in Bamboo by ©Nfctagfactory. C) Human-powered electronic doorlock, by ©iLoq. D) Crank powered quote reader
+witheInk display,by©Lundström et al,2022. E) StillfromYouTuber making aSwitch ProControlleroutof wood, by ©Peter
+Knetter2021. F)Designofawearablelivinginterfaceusingapersonalpaletteofmicrobialpaints,by©Belletal,2023. G)A
+moss-covered Smart Wireless Speaker collaboration by The Mossiah & Decibelist, 2024 ©Mossiah. E) Still from animated movie
+The Wild Robot, showing robot covered in rust and moss ©Universal Pictures, 2024.
+ranging from plastic cards to key fobs, to wearable accessories such
+as bracelets or rings. An important use quality of such ‘passive
+tangibles’, is that they do not need to charge nor store energy,
+although they do require active sensing of other networked devices,
+e.g., cameras, readers, software and servers, during the moment
+of use. In Figure 4, we see two examples of passive tangibles in
+the form of a wooden NFC tag (B), and an electronic door key (C),
+in which also the lock itself is manually powered by the manual
+interaction with the key. Another form of passive tangible is the
+ubiquitous QR code, and last year’s TEI conference showcased at
+least two explorations of such, one printed in mold by [ 53] and
+the Dataslip installation [ 48], in which a simple receipt printout
+broughtlighttoaneveryday, low-techmodeofengagingphysically
+with electronic data. These simplistic, low energy, low key designs
+point to an aesthetic attitude that does not have in its interest to
+impress by grandiosity or novelty effect, but by practical, useful
+and meaningful functionality, caring for its immediate contexts of
+use as well as to its planetary impact.
+Regarding the physical we see a range new electronic prod-
+ucts covered in recycled plastic, cardboard, and organic materials
+like leather and bamboo [ 78] (See Figure 4a, for just one everyday
+example). In research, this is mirrored by an extensive range of
+explorations working with biomaterials, traditional crafts and bio-
+philicforms. Achallengeappearstobemovingbeyondthephysical
+casingtoincludealsoaspectsofbattery, processingandenergycon-
+sumption. Whilewehaveseenthatmuchcanbedoneatthelevelof
+surfacematerials,itneedstobeacknowledgedthatthemorecrucial
+environmental challenges remain at the dealing with rare metalsrequired for processing and powering of electronic components,
+and how these can be ethically produced and deployed.
+Beyond the tangible, the enormous amounts of electricity re-
+quired for e.g. data storage, online media streaming, mining of
+crypto currencies, and training of machine learning algorithms is a
+concernregularlybroughtupinpopularmedia. Thisiscontradicted
+in design with the concept of ‘the cloud’ that might on the one
+hand appear to promisefree, unlimited, and permanent storage, but
+that costs enormous resources to maintain, with damaging effects
+on both human health and the environment. This failed promise
+has inspired designs that value the ephemeral as a use quality [ 17],
+which we also can see in commercial successes like Snapchat [ 69].
+The ethical implications around the manual labour involved in e.g.
+the data labelling for generative AI systems, are other important
+topics in current debate, again grounded in the under-discussed
+material basis of interactive systems [37].
+This theme of energy as an element of eco design also highlights
+the values and possibilities of working with e.g. manually powered
+devices. Instead of using energy to e.g. bike to a store to purchase
+new batteries (and manufacturing new batteries, and building and
+maintaining electrical power plants), simple electronic systems can
+be powered by the users’ interactions, e.g. the movement of the
+peppermill remote control [ 73], by cranking (Figure 4d),or by in-
+sertingaphysicalkeytopoweradoorlock(seeFigure4c). Research
+onsuchinteractionshavedemonstratedtheneedforengagingwith
+functional demonstrators [ 43], but also a new aesthetic orientation
+that rethinks energy in interaction, in which every bit of data or
+processing power is valued. While posing new wicked problems
+TEI ’25, March 04–07, 2025, Bordeaux / Talence, France Ylva Fernaeus
+regarding labour and ergonomics, the experience of manually pow-
+ering a computer system is not necessarily negative, but appears to
+potentially provide a fulfilling sense of empowerment [52].
+Aconclusionhereisthateco-designforthecontextofinteractive
+systems needs to consider electronic components and not least
+aspects related to energy. With this follows questions of what
+aspects of an interactive setting that needs to be e.g. connected to
+the internet, include robotic movement, bright light or play audio,
+or whether less spectacular solutions may be found more efficient,
+and thus, more attractive.
+3.3 Recycling
+The third strategy for sustainable design concerns the development
+of products so that they, and their components, can be more easily
+recycled, e.g. by making it possible to disassemble and exchange
+parts. Is it possible to construct a smartphone to last a lifetime? Is
+it realistic to trust the online services upon which it depends, or
+even the human practices they aim at supporting, to last forever?
+If not, the physical as well as interactive components will need to
+be carefully designed with that insight in mind. While this was for
+longacompletelyneglectedaspectofhigh-techproductdesign,this
+strategy is undertaken from the physical side by a growing number
+of manufacturers, most notably Fairphone, as well as by companies
+that thrive on the repair, upgrading, refurbishing and reselling used
+devices. This also resonates with the ever-growing stream of re-
+search that focuses on care, repair and craft, as a counter-reaction
+to the innovation-frenzy that previously dominated the interaction
+designdiscourse. ExamplesincludeMandelandJu’smaterialre-use
+of hoverboards in what they call ‘Garbatrage’ design [ 44], but we
+see this more broadly also in the rise of for instance communal
+makerspacesandinternationalrepairdays. Otherexamplesinclude
+articulations of wabi-sabi as a design philosophy within HCI [ 69],
+and a conceptual refocus in interaction design that emphasise elec-
+tronic media as materially- and socially grounded. The extensive
+explorations of hybrid crafting, using electronics in combination
+with traditional studio crafts, play along the same design interests
+of material maintenance and re-use.
+Important to mention here is the role of digital media for repair-
+oriented design, and the strong interplay between material crafts
+and online tutorials, inspirational videos, and examples shared on
+social media. Note for instance the youtuber sharing his experi-
+ence of making a Switch game controller out of wood (see Figure
+4e), or the amount of Etsy accounts offering custom made organic
+looking skins for game controllers, in which synthetic versions
+of natural materials are valued for their visual aesthetics. While
+such skins might appear as mere surface level ‘greenwashing’, the
+possibility to replace a worn surface level material when it gets
+worn out, instead of replacing the entire gadget, and that we see
+craftspeople specialising in providing such services, fundamentally
+reflects a culture in which repairing holds value, allowing for e.g.
+refurbishing and second hand use of electronic devices [75].
+This points to an alternative take on production, assuming a
+crafting-oriented culture, in which users enthusiastically seem to
+engage in assembling products at home (as in the Green hide away
+chair above) and turn online to find out how to repair their broken
+gadgets. In such a culture, products may be explicitly designed tobe recycled, resold, and repaired, rather than merely to satisfy a
+commercially driven desire for the new and shiny.
+3.4 Expand the product’s life span
+As Verbeek and Kockelkoren [ 49] discussed already in the late
+nineties, fully functioning artefacts get thrown away because of a
+cultural obsession with the new, but also because many modern
+devices are designed so that they cannot be kept working. While
+their own design concept addressed this challenge through a rather
+romanticspeculation,theyalsohighlightedhowworkingtoexpand
+a product’s life span is a problem of culture, which may be hard to
+address through an individual design project alone. And still, this
+very same design challenge remains to this day.
+However, in a study of a 150 year old Jacquard loom still in
+use [21] we could see this strategy at work. We could not claim
+that this was purposefully pursued when the Jacquard loom was
+originally designed, but, in line with the reasoning of Verbeek and
+Kockelkoren, its design reflected a cultural climate quite different
+from ours, and from which current design practices can learn. The
+loom was entirely made from relatively fragile materials (wood,
+cardboard and string), that could be easily repaired or replaced. It
+could be adjusted and modified to fit for changing needs. Most
+importantly, it was used to produce something still considered
+valuable – locally produced, high-quality silk textile. It should also
+benotedthatwhilethatloomwasstillinuse,itdidsointhecontext
+of a museum, and as such was presented as a rarity. Indeed, it is not
+uncommon with well-kept examples of ceramics, metal works and
+furniture,seeninlong-term,continued,everydayuse,andantiquity
+fairs and vintage markets show that such items do have value. In
+comparison, contemporary high-tech products are known for their
+exceptionally short life spans.
+We all experience full disk spaces, declining battery life, broken
+screens, and malfunctioning hardware. Recognizing this is needed
+toprepareforlastingdesign,especiallyiftheserelyontechnologies
+in constant advancement. An insight from these works is that we
+cannot assume that hardware platforms, electricity, storage, means
+of connectivity or that established standards will remain. A well-
+known strategy for addressing unknown and changing use settings
+is to design for improvements and adaptations, recognizing that
+systems must be prepared for continued care.
+Importantly, the solution does not seem to come in the form of
+rocket science type of materials, but rather from down-to-earth
+common sense use practices of how to care for everyday things. As
+explained by Lucy Suchman [ 65], a bridge is only as stable as the
+practices that uphold it, depending as much on social organizing
+as on material construction. It is in a similar sense we may read
+activities like Kombucha making as a relevant material practice
+within the TEI discourse [ 8]. Similarly, high-tech products are only
+as stable as ‘we’ as a culture are willing to invest in their continu-
+ous use, in which it is more practical, economical, and simple, to
+upgrade and repair than to replace. In this culture, it is no surprise
+that a design firm such as The Mossiah [ 79], who designs e.g. moss-
+covered loudspeakers, also give courses on how to make them, and
+implicit to this is also teaching how to care for and to repair them.
+Through a similar concept as the hideaway chair which is a de-
+signed object that can be made but not bought, we also see similar
+Turning Back to Planet Earth: Defining the Aestheticsof a NewSustainable High-Tech TEI ’25, March04–07, 2025, Bordeaux/ Talence,France
+projects presented at TEI that reject not only the status of manufac-
+turing but also decenters the concept of electronic technology, e.g.
+Oneday Shoes [ 45]. This points to an aesthetic orientation of the
+post-industrial ideals, that engages with consumer-oriented design
+outside of conventional notions of industrial production.
+4 Discussion
+Bringing design work ‘down to earth’ could be seen as being about
+pragmatism, to ground design work on real world practice and
+material circumstance, about taking design visions down to a level
+of realism and feasibility. But more fundamentally, or philosophi-
+cally perhaps, it is also about material entanglements in the world,
+within the biosphere, and with the living. This thereby brings our
+perspectives down – all the way – to Earth, beyond immediate
+contexts of use. Here three main features of this new design direc-
+tion will be discussed: pragmatism and material frugality, biophilic
+entanglements, and open, shifting and life-centred values when it
+comes to aesthetic expressions.
+4.1 Pragmatism and Material Frugality
+The first theme points to a pragmatic approach that takes design
+visionstoalevelofrealismandfeasibility, recognizingtheintercon-
+nectedness of human-made designs within the real problems faced
+in this world. To address these issues, a historical perspective was
+adoptedtoanalysecontemporarytechnology,inanattempttoreach
+abetterunderstandingofbothcurrentandemergingdesignvisions.
+While more speculative approaches may highlight similar design
+values, a stronger case can be made from studying existing designs,
+and to learn from examples that were once considered promising
+butthatfailedtodeliverinthewild. TheexamplefromtheMinority
+Report for instance, belonged a family of ‘cave-interfaces’ in which
+a person would stand alone in a windowless room to manipulate
+on-screen information, which – once the technology became com-
+mercially available – ultimately didn’t play out as an attractive or
+desired work situation in real life.
+The selection of examples of ‘down-to-earth’ designs in Figure
+4 share a simplistic essence of very rudimentary character, far
+fromthewow-factorexpressedbytheblinkinglightsandspaceship
+aestheticsthatwehavebecomesoaccustomedtointhefieldof‘high
+tech’. Asunsexyand‘uncool’astheseexamplesmayseem,theystill
+appear inherently attractive, in the same sense as Cross [ 13] stated
+that‘a designer does not use a process that he finds unsympathetic to
+his own attitudes, or that generates a product which he dislikes’ [p.
+7]. The fact that contemporary designers, and design researchers,
+appear to likemaking such low-key, simple, caring and biologically
+oriented designs is thus an important signal for us to attend to.
+Design explorations at TEI has sometimes presented an ideal
+of moving away from computer screens, aiming for an entirely
+tactile and physical mode of being with technology. As highlighted
+above,weshouldalsoacknowledgethatmediacontentispartofthe
+contemporary blended world, and that media content is speaking,
+if not about or with the voice of, at least to an audience of live
+biological beings. The perceived problem of bridging the physical
+and online spaces is very different now compared to when the
+field of TEI was originally formed, with new physical interactions
+not necessarily requiring the design of new physical things. Whatis experienced in everyday life is an intense blending of screen-
+based media along with physical activities, in which new physical
+interactions do not necessarily require new gadgets. Instead new
+meaningful engagement can occur through existing technologies,
+forinstanceaniPadappusedtolearnhowtoplayonarealphysical
+piano by attending to audio signals and through its screen guiding
+a learner where and how to place their fingers. This shows physical
+interactions with and around technology without the default being
+the making of new physical electronic gadgets. This highlights the
+role for designers to stay attentive to what makes sense to people
+and to the environment, and that low-cost, simple designs, often
+appear more attractive than a more wasteful take on novelty within
+interactive technology.
+Thisthemeaddressesthepressingenvironmental, economic, and
+political challenges faced by contemporary design practices, partic-
+ularly concerning electronic waste, but also reduction of unneces-
+sary computational power. The evolving aesthetic directions raise
+important questions about sustainability and responsible design
+practices. By focusing on everyday challenges and the implications
+of design decisions, this approach seeks to foster innovation that is
+mindful of its environmental impact.
+4.2 Biophilic Entanglements
+Understanding computer systems as integrated within the bio-
+sphere, rather than isolated in a digital void, appears central to
+the current aesthetic directions discussed in this text. Such design
+efforts critique the conventional aesthetics of high-tech designs,
+favoring examples that highlight the complexities of social and ma-
+terial ecosystems. This perspective shifts interaction design from
+a simplistic one-to-one user-system model to a more nuanced un-
+derstanding of ‘fluid assemblages’ that involve multiple contexts,
+systems, artefacts, and living entities. This reality of contemporary
+high-tech designs means that any design challenge will always
+involve considerations of several systems, several people, multiple
+contexts, and a world in constant change. Importantly, this mesh
+also includes the ‘low-tech’, the materialities outside of computers,
+and nature itself.
+Theshiftfrommedia-technologicalgadgets,withaprimaryfocus
+on representing data in new forms, to designs that also engage with
+the material environment reflects a philosophical understanding
+but also a desire for the living, as living biological beings. Projects
+that incorporate biomaterials or hybrid crafting practices may in
+this sense be appreciated not merely for their novelty but for their
+aesthetic appreciation of earthly grounding and their systemic im-
+plications. While the early TEI exemplars focused on the ambitions
+to support the connection of sensing human bodies to various in-
+teractive technologies, this new stream of works is furthering the
+ambitions to connect our designs also to the material biosphere
+we are all depending on. Importantly, these complexities not only
+concern computational aspects, but also the social and material
+(eco)systems they affect, and where complexity is not to be seen
+as a hurdle to overcome or to ‘design away’, but as an evocative
+feature of reality to be embraced by designers and researchers alike
+(see e.g. Figure 4f). This theme is embraced also in popular fiction,
+such as in the contemporary animated film The Wild Robot [ 12], in
+which a case is made of a humanoid machine adapting to wildlife
+TEI ’25, March 04–07, 2025, Bordeaux / Talence, France Ylva Fernaeus
+on a remote island, and towards the end of the film being broken,
+repaired and covered in rust and moss (see Figure 4h).
+Here we should point out that simply including biomaterials
+or other species (e.g. hooking up a live plant to an electronic
+system) or an elaborate hybrid crafting practice, can never count
+as sustainable as such. Neither can we assume such experiments
+to take on a more systemic perspective on interaction than say,
+an engineering effort aiming to reduce data traffic to minimize
+electrical consumption. Yet, we can see that these projects are
+following an aesthetic appreciation towards the earthy biology we
+are all part of, and this is noteworthy. In that case, also biomimicry,
+or the inclusion of greenery depicted in direct surroundings of
+technology (see the iLoq in Figure 4c), becomes central to the world
+aimed for in the design work.
+This direction is an attempt to articulate the aesthetics of blend-
+ing the artificial with the living, in what we read as careful, criti-
+cal, and circular design practices. Importantly these explorations
+intersect various fields, including engineering, artistic practice,
+contemporary philosophy, and science, investigating mechanisms
+that extend beyond the conventional concerns of state-of-the-art
+industrial design. Here, the interrogation of design mechanisms
+transcends traditional industrial practices, encouraging a more
+nuanced understanding of the interplay between technology and
+human experience.
+4.3 Design Values as Culturally Negotiated
+As mentioned above, the historical perspective taken in this essay,
+in a sense reality-checking design visions from the past, could po-
+tentially inform current and future design visions. Importantly, as
+culture and technical circumstances evolve, so do the practicality of
+specific design visions and concepts. As commonly noted, Durrel
+Bishop’s iconic marble answering machine of the 1990’s [see e.g.
+31], was fundamentally tied to a context of using wired telephones
+and voice-operated answering machines, which from a perspec-
+tive of today’s technological landscape appears rather farfetched
+however simplistic and practice-grounded it appeared at its time.
+This also highlights how design visions should be understood to
+speak more about its current societal concerns, and thereby more
+than anything working as historical artefacts [ 1]. Such backwards-
+looking perspective may help to highlight how design values shift
+over time, and that tastes, styles and aesthetic norms are matters
+set in constant cultural negotiation and for which there will al-
+ways be openings for disagreement. Rather than a monoculture
+allowingonly one visual style or identity, the post-industrial design
+vision points to a multitude of locally grounded, craft based, and
+contextually driven practices. Within this plurality, there should
+be openings for an endless variety of sustainable high-tech designs
+to come.
+Withinthiscontext,wecouldseehowHuman-ComputerInterac-
+tion (HCI) is increasingly aligning with the ideals of post-industrial
+design, perhaps especially within the field of Tangible and Embed-
+ded Interaction (TEI). Engagements by media artists and crafts com-
+munities have demonstrated how regional crafts and subcultures
+can inform and enrich product design, allowing for the creation
+of objects that resonate with diverse aesthetic sensibilities. This,
+together with recent hype of ‘post-digital’ manual crafts, highlightsthefeltexperienceofbeingactivelyengaged,ofdevelopingskills,of
+not just passively receiving the ready-made. Instead of the friction-
+free vision of ubiquitous computing, or body-less intelligence, the
+post-industrial vision appears to embrace the experience of manual
+work, as craftspeople but also as users.
+It seems that recent economic, political, and environmental
+challenges, coupled with a renewed interest in material practices,
+thereby prompted the emergence of alternative design values. This
+evolving aesthetic direction influences interactive systems and ex-
+periences, with a particularly pressing concern within our field
+being the negative environmental impact associated with high-tech
+products, especially regarding electronic waste. Everyday chal-
+lenges associated with this theme includes ensuring that service
+upgrades and new product versions do not exacerbate existing en-
+vironmental problems associated with the design, use, and waste
+of technology. Through this lens, we can better navigate the com-
+plexities of design, fostering practices that are not only innovative
+but also environmentally responsible, and from which perspective
+the once ‘cool’ might now rather be dispelled as ‘cold’. In this pa-
+per we have combined insights from various historical movements
+and contemporary design trends (e.g., Solarpunk), to comment on
+the broader design field, within which TEI is only one small part,
+but with its focus on the research front of high-tech interactive
+systems holding the inherent potential to generate constructive
+impacts and drive significant, long-lasting change.
+5 Conclusion
+Wehaveherediscussedhowresearchteams,designstudents,artists,
+makers, and activists, are gathering within the context of TEI to
+continuously and playfully explore the aesthetic potential of repair,
+upcycling, repurposing, as well as new technical solutions that
+support more sustainable electronic products and services. By
+such experimenting with material forms, technologies, styles, and
+expressions,theTEIconference’sinterdisciplinarycontextprovides
+a very fertile intellectual climate for debate, critique and reflection.
+By revisiting notions of post-industrial design in the context of
+established approaches for sustainable product design, we have
+analysed how today’s design practices are materially linked to spe-
+cific technological and societal trends. We discussed this through
+three interpretations of how a sustainable TEI moves away from a
+‘spaceshipaesthetics’ , through pragmatism and material frugality,
+systemic and biophilic design, and through diverse, shifting and
+plural takes on aesthetic ideals. These three themes collectively
+highlighttheneedforanapproachtodesignthatprioritizessustain-
+able design as a culturally grounded engagement with the material
+world.
+To sum up, a large number of projects are currently using mate-
+rial craftsmanship to engage with hopeful visions of a sustainable
+future, drawing on strong themes in contemporary culture, expos-
+ing some of the aesthetic qualities that appear to characterize the
+experience of sustainably designed products. Importantly, this goes
+beyond surface materials to focus also on interactive functionality,
+with a tendency to value a felt experience of rich textures, warmth,
+brightness, earthy materials and flourishing live plants. To sum this
+up, it seems this spaceship is turning back to planet Earth.
+Turning Back to Planet Earth: Defining the Aestheticsof a NewSustainable High-Tech TEI ’25, March04–07, 2025, Bordeaux/ Talence,France
+Acknowledgments
+This text is the result of intellectual engagements with colleagues
+who helped shaping this work, in particular Maria Göransdotter,
+Christoffel Kuenen, Anna Vallgårda, Andreas Lindegren, and Seda
+Özçetin. A special thanks also the TEI community whose collective
+design efforts are used for analysis, and to each of the anonymous
+reviewers for encouragement and constructive comments. This
+work was funded by Swedish Research Council, project no: 2019-
+04826.
+References
+[1]Jacques. Attali and Jeremy. Leggatt. 2011. A brief history of the future: a brave
+and controversial look at the twenty-first century.
+[2]Martin Avila. 2022. Designing for Interdependence: A Poetics of Relating. https:
+//doi.org/10.24135/link2022.v3i1.185
+[3]Karen Barad. 2003. Posthumanist Performativity: Toward an Understanding of
+How Matter Comes to Matter. Signs: Journal of Women in Culture and Society 28,
+3: 801–831. https://doi.org/10.1086/345321
+[4]Jeffrey Bardzell. 2011. Interaction criticism: An introduction to the practice.
+Interactingwith Computers 23, 6: 604–621. https://doi.org/10.1016/j.intcom.2011.
+07.001
+[5]Jeffrey Bardzell, Shaowen Bardzell, and Ann Light. 2021. Wanting to live here:
+Design after anthropocentric functionalism. In ConferenceonHumanFactorsin
+Computing Systems - Proceedings . https://doi.org/10.1145/3411764.3445167
+[6]David Batchelor. 2000. Chromophobia . Reaktion books.
+[7]Patrick Baudisch, Torsten Becker, and Frederik Rudeck. 2010. Lumino: Tangible
+blocks for tabletop computers based on glass fiber bundles. In Conference on Hu-
+man Factors in Computing Systems - Proceedings . https://doi.org/10.1145/1753326.
+1753500
+[8]FionaBell, JoshuaCoffie,andMirelaAlistar.2024.Bio-DigitalCalendar: Attuning
+to Nonhuman Temporalities for Multispecies Understanding. In Proceedingsof
+the Eighteenth International Conference on Tangible, Embedded, and Embodied
+Interaction , 1–15. https://doi.org/10.1145/3623509.3633386
+[9]Anthea Black and Nicole Burisch (eds.). 2021. The NewPolitics of the Handmade .
+Bloomsbury Publishing Plc. https://doi.org/10.5040/9781788316583
+[10]Rosi Braidotti. 2016. Posthuman Critical Theory. In CriticalPosthumanismand
+Planetary Futures . Springer India, New Delhi, 13–32. https://doi.org/10.1007/978-
+81-322-3637-5_2
+[11]Richard Buckminster Fuller. 1969. Operating Manual for Spaceship Earth . Lars
+Müller Publishers, Zurich, Switzerland.
+[12]Chris Sanders. 2024. The Wild Robot . Universal Pictures.
+[13]Nigel Cross. 1981. The coming of post-industrial design. Design Studies 2, 1: 3–7.
+https://doi.org/10.1016/0142-694X(81)90023-5
+[14]Jelle van Dijk, Camille Moussette, Stoffel Kuenen, and Caroline Hummels. 2013.
+Radical clashes. In Proceedings of the 7th International Conference on Tangible,
+EmbeddedandEmbodiedInteraction , 323–326. https://doi.org/10.1145/2460625.
+2460680
+[15]Carl DiSalvo, Phoebe Sengers, and Hrönn Brynjarsdóttir. 2010. Mapping the land-
+scape of sustainable HCI. In Proceedings of the SIGCHI Conference on Human Fac-
+tors in Computing Systems , 1975–1984. https://doi.org/10.1145/1753326.1753625
+[16]Tom Djajadiningrat, Ben Matthews, and Marcelle Stienstra. 2007. Easy doesn’t do
+it: skill and expression in tangible aesthetics. Personal and Ubiquitous Computing
+11, 8: 657–676. https://doi.org/10.1007/s00779-006-0137-9
+[17]T Döring, A Sylvester, and A Schmidt. A Design Space for Ephemeral User
+Interfaces.In Proceedingsofthe7thInternationalConferenceonTangible,Embedded
+and Embodied Interaction , 75–82. https://doi.org/10.1145/2460625.2460637
+[18]Dale Dougherty. 2012. The Maker Movement. Innovations: Technology, Gover-
+nance,Globalization 7, 3: 11–14. https://doi.org/10.1162/INOV_a_00135
+[19]Arturo Escobar. 2018. Designs for the Pluriverse . Duke University Press. https:
+//doi.org/10.1215/9780822371816
+[20]Kjetil Fallan. 2022. Ecological by Design . The MIT Press. https://doi.org/10.7551/
+mitpress/14518.001.0001
+[21]YlvaFernaeus,MartinJonsson,andJakobTholander.2012.Revisitingthejacquard
+loom. InProceedingsoftheSIGCHIConferenceonHumanFactorsinComputing
+Systems, 1593–1602. https://doi.org/10.1145/2207676.2208280
+[22]Ylva Fernaeus, Jakob Tholander, and Martin Jonsson. 2008. Towards a new set of
+ideals: Consequences of the practice turn in tangible interaction. In Proceedings
+of the International Conference on Tangible and Embedded Interaction (TEI’08) ,
+223–230.
+[23]Daniel Gagnon-King, Lee Jones, and Sara Nabil. 2023. Interactive Stained-Glass:
+Exploring a new design space of traditional hybrid crafts for novel fabrication
+methods. In Proceedings of the Seventeenth International Conference on Tangi-
+ble, Embedded, and Embodied Interaction , 1–15. https://doi.org/10.1145/3569009.3572796
+[24]Peizhong Gao, Tanhao Gao, Yanbin Yang, Zhenyuan Liu, Jianyu Shi, and Jin Li.
+2023. Bamboo Agents: Exploring the Potentiality of Digital Craft by Decoding
+and Recoding Process. In Proceedings of the Seventeenth International Conference
+onTangible,Embedded,andEmbodiedInteraction , 1–13. https://doi.org/10.1145/
+3569009.3572746
+[25]Mark Garcia. 2007. Otherwise Engaged: New Projects in Interactive Design.
+Architectural Design 77, 4: 44–53. https://doi.org/10.1002/ad.486
+[26]Kaja Seraphina Elisa Hano and Valkyrie Savage. 2024. Hybrid Crochet: Explor-
+ing Integrating Digitally-Fabricated and Electronic Materials with Crochet. In
+ProceedingsoftheEighteenthInternationalConferenceonTangible,Embedded,and
+Embodied Interaction , 1–6. https://doi.org/10.1145/3623509.3635257
+[27]Donna J. Haraway. 2016. A Cyborg Manifesto. In ManifestlyHaraway . University
+of Minnesota Press, 3–90. https://doi.org/10.5749/minnesota/9780816650477.003.
+0001
+[28]N. Katherine Hayles. 1999. HowWeBecamePosthuman . University of Chicago
+Press. https://doi.org/10.7208/chicago/9780226321394.001.0001
+[29]Karey Helms. 2022. A Speculative Ethics for Designing with Bodily Fluids. In
+ConferenceonHumanFactorsinComputingSystems-Proceedings . https://doi.org/
+10.1145/3491101.3516395
+[30]Lars Erik Holmquist. 2023. Bits are Cheap, Atoms are Expensive: Critiquing the
+TurnTowardsTangibilityinHCI.In ExtendedAbstractsofthe2023CHIConference
+onHumanFactorsinComputingSystems , 1–8. https://doi.org/10.1145/3544549.
+3582744
+[31]Y Ikeya and B Barati. Designing an Algal Relay Computer: A Critical Orientation
+in Exploring More-than-Human Temporality. In ExtendedAbstractsofthe2023
+CHIConferenceon HumanFactorsin ComputingSystems , 1–6. https://doi.org/10.
+1145/3544549.3585874
+[32]H Ishii and B Ullmer. Tangible Bits: Towards Seamless Interfaces between People,
+Bits and Atoms. In Proceedings of the ACM SIGCHI Conference on Human Factors
+in Computing Systems (CHI ’97 , 234–241. https://doi.org/10.1145/258549.258715
+[33]Hiroshi Ishii, Dávid Lakatos, Leonardo Bonanni, and Jean Baptiste Labrune. 2012.
+Radical atoms: Beyond tangible bits, toward transformable materials. Interactions
+19, 1. https://doi.org/10.1145/2065327.2065337
+[34]Sylvia Janicki, Alexandra Teixeira Riggs, Noura Howell, Anne Sullivan, and
+Nassim Parvin. 2024. Sensing Bodies: Engaging Postcolonial Histories through
+More-than-Human Interactions. In Proceedings of the Eighteenth International
+ConferenceonTangible,Embedded, andEmbodiedInteraction , 1–15. https://doi.
+org/10.1145/3623509.3633389
+[35]HeekyoungJung, ShaowenBardzell, EliBlevis, JamesPierce, andErikStolterman.
+2011. How Deep Is Your Love: Deep Narratives of Ensoulment and Heirloom
+Status. 5, 1: 59–71.
+[36]Vilma Kankaanpää and Ilyena Hirskyj-Douglas. 2023. Prototyping with Monkeys:
+Uncovering What Buttons for Monkeys Look Like. In ProceedingsoftheSeven-
+teenth International Conference on Tangible, Embedded, and Embodied Interaction ,
+1–13. https://doi.org/10.1145/3569009.3572735
+[37]Shivani Kapania, Alex S Taylor, and Ding Wang. 2023. A hunt for the Snark:
+Annotator Diversity in Data Practices. In Proceedings of the 2023 CHI Conference
+on Human Factors in Computing Systems , 1–15. https://doi.org/10.1145/3544548.
+3580645
+[38]Raymund Konigk and Zakkiya Khan. 2015. The ethics of tastemaking: to-
+wards responsible conspicuous consumption. 191–199. Retrieved August 2, 2024
+from https://research.brighton.ac.uk/en/publications/the-ethics-of-tastemaking-
+towards-responsible-conspicuous-consump
+[39]George Lakoff and Mark Johnson. 1999. Philosophy in the Flesh: The Embodied
+Mind and Its Challenge to Western Thought . Basic Books.
+[40]Brenda Laurel. 2011. Gaian IxD. Interactions 18, 5: 38–46. https://doi.org/10.1145/
+2008176.2008187
+[41]TimothyM.LentonandBrunoLatour.2018.Gaia2.0. Science361,6407: 1066–1068.
+https://doi.org/10.1126/science.aau0427
+[42]Ann Light, Colin M. Gray, Kristina Lindström, Laura Forlano, Dan Lockton, and
+Chris Speed. 2022. Designing Transformative Futures. https://doi.org/10.21606/
+10.21606/DRS.2022.896
+[43]AndersLundströmandYlvaFernaeus.2022.MakingCrank-PoweredInteractions:
+Methods, Demonstrators, Materials. In Designing Interactive Systems Conference ,
+913–924. https://doi.org/10.1145/3532106.3533453
+[44]Ilan Mandel and Wendy Ju. 2023. Recapturing Product as Material Supply: Hov-
+erboards as Garbatrage. In Proceedings of the 2023 ACM Designing Interactive
+Systems Conference , 564–579. https://doi.org/10.1145/3563657.3596128
+[45]Troy Nachtigall, Oscar Tomico, and Ron Wakkary. 2019. Oneday shoes: A maker
+toolkit to understand the role of co-manufacturing in personalization. In TEI
+2019-Proceedingsofthe13thInternationalConferenceonTangible,Embedded,and
+Embodied Interaction . https://doi.org/10.1145/3294109.3295637
+[46]Ken Nakagaki, Daniel Fitzgerald, Zhiyao John Ma, Luke Vink, Daniel Levine,
+and Hiroshi Ishii. 2019. Inforce: Bi-directional “Force” Shape Display For Haptic
+Interaction. In TEI 2019 - Proceedings of the 13th International Conference on
+Tangible,Embedded, andEmbodiedInteraction . https://doi.org/10.1145/3294109.
+3295621
+TEI ’25, March 04–07, 2025, Bordeaux / Talence, France Ylva Fernaeus
+[47]Hye Yeon Nam, JaNiece Campbell, Andrew M. Webb, and Brendan Harmon.
+2023. FloraWear: Wearable Living Interface. In Proceedings of the Seventeenth
+InternationalConferenceonTangible,Embedded,andEmbodiedInteraction , 1–15.
+https://doi.org/10.1145/3569009.3572801
+[48]Alejandra Gomez Ortega, Renee Noortman, Jacky Bourgeois, and Gerd Kortuem.
+2024. Dataslip: Into the Present and Future(s) of Personal Data. In ACM Interna-
+tional ConferenceProceeding Series . https://doi.org/10.1145/3623509.3633388
+[49]P P. Verbeek and Kockelkoren. 1998. The Things That Matter Peter-Paul Verbeek
+and Petran Kockelkoren. Design Issues 14, 3: 28–42.
+[50]Victor Papanek. 1972. Desgin For The Real World .
+[51]Marianne Graves Petersen, Ole Sejer Iversen, Peter Gall Krogh, and Martin
+Ludvigsen. 2004. Aesthetic interaction. In Proceedings of the 5th conference on De-
+signing interactive systems: processes, practices, methods, and techniques , 269–276.
+https://doi.org/10.1145/1013115.1013153
+[52]James Pierce and Eric Paulos. 2010. Materializing energy. In Proceedingsofthe8th
+ACMConference on Designing InteractiveSystems , 113–122. https://doi.org/http:
+//doi.acm.org/10.1145/1858171.1858193
+[53]Valentin Postl, Wolfgang Schwendtbauer, Thomas Preindl, and Kathrin Probst.
+2024. Mold Printer: Creating Living Self-Revealing Artworks. In Proceedingsof
+the Eighteenth International Conference on Tangible, Embedded, and Embodied
+Interaction , 1–12. https://doi.org/10.1145/3623509.3633396
+[54]Johan Redström and Heather Wiltse. 2019. ChangingThings . Bloomsbury Pub-
+lishing Plc. https://doi.org/10.5040/9781350004368
+[55]Juan David Reina-Rozo. 2021. Art, Energy and Technology: the Solarpunk Move-
+ment.InternationalJournalofEngineering,SocialJustice,andPeace 8, 1: 55–68.
+https://doi.org/10.24908/ijesjp.v8i1.14292
+[56]Takumi Saeki and Kazuhiro Jo. 2024. ’ イ’(1926) by BioLuminescent Bacteria. In
+ProceedingsoftheEighteenthInternationalConferenceonTangible,Embedded,and
+Embodied Interaction , 1–3. https://doi.org/10.1145/3623509.3635320
+[57]Michael Scott. 2017. ‘Hipster Capitalism’ in the Age of Austerity? Polanyi Meets
+Bourdieu’s New Petite Bourgeoisie. CulturalSociology 11, 1: 60–76. https://doi.
+org/10.1177/1749975516681226
+[58]Giulia Sesini, Cinzia Castiglioni, and Edoardo Lozza. 2020. New Trends and
+PatternsinSustainableConsumption: ASystematicReviewandResearchAgenda.
+Sustainability 12, 15: 5935. https://doi.org/10.3390/su12155935
+[59]Ashley Shew. 2023. AgainstTechnoableism: Rethinking Who Needs Improvement .
+W. W. Norton & Company.
+[60]Shu Hung and Joseph Magliaro. 2010. By Hand: The Use of Craft in Contemporary
+Art. Princeton Architectural Press. Retrieved from http://www.amazon.com/By-
+Hand-The-Craft-Contemporary/dp/1568989423
+[61]Richard Shusterman. 2011. Somaesthetics: Thinking Through the Body and
+Designing for Interactive Experience. In Encyclopedia of Human-Computer In-
+teraction , Mads Soegaard and Rikke Friis Dam (eds.). The Interaction Design
+Foundation. Retrieved from http://www.interaction-design.org/encyclopedia/somaesthetics.html
+[62]V Šimbelis, A Lundström, K Höök, J Solsona, and V Lewandowski. Metaphone:
+machine aesthetics meets interaction design. In ProceedingsoftheSIGCHIConfer-
+enceonHumanFactorsinComputingSystems(CHI’14).AssociationforComputing
+Machinery , 1–10. https://doi.org/10.1145/2556288.2557152
+[63]Steven Spielberg. 2002. Minority Report . 20th Century Fox.
+[64]L Suchman. 1987. Plans and Situated Actions . Cambridge University Press.
+[65]Lucy Suchman. 2000. Organizing Alignment: A Case of Bridge-building. Organi-
+zation7, 2. https://doi.org/10.1177/135050840072007
+[66]Joshua Tanenbaum, Karen Tanenbaum, and Ron Wakkary. 2012. Steampunk as
+design fiction. Proceedings of the 2012 ACM annual conference on Human Factors
+in Computing Systems - CHI ’12 : 1583. https://doi.org/10.1145/2207676.2208279
+[67]Cameron Tonkinwise. 2014. Design Away. In DesignasFuture-Making . Blooms-
+bury Publishing Plc, 198–213. https://doi.org/10.5040/9781474293907-0022
+[68]Vasiliki Tsaknaki. 2017. Making preciousness: Interaction design through studio
+crafts. KTH Royal Institute of Technology, Stockholm.
+[69]Vasiliki Tsaknaki and Ylva Fernaeus. 2016. Expanding on Wabi-Sabi as a Design
+Resource in HCI. In Proceedings ofthe 2016 CHI Conferenceon Human Factors in
+Computing Systems , 5970–5983. https://doi.org/10.1145/2858036.2858459
+[70]B Ullmer, O Shaer, A Mazalek, and C Hummels. WeavingFireintoForm: Aspira-
+tions for Tangible and Embodied Interaction . Morgan & Claypool.
+[71]John Underkoffler. 1997. Antisedentary Beigeless Computing. Personal Technolo-
+gies1, 1: 28–40. https://doi.org/10.1007/BF01317886
+[72]Anna Vallgårda and Ylva Fernaeus. 2015. Interaction Design as a Bricolage Prac-
+tice. InProceedings of the International Conference on Tangible, Embedded and
+Embodied Interaction (TEI ’15) , 173–180. https://doi.org/10.1145/2677199.2680594
+[73]Nicolas Villar and Steve Hodges. 2010. The peppermill. In Proceedings of the
+International Conference on Tangible, Embedded and Embodied Interaction TEI ’10 ,
+29. https://doi.org/10.1145/1709886.1709927
+[74]Ron Wakkary. 2021. ThingsWeCouldDesign . The MIT Press. https://doi.org/10.
+7551/mitpress/13649.001.0001
+[75]T. Wallner, L. Magnier, and R. Mugge. 2019. Can refurbished products feel like
+antiques? The role of the neoretro design style on consumers’ evaluation of
+refurbished products. In 3rdPLATE2019 Conference , 825–834.
+[76]Rhys Williams. 2019. ‘This Shining Confluence of Magic and Technology’: So-
+larpunk, Energy Imaginaries, and the Infrastructures of Solarity. Open Library of
+Humanities 5, 1. https://doi.org/10.16995/olh.329
+[77]PeterWright,JayneWallace,andJohnMcCarthy.2008.Aestheticsandexperience-
+centered design. ACMTransactionsonComputer-HumanInteraction 15, 4: 1–21.
+https://doi.org/10.1145/1460355.1460360
+[78]Green Stationery, Green Office, Recycled Paper. Retrieved November 18, 2024
+from https://www.greenstat.co.uk/
+[79]The Mossiah - All Things Moss. Retrieved November 18, 2024 from https://
+themossiah.sg/

@@ -1,0 +1,1152 @@
+AI and Future-Making: Design, Biases, and Human-Plant
+Interactions
+Maliheh Ghajargar
+ghajargar@chapman.edu
+Chapman University
+CA, USA
+ABSTRACT
+Design researchers and practitioners are turning to generative AI
+(genAI) to support activities such as ideation and concept devel-
+opment in pursuit of preferred futures. At the same time, genAI is
+known to have biases, which prompts questions about how these
+biases might adversely affect design practices. In the domain of
+sustainable HCI, with its recent trends in human-nature interac-
+tions and more-than-human design, the question can be further
+refined into whether and how genAI biases might perpetuate an-
+thropocentric biases that these practices are increasingly seeking
+to confront. In the present research, we conducted three work-
+shops, focusing on genAI for human-plant interactions; in the first
+workshop, we created design fiction concerning human-plant in-
+teractions in Southern California in the year 2100, building on the
+second, the third workshop sought to identify and bring into focus
+relevant units of analysis. Results included the identification of
+three kinds of AI biases in plant representations that affect design
+practices of future-making: species, ecologies, and interactions.
+CCS CONCEPTS
+•Human-centered computing →HCI theory, concepts and
+models .
+KEYWORDS
+Design Methods, Generative AI, AI bias, Design Fiction, Human-
+nature Interaction
+ACM Reference Format:
+Maliheh Ghajargar. 2024. AI and Future-Making: Design, Biases, and Human-
+Plant Interactions. In Proceedings of the 27th International Academic Mindtrek
+Conference (Mindtrek ’24), October 08–11, 2024, Tampere, Finland. ACM, New
+York, NY, USA, 12 pages. https://doi.org/10.1145/3681716.3681738
+1 INTRODUCTION
+The contributions of future studies in design include searching the
+ways design methods and processes can be a means to imagine and
+even consider design as a future-making practice towards more sus-
+tainable societies [ 34]. Some of the notable methods and approaches
+in this area are critical [ 5], speculative design [ 4,29], adversarial
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+©2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1823-6/24/10
+https://doi.org/10.1145/3681716.3681738design [ 26], critical fabulations [ 67] and design fiction [ 12,22]. Al-
+though diversely argued, what is shared across all these approaches
+is a critical lens on the past, on practices, standards, status quo,
+and mindsets already practiced in society, in an attempt to raise
+awareness on social issues such as gender, race and nationality, and
+other socio-economy-political discrimination. As such, they offer
+or stimulate building visions for attainable futures, informed by
+past and present real-world issues[ 29]. With all of the attention and
+resources devoted to AI, trying to envision and beneficially shape
+its contribution to our future–particularly in light of its training on
+data itself steeped in various forms of discrimination and repres-
+sion, design’s role in futuring is likely to feature AI simultaneously
+as a key object of its inquiry, and also a toolby which that inquiry
+is undertaken.
+In other words, genAI has been added to the designer’s toolkit,
+and thus is likely to contribute to future-making agendas in which
+AI is featured. For example, the role of text-to-text genAI models in
+creativity [ 78], or genAI as a collaborator, teammate, or tool [ 63] to
+write fiction [ 35], to sketch [ 46] and to even contribute to creating
+ideation tools such as mood boards [83].
+At the same time, we are facing environmental and sustainability
+issues such as climate change and loss of biodiversity; speculative
+approaches have been contributing to address these issues by rais-
+ing awareness, creating debates to empower people to imagine
+and make futures that are more sustainable and just. For instance,
+sustainable design fiction is a practice-oriented approach for in-
+teraction designers to help see sustainable behaviors as part of
+interrelated elements and remove the focus on individual behav-
+iors and artifacts [ 81]. Akin to sustainable design fiction is nature
+fiction. Nature fiction or ecofiction are stories related to the natural
+environment and are concerned about human-nature relationships,
+human responsibility towards nature and expanding the legitimate
+perspectives to more than humans perspectives and rights [ 30]. In
+the context of design, nature fiction is a speculative and co-design
+approach that focuses on the relationships between people and
+nonhuman stakeholders for example, in a garden and engaging
+gardeners in the participatory process, which has implications for
+broader concerns of imagining sustainable and more democratic
+futures [ 65]. In another study on the use of speculative methods for
+sustainability, the authors suggest thinking through them, when
+we aim to use them in support of sustainability goals in HCI. The
+authors offer provocations to designers seeking to use speculative
+practice in support of sustainability goals such as who is specu-
+lating and under what circumstances? what is held constant, and
+what is variable? and what does this speculation risk? [71].
+Thus, AI used as an ideation, speculative, and future-making tool
+brings one of its biggest concerns to our attention: AI is biased. The
+24
+
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Maliheh Ghajargar
+AI is trained and built upon human-created data, and so it perpetu-
+ates the existing historical patterns of oppression, and potentially,
+they become discriminatory technologies [ 18,59]. In the context of
+genAI, researchers have found biased and discriminatory responses
+from ChatGPT and in several popular text-to-image applications.
+Particularly, the authors found systematic gender and racial biases,
+as well as biases in facial expressions and appearances [ 90]. There
+have also been concerns raised in many other areas, where existing
+AI biases threaten transparency and ethical use of technology and
+their associated risks, [ 42], for instance, in financial systems and
+credit scoring [ 61], in HRI applications [ 39] and in Generative AI
+[31, 73].
+Because AI is trained on massive datasets that were created in
+the past, AI reproduces them in the present and project them into
+the future. Thus, we found friction between genAI bias and its tech-
+nological capacities for sustainable future-making. In this paper, we
+explore this friction by the research question: how can generative AI
+perform in future-making processes (speculative design, creativity,
+and design ideation) despite its biases? and what the capabilities and
+limitations of this technological design tool are for future making?
+This paper is part of a broader research project which aims to
+speculatively study human-plant relationships through AI to con-
+tribute to sustainable and more than human design approaches
+through three workshops. The study of human-plant interactions
+have been taken up in HCI community to support our connections
+to nature and to go beyond Zoocentric perspectives [ 37], noticing
+diverse forms of life in our surroundings and our entanglements
+with other species [ 53] and towards establishing a more than human
+agenda in human-plant interaction designs [ 52]. This agenda fo-
+cuses on the agency, life, and sensing capabilities of plants as a form
+of living and seeks to advocate for a non-utilitarian perspective.
+Thus, we argue, and as we show in this paper, one of the AI’s
+biases is its human-centeredness, which marginalizes nature in
+general and plants in particular due to the zoocentric and human-
+centric tendency of our design and technological approaches. This
+paper offers reflection on how designers can use genAI for future-
+making creative envisioning, and speculative designing in the con-
+text of human-plant interactions (HPI), and how this can be ex-
+tended to include other areas of HCI, such as human-AI interaction
+and human-AI creativity.
+This paper is structured as follows: We present related works
+on human-nature interactions and their speculative approaches,
+AI biases, and some of the roles that AI has played in ideation
+and creativity processes. Then we present our methodology, which
+includes three workshops conducted with students majoring in
+design and design researchers. The results section focuses on areas
+of genAI biases as they relate to human-plant interaction. We con-
+clude the paper by reflecting on the role of biases in genAI and us,
+in future-making processes.
+2 RELATED WORKS
+To position our work within the broader related areas in HCI and
+design research, we outline three research streams that this paper
+is informed by: (1) human-nature interactions and technology and
+related speculative approaches, (2) AI bias and (3) AI for ideation
+and creativity.2.1 Human-nature Interactions and Technology
+Sustainable HCI [ 27], interaction design [ 11], more than human de-
+sign [ 80] and Human-nature interaction design [ 48,49,70,72] have
+been arguing for designing a more sustainable and just future for
+humans and nonhumans, including humans and AI from an ecologi-
+cal [88] and situated perspective [ 58]. In this area, researchers either
+seek to use technology to mediate the human-nature relationship
+or to consider nature as a participant in the design process under
+the umbrella of human-nature interaction or multispecies design
+[86]. For the purpose of this paper, we focused only on examples
+that involved plants in diverse manners and situations (e.g., in a gar-
+den, farm, forest, urban setting, etc.) and filtered out human-animal
+interaction and human-microbial interaction design projects. For
+instance, Wang designed and tested the growable jar lamp, with
+the aim of encouraging people to notice plants and their values in
+their everyday lives [ 84]. Similarly, Nam et al.’s FloraWear designed
+artifacts that aim to mediate human-plant relationships. FloraWear
+is another example and is a DIY, wearable living interface that sup-
+ports noticing plants by growing them in a wearable, always in
+touch with human bodies. Loh et al. particularly surveyed a series
+of human-plant interaction design projects where plants played
+different roles and offered ways that HCI can move from the view of
+plants as utilitarian objects to plants as co-inhabitants contributing
+to the more-than-human turn in human-plant interaction design
+[52]. Bertran et al. developed a design methodology that facilitates
+the co-design process in outdoor spaces insofar as to support our
+endeavors in making nature a participant in our design processes
+[2]. Rodgers et al. identified key human relationships with nature
+through a probe study with the participants on their relationship
+with their garden, inspired by Phenology, the study of cyclic biolog-
+ical events [ 64]. Spors et al. conducted a scoping literature review of
+human-nature interaction publications and identified four types of
+interactions with nature: (1) nature as a research site, (2) depiction
+and portrayal of nature, (3) modalities of encountering nature, (4)
+understandings of nature [72].
+Some other researchers have used critical and speculative de-
+sign approaches [ 4,29] and design fiction [ 12,22,75] to study
+human-nature interactions and relationships. For instance, sustain-
+able design fiction is a practice-oriented approach for interaction
+designers to help see sustainable behaviors as part of interrelated
+elements and go beyond noticing individual behaviors and artifacts
+as isolated [ 81]. Nature fiction in interaction design is a speculative
+and co-design approach that focuses on the relationships between
+people and nonhuman stakeholders in the garden, engaging gar-
+deners, which has implications for broader concerns of imagining
+sustainable futures [ 65]. In another study on the use of speculative
+methods for sustainability, the authors offered four provocations
+to think through when we aim to use speculative practices such
+as speculative and critical design and design fiction in support of
+sustainability goals in HCI, such as who is speculating and under
+what circumstances? what is held constant, and what is variable?
+and what does this speculation risk? [71].
+What is shared among these works is an attempt to (re)connect
+to nature and plants and, by that, speculate about, envision, and
+make more sustainable futures, possible.
+25
+AI and Future-Making: Design, Biases, and Human-Plant Interactions Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+2.2 AI Bias
+As algorithms are increasingly being weaved into our daily lives
+at work, school, and home, several concerns related to ethics and
+trust have been raised. One of the central concerns that affects trust
+and ethical use of AI systems is bias. To ensure an ethical use of
+AI, the HCI design community agrees that we need to make sure
+that AI operates without bias. Although "bias" is understood in
+different ways across different disciplines in law, HCI/computing
+and social sciences, what technically and commonly is agreed upon
+is what "[...] refers to AI systems that produce biased results that
+reflect and perpetuate human biases within a society, including
+historical and current social inequality", and that "Bias occurs when
+the data distribution is not representative enough of the natural
+phenomenon one wants to model and reason about." [ 74]. Attempts
+to address bias issues in AI systems are either looking into the
+dataset or specific APIs, while those in datasets are easier to address
+due to the availability of dataset, those that originate from APIs and
+the AI system are merely built upon already trained dataset, is more
+difficult to detect and handle since the dataset is not available[74].
+AI researchers have been developing techniques to support, test,
+expose, and rate AI bias to build a trustworthy and ethical AI, such
+as recruiting systems [ 28], or in customer segmentation, target
+market goal settings for product developments in companies [66].
+However, AI technologies vary in their structure and goals. Thus,
+they may show different kinds of biases and potential consequences.
+Generative AI is one of the technologies that have seen an increas-
+ing proliferation and are increasingly available not only to creative
+communities, such as designers and artists but also to the general
+public. Hence, educating users of genAI and raising awareness on
+the potential biases of these technologies are deemed necessary for
+building trustworthy and ethical AI systems [ 54]. Large Language
+Models (LLM) such as GPT-2/3/4, BERT, BLOOM, and many others
+use pre-trained models to build and then are fine-tuned for specific
+tasks. However, researchers have shown that the training data have
+issues and encode stereotypical biases related to gender [ 7,45,77],
+ethnicity, race and diverse-ability [ 9]. The authors demonstrate
+that the size of the dataset does not guarantee unbiased decisions
+and, for that matter, diversity. Particularly, several factors that limit
+Internet participation (overrepresented by younger generations,
+men and from developed countries [ 6]) and crawling methodology
+do not help the diversity of the dataset either, as it most likely filters
+out the voices of underrepresented and foreground (in UK and USA
+English) white supremacist and misogynistic views, hence amplify
+biases and harm associated with those biases [9].
+Based on the examples of research projects provided in this sec-
+tion, we can defer that AI indeed has biases, and the community has
+been raising this issue to prevent unethical use of AI technologies,
+specifically as it relates to the decisions being made on the future
+of technological development, sustainability, and society.
+2.3 AI for Ideation and Creativity
+Creativity has been studied in design, engineering, humanities and
+psychology research [ 24]. Tools that support creativity [ 68,69],
+either digital [ 25,62] or analog [ 38], have been the subject of nu-
+merous studies in HCI and design. Kim et al. researched how novicedesigners can use creativity tools or for novice ideas to create op-
+portunities to grow by providing a safe space to experiment and
+fail [ 43]. Cherry and Latulipe developed the Creativity Support
+Index to measure the effectiveness of creativity tools based on six
+dimensions [ 20]. Frich et al. call for a necessary, interdisciplinary,
+and collaborative effort in creativity research between creativity
+research in human-computer interaction on one hand and creativ-
+ity in psychology on the other [ 33]. Biskjaer et al. researched time
+constraints in CST creative writings [ 10] and Warr and O’Neil re-
+searched the use of boundary objects as externalizations in the
+Environment and Discovery Collaboratory (EDC) [ 85]. The design
+of creativity support tools spanning from tangible tools (e.g., Son-
+Ami [ 8]) to digital platforms and a mix of both (e.g.,[ 19]), has seen a
+growing interest among HCI and design researchers. The use of AI
+technologies in creativity processes have been rapidly increasing
+during the last decades, and some argued that using AI in a creative
+process promises more than just a tool for human creativity support,
+throughout the years AI has been assumed to be and perceived as
+a companion or a collaborator for humans [36, 63].
+Perhaps one of the earliest models to support this creative dia-
+logue between humans and computers was Mixed-Initiative Meth-
+ods [ 60]. As defined by Walker and Whittaker, conversations in
+social settings are of a mixed-initiative nature, that is, they are
+about persons leading and taking turn to control over the conversa-
+tion [ 82]. However, Liano et al., criticize computational creativity
+approaches for their lack of support for negotiations and discus-
+sions. The authors question the productive role of explainability
+in computational creativity processes as they foster continuous
+dialogues and interactions [ 51]. More specifically, as AI technolo-
+gies have advanced over time, natural language models such as
+GPT-3/4 were used for creative writing and storytelling, redefining
+their role as they are perceived as collaborators or even as creative
+partners [ 14,35,63]. These technologies have been deployed for
+generative literature or generating an “interactive fiction world”,
+allowing the users to see, read and talk to AI using language models
+[3], or allowing to create applications for specific user needs such as
+child-parent collaborative storytelling [ 89]. More recently, virtual
+agents and their ability to collaborate in the creative process have
+gained HCI researchers’ attention. For instance, Cobbie is a mobile
+virtual AI that generates ideas with designers through iterative
+sketches, which helped generate out-of-the-box or "unexpected
+ideas" [ 46]. AI has also been used in more than human design pro-
+cesses, often called for a care-driven approach [ 41] or an ecological
+mindset [58, 88].
+An emergent body of literature appears to argue for the use of
+genAI specifically during the design processes. In these scenarios,
+often designers are asked to generate ideas with the help of genAI,
+given a project description. In one study, researchers found out the
+capabilities of genAI to offer a "fresh form of self-expression and
+communication," and genAI was particularly useful in bringing a
+"distinct perspective" for artistic expressions [ 21]. Similarly, design-
+ers found out that genAI improved both the efficiency of the design
+as well as articulations of the ideas [ 78]. AI has also been used in
+specific design contexts, such as FashionQ, which is an AI creativity
+support tool for generating fashion-related design ideas [ 40] and
+for choreography design [ 50]. AI was also employed to mimic and
+improve traditional design ideation tools such as mood boards and
+26
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Maliheh Ghajargar
+collage tools [ 83], or to generate material for design fiction with
+the theme of climate change [ 13]. The creative use of AI errors or
+"hallucinations" in the ideation process has been investigated in
+another work, where the authors created a dataset of AI errors,
+such as misidentified objects or mislabeled objects, and worked
+with designers on how to use the errors creatively in an ideation
+process [47].
+Researchers have simultaneously expressed excitement about
+the capabilities of AI technology when they are used in creative
+processes and raised concerns about its limitations and ethical
+issues related to their inherent biases. We realize there are frictions
+between the group of researchers that advocate for AI for creativity
+and the group that is rightly concerned about AI biases and its
+discriminatory possible future-making capabilities. In this paper
+and in what follows, we probe that friction and examine it to see
+how genAI performs in ideation and speculative process in light
+of its biases in a series of workshops on the theme of human-plant
+interactions.
+3 METHODOLOGY
+This project started by exploring the capabilities and limitations
+of Generative AI (text-to-image and text-to-text) in ideation and
+speculative processes [ 23,32,57,76]. More particularly, we were
+interested to see how the frictions between AI biases and the act
+of future-making fueled by creativity were productive (or not) in
+employing speculative design methods for human-plant interac-
+tions. To explore this area, we conducted three workshops. The
+participants were 10 design students majoring in design, who were
+working on design research projects under the supervision of HCI
+and design researcher from Chapman University. The three work-
+shops were conducted to aid students’ research projects within
+the design research course called "AI Research through Design" at
+Chapman University with the overall theme of designing AI-infused
+products for human-plant interactions. Each workshop took about
+2 hours and each participant was instructed to work individually on
+a specific topic and to follow the related process. In the following
+sections, we will describe each workshop’s structure and outcomes.
+3.1 Design Fictions for Human-plant
+Interactions in Southern California, Year
+2100
+The first workshop was to create a series of design fictions [ 12,75]
+to envision future scenarios in Southern California in the year 2100.
+Inspired by IKEA catalog project [ 17], the workshops aimed to
+create fictional catalog pages for future interactions with plants.
+The process unfolded in the following steps: (1) participants started
+speculating on how their human-plant interaction design ideas
+might evolve by the year 2100, considering technological, environ-
+mental, and societal changes and generating multiple ideas and
+scenarios; (2) next step was to select one of the ideas based on what
+is most representative of the theme and most desirable related to
+their design research question, and to develop a short narrative that
+conveyed the essence of that idea —some suggested forms included
+a day-in-the-life story, a news article from the future, an advertise-
+ment for a new plant-related technology, or an op-ed from a future
+inhabitant of Southern California. The narrative should include adescription of the interaction between humans and plants and how
+this interaction is beneficial, challenging, or transformative, as well
+as a glimpse into the culture or lifestyle of the time in Southern
+California; (3) lastly the participants were asked to create a visual
+representation of their narrative with genAI. They were instructed
+to write the prompts using their own design narratives that they
+composed in the previous step. This workshop took about 2 hours,
+with a structure that allowed participants to discuss their individual
+ideas with each other and with advisors, organizers, and our guest
+speaker (Julian Bleecker, PhD from the Near Future Laboratory).
+This workshop served as a starting point in ideating and envision-
+ing a more sustainable human-plant relationship for the future. This
+aimed to prepare participants for the next two workshops held a
+month later and were both focused on generating ideas on concrete
+AI-infused products for human-plant interactions.
+3.2 Generating Ideas with GenAI Workshop
+The second workshop instructed participants to interact with genAI
+to generate ideas and variations for an AI-infused artifact related
+to the theme of human-plant interaction. It is worth noting that
+all participants have been working on developing design research
+questions and product ideas since the first workshop was held (a
+month before this workshop). This workshop specifically aimed to
+help them to use their ideas, research questions and related theo-
+retical backgrounds to compose prompts for genAI (Adobe FireFly).
+We wanted to understand how our participants interacted with
+genAI as a tool for ideation, sketching, and thinking [ 78] in terms
+of writing the prompts, visualizing the ideas, and a reflective anal-
+ysis of the process and outcome. We also aimed to observe how
+participants tweaked their prompts to produce better results or to
+overcome biases and stereotypical patterns. The process unfolded
+in the following steps: (1) project description: the participants were
+asked to write down about 100 words on the design idea and de-
+scribe it in as much detail as possible. They were required to think
+about the research questions, theoretical backgrounds, as well as
+formal elements of their design such as the shapes, functionalities,
+dimensions, materials, texture and the context of use; (2) iterative
+prompt creations and image generations: the participants then used
+projects descriptions to create 10 different prompts iteratively, each
+containing at least 50 words. In this step, they were asked to write
+prompts based on design variations, such as the same shape but
+different colors, different people, plants, and different places, and
+to generate images, then choose one of the images, iterate on the
+prompt, write a new prompt for the next round of image genera-
+tion, until they have 10 different prompts and generated 10 different
+images. They were also encouraged to link their design ideas with
+a theoretical concept such as multispecies empathy, an area of ap-
+plication such as forest therapy, etc.; (3) reflection: the last step
+was about reflecting on the process of interacting with genAI. The
+participants were asked to reflect on the process and results and
+write down their experiences, learning, unexpected results, biases in
+generated images, and the degree of their control over the creative
+process.
+27
+AI and Future-Making: Design, Biases, and Human-Plant Interactions Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+Table 1: Examples of Design Fictions
+Title Setting and plot Design
+The Plant Salon humans have never been as close with other
+animals and plants in a long time. Before our
+shift to singularity with Earth, we prioritized ef-
+ficiency, production, modernization, and indus-
+trialization. Has chasing our yearning to accom-
+plish things we never thought possible landed
+us in a deserted wasteland of detachment from
+reality and what is already known? Could we
+ever learn to love one another and life itself
+again?A dome-shaped glass, with
+metal structure living open ar-
+boretum room.
+Urban Plant Adaptive Reuse Say hello to the new future. Are you sick of
+crime, trash and smog in your city? Urban Plant
+Adaptive Reuse is a model brought to you from
+designers in Southern California as a method to
+combat these struggles in our society.Outdoor parks, community cen-
+ters, plant stores, and seeds for
+free to fill the city with Native
+Plants.
+Re:Life: A Second Chance In the year 2100, global extinction has wiped
+out plant life worldwide. However, thanks to
+the diligent efforts of scientists across the globe,
+there is hope for a resurgence of plant life—and
+for humanity itself.Re:Life offers a groundbreak-
+ing genetic swapping surgery
+that transforms human genetic
+makeup into that of a plant. It
+transforms our delicate human
+bodies into the seeds of plants,
+heralding a new beginning for
+all.
+The Wisdom of Plants I’ve become so deeply trapped in a world built
+by humans for humans. I seek escape in nature.
+Nature has long lived the drastic changes of our
+environment. Throughout all historical events
+and conflicts, nature was always there. It has
+endured human-inflicted changes, and also pro-
+tected us and our ecosystem.When I find a type of plant I
+had never seen before, I form
+a new line of connection with
+it. When I cast my camera over
+it, I can read about its species,
+its life timeline, the organisms
+it interacts with, and how it sur-
+vives. I can also document my
+thoughts and ideas in real time.
+EchoWood Imagine stepping into a forest unlike any other,
+where every tree is a living testament to the har-
+mony between humanity and the natural world.
+Trees become the interfaces between humans
+and environmental data.AI-driven sensors and holo-
+graphic images depict a tangi-
+ble representation of the for-
+est’s heartbeat, pulsating with
+real-time environmental data.
+3.3 Designing Human-AI Creativity
+Methodology Workshop
+The aim of the third workshop was not much about observing the
+process of generating ideas with genAI, but more about designing
+a human-AI creativity process and experiment that is potentially
+generalizable and replicable as a methodology. We were interested
+in seeing how participants used genAI as a part of their design re-
+search methodology and what the units of analysis are to evaluate
+the performance of genAI in that process. For this workshop, the
+participants were invited to (1) revise their original design researchproject description, but here with a particular focus on research
+questions and the theoretical background of their research project;
+(2) define units of analysis or testable hypothesis: they were asked
+to think about how and based on which criteria they will evaluate
+the AI-generated images against. This part was aimed to encourage
+participants, based on their previous experience in workshop 2, to
+envision the next, and to see possible outcomes of the process that
+can be productive and generative in the analysis process and de-
+velop units of analysis. Units of analysis are entities that researchers
+focus upon in their process of observation and inquiry and which
+28
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Maliheh Ghajargar
+Figure 1: Examples of design fiction visuals: The Plant Salon by Sascha Carter, Urban Plant Adaptive Reuse by Anna Coogan,
+Re:Life by Micah Conzalez, The Wisdom of Plants by Lisa Hisamura, and EchoWood by Pascha Oania-Hopkins.
+Figure 2: Examples of generated images for the project Multispecies Empathy by Micah Gonzalez.
+Table 2: Examples of human-plant interaction projects and genAI’s results analysis against units of analysis.
+Theme Units of analysis GenAI image analysis
+Ethnobotany Accessibility, Education Too literal forms, Anthropomor-
+phic robots and familiar shapes
+for AI.
+Forest therapy Intimate and authentic experience NA.
+Access to Nature Form and function, Human values lack of GenAI imaginations re-
+garding low-income communi-
+ties.
+Multispecies Empathy Form and function, Biases unexpected results: storytelling
+and mythology, exclusive age
+group; better results with less
+information as input; gender
+bias (e.g., mother in kitchen).
+Multispecies Storytelling Emotive impact, Interpretability Compelling visualizations of cli-
+mate data and human relation-
+ships with the forest
+29
+AI and Future-Making: Design, Biases, and Human-Plant Interactions Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+are the focus of the research findings. They can be people, pro-
+cesses, artifacts, practices, etc. In this workshop, participants were
+provided with some examples of units of analysis, such as the rela-
+tion between form-function and human-nonhuman design values,
+accessibility, bias, stereotypical patterns, relation to the theory, etc.;
+(3) After defining the units of analysis, participants visualized the
+process step by step; (4) analysis: participants analyzed the creative
+outcomes against the units of analysis, and wrote down about 200
+words on the results of the analysis. The analysis also looked at
+factors beyond the predefined units of analysis, such as if there were
+unexpected results or results that could not be evaluated against
+the units of analysis.
+As mentioned at the beginning of this section, in all three work-
+shops, we were interested in analyzing the participant’s analysis,
+our observations, and genAI images as data against two units of
+analysis: (1) biases in genAI and us. We were interested to see which
+biases and whose biases are showing through this entire process,
+whether we showed a selection, confirmation, or stereotype biases,
+as they relate to human and nonhuman species representations, and
+(2) generative capabilities of the entire process, involving genAI
+for the future making practices, including design as an example of
+such practices.
+4 RESULTS
+We thematically analyzed both the textual (e.g., promtps, reflections,
+and projects’ descriptions) and visual data (genAI images) against
+the units of analysis described in the previous section [ 15]. We
+found three provisional, interrelated, and nonexhaustive thematic
+patterns across data as they related to the biases representing plant
+species, plant interactions, and ecologies.
+4.1 Plants Species
+The first one concerns the representations of plant species, which
+are focused on the morphological features of plants and other rep-
+resentative features, including the geographical origins, classifica-
+tion, and naming of plants. As far as the plant species of a specific
+geographical region are concerned, the design fiction workshop ob-
+tained the most accurate and diverse results of regional biodiversity
+whenever participants used Southern California in the prompts to
+generate images for design fiction. The region’s climate is semiarid
+and coastal, its plant biodiversity is characterised by evergreens,
+big trees, succulents and palms, which were omnipresent in the
+design fictions. However, the region is also one of the hot spots of
+biodiversity, and as such, it has over 900 wildflowers in its moun-
+tains, meadows, and deserts. A representation of wildflowers of the
+region, such as yucca and California poppy was entirely missing.
+Further, coastal plants such as silver lupines, as well as coastal ecolo-
+gies, including nonplants and sea plants, were not included in the
+visual narratives of design fiction, even in those that geography was
+clearly stated in every prompt. Analyzing the prompts, we found
+out that, in many of those used for design fiction, some generic
+words such as "woods" (in Echowood ), "environment" and "native
+plants" (in Urban plant Adaptive ), "greenery" (in Re:Life ), "natural
+species" (in The Wisdom of Plants ), were used, which left the genAI,
+to decide which wood or which native plants to represent. Thus, theresults were also generic and included a set of commonly known
+native plants.
+In the second workshop, we observed prompts that included
+plants’ names. For example in Ethnobotany Garden , the prompts
+featured names of specific plant species, such as "yucca plants, elder-
+berry plants, and Chia plants living in this garden" which turned out
+to be useful for genAI to illustrate specific plants species, but only
+a few and of those that were again more commonly known species.
+For instance, while it generated images of a common species of
+yucca, the other species, elderberry, and chia plants, were not only
+missing but were replaced with common cacti and other generic-
+looking and even made-up plant species that were not mentioned in
+the prompt. In several other projects such as Access to Nature , com-
+mon native plants of the region were generated such as yucca and
+palms, by only including "native biodiversity" and "native plants"
+in the prompts. In the other two projects, such as Multispecies Em-
+pathy , plants were mostly common household species, such as Zizi,
+Monstera, and White Bird, which are not particular species of that
+geographical region. The author of Echowood project used different
+tree species names in the prompts, such as redwood, willow and
+oak, and genAI was responsive to these prompts by generating the
+species close to accurate with one exception of the willow tree,
+which was presented similar to an oak tree with branches falling
+down to mimic willow’s branches (Fig. 3).
+4.2 Plants Interactions and Ecologies
+This theme reports on our findings that were representative of
+the relations, interactions, and ecologies of plants. For instance,
+we observed the kinds of interactions in genAI images, prompts,
+reflections, and project descriptions. The focus was on (1) ways
+that interaction between plants and others, such as humans, other
+plants, animals, technology, and other artifacts, were presented, (2)
+ecologies and habitats, which included, for instance, places where
+plants thrive or are disturbed. These were then clustered into two
+groups of interactions with technology, interactions with habitats
+and species (e.g., plants, fungi, animals, and humans).
+4.2.1 Interaction with Technology. InEchoWood design fiction, dig-
+ital technology and tree were literally entangled. LED light strips
+that grew from the ground and continued on the tree trunk depicted
+an image of a tree and technology both growing from one ground
+(Fig. 1), recalling an ecological thinking in human-technology re-
+lationships [ 88]. It is as if the soil provided nutrients to both trees
+and digital technology. The plant salon design fiction also showed
+different plants species (not native species) as co-inhabitants [ 53],
+in an indoor environment featuring furniture, TV, speakers and
+carpet (Fig. 1). In the Wisdom of Plants design fiction, we see tech-
+nology (a mobile phone) is foregrounded on a background of plants
+or the "greenery" (Fig. 1).
+In workshop 2, the Multispecies Empathy focused on the futuris-
+tic look of pots for plants and plants’ interactions with technology.
+More particularly, it sought to produce images of plants in metallic
+and glass-covering pots, which are plugged into a translating device.
+The aim of this project was to design an AI-infused product that
+supports human-plant communications through language trans-
+lation (a kind of speculative LLM but trained on plants’ language,
+capable of listening to plants’ communications and translating them
+30
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Maliheh Ghajargar
+Figure 3: Some examples of trees representations in Multispecies Storytelling project (workshop 2) by Pascha Oania-Hopkins.
+to human language). The generated images depicted a world where,
+to interact with technology, plants had to be isolated from their
+environment so the AI translator device could record plants’ voices
+and translate those into human language (Fig. 2).
+4.2.2 Interactions with Habitats and Species. InUrban Adaptive
+Reuse , there were very little or no interactions between the urban
+area and the plantation areas. It felt artificial and urbanized, reflect-
+ing the design fiction narrative. Notable is also that there was not
+much interaction between different plant species either, as each
+species was exclusively interacting with its own species due to the
+concrete plantation edges (succulents with succulents, palms with
+palms) (Fig. 1). Perhaps the Re:Life is the most representative of
+human-plant entanglements among the design fictions. It features
+a human-like figure emerging from the soil under a young plant
+seedling. The human figure and the soil share color and texture,
+and they are in a glass test tube (Fig. 1). Re:Life is pictured in a lab
+because the narrative intends to metaphorically picture a specu-
+lative future based on rebirth with plants, intending to envision a
+future where humans have closer and more intimate relationships
+with plants. The generated image depicted that meaning literally
+in a picture where humans and plants could grow together from
+the same seed and from the same soil.
+InMultispecies Empathy project during workshop 2, we observed
+plant ecologies inside and outside of the pot. In most images, plants
+were isolated from their environment as if they were kept under
+controlled environments so that the AI device could capture their
+voices and translate them into human language (Fig. 2). In another
+project Multispecies Storytelling , trees were centered within the
+image frame and were surrounded by humans, other plants, and
+mountains. However, there was one exception where the tree was
+in an urban area surrounded by tall buildings, and solar panels
+noticeably were hanging down from her branches like fruits (in
+the prompt: "tree’s leaves harness renewable energy to power its
+AI-driven sensors and projections." Fig. 3).5 CONCLUDING DISCUSSION
+In this paper, we do not claim to have conducted any future studies,
+foresight, or future technology development research. We focused
+our work on sustainable future-making capabilities of design and
+creativity in the light of increased usage of genAI in the ideation
+process and concept development, despite its biases. But nonethe-
+less, we want to outline a few principles that guide future studies
+before discussing the specific contributions of this work in depth.
+First, futures studies concerns possible, desirable, and proba-
+ble future developments, the conditions for these in the past and
+in the present, and that the future is not entirely determinable
+and that different futures are possible [ 1,44]. This is in line with
+Tsing’s future-making as multiple more than human and mul-
+tispecies world-building processes [ 79] which produce different
+worlds, hence different futures.
+Second, Donella and Dennis Meadows’s study (published in Lim-
+its to Growth [ 55,56] was the first scientific study that did not
+illustrate our technological futures and economic growth positively.
+Instead, it described how our natural resources are limited and
+cannot sustain our exponential growth of populations and needs.
+The study warned and emphasized about "limits" to the stress we
+possibly can put on our natural and social environments. That was
+a "turning point" in how we want to approach the future of our
+planet [44].
+Our paper sheds light on several future-related aspects of inter-
+actions with genAI and how its biases in a creative process may or
+may not support making or unmaking futures.
+5.1 Centredness: Human, Technology, Plant
+GenAI was human-centered, or more accurately, it was perpetuating
+our human-centredness. Human-centredness was sharply evident
+in many projects, from generating an image where a human was
+centered and foregrounded forest to more subtle perspectives of
+human-centredness in technology design, such as anthropomorphic
+robots that teach humans about ethnobotany and parks and trails
+that were clearly designed for human use or devices for humans
+31
+AI and Future-Making: Design, Biases, and Human-Plant Interactions Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+use and interactions. Similarly, genAI seems to reflect a technology-
+centred perspective, which made us reflect on whether genAI can
+develop biases towards itself, like the ways we do. In the majority
+of images, if there was a description of technology, such as "AI",
+"smart device", "wearable", "wireless headphone", the technology or
+the device became right away the central focus of the picture.
+As far as the plant kingdom is concerned, genAI tended to be
+"common-species-centered" as it almost failed to show the vast
+diversity of plant species and often focused on commonly known
+features of plants or specific kinds of plants that are commonly
+known and representative of a geographical region, perpetuating
+the presence of those already strongly presented and filtered those
+endangered and less known species [ 9]. For example, genAI’s at-
+tempts at visualizing tree species were the most successful ones,
+which says about representation biases in genAI. However, what-
+ever the reason might have been, unlike biases in representing
+the human race and gender, this was not because trees hold the
+most socio-political power in the plant kingdom over the Internet.
+To paint a more transparent story, we should admit that names
+of plant species were almost missing in the prompts; thus, it is
+not surprising that genAI was not able to illustrate them. In most
+scenarios, we saw generic words such as "wood", "environment",
+"greenery", which left the genAI to decide based on the data it is
+trained on which plants species or which native plants to represent.
+Thus, the results were also generic and included a set of already and
+commonly known native and non-native plants. This led to species
+representation discrimination and exclusions of other plant species
+by limiting the genAI to generate images of a small dominant group
+of plants. However, it is also worth noting that even in those rare
+cases in which we did include the names of specific plant species,
+genAI performed selectively and represented only a few of them,
+for example, in the Ethnobotany project (Table, 2).
+Across all three workshops, it was challenging to get the genAI to
+generate images that were not “perfect”. For instance, participants
+had difficulty generating images of low-income communities that
+lack green spaces or fruits and vegetables that were not perfectly
+stereotypical; instead, genAI generated products without any sign
+of imperfection or ordinariness. These led us to conclude and to
+confirm earlier research that genAI has representation bias obvi-
+ously [ 18,73]. That is, a group of plants is not represented in the
+algorithm’s database. Further, it confirmed that AI is historical, and
+it has a large capacity to remember things; as such, it does not forget
+the past, nor does it interpret and speculate on the past; unlike us.
+Hence, although not very often considered or applied, humans can
+be more agile than AI in making different futures, by forgetting
+from the past, or just learning from the past. Our learning from the
+past can be different from AI’s learning, too. We, for example, may
+learn from the past to avoid the same mistakes in the future; AI
+learns to repeat the same story [16] by the power of "prediction".
+5.2 Future Unmaking
+Exploring the capacities of genAI in future making, unmaking, or
+defuturing in Fry’s words [ 34] for a sustainable future felt naive
+at first. It felt that we were giving genAI, a tool that is trained on
+our imperfect and biased historical data, to change the course of
+action the future may take, hence to unmake it and, as a result,supporting making futures that are sustainable for humans and
+nonhumans cohabitations on the Earth. However, as we reflected
+upon the findings of this research, we came across some glimpses
+of it from an ontological design perspective [ 87]. We talk about this
+by observing and analyzing cases where genAI did not do what we
+expected it to do, in other words, produced "unexpected" and "unac-
+ceptable" results. Starting with design features, genAI often failed
+to illustrate and ideate devices with "futuristic" look in relation to
+plants. In the Multispecies Empathy , the word “futuristic” did not
+result in generating generic sci-fi futuristic looking images with
+silver, concrete, and metallic surfaces, even if they were specified
+in the prompts. Instead, it included more organic materials such as
+stone and ceramic.
+Another example was where genAI unexpectedly did not give us
+a glimpse of sustainable urban areas with parks populated with the
+biodiversity of native plants and transformation of already existing
+low-income communities in Access to Nature : instead showed us
+"very possible" spaces, or already existing ones. These unexpect-
+edly not futuristic results, helped us to envision alternative futures,
+rather than repeating old-futuristic and sci-fi looking and com-
+monly imaginable futuristic products: "[...] it can use various design
+aesthetics and still have the same impact and feel [of a futuristic
+design]."
+Lastly, from the ontological design point of view, genAI, as a tool
+seemed to have changed the designers. In several reflective notes,
+we observed that designers were reflecting on the changes these
+workshops brought to their subjects and their practices. Some of
+them were reflecting on what futuristic even looks like and how
+it should look like; for others the genAI representation biases trig-
+gered reflection on the need to learn about plant species’ names
+and biodiversity of the region. One of them wrote: "It succeeds
+in fostering interspecies empathy and deepening the connection
+between human [me] and the natural world," which does not mean
+that genAI was just or inclusive or sustainable, but that its represen-
+tation biases resonated with them and helped them to empathize
+with the underrepresented group of plants.
+6 LIMITATIONS
+This project comes with its own imperfections and limitations. Most
+of the participants were senior design students, and although they
+were informed that their work "should be sharable and aimed at
+impacting an area of work within design and AI," still we should
+consider these projects as school projects. Although many of them
+will be design professionals in a few months, these works should
+not be compared with what professional designers may produce in
+similar contexts.
+ACKNOWLEDGMENTS
+I would like to thank the first cohort of "AI Research through De-
+sign" class and my colleague Dr. Jillian Warren, who helped or-
+ganizing the design fiction workshop with our guest speaker Dr.
+Julian Bleecker from Near Future Laboratory.
+REFERENCES
+[1]Frank Adloff and Sighard Neckel. 2019. Futures of sustainability as modernization,
+transformation, and control: a conceptual framework. Sustainability Science 14, 4
+(July 2019), 1015–1025. https://doi.org/10.1007/s11625-019-00671-2
+32
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Maliheh Ghajargar
+[2]Ferran Altarriba Bertran, Oðuz ’Oz’ Buruk, and Juho Hamari. 2022. From-The-
+Wild: Towards Co-Designing For and From Nature. In Extended Abstracts of
+the 2022 CHI Conference on Human Factors in Computing Systems (CHI EA ’22) .
+Association for Computing Machinery, New York, NY, USA, 1–7. https://doi.
+org/10.1145/3491101.3519811
+[3]Prithviraj Ammanabrolu, Wesley Cheung, Dan Tu, William Broniec, and Mark O.
+Riedl. 2020. Bringing Stories Alive: Generating Interactive Fiction Worlds . Technical
+Report arXiv:2001.10161. arXiv. https://doi.org/10.48550/arXiv.2001.10161
+[4]James Auger. 2013. Speculative design: crafting the speculation. Digital Cre-
+ativity 24, 1 (March 2013), 11–35. https://doi.org/10.1080/14626268.2013.767276
+Publisher: Routledge _eprint: https://doi.org/10.1080/14626268.2013.767276.
+[5]Jeffrey Bardzell. 2014. Speculative Grammar and Stoic Language Theory in Medieval
+Allegorical Narrative: From Prudentius to Alan of Lille . Routledge.
+[6]Michael Barera. 2020. Mind the Gap: Addressing Structural Equity and Inclusion
+on Wikipedia. (Oct. 2020). https://rc.library.uta.edu/uta-ir/handle/10106/29572
+[7]Christine Basta, Marta R. Costa-jussà, and Noe Casas. 2019. Evaluating the
+Underlying Gender Bias in Contextualized Word Embeddings. https://doi.org/
+10.48550/arXiv.1904.08783
+[8]Jekaterina Belakova and Wendy E. Mackay. 2021. SonAmi: A Tangible Cre-
+ativity Support Tool for Productive Procrastination. In Creativity and Cognition
+(C&amp;C ’21) . Association for Computing Machinery, New York, NY, USA, 1–10.
+https://doi.org/10.1145/3450741.3465250
+[9]Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language Models Be
+Too Big?. In Proceedings of the 2021 ACM Conference on Fairness, Accountability,
+and Transparency (FAccT ’21) . Association for Computing Machinery, New York,
+NY, USA, 610–623. https://doi.org/10.1145/3442188.3445922
+[10] Michael Mose Biskjaer, Jonas Frich, Lindsay MacDonald Vermeulen, Christian
+Remy, and Peter Dalsgaard. 2019. How Time Constraints in a Creativity Support
+Tool Affect the Creative Writing Experience. In Proceedings of the 31st European
+Conference on Cognitive Ergonomics (ECCE 2019) . Association for Computing Ma-
+chinery, New York, NY, USA, 100–107. https://doi.org/10.1145/3335082.3335084
+[11] Eli Blevis. 2007. Sustainable interaction design: invention &amp; disposal, re-
+newal &amp; reuse. In Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems (CHI ’07) . Association for Computing Machinery, New York,
+NY, USA, 503–512. https://doi.org/10.1145/1240624.1240705
+[12] Mark Blythe. 2014. Research through design fiction: narrative in real and imag-
+inary abstracts. In Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems (CHI ’14) . Association for Computing Machinery, Toronto,
+Ontario, Canada, 703–712. https://doi.org/10.1145/2556288.2557098
+[13] Mark Blythe. 2023. Artificial Design Fiction: Using AI as a Material for Pastiche
+Scenarios. In Proceedings of the 26th International Academic Mindtrek Conference
+(Mindtrek ’23) . Association for Computing Machinery, New York, NY, USA, 195–
+206. https://doi.org/10.1145/3616961.3616987
+[14] Boyd Branch, Piotr Mirowski, and Kory W. Mathewson. 2021. Collaborative Sto-
+rytelling with Human Actors and AI Narrators . Technical Report arXiv:2109.14728.
+arXiv. https://doi.org/10.48550/arXiv.2109.14728
+[15] Virginia Braun and Victoria Clarke. 2021. Thematic Analysis: A Practical Guide
+(1st edition ed.). SAGE Publications Ltd, London ; Thousand Oaks, California.
+[16] Meredith Broussard. 2018. Artificial Unintelligence: How Computers Misunderstand
+the World . The MIT Press.
+[17] Barry Brown, Julian Bleecker, Marco D’Adamo, Pedro Ferreira, Joakim Formo,
+Mareike Glöss, Maria Holm, Kristina Höök, Eva-Carin Banka Johnson, Emil
+Kaburuan, Anna Karlsson, Elsa Vaara, Jarmo Laaksolahti, Airi Lampinen, Lucian
+Leahu, Vincent Lewandowski, Donald McMillan, Anders Mellbratt, Johanna
+Mercurio, Cristian Norlin, Nicolas Nova, Stefania Pizza, Asreen Rostami, Mårten
+Sundquist, Konrad Tollmar, Vasiliki Tsaknaki, Jinyi Wang, Charles Windlin, and
+Mikael Ydholm. 2016. The IKEA Catalogue: Design Fiction in Academic and
+Industrial Collaborations. In Proceedings of the 2016 ACM International Conference
+on Supporting Group Work (GROUP ’16) . Association for Computing Machinery,
+New York, NY, USA, 335–344. https://doi.org/10.1145/2957276.2957298
+[18] Joy Buolamwini. 2023. Unmasking AI: My Mission to Protect What Is Human in a
+World of Machines . Random House.
+[19] Pedro Campos, Frederica Gonçalves, Michael Martins, Miguel Campos, and Paulo
+Freitas. 2014. Second look: combining wearable computing and crowdsourcing to
+support creative writing. In Proceedings of the 8th Nordic Conference on Human-
+Computer Interaction: Fun, Fast, Foundational (NordiCHI ’14) . Association for
+Computing Machinery, New York, NY, USA, 959–962. https://doi.org/10.1145/
+2639189.2670250
+[20] Erin Cherry and Celine Latulipe. 2014. Quantifying the Creativity Support
+of Digital Tools through the Creativity Support Index. ACM Transactions on
+Computer-Human Interaction 21, 4 (June 2014), 21:1–21:25. https://doi.org/10.
+1145/2617588
+[21] Li-Yuan Chiou, Peng-Kai Hung, Rung-Huei Liang, and Chun-Teng Wang. 2023.
+Designing with AI: An Exploration of Co-Ideation with Image Generators. In
+Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS ’23) .
+Association for Computing Machinery, New York, NY, USA, 1941–1954. https:
+//doi.org/10.1145/3563657.3596001[22] Paul Coulton, Joseph Lindley, and Haider Ali Akmal. 2016. Design Fiction:
+Does the search for plausibility lead to deception? DRS Biennial Conference Series
+(June 2016). https://dl.designresearchsociety.org/drs-conference-papers/drs2016/
+researchpapers/49
+[23] Nigel Cross. 1982. Designerly ways of knowing. Design Studies 3, 4 (Oct. 1982),
+221–227. https://doi.org/10.1016/0142-694X(82)90040-0
+[24] Mihaly Csikszentmihalyi. 1997. Creativity: Flow and the psychology of discovery
+and invention . HarperCollins Publishers, New York, NY, US.
+[25] Robert Dale. 2021. GPT-3: What’s it good for? Natural Language Engineering 27,
+1 (Jan. 2021), 113–118. https://doi.org/10.1017/S1351324920000601
+[26] Carl DiSalvo. 2012. Adversarial Design . The MIT Press.
+[27] Carl DiSalvo, Phoebe Sengers, and Hrönn Brynjarsdóttir. 2010. Mapping the
+landscape of sustainable HCI. In Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems (CHI ’10) . Association for Computing Machinery,
+New York, NY, USA, 1975–1984. https://doi.org/10.1145/1753326.1753625
+[28] Eleanor Drage and Kerry Mackereth. 2022. Does AI De-Bias Recruitment? Race,
+Gender, and AI’s ’Eradication of Differences Between Groups’. In Proceedings of
+the 2022 AAAI/ACM Conference on AI, Ethics, and Society (AIES ’22) . Association
+for Computing Machinery, New York, NY, USA, 237. https://doi.org/10.1145/
+3514094.3534151
+[29] Anthony Dunne and Fiona Raby. 2013. Speculative Everything: Design, Fiction,
+and Social Dreaming (1st edition ed.). The MIT Press, Cambridge, Massachusetts
+; London.
+[30] Jim Dwyer. 2010. Where the Wild Books Are: A Field Guide to Ecofiction (1st edition
+ed.). University of Nevada Press.
+[31] Elizabeth Edenberg and Alexandra Wood. 2023. Disambiguating Algorithmic
+Bias: From Neutrality to Justice. In Proceedings of the 2023 AAAI/ACM Conference
+on AI, Ethics, and Society (AIES ’23) . Association for Computing Machinery, New
+York, NY, USA, 691–704. https://doi.org/10.1145/3600211.3604695
+[32] Daniel Fallman. 2003. Design-oriented human-computer interaction. In Pro-
+ceedings of the SIGCHI Conference on Human Factors in Computing Systems
+(CHI ’03) . Association for Computing Machinery, New York, NY, USA, 225–232.
+https://doi.org/10.1145/642611.642652
+[33] Jonas Frich, Lindsay MacDonald Vermeulen, Christian Remy, Michael Mose
+Biskjaer, and Peter Dalsgaard. 2019. Mapping the Landscape of Creativity Support
+Tools in HCI. In Proceedings of the 2019 CHI Conference on Human Factors in
+Computing Systems (CHI ’19) . ACM, New York, NY, USA, 389:1–389:18. https:
+//doi.org/10.1145/3290605.3300619
+[34] Tony Fry, Eduardo Staszowski, and Clive Dilnot. 2020. Defuturing: A New Design
+Philosophy . Bloomsbury Visual Arts.
+[35] Maliheh Ghajargar, Jeffrey Bardzell, and Love Lagerkvist. 2022. A Redhead
+Walks into a Bar: Experiences of Writing Fiction with Artificial Intelligence.
+In25th International Academic Mindtrek conference (Academic Mindtrek 2022) .
+Association for Computing Machinery, New York, NY, USA, 230–241. https:
+//doi.org/10.1145/3569219.3569418
+[36] Matthew Guzdial, Nicholas Liao, Jonathan Chen, Shao-Yu Chen, Shukan Shah,
+Vishwa Shah, Joshua Reno, Gillian Smith, and Mark O. Riedl. 2019. Friend,
+Collaborator, Student, Manager: How Design of an AI-Driven Game Level Editor
+Affects Creators. In Proceedings of the 2019 CHI Conference on Human Factors in
+Computing Systems . ACM, Glasgow Scotland Uk, 1–13. https://doi.org/10.1145/
+3290605.3300854
+[37] Matthew Hall. 2011. Plants as Persons: A Philosophical Botany . State University
+of New York Press, Albany.
+[38] Kim Halskov and Peter Dalsgård. 2006. Inspiration card workshops. In Proceedings
+of the 6th conference on Designing Interactive systems (DIS ’06) . Association for
+Computing Machinery, New York, NY, USA, 2–11. https://doi.org/10.1145/
+1142405.1142409
+[39] Tom Hitron, Noa Morag Yaar, and Hadas Erel. 2023. Implications of AI Bias in HRI:
+Risks (and Opportunities) when Interacting with a Biased Robot. In Proceedings
+of the 2023 ACM/IEEE International Conference on Human-Robot Interaction (HRI
+’23). Association for Computing Machinery, New York, NY, USA, 83–92. https:
+//doi.org/10.1145/3568162.3576977
+[40] Youngseung Jeon, Seungwan Jin, Patrick C. Shih, and Kyungsik Han. 2021. Fash-
+ionQ: An AI-Driven Creativity Support Tool for Facilitating Ideation in Fashion
+Design. In Proceedings of the 2021 CHI Conference on Human Factors in Computing
+Systems (CHI ’21) . Association for Computing Machinery, New York, NY, USA,
+1–18. https://doi.org/10.1145/3411764.3445093
+[41] Petra Jääskeläinen, André Holzapfel, and Cecilia Åsberg. 2022. Exploring More-
+than-Human Caring in Creative-Ai Interactions. In Nordic Human-Computer
+Interaction Conference (NordiCHI ’22) . Association for Computing Machinery,
+New York, NY, USA, 1–7. https://doi.org/10.1145/3546155.3547278
+[42] Elif Kartal. 2022. A Comprehensive Study on Bias in Artificial Intelligence
+Systems: Biased or Unbiased AI, That’s the Question! International Journal of
+Intelligent Information Technologies 18, 1 (Sept. 2022), 1–23. https://doi.org/10.
+4018/IJIIT.309582
+[43] Joy Kim, Avi Bagla, and Michael S. Bernstein. 2015. Designing Creativity Support
+Tools for Failure. In Proceedings of the 2015 ACM SIGCHI Conference on Creativity
+33
+AI and Future-Making: Design, Biases, and Human-Plant Interactions Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+and Cognition (C&amp;C ’15) . Association for Computing Machinery, New York,
+NY, USA, 157–160. https://doi.org/10.1145/2757226.2764542
+[44] Rolf Kreibich, Britta Oertel, and Michaela Wolk. 2011. Futures Studies and Future-
+Oriented Technology Analysis Principles, Methodology and Research Questions.
+https://doi.org/10.2139/ssrn.2094215 Place: Rochester, NY Type: SSRN Scholarly
+Paper.
+[45] Keita Kurita, Nidhi Vyas, Ayush Pareek, Alan W Black, and Yulia Tsvetkov. 2019.
+Measuring Bias in Contextualized Word Representations. In Proceedings of the
+First Workshop on Gender Bias in Natural Language Processing , Marta R. Costa-
+jussà, Christian Hardmeier, Will Radford, and Kellie Webster (Eds.). Association
+for Computational Linguistics, Florence, Italy, 166–172. https://doi.org/10.18653/
+v1/W19-3823
+[46] Yuyu Lin, Jiahao Guo, Yang Chen, Cheng Yao, and Fangtian Ying. 2020. It Is
+Your Turn: Collaborative Ideation With a Co-Creative Robot through Sketch. In
+Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems
+(CHI ’20) . Association for Computing Machinery, New York, NY, USA, 1–14.
+https://doi.org/10.1145/3313831.3376258
+[47] Fang Liu, Junyan Lv, Shenglan Cui, Zhilong Luan, Kui Wu, and Tongqing Zhou.
+2024. Smart "Error"! Exploring Imperfect AI to Support Creative Ideation. Pro-
+ceedings of the ACM on Human-Computer Interaction 8, CSCW1 (April 2024),
+121:1–121:28. https://doi.org/10.1145/3637398
+[48] Jen Liu, Daragh Byrne, and Laura Devendorf. 2018. Design for Collaborative
+Survival: An Inquiry into Human-Fungi Relationships. In Proceedings of the 2018
+CHI Conference on Human Factors in Computing Systems (CHI ’18) . Association
+for Computing Machinery, New York, NY, USA, 1–13. https://doi.org/10.1145/
+3173574.3173614
+[49] Szu-Yu (Cyn) Liu, Shaowen Bardzell, and Jeffrey Bardzell. 2019. Symbiotic Encoun-
+ters: HCI and Sustainable Agriculture. In Proceedings of the 2019 CHI Conference
+on Human Factors in Computing Systems . ACM, Glasgow Scotland Uk, 1–13.
+https://doi.org/10.1145/3290605.3300547
+[50] Yimeng Liu and Misha Sra. 2024. Exploring AI-assisted Ideation and Prototyping
+for Choreography. In Companion Proceedings of the 29th International Conference
+on Intelligent User Interfaces (IUI ’24 Companion) . Association for Computing
+Machinery, New York, NY, USA, 11–17. https://doi.org/10.1145/3640544.3645227
+[51] M. T. Llano, M. d’Inverno, M. Yee-King, J. Mccormack, Alon Ilsar, A. Pease, and S.
+Colton. 2020. Explainable Computational Creativity. In ICCC .
+[52] Susan Loh, Marcus Foth, and Yasu Santo. 2024. The more-than-human turn in
+human-plant interaction design: From utilitarian object to living co-inhabitant.
+International Journal of Human-Computer Studies 181 (Jan. 2024), 103128. https:
+//doi.org/10.1016/j.ijhcs.2023.103128
+[53] Susan Loh, Yasu Santo, and Marcus Foth. 2023. Plant-human entanglements
+in buildings: designing for care infrastructuring with office occupants and pot
+plants. Frontiers in Computer Science 5 (2023). https://www.frontiersin.org/
+articles/10.3389/fcomp.2023.1233905
+[54] Lidia Marassi. 2023. Assessing User Perceptions of Bias in Generative AI Models:
+Promoting Social Awareness for Trustworthy AI. In Proceedings of the 2023
+Conference on Human Centered Artificial Intelligence: Education and Practice
+(HCAIep ’23) . Association for Computing Machinery, New York, NY, USA, 46.
+https://doi.org/10.1145/3633083.3633094
+[55] Donella H. Meadows. 1972. The Limits to Growth; A Report for the Club of Rome’s
+Project on the Predicament of Mankind (2nd edition ed.). Universe Pub.
+[56] Donella H. Meadows, Jorgen Randers, and Dennis L. Meadows. 2004. Limits to
+Growth: The 30-Year Update (illustrated edition ed.). Chelsea Green Publishing,
+White River Junction, Vt.
+[57] Harold G. Nelson and Erik Stolterman. 2012. The Design Way: Intentional Change
+in an Unpredictable World . The MIT Press.
+[58] Iohanna Nicenboim, Elisa Giaccardi, and Johan Redström. 2023. Designing More-
+Than-Human AI: Experiments on Situated Conversations and Silences. diid —
+disegno industriale industrial design 80 (Sept. 2023), 12–12. https://doi.org/10.
+30682/diid8023c Number: 80.
+[59] Safiya Umoja Noble. 2018. Algorithms of Oppression: How Search Engines Reinforce
+Racism (illustrated edition ed.). NYU Press, New York.
+[60] David G. Novick and Stephen Sutton. 1997. What is mixed-initiative interaction.
+InIn Procedings of the AAAI Spring Symposium on Computational Models for
+Mixed Initiative Interaction . 114–116.
+[61] Ángel Pavón Pérez. 2022. Bias in Artificial Intelligence Models in Financial
+Services. In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and
+Society (AIES ’22) . Association for Computing Machinery, New York, NY, USA,
+908. https://doi.org/10.1145/3514094.3539561
+[62] Christopher N. Poulos. 2021. Essentials of Autoethnography . American Psycho-
+logical Association, Washington, DC.
+[63] Jeba Rezwana and Mary Lou Maher. 2023. User Perspectives on Ethical Challenges
+in Human-AI Co-Creativity: A Design Fiction Study. In Proceedings of the 15th
+Conference on Creativity and Cognition (C&amp;C ’23) . Association for Computing
+Machinery, New York, NY, USA, 62–74. https://doi.org/10.1145/3591196.3593364
+[64] Shannon Rodgers, Bernd Ploderer, Kellie Vella, and Margot Brereton. 2023. Phe-
+nology Probes: Exploring Human-Nature Relations for Designing Sustainable
+Futures. In Proceedings of the 34th Australian Conference on Human-ComputerInteraction (OzCHI ’22) . Association for Computing Machinery, New York, NY,
+USA, 216–228. https://doi.org/10.1145/3572921.3572936
+[65] Shannon Rodgers, Kellie Vella, Bernd Ploderer, and Margot Brereton. 2023. Na-
+ture Fictions: Designing for a Sustainable Future through Nature Relations.
+InProceedings of the 2023 ACM Designing Interactive Systems Conference (DIS
+’23). Association for Computing Machinery, New York, NY, USA, 1566–1580.
+https://doi.org/10.1145/3563657.3595981
+[66] Drew Roselli, Jeanna Matthews, and Nisha Talagala. 2019. Managing Bias in AI.
+InCompanion Proceedings of The 2019 World Wide Web Conference (WWW ’19) .
+Association for Computing Machinery, New York, NY, USA, 539–544. https:
+//doi.org/10.1145/3308560.3317590
+[67] Daniela K. Rosner. 2020. Critical Fabulations: Reworking the Methods and Margins
+of Design . MIT Press, Cambridge, Massachusetts.
+[68] Ben Shneiderman. 1999. User interfaces for creativity support tools. In Proceedings
+of the 3rd conference on Creativity & cognition (C&amp;C ’99) . Association for
+Computing Machinery, New York, NY, USA, 15–22. https://doi.org/10.1145/
+317561.317565
+[69] Ben Shneiderman. 2007. Creativity support tools: accelerating discovery and
+innovation. Commun. ACM 50, 12 (Dec. 2007), 20–32. https://doi.org/10.1145/
+1323688.1323689
+[70] Nancy Smith, Shaowen Bardzell, and Jeffrey Bardzell. 2017. Designing for Co-
+habitation: Naturecultures, Hybrids, and Decentering the Human in Design. In
+Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems
+(CHI ’17) . Association for Computing Machinery, New York, NY, USA, 1714–1725.
+https://doi.org/10.1145/3025453.3025948
+[71] Robert Soden, Pradnaya Pathak, and Olivia Doggett. 2021. What We Speculate
+About When We Speculate About Sustainable HCI. In Proceedings of the 4th
+ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS ’21) .
+Association for Computing Machinery, New York, NY, USA, 188–198. https:
+//doi.org/10.1145/3460112.3471956
+[72] Velvet Spors, Samuli Laato, Oğuz ’Oz’ Buruk, and Juho Hamari. 2023. Longing
+to be the Mountain: A Scoping Review about Nature-Centric, Health-Minded
+Technologies. In Proceedings of the 2023 CHI Conference on Human Factors in
+Computing Systems (CHI ’23) . Association for Computing Machinery, New York,
+NY, USA, 1–16. https://doi.org/10.1145/3544548.3581479
+[73] Ramya Srinivasan and Kanji Uchino. 2021. Biases in Generative Art: A Causal
+Look from the Lens of Art History. In Proceedings of the 2021 ACM Conference on
+Fairness, Accountability, and Transparency (FAccT ’21) . Association for Computing
+Machinery, New York, NY, USA, 41–51. https://doi.org/10.1145/3442188.3445869
+[74] Biplav Srivastava and Francesca Rossi. 2018. Towards Composable Bias Rating of
+AI Services. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and
+Society (AIES ’18) . Association for Computing Machinery, New York, NY, USA,
+284–289. https://doi.org/10.1145/3278721.3278744
+[75] Bruce Sterling. 2009. COVER STORY: Design Fiction. Interactions 16, 3 (May
+2009), 20–24. https://doi.org/10.1145/1516016.1516021
+[76] Erik Stolterman and Mikael Wiberg. 2010. Concept-Driven Interaction Design
+Research. Human–Computer Interaction 25, 2 (2010).
+[77] Yi Chern Tan and L. Elisa Celis. 2019. Assessing Social and In-
+tersectional Biases in Contextualized Word Representations. In Ad-
+vances in Neural Information Processing Systems , Vol. 32. Curran Asso-
+ciates, Inc. https://proceedings.neurips.cc/paper_files/paper/2019/hash/
+201d546992726352471cfea6b0df0a48-Abstract.html
+[78] Jakob Tholander and Martin Jonsson. 2023. Design Ideation with AI - Sketching,
+Thinking and Talking with Generative Machine Learning Models. In Proceedings
+of the 2023 ACM Designing Interactive Systems Conference (DIS ’23) . Association
+for Computing Machinery, New York, NY, USA, 1930–1940. https://doi.org/10.
+1145/3563657.3596014
+[79] Anna Lowenhaupt Tsing. 2021. The Mushroom at the End of the World: On the
+Possibility of Life in Capitalist Ruins . Princeton Oxford.
+[80] Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered
+Worlds . MIT Press, Cambridge, MA, USA.
+[81] Ron Wakkary, Audrey Desjardins, Sabrina Hauser, and Leah Maestri. 2013. A
+sustainable design fiction: Green practices. ACM Transactions on Computer-
+Human Interaction 20, 4 (Sept. 2013), 23:1–23:34. https://doi.org/10.1145/2494265
+[82] Marilyn Walker and Steve Whittaker. 1990. Mixed initiative in dialogue: an
+investigation into discourse segmentation. In Proceedings of the 28th annual
+meeting on Association for Computational Linguistics (ACL ’90) . Association for
+Computational Linguistics, USA, 70–78. https://doi.org/10.3115/981823.981833
+[83] Qian Wan and Zhicong Lu. 2023. GANCollage: A GAN-Driven Digital Mood
+Board to Facilitate Ideation in Creativity Support. In Proceedings of the 2023 ACM
+Designing Interactive Systems Conference (DIS ’23) . Association for Computing Ma-
+chinery, New York, NY, USA, 136–146. https://doi.org/10.1145/3563657.3596072
+[84] Xiaoge Wang. 2022. Nature Jar: Design for Facilitating Nature Connectedness
+and Restoration in Home Scenario. In Sixteenth International Conference on Tan-
+gible, Embedded, and Embodied Interaction (TEI ’22) . Association for Computing
+Machinery, New York, NY, USA, 1–7. https://doi.org/10.1145/3490149.3502426
+[85] Andrew Warr and Eamonn O’Neill. 2007. Tool support for creativity using
+externalizations. In Proceedings of the 6th ACM SIGCHI conference on Creativity &
+34
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Maliheh Ghajargar
+cognition (C&amp;C ’07) . Association for Computing Machinery, New York, NY,
+USA, 127–136. https://doi.org/10.1145/1254960.1254979
+[86] Michelle Westerlaken. 2021. It matters what designs design designs: speculations
+on multispecies worlding. Global Discourse 11, 1-2 (Feb. 2021), 137–155. https:
+//doi.org/10.1332/204378920X16032019312511 Publisher: Bristol University Press
+Section: Global Discourse.
+[87] Terry Winograd, John Bennett, Laura De Young, and Bradley Hartfield (Eds.).
+1996. Bringing Design to Software (1st edition ed.). ACM Press, New York, N.Y. :
+Reading, Mass.
+[88] Chunchen Xu and Xiao Ge. 2024. AI as a Child of Mother Earth: Regrounding
+Human-AI Interaction in Ecological Thinking. In Extended Abstracts of the 2024CHI Conference on Human Factors in Computing Systems (CHI EA ’24) . Association
+for Computing Machinery, New York, NY, USA, 1–9. https://doi.org/10.1145/
+3613905.3644065
+[89] Zheng Zhang, Ying Xu, Yanhao Wang, Bingsheng Yao, Daniel Ritchie, Tong-
+shuang Wu, Mo Yu, Dakuo Wang, and Toby Jia-Jun Li. 2022. StoryBuddy: A
+Human-AI Collaborative Chatbot for Parent-Child Interactive Storytelling with
+Flexible Parental Involvement. In CHI Conference on Human Factors in Computing
+Systems . 1–21. https://doi.org/10.1145/3491102.3517479
+[90] Mi Zhou, Vibhanshu Abhishek, Timothy Derdenger, Jaymo Kim, and Kannan
+Srinivasan. 2024. Bias in Generative AI. https://arxiv.org/abs/2403.02726v1
+Publication Title: arXiv.org.
+35

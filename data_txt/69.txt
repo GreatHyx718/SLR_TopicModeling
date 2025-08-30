@@ -1,0 +1,1754 @@
+Behaviour & Information Technology
+ISSN: 0144-929X (Print) 1362-3001 (Online) Journal homepage: www.tandfonline.com/journals/tbit20
+Glory or darkness? An empirical examination
+of understanding users’ adoption of ChatGPT
+via the coping theory: the moderating eﬀect of
+mindfulness
+Yu-Hsin Chen, Yun-Ching Chang & Ching-Jui Keng
+To cite this article: Yu-Hsin Chen, Yun-Ching Chang & Ching-Jui Keng (07 Feb 2025): Glory or
+darkness? An empirical examination of understanding users’ adoption of ChatGPT via the
+coping theory: the moderating eﬀect of mindfulness, Behaviour & Information Technology,
+DOI: 10.1080/0144929X.2025.2460599
+To link to this article:  https://doi.org/10.1080/0144929X.2025.2460599
+Published online: 07 Feb 2025.
+Submit your article to this journal 
+Article views: 533
+View related articles 
+View Crossmark data
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=tbit20
+Glory or darkness? An empirical examination of understanding users’ adoption of 
+ChatGPT via the coping theory: the moderating effect of mindfulness
+Yu-Hsin Chen 
+a, Yun-Ching Changband Ching-Jui Kengc
+aDepartment of Marketing and Distribution Management, National Kaohsiung University of Science and Technology, Kaohsiung, Taiwan; 
+bDepartment of Finance and Banking, Shih Chien University, Taipei, Taiwan; cDepartment of Business Management, National Taipei University 
+of Technology, Taipei City, Taiwan
+ABSTRACT
+Based on the coping theory and coping model of user adaptation, this research explores the 
+impact of users’ ChatGPT technostress on cognitive appraisal, coping process, and behaviour. A 
+survey using Amazon’s Mechanical Turk was developed to collect data on 10 occupations that 
+may be replaced by ChatGPT in the U.S., with a total of 277 actual ChatGPT users. This study 
+employs the software SmartPLS4.2 to evaluate the measurement model and the structural 
+model. The results show that concerns over coolness and posthuman capabilities significantly 
+affect users’ challenge appraisal of ChatGPT, whereas privacy, ethics, and security concerns 
+significantly impact users’ threat appraisal of ChatGPT. Challenge and threat appraisals have a 
+significantly positive impact on users’ problem-focused coping and emotion-focused coping, 
+which themselves significantly predict users’ continuous use of ChatGPT. Mindfulness negatively 
+moderates the influence on emotion-focused coping and continued use intention after ChatGPT 
+adoption. The main theoretical contributions of this research include investigating users’ 
+ChatGPT technostress and coping process by professional workers who may be replaced by 
+ChatGPT. The evidence regarding the moderating role of mindfulness presented herein is novel, 
+because the relationship between coping strategies and continued behaviour intention has not 
+been previously examined.ARTICLE HISTORY
+Received 2 March 2024 
+Accepted 24 January 2025  
+KEYWORDS
+Generative AI technostress; 
+coping theory; coping model 
+of user adaptation; 
+mindfulness; ChatGPT
+1. Introduction
+The share of artificial intelligence (AI) in the marketing 
+industry is rapidly increasing, in particular generative 
+AI (such as ChatGPT), with up to 90% of commercial 
+leaders planning to adopt generative AI solutions in 
+the next two years (Dilmegani 2024 ). Generative AI 
+(GAI) primarily operates through the generative pre- 
+trained transformer (GPT) approach and undergoes 
+training with an extensive amount of unannotated, unstructured data through a process called self-super
+-
+vised learning, resulting in the development of a foun -
+dational model (Pham, Duong, and Nguyen 2024 ). 
+GAI possesses benefits such as automation, high 
+speed, and accuracy. For instance, ChatGPT, based on 
+input prompts, can automatically generate articles as well as copy, code, and design proposals, graphics, or 
+images. AI and human-machine fusion generally help 
+employees to benefit from greater productivity, creativ
+-
+ity, and freedom (OpenAI 2023), but AI technology can 
+negatively impact employee well-being. Business Insider 
+compiled a list of ten jobs that ChatGPT could replace in 
+2023, including tech, media, legal industry, market research analyst, teaching, finance, trading, graphic 
+designer, accounting, and customer service (Zinkula 
+and Mok 2024 ). While 49% of respondents still har -
+boured worries about AI replacing their jobs, 70% 
+were still willing to delegate a majority of their tasks 
+to AI in order to alleviate their workloads (Tech 
+Informed 2023). When employees discover that the 
+knowledge and skills they have cultivated over the 
+years may be replaced by AI, they can experience both 
+anxiety and great psychological pressure (Kong et al. 
+2021 ). Many people are struggling to cope with auto -
+mation risks and job replacement fears due to AI tech -
+nology – a condition known as GAI stress.
+Four salient features characterise the extant literature 
+on the GAI of ChatGPT. First, most research focuses on 
+ChatGPT in different sectors (Catherine, Towfek, and 
+Abdelhamid 2023; Ivanov and Soliman 2023; Pham, 
+Duong, and Nguyen 2024; Ren et al. 2023) and how it 
+can help to make customer service more efficient and effective for businesses (George, George, and Martin 
+2023; Korzynski et al. 2023). Second, the quantitative 
+analysis of evaluating ChatGPT’s understanding ability 
+© 2025 Informa UK Limited, trading as Taylor & Francis Group CONTACT  Ching-Jui Keng 
+ keng.chingjui@gmail.com , cjkeng@ntut.edu.tw
+ Department of Business Management, National Taipei University of Tech-
+nology, No.1, Sec. 3, Zhongxiao E. Rd., Da-an District, Taipei City 10608, Taiwan (R.O.C.)BEHAVIOUR & INFORMATION TECHNOLOGY 
+https://doi.org/10.1080/0144929X.2025.2460599
+
+(Lu et al. 2023; Zhong et al. 2023). Third, related 
+research based on the technology acceptance model 
+(TAM) has aimed to understand users’ attitudes and 
+acceptance of ChatGPT usage (Polyportis and Pahos 
+2024; Tiwari et al. 2023 ). Fourth, most research con -
+siders the impact of psychological outcomes (psycho -
+logical well-being and self-esteem) on users and the role of ChatGPT in shaping individual attitudes towards 
+it (Salah et al. 
+2023).
+Although ChatGPT is increasingly popular and 
+transformative, academic research on the user coping of ChatGPT technostress is quite limited, especially rela
+-
+tive to the available literature in the area. One dark side 
+of ChatGPT is users’ heightened fears about its negative 
+effects. While scholars and experts have discussed users’ 
+growing concerns about job replacement and the priv -
+acy risks of ChatGPT (Ritala, Ruokonen, and Ramaul 
+2023 ), no definitive research to date has examined the 
+impact of ChatGPT technostress enablers and inhibitors 
+on users’ behavioural. Therefore, empirical examination impact of users’ ChatGPT technostress on cognitive, 
+process, and behaviour becomes relevant. GAI technol
+-
+ogies both positively and negatively impact organisa -
+tions and individuals in different ways (Zhao, Xia, and Huang 
+2020 ), this study draws firmly from coping the -
+ory (Lazarus and Folkman 1984), which can explain 
+how a person evaluates and copes with stressful events 
+(Oakland and Ostell 1996 ). Coping strategies are a col -
+lection of possible responses to stressful situations. Pri -
+mary and secondary appraisals are formed by evaluating potential outcomes of a stressful event. There are two 
+main coping strategies: problem-focused coping and 
+emotion-focused coping (Folkman and Lazarus 
+1988). 
+The problem-focused coping (PFC) strategy is akin to 
+an approach style, while the emotion-focused coping 
+(EFC) strategy is akin to an avoidance style (Srivastava 
+and Tang 2018). Beaudry and Pinsonneault (2005 ) 
+based on coping theory proposed coping model of 
+user adaptation (CMUA). The CMUA framework can 
+be applied to assess consumers’ adaptation in the light 
+of their growing concerns about ChatGPT. For this pur -
+pose, we rely on a sample of 277 actual ChatGPT users 
+from 10 occupations that may be replaced by ChatGPT 
+in the US and use structural equation modelling.
+Since mindfulness can assist users in coping with the 
+stress induced by information systems (Pflügner, Maier, and Weitzel 2021
+). The literature has empirically estab -
+lished the relationship between mindfulness and coping behaviour for technostress (Tuan 
+2022). Mindfulness 
+refers to deliberately paying attention to the present 
+moment from an accepting stance, and individuals 
+with a flexible disposition tend to sustain their life 
+experiences (Tuan 2022). Mindfulness contributes to emotional regulation, alleviates stress, and enhances 
+psychological well-being (Cheng et al. 2022; Guidetti 
+et al. 2019). This study analyzes the moderating effect 
+of mindfulness on users’ coping strategies and post- 
+adoption continuation intentions in a ChatGPT usage 
+context. To the best of our knowledge, no study has 
+examined the moderating role of mindfulness in this 
+relationship.
+The presence of GAI represents a dilemma for com -
+panies or workers due to its advantages and disadvan -
+tages. In particular, there has been limited analysis 
+from a stress and psychological perspective regarding 
+users’ concerns about GAI and how actions are taken 
+to address the sources of stress brought about it. The 
+purpose of the present study is to use the coping theory 
+and coping model of user adaptation to explore whether 
+users’ ChatGPT technostress enables and/or inhibits their cognitive appraisal (i.e. challenge appraisal and 
+threat appraisal) and type of coping strategies (i.e. pro
+-
+blem – or emotion-focused coping), and whether those 
+coping strategies increase the likelihood of continued 
+use intention after adoption. In addition, we investigate 
+the moderating role of users’ mindfulness in continued use intention after adoption. Thus, our research ques
+-
+tions are as follows. 
+RQ1. What are the roles of enablers and inhibitors of 
+ChatGPT technostress by users on their cognitive 
+appraisal?
+RQ2. How do consumers evaluate and cope with the 
+stress resulting from the effects of the enablers and 
+inhibitors of ChatGPT technostress?
+RQ3. How do users’ problem-focused and emotion- 
+focused coping strategies impact their continued use 
+intention after adoption?
+RQ4. How does the moderating variable of mindfulness 
+influence users’ coping strategies and continued use 
+intention after adoption?
+This research makes several contributions to the litera -
+ture on technology interaction and ChatGPT usage 
+behaviour. First, it proposes a structural equation 
+model integrating users’ concerns, coping process, and 
+behaviour intention based on the coping theory and 
+tests the hypotheses derived from the model by data col -
+lected from 10 occupations that may be replaced by ChatGPT in the U.S. Second, our study expands the 
+coping theory and the coping model of user adaptation 
+to understand how users respond to using ChatGPT in 
+order to assess and deal with stress. Third, the evidence 
+regarding the moderating role of mindfulness presented 
+herein is novel, because the relationship between coping 
+strategies and continued behaviour intention has not 2 
+ Y.-H. CHEN ET AL.
+been previously examined. Finally, the results of this 
+study are based on data collected from ChatGPT 
+users. Its findings offer significant insights for compa -
+nies or individuals to understand GAI and bring forth new possibilities and challenges.
+2. Component theories of the integrated 
+model
+2.1. Emerging concerns about enablers and 
+inhibitors in ChatGPT
+ChatGPT outperforms human workers in quality and 
+efficiency on certain knowledge tasks (Gilardi, Alizadeh, 
+and Kubli 2023 ). However, the data-rich business 
+environment and its highly technological dynamics 
+may generate behavioural and cognitive challenges (Bol -
+dosova and Luoto 2019 ). Individuals must possess a set 
+of AI-related skills to enhance their competitive advan -
+tage, and literacy facilitation can reduce the technostress 
+caused by ICT use (Sharma and Gupta 2023 ). We define 
+GAI literacy as the ability to understand and use GAI 
+tools effectively to make decisions. Coolness has been 
+used to express elements of the novelty, originality, 
+and attractiveness of technological devices (Lucia-Pala -
+cios and Pérez-López 2023; Nan et al. 2022a, 2022b ). 
+ChatGPT has outstanding language processing capabili -
+ties as well as the ability to comprehend conversational 
+content and to provide more accurate and relevant sug -
+gestions (Kim et al. 2023 ; Stokel-Walker and Van Noor -
+den 2023). We define coolness as an overall judgment of 
+ChatGPT technology applications that are perceived as 
+original, attractive, unique, and innovative. Intelligent 
+systems capable of surpassing human intelligence in a 
+particular field are considered post-human (Nath and 
+Manna 2023), such as ChatGPT (Niu and Mvondo 
+2024) and driverless cars (Gambino and Sundar 2019). 
+Therefore, we define post-human ability as ChatGPT’s ability to handle work better than a human.
+AI is gradually changing the way of working, and 
+pressure on employees from data, information, and 
+uninterrupted communication has also intensified 
+(Sieja and Wach 2019). Kumar, Krishnamoorthy, and 
+Bhattacharyya (2023
+) indicated that role ambiguity, 
+job insecurity, and the technology environment contrib -
+ute to technostress, because of the deployment of ML 
+and AI technologies. Li and Huang ( 2020 ) proposed 
+and verified eight factors of AI anxiety: privacy violation 
+anxiety, bias behaviour anxiety, job replacement 
+anxiety, learning anxiety, existential risk anxiety, ethics violation anxiety, artificial consciousness anxiety, and 
+lack of transparency anxiety. In fact, the rapid expansion 
+and popularity of ChatGPT has brought privacy con
+-
+cerns, ethical concerns, security risks, and job replacement concerns. Data used by AI may infringe 
+personal privacy (Jang 2023; Paul, Ueno, and Dennis 
+2023 ). Therefore, we define privacy concern as the 
+degree to which users are worried or stressed about per -
+sonal data used by ChatGPT.
+Many authors have pointed out their concerns over 
+AI ethics (Hsieh 2023; Mvondo, Niu, and Eivazinezhad 
+2023; Zhang and Zhang 2023 ). Although users find 
+ChatGPT enjoyable and useful, it still has potential ethi -
+cal issues. When users interact with ChatGPT, OpenAI 
+collects a wide range of sensitive user information. 
+These ethical concerns can influence their ethical per -
+ceptions of ChatGPT (Catherine, Towfek, and Abdelha -
+mid 2023; Niu and Mvondo 2024 ). In addition, the 
+information security risks posed by ChatGPT can 
+harm companies and compromise the security and priv -
+acy of sensitive information (Carvalho and Ivanov 2024 ). 
+For example, actions creating fake news or impersonat -
+ing brands may become increasingly sophisticated (Kar -
+anjai 2022). There is also a risk that personal data and 
+other sensitive information may be used by ChatGPT 
+to retrain the model (Kim et al. 2023; Paul, Ueno, and 
+Dennis 2023). AI technologies and products are likely 
+to replace some jobs (Bernazzani 2017 ), and unemploy -
+ment or poor job prospects can generate personal 
+anxiety. Wang and Wang ( 2022) and Li and Huang 
+(2020 ) respectively proposed job replacement factors 
+when studying users’ anxiety about AI. We define job 
+replacement concern as the potential for ChatGPT tech -
+nology applications to replace human jobs.
+Despite the many advantages of ChatGPT, our 
+understanding of the negative impacts of ChatGPT on 
+users is rather limited in theoretical and empirical 
+research. The insights gained from this study will help 
+advance the knowledge and understanding of GAI tech -
+nology usage.
+2.2. The coping theory and the coping model of 
+user adaptation
+Coping is a series of processes that describe how indi -
+viduals discover, evaluate, deal with, and learn from 
+stressful situations. Lazarus and Folkman ( 1984 ) pro -
+posed a widely accepted process-based stress and coping 
+model that explains how a person evaluates and 
+responds to stressful events. However, stress events 
+can be assessed as a challenge or threat through cogni -
+tive appraisal. A challenge appraisal occurs when a 
+stressful event is challenging to an individual, but is seen as an opportunity for growth, resulting in positive 
+emotions. On the contrary, a threat appraisal occurs 
+when an event is perceived as causing a threat, foresee
+-
+able injury, or loss, resulting in negative emotions BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 3
+(Lazarus and Folkman 1984 ). If dealing with stress leads 
+to positive emotions, then individuals can assess tech -
+nology-related stress as a challenge; if stress leads to 
+negative emotions, then they can be assessed as an 
+obstacle (Zhao, Xia, and Huang 2020).
+Coping strategies can fall into two perspectives on 
+the basis of their function: problem-focused coping and emotion-focused coping (Lazarus and Folkman 
+1984; Xin, Siponen, and Chen 2022
+). Problem-focused 
+coping (PFC) refers to acting on the environment or 
+self, emphasizing an individual’s initiative to directly 
+respond to a situation and making efforts to manage 
+or reduce stressors. When people feel that they can 
+take some constructive actions, such as recognising 
+reconstruction, acquiring new knowledge and skills, 
+taking direct action to remove obstacles, and seeking 
+support or help from others, they tend to adopt the PFC approach. Emotion-focused coping (EFC) refers 
+to an individual’s inner efforts to regulate or reduce 
+negative emotions caused by stress without affecting the stressor. When people believe that the stressor is 
+something to be accepted and tolerated, such as positive 
+reevaluation, emotional ventilation, seeking social sup
+-
+port, and ignoring the stressor (Carver, Scheier, and 
+Weintraub 1989), then they tend to adopt the EFC 
+style (Lazarus and Folkman 1984 ). Adopting a PFC 
+approach means that individuals under pressure under -
+stand the root causes of the problem, plan how to deal 
+with it, weigh alternatives, and have confidence in 
+managing their stress. Individuals who adopt the EFC 
+approach want to manage their emotions, rather than 
+change the situation or attempt to solve problems.
+Beaudry and Pinsonneault (2005 ) proposed the cop -
+ing model of user adaptation (CMUA) based on the coping theory. CMUA refers to the cognitive and behav
+-
+ioural efforts made by users to manage specific conse -
+quences associated with major IT events that occur in their work environment. CMUA assumes that: (1) indi
+-
+viduals will conduct a primary assessment of the new 
+information system (IS) (i.e. opportunity or threat), 
+(2) the personal assessment of the new IS will lead to 
+different coping strategies (i.e. PFC and EFC), and (3) 
+individual responses to the new IS will lead to different 
+results, such as improving efficiency and effectiveness, 
+reducing negative perceptions of the situation, and 
+restoring emotional stability. Therefore, the CMUA 
+model can explain an individual’s coping behaviour 
+related to IS. As AI technology becomes increasingly 
+intelligent, it is more likely that it will surpass humans and may even make highly specialised occupations 
+obsolete. The sudden change in work modes due to 
+GAI can be difficult for users. The coping theory of 
+Lazarus and Folkman (
+1984) is applicable to understanding the process by which people adapt to 
+new information systems. Therefore, this study aims 
+to fill the gap in the literature and investigate users’ 
+stress due to ChatGPT and their coping strategies.
+2.3. User mindfulness
+Kabat-Zinn (1994 ) defined mindfulness as being con -
+scious, present, and unevaluated through concentration 
+and specific perception. Langer and Moldoveanu ( 2000) 
+defined mindfulness as the process of distinguishing 
+new things, which enables individuals to notice new 
+things and become sensitive to the environment. The 
+nature of mindfulness can be divided into Eastern and 
+Western perspectives (Kabat-Zinn 1982 ). The Eastern 
+perspective of mindfulness has its origins in Buddhism, primarily focusing on personal awareness of the internal 
+processes of the mind. The Eastern concept of mindful
+-
+ness includes the observation of both internal experi -
+ences (such as thoughts, feelings, and body sensations) and external experiences (such as sights, sounds, smells, 
+and events in the physical or social environment). The 
+Western perspective of mindfulness focuses on how 
+external experience deals with cognition, such as 
+decision-making, problem-solving, and cognitive 
+efforts. In other words, the alertness and consciousness of conscious individuals to their environment are 
+expressed through the cognitive process.
+The formation of mindfulness begins with state 
+mindfulness, followed by trait mindfulness (Eberth and Sedlmeier 2012). State mindfulness refers to the 
+consciousness of the mind, body, and other senses, 
+while trait mindfulness refers to how individuals feel 
+during and after mindfulness practice (Wang and 
+Uysal 2023
+). Specifically, this study defines mindfulness 
+as a person’s increased attention and awareness of cur -
+rent events and experiences without any ability to judge or attach importance (Brown and Ryan 
+2003; Kumar, 
+Krishnamoorthy, and Bhattacharyya 2023).
+There are four distinct mechanisms (self-regulation, 
+values’ clarification, flexibility, and exposure) through which the stress-reducing effects of mindfulness occur 
+(Shapiro et al. 2006
+). Mindfulness allows individuals 
+to better adjust and deal with interference in the 
+environment and makes it easier for them to focus on 
+practical tasks (self-regulation). People with mindful -
+ness have a goal orientation and know meaningful aspects of life and values that are important to individ
+-
+uals (values clarification). Mindfulness can achieve bet -
+ter emotional and cognitive flexibility and takes 
+environmental changes as opportunities by selecting 
+or modifying them to meet their needs (flexibility). Mindfulness can bring experience, feeling, cognition, 4 
+ Y.-H. CHEN ET AL.
+and emotion, making people with mindfulness more 
+willing to come into contact with unpleasant inner 
+experiences (exposure). Sun, Fang, and Zou (2016) 
+defined mindfulness from a technical viewpoint as a 
+state of psychological consciousness in which a person 
+pays attention to and is aware of the decision-making 
+related to a technology adoption. Because people with 
+mindfulness have a clearer understanding of the present 
+moment, they may exhibit less impulsive behaviour 
+(Tan et al. 2022), and people with higher mindfulness 
+tend to feel less anxiety and emotional distress when 
+faced with stressful relationships (Ardenghi et al. 2022).
+Research has indicated that increasing mindfulness 
+reduces negative appraisals and the adoption of more adaptive cognitive strategies, as employees are more 
+likely to perceive demands as challenges rather than 
+obstacles (Martín-Hernández et al. 2020). Therefore, 
+users of mindfulness may perceive stressful situations 
+as learning opportunities and advocate for the use of 
+adaptive coping strategies (Gabel-Shemueli et al. 2023
+). This study focuses on mindfulness as a personal -
+ity trait and looks into the effect of mindfulness on the coping strategies of users and their continued use inten
+-
+tion after adoption. We posit that users’ mindfulness 
+can moderate the relationship between coping strategies 
+and sustained usage behaviour.
+3. Research hypotheses’ development
+Figure 1 depicts the research model tested by this study. 
+The research model proposes that users’ ChatGPT technostress enablers and inhibitors trigger their coping 
+process by affecting their challenge and threat apprai -
+sals. However, challenge and threat appraisals are pro -
+posed to positively affect PFC and EFC. The PFC and 
+EFC are proposed to positively affect the intention to 
+continue using ChatGPT after adoption. Furthermore, 
+users’ mindfulness is proposed to positively moderate 
+the relationships among PFC, EFC, and continued use 
+intention after users’ adoption of ChatGPT.
+3.1. User concerns and cognitive appraisal
+3.1.1. GAI literacy
+The advantages and potential of ChatGPT in knowledge 
+work are significant. ChatGPT provides guidance and 
+tips to enhance human capabilities and to complete 
+human tasks quickly and effectively, thus greatly improving 
+productivity (Ritala, Ruokonen, and Ramaul 2023 ). There -
+fore, it is important for users to have technological literacy 
+skills to use ChatGPT. Giudice da Silva Cezar and Maçada 
+(2021 ) found data literacy to be negatively associated with 
+perceived data overload and found a positive correlation 
+between data literacy and individual performance. There -
+fore, the following hypothesis is proposed. 
+H1. GAI literacy positively relates to the challenge 
+appraisal by users of ChatGPT.
+3.1.2. Coolness
+Coolness has emerged as a critical construct in human– computer interaction and IS research. Coolness is 
+Figure 1. Conceptual model.BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 5
+associated with being unique, highly technological, out -
+standing, and impressive (Warren et al. 2019). Coolness 
+is considered a high-quality attribute that creatively 
+fulfils a user’s goals (Sundar, Tamul, and Wu 2014). 
+Coolness also refers to attributes or characteristics 
+attached to a product or service (Warren et al. 2019 ). Per -
+ceived coolness contains the four dimensions of utility, 
+attractiveness, subcultural appeal, and originality (Sun -
+dar, Tamul, and Wu 2014 ). The coolness factor of a pro -
+duct contributes to its success in the market, as it plays a crucial role in how consumers perceive and engage with 
+it (Niu and Mvondo 
+2024 ). If individuals perceive them -
+selves as part of mainstream culture, then they may con -
+sider digital devices within the mainstream domain to be cooler than those associated with subcultures. Consu
+-
+mers typically believe that unique and cool products or 
+services can trigger customer engagement motivation (Stocchi et al. 
+2018; Wang and Sundar 2018 ). Cool pro -
+ducts can also help customers achieve their ideal selves (Tiwari, Chakraborty, and Maity 
+2021).
+Scholars have explored coolness in the field of technol -
+ogy products or services. Bogicevic et al. ( 2021 ) demon -
+strated that perceived coolness mediates the influence of virtual reality on customers’ self-brand connections. 
+Li et al. (
+2022) assessed users’ perceptions of multiple 
+dimensions of coolness and their usage intentions for 
+digital products. Wu et al. (2023 ) explored the relation -
+ship between delight and behavioural intention regarding 
+the coolness of service robots. Tsaur et al. ( 2023) showed 
+that perceived coolness positively affects customer 
+engagement and memorable customer experiences. Niu 
+and Mvondo (2024) determined that perceived coolness 
+positively affects user satisfaction with ChatGPT.
+ChatGPT is one of the impressive tools in GAI. It has 
+the capability to enhance work efficiency and revolutionise content creation methods. ChatGPT is a versatile tool that 
+complete a wide range of tasks involving natural language 
+processing (Carvalho and Ivanov 2024). Therefore, this 
+study predicts that coolness affects challenge appraisal. 
+On this basis, a hypothesis is developed as follows: 
+H2. Coolness positively relates to the challenge apprai -
+sal by users of ChatGPT.
+3.1.3. Post-human ability
+The term post-human refers to individuals or entities 
+existing beyond the human condition. From a digital 
+information perspective, the integration of humans 
+and AI implies that humans have become information processing entities that closely resemble AI (Hayles 
+1999). Gambino and Sundar (2019
+) argued that post- 
+human refers to digital devices that outperform humans 
+in specific tasks. Artificial intelligence and machine learning technologies have seen rapid development, 
+transforming the way individuals interact with their sur -
+roundings and revolutionising work and business 
+models. The post-human ability concept advocates the 
+gradual blurring of boundaries between humans and 
+machines, with humans endeavouring to expand their 
+grasp of the future through the utilisation of technology. 
+Studies have shown that ChatGPT’s performance on 
+some knowledge work tasks surpasses the quality of 
+human workers (Gilardi, Alizadeh, and Kubli 2023; 
+Ritala, Ruokonen, and Ramaul 2023). Niu and Mvondo 
+(2024 ) found post-human ability to have a positive effect 
+on user satisfaction. Therefore, we propose the follow -
+ing hypothesis. 
+H3. Post-human ability positively relates to the chal -
+lenge appraisal by users of ChatGPT.
+3.1.4. Privacy concern
+Privacy concern is an essential factor affecting user acceptance of AI-based technologies (Choi 2021; Li 
+and Huang 2020). Various studies have investigated 
+the impact of privacy concern on consumers’ attitude or its effect on information technology. For example, 
+Marakhimov and Joo (2017
+) studied adoptive health -
+care wearable devices and concluded that privacy con -
+cern negatively influences challenge appraisals and positively influences threat appraisals. Cai, Cain, and 
+Jeon (
+2022 ) found perceived privacy concern has a 
+negative effect on both customers’ intention to use 
+and their positive word-of-mouth about AI-enabled 
+voice assistants. Simultaneously, research has confirmed that privacy concern and awareness of privacy risks 
+undermine users’ willingness to use personalised ser
+-
+vices (Choi 2021).
+Privacy concern is defined as the level of worry or 
+stress experienced by users regarding opportunistic 
+actions related to ChatGPT and their personal infor -
+mation. Therefore, privacy concern is an essential factor 
+affecting the threat appraisal of ChatGPT technologies. 
+Consequently, the following hypothesis is proposed. 
+H4. Privacy concern positively relates to the threat 
+appraisal by users of ChatGPT.
+3.1.5. Ethical concern
+When the boundaries between AI and humans become 
+increasingly blurred, a series of ethical issues will follow 
+(Kamila and Jasrotia 2023; Ryan and Stahl 2021; Zhang 
+and Zhang 2023 ). Since the essence of AI is deep learn -
+ing (DL) algorithms, the opacity of the internal oper -
+ations may lead to a lack of transparency in decision- 
+making (McGowan 2023). The ethical concerns 6 
+ Y.-H. CHEN ET AL.
+associated with using AI as an auxiliary tool involve dis -
+trust, regulatory aspects, and responsibilities (Esmaeil -
+zadeh 2020). Niu and Mvondo (2024) found that 
+ethical concerns directly influence users’ satisfaction 
+and loyalty towards chatbot services. Therefore, this 
+study proposes the following hypothesis. 
+H5. Ethical concern positively relates to the threat 
+appraisal by users of ChatGPT.
+3.1.6. Security risk
+This study defines security risk as the degree to which users are worried or stressed about the accuracy and 
+reliability of information obtained from ChatGPT. 
+The security risks of ChatGPT stem from two main aspects: AI generation and training data input. Research 
+has indicated that the cybersecurity risks posed by 
+ChatGPT may jeopardise the security and privacy of 
+sensitive information, potentially harming a company’s 
+reputation (Carvalho and Ivanov 2024
+). Another con -
+cern is that confidential data shared with ChatGPT 
+may be utilised as training data, potentially leading to 
+output that mimics such sensitive information (Kim 
+et al. 2023 ). Lastly, ChatGPT could pose a significant 
+threat to cybersecurity, as it has the potential to signifi -
+cantly amplify the creation and distribution of malicious 
+content, such as spam, fake messages, phishing emails, 
+and malicious software (Karanjai 2022). Therefore, we 
+propose the following hypothesis. 
+H6. Security risk positively relates to the threat apprai -
+sal by users of ChatGPT.
+Job replacement
+Artificial intelligence has some negative impacts, among which replacing human job opportunities has received 
+the greatest attention and discussion. Because people 
+are afraid of being replaced, they find themselves in a relentless pursuit of acquiring more knowledge, inad
+-
+vertently leading them into a spiral of anxiety and stress (Li and Huang 
+2020; Wang and Wang 2022). Scholars 
+have pointed out that AI technology and products 
+may replace some jobs (Bernazzani 2017 ). Conse -
+quently, we hypothesise the following. 
+H7. Job replacement positively relates to the threat 
+appraisal by users of ChatGPT.
+3.2. Cognitive appraisal and coping behaviour
+When presented with opportunities for growth and 
+enrichment, consumers tend to perceive stress as a chal -
+lenge, but if stress impacts their well-being, then consumers may view it as a threat (Lazarus and Folk -
+man 1984). Specifically, challenge appraisal refers to 
+the perception that interacting with technology presents a challenging situation for an individual, but can be managed through appropriate coping efforts, thereby 
+generating positive emotions. On the other hand, threat 
+appraisal signifies the anticipation that one’s well-being or performance may be jeopardised due to encountering 
+technological challenges, thereby generating negative 
+emotions (Sharma and Gupta 2023).
+This study defines challenge appraisal as the degree 
+to which users appraise or evaluate ChatGPT use as an opportunity to enhance their work efficiency. How
+-
+ever, threat appraisal is defined as the degree to which 
+users evaluate ChatGPT as a potential threat to their 
+concerns and job replacement. Many scholars agree that challenge and threat appraisals both positively 
+influence a person’s problem-focused and emotion- 
+focused coping strategies (Lazarus and Folkman 
+1984; 
+Marakhimov and Joo 2017; Sharma and Gupta 2023). 
+Thus, we have the following hypotheses. 
+H8a. The challenge appraisal by users of ChatGPT posi -
+tively relates to their problem-focused coping.
+H8b. The challenge appraisal by users of ChatGPT posi -
+tively relates to their emotion-focused coping.
+H9a. The threat appraisal by users of ChatGPT posi -
+tively relates to their problem-focused coping.
+H9b. The threat appraisal by users of ChatGPT posi -
+tively relates to their emotion-focused coping.
+3.3. Relationship between coping process and 
+behaviour
+Scholars have tried to systematically understand and 
+predict the intention to use ChatGPT by employing 
+the TAM (Tiwari et al. 2023 ). Few studies have con -
+sidered how users cope with the psychological stress fac -
+tors caused by ChatGPT use, but scholars have realised 
+the psychological impact of interacting with ChatGPT 
+(Salah et al. 2023 ). Continued use intention after adop -
+tion is defined as the degree to which users learn and use 
+the functions of ChatGPT to support their work and 
+well-being. PFC and EFC positively relate to the post- 
+adoptive use of a technology (Marakhimov and Joo 
+2017 ). In addition, PFC positively impacts learning sat -
+isfaction, while EFC negatively impacts learning satis -
+faction (Sharma and Gupta 2023). Huang and 
+Dootson (2022) found that when customers engage in 
+PFC or EFC strategies, their actions exert a positive 
+effect on customer aggression. We therefore postulate 
+the following. BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 7
+H10. Problem-focused coping positively relates to con -
+tinued use intention after users’ adoption of ChatGPT.
+H11. Emotion-focused coping negatively relates to con -
+tinued use intention after users’ adoption of ChatGPT.
+3.4. Moderating effects of mindfulness
+Mindfulness can help individuals cope with stress and 
+select adaptive coping strategies by regulating their 
+responses to stressful life events (Elhai et al. 2018; 
+Grover et al. 2017). For example, when using direct 
+problem-focused coping with stressful situations, mindfulness can enhance individuals’ ability to cope 
+with stressful events and help them change the relationship between negative thoughts by focusing 
+on current experiences (Pflügner, Maier, and Weitzel 
+2021; Pirkkalainen et al. 2019
+). In addition, mindful -
+ness individuals are more likely to choose coping strat -
+egies when facing a stressful situation (Tuan 2022). 
+Mindfulness can cause individuals to adopt emotion- focused coping strategies to avoid or ignore stress 
+(Weinstein, Brown, and Ryan 2009). Mindfulness 
+effectively reduces anxiety, enhances positive emotions, 
+and improves attention and cognitive abilities 
+(Azpíroz-Dorronsoro et al. 2023; Wang, Berthon, 
+and Bechwati 2021).
+Several studies have confirmed that moderating 
+effect of mindfulness is reduced stress or increased 
+well-being (My-Quyen, Hau, and Thuy 2020
+; Victor -
+son et al. 2020). Furthermore, mindfulness can act as 
+a moderating mechanism (Zha et al. 2015). For 
+example, Pflügner, Maier, and Weitzel (2021 ) 
+confirmed that mindfulness moderates the effect of 
+perceived techno-stressors on job burnout. Mindful -
+ness mediates the relations between both depression 
+and anxiety sensitivity with problematic smartphone 
+use severity (Elhai et al. 2018). Martinez et al. (2023) 
+showed that mindfulness moderates the relationship 
+between attributes of benevolence and post-purchase 
+intention. This present study focuses on mindfulness as a moderator of coping strategies. We expect users’ 
+mindfulness to moderate the effects of PFC, EFC, 
+and continued use intention after adoption and 
+hypothesise the following. 
+H12a. Users’ mindfulness positively moderates the 
+relationship between problem-focused coping and con -
+tinued use intention after adoption.
+H12b. Users’ mindfulness negatively moderates the relationship between emotion-focused coping and con
+-
+tinued use intention after adoption.
+Based on the prior discussion, the research model pro -
+posed appears in Figure 1.4. Methodology
+4.1. Sampling and data collection
+This study administered a structured online question -
+naire through Amazon’s Mechanical Turk (MTurk) plat -
+form. MTurk is a widely used platform among scholars 
+due to its high-quality responses and the naivety anon -
+ymity of its respondents (Niu and Mvondo 2024 ). The 
+subjects of this study were people living in the U.S. To qualify for the study, participants should meet the two questions were used: ‘Do you have experience using gen
+-
+erative AI tools?’ and ‘Are you one of the following occu -
+pations that may be replaced by AI?’ These questions were used to identify individuals who had not used gen
+-
+erative AI tools and were not affected by AI, and these 
+individuals were not questioned further. Therefore, 
+20.9% (73 surveys) of the respondents are excluded 
+from this study. The remaining respondents were asked 
+to provide one of their most frequently used GAI tools, 
+since they were likely to be familiar with them. In total, 
+277 questionnaires were used for the analysis.
+GAI users were recruited in January 2024 to fill out the 
+survey. A total of 277 valid responses were used for data analysis and comprised 169 are male respondents 
+(61.0%) and 108 are female respondents (39.0%). Respon
+-
+dents aged 25–34 account for 62.1% of ChatGPT users. The distribution of these respondents by age and gender is very similar to the use of ChatGPT worldwide in 2023 
+statistics (Thormundsson 
+2024). Most participants have a 
+bachelor’s degree (72.2%), followed by a master’s degree 
+(21.7%). Most occupations are in the technology industry 
+(40.8%). About 51.3% of the respondents said they use 
+GAI tools at least once four to five days a week, and 27.1% use them at least once a day. Table 1
+presents the 
+demographic characteristics of the respondents. In addition, we conducted a non-response bias test (Arm
+-
+strong and Overton 1977), and the chi-square test results 
+showed no significant difference ( p > 0.05).
+4.2. Questionnaire design and measures
+The items of the questionnaire were derived from related studies, and we adapted and designed the question items 
+to fit the context of this study. The measurement instru
+-
+ment consisted of 64 items and measured 13 research con -
+structs. GAI literacy was adopted and modified from Giudice da Silva Cezar and Maçada (
+2021) and was 
+measured by using five items. Coolness was adopted 
+from Niu and Mvondo (2024) and was measured using 
+six items. Post-human ability was measured with two 
+items modified from the topical literature (Gambino 
+and Sundar 2019). Privacy concern (Marakhimov and 
+Joo 2017) was assessed by four items, and ethical concern 8 
+ Y.-H. CHEN ET AL.
+was measured by employing five items from Niu and 
+Mvondo (2024). Security risk was gauged by using four 
+items from Weeger, Wang, and Gewald (2015). The 
+three items for job replacement were adopted from 
+Wang and Wang (2022) and Li and Huang (2020 ). Chal -
+lenge appraisal and threat appraisal (Marakhimov and Joo 
+2017 ) were assessed by eight items. The variables of pro -
+blem-focused coping and emotion-focused coping were adopted from Marakhimov and Joo (
+2017) and assessed 
+by eight items. The Mindful Attention Awareness Scale 
+(Brown and Ryan 2003) was assessed by 15 items. Finally, 
+four items on continued use intention after adoption were 
+adopted from Gupta et al. (2020 ). The demographic infor -
+mation consists of gender, age, education, and occupation. 
+All measurement items were identified from previous 
+studies, with minor modifications to fit the context of 
+GAI. Each item was assessed using a seven-point Likert scale, with scores ranging from 1 (not agree at all) to 7 
+(absolutely agree). The measures and respective items 
+are presented in Appendix A.
+5. Results
+IBM SPSS 26.0 was used to assess non-response bias, common method variance and demographic data. In this study, we consider the non-normal of the 
+collected data and complexity of hypothesised model. 
+We used partial least square structural equation model
+-
+ling to assess the measurement and structural model 
+with SmartPLS 4.2 (Hair et al. 2017, 2021).
+5.1. Measurement model assessment
+Table 2 shows the results of the analysis. We delete six 
+items whose factor loadings are less than 0.7. Other 
+factor loadings are over the cut-off value of 0.70 
+(Hair et al. 2019), and all constructs have variance 
+inflation factor (VIF) values less than 4, suggesting 
+acceptable reliability (Hair et al. 2017 ). Cronbach’s 
+alphas range from 0.704 to 0.961 and exceed the rec -
+ommended threshold of 0.70 (Nunnally and Bernstein 
+1994). Composite reliability (CR) ranges between 0.841 
+and 0.965, and average variance extracted (AVE) 
+ranges between 0.572 and 0.742, thus exceeding the 
+recommended threshold of CR greater than 0.70 and 
+AVE greater than 0.50 (Hair et al. 2017 ). The measure -
+ment model thus has high reliability and convergent 
+validity. Table 3 shows results discriminant validity 
+of the latent variables is tested using the Fornell and 
+Larcker (1981 ) criterion. The square roots of the 
+AVE values are all larger than the correlations. All 
+values of heterotrait-monotrait ratio (HTMT) for con -
+structs were lower than 0.9 (HTMT between 0.244 and 
+0.893), which is the cut-off value (Henseler, Ringle, 
+and Sarstedt 2015), thus supporting discriminant 
+validity.
+5.2. Common method variance
+Given that both criterion and predictor variables were 
+obtained from a single source (Podsakoff et al. 2003 ), 
+the risk of common method variance (CMV) could 
+be a concern in this study. We controlled for potential 
+CMV by optimally designing the research question -
+naire and placing questions related to the dependent 
+variable before the predictor variables. We used 
+second statistical methods to check for CMV. First, we adopted Harman’s single factor test (Podsakoff 
+et al. 
+2003 ). The total variance for a single factor 
+was 35.95% (less than 50%), which met the cut-off cri -
+teria (Mackenzie and Podsakoff 2012). Second, we 
+used a latent marker variable to control the influence 
+of CMV in the research model (Chin et al. 2013; 
+Liang et al. 2007; Rönkkö and Ylitalo 2011). The 
+results demonstrated that the path significance of the 
+original model did not change after controlling the 
+influence of the marker variable. Thus, CMV is not an issue in this study.Table 1. Demographics.
+DemographicsFull sample (n  
+= 277)
+Number %
+Gender Male 169 61.0
+Female 108 39.0
+Age (years) ⩽19 0 0.0
+20–24 24 8.7
+25–29 75 27.1
+30–34 97 35.0
+35–39 58 20.9
+⩾ 40 23 8.3
+Education High school degree 13 4.7
+Bachelor’s degree 200 72.2
+Master’s degree 60 21.7
+PhD degree 4 1.4
+Occupation Technical industry (program designer, 
+computer engineer, software engineer, 
+data analyst)113 40.8
+Media industry (advertising, content 
+creation, content writing, news)30 10.8
+Legal industry (lawyer assistant, legal 
+assistant)15 5.4
+Market research analyst 35 12.6
+Teacher 12 4.3
+Financial industry (financial analyst, 
+personal financial advisor)25 9.0
+E-commerce practitioner 10 3.6
+Graphic designer 11 4.0
+Accountant 17 6.1
+Customer service centre 9 3.2
+Frequency Every day 75 27.1
+4–5 days per week 142 51.3
+2–3 days per week 52 18.8
+1 day per week 8 2.9BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 9
+Table 2. Reliability and validity analysis of the full sample.
+Construct Indicator Factor loading VIF Cronbach’s α CR AVE
+GAI literacy (GAIL) GAIL1* (deleted) – 0.829 0.886 0.661
+GAIL2 0.777 1.659
+GAIL3 0.817 1.766
+GAIL4 0.835 1.852
+GAIL5 0.824 1.813
+Coolness (COOL) COOL1* (deleted) – 0.862 0.901 0.646
+COOL2 0.854 2.348
+COOL3 0.767 1.754
+COOL4 0.817 1.949
+COOL5 0.829 2.069
+COOL6 0.748 1.665
+Post-human ability (PA) PA1 0.841 1.310 0.704 0.852 0.742
+PA2 0.882 1.310
+Privacy concern (PC) PC1 0.786 1.457 0.823 0.882 0.651
+PC2 0.856 2.093
+PC3 0.799 1.845
+PC4 0.785 1.809
+Ethical concern (EC) EC1 0.706 1.499 0.845 0.889 0.616
+EC2 0.839 1.953
+EC3 0.721 1.670
+EC4 0.813 1.805
+EC5 0.835 2.176
+Security risk (SR) SR1 0.780 1.675 0.854 0.901 0.695
+SR2 0.865 2.109
+SR3 0.848 2.179
+SR4 0.840 2.099
+Job replacement (JR) JR1 0.807 1.619 0.815 0.890 0.730
+JR2 0.886 1.943
+JR3 0.867 1.965
+Challenge appraisal (CH) CH1 0.723 1.458 0.824 0.883 0.655
+CH2 0.861 2.163
+CH3 0.839 1.941
+CH4 0.810 1.779
+Threat appraisal (TH) TH1 0.770 1.719 0.877 0.915 0.730
+TH2 0.884 2.531
+TH3 0.888 2.697
+TH4 0.870 2.266
+Problem-focused coping (PFC) PFC1 0.724 1.368 0.748 0.841 0.572
+PFC2 0.828 1.677
+PFC3 0.807 1.630
+PFC4 0.705 1.253
+Emotion-focused coping (EFC) EFC1* (deleted) – 0.781 0.873 0.696
+EFC2 0.826 1.628
+EFC3 0.852 1.769
+EFC4 0.824 1.532
+Mindfulness (MIN) MIN1 0.745 2.050 0.961 0.965 0.681
+MIN2 0.779 2.819
+MIN3 0.849 3.225
+MIN4 0.816 3.195
+MIN5 0.788 3.114
+MIN6 0.845 3.540
+MIN7 0.846 3.177
+MIN8 0.843 3.223
+MIN9 0.854 3.483
+MIN10 0.851 3.585
+MIN11 0.836 3.217
+MIN12 0.856 3.870
+MIN13 0.814 2.753
+MIN14* (deleted) –
+MIN15* (deleted) –
+Continued use intention after adoption (CUIA) CUIA1 0.735 1.445 0.787 0.862 0.610
+CUIA2 0.812 1.647
+CUIA3 0.769 1.519
+CUIA4 0.805 1.657
+Notes: GAI literacy (GAIL); Coolness (COOL); Post-human ability (PA); Privacy concern (PC); Ethical concern (EC); Security risk (SR); Job replacement (JR); Chal -
+lenge appraisal (CH); Threat appraisal (TH); Problem-focused coping (PFC); Emotion-focused coping (EFC); Mindfulness (MIN); Continued use intention after 
+adoption (CUIA). The symbol * represents that the factor loading is lower than 0.7, and the original item is deleted.10 
+ Y.-H. CHEN ET AL.
+5.3. Structural model assessment
+The R-squared results show that the endogenous con -
+structs – namely, challenge appraisal (0.580), threat 
+appraisal (0.555), problem-focused coping (0.596), 
+emotion-focused coping (0.588), and continued use intention after adoption (0.709) – have large effects, 
+indicating that the regression model is acceptable. 
+Figure 2 shows the path coefficients and t-values. Of 
+the inhibitors, GAI literacy has no effect on challenge appraisal (
+β = 0.091, t = 1.071); thus, H1 is rejected. 
+Coolness and post-human ability have a positive influ -
+ence on challenge appraisal (
+β = 0.550, t = 6.610; β =  
+0.196, t = 3.607); hence, H2 and H3 are supported. 
+Among the four dimensions of enablers, privacy con -
+cern (
+β = 0.345, t = 3.409), ethical concern (β = 0.206, t  
+= 2.023), and security risk (β = 0.505, t = 5.416) have a 
+positive influence on threat appraisal; hence, H4, H5, 
+and H6 are supported. Job replacement (β = 0.172, t =  
+1.556) has no effect on threat appraisal; thus, H7 is rejected.
+Challenge appraisal positively influences problem- 
+focused coping (
+β = 0.741, t = 22.091) and emotion- 
+focused coping (β = 0.739, t = 19.278); thus, H8a and 
+H8b are supported. Threat appraisal positively influ -
+ences problem-focused coping (
+β = 0.117, t = 3.042) 
+and emotion-focused coping (β = 0.100, t = 2.322); 
+thus, H9a and H9b are supported. Furthermore, pro -
+blem-focused coping (
+β = 0.367, t = 6.438) and 
+emotion-focused coping (β = 0.447, t = 8.426) positively 
+influence continued use intention after adoption, thus 
+supporting H10 and H11.
+5.4. Moderation analysis
+The structural model looks into the moderating effect of 
+mindfulness on the proposed causal relationships among PFC, EFC, and CUIA. There is no significant moderation effect of users’ mindfulness on the relation
+-
+ship between PFC and CUIA (
+β = 0.090, t = 1.355), and 
+thus H12a is not supported. However, users’ mindful -
+ness (
+β = −0.139, t = 2.253; see Figure 3) has a negative 
+moderating effect on the association between EFC and CUIA. Thus, H12b is supported.
+5.5. Predictive relevance and effect sizes
+We next calculate the effect sizes (
+f2) for each path 
+model. As a rule of thumb, values of 0.02, 0.15, and 
+0.35 can be interpreted as small, medium, and large 
+effects (Cohen 2013; Hair et al. 2019). The test results 
+are in Table 4 . In addition, this study calculates cross- 
+validated redundancy (
+Q2) to assess the model’s out- 
+of-sample predictive power or predictive relevance. Q2 
+values larger than zero for a particular endogenous con -
+struct indicate the path model’s predictive relevance for 
+that construct (Hair et al. 2019 ). The Q2 values for CH 
+and TH are 0.564 and 0.514, respectively, while the Q2 
+values for PFC and EFC are 0.540 and 0.553, respect -
+ively. The Q2 values for CUIA is 0.579. The demo -
+graphic controls of gender and age do not significantly relate to the constructs (
+Table 5).
+6. Conclusions and implications
+6.1. Discussion
+This study examines how users continue to use ChatGPT in the inhibitors and enablers of technostress 
+through the coping theory and the coping model of user 
+adaptation. Additionally, it investigates the impact of user mindfulness on the moderation effect between 
+PFC, EFC, and sustained use. First, the results show 
+that coolness and post-human capability concerns sig
+-
+nificantly affect users’ challenge appraisal of ChatGPT. 
+Coolness has the greatest impact on challenge appraisal. Table 3. Discriminant validity checks.
+ConstructCorrelations and square roots of AVE
+1 2 3 4 5 6 7 8 9 10 11 12 13
+GAIL 0.813
+COOL 0.778 0.804
+PA 0.614 0.612 0.862
+PFC 0.494 0.485 0.368 0.807
+EFC 0.613 0.609 0.459 0.808 0.785
+SR 0.459 0.427 0.374 0.682 0.700 0.834
+JR 0.419 0.372 0.280 0.594 0.562 0.592 0.854
+CH 0.639 0.740 0.588 0.398 0.449 0.268 0.270 0.810
+TH 0.276 0.291 0.199 0.624 0.523 0.697 0.559 0.213 0.855
+PF 0.656 0.713 0.564 0.420 0.485 0.311 0.282 0.754 0.218 0.813
+EF 0.687 0.756 0.558 0.452 0.505 0.338 0.312 0.760 0.257 0.729 0.834
+MIN 0.457 0.415 0.336 0.539 0.528 0.607 0.549 0.306 0.527 0.384 0.353 0.826
+CUIA 0.692 0.787 0.617 0.517 0.556 0.415 0.316 0.749 0.261 0.752 0.790 0.391 0.781
+Note: Diagonal elements (in bold) are the square root of the constructs’ AVEs.BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 11
+This finding aligns with other research suggesting that 
+coolness and post-human ability positively influence 
+the use of ChatGPT (Niu and Mvondo 2024). However, 
+GAI literacy does not significantly affect challenge 
+appraisal, although technical literacy or data literacy 
+can help users manage stressors (Sharma and Gupta 
+2023). GAI literacy should help users learn how to use 
+ChatGPT so as to facilitate work and to increase their 
+competence and confidence in using ChatGPT through 
+training courses and learning mechanisms. Second, the 
+results show that privacy, ethics, and security concerns 
+significantly affect users’ threat appraisal of ChatGPT. However, security concerns (Carvalho and Ivanov 2024
+) have the greatest impact on threat appraisal. Sur -
+prisingly, job replacement does not significantly affect 
+threat appraisal is a notable finding and is different 
+from other research results (Lazarus and Folkman 
+1984). This possibly because AI has yet to replace 
+human labour on a large scale, and few workers have 
+been replaced by AI. Most people will therefore not 
+experience being replaced by AI (Li and Huang 2020). 
+In addition, people view ChatGPT as an empowering 
+technology that can help workers become more efficient 
+in completing tasks or even create entirely new jobs 
+Figure 2. PLS results for the full sample of the research model.
+Figure 3. Moderating effect of mindfulness on the association between EFC and CUIA.12 
+ Y.-H. CHEN ET AL.
+(Korzynski et al. 2023; Ritala, Ruokonen, and Ramaul 
+2023).
+Third, regarding the coping process, challenge and 
+threat appraisals have a significantly positive impact 
+on users’ PFC and EFC, which in turn have a signifi -
+cantly positive impact on CUIA. These results are in 
+line with those of other research (Marakhimov and 
+Joo 2017; Sharma and Gupta 2023 ), which maintains 
+that challenge and threat appraisals are the primary 
+antecedents of the overall coping behaviour. However, 
+challenge appraisal has a more significant effect on PFC and EFC than on threat appraisal, yet a stronger 
+effect on PFC than on EFC. Most importantly, this 
+study finds that mindfulness exhibits a negative moder
+-
+ating influence on EFC and CUIA.
+6.2. Theoretical implications
+This study has several academic implications. First, 
+most research on ChatGPT has primarily focused on 
+proposing conceptual impacts on industries or organisational sectors, with only Niu and Mvondo 
+(2024 ) identifying the determinants of users’ loyalty 
+and their ethical usage concerns related to ChatGPT. 
+This paper is unique in that it empirically tests a research model drawing on the coping theory and the 
+coping model of user adaptation. This study comp
+-
+lements the extant research on ChatGPT by identifying 
+and empirically examining the effects of users’ enablers 
+and inhibitors of ChatGPT technostress on their coping 
+behaviour. The findings indicate that users’ coping behaviour significantly predicts their continued use 
+intention after ChatGPT adoption. Second, most studies 
+on technostress and coping perspective leave out the inhibitors (Pirkkalainen et al. 
+2019; Zhao, Xia, and 
+Huang 2020 ). Our study extends the existing knowledge 
+by including both users’ inhibitors and enablers in the research model to study their effect on users in a 
+ChatGPT environment. Third, as for the coping process, 
+the results indicate that users’ PFC and EFC signifi
+-
+cantly predict their continued use intention after adop -
+tion. This also implies people use PFC strategies when they feel they have control over a situation. Conversely, 
+EFC strategies are used when a situation is uncontrolla
+-
+ble (Cheng, Lau, and Chan 2014; Chiavarino et al. 2012; 
+Spekman, Konijn, and Hoorn 2018).
+Finally, mindfulness is relevant to EFC (Elhai et al. 
+2018 ). Mindfulness improves people’s ability to handle 
+stressful conditions arising from technology. This 
+results in improved well-being as well as reduced tech -
+nostress and depression (Klussman et al. 2020; Kudesia, 
+Pandey, and Reina 2022). In addition, Chang, Huang, 
+and Lin (2016 ) confirmed that individuals with high 
+mindfulness tend to use more PFC strategies in control -
+lable stressful situations and rely more on EFC strategies in uncontrollable stressful situations. Similarly, Marsh, 
+Perez Vallejos, and Spence (
+2024 ) found that higher 
+levels of mindfulness better protect individuals against 
+the negative effects associated with digital work. In the 
+current study, mindfulness fails to moderate the relationship between PFC and continued use intention. 
+A possible explanation for this may be that use of GAI 
+tools and ChatGPT innovative technologies are con
+-
+stantly being developed (e.g. GPT-4 language models), 
+they will have a positive transformative impact on the 
+industry (Dwivedi et al. 2024). Obviously, managers 
+and users are still understanding, learning and adapting 
+to the changes and negative impacts of ChatGPT on 
+their work.
+6.3. Practical implications
+Our findings provide some practical implications for 
+organisations, managers, employees and software Table 4. Hypothesised model results.
+HypothesisStandardized 
+Coefficient t-valuep- 
+value Result
+H1: GAIL→CH 0.091 1.071 0.284 Not 
+Supported
+H2: COOL→CH 0.550 6.610*** 0.000 Supported
+H3: PA→CH 0.196 3.607*** 0.000 Supported
+H4: PC→TH 0.345 3.409*** 0.001 Supported
+H5: EC→TH 0.206 2.023* 0.043 Supported
+H6: SR→TH 0.505 5.416*** 0.000 Supported
+H7: JR→TH 0.172 1.556 0.120 Not 
+Supported
+H8a: CH→PFC 0.741 22.091*** 0.000 Supported
+H8b: CH→EFC 0.739 19.278*** 0.000 Supported
+H9a: TH→PFC 0.117 3.042** 0.002 Supported
+H9b: TH→EFC 0.100 2.322* 0.020 Supported
+H10: PFC→CUIA 0.417 7.081*** 0.000 Supported
+H11: EFC→CUIA 0.410 7.536*** 0.000 Supported
+H12a: PFC ×  
+MIN→CUIA0.090 1.355 0.176 Not 
+Supported
+H12b: EFC ×  
+MIN→CUIA−0.139 2.253* 0.024 Supported
+Notes: *p < 0.05; **p < 0.01; and ***p < 0.001. GAI literacy (GAIL); coolness 
+(COOL); post-human ability (PA); privacy concern (PC); ethical concern 
+(EC); security risk (SR); job replacement (JR); challenge appraisal (CH); 
+threat appraisal (TH); problem-focused coping (PFC); emotion-focused 
+coping (EFC); mindfulness (MIN); continued use intention after adoption (CUIA).
+Table 5. Effect size.
+Construct PathCohen’s effect sizes 
+(f2)Q-square 
+(Q2)R-square 
+(R2)
+CH CH→PFC 1.292 (large) 0.564 0.580
+CH→EFC 1.264 (large)
+TH TH→PFC 0.032 (medium) 0.514 0.555
+TH→EFC 0.023 (medium)
+PFC PFC→CUIA 0.213 (large) 0.540 0.596
+EFC EFC→CUIA 0.204 (large) 0.553 0.588
+CUIA – – 0.579 0.709BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 13
+developers. First, while many companies have used AI 
+techniques to automate processes, the greater impact 
+of the technology may be to complement and augment 
+human capabilities rather than replace them (Wilson 
+and Daugherty 2018 ). ChatGPT will not replace 
+human work soon, but employees from all walks of 
+life should understand this new technology and learn 
+to use ChatGPT to improve their workplace pro -
+ductivity. Therefore, managers can promote the per -
+formance of ChatGPT tools through social media platforms and allow users to learn online through 
+videos. Second, ChatGPT’s coolness and post-human 
+ability also influence users’ challenge appraisals. This 
+provides a strong incentive for OpenAI and other com
+-
+panies building software applications based on transfor -
+mer technology to develop and launch new features regularly and to create excitement over them. Technol
+-
+ogy designers should also strive to explore ways in 
+which technology can surpass human capabilities (Niu 
+and Mvondo 2024 ). For example, provide prompt 
+engineering and AI dialogue communication strategies. 
+Third, the results of this study indicate that users are 
+indeed concerned about the inaccuracy and ethical issues of data obtained by ChatGPT. These concerns 
+lead them to view ChatGPT as a threat. Managers 
+should demonstrate commitment to user data security, privacy concerns, and mitigating ethical concerns 
+about using ChatGPT. Fourth, GAI tools such as 
+ChatGPT are expected to expand significantly in the 
+near future. Organisations should alleviate the pressure 
+level of GAI technology through timely and effective 
+technical support. The coping processes among users 
+of these technologies can significantly affect the pace 
+and success of ChatGPT. Users who employ PFC strat
+-
+egies can create a plan of action to learn ChatGPT and 
+as a result feel more confident and competent in its use.
+Finally, mindfulness is a personal resource that can 
+help reduce anxiety and technology related stress (Marsh, Perez Vallejos, and Spence 2024; Pflügner, 
+Maier, and Weitzel 2021). Mindfulness helps to focus 
+and calm can exert more creativity, which is relatively 
+difficult to be replaced by AI. Consequently, managers 
+and professionals are encouraged to maintain an open 
+mindset, cultivate curiosity, experiment with ChatGPT 
+and GAI tools, and build their learning capacities. 
+Organisations also should provide employees with 
+mindfulness training to reduce perceived GAI stress 
+(Vonderlin et al. 2020), such as daily meditation practice 
+(Lomas et al. 2017
+), and promote their proactive pro -
+blem-focused strategies to technological stress (Pflüg -
+ner, Maier, and Weitzel 2021). In addition, training 
+programmes can achieve balance through regulatory 
+focus (promotion and prevention focus) (Tuan 2022). With adequate facilitation focus, employees tend to 
+proactively respond to the technological pressures of 
+generative AI.
+7. Limitations and future research
+This research had several limitations. First, this study primarily focuses on users’ enablers and inhibitors. Future research should consider a wider range of ante
+-
+cedents of the coping process, including the appli -
+cations, benefits, and risks of ChatGPT. Additionally, this research considers how mindfulness affects coping 
+processes. Future studies should explore other personal
+-
+ity traits, such as empowerment and having regulatory 
+focus. Second, we used the MTurk sampling pool, 
+which might decrease the external validity of the 
+findings. This study may have been prone to self-selec -
+tion bias, because the survey sample only focused on the 
+distribution of ten occupations that may be replaced by 
+ChatGPT. Therefore, other occupational samples 
+should be further investigated in the future.
+Third, the current research survey focused on U.S. 
+professionals in selected fields, collected data from a sample of 277 actual ChatGPT users. While this sample 
+size is adequate for many research purposes, which may 
+not reflect diverse global contexts. Future research 
+should consider the differences between countries in 
+understanding the outcome of their concerns. Users 
+from different countries may have different views on 
+handling their concerns in a ChatGPT environment. 
+Finally, this study examines users’ enablers and inhibi
+-
+tors, appraisal methods, and coping processes by col -
+lecting cross-sectional data. For future research, it may 
+be helpful to perform a longitudinal approach to obtain 
+a more vigorous explanation of the causal relationships.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+ORCID
+Yu-Hsin Chen 
+ http://orcid.org/0000-0001-9073-2819
+References
+Ardenghi, S., S. Russo, M. Luciani, V. Salvarani, G. Rampoldi, 
+M. Bani, Davide Ausili, Stefania Di Mauro, and Maria 
+Grazia Strepparava. 2022. “The Association Between 
+Dispositional Mindfulness and Empathy among 
+Undergraduate Nursing Students: A Multicenter Cross- 
+Sectional Study.” Current Psychology 42:15132–15140. 
+https://doi.org/10.1007/s12144-022-02829-1.14 
+ Y.-H. CHEN ET AL.
+Armstrong, J. S., and T. S. Overton. 1977. “Estimating 
+Nonresponse Bias in Mail Surveys.” Journal of Marketing 
+Research 14 (3): 396–402. https://doi.org/10.1177/ 
+002224377701400320
+Azpíroz-Dorronsoro, C., B. Fernández-Muñiz, J. M. Montes- 
+Peón, and C. J. Vázquez-Ordás. 2023. “Technostress and 
+Work-Family Conflict in ICT-User Employees During the 
+Covid-19 Pandemic: The Role of Social Support and Mindfulness.” Behaviour & Information Technology 
+43:1531–1553. https://doi.org/10.1080/0144929X.2023. 
+2220051.
+Beaudry, A., and A. Pinsonneault. 2005. “Understanding User 
+Responses to Information Technology: A Coping Model of User Adaptation.” MIS Quarterly 29:493–524. https://doi. 
+org/10.2307/25148693
+Bernazzani, S. 2017. “10 Jobs Artificial Intelligence will 
+Replace (and 10 that are Safe).” https://blog.hubspot.com/ 
+marketing/jobs-artificial-intelligence-will-replace.
+Bogicevic, V., S. Q. Liu, S. Seo, J. Kandampully, and N. A. 
+Rudd. 2021. “Virtual Reality is So Cool! How Technology 
+Innovativeness Shapes Consumer Responses to Service Preview Modes.” International Journal of Hospitality 
+Management 93:102806. https://doi.org/10.1016/j.ijhm. 
+2020.102806
+Boldosova, V., and S. Luoto. 2019. “Storytelling, Business 
+Analytics and Big Data Interpretation.” Management 
+Research Review 43 (2): 204–222. https://doi.org/10.1108/ 
+MRR-03-2019-0106
+Brown, K. W., and R. M. Ryan. 2003. “The Benefits of Being 
+Present: Mindfulness and its Role in Psychological Well- 
+Being.” Journal of Personality and Social Psychology 84 
+(4): 822. https://doi.org/10.1037/0022-3514.84.4.822
+Cai, R., L. N. Cain, and H. Jeon. 2022. “Customers’ 
+Perceptions of Hotel AI-Enabled Voice Assistants: Does Brand Matter?” International Journal of Contemporary 
+Hospitality Management 34 (8): 2807–2831. https://doi. 
+org/10.1108/IJCHM-10-2021-1313
+Carvalho, I., and S. Ivanov. 2024. “ChatGPT for Tourism: 
+Applications, Benefits and Risks.” Tourism Review 79 (2): 
+290–303. https://doi.org/10.1108/TR-02-2023-0088.
+Carver, C. S., M. F. Scheier, and J. K. Weintraub. 1989. 
+“Assessing Coping Strategies: A Theoretically Based 
+Approach.” Journal of Personality and Social Psychology 56 
+(2): 267–283. https://doi.org/10.1037/0022-3514.56.2.267
+Catherine, A. T., S. K. Towfek, and A. Abdelhamid. 2023. “An 
+Overview of the Evolution and Impact of Chatbots in Modern Healthcare Services.” Mesopotamian Journal of 
+Artificial Intelligence in Healthcare 2023:71–75. https:// 
+doi.org/10.58496/MJAIH/2023/014
+Chang, J. H., C. L. Huang, and Y. C. Lin. 2016. “The Effect of 
+Mindfulness on Coping and Emotion Regulation 
+Flexibility.” Formosa Journal of Mental Health 29 (4): 
+391–411.
+Cheng, C., H. P. Lau, and M. P. Chan. 2014. “Coping 
+Flexibility and Psychological Adjustment to Stressful Life Changes: A Meta-Analytic Review.” Psychological Bulletin 
+140 (6): 1582–1607. https://doi.org/10.1037/a0037913
+Cheng, X., H. Zhang, J. Cao, and Y. Ma. 2022. “The Effect of 
+Mindfulness-Based Programs on Psychological Distress and Burnout in Kindergarten Teachers: A Pilot Study.” 
+Early Childhood Education Journal 50 (7): 1197–1207. 
+https://doi.org/10.1007/s10643-021-01254-6Chiavarino, C., D. Rabellino, R. B. Ardito, E. Cavallero, L. 
+Palumbo, S. Bergerone, Fiorenzo Gaita, and Bruno G. Bara. 2012. “Emotional Coping is a Better Predictor of 
+Cardiac Prognosis Than Depression and Anxiety.” Journal of Psychosomatic Research 73 (6): 473–475. 
+https://doi.org/10.1016/j.jpsychores.2012.10.002.
+Chin, W. W., J. B. Thatcher, R. T. Wright, and D. Steel. 2013. 
+“Controlling for Common Method Variance in PLS Analysis: The Measured Latent Marker Variable Approach.” Springer Proceedings in Mathematics & 
+Statistics 56:231–239.
+Choi, Y. 2021. “A Study of Employee Acceptance of Artificial 
+Intelligence Technology.” European Journal of 
+Management and Business Economics 30 (3): 318–330. 
+https://doi.org/10.1108/EJMBE-06-2020-0158
+Cohen, J. 2013. Statistical Power Analysis for the Behavioral 
+Sciences. New York: Routledge.
+Dilmegani, C. 2024. “Top 20 Use Cases of ChatGPT in 
+Marketing for 2024.” https://blog.hubspot.com/ 
+marketing/jobs-artificial-intelligence-will-replace.
+Dwivedi, Y. K., N. Pandey, W. Currie, and A. Micu. 2024. 
+“Leveraging ChatGPT and Other Generative Artificial 
+Intelligence (AI)-Based Applications in the Hospitality 
+and Tourism Industry: Practices, Challenges and Research Agenda.” International Journal of Contemporary 
+Hospitality Management 36 (1): 1–12. https://doi.org/10. 
+1108/IJCHM-05-2023-0686
+Eberth, J., and P. Sedlmeier. 2012. “The Effects of Mindfulness 
+Meditation: A Meta-Analysis.” Mindfulness 3 (3): 174–189. 
+https://doi.org/10.1007/s12671-012-0101-x
+Elhai, J. D., J. C. Levine, K. D. O’Brien, and C. Armour. 2018. 
+“Distress Tolerance and Mindfulness Mediate Relations Between Depression and Anxiety Sensitivity with Problematic Smartphone Use.” Computers in Human 
+Behavior 84:477–484. https://doi.org/10.1016/j.chb.2018. 
+03.026
+Esmaeilzadeh, P. 2020. “Use of AI-Based Tools for Healthcare 
+Purposes: A Survey Study from Consumers’ Perspectives.” BMC Medical Informatics and Decision Making 20 (1): 70. 
+https://doi.org/10.1186/s12911-020-01191-1
+Folkman, S., and R. S. Lazarus. 1988. “Coping as a Mediator of 
+Emotion.” Journal of Personality and Social Psychology 54 
+(3): 466–475. https://doi.org/10.1037/0022-3514.54.3.466
+Fornell, C., and D. Larcker. 1981. “Evaluating Structural 
+Equation Models with Unobservable Variables and Measurement Error.” Journal of Marketing Research 18 
+(1): 39–50. https://doi.org/10.1177/002224378101800104
+Gabel-Shemueli, R., S. Tzafrir, B. Rodriguez Perez, and D. 
+Bahamonde Canepa. 2023. “Being Present: A 
+Longitudinal Study on the Role of Mindfulness on Engagement and Burnout in Teachers.” Academia Revista 
+Latinoamericana de Administración 36 (3): 335–352. 
+https://doi.org/10.1108/ARLA-01-2023-0011
+Gambino, A., and S. S. Sundar. 2019. “Acceptance of Self-Driving 
+Cars: Does Their Posthuman Ability Make Them More Eerie 
+or More Desirable?” In Extended Abstracts of the 2019 CHI 
+Conference on Human Factors in Computing Systems, 1–6. 
+New York, NY: Association for Computing Machinery.
+George, A. S., A. S. H. George, and A. S. G. Martin. 2023. “A 
+Review of ChatGPT AI’s Impact on Several Business Sectors.” Partners Universal International Innovation 
+Journal (PUIIJ) 1 (1): 9–23.BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 15
+Gilardi, F., M. Alizadeh, and M. Kubli. 2023. “ChatGPT 
+Outperforms Crowd-Workers for Text-Annotation 
+Tasks.” Working Paper. https://doi.org/10.48550/arXiv. 
+2303.15056.
+Giudice da Silva Cezar, B., and A. C. G. Maçada. 2021. “Data 
+Literacy and the Cognitive Challenges of a Data-Rich 
+Business Environment: An Analysis of Perceived Data 
+Overload, Technostress and Their Relationship to Individual Performance.” Aslib Journal of Information 
+Management 73 (5): 618–638. https://doi.org/10.1108/ 
+AJIM-01-2021-0015.
+Grover, S. L., S. T. T. Teo, D. Pick, and M. Roche. 2017. 
+“Mindfulness as a Personal Resource to Reduce Work Stress in the Job Demands-Resources Model: Mindfulness 
+and Stress.” Stress and Health 33 (4): 426–436. https://doi. 
+org/10.1002/smi.2726
+Guidetti, G., S. Viotti, R. Badagliacca, L. Colombo, and D. 
+Converso. 2019. “Can Mindfulness Mitigate the Energy- 
+Depleting Process and Increase Job Resources to Prevent 
+Burnout? A Study on the Mindfulness Trait in the School Context.” PLoS One 14 (4): e0214935. https://doi.org/10. 
+1371/journal.pone.0214935
+Gupta, S., V. A. Drave, Y. K. Dwivedi, A. M. Baabdullah, and 
+E. Ismagilova. 2020. “Achieving Superior Organizational 
+Performance via Big Data Predictive Analytics: A Dynamic Capability View.” Industrial Marketing 
+Management 90:581–592. https://doi.org/10.1016/j. 
+indmarman.2019.11.009
+Hair, J. F., G. T. M. Hult, C. M. R. Ringle, M. Sarstedt, N. P. 
+Danks, and S. Ray. 2021. Partial Least Squares Structural 
+Equation Modeling (PLS-SEM) Using R. Springer. https:// 
+doi.org/10.1007/978-3-030-80519-7.
+Hair, J. F., J. J. Risher, M. Sarstedt, and C. M. Ringle. 2019. 
+“When to Use and How to Report the Results of PLS- 
+SEM.” European Business Review 31 (1): 2–24. https://doi. 
+org/10.1108/EBR-11-2018-0203
+Hair, J. F., M. Sarstedt, C. M. Ringle, and S. P. Gudergan. 2017. 
+Advanced Issues in Partial Least Squares Structural 
+Equation Modeling. Thousand Oaks, CA: Sage Publications.
+Hayles, N. K. 1999. How we Became Posthuman: Virtual 
+Bodies in Cybernetics, Literature, and Informatics. Chicago: The University of Chicago Press.
+Henseler, J., C. M. Ringle, and M. Sarstedt. 2015. “A new 
+Criterion for Assessing Discriminant Validity in Variance-Based Structural Equation Modeling.” Journal of 
+the Academy of Marketing Science 43 (1): 115–135. 
+https://doi.org/10.1007/s11747-014-0403-8
+Hsieh, P. J. 2023. “Determinants of Physicians’ Intention to 
+Use AI-Assisted Diagnosis: An Integrated Readiness Perspective.” Computers in Human Behavior 147:107868. 
+https://doi.org/10.1016/j.chb.2023.107868
+Huang, Y. S., and P. Dootson. 2022. “Chatbots and Service 
+Failure: When Does it Lead to Customer Aggression.” Journal of Retailing and Consumer Services 68:103044. 
+https://doi.org/10.1016/j.jretconser.2022.103044
+Ivanov, S., and M. Soliman. 2023. “Game of Algorithms: 
+ChatGPT Implications for the Future of Tourism Education and Research.” Journal of Tourism Futures 9 
+(2): 214–221. https://doi.org/10.1108/JTF-02-2023-0038
+Jang, C. 2023. “Coping with Vulnerability: The Effect of Trust 
+in AI and Privacy-Protective Behaviour on the Use of AI- Based Services.” Behaviour & Information Technology 43 (11): 2388–2400. https://doi.org/10.1080/0144929X.2023. 
+2246590
+Kabat-Zinn, J. 1982. “An Outpatient Program in Behavioral 
+Medicine for Chronic Pain Patients Based on the Practice of Mindfulness Meditation: Theoretical Considerations and Preliminary Results.” General 
+Hospital Psychiatry 4 (1): 33–47. https://doi.org/10.1016/ 
+0163-8343(82)90026-3
+Kabat-Zinn, J. 1994. Wherever You Go, There You are: 
+Mindfulness Meditation in Everyday Life. New York: 
+Hyperion.
+Kamila, M. K., and S. S. Jasrotia. 2023. “Ethical Issues in the 
+Development of Artificial Intelligence: Recognizing the 
+Risks.” International Journal of Ethics and Systems 
+41:45–63. https://doi.org/10.1108/IJOES-05-2023-0107.
+Karanjai, R. 2022. “Targeted Phishing Campaigns Using Large 
+Scale Language Models.” arXiv. Accessed February 3, 2023. https://doi.org/10.48550/arxiv.2301.00665
+Kim, J., J. H. Kim, C. Kim, and J. Park. 2023. “Decisions with 
+ChatGPT: Reexamining Choice Overload in ChatGPT Recommendations.” Journal of Retailing and Consumer 
+Services 75:103494. https://doi.org/10.1016/j.jretconser. 
+2023.103494
+Klussman, K., N. Curtin, J. Langer, and A. L. Nichols. 2020. 
+“Examining the Effect of Mindfulness on Well-Being: Self-Connection as a Mediator.” Journal of Pacific Rim 
+Psychology 14:e5. https://doi.org/10.1017/prp.2019.29
+Kong, H., Y. Yuan, Y. Baruch, N. Bu, X. Jiang, and K. Wang. 
+2021. “Influences of Artificial Intelligence (AI) Awareness on Career Competency and Job Burnout.” International 
+Journal of Contemporary Hospitality Management 33 (2): 
+717–734. https://doi.org/10.1108/IJCHM-07-2020-0789.
+Korzynski, P., G. Mazurek, A. Altmann, J. Ejdy, R. 
+Kazlauskaite, J. Paliszkiewicz, K. Wach, and E. Ziemba. 
+2023. “Generative Artificial Intelligence as a New Context 
+for Management Theories: Analysis of ChatGPT.” Central 
+European Management Journal 31 (1): 3–13. https://doi. 
+org/10.1108/CEMJ-02-2023-0091
+Kudesia, R. S., A. Pandey, and C. S. Reina. 2022. “Doing More 
+with Less: Interactive Effects of Cognitive Resources and Mindfulness Training in Coping with Mental Fatigue from Multitasking.” Journal of Management 48 (2): 410– 
+439. https://doi.org/10.1177/0149206320964570.
+Kumar, A., B. Krishnamoorthy, and S. S. Bhattacharyya. 2023. 
+“Machine Learning and Artificial Intelligence-Induced Technostress in Organizations: A Study on Automation- Augmentation Paradox with Socio-Technical Systems as 
+Coping Mechanisms.” International Journal of 
+Organizational Analysis Vol. ahead-of-print No. ahead- 
+of-print. https://doi.org/10.1108/IJOA-01-2023-3581.
+Langer, E. J., and M. Moldoveanu. 2000. “The Construct of 
+Mindfulness.” Journal of Social Issues 56 (1): 1–9. https:// 
+doi.org/10.1111/0022-4537.00148
+Lazarus, R. S., and S. Folkman. 1984. Stress, Appraisal, and 
+Coping. Springer Publishing Company.
+Li, J., Y. Gong, J. Xie, and Y. Tan. 2022. “Relationship Between 
+Users’ Perceptions of Coolness and Intention to use Digital 
+Products: A User-Centered Approach.” Information 
+Technology & People 35 (4): 1346–1363. https://doi.org/ 
+10.1108/ITP-03-2020-0129
+Li, J., and J. S. Huang. 2020. “Dimensions of Artificial 
+Intelligence Anxiety Based on the Integrated Fear 16 
+ Y.-H. CHEN ET AL.
+Acquisition Theory.” Technology in Society 63:101410. 
+https://doi.org/10.1016/j.techsoc.2020.101410
+Liang, H., N. Saraf, Q. Hu, and Y. Xue. 2007. “Assimilation of 
+Enterprise Systems: The Effect of Institutional Pressures 
+and the Mediating Role of top Management.” MIS 
+Quarterly 31 (1): 59–87. https://doi.org/10.2307/25148781
+Lomas, T., J. C. Medina, I. Ivtzan, S. Rupprecht, R. Hart, and 
+F. J. Eiroa-Orosa. 2017. “The Impact of Mindfulness on 
+Well-Being and Performance in the Workplace: An Inclusive Systematic Review of the Empirical Literature.” 
+European Journal of Work and Organizational Psychology 
+26 (4): 492–513. https://doi.org/10.1080/1359432X.2017. 
+1308924
+Lu, Q., B. Qiu, L. Ding, L. Xie, and D. Tao. 2023. “Error 
+Analysis Prompting Enables Human-Like Translation Evaluation in Large Language Models: A Case Study on ChatGPT.” Preprints 2023, 2023030255. https://doi.org/ 
+10.20944/preprints202303.0255.v1.
+Lucia-Palacios, L., and R. Pérez-López. 2023. “How Can 
+Autonomy Improve Consumer Experience When Interacting with Smart Products?” Journal of Research in 
+Interactive Marketing 17 (1): 19–37. https://doi.org/10. 
+1108/JRIM-02-2021-0031
+Mackenzie, S. B., and P. M. Podsakoff. 2012. “Common 
+Method Bias in Marketing: Causes, Mechanisms, and Procedural Remedies.” Journal of Retailing 88 (4): 542– 
+555. https://doi.org/10.1016/j.jretai.2012.08.001
+Marakhimov, A., and J. Joo. 2017. “Consumer Adaptation and 
+Infusion of Wearable Devices for Healthcare.” Computers 
+in Human Behavior 76:135–148. https://doi.org/10.1016/j. 
+chb.2017.07.016
+Marsh, E., E. Perez Vallejos, and A. Spence. 2024. “Mindfully 
+and Confidently Digital: A Mixed Methods Study on Personal Resources to Mitigate the Dark Side of Digital 
+Working.” PLoS One 19 (2): e0295631. https://doi.org/10. 
+1371/journal.pone.0295631
+Martinez, L. M., N. Pacheco, F. R. Ramos, and M. Bicho. 2023. 
+“Would You Try it Again? Dual Effects of Customer 
+Mindfulness on Service Recovery.” Journal of Retailing 
+and Consumer Services 74:103438. https://doi.org/10.1016/ 
+j.jretconser.2023.103438
+Martín-Hernández, P., J. Ramos, A. Zornoza, E. M. Lira, and J. 
+M. Peiró. 2020. “Mindfulness and Job Control as 
+Moderators of the Relationship Between Demands and Innovative Work Behaviours.” Revista de Psicología del 
+Trabajo y de las Organizaciones 36 (2): 95–101. https:// 
+doi.org/10.5093/jwop2020a9
+McGowan, L. 2023. “OpenAI Criticised for Lack of 
+Transparency Around GPT-4.” Accessed July 16, 2023. https://www.siliconrepublic.com/machines/openai-gpt4- transparency-ai-concerns-strip e-chatgpt.
+Mvondo, G. F. N., B. Niu, and S. Eivazinezhad. 2023. 
+“Generative Conversational AI and Academic Integrity: A Mixed Method Investigation to Understand the Ethical Use of LLM Chatbots in Higher Education.” SSRN 
+Electronic Journal. https://doi.org/10.2139/ssrn.4548263
+My-Quyen, M. T., L. N. Hau, and P. N. Thuy. 2020. “Mindful 
+Co-Creation of Transformative Service for Better Well- Being.” Service Business 14 (3): 413–437. https://doi.org/ 
+10.1007/s11628-020-00422-9
+Nan, D., H. Lee, Y. Kim, and J. H. Kim. 2022a. “My Video 
+Game Console is So Cool! A Coolness Theory-Based Model for Intention to Use Video Game Consoles.” Technological Forecasting and Social Change 176:12145.
+Nan, D., E. Shin, G. A. Barnett, S. Cheah, and J. H. Kim. 
+2022b. “Will Coolness Factors Predict User Satisfaction and Loyalty? Evidence from an Artificial Neural Network–Structural Equation Model Approach.” 
+Information Processing & Management 59 (6): 103108. 
+https://doi.org/10.1016/j.ipm.2022.103108
+Nath, R., and R. Manna. 2023. “From Posthumanism to Ethics 
+of Artificial Intelligence.” AI & SOCIETY 38 (1): 185–196. 
+https://doi.org/10.1007/s00146-021-01274-1
+Niu, B., and G. F. N. Mvondo. 2024. “I Am ChatGPT, the 
+Ultimate AI Chatbot! Investigating the Determinants of 
+Users’ Loyalty and Ethical Usage Concerns of ChatGPT.” 
+Journal of Retailing and Consumer Services 76:103562. 
+https://doi.org/10.1016/j.jretconser.2023.103562
+Nunnally, J. C., and I. H. Bernstein. 1994. “The Assessment of 
+Reliability.” Psychometric Theory 3:248–292.
+Oakland, S., and A. Ostell. 1996. “Measuring Coping: A 
+Review and Critique.” Human Relations 49 (2): 133–155. 
+https://doi.org/10.1177/001872679604900201
+OpenAI. 2023. “ChatGPT: Optimizing Language Models for 
+Dialogue.” Accessed October 10, 2023. https://openai. 
+com/blog/chatgpt/.
+Paul, J., A. Ueno, and C. Dennis. 2023. “ChatGPT and 
+Consumers: Benefits, Pitfalls and Future Research Agenda.” International Journal of Consumer Studies 47 
+(4): 1213–1225. https://doi.org/10.1111/ijcs.12928
+Pflügner, K., C. Maier, and T. Weitzel. 2021. “The Direct and 
+Indirect Influence of Mindfulness on Techno-Stressors and Job Burnout: A Quantitative Study of White-Collar 
+Workers.” Computers in Human Behavior 115:106566. 
+https://doi.org/10.1016/j.chb.2020.106566
+Pham, H. C., C. D. Duong, and G. K. H. Nguyen. 2024. “What 
+Drives Tourists’ Continuance Intention to Use ChatGPT for Travel Services? A Stimulus-Organism-Response 
+Perspective.” Journal of Retailing and Consumer Services 
+78:103758. https://doi.org/10.1016/j.jretconser.2024. 
+103758
+Pirkkalainen, H., M. Salo, M. Tarafdar, and M. Makkonen. 
+2019. “Deliberate or Instinctive? Proactive and Reactive 
+Coping for Technostress.” Journal of Management 
+Information Systems 36 (4): 1179–1212. https://doi.org/10. 
+1080/07421222.2019.1661092
+Podsakoff, P. M., S. B. MacKenzie, J. Y. Lee, and N. P. 
+Podsakoff. 2003. “Common Method Biases in Behavioral 
+Research: A Critical Review of the Literature and 
+Recommended Remedies.” Journal of Applied Psychology 
+88 (5): 879–903. https://doi.org/10.1037/0021-9010.88.5. 
+879
+Polyportis, A., and N. Pahos. 2024. “Understanding Students’ 
+Adoption of the ChatGPT Chatbot in Higher Education: 
+The Role of Anthropomorphism, Trust, Design Novelty and Institutional Policy.” Behaviour & Information 
+Technology Vol. ahead-of-print No. ahead-of-print. 
+https://doi.org/10.1080/0144929X.2024.2317364
+Ren, Z., Y. Zhan, B. Yu, L. Ding, and D. Tao. 2023. 
+“Healthcare Copilot: Eliciting the Power of General LLMs for Medical Consultation.” Computation and Language 
+(cs.CL), https://doi.org/10.48550/arXiv.2402.13408.
+Ritala, P., M. Ruokonen, and L. Ramaul. 2023. “Transforming 
+Boundaries: How Does ChatGPT Change Knowledge BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 17
+Work?” Journal of Business Strategy Vol. ahead-of-print 
+No. ahead-of-print. https://doi.org/10.1108/JBS-05-2023- 
+0094
+Rönkkö, M., and J. Ylitalo. 2011. “PLS Marker Variable 
+Approach to Diagnosing and Controlling for Method 
+Variance.” ICIS 2011 Proceedings 8:  1–16.
+Ryan, M., and B. C. Stahl. 2021. “Artificial Intelligence Ethics 
+Guidelines for Developers and Users: Clarifying Their Content and Normative Implications.” Journal of 
+Information, Communication and Ethics in Society 19 (1): 
+61–86. https://doi.org/10.1108/JICES-12-2019-0138
+Salah, M., H. Alhalbusi, M. M. Ismail, and F. Abdelfattah. 
+2023. “Chatting with ChatGPT: Decoding the Mind of Chatbot Users and Unveiling the Intricate Connections 
+Between User Perception, Trust and Stereotype 
+Perception on Self-Esteem and Psychological Well- Being.” Current Psychology 20:1–26.
+Shapiro, S. L., L. E. Carlson, J. A. Astin, and B. Freedman. 
+2006. “Mechanisms of Mindfulness.” Journal of Clinical 
+Psychology 62 (3): 373–386. https://doi.org/10.1002/jclp. 
+20237
+Sharma, S., and B. Gupta. 2023. “Investigating the Role of 
+Technostress, Cognitive Appraisal and Coping Strategies on Students’ Learning Performance in Higher Education: A Multidimensional Transactional Theory of Stress Approach.” Information Technology & People 36 (2): 626– 
+660. https://doi.org/10.1108/ITP-06-2021-0505
+Sieja, M., and K. Wach. 2019. “The Use of Evolutionary 
+Algorithms for Optimization in the Modern Entrepreneurial Economy: Interdisciplinary Perspective.” 
+Entrepreneurial Business and Economics Review 7 (4): 
+117–130. https://doi.org/10.15678/EBER.2019.070407
+Spekman, M. L. C., E. A. Konijn, and J. F. Hoorn. 2018. 
+“Perceptions of Healthcare Robots as a Function of Emotion-Based Coping: The Importance of Coping 
+Appraisals and Coping Strategies.” Computers in Human 
+Behavior 85:308–318. https://doi.org/10.1016/j.chb.2018. 
+03.043
+Srivastava, R. V., and T. Tang. 2018. “Coping Intelligence 
+Theory: Coping Strategies, Satisfaction, and Sales Commission.” Journal of Business & Industrial Marketing 
+33 (5): 610–624. https://doi.org/10.1108/JBIM-03-2017- 
+0072
+Stocchi, L., N. Michaelidou, N. Pourazad, and M. Micevski. 
+2018. “The Rules of Engagement: How to Motivate Consumers to Engage with Branded Mobile Apps.” Journal of Marketing Management 34 (13-14): 1196–1226. 
+https://doi.org/10.1080/0267257X.2018.1544167
+Stokel-Walker, C., and R. Van Noorden. 2023. “What 
+ChatGPT and Generative AI Mean for Science.” Nature 
+614 (7947): 214–216. https://doi.org/10.1038/d41586-023- 
+00340-6
+Sun, H., Y. Fang, and H. M. Zou. 2016. “Choosing a Fit 
+Technology: Understanding Mindfulness in Technology Adoption and Continuance.” Journal of the Association 
+for Information Systems 17 (6): 377–412. https://doi.org/ 
+10.17705/1jais.00431
+Sundar, S. S., D. J. Tamul, and M. Wu. 2014. “Capturing 
+‘Cool’: Measures for Assessing Coolness of Technological 
+Products.” International Journal of Human-Computer 
+Studies 72 (2): 169–180. https://doi.org/10.1016/j.ijhcs. 
+2013.09.008Tan, Y., Y. Gong, J. Xie, J. Li, and Y. Liu. 2022. “More 
+Mindfulness, Less Conspicuous Consumption? Evidence 
+from Middle-Aged Chinese Consumers.” Journal of 
+Retailing and Consumer Services 69:103096. https://doi. 
+org/10.1016/j.jretconser.2022.103096
+Tech informed. 2023. “70% of Employees Keen to Delegate 
+Work to AI to Reduce Workload.” https://techinformed. 
+com/70-of-employees-keen-to-delegate-work-to-ai-to- reduce-workload/.
+Thormundsson, B. 2024. “Use of ChatGPT Worldwide in 
+2023, by Age and Gender.” https://www.statista.com/ 
+statistics/1384324/chat-gpt-demographic-usage/.
+Tiwari, C. K., M. A. Bhat, S. T. Khan, R. Subramaniam, and 
+M. A. I. Khan. 2023. “What Drives Students Toward 
+ChatGPT? An Investigation of the Factors Influencing Adoption and Usage of ChatGPT.” Interactive Technology 
+and Smart Education Vol. ahead-of-print No. ahead-of- 
+print. https://doi.org/10.1108/ITSE-04-2023-0061
+Tiwari, A. A., A. Chakraborty, and M. Maity. 2021. 
+“Technology Product Coolness and its Implication for Brand Love.” Journal of Retailing and Consumer Services 
+58:102258. https://doi.org/10.1016/j.jretconser.2020. 
+102258
+Tsaur, S. H., H. Y. Teng, T. C. Han, and J. H. Tu. 2023. “Can 
+Perceived Coolness Enhance Memorable Customer Experience? The Role of Customer Engagement.” 
+International Journal of Contemporary Hospitality 
+Management 35 (12): 4468–4485. https://doi.org/10.1108/ 
+IJCHM-08-2022-1031
+Tuan, L. T. 2022. “Employee Mindfulness and Proactive 
+Coping for Technostress in the COVID-19 Outbreak: The Roles of Regulatory Foci, Technostress, and job Insecurity.” Computers in Human Behavior 129:107148. 
+https://doi.org/10.1016/j.chb.2021.107148
+Victorson, D. E., C. M. Sauer, L. Wolters, C. Maletich, K. 
+Lukoff, and N. Sufrin. 2020. “Meta-Analysis of 
+Technology-Enabled Mindfulness-Based Programs for Negative Affect and Mindful Awareness.” Mindfulness 11 
+(8): 1884–1899. https://doi.org/10.1007/s12671-020- 
+01373-y
+Vonderlin, R., M. Biermann, M. Bohus, and L. Lyssenko. 
+2020. “Mindfulness-Based Programs in the Workplace: A Meta-Analysis of Randomized Controlled Trials.” 
+Mindfulness 11 (7): 1579–1598. https://doi.org/10.1007/ 
+s12671-020-01328-3
+Wang, E. J., P. R. Berthon, and N. N. Bechwati. 2021. “The 
+Effect of Mindfulness on Service Encounter Quality.” Journal of Services Marketing 35 (4): 453–472. https://doi. 
+org/10.1108/JSM-05-2020-0170
+Wang, R., and S. S. Sundar. 2018. “How Does Parallax 
+Scrolling Influence User Experience? A Test of Time (Theory of Interactive Media Effects).” International 
+Journal of Human–Computer Interaction 34 (6): 533–543. 
+https://doi.org/10.1080/10447318.2017.1373457
+Wang, Y. C., and M. Uysal. 2023. “Artificial Intelligence- 
+Assisted Mindfulness in Tourism, Hospitality, and 
+Events.” International Journal of Contemporary 
+Hospitality Management 36 (4): 1262–1278. https://doi. 
+org/10.1108/IJCHM-11-2022-1444.
+Wang, Y. Y., and Y. S. Wang. 2022. “Development and 
+Validation of an Artificial Intelligence Anxiety Scale: An Initial Application in Predicting Motivated Learning 18 
+ Y.-H. CHEN ET AL.
+Behavior.” Interactive Learning Environments 30 (4): 619– 
+634. https://doi.org/10.1080/10494820.2019.1674887
+Warren, C., R. Batra, S. M. C. Loureiro, and R. P. Bagozzi. 
+2019. “Brand Coolness.” Journal of Marketing 83 (5): 36– 
+56. https://doi.org/10.1177/0022242919857698
+Weeger, A., X. Wang, and H. Gewald. 2015. “IT 
+Consumerization: BYOD- Program Acceptance and its 
+Impact on Employer Attractiveness.” Journal of Computer 
+Information Systems 56 (1): 1–10. https://doi.org/10.1080/ 
+08874417.2015.11645795
+Weinstein, N., K. W. Brown, and R. M. Ryan. 2009. “A Multi- 
+Method Examination of the Effects of Mindfulness on Stress Attribution, Coping, and Emotional Well-Being.” Journal of Research in Personality 43 (3): 374–385. https:// 
+doi.org/10.1016/j.jrp.2008.12.008
+Wilson, H. J., and P. R. Daugherty. 2018. “Collaborative 
+Intelligence: Humans and AI are Joining Forces.” Harvard Business Review 96 (4): 114–123.
+Wu, J. J., S. T. Chang, Y. P. Lin, and T. M. Y. Lin. 2023. “Examining 
+How Coolness of Service Robots Influences Customers’ Delight: Mediating Role of Perceived Values.” Journal of 
+Hospitality and Tourism Insights Vol. ahead-of-print No. 
+ahead-of-print. https://doi.org/10.1108/JHTI-02-2023-0069
+Xin, T., M. Siponen, and S. Chen. 2022. “Understanding the 
+Inward Emotion-Focused Coping Strategies of Individual Users in Response to Mobile Malware Threats.” Behaviour & Information Technology 41 (13): 2835–2859. 
+https://doi.org/10.1080/0144929X.2021.1954242.
+Zha, X., J. Zhang, Y. Yan, and D. Zha. 2015. “Sound 
+Information Seeking in Web 2.0 Virtual Communities: The Moderating Effect of Mindfulness.” Behaviour & 
+Information Technology 34 (9): 920–935. https://doi.org/ 
+10.1080/0144929X.2015.1027876.
+Zhang, J., and Z. M. Zhang. 2023. “Ethics and Governance of 
+Trustworthy Medical Artificial Intelligence.” BMC Medical 
+Informatics and Decision Making 23:7. https://doi.org/10. 
+1186/s12911-023-02103-9.
+Zhao, X., Q. Xia, and W. Huang. 2020. “Impact of 
+Technostress on Productivity from the Theoretical Perspective of Appraisal and Coping Processes.” 
+Information & Management 57 (8): 103265. https://doi. 
+org/10.1016/j.im.2020.103265
+Zhong, Q., L. Ding, J. Liu, B. Du, and D. Tao. 2023. “Can 
+ChatGPT Understand Too? A Comparative Study on ChatGPT and Fine-Tuned BERT.” Computation and 
+Language (cs.CL). https://doi.org/10.48550/arXiv.2302. 
+10198.
+Zinkula, J., and A. Mok. 2024. “ChatGPT May be Coming for 
+Our Jobs. Here are the 10 Roles that AI is Most Likely to 
+Replace.” https://www.businessinsider.com/chatgpt-jobs- 
+at-risk-replacement-artificial-intelligence-ai-labor-trends- 2023-02
+Appendix A
+Measurement construct
+GAI literacy
+I am able to use ChatGPT to prepare the available data and make a decision.
+I am able to use ChatGPT to analyse data and discover meaningful information.
+I am able to use ChatGPT to synthesise meaningful information and apply it in decision-making.I am able to use ChatGPT to evaluate the results of data analysis.
+Overall, I think I am efficient at using ChatGPT to handle data.
+CoolnessChatGPT is cool.
+When I first heard of ChatGPT, I remember thinking it would be cool to use it.
+Using ChatGPT makes me look cool.
+When I use ChatGPT, my response is often, ‘That’s cool!’ChatGPT has some cool features.ChatGPT is cooler than other chatbots.
+Post-human ability
+Technology in the role of ChatGPT gives me control.
+Technology in the role of ChatGPT makes me feel empowered.Privacy concern
+I am concerned that personal information I disclose to ChatGPT could be misused.
+I am concerned that ChatGPT could share my personal information with third parties without my consent.I am concerned about providing my personal information to ChatGPT, because of what others might do with it.
+I am concerned about providing my personal information to ChatGPT, because it could be used in a way I did not foresee.
+Ethical concern
+I think ChatGPT collects my personal information.I recognise that disclosing personal information through ChatGPT is a risk.ChatGPT uses collected information for research purposes.
+I think that ChatGPT may disclose my information to third parties without consent.
+ChatGPT denies users the right to choose if they wish their data to be collected.
+Security risk
+Using ChatGPT for work will increase my risk of losing task data.
+Using ChatGPT for work will increase my risk of becoming a target for hackers.
+Using ChatGPT for work will increase my risk of corrupting the corporate network with malware.Using ChatGPT for work will increase my risk of violating company security policy.
+Job replacement
+I am worried that ChatGPT will replace my work in the future.
+(Continued ) BEHAVIOUR & INFORMATION TECHNOLOGY 
+ 19
+Continued.
+Measurement construct
+I feel anxious that ChatGPT is smarter than me.
+I am worried that ChatGPT will replace many people’s jobs.
+Challenge appraisal
+I believe ChatGPT can improve my access to my task.
+I believe ChatGPT can improve my ability to manage my task.I believe ChatGPT can improve the quality of my task.I believe ChatGPT can improve my ability to stay on the path of task operating.
+Threat appraisal
+I fear ChatGPT can misguide me regarding my actual task content.
+I fear ChatGPT can cause damage to my task in a way I did not foresee.I fear ChatGPT can lead to making wrong decisions regarding my task.
+I fear I might lose control over my task information if I use ChatGPT.
+Problem-focused copingI am ready to put some effort into doing something about ChatGPT.
+I am ready to put effort into exploring new ways I can use ChatGPT.
+I am ready to put effort into exploring different functions of ChatGPT that can be useful to me.
+I am ready to put effort into exploring new ways of using ChatGPT that I did not have in mind prior to signing up.Emotion-focused copingI try to overlook the disadvantages of ChatGPT.
+I try to focus on the benefits I get from ChatGPT.
+I try to make the best of what ChatGPT offers.
+I try to change my mind about ChatGPT to be positive and have fun.Mindfulness
+I could be experiencing an emotion and not be conscious of it until sometime later.
+I break or spill things, because of carelessness, not paying attention, or thinking of something else.I find it difficult to stay focused on what is happening in the present.
+I tend to walk quickly to get where I am going without paying attention to what I experience along the way.
+I tend not to notice feelings of physical tension or discomfort until they really grab my attention.
+I forget a person’s name almost as soon as I have been told it for the first time.The process of doing things seems to be automatic, without much awareness or attention to what I am doing.I rush through activities without being really attentive to them.
+I get so focused on the goal I want to achieve that I lose touch with what I am doing right now to get there.
+I do jobs or tasks automatically, without being aware of what I am doing.
+I find myself listening to someone with one ear while doing something else at the same time.When I arrive at a place, I wonder why I am there.
+I find myself preoccupied with the future or the past.
+I find myself doing things without paying attention.I snack without being aware that I am eating.
+Continued use intention after adoption
+I plan to continue using ChatGPT.
+I will continue to use ChatGPT as I do now.I intend to continue using ChatGPT, and I feel ChatGPT is irreplaceable.In the future, I plan to increase my interaction with ChatGPT.20 
+ Y.-H. CHEN ET AL.

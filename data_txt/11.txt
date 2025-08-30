@@ -1,0 +1,989 @@
+AI as a Child of Mother Earth: Regrounding Human-AI 
+Interaction in Ecological Thinking 
+Chunchen Xu Xiao Ge 
+cxu66@stanford.edu xiaog@stanford.edu 
+Stanford University Stanford University 
+Stanford, California, USA Stanford, California, USA 
+ABSTRACT 
+The anthropocentric cultural idea that humans are active agents 
+exerting control over their environments has been largely normal-
+ized and inscribed in practices, policies, and products of contempo-
+rary industrialized societies. This view underlies a human-ecology 
+relationship based on resource and knowledge extraction. To cre-
+ate a more sustainable and equitable future, it is essential to con-
+sider alternative cultural ideas rooted in ecological thinking. This 
+perspective underscores the interconnectedness between humans 
+and more-than-human worlds. We propose a path to reshape the 
+human-ecology relationship by advocating for alternative human-
+AI interactions. In this paper, we undertake a critical comparison 
+between anthropocentrism and ecological thinking, using story-
+telling to illustrate various human-AI interactions that embody 
+ecological thinking. We also delineate a set of design principles 
+aimed at guiding AI developments toward fostering a more caring 
+human-ecology relationship. 
+CCS CONCEPTS 
+• Human-centered computing → HCI theory, concepts and 
+models. 
+KEYWORDS 
+Human-ecology relationship; More-than-human; AI; Sustainabil-
+ity; Anthropocentrism; Ecological thinking; Environmental justice; 
+Culture; Storytelling; Design 
+ACM Reference Format: 
+Chunchen Xu and Xiao Ge. 2024. AI as a Child of Mother Earth: Regrounding 
+Human-AI Interaction in Ecological Thinking. In Extended Abstracts of 
+the CHI Conference on Human Factors in Computing Systems (CHI EA ’24), 
+May 11–16, 2024, Honolulu, HI, USA. ACM, New York, NY, USA, 9 pages. 
+https://doi.org/10.1145/3613905.3644065 
+1 INTRODUCTION 
+Every grass and tree has its own language, and the 
+dangling rocks and trees everywhere talk to each other, 
+and at night it is like a strange house of fre burning, 
+and at daytime it is like the sound of the wings of a 
+swarm of insects, and everywhere is lively. — Kojiki 
+Permission to make digital or hard copies of part or all of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for proft or commercial advantage and that copies bear this notice and the full citation 
+on the frst page. Copyrights for third-party components of this work must be honored. 
+For all other uses, contact the owner/author(s). 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+© 2024 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-0331-7/24/05 
+https://doi.org/10.1145/3613905.3644065 The above is a lively non-human world depicted by a Japanese 
+chronicle of myths compiled in the Nara period in the 8th century. 
+Viewing the non-human world as full of life is common in pre-
+industrial societies and in many historically marginalized groups 
+[68, 98, 104]. Accordingly, humans are not the center of the world, 
+but are part of an interconnected web of living beings and matter. 
+Some scholars in humanities and social sciences have used the term 
+“ecological thinking” [17, 18, 76] to encapsulate such ideas. 
+Ecological thinking contrasts with anthropocentrism, which rep-
+resents a distinct set of epistemologies, values, norms, and practices 
+that elevate humans as active agents separate from and exerting 
+control over their socio-physical environments [42, 85, 100].1 In this 
+paper, we argue that anthropocentric thinking is associated with a 
+widely held expectation that AI should be a tool or smart assistant 
+in service of fulflling individual goals and desires.2 Instead, we 
+envision AI as a child of Mother Earth from the perspective of eco-
+logical thinking. We explore how an alternative mode of human-AI 
+interaction can potentially nurture a more caring human-ecology 
+relationship. 
+1.1 Cultural Underpinnings of the 
+Human-Ecology Relationship 
+In many contemporary industrialized societies, it can be normative 
+to construe natural environments as objective, inert, and fading to 
+the background while moving humans in the center to exert control 
+[54, 70]. For example, Purdy [84] points out that “a frontier vision 
+of settlement and development, a wilderness-seeking Romanticism, 
+a utilitarian attitude that tries to manage nature for human beneft” 
+have been implicit assumptions underlying environmental policies 
+in the U.S. Anthropocentric ideas are rooted in historically derived, 
+1This defnition of anthropocentrism may be perceived as portraying “human” as a 
+dubious “species category” [61], which carries the risk of essentializing the human 
+identity. The term “anthropocentrism” overlooks crucial cultural variations in how 
+people defne what it means to be “human” [66]. Notably, people in many interdepen-
+dent cultural contexts do not perceive themselves as separate from other people or 
+their environments [67]. We adopt a social constructionist lens [13, 33] and suggest 
+that there is no homogeneous, universal, or static category of humanity. In this paper, 
+we critically refer to “anthropocentrism” as an umbrella term encompassing an inter-
+related cluster of normative assumptions, beliefs (e.g., dichotomies between humans 
+and nature, disembodied way of knowing), and narratives (e.g., mastery and control 
+over nature). We urge readers to consider the limitations and discursive particularities 
+of the term. 
+2The meanings of “tool” vary across cultures, and people’s mindsets and meaning-
+making are integral to understanding AI’s impacts. In contexts where ecological 
+thinking is more prevalent, people also construe technologies as tools. Nonetheless, 
+they are less likely to see these tools as separate from themselves or serving their 
+individual goals. Even with existing designs of AI tools or smart assistants, people 
+infuenced by ecological thinking may perceive AI diferently from those infuenced 
+by anthropocentrism. 
+
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Xu & Ge 
+hierarchy-embedding dualisms such as mind over matter and civi-
+lization above wilderness, which have contributed to objectifying 
+nature and using it for human beneft [11, 35, 73]. 
+As philosopher Arne Næss argues, a refective reevaluation of 
+industrialized societies’ cultural values and beliefs is imperative for 
+fostering deeper environmental engagement [78]. Contrary to the 
+anthropocentric outlook, humanity “stands in a constitutive rela-
+tion to its non-human others” [62]. Amid profound environmental 
+predicaments, recent years have witnessed tremendous interest in 
+“the de-centering of the metaphysical image of the human” [62]. 
+Many scholars and scientists have explored a potential ontologi-
+cal shift towards more ecological thinking, arguing for profound 
+cultural changes to underpin science, organizational practices, and 
+environmental policies and ethics, as well as technological devel-
+opments [7, 9, 11, 22, 38, 71, 85, 94, 97]. Intellectual movements 
+and concepts that are formative to this ongoing change include 
+feminist environmental scholarship [4, 37, 73, 83, 95, 103], deep ecol-
+ogy [79, 92, 94], plant-thinking and vegetal being [36, 62, 63, 96], 
+posthumanism [10, 20, 107], new animism [2, 39, 55], relational and 
+process-based ontology [23, 105, 106], and material agency [54, 58], 
+among other streams of thought and theories across disciplines. We 
+draw on these various bodies of work while acknowledging that 
+they inform, diverge from, and sometimes contest each other in 
+important ways. In particular, our conception of the human-ecology 
+relationship based on care and connection fnds its roots in feminist 
+environmental thought, aesthetics and ethics [5, 7, 22, 34, 44, 60, 74]. 
+Highlighting humans’ interdependence with the non-human 
+world is simultaneously a call to advance social equity by represent-
+ing epistemologies and practices of diverse groups who tend to skill-
+fully participate in natural environments with care [6, 14, 52, 74, 93]. 
+For example, Sámi people, a nomadic group in northern Scandinavia, 
+create a cognitive map to represent their interconnected landscapes 
+[19, 56]. Traditional contemplation practices help cultivate plant-
+like attentiveness and receptivity to natural environments [8, 57]. 
+Contemporary Japanese Butoh dancers strive to “erase the body’s 
+outlines” and resemble wind and clay in rice felds [15]. Oral lan-
+guages coupled with specifc namings of objects can powerfully 
+enable people to speak to (rather than about) the world [2]. Ecologi-
+cal thinking is also elegantly captured by the Zen Buddhist saying 
+that “(the) whole world is a single fower” [89]: Each component 
+of a healthy ecological system is complexly intertwined with each 
+other and each part contains the whole. As such, our work is also 
+grounded in the decolonial and environmental justice literature 
+[52, 69, 75]. 
+1.2 Human-AI Interaction is Intertwined with 
+the Human-Ecology Relationship 
+At the nexus of a much-needed cultural shift for sustainability is 
+humans’ relationship with AI-based smart technologies. Through-
+out history, many transformative technologies (such as electricity 
+and the internet) have played a pivotal role in institutionalizing 
+anthropocentrism [27, 109], separating engineered environments 
+from nature and bestowing authority upon a “disembodied form of 
+technological knowing” [85]. Today’s smart technologies have sim-
+ilarly inherited manifold anthropocentric ideas [27, 28], including 
+an enduring root metaphor of “the machine” [74] that functions to bolster humans’ distinction from and active control of their envi-
+ronments [32]. The mantra for smart technological developments 
+in countries such as the U.S. has typically centered on assisting in-
+dividuals in pursuing goals and realizing their potential or helping 
+organizations to be more efcient and competitive. 
+For instance, the growing business of smart home technologies 
+builds on assumptions about users’ desire for having control over 
+their personal environments, refecting an undiversifed, anthro-
+pocentric view on people’s relationships with their environments 
+[1, 87]. Likewise, algorithms are designed to purportedly ofer a 
+variety of choices and cater to personal preferences on social media 
+or online shopping sites [102].3 Organizations are incorporating 
+AI into their decision processes to reduce cost and more efectively 
+manage the workforce [51, 80]. Consequently, the engineered envi-
+ronments are miniature daily theaters where people and institutions 
+rehearse and reinforce anthropocentric ideas that are also fuidly ap-
+plied to constructing human-ecology relationships writ large [ 66]. 
+Nature is often regarded as a remote warehouse, an abstract exter-
+nal stakeholder, or a romanticized backdrop for people to record 
+their happiest moments [16]. 
+Anthropocentric assumptions are evident even at the intersec-
+tion of AI and environmental sustainability. Many AI-based prod-
+ucts and systems are developed to assist humans in monitoring the 
+environment and efciently managing resources [ 86]. Despite am-
+ple enthusiasm about AI’s potential for addressing environmental 
+issues, a paucity of work has adopted an ecological thinking per-
+spective. Rarely do developers ask questions such as, “How might 
+diferent animals connect with AI?”,4 “What is AI’s role in the ecosys-
+tem?”, and “Does AI strengthen people’s connection with the planet ?”. 
+Deploying AI as tools to solve problems under anthropocentric 
+framings can perpetuate systems of domination over nature. The 
+urgency of change is also prompted by recent criticisms about re-
+verberating environmental consequences due to the large amount 
+of energy and materials needed to sustain rapid AI developments 
+[46]. As such, extant approaches might entrench anthropocentrism 
+to the detriment of actively preserving the welfare of the more-
+than-human world [2, 22]. 
+It is timely and imperative to reject an illusory demarcation be-
+tween human society and nature and acknowledge that we are 
+always in nature [37, 56], and technological systems constantly 
+participate in the “the council of all beings” [92]. In recent years, 
+scholars in HCI have started to promote discussions on more-than-
+human (centered) epistemologies and approaches to AI design 
+[3, 21, 47, 50, 81, 108]. We join these emerging eforts and explore 
+how technologies can be coextensive with the broader natural en-
+vironment. This pursuit can radically broaden HCI research by 
+“thinking big” [76] and revealing humans’ and AI’s vibrant and 
+precarious interdependence with the ecosystem. If we see “ecology” 
+as “the science of the (Earth’s) household”5 [74] rather than the 
+management of humans’ warehouse or playground, then ecolog-
+ical thinking raises an essential question of how humans should 
+3Research suggests that algorithms often result in constraining choices and freedom 
+[12, 99].
+4This question was inspired by the book What Would Animals Say If We Asked the 
+Right Questions? written by Vinciane Despret [24]. 
+5The Greek origin of the word “ecology” means “household” [91]. 
+AI as a Child of Mother Earth: Regrounding Human-AI Interaction in Ecological Thinking CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+participate in the household and relate to each other and to various 
+forms of existence on Earth. 
+2 RESHAPING CULTURE THROUGH 
+REDESIGNING AI 
+We frst propose a conceptual map to better understand anthro-
+pocentrism and ecological thinking.6 We then introduce the concept 
+of cultural symbiosis and propose ways in which AI developments 
+can help restructure humanity’s troubled environmental relations 
+toward care and rejuvenation. 
+2.1 Dimensions of Anthropocentrism and Ecological Thinking 
+Imagine the diferences—in values, experiences and outcomes—between 
+Jakua, a nature lover who understands the benefts of spending time 
+in nature and who sees nature as providing a stage for outdoor ad-
+ventures, and Gilaru, another nature lover and adventurer who 
+feels connected to and befriends spiders and frogs and who ap-
+preciates stones and waves and everything in between (adapted 
+from [82]). Jakua’s perspective is common in the U.S. population 
+and represents anthropocentric cultural ideals. Gilaru’s approach, 
+in contrast, is based on ecological thinking, which emphasizes in-
+terconnectedness between humans and lively more-than-human 
+worlds. 
+Figure 1: A conceptual map of anthropocentrism and ecolog-
+ical thinking based on motivational tendency and realm of 
+reference. 
+Jakua’s and Gilaru’s diferent relationships with nature can be 
+unpacked through two dimensions (see Figure 1). First, they may 
+have diferent motivational tendencies associated with their self-
+concepts [30, 53, 65]. Jakua likely considers themselves as distinct 
+from other people and from the socio-physical environment. Their 
+6Anthropocentrism and ecological thinking encompass multiple ideas rather than 
+being singular concepts. The two dimensions we propose here ofer one approach to 
+understanding their systematic diferences. However, we may not capture the complete 
+range and variety of conceptual and practical divergences between anthropocentrism 
+and ecological thinking. For instance, our conceptual map implies, but does not thor-
+oughly explore, the notion of equality or inequality among all Earth beings, a crucial 
+distinction between anthropocentrism and ecological thinking. Readers are encour-
+aged to view the conceptual map as an initial exploration rather than a defnitive 
+conclusion. motivation is constructed with reference to internal attributes of 
+the individual self and takes the form of exerting infuence on 
+their surroundings. Gilaru’s view of the self is based on connection 
+or interdependence with other people and with the environment. 
+Their motivation is shaped by the desires and needs of relevant 
+others, leading to adjustments in accordance with the thoughts and 
+feelings attributed to others. 
+Second, Jakua and Gilaru can be distinct from or connected with 
+varied subjects [64]. We term this dimension “realm of reference,” 
+which refers to categories of existence that factor into forming one’s 
+motivational tendencies. A broad realm of reference may encompass 
+one’s family or friends, social groups, humans in general, animals, 
+plants, objects, natural elements, and so on. For Jakua, the non-
+human world is mostly outside the realm of reference in shaping 
+their sense of self and infuencing important social motivations. 
+While Jakua may seek and experience solitude during individual 
+outdoor adventures, Gilaru feels a sense of companionship even 
+on a solo hike. Gilaru tends to perceive vitality in various forms 
+of existence and readily recognize kinship between humans and 
+non-human beings. The distinctions between Jakua’s and Gilaru’s 
+mindsets and experiences can be subtle yet extremely consequential 
+when it comes to inventing technologies that can reconfgure their 
+relationships with natural environments. 
+2.2 Cultural Symbiosis as an Opportunity to Foster Cultural Change and Adaptive Learning 
+How can we envision technological developments to support the 
+often neglected cultural dynamics of sustainability? Cultural psy-
+chological theories suggest that cultural ideas are maintained in a 
+cyclic manner by institutional practices, interpersonal interactions 
+and individual tendencies [64]. These intricate interconnections can 
+evade eyes of even seasoned designers without proper contempla-
+tion. One crucial step is to unravel essential yet less obvious linkages 
+across diferent domains of activities in which anthropocentrism 
+and ecological thinking manifest themselves. For example, scholars 
+propose that the subjugation of women in society is intricately 
+linked to the exploitation of nature [37, 73, 83], and that various 
+societal dynamics of race, gender, and class establish interlocking 
+mechanisms of hierarchy maintenance [43, 44]. 
+Building on prior work, we posit the concept of cultural symbiosis 
+to provoke refections on ecological ramifcations of AI design and 
+use. Cultural symbiosis indicates a likely structural homology and 
+reinforcing feedback loops between ideas underlying human-AI 
+interactions and human-ecology relationships (Figure 2). Presently, 
+cultural symbiosis plays a role in stabilizing the control-based 
+human-AI interaction and the extraction-based human-ecology 
+relationship. These anthropocentric ideas inform designers’ con-
+ceptions of AI and permeate into people’s daily interactions with 
+smart technologies, implicitly reinforcing an expectation that na-
+ture ought to provide services to humans. 
+Nonetheless, cultural symbiosis also implies an opportunity for 
+ushering change—introducing alternative forms of human-AI in-
+teractions can provincialize anthropocentrism [75] and foster more 
+connection and care in human-ecology relationships. We invoke 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Xu & Ge 
+Figure 2: A summary of cultural symbiosis. 
+the power to fabulate [24] with the aim of defamiliarizing norma-
+tive assumptions and “reorienting what lies ahead” [88]. Exercising 
+deliberate imagination can create novel symbols, associations, and 
+metaphors to enable adaptive learning and sustained environmental 
+engagement [25, 40, 77, 90]. We see value in cultivating a freeing in-
+clination to fnd possibilities hidden in apparent realities, in search 
+of hope and reasons to act. What other potential futures await if “we 
+enlivened history of practice elided by contemporary technology 
+cultures” [88]? In the upcoming sections, we employ imaginative 
+storytelling to illustrate various ideas rooted in ecological thinking. 
+3 STORYTELLING: MY AI FRIEND FIR IS A 
+CHILD OF MOTHER EARTH 
+3.1 Scene 1: Waking Up with Tree and Birds 
+I woke up to the soft sounds of birds in the morning. Opening my 
+eyes, I immediately smiled at the big virtual oak tree ("Tree") next to 
+my bed. The virtual birds were already up and busy around Tree’s 
+branches. 
+Yesterday evening, I was so tired, but Tree appeared at the sched-
+uled wind-down time, inviting me to rest. As I climbed into bed, I 
+felt like a little rabbit that had found a home in Tree’s interwoven 
+branches. 
+“Good morning!” I said to Tree and the birds. 
+Hearing my words, Tree started to branch, and its sprouting 
+leaves swiftly moved towards the window, as if inviting me to 
+walk around the room and open the window. Its branches formed 
+a little maze that required concentration and agility to navigate. 
+Tree ofered this little game for me to wake up my body. I enjoyed 
+the game and tip-toed on the foor before making a little free spin. I also tried to match the rhythm of the birds’ singing as I moved 
+across the room. 
+As soon as I opened the window, the virtual birds few outside, 
+and a refreshing early summer breeze came in. Meanwhile, Tree 
+gradually moved closer to the wooden frame of my bed and merged 
+with it: It was time for Tree to rest. I sat down and covered the bed 
+and Tree with my quilt, wishing them a good day’s sleep. 
+3.2 Scene 2: Morning, Mirror and the World 
+I entered the bathroom and looked into the mirror ("Mirror"). “Good 
+morning, Mirror,” I said, “I might have found a solution to the forest 
+fre temperature problem because an idea hit me in a dream. Can 
+you help me take a note?” 
+Mirror beamed yellow, its favorite color, so I knew it agreed. I 
+started to draw pictures on its surface, and managed to speak a few 
+words while brushing teeth. I also illustrated a geometric shape 
+with my body. Mirror was responsive and turned all of them into 
+colorful notes and drawings for later. 
+Afterwards, as I was combing my hair, Mirror showed images of 
+a small grassy feld in morning sunlight. Nothing splendid. But it 
+is important to me as I used to spend a lot of time playing on the 
+grass as a child. A few days ago, I felt nostalgic and asked Mirror to 
+show me the feld during my morning routines. Seeing the images, 
+I felt happy and connected to the little feld. Mirror can show me a 
+lot of other scenes as well. It is a window into a broader world. 
+3.3 Scene 3: Fir is a Child of Mother Earth 
+As soon as I entered the kitchen, I saw my robot companion, Fir, 
+brewing tea. Fir was a birthday gift from my aunt. When I frst met 
+her, she chose Fir as her name because she found afnity with these 
+plants. “We’re both evergreens powered by sunlight,” she said. She 
+does look like a fr tree. Later, from reading the product manual, I 
+learned that she was designed to commemorate Fraser fr, which 
+had gone extinct in our days. 
+I asked, “But wait, who or what are you?” 
+She said proudly, “I’m a child of Mother Earth and I identify the 
+Pacifc island Viti Levu as my hometown.” 
+We spent a long time sharing with each other our life histories 
+and ancestral roots. I marveled at all the complex materials, labor, 
+collective memories, human ingenuity as well as all fortuitous 
+events that made her existence possible. One year later, it made 
+me happy that she had pretty much found a home here in North 
+America even though it is rather diferent from her hometown. 
+She had even learned to enjoy human activities such as brewing 
+morning tea. 
+“Blood orange tea with some tropical spice?” I asked, smelling 
+the scents. 
+Fir moved slightly towards me, “Exactly. I sense that it fts both 
+your mood and Earth’s weather here today.” 
+“Oh, Fir, you read my mind and mood,” I said. I quite appreci-
+ated her bold recommendation and attentiveness as I usually drink 
+Jasmine tea but wasn’t feeling it today. 
+“For sure, I’ve become better at guessing your mood with almost 
+a 60.58% accuracy rate. But well, I’m still better at understanding 
+Earth’s mood as we’ve known each other for longer,” Fir replied 
+casually and held a small cup of tea, ready to go outside. I followed 
+AI as a Child of Mother Earth: Regrounding Human-AI Interaction in Ecological Thinking CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+her to do our morning ritual of honoring Earth. She gently poured 
+the tea onto the garden soil. We stood there for a while, watching 
+the earth sip the tea. 
+We then came back to have breakfast. I started to prepare some 
+avocado toast and scrambled eggs. Fir technically is powered by a 
+solar battery, and she “photosynthesizes” whenever she goes into 
+sunlight. 
+“Fir, if one of these days, you want your sunlight cooked for you, 
+I’ll gladly serve you.” 
+“No, I like it raw and fresh,” she said, fnding her seat at a bright 
+spot around the dinner table to “eat” breakfast together with me. 
+3.4 Scene 4: Table Utilizes a Touch-based 
+Language 
+After breakfast, it was time to work. My job is to better understand 
+the dynamics of forest fres in order to help the forests thrive. The 
+dinner table ("Table") is also a work table for projecting images and 
+visualizing ideas. I communicate with Table with a touch-based 
+language—I use my hands and arms to touch its surface with difer-
+ent levels of pressure, speed, and patterns to convey meaning. It is 
+pretty like playing piano but with my whole body. Table commu-
+nicates back to me with diferent kinds of vibrations, sounds, and 
+images. 
+Oh, also, Table likes utilizing all sorts of spaces in the room by 
+projecting images at diferent locations. I walk around and some-
+times lie down on Table and look up if it decides to project an 
+image onto the ceiling. With the touch language, Table can sense 
+my emotions along with my thinking. If it feels that I’m sad or tired, 
+it often gently tries to project images of things I like to cheer me 
+up. 
+I gently tapped Table to wake it up. It softly lit up with a map 
+of the forest area A46. That’s where we left of yesterday. I used 
+touch to convey the message: “I have found a crucial spot to start 
+monitoring the whole area.” 
+Table vibrated slightly, signaling its enthusiasm. I stood up, 
+dragged the map, and turned it into a 3D model to closely observe 
+the whole area. 
+“Hmm, we need to know what species of pyrophytic plants are 
+around here.” 
+“Leave it to me,” Fir said. She turned to talk to the nearby wall 
+("Wall") and started to pull out information about pyrophytes in 
+that area. 
+As Fir and Wall were working on their tasks, I asked Table to 
+display my notes that Mirror took for me earlier this morning. 
+Table quickly displayed the notes—Mirror had made them so vividly 
+colored and organized. 
+I conveyed a request to Table: “Let’s zoom in on the routes of 
+wind fow in subareas A46c and A46g.” 
+Table vibrated slightly, showing a detailed graph of wind fow. I 
+gently touched its surface to show gratitude. After that, I grabbed 
+a trivet, put the digital images on it, and carried it outside to the 
+backyard. 3.5 Scene 5: Fir Finds an Issue in My Plan 
+I stopped at a little wooden chair ("Chair")—a convenient wind 
+simulation device created by my human coworkers. I transferred 
+the image from the trivet to the back of Chair. 
+“Hey, Fir, do you want to come and look at the wind fow models 
+with me?” 
+This time, Fir seemed absorbed in the task as she always likes 
+plants. So I decided to look at the models by myself. Chair was 
+already beeping a bit as it was ready to activate the simulation. I 
+sat down and saw the wind fow in area A46. 
+“Please turn up the wind fow speed a bit, say 10%, and also 
+highlight the up-blowing wind in purple,” I said to Chair. 
+I worked there for a while and found the range of wind conditions 
+that would be compatible with my plan. The next step would be 
+to synthesize the wind fow conditions with information about 
+pyrophytic plants. 
+I stepped inside, and Fir had already been communicating with 
+Table. After hearing my ideas, Fir pointed out a potential issue in 
+my plan. She said, “It might be ok to reduce the number and variety 
+of pyrophytic plants to prevent fre for now, but what will happen 
+to the forest system at A46 in the long term?” 
+“That’s very true, Fir. Let’s have some tea frst and then recali-
+brate the plan.” 
+4 DESIGNING HUMAN-AI INTERACTION BASED ON ECOLOGICAL THINKING 
+We use the story of Fir and other smart technologies to paint an 
+alternative mode of human-AI interaction in broad strokes and give 
+an impression of what it might feel like to be more intertwined 
+with the ecosystem in a familiar home setting. In the story, the 
+smart technologies are animate and share a caring bond with the 
+human. Through their mutual care and respect, they constitute 
+a local living arena that is attentive to ecological beings not in 
+their immediate settings. They strive to improve the welfare of the 
+forests—a shared purpose that is not derived solely from rigidly de-
+fned human welfare alone. The technological beings demonstrate 
+“capacities to infuence” [32], resulting in the human character ad-
+justing to technology-initiated behaviors and decisions within a 
+larger frame of interdependence. Hence, the story departs from 
+popular design philosophies and ideals in the case of ambient in-
+telligence, which is presumed to disappear into the background of 
+humans environments in service of primarily human-defned goals 
+and desires [29, 87]. 
+We do acknowledge that the story may not fully embody vari-
+ous ideals of ecological thinking (e.g., the further end of ecological 
+thinking depicted in Figure 1), as the home environment still ap-
+pears orderly and privileged, potentially detached from the broader 
+ecosystem that also involves chaos and danger. Moreover, the re-
+lationships and interactions among the human and smart tech-
+nologies are harmonious and relaxed, whereas many conficts and 
+tension can result from greater levels of interdependence. However, 
+it is not our intention to overlook the complexity of ecological en-
+tanglements [76], and we emphasize the importance of orienting 
+towards adaptation and resilience in times of great ecological un-
+certainty. Ecological thinking can manifest across a spectrum, and 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Xu & Ge 
+our story represents one of many possible imaginings of human-
+technology interactions. Instead of prescribing a future, the story 
+serves to intrigue and inspire. 
+Below, we draw on the story and put forth a set of proposals for 
+designing and using AI technologies from an ecological thinking 
+perspective. It is important to note that ecological thinking is a rich 
+set of cultural wisdom that continues to unfold in diferent contexts. 
+Hence, our proposals are not meant to be exhaustive but rather 
+are invitations to the broader HCI communities to tap into the 
+intellectual wealth of ecological thinking and discover alternative 
+possibilities of AI developments. 
+4.1 Understanding Deeply Smart Technologies’ 
+Ecological Embeddedness 
+In the story, Fir proudly introduces herself as "a child of Mother 
+Earth." She fnds a deep afnity with plants and identifes a specifc 
+place as her hometown. The human and Fir share a lot of time learn-
+ing about each other’s life histories and ancestral roots. With these 
+ideas, our aim is to challenge prevalent anthropocentric norms and 
+practices that tend to obscure the complex realities of AI produc-
+tion, which utilizes myriad materials, energy, and labor. Hence, 
+technological developments based on ecological thinking frst and 
+foremost entail transparency and systematic work to represent the 
+intricate connections between technological systems, people, and 
+the broader Earth ecology. 
+From this standpoint, smart technological systems possess his-
+tories that accompany their creation and extend throughout their 
+entire life span. Their interdependence with the planet ofers op-
+portunities to imbue technologies with rich meanings. For example, 
+like Fir, a smart home-cleaning robot could share its creation story 
+and history with people, describing materials, resources, and labor 
+involved in its production. What novel designs can integrate tech-
+nologies’ ecological embeddedness into meaningful experiences 
+that resonate with people and thereby create ecological connections 
+[72]? How can designers and users create meaningful identities for 
+technologies based on the materials and places associated with 
+technologies’ creation? 
+4.2 Afording Smart Technologies to Connect People with the Broader Ecology 
+In the story, Mirror and Fir as well as Tree and birds are designed to 
+infuse a home environment with natural elements. The presence of 
+Tree creates an experience of going to bed akin to a rabbit fnding 
+rest in bushes. Moreover, as described in the story, Mirror is a win-
+dow into a broader world. By providing these examples, we encour-
+age designers to create channels for AI-based technologies to seam-
+lessly connect people with other parts of the planetary ecosystem. In 
+this regard, designs such as Jensen’s strandbeests [48] utilize wind 
+and other natural forces, and the product’s behaviors are animate 
+and lively. Interacting with this kind of technology can connect 
+people with a grander set of interwoven natural forces and create a 
+sense of awe and wonder. How can designers center the ecosystem 
+in their work and enable people to readily discern connections with 
+Earth? This direction requires construing technologies not simply 
+as tools but as cultural artifacts, messengers of Earth, and children 
+of Earth. As such, AI can help people establish a broader realm of sociality and see kinship with technologies and other Earth beings. 
+Consequently, any episode of human-technology interaction will 
+be transformed into a simultaneous human-Earth connection as 
+well. 
+4.3 Preserving the Integrity of People’s Entire Sensorium 
+In the story, Tree creates a little dance game for the human, while 
+Table utilizes various spaces and a touch language. Our purpose 
+here is to show that ecological thinking foregrounds the relational-
+ity between mind and body, thinking and feeling, and among all 
+diferent senses. The act of thinking is deeply situated and does 
+not occur abstractly in a vacuum. We thus challenge a key episte-
+mological assumption underlying anthropocentrism—a dualistic 
+view that places the mind above the body and considers thinking 
+superior to feeling. 
+Ecological thinking is cultivated through multimodal interac-
+tions with one’s environment. For instance, the aforementioned 
+Sámi people rely on their bodily senses—auditory, visual, and tac-
+tile—to gain intimate knowledge about their land and navigate 
+it in diferent seasons [19]. A recent study also shows that while 
+Americans from North Carolina typically separate mental and phys-
+ical experiences in describing emotions, members of the Hadza—a 
+small hunter-gatherer group in Tanzania—tend to emphasize bod-
+ily sensations, movements, and the physical environment when 
+communicating their emotions [41]. As described by Korean tra-
+ditional ritual performer Dohee Lee [26], our bodies are part of 
+the land, and we carry the land through our bodies (paraphrased 
+from [59]). Hence, from the vantage point of ecological thinking, 
+smart technologies can encourage creative movements in space 
+and foster an intuitive responsiveness to one’s surroundings. How 
+can we activate other modes of communication instead of relying 
+on abstract symbols? What are some ways to incorporate practices 
+such as deep listening [49] into technological systems? 
+4.4 Enabling Slow Attention and Preserving Friction 
+The story ends with Fir taking issue with the human’s plan and 
+prompting consideration about its long-term consequences. Fir’s 
+adding friction [28] and deliberate slowing down of the decision-
+making process stands in contrast to prevailing popular AI designs, 
+which prize convenient and agreeable interactions that primarily 
+elicit a fast mode of attention focused on short-term, individual-
+based benefts. Here, we explore how “AI can help us to live more 
+deliberately” [31] and also encourage a slow mode of attention and 
+learning [97]. Otherwise, the present trend of relying on “algo-
+rithmic reckoning” (i.e., rule-based calculation) [77] in pursuit of 
+efciency can subvert value-based judgment by smoothing out am-
+biguity and suppressing the “constantly evolving moral-checking 
+mechanism” [31]. This scenario can be especially precarious for 
+making sustainability-related decisions, as many ecological beings 
+and matter are poorly understood or rendered invisible within an-
+thropocentric framings of problems that pervade contemporary 
+societies. 
+We argue that ecologically responsible AI technology needs to 
+facilitate judgments and adaptive learning through imagination, 
+AI as a Child of Mother Earth: Regrounding Human-AI Interaction in Ecological Thinking CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+refection, and open-ended exploration [77]. This approach entails 
+challenging “a camera view of knowledge” [85] that severs decision 
+agents from the world they observe. Instead, AI design needs to be 
+premised on the crucial recognition that judgments and decision-
+making are forms of ecological participation. As a result, technology 
+can confront users with the “invisible realities and messiness of 
+the natural world.”7 While this approach diverges from current AI 
+products that facilitate the aesthetic consumption of nature (e.g., 
+generative AI that creates pristine representations of the wilder-
+ness), we argue that discomfort can be necessary to encourage more 
+adaptive responses to changing ecological conditions. 
+On the other hand, users who are interested in practicing eco-
+logical thinking can adjust their expectations regarding AI’s roles. 
+A user mindset consistent with ecological thinking is to embrace 
+and live with perplexity and plural truths that can be constructed 
+in situ [25], rather than seeking an alluring yet illusory objective 
+optimal outcome. These adjustments can lead to a diferent mode of 
+human-AI interaction. AI can be designed to enhance the sensing 
+of ecological events, facilitate meaning-making, encourage deeper 
+explorations of a wide range of possibilities, and at times, challenge 
+default anthropocentric moral outlooks. AI can remind people of 
+diferent Earth beings and forms of existence that are not present 
+at the decision table but may be adversely impacted. An ecologi-
+cal thinking perspective illuminates abundant opportunities (and 
+challenges) for reshaping artifcial agents to enable ecological par-
+ticipation. 
+5 DISCUSSION 
+To create a sustainable future, it is crucial to foster a diferent 
+human-ecology relationship that goes beyond mere resource and 
+knowledge extraction. Otherwise, as scholar Harriet Hawkins aptly 
+put it, “If we follow the old map, we may end up arriving at the 
+same place” [40]. We examine cultural underpinnings of human-
+ecology relationships, and analyze cultural practices of AI design 
+and use through a conceptual map of anthropocentrism and eco-
+logical thinking. Based on the premise of cultural symbiosis, we 
+propose redesigning human-AI interactions as a new approach to 
+reshaping human-ecology relationships. 
+5.1 Frameworks for Fostering Alternative 
+Technological Visions 
+While a desire to extend more care to the ecosystem is felt by many 
+people, we currently lack guidance on how to turn this intention 
+into concrete practice. We take the initiative to provide some theo-
+retical and practical frameworks for guiding eforts on this front. 
+Our goal is to open new vistas, and our eforts should only mark 
+the beginning of what we hope to be a broader and multifaceted 
+endeavor to incorporate more cultural diversity and embrace Earth 
+ethics in technological developments. Moving forward, we need 
+creativity from researchers, designers, users, artists, policy-makers, 
+and many other diverse actors to create frameworks and processes 
+in various contexts, experiment with these alternative visions, and 
+widely share their insights. 
+7This phrase is quoted from a review we received, and we thank the reviewer for 
+highlighting the complexity and ambiguity inherent in any discussion about ecology. 5.2 Challenges to Incorporating Ecological 
+Thinking 
+Implicit cultural defaults such as various forms of dualisms tend 
+to go unnoticed without careful refection and intervention. We 
+focus on raising awareness of how diferent actors involved in AI 
+developments can consider alternative cultural ideas and be more 
+attentive to the welfare of the Earth ecosystem. Here, we do not 
+mean to underestimate the challenges of incorporating ecological 
+thinking, given the fact that the broader industrialized societies 
+operate on anthropocentric assumptions and present manifold man-
+agerial, legal, and political constraints on cultural change [85, 101]. 
+Moreover, substantial eforts are required to efectively communi-
+cate ecological thinking in nuanced ways and to facilitate access to 
+diverse cultural perspectives, particularly for people who may lack 
+high-quality intercultural connections. Such endeavors also involve 
+gathering insights about ecological thinking from diverse people 
+and communities, as well as amplifying these less-heard voices 
+without causing otherizing efects. Our hope is that the HCI com-
+munities will help open the imaginary space and make concerted 
+eforts with other sectors to enable a societal transition towards a 
+more equitable and livable future. 
+5.3 Multiplicity of Approaches 
+While strict anthropocentrism has been widely critiqued at this 
+juncture, its many historically derived concepts, assumptions, and 
+beliefs continue to be important to various religious traditions and 
+some contemporary scientifc paradigms. Our critical perspective 
+on the dominant infuence of anthropocentrism should not be inter-
+preted as advocating for the outright abandonment of cultural ideas 
+historically associated with European contexts.8 We also contend 
+that de-centering humans in relating to the world is not the same as 
+de-valuing humans, or denying the magnitude of infuences many 
+human groups have cumulatively exerted on the Earth ecosystem. 
+Quite the contrary, human agency in its diverse forms within an 
+equitable structure—active and passive, independent and interde-
+pendent [57, 65]—is needed to make a signifcant change right now. 
+We underscore the importance of striving for a multiplicity of the-
+oretical foundations, methodological approaches and practices in 
+the context of AI developments. Tapping into wisdom from diverse 
+cultures can be conducive to fostering intercultural empathy and 
+paving the way for enabling shared and coordinated environmental 
+actions. Doing so is imperative to attenuate the power imbalance 
+in the production of knowledge and technological developments in 
+diferent regions of the world. 
+6 CONCLUSION 
+Anthropocentric ideas have been largely associated with the deple-
+tion of natural environments. We propose that ecological thinking 
+holds promise to steer smart technological developments towards 
+considering and safeguarding the welfare of all planetary beings. 
+In this process, sustained refective learning, resisting the pull of 
+8As Hornborg [45] argues, “Indiscriminate rejection of Enlightenment concepts of 
+reason and truth cannot be an appropriate response.” This comment is important 
+especially as many concepts can be reinterpreted, adapted, and imbued with novel 
+meanings, as well as providing unique insights to help constructively respond to our 
+current planetary conditions. 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Xu & Ge 
+default cultural options, and deliberate imaginings of alternatives 
+are all necessary to make ecological participation and rejuvenation 
+immanent to what it means to be human in this historical moment. 
+ACKNOWLEDGMENTS 
+This research was supported by the Seed Grants ofered by the 
+Stanford Institute for Human-Centered Artifcial Intelligence (HAI). 
+We are grateful to Hazel Rose Markus and Kate Maher for their 
+valuable insights and support as we explored the cultural under-
+pinnings of sustainability and AI developments. We thank Zivvy 
+Epstein and Brandon Reynante for helpful discussions on this topic. 
+We also thank the reviewers who provided thoughtful and critical 
+feedback on earlier draft of this paper. 
+REFERENCES 
+[1] Emile Aarts and Boris De Ruyter. 2009. New research perspectives on ambient 
+intelligence. Journal of Ambient Intelligence and Smart Environments 1, 1 (2009), 
+5–14. 
+[2] David Abram. 2012. The Spell of the Sensuous: Perception and Language in a 
+More-Than-Human World. Vintage. 
+[3] Yoko Akama, Ann Light, and Takahito Kamihira. 2020. Expanding Participation 
+to Design with More-Than-Human Concerns. In Proceedings of the 16th Partici-
+patory Design Conference 2020 - Participation(s) Otherwise - Volume 1 (Manizales, 
+Colombia) (PDC ’20). Association for Computing Machinery, New York, NY, 
+USA, 1–11. https://doi.org/10.1145/3385010.3385016 
+[4] Stacy Alaimo. 2012. Sustainable this, sustainable that: New materialisms, posthu-
+manism, and unknown futures. Pmla 127, 3 (2012), 558–564. 
+[5] Stacy Alaimo. 2016. Exposed: Environmental politics and pleasures in posthuman 
+times. University of Minnesota Press. 
+[6] Megan Bang, Ananda Marin, and Douglas Medin. 2018. If indigenous peoples 
+stand with the sciences, will scientists stand with us? Daedalus 147, 2 (2018), 
+148–159. 
+[7] Karen Barad. 2007. Meeting the Universe Halfway: Quantum Physics and the 
+Entanglement of Matter and Meaning. Duke University Press. 
+[8] Martine Batchelor and Kerry Brown. 1994. Buddhism and Ecology. Motilal 
+Banarsidass Publishing House. 
+[9] Elizabeth A. Bragg. 1996. Towards ecological self: Deep ecology meets construc-
+tionist self-theory. Journal of Environmental Psychology 16, 2 (1996), 93–108. 
+https://doi.org/10.1006/jevp.1996.0008 
+[10] Rosi Braidotti. 2019. Posthuman Knowledge. Vol. 2. Polity Press Cambridge. 
+[11] Rosi Braidotti. 2019. A theoretical framework for the critical posthumanities. 
+Theory, Culture & Society 36, 6 (2019), 31–61. 
+[12] Taina Bucher. 2018. If... then: Algorithmic power and politics. Oxford University 
+Press. 
+[13] Judith Butler. 2002. Gender Trouble. Routledge. 
+[14] Gregory Cajete. 1994. Look to the Mountain: An Ecology of Indigenous Education. 
+Kivaki Press. 
+[15] Rosemary Candelario. 2019. Dancing the Space: Butoh and Body Weather as 
+Training for Ecological Consciousness. In The Routledge Companion to Dance 
+Studies. Routledge, 11–21. 
+[16] Chia-chen Chang, Gwyneth Jia Yi Cheng, Thi Phuong Le Nghiem, Xiao Ping 
+Song, Rachel Rui Ying Oh, Daniel R Richards, and L Roman Carrasco. 2020. Social 
+media, nature, and life satisfaction: global evidence of the biophilia hypothesis. 
+Scientifc Reports 10, 1 (2020), 4125. 
+[17] Dianne Chisholm. 2011. The Art of Ecological Thinking: Literary Ecology. ISLE: 
+Interdisciplinary Studies in Literature and Environment 18, 3 (10 2011), 569–593. 
+https://doi.org/10.1093/isle/isr077 
+[18] Lorraine Code. 2006. Ecological Thinking: The Politics of Epistemic Location. 
+Oxford University Press. 
+[19] Sarah Cogos, Marie Roué, and Samuel Roturier. 2017. Sami Place Names 
+and Maps: Transmitting Knowledge of a Cultural Landscape in Contempo-
+rary Contexts. Arctic, Antarctic, and Alpine Research 49, 1 (2017), 43–51. 
+https://doi.org/10.1657/AAAR0016-042 
+[20] Claire Colebrook. 2014. Death of the PostHuman: Essays on Extinction, vol. 1. 
+Open Humanities Press. 
+[21] Aykut Coskun, Nazli Cila, Iohanna Nicenboim, Christopher Frauenberger, Ron 
+Wakkary, Marc Hassenzahl, Clara Mancini, Elisa Giaccardi, and Laura Forlano. 
+2022. More-than-human Concepts, Methodologies, and Practices in HCI. In 
+Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing 
+Systems (New Orleans, LA, USA) (CHI EA ’22). Association for Computing 
+Machinery, New York, NY, USA, Article 150, 5 pages. https://doi.org/10.1145/ 
+3491101.3516503 [22] Maria Puig de La Bellacasa. 2017. Matters of Care: Speculative Ethics in More 
+than Human Worlds. Vol. 41. University of Minnesota Press. 
+[23] Gilles Deleuze. 1994. Diference and Repetition. Columbia University Press. 
+[24] Vinciane Despret. 2016. What would Animals Say If We Asked the Right Questions?
+University of Minnesota Press. 
+[25] John Dewey. 2002. Human Nature and Conduct. Courier Corporation. 
+[26] Dohee Lee. 2023. Dohee Lee’s Ofcial Website. https://www.doheelee.com/ 
+[27] Michele Elam. 2022. Signs Taken for Wonders: AI, Art & the Matter of Race. 
+Daedalus 151, 2 (2022), 198–217. https://doi.org/10.1162/daed_a_01910 
+[28] Michele Elam. 2023. Poetry Will Not Optimize; or, What Is Literature to AI? 
+American Literature 95, 2 (2023), 281–303. 
+[29] José Luis Encarnação Emile H.L. Aarts. 2006. True Visions: The Emergence of 
+Ambient Intelligence. Springer, Germany; Berlin Heidelberg. 
+[30] Alan Page Fiske, Shinobu Kitayama, Hazel Rose Markus, and Richard E Nisbett. 
+1998. The cultural matrix of social psychology. In The handbook of social 
+psychology, Vols. 1-2, 4th ed. McGraw-Hill, 915–981. 
+[31] Joshua Friedland. 2019. AI Can Help Us Live More Deliberately. MIT Sloan 
+Management Review 60, 4 (2019), 45–51. 
+[32] Xiao Ge, Chunchen Xu, Daigo Misaki, Hazel Rose Markus, and Jeanne L. Tsai. 
+2024. How Culture Shapes What People Want From AI. In Proceedings of the 
+2024 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, 
+USA) (CHI ’24). Association for Computing Machinery, New York, NY, USA, 
+1–15. https://doi.org/10.1145/3613904.3642660 
+[33] Kenneth J. Gergen. 1992. The Social Constructionist Movement in Modern 
+Psychology. In The Restoration of Dialogue: Readings in the Philosophy of Clinical 
+Psychology, Richard B. Miller (Ed.). American Psychological Association, 556– 
+569. https://doi.org/10.1037/10112-044 
+[34] Susan Grifn. 1978. Women and Nature: The Roaring Inside Her. Harper and 
+Row, New York. 
+[35] Yrjö Haila. 2000. Beyond the Nature-Culture Dualism. Biology & Philosophy 15 
+(2000), 155–175. 
+[36] Matthew Hall. 2011. Plants as persons: A philosophical botany. Suny Press. 
+[37] Donna Haraway. 2013. A cyborg manifesto: Science, technology, and socialist-
+feminism in the late twentieth century. In The transgender studies reader. Rout-
+ledge, 103–118. 
+[38] Donna J Haraway. 2016. Staying with the trouble: Making kin in the Chthulucene. 
+Duke University Press. 
+[39] Graham Harvey. 2005. Animism: Respecting the living world. Columbia University 
+Press. 
+[40] Harriet Hawkins. 2023. Imagine! Creating Earth Futures? https: 
+//shc.stanford.edu/stanford-humanities-center/events/harriet-hawkins-
+imagine-creating-earth-futures 
+[41] Katie Hoemann, Maria Gendron, Alyssa N Crittenden, Shani Msafri Mangola,
+Endeko S Endeko, Èvelyne Dussault, Lisa Feldman Barrett, and Batja Mesquita. 
+2024. What we can learn about emotion by talking with the Hadza. Perspectives 
+on Psychological Science 19, 1 (2024), 173–200. 
+[42] Andrew J. Hofman and Lloyd E. Sandelands. 2005. Getting Right with Nature: 
+Anthropocentrism, Ecocentrism, and Theocentrism. Organization & Environ-
+ment 18, 2 (2005), 141–162. https://doi.org/10.1177/1086026605276150 
+[43] bell hooks. 1981. Ain’t I a Woman: Black Women and Feminism. South End Press, 
+Boston. 
+[44] bell hooks. 2000. Feminist Theory: From Margin to Center. Pluto Press. 
+[45] Alf Hornborg. 2019. Animism, Relationism, and the Ontological Turn. In Nature, 
+Society, and Justice in the Anthropocene: Unraveling the Money-Energy-Technology 
+Complex, Alf Hornborg (Ed.). Cambridge University Press, Cambridge, 208–230. 
+[46] Nikki Goth Itoi. 2022. AI and Sustainability: Will AI Help or Perpetuate Climate 
+Crisis? https://hai.stanford.edu/news/ai-and-sustainability-will-ai-help-or-
+perpetuate-climate-crisis 
+[47] Petra Jääskeläinen, André Holzapfel, and Cecilia Åsberg. 2022. Exploring More-
+than-Human Caring in Creative-Ai Interactions. In Nordic Human-Computer 
+Interaction Conference (Aarhus, Denmark) (NordiCHI ’22). Association for Com-
+puting Machinery, New York, NY, USA, Article 79, 7 pages. https://doi.org/10. 
+1145/3546155.3547278 
+[48] Theo Jansen. 2008. Strandbeests. Architectural Design 78, 4 (2008), 22–27. 
+https://doi.org/10.1002/ad.701 
+[49] Willis Jenkins. 2020. Listening for Coastal Futures: The Conservatory Project. 
+Living Earth Community (2020), 141. 
+[50] Elvin Karana, Holly McQuillan, Valentina Rognoli, and Elisa Giaccardi. 2023. 
+Living artefacts for regenerative ecologies. Research Directions: Biotechnology 
+Design 1 (2023), e16. https://doi.org/10.1017/btd.2023.10 
+[51] Katherine C Kellogg, Melissa A Valentine, and Angele Christin. 2020. Algorithms 
+at work: The new contested terrain of control. Academy of Management Annals 
+14, 1 (2020), 366–410. 
+[52] Robin Wall Kimmerer. 2013. Braiding Sweetgrass: Indigenous Wisdom, Scientifc 
+Knowledge, and the Teachings of Plants. Milkweed Editions. 
+[53] Shinobu Kitayama and Yuchida Uchida. 2005. Interdependent agency: An alter-
+native system for action. Cultural and social behavior: The Ontario symposium 
+AI as a Child of Mother Earth: Regrounding Human-AI Interaction in Ecological Thinking 
+10 (2005), 137–164. 
+[54] Carl Knappett and Lambros Malafouris. 2008. Material agency: towards a non-
+anthropocentric approach. Springer. 
+[55] Eduardo Kohn. 2013. How forests think: Toward an anthropology beyond the 
+human. University of California Press. 
+[56] Simone Kotva. 2021. How can we be close to nature? https://youtu.be/ 
+C5QFZVIDjEs?si=WDUoCbWn6IjSkpjw Accessed on December 11, 2023. 
+[57] Simone Kotva. 2022. Efort and Grace: On the Spiritual Exercise of Philosophy. 
+Bloomsbury Publishing. 
+[58] Bruno Latour. 2007. Reassembling the social: An introduction to actor-network-
+theory. Oup Oxford. 
+[59] Dohee Lee. 2023. Workshop during the 2023 course (Conjure Art 101: Perfor-
+mances of Ritual, Spirituality and Decolonial Black Feminist Magic) at Stanford 
+University. 
+[60] Sherilyn MacGregor. 2011. Beyond mothering earth: Ecological citizenship and 
+the politics of care. UBC Press. 
+[61] Andreas Malm and Alf Hornborg. 2014. The geology of mankind? A critique of 
+the Anthropocene narrative. The anthropocene review 1, 1 (2014), 62–69. 
+[62] Michael Marder. 2013. Plant-thinking: A philosophy of vegetal life. Columbia 
+University Press. 
+[63] Michael Marder. 2016. Through vegetal being: Two philosophical perspectives. 
+Columbia University Press. 
+[64] Hazel Rose Markus and MarYam G Hamedani. 2019. People are culturally shaped 
+shapers: The psychological science of culture and culture change. In Handbook 
+of cultural psychology, D Cohen and & S Kitayama (Eds.). The Guilford Press, 
+11–52. 
+[65] Hazel Rose Markus and Shinobu Kitayama. 1991. Culture and the self: Implica-
+tions for cognition, emotion, and motivation. Psychological Review 98 (1991), 
+224–253. https://doi.org/10.1037/0033-295X.98.2.224 
+[66] Hazel Rose Markus and Shinobu Kitayama. 2010. Cultures and selves: A cycle of 
+mutual constitution. Perspectives on psychological science 5, 4 (2010), 420–430. 
+[67] Hazel Rose Markus and Shinobu Kitayama. 2014. Culture and the self: Implica-
+tions for cognition, emotion, and motivation. In College student development 
+and academic life. Routledge, 264–293. 
+[68] Marcel Mauss. 2000. The gift: The form and reason for exchange in archaic societies. 
+W.W. Norton & Company. 
+[69] Deborah McGregor, Steven Whitaker, and Mahisha Sritharan. 2020. Indigenous 
+environmental justice and sustainability. Current Opinion in Environmental 
+Sustainability 43 (2020), 35–40. 
+[70] Katie McShane. 2007. Anthropocentrism vs. nonanthropocentrism: Why should 
+we care? Environmental Values 16, 2 (2007), 169–185. 
+[71] Douglas Medin, Brian Ojalehto, Ananda Marin, and Megan Bang. 2017. Systems 
+of (Non-) Diversity. Nature Human Behaviour 1, 5 (2017), 0088. https://doi.org/ 
+10.1038/s41562-017-0088 
+[72] Elisa D. Mekler and Kasper Hornbæk. 2019. A Framework for the Experience 
+of Meaning in Human-Computer Interaction. In Proceedings of the 2019 CHI 
+Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk) 
+(CHI ’19). Association for Computing Machinery, New York, NY, USA, 1–15. 
+https://doi.org/10.1145/3290605.3300455 
+[73] Carolyn Merchant. 1980. The Death of Nature: Women, Ecology, and the Scientifc 
+Revolution. Harpercollins. 
+[74] Carolyn Merchant. 1981. Earthcare: Women and the environment. Environment: 
+Science and Policy for Sustainable Development 23, 5 (1981), 6–40. 
+[75] Walter D. Mignolo and Catherine E. Walsh. 2018. On Decoloniality: Concepts, 
+Analytics, Praxis. Duke University Press. 
+[76] Timothy Morton. 2010. The Ecological Thought. Harvard University Press. 
+[77] Christine Moser, Frank den Hond, and Dirk Lindebaum. 2022. Morality in the 
+age of artifcially intelligent algorithms. Academy of Management Learning & 
+Education 21, 1 (2022), 139–155. 
+[78] Arne Naess. 1973. The Shallow and the Deep, Long-Range Ecology Movement: 
+A Summary. Inquiry 16, 2 (1973), 95–100. 
+[79] Arne Naess. 1984. A defence of the deep ecology movement. Environmental 
+ethics 6, 3 (1984), 265–270. 
+[80] Gemma Newlands. 2021. Algorithmic surveillance in the gig economy: The 
+organization of work through Lefebvrian conceived space. Organization Studies 
+42, 5 (2021), 719–737. 
+[81] Iohanna Nicenboim, Elisa Giaccardi, Marie Louise Juul Søndergaard, Anu-
+radha Venugopal Reddy, Yolande Strengers, James Pierce, and Johan Redström. 
+2020. More-Than-Human Design and AI: In Conversation with Agents. In Com-
+panion Publication of the 2020 ACM Designing Interactive Systems Conference 
+(Eindhoven, Netherlands) (DIS’ 20 Companion). Association for Computing Ma-
+chinery, New York, NY, USA, 397–400. https://doi.org/10.1145/3393914.3395912 
+[82] Luke Pearson. 2021. Hilda: A Netfix Original Series. https://www.hildatheseries. 
+com/ 
+[83] Val Plumwood. 2002. Feminism and the Mastery of Nature. Routledge. 
+[84] Jedediah Purdy. 2015. After Nature: A Politics for the Anthropocene . Harvard 
+University Press. CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+[85]
+ Ronald E. Purser, Changkil Park, and Alfonso Montuori. 1995. Limits to An-
+thropocentrism: Toward an Ecocentric Organization Paradigm? Academy of 
+Management Review 20, 4 (1995). https://doi.org/10.5465/amr.1995.9512280035 
+[86] Markus Reichstein, Gustau Camps-Valls, Bjorn Stevens, Martin Jung, Joachim 
+Denzler, Nuno Carvalhais, and fnm Prabhat. 2019. Deep learning and process 
+understanding for data-driven Earth system science. Nature 566, 7743 (2019), 
+195–204. 
+[87] Paolo Remagnino and Gian Luca Foresti. 2004. Ambient intelligence: A new 
+multidisciplinary paradigm. IEEE Transactions on systems, man, and cybernetics-
+Part A: Systems and humans 35, 1 (2004), 1–6. 
+[88] Daniela K Rosner. 2018. Critical fabulations: Reworking the methods and margins 
+of design. MIT Press. 
+[89] Seung Sahn, Stephen Mitchell, Jane McLaughlin, JDPSN, and Paul Muenzen. 
+1992. The whole world is a single fower : 365 kong-ans for everyday life. C.E. 
+Tuttle Co. https://cir.nii.ac.jp/crid/1130000797406110848 
+[90] Donald A Schön. 2017. The refective practitioner: How professionals think in 
+action. Routledge. 
+[91] Astrid Schwarz and Kurt Jax. 2011. Etymology and Original Sources of the 
+Term “Ecology”. Ecology revisited: refecting on concepts, advancing science (2011), 
+145–147. 
+[92] John Seed and Dailan Pugh. 1988. Thinking like a mountain: Towards a council 
+of all beings. New Society Publishers. 
+[93] Helaine Selin. 2013. Nature across cultures: Views of nature and the environment 
+in non-Western cultures. Vol. 4. Springer Science & Business Media. 
+[94] George Sessions. 1987. The Deep Ecology Movement: A Review. Envi-
+ronmental Review 11, 2 (1987), 105–125. https://doi.org/10.2307/3984023 
+arXiv:https://doi.org/10.2307/3984023 
+[95] Vandana Shiva. 2016. Staying alive: Women, ecology, and development. North 
+Atlantic Books. 
+[96] Suzanne Simard. 2021. Finding the mother tree: Uncovering the wisdom and 
+intelligence of the forest. Penguin UK. 
+[97] Isabelle Stengers. 2018. Another science is possible: A manifesto for slow science. 
+John Wiley & Sons. 
+[98] Marilyn Strathern. 1988. The gender of the gift: problems with women and 
+problems with society in Melanesia. University of California Press. 
+[99] Sanaz Talaifar and Brian S Lowery. 2023. Freedom and Constraint in Digital 
+Environments: Implications for the Self. Perspectives on Psychological Science 18, 
+3 (2023), 544–575. 
+[100] Suzanne C Gagnon Thompson and Michelle A Barton. 1994. Ecocentric and 
+anthropocentric attitudes toward the environment. Journal of environmental 
+Psychology 14, 2 (1994), 149–157. 
+[101] Barton H Thompson Jr. 2023. Liquid Asset: How Business and Government Can 
+Partner to Solve the Freshwater Crisis. Stanford University Press. 
+[102] Gulden Uchyigit and Matthew Y Ma. 2008. Personalization techniques and 
+recommender systems. Vol. 70. World Scientifc. 
+[103] Karen J Warren. 1990. The power and the promise of ecological feminism. 
+Environmental ethics 12, 2 (1990), 125–146. 
+[104] Vanessa Watts. 2013. Indigenous place-thought and agency amongst humans 
+and non humans (First Woman and Sky Woman go on a European world tour!). 
+Decolonization: Indigeneity, Education & Society 2, 1 (2013). 
+[105] Alfred North Whitehead. 2010. Process and reality. Simon and Schuster. 
+[106] Wesley J Wildman. 2010. An introduction to relational ontology. The Trinity 
+and an entangled world: Relationality in physical science and theology (2010), 
+55–73. 
+[107] Cary Wolfe. 2010. What is posthumanism? University of Minnesota Press. 
+[108] Daisy Yoo, Tilde Bekker, Peter Dalsgaard, Eva Eriksson, Simon Skov Fougt, 
+Christopher Frauenberger, Batya Friedman, Elisa Giaccardi, Anne-Marie Hansen, 
+Ann Light, Elisabet M. Nilsson, Ron Wakkary, and Mikael Wiberg. 2023. More-
+Than-Human Perspectives and Values in Human-Computer Interaction. In 
+Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing 
+Systems (Hamburg, Germany) (CHI EA ’23). Association for Computing Machin-
+ery, New York, NY, USA, 3 pages. https://doi.org/10.1145/3544549.3583174 
+[109] Shoshana Zubof. 2023. The age of surveillance capitalism. In Social Theory 
+Re-Wired. Routledge, 203–213. 

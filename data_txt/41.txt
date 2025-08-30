@@ -1,0 +1,1761 @@
+Labour Provenance as a Lens to Reveal More-Than-Human 
+Ecologies in Biological Design and HCI 
+Yuning Chen 
+Design Informatics 
+University of Edinburgh 
+Edinburgh, United Kingdom 
+yuning.chen@ed.ac.uk Elise Cachat 
+School of Biological Sciences 
+University of Edinburgh 
+Edinburgh, United Kingdom 
+elise.cachat@ed.ac.uk Larissa Pschetz 
+Design Informatics 
+University of Edinburgh 
+Edinburgh, United Kingdom 
+l.pschetz@ed.ac.uk 
+Figure 1: An illustration of the organisms identified during the labour provenance analysis in the presented biodesign case 
+study 
+Abstract 
+Efforts to integrate living organisms in the design of new technolo-
+gies are often motivated by prospects of greater sustainability and 
+increased connection with more-than-human worlds. In this paper, 
+we critically discuss these motivations by analysing the vast and 
+mostly hidden ecologies of more-than-human organisms implicated 
+in a biodesign lab experiment. Through the lenses of labour theory, 
+we investigate the extent to which organisms’ bodily functions and 
+relationships can be subsumed into capitalist modes of production. 
+In order to help reveal and map out the network of more-than-
+human contributors to biodesign, we develop a workshop method 
+and a labour provenance analytical framework that identifies five 
+types of more-than-human labourers, stretching from the centre 
+to the periphery of biodesign. We conclude by discussing how sus-
+tainable approaches should account for wider more-than-human 
+ecologies, and how the labour lens could help stress conflicting 
+This work is licensed under a Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License. 
+CHI ’25, Yokohama, Japan 
+© 2025 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-1394-1/25/04 
+https://doi.org/10.1145/3706598.3713272 goals, implicit anthropocentric agendas and ways of improving 
+organismal welfare in biological design and HCI. 
+CCS Concepts 
+• Human-centered computing → Interaction design process 
+and methods. 
+Keywords 
+Labour Theory, Provenance, More-Than-Human, Ecologies, Sus-
+tainability, Design, Ethics, Multispecies, Bio-HCI, DIY-Bio, Microbe-
+HCI, Biodesign, Posthumanism, Care 
+ACM Reference Format: 
+Yuning Chen, Elise Cachat, and Larissa Pschetz. 2025. Labour Provenance as 
+a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI. 
+In CHI Conference on Human Factors in Computing Systems (CHI ’25), April 
+26–May 01, 2025, Yokohama, Japan. ACM, New York, NY, USA, 22 pages. 
+https://doi.org/10.1145/3706598.3713272 
+1 Introduction 
+Bio-related research is becoming increasingly prominent within 
+Human Computer Interaction (HCI) and Design, motivated by 
+the potential of living organisms to unlock novel applications 
+across various domains [24, 35, 78, 89, 90], including fabrication 
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+and material development [3, 10, 11, 34, 114, 116, 119, 122], gaming 
+[59, 62, 96], electronics [65, 81, 85], living media/digital interactions 
+[14, 18, 31, 41, 46, 97], etc. By leveraging organisms’ ability to adapt, 
+regenerate and biodegrade, these applications are often consid-
+ered more sustainable than those employing traditional materials 
+and technologies [39, 112, 117]. By supporting designers and/or 
+users’ attunement to specific living organisms, they are also seen 
+as able to forge a greater connection to more-than-human worlds 
+[8, 49, 50, 68, 86, 87, 120, 121]. 
+In this paper, we critically reflect on these core motivations 
+by analysing a biodesign experiment through the lenses of mul-
+tispecies ecologies and labour theory. The experiment includes 
+advanced forms of biodesign practices which not only integrate 
+but also modify living organisms for particular purposes. These 
+practices often draw on specialised tools and techniques borrowed 
+from other fields such as molecular and synthetic biology, and are 
+becoming increasingly accessible [4, 30] and popular within HCI 
+(particularly through the proliferation of biolabs [63]). We decon-
+struct the experiment, which uses synthetic biology methods to 
+hybridise cells, first by describing each of its steps, and then by 
+tracing the living origins of different components employed in each 
+of these steps - through what we call a provenance mapping exer-
+cise. This exercise reveals the large number of organisms that play 
+a role in promoting the conditions necessary for transformation, 
+sustenance, and reproduction of primary experimental subjects -
+forms of life that were hidden behind laboratory reagents, barcodes, 
+and serial numbers. This provenance analysis leads to the first main 
+contribution of this paper: the expansion of considerations of biolab 
+and biodesign practices, from a few organisms of interest to vast 
+more-than-human ecologies. 
+Following a critical trend within HCI that attempts to consider 
+best practices to engage more-than-human organisms in research 
+[17, 20, 40, 73, 87, 120], and particularly recent work that aims to 
+analyse more-than-human participation through the lens of labour 
+theory [17], we investigate the implications of interpreting par-
+ticipation of organisms as metabolic, resistance and sustenance 
+labour, discussing a trend for such labour to be increasingly sub-
+sumed by capitalist practices, both within research and in resulting 
+design applications. This critical position leads to the design of 
+a workshop method that invites those who routinely work with 
+interventional forms of biodesign research to a) situate organisms 
+within an ecology of species, b) reflect on the labour of organisms 
+through assigning job titles, and c) consider ways to improve their 
+welfare. 
+The labour analysis and workshop culminate in the second main 
+contribution of this paper: a novel analytical framework that we 
+call labour provenance and which aims to help researchers trace 
+the living labour behind various components and reveal how struc-
+tural positions within design practices can condition the visibility 
+of organisms’ contribution and the levels of subsumption they 
+can be subjected to. The framework identifies five types of more-
+than-human labourers: 1) primary biological labourers, or the main 
+organisms considered in the design; 2) specific skills labourers, those 
+that provide new features or complement the primary organisms 
+3) tool-based labourers, organisms that contribute to the control of 
+primary and skills labourers, 4) support and sustenance labourers, 
+who contribute to nurture different organisms, and 5) evaluation and feedback labourers, organisms employed to give feedback on 
+the experiment outcomes. 
+We conclude by discussing the contribution of the work to a) 
+drawing attention to extended more-than-human ecologies in biode-
+sign, b) expanding notions of sustainability, and c) providing a plat-
+form to discuss ethical practices in biological HCI. By using labour 
+provenance as a lens, we can expand more-than-human perspec-
+tives and prompt a re-evaluation of what it means to engage with 
+life in design and HCI. 
+2 Reframing the living in HCI 
+HCI and Design researchers have developed new frameworks for 
+integrating living organisms in digital technologies through con-
+cepts such as “Biological HCI” [ 90], “Living Bits” [ 91], “Living Me-
+dia Interfaces” [78], “Living Artefacts” [55], “Microbe-HCI” [60], 
+etc. Emergent frameworks have further attempted to synthesise 
+taxonomies to “surface the livingness of Microbial Displays” [61], 
+or explore bio-digital “habitabilities” [118] and case studies have 
+explored the integration of specific organisms’ unique attributes 
+into novel interfaces, such as dinoflagellate’s bioluminescence [85], 
+flavo- [ 37] and cyanobacteria’s [121] vivid colours, mycelium’s abil-
+ity to grow into resilient shapes [34, 116], Bacillus subtilis (natto) 
+cells’ responsiveness to moisture [117], or the increasing accessi-
+bility of yeast’s DNA manipulation [42]. Often, explorations are 
+underpinned by an assumption that products that are based on liv-
+ing matter might be more sustainable, typically due to organisms’ 
+ability to grow, adapt and/or decompose [39]. 
+In parallel to this trend to integrate living organisms in new 
+products and interfaces, we have also seen an expansion of method-
+ological and critical approaches. Such approaches aim to pluralise 
+perspectives and include the voices of more-than-human species, 
+(re)shaping the ways in which HCI engages with the natural world 
+and responds to increasingly pressing ecological issues. Such ap-
+proaches include participatory methods for more-than-human [2, 
+19, 67] as well as multispecies interaction and cohabitation [49, 57, 
+73, 106], recognition of more-than-human labour [58] and "non-
+participation" [17], among others. There have also been a breadth 
+of examples that look at the more-than-human as a way to criti-
+cally expand notions of time [8, 8, 48, 86, 94], materiality [50, 120], 
+care [68, 84, 87], and reframe communal [10, 20, 40] and individ-
+ual [9, 83, 120] experiences around the living. These approaches 
+attempt to challenge human-centric attitudes, intersecting with 
+emergent notions of feminist care and posthumanist HCI [58, 107], 
+feminist care ethics [58, 108], unmaking [7, 69, 99, 109], temporal 
+design [93], sustainability [77, 101], and ethics [32, 44, 79] in HCI. 
+In this paper, we are particularly interested in the characterisa-
+tion of labour outside of human experience [17, 58] and in using 
+labour as a lens to legitimise the contribution of more-than-human 
+organisms in design practice [17]. We attempt to apply the con-
+cept of labour to our analysis of ecological provenance in order to 
+sensitise researchers towards the unique ways in which different or-
+ganisms contribute their skills and bodies to design practice. While 
+some more-than-human species can be seen to perform labour sim-
+ilar to that of humans — such as horses transporting goods, dogs 
+guarding herds and whales being trained as military spies — many 
+others, as we will discuss in this paper, require a rethinking of what 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+constitutes labour and what could translate into imbalances and 
+modes of domination. This rethinking, as we will address later in 
+the discussion, can in turn invite reflection on the broader spec-
+trum of more-than-human labour beyond the living, suggesting 
+directions for future work. 
+In the following sections, we report on our biodesign case study, 
+the mapping of its labour ecologies, and review literature on more-
+than-human labour to later analyse the different manifestations 
+and define different types of more-than-human labourers. 
+3 Biodesign case study: constructing the hybrid 
+Our case study centres on a hybridisation experiment, conducted as 
+a sequel to another arts-science project, Crossing Kingdoms [110], 
+now with a renewed aim to question "organism-agnostic" [15] ap-
+proaches in biotechnology. As discussed by Calvert & Szymanski 
+[15], in lab practices, microorganisms such as yeast and Escherichia 
+coli (E. coli) are often treated as vessels for standardised interchange-
+able genetic parts, or "BioBricks" [102] akin to Lego bricks.Such 
+approaches are echoed within HCI research, where these organ-
+isms are often referred to as “living biological computers" [91], 
+"bio-digital interfaces" [31], “living interfaces” [80], and "bio-hybrid 
+devices" [82]. Our experiment aimed to critique these approaches 
+using common synthetic biology techniques to ’hybridise’1 yeast 
+with human cells. The idea was that the combination of cells with 
+very different moral statuses would complicate and unsettle the 
+organism-agnostic framework. 
+The experiment involved us engaging with lab practices, and 
+delving into various specialised knowledge and the community of 
+researchers around it. Supported by a collaborative grant, we con-
+ducted the experiment in our university’s synthetic biology lab. The 
+background of the first and third authors brought to the experiment 
+a new perspective, allowing a critical and reflexive engagement 
+with routine lab practices. Being aware that many lab components 
+originated from living organisms, we started a provenance analysis 
+to trace the impact of our actions on the more-than-human world. 
+Initially focused on cell lines and genetic components, our scope 
+expanded through closer review of lab records and reflective discus-
+sions. This led us to critically analyse the extent to which a variety 
+of organisms had and were contributing, that is, labouring, for our 
+experiment to take place. By retracing this experiment through 
+the lens of labour, we were able to illuminate the extensive net-
+work of human and more-than-human contributions underpinning 
+well-established lab protocols. We see this as a natural extension 
+of the critique prompted by the project. In what follows, we detail 
+the six main experiment steps and contextualise them within our 
+provenance framework. 
+Step I Sourcing primary organisms and planning: (Fig 2) For 
+the experiment, we used “standardised cell lines”, which 
+are commercially available cells commonly used in labs 
+and sourced from providers like atcc.org and neb.com. 
+The main cells used were: Human Embryonic Kidney 293 
+(HEK) cells and Saccharomyces cerevisiae BJ5465 (Brewer’s 
+yeast). In this standardisation process, human cells were 
+1In the experiment we refer to hybridisation in the sense of pairing and connecting 
+two organisms instead of the strictly biological definition of fusing two organisms into 
+one single organism. 
+Figure 2: Step I - Diagram of sourcing primary organisms 
+and planning genetic modifications. 
+“immortalised” [56] once they were removed from the 
+source and replicated in the lab for commercialisation. 
+The hybridisation involved adding “molecular hands” — 
+binding molecules — to the surfaces of both cell types to 
+facilitate their connection. We did so by introducing genes 
+encoding the binding molecules into the cells using small 
+DNA carriers called plasmids. We used genetic editing 
+"tools" like restriction enzymes (to cut DNA), polymerases 
+(to copy DNA), and ligases (to join DNA pieces). The hy-
+bridisation experiment took about five months of trial 
+and error, which we elaborate in the following sections, 
+focusing on the part involving yeast. 
+Step II Identifying genes of interest and selection mecha-
+nisms: (Fig 3 and 4) We used modified HEK cells whose 
+surfaces are covered with "Green Fluorescent Protein" 
+(GFP), provided by our lab colleagues. For yeast cells, we 
+introduced genes to surface anti-GFP nanobodies (which 
+would bind with the GFP of modified HEK cells) and a red 
+internal fluorescent protein, mCherry (to make the yeast 
+glow red, aiding microscopic observation of their interac-
+tions). Together with our lab colleagues, we added each of 
+them to a different plasmid for cell transformation. To en-
+sure that only successfully modified cells survived, we de-
+vised a two-step “selection mechanism”: for the mCherry 
+plasmid, we planned to add genes that protect yeasts from 
+an antibiotic in the medium; for the anti-GFP plasmid, 
+we planned to add a gene that allows cells to produce an 
+essential amino acid that was missing from the medium, 
+so that only modified cells could survive. 
+Step III Constructing plasmids with genes of interest: (Fig 4 
+and 5) 
+With the help of lab colleagues who designed the plas-
+mids and guided construction, both plasmids were created 
+by combining the different DNA parts, including the de-
+sired genes, the antibiotic resistant genes, essential amino 
+acid producing gene, and basic components for a plasmid: 
+the backbone (the plasmid’s basic structure), promoters 
+(which drive gene activity), terminators (which mark the 
+end of a gene), and markers (to help track genes). 
+Step IV Multiplying plasmids with E. coli : (Fig 6 and 7) 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+Figure 3: Step II - Microscopic photo of yeast under natural 
+light (left), and under fluorescent light (right), red cells on 
+the right confirm the success of modification. 
+Figure 4: Step II and III - Diagram showing genes of interest, 
+selection mechanisms and other components in the plasmids 
+Figure 5: Step III - Photo of plasmid construction experiment 
+(left) and a map showing one of the plasmids, designed by lab 
+colleagues, with assemblage of different DNA components 
+(right) 
+The plasmids were then introduced into E. coli for mul-
+tiplication. The bacteria were defrosted, heat shocked to 
+uptake the plasmid, and then placed in the medium with 
+antibiotics, which ensured that only successfully trans-
+formed bacteria would grow. Colony appearance, which 
+indicated initial success, was then confirmed with two 
+tests. First, colony PCR (Polymerase Chain Reaction) am-
+plified the DNA to check if the plasmid was present (a 
+method also used in COVID testing). Second, we used gel 
+electrophoresis to separate DNA by size, comparing it to 
+a “DNA ladder” (a ruler to measure DNA) to confirm the 
+presence of the target DNA. 
+Step V Transforming yeast cells with the constructed plas-
+mids: (Fig 8 and 9) 
+Figure 6: Step IV - Diagram of multiplying and extracting 
+plasmids from E. coli 
+Figure 7: Step IV - Photo of failed transformation of bacterial 
+culture (left), and photo of gel electrophoresis (right) 
+Figure 8: Step V - Diagram of transforming yeast with the 
+constructed plasmids 
+After extracting plasmids from E. coli through a process 
+called Miniprep, we transferred them into yeast cells. This 
+involved growing the yeast, mixing it with the plasmids, 
+and then placing the cells again in a medium with antibi-
+otics - now antibiotic G418 which allowed only modified 
+yeast to grow. We used colony PCR and gel electrophore-
+sis to confirm that yeast cells took up the desired genes, 
+including anti-GFP nanobody and mCherry. 
+Step VI Co-culturing the transformed yeast and HEK cells 
+(Fig 10 and 11) 
+Finally, we grew the modified yeast and human (HEK) 
+cells together in a special culture medium that helped 
+HEK cells, which are more delicate, to survive. HEK cells 
+attached to the culture plate, acting as a surface for yeast 
+to “hybridise” with. After a few hours, we washed away 
+any loose cells, leaving only the hybridised cells. . . voilà! 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 9: Step V - Photo of transformed yeast on selective 
+media (left) and photo of gel electrophoresis image (coloured) 
+of yeast colony PCR, showing different DNA fragments sep-
+arated by weight (right) 
+Figure 10: Step VI - Diagram of co-culturing yeast and HEK 
+cells in tissue culture media 
+Figure 11: Step VI - Microscope photos of co-cultured yeast 
+and HEK cells, we can see yeast cells under red fluorescent 
+channel (left), both cells under natural light (middle), and 
+HEK cells under green fluoresent channel (right), the over-
+lapping positions after washing off loose cells indicates po-
+tential cell-cell connection and successful "hybridisation" 
+We see this experiment as a rich site of investigation. Its lab 
+practices connect to other works in the fields of biodesign, bio-HCI 
+and bioart, which increasingly employ a range of synthetic and 
+microbiology techniques. Common protocols include gene editing, 
+plasmid construction [42], PCR [64], tissue culture [123], bacterial 
+culture and media preparation [8, 63], which, as we will discuss, 
+often obscure underlying more-than-human ecologies. 
+4 Biodesign case study as a more-than-human 
+ecology 
+Closer analysis reveals that experiments like this one rely not only 
+on the primary organisms – here, human and yeast – but also 
+on a complex more-than-human ecosystem. From the microbes that provided genetic editing tools to the plants and animals that 
+contributed to the production of reagents and media, a myriad of 
+often overlooked organisms played crucial roles in sustaining these 
+practices. In this section, we revisit the experiment step-by-step, 
+illustrating and commenting on what we call a provenance analysis, 
+which traces the contribution of organisms involved in different 
+components. Where possible, we reduce repetition, noting that 
+some organisms supported multiple steps (e.g. recurring agents and 
+reagents). 
+Step I Sourcing primary organisms and planning: (Fig 12) 
+As mentioned above, primary organisms originated from 
+yeast and Human Embryonic Kidney (HEK) Cells, as illus-
+trated in figure 12. 
+Step II Identifying genes of interest and selection mecha-
+nisms (Fig 13): Genes of interest can come from various 
+species, including animals, plants, and microbes, which are 
+chosen based on desired functions. For instance, camelids 
+are valuable sources of nanobody genes for immunologi-
+cal purposes [33], while organisms like jellyfish and sea 
+anemones provide fluorescent genes commonly used as 
+reporters [22]. 
+For selection mechanisms, many antibiotic and resistance 
+genes have evolved as natural defence and competition 
+tools in microorganisms. In the lab, these microbial traits 
+are repurposed to ensure that only host cells incorporating 
+the desired genes can survive under selective conditions. 
+Step III Constructing plasmids with genes of interest (Fig 
+14): Many genetic components in the plasmid and edit-
+ing tools were sourced originally from various organisms. 
+However, many are now mass-produced through "recom-
+binant" methods, where genetic sequences are extracted 
+from their natural source and replicated using host or-
+ganisms, typically E. coli. Additives such as glycerol and 
+bovine serum albumin (BSA) for genetic editing tools may 
+nevertheless primarily come from living sources. 
+Step IV Multiplying plasmids with E. coli (Fig 15): The bac-
+terial transformation process involves three main proce-
+dures that rely on living organisms: 1) Bacterial culture: 
+organisms that provide components supporting bacterial 
+growth, including storage agent glycerol, nutrients and 
+antibiotics in culture media; 2) Colony PCR: organisms 
+that provide tools that identify and amplify specific genes, 
+i.e. primers and polymerase; and 3) Gel electrophoresis: 
+organisms that provide ingredients for the gel matrix and 
+DNA ladder. 
+Step V Transforming yeast cells with the constructed plas-
+mids (Fig 16): In this step, we identified organisms impli-
+cated in: 1) Miniprep gene extraction: organisms behind 
+enzymes used to break bacterial cell walls and purify DNA; 
+2) Cell culture: organisms behind yeast storage and culture 
+media; 3) Yeast transformation: additives in the transfor-
+mation reaction mix. 
+Step VI Co-culturing the transformed yeast and HEK cells 
+(Fig 17): In this stage, organisms are mainly involved in 
+tissue culture media and cell maintenance. Yeast extract, 
+peptone, and agar represent common organism-derived 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+Figure 12: Step I - Illustration showing primary organisms (Human (HEK) cells and yeast cells) as well as their origin stories 
+nutrients in bacterial and yeast culture media. Tissue cul-
+ture media, however, implicate a much wider range of or-
+ganisms, including those that contribute to foetal bovine 
+serum (FBS), amino acids, vitamins, and glucose. These 
+components are essential for providing the nutrients, en-
+ergy, and environmental conditions that mammalian cells 
+need to grow and function in vitro. 
+The involvement of these organisms in our experiment could 
+be interpreted through several lenses. Here we chose the lens of 
+labour theory as it allows us to question typical organism-agnostic 
+approaches that initially motivated the project. The following sec-
+tion reviews recent literature on more-than-human labour, which 
+informed our analysis. 
+5 Conceptualising more-than-human labour 
+5.1 Levels of control: from formal to real 
+subsumption of more-than-human labour 
+Classic literature on labour identifies two forms of subsumption 
+to capitalist production. Formal subsumption involves co-opting 
+existing activities into capitalist production, which usually means 
+turning producers into wage workers without fundamentally alter-
+ing the productive activities. Real subsumption is a more advanced 
+stage that transforms the labour process and production methods 
+to maximise value [75]. 
+In Animals and Capitals [115], Dinesh Wadiwel extends such 
+notions to animal labour. Formal subsumption can be seen in tradi-
+tional animal husbandry, where pre-capitalist practices, like using 
+animals for transport and milk, are integrated into capitalist sys-
+tems to generate surplus value. Real subsumption is evident in 
+industrial farming, where animals’ entire life cycles are restruc-
+tured to maximise efficiency and profit. Wadiwel describes real 
+subsumption in the fish industry as "the whole life and death of these animals is brought into alignment with the rhythms of production, in 
+such a way as the lives of these animals look nothing like the lives 
+of fishes in ‘nature’." He continues to say: “the history of animal 
+agriculture moves this formal subsumption towards a ‘real subsump-
+tion’, in so far as animals become inseparable from the productive 
+processes within which humans place them, such that the morphology 
+and livelihoods of animals become intertwined and interdependent 
+on human utilisation. ” 
+These concepts can be extended to other biological kingdoms 
+and the realms of biodesign and biotechnology, where the subsump-
+tion of more-than-human labour is manifested in the utilisation 
+of organisms’ biological processes, or the extraction of substances 
+from these processes. Formal subsumption occurs when existing bio-
+logical processes – like microbes breaking down pollutants, worms 
+oxygenating the land – are incorporated without altering the organ-
+isms. Real subsumption arises when selective breeding or molecular 
+biology techniques are employed for optimisation, whereby the 
+lives of these organisms – be they animals, plants, or microbes – 
+are fundamentally shaped by imperatives of value creation. In this 
+case, the microbes introduced to break down pollutants would then 
+be engineered and/or mass produced to enhance efficiency. 
+Biotechnology exemplifies real subsumption vividly. As research 
+evolves, organisms are literally designed for experimental and in-
+dustrial use, with genomes streamlined to facilitate complex exper-
+iments or produce valuable compounds. Since it is accepted that 
+genetically altered organisms can pose threats to natural ecosys-
+tems, they are typically subjected to strict containment measures 
+at physical, chemical, or genetic levels [111]. This containment 
+ensures zero survival outside of their designated role in knowledge 
+production, expressing a totalising form of real subsumption. An 
+example of this approach is Escherichia coli (E. coli), which is often 
+referred to as the quintessential ‘machinery’ [66] for turning natu-
+rally occurring substances from a diverse array of organisms into 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 13: Step II - Illustration and origin stories of identified organisms contributing to genes of interest, selection mechanisms 
+and visual markers 
+highly controllable, large-scale microbial productions. The ability 
+to harness E. coli in this way represents a clear example of real 
+subsumption, where the natural capabilities of the organism are 
+not merely utilised but fundamentally reshaped and optimised for 
+production. 
+Overall, common experimental techniques and components in 
+biotechnology reveal a tendency for the field to move from formal 
+subsumption towards real subsumption. When tracing the histo-
+ries, origins and production methods of common substances used in 
+laboratories, one often finds a progression from natural sources to 
+genetically modified alternatives [29] - a progression that is tied to 
+the integration of these processes into capitalist logics, and poten-
+tially other drivers such as product safety. Often, a living organism 
+might serve as the natural source for a particular substance, in an 
+example of formal subsumption. As demand for research on this 
+particular organism increases, or a drive to integrate its outputs into consumer products is manifested, there is a move towards stream-
+lined production methods, typically involving genetically modified 
+organisms. Through this process, their living functions become 
+more controlled, leading to more “real” forms of subsumption. 
+The consideration of the ways in which biodesign practices can 
+be situated within a system of production can help us deepen and 
+extend reflections on the relationships between human and more-
+than-human organisms in biological HCI. Through the concept of 
+more-than-human labour subsumption, we can start to consider 
+not only how organisms are handled during the design process, 
+but also how the scaling of research practices and translation into 
+commercial products beyond academia may affect the more-than-
+human. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al.
+Figure 14: Step III- Illustration and origin stories of identified organisms contributing to plasmid components and genetic 
+assembly 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 15: Step IV - Illustration and origin stories of identified organisms contributing to cell culture, colony PCR and Gel 
+electrophoresis process 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al.
+Figure 16: Step V - Illustration and origin stories of identified organisms contributing to Miniprep gene extraction, yeast 
+overnight growth, and yeast transformation 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Figure 17: Step VI - Illustration and origin stories of identified organisms contributing to co-culturing and maintaining the 
+hybrid cells 
+5.2 Forms of labour: metabolic, resistance, 
+sustenance 
+While the notion of subsumption can help us evaluate levels of 
+control over and intervention on organisms, it is also useful to 
+consider the kinds of labour that more-than-human organisms can 
+perform in design and HCI research. Below, we draw on existing 
+literature to discuss three types of living processes that commonly 
+underpin more-than-human contributions to design practices, in 
+the section after this, we will map the identified organism labourers 
+into the three categories. 
+Metabolic labour focuses on the bodily and biological processes 
+of organisms – energy expenditure, self-regeneration, reproduc-
+tion, and other metabolic activities that are directed towards value 
+creation. Scholars like Beldo [6], Coulter [21] and Wadiwel [115] 
+describe this through concepts like "microbiological labour", "bod-
+ily work" and "reproductive labour", extending traditional ideas 
+of labour to include organisms as legitimate subjects of labour. 
+In the context of biodesign, metabolic labour represents the most 
+prevalent forms of organismal work. 
+Furthermore, scholars have identified organisms’ contribution to 
+value production in sites of encounters [5, 43] and even resistance [115]. Wadiwel specifically points out the potential of animal resis-
+tance to be co-opted into further capitalist value generation, with 
+such resistance often driving technological innovation. Such forms 
+of ‘non-compliant’ contribution can also be seen in laboratory mi-
+croorganisms, with its resistance (e.g. to antibiotics) being fully 
+operationalised as genetic editing tools. Resistance labour offers a 
+lens for examining contributions that are a by-product of organisms 
+non-compliance, recognising the possibility of shaping technology 
+to appropriate all forms of living processes. 
+Drawing on social reproduction theory [12], ’sustenance labour’ 
+looks at how the support and sustenance of organism can be pro-
+vided by other organisms or environmental factors. This "backstage" 
+labour is essential for the continuation of metabolic and resistance 
+labour, as it underpins the conditions for these contributions to 
+persist over time. Here, we see a shift in focus towards the social 
+and ecological dependencies necessary for the ongoing productivity 
+of organisms, extending the framework of care and environmental 
+support to more-than-human contexts. 
+These forms of labour broaden our understanding of what counts 
+as labour and productivity, providing a more inclusive lens to assess 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+organismal contribution while acknowledging their interconnected-
+ness. Metabolic labour involves direct value generation, resistance 
+labour captures value created through conflict or non-compliance, 
+and sustenance labour focuses on the supportive roles of other 
+organisms in these processes. In some projects, these roles can 
+overlap, e.g. with a metabolic function manifested as resistance. 
+Additionally, the above-mentioned labour forms can be carried 
+out in varying capacities. Here we distinguish between constant 
+producers (e.g. microbes used in recombinant production) and one-
+off contributors (e.g. jellyfish that provide GFP gene sequence, or 
+soil microbes that provide resistance gene sequences). Constant 
+producers continuously generate value through ongoing ‘living 
+labour’, while one-off contributors offer a singular input that be-
+comes standardised and synthetically produced in labs. 
+5.3 Living labour vs automation/synthetic 
+production 
+Nowadays, some components that originated from organisms as 
+one-off producers can be recombinantly produced, and some could 
+be replaced by alternatives that do not even come from living or-
+ganisms. However, the majority of components utilised in biotech 
+research and production still remain largely sourced from living 
+organisms. This is due to cost-effectiveness, as it is still hard to 
+synthesise the complexity of their living processes, let alone scaling 
+them up. For example, while certain components and genetic edit-
+ing tools, such as glycerin and primers, can be synthesised more 
+easily, processes like DNA replication can be performed using ma-
+chines (instead of using in-cell replication, such as through E. coli) 
+at very small scales. The use of synthetic methods and machineries 
+in biotechnology, and in vitro DNA manipulation [70] that enables 
+researchers to perform controlled, small-scale DNA synthesis and 
+assembly outside of living organisms is still in very early stages. 
+Synthetic/automation techniques are still seen as falling short in 
+terms of replicating the complexities and scale of living systems. In 
+other words, microbes like E. coli and yeast provide environment 
+for DNA replication and protein production at a scale and speed 
+that are difficult to reproduce synthetically, due to their in vivo 
+cellular mechanisms. Similarly, sustenance components such as 
+yeast extract and FBS are combinations of complex growth factors 
+and nutrients, which pose significant challenges for developing 
+synthetic alternatives. 
+Therefore, while there are alternatives, more-than-human labour 
+still remains at the core of laboratorial practices. Even high-end 
+platforms such as genome foundries [ 113] rely on living organisms 
+for components and gene replication. Additionally, synthetic and 
+automated methods themselves carry unique labour ecologies that 
+could be the subject of further scrutiny. 
+5.4 Biodesign case study: mapping more-than-human labour 
+The list presented in Table 1 reflects our best attempt at offering 
+a non-exhaustive glimpse into the intricate and expansive labour 
+ecologies underpinning our design experiment. However, we ac-
+knowledge that even more organisms could have been implicated in 
+the design process. Indeed, each investigation into lab components 
+or exploration of ready-made materials (such as reaction mixes, genetic snippets, or components manufactured through diverse 
+methods) unveiled new organismal sources. 
+6 Labour provenance workshop 
+Considering the value of identifying the many forms of life and 
+their contributions to research, we designed a workshop that aimed 
+to help participants expand ecologies of laboratory settings and 
+recognise hidden forms of more-than-human labour. The workshop 
+was comprised of three stages (Fig. 18): 
+(1) Organisms Identification: Participants map the organisms 
+involved in a chosen experiment. To broaden their perspec-
+tive, we provide prompts informed by our provenance and 
+labour analysis, featuring reagents and tools not typically 
+associated with living organisms, such as primers, restriction 
+enzymes, carrier DNA, etc. This exercise aims to reveal the 
+ecologies of often-overlooked organismal contributors in 
+laboratorial work. 
+(2) Labour Recognition: Participants are then tasked with de-
+scribing each identified organism’s role in the experiment 
+and assigning them a job title that acknowledges their contri-
+bution. This step encourages participants to reconceptualise 
+organismal involvement as a form of labour. 
+(3) Welfare Reflection: In the final exercise, participants con-
+sider the ’employment journey’ of the listed organisms. They 
+are prompted to identify points where the welfare of these 
+organisms could be improved, fostering ethical reflections 
+from the more-than-human perspective. 
+We tested the workshop with 4 groups of 4-5 postgraduate MSc 
+students from the School of Biological Sciences who carried out 
+biolab experiments as part of their day-to-day activities. We were 
+particularly interested in testing the method with participants who 
+are habituated to traditional laboratory practices within biotechnol-
+ogy. Participants completed the three activities in about 30 minutes. 
+Overall, the exercises proved to be generative and thought-
+provoking. Participants were generally surprised by the number 
+of organisms involved in their experiments and some expressed 
+having started to think about usage of lab and genetic tools dif-
+ferently. When prompted to think about how organisms can be 
+better treated in their experiments, they revealed a spectrum of 
+inclinations to ethical reflections on more-than-human labour. 
+6.1 More-than-human labourer identification 
+Guided by the prompts, each group identified a range of organ-
+isms directly or indirectly contributing to their experiments. Most 
+groups started with organisms that were the experimental subjects, 
+provided main genes of interest, or common genetic "parts". 
+"So firstly we have different genes that come from Drosophila, 
+which is the insect providing us olfactory receptors and 
+also the jellyfish providing the sfGFP [a fluorescent pro-
+tein]. " (Group 1) 
+“So, basically, we infected mice with breast cancer cells, 
+which is a nice way of saying that we injected them and 
+gave them breast cancer. ” (Group 2) 
+“We use GFP protein as a reporter. So the GFP protein is 
+from the jellyfish” (Group 3) 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+Table 1: Labour Format and List of Labourers 
+Labour format List of labourers 
+Metabolic labour 
+Actively generating value 
+through metabolic processes. One-off providers: 
+Human embryo: Providing the original embryonic kidney (HEK) cells to be transformed into standardised cell lines. 
+Derivative cell lines: Growth and reproduction, incorporating and expressing new genes. 
+Llama: Generating anti-GFP nanobody-producing cells as an immunological response to antigenic challenges, providing the 
+corresponding nanobody gene sequence. Jellyfish and sea anemone: Providing fluorescence gene sequences used as visual selection mechanisms for plasmid construction. Cow: Providing BSA from serum to store enzymes in buffers and ensure the success of genetic assembly reactions, and providing enzymes for gene extraction from E. coli. Yeast: Providing functional DNA sequences for selection mechanisms. E. coli : Providing functional DNA sequences and genetic editing enzymes. 
+T3 and T9 bacteriophages: Providing promoters that regulate gene expression. 
+Anonymous eukaryotic organisms: Providing GPI anchor gene sequences that attach proteins to cell membranes, enabling 
+the formation of ’molecular hands’. Influenza A virus: Providing DNA sequences in plasmids that simplify protein tracking and purification. T4 bacteriophage: Producing the gene sequence of the T4 ligase enzyme to connect different DNA sequences. Geobacillus stearothermophilus : Providing the gene sequence of the BsaI restriction enzyme to cut DNA sequences. 
+Thermus aquaticus : Providing the gene sequence of the Taq polymerase enzyme that amplifies plasmid DNA. 
+M13 bacteriophage: Providing sequences of primers that identify specific genes within the plasmid, ensuring precise genetic 
+manipulation. 
+Providers of DNA sequences for DNA ladder: Providing DNA sequences to form standardised gene ladders for measuring 
+sequence length and validating experiment results. 
+Haemophilus influenzae : Providing restriction enzymes (genetic scissors) to cut DNA sequences into standardised lengths 
+for gene ladders. 
+Constant producers: 
+Yeast: Providing cells for growth and reproduction, incorporating and expressing new genes, also participating in recombinant production such as the production of rBSA. Salmon: Providing carrier DNA through sperm as an additive that facilitates the uptake of plasmids in yeast cells during transformation. Chicken: Providing the enzyme lysozyme from egg whites that breaks down bacteria cell walls for gene extraction. E. coli : Recombinant production of proteins and enzymes, and standardised DNA sequences, plasmid construction. 
+Resistance labour: 
+Resistance and antagonism 
+being unwittingly co-opted 
+into productivity. One-off providers: 
+Streptomyces fradiae (soil bacterium): Providing G418 antibiotic and its resistance gene. 
+E. coli : Obtaining the ampicillin resistance gene through horizontal gene transfer and being integrated for plasmid 
+construction. 
+Constant producers: 
+Penicillium chrysogenum (fungi): Providing penicillin which is industrially fermented to produce ampicillin. 
+Transformed HEK cells: Using the obtained plasmid to resist antibiotics in the media for survival, driving GFP expression. 
+Transformed yeast cells: Resisting antibiotics in the media, producing missing nutrients, and driving mCherry and anti-GFP 
+nanobody expression. 
+Sustenance labour: 
+Work to sustain and sup-
+port the reproduction of main 
+productive labour. One-off providers: 
+Henrietta Lacks: Providing standardised HeLa cells, which form the basis for cell seeding density guides in tissue culture labs. 
+Constant producers: 
+Cow: Providing fat for glycerol synthesis to protect cells in cryostorage and culture media. Cow foetus: Providing foetal serum with growth factors, hormones, and proteins for culture media. Pig: Providing digestive enzymes for the production of peptone as a nutrient source in culture media. Corn: Providing dextrose as an energy source in culture media. Oil palm and soybean: Providing oils for glycerol synthesis, contributing to cell protection. Red algae: Providing agarose for solidifying culture media in petri dishes and gels for DNA sequence testing. Bacillus bacteria and Aspergillus fungi: Contributing microbial proteases for making peptone. 
+Yeast: Induced to break their own cell walls for nutrient extraction to make culture media. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+Figure 18: The labour mapping workshop template 
+“We have the packaging, which is from the jellyfish.” 
+(Group 4) 
+As the exercise progressed, groups expanded their focus to indi-
+rectly involved organisms, such as microbes that provided resistant 
+genes or restriction enzymes used in their experiments. 
+"We also have ampicillin genes coming from bacteria, 
+we give them [as a job title] the ’plasmid makers’. " 
+(Group 1) 
+“And then we use the Taq polymerase to, like, dupli-
+cate our DNA. [...] It’s from Thermus Aquaticus [a 
+bacterium]. And we call it the production engineer.” 
+(Group 3) 
+“And then we have the resistance genes which come 
+from Streptomyces Griseus and we call them the head 
+of security. ” (Group 4) 
+Some participants were surprised by the multitude of organisms 
+involved in their experiments. Others expressed a sense of gratitude 
+to the organisms. 
+“I think I just realised how many organisms actually 
+go into this. Because I don’t think about it when I’m in 
+the lab doing an experiment, especially the restriction 
+enzyme. You don’t really think about it as something 
+that’s given to you by an organism. You just assume 
+that, yeah, you actually do the research right now about 
+where do those enzymes come from and where do the 
+media, does it consist of any animal related or plant 
+related or bacteria related things? So I think it’s a re-
+ally good shout for me to think about these things.” 
+(Group 1) 
+“So first and foremost, our big MVP [Most Valuable 
+Player] with this was the mice that actually received 
+cancer, which we’ve affectionately given the name Can-
+cer Bearers. [...] I think they need a medal for that.” 
+(Group 2) 
+Interestingly, with the labour identification in mind, Group 2 
+was able to differentiate two roles for the same organism. They not 
+only identified the directly contributing mice, who received cancer cells, but also the mice behind the stage who produced the cancer 
+cell lines. 
+“There were also the mice that we didn’t get to see their 
+faces, but they were the ones that the cell lines were 
+derived from, these breast cancer cell lines that we were 
+then infecting the other mice [...] So we’ve chosen to 
+kind of make that separation between the two roles, 
+even though it’s the same organism. ” (Group 2) 
+6.2 Describing more-than-human job titles 
+Under the context of this labour mapping exercise, participants 
+were guided to recognise the contribution made by more-than-
+human organisms in their experiment and view that as labour. 
+Such acknowledgement is strengthened by giving job titles to the 
+identified more-than-human labourers. 
+Group 1 used descriptive roles for job titles, mainly acknowledg-
+ing organisms as providers of vital components for the experiment: 
+“And we also have the E. coli to multiply the reporter 
+plasmid. So it’s generally a ’plasmid replicator’ for 
+us. And also we have the reporter mammalian HeLa 
+cells which report the production of the protein length. ” 
+(Group 1) 
+Other groups applied a range of analogies for the job descriptions. 
+Group 2 described the mechanical aspect of the labour, such as 
+referring to the bacteria that provided CRISPR, a technique for 
+DNA modification, as the ‘scissor manufacturers’ and the virus 
+responsible for CRISPR delivery as the ‘delivery guy’: 
+“Then we have ah, the bacteria that CRISPR actually 
+originated from that we’ve adopted that tool from which 
+we’ve called the Scissor Manufacturers. [...] We have the 
+way that we actually were able to use CRISPR to knock 
+down the gene in the cells was by delivering them to the 
+cells with a virus. [...] We’ve chosen to put it with the 
+job title of facilitator slash delivery guy because they’re 
+really facilitating this introduction of CRISPR. They’re 
+delivering it to the cells. ” (Group 2) 
+Group 3 and 4 came up with more value-based roles. Group 3 re-
+ferred, for example, to the bacterium Thermus Aquaticus, who helps 
+duplicate DNA, as the ‘production engineer’ and the bacterium 
+Bacillus stearothermophilus, who provides restriction enzymes to 
+select and combine DNA fragments, as the ‘HR’. Notably, the group 
+even started to critically represent human organisations in this 
+‘multispecies work context’, addressing humans as ‘the CEO’ or ‘evil 
+overlord’. 
+“We used E. coli to contain that library. So we would call 
+it like the ’warehouse manager’. So the GFP protein is 
+from the jellyfish, we’ll call it like the ’visual specialist’ 
+because it’s provided us [with] the reporter gene and 
+then we use the Taq polymerase to like duplicate our 
+DNA. [...] It’s called Thermus aquaticus and we call 
+it the ’production engineer’. [...] And so because it’s 
+their job to duplicate the DNA and then for the DNA 
+assemblies, we used BsaI, which comes from Bacillus 
+stearothermophilus. And the title we gave them was 
+HR, because it selects the DNA and combines them [...] 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+at this point I would say maybe the human is the CEO, 
+maybe the ’evil overlord’. ” (Group 3) 
+Group 4 created roles that described more abstract functions 
+provided by the organisms. The group interpreted the ability to 
+signal a successful transformation as “quality assurance manager” 
+and acknowledged microbes’ ability to know what it is to be built 
+through the title of “construction specialist”: 
+“We have the packaging, which is from the jellyfish. I 
+do remember the name. So we titled it as the quality 
+assurance manager because my thinking is that the 
+reporter used acts as a visual aid. Right. Essentially. And 
+if there’s something good and that’s quality. So that’s 
+something. Yeah. And then we have the backbone, which 
+is the T7 bacteriophage and we call the construction 
+specialist as it is the building block, is the one that 
+is built for the whole construction. And then we have 
+the resistance genes which come from Streptomyces 
+griseus and we call them as head of security, [...] Yeah, 
+it provides a resistance. ” (Group 4) 
+6.3 ‘Be a better boss for more-than-human 
+workers’ 
+The last exercise of the workshop asked participants to reflect 
+on the ‘employment journey’ of the more-than-human labourers 
+and consider opportunities for better treatment. The responses 
+varied from exploring concepts such as consent and coercion from 
+microbial perspectives, to a relativisation of organisms’ welfare. 
+Group 1 analysed forms of “exploitation” from the perspective 
+of microbial workers, pointing out their metabolic burden and 
+sacrifices in the making of valuable substances for humans. 
+“None of these were equal. The bacteria doesn’t actually 
+need plasmid to survive. It’s something that it did be-
+cause we made it to do so. That’s one way of exploiting 
+an organism where you’re forcing it to produce some-
+thing that’s not relevant to its metabolism. And finally, 
+at the end of the experiment, she had to kill all of her 
+cells (to extract the plasmids they produce). ” (Group 1) 
+Group 2 responded to the task with differentiation based on the 
+species, with more appreciation towards mammalians. 
+“Obviously there’s a lot of exploitation involved with 
+these in vivo projects. [...] it becomes a much greater 
+deal when you’re, you know, you’re working with [mam-
+mals]. ” (Group 2) 
+Regarding what can be done differently, the group identified limita-
+tions in current scientific structures. 
+“You can provide them with good food and hopefully 
+like as little stress as possible within their short, three 
+week to month long lives. But like I said, there’s only 
+so much you can do. At the end of the day, scientific 
+progress requires that these, quote, lesser animals get 
+exploited. And I use less with some reservation but it 
+requires them to be exploited. And like I said, just doing 
+stuff like this makes you really appreciate the fact that 
+they are in that situation. ” (Group 2) Group 3 expressed concern about the required task, thinking that 
+considering microbial welfare would defy the progressiveness of 
+transitioning from using components sourced continuously from 
+several organisms to employing microbes to manufacturing them 
+through recombination. 
+“If you know that production of insulin, we needed to 
+use so many creatures and to extract (from them) and 
+then now we shifted to the E. coli recombinant engineer-
+ing. So I think this is a step ahead to move away from 
+exploiting. So I think we shouldn’t be thinking about 
+exploiting these bacteria for experiments. ” (Group 3) 
+Group 4 found the task challenging, as they were not sure how 
+organisms without complex neural systems could be mishandled. 
+“I don’t know how you could potentially exploit bacteria. 
+I guess you couldn’t misuse it. Yeah. And you could 
+release it through the environment or something. I don’t 
+know how specifically you would exploit them because 
+I don’t think they feel pain. ” (Group 4) 
+The workshop demonstrated that labour provenance can serve as 
+a valuable tool to discuss the ecologies of organisms implicated 
+in biodesign experiments. Overall, participants went through a 
+process of identifying labouring organisms at the centre of their 
+experiments and slowly stretched out to more peripheral organisms, 
+carrying out a deeper analysis of common lab tools. This process 
+underscores how the visibility of organisms’ contribution is often 
+conditioned by their structural roles within a design workflow. 
+During the exercise of labour recognition and job title assignment, 
+some of the participant responses showed an emerging awareness 
+of such structural nuances. Examples can be seen in the response 
+that recognises the organism-concealing effect of common tools, 
+such as restriction enzymes, and the response that acknowledges 
+and differentiates the labour of mice in the back and front stage 
+of their experiments, recognising that they went through similar 
+metabolic processes. The last exercise revealed multiple ways of 
+looking at organisms’ welfare and that some forms of life are indeed 
+deemed as belonging to different categories of value depending on 
+one’s definition of ethical boundaries. From this, we found it useful 
+to define a framework that delineates these structural nuances. 
+7 An analytical framework of 
+more-than-human labourers in biodesign 
+Building on the case study, workshop findings, and the potential 
+for labour analysis to generate reflection, we propose a framework 
+that describes five types of labourers. This framework is intended 
+to help designers analyse the structural roles of more-than-human 
+labourers, from the centre to the periphery of biodesign practices. 
+While the forms of labour (metabolic, resistance, sustenance) ad-
+dress the capabilities of the organisms, the proposed framework 
+conceptualises their job positions, focusing on how these capabilities 
+are harnessed for value creation. By situating organisms within 
+specific positions and functions in design processes, the framework 
+provides a means to 1) foreground all implicated labourers includ-
+ing peripheral ones, 2) clarify division of labour and interconnected 
+relations, and 3) identify levels of control and intervention exerted 
+on organisms by discussing their levels of subsumption. Below, we 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+elaborate on these types, their different characteristics, and the 
+corresponding modes of subsumption discussed above. We use ex-
+amples from biological HCI to expand its applicability within the 
+CHI community. 
+(1) Primary biological labourers Primary biological labour-
+ers perform the core function of a given project, they are 
+the main experimental subjects or host organisms. Their 
+labour is fully embodied and often highly standardised, such 
+as the yeast and human cell lines in the case study. Within 
+wider biodesign/HCI practices, examples include mycelium 
+utilised in biomaterial fabrication [34], silkworms used in 
+biofabrication projects [53, 88], bacteria for film plates [117], 
+etc. Uprooted from their natural environments, organisms 
+can undergo real subsumption, where every aspect of their 
+living process is optimised and directed towards production, 
+making them highly dependent on specialist human inter-
+vention and unlikely to survive outside of these productive 
+activities. In many instances, their resistance is turned into 
+an essential driver of productivity. Primary labourers are 
+the most visible labourers. When belonging to the animal 
+kingdom, and indeed when they are mammals, their contri-
+butions can be acknowledged by ethical lab protocols (e.g. 
+[98, 105]) and animal rights movements [38]. 
+(2) Specific skills labourers Specific skills labourers provide 
+specialised biological functions, raw materials or traits with-
+out directly performing the main task. These organisms or 
+their components are often harvested for specific purposes, 
+such as bacteria and jellyfish that supplied functional DNA 
+sequences for plasmid construction in our case study. Exam-
+ples in the wider biodesign/HCI practices include bacteria 
+that offer bioluminescence for digital silkscreen printing 
+[100], and the microbes, fungi or insects needed to degrade 
+or compost biodegradable materials [9]. While some skilled 
+labourers undergo minimal interference, merely providing 
+naturally occurring substances (formal subsumption), others 
+are subjected to more intensive modifications to amplify their 
+outputs (real subsumption). The latter can be seen in bacte-
+ria engineered to mass-produce specific resistance genes for 
+plasmid construction. In contrast to the primary biological 
+labourers, the contribution of specific skills labourers is less 
+likely to be recognised. 
+(3) Tool-based labourers Tool-based labourers are organisms 
+or biological components that facilitate the control, manip-
+ulation or handling of primary and skilled labourers. They 
+are integral to the biodesign workflow, facilitating precise 
+organismal or environmental manipulation. For one-off con-
+tributors, they often undergo formal subsumption, where 
+their naturally occurring substances are harnessed directly. 
+Examples in biodesign/HCI include the oats that serve as a 
+conditioning tool to guide slime mould behaviours in living 
+computers [1], the rice plant or barley behind vinegar as a pH 
+regulator in bioplastic fabrication [74], and, in our case study 
+hot spring bacteria providing heat resistant polymerase for 
+genetic assembly. Real subsumption often happens in con-
+stant producers, which are modified to optimise production 
+of specific valuable ‘tools’. For example, polymerase enzymes are often mass produced through recombinant bacteria. How-
+ever, the common perception of tools and its often obscure 
+nomenclature (serial numbers and barcodes) pose challenges 
+in recognising its potential organismal source and labour. 
+(4) Support and sustenance providers Support and suste-
+nance providers are the often-overlooked labourers that sup-
+ply the essential nutrients and life-conducive environments 
+to maintain the primary and skilled labourers, ensuring on-
+going viability of production. Tracing the network of suste-
+nance is often an expansive exercise. As mentioned above, 
+culture media often includes a range of animal-, plant- and 
+microorganism- derived components, linking the reproduc-
+tion of laboratory cell lines to the wider agricultural ecosys-
+tem. Substances such as peptone and yeast extract used in the 
+case study are also widely used in biodesign/HCI practices 
+for mycelium cultivation [13]. Formal subsumption occurs 
+when these organisms are simply harvested for their natural 
+outputs, while real subsumption involves significant modifi-
+cation to maximise production, such as intensively farmed 
+oil palm or recombinant bacteria that mass-produce rBSA. 
+The extensive extraction and repurposing of their metabolic 
+labour highlight how many biotechnological processes are 
+fundamentally fuelled by their ‘reproductive labour’. 
+(5) Evaluation and feedback labourers Evaluation and feed-
+back labourers provide crucial responses and data that in-
+form and refine experimental or design decisions. The visibil-
+ity of feedback labourers depends on their role in the experi-
+ment. In the case study, it took a rather unassuming form, 
+such as bacteria and viruses that supply DNA sequences for 
+gene ladders used in gel electrophoresis. When testing is 
+the main goal of the experiment, the feedback labourers be-
+come the primary labourers, examples can be seen in rabbits 
+historically used for pregnancy tests, and horseshoe crab 
+used in vaccine tests. In the wider biodesign practice, we 
+can see feedback labourers mostly in forms of biosensing, 
+such as bacteria engineered to signal environmental change 
+[18]. In this case, real subsumption involves the modification 
+of these organisms’ genome or entire living conditions to 
+enhance their feedback capabilities. 
+8 Discussion 
+8.1
+ Revealing more-than-human ecologies 
+As we browse through catalogues of biological resources2 , we learn 
+about what organisms, cells and biological components can do for 
+a biodesign experiment and research. We learn that certain types 
+of bacteria can change or gain vivid colours under particular cir-
+cumstances, that, under certain conditions, mycelium spores can 
+grow into a designated shape, and that the DNA of yeast cells can 
+be modified with the help of certain substances to encode particular 
+information. Detached from their context, there is a tendency for 
+designers to not think about what could have driven these organ-
+isms to behave this way: what kinds of physical pressures they 
+have endured and what kind of environmental interactions they 
+became accustomed to in order to sharpen or gain these features. 
+2Such as Carolina.com, atcc.org, neb.com, etc. 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+This detachment hides the first level of labour these organisms have 
+performed in order to achieve what we now deem valuable for a 
+particular design: the bodily work that underlies their quest for 
+survival. 
+As we uncover the hidden layers of living organisms that ex-
+isted behind disembodied laboratory components, we also uncover 
+their histories and recognise their interconnections with the wider 
+world. The multitude of roles organisms play in laboratory practices 
+(from primary production to serving as tools to manipulate other 
+organisms) reflects a deeper reality: we are not merely co-opting 
+individual organisms and their productive capabilities but also ap-
+propriating a network of relationships in the more-than-human 
+world - from the antibiotic resistance race carried out by different 
+types of bacteria and the flows of sustenance from microbes to 
+animals, to the llama’s immunological aptness against surrounding 
+pathogens. Within our framework, we can recognise that life is 
+interconnected and exists as much in a virus quasi cell as in the 
+colours of sea anemone, and fetal serum of the calf that will never 
+be. Indeed, we can understand our experiment as effectively es-
+tablishing a wholly new ecology across humans, animals, plants, 
+microbes and viruses - an ecology mediated by some humans in 
+western industrialised countries (that is, us, and the many others 
+that contributed to mass-produce biolab tools and components) and 
+which would probably never have existed outside of this mediation. 
+This new ecology, however, is still dependent on the original ecolo-
+gies which these organisms have evolved into, and which created 
+the features that allowed our experiment to take place. What our 
+labour provenance approach does is to reveal these interdepen-
+dencies, placing them within a noninnocent [25] perspective of 
+utilitarianism, value creation, and/or capitalist production, a per-
+spective that is prominent in our compromised existence [103] and 
+which is increasingly stretching to all corners of the world. 
+The detachment created by the transformation of the living into 
+laboratory components prevents us from acknowledging and cel-
+ebrating the many ways in which these organisms support the 
+sustenance, tools and primary production that enable our practices 
+to take place. It leads us to seeing our practice as a combination 
+of biological products and features rather than an intervention 
+into, and creation of, new ecologies. The labour provenance lens 
+gives us tools to reflect, evaluate and question these new ecologies 
+within a wider context, emphasising the many forms of intercon-
+nected labour that more-than-humans perform, and the extent to 
+which each individual organism is contributing to essential design 
+processes through metabolic, resistance and/or sustenance labour, 
+regardless of their species, or whether they provide an one-off or a 
+continuous contribution. 
+In our labour provenance map, viruses, bacteria, mammals and 
+plants all play a role within new and existing ecologies. While 
+there might be a temptation to place more emphasis on the work 
+of specific animals - and research shows that humans tend to more 
+readily empathise with and consider the ethical implications of 
+beings that are more similar to them or more present in their daily 
+lives [76] - we argue that the more distant species are from our direct 
+empathic sensibilities, the more important it becomes for us to apply 
+conceptual theories to rehabilitate the recognition of their value. 
+This approach is crucial because the emotional proximity between 
+specific organisms and humans doesn’t necessarily correlate with the extent to which they are interconnected. In other words, the 
+danger of overlooking ‘less-appealing’ organisms is that it prevents 
+us from identifying the crucial interdependent relations between 
+charismatic and less charismatic species, and indeed humanity’s 
+own interdependencies with these often-overlooked lifeforms. 
+In HCI, there is a significant amount of work done with bac-
+teria [60, 83, 121], fungi [34, 62, 114], and plants [16, 46, 47, 54], 
+alongside wild and domestic animals in Animal-Computer Inter-
+action (ACI) [45, 71, 72]. Recent research has started to explore 
+critical approaches to engaging microorganisms in research, in-
+cluding with focus on microbial temporality [8], unmaking [7] and 
+non-participation [17]. These demographics of more-than-human 
+organisms involved in design and HCI practices demand a more 
+holistic approach in labour analysis that focuses on interconnec-
+tions [36] rather than individual species. 
+They also invite new ways of honouring the contribution of these 
+organisms. As Despret discusses in Are any species killable? [26], 
+the way of "honouring" the labour and sacrifice of lab organisms "re-
+mains to be invented", particularly within western lab conventions. 
+Other cultural practices, such as Japan’s longstanding memorial 
+services for lab animals (Ireisai ) [51] and more recently, synthetic 
+cells [52], point to existing ritualistic approaches that celebrate 
+more-than-human contributions to research. Although predomi-
+nantly focusing on primary contributors, these practices lay an 
+important moral foundation for future forms of labour recognition 
+that include a broader acknowledgement of the myriad shadow 
+organism labourers and their ecologies. 
+8.2 Expanding notions of ‘sustainability’ in 
+biodesign 
+Sustainability in biodesign is often framed as a natural outcome 
+of working with living organisms, leveraging their capability to 
+self-generate, adapt to different environments, and eventually biode-
+grade. Indeed, while it may appear that biodesign inherently aligns 
+with sustainable principles due to its use of “natural” components, 
+the reality is that it not only can replicate unsustainable patterns 
+seen in traditional design and production, but also render itself 
+more controversial, in the extent that it appropriates other organ-
+isms’ capacities. The reproduction, maintenance, and growth of 
+living systems in biodesign rely on extensive ecological networks 
+and on living and non-living inputs, many of which are themselves 
+products of industrial processes with significant environmental 
+impact and/or extraction from an array of organismal labour. The 
+complexity and multitude of more-than-human labour and its as-
+sociated modes of production shown in this paper reveals that 
+the sustainability of biodesign is inherently contingent on its wide 
+ecologies of more-than-human labour and on its level of integration 
+into industrial systems. 
+In her opening keynote at CHI 2024, Kate Crawford reiterated 
+the need to focus on the materiality of artificial intelligence (AI) 
+[23]. Through tracing the significant material cost behind the de-
+velopment of large language models (from environmental degra-
+dation to underpaid crowd labour), she redefines the impact scale 
+of the seemingly ephemeral concept of AI. In particular, she men-
+tions the mutually reinforcing methods of ‘abstraction’, ‘distraction’ 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+and ’extraction’ of AI - that is, the abstracted images and disem-
+bodied analogies associated with AI, which remove it from the 
+‘earthly resources needed to produce it’, and distract people from the 
+power structures it originates from and thus reinforces. As such, 
+abstraction and distraction lead to a sense of ignorance and further 
+smoothens and exacerbates AI’s associated resource and labour 
+extraction. 
+Similarly, we contend that applications and methods of biological 
+HCI can become an abstraction, distraction and extraction of the 
+actual labour performed by different organisms involved in the 
+research and production process. The abstraction of life through 
+labelled components can distract researchers from the actual life-
+cost to produce them and exacerbate extraction of value from their 
+bodily works and the wider labour ecologies that they are entangled 
+with. 
+By providing a case study on labour provenance, we call for a 
+more expansive perspective on sustainability - one that goes be-
+yond visible and charismatic organisms to include all entities and 
+the broader ecological implications of design. This approach calls 
+for a holistic view that scrutinises every component and process 
+involved in sustaining life, including the substances sourced to 
+sustain biodesign practices and the environmental toll of lab oper-
+ations. Only by accounting for these interconnected costs can we 
+move towards genuinely sustainable practices that do not merely 
+reinscribe the extractive logics from conventional anthropocentric 
+design. 
+8.3 Labour as a lens for discussing 
+more-than-human design ethics 
+Applying a labour provenance lens allows us to critically expand the 
+boundaries of what can be seen and critically analysed in biodesign. 
+As the discussion in the workshop regarding ‘how to be a better 
+boss for more-than-human labourers’ reveals, there is often a strug-
+gle in conceiving of ethical treatments in certain types of organisms. 
+As mentioned above, humans tend to more readily empathise with 
+species that can be seen as having human traits, and traditional 
+ethical frameworks often rely on biological traits such as pain per-
+ception or cognitive complexities as guard rails of moral relevance 
+[95, 104], naturally leading to a focus on mammals. In contrast, 
+environmental humanities, and posthumanist discourse suggest 
+alternative approaches, emphasising the possibilities to establish 
+ethical relevance through roles and contribution in ecosystems [27], 
+interdependencies [92] and/or care relations [25, 28]. Viewed from 
+the latter frameworks, the discovery of interconnected forms of 
+labour in biodesign practices possesses significant ethical implica-
+tions. 
+By evaluating the levels of subsumption exerted on organisms, 
+we can assess the involvement of organisms in the design process, 
+acknowledging whether their contributions are justified within 
+a spectrum of capitalist value production that could vary from 
+no subsumption, to formal and finally real subsumption. No sub-
+sumption would mean a form of design outside capitalist modes 
+- a relationship to the more-than-human that does not imply any 
+reproduction, scaling, added value or commercialisation. Formal 
+subsumption could be identified as design practices that attempt to 
+reward organisms by giving them optimal environments to produce valuable responses or substances, while real subsumption would 
+take place when organisms’ functions are changed, optimised or 
+scaled up to sustain a particular design. 
+A great part of current HCI research into more-than-human 
+or multispecies design seems to inhabit a space between no sub-
+sumption and formal subsumption. Such practices emphasise in-
+terdependency and the ethical imperative to meet the needs of 
+the organisms, mostly considering the creation of non-commercial 
+research value, including educational, artistic and discursive out-
+comes. However, in these cases, organisms may still be subjected 
+to human-defined goals, even when efforts are made to balance the 
+contribution of more-than-human organisms with care and coexis-
+tence. By applying the labour lenses, and indeed by simply calling 
+their participation "labour", we allow for a different discussion to 
+emerge - one that could stress conflicting goals and potentially 
+implicit anthropocentric agendas, as well as reveal ways of improv-
+ing organismal welfare. As environments become more controlled, 
+and techniques more interventional, however, there is an increased 
+potential to move towards real subsumption (such as in the case of 
+microorganisms in the biolab practices described above, but also 
+more advanced forms of biological HCI) potentially leaving little 
+space for organisms’ interest or resistance beyond designated value 
+creation. In this case, the framework allows us to critically evaluate 
+the extent to which a design activity or a biological experiment 
+subsumes the living processes of more-than-human organisms and 
+its ecological context for the benefit of production. 
+While our work focuses on living labour and its surrounding 
+ecologies, it may also invite reflections on the non-living. As tech-
+nology advances, distinctions between the living and the non-living 
+become blurred: while living organisms become more "designed", 
+machines become more autonomous, akin to living things. Here, we 
+argue that the labour framework can help us shift the focus from 
+simple notions of autonomy to what is underlying such behaviours. 
+We could say that, while living organisms possess their own gen-
+erative agendas – e.g. to stay alive, reproduce, resist dominance – 
+that can be co-opted into systems of production, the agendas of 
+non-living agents such as machines and algorithms, as discussed by 
+Crawford [ 23], are intrinsically connected to human-defined func-
+tions and systems of power. This way, while living organisms move 
+from autonomy to real subsumption, machines and algorithms that 
+manifest elements of autonomy move from real subsumption to 
+autonomy. As such, the labour carried out by living organisms (and 
+the ethical implications of extracting value from this labour) can be 
+considered as intrinsically different. Indeed, as we move towards 
+more entangled forms of living and non-living labour, there is a 
+need for further investigation into the wider ecologies of labour, 
+materials, and sustenance, the forms of control to which these are 
+subjected, and how they are embedded within system of production. 
+Furthermore, while the labour framework enriches our under-
+standing of organismal contributions and structural positions within 
+design, we must also acknowledge that it still only addresses part 
+of organisms’ identity, which may overlook wider ecological roles, 
+intrinsic values, the relevance of these organisms beyond systems of 
+production, and more complex entanglements with the non-living. 
+To fully unfold the implications of different modes of labour 
+subsumption, we need to understand the origins and forms of work 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+that are being subsumed. In the human context, the shift from for-
+mal subsumption to real subsumption significantly changes socio-
+economic structures and workers’ relations with their means of 
+production. In the context of ‘employing’ living processes and em-
+bodied work, different modes of subsumption can directly alter 
+more-than-human workers’ ecological relations, bodies, metabo-
+lism and genomes. As biodesign practices increasingly harness 
+and reshape the living processes of organisms, the identification 
+of labouring or value-generating processes becomes the crux of 
+unravelling the locus of productionist control and assessing the 
+ethical dimensions of these interventions. 
+In sum, the labour provenance framework provides a way to 
+interrogate the potential ethical implications of biodesign, asking 
+if the level of control over organisms is commensurable to the con-
+sequential benefit, and what could be done to improve conditions 
+within these practices, even if ways to interpret these questions can 
+vary, as indeed is the case amongst the authors of this paper. Rather 
+than a set of guidelines on how to proceed, it is a way to leverage 
+reflection on the many expressions of life, their interdependences, 
+and the mediation of these interdependencies within our created 
+worlds. 
+9 Conclusion 
+In this paper we have applied ‘labour provenance’ as a lens to un-
+cover the network of more-than-human organisms implicated in 
+a biodesign case study. We translated this approach into a work-
+shop to facilitate reflection on hidden organism labourers and the 
+spectrum of inclination towards ethical reflection on organisms’ 
+contribution. The analysis and reflections led to the definition of a 
+framework to help designers investigate and analyse more-than-
+human labourers and which can help us question underlying power 
+dynamics beyond the immediate relationship between designer and 
+primary organisms. We propose the concept of labour provenance 
+as a way to foster a discussion on more ethical approaches to biode-
+sign that can acknowledge all contributing life forms. The multitude 
+of uncovered organisms problematise the inherent notion of sus-
+tainability in biodesign and calls for a view that situates practices 
+within the wider interconnected ecosystems and industrial produc-
+tion. Ultimately, this expansive perspective challenges us to rethink 
+what it means to engage with living systems in design and to strive 
+for practices that honour the full complexity and interdependence 
+of our more-than-human world. 
+Acknowledgments 
+This project was funded by BBSRC (The Biotechnology and Bio-
+logical Sciences Research Council, UK) Transition Award Flexible 
+Funding (BB/W014610/1). We extend our heartfelt thanks to all 
+the members of the Cachat Lab and the Rosser Lab who supported 
+the lab work for this project. In line with the spirit of our labour 
+provenance method, we would like to acknowledge the many hu-
+man labourers through the following non-exhaustive list of con-
+tributions: Ugne Baronaite, who helped design and troubleshoot 
+the hybridisation strategy, provided lab training, constructed the 
+nanobody plasmids with the first author, and shared her trans-
+fected HEK cells. Iseabail Farquhar who designed the mCherry 
+plasmid, suggested yeast transformation strategies, and shared her bench space, enzymes and tools. Alex Arrese-Igor Royuela, who 
+welcomed the first author to shadow his work, taught essential lab 
+skills and protocols, and fostered a sense of belonging by including 
+the first author in lab activities. Emily Johnston, who shared her 
+time, expertise, protocols and lab tools, guiding the first author 
+through the two yeast transformation processes. Zunaira Aman, 
+who joined the lab during the project, provided help as a peer and 
+shared her time and effort to support the project. We also thank the 
+original Crossing Kingdoms team (Oron Catts, Ionat Zurr, Tarsh 
+Bates and more) for brainstorming idea with us and providing con-
+structive advice for art/design-science collaborative labwork. The 
+first and third authors would like to acknowledge and thank the 
+second author’s willingness to engage in the ideas and methods 
+described in this paper, even at times when they became unfa-
+miliar/uncomfortable in the context of her scientific culture. Her 
+invitation to collaborate on the funding application and initiate 
+the project, along with her supervision, were instrumental to the 
+project. Her insights also sparked the inspiration to dive deeper into 
+the shadow organisms behind reagents and enzymes. We thank all 
+of the workshop participants who generously supported our studies 
+and shared their insights. Special thanks to Dr. Rachel Harkness 
+and Prof. Jane Calvert and all our CHI 2025 reviewers for providing 
+critical feedback and suggestions to improve the work, and to Luca 
+Cocconi for proofreading, and for technical and moral support. 
+References 
+[1] Andrew Adamatzky. 2014. The Silence of Slime Mould: Art Words. Luniver Press. 
+[2] Yoko Akama, Ann Light, and Takahito Kamihira. 2020. Expanding Participation 
+to Design with More-Than-Human Concerns. In Proceedings of the 16th Partici-
+patory Design Conference 2020 - Participation(s) Otherwise - Volume 1 (Manizales, 
+Colombia) (PDC ’20). Association for Computing Machinery, New York, NY, 
+USA, 1–11. https://doi.org/10.1145/3385010.3385016 
+[3] Inés Macarena Burdiles Araneda, Xavier Dominguez, Marion Real, Santiago 
+Fuentemilla, and Anastasia Pistofidou. 2022. Remix The School Project: Socio-
+Emotional Learning through Biomaterial making: A Methodology for Self-
+Awareness through Bio-material fabrication for teachers and children.. In Fa-
+bLearn/MakeEd. 15–1. 
+[4] S Nisa Asgarali-Hoffman and Foad Hamidi. 2021. Perspectives of bioartists and 
+community lab organizers on working with living organisms. In Proceedings of 
+the 2021 CHI Conference on Human Factors in Computing Systems. 1–15. 
+[5] Maan Barua. 2017. Nonhuman labour, encounter value, spectacular accumu-
+lation: The geographies of a lively commodity. Transactions of the Institute of 
+British Geographers 42, 2 (2017), 274–288. 
+[6] Les Beldo. 2017. Metabolic labor: Broiler chickens and the exploitation of vitality. 
+Environmental Humanities 9, 1 (2017), 108–128. 
+[7] Fiona Bell, Nadia Campo Woytuk, Marie Louise Juul Søndergaard, and Mirela 
+Alistar. 2024. Biodegradation as More-Than-Human Unmaking. ACM Trans. 
+Comput.-Hum. Interact. (aug 2024). https://doi.org/10.1145/3685526 Just Ac-
+cepted. 
+[8] Fiona Bell, Joshua Coffie, and Mirela Alistar. 2024. Bio-Digital Calendar: Attun-
+ing to Nonhuman Temporalities for Multispecies Understanding. In Proceedings 
+of the Eighteenth International Conference on Tangible, Embedded, and Embodied 
+Interaction. 1–15. 
+[9] Fiona Bell, Netta Ofer, and Mirela Alistar. 2022. ReClaym our Compost: 
+Biodegradable Clay for Intimate Making. In Proceedings of the 2022 CHI Confer-
+ence on Human Factors in Computing Systems. 1–15. 
+[10] Fiona Bell, Netta Ofer, Ethan Frier, Ella McQuaid, Hyelin Choi, and Mirela Alistar. 
+2022. Biomaterial playground: Engaging with bio-based materiality. In CHI 
+Conference on Human Factors in Computing Systems Extended Abstracts. 1–5. 
+[11] Fiona Bell, Shanel Wu, Nadia Campo Woytuk, Eldy S Lazaro Vasquez, Mirela 
+Alistar, and Leah Buechley. 2024. Making Biomaterials for Sustainable Tangible 
+Interfaces. In Proceedings of the Eighteenth International Conference on Tangible, 
+Embedded, and Embodied Interaction. 1–5. 
+[12] Tithi Bhattacharya. 2017. Social reproduction theory: Remapping class, recen-
+tering oppression. (2017). 
+[13] Biotecnica. 2024. All You Need to Know About Mycological Peptone. https: 
+//biotecnica.com.mx/all-you-need-to-know-about-mycological-peptone/ Ac-
+cessed: 2024-09-13. 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+[14]
+ Zoë Breed, Peter van der Putten, and Bahareh Barati. 2024. Algae Alight: Explor-
+ing the Potential of Bioluminescence through Bio-kinetic Pixels. In Proceedings 
+of the 2024 ACM Designing Interactive Systems Conference. 1412–1425. 
+[15] Jane Calvert and Erika Szymanski. 2020. A feeling for the (micro) organism? 
+Yeastiness, organism agnosticism and whole genome synthesis. New Genetics 
+and Society 39, 4 (2020), 385–403. 
+[16] Michelle Chang, Chenyi Shen, Aditi Maheshwari, Andreea Danielescu, and 
+Lining Yao. 2022. Patterns and Opportunities for the Design of Human-Plant 
+Interaction. In Proceedings of the 2022 ACM Designing Interactive Systems Confer-
+ence (Virtual Event, Australia) (DIS ’22). Association for Computing Machinery, 
+New York, NY, USA, 925–948. https://doi.org/10.1145/3532106.3533555 
+[17] Yuning Chen and Larissa Pschetz. 2024. Microbial Revolt: Redefining biolab 
+tools and practices for more-than-human care ecologies. In Proceedings of the 
+CHI Conference on Human Factors in Computing Systems. 1–16. 
+[18] Adrian David Cheok, Roger Thomas Kok, Chuen Tan, Owen Noel Newton Fer-
+nando, Tim Merritt, and Janyn Yen Ping Sen. 2008. Empathetic living media. In 
+Proceedings of the 7th ACM conference on Designing interactive systems. 465–473. 
+[19] Rachel Clarke, Sara Heitlinger, Ann Light, Laura Forlano, Marcus Foth, and Carl 
+DiSalvo. 2019. More-than-human participation: design for sustainable smart city 
+futures. Interactions 26, 3 (apr 2019), 60–63. https://doi.org/10.1145/3319075 
+[20] Rachel E. Clarke. 2020. Ministry of Multispecies Communications. In Companion 
+Publication of the 2020 ACM Designing Interactive Systems Conference (Eindhoven, 
+Netherlands) (DIS’ 20 Companion). Association for Computing Machinery, New 
+York, NY, USA, 441–444. https://doi.org/10.1145/3393914.3395845 
+[21] Kendra Coulter. 2016. Beyond human to humane: A multispecies analysis of 
+care work, its repression, and its potential. Studies in Social Justice 10, 2 (2016), 
+199–219. 
+[22] Guy Cox. 2019. Fundamentals of fluorescence imaging. CRC Press. 
+[23] Kate Crawford. 2021. The Atlas of AI: Power, Politics, and the Planetary Costs 
+of Artificial Intelligence. 
+[24] Martyn Dade-Robertson. 2020. Living construction. Routledge. 
+[25] Maria Puig de La Bellacasa. 2017. Matters of care: Speculative ethics in more than 
+human worlds. Vol. 41. U of Minnesota Press. 
+[26] Vinciane Despret. 2016. What Would animals Say if We Asked the Right Ques-
+tions? U of Minnesota P (2016). 
+[27] Sue Donaldson and Will Kymlicka. 2011. Zoopolis: A political theory of animal 
+rights. Oxford University Press, USA. 
+[28] Josephine Donovan and Carol J Adams. 2007. The feminist care tradition in 
+animal ethics: A reader. Columbia University Press. 
+[29] Architecture et Fonction des Macromolécules Biologiques Vincentelli Renaud 4 
+Cambillau Christian 4, Berkeley Structural Genomics Center Kim Rosalind 5 
+Kim Sung-Hou 5, China Structural Genomics Consortium Rao Zihe 6 Shi Yunyu 
+7, Integrated Center for Structure, Function Innovation Terwilliger Thomas C 8 
+Kim Chang-Yub 8 Hung Li-Wei 8 Waldo Geoffrey S 8, Israel Structural Proteomics 
+Center Peleg Yoav 9 Albeck Shira 9 Unger Tamar 9 Dym Orly 9 Prilusky Jaime 9 
+Sussman Joel L 9, Joint Center for Structural Genomics Stevens Ray C 10 Lesley 
+Scott A 10 11 Wilson Ian A 10 11, Midwest Center for Structural Genomics 
+Joachimiak Andrzej 12 Collart Frank 12 Dementieva Irina 12 Donnelly Mark I 
+12 Eschenfeldt William H 12 Kim Youngchang 12 Stols Lucy 12 Wu Ruying 12 
+Zhou Min 12, et al. 2008. Protein production and purification. Nature methods 
+5, 2 (2008), 135–146. 
+[30] Lucas Evers. 2018. Waag open wetlab. Interactions 25, 5 (2018), 18–21. 
+[31] Jack Forman, Pat Pataranutaporn, Phillip Gough, Raphael Kim, Fiona Bell, Netta 
+Ofer, Jasmine Lu, Angela Vujic, Muqing Bai, Pattie Maes, et al. 2023. Living 
+Bits and Radical Aminos: A Workshop on Bio-Digital Interfaces for Human-
+Computer Interaction. In Extended Abstracts of the 2023 CHI Conference on 
+Human Factors in Computing Systems. 1–7. 
+[32] Christopher Frauenberger, Amy S. Bruckman, Cosmin Munteanu, Melissa Dens-
+more, and Jenny Waycott. 2017. Research Ethics in HCI: A Town Hall Meet-
+ing. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human 
+Factors in Computing Systems (Denver, Colorado, USA) (CHI EA ’17). Asso-
+ciation for Computing Machinery, New York, NY, USA, 1295–1299. https: 
+//doi.org/10.1145/3027063.3051135 
+[33] Ahmed Ghannam, Safa Kumari, Serge Muyldermans, and Abdul Qader Abbady. 
+2015. Camelid nanobodies with high affinity for broad bean mottle virus: a 
+possible promising tool to immunomodulate plant resistance against viruses. 
+Plant molecular biology 87 (2015), 355–369. 
+[34] Phillip Gough, Praneeth Bimsara Perera, Michael A Kertesz, and Anusha With-
+ana. 2023. Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs 
+Using Myco-Materials. In Proceedings of the 2023 CHI Conference on Human 
+Factors in Computing Systems. 1–15. 
+[35] Phillip Gough, Larissa Pschetz, Naseem Ahmadpour, Leigh-Anne Hepburn, 
+Clare Cooper, Carolina Ramirez-Figueroa, and Oron Catts. 2020. The Nature of 
+biodesigned systems: Directions for HCI. In Companion Publication of the 2020 
+ACM Designing Interactive Systems Conference. 389–392. 
+[36] EG Groutars, R Kim, and E Karana. 2024. Designing living artefacts for multi-
+species interactions: An ecological approach. International Journal of Design 18, 
+2 (2024), 59–78. [37] Eduard Georges Groutars, Carmen Clarice Risseeuw, Colin Ingham, Raditijo 
+Hamidjaja, Willemijn S Elkhuizen, Sylvia C Pont, and Elvin Karana. 2022. Fla-
+vorium: an exploration of Flavobacteria’s living aesthetics for living color inter-
+faces. In Proceedings of the 2022 CHI conference on human factors in computing 
+systems. 1–19. 
+[38] Anita Guerrini. 2003. Experimenting with humans and animals: from Galen to 
+animal rights. JHU Press. 
+[39] Sofía Guridi, Matteo Iannacchero, and Emmi Pouta. 2024. Towards More Sus-
+tainable Interactive Textiles: A Literature Review on The Use of Biomaterials for 
+eTextiles.. In Proceedings of the CHI Conference on Human Factors in Computing 
+Systems. 1–19. 
+[40] Michael Haldrup, Kristine Samson, and Thomas Laurien. 2022. Designing for 
+Multispecies Commons: Ecologies and Collaborations in Participatory Design. 
+In Proceedings of the Participatory Design Conference 2022 - Volume 2 (Newcastle 
+upon Tyne, United Kingdom) (PDC ’22). A ssociation for Computing Machinery, 
+New York, NY, USA, 14–19. https://doi.org/10.1145/3537797.3537801 
+[41]
+ Foad Hamidi and Melanie Baljko. 2017. Engaging children using a digital living 
+media system. In Proceedings of the 2017 conference on designing interactive 
+systems. 711–723. 
+[42] Foad Hamidi, Lydia Stamato, Lisa Scheifele, Rian Ciela Visscher Hammond, and 
+S Nisa Asgarali-Hoffman. 2021. “Turning the Invisible Visible”: Transdisciplinary 
+Bioart Explorations in Human-DNA Interaction. In Proceedings of the 2021 CHI 
+Conference on Human Factors in Computing Systems. 1–15. 
+[43] Donna Haraway. 2006. Encounters with companion species: entangling dogs, 
+baboons, philosophers, and biologists. Configurations 14, 1 (2006), 97–114. 
+[44] Hayden Harvey, Molly Havard, David Magnus, Mildred K Cho, and Ingmar H 
+Riedel-Kruse. 2014. Innocent fun or “microslavery”? An ethical analysis of biotic 
+games. Hastings Center Report 44, 6 (2014), 38–46. 
+[45] Ilyena Hirskyj-Douglas and Sarah Webber. 2022. Reflecting on Methods in 
+Animal Computer Interaction: Novelty Effect and Habituation. In Proceedings of 
+the Eight International Conference on Animal-Computer Interaction (Bloomington, 
+IN, USA) (ACI ’21). Association for Computing Machinery, New York, NY, USA, 
+Article 8, 11 pages. https://doi.org/10.1145/3493842.3493893 
+[46] Gabrielle Hong, Phillip Gough, and Callum Parker. 2022. Sprayful Interac-
+tion: Perceptions of a Moss-based SLow-resolution Living Media Display. In 
+Proceedings of the 34th Australian Conference on Human-Computer Interaction. 
+235–240. 
+[47] Yuhan Hu, Jasmine Lu, Nathan Scinto-Madonich, Miguel Alfonso Pineros, Pe-
+dro Lopes, and Guy Hoffman. 2024. Designing Plant-Driven Actuators for 
+Robots to Grow, Age, and Decay. In Proceedings of the 2024 ACM Design-
+ing Interactive Systems Conference (Copenhagen, Denmark) (DIS ’24). Asso-
+ciation for Computing Machinery, New York, NY, USA, 2481–2496. https: 
+//doi.org/10.1145/3643834.3661519 
+[48] Yuta Ikeya and Bahareh Barati. 2023. Designing an algal relay computer: A 
+critical orientation in exploring more-than-human temporality. In Extended 
+Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems. 
+1–6. 
+[49] Yuta Ikeya, Miguel Bruns, and Bahareh Barati. 2024. Designing for Interdepen-
+dence of Bees, Garden, Designer, and the Changing Season. In Proceedings of 
+the 2024 ACM Designing Interactive Systems Conference (Copenhagen, Denmark) 
+(DIS ’24). Association for Computing Machinery, New York, NY, USA, 1385–1399. 
+https://doi.org/10.1145/3643834.3660743 
+[50] Yuta Ikeya, Ron Wakkary, and Bahareh Barati. 2023. Metamorphonic: A Re-
+flective Design Inquiry into Human-Silkworm Relationship. In Proceedings of 
+the 2023 ACM Designing Interactive Systems Conference (Pittsburgh, PA, USA) 
+(DIS ’23). Association for Computing Machinery, New York, NY, USA, 808–819. 
+https://doi.org/10.1145/3563657.3596053 
+[51] Susan A Iliff. 2002. An additional “R”: Remembering the animals. ILAR journal 
+43, 1 (2002), 38–47. 
+[52] Hideo Iwasaki. [n. d.]. A Prayer for Protocells. https://hideo-iwasaki.com/ 
+aprayer. Accessed: 2024-11-25. 
+[53] Riku Iwasaki, Yuta Sato, Ippei Suzuki, Atsushi Shinoda, Kenta Yamamoto, Kohei 
+Ogawa, and Yoichi Ochiai. 2017. Silk fabricator: using silkworms as 3D printers. 
+In SIGGRAPH Asia 2017 Posters. 1–2. 
+[54] Sylvia Janicki, Nassim Parvin, and Noura Howell. 2024. Crip Reflections on 
+Designing with Plants: Intersecting Disability Theory, Chronic Illness, and 
+More-than-Human Design*. In Proceedings of the 2024 ACM Designing Interactive 
+Systems Conference. 1044–1058. 
+[55] Elvin Karana, Bahareh Barati, and Elisa Giaccardi. 2020. Living Artefacts: Con-
+ceptualizing Livingness as a Material Quality in Everyday Artefacts. Interna-
+tional Journal of Design 14, 3 (2020). 
+[56] Vadym M Kavsan, Anton V Iershov, and Olena V Balynska. 2011. Immortal-
+ized cells and one oncogene in malignant transformation: old insights on new 
+explanation. BMC cell biology 12 (2011), 1–2. 
+[57] Svenja Keune. 2021. Designing and living with organisms weaving entangled 
+worlds as doing multispecies philosophy. Journal of Textile Design Research and 
+Practice 9, 1 (2021), 9–30. 
+Labour Provenance as a Lens to Reveal More-Than-Human Ecologies in Biological Design and HCI CHI ’25, April 26–May 01, 2025, Yokohama, Japan 
+[58]
+ Cayla Key, Cally Gatehouse, and Nick Taylor. 2022. Feminist Care in the Anthro-
+pocene: Packing and Unpacking Tensions in Posthumanist HCI. In Proceedings of 
+the 2022 ACM Designing Interactive Systems Conference (Virtual Event, Australia) 
+(DIS ’22). Association for Computing Machinery, New York, NY, USA, 677–692. 
+https://doi.org/10.1145/3532106.3533540 
+[59] Honesty Kim, Lukas C. Gerber, and Ingmar H. Riedel-Kruse. 2016. Interactive 
+Biotechnology: Building your own Biotic Game Setup to Play with Living 
+Microorganisms. In Proceedings of the 2016 CHI Conference Extended Abstracts 
+on Human Factors in Computing Systems (San Jose, California, USA) (CHI EA 
+’16). Association for Computing Machinery, New York, NY, USA, 1000–1002. 
+https://doi.org/10.1145/2851581.2856692 
+[60] Raphael Kim, Pat Pataranutaporn, Jack Forman, Seung Ah Lee, Ingmar H Riedel-
+Kruse, Mirela Alistar, Eldy S Lazaro Vasquez, Katia Vega, Roland Van Dieren-
+donck, Gilad Gome, et al. 2021. Microbe-HCI: Introduction and Directions for 
+Growth. In Extended Abstracts of the 2021 CHI Conference on Human Factors in 
+Computing Systems. 1–4. 
+[61] Raphael Kim, Clarice Risseeuw, Eduard Georges Groutars, and Elvin Karana. 
+2023. Surfacing livingness in microbial displays: A design taxonomy for HCI. In 
+Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems. 
+1–21. 
+[62] Raphael Kim, Siobhan Thomas, Roland van Dierendonck, Nick Bryan-Kinns, 
+and Stefan Poslad. 2020. Working with nature’s lag: Initial design lessons for 
+slow biotic games. In Proceedings of the 15th International Conference on the 
+Foundations of Digital Games. 1–4. 
+[63] Stacey Kuznetsov, Cassandra Barrett, Piyum Fernando, and Kat Fowler. 2018. 
+Antibiotic-responsive bioart: Exploring DIYbio as a design studio practice. In 
+Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 
+1–14. 
+[64] Stacey Kuznetsov, Carrie Doonan, Nathan Wilson, Swarna Mohan, Scott E 
+Hudson, and Eric Paulos. 2015. DIYbio things: open source biology tools as 
+platforms for hybrid knowledge production and scientific participation. In 
+Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing 
+Systems. 4065–4068. 
+[65] E Lazaro and K Vega. 2019. From Plastic to Biomaterials: Prototyping DIY 
+Electronics with Mycelium. In Proceedings of UBICOMP. 
+[66] Yifeng Li and Zhengxin Chen. 2008. RAPD: a database of recombinantly-
+produced antimicrobial peptides. FEMS microbiology letters 289, 2 (2008), 126– 
+129. 
+[67] Ann Light. 2024. More-than-Human Participatory Approaches for Design: 
+Method and Function in Making Relations. In Proceedings of the Participatory 
+Design Conference 2024: Exploratory Papers and Workshops - Volume 2 (Sibu, 
+Malaysia) (PDC ’24). Association for Computing Machinery, New York, NY, 
+USA, 1–6. https://doi.org/10.1145/3661455.3669862 
+[68] Jasmine Lu and Pedro Lopes. 2022. Integrating Living Organisms in Devices 
+to Implement Care-based Interactions. In Proceedings of the 35th Annual ACM 
+Symposium on User Interface Software and Technology (Bend, OR, USA) (UIST 
+’22). Association for Computing Machinery, New York, NY, USA, Article 28, 
+13 pages. https://doi.org/10.1145/3526113.3545629 
+[69] Jasmine Lu and Pedro Lopes. 2024. Unmaking electronic waste. ACM Trans. 
+Comput.-Hum. Interact. (jun 2024). https://doi.org/10.1145/3674505 Just Ac-
+cepted. 
+[70] Yuxin Ma, Zhaoyang Zhang, Bin Jia, and Yingjin Yuan. 2024. Automated high-
+throughput DNA synthesis and assembly. Heliyon (2024). 
+[71] Clara Mancini. 2024. Responsible ACI: Expanding the Influence of Animal-
+Computer Interaction. In Proceedings of the Tenth International Conference on 
+Animal-Computer Interaction (Raleigh, NC, USA) (ACI ’23). Association for 
+Computing Machinery, New York, NY, USA, Article 3, 9 pages. https://doi.org/ 
+10.1145/3637882.3637895 
+[72] Clara Mancini, Orit Hirsch-Matsioulas, and Daniel Metcalfe. 2023. Politicis-
+ing Animal-Computer Interaction: an Approach to Political Engagement with 
+Animal-Centred Design. In Proceedings of the Ninth International Conference on 
+Animal-Computer Interaction (Newcastle-upon-Tyne, United Kingdom) (ACI ’22). 
+Association for Computing Machinery, New York, NY, USA, Article 1, 11 pages. 
+https://doi.org/10.1145/3565995.3566034 
+[73] Clara Mancini and Jussi Lehtonen. 2018. The Emerging Nature of Participation in 
+Multispecies Interaction Design. In Proceedings of the 2018 Designing Interactive 
+Systems Conference (Hong Kong, China) (DIS ’18). Association for Computing 
+Machinery, New York, NY, USA, 907–918. https://doi.org/10.1145/3196709. 
+3196785 
+[74] FabTextiles Lab Margaret Dunne. 2018. Bioplastic Cook Book. Materiom. https: 
+//issuu.com/nat_arc/docs/bioplastic_cook_book_3/s/159731 Accessed: 2024-09-
+13. 
+[75] Karl Marx. 1867. Capital: A Critique of Political Economy, Volume I (reprint ed.). 
+Penguin Books, London. Translated by Ben Fowkes. 
+[76] Erin McKenna and Andrew Light. 2004. Animal pragmatism: Rethinking human-
+nonhuman relationships. Indiana University Press. 
+[77] Eleonora Mencarini, Valentina Nisi, Christina Bremer, Chiara Leonardi, 
+Nuno Jardim Nunes, Jen Liu, and Robert Soden. 2024. Imagining Sustainable Futures: Expanding the Discussion on Sustainable HCI. Interactions 31, 2 (feb 
+2024), 39–43. https://doi.org/10.1145/3643493 
+[78] Timothy Merritt, Foad Hamidi, Mirela Alistar, and Marta DeMenezes. 2020. 
+Living media interfaces: a multi-perspective analysis of biological materials for 
+interaction. Digital Creativity 31, 1 (2020), 1–21. 
+[79] Cosmin Munteanu, Heather Molyneaux, Wendy Moncur, Mario Romero, Susan 
+O’Donnell, and John Vines. 2015. Situational ethics: Re-thinking approaches 
+to formal ethics requirements for human-computer interaction. In Proceedings 
+of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 
+105–114. 
+[80] Hye Yeon Nam, JaNiece Campbell, Andrew M. Webb, and Brendan Harmon. 
+2023. FloraWear: Wearable Living Interface. In Proceedings of the Seventeenth 
+International Conference on Tangible, Embedded, and Embodied Interaction (War-
+saw, Poland) (TEI ’23). Association for Computing Machinery, New York, NY, 
+USA, Article 30, 15 pages. https://doi.org/10.1145/3569009.3572801 
+[81] Madalina Nicolae, Vivien Roussel, Marion Koelle, Samuel Huron, Jürgen Steimle, 
+and Marc Teyssier. 2023. Biohybrid Devices: Prototyping Interactive Devices 
+with Growable Materials. In Proceedings of the 36th Annual ACM Symposium on 
+User Interface Software and Technology. 1–15. 
+[82]
+ Madalina Nicolae, Vivien Roussel, Marion Koelle, Samuel Huron, Jürgen Steimle, 
+and Marc Teyssier. 2023. Biohybrid Devices: Prototyping Interactive Devices 
+with Growable Materials. In Proceedings of the 36th Annual ACM Symposium 
+on User Interface Software and Technology (San Francisco, CA, USA) (UIST ’23). 
+Association for Computing Machinery, New York, NY, USA, Article 31, 15 pages. 
+https://doi.org/10.1145/3586183.3606774 
+[83] Netta Ofer and Mirela Alistar. 2023. Felt Experiences with Kombucha Scoby: 
+Exploring First-person Perspectives with Living Matter. In Proceedings of the 2023 
+CHI Conference on Human Factors in Computing Systems (Hamburg, Germany) 
+(CHI ’23). Association for Computing Machinery, New York, NY, USA, Article 
+477, 18 pages. https://doi.org/10.1145/3544548.3581276 
+[84] Netta Ofer and Mirela Alistar. 2024. Tracing as a Strategy for Orienting to 
+Nonhuman Perspectives. In Proceedings of the 2024 ACM Designing Interactive 
+Systems Conference (Copenhagen, Denmark) (DIS ’24). Association for Com-
+puting Machinery, New York, NY, USA, 1087–1100. https://doi.org/10.1145/ 
+3643834.3661621 
+[85] Netta Ofer, Fiona Bell, and Mirela Alistar. 2021. Designing direct interactions 
+with bioluminescent algae. In Proceedings of the 2021 ACM Designing Interactive 
+Systems Conference. 1230–1241. 
+[86] Gizem Oktay, Yuta Ikeya, Minha Lee, Bahareh Barati, Youngsil Lee, Yuning Chen, 
+Larissa Pschetz, and Carolina Ramirez-Figueroa. 2023. Designing with the more-
+than-human: Temporalities of thinking with care. In Companion Publication of 
+the 2023 ACM Designing Interactive Systems Conference (Pittsburgh, PA, USA) 
+(DIS ’23 Companion). Association for Computing Machinery, New York, NY, 
+USA, 104–106. https://doi.org/10.1145/3563703.3591462 
+[87] Daniëlle Ooms, Bahareh Barati, Miguel Bruns, and Teresa van Dongen. 2022. 
+From concern to care: a transformative reflection on designing-with the living. 
+In Nordic Human-Computer Interaction Conference. 1–15. 
+[88] Neri Oxman. 2020. Silk Pavilion II. https://oxman.com/projects/silk-pavilion-ii 
+Accessed: 2024-09-13. 
+[89] Amanda Parkes and Connor Dickie. 2013. A biological imperative for interaction 
+design. In CHI’13 Extended Abstracts on Human Factors in Computing Systems. 
+2209–2218. 
+[90] Pat Pataranutaporn, Todd Ingalls, and Ed Finn. 2018. Biological HCI: towards 
+integrative interfaces between people, computer, and biological materials. In 
+Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing 
+Systems. 1–6. 
+[91] Pat Pataranutaporn, Angela Vujic, David S. Kong, Pattie Maes, and Misha Sra. 
+2020. Living Bits: Opportunities and Challenges for Integrating Living Mi-
+croorganisms in Human-Computer Interaction. In Proceedings of the Augmented 
+Humans International Conference (Kaiserslautern, Germany) (AHs ’20). Asso-
+ciation for Computing Machinery, New York, NY, USA, Article 30, 12 pages. 
+https://doi.org/10.1145/3384657.3384783 
+[92] Val Plumwood. 2005. Environmental culture: The ecological crisis of reason. 
+Routledge. 
+[93] Larissa Pschetz and Michelle Bastian. 2018. Temporal Design: Rethinking time 
+in design. Design Studies 56 (2018), 169–184. 
+[94] Larissa Pschetz, Keili Koppel, and Michelle Bastian. 2024. Design for Temporal 
+Cohabitation. In Extended Abstracts of the 2024 CHI Conference on Human Factors 
+in Computing Systems (CHI EA ’24). Association for Computing Machinery, New 
+York, NY, USA, Article 553, 8 pages. https://doi.org/10.1145/3613905.3644068 
+[95] Tom Regan. 1999. Animal others: On ethics, ontology, and animal life. SUNY 
+Press. 
+[96] Ingmar H Riedel-Kruse, Alice M Chung, Burak Dura, Andrea L Hamilton, and 
+Byung C Lee. 2011. Design, engineering and utility of biotic games. Lab on a 
+Chip 11, 1 (2011), 14–22. 
+[97] Clarice Risseeuw, Holly Mcquillan, Joana Martins, and Elvin Karana. 2024. 
+(Re) activate,(Re) direct,(Re) arrange: Exploring the Design Space of Direct 
+Interactions with Flavobacteria. In Proceedings of the CHI Conference on Human 
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan Chen et al. 
+Factors
+ in Computing Systems. 1–18. 
+[98] Helena Röcklinsberg, Mickey Gjerris, and I Anna S Olsson. 2017. Animal ethics 
+in animal research. Cambridge University Press. 
+[99] Samar Sabie, Katherine W Song, Tapan Parikh, Steven Jackson, Eric Paulos, 
+Kristina Lindstrom, Åsa Ståhl, Dina Sabie, Kristina Andersen, and Ron Wakkary. 
+2022. Unmaking@CHI: Concretizing the Material and Epistemological Practices 
+of Unmaking in HCI. In Extended Abstracts of the 2022 CHI Conference on Human 
+Factors in Computing Systems (New Orleans, LA, USA) (CHI EA ’22). Association 
+for Computing Machinery, New York, NY, USA, Article 105, 6 pages. https: 
+//doi.org/10.1145/3491101.3503721 
+[100] Takumi Saeki, Nobuhiro Masuda, and Kazuhiro Jo. 2024. Deliberate Maladjust-
+ment by Microorganisms: A Medium for Images or Luminous Bacteria. Leonardo 
+(2024), 1–7. 
+[101] Sabrina Scuri, Marta Ferreira, Nuno Jardim Nunes, Valentina Nisi, and Cathy 
+Mulligan. 2022. Hitting the Triple Bottom Line: Widening the HCI Ap-
+proach to Sustainability. In Proceedings of the 2022 CHI Conference on Hu-
+man Factors in Computing Systems (New Orleans, LA, USA) (CHI ’22). Asso-
+ciation for Computing Machinery, New York, NY, USA, Article 332, 19 pages. 
+https://doi.org/10.1145/3491102.3517518 
+[102] Reshma P Shetty, Drew Endy, and Thomas F Knight. 2008. Engineering BioBrick 
+vectors from BioBrick parts. Journal of biological engineering 2 (2008), 1–12. 
+[103] Alexis Shotwell. 2016. Against purity: Living ethically in compromised times. U 
+of Minnesota Press. 
+[104] Peter Singer. 2004. Animal liberation. In Ethics: Contemporary Readings. Rout-
+ledge, 284–292. 
+[105] JA Smith, FAR Van Den Broek, J Cantó Martorell, H Hackbarth, O Ruksenas, and 
+W Zeller. 2007. Principles and practice in ethical review of animal experiments 
+across Europe: summary of the report of a FELASA working group on ethical 
+evaluation of animal experiments. Laboratory Animals 41, 2 (2007), 143–160. 
+[106] Nancy Smith, Shaowen Bardzell, and Jeffrey Bardzell. 2017. Designing for 
+Cohabitation: Naturecultures, Hybrids, and Decentering the Human in Design. 
+In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems 
+(Denver, Colorado, USA) (CHI ’17). Association for Computing Machinery, New 
+York, NY, USA, 1714–1725. https://doi.org/10.1145/3025453.3025948 
+[107] Marie Louise Juul Søndergaard and Nadia Campo Woytuk. 2023. Feminist 
+Posthumanist Design of Menstrual Care for More-than-Human Bodies. In Pro-
+ceedings of the 2023 CHI Conference on Human Factors in Computing Systems 
+(Hamburg, Germany) (CHI ’23). Association for Computing Machinery, New 
+York, NY, USA, Article 38, 18 pages. https://doi.org/10.1145/3544548.3581083 
+[108] Marie Louise Juul Søndergaard, Gopinaath Kannabiran, Simran Chopra, Nadia 
+Campo Woytuk, Dilrukshi Gamage, Ebtisam Alabdulqader, Heather McKinnon, 
+Heike Winschiers-Theophilus, and Shaowen Bardzell. 2022. Feminist Voices 
+about Ecological Issues in HCI. In Extended Abstracts of the 2022 CHI Conference 
+on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI EA ’22). 
+Association for Computing Machinery, New York, NY, USA, Article 90, 7 pages. 
+https://doi.org/10.1145/3491101.3503717 
+[109] Katherine W Song, Fiona Bell, Himani Deshpande, Ilan Mandel, Tiffany Wun, 
+Mirela Alistar, Leah Buechley, Wendy Ju, Jeeeun Kim, Eric Paulos, Samar Sabie, 
+and Ron Wakkary. 2024. Sustainable Unmaking: Designing for Biodegradation, 
+Decay, and Disassembly. In Extended Abstracts of the 2024 CHI Conference on 
+Human Factors in Computing Systems (CHI EA ’24). Association for Computing 
+Machinery, New York, NY, USA, Article 489, 7 pages. https://doi.org/10.1145/ 
+3613905.3636300 
+[110] Erika Szymanski, Tarsh Bates, Elise Cachat, Jane Calvert, Oron Catts, Lenny J 
+Nelson, Susan J Rosser, Robert DJ Smith, and Ionat Zurr. 2020. Crossing King-
+doms: How Can Art Open Up New Ways of Thinking About Science? Frontiers 
+in Bioengineering and Biotechnology 8 (2020), 715. 
+[111] Leticia Torres, Antje Krüger, Eszter Csibra, Edoardo Gianni, and Vitor B Pinheiro. 
+2016. Synthetic biology approaches to biological containment: pre-emptively 
+tackling potential risks. Essays in biochemistry 60, 4 (2016), 393–410. 
+[112] Eldy S Lazaro Vasquez and Katia Vega. 2019. Myco-accessories: sustainable wear-
+ables with biodegradable materials. In Proceedings of the 2019 ACM International 
+Symposium on Wearable Computers. 306–311. 
+[113] Peter Vegh, Sophie Donovan, Susan Rosser, Giovanni Stracquadanio, and Rennos 
+Fragkoudis. 2024. Biofoundry-Scale DNA Assembly Validation Using Cost-
+Effective High-Throughput Long-Read Sequencing. ACS Synthetic Biology 13, 2 
+(2024), 683–686. 
+[114] Ðan Vy Vu, Mathias Funk, Yi-Ching Huang, and Bahareh Barati. 2023. Address-
+ing Uncertainty in Biodesign through Digital Twins: A Case of Biofabrication 
+with Mycelium. ACM Transactions on Computer-Human Interaction (2023). 
+[115] Dinesh Wadiwel. 2023. Animals and capital. Edinburgh University Press. 
+[116] Jennifer Weiler, Piyum Fernando, Nipuni Siyambalapitiya, and Stacey Kuznetsov. 
+2019. Mycelium artifacts: Exploring shapeable and accessible biofabrication. In 
+Companion Publication of the 2019 on Designing Interactive Systems Conference 
+2019 Companion. 69–72. 
+[117] Lining Yao, Jifei Ou, Chin-Yi Cheng, Helene Steiner, Wen Wang, Guanyun 
+Wang, and Hiroshi Ishii. 2015. bioLogic: Natto Cells as Nanoactuators for Shape Changing Interfaces. In Proceedings of the 33rd Annual ACM Conference 
+on Human Factors in Computing Systems (Seoul, Republic of Korea) (CHI ’15). 
+Association for Computing Machinery, New York, NY, USA, 1–10. https://doi. 
+org/10.1145/2702123.2702611 
+[118] Jiwei Zhou, Bahareh Barati, Elisa Giaccardi, and Elvin Karana. 2022. Habitabili-
+ties of living artefacts: A taxonomy of digital tools for biodesign. International 
+Journal of Design 16, 2 (2022), 57–73. 
+[119] Jiwei Zhou, Bahareh Barati, Jun Wu, Diana Scherer, and Elvin Karana. 2021. 
+Digital biofabrication to realize the potentials of plant roots for product design. 
+Bio-design and Manufacturing 4, 1 (2021), 111–122. 
+[120] Jiwei Zhou, Zjenja Doubrovski, Elisa Giaccardi, and Elvin Karana. 2024. Living 
+with Cyanobacteria: Exploring Materiality in Caring for Microbes in Everyday 
+Life. In Proceedings of  the CHI Conference on Human Factors in Computing Systems 
+(Honolulu, HI, USA) (CHI
+ ’24). Association for Computing Machinery, New York, 
+NY, USA, Article 561, 20 pages. https://doi.org/10.1145/3613904.3642039 
+[121] Jiwei Zhou, Raphael Kim, Zjenja Doubrovski, Joana Martins, Elisa Giaccardi, 
+and Elvin Karana. 2023. Cyano-chromic interface: Aligning human-microbe 
+temporalities towards noticing and attending to living artefacts. In Proceedings 
+of the 2023 ACM Designing Interactive Systems Conference. 820–838. 
+[122] Jingwen Zhu, Lily Winagle, and Hsin-Liu Kao. 2024. EcoThreads: Prototyping 
+Biodegradable E-textiles Through Thread-based Fabrication. In Proceedings of 
+the CHI Conference on Human Factors in Computing Systems. 1–17. 
+[123] Ionat Zurr and Oron Catts. 2023. Tissues, Cultures, Art. Springer. 

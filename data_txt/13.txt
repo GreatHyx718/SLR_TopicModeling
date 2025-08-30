@@ -1,0 +1,507 @@
+Who am AI? – Mapping Generative AI Impact and Transformative
+Potential in Creative Ecosystems
+Mattia Thibault
+Tampere University
+Tampere, Finland
+mattia.thibault@tuni.fiTimo Kivikangas
+Tampere University of Applied
+Sciences
+Tampere, Finland
+timo.kivikangas@tuni.fiRiku Roihankorpi
+Tampere University
+Tampere, Finland
+riku.roihankorpi@tuni.fi
+Petri Pohjola
+Tampere University of Applied
+Sciences
+Tampere, Finland
+petri.pohjola@tuni.fiMarkus Aho
+Tampere University of Applied
+Sciences
+Tampere, Finland
+markus.aho@tuni.fi
+Figure 1: AI generated visualisation of the Creative Industries
+ABSTRACT
+Generative AI’s emergence reshapes creative ecosystems, present-
+ing diverse prospects and trials. As these systems adjust to AI’s
+inclusion, equilibrium is disrupted, influencing workers and society.
+A proactive cross-sectoral approach becomes crucial in navigat-
+ing this transformation, harnessing AI’s potential for sustainable
+growth. This poster proposes two dimensions relevant to map the
+possible impacts of AI on the creative sector: the impact of AI on
+the Industry from a perspective of labour, professionalisation, and
+management and the Actor Network status of AI in creative ef-
+forts. This marks an initial step in a cross-disciplinary endeavor
+to comprehend and guide the evolution of creative ecosystems,
+underlining the necessity for comprehensive data engagement and
+broad academic collaboration.
+Permission to make digital or hard copies of part or all of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+Mindtrek ’23, October 03–06, 2023, Tampere, Finland
+©2023 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0874-9/23/10.
+https://doi.org/10.1145/3616961.3617804CCS CONCEPTS
+•Applied computing →Arts and humanities ;•Computing
+methodologies→Artificial intelligence ;•Human-centered
+computing→Human computer interaction (HCI) .
+KEYWORDS
+Artificial Intelligence, GPT, Large Language Models, Creative In-
+dustries, Cultural Production
+ACM Reference Format:
+Mattia Thibault, Timo Kivikangas, Riku Roihankorpi, Petri Pohjola, and Markus
+Aho. 2023. Who am AI? – Mapping Generative AI Impact and Transfor-
+mative Potential in Creative Ecosystems. In 26th International Academic
+Mindtrek Conference (Mindtrek ’23), October 03–06, 2023, Tampere, Finland.
+ACM, New York, NY, USA, 6 pages. https://doi.org/10.1145/3616961.3617804
+1 INTRODUCTION
+The cultural and creative industries do not operate in a vacuum, but
+are part of "creative ecosystems" that are constantly affected by and
+engaged in other sectors. Technology, manufacturing, service pro-
+duction, and public and private management all play an important
+part in defining such ecosystems. Their cross-sector nature is ripe
+with opportunities for growth, new innovations, and sustainable
+solutions that include and address the global transitions of ecology,
+344
+
+Mindtrek ’23, October 03–06, 2023, Tampere, Finland Thibault et al.
+digitality, and social sustainability. At the same time, the complex
+interaction between their elements make innovations difficult to
+predict, and the ecosystems more complex to manage.
+Currently, the discussions on the creative sector’s upcoming chal-
+lenges and options focus strongly on the development of generative
+AI. This technology makes use, for example, of Large Language
+Models, Transformer Models, and Stable Diffusion to generate im-
+ages, videos, audio, text, and 3D models, based on a pre-existing
+body of data that is used to train the AI to recognize and mimic
+patters based on statistical relations. Different Generative AI prod-
+ucts, such as Chat GPT and Bard (for textual creation), Dall-E and
+Midjourney (for image creation) and Google Translate and DeepL
+(for translation) have become part of the daily lives and professional
+toolboxes of millions of people around the world.
+Generative AI brings along concerns related to copyright, fair
+and ethical treatment of materials and sources as well as the fu-
+ture of the sector’s diverse professions, social agency, and income
+logics[ 14] These are decisive topics also for the technology sector, as
+many digital production tools and methods are already used cross-
+sectorally, e.g. in game design, 3D modelling and printing, digital
+twins,UX, XR, and AI design, smart city development, education
+and so forth.
+We currently witness a "summer” season of AI[ 8], with increas-
+ing hype, and investments. While we do not know how long it
+will last, during this period of enthusiasm a series of tools is being
+developed and increasingly put in use, promising a strong impact
+on the creative ecosystems when it comes to generation, manage-
+ment, and use of media, established professional and working life
+structures, educational settings, and many more. Many of these
+tools promise to revolutionize the ways in which we work, generate
+meaning and commodities, and thrive across industries. They offer
+new ways to simplify one’s tasks, to support creative thinking and
+to illustrate ideas, but they also open up many questions related to
+their impact on existing careers and industries, the technical needs
+and limitations of the technologies, and the ethical dimensions of
+their use.
+The impact of generative AI on the creative industries is already
+noteworthy, and current developments suggests it will be even more
+so in the future. In this poster we aim to propose some avenues for
+mapping and understanding such impact, in the belief that scholars
+and professionals need to take on a proactive role in managing and
+directing the transformations that are running through the cultural
+and creative sector.
+2 STATE OF THE ART
+The latest innovations in AI have sparked lively public debates on
+the topic. Reactions to Generative AI vary from the apocalyptic to
+the enthusiastic[ 6]. The first side focuses on the risks connected to
+AI use, starting from legitimate ethical concerns[ 29] and fears on
+effects on labor[ 11] to possible existential threats to humanity[ 26].
+Enthusiasts, instead, focus on the possibilities opened by AI, in
+fields such as medicine[ 16], education[ 32], architecture[ 30] and
+more.
+It is probably impossible to forecast or assess the future impact
+of Generative AI on the creative ecosystems. Predictive models
+seem to suggest that it will affect a large array of occupations (morethan robotics and software development have in the part) and that
+high-skill occupations will be the ones most exposed to artificial
+intelligence[ 31]. A literature review by OECD focusing on the last
+ten years of AI development suggests that adoption of the technol-
+ogy seemingly did not provoke an overall decline in employment
+and wages in exposed professions[ 17]. The review claims AI gen-
+erally causes a reorganization of tasks in an occupation instead,
+changing the content, environment and design of jobs (ibid.). More
+creative approaches to future making, such as speculative design,
+have also been used to explore the possible impact of AI. Such
+design fictions argue that AI might lead, for example, to a “tokeni-
+sation” of human agency - a scenario in which human behaviour
+and choices can be reduced to token that are predictable by AI,
+enhancing possibilities of collaboration with artificial teammates,
+but also advancing the possibility of replacing human workers and
+decision makers[22].
+Outside of academia, the ability to create and edit audiovisual
+(AV) and media content with high-quality results using only natu-
+ral language text prompts is saluted as a game-changer. Advanced
+generative AI tools are often accessible globally. Consequently,
+the potential user base for this technology is vast. While many
+reports choose to focus on the potential benefits related to eco-
+nomic growth[ 11], AI seems to offer new challenges, as it expands
+the kinds of tasks that can be automated (beyond non-cognitive
+tasks), it is general purpose, and therefore affect every sector, and
+is developing at unprecedented speed[24].
+Rapid automation obviously rises concerns related to job loss.
+A report made for the UK government, for example, estimates
+the job loss at 7% between 2021-2026, increasing to 30% by 2041.
+The same research, however, claims that AI development will also
+contribute to job creation. Some professions in particular might be
+more susceptible to these changes. Music production is one of such
+fields, with 73% of professionals believing that their jobs will be
+lost to AI[27].
+While the future is uncertain, there are attempts to program
+it, for example by including generative AI in models of industrial
+development in the Industry 5.0 framework. While Industry 4.0
+(or " fourth industrial revolution") focused on the digital transfor-
+mation of manufacturing and production and their impact on the
+value creation process1, the Fifth industrial revolutions explores the
+potential of AI and smart machines. Industry 4.0 refers to the intel-
+ligent networking of machines and processes for industry with the
+help of information and communication technology. It represents a
+new stage in the organization and control of the industrial value
+chain whose key driver is "Profit", with main drivers of optimiza-
+tion of productivity, product quality assurance and predictability
+of maintenance.
+As a continuation, Industry 5.0 innovates both the tools at dis-
+posal of the industry - to include AI and smart machines - and
+the key drivers - focusing also on "People" and "Planet" . It thus
+acknowledges and attempt to respond to the ongoing green, digi-
+tal, and social sustainability transitions especially relevant to the
+creative ecosystems.
+1Industry 4.0 and the fourth industrial revolution are explained at i-scoop.eu
+345
+Who am AI? – Mapping Generative AI Impact and Transformative Potential in Creative Ecosystems Mindtrek ’23, October 03–06, 2023, Tampere, Finland
+3MAPPING TRANSFORMATIVE DIMENSIONS
+The impacts of generative AI on the creative ecosystems promise to
+be multifaceted, complex and ambiguous, with both great opportu-
+nities and challenges for all the industries and professions involved.
+If anticipating such changes might be impossible, we argue for the
+necessity of continuous monitoring of its evolution as well as for a
+proactive role of academics and professionals to guide such impact
+towards the most desirable outcomes.
+To contribute to this effort, we propose here some possible maps
+of the transformative dimensions of generative AI, based on previ-
+ous studies and on the Industry 5.0 model. In order to create the
+basis for an holistic perspective on the future of AI in the creative
+ecosystems, we focus on two key dimensions: the impact of AI on
+the Industry from a perspective of labour, professionalisation, and
+management and the Actor Network status of AI in creative efforts.
+3.1 AI’s Industrial and Labour Impact
+Generative AI is quickly finding many areas of application in dif-
+ferent industries. Its adoption often proceeds in a bottom up way,
+as workers integrate it in their workload, or as a reaction to its
+effects on a specific field. In both cases, the adoption soon starts
+to impact working life, reshaping workloads, changing practices,
+requiring new skills and so forth. This, in turn, requires an effort
+of management to deal with this changes, by providing guidelines,
+educational pathways, opportunities of professional transition, re-
+structuring of workloads etc. We can summarise these impacts as
+follows:
+(1) Areas of AI application in different industries
+(2) AI’s impact on working life transformation
+(3)Management of AI in related social / professional transitions
+Figure 2: Three levels of industrial and labour impact of
+Generative AI
+To explicate these points and test our mapping, we will now
+apply to one creative sectors that has been dealing with AI for
+decades: translation. Translation practice and translation studies
+have been assessing the impact on AI in their industries for a long
+time, as the first examples of computer-based translations date fromthe half of the last century. Machine Translation (MT) has been
+one of the first applications of AI in the creative industries, and
+has deeply affected the tasks, perspectives, studies and practices of
+translation.
+(1) Areas of AI application in different industries The progress
+of MT in the last decade made it an accepted tool not only for the
+translation of technical texts, but also for creative ones[ 25], a testa-
+ment to the increasing quality of AI-translated texts. Nevertheless,
+the possibility of errors often makes human intervention necessary,
+distinguishing two main areas of application: one that can make use
+of unedited MT, and those requiring post-editing. Unedited MT is
+used in texts necessitating real-time communication (email support,
+live chat, social media posts, customer reviews) or to facilitate agile
+localization (websites in many languages, YouTube subtitles)[ 3].
+Post-editing, instead, is used for high-quality content publication,
+as in the case of marketing, creative texts and the arts[9].
+(2) AI’s impact on working life transformation There is consid-
+erable research on the impact of MT on the professionals work-
+ing in the translation industry. While the industry is being re-
+shaped by several factors, such as the multiplication of digital la-
+bor platforms[ 7] or efforts of crowd-sourcing[ 2], MT has become
+one unavoidable dimension of the profession. The prevalence and
+increasing presence of MT in workflows have been recorded for
+almost a decade[ 9], but this does not make AI adoption an inevitabil-
+ity. There are several factors that contribute to the adoption of MT
+in translation projects, which are not limited to economic benefits
+and opportunity[ 15]. Ergonomic factors related to a human trans-
+lators’ needs, skills, limitations, and overall well-being have been
+found decisive in the adoption of MT[4].
+(3) Management of AI in related social / professional transitions
+The impact of MT goes beyond the mere professional practices of
+translators. Machine translated texts are produced, in large quanti-
+ties, by non-professionals making use of Google Translate in their
+businesses or daily life. This naive use of MT has been reported as
+problematic, especially in cases from the legal and medical fields. A
+literature review on use cases in these areas has underlined the need
+for a broad societal level of awareness on the strengths and, more
+importantly, limitations of MT. The current use and understanding
+of MT, the study argues, exacerbates social inequalities and poses
+grave risks for vulnerable communities[28].
+The impact of AI on the translation industry, briefly showcased
+here within the frame of our mapping, highlights an important
+shortcoming of the current, reactive , model. The adoption of AI
+technologies is made inevitable by market pressures that push for
+speed and efficiency, and the consequences are dealt with at a
+later point. The results are not necessarily catastrophic, but they
+can still be damaging, especially for vulnerable professionals and
+communities. We argue, therefore, that the three steps outlined in
+our mapping should be programmatically re-ordered, with the third,
+related to management being moved to the very beginning. The
+adoption of generative AI in creative ecosystems should be guided
+by clear objectives. This guidance, however, cannot be pursued in
+a purely top down way, which brings us to the second dimension
+of our mapping efforts.
+346
+Mindtrek ’23, October 03–06, 2023, Tampere, Finland Thibault et al.
+3.2 AI’s Actor Network Status
+According to Actor Network Theory[ 19] machines are nodes of
+social relations non dissimilar from human beings. If a door[ 20]
+can be an agent in an actor network, the agency of generative AI
+seems to present significant overlaps with that of human beings.
+Due to this, we can articulate the status of AI in Actor Networks,
+according to their relation with human agency, according to four
+main types:
+•Expanding Human Agency
+•Replacing Human Agency
+•Cloning Human Agency
+•Surpassing Human Agency
+Generative AI expands human agency when it is used as a tool,
+or "companion", that allows human workers to do things better or
+faster. Tools that expand human agency might accomplish some of
+the tasks in place of a human being, but they are only part of the
+overall workflow. For example, MT needing post-editing would fall
+into this category. These tools are used in many creative ecosystems.
+For example, in the music industry many artists use AI as a mean to
+discover novel musical elements, like new sounds and rhythms [ 12].
+Game designers have also been using generative AI to generate new
+characters design or visual styles, or to transform 2D renderings
+into 3D models2. Beyond games, AI 3D object generators make
+the process of creating such models more efficient, accurate, and
+accessible to everyone. The list of uses could easily go on, and
+the existence of many lists of AI tools for art generation, text-to-
+music, game development, coding and more3is a testament of the
+widespread use of generative AI to expand human agency.
+AIreplaces human agency when it can do the same work a hu-
+man would do, without requiring the presence of a human. When
+enough tasks of a work can be delegated to AI, or when the fi-
+nal quality does not necessarily need human supervision (as in
+automatic generated translated subtitles), AI can replace human
+agents. In some field such as architecture it allows to automate an
+entire design package, from initial options to construction[ 21]. The
+Harvard Business Review claims that a GPT text creator named
+Jesper can replace humans entirely in producing autonomously
+social media posts, blog entries and other types of customer-facing
+content[ 5]. Forbes reports that several educational tasks can be
+completely delegated to AI, such as generating tests, study plans
+and personalised feedback[ 1]. Human actors can also be simulated
+through AI. The "Digital People Platform", for example, allows to
+create talking avatars to interact with4. The risk of AI replacing
+media professionals was among the concerns behind the strikes of
+the SAG-AFTRA and the Writers Guild of America in 2023, both
+asking for regulations concerning consent and ownership over ones
+voice, appearance and work.
+Generative AI clones human agency when it does not replace
+a generic human agent, but a specific one. Deepfakes, allowing
+to reproduce to looks and voices of existing individuals and to
+create new materials with them. The phenomenon started often as
+2Adrien Logut, “Introduction to Procedural Generation plugin in UE5.2,” series of
+videos aimed to kick-start people using the Procedural Content Generation plugin,
+Epic Games Dev Community, June 18, 2023.
+3Respectively at: https://bit.ly/AIArtGn, https://bit.ly/AItxt2Mus,
+https://bit.ly/AIGameDev, and https://bit.ly/AICodeTool
+4https://www.d-id.com/a meme-generating activity, and as unauthorised use of celebrities
+voices to generate new songs featuring famous artists, or to change
+the lyrics of classic songs[ 10]. Now, however, it is making a strong
+entry in the entertainment business, with Alphabet and Universal
+Music negotiating a deal over the use of AI deepfakes[ 23]. The
+possibility to "clone" artists has also been labeled as the creation of
+"digital twins", trained on actors’ archives of film, to simulate their
+voice, inflections, movement and expressions at any stage of their
+life and career [18].
+AIsurpasses human agency when it accomplishes a task that
+would be impossible for a human agent to do. AI can sometimes go
+beyond being faster and more efficient, but also able to do things
+that human agents can’t. In architecture AI has been claimed to
+be beyond humans in terms of strategic thinking and real-time
+analysis[ 28]. AI agents can also be embedded in software, some-
+thing human agents cannot to. For example, in game design it is
+possible to use generative AI to animate non-player characters,
+allow them to respond more naturally to customised players’ input
+[13].
+With this - unexhaustive - list we wanted to showcase the variety
+of positions that AU agents can hold in the Actor Networks of the
+creative ecosystems. Different positions, in turn, will have different
+level and forms of impact on the industries related to these ecosys-
+tems, and on the workflows, jobs, and practices in the field. These
+positions also open a variety of ethical issues, related to the right of
+autonomy, the ownership of one voice or looks, the automation of
+human jobs, and so on. As with the other dimension mapped in this
+poster, the need for a proactive approach to the positioning of AI
+agents in different industries appear to be crucial for the thriving
+of the different elements of the creative ecosystems.
+4 CONCLUSIONS
+Ecosystems are complex environments, characterised by a dynamic
+equilibrium in which the ecosystem responds to external changes
+by evolving until finding a new balance. The same can be said about
+the creative ecosystems facing the innovations brought about by
+the success of generative AI. In the next years, these industrial and
+human environments will be thrown increasingly out of balance
+by the adoption of AI agents in different positions of their Actor
+Networks. This unbalance will affect workers in the industries, but
+also society at large through rippling effects.
+Shadow (2020/2022), a recent film adaptation from the stage by
+the Australian theatre group Back to Back Theatre, suggests that
+the future of AI will blatantly teach those of us without disabil-
+ity diagnoses to avow the default shortcomings inherent in the so
+called normal human capacities. AI’s new normal will be about
+negotiating the status and value of human–generated information,
+creativity, and content across the media, and about deciding how to
+evaluate, employ and benefit from those generated by AI. The task
+will not be easy. Generative AI’s tendency to map out, choose and
+exploit normative features and patterns of human media to come up
+with significantly quirky and avant-garde content presents us with
+fundamental questions about how creative capacities and intents
+actually function, and for whom. This problematic also colours the
+current discussion on AI’s further cross-sectoral impact, as oper-
+ators of the cultural and creative industries are chiefly concerned
+347
+Who am AI? – Mapping Generative AI Impact and Transformative Potential in Creative Ecosystems Mindtrek ’23, October 03–06, 2023, Tampere, Finland
+Figure 3: AI’s Actor Network Status
+about the ethical reaches of allowing AI models to process human-
+generated creative content without a comprehensive view of what
+social and economical repercussions follow.
+In the search for a new equilibrium for the creative ecosystems,
+we argue firmly for the necessity of a proactive approach. By oper-
+ating cross-sectorally and employing joint forces across the ecosys-
+tems to tackle and the properties of generative AI (each field learn-
+ing from the others), there is a chance to add value for the creative
+sector and those collaborating with it. The sheer number of AI-
+powered technology in the service and experience economies in
+the future indicates the importance of urgent, holistic charting
+of emerging AI territories with view to enhancing communica-
+tion, synchronization, and learning between the industries at large.
+When we move from one phase of the industrial evolution to an-
+other, and from profit to sustainable profit for all ecosystems, the
+role of properly researched, proactive, and creative AI may prove
+to be decisive.
+Our poster is but a first step in the effort to map out the present
+situation from speculative, cross-disciplinary, and holistic view-
+points. Other dimensions, deeper engagements with the data symp-
+tomatic of AI adoption, and, crucially, a larger engagement of aca-
+demics with different backgrounds are all needed if we want to
+be able to monitor, direct, and guide the evolution of the creative
+ecosystems.
+REFERENCES
+[1]Geoffrey Alphonso. 2023. Generative AI: Education In The Age Of Innova-
+tion. https://www.forbes.com/sites/forbestechcouncil/2023/03/03/generative-ai-
+education-in-the-age-of-innovation/?sh=40aeb9ea4eca
+[2]Dimitra Anastasiou and Rajat Gupta. 2011. Comparison of crowdsourcing trans-
+lation with Machine Translation. Journal of Information Science 37, 6 (2011),
+637–659.
+[3]Lindsay Bywood, Panayota Georgakopoulou, and Thierry Etchegoyhen. 2017.
+Embracing the threat: machine translation as a solution for subtitling. Perspectives
+25, 3 (2017), 492–508.
+[4]Patrick Cadwell, Sheila Castilho, Sharon O’Brien, and Linda Mitchell. 2016. Hu-
+man factors in machine translation and post-editing among institutional transla-
+tors. Translation Spaces. A multidisciplinary, multimedia, and multilingual journal
+of translation 5, 2 (2016), 222–243.[5]Thomas H. Davenport and Nitin Mittal. 2023. How Generative AI Is Chang-
+ing Creative Work. https://hbr.org/2022/11/how-generative-ai-is-changing-
+creative-work
+[6]Umberto Eco. 2000. Apocalypse Postponed: Essays by Umberto Eco . Indiana
+University Press, Bloomington.
+[7]Gökhan Fırat. 2021. Uberization of translation: Impacts on working conditions.
+The Journal of Internationalization and Localization 8, 1 (2021), 48–75.
+[8]Enrico Francesconi. 2022. The winter, the summer and the summer dream
+of artificial intelligence in law: Presidential address to the 18th International
+Conference on Artificial Intelligence and Law. Artificial intelligence and law 30,
+2 (2022), 147–161.
+[9]Federico Gaspari, Hala Almaghout, and Stephen Doherty. 2015. A survey of
+machine translation competences: Insights for translation technology educators
+and practitioners. Perspectives 23, 3 (2015), 333–358.
+[10] Marc Goracke. 2023. The Summer Of "Deep Drakes": How Gen-
+erative AI Is Creating New Music And Copyright Issues. https:
+//www.mondaq.com/unitedstates/copyright/1315692/the-summer-of-deep-
+drakes-how-generative-ai-is-creating-new-music-and-copyright-issues
+[11] Jan Hatzius, Joseph Briggs, Devesh Kodnani, and Giovanni Pierdomenico. 2023.
+The Potentially Large Effects of Artificial Intelligence on Economic Growth.
+[12] Mark Hogan. 2023. Musicians Are Already Using AI More Often Than We
+Think. https://pitchfork.com/thepitch/musicians-are-already-using-ai-more-
+often-than-we-think/
+[13] Sean Hollister. 2023. Watch this Nvidia demo and imagine actually speaking to
+AI game characters. https://www.theverge.com/2023/5/28/23740908/nvidia-ace-
+demo-voice-ai-npc-game-characters
+[14] Thomas Höppner Katharina Uppenbrink, Matthias Hornschuh. 2023. Authors
+and Performers Call for Safeguards Around Generative AI in the European AI
+Act.
+[15] Maarit Koponen. 2016. Is machine translation post-editing worth the effort?
+A survey of research into post-editing and effort. The Journal of Specialised
+Translation 25, 2 (2016), 131–148.
+[16] The Lancet. 2023. AI in medicine: creating a safe and equitable future. , 503 pages.
+[17] Marguerita Lane and Anne Saint-Martin. 2021. The impact of Artificial Intelli-
+gence on the labour market: What do we know so far?
+[18] Nicola Laporte. 2023. How generative AI got cast in its first Hollywood
+movie. https://www.fastcompany.com/90847396/generative-ai-metaphysic-
+tom-hanks-robin-wright-zemeckis-here
+[19] Bruno Latour. 2007. Reassembling the social: An introduction to actor-network-
+theory . OUP, Oxfort.
+[20] Bruno Latour et al .1992. Where are the missing masses? The sociology of a few
+mundane artifacts. Shaping technology/building society: Studies in sociotechnical
+change 1 (1992), 225–258.
+[21] Neil Leach. 2022. Architecture in the age of artificial intelligence: an introduction
+to ai for architects . Bloomsbury Publishing, London.
+[22] Michael Muller, Steven Ross, Stephanie Houde, Mayank Agarwal, Fernando
+Martinez, John Richards, Kartik Talamadupula, and Justin D Weisz. 2022. Drinking
+Chai with Your (AI) Programming Partner: A Design Fiction about Generative
+348
+Mindtrek ’23, October 03–06, 2023, Tampere, Finland Thibault et al.
+AI for Software Engineering. In HAI-GEN Workshop at IUI 2022: 3rd Workshop on
+Human-AI Co-Creation with Generative Models . CEUR Workshop Proceedings,
+Helsinki, 1–16.
+[23] Anna Nicolau and Madhumita Murgia. 2023. Google and Uni-
+versal Music negotiate deal over AI ‘deepfakes’. https:
+//www.ft.com/content/6f022306-2f83-4da7-8066-51386e8fe63b?
+accessToken=zwAGAncnxps4kc9vAiMGL4NNp9OAZlE4bo_
+mOw.MEQCIEtcQxYd6J7mnRinQob2Nqfnx9yKzLKSKqq_
+JRikKciKAiATLL6bDq7GeO_t95GJnwt8bmmpYtxpsAQDTZUWQdDY6w&
+sharetype=gift&token=b14cb708-fb8f-4123-a005-c360c33e7a24
+[24] OECD. 2023. OECD Employment Outlook 2023. Artificial Intelligence and the Labour
+Market . OECD, Online. https://www.oecd-ilibrary.org/sites/08785bba-en/index.
+html?itemId=/content/publication/08785bba-en#section-d1e297-d5205f6f2f
+[25] A Reid. 2013. Introduction to machine translation and the post-editing paradigm
+shift.
+[26] Kevin Roose. 2023. A.I. Poses ‘Risk of Extinction,’ Industry Leaders Warn. https:
+//www.nytimes.com/2023/05/30/technology/ai-threat-warning.html
+[27] Cameron Sunkel. 2023. Survey Finds 73Artificial Intelligence Will Replace
+Them. https://edm.com/gear-tech/survey-music-producers-believe-ai-will-replace-them
+[28] Lucas Nunes Vieira, Minako O’Hagan, and Carol O’Sullivan. 2021. Understanding
+the societal impacts of machine translation: a critical review of the literature on
+medical and legal use cases. Information, Communication & Society 24, 11 (2021),
+1515–1532.
+[29] Krzysztof Wach, Cong Doanh Duong, Joanna Ejdys, R ¯uta Kazlauskait ˙e, Pawel
+Korzynski, Grzegorz Mazurek, Joanna Paliszkiewicz, and Ewa Ziemba. 2023. The
+dark side of generative artificial intelligence: A critical analysis of controversies
+and risks of ChatGPT. Entrepreneurial Business and Economics Review 11, 2 (2023),
+7–24.
+[30] Oliver Wainwright. 2023. ‘It’s already way beyond what humans can do’: will AI
+wipe out architects? https://www.theguardian.com/artanddesign/2023/aug/07/ai-
+architects-revolutionising-corbusier-architecture
+[31] Michael Webb. 2019. The impact of artificial intelligence on the labor market.
+[32] Hao Yu and Yunyun Guo. 2023. Generative artificial intelligence empowers
+educational reform: current status, issues, and prospects. In Frontiers in Education ,
+Vol. 8. Frontiers, Online, 1183162.
+349

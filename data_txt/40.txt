@@ -1,0 +1,509 @@
+Conceptualizing Online Feedback Engagement from a
+Sociomaterial Perspective: An Iceberg Model
+Shijun (Cindy) Chen
+shijunchen@connect.hku.hk
+The University of Hong Kong
+Hong Kong, China
+Abstract
+This study conceptualizes online feedback engagement through a
+sociomaterial lens, exploring how learners’ feedback engagement is
+dynamically shaped by the entanglement of human and non-human
+actors in digital environments. While prior research has examined
+cognitive, behavioral, and affective dimensions of feedback en-
+gagement in face-to-face learning environments, few studies have
+explored how technological affordances and sociocultural values
+mediate these forms of engagement. Drawing on a sociomaterial
+perspective, this study proposes a multidimensional framework of
+feedback engagement comprising cognitive, behavioral, relational,
+and collaborative dimensions. By synthesizing existing literature
+and integrating insights from recent empirical studies involving
+digital feedback tools, the paper highlights how engagement is not
+solely a learner-driven phenomenon but is co-constructed through
+sociomaterial arrangements. The framework advances current un-
+derstandings of online feedback engagement and offers implica-
+tions for the design of pedagogically sound feedback practices in
+technology-mediated learning contexts.
+CCS Concepts
+•Social and professional topics →Student assessment; Pro-
+fessional topics .
+Keywords
+Feedback, feedback engagement, sociomaterialism, online learning
+ACM Reference Format:
+Shijun (Cindy) Chen. 2025. Conceptualizing Online Feedback Engagement
+from a Sociomaterial Perspective: An Iceberg Model. In Proceedings of the
+Twelfth ACM Conference on Learning @ Scale (L@S ’25), July 21–23, 2025,
+Palermo, Italy. ACM, New York, NY, USA, 5 pages. https://doi.org/10.1145/
+3698205.3733934
+1 Introduction
+The transition to digital and hybrid modes of education has chal-
+lenged familiar teaching routines and reshaped students’ and ed-
+ucators’ experiences of higher education engagement[ 17]. In this
+context, understanding feedback and learning in online educational
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+L@S ’25, Palermo, Italy
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1291-3/2025/07
+https://doi.org/10.1145/3698205.3733934settings has become particularly significant. Feedback is recog-
+nized as one of the most powerful influences on learning [ 21], and
+technology is often positioned as a means to enhance feedback
+effectiveness [ 7]. However, conceptions of effective feedback have
+evolved alongside a shift from the ‘old paradigm’—where feedback
+is understood as information transmitted from one agent to another
+to a ‘new paradigm’ grounded in a socio-constructivist perspective
+which takes feedback as a dialogic process [ 5][6]. Within the new
+paradigm, the effectiveness of feedback lies not in the informa-
+tion delivered but in how students engage with and respond to it.
+Therefore, a nuanced understanding of how students engage with
+feedback can thus offer valuable insights into improving feedback
+practices.
+Before moving to the next step of conceptualizing feedback
+engagement in online settings, it is important to unpack what
+constitutes online feedback itself. Jensen et al.[ 22] contribute sig-
+nificantly to this discussion in their review by identifying two
+central understandings of feedback—teacher-centered and student-
+centered. Student-centered perspectives understand feedback as
+a learning tool and as a dialogic process, aligning with the new
+paradigm. Synthesizing these student-centered positions, this study
+conceptualizes feedback as a dialogic tool that activates students’
+agency through interactions with both human and non-human
+actors throughout learning processes.
+Earlier research on feedback engagement has focused on seek-
+ing feedback information [ 44], conducting adaptive or maladap-
+tive behaviors [ 40], as well as students’ willingness, attention, or
+activeness [ 42] [18] . These studies have directed scholarly atten-
+tion primarily toward behavioral and cognitive aspects of feedback
+engagement. In parallel, research in educational psychology and
+cognitive literature [ 12] [11] [43] [33] has long emphasized the mul-
+tidimensional nature of learning engagement—typically including
+cognitive, behavioral, and affective components from an individu-
+alistic learning perspective. Feedback scholars have increasingly
+adopted this multidimensional lens. For example, Zhang et al. [ 48]
+explored student feedback engagement in peer feedback practices;
+Tay and Lam [ 38], drawing on triadic reciprocity [ 2], examined
+engagement in teacher feedback through cognitive, affective and
+environmental dimensions; and Zhan and Yan [ 47] identified an ad-
+ditional metacognitive dimension in the context of English writing
+and Generative AI (GenAI) settings.
+While these cognitive and psychological interpretations of feed-
+back engagement are valuable, it is equally important to address the
+relational, contextual, and dialogic nature of feedback—elements
+that are central to the new paradigm. One notable exception is
+Zhan et al. (2025), who conceptualized feedback engagement from
+251
+
+L@S ’25, July 21–23, 2025, Palermo, Italy Shijun (Cindy) Chen
+an ecological perspective across the stages of eliciting, process-
+ing, and enacting in GenAI supported settings. Similarly, Gan et
+al.[13] incorporated sociological and psychological foundations to
+emphasize the social dimension of feedback engagement.
+These contributions have significantly enriched the understand-
+ing of feedback engagement across diverse contexts and perspec-
+tives. However, the construct of feedback engagement requires
+further refinement in online learning environments. In such set-
+tings, interactions between humans and technologies are as vital
+as human-to-human interactions. As [ 1] argue, both artefacts and
+technologies co-construct a social field, and a shared understanding
+of feedback process by all parties need to be raised if feedback is to
+meaningfully impact learning (p.262). Therefore, there is a pressing
+need for a more fine-grained conceptualization that captures the
+complex interplay between students’ experiences and both human
+and non-human actors.
+This study addresses this gap by conceptualizing feedback en-
+gagement from a sociomaterial perspective, which explores the
+entanglement of human and technological systems. A sociomate-
+rial analytic lens enables a deep examination of how online tools,
+platform functionalities, and feedback interactions dynamically
+shape and are shaped by each other.
+2 Theoretical Underpinnings
+This study is grounded in a sociomaterial perspective, which fore-
+grounds the entanglement of social practices and material ele-
+ments—such as technological systems—in shaping learning expe-
+riences within specific contexts [ 49]. Sociomaterialism assumes
+that human and non-human actors are not separate but are co-
+constitutive and relationally embedded. Building on this, Gravett
+[16] extends the sociomaterial view of feedback by integrating in-
+sights from new materialism, posthumanism, and poststructuralism.
+From this stance, all entities—including humans, tools, and environ-
+ments—are part of dynamic assemblages that are constantly inter-
+acting and evolving [ 11]. Within this framework, humans can adapt
+to, resist, or reconfigure technologies in learning situations, while
+technological artefacts (e.g., digital platforms, AI tools) possess af-
+fordances and agential capacities that shape feedback processes.
+These material agents may, for instance, bring cognitive overload
+to students, hinder students’ from navigating online systems, re-
+inforce algorithmic biases or trigger emotional responses. Thus,
+a central question emerges: how do technological tools mediate,
+support, or constrain students’ multidimensional engagement with
+feedback?
+3 Methods
+To conceptualize the framework, this study adopted a deductive
+reasoning approach—one that proceeds from general theoretical
+propositions to context-specific conclusions. Deductive analysis
+begins with established theories or conceptual frameworks and ap-
+plies them to new inquiries or particular contexts [ 8]. This approach
+enables the study to build upon existing theoretical foundations of
+sociomaterialism [ 16] [15] and well-established frameworks related
+to student learning and feedback engagement [ 12] [13] [28] [32],
+adapting them to the specific context of online feedback engage-
+ment in higher education.
+Figure 1: Framework development process
+The development of the proposed framework followed four iter-
+ative stages inspired by Zhan et al.[ 46] model with minor adjust-
+ments: literature review, analysis, adaptation, theme generation
+and refinement (see Figure 1). First, a comprehensive literature
+review on online learning and feedback engagement—across both
+online and face-to-face learning environments—was conducted to
+identify relevant perspectives and dimensions. Second, constant
+comparative analysis [ 14] was employed to examine and contrast
+key elements and definitions across diverse conceptualizations of
+feedback and engagement. Themes were then refined through it-
+erative cycles of adaptation and refinement, ensuring alignment
+with the particularities of online learning environments while re-
+maining attentive to the ontological, epistemological, and ethical
+considerations relevant to the study.
+4 Findings
+In this section, four key components were involved in student online
+feedback engagement, including cognitive engagement, behavioral
+engagement, relational engagement and collaborative engagement
+on the basis of socio-materialism.
+4.1 Cognitive Online Feedback Engagement
+Synthesizing earlier studies, student cognitive engagement encom-
+passes components of interpretation, attention, making evaluative
+judgments, and self-regulation skills. While these elements are
+closely intertwined with cognition, some researchers distinguish
+between surface-level and deep-level cognition engagement [ 32]
+[48]. This study argues that a distinguish between lower-order and
+higher-order cognition is necessary in defining cognitive dimension
+because these levels reflect varying degree of mental effort, process-
+ing depth and learner autonomy during engagement with feedback.
+Merely skim-reading comments would not constitute meaningful
+engagement with feedback, rather a process of ‘doing time’ as a
+representation of engagement [ 20]. Normally, lower-order cogni-
+tive process requires minimal cognitive effort, while higher-order
+cognitive process involves more complex, abstract, and autonomous
+thinking. Given that earlier literature of cognitive feedback engage-
+ment has not typically made such distinction, the study borrows a
+revised Bloom’s Taxonomy of cognitive domain [ 24] in the defini-
+tion. The revised Taxonomy is chosen as it reduced overlap among
+categories and ranged the elements from simple to complex. To
+better accommodate this framework with feedback research, I com-
+bined the components of analyzing and evaluating into one term
+252
+Conceptualizing Online Feedback Engagement from a Sociomaterial Perspective L@S ’25, July 21–23, 2025, Palermo, Italy
+‘evaluative analysis’ since they are inseparable in making evalua-
+tive judgments [ 6] [30]. Therefore, the cognitive online feedback
+engagement involves the following five major components. The
+first two are considered as two lower-order cognition, while the
+latter three are viewed as higher-order cognition.
+Remembering: The use of technology to access, store, and re-
+visit feedback plays a vital role in fostering feedback appreciation,
+leading to student engagement in the notion of student feedback
+literacy [ 6]. From a sociomaterial perspective, the accessibility of
+technological tools enables students to re-read and recall feedback
+information through multimodal approaches. For instance, features
+such as feedback in Learning Management Systems (e.g. Canvas
+or Moodle), in-text comments in Google Docs, or annotated video
+feedback via platforms like Zoom with its function of AI companion
+allow students to revisit feedback in different forms and at their
+own pace.
+Understanding: To process feedback information, students must
+decode the feedback message [ 4]. However, this could sometimes
+be challenging for students, thus impeding their feedback engage-
+ment. AI tools are not merely used for feedback provision but used
+by students to decode information by paraphrasing it for better
+clarification. Platform designs offering multiple options, such as
+rubrics, narrative comments and exemplars, can influence how feed-
+back is interpreted. In sum, these material-discursive tools have
+great potential to support memory and understanding in mediating
+students’ cognitive engagement at the low-order level.
+Applying: Applying refers to students applying feedback infor-
+mation to accommodate with their diverse learning needs, perfor-
+mance goals, and adopting monitoring and other metacognitive
+strategies [ 26]. Technology mediation enables this process to oc-
+cur. For example, LMS interface allows side-by-side comparison
+of different feedback sources, which is a basic step for generating
+internal feedback [29].
+Evaluative analysis: Making evaluative judgements is a crucial
+component in both student feedback literacy and internal feed-
+back generation processes [ 44] [10]. Technological affordances may
+shape when and how students identify the differences between
+teacher feedback, peer feedback and automated feedback. Collabo-
+rative annotation tools (e.g.Hypothesis, Leganto) enable feedback
+elicited from multiple sources and support students in making dis-
+tinctions.
+Creating: In this study, creating is understood with two mean-
+ings: (1). Students, who act as feedback givers, provide meaningful
+feedback information to themselves and their peers; (2). Students
+create their own feedback mechanic systems to inform their learn-
+ing in a long term. In other words, students are enabled to flexibly
+choose the feedback approaches that best meet their own learning
+needs.
+4.2 Behavioral Online Feedback Engagement
+Building upon [ 31], Winstone et al.,[ 41] emphasizes accessing and
+paying attention as two dimensions of e-feedback engagement.
+Zhan et al.[ 46] explored behavioral engagement in AI-supported
+environments, where interactions, such as prompt generation with
+GenAI tools, which serves as observable indicators of students’
+engagement. Gan et al.’s[ 13] synthesis further frames behavioralfeedback engagement in terms of participation, persistence, and
+active use of feedback for planning, revision, and self-reflection,
+blurring the lines between cognitive and behavioral dimensions.
+Martin and Borup’s argument—that behavioral engagement serves
+as the visible manifestation of cognitive and affective processes—resonates
+with the perspective adopted in this study. This study understands
+behavioral online feedback engagement as emergent and tangible
+actions, which may somehow reflect cognitive and affective dimen-
+sions. It is co-constructed through the socialmaterial assemblage of
+learners, technologies, features of feedback, and contextual norms.
+It includes practices such as seeking feedback from or through
+both human (peers, teachers) and non-human (e.g., AI, LMS) ac-
+tors, engaging in feedback dialogue to resolve ambiguities, and
+co-constructing revised outputs through technology-mediated plat-
+forms. These observable actions could encompass accessing online
+feedback, initiating feedback dialogues with human or nonhuman
+actors, seeking online feedback clarification.
+4.3 Relational Online Feedback Engagement
+In feedback research, affective engagement is commonly under-
+stood as students’ emotional responses—positive or negative—and
+the value they attribute to feedback from various sources [ 13] [38]
+[47]. Recognizing that feedback is inherently emotional and rela-
+tional, and drawing on sociomaterial perspectives, this study adopts
+the term relational engagement to foreground the notion. Rela-
+tional feedback engagement in online contexts can be understood
+across two interrelated layers. First, it involves students’ emotional
+responses to feedback comments—whether provided by teachers,
+peers, or technological systems in synchronous or asynchronous on-
+line learning settings [ 27] [35]. Second, it underscores how students
+negotiate a sense of belonging, inclusion, and emotional security
+within digitally mediated learning communities.
+While some studies treat affective engagement and communica-
+tion engagement as distinct constructs [ 28], this study deliberately
+uses relational engagement to integrate both, recognizing that they
+are often enacted simultaneously through sociomaterial configu-
+rations. Feedback processes are more likely to be enhanced when
+emotional sensitivity, mutual empathy and trust foster relational
+support between interlocutors [ 36] [7]. These relational dynam-
+ics can occur between students and peers, students and teachers,
+or students and technologies. Importantly, interactions between
+these three categories can vary. Compared with human interactions,
+GenAI seems less likely to elicit students’ emotions of embarrass-
+ment or fear [37].
+It remains important to explore how relational affordances—such
+as praise, encouragement of self-efficacy, stimulation of interest,
+curiosity and intrinsic motivation can be meaningfully cultivated in
+a technology-mediated feedback environment. This is particularly
+salient with the growing role of GenAI, whose relational potential
+must be balanced against ethical concerns and culturally situated
+values. Scholars have cautioned against the use of AI in terms of
+its potential biases and ethical dilemmas [34] [25].
+4.4 Collaborative Online Feedback Engagement
+Traditionally, collaborative learning has been defined as “two or
+more people working together toward a shared learning goal”
+253
+L@S ’25, July 21–23, 2025, Palermo, Italy Shijun (Cindy) Chen
+Figure 2: Proposed Conceptual Framework of Student Online
+Feedback Engagement: An Iceberg Model
+[23]. Its theoretical underpinnings span constructivism, sociocul-
+tural theory—particularly Vygotsky’s Zone of Proximal Develop-
+ment (ZPD)—and self-regulated learning frameworks such as co-
+regulation and socially shared regulation [ 19]. In feedback research,
+collaboration is enacted through peer feedback activities in tri-
+ads, where learners take on dual roles as feedback providers and
+receivers [39].
+From a sociomaterial perspective, collaborative online feedback
+engagement is emergent from the entangled interplay between
+human and nonhuman actors. For example, natural language pro-
+cessing (NLP)-based adaptive measures can direct learners in peer
+feedback analysis [ 3], thus shaping the nature and focus of peer
+collaboration. AI-assisted peer feedback helps to improve the qual-
+ity of feedback content [ 9] and enhance student feedback literacy
+[45]. In platforms like Perusall or Microsoft Teams, peer feedback is
+shaped by technology affordances which mediates and constrains
+how learners contribute. A seemingly simple thumbs-up function
+can act as a mediating artefact that allows feedback receivers to
+express appreciation or show recognition, which reinforce social
+bonds and potentially motivate students to engage more in future
+learning activities.
+5 Discussion and Implications
+Drawing upon a sociomaterial perspective, this research contributes
+to the literature by proposing a conceptual framework for student
+online feedback engagement in an iceberg model (see Figure ??).
+The iceberg shape is not intended to suggest a hierarchical re-
+lationship among the dimensions. Instead, it is to highlight that
+behavioral engagement and collaborative engagement are more
+visible and tangible in research, which might be easier to detect
+and identify, for example, using trace data in learning analytics.
+This newly established framework provides a more comprehensive
+understanding of student feedback engagement in online settings
+by accounting for dimensions of cognitive, behavioral, relational
+and collaborative engagement. The cognitive dimension spans from
+lower order cognition to higher order cognition with five elements:
+remembering, understanding, applying, evaluative analysis, and
+creating. A key contribution of this cognitive dimension lies in its
+theoretical foundation, which is based on a reconstructed version of
+Bloom’s Taxonomy adapted specifically for the context of feedback
+to identify cognitive engagement across levels.The behavioral dimension of feedback is perceived as tangible ac-
+tions that students enact with technological materials which may re-
+flect cognitive, collaborative, and relational dimensions. It involves
+students’ actions of feedback seeking, asking for clarification and
+initiating or engaging in feedback dialogues. The relational dimen-
+sion of feedback captures not only students’ emotional responses
+but also the interpersonal relationships with both humans and
+technologies. Lastly, the collaborative dimension focuses on peer-
+to-peer interaction and the ways students engage with non-human
+actors, such as digital platforms or AI tools, in co-constructing
+feedback experiences.
+These multidimensional insights open up promising directions
+for future research. In particular, studies could investigate how var-
+ious feedback technologies scaffold the progression from lower- to
+higher-order cognitive engagement. Moreover, further exploration
+is needed to understand how technological systems mediate collab-
+orative feedback practices and shape emerging feedback ecologies.
+References
+[1]Rola Ajjawi and David Boud. 2018. Examining the nature and effects of feedback
+dialogue. Assessment & Evaluation in Higher Education 43, 7 (2018), 1106–1119.
+[2]Albert Bandura. 1999. Social cognitive theory: An agentic perspective. Asian
+journal of social psychology 2, 1 (1999), 21–41.
+[3]Elisabeth Bauer, Martin Greisel, Ilia Kuznetsov, Markus Berndt, Ingo Kollar,
+Markus Dresel, Martin R Fischer, and Frank Fischer. 2023. Using natural language
+processing to support peer-feedback in the age of artificial intelligence: A cross-
+disciplinary framework and a research agenda. British Journal of Educational
+Technology 54, 5 (2023), 1222–1245.
+[4]David Boud and Elizabeth Molloy. 2013. Rethinking models of feedback for
+learning: the challenge of design. Assessment & Evaluation in higher education
+38, 6 (2013), 698–712.
+[5]David Carless. 2016. Feedback as dialogue. Encyclopedia of educational philosophy
+and theory (2016), 1–6.
+[6]David Carless and David Boud. 2018. The development of student feedback liter-
+acy: enabling uptake of feedback. Assessment & Evaluation in Higher Education
+43, 8 (2018), 1315–1325.
+[7]David Carless and Naomi Winstone. 2023. Teacher feedback literacy and its
+interplay with student feedback literacy. Teaching in higher education 28, 1 (2023),
+150–163.
+[8]John W Creswell and J David Creswell. 2017. Research design: Qualitative, quan-
+titative, and mixed methods approaches. Sage publications.
+[9]Ali Darvishi, Hassan Khosravi, Shazia Sadiq, and Dragan Gašević. 2022. Incorpo-
+rating AI and learning analytics to build trustworthy peer assessment systems.
+British Journal of Educational Technology 53, 4 (2022), 844–875.
+[10] María Fernández-Toro and Annette Duensing. 2021. Repositioning peer marking
+for feedback literacy in higher education. Assessment & Evaluation in Higher
+Education 46, 8 (2021), 1202–1220.
+[11] Jennifer A Fredricks. 2011. Engagement in school and out-of-school contexts: A
+multidimensional view of engagement. Theory into practice 50, 4 (2011), 327–335.
+[12] Jennifer A Fredricks, Phyllis C Blumenfeld, and Alison H Paris. 2004. School
+engagement: Potential of the concept, state of the evidence. Review of educational
+research 74, 1 (2004), 59–109.
+[13] Zhengdong Gan, Wei Wei, and Guoxing Yu. 2025. Feedback engagement as
+a multidimensional construct: a validation study. Assessment & Evaluation in
+Higher Education 50, 2 (2025), 279–294.
+[14] Barney G Glaser. 1965. The constant comparative method of qualitative analysis.
+Social problems 12, 4 (1965), 436–445.
+[15] Lesley Gourlay and Martin Oliver. 2018. Student engagement in the digital univer-
+sity: Sociomaterial assemblages. Routledge.
+[16] Karen Gravett. 2022. Feedback literacies as sociomaterial practice. Critical Studies
+in Education 63, 2 (2022), 261–274.
+[17] Karen Gravett. 2024. Postdigital Relational Pedagogies. In Encyclopedia of
+Postdigital Science and Education. Springer, 1–4.
+[18] Karen Gravett and Naomi E Winstone. 2019. ‘Feedback interpreters’: the role of
+learning development professionals in facilitating university students’ engage-
+ment with feedback. Teaching in Higher Education 24, 6 (2019), 723–738.
+[19] Allyson Hadwin, Sanna Järvelä, and Mariel Miller. 2017. Self-regulation, co-
+regulation, and shared regulation in collaborative learning environments. In
+Handbook of self-regulation of learning and performance. Routledge, 83–106.
+[20] Karen Handley, Margaret Price, and Jill Millar. 2011. Beyond ‘doing time’: In-
+vestigating the concept of student engagement with feedback. Oxford Review of
+254
+Conceptualizing Online Feedback Engagement from a Sociomaterial Perspective L@S ’25, July 21–23, 2025, Palermo, Italy
+Education 37, 4 (2011), 543–560.
+[21] John Hattie and Helen Timperley. 2007. The power of feedback. Review of
+educational research 77, 1 (2007), 81–112.
+[22] Lasse X Jensen, Margaret Bearman, and David Boud. 2021. Understanding feed-
+back in online learning–A critical review and metaphor analysis. Computers &
+Education 173 (2021), 104271.
+[23] Heisawn Jeong and Kylie Hartley. 2018. Theoretical and methodological frame-
+works for computer-supported collaborative learning. In International handbook
+of the learning sciences. Routledge, 330–339.
+[24] David R Krathwohl. 2002. A revision of Bloom’s taxonomy: An overview. Theory
+into practice 41, 4 (2002), 212–218.
+[25] Sang Joon Lee and Kyungbin Kwon. 2024. A systematic review of AI education
+in K-12 classrooms from 2018 to 2023: Topics, strategies, and learning outcomes.
+Computers and Education: Artificial Intelligence 6 (2024), 100211.
+[26] Martijn Leenknecht, Priscilla Hompus, and Marieke van der Schaaf. 2019. Feed-
+back seeking behaviour in higher education: the association with students’ goal
+orientation and deep learning approach. Assessment & Evaluation in Higher
+Education 44, 7 (2019), 1069–1078.
+[27] Lisa-Angelique Lim, Shane Dawson, Dragan Gašević, Srecko Joksimović,
+Abelardo Pardo, Anthea Fudge, and Sheridan Gentili. 2021. Students’ perceptions
+of, and emotional responses to, personalised learning analytics-based feedback:
+An exploratory study of four courses. Assessment & Evaluation in Higher Educa-
+tion46, 3 (2021), 339–359.
+[28] Florence Martin and Jered Borup. 2022. Online learner engagement: Conceptual
+definitions, research themes, and supportive practices. Educational Psychologist
+57, 3 (2022), 162–177.
+[29] David Nicol. 2021. The power of internal feedback: Exploiting natural comparison
+processes. Assessment & Evaluation in higher education 46, 5 (2021), 756–778.
+[30] Ernesto Panadero, Anders Jonsson, and Juan Botella. 2017. Effects of self-
+assessment on self-regulated learning and self-efficacy: Four meta-analyses. Ed-
+ucational research review 22 (2017), 74–98.
+[31] Margaret Price, Karen Handley, and Jill Millar. 2011. Feedback: Focusing attention
+on engagement. Studies in higher education 36, 8 (2011), 879–896.
+[32] Petrea Redmond, Amanda Heffernan, Lindy Abawi, Alice Brown, and Robyn
+Henderson. 2018. An online engagement framework for higher education. Online
+learning 22, 1 (2018), 183–204.
+[33] Johnmarshall Reeve and Ching-Mei Tseng. 2011. Agency as a fourth aspect
+of students’ engagement during learning activities. Contemporary educational
+psychology 36, 4 (2011), 257–267.
+[34] Jürgen Rudolph, Samson Tan, and Shannon Tan. 2023. ChatGPT: Bullshit spewer
+or the end of traditional assessments in higher education? Journal of applied
+learning and teaching 6, 1 (2023), 342–363.
+[35] Claudia Schrader and Robert Grassinger. 2021. Tell me that I can do it better. The
+effect of attributional feedback from a learning technology on achievement emo-
+tions and performance and the moderating role of individual adaptive reactionsto errors. Computers & Education 161 (2021), 104028.
+[36] Anna Steen-Utheim and Anne Line Wittek. 2017. Dialogic feedback and poten-
+tialities for student learning. Learning, Culture and Social Interaction 15 (2017),
+18–30.
+[37] Tzu-Yu Tai and Howard Hao-Jan Chen. 2024. Improving elementary EFL speaking
+skills with generative AI chatbots: Exploring individual and paired interactions.
+Computers & Education 220 (2024), 105112.
+[38] Hui Yong Tay and Karen WL Lam. 2022. Students’ engagement across a typology
+of teacher feedback practices. Educational Research for Policy and Practice 21, 3
+(2022), 427–445.
+[39] Keith Topping. 2017. Peer assessment: Learning by judging and discussing the
+work of other learners. Interdisciplinary Education and Psychology 1, 1 (2017),
+1–17.
+[40] Kim-Daniel Vattøy, Siv M Gamlem, and Wenke Mork Rogne. 2021. Examining stu-
+dents’ feedback engagement and assessment experiences: a mixed study. Studies
+in Higher Education 46, 11 (2021), 2325–2337.
+[41] Naomi Winstone, Jessica Bourne, Emma Medland, Irina Niculescu, and Roger
+Rees. 2021. “Check the grade, log out”: students’ engagement with feedback in
+learning management systems. Assessment & Evaluation in Higher Education 46,
+4 (2021), 631–643.
+[42] Naomi E Winstone, Robert A Nash, Michael Parker, and James Rowntree. 2017.
+Supporting learners’ agentic engagement with feedback: A systematic review
+and a taxonomy of recipience processes. Educational psychologist 52, 1 (2017),
+17–37.
+[43] Zi Yang Wong and Gregory Arief D Liem. 2022. Student engagement: Current
+state of the construct, conceptual refinement, and future research directions.
+Educational Psychology Review 34, 1 (2022), 107–138.
+[44] Zi Yan and David Carless. 2022. Self-assessment is about more than self: the
+enabling role of feedback literacy. Assessment & Evaluation in Higher Education
+47, 7 (2022), 1116–1128.
+[45] Qiuchen Yu, Jiangfeng Gou, Yan Li, Zhongling Pi, and Jiumin Yang. 2024. Introduc-
+ing support for learner control: Temporal and organizational cues in instructional
+videos. British Journal of Educational Technology 55, 3 (2024), 933–956.
+[46] Ying Zhan, David Boud, Phillip Dawson, and Zi Yan. 2025. Generative artificial
+intelligence as an enabler of student feedback engagement: a framework. Higher
+Education Research & Development (2025), 1–16.
+[47] Ying Zhan and Zi Yan. 2025. Students’ engagement with ChatGPT feedback:
+implications for student feedback literacy in the context of generative artificial
+intelligence. Assessment & Evaluation in Higher Education (2025), 1–14.
+[48] Fuhui Zhang, Christian Schunn, Sisi Chen, Wentao Li, and Rui Li. 2023. EFL stu-
+dent engagement with giving peer feedback in academic writing: A longitudinal
+study. Journal of English for Academic Purposes 64 (2023), 101255.
+[49] Miriam Zukas and Janice Malcolm. 2019. Reassembling academic work: A socio-
+material investigation of academic learning. Studies in Continuing Education 41,
+3 (2019), 259–276.
+255

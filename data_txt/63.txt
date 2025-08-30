@@ -1,0 +1,567 @@
+Educational Philosophy and Theory
+ISSN: 0013-1857 (Print) 1469-5812 (Online) Journal homepage: www.tandfonline.com/journals/rept20
+Barbie meets generative AI in education: Neither
+artiﬁcial nor intelligent?
+Carmen Vallis
+To cite this article: Carmen Vallis (19 Mar 2025): Barbie meets generative AI in
+education: Neither artiﬁcial nor intelligent?, Educational Philosophy and Theory, DOI:
+10.1080/00131857.2025.2480770
+To link to this article:  https://doi.org/10.1080/00131857.2025.2480770
+© 2025 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group.
+Published online: 19 Mar 2025.
+Submit your article to this journal 
+Article views: 1073
+View related articles 
+View Crossmark data
+Citing articles: 1 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=rept20
+Educational PhilosoPhy and thEory
+Barbie meets generative AI in education: Neither artificial 
+nor intelligent?
+Carmen Vallis 
+the university of s ydney Business s chool, the university of s ydney, s ydney, a ustralia
+ABSTRACT
+This article examines sociotechnical imaginaries of generative artificial 
+intelligence (GenAI) through the cultural lens of the film Barbie . The 
+hyperreal setting of Barbieland serves as a prescient metaphor for edu -
+cation in an increasingly synthetic world where the real and artificial 
+converge. By analysing representations of artificiality and authenticity in 
+the film, I argue that similar cultural assumptions and anxieties shape 
+how GenAI is understood and implemented in education. The Barbie 
+doll’s transformation from plastic figure to ‘real’ human raises questions 
+about embodiment and identity that parallel debates about 
+human-machine relationships in learning environments. Drawing on con -
+cepts of simulacra and agential realism, I explore how narratives of 
+technological empowerment influence educational practice. By juxtapos -
+ing Western-centric views of Barbie  with Indigenous perspectives, par -
+ticularly Ellen van Neerven’s ‘Water’ , the article critiques dominant cultural 
+narratives about technology and intelligence. This comparison challenges 
+commercial imaginaries of technological empowerment and suggests 
+more diverse, culturally responsive approaches are needed to integrate 
+GenAI in education.
+Introduction
+Talk about generative artificial intelligence (GenAI) in education tends to extremes. These AI 
+systems, which algorithmically generate text, images, and code, have also generated much 
+debate in education (Peters et  al., 2023 ; Sidorkin, 2024 ). GenAI is understood as a ‘seismic shift’ 
+in technology and society, requiring an urgent response, as educational roles, responsibilities, 
+and decision-making begin to quake (Bearman et  al., 2023 , p. 380). Technological advancement 
+is expected to drive change in educational delivery, learning processes, and outcomes (Harasim, 
+2000 ). But does GenAI possess such power? GenAI is neither artificial nor intelligent, rather 
+these technologies mirror our sociotechnical and educational imaginaries. Analysis of such 
+imaginaries in popular texts may help reveal unseen assumptions that shape educational practice 
+(Dishon, 2024 ).
+© 2025 the a uthor(s). Published by i nforma uK limited, trading as taylor & Francis Group.CONTACT carmen Vallis  carmen.vallis@sydney.edu.au   the university of s ydney Business s chool, the university of 
+sydney, s ydney, a ustralia
+this is an o pen a ccess article distributed under the terms of the c reative c ommons a ttribution-nonc ommercial-nod erivatives license ( http://
+creativecommons.org/licenses/by-nc-nd/4.0/ ), which permits non-commercial re-use, distribution, and reproduction in any medium, provided 
+the original work is properly cited, and is not altered, transformed, or built upon in any way. the terms on which this article has been 
+published allow the posting of the a ccepted Manuscript in a repository by the author(s) or with their consent.ARTICLE HISTORY
+Received 21 October 2024
+Accepted 3 March 2025
+KEYWORDS
+Generative artificial 
+intelligence; 
+sociotechnical 
+imaginaries; educational 
+technology; authenticityhttps://doi.org/10.1080/00131857.2025.2480770
+2 C. VALLIS
+This article examines the implications of GenAI in education through deconstructing the hit 
+film Barbie  (Gerwig, 2023 ). The hyperreal world of Barbieland serves as a prescient metaphor 
+for the challenges provoked by GenAI in our increasingly synthetic world, where the real and 
+artificial converge. The iconic Barbie doll epitomises artificiality through its manufactured nature 
+as a copy of an idealised, contemporary woman: an object and a woman objectified. Materially 
+and culturally, Barbie operates as a synthetic signifier of consumer culture, a pink marketing 
+confection that is both contrived and unnatural, yet has real, natural consequences and inter -
+actions in the world. I examine these conceptions of intentional fakeness and authenticity 
+through Barbieland, where Barbie’s transformation from plastic doll to human brings into focus 
+issues of embodiment and identity that parallel current debates around AI.
+I argue that the film Barbie  and GenAI in education both play into myths and fears surrounding 
+artificiality and intelligence, and these attitudes may be productively challenged by considering 
+diverse social imaginaries. Echoing Dishon’s ( 2021 ) call to clarify authenticity in educational tech -
+nologies, this analysis advocates rethinking GenAI through language and cultural texts. To this end, 
+I contrast Barbieland with an Indigenous speculative futures perspective from Ellen van Neerven’s 
+short story ‘Water’ (2014). Van Neerven, a Yugambeh writer from Queensland, Australia, presents 
+fluid identities and alternative ways of knowing that question binary ideas of gender, embodiment, 
+and the natural world, expanding our conceptual framework for AI in educational contexts.
+Finally, I ask, do we choose Barbie as our posthuman prototype for education? What would 
+education look like with more diverse social imaginaries and conceptual frameworks that con -
+sider artificiality and intelligence as emerging phenomena rather than fixed entities? This framing 
+asks educators and policymakers to advocate for values to shift to more relational, inclusive 
+and culturally responsive approaches.
+Theoretical framing
+Sociotechnical imaginaries, collectively held visions of technology’s role in society (Jasanoff & 
+Kim, 2009 ), underly the development and implementation of GenAI in education. These imag -
+inaries influence policy decisions, educational practices, and public discourse about what AI can 
+and should do in teaching and learning contexts (Rahm & Rahm‐Skågeby, 2023 ). By analysing 
+cultural representations like the film Barbie , we can surface the assumptions and values embed -
+ded in these imaginaries that inform educational approaches to GenAI.
+To support this analysis, I draw on Barad’s ( 2003 ) concept of agential realism, which rejects 
+fixed, inherent properties and instead understands phenomena as emerging through complex 
+intra-actions. According to this theory, matter and meaning are mutually constituted through 
+material-discursive practices. The material world and human culture or knowledge are deeply 
+connected to the ways we discuss and understand them, and to how reality is produced and 
+experienced. Our ideas and language have real-world effects, just as physical realities shape 
+our thoughts and communications.
+Barbie, both as film and material object, participates in material-discursive practices that 
+produce meanings and implications not predetermined by their nature. While Barbie’s fantastic, 
+plastic body may be perceived as ‘unnatural’ and artificial, it emerges from and contributes to 
+complex societal, technological, and economic practices, and has real, natural consequences 
+and interactions in the world. Similarly, GenAI outputs are inseparable from human inputs and 
+interpretations; humans and technology affect one another, and are influenced by society’s 
+views and expectations, as well as how we use and interact with these technologies in practice.
+Barbieland
+Artificiality is at the plastic heart of the Barbie  film (2023). Barbieland is a hyper-fabricated world 
+that celebrates artificiality, revelling in Barbie’s status as both an icon and a commercial product. 
+EDuCATIONAL  PHILOSOPHY  AND  THEORY 3
+The film’s vibrant pink sets, stylised lighting, and camera lenses and movements create a visually 
+artificial aesthetic, while the costumes evoke nostalgia by referencing decades of Barbie fashion. 
+In an interview, Barbie  cinematographer Rodrigo Prieto describes how Director Greta Gershwig 
+leaned into this intentional fakeness.
+Greta called it ‘authentic artificiality. ’ We wanted this world to feel authentic even though it’s artificial… 
+There’s a certain magic, and the only rule is it has to look lovely. Every day is perfect in Barbieland, until 
+she starts getting existential. That’s when things change (Hazlewood, 2023 )
+The hyperreal aesthetic parallels how educational AI is marketed: as a magical solution for 
+effortless content creation. EdTech vendors amplify this narrative, but beneath the artifice GenAI 
+remains fundamentally ‘algorithms created by humans over time, enacted in software and run -
+ning on machines’ (Costello, 2024 , p. 427).
+In Barbie , artifice and reality are contrasted through visual design. While Barbieland appears 
+perfect and plastic-like, ‘real-world’ scenes have a more naturalistic cinematographic style 
+(Hazlewood, 2023 ). This contrast visually expresses the film’s complex treatment of the interplay 
+between fake and real, natural and artificial. The set design evolves with Barbie’s character arc, 
+as her existential crisis disrupts Barbieland’s artificial perfection. Barbie’s angst is echoed in Billie 
+Eilish’s soundtrack song ‘What Was I Made For?’ , which asks after the purpose and authenticity 
+of an artificial world.
+As Barbie begins to question everything, the audience sees Barbieland change; perception 
+changes the world. This reflects the Baradian idea that perception actively co-constructs reality. 
+Just as the reality of Barbieland shifts with Barbie’s increasing self-awareness, the integration 
+of GenAI in education is not a fixed entity but one co-constructed through shifting perceptions 
+and social imaginaries surrounding its potential. How we imagine GenAI’s potential in education 
+influences how we develop and use it.
+In a broad sense, Barbieland reflects contemporary Western societies that are becoming more 
+artificial and less natural, less authentic, in material and abstract ways. Digital spaces, particularly 
+social media, are filled with copies and facsimiles of people, emotions, and texts, complicating 
+our understanding of what is real or authentic. The representations are often performances 
+designed for public consumption, further distancing users from any inherent reality (Taylor, 
+2022 ). Memes, in particular, express a sense of authenticity by deconstructing and remixing 
+cultural truths or emotions that resonate with audiences that paradoxically become more distant 
+with each iteration from the original source (Taylor, 2022 ).
+The humour in Barbie  is self-referential and self-aware, drawing attention to the artificiality 
+of Barbieland with a knowing wink to the audience. The film has been praised for its smart, 
+satirical exploration of gender roles, and the contradictions of femininity, consumerism, and 
+societal expectations. Some argue that Barbie has evolved from a symbol of restrictive gender 
+norms to an icon of female empowerment (Maines, 2024 ). Yet this transformation also suggests 
+that artificial constructs can be repackaged for different audiences without changing their 
+fundamental commercial purpose, a pattern that echoes the marketing of educational technology 
+(Selwyn, 2022 ).
+Similarly, influencers engage followers and promote brands by being ‘authentic’ , appearing 
+relatable and personal to their audiences, while balancing the expectations of brands as mar -
+ketable commodities (Van Driel & Dumitrica, 2021 ). Culturally, it has become acceptable, even 
+desirable, for social media influencers to position themselves as authentic and self-aware 
+(Kádeková & Holienčinová, 2018 ). The ironic, self-aware tone of Barbie  resonates with younger, 
+more media-savvy audiences by aligning itself with contemporary cultural issues of feminism, 
+gender identity, and consumerism while promoting licenced products.
+However, the film’s clever satire and social commentary licks rather than bites. In the film, 
+real-world gender dynamics are playfully inverted—Barbieland is a female-dominated world 
+where women reign and males (Kens) are ignored—how funny, what a fantasy! Mattel’s 
+4 C. VALLIS
+executives are lampooned as an elite corporate patriarchy, their power and privilege exaggerated 
+in the sleek, minimalist offices of its towering headquarters. As a feminist critique, Barbie’s 
+unrealistic, distorted world is used to mock and entertain. Despite these playful social critiques, 
+the film upholds the patriarchal, capitalist values it pretends to subvert (Balsam, 2023 ).
+Barbie’s artificial perfection and journey towards humanity parallel educational debates about 
+AI authenticity. Just as Barbieland presents an idealised but problematic vision of empowerment 
+through artificiality, AI promises of automated learning risk prioritising technological solutions 
+over human relationships in education. The film’s commercial imperative similarly mirrors how 
+educational technology is often led by market forces and ‘the visionary promises of inventors, 
+investors, and industry figures’ , rather than pedagogical needs (Williamson et  al., 2024 , p. 427).
+Barbie’s unnatural body
+In the film Barbie , bodies are both cultural artefacts and sites of meaning. The Barbie dolls exist 
+through artificially constructed, perfect bodies; their being is uncoupled from biological needs 
+and nature. Their experience of the world is mediated through these manufactured forms, 
+making them both consumers and products of artificial ideals.
+The film’s inciting incident occurs when Stereotypical Barbie (Margot Robbie) is disturbed by 
+negative thoughts and her feet suddenly flatten. Barbie decides to travel to the ‘real world’ to 
+find the disturbed child playing with her and fix this malfunction. Barbieland limits Barbie’s 
+knowledge to believing girls love Barbie dolls because they embody unlimited potential and 
+female empowerment.
+Stereotypical Barbie leaves Barbieland and ventures into the Real World. There Barbie con -
+fronts her creators at Mattel, the executives who literally and metaphorically want to put Barbie 
+back in a box. After battling a ‘Kendom’ in a changed Barbieland, she chooses to embrace 
+humanity with all its flaws. At the end of the film, Barbie transforms from man-made object to 
+a ‘real’ woman via a visit to the gynaecologist. Gender is ascribed as a biological and material 
+process, rather than a cultural one. This shift from plastic to flesh-and-blood destabilises ideas 
+about embodiment and how physical form defines our experience of reality. Barbie’s under -
+standing of reality is grounded in an imaginary plastic form that cannot have corporeal and 
+sensory experiences like drinking and eating. Yet Barbie’s embodied nature does not prevent 
+her from perceiving and interacting with our environment in human ways.
+Toffoletti ( 2007 ) contends that Barbie’s plastic, artificial form transcends fixed categories of 
+being, functioning as a posthuman figure that complicates our experience of reality and expands 
+notions of identity. Barbie represents the merging of the nonhuman (plastic) with the biological 
+(human form), becoming an object imbued with personality and agency and a symbol for fluid 
+identity in our technologically immersed society (Toffoletti, 2007 ).
+In the film, Barbie’s choice to become human suggests artificial beings may have genuine 
+agency beyond their predetermined nature. Barbie can override her manufactured forms and 
+predetermined role. When Barbie asks, ‘so being human is not something I need to ask for? Or 
+even want? I can just… it’s something I discover I am?’ , she voices one of our greatest anxieties 
+about GenAI.
+The posthuman and imaginary emerge as clear distinctions collapse (Dishon, 2024 ). Human 
+thought, interpretation and actions are profoundly influenced by our interactions with physical 
+objects and their associated symbolic meanings (Lacković & Olteanu, 2021 ). In Barbie,  the tech -
+nical, material, cultural, and commercial artificiality are entangled. Barbie may also be read as 
+an ambiguous, posthuman imaginary and cultural text that anticipates challenges posed by 
+GenAI as it increasingly blurs the lines between human and machine capabilities in education.
+A fluid conception of identity and reality resonates with many Indigenous ontologies that 
+view the world as interconnected, with permeable boundaries between human, non-human 
+and more-than-human entities. unlike Western dichotomies of nature/culture or real/artificial, 
+EDuCATIONAL  PHILOSOPHY  AND  THEORY 5
+Indigenous ways of knowing often embrace multiplicity and recognise the agency of non-human 
+actors in co-creating reality (Zembylas, 2023 ). This perspective offers a different view of Barbie’s 
+cultural and material transformation, alongside the parallel tensions emerging in GenAI-enabled 
+education. While the film resolves these tensions through individual empowerment and consumer 
+choice, Indigenous ontologies suggest alternative approaches to human-technology relationships 
+in learning environments.
+Barbie as educational technology
+The Barbie  imaginary promises a future of luxury and ease, powered by sheer aspiration, tech -
+nology and consumerism. Likewise, AI is often framed as a progressive tool that can algorith -
+mically transform education through adapting to students’ individual needs and preferences 
+(Wong & Looi, 2024 ). This consumer-driven model of empowerment is embodied by Barbie  and 
+in GenAI discourses of ‘personalisation’ from companies such as Khan Academy (Khan, 2023 ). 
+Such imaginaries of empowerment provide superficial solutions and mask the deeper ethical, 
+social, and human implications of these tools. They conflict with Indigenous epistemologies 
+that value collective knowledge and relational ways of knowing (Martin, 2017 ).
+The social, cultural, and economic influence of Mattel’s Barbie dolls that shape and are shaped 
+by human activity are well documented (Pearson & Mullins, 1999 ; Toffoletti, 2007 ). Stereotypical 
+Barbie embodies an idealised, artificial standard of eternal youth and flawless beauty that is 
+unattainable, reflecting Western society’s ageist attitudes. In many Indigenous cultures, on the 
+contrary, elders are highly respected for their knowledge and life experience, for their storytelling 
+that imparts wisdom and encourages connections across generations and cultures (Souza, 2023 ). 
+Mattel’s sociotechnological innovation is to respond to evolving social mores by relentlessly 
+reconstructing and commodifying plastic identities, to maintain the consumption of Barbie 
+goods and entertainment through contrived narratives.
+The film refers to Mattel’s long tradition of marketing Barbie dolls as a tool for empowerment, 
+encouraging girls to imagine themselves in any career, from astronauts to doctors. Barbieland 
+is stocked with these dolls, such as President Barbie and Doctor Barbie. Much has been written 
+about Barbie’s social function (Griggs et  al., 2023 ; Shah, 2020 ). In this sense, Barbie  continues 
+a long tradition of promoting a material, educational technology that teaches girls about fem -
+inine fashion and social roles. See Figure 1 .
+While Barbie functions as a technology through its modelling of social roles, its evolution 
+towards intelligence complicates our understanding of artificial agents in educational contexts. 
+Technologies, much like Barbie, participate in the ongoing reconfiguration of the world. Just as 
+Barad’s agential realism helps us understand Barbie as a phenomenon emerging through 
+intra-actions, GenAI may be conceptualised as a fluid rather than fixed entity, shifting between 
+algorithms, data, humans, and social contexts. Neither humans nor AI function as separate, 
+autonomous entities.
+Deconstructing Stereotypical Barbie’s journey in the film from artificial to ‘real’ , we find no 
+fixed, inherent properties, not in the artificial perfection of Barbieland, nor in the supposedly 
+‘real’ world. Barbie embodies Baudrillard’s concept of simulacra (1994), as a copy without an 
+original. The film constructs multiple layers of simulation (dolls imitating humans, actors playing 
+dolls, artificial worlds mimicking reality), just as GenAI systems generate synthetic content that 
+simulates human-created work. This raises complex questions for education: How do we assess 
+authenticity when GenAI can produce convincing ‘original’ essays? What constitutes genuine 
+learning in an environment where both knowledge and its expression can be artificially 
+generated?
+When it comes to educational technology, discussions tend to polarise into deterministic 
+binaries, seen either as inevitable disruptors or simplistic solutions (Matthews, 2021 ). This 
+divide holds true for generative AI. For better or worse, GenAI is expected to transform 
+6 C. VALLIS
+educational dynamics by redistributing authority, traditionally held by teachers, across staff, 
+students, systems, and corporate interests (Bearman et  al., 2023 ). Many researchers call for 
+more critical perspectives of GenAI adoption (Baker & Hawn, 2022 ; Essien et  al., 2024 ; 
+Markauskaite et  al., 2022 ; Peters et  al., 2023 ; Williamson et  al., 2024 ). Integrating algorithmic 
+decision-making systems will require thoughtful evaluation of context, task criticality, and 
+ethical dimensions to balance human and AI autonomy in teaching and learning (Bahroun 
+et  al., 2023 ; Prinsloo et  al., 2023 ).
+AI systems, intentionally or not, amplify biases by reflecting both statistical and societal 
+biases from historical inequities and underrepresentation (Baker & Hawn, 2022 ). Barbie’s plastic 
+vacuousness parallels AI, which, as a ‘stochastic parrot’ , mimics human behaviour, ‘that reinforces 
+and propagates stereotypes and problematic associations’ (Bender et  al., 2021 , p. 617). In edu -
+cational contexts, these biases manifest in unequal treatment of students from underrepresented 
+backgrounds, reinforcing existing disparities in access and outcomes (Baker & Hawn, 2022 ).
+Figure 1.   (1950sunlimited, 2012 ) cc B y 2.0.
+EDuCATIONAL  PHILOSOPHY  AND  THEORY 7
+(De)generative AI in education
+Artificial constructs, whether material plastic or AI algorithms, are reconfiguring our notions of 
+identity, authenticity, and education. The future of GenAI in education is unknown and unsettling 
+(Vallis et al., 2024 ). Potentially, artificial intelligence could undermine the interpersonal and 
+affective aspects of teacher-student relationships (Sidorkin, 2024 ). Synthetic media and 
+AI-generated videos introduce new ethical challenges, including the potential misuse of deep -
+fakes to simulate presence in online classes (Vallis et  al., 2024 ). These transformative and 
+potentially deteriorative processes reflect what we might call (de)generative AI.
+Artificial systems follow similar patterns of decay. Both Barbie and AI, despite their appear -
+ance of permanence, are subject to natural processes of decay. The plastic PVC material of 
+Barbie dolls degrades slowly: its complete decomposition takes centuries, as its polymer frag -
+ments into microplastics that leach chemicals into ecosystems. Similarly, the data in AI systems 
+may also rot and drift, producing lower quality outputs when training data becomes outdated, 
+algorithms accumulate errors, or they fail to adapt to evolving real-world conditions (Baker & 
+Hawn, 2022 ). Increasingly AI deepfakes are so convincing that it’s difficult to distinguish between 
+human and code, between who is real and what is not. GenAI technology produces realities 
+that feel authentic. Synthetic outputs seem so natural that ultimately, they may extend or 
+transcend our conceptions of human intelligence and creativity (Peters et  al., 2023 ).
+This entails acknowledging both the creative potential and deteriorative processes of tech -
+nology; what we might call (de)generative AI. Over time, AI may degrade human capacities and 
+social structures, rather than improve them. GenAI’s outputs, while impressive, can lack depth 
+and human insight (Essien et  al., 2024 ). Overreliance on AI-generated ideas can limit students’ 
+ability to think independently or develop more original solutions and reduce creativity (Habib 
+et  al., 2024 ). It might also hinder critical thinking and dehumanise education if AI takes over 
+tasks that require empathy, communication, and personal judgement, diminishing the importance 
+of these human skills (Bahroun et  al., 2023 ). AI tools promise increased productivity and objec -
+tivity in research, but also pose significant epistemic risks, such as creating the illusion of 
+understanding more than they actually do (Messeri & Crockett, 2024 ).
+The implications of artificial constructs extend beyond their immediate effects. Much like 
+Barbie, it is what we imagine GenAI is used for that produces harm. Both function as technol -
+ogies that reshape understanding and behaviour through their commercial deployment. Barbie 
+is a homogenised commodity; educational policy and practice must resist similar commercial -
+isation and corporatisation of teaching and learning through GenAI. The true Barbieland is a 
+brand and product ecosystem that functions as a technology for generating profits and shaping 
+consumer behaviour, beyond physical dolls. Barbie’s extensive transmedia franchise, spanning 
+film, games, and apps, makes Barbie a commercial media platform (Bradshaw, 2023 ). This pattern 
+of commodification is a growing risk with AI’s expanding role in educational spaces (Selwyn, 
+2022 ; Williamson et  al., 2024 ).
+In society and education, the artificial and natural are increasingly entwined. We have an 
+ethical responsibility to stop perpetuating stereotypes and cultural norms through these tech -
+nologies (Selwyn, 2022 ), whether they take the form of plastic dolls or algorithmic systems. 
+Philosophical questioning and theory help us understand and shape the future of education, 
+so that we may avert making irreversible mistakes in how AI is integrated into educational 
+settings (Sidorkin, 2024 ).
+Indigenous perspectives: Rethinking artificiality
+The consumerist narratives and technological solutionism embedded in Barbieland reflect lim -
+itations in how we imagine GenAI in education. Indigenous speculative fiction, particularly Ellen 
+van Neerven’s story ‘Water’ (2014), presents a radical departure from these frameworks. Whereas 
+8 C. VALLIS
+Barbie’s journey reinforces individual transformation through commercial choices, Indigenous 
+perspectives centre relational ways of understanding identity, embodiment, and the boundaries 
+between natural and artificial. At a time when the idea of intelligence and knowledge is chang -
+ing, education needs a more relational, ethically engaged pedagogy, that shifts away from the 
+Western philosophical traditions of Barbie . Comparing ‘Water’ to the film Barbie , it is apparent 
+that the film reinforces the status quo, despite its surface-level focus on feminism and inclusivity. 
+We can extend this comparison to GenAI in education, and debates surrounding its role in 
+addressing bias, representation, and social impact.
+In ‘Water’ , van Neerven crafts characters who resist ontological boundaries, inviting readers 
+to reconsider notions of being, identity, and reality from an Indigenous Australian perspective. 
+The protagonist, Kaden, an Aboriginal woman, develops a romantic relationship with Larapinta, 
+described as a ‘plant person’ . This interspecies relationship challenges Western ideas of ‘being’ 
+and identity. Kaden asks herself, ‘What will I discover in this uncharted experience? How much 
+of what it means to be human will sway in my mind like a ship?’ (p. 102) As Kaden embarks 
+on an intimate relationship with a non-human, her preconceptions about gender and identity 
+shift across biological horizons.
+Van Neerven’s narrative technique supports this fluidity. The narrative is constrained to Kaden’s 
+limited perspective, so that Larapinta’s inner thoughts and motivations are unknown to the 
+reader. Larapinta’s ambiguous nature, neither fully human nor entirely plant, is further empha -
+sised. By using poetic descriptions of the sexual intimacy between Kaden and Larapinta, the 
+author creates space for readers to speculate and imagine, rather than constraining ideas with 
+realistic, mimetic representations. The boundaries between human and non-human are permeable.
+Moreover, ‘Water’ embodies an Indigenous understanding of the relationship between humans 
+and their environment. Kaden’s relationship with Larapinta serves as a metaphor for her recon -
+nection to her Aboriginal identity and heritage. As she becomes a cultural liaison for the plant 
+people, Kaden also reconnects with her Aboriginal family and ancestral land. She reflects on her 
+feelings towards her home island of Ki: ‘There is a groping sense of relief that I feel something: 
+for this place, in this place. My country. My dad’s country’ (p. 107). u nlike Western cultures that 
+often assume human superiority over nature, Van Neerven’s story reflects an Indigenous worldview 
+where all aspects of existence are interconnected. This connection is deeply rooted in spiritual 
+ties to the land. In Aboriginal cultures, ‘ancestral spirits inhabit the natural world and country is 
+kin’ (White, 2019 , p. 99), entailing a sense of responsibility and reciprocity between humans and 
+their environment. In stark contrast, Barbieland in the Barbie  film represents a Western worldview, 
+where nature serves as a backdrop for human or artificial activities. Barbieland is an environment 
+controlled by commerce rather than harmony and connection with the natural world.
+Kaden’s uncle’s identification of the plant people as ‘our old people’ and ‘spirits’ (p. 113) empha -
+sises a blurring between human, non-human, and spiritual in Indigenous ontologies. Linear Western 
+conceptions of time and identity are disrupted by the plant people: ‘Something happened when 
+the Dugai brought the sea up. They rose with it’ (p. 113), suggesting ancestral spirits can manifest 
+in new forms and times. This non-linear view contrasts with Barbie’s monomythic hero’s journey 
+(Campbell, 2008 ), a linear narrative structure rooted in Western storytelling. Barbie’s journey follows 
+a clear path from her departure from Barbieland, and call to adventure and challenges in the 
+Real World, to her eventual return and choice to embrace humanity. Barbie’s story progresses 
+neatly from problem to resolution while Indigenous narratives, like those involving the plant 
+people, emphasise cyclical time and the fluidity between past, present, and future.
+‘Water’ concludes with Aboriginal and plant people uniting against the government and 
+corporate entities that plan to evacuate and destroy Kaden’s ancestral home of Ki Island, among 
+others, to build ‘Australia2’ , a super-island intended to host First Nations peoples. Van Neerven 
+draws parallels with the British colonial project, which aimed to erase Indigenous cultures, 
+treating them as ‘blank slates’ on which white practices and norms could be inscribed (Watego, 
+2021 ). The story suggests that colonial narratives of progress can be challenged by reconnecting 
+EDuCATIONAL  PHILOSOPHY  AND  THEORY 9
+with the past. ‘Water’ becomes a radical act of hope, imagining a future where Indigenous ways 
+of being and knowing are not just preserved but triumphant.
+Diverse and alternative narratives, such as Indigenous futurism, help us rethink how identity 
+and human-nonhuman relations are conceptualised, paving the way for a more ethical inte -
+gration of GenAI in education. Intelligent teaching and learning need to honour Indigenous 
+ways of knowing, living, and being, which have historically been marginalised or dismissed 
+in academic institutions as incompatible with Western epistemology, ontology, and practices 
+(Zembylas, 2023 ).
+Acquiring knowledge is paramount in Western cultures and often separates the knower from 
+what is known. However, from a Māori perspective, for example, knowledge flows from relationship 
+and connection: it involves being with or being a part of things in a holistic way, and transcends 
+observation or study (Peters et al, 2023 ). Indigenous ways of knowing value experiential, land-based, 
+and intergenerational forms of knowledge that are often overlooked in Western education systems 
+(Martin, 2017 ). While integrating AI into education entails balancing human and algorithmic agency, 
+educators must also reconsider what constitutes knowledge and intelligence.
+Rather than viewing reality as fixed, boundaries and properties are continually enacted, and 
+emerging emergent through ongoing inter- and intra-actions (Barad, 2003 ). In Indigenous worl -
+dviews, knowledge and ways of knowing are also more fluid, as they are based on relationality 
+that connects people, Country, and entities in inseparable ways (Martin, 2017 ). These perspectives 
+invite us to see Barbie, and by extension GenAI, not as discrete technologies but as phenomena. 
+They come into being through complex material-discursive practices involving humans, 
+non-humans, and sociocultural contexts which are neither natural nor artificial. Claims about 
+authenticity affect how we view educational futures. Similarly, the uncritical acceptance of 
+educational technologies as either inherently artificial or natural can shape educational visions 
+in unintended and unwanted ways (Dishon, 2021 ).
+When students use GenAI for writing assistance, for example, they engage in an intricate 
+interplay between human creativity, algorithmic processes, and collective knowledge bases. The 
+outputs are neither purely artificial nor authentically human; they emerge through this rela -
+tionship. Educational policies and practices that simply allow or ban GenAI technologies are 
+inadequate for entanglements of human and machine. Whether technologies are in organic, 
+plastic or algorithmic forms, it is more helpful to consider them as dynamic entities and study 
+the social, cultural, economic, and personal intra-actions they are part of.
+Barbie and GenAI are perceived as tools that can help achieve technologically advanced 
+futures but are there other imaginaries we aspire to in education? Barbie, as an evolving cultural 
+symbol and sociotechnical imaginary, embodies shifting ideals of femininity, empowerment, and 
+consumerism. Similarly, GenAI represents constructed visions of artificiality in human capacities 
+like creativity and intelligence. Both Barbie and GenAI are shaped by societal aspirations and 
+fears, influencing how we think about personalisation, empowerment, and the impact of tech -
+nology on human life. Their evolving forms of artificiality also shape our views on education, 
+creativity, and human development. By examining the dual narratives of empowerment and 
+superficiality, Barbie’s influence highlights the need to critically evaluate how GenAI might shape 
+education and culture beyond the limits of consumer-driven frameworks.
+(Re)generative education
+(Re)Generative Education is inspired by the fluid identities and plant people in Van Neerven’s 
+‘Water’ . Fluid, adaptive approaches to learning help students understand diverse perspectives 
+and enable creativity (Vallis et  al., 2025 ). Curriculum development should valorise diverse cultural 
+perspectives on technology and intelligence in AI-related content and activities, as AI relies on 
+pre-existing data (Habib et  al., 2024 ). Similarly, the development and implementation of AI 
+educational technologies, as well as educational design, should reflect and respect diverse 
+10 C. VALLIS
+knowledge systems, moving beyond Western-centric models of intelligence and learning 
+(Zembylas, 2023 ). Promoting GenAI as a neutral but transformative tool for learning often ignores 
+the complex, everyday realities of educational institutions (Williamson et  al., 2024 ).
+Equally important is creating time and space for teachers to build capability with AI tools, 
+and to engage with and facilitate nuanced discussions about the nature of intelligence and 
+creativity in an AI-enhanced world (Markauskaite et  al., 2022 ). Establishing ethical practices 
+for AI use and insisting on human connection in teaching and learning practices, these are 
+urgent issues in education (Vallis et  al., 2024 ). By adopting these practices, educational insti -
+tutions can work towards a more responsible integration of AI, and a genuinely generative 
+education.
+Barbie and generative AI are neither artificial nor intelligent. Rather, they function as dynamic 
+sociotechnical imaginaries that trouble the boundaries of education, creativity, and human 
+development. By interrogating narratives of artificiality and authenticity, empowerment and 
+superficiality, this article critically evaluates how AI might shape and be shaped by higher 
+education. Juxtaposing Barbie  with Indigenous futurist perspectives draws attention to how 
+cultural narratives mediate our technological horizons and are not predetermined. From this 
+intersection, we glimpse the possibility of reimagining learning as a collaborative space where 
+technology and human experience co-evolve, transcending reductive consumerist frameworks 
+and opening pathways to other ways of knowing and being. From degenerative AI to indigenous 
+futurisms, these insights could help make learning truly transformative.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+Notes on contributor
+Carmen Vallis  is a Senior Lecturer in Educational Development at the university of Sydney Business School. Her 
+work combines learning and teaching in higher education, digital technologies, creative writing and practice.
+ORCID
+Carmen Vallis  http://orcid.org/0000-0003-0143-4145
+References
+1950sunlimited. ( 2012 ). BARB65 [Graphic]. BARB65. https://commons.wikimedia.org/wiki/File:BARB65_(8080739384).jpg
+Bahroun, Z., Anane, C., Ahmed, V., & Zacca, A. ( 2023 ). Transforming education: A comprehensive review of gen -
+erative artificial intelligence in educational settings through bibliometric and content analysis. Sustainability , 
+15(17), 12983. https://doi.org/10.3390/su151712983
+Baker, R. S., & Hawn, A. ( 2022 ). Algorithmic bias in education. International Journal of Artificial Intelligence in 
+Education , 32(4), 1052–1092. https://doi.org/10.1007/s40593-021-00285-9
+Balsam, R. H. ( 2023 ). Darkening Barbie . Journal of the American Psychoanalytic Association , 71(6), 1263–1268. https://
+doi.org/10.1177/00030651241233499
+Barad, K. ( 2003 ). Posthumanist performativity: Toward an understanding of how matter comes to matter. Signs: 
+Journal of Women in Culture and Society , 28(3), 801–831. https://doi.org/10.1086/345321
+Baudrillard, J. (1994). Simulacra and simulation . university of Michigan Press.
+Bearman, M., Ryan, J., & Ajjawi, R. ( 2023 ). Discourses of artificial intelligence in higher education: A critical liter -
+ature review. Higher Education , 86(2), 369–385. https://doi.org/10.1007/s10734-022-00937-2
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. ( 2021 ). On the dangers of stochastic parrots: Can 
+language models be too big? In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and 
+Transparency , pp. 610–623. https://doi.org/10.1145/3442188.3445922
+EDuCATIONAL  PHILOSOPHY  AND  THEORY 11
+Bradshaw, P . ( 2023 , July 19). Barbie review – Ryan Gosling is plastic fantastic in ragged doll comedy. The Guardian . 
+https://www.theguardian.com/film/2023/jul/19/barbie-review-greta-gerwig-delirious-bubblegum-fantasy
+Campbell, J. ( 2008 ). The hero with a thousand faces.  (3rd ed.). New World Library.
+Costello, E. ( 2024 ). ChatGPT and the educational AI chatter: Full of bullshit or trying to tell us something? Postdigital 
+Science and Education , 6(2), 425–430. https://doi.org/10.1007/s42438-023-00398-5
+Dishon, G. ( 2024 ). From monsters to mazes: Sociotechnical imaginaries of AI between Frankenstein and Kafka. 
+Postdigital Science and Education , 6(3), 962–977. https://doi.org/10.1007/s42438-024-00482-4
+Dishon, G. ( 2021 ). The new natural? Authenticity and the naturalization of educational technologies. Learning, 
+Media and Technology , 46(2), 156–173. https://doi.org/10.1080/17439884.2020.1845727
+Essien, A., Bukoye, O. T., O’Dea, X., & Kremantzis, M. ( 2024 ). The influence of AI text generators on critical thinking 
+skills in uK business schools. Studies in Higher Education , 49(5), 865–882. https://doi.org/10.1080/03075079.2024.
+2316881
+Gerwig, G. (Director). ( 2023 ). Barbie [Film]. Warner Bros. Pictures.
+Griggs, C., McKinley, S., Rangel, E., & Parangi, S. ( 2023 ). This Barbie is a surgeon. BMJ (Clinical Research ed.) , 383, 
+2781. https://doi.org/10.1136/bmj.p2781
+Habib, S., Vogel, T., Anli, X., & Thorne, E. ( 2024 ). How does generative artificial intelligence impact student cre -
+ativity? Journal of Creativity , 34(1), 100072. https://doi.org/10.1016/j.yjoc.2023.100072
+Harasim, L. ( 2000 ). Shift happens: Online education as a new paradigm in learning. The Internet and Higher 
+Education , 3(1-2), 41–61. https://doi.org/10.1016/S1096-7516(00)00032-4
+Hazlewood, K. ( 2023 , November 24). Cinematographer Rodrigo Prieto ASC AMC unboxes director Greta Gerwig’s 
+Barbie . Cinematography World.  https://www.cinematography.world/cinematographer-rodrigo-prieto-asc-amc-unbox
+es-director-greta-gerwigs-barbie/
+Jasanoff, S., & Kim, S.-H. ( 2009 ). Containing the atom: Sociotechnical imaginaries and nuclear power in the united 
+States and South Korea. Minerva , 47(2), 119–146. https://doi.org/10.1007/s11024-009-9124-4
+Kádeková, Z., & Holienčinová, M. ( 2018 ). Influencer marketing as a modern phenomenon creating a new frontier 
+of virtual opportunities. Communication Today , 9(2), 90–105.
+Khan, S. ( 2023 ). The amazing AI super tutor for students and teachers . TED Talk.
+Lacković, N., & Olteanu, A. ( 2021 ). Rethinking educational theory and practice in times of visual media: Learning 
+as image-concept integration. Educational Philosophy and Theory , 53(6), 597–612. https://doi.org/10.1080/0013
+1857.2020.1799783
+Maines, R. ( 2024 ). Feminism and capitalism under the nuclear cloud & barbie. Technology and Culture , 65(1), 
+333–342. https://doi.org/10.1353/tech.2024.a920527
+Markauskaite, L., Marrone, R., Poquet, O., Knight, S., Martinez-Maldonado, R., Howard, S., Tondeur, J., De Laat, M., 
+Buckingham Shum, S., Gašević, D., & Siemens, G. ( 2022 ). Rethinking the entwinement between artificial intel -
+ligence and human learning: What capabilities do learners need for a world with AI? Computers and Education: 
+Artificial Intelligence , 3, 100056. https://doi.org/10.1016/j.caeai.2022.100056
+Martin, B. ( 2017 ). Methodology is content: Indigenous approaches to research and knowledge. Educational 
+Philosophy and Theory , 49(14), 1392–1400. https://doi.org/10.1080/00131857.2017.1298034
+Matthews, A. ( 2021 ). Sociotechnical imaginaries in the present and future university: A corpus-assisted discourse 
+analysis of uK higher education texts. Learning, Media and Technology , 46(2), 204–217. https://doi.org/10.1080
+/17439884.2021.1864398
+Messeri, L., & Crockett, M. J. ( 2024 ). Artificial intelligence and illusions of understanding in scientific research. 
+Nature , 627(8002), 49–58. https://doi.org/10.1038/s41586-024-07146-0
+Pearson, M., & Mullins, P . R. ( 1999 ). Domesticating barbie: An archaeology of barbie material culture and domes -
+tic ideology. International Journal of Historical Archaeology , 3(4), 225–259. https://doi.org/10.1023/A:1022846525113
+Peters, M. A., Jackson, L., Papastephanou, M., Jandrić, P ., Lazaroiu, G., Evers, C. W., … Fuller, S. ( 2023 ). AI and the 
+future of humanity: ChatGPT-4, philosophy and education – Critical responses. Educational Philosophy and 
+Theory , 55(1), 1–14. https://doi.org/10.1080/00131857.2023.2213437
+Prinsloo, P ., Slade, S., & Khalil, M. ( 2023 ). At the intersection of human and algorithmic decision-making in dis -
+tributed learning. Journal of Research on Technology in Education , 55(1), 34–47. https://doi.org/10.1080/153915
+23.2022.2121343
+Rahm, L., & Rahm‐Skågeby, J. ( 2023 ). Imaginaries and problematisations: A heuristic lens in the age of artificial in -
+telligence in education. British Journal of Educational Technology , 54(5), 1147–1159. https://doi.org/10.1111/bjet.13319
+Selwyn, N. ( 2022 ). The future of AI and education: Some cautionary notes. European Journal of Education , 57(4), 
+620–631. https://doi.org/10.1111/ejed.12532
+Shah, S. F. H. ( 2020 ). “Doll #135 with vitiligo”: Are alopecia and vitiligo Barbie worth the hype? Pediatric Dermatology , 
+37(5), 996–999. https://doi.org/10.1111/pde.14294
+Sidorkin, A. M. ( 2024 ). Artificial intelligence: Why is it our problem? Educational Philosophy and Theory , 1–6. https://
+doi.org/10.1080/00131857.2024.2348810
+Souza, K. D. ( 2023 ). Pedagogies of place. In T. Flores, F. San Martín, & C. Villaseñor Black (Eds.), The Routledge 
+companion to decolonizing art history  (1st ed., pp. 218–227). Routledge. https://doi.org/10.4324/9781003152262-19
+12 C. VALLIS
+Taylor, A. S. ( 2022 ). Authenticity as performativity on social media . Springer International Publishing. https://doi.
+org/10.1007/978-3-031-12148-7
+Toffoletti, K. ( 2007 ). Cyborgs and barbie dolls: Feminism, popular culture and the posthuman body . I.B.Tauris. https://
+doi.org/10.5040/9780755696284
+Vallis, C. ( 2024 ). Authentic assessment in higher education: The spectre of lost futures. Teaching in Higher Education , 
+1–8. https://doi.org/10.1080/13562517.2024.2362217
+Vallis, C., Wilson, S., Gozman, D., & Buchanan, J. ( 2024 ). Student perceptions of AI-generated avatars in teaching 
+business ethics: We might not be impressed. Postdigital Science and Education , 6(2), 537–555. https://doi.
+org/10.1007/s42438-023-00407-7
+Vallis, C., Casey, A., Nash, J., Menner, R., Cram, A., & Zeivots, S. ( 2025 ). Traversing changing higher education 
+learning spaces: What we bring and what is missing. Higher Education Research & Development , 44(1), 83–97. 
+https://doi.org/10.1080/07294360.2024.2429447
+Van Driel, L., & Dumitrica, D. ( 2021 ). Selling brands while staying ‘Authentic’: The professionalization of Instagram 
+influencers. Convergence: The International Journal of Research into New Media Technologies , 27(1), 66–84. https://
+doi.org/10.1177/1354856520902136
+Van Neerven, E. (2014). Heat and light . university of Queensland Press.
+White, J. ( 2019 ). Arboreal beings: Reading to redress plant blindness. Australian Humanities Review , 65, 89–106.
+Watego, C. ( 2021 ). Another day in the colony . university of Queensland Press.
+Williamson, B., Macgilchrist, F., & Potter, J. ( 2024 ). Against contextlessness in Learning, Media and Technology. 
+Learning, Media and Technology , 49(3), 335–338. https://doi.org/10.1080/17439884.2024.2374266
+Wong, L.-H., & Looi, C.-K. ( 2024 ). Advancing the generative AI in education research agenda: Insights from the 
+Asia-Pacific region. Asia Pacific Journal of Education , 44(1), 1–7. https://doi.org/10.1080/02188791.2024.2315704
+Zembylas, M. ( 2023 ). A decolonial approach to AI in higher education teaching and learning: Strategies for un -
+doing the ethics of digital neocolonialism. Learning, Media and Technology , 48(1), 25–37. https://doi.org/10.10
+80/17439884.2021.2010094

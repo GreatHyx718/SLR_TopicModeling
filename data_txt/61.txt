@@ -1,0 +1,641 @@
+Citation: Dzhimova, Mariya, and
+Francisco Tigre Moura. 2024.
+Calculated Randomness, Control and
+Creation: Artistic Agency in the Age
+of Artificial Intelligence. Arts 13: 152.
+https://doi.org/10.3390/
+arts13050152
+Academic Editor: Andrew M. Nedd
+Received: 26 July 2024
+Revised: 27 September 2024
+Accepted: 30 September 2024
+Published: 2 October 2024
+Copyright: ©2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+arts 
+Article
+Calculated Randomness, Control and Creation: Artistic Agency
+in the Age of Artificial Intelligence
+Mariya Dzhimova1,* and Francisco Tigre Moura2
+1Institute for Cultural Management and Media, University of Music and Performing Arts Munich,
+Arcisstraße 12, 80333 Munich, Germany
+2Business Administration and Economics, IU International University of Applied Sciences,
+Mülheimerstraße 38, 53604 Bad Honnef, Germany; francisco.tigre-moura@iu.org
+*Correspondence: mariya.dzhimova@hmtm.de
+Abstract: The recent emergence of generative AI, particularly prompt-based models, and its embed-
+ding in many social domains and practices has revived the notion of co-creation and distributed
+agency already familiar in art practice and theory. Drawing on Actor-Network Theory (ANT) and its
+central notion of agency, this article explores the extent to which the collaboration between the artist
+and AI represents a new form of co-creation and distributed agency. It compares AI art with artistic
+movements such as Dada, Surrealism, Minimalism and Conceptual Art, which also challenged the
+notion of the autonomous artist and her agency by incorporating randomness on the one hand and
+rule-based systems on the other. In contrast, artistic practice with AI can be described as an iterative
+process of creative feedback loops, oscillating between order and disorder, (calculated) randomness
+and calculation, enabling a very specific kind of self-reflection and entanglement with the alienation
+of one’s own perspective. Furthermore, this article argues that most artistic projects that explore and
+work with AI are, in their own specific way, a demonstration of hybridity and entanglement, as well
+as the distribution of agency between the human and the non-human, and can thus be described as a
+network phenomenon.
+Keywords: artificial intelligence; artistic agency; actor network theory; distributed authorship;
+human-machine collaboration; co-creation
+1. Introduction
+In recent years, the rise of AI technologies and their use in artistic practices has sparked
+a debate regarding the concept of authorship, among the wider public and the art world. It
+is not only the economic and legal issues of authorship and the related question of copyright
+that are being discussed and negotiated, but also the question of artistic authorship. In this
+debate, traditional categories of value, such as autonomy (free self-expression), sovereignty,
+agency and control, derived from the aesthetics of genius, are repeatedly used to attribute
+artistic authorship to AI or, at the same time, to write it off (Blank 2024, p. 293). From one
+perspective, AI is disqualified as a creator, an artist, grounded on the assumption that AI can
+only generate a recombination of the existing (i.e., the training data), and therefore does not
+fulfil the classical criteria of artistic authorship such as individuality, (absolute) originality
+and novelty. At the same time, it is pointed out that human authors operate in a similar
+way, because they do not create ex nihilo. Artists also have a socio-culturally shaped space
+of experience, characterized by a cultural-historical framework, from which they draw and
+create something new through the (opaque) process of recombination (Mersch 2019).
+However, the recent emergence of generative AI and, in particular, prompt-based
+models, and their embedding in many social domains and practices, has shifted the focus
+of the debate from the question of whether AI is capable of being creative and capable of
+producing art, and whether or not the role of the artist can be ascribed to it, to the question
+of collaboration, human-machine co-creation, and distributed agency. There are certainly
+Arts 2024 ,13, 152. https://doi.org/10.3390/arts13050152 https://www.mdpi.com/journal/arts
+Arts 2024 ,13, 152 2 of 12
+different positions on these issues. While some authors argue that in human-machine
+collaboration, AI is merely a tool controlled by the human actor, the artist, and that AI is
+merely an extension of human creativity (Muscutt and Cope 2007), others argue that both
+human and machine shape the creative process in interaction, emphasizing a distribution
+of agency and control (Schröter 2021). Another position points out that although AI shapes
+the process and creation of the work through its agency, it is still the human artist who
+has the aesthetic control and responsibility (Misselhorn 2023). Despite divergent opinions,
+co-creation, co-creativity and distributed agency are currently gaining relevance as concepts
+in public discourse as AI has become widely adopted in many social practices and realms,
+far beyond art.
+However, the concepts of co-creation and distributed agency are not new to practice,
+reflection and theory in art. For example, when considering art movements such as
+Appropriate Arts and Ready Made but also different formats of collective subjects and
+diverse artistic approaches involving interactive works with machines, computers and
+automated production processes, as well as the debates on authorship promoted by Roland
+Barthes and Michel Foucault in the late 1960s (Blank 2024; Misselhorn 2023).
+Against this background, the question arises as to why the use of AI technologies
+in artistic practice has revived the concept of co-creation and distributed agency, already
+known in theory and practice, and to what extent this is related to the fact that collaboration
+between artists and AI might represent a new form of co-creation and distributed agency.
+In a first step, this article will critically reflect on the concept of distributed agency
+and, in particular, outline the Actor-Network Theory, since various actors, such as artists,
+but also curators, art critics, etc., often refer to this theory and its concepts to describe
+the collaboration between artist and AI. In a second step, the article will turn to practice
+and briefly sketch artistic approaches such as Dada, Surrealism, but also Minimalism and
+Conceptual Art, which in their practice have questioned the autonomy and authorship
+of the artist over the artistic process. Taking into account the theoretical considerations
+of Rottmann (2023), this sketch will focus on the role of the artist and the artistic self,
+as well as the relationship to control or delegation of control over the artistic process.
+Finally, the third section, will address the question of to what extent artistic work with
+contemporary AI (such as generative deep models), represents a new mode of co-creation
+and distribution of agency between humans and machines when compared to the artistic
+approaches described above.
+2. Actor-Network Theory (ANT) and Its Implication for AI Art
+Actor-network Theory (ANT) is a theoretical and methodological approach developed
+by Science and Technology Studies (STS) scholars Michel Callon, Bruno Latour, John Law
+and others (Callon and Latour 1981, 1992; Callon 1986; Law 1986). The basic idea of this
+approach is that society consists not only of social relations, but also of constantly shifting
+hybrid networks, i.e., connections and dependencies between humans, but also between
+non-human entities such as material things, technical artefacts or discursive concepts
+(Callon and Latour 1992). The process leading to the construction of an actor-network
+is described as a transformative process in which the activities of all the actors involved
+mutually enable and constrain each other, thereby changing each other. Actors do not
+precede their networking; they are produced by the networking process. The emphasis is
+therefore on the unity of actor and network and on the term ‘actor-network’. Although
+ANT, as Hensel and Schröter (2012) noted, consists of a variety of different approaches and
+reformulations, which later also led to post-ANT (Law and Hassard 1999), the discussion
+involving AI art and the associated question of co-creation and distributed authorship is
+primarily related to one of its central concepts, namely the notion of agency. According
+to ANT, and especially according to Latour’s reading, “ anything that does modify a state of
+affairs by making a difference is an actor ” (Latour 2005, p. 71). Thus, agency is attributed to
+both human and non-human entities.
+Arts 2024 ,13, 152 3 of 12
+This does not mean that ANT postulates that things and machines are to be regarded
+as subjects and social actors and that people are to be treated as objects, but that it assumes
+an interweaving of humans and non-humans that form a network. One of Latour’s popular
+examples of such entanglement is the man with the gun: neither the man nor the gun
+alone kills, but the interweaving of both entities, with their specific potential for action,
+so that the act of murder can take place (Latour 2006). Thus, by focusing on the network
+and its constant recomposition, ANT attempts to overcome the common subject-object
+dichotomy. In this respect, as noted by Hensel and Schröter (2012), ANT is seen less as
+a theory than as an “ anti-reductionist heuristic ” that is concerned with the description of
+actor networks. Applied to the context of art, this means, in a very abbreviated form, that
+all the entities, such as the artist, the studio, and all the materials, objects, technologies,
+tools, infrastructures, etc. involved in the practice, form an actor-network in a dialogue-
+based process in which agency is distributed. Neither does the artist have a finished
+idea in her head, which she merely translates into materiality through complete control
+of the instruments, nor do the instruments and objects completely determine the artist’s
+creative possibilities. Rather, depending on the configuration of the given network, the
+artist’s agency is expanded, shifted, supplemented, modified, or—to use the vocabulary of
+ANT—‘translated’ (Callon 1986).
+Inspired by ANT some empirical studies examine the role of non-humans involved
+in the artistic process, revealing that the agency of materiality, and engagement with it,
+is crucial to the process by which artworks are created (Rubio 2012; Yaneva 2003a, 2003b;
+Schürkmann 2018; Lehmann 2012; Berger 2012). For example, Rubio (2012), in his study
+of the production of Robert Smithson’s earthwork sculpture “Spiral Jetty” (1970), shows
+that the concrete form of the artwork was not a simple and direct mechanical realization
+of an abstract idea in the artist’s mind, but that the artwork unfolded step by step as
+a result of the various practical problems and constraints, but also the possibilities and
+solutions that emerged from working with certain technologies and materials. So, the
+site and the materiality functioned as “ affordances ” in the sense of Gibson ([1979] 2014),
+which made certain ways of thinking and acting possible. Accordingly, the artistic creative
+process is defined as a distributed process between humans and non-human entities that
+are interwoven in a network. Thus, there are neither subjects who completely control
+materiality and their environment, nor determining technologies and objects, but rather
+actor networks, an interplay between humans and non-humans or, in the terminology of
+Pickering (2012), a “ dance of agency ” in which (human) actors alternate between phases of
+activity and passivity and in which human and material agency mutually condition and
+enable each other in an interplay of resistance and adaptation.
+However, assuming that the distribution of agency applies to social practices in general,
+and therefore to art in particular (and thus to all art practices), two interrelated questions
+arise: whether, and if so, what is different or novel about the co-creation between the
+artist and AI; and why does the long-known concept of distributed agency and authorship
+become relevant precisely in the current context of AI and its use in artistic practice?
+We defend that in the artistic process in general the materials and tools involved
+have an agency, be it through their resistance (Pickering 1995) or their affordances (Gibson
+[1979] 2014), and thus exercise control in the creative process without the human actor (the
+artist), having actively transferred this agency and control to them. In the case of AI art,
+however, the delegation of autonomy and control to the non-human, (the AI), is intended
+by the artist. Certainly, the reasons for this delegation of autonomy and control may be very
+different and vary depending on the artistic approach. However, in the use of AI systems in
+artistic practice, there appears to be two types of delegation of control: (a) the unintentional
+delegation of control, on the one hand and (b) the intentional delegation of control on the
+other, or in Morris’s ([1970] 2010, p. 88) terminology, a ‘ controlled loss of control ’. For example,
+the work “Teratoma” (2017) by the artist Mario Klingemann ends up in black and white, as
+he noted, not because he intended it that way from the start, but because this decision arose
+in the course of the artist’s examination of the limits and resistances of the materialities
+Arts 2024 ,13, 152 4 of 12
+involved, in this case in the course of the training process of the generative neural networks
+he used for this work (Klingemann 2017). Just as Pickering (1995) characterizes scientific
+practice in his theoretical approach as a dialectical process of resistance and adaptation,
+which he metaphorically describes as “the mangle of practice”, in which goals are not
+fixed at the outset, but evolve and transform in the temporal confrontation between human
+intentionality and the resistance of materiality, Mario Klingemann (2023) also describes the
+use of AI, in this case generative neural networks, in his artistic practice.
+“Once I had enough training material the next challenge was the training. It turned out
+that training a model is not as straightforward as it sounds like. It often felt like trying to
+put down a too-large carpet into a room that is too small: there was always some bubble
+popping up somewhere and if you flattened it then it popped up in a different corner. In
+practice this meant for example that I had managed to get my face model to generate very
+convincing eyes, but then it created nasty artefacts in the smoother skin areas. Trying
+to fix that by training more or changing the architecture resulted in nice skin details,
+but suddenly the eyes got smudged again. There seemed to be a limit as for how much
+such a model could learn which is for example the reason why the “Teratoma” series
+is black-and-white: by not having to learn color the model had more capacity to focus
+on textures.”
+This kind of agency and control described by Mario Klingemann (2023), which the
+tool exercises over the creative process and shapes it, happens without the artist having
+actively delegated this agency and control to the tool. The resistances of materiality and
+the resulting deviations from the artistic concept occur unexpectedly and unpredictably.
+They are initially a disturbance to which the artist has to adapt, rather than an inspiration.
+Certainly, this disturbance may later prove to be a source of inspiration, but above all
+it is a resistance of the materiality that the artist did not expect. And this mode of loss
+of control over the creative process different from the intentional delegation of control,
+in which the artist has decided from the outset to work with a tool, in this case an AI,
+that is expected to produce the unexpected, the surprising, the unthinkable, since a key
+characteristic of contemporary AI is its opaque and incomprehensible mode of operation.
+In addition, contemporary neural networks can perform complex transformations, i.e., find
+complex correlations in the data that humans would not even think of, and thus achieve
+new and surprising results. This also applies to Generative Adversarial Networks (GANs)
+as a particular group of artificial neural networks, introduced by (Goodfellow et al. 2014),
+which are able to generate new data from input and have therefore been widely used by
+artists in the last decade.
+Working with AI, and particularly GANs, means that the artist is intentionally collabo-
+rating with a non-human entity whose functioning is often incomprehensible and therefore
+influences the creative process in unpredictable ways, leading to results that are beyond the
+artist’s control. However, it is the artist who has intended this state of loss of control over
+the creative process and the production of the unexpected. The unexpected is therefore to
+some extent to be expected, it is calculated by the artist. Indeed, artists often point to the
+unpredictability inherent in neural networks and their emergent properties as what makes
+AI interesting as an artistic medium. The artist Roman Lipski (2024), for example, argues
+that “ the beauty of using AI as an artistic tool lies in the constant surprise it brings ”.
+However, this characteristic of working with AI, namely the calculated unexpected
+and the deliberate delegation of control over the creative process, is not exclusive to AI art,
+but has a long tradition in art.
+3. The Aesthetics of Surprise and the Overcoming of the Boundaries of the Artistic Self
+The intended delegation of human autonomy and control to non-humans and the
+resulting unpredictable, unimaginable, unexplored, surprising etc. results are not new
+in art practice. Rather, the “ aesthetics of surprise ”, as Rottmann (2023) argues, has a long
+tradition in art and encompasses a variety of different artistic practices and art movements
+as well as analog and digital art forms. Examples of such artistic approaches include Dada,
+Arts 2024 ,13, 152 5 of 12
+Surrealism, Action Painting, but also Minimalism and Conceptual Art, as well as so-called
+Generative Art, which, according to Galanter (2016), is not limited to computer-based or
+high-tech art.
+Although these artistic approaches are very heterogeneous, using different processes
+and techniques and practiced in different historical, cultural and technological contexts,
+many of these artistic practices share a similar motive: That is, the delegation of (partial)
+control over the creative process and the associated claim to overcome the boundaries of
+the artistic self. Representatives of Dadaism, for example, developed and practiced the
+cut-up technique, in which an existing text is cut up and the fragments are then randomly
+rearranged to create a new work. Similarly, the Dadaists worked with images by creating
+collages and montages that were also based on chance, such as the artist Hans Arp, who
+created a series of collages by dropping squares of contrasting paper onto the surface of a
+larger sheet and then sticking them where they landed on the page. The introduction of
+randomness was a way for the Dadaists to challenge the bourgeois norms of traditional
+art production and to question the role of the artist and their (absolute) control over the
+artistic process. The Dadaist tradition, based on irrationality and randomness, led to
+Surrealism, whose proponents sought to eliminate the “ control of sanity ” (Rottmann 2023)
+by referring to the psychological automatism. They considered automatism as a way of
+overcoming conscious control of the artistic process and unleashing the creative power of
+the unconscious through different methods such as through dreams, hypnosis, drugs, etc.
+Surrealists considered this approach as a way of overcoming the culturally, intellectually
+and historically shaped boundaries of the artistic self that have been imprinted on it through
+socialization, education, culture, etc. Inspired by the Surrealists, the proponents of Action
+Painting, above all Jackson Pollock, also left the creation of the picture to randomness,
+using an immediate and dynamic painting technique that was considered spontaneous and
+intended to limit the artist’s conscious influence on the process of finding form. However,
+as Rottmann (2023) notes, the Surrealist technique of automatism and the method of Action
+Painting remained in an anthropocentric mode in that the role of the artist with her—
+although unconscious—self, her emotions and her spontaneity were crucial to the creation
+of the works. This contrasts with subsequent art movements such as Minimalism and
+Conceptual Art in the 1960s, which also pursued the motif of overcoming the boundaries
+of the artistic self and its limitations and cultural imprints, but by delegating the artist’s
+control to an external system that partially automated the artistic process. In this sense,
+these art movements claimed to operate in a mode of depersonalization, and externalization
+(Rottmann 2023). By delegating some, or all, of the processes within artistic practice to an
+external system or rule-based media such as matrices, diagrams, net papers or computer
+algorithms, these artistic approaches aimed to remove personal taste and handwriting and
+thus subjectivity and personal bias from the artistic process.
+Accordingly, the work was to be at least partially self-generating and thus contain
+a moment of (self-) surprise. As Morris ([1970] 2010, p. 88) notes, these processes of
+automation ‘open up the work and its interaction with the artist’s behavior to additional
+forces beyond his personal control’. For example, conceptual artist and theorist Mel Bochner
+(1997, p. 8) noted: “ For me, the use of self-generating procedures to make art was a liberation
+from the limitations of my own ego. It was an escape from individualism through the objectification
+of process .”
+Furthermore, the delegation of control over the creative process through the use of a
+rule-based system applies not only to Minimalism and Conceptual Art of the 1960s, but
+also to Generative Art in general, based on Galanter’s (2016) art theory, according to which
+the key element of Generative Art is a system to which the artist relinquishes partial or
+complete control. Furthermore, this system could be, as he argues, “ a set of natural language
+rules, a computer program, a machine, or other procedural invention, which is set into motion with
+some degree of autonomy contributing to or resulting in a completed work of art ” (Galanter 2016,
+p. 4).
+Arts 2024 ,13, 152 6 of 12
+Although the artistic practices and art forms briefly outlined here seek to question
+the role of the artists in the creative process as well as to overcome the boundaries of the
+artistic self, they do so in very different ways. While the Surrealists, using the method
+of automatism, operate in an anthropocentric mode in which the self and self-expression
+are at the center, Dada on the one hand, and Minimalism and Conceptual Art on the
+other, operate in a mode of externalization, or depersonalization. The focus is not on
+the self and its expression, but on an external entity, a system based either on disorder
+and randomness, as in the case of Dada, or, by contrast, on rules and order, as in the
+case of Minimalism and Conceptual Art. This is not surprising, given that these artistic
+movements emerged in very different historical periods, with their own discourses on
+art and creativity. While Dada and Surrealism arose out of a rejection of the logical-
+rational, conventional and bourgeois understanding of art, Minimalism emerged against
+the backdrop of the Cold War, the advent of the computer and cybernetics (Rottmann 2023).
+It was also during this period, in the 1950s and 1960s, that creativity was increasingly
+seen as a resource and was researched, systematized, instrumentalized and propagated
+in various military, psychological, economic and socio-political contexts (Reckwitz 2012;
+Mareis and Rottmann 2020). As Rottmann (2023, p. 139) notes, Minimalism not only
+addressed aesthetic categories such as authorship and control, but also pointed out that
+even a practice based on rule-based systems could produce the unexpected, the unplanned.
+It was therefore also a critique of the promise of automation and its associated control
+and rationality.
+This brief digression should illustrate that the intentional delegation of autonomy
+and control, and thus working with the unexpected, the unthinkable, with an aesthetic of
+self-surprise, has a long tradition in art history and is not unique to artistic practice with
+AI. However, given the different contemporary discourses on creativity from those of the
+early 20th century or the 1960s, and the rapid technological developments in the field of AI,
+it is to be assumed that collaboration with contemporary artificial neural networks unfold
+in new ways, and that the reasons for working artistically with autonomous systems and
+thus with an aesthetic of the self-surprise are quite different.
+4. The Process of Oscillation between Control and Controlled Loss of Control as a
+Specific “Dance of Agency”
+The term AI art encompasses very heterogeneous practices and, in this sense, art forms,
+as the various artists come from different fields and have different technological, media
+or visual art backgrounds, use a range of different technologies and applications, pursue
+different goals and, accordingly, have very different artistic approaches. As Ploin et al.
+(2022, p. 30) illustrate in their study, some artists write their own algorithms from scratch,
+others use off-the-shelf algorithms, and third use existing algorithms but modify them for
+their own purposes. In addition, the artists trained the models on existing, curated or self-
+created data sets. Furthermore, artists work and experiment with AI in very different ways,
+with fundamentally different attitudes objectives from experimental-exploratory to critical-
+reflective, resulting in different aesthetics (Scorzin 2023). As curator Laura Elliott (2022,
+p. 83) noted, “ some technical artists, such as Mario Klingemann and Alexander Mordvintsev,
+focused on aesthetic novelty and beauty, while critical media artists, such as Coralie Vogelaar and
+Constant Dullaart, were more concerned with the commentary, meaning and history within each
+work .” Furthermore, the artistic exploration of AI spans more than a decade, if we consider
+the introduction of machine learning architectures such as deep neural networks in the
+second half of the 2010s and the provision of more accessible technologies to artists as a
+point in time. In addition, there were artists such as Harold Cohen and David Cope who
+were already working with AI in the 1970s and 1980s.
+However, despite the wide temporal range and heterogeneity of AI art practices, there
+seems to be something that many of these practices have in common, namely the motive of
+working with AI to push the boundaries of one’s artistic self and the limits of one’s artistic
+approach. Mario Klingemann (2023), for example compares AI with “ a ‘parascope’—an
+Arts 2024 ,13, 152 7 of 12
+instrument of inspection—that allows us to observe and discover things which are beyond our reach,
+such as the microscope or the telescope did before ”. The artist Sofia Crespo (2023) also refers to
+the microscope to illustrate that both the AI and the microscope make things visible that
+cannot be seen with the naked eye. Similarly, the artist Memo Akten (2018) describes AI
+as an “extension of our mind and body”. The artist Kevin Abosch (2023) explains how he
+started working artistically with AI and points out that he saw AI as an opportunity to
+expand his own artistic practice.
+“My exploration into AI is part of a broader quest to understand my identity and how I
+connect with the world. Years ago, I began to wonder what would happen if I fed my own
+photographs, taken with intention and care, into a machine. Would it be possible for the
+machine to learn from my imagery and then generate new works that are extensions of my
+art? I wanted to see if the resulting creations would evoke an emotional connection for
+me. This experimentation started years ago with early generative adversarial networks.”
+Referring to the ability of generative deep models to recognize patterns at different
+levels of abstraction in huge amounts of data, and thus to make this data extraction tangible,
+as well as the ability of these models to rearrange elements in new ways and to generate
+new, “ unthinkable ” variations through randomness, many artists describe working with AI
+as an extension of their own personal or even human perspective. As the artist Feileacan
+McCormick (2022) from the artistic duo Entangled Others noted:
+“It (AI) allows us to make tangible the distilled essence of vast swaths of data that would
+be incomprehensibly complex to us as human individuals in a manner that is possible to
+interact with intuitively. ( . . .) We see a lot of our work as trying to find ways of using
+systems in order to augment our creative process, to externalise certain parts of what
+would otherwise be an entirely internal personal practice and thus be able to explore with
+a far vaster range of potential variation (thanks to randomness) through constructing
+feedback loops that explore the many different ways of creating performative rulesets.”
+By incorporating generative deep models such as GANs or diffusion models into their
+own artistic practice, artists are delegating control of the artistic process to an external
+system, similar to Dada, but also to Minimalism and Conceptual Art, i.e., in a mode of
+externalization. However, there seems to be also differences at a practical or operational
+levels. According to Galanter (2016) and his reference to complexity theory, neural networks
+are complex systems that combine order and disorder at the same time. On the one hand,
+similar to Dada, randomness plays a central role, because the incorporation of randomness
+into deep neural networks is crucial to their ability to output multiple possibilities from
+the same input, generating variation rather than the same result over and over again. At
+this point, the processuality of the machine, of the system, is beyond the artist’s control.
+Many artists describe this delegation of control as inspiring and see it as an opportunity
+to develop ideas beyond their own perspectives. For example, the artist Kevin Abosch
+(2023) notes: “ Control with AI is different. It’s not about mastery over craft but about embracing
+the unknown and integrating it into the creative workflow. ( . . .) Artists who are not afraid of the
+unknown and who can work with this lack of control will master the use of AI in their art ”.
+On the other hand, generative deep models are certainly not purely random systems
+without rules. Although their rules are often opaque, there are many levels at which the
+artist has control over the process, such as designing the model’s architecture, creating the
+data set, and conducting model training. Furthermore, by directly modifying the latent
+vector as in the case of GANs, the artist can exert some control over navigation through
+the so-called latent space—the space in which the high-dimensional data—such as an
+image—is distilled into a low-dimensional space in its essential characteristics. Thus, in
+the case of GANs artist can directly manipulate even the generative process. In fact, the
+act of selecting a particular trajectory through the latent space can be observed in many
+artistic practices, as for example in the work “Three Latent Body Problem” (2019) by Mario
+Klingemann, where the process of creation is made tangible (Klingemann 2019).
+Arts 2024 ,13, 152 8 of 12
+Thus, in contrast to Minimal and Conceptual artists such as Carl Andre, Mel Bochner,
+Roberth Smithson, Sol Lewitt, (to name just a few), who use simple, highly ordered
+geometric, numerical and combinatorial systems as generative elements in their work
+(Galanter 2016), AI artists work with complex systems that combine rules and order on the
+one hand, and randomness and disorder on the other.
+Accordingly, artistic practice with AI can be described as a constant interplay of
+(calculated) randomness and calculation, as a dialectical process that oscillates between
+control and deliberate loss of control. The artist Refik Anadol (2020), for example, uses the
+term ‘controlled randomness’ to describe this process:
+“I would say that I use data as pigments in my work. Data and file formats are pigments
+and these pigments can take many different forms. Data is not just a series of a few
+piles of numbers, but always a calculation. Calculation and computer systems are
+always calculation, that is somehow in the nature of things. But it is rather controlled
+randomness. That’s how I end up with individual works, for example. ( . . .) When you
+bring together the frontier of imagination with that of what is technically possible and
+these two worlds collide, then you have exactly this chance discovery. This moment is not
+so easy to calculate. But when it happens: Eureka!”
+Furthermore, working with AI is also described by many artists as an iterative process,
+characterized by continuous feedback loops between input and output and in this sense
+between the artist and the tool. The artists prompt the AI to generate the preliminary
+output they are looking for, but the AI’s often unexpected output prompts them to adapt
+the idea, change it, or even redirect and rearrange the artistic workflow. For example, the
+artist Roope Rainisto (2024) notes:
+“I have some idea that I want to do these types of pictures, for instance in Vacation. But
+it’s only when I start to create, and I see the results, I see the choices. And after I do that 5
+times or 10 times, each time I go deeper and deeper. I might then change my plans, or find
+something that was much more interesting than the thing that I had in my mind the first
+place. And I don’t think that’s a bad thing. That’s a good thing. It’s a feature, it makes AI
+art interesting, and you start to go deeper and deeper. And I think that’s the way almost
+all AI artists that start with AI work. ( . . .) But I think that the more time you spend with
+this, the more you start to feel the urge to go deeper and start to explore or to need to
+create something that feels more personal to you. And that’s why I find this process so
+much more fascinating than writing poems or books or playing in bands, writing songs
+and so on. I’ve done a lot of arts, but I just find this process to be so fascinating.”
+The feedback loops enable the artists to learn and explore not only the AI’s mode
+of operation, but also their own artistic practice, their own role within the practice and
+their own aesthetic preferences and biases, which unconsciously flow into the process and
+influence the different decisions. The system thus enables a mode of aesthetic self-reflection.
+On the one hand, the machine learns the aesthetic strategies and preferences of the artist
+and imitates them; on the other hand, it produces unpredictable deviations from them, to
+which the artist can react in an ongoing process. As the artist Kevin Abosch (2023) notes:
+“While AI is a tool, it does influence the art significantly. Artists using AI may talk about
+collaborating with the machine, but I think this is an anthropomorphization I disagree
+with. The artist brings their experience, intention, and narrative to the table, while the AI,
+as a mirror/prism, reflects and distorts this input, often revealing a complex reflection of
+the artist’s subconscious. The process changes how artists perceive and feel, permanently
+altering their perspective.”
+As Schröter (2021) notes with reference to Frederic Jameson (1991), this is a “ surrealism
+without the unconscious ”, but in a new way, namely under highly technological conditions—
+“the artist is split here into “himself” and a virtual double that imitates and transcends him. He
+does not express himself, but is reflected in an active mirror ”. The artist Feileacan McCormick
+(2022) argues in a very similar way: “ These feedback loops, wherein we input data into a certain
+Arts 2024 ,13, 152 9 of 12
+system or ruleset and intuitively navigate the outputs, become a means of continuously exploring
+just how much machines can surprise, but also more crucially, hold up a mirror to our own aesthetic
+preferences and biases ”. Similarly, the artist Anna Ridler (2022) described working with AI:
+“It is my work but also not my work—recognizably me (especially the first one (image)) but nothing
+I would have been able to do by myself. Watching it is a very odd sensation like catching a glimpse
+of yourself in a mirror before you realize it is you ”.
+Accordingly, AI artists also seek to access the unconscious, however unlike the Surre-
+alists, not to unleash its creative power, but to reflect on and critically question unconscious
+personal (aesthetic) preferences and prejudices in particular, but also the human anthro-
+pocentric perspective in general. By embedding a complex technology such as AI, which
+can recognize regularities and mirroring the biases and limitations of one’s own artistic
+practice and is also capable of unpredictability and unexpected rearrangements through
+randomness, AI is seen as a way of creating space for the expansion of one’s own hu-
+man perspective by entangling it with machine vision and, in this sense, with the non-
+human perspective.
+Accordingly, working with AI can be described as an iterative process of creative
+feedback loops, oscillating between order and disorder, chance and calculation, control
+and controlled loss of control, thus enabling a very specific kind of self-reflection and
+entanglement with the alienation of one’s own perspective. Thus, the distribution of agency
+is not exclusively specific to artistic work with AI, but artistic practice with AI is nonetheless
+a specific ‘dance of agency’ (Pickering 2012) that takes place in a particular configuration of
+human and non-human entities, which has only been hinted at in this article and requires
+in-depth empirical and ethnographic investigation.
+5. AI as “Network Phenomenon”
+The artistic practice using and incorporating contemporary AI such as deep generative
+models is characterised by its own specific ‘dance of agency’, described here as a process of
+creative feedback loops oscillating between computational order and randomness. Further-
+more, this entanglement, this process of oscillation between control and controlled loss of
+control, and in this sense the distribution of autonomy and agency, is not something that
+remains concealed in the artist’s studio but is staged and demonstrated in most artistic
+projects. And that brings us to the possible answer to the second question formulated at
+the start of this article. Hybridity, and the distribution of agency and authorship are well
+known concepts in practice and theory. However, in the current context of AI and its use
+in artistic practice, these concepts gain particular relevance, as most artistic projects that
+explore and work with AI are, in their own specific way, a demonstration of hybridity and
+entanglement, and thus the distribution of agency between the human and the non-human.
+Although most artists describe AI as a tool, artworks are staged as the emergent product
+of co-creativity, collaboration and interplay, and this interplay is made perceptible in dif-
+ferent ways depending on the artistic approach. In some works, such as those of Mario
+Klingemann and Memo Akten, Isabella Salas, Helena Sarin, Robbie Barrat, the artistic duo
+“The Entangled Others”, to name but a few, the very aesthetic and formal language refers
+to the inclusion of the artificial, synthetic, algorithmic and, in this sense, non-human, and
+reveals its signature. The artwork “Specious upwellings” by ‘Entagled Others’ (Entagled
+Others 2022–2024) or the artwork “All Watched Over By Machines Of Loving Grace” by
+Memo Akten (2021) could be seen as examples of this aesthetic. In the works of Refik
+Anadol and Sougwen Chung, the reference to distribution of agency is made by the fact
+that AI itself appears as a tangible co-producer and creative agent and acts performatively
+in the work, whether as a visualization medium, as in the case of Refik Anadol (2022)’s
+work “Unsupervised-Machine Hallucinations-MoMA”, or as a robotic arm, as in the case
+of Sougwen Chung (2021)’s performative installation “Assembly Lines”. In the works of
+the artist Pierre Huyghe, the distribution of agency is staged in a particularly impressive
+way. He choreographs installations and hybrid arrangements in which the artwork comes
+into being from the dynamic interaction of various agents, of which AI is only one of many.
+Arts 2024 ,13, 152 10 of 12
+The focus is therefore less on the final state of the artwork or the “artificial intelligence”,
+but rather on the ongoing process of the artwork’s emergence and the ongoing process of
+“artificial learning” (Tait 2024). Such a processual, hybrid arrangement is presented, for
+example, in the video installation “Liminal” (2024), part of Pierre Huyghes’ solo exhibition
+of the same name at the Venice Biennale (Huyghes 2024). “Liminal” (2024) is a monumental
+simulation of a faceless, naked human body moving in response to real-time information
+received from sensors embedded in the physical environment. The exhibition is also ac-
+companied, among other works, by two human-machine hybrids called ‘idioms’, wearing
+sleek golden masks that monitor the spaces they are in and the visitors they encounter; an
+artificial intelligence gradually translates this information into a new language so that they
+can communicate with each other.
+As Scorzin (2023) notes, AI art wants to be understood as an expression of a new
+co-creativity, cooperation and coexistence between artists and AI, between humans and
+non-humans, and thus as a network phenomenon. Accordingly, by staging the complex
+and distributed nature of agency and authorship, AI art refers to these well-known concepts
+and discourses, while at the same time giving them renewed relevance in the public and
+stimulating the discourse on co-creativity, coexistence and collaboration between humans
+and machines in its new specific way.
+6. Concluding Remarks
+Finally, it can be concluded that AI art is practiced, but also staged and demonstrated,
+in a way that claims to overcome not only the boundaries of one’s own artistic self, but
+also the human anthropocentric perspective. Accordingly, AI art echoes a discourse that
+began years ago in the face of the climate and Covid epidemic crises, moving away from a
+purely anthropocentric view. Certainly, even before the rise of AI, non-human rhetoric has
+saturated contemporary art discourse and practice, and many artistic productions in recent
+years have focused on the post-anthropocentric topic. However, the rapid development of
+AI technologies has not only forced the discourse of human and non-human collaboration,
+co-creation, and the coexistence of human and machine, but has also provided art with a
+medium that makes the network, hybridity, and distribution of agency tangible to both
+artists and audiences like no other medium before it.
+Author Contributions: Conceptualization, M.D. and F.T.M.; methodology, M.D. and F.T.M.; valida-
+tion, M.D. and F.T.M.; formal analysis, M.D. and F.T.M.; investigation, M.D. and F.T.M.; resources,
+M.D. and F.T.M.; data curation, M.D. and F.T.M.; writing—original draft preparation, M.D. and F.T.M.;
+writing—review and editing, M.D. and F.T.M.; supervision, M.D. and F.T.M.; project administration,
+M.D. and F.T.M. All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Data Availability Statement: No new data were created for this article.
+Conflicts of Interest: The authors declare no conflicts of interest.
+References
+Abosch, Kevin. 2023. Will AI Replace Artists? Kevin Abosch at Central Saint Martins. Verse Journal . Available online: https://verse.works/
+journal/will-ai-replace-artitst-kevin-abosch (accessed on 14 July 2024).
+Akten, Memo. 2018. Machine Learning Art: An Interview with Memo Akten. Available online: https://www.artnome.com/news/20
+18/12/13/machine-learning-art-an-interview-with-memo-akten (accessed on 14 July 2024).
+Akten, Memo. 2021. All Watched Over by Machines of Loving Grace. Available online: https://www.memo.tv/works/all-watched-
+over-by-machines-of-loving-grace/ (accessed on 2 September 2024).
+Anadol, Refik. 2020. Wenn Maschinen träumen könnten. Monopol. Available online: https://www.monopol-magazin.de/refik-
+anadol-baden-baden (accessed on 14 July 2024).
+Anadol, Refik. 2022. Unsupervised-Machine Hallucinations-MoMA. Available online: https://refikanadol.com/works/unsupervised/
+(accessed on 2 September 2024).
+Berger, Christoph. 2012. Multiplikation und Diversifikation der Bilder und der Akteure in Edgar Degas’ künstlerischer Praxis.
+Zeitschrift für Ästhetik und allgemeine Kunstwissenschaft 57: 90–103. [CrossRef]
+Arts 2024 ,13, 152 11 of 12
+Blank, Jens. 2024. KI-Kunst: Künstlertum—Schöpfung—Originalität. In Handbuch Künstliche Intelligenz und die Künste . Edited by
+Sandra Catani. Berlin: Walter de Gruyter, pp. 281–96. [CrossRef]
+Bochner, Mel. 1997. Working Drawings and Other Visible Things on Paper Not Necessarily Meant to Be Viewed as Art . Cologne:
+Walther König.
+Callon, Michel. 1986. Some Elements of a Sociology of Translation: Domestication of the Scallops and the Fishermen of St. Brieuc Bay.
+InPower, Action and Belief. A New Sociology of Knowledge? Edited by John Law. London: Routledge and Kegan Paul, pp. 196–230.
+Callon, Michel, and Bruno Latour. 1981. Unscrewing the Big Leviathan: How Actors Macro-Structure Reality and How Sociologists
+Help Them to Do so? In Advances in Social Theory and Methodology. Toward an Integration of Micro- and Macro Sociologies . Edited by
+Karin Knorr-Cetina and Aaron V . Cicourel. London: Routledge and Kegan Paul, pp. 277–303.
+Callon, Michel, and Bruno Latour. 1992. Don’t Throw the Baby out With the Bath School. A Reply to Collins and Yearley. In Science as
+Practice and Culture . Edited by Andrew Pickering. Chicago: Chicago University Press, pp. 343–68. [CrossRef]
+Chung, Sougwen. 2021. Assembly Lines. Available online: https://sougwen.com/project/assembly-lines-2022 (accessed on 2
+September 2024).
+Crespo, Sofia. 2023. MIT Media Lab (Lunch Series: Generative AI and Artistic Practice). Available online: https://www.youtube.com/
+watch?v=vAxLAgd76YM (accessed on 14 July 2024).
+Elliott, Laura. 2022. AI Art: Between Technology and Art. In The Meaning of Creativity in the Age of AI . Edited by Raul Kelomees.
+Kondapur: Eka, pp. 81–88.
+Entagled Others. 2022–2024. Specious Upwellings. Available online: https://entangledothers.studio/specious-upwellings/ (accessed
+on 2 September 2024).
+Galanter, Philip. 2016. What is Generative Art? Complexity Theory as a Context for Art Theory. In A Companion to Digital Art . Edited
+by Christiane Paul. Hoboken: Wiley & Sons, pp. 146–80.
+Gibson, James J. 2014. The Ecological Approach to Visual Perception: Classic Edition . London: Psychology Press. First published 1979.
+[CrossRef]
+Goodfellow, Ian, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, and Yoshua Bengio. 2014. Generative
+adversarial nets. Advances in Neural Information Processing Systems 27: 2672–80.
+Hensel, Thomas, and Jens Schröter. 2012. Die Akteur-Netzwerk-Theorie als Herausforderung der Kunstwissenschaft. Zeitschrift für
+Ästhetik und allgemeine Kunstwissenschaft 57: 5–18. [CrossRef]
+Huyghes, Pierre. 2024. Liminal. Available online: https://www.pinaultcollection.com/palazzograssi/en/pierre-huyghe-liminal
+(accessed on 2 September 2024).
+Jameson, Fredric. 1991. Postmodernism, or, the Cultural Logic of Late Capitalism . Durham: Duke University Press.
+Klingemann, Mario. 2017. Teratoma. Available online: https://www.artsy.net/artwork/mario-klingemann-teratoma-series-11
+(accessed on 2 September 2024).
+Klingemann, Mario. 2019. Three Latent Body Problem. Available online: https://x.com/quasimondo/status/1083729580932976640
+(accessed on 2 September 2024).
+Klingemann, Mario. 2023. Mario Klingemann on ‘Teratoma’: An Exploration of AI and the Human Form. Verse Journal . Available
+online: https://verse.works/journal/mario-klingeman (accessed on 14 July 2024).
+Latour, Bruno. 2005. Reassembling the Social: An Introduction to Actor-Network-Theory . Oxford: Oxford University Press. [CrossRef]
+Latour, Bruno. 2006. Über technische Vermittlung—Philosophie, Soziologie und Genealogie. In ANThology. Ein einführendes Handbuch
+zur Akteur-Netzwerk-Theorie . Edited by Annemarie Belliger and David J. Krieger. Bielefeld: Transcript, pp. 483–528.
+Law, John. 1986. On the Methods of Long-distance Control: Vessels, Navigation and the Portuguese Route to India. In Power, Action
+and Belief. A New Sociology of Knowledge? Edited by John Law. London: Routledge & Kegan Paul, pp. 234–63.
+Law, John, and John Hassard. 1999. Actor Network Theory and after . Hoboken: Blackwell Publishing.
+Lehmann, Ann-Sophie. 2012. Das Medium als Mediator Eine Materialtheorie für (Öl-) Bilder. Zeitschrift für Ästhetik und allgemeine
+Kunstwissenschaft 57: 69–88. [CrossRef]
+Lipski, Roman. 2024. Die Schönheit des Einsatzes von KI als künstlerisches Werkzeug liegt in der ständigen Überraschung, die sie
+mit sich bringt. #AI_berlin. Available online: https://ai-berlin.com/de/blog/article/interview-mit-roman-lipski-ai-kuenstler
+(accessed on 14 July 2024).
+Mareis, Claudia, and Michael Rottmann. 2020. Entwerfen mit System. Eine Einführung. In Entwerfen mit System . Edited by Claudia
+Mareis and Martina Rottmann. Hamburg: Adocs Verlag, pp. 5–24.
+McCormick, Feileacan. 2022. Entangled Ways of Being—Interview with Feileacan McCormick and Sofia Crespo. Verse Journal . Available
+online: https://verse.works/journal/entangled-ways-of-being (accessed on 14 July 2024).
+Mersch, Dieter. 2019. Kreativität und Künstliche Intelligenz: Einige Bemerkungen zu einer Kritik algorithmischer Rationalität.
+Zeitschrift für Medienwissenschaft 11: 65–74. [CrossRef]
+Misselhorn, Catrin. 2023. Künstliche Intelligenz–das Ende der Kunst? Ditzingen: Reclam.
+Morris, Robert. 2010. Einige Bemerkungen zur Phänomenologie des Machens. Die Suche nach dem Motivierten. In Robert Morris.
+Bemerkungen zur Skulptur. Zwölf Texte . Edited by Sabine Titz and Christian Krümmel. Geneva: JRP Ringier Kunstverlag, pp. 75–95.
+First published 1970.
+Muscutt, Kirsty, and David Cope. 2007. Composing with Algorithms: An Interview with David Cope. Computer Music Journal
+31: 10–22. [CrossRef]
+Arts 2024 ,13, 152 12 of 12
+Pickering, Andrew. 1995. The Mangle of Practice: Time, Agency, and Science . Chicago: University of Chicago Press. [CrossRef]
+Pickering, Andrew. 2012. The robustness of science and the dance of agency. In Characterizing the Robustness of Science: After the
+Practice Turn in Philosophy of Science . Edited by L éna Soler, Emiliano Trizio, Thomas Nickles and William C. Wimsatt. Berlin and
+Heidelberg: Springer, pp. 317–27. [CrossRef]
+Ploin, Annalise, Rebecca Eynon, Isis Hjorth, and Michael A. Osborne. 2022. AI and the Arts: How Machine Learning is Changing Artistic
+Work. Report from the Creative Algorithmic Intelligence Research Project . Oxford: University of Oxford.
+Rainisto, Roope. 2024. Twitter Space: Creative Control—Authorship & AI with Roope Rainisto. Verse Journal . Available online:
+https://verse.works/journal/twitter-space-creative-control-authorship-ai-with-roope-rainisto (accessed on 14 July 2024).
+Reckwitz, Andreas. 2012. Die Erfindung der Kreativität: Zum Prozess gesellschaftlicher Ästhetisierung . Berlin: Suhrkamp Verlag. [CrossRef]
+Ridler, Anna. 2022. Anna Ridler: Working with GANs. How Can Art and Artificial Intelligence Interact? ART . Available online:
+https://www.meer.com/en/68889-anna-ridler-working-with-gans (accessed on 14 July 2024).
+Rottmann, Michael. 2023. Ästhetik der Automatisierung. Künstlerische Techniken des “von selbst” um 1920 und um 1960: Kontrolle—
+Bewusstsein—Überraschung. In Kunst, Design und die “Technisierte Ästhetik” . Edited by Laura C. Grabbe, Christian Wagner and
+Thomas Held. Marburg: Büchner-Verlag, pp. 123–43.
+Rubio, Fernando Dom ínguez. 2012. The Material Production of the Spiral Jetty: A Study of Culture in the Making. Cultural Sociology
+6: 143–61. [CrossRef]
+Schröter, Jens. 2021. “Künstliche Intelligenz” und die Frage nach der künstlerischen Autor*innenschaft. Kunstforum International
+278: 98–107.
+Schürkmann, Carolin. 2018. Über das Sichtbare hinaus. Eine Soziologie künstlerischer Praxis. Zeitschrift für Soziologie 47: 438–53.
+[CrossRef]
+Scorzin, Pamela C. 2023. Kreativität, Kunst und KI. Zur algorithmisierten Ästhetik der AI ART. In Kunst, Design und die “Technisierte
+Ästhetik” . Edited by Laura C. Grabbe, Christian Wagner and Thomas Held. Marburg: Büchner-Verlag, pp. 232–49.
+Tait, Amelia. 2024. Artists’ AI Dilemma: Can Artificial Intelligence Make Intelligent Art? The Guardian . Available online: https://www.
+theguardian.com/artanddesign/2024/apr/08/artists-ai-dilemma-can-artificial-intelligence-make-intelligent-art (accessed on 14
+July 2024).
+Yaneva, Albena. 2003a. Chalk Steps on the Museum Floor. Journal of Material Culture 8: 169–88. [CrossRef]
+Yaneva, Albena. 2003b. When a Bus Met a Museum: To follow Artists, Curators, and Workers in Art Installation. Museum and Society
+1: 116–31.
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

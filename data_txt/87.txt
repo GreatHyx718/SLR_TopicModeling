@@ -1,0 +1,781 @@
+Professional Development in Education
+ISSN: 1941-5257 (Print) 1941-5265 (Online) Journal homepage: www.tandfonline.com/journals/rjie20
+What  is the machine? Teachers’ professional
+learning about generative artiﬁcial intelligence as
+tutors for children
+Mary Rice, Nicholas DePascal, Joaquín T. Argüello de Jesús, Helen McFeely,
+Amy Traylor & Lehman Heaviland
+To cite this article: Mary Rice, Nicholas DePascal, Joaquín T. Argüello de Jesús, Helen McFeely,
+Amy Traylor & Lehman Heaviland (2025) What  is the machine? Teachers’ professional learning
+about generative artiﬁcial intelligence as tutors for children, Professional Development in
+Education, 51:3, 418-433, DOI: 10.1080/19415257.2024.2407413
+To link to this article:  https://doi.org/10.1080/19415257.2024.2407413
+Published online: 27 Sep 2024.
+Submit your article to this journal 
+Article views: 595
+View related articles 
+View Crossmark data
+Citing articles: 6 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=rjie20
+ARTICLE
+What is the machine? Teachers’ professional learning about 
+generative artificial intelligence as tutors for children
+Mary Rice
+ , Nicholas DePascal, Joaquín T. Argüello de Jesús, Helen McFeely, Amy Traylor 
+and Lehman Heaviland
+Language Literacy and Sociocultural Studies, University of New Mexico, Albuquerque, NM, USA
+ABSTRACT
+With the introduction of artificial intelligence (AI), particularly Generative 
+AI (GenAI) to school settings, teachers are likely to be drawn into profes -
+sional learning scenarios where they will be expected to learn how to use 
+programs and applications for remediation and tutoring of children. 
+Previous research highlights how professional learning for teachers 
+about GenAI has been focused on gaining their acquiescence to using 
+GenAI by arguing that it is both superior and inescapable. This critical 
+posthuman work uses a professional learning scenario to ask questions 
+about the historically present challenges of asking teachers to use GenAI 
+as a universal good when this discourse has been used to colonise and 
+imperialise in schools, particularly with technologies. Our critical posthu -
+man diffractive reading revealed alternative encounters that teachers and 
+students could have with GenAI and reasonable pathways for avoiding it. 
+Implications of this work include a need to draw on the diffractive 
+encounters presented here to understand and address who and what 
+the machine is when it comes to adopting advanced technologies for 
+various purposes in schools.ARTICLE HISTORY 
+Received 10 June 2024  
+Accepted 13 September 2024 
+KEYWORDS 
+Critical posthumanism; 
+discourse analysis; Freirean 
+dialogue; generative AI; 
+Illich’s conviviality; 
+professional learning for 
+technologies
+Educators are tasked with being and becoming within an increasingly complex assemblage for their 
+profession (Mulcahy 2011 ). Such an assemblage includes application programs developed through 
+machine learning and algorithms that are commonly called Artificial Intelligence (AI) (Rillig et al.  
+2023 ). AI includes Chatbots and Large Language Models (LLM), which have a complex mathema -
+tical architecture and have been trained using billions of words using natural language processing 
+(Rillig et al. 2023 ). LLMs and Chatbots respond to user input and provide algorithmically generated 
+outputs based on prompts that simulate conversation. Language translation and transcriptions of 
+audio can also be achieved in this way (Rillig et al. 2023 ). In late 2022, the Generative Pretrained 
+Transformer language (GPT) that produced communication closely resembling person-to-person 
+dialogue came into public use (Rillig et al. 2023 ). Generative Artificial Intelligence (GenAI) is a term 
+for programs and applications that use LLMs with GPT language (Hodges and Kirschner 2024 ). The 
+pedagogical implications of GenAI technologies are speculative (Lim and Nicolaides 2024 ).
+GenAI was not intended for education alone; it was pushed into multiple fields and disciplines 
+and has been the subject of government and international inquiry. The United Nations Chief 
+Executives Board for Coordination deliberated the ethical use of multiple forms of AI in 2022. The 
+commission identified children rights to personal privacy and stated a need to revise internal 
+procedures for data collection in government systems, including schools. Key directives from the 
+CONTACT Mary Rice 
+ maryrice@unm.edu 
+ Language Literacy and Sociocultural Studies, University of New Mexico, 222 
+Hokona Hall MSC05 3040, Albuquerque, NM 87131, USAPROFESSIONAL DEVELOPMENT IN EDUCATION   
+2025, VOL. 51, NO. 3, 418–433 
+https://doi.org/10.1080/19415257.2024.2407413
+© 2024 International Professional Development Association (IPDA) 
+commission regarding AI included the injunction to do no harm, provide clarity of purpose, ensure 
+safety and security, practice fairness and non-discrimination, aim for environmental sustainability, 
+preserve privacy rights, honour human autonomy, be transparent and forthright in explanations to 
+constituents, practice responsibility and accountability, and invite participation using inclusive 
+approaches to AI use (United Nations System, Chief Executives Board for Coordination 2022 ).
+The infusion GenAI into education in the United States and in other countries required school 
+leaders to decide how to provide professional learning to teachers about GenAI alongside other 
+forms of AI when neither teachers nor leaders had familiarity or technical expertise (Bower et al.  
+2024 ). When US President Joe Biden released an executive order with mandates for ethical AI in 
+October 2023, the effort was primarily aimed at protecting business and military interests. For 
+schools, there was a vague call to use AI to personalise learning:
+Shape AI’s potential to transform education by creating resources to support educators deploying AI- 
+enabled educational tools, such as personalized tutoring in schools. (The White House 2023 , emphasis in the 
+original)
+Discourses for personalized learning in US educational parlance are a common refrain for educa -
+tional technology vendors. The use of the term has been criticised for being more focused on 
+capitalism than student learning (Arnesen et al. 2019 , Boninger et al. 2019 ). While it is true that 
+executive orders in the US government are among the weaker methods for making policy at the 
+national level, this initial order offers insight into federal policy priorities and the deference that is 
+afforded to educational technologies in US schools.
+The infusion of GenAI in schools also came amid a host of unresolved and largely unaddressed 
+tensions in school systems around historically present inequities (Brayboy 2005 , Mills 1997 , 
+Calderón et al. 2012 ). Racism is a technology. Racism uses technologies to ensure that inequities 
+can persist, with minimal to no challenges (Benjamin 2019 ). Racism permeates the discourse of 
+technological uptake where teachers have been required to use other technologies as universal 
+goods in the name of economic and social progress (Knox 2013 ). The call for universal goods for 
+universal progress has been used to colonise, erase local and indigenous knowledges, and justify 
+environmental degradation (Mills 1997 ).
+Universalist policy has been particularly devastating to those who have been Black(end) to gain 
+access to their labour and/or who have been otherwise displaced and (de)humanised because their 
+land was needed for progress (Smith et al. 2012 ). The historically present effects are that children 
+from excluded groups and/or who have physical, cognitive, or other differences with implications 
+for their learning are positioned as having deficits within educational spaces by the very technol -
+ogies that are handed to teachers to serve them (Morris 2020 , Ricaurte et al. 2024 ). For many 
+communities, there is also a pressing existential threat in the loss of lands that become ghosts and/or 
+the poisoning of the land into monsters through technological damage and waste associated with 
+GenAI and related technologies (Tsing et al. 2017 ).
+Because text generation is a primary function of GenAI, its use to support writing in education 
+settings garnered attention (Brassington et al. 2024 ). Recent studies of GenAI for teachers’ profes -
+sional learning reflect its imposition as a requirement unless and until they acquiesce. Kaplan- 
+Rakowski et al. (2023 ) surveyed teacher interest for using GenAI and found that the more teachers 
+used it, the more amenable they were to use it more often. Similarly, Baidoo-Anu and Ansah (2023 ) 
+found that teachers in Ghana hesitated to use GenAI but were persuaded to do so because they were 
+convinced to regard GenAI as inevitable as part of professional learning. Similarly, prospective 
+teachers in China were more positive about learning mathematical concepts when using GenAI 
+than traditional methods because of a sense that technology is universally an advancement (Lu et al.  
+2024 ). In Israel, Nazaretsky et al. (2022 ) argued it was important to gain teachers’ trust by sharing 
+how GenAI worked. What the researchers meant by how AI worked was to convince teachers during 
+professional learning that the AI graders’ judgement was better than theirs. Finally, Velander et al. 
+(2024 ) worried that teachers’ emotional responses would complicate the ability of schools to impose PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 419
+GenAI for teaching. In these studies, the inevitability of GenAI for economic and social progress 
+was touted as universally superior and universally necessary.
+Professional learning for teachers in the US and other countries has been especially likely to 
+respond to interests of economic and social profit; GenAI has even been described as key for 
+employment prospects for teachers, job skills for students, and part of keeping current in society 
+(Bower et al. 2024 ). It is unclear how the United Nations System, Chief Executives Board for 
+Coordination (2022 ) principles of ethics, privacy, and protection for people and environment could 
+play a role or how seriously that role would be taken considering the host of extant unaddressed 
+issues of equity in schools globally. While it is possible to conceptualise the use of advanced 
+technologies within local realities, such as land/water, and not assume deficit perspectives for 
+children and communities, to do so would require considerable reimagining and (re)narrating to 
+move beyond universalising influences (Rice and Argüello de Jesús 2024 ).
+For this paper, we drew on critical posthumanist thinking to create a space for multiple 
+possibilities through diffraction (Barad 2007 ). This activity explored emerging issues for teachers’ 
+professional learning about students positioned as needing GenAI tutoring. To share this work, we 
+first elaborate on our understanding of colonialist structures in schools. Then we outline the 
+posthumanist ways of knowing that supported our thinking about how GenAI would be used for 
+professional learning. Next, we present an Assemblage-as-Narrative that we co-constructed. We 
+learned from it using diffraction as reading-through to understand possible responses to the 
+Assemblage-as-Narrative. We end by sharing key learnings along with wonderings about research 
+and practice.
+Conceptual framing
+The conceptual framing for this work has two major sections. The first section critically positions 
+US schools by explaining how the so-called neutrality in school spaces reflects a long-standing racial 
+social contract that relies on leaving some groups (de)humanised (e.g. Mills 1997 ). The second part 
+moves to the posthumanist explanations that guided this work as situated in technofeminism (e.g. 
+Barad 2007 ). These explanations demonstrated how we disoriented the hierarchies between Beings 
+and instead, framed these relationships as entanglements between humans and (non)humans to do 
+our diffractive exercise.
+Critically framing school settings
+We trace our critical position regarding US schooling through the social contract that early US 
+colonial governing entities agreed to, and which has persisted to current times (Mills 1997 ). The 
+contract was stratified politically and socially based on race and gender, named property holders 
+and what constituted property, and then guarded by merging it with the local moral code so that all 
+behaviours could be strictly regulated (Mills 1997 ). The contract functioned as a series of individual 
+(in)formal (meta)agreements whereby non-White peoples were designated to have inferior social 
+and moral status (Mills 1997 ). This status emerged as a Chain of Being where Man was at the top, 
+followed by animals, and then stones – or things which were not living (Jackson 2020 ). Crucial to 
+the Chain of Being was that the designation of Man was exclusive to White-ness. As Mills (1997 ) 
+wrote, ‘when they wrote justice, they meant just us’ (p. 110).
+As Man, White peoples could arrange systems to dominate and maintain power over non-White 
+peoples through labels that connotated less human-ness, such as beast or savage (Jackson 2020 ). The 
+racial and ethnic stratification has been maintained through elaborate myths – as well as terms and 
+labels – disguised in institutions as colorblind ideology (Carr 1997 , Bonilla-Silva 2021 ). Both overt 
+and subtle forms of racism continue through institutionalised values that rely on such universalism, 
+along with naming others as inferior, while denying that privilege exists (Mohanty 2003 , Brayboy  
+2005 , Arvin et al. 2013 ).420
+ M. RICE ET AL.
+The universalism that emanates from the social contract within institutions advances imperialist 
+goals of consumerism, competition, rationalism, detachment, individualism, and narcissism; in 
+turn, ecological philosophy and consciousness in schools is impeded (Cajete 2000 ). It is difficult to 
+question historically present abusive relationships with lands/water when prioritising technological 
+integration (Wall Kimmerer 2013 ). Moreover, Western science is often presented as abstraction 
+that psychologically disassociates people from nature (Cajete 2000 , Wall Kimmerer 2013 ). Although 
+US educational systems have been dismissive of land/water/body connections, they have also 
+invested huge financial resources in removing Indigenous children from their families to steal 
+land (Haaland and Newland 2022 ). These histories of dispossession position GenAI within 
+a complex chaos that, if not well-considered, could be yet another so-called universal good for 
+universal progress from which harmed groups must survive and heal (Forbes 2008 , Wall Kimmerer  
+2013 ). Thus, while forging a Chain of Being where humans, animals, and stones (i.e. (non)living) 
+was intended to Black(en) some individuals and justify violence against even more peoples, we take 
+a view where human, plant, animal, and spirit hold possibilities for mutual reciprocities (Cajete  
+2000 ). There are not unlimited (non)human resources for technological output for humans. There 
+are not unlimited humans as resources.
+Posthumanism
+The post-human project rejects Man. Many contemporary feminisms (e.g. ecofeminism) have 
+already rejected the right of Man to access the bodies of all living entities (Braidotti 2019 ). This 
+tradition aligns with techno-teratological thinking (Kristeva 1980 , Barr 1987 , Haraway 1992 , 
+Braidotti 2002 , Creed 1993 ). Such alliances coalesced around solidarities of women – or others of 
+‘Man’ – and non-humans (animals, insects, plants, trees, viruses, fungi, bacteria and technol 
+(Biological automata)) (Braidotti 2019 , p. 39). However, there is more to be done than reject the 
+hierarchy between Man and (non)human; we must critically engage with what it means to Be in any 
+biopolitical context (Mohanty 2003 , Jackson 2020 ). There is not just a crisis of what it means to be 
+a human, but there is a ‘failed praxis of being’ (Jackson 2020 , p. 15). To understand Being or more 
+accurately in post-human thinking, Becoming , two principles – intra-active entanglement and 
+diffraction are useful.
+Intra-active entanglement
+Posthumanism carries a relational understanding of events and ideas as being intra-actively 
+entangled (Barad 2007 ). Such relationality means that all being and doing affects other matter 
+(Cajete 2000 ). Hierarchy or linearity are absent in such on-going becoming. Therefore, finding 
+directionality for power is not useful; we also must think about what the power is doing – like 
+ripples in a pond when a stone is thrown in. Because power has no direction and structure, terms 
+like oppression and resistance are both affect, or ways of becoming.
+Diffraction
+Diffraction supports our understanding of Becoming. As an ocular metaphor, diffraction differs 
+from reflection in that it does not require an exact replica. Diffraction prefers differences – ripples – 
+materialities that have effects that can be seen (Fox and Allred 2017 ). Differences might also be 
+thought of as manifestations or animations of spirit (Cajete 2000 ). To think diffractively instead of 
+reflectively, readers engage multiple discourses simultaneously (Merten 2021 ). Discourse can 
+emerge from words, the typical linguistic discourse, as well as through visualisation and sound as 
+creative acts. We wanted to experience ourselves as being involved a phenomenon and consider 
+how our attention to it as researchers were part of the entanglement that shifts both our becomings 
+and the becomings of other materialities. The goal of diffraction is to gain insight and learn to think 
+about materialities (i.e. differences that make a difference), their relationships, and experience 
+interconnectedness (Cajete 2000 ).PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 421
+Methodology
+Our research design assumed an intra-active relationship between ourselves and the phenomenon 
+of professional learning about GenAI amid a complicated assemblage (Barad 1996 ). We engaged 
+moved from epistemological positions towards understandings about the relationships of things in 
+the world (Fox and Allred 2017 ). The work of engaging together resulted in the entangled, inwoven 
+becomings (Cajete 2000 , Wall Kimmerer 2013 ).
+Assemblage-as-narrative
+To initiate this work, we captured an assemblage of considerations that we wanted to discuss as 
+a narrative. Considerations emerged from research about GenAI and professional learning along -
+side practical concerns from living in our communities as teachers, teacher educators, and staff 
+developers. Precedent for emblematic narratives in research exists (Mishler 1990 ). Scholars like 
+Bullough and Pinnegar (2001 ) developed guidelines for using autobiography to identify new 
+insights about research. Clandinin and Connelly (1986 ) and Clandinin (1989 ) also used teachers’ 
+stories as professional knowledge. Within narrative inquiry methodology, conceptualised fictiona -
+lisation techniques to combine narratives, increase salience, and preserve privacy and confidenti -
+ality in research (Caine et al. 2017 ). Using these techniques and guidelines, we assembled a story 
+about ourselves that included personal practical knowledge(s) so that we could then draw it out 
+again diffractively using a multiplicity of theories and thinking tools. In this way, we drew on local 
+places and epistemologies to allow a story to find us amid our inquiry (Cajete 2000 , Wall Kimmerer  
+2013 ).
+Such an Assemblage-as-narrative consisted of bodies and abstractions that were caught up in 
+a moment of social inquiry (Fox and Allred 2017 ). In this case, that social inquiry was professional 
+learning about GenAI for schoolteachers. The critical elements of this Assemblage-as-story were:
+Central administration—able gaze (special educational services)—monolingualism—writing instruction— 
+required professional development sessions—GenAI as a solution.
+Once we had developed the Assemblage-as-narrative, we set to tracing.
+Doing diffractive tracings
+For analysis, we engaged in a process of diffractive tracing (Barad 2007 ). For tracing, it was important 
+to consider what other theories and theorists we wanted to think with. In thinking with, we are not 
+engaging in a comparison, but rather setting up a relationship between texts where insights come from 
+using language from various thinkers to yield interesting ideas. The theories and ideas for thinking with 
+were selected based on their differences from one another in space and time and in sharing borders 
+with, but also being distinct from the criticalities that we described at the beginning of the paper. By 
+drawing on various theories, we were able to create space for diffractive knowings and be subject to 
+vulnerabilities that come with collective sense-making. Four researchers wrote an initial response to the 
+Assemblage-as-Narrative and then received responses from the lead author with reference to the 
+critical posthuman framing. The four types of theories were (1) linguistic positioning theories (2) 
+critical humanism (3) radical polemics, and (4) community-engaged praxis. As a group, we used 
+language and terms from each other’s responses to make connections by placing words in proximity to 
+one another. Figure 1 contains an example from reading Assemblage-as-Narrative through positioning 
+theories where we were working with foundational ideas from Wittgenstein et al. (2009 ).
+We recognise that the report of a hybrid assemblage is an affect economy; researchers 
+become during the work. We acknowledge our roles in the machine of this research (Fox 
+and Allred 2017 ). Further, we understand that the conception, activity, writing and repre -
+sentation of this work varies from traditional research papers; we did this deliberately to 422
+ M. RICE ET AL.
+challenge how research is conceptualised for publication. We do not misunderstand how 
+research is supposed to look . We point to previously published work in this journal by 
+Strom (2021 ) and others as examples of such variation in posthuman, and new/neo-material 
+framing.
+Diffractively Reading-Through Assemblage-as-Narrative
+Below is the Assemblage-as-Narrative that we developed. Then, we present four perspec -
+tives. In the discussion section, we create a new assemblage of ideas from the diffractive 
+process.
+Central administration recently announced a new initiative to support secondary student writing development that 
+will begin next week. ‘This exciting new program will focus on students identified with special educational needs 
+and students who speak languages other than English or forms of English that are less preferred by our valued local 
+employers. To make the most efficient use of your precious instructional time, Artificial Intelligence tools (AI) will 
+be used to provide feedback on student writing. All teachers are required to four attend professional learning 
+sessions about (1) what standardized essay prompts to give students, (2) how to use AI prompt engineering to elicit 
+feedback for students, (3) how to evaluate the quality of feedback on students’ essays and what to require students to 
+address, (4) and how to use AI detection software to decide when students are using AI to write their compositions. 
+We look forward to learning with you!’
+Language GamesDiscourse of 
+ErasureDialogue's role 
+in makin g 
+Forms  of Life
+Ethics of 
+Language
+Solutionism 
+Discourse over 
+ConvivialityLanguage-
+supported 
+Isomorphi smFigure 1. Diffractive tracing example.PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 423
+Diffracting through positioning theories
+The first set of theories we considered focused on linguistic positioning. Schools are massive 
+bureaucratic machines, ‘highly structured organizational fields . . . in which individual efforts to 
+deal rationally with uncertainty and constraint often lead, in the aggregate, to homogeneity in 
+structure, culture, and output’ (DiMaggio and Powell 1983 , p. 147). The preference for conformity 
+does not occur because it makes institutions more efficient, but because of political influence, 
+uncertainty in technology and/or environment, and professionalisation (DiMaggio and Powell  
+1983 ). As current concerns about test score improvements and market competitiveness become 
+political imperatives, technology developers offer solutions to problems. Decisions to use GenAI 
+‘involve managerial behaviors at the level of taken-for-granted assumptions rather than consciously 
+strategic choice’ (DiMaggio and Powell 1983 , p. 149). Positioning theory and Wittgenstein’s et al. 
+(2009 ) concepts of ‘language-games,’ can bring new insights.
+The term language-game describes how ‘the speaking of language is part of an activity, or of 
+a form of life,’ which includes, ‘[g]iving orders, or acting on them . . . [r]eporting an event . . . [g] 
+uessing riddles,’ among others (Wittgenstein et al. 2009 , p. 15). Games suggest rules, but rather than 
+seeking rules, we should ‘see a complicated network of similarities overlapping and crisscrossing: 
+similarities in the large and in the small’ (Wittgenstein et al. 2009 , p. 36). Word meanings depend 
+on the games in which they are used and the rules of those games. Thus, a form of life is the culture 
+or aspect of living a group takes on, and the linguistic forms used to describe and prescribe it. These 
+forms of life provide the ‘judgements that [are] required for communication by means of language’ 
+(Wittgenstein et al. 2009 , p. 94). Forms of life that groups assume are, in part, an ethic that positions 
+them in relation to various moral orders. Schools are sites for such complex language-games. Since 
+rules are open to interpretation, social practices embody rules. In the Assemblage-as-Narrative, 
+central administration and the valued local employers are social formations that matter. The central 
+administration defined the social practices, while teachers were simultaneously ordered and 
+cozened to uncritically accept GenAI into teaching practices.
+Building on Wittgenstein’s et al. (2009 ) concept of language-games, positioning theory offers 
+deeper considerations of implicit and explicit power relations. Positioning ‘is the discursive process 
+whereby selves are located in conversations as observably and subjectively coherent participants in 
+jointly produced storylines’ (Davies and Harré 1990 , p. 48). Because ‘[a] conversation unfolds 
+through the joint action of all participants as they make – or attempt to make – their own and each 
+other’s actions socially determinate’ (Davies and Harré 1990 , pp. 45–46), conversations flow to and 
+from the personal to the cultural, and through discourse to create ‘overlapping moral orders’ which 
+‘can be regarded as sets of rights and duties created by declarations with deontic powers’ (van 
+Langenhove 2017 , p. 4). Thus, ‘all social structures can be regarded as moral orders that set out the 
+rules for appropriate behavior,’ and ‘constitute the invisible moral space that surrounds people at all 
+times’ (van Langenhove 2017 , p. 3, 6).
+The Assemblage-as-Narrative represents several moral orders that positioned teachers and 
+students in ways that denies them agency and installed GenAI as arbiters of their relationships. 
+In the first two sentences, the new initiative is described as exciting and acknowledges teachers’ 
+precious instructional time , positing the use of GenAI as a benefit for teachers. However, the fact 
+that GenAI will be used, and the requirement that is established for all teachers to attend profes -
+sional learning on the implementation of GenAI, positions teachers as duty-bound to accept use 
+and required training without question. Students’ forms of life are positioned as deficient with a 
+need to be corrected in line with the preferences of the valued local employers . The institutional 
+moral order of the school, the established language-games formed already, the relationships and 
+ways of interacting that teachers and students have already developed to facilitate learning, collide 
+with the ethic of capitalism, where students are positioned for their value as future workers; 
+students’ own desires are subsumed in implicit duties to adopt forms of life that satisfy those 
+they hope will hire them later (van Langenhove 2017 ).424
+ M. RICE ET AL.
+The topics of the four required professional learning sessions positioned teachers and students in 
+opposition to one another under an ethic of simplifying the learning process. The standardised 
+prompts of the first session position teachers as test proctors whose professional knowledge of their 
+students is irrelevant. Students are positioned as passive patients being administered a remedy. 
+The second and third sessions position teachers as GenAI functionaries who mediate between 
+GenAI and students. Again, teacher expertise is positioned as beneath GenAI, and as part of the 
+imperative to meet the needs of local employers, with an added absurdity. Instead of responding 
+directly to students, teachers instead administrate feedback provided by GenAI. In another absurd -
+ity, the fourth session positions teachers as policers of student GenAI use through use of AI 
+detection software, even though GenAI has been used to engineer prompts and evaluate student 
+writing. While GenAI are positioned as a relief to teacher workload, they create more teacher work 
+and position students for inevitable punishment. Instead of facilitating an ethical relationship 
+between teachers and students, GenAI – as intended to be implemented by the district – create 
+an antagonistic relationship. Further, central administration may be adopting GenAI without first 
+learning how GenAI works or considering the range of ethical implications. Overall, the language 
+game of this Assemblage-as-Narrative is one where instead of facilitating an ethical relationship 
+between teachers and students, GenAI implementation stands to engender agonism.
+Diffracting through critical humanism
+The second set of theories were grounded in critical humanism. One might expect that critical 
+humanist Paulo Freire would have no issues with GenAI in education. Freire recognised the 
+importance of using technological advances (Jandrić 2021 ). Freire (2021b ) confirmed that educa -
+tion ‘involves processes, techniques, expectations, desires, frustrations, and the ongoing tension 
+between practice and theory’ (p. 113). Freire’s philosophies accommodate structured teaching 
+approaches (Chambers 2019 ).
+Freire’s educational philosophy regarding writing developed during his exile from Brazil, while 
+he worked in Chile (Gadotti and Torres 2009 ). Freire taught adults who had been denied educa -
+tional opportunities. Current educational landscapes continue to leave out and classify students in 
+a similar manner (Evans et al. 2021 ). These are students with various physical, cognitive, learning, 
+language, and cultural differences.
+In the Assemblage-as-Narrative, efficiency is prioritised. Freire’s ideas are inefficient. In 
+Education for Critical Consciousness , Freire (2008 ) dispelled the complaints to his view of education 
+as ‘time wasting’ (p. 105). According to Freire (2008 ), time required for teachers and students to 
+interact through authentic dialogue was never a waste of time. Time for dialogue is time spent in 
+a life giving activity that Freire contrasted with oppressive educators who ‘in-animate’ everything’ 
+(Freire 2006 , p. 59).
+Dialogue was Freire’s essential mode for student–teacher interaction, feedback, and teaching. 
+For Freire (2006 ), dialogue-centred relationships equalised power between student and teacher. 
+Teacher feedback must be ‘with ’ the student (p. 93). Freire emphasised this point by with italics. 
+Professional learning for GenAI may be consistent with Freirean dialogue when feedback from 
+GenAI is used with the students, and not in place of this interaction between students and teachers.
+Freire would disagree with requiring all teachers to attend professional learning. Freire’s (2006 ) 
+entire educational philosophy prized freedom. ‘Manipulation, sloganizing, depositing,’ regimenta -
+tion, and prescription cannot be components of revolutionary praxis’ (Freire 2006 , p. 126). If 
+professional learning followed Freirean principles much of it would be disqualified. In Freire’s later 
+work, he exchanged the word oppression for invader . ‘The invader dictates; the invaded patiently 
+accept what is dictated’ (Freire 2008 , p. 103).
+The ethos of the Assemblage-as-Narrative indicates that standardised prompts will be used for 
+writing. In Freire’s dialogic view, there should be no standardised prompts because writing ought to 
+develop organically from worlds and lives of students. In Freire’s (2021a ) Pedagogy in Process: Letter PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 425
+to Guinea-Bissau , he explained the need for cultural awareness of the adult learner’s world. Freire 
+wrote that literacy education ‘can never be looked at in isolation’ (p. 63). Generic prompts that are 
+not based in the existential worlds of the students are not dialogic.
+Freire’s ideas about quality in education are based on its ability to liberate and transform the 
+human and the human’s environment. Freire (2006 ) recommended praxis (p. 87). As dialogue 
+equalises power, Freire’s praxis is sharing of power between human acts and human reflection. 
+Human action without reflection is mere ‘activism’ (p. 65). Reflection on its own is simply 
+‘verbalism’ (p. 87) where words are produced to satisfy the institution’s need for documentation. 
+For quality writing experiences, the goal should be to cause transformation. For praxis , Freire 
+demands that work, such as writing, should be coupled with authentic dialogue towards the goal of 
+conscientization . Also, Freire (2008 ) cautioned that ‘there should be no exclusive support for either 
+‘technology’ or for ‘humanity’” (p. 114). In the Assemblage-as-Narrative, technology has been 
+divided from humanity in that it makes teachers and students more beholden to others (e.g. 
+employers) rather than freer.
+Freire’s (2006 ) conscientization invites trust. A teacher’s ‘efforts must be imbued with 
+a profound trust in people and their creative power’ (Freire 2006 , p. 75). In the Assemblage-as- 
+Narrative, the central administration’s plan seems guaranteed to engender an atmosphere of low 
+trust between the administration and the teachers, and between the teachers and the students. For 
+Freire (2006 ) ‘it is necessary to trust in the oppressed and in their ability to reason’ (p. 66). In the 
+Assemblage-as-Narrative, it is not only the students who are oppressed by the system. The teachers 
+are not trusted either. The teachers are oppressed, commanded with no options, not spoken with , 
+and denied opportunities for transformation that lead to freedom.
+Diffracting through conviviality
+The third set of theories focused on radical polemics. Technologies do not operate separately from 
+human creators. In 1770, a Hungarian inventor built an intricate mechanical chess player because of 
+the assumption that chess operated as a Western instrument to measure intellect. The inventor 
+tricked the royal court into thinking that a wooden construction could win at chess; in reality, there 
+was an expert chess player inside the apparatus playing incognito (Crawford 2022 ). A central part of 
+the story is how the inventor was attempting to assert a particular narrative about technology’s role 
+in determining intellect, but that narrative was built at least partially on deception and illusion. It 
+was also built on the presumption that skill at a cultural construct – the game of chess – is what does 
+and should constitute intelligence.
+In the Assemblage-as-Narrative where teachers need to learn to use GenAI to serve student 
+writers, there are cultural narratives operating about universally good writing. For example, making 
+letters in elegant cursive script was once considered a hallmark of intelligence (Fox 2014 ). What are 
+contemporary signifiers of intellect that are believed to be universal , but are culturally coded? How 
+have these crept into corpuses that have been stolen by LLMs for GPT technologies? There are also 
+tensions around how much children and teachers should play with technology versus learn with it. 
+Chess is a game. Or is it practice for logical thinking? An opportunity to learn patience? An exercise 
+in non-violent aggression? When children in Paraguay and their teachers were given laptops and 
+they wanted to use them for what researchers called recreation, this was considered a failure 
+(Broussard 2019 ). We ask: why do the researchers have the right to determine what is learning 
+and what is play in the classroom space?
+Such circumstances raise important questions about the seeming need in the Assemblage-As- 
+Narrative to prepare teachers to use GenAI properly to ensure that teachers use technologies 
+with students only for purposes that are evaluative and remedial so that students can replicate 
+universally good writing. Such a need is not reflective of how technologies are used outside of 
+school. Illich (1975 ) suggested that technology’s primary purposes should be to promote 
+a conviviality where people come together to share joy. This is not to say that students and 426
+ M. RICE ET AL.
+teachers could not enjoy writing together where they identified areas for improvement, but 
+historically, that is not how interventions have operated. Instead, technologies are used to do to, 
+or do for the students, rather than doing with them.
+One way to know whether there is a convivial intention of the project proposed by central 
+administration in the Assemblage-as-Narrative is whether and how much they ‘restrict 
+personal autonomy’ of teachers and students (Illich 1975 , p. 64). There is little room for 
+teacher and student decision making, especially since there is not even the choice of whether 
+to attend the sessions. There is also no space for thinking about the amount of time spent 
+using digital tools and whether that is best use of time for young people and teachers. Framing 
+professional learning for GenAI might be a proposition framed around what Lee (2021 ) 
+described as a symbiosis between humans and machines. Using GenAI as an instructional 
+convivial tool would provide opportunities for growth, creativity, and inspiration. Shifting 
+from a tutorial or remedial purpose to a pedagogical purpose opens the space to work 
+convivially with GenAI.
+While we may not be able to escape the entanglement of technologies with our bodies and our 
+lives, Illich (1975 ) warned of the dangers when machines have priority: ‘When people become 
+obsolete and need constantly to renew their educational security, when the accountant must be 
+reprogrammed for each new generation of computers, then learning has indeed become scarce’ 
+(p. 72). Radical polemics asks school leaders to consider the needs of children and families over the 
+needs of those who are promoting GenAI.
+Diffracting through community-engaged praxis
+The last set of theories focus on community-engaged praxis. Choosing educational tools is 
+a political act. Tools reflect the beliefs and desires of their makers; they are algorithmic mediations 
+of social relations (Ziarek 2022 ). Cultural tools reproduce themselves, so it matters which tools we 
+choose just as it matters whose stories tell stories (Haraway 2019 ). Choosing to narrate an agent as a 
+tool is also an social and political act (Harari, 2024 ). The underlying technologies used to create 
+GenAI systems is distributed knowledge across various individuals. AI-enabled algorithms might be 
+recast as lumps of clay. Whereas GenAI emerged from militarism and patriarchal capitalism, 
+algorithmic clay as biological material defies its origins and can be welcomed as collaborator 
+(Haraway 2019 ).
+GenAI could be a collaborator to create and make with personal and cultural empowerment. 
+Making with entangles temporalities and spatialities as intra-active entities-in assemblages. 
+Together, these are more-than-human, other-than-human, inhuman, and human-as-humus 
+(Haraway 2019 ). A community-based perspective shifts conversation to in the direction of make- 
+with .
+For example, the free and open software movement (FOSS) has existed since the 1980s 
+(Gonzalez-Barahona 2021 ). Yet, FOSS has no hold in K-12 education. Since 2008 professor and 
+creative computing researcher Rebecca Fiebrink has been offering Wekinator software. Before 
+Fiebrink, there was already a burgeoning field of open source coding tools built for non- 
+programmers. When designing with open-source programs called Processing, p5.js, and the 
+Wekinator, students and teachers also have opportunities for a more collaborative ethos. Not all 
+open-source projects are as explicitly inclusive as the Processing and p5.js coding community, but 
+their shared community statement provides an example of the philosophies typical to open-source 
+tools. The following statement appears on the front page of the website for the p5.js programming 
+platform.
+We are a community of, and in solidarity with, people from every gender identity and expression, sexual 
+orientation, race, ethnicity, language, neuro-type, size, disability, class, religion, culture, subculture, political 
+opinion, age, skill level, occupation, and background. We acknowledge that not everyone has the time, PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 427
+financial means, or capacity to actively participate, but we recognize and encourage involvement of all kinds. 
+We facilitate and foster access and empowerment. We are all learners. (p5.js, n.d. para.)
+Compare this philosophy with the mandate for erasure from the Assemblage-as-Narrative. The 
+central administration proclaims: This exciting new program will focus on students identified with 
+special educational needs and students who speak languages other than English or forms of English 
+that are less preferred by our valued local employers.
+In contrast to the closed source prescriptive tools imposed on teachers to universalize , there are 
+multiple public initiatives underway to create more inclusive, accessible, culturally situated tools 
+that use GenAI. One example of the open-source commitment to community, access, and inclusion 
+comes from the Wekinator website titled, Posthuman Feminist AI: Bits and Bytes, Creating with 
+Unheard Voices in AI Design . This ongoing project uses Fiebrink’s tools to collaborate for protest 
+and for purposes of civic engagement (Fiebrink n.d.). All are welcome to join the collaboration 
+regardless of computer program or other technology expertise. The group focuses on AI design with 
+attention to embodiment as well as cultural and emotional needs (Fiebrink n.d.).
+Another initiative, called FLAIR (First Languages AI Reality) is an Indigenous-focused group 
+(Mila n.d.). A sister project of FLAIR is the Lakota AI Code Camp, a summer camp for Lakota youth 
+to learn Python, data science, machine learning, and app development (Coffey 2024 ). AI Code 
+Camp’s ethos draws on ethic of the social good and local cultures (Goldweber 2015 ). During the 
+camp, students create apps based on their own local interests in what they would like to preserve, 
+such as flora and fauna. Under these circumstances, it is crucial to explain to the local community 
+and to young people how GenAI works and what the implications are for local knowledges, once 
+these are positioned in the technologised spaces. Such community-based projects have more 
+potential for doing-with teachers and students than current proposals to do-to them. Even so, 
+caution should always be taken with any initiative claiming to preserve culture, especially if that 
+initiative intends to gather up culture and sell it.
+According to Blain et al. (2024 ) humans need to learn to interact with machines; while the 
+machine has a goal, it is mindless. The programmer controls the goal. Teachers and students need 
+the ability to design not just the lesson or choose the technology – they need to be able to design it 
+themselves as programmers. This is more than prompting GenAI. This is about real control of how 
+advanced technologies are designed and implemented. Within a frame of community-engaged 
+praxis, central administrations need to support teachers and students in learning to make with self- 
+directed technologies, and/or to be free to not use these technologies at all.
+Discussion
+In reading-through the Assemblage-as-Narrative enabled many entangled opportunities to (re) 
+consider hierarchies, (re)consider the (non)human, and (re)configure for solidarity.
+(Re)considering hierarchies
+Diffractive knowings generated from the Assemblage-as-Narrative challenged the hierarchies of 
+human and (non)human. First, language functioned as a material consideration for forms of life 
+(Wittgenstein et al. 2009 ). This included aspects of controlling the form and content of professional 
+learning as well as guiding student and teacher perceptions. The use of language to materially 
+constitute bodies took shape as a lack of dialogue (Freire 2006 ). GenAI was more worthy of trust in 
+its capacity to use and produce language than children or teachers (Freire 2008 ). Such findings have 
+also emerged in previous research studies where teacher judgement and emotion are considered 
+harmful to the project of demanding teachers use GenAI (e.g. Nazaretsky et al. 2022 , Velander et al.  
+2024 ). The concept of GenAI as the most competent agent should give pause (Harari 2024 ).428
+ M. RICE ET AL.
+Instead of an imaginative orientation to GenAI (Illich 1975 ), GenAI in scenarious such as in our 
+Assemblage-as-Narrative provide the machinery of technology for teachers to do things to students, 
+particularly students who have been historically traumatised and treated poorly in schools. The 
+technological agent was also supposed to do to teachers through eliminating their decision-making 
+capacity while telling them the story that it is easing their workload. While GenAI represented an 
+assemblage of human knowledge, teachers and students could not fully participate because they 
+lacked access to coding knowledge and resources (Fiebrink n.d.). Moreover, there were no mean -
+ingful structures for doing conviviality with GenAI within local knowledge and community norms 
+(Illich 1975 , Goldweber 2015 ). A perceived need to remediate students with stringent tutorial 
+practices to please local employers should not be confused as a local concern; this is 
+a hierarchical proposition based on a racial social contract and universalist goals (Brayboy 2005 ; 
+Mills 1997 ). Findings from this diffractive reading suggests that if GenAI is used at all, it should be 
+done with teachers and students, rather than done to—all the way from the coding down to the 
+pedagogy. Researchers can study what happens when teachers have more technical knowledge and 
+can engage more fully in collaborations with students and community members beyond doing the 
+bidding of conglomerates of local employers. There also might be great learning that comes from 
+involving more members of local communities in land/water issues with respect to when, how, and 
+to what extent environmental degradation is a manageable risk for some educational benefit (Rice 
+and Argüello de Jesús, 2024 ).
+(Re)considering the (Non)human
+Entangled with the notion of challenging hierarchical ways of knowing and doing and being are 
+questions about what is human. It is also important to consider how teachers, students, and school 
+leaders can respond to questions of Being together. GenAI programs and applications are often 
+positioned as tools ; yet tools are made from people’s work, and they are never without context and 
+history (Illich 1975 ). Thus, who and what is a tool and what is a machine and what is an agent can 
+shift (Harari, 2024 ). Are GenAI truly being used as tools in the Assemblage-as-Narrative? Or are 
+teachers being used as tools since they are supposed to do the bidding of the market to use the 
+GenAI to ensure the on-going demand? A teachers-as-tools framing adheres closely to the tenets of 
+the racial social contract where universal goods for universal progress have been touted (Mills 1997 ).
+Another possibility is that the learners are being used as tools. Schoolchildren must become as 
+tools to ensure that using GenAI seems normal, universal. This framing aligns with colonization 
+discourses as well; GenAI is designed to take more jobs than it creates, cost more money than it 
+saves, waste more time than it preserves, and consume more energy than it generates (Powell 2024 ). 
+Instead of a divide existing between children who do/do not have access to AI or who do/do not 
+learn to use AI well, there will be more complicated fractures and fissures around how children are 
+able to take on their own agencies as writers and thinkers, how children survive the devaluing of 
+their efforts to make and do, how children survive in communities where environmental effects 
+from GenAI are visible and crushing, and how children move back and forth best between worlds 
+AI creates for them and ones they create for themselves. Findings from this diffractive reading 
+suggest that teachers’ professional learning about GenAI cannot occur outside of learning about 
+historical trauma and survival of the exploited. Telling teachers how GenAI works does not mean 
+telling teachers GenAI is smarter or more objective than them (Nazaretsky et al. 2022 , Velander 
+et al. 2024 ). It does not even mean helping teachers understand more about the linguistic algo-
+rithmic underpinnings, although that is part of what needs to happen. Instead, it means giving 
+teachers information about the environmental traumas and realities of students with learning 
+differences when teachers use advanced technologies, including GenAI (Rice and Argüello de 
+Jesús 2024 ). Research studies might focus on how teacher thinking and decision making emerges 
+when teachers have this critical information for instructional planning where the teachers are agents 
+not tools of GenAI or the companies that profit from GenAI’s use and distribution.PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 429
+(Re)Configuring for solidarity
+Mills (1997 ) described how the social contract was written to inscribe White-ness and then 
+presumed neutral. Recognizing power configurations is insufficient. Diffraction opens spaces to 
+do something outside of naming power. In this work, diffractive readings revealed the need to 
+approach professional learning with the understanding that universal good for universal progress is 
+a myth, and so is the need to place deficit labels on students and teachers to maintain the myth 
+(Brayboy 2005 , Jackson 2020 ). What animates the promulgation of the myth of the miracle of 
+GenAI is the need to use it to fix students who sit in the most precarious places on the educational 
+landscape. Destabilizing this myth is necessary to build coalitions for communities that serve 
+everyone better (Mohanty 2003 ).
+What the findings from this diffractive activity suggest is that diffraction itself may be part of the 
+pedagogies for professional learning that will present pathways for rejecting universalism. Some 
+teachers or teacher educators may think they would never do what is presented in our Assemblage- 
+as-Narrative scenario. That is fine. They can write their own scenario and subject it to diffraction. 
+They can gather a group of colleagues and use multiple theories without the intent to compare the 
+theories – but to gain insight. They can see what they learn about what they are asking of teachers. 
+Such work would also present interesting opportunities for further research into how teacher 
+educators learn what they do, does to teachers and in turn, does to children.
+Conclusion
+In this paper, we used critical posthumanisms to diffractively explore an Assemblage-as-Narrative 
+where teachers were required to learn to use GenAI for tutoring against multilingual children and 
+learning with learning differences. We used reading-through to learn how to challenge hierarchical 
+thinking and (re)consider who and what materialised as tools. We also demonstrated the need to 
+acknowledge historical trauma and current realities of oppression and inequity in teaching teachers 
+to use GenAI. Moving forward, professional learning for teachers might take diffractive perspec -
+tives in considering how to read-through to upend universalism for GenAI in practice.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+ORCID
+Mary Rice 
+ http://orcid.org/0000-0002-8138-512X
+References
+Arnesen, K., et al. 2019 . Experiences with personalized learning in a blended teaching course for preservice teachers. 
+Journal of online learning research , 5 (3), 275–310. Available from: https://www.learntechlib.org/p/210637/ .
+Arvin, M., Tuck, E., and Morrill, A., 2013 . Decolonizing feminism: challenging connections between settler coloni -
+alism and heteropatriarchy. Feminist formations , 25 (1), 8–34. doi:10.1353/ff.2013.0006  .
+Baidoo-Anu, D. and Ansah, L., 2023 . Education in the era of generative artificial intelligence (AI): understanding the 
+potential benefits of ChatGPT in promoting teaching and learning. Journal of AI, 7 (1), 52–62. doi:10.61969/jai. 
+1337500  .
+Barad, K., 1996 . Meeting the universe halfway: realism and social constructivism withoutcontradiction. In: L. Nelson 
+and J. Nelson, eds. Feminism, science, and the philosophy of science. Dordrecht, Netherlands: Springer, 161–194.
+Barad, K., 2007 . Meeting the universe halfway: quantum physics and the entanglement of matter and meaning . 
+Durham, NC: Duke University Press.
+Barr, M., 1987 . Feminist fabulation; or, playing with patriarchy vs. The masculinization ofmetafiction. Women’s 
+studies: An interdisciplinary journal , 14 (2), 187–191. doi:10.1080/00497878.1987.9978697  .430
+ M. RICE ET AL.
+Benjamin, R., 2019 . Race after technology . Cambridge, UK: Polity.
+Blain, L., 2024 . GPT-4 is 82% more persuasive than humans, and AIs can now read emotions . Newatlas Technology. 
+https://newatlas.com/technology/gpt-persuasion-manipulation .
+Bonilla-Silva, E., 2021 . Racism without racists: color-blind racism and the persistence of racial inequality in America . 
+Lanham, MD: Rowman & Littlefield.
+Boninger, F., Molnar, G., and Saldana, C., 2019 . Personalized learning and digital privatization of curriculum and 
+teaching. National education policy center . Available from: https://eric.ed.gov/?id=ED595239 .
+Bower, M., et al. 2024 . How should we change teaching and assessment in response to increasingly powerful 
+generative artificial intelligence? Outcomes of the ChatGPT teacher survey. Education and information technol -
+ogies , 1–37. doi:10.1007/s10639-023-12405-0  .
+Braidotti, R., 2002 . The politics of ontological difference. In: T. Brennan, ed. Between feminism and psychoanalysis 
+(pp. 89-105). London: Routledge.
+Braidotti, R., 2019 . A theoretical framework for the critical posthumanities. Theory, culture & society , 36 (6), 31–61. 
+doi:10.1177/0263276418771486  .
+Brassington, L., Traylor, A., and Rice, M., 2024 . Using the task of supporting struggling writers to consider broader 
+issues of composition with generative AI in English language arts education. In: C. Moran, Revolutionizing 
+English education: the power of AI in the classroom. eds. Lanham, Maryland: Lexington Books, pp. 125–139.
+Brayboy, B., 2005 . Toward a tribal critical race theory in education. The urban review , 37 (5), 425–446. doi:10.1007/ 
+s11256-005-0018-y  .
+Broussard, M., 2019 . Artificial unintelligence: how computers misunderstand the world . The Cambridge, MA: MIT 
+Press.
+Bullough, R., Jr and Pinnegar, S., 2001 . Guidelines for quality in autobiographical forms of self-study research. 
+Educational researcher , 30 (3), 13–21. Available from: http://doi.org/10.3102/0013189X030003013  .
+Caine, V., et al., 2017 . Exploring the purposes of fictionalization in narrative inquiry. Qualitative inquiry, 23 (3), 215– 
+221. doi:10.1177/1077800416643997  .
+Cajete, G., 2000 . Native science: natural laws of interdependence . Santa Fe, NM: Clear Light Publishers.
+Calderón, D., et al. 2012 . A chicana feminist epistemology revisited: cultivating ideas a generation later. Harvard 
+educational review , 82 (4), 513–539. doi:10.17763/haer.82.4.l518621577461p68  .
+Carr, L., 1997 . “Colorblind” racism . London: Sage.
+Chambers, D., 2019 . Is freire incoherent? Reconciling directiveness and dialogue in Freirean pedagogy. Journal of 
+philosophy of education , 53 (1), pp. 21–47. Available from: 10.111/1467-9752.12340  .
+Clandinin, D.J., 1989 . Developing rhythm in teaching: the narrative study of a beginning Teacher’s personal practical 
+knowledge of classrooms. Curriculum inquiry , 19 (2), 121–141. doi:10.1080/03626784.1989.11075320  .
+Clandinin, D.J. and Connelly, F.M., 1986 . Rhythms in teaching: the narrative study of teachers’ personal practical 
+knowledge of classrooms. Teaching & teacher education , 2 (4), 377–387. doi:10.1016/0742-051X(86)90030-2  .
+Coffey, D., 2024 . Indigenous youth are using coding and AI to save native language. Teen . Available from: https:// 
+www.teenvogue.com/story/these-coding-camps-are-teaching-indigenous-youth-to-save-native-language-through 
+-ai. [Accessed 24 Jan 2024].
+Crawford, K., 2022 . Atlas of ai. New Haven, CT: Yale University Press.
+Creed, B., 1993 . The monstrous-feminine: film, feminism, psychoanalysis . London: Routledge.
+Davies, B. and Harré, R., 1990 . Positioning: the discursive production of selves. Journal for the theory of social 
+behaviour , 20 (1), 43–63. doi:10.1111/j.1468-5914.1990.tb00174.x  .
+DiMaggio, P. and Powell, W., 1983 . The iron cage revisited: institutional isomorphism and collective rationality in 
+organizational fields. American sociological review , 48 (2), 147–160. doi:10.2307/2095101  .
+Evans, W., Gable, R., and Habib, A., 2021 . Lessons from the past and challenges for the future: inclusive education for 
+students with unique needs. Education sciences , 11 (6), 281. Available from: https://doi.org/10.3390/ 
+educsci11060281  .
+Fiebrink, R., n.d. Wekinator . Available from: http://wekinator.org .
+Forbes, J., 2008 . Columbus and other cannibals: the Wetiko disease of exploitation, imperialism, and terrorism . New 
+York, NY: Seven Stories.
+Fox, L., 2014 . Effects of technology on literacy skills and motivation to read and write . MA thesis. State University at 
+Brockport. Available from: https://hdl.handle.net/20.500.12648/5734 .
+Fox, N. and Allred, P., 2017 . Sociology and the new materialism . Los Angeles, CA: Sage.
+Freire, P., 2006 . Pedagogy of the oppressed . London: Continuum.
+Freire, P., 2008 . Education for critical consciousness . London: Continuum.
+Freire, P., 2021a . Pedagogy in process: the letters to Guinea-Bissau . London: Continuum.
+Freire, P., 2021b . Pedagogy of hope: reliving pedagogy of the oppressed . London: Continuum.
+Gadotti, M. and Torres, C., 2009 . Paulo Freire: education for development. Development and change , 40 (6), 
+1255–1267. Available from: http://doi.org/10.1111/j.1467-7660.2009.01606.x  .
+Goldweber, M., 2015 . Computer science education for social good. ACM SIGCAS computers and society , 45 (2), 
+29–30. Available from: https://doi.org/10.1145/2809957.2809963  .PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 431
+Gonzalez-Barahona, J., 2021 . A brief history of free, open source software and its communities. Computer , 54 (2), 
+75–79. Available from: https://doi.org/10.1109/MC.2020.3041887  
+Haaland, D. and Newland, B., 2022 . Interior secretary Haaland remarks on abuse of native American children. 
+Available from: https://www.c-span.org/video/?520148-1/interior-secretary-haaland-remarks-abuse-native- 
+american-children&live= .
+Harari, Y. N. Nexus: A brief history of information networks from the Stone Age to AI (New York: Random House) 
+2024
+Haraway, D., 1992 . Otherworldly conversations; terran topics; local terms. Science as culture , 3 (1), 64–98. Available 
+from: http://doi.org/10.1080/09505439209526336  .
+Haraway, D., 2019 . It matters what stories tell stories; it matters whose stories tell stories. A/B: Auto/Biography 
+studies , 34 (3), 565–575. Available from: http://doi.org/10.1080/08989575.2019.1664163  .
+Hodges, C. and Kirschner, P., 2024 . Innovation of instructional design and assessment in the age of generative 
+artificial intelligence. Technology trends , 68 (1), 195–199. Available from: https://link.springer.com/article/10. 
+1007/s11528-023-00926-x .
+Illich, I., 1975 . Tools for conviviality . New York: Fontana.
+Jackson, Z., 2020 . Becoming human: matter and meaning in an anti-black world . New York: New York University 
+Press.
+Jandrić, P., 2021 . Postdigital gathering. In: C. Achieng-Evensen, K. Stockbridge, and S. SooHoo, eds. Freirean echoes: 
+scholars and practitioners dialogue on critical ideas in education. 1st ed. Gorham ME: Myers Education Press, 91– 
+100.
+Kaplan-Rakowski, R., et al. 2023 . Generative AI and teachers’ perspectives on its implementation in education. 
+Journal of interactive learning research , 34 (2), 313–338. Available from: https://www.learntechlib.org/p/222363/ .
+Knox, J., 2013 . The limitations of access alone: moving towards open processes in educationtechnology. Open praxis , 
+5 (1), 21–29. doi:10.5944/openpraxis.5.1.36  .
+Kristeva, J., 1980 . Desire in language: a semiotic approach to literature and art. New York: Columbia University Press.
+Lee, E., 2021 . Education for the symbiosis of humans and machines in a posthuman age. suffering and evil in nature: 
+comparative responses from ecstatic naturalism . Lanham, ME: Rowman and Littlefield.
+Lim, A. and Nicolaides, A., 2024 . Becoming-with-ai: rethinking professional knowledge through generative knowing. 
+Reflective practice , 25 (3), 391–405. doi:10.1080/14623943.2024.2321227  .
+Lu, J., et al. 2024 . Supporting teachers’ professional development with generative AI: the effects on higher order 
+thinking and self-efficacy. IEEE transactions on learning technologies , 17, 1279–1289. Available from: https:// 
+ieeexplore.ieee.org/abstract/document/10444988 .
+Merten, K., 2021 . Diffractive reading: new materialism theory and critique . Lanham, ME: Rowman & Littlefield.
+Mila, n.d. FLAIR initiative . Available from: https://mila.quebec/en/project/flair-initiative/ .
+Mills, C.W., 1997 . The racial contract . Ithaca, NY: Cornell University Press.
+Mishler, E., 1990 . Validation in inquiry-guided research: the role of exemplars in narrativestudies. Harvard educa -
+tional review , 60 (4), 415–443. doi:10.17763/haer.60.4.n4405243p6635752  .
+Mohanty, C., 2003 . Feminism without borders: decolonizing theory, practicing solidarity . Durham, NC: Duke 
+University Press.
+Morris, M., 2020 . AI and accessibility. Communications of the Acm , 63 (6), 35–37. doi:10.1145/3356727  .
+Mulcahy, D., 2011 . Assembling the ‘accomplished’ teacher: the performativity and politics of professional teaching 
+standards. Educational philosophy and theory , 43 (sup1), 94–113. doi:10.1111/j.1469-5812.2009.00617.x  .
+Nazaretsky, T., et al. 2022 . Teachers’ trust in AI -powered educational technology and a professional development 
+program to improve it. British journal of educational technology , 53 (4), 914–931. doi:10.1111/bjet.13232  .
+Powell, A., 2024 . AI is expensive . Available from: https://blogs.lse.ac.uk/medialse/2024/06/05/ai-is-expensive/ .
+Ricaurte, P., Gómez-Cruz, E., and Siles, I., 2024 . Algorithmic governmentality in Latin America: sociotechnical 
+imaginaries, neocolonial soft power, and authoritarianism. Big data & society , 11 (1), 20539517241229697. 
+Available from: http://doi.org/10.1177/20539517241229697  .
+Rice, M. and Argüello de Jesús, J.T., 2024 . Decolonizing digital accessibility within land/water realities using minimal 
+computing. Learning, media and technology , 1–14. doi:10.1080/17439884.2024.2394471  .
+Rillig, M., et al. 2023 . Risks and benefits of large language models for the environment. Environmental science & 
+technology , 57 (9), 3464–3466. doi:10.1021/acs.est.3c01106  .
+Smith, A. 2012 . Indigeneity, settler colonialism, and white supremacy . D. HoSang, O. LaBennett, and L. Pulido, eds. 
+Racial formation in the 21st century. Berkeley, CA: University of California Press, 66–90.
+Strom, K., Mills, T., and Abrams, L., 2021 . Illuminating a continuum of complex perspectives in teacher development. 
+Professional development in education , 47 (2–3), 199–208.
+Tsing, A., et al. 2017 . Arts of living on a damaged planet . Minneapolis, MN: University of Minnesota Press.
+United Nations System, Chief Executives Board for Coordination, 2022 . Summary of deliberations . Addendum . 
+principles of the ethical use of artificial intelligence in the united nations system . Available from: https://unsceb. 
+org/topics/artificial-intelligence .432
+ M. RICE ET AL.
+van Langenhove, L., 2017 . Varieties of moral orders and the dual structure of society: a perspective from positioning 
+theory. Frontiers in sociology , 2. doi:10.3389/fsoc.2017.00009  .
+Velander, J., et al. 2024 . Artificial intelligence in K-12 education: eliciting and reflecting on Swedish teachers’ 
+understanding of AI and its implications for teaching & learning. Education and information technologies , 
+29 (4), 4085–4105. Available from: https://link.springer.com/article/10.1007/s10639-023-11990-4 .
+Wall Kimmerer, R., 2013 . Braiding sweetgrass: indigenous wisdom, scientific knowledge, and the teachings of plants . 
+Minneappolis, MN: Zest books.
+The White House, 2023 . Fact sheet. President Biden issues executive order on safe, secure, and trustworthy artificial 
+intelligence. Available from: https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact- 
+sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/ . [Accessed 
+30 Oct 2023].
+Wittgenstein, L. 2009 . Philosophical investigations . (P. Hacker and J. Schulte, eds.). West Sussex, UK: Wiley- 
+Blackwell.
+Ziarek, E., 2022 . Against digital worldlessness: Arendt, narrative, and the onto-politics of big data/ai technologies. 
+Postmodern culture , 32 (2). Available from: http://doi.org/10.1353/pmc.2022.0002 .PROFESSIONAL DEVELOPMENT IN EDUCATION
+ 433

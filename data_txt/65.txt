@@ -1,0 +1,843 @@
+Tong King Lee*
+Artiﬁcial intelligence and posthumanist
+translation: ChatGPT versus the translator
+https://doi.org/10.1515/applirev-2023-0122
+Received June 10, 2023; accepted July 12, 2023; published online August 1, 2023
+Abstract: Although automated translation has been available for decades in myriad
+forms, the implication of the current exponential advancement in arti ﬁcial intelli-
+gence (AI) for communication in general and translation in particular is more starkly
+aﬀrontational than ever. Although Large Language Models, of which ChatGPT is
+exemplary, were not speci ﬁcally designed for translation purposes, they are attested
+to have attained a su ﬃcient degree of technical sophistication as to generate
+translations that match or surpass dedicated translation systems in the market likeGoogle Translate and DeepL. This impacts the modus operandi of communication
+and the self-concept of language professionals including, of course, translators. This
+article asks how translation as a ﬁeld of practice can best respond to this develop-
+ment. It critically re ﬂects on the implications of AI for the conception of translation,
+arguing that an alternative framing around the idea of distribution allows us to
+rescale translation toward broader competencies and conceive of AI as a prosthesis
+of translators ’minds. The article advocates a posthumanist perspective on trans-
+lation with a view to expanding its spectrum of skills, modes, and media as well as
+transcending the traditional personae of translators.
+Keywords: artiﬁcial intelligence; ChatGPT; distributed cognition; posthumanism;
+translation
+The advancement of AI translation systems has been remarkable, with each iteration
+building on the successes of its predecessors. Early attempts, such as rule-based
+systems, were limited in their ability to capture the nuances of natural language.
+However, with the advent of statistical machine translation, algorithms were able to
+learn from bilingual text corpora and generate translations that more closely
+resembled human translations. The development of neural machine translation
+marked a signi ﬁcant shift, with deep learning models that could better capture the
+context and meaning of words in a sentence. The latest iteration, GPT-4, is a game-
+*Corresponding author: Tong King Lee , School of English, The University of Hong Kong, Hong Kong,
+SAR, China, E-mail: leetk@hku.hk. https://orcid.org/0000-0002-8885-6887Applied Linguistics Review 2024; 15(6): 2351 –2372
+changer with its unprecedented translation capacities, including the ability to
+translate between modalities.
+1 Introduction
+Full Disclosure: I did not write the foregoing paragraph. ChatGPT-4 did, albeit afterseveral iterations. The prompt used was this: ‘Write in about 150 words, in the style of
+Steven Pinker, on the development of AI translation systems. Mention GPT-4 and its
+translation capacities. Use an academic tone ’. The same method can be used to
+produce more extended texts (see, e.g., Howard 2023), including, potentially, anarticle like the one you are now reading. To start this article with an AI-generated
+preamble themed re ﬂexively on itself is more than just to provoke a laugh: the irony
+created by way of the metalinguistic conundrum aptly captures the mixed feelings
+around the rise of ChatGPT and the proliferation of GenAI (Generative Arti ﬁcial
+Intelligence) applications it has triggered.
+So let us begin again.
+Although machine translation (MT) and computer-assisted translation (CAT)
+have been available for decades in myriad forms, the implication of the current
+exponential advancement in arti ﬁcial intelligence (AI) for communication in general
+and translation in particular is more starkly a ﬀrontational than ever. Prior to the rise
+of Large Language Models (LLMs), many a professional translator would still have
+remarked, not without condescension, that online translation tools habitually mis-
+construed lexical meanings out of context and occasionally churned out unidiomatic
+structures, particularly when translating across di ﬀerent language families. And
+even though Google Translate had been enhancing its capacities in remarkable ways
+since at least 2016, the prevailing view was still that MT had inherent ﬂaws that only
+human translators could remedy. Today these same professionals may begin to feel
+an onset of dystopia for their ﬁeld of practice. Although LLMs, of which ChatGPT is
+exemplary, were not speci ﬁcally designed for translation purposes, they are attested
+to have achieved a su ﬃcient degree of technical sophistication as to produce
+linguistically ﬂuent and logically coherent translations that match or surpass dedi-
+cated translation systems like Google Translate and DeepL. Considering that LLMs
+are only at their nascent stage, it is almost certain that MT will be able to operate with
+increasing autonomy, at least with respect to specialized technical communications.
+Why this should be a cause for anxiety cannot be more obvious: an extrapo-
+lation from the present state of the art in AI technologies would show that humans
+can partially be displaced in the near future across several modalities of creative
+communication, including copywriting, tr anslation, graphic illustration, sound
+synthesis, and —God forbid —ﬁction writing. A Zoom conference meeting convened2352
+Lee
+in March 2023 among Japanese-English professional translators on the implications
+of AI indicates that at least some participants expect human translators to even-
+tually be made redundant (Gally 2023a). With the rapid technologization of
+communication via AI, the sci- ﬁrealm of cyborgs and androids is no longer so
+fantastical, and the era of anthropocentric thinking will come to its end, if it has not
+already. This impacts the modus operandi of communication and the self-identity
+of language professionals including, of course, translators.
+This article asks how translation as a ﬁeld can best respond to this development.
+It begins with a brief overview of the lineage of MT technologies, with an eye to MT ’s
+possible impact on the positioning of human translators. Examples will then be
+presented concerning ChatGPT ’s translational e ﬃcacy as compared with dedicated
+translation systems in the market, focusing on discourse-level issues that typically
+trip up MT. On this basis the article re ﬂects on the implications of current AI
+developments for the conception of translation. This culminates in my argument that
+an alternative framing around the ideas of distribution and posthumanism can help
+rearticulate the translator ’s persona and the ambit of translation practice.
+2 ChatGPT and its discontents
+Long before ChatGPT took the world by storm in late 2022, MT had already had a
+visible place among practitioners, particularly in the localization industry.1MT,
+along with CAT, o ﬀers an e ﬃcient and ﬁnancially viable way to produce di ﬀerent
+language versions of source texts with controlled terminologies. Rule-based and
+statistical machine translation (SMT) systems are two milestones in this trajectory,balancing e ﬃciency with a reasonable degree of accuracy. The quality of trans-
+lation output is typically ensured by human intervention post-MT. The translator
+comes in —or is reduced to, as some would say —more as a post-editor to ﬁnetune
+MT output (O ’Brien 2022; O ’Brien et al. 2014). Hence, in his typology of translation
+solutions, Pym (2016) proposes that ‘text tailoring ’be included in a translator ’s
+repertoire of techniques, ‘where translators legitimately alter what is actually said in
+the text ’, with alterations ranging from ‘simple corrections of mistakes, the deletion
+of signi ﬁcant stretches of material that is not relevant to the purpose of the new text ’
+to‘the addition of new material that may enhance that purpose, as in the case of
+extensive explanations of historically dated or otherwise little-known terms and
+customs ’(231). This suggests a pivoting of the translator ’s role away from conven-
+tional translating even before ChatGPT came about. As Pym (2016: 231) maintains,
+since MT
+1For a comprehensive review of MT ’s development, see Kenny (2018, 2022).AI and posthumanist translation 2353
+has reached the stage where it is frequently more cost-e ﬀective to have translators post-edit
+rather than translate from scratch, the added value of our work must increasingly be found at
+higher levels of cross-cultural communication , including text selection and alteration. The term
+‘translation ’is not anchored to some eternal essence where such things are unthinkable.
+(Emphasis added)
+Pym’s prescient statement was made in the mid-2010s. It was around this time that
+MT made a signi ﬁcant leap forward, arriving at Neural Machine Translation (NMT), a
+translation technology described as applying ‘a large arti ﬁcial neural network
+toward predicting the likelihood of a sequence of words, often in the form of whole
+sentences ’. This represents an advancement from SMT in terms of memory and time
+consumption, with NMT ‘train[ing] its parts end-to-end to maximize performance ’,
+thereby propelling it ‘to the forefront of machine translation, recently outcompeting
+traditional forms of translation systems ’.2
+All of this is taken to a di ﬀerent level by ChatGPT, which operates on LLMs
+drawing on massive volumes of data and trained on supercomputing infrastructures,
+wired with the capacity to reinforce its own learning based on human feedback.
+Research has shown that LLM systems as applied to translation compare favourably
+with dedicated translation systems on sentence-level benchmarks (Hendy et al. 2023),
+at least when translating into high-resource languages like English (Jiao et al. 2023).
+This is notwithstanding that the quality of translation is in ﬂuenced by prompting
+strategies (Vilar et al. 2023; Zhang et al. 2023). Taking this to the level of discourse,
+Karpinska and Iyyer (2023) demonstrate that translations of paragraph-level texts
+by ChatGPT contain fewer mistranslations, grammatical infelicities, and stylistic
+inconsistencies as compared to Google Translate, though errors could still be found.
+The fact that the source texts used by Karpinska and Iyyer were taken from
+contemporary ﬁction is signi ﬁcant, as literary translation has always been seen as
+the nemesis of MT and, therefore, the exclusive preserve of human translators (for a
+discussion on ChatGPT ’seﬃcacy in literary translation, see Gally 2023b).
+There is the counterargument that an ability to translate by way of algorithms
+does not mean computers have any kind of human-like intelligence. Gigerenzer
+(2022: 96) maintains that ‘[w]ithout understanding, even a good translation system
+remains an idiot savant ’. More speci ﬁcally, MT is susceptible to errors due to its
+inability to infer lexical meanings from contexts. Gigerenzer demonstrates this by
+having MT translate a series of sentences containing a polysemous word: ‘Little John
+was looking for his toy box. Finally, he found it. The box was in the pen . John was
+very happy ’. Gigerenzer ﬁnds, at the time of his writing, that DeepL could indeed
+read ‘the pen ’correctly, that is, as not referring to the piece of stationery but to an
+enclosure for kids or animals. However, he ﬁnds that simply changing ‘the pen ’to‘his
+2https://deepai.org/machine-learning-glossary-and-terms/neural-machine-translation.2354 Lee
+pen’was enough to confound the machine, which in the latter case would render
+‘pen’in German as if it were the writing instrument: Die Schachtel war in seiner Feder
+(97). This, for Gigerenzer, evidences MT ’s inability to perform contextual interpre-
+tation for want of human psychology, hence his conviction that ‘deep learning in
+itself will come to be seen as a cul-de-sac. Without the help of human psychology, it
+will become clearer that the application of this type of machine learning to unstable
+situations eventually runs up against insurmountable limitations. We will ﬁnally
+r e c o g n i z et h a tm o r ec o m p u t i n gp o w e rm akes machines faster, not smarter ’
+(Gigerenzer 2023: n.p.).
+Gigerenzer is right, though we should add two caveats to his argument. First, not
+all writing we encounter in our daily or professional lives involves linguistically
+tricky situations as with ambiguity and polysemy. The latter belong to the domain of
+creative writing, but even here, contrary to popular assumption, one must not too
+hastily assume that MT is completely untenable (see Karpinska and Iyyer 2023; Gally
+2023b). As noted earlier, specialized translation involving texts with iterative
+structures and controlled vocabulary is eminently automatable even before the
+advent of LLMs. Second, Gigerenzer ’s experiment needs updating, given that any test
+run through MT systems is contingent on the state of the art at the time of writing .I n
+July 2023 I ran the same passage through ChatGPT-4 and the problematic segment
+‘The box was in his pen ’was rendered in German as Die Kiste war in seinem Gehege ,
+hence giving the correct equivalent of ‘pen’in the context of the passage, namely
+‘enclosure ’(Gehege ). This does not invalidate Gigerenzer ’s argument, but it does
+mean we cannot take for granted the presumed weakness of AI with respect to
+contextual work. Even if AI can never acquire human logic, they may be able to mimic
+such logic to an extent that enables them to serve as adequate stand-ins in handling
+instrumental translation tasks. In this regard, Gigerenzer ’s (2022) suggestion that
+human translators have a perennial advantage over their machine counterparts, and
+that ‘how to teach a neural network to acquire common sense remains an unsur-
+passed challenge ’(97), may need to be quali ﬁed. The next section presents examples
+that go some way toward such quali ﬁcation.
+3 Discourse issues
+To date research on ChatGPT ’s translational capacity, mostly carried out by
+computing specialists, is quantitative and statistical. This section presents a more
+textured analysis on the program ’seﬃcacy in translation. Similar to Gigerenzer ’s
+‘pen’example, the cases below revolve around the discourse-level aspects of cohe-
+sion and coherence, both of which involve contextual work beyond sentence level.AI and posthumanist translation 2355
+These aspects are generally challenging for the amateur translator and, we might
+hypothesize, for ChatGPT as well.
+A methodological caveat is in order. A key limitation in performing tests on
+ChatGPT should be recognized from the outset, namely the inconsistency of results.
+For better or worse, ChatGPT allows users to generate any number of di ﬀerent
+translations of the same passage through iterative prompting.3The technology is also
+still evolving, and so running the same passage through di ﬀerent versions of the
+program will likely come up with di ﬀerent results. Thus, tests or experiments con-
+ducted with ChatGPT are not necessarily replicable, and so any claims made on thebasis of a given set of results can only be contingent, as subsequent iterations will
+produce outcomes that may or may not corroborate those initial claims. This need
+not discourage us from making preliminary observations based on the technology at
+the time of writing. Of interest to us is what ChatGPT can potentially do as compared
+to dedicated translation programs and also human translators, irrespective of the
+iterations. The critical re ﬂections arising from the observations will thus likely
+remain relevant even if the speci ﬁc translations in the examples are superseded by
+the time this article is published and read.
+3.1 Cohesion
+In discourse linguistics, cohesion refers to ‘the network of lexical, grammatical and
+other relations that provide links between various parts of a text ’; these links
+function to ‘organize and, to some extent, create a text, for instance by requiring
+the reader to interpret words and expressions by reference to other words and
+expressions in the surrounding sentences and paragraphs ’(Baker 2018: 194, based on
+Halliday and Hasan 1976). One of the most common cohesion devices in English is
+pronominal reference —the use of pronouns to refer to an antecedent entity,
+participant, or event in the same text. In topic-prominent and pro-drop languages
+like Japanese (Hasegawa 2014), however, cohesion works di ﬀerently. In these lan-
+guages, once a grammatical topic is announced at the start of a discourse, it is
+assumed to sustain itself through the text that follows until a new topic appears. A
+corollary of this is that subjects are not a mandatory component in Japanese clauses.
+3This is in contrast to dedicated translation programs like Google Translate, DeepL, and Bing
+Microsoft Translator, whose results are relatively stable over a period of time (Gally 2023c), although
+these deep learning models are continuously retrained based on new data, which means their output
+is also in- ﬂux (Kenny 2022: 45 –46). For practical purposes, this instability of output by ChatGPT need
+not be a limitation, for it means the program can instantly generate multiple spontaneous solutions
+around a given prompt, hence providing potentially more options for human translators to choose
+from in accordance with the speci ﬁcations of the task at hand.2356 Lee
+In other words, the relatively low frequency of pronominal reference in Japanese
+results in the preponderance of null subjects and zero anaphora. Consider the
+following example:4
+Original Japanese: シンガー ・ソングライターの 大黒摩季さんは、 今年5月27日にデビュ
+ー30周年を迎えました。およそ 1年かけて全国47都道府県を回るライブツアーを 続けつ
+つ、 12月14日に30周年記念アルバム「 BACK BEATs #30th Anniversary -SPARKLE- 」を発表。
+1990年代からたくさんのヒット 曲を世に送り出し、歌い続けてきた 大黒さんが、 30周年
+の節目に思うことを 聞きました。インタビュー 前編は、新アルバムやオーケストラとの
+共演について 語ります。
+This passage is about the female Japanese singer Maki Ohguro 大黒摩季, who
+appears at the beginning of the text and is implicitly referred throughout without the
+use of pronouns or co-references. The problem with translating this text into English
+is not just that pronouns need to be supplied at various junctures; their gender and
+number also need to be determined and rendered with consistency. Let us compare
+four translations produced by ChatGPT-3, Google Translate, DeepL, and Bing
+Microsoft Translator in early 2023.
+ChatGPT-3: Singer-songwriter Makki [ sic] Ohguro celebrated her 30th debut anniversary on
+May 27 of this year. While continuing a nationwide tour that visited all 47 prefectures in Japan
+over the course of about a year, she released the 30th anniversary commemorative album
+“BACK BEATs #30th Anniversary -SPARKLE- ”on December 14. Ohguro, who has been releasing
+many hit songs since the 1990s and has continued to sing, was asked what shethinks about the
+milestone of her 30th anniversary. In the ﬁrst part of the interview, shetalks about the new
+album and hercollaboration with an orchestra.
+Google Translate: Singer-songwriter Maki Ohguro celebrated her 30th anniversary on May
+27th. On December 14th, they announced their 30th anniversary album “BACK BEATs #30th
+Anniversary -SPARKLE- ”while continuing their live tour around 47 prefectures in Japan for
+about a year. We asked Mr.Oguro [ sic], who has released many hit songs to the world since the
+1990s and continued to sing, what hethinks about the 30th anniversary milestone. The ﬁrst part
+of the interview talks about hisnew album and hiscollaboration with the orchestra.
+DeepL: Singer/songwriter Maki Ohguro celebrated the 30th anniversary of herdebut on May 27
+this year. She has been singing and releasing many hit songs since the 1990s, and we asked her
+what she thinks about the 30th anniversary .We asked him about histhoughts on the 30th
+anniversary . In the ﬁrst part of the interview, hetalks about the new album and performing
+with an orchestra.
+Bing Microsoft Translator: Singer-songwriter Maki Oguro [ sic] celebrated the 30th anniver-
+sary of her debut on May 27 this year. While continuing a live tour that took them to 47
+4The author would like to thank Tom Gally (www.gally.net) for o ﬀering the ﬁrst two examples in
+this section.AI and posthumanist translation 2357
+prefectures nationwide for about a year, they released their 30th anniversary album “BACK
+BEATs #30th Anniversary -SPARKLE- ”on December 14. We asked Mr. Daikoku , who has been
+singing many hit songs since the 1990s, what hethinks on the milestone of his30th anniversary.
+In the ﬁrst part of the interview, hetalks about hisnew album and performing with the
+orchestra.
+Here, only ChatGPT correctly identi ﬁes the gender of Maki Ohguro (although it
+wrongly spells her name) and consistently uses the third person singular feminine
+pronoun (see words in bold). Contrast this with the other three translations, which
+show varying degrees of inconsistency in respect of pronominal choice, shuttling
+between masculine and feminine, singular and plural. DeepL goes further to delete
+the title of the anniversary album and the segment about the singer ’s tour in Japan; it
+also repeats the sentence concerning what the singer thinks about her anniversary
+milestone (see segments in italics). The worst performer in this instance has to be
+Bing Microsoft Translator which, in addition to confusing the singer ’s gender,
+inexplicably comes up with the name Mr. Daikoku. The latter is nonexistent in the
+original Japanese; its abrupt appearance ruptures the chain of cohesion around Maki
+Ohguro in addition to rendering the passage incoherent.
+Consider another example taken from the Japanese newspaper Asahi Shimbun
+(Dec 12, 2022). This is a biographical note on the actress Miki Mizuno.
+Original Japanese: マイペースで 自分の道を、着実に歩んできた 人――俳優・水野美紀さ
+んのこれまでを 振り返ると、そんな 言葉が浮かぶ。中学1年生の時に受けたオーディ
+ションをきっかけに 芸能界入り。「踊る大捜査線」や「 TEAM」などの 人気シリーズに
+出演し、 26歳で初めて主演を務めたドラマ「 女子アナ。」で 演じたまっすぐで 頑張り屋
+の女性像には、特に同世代の女性たちから 支持が寄せられた。 演じる役の幅を広げる上
+で大きな武器となったのが、アクションの 実力。小学校時代から少林寺拳法を習ってき
+た水野さんは、 10代の頃から本格的にレッスンを 受け、キレのいい 動きを作品でたびた
+び披露してきた。
+Theﬁrst segment of the text before the dash functions like a quotation, using the
+indeﬁnite noun 人(person) as the head noun; and as with the ﬁrst example, the topic
+Miki Mizuno 水野美紀threads itself through the passage without pronominal
+referencing. Both Google Translate and Bing Microsoft Translator shuttle between
+masculine and feminine pronouns as with the previous passage. They also introduce
+an‘I’into the quotation in the ﬁrst line where there is none in the Japanese original,
+hence foregrounding the authorial voice of the journalist who penned the article. In
+the Google Translate version, there is additionally a confounding switch to the ﬁrst
+person plural in the (mis)translation ‘We received support ’(cf.‘She received
+support ’).
+Google Translate : A person who has steadily walked hisown path at hisown pace —when I
+look back on actor Miki Mizuno ’s past, those words come to mind. Heentered the entertainment2358 Lee
+world after an audition hereceived when hewas in the ﬁrst year of junior high school.
+Appeared in popular series such as “Odoru Daisoussen ”and“TEAM ”, and starred for the ﬁrst
+time at the age of 26 in the drama "Joshi Anna." Wereceived support. Her ability to act has
+become a great weapon in expanding the range of roles shecan play. Mizuno, who has been
+learning Shorinji Kempo since elementary school, has taken lessons seriously since histeens,
+and has often demonstrated sharp movements in hisworks.
+Bing Microsoft Translator: When Ilook back on the past of actor Miki Mizuno, a person who
+has steadily walked hisown path at hisown pace, such words come to mind. Heentered the
+entertainment world after an audition hereceived when hewas in the ﬁrst year of junior high
+school. Shestarred in popular series such as “Dancing Detective Line ”and“TEAM ”and starred
+in the drama “Joshi Ana, ”in which shestarred for the ﬁrst time at the age of 26, and herrole as a
+straight, hardworking woman was especially popular with women of hergeneration. A major
+weapon in expanding the range of roles heplayed was hisability to act. Mizuno, who has been
+learning Shaolin Kempo since elementary school, has been taking serious lessons since hewas a
+teenager and has often shown sharp movements in hisworks.
+DeepL does a decent job this time by sustaining the feminine pronoun throughout in
+reference to Miki Mizuno. In the ﬁrst sentence, the narrator ’s voice does not intrude
+via an additional pronoun and the use of ‘her’to point back to ‘a person ’exempli ﬁes a
+now-conventionalized usage (in reversal of the longstanding practice of defaulting
+to the masculine pronoun) for referencing inde ﬁnite persons in many types of
+discourse.
+DeepL: A person who has steadily followed herown path at herown pace —those are the words
+that come to mind when looking back on actor Miki Mizuno ’s career. She entered the enter-
+tainment industry after an audition when shewas in herﬁrst year of junior high school. She
+appeared in popular series such as “Bayside Shakedown ”and“TEAM, ”and at the age of 26, she
+played the lead role in herﬁrst drama, "Shojo Ana. Her portrayal of a straightforward, hard-
+working woman was particularly popular among women of her generation. Her action skills
+were a major weapon in expanding the range of roles she could play. Ms. Mizuno, who has
+studied Shorinji Kempo since elementary school, began taking lessons in earnest when shewas
+a teenager, and has often demonstrated her sharp moves in herﬁlms.
+ChatGPT, in addition to using the feminine pronoun consistently —and also correctly
+rendering 少林寺拳法as Shaolin Kungfu —surprises in its use of the third person
+plural ‘their ’to reference the inde ﬁnite noun phrase in the ﬁrst line. This latter
+grammar is emergent and increasingly prevalent in contemporary English. As it
+were, ChatGPT updates its English grammar to current usage, at least in this instance.
+ChatGPT-3: A person who has steadily walked their own path at their own pace —when looking
+back on the career of actor Miki Mizuno, such words come to mind. She entered the enter-
+tainment industry after an audition she took in herﬁrst year of junior high school. She
+appeared in popular series like “Bayside Shakedown ”and“TEAM, ”and in her ﬁrstleading role
+in the drama “Joshi Ana ”at the age of 26, shereceived support from women of hergenerationAI and posthumanist translation 2359
+forherportrayal of a straightforward and hardworking female character. A major weapon in
+expanding the range of roles sheplayed was heraction skills. Mizuno, who had been learning
+Shaolin Kung Fu since elementary school, began taking formal lessons in her teens and
+frequently showcased her sharp movements in herwork.
+In a more recent iteration in mid-2023, a curious turn occurred when the same
+passage was translated with ChatGPT-3.5, although this does not appear to be
+replicable. For unknown reasons, the program decides to collapse the ﬁrst two
+segments in the Japanese text, condensing the quotation ’s meaning into one word
+(‘steadfast ’) and changing the position in which it occurs. This alters the cohesion
+pattern of the text. In the original text, そんな言葉(such words) points the reader
+back to the quotation, whereas in this second translation, the cohesion link is
+rendered unnecessary due to ChatGPT ’s restructuring of the original line:
+ChatGPT-3.5 :Looking back on the career of actor Miki Mizuno, one word that comes to mind is
+“steadfast. ”She entered the entertainment industry after auditioning in her ﬁrst year of junior
+high school. [ …]
+We leave aside the question of whether this is a justi ﬁed move, as that would depend
+on the purpose, or skopos , of the translation. (Following functionalist thinking in
+translation [Nord 2018] and judging from the informative nature of the text, the move
+might be justi ﬁed if the translation is commissioned for publication in a popular
+magazine for a lay audience.) The important point for us here is twofold. First,
+ChatGPT ’s choice of word is precise, as the metaphorical phrase in the Japanese
+quotation (A person who has steadily walked their own path at their own pace) does
+describe a ‘steadfast ’attitude to life. Second, the option to compress a long phrase
+into a single word, which is a substantial shift, is seldom taken by MT in general. Eventhough the algorithmic operations governing this particular move is a black box, the
+very fact that ChatGPT could implement such a shift shows it can potentially depart
+from MT ’s default literal approach and emulate human translators as to how creative
+interventions might be introduced.
+3.2 Coherence
+Coherence refers to the network of conceptual relations or meaning dependenciesperceived by language users to bind a text together. It is the underlying current of a
+text often manifested through cohesive devices that serve to explicate conceptual
+relations between di ﬀerent textual segments (Baker 2018: 236). It is thus unsurprising
+that a lack of coherence is a distinctive trait of MT, which prior to LLMs has been
+using a sentence-by-sentence approach to translation. The question is whether and
+how LLMs have changed the game. Let us look at the opening paragraph from Sayaka2360
+Lee
+Murata ’s novel Convenience Store Woman , together with its published English
+translation by Ginny Tapley Takemori (cited in Wakayabashi 2021: 198). The passage
+describes the plethora of di ﬀerent sounds audible in a convenience store:
+コンビニエンスストアは、 音で満ちている。 客が入ってくるチャイムの 音に、店内を流
+れる有線放送で新商品を宣伝するアイドルの 声。店員の掛け声に、バーコードをスキャ
+ンする音。かごに 物を入れる音、パンの 袋が握られる音に、店内を歩き回るヒールの
+音。すべてが 混ざり合い、「コンビニの 音」になって、 私の鼓膜にずっと 触れている。
+A convenience store is a world of sound . From the tinkle of the door chime to the voices of TV
+celebrities advertising new products over the in-store cable network, to the calls of the store
+workers, the beeps of the bar code scanner, the rustle of customers picking up items and
+placing them in baskets, and the clacking of heels walking around the store. It all blends into the
+convenience store sound that ceaselessly caresses my eardrums.
+In the Japanese text, coherence is created through the rhetorical repetition of two
+words relating to aurality: 音(sound) and 声(voice), giving rise to a rhythm that ties
+in with the sonic theme of the passage. The published English version by Takemori
+reproduces this network of meaning re lations by tracing the sound words,
+although the phrase パンの袋が握られる音に(the sound of holding a bread bag)
+is inadvertently dropped. Takemori ’s translation also enriches the rhetorical
+colour of the passage. Whereas the Japanese text reiterates the same phrasal
+structure XXX- sound or XXX- voice , the translation introduces greater aural variety
+by way of onomatopoeic words that are not in the Japanese text ( ‘tinkle ’,‘rustle ’,
+‘beeps ’,‘clacking ’), leading to a coherence pattern that is more textured than in the
+Japanese original. The English translation initially appears as part of an article
+titled ‘Poetry for all senses: SWET summer party at Rikugien ’, published in a
+newsletter titled SWET . It is also published in the online non ﬁction magazine
+LongReads .5Judging from these titles, the translation would probably be read by a
+more casual audience, as opposed to serious literary critics, thus justifying the
+translator ’s intervention.
+ChatGPT, which obviously does not have text-type considerations in regard,
+oﬀers a fairly competent translation, not least because the phrase omitted from the
+human translation is retrieved. The repetition of the structure sound of XXX corre-
+sponds to the reiterative XXX- sound/voice patterning in the Japanese text, thus
+maintaining its coherence around the sound theme.
+ChatGPT-4 : Convenience stores are ﬁlled with sounds . The chime when a customer enters, the
+idol’svoice promoting new products on the in-store broadcast. The clerk ’scalls , the sound of
+scanning barcodes. The sound of putting items in a basket, the sound of grasping a bread bag,
+5https://longreads.com/2018/08/14/convenience-store-woman/.AI and posthumanist translation 2361
+and the sound of heels walking around the store. All of these sounds mix together, becoming
+the“sound of the convenience store, ”constantly touching my eardrums.
+Assuming that Takemori ’s translation is the benchmark (disregarding the omission for
+now), ChatGPT ’s version falls short slightly in terms of the texture of coherence due to
+its mundane reiteration of the word ‘sound ’following the original Japanese. But all is
+not lost, and herein lies ChatGPT ’s potential: the coherence pattern can be modulated
+by way of prompting. To test this hypothesis, I started a new conversation and asked
+ChatGPT to translate the same Japanese passage using the following prompt:
+You are a Japanese-English translator. I want you to translate into English the following passage
+in which sound is a key theme, as expressed in the phrases チャイムの 音,アイドルの 声,掛け声,
+スキャンする 音,入れる音,られる音,ヒールの 音, andコンビニの 音. When translating the
+passage, ensure that the sound theme is adequately expressed in the English translation. The
+passage is as follows: [Japanese text].
+This relatively elaborate prompt containing a speci ﬁc instruction to focus on the
+sound theme yields a di ﬀerent output as follows:
+ChatGPT-4 : Convenience stores are ﬁlled with sounds . From the chime that rings as customers
+enter, to the voices of idols promoting new products over the in-store broadcast. The clerk ’s
+spirited calls are accompanied by the beeping of barcode scans, the noise of items being placed
+in baskets, the crinkling of bread bags being grasped, and the clicking of heels as people walk
+around inside. All these sounds blend together, creating the “sound of the convenience store ”
+that constantly touches my eardrums.
+As compared with its ﬁrst translation, ChatGPT shows more variety in sound-related
+vocabulary in this latter version, texturing the coherence of its translation approxi-
+mately to the standard of the one published in the newsletter —not to mention that the
+human translation omits a phrase while ChatGPT does not. This indicates that
+ChatGPT has the potential to create feasible and publishable translations as long as it
+is guided with carefully written prompts. This has important implications for theconception of translation and the positioning of translators, to which we now turn.
+4 The translator ’s persona: wordsmith to
+consultant
+None of the foregoing examples are meant to show that ChatGPT can substitute
+human translators on a general basis —not yet at least. The program has no regard
+for performance reliability as well as ethical responsibility; and although pre-
+liminary evidence suggests that ChatGPT may register a better overall performance2362 Lee
+than dedicated translation systems, particularly on the level of discourse, it is still
+prone to errors (Gally 2023c). Be that as it may, the examples do show that neural
+networks, even without the capacity to think, nonetheless have the potential to o ﬀer
+translation solutions with a semblance of‘common sense ’(cf. Gigerenzer 2022: 97).
+They indicate a development trajectory in AI technologies that will shake up trans-
+lating as a vocation. Even post-editing —the fallback plan, so to speak, for human
+translators —can in part be taken over by intelligent systems through, for instance,
+the iterative use of prompts. It seems inevitable, then, that translators will gradually
+recede to the role of post-post-editors, then post-post-post-editors and so on. Ulti-mately, a paradoxical point may be reached where translators do anything but
+translate, serving for instance as bilingual consultants or language project managers
+working at a remove from translating per se. This predicament (if it should be seen as
+a predicament at all), while not entirely new, is now imminent.
+In coming to terms with this paradigm shift, a di ﬀerent imaginary of translation
+is in order, one that rescales the ambit of translation beyond meaning transfer and
+text production, and that considers technology not as a supplement to but apros-
+thesis ofthe human intellect. In terms of its conception, translation as an event can no
+longer be restricted to translating as an act , given that AI and other communicative
+modalities will increasingly be drawn into and embedded within the work ﬂow. In
+this new ecology, translation is a networked and (partially or wholly) programmable
+event involving multiple agents working in orchestration, not an isolated act
+executed by individual professionals.
+The upshot of this is a radical shift in the translator ’s role and persona. Trans-
+lators would pivot their creative energies away from the technicalities of linguistic
+equivalence toward the logics of metadiscourse, of which ChatGPT prompts are an
+instantiation. In this regard, within the short to mid-term at least, designing precise
+prompts to lead ChatGPT (or other AI applications) toward producing desired out-
+comes would become an integral skill. The rise of what is called prompt engineering,
+however, is only a symptom of the broader shift whereby the translator ’s toolkit
+would now have to include principles, strategies, and techniques pertinent to
+translation even if they are strictly speaking not about translating per se. And as
+mentioned earlier, AI technologies would likely compel a fundamental shift in the
+locus of translators ’work from the doing of translating toward the consulting and
+managing of crosscultural projects. As Pym (2023a) predicts, in addition to prompt
+writing, project management is set to become an important aspect of the translation
+profession. Rather than primarily linguistic and solitary, the translator ’s job would
+lean toward the logistical and the interpersonal.
+Such a development, in an uncanny way, harks us back to the theory of trans-
+lational action advanced in the 1980s by the German functionalist school in trans-
+lation studies. In this theory, translation-as-action refers broadly to ‘the process ofAI and posthumanist translation 2363
+producing a message transmitter of a certain kind, designed to be employed in
+superordinate action systems in order to coordinate actional and communicative
+cooperation ’(Holz-Mänttäri in Nord 2018: 13). It then makes sense to think of
+translation as an interpersonal and interactional event involving a host of agents,
+including the initiator-commissioner, the source-text producer, the translator (in
+their conventional capacity), the target-text receiver, and the end-user. Depending on
+the nature of the task, the network of agents may also include such entities as
+government departments, translation agencies, publishing houses, graphic design
+consultancies, and so on.
+To this list we now need to add AI systems that facilitate the stages of, minimally,
+source-text production and translation, and potentially other processes as well. All
+the above agents have di ﬀerential roles ‘interconnected through a complex network
+of mutual relations ’(Nord 2018: 19). The chain of work ﬂow that connects this series of
+agents is what Holz-Mänttäri (cited above) calls a ‘superordinate action system ’. Such
+systems are germane to complex commissions that include but go beyond conven-
+tional translation. These include the localization of games and websites (Jiménez-
+Crespo 2013), crowdsourcing for online collaborative translation (Jiménez-Crespo
+2017), compilation of multilingual medical glossaries shared within/across hospitalnetworks (cf. Brøgger 2017), provision of interpreting-cum-consultancy services in
+asylum or social welfare settings (Baynham et al. 2017; Blackledge et al. 2018), and so
+on.
+Following the idea of translational action, one might postulate that the trans-
+lator ’s new role would be more managerial than translatorial: to coordinate the
+design of ‘message transmitters ’(which can be textual or multimodal) appropriate to
+the commission at hand, as well as to facilitate the cooperation among all agents
+involved, including AI translation systems. Such coordination and facilitation would
+often transcend the borders of language, but also modes and media, and, impor-
+tantly, established disciplinary boundaries, where questions like ‘Isthat called
+translation? ’would be immaterial. With a change in the translator ’s persona from
+that of a wordsmith working with textual material to that of a project manager or
+consultant working across languages, modes, and media, the ontological grounds
+upon which the translation profession is based will shift as well. It is here that we
+must recall Pym ’s (2016: 231) remark, cited earlier, that translation as a word-concept
+‘is not anchored to some eternal essence ’bound to desk(top)-based translating, and
+that‘the added value of our work must increasingly be found at higher levels of cross-
+cultural communication, including text selection and alteration ’. In light of
+ChatGPT ’s potential in translation, it is apparent that the translator ’s rescaling to
+‘higher levels of cross-cultural communication ’will be more tectonic than going from
+translating to post-editing. It entails a complex repertoire of skills —logistical,
+managerial, interpersonal —needed for intercultural communication and2364
+Lee
+transmedial decision-making. The façade of the translation profession will undergo
+an inexorable change.
+The rami ﬁcations are immense. Ontologically, translation as such will di ﬀuse
+into the translational, which includes but is not limited to the transfer of meaning
+between languages. If, as proposed by Pym, the job speci ﬁcations of translators
+should indeed move toward higher levels of communication under the new tech-
+nological order, their mindset and self-concept will need to be adapted accordingly.
+We have already noted that the personae of translators will morph toward the
+managerial and logistical; this, in turn, will trigger fundamental changes in thenature of translation training —including self-development on the part of profes-
+sional translators who may not have undergone institutionalized training. A perti-
+nent question to ask is whether the relatively static criteria used to assess translation
+quality, whether in the industry or in the classroom, are still e ﬃcacious. Take, for
+example, the marking rubrics for the ﬁnal capstone project adopted by the Master of
+Arts in Translation programme under which I am currently teaching in my uni-
+versity. The project requires students to translate a piece of text either from Chinese
+into English or vice versa (weighted 80 %) and write a translator ’s preface on the
+basis of their capstone experience (weighted 20 %). The rubrics comprise two sec-tions, one for the translation itself and the other for the preface. The former consists
+of four parameters, the ﬁrst three of which are Faithfulness, Grammar and Structure,
+and Style (the fourth being Learning Attitude, immaterial to the present discussion).
+To obtain a grade within the A-range for the translation itself, a student ’s output must
+fulﬁll the following requirements under the three parameters:
+Faithfulness
+Has demonstrated an excellent understanding of the source text and is able to translate it
+faithfully without any unnecessary additions or omissions
+Grammar and Structure
+Hasminimal grammatical errors and has rendered a readable translation; has presented a
+coherent piece of work with e ﬀective use of language devices
+Style
+Has demonstrated an excellent command of language , in the sense of having adopted a style
+that aligns with that of the genre of the source text; has used proper diction, collocations, andmanipulated a variety of language structures e ﬀectively
+These grade descriptions are by no means singular; the requirements with respect to
+grammaticality, diction, collocation, and structure are fundamental to all language-AI and posthumanist translation 2365
+related courses. They also resonate with the requirements of professional translation
+certiﬁcation tests. For example, Australia ’s National Accreditation Authority for
+Translators and Interpreters (NAATI) sets language competency as its ﬁrst KSA
+(knowledge, skills, attributes) for accredited translators. According to their formal
+deﬁnition, language competency comprises vocabulary knowledge, grammar
+knowledge and idiomatic knowledge of two languages in relation to the following
+aspects (NAATI 2015: para 5.1): register and style appropriate to end use; idiomatic
+collocation, lexis and syntax; vocabulary, including non-standard forms and foreign
+loan words; grammatical structures, including tense, mood, aspect, voice, gender andgrammatical numbers; punctuation and paragraphing; orthography and its varia-
+tions; word and language usage appropriate to audience and context; pragmatics,
+i.e. the underlying meaning of language in context; and textual devices that create
+cohesion and coherence.
+Descriptors such as these converge on an obsession with the mechanics of
+translating. One problem is that they fail to account for dynamic criteria of trans-
+lation quality assessment in the digital age, where the phenomenon of ‘post-print
+translation literacies ’(Cronin 2013: 100) means that not every piece of translation
+needs to be immaculate —‘good enough ’(Hönig and P. Kussmaul in Pym 2023b: 62 –
+64) or ‘ﬁt for purpose ’(Drugan 2013) su ﬃces in many professional settings. And even
+if‘good enough ’is not good enough, as it were, many of the requirements in tradi-
+tional rubrics are arguably achievable by AI, for which producing a faithful ,
+readable translation with minimal grammatical errors and demonstrating an
+excellent command of language is not an issue (words in bold appear in the grade
+descriptions cited above). We have also seen that even discourse-level issues like
+cohesion and coherence are potentially within ChatGPT ’s reach. The requisite con-
+dition for this, of course, is a well-crafted prompt: ‘Translate the following passage
+into [target language]. Do not add or omit any information ’;‘Revise the following
+translation, ensuring it is grammatical, readable, and coherent ’;‘Translate the
+following passage, paying special attention to the use of proper diction, collocations,and a variety of structures ’;‘Translate the following passage, using the style of a
+[genre of the source text or author/translator] ’. Any one of these or variant thereof
+will likely generate di ﬀerent results, which should be seen as a strength; the sheer
+variety of outcomes represents the a ﬀordance of ChatGPT to tailor-make its output to
+users ’speciﬁcations.
+Herein lies the crux of the issue: it is pertinent that the teaching (in the class-
+room) or professional development (in the industry) of translation pivot away from
+translating toward other skills with a view to controlling, enhancing, or otherwise
+facilitating MT. This could for instance be prompting, viz. how to craft a ChatGPT
+prompt in the best possible manner so as to enhance the compatibility of a piece of
+MT with a given commission. This does not mean displacing entirely the curricula on2366 Lee
+contrastive linguistics and translating strategies; these knowledge and skills
+conventionally associated with translator training constitute the ballast of the
+practice and will come into play in the course of human interventions, if any, after
+MT. Conventional translation curricula (or any programmes for professional
+development), however, do need an overhaul to make space for value-adding skills at
+‘higher levels of cross-cultural communication ’(Pym 2016: 231). Post-editing is an
+obvious candidate but also, as suggested above, prompt-designing, which may need
+to be fully accounted for pedagogically by devoting entire modules to the subject. And
+there will be others, depending on the state of technology at any given point in time.This strategic pivoting from translating skill toward a repertoire of skills aligns with
+the prospective shift in the translator ’s persona discussed earlier. If a translator ’s
+professional scope is to go beyond translating per se, it makes sense that relevant
+skills other than those of language transfer would need to be incorporated into the
+translator ’s toolkit.
+Crucially, these other skills should go beyond text-tailoring (Pym 2016: 231 –32),
+prompting, and other ‘hard ’skills to encompass the ‘softer ’skills of critical-creative
+thinking on intercultural communication and of managing language-based projects,
+including their interactional and interpersonal dimensions. Returning to theassessment rubrics used in the MA programme I teach for, recall that students are
+required to write a preface after completing their translation; in order to attract an
+A-range grade for this component, a translator ’s preface needs to ‘[address] inter-
+esting translation problems encountered and translation approaches adopted with
+very relevant examples ’and show ‘[a] clear understanding of the translation the-
+ories employed ’. This is all good, and perhaps we might also require students to
+discuss how they organize their tools and resources, including human resources (e.g.,
+interacting with supervisors or other resource persons like proof-readers), in the
+course of the project. However, this preface component accounts for only 20 % of the
+ﬁnal grade as opposed to the 80 % weighting accorded to the translation output itself.
+Judging from how translation technologies are developing at the time of writing, thismark allocation is disproportionate. If, as Gigerenzer (2023) would have it, the
+Archilles heel of AI lies with its lack of human psychology, then more premium will
+now need to be placed on thinking translation vis-à-vis doing translation in any kind
+of (self-)assessment rubrics, and this would no doubt impact the substantive content
+of translator (self-)training programs. Ultimately, one ’s reasoned, theoretically-
+grounded justi ﬁcation for using certain translation strategies and techniques would
+be at least as important as the execution of those strategies and techniques. In
+industry settings the analogical equivalent of writing a translator ’s preface is the
+pitching of a product or service to a client —why and how a product is localized in a
+particular way, why and where intercultural nuances are worked in, how trans-
+lational marketing is applied to capture global markets, and so forth. If in theAI and posthumanist translation 2367
+foreseeable future the ‘doing ’can be relegated (or should we say delegated ?) to AI —
+in part or in whole and to varying extents —the best response is to ﬁnd a niche
+outside of the nitty-gritties of translating. This niche lies precisely in the design of
+critical, creative, and a ﬀective translational solutions to commissions, entailing
+multi-competencies that lie beyond language transfer .
+In all fairness, these non-linguistic co mpetencies have not gone completely
+unnoticed, but are arguably subjugated to language competency. NAATI (2015), for
+instance, recognizes three interlocking co mpetencies placed below/after language
+competency. These three sets of knowled ge and skills speak directly to the pro-
+spective shift in the translator ’s persona toward language management and con-
+sultancy, discussed above. They are: research competency ,w h i c hi n c l u d e s ‘knowing
+how to evaluate the reliability of information and sources of information ’(para.
+5.3); technological competency ,w h i c hi n v o l v e s ‘working with digital texts and their
+eﬀective reception, treatment and tran smission to clients/commissioners ’(para.
+5.4); and, crucially, service provision competency (para. 5.7), which describes how
+the translator handles the entire translation assignment, from initial contact, quoting and
+speciﬁcations, through the translation and revision processes, to the eventual delivery of the
+translation and dealing with any post-delivery requirements …[and] the application of
+administrative processes in line with regulatory requirements as well as marketing, negotia-
+tion, networking, time management, contract management, intellectual property requirements
+and determining the value of the services provided.
+To narrow the chasm and create synergy between translation technology and
+translation competency development, this trio of competencies, among some others
+like ethical competency, would need to be repositioned nearer the centre of (self-)
+training programmes and factored into (self-)appraisal frameworks. Such reposi-
+tioning will facilitate the delivery and uptake of these competencies alongside the
+traditionally important knowledge and skills pertaining to language and meaning
+transfer.
+5 Distributed cognition and the posthumanist
+turn in translation
+The rise of ChatGPT, together with throngs of other LLM-based applications, is yet
+another episode in the macrohistory of the human-technology interface, where
+material changes trigger new modalities of translation (see Cronin 2013: chap 1). The
+evolution in deep learning algorithms as instantiated by ChatGPT has qualitatively
+altered the materiality of interaction between users and machines. This change in2368 Lee
+materiality will lead to a subtle transition of communication in general and trans-
+lation in particular from the technological turn (O ’Hagan 2013) to a posthumanist
+turn. With this transition, a paradigm shift with respect to the predisposition of
+translation practice and the self-concept of professional translators is in order.
+Posthumanism serves as a corrective to the anthropocentric tendencies of
+humanism. If humanism is ‘the ethical outlook that says each individual is
+responsible for choosing his or her values and goals and working towards the latter
+in the light of the former ’(Grayling 2013: 239), post humanism seeks to transcend
+‘the traditional humanist ways of thinking about the autonomous, self-willed in-
+dividual agent in order to treat the human i tself as an assemblage, co-evolving with
+other forms of life, enmeshed with the environment and technology ’(Nayar 2014:
+4). This takes us to the concept of distribution, premised on the idea that commu-
+nicative events and human agency are heterogeneously constituted and subject to
+dispersal across dynamically networke d nodal points. AI is one such nodal point —
+one traversed by an increasing number of edges (connections) emanating from
+other nodes in the network. Elsewhere I have proposed a distributive perspective
+on translation as ‘a radical intervention to translation studies in enabling a
+diﬀerent imaginary of textuality ’(Lee 2023: 376):
+Embedded within a larger textual-media ecology, translation is enacted through dialogical
+interaction among the persons, texts, technologies, platforms, institutions, and traditionsoperating within that ecology. This gives rise to a di ﬀerent ontology of translation: translation,
+like distributed language, is non-local in that it is not the sole preserve of the translator ’s
+creative and subjective mind and is therefore not a local realm sui generis. (Ibid.)
+Germane to our discussion is the idea of distributed cognition, which decentres
+human subjectivity and agency in the way we make sense of the world, and em-
+phasizes the role of artefacts —‘things ’in general —within broader networks of
+actants (cf. the more anthropocentric term ‘actors ’). AI platforms are one such
+artefact-actant in contemporary communication, perhaps a highly privileged one at
+that. Distributed cognition has been taken up rigorously by applied linguists (Cowley
+2012; Pennycook 2018; Thibault 2011). It is not lost on translation studies scholars
+either, speci ﬁcally in the sub ﬁeld of cognitive translation studies or cognitive
+translatology.
+Distributed cognition in CT [Cognitive Translatology] does not only belong to the study of
+professional translation in terms of the complex network of relationships and actor interactionsthat occur in any given professional translation process from beginning to end …It can also be
+the complex network of interactions between agents, community managers, programmers,
+initiators, volunteer translators, revisers, etc. that can take part in a variable way in any givenvolunteer collaborative project online. (Jiménez-Crespo 2017: 103)AI and posthumanist translation 2369
+In Jiménez-Crespo ’s case, distributed cognition encapsulates the operation of
+crowdsourcing practices, where translators —themselves consumers of popular
+cultural products —engage with many invisible others in online communities as
+well as with a multitude of digital platfor ms, tools, and applications. The cognitive
+work that goes into the translational prosumption (Cronin 2013: 100) of audiovisual
+products is in this sense ‘distributed ’across various actants (see Risku and
+Windhager 2013 on the similar idea of ‘extended translation ’). All of this holds in
+our AI context, with one distinction: ChatGPT has the apparent ability to ‘speak
+back ’. This speaking back adds another layer of interaction to the chain of trans-
+lational communication, complicating the in tersubjectivity between actants within
+‘the complex network of interactions between agents, community managers, pro-
+grammers, initiators, volunteer translators, revisers, etc. ’(cited above). A personi ﬁed
+machine that unsettles the conventional human-machine interface, ChatGPT rep-
+resents the Uncanny, creating an almost surreal scenario where the human user,
+with a temporary suspension of disbelief, speaks to their algorithmic counterpart
+which ( who?) sometimes responds as if it ( he/she ?) has real intelligence, even if it
+doesn ’t.
+This uncanniness, I argue, contributes to the sense of crisis that came about with
+the birth of ChatGPT. The human(ist) psyche, suddenly confronted with a faceless
+virtual clone, is arrested by a siege mentality. The resolution of this crisis lies with a
+paradigm shift toward posthumanism. This requires a comprehensive coming-to-
+terms with ‘a political ontology of things ’(Bennett 2010) that foregrounds the
+interconnectedness of artefactual entities and material technologies with human
+agency. Communication, including translation, is certainly one of those ‘things ’to be
+reshaped by this posthumanist ontology. Such an ontology will enlarge the spectrum
+of skills, modes, and media covered by translation practice and shift the translator ’s
+self-concept toward a posthuman, less anthropocentric persona that transgresses the
+human-machine divide. Ultimately, what needs to be distributed is not just cognition,
+but also the translator ’s ego.
+References
+Baker, Mona. 2018. In other words: A coursebook on translation , 3rd edn. London: Routledge.
+Baynham, Mike, John Callaghan, Jolana Hanu šová, Emilee Moore & James Simpson. 2017. Translanguaging
+immigration law: A legal advice drop-in service. Working papers in translanguaging and translation
+(WP. 33). https://www.birmingham.ac.uk/generic/tlang/documents/translanguaging-immigrationlaw.pdf (accessed 7 July 2023).
+Bennett, Jane. 2010. Vibrant matter: A political ontology of things . Durham, NC: Duke University Press.2370 Lee
+Blackledge, Adrian, Angela Creese & Rachel Hu. 2018. Translating the City. Working papers in
+translanguaging and translation (WP. 34). http://www.birmingham.ac.uk/generic/tlang/index.aspx
+(accessed 7 July 2023).
+Brøgger, Matilde Nisbeth. 2017. When translation competence is not enough: A focus group study of
+medical translators. Meta 62(2). 396 –414.
+Cowley, Stephen J. (ed.). 2012. Distributed language . Amsterdam: John Benjamins.
+Cronin, Michael. 2013. Translation in the digital age . London: Routledge.
+Drugan, Johanna. 2013. Quality in professional translation . London: Bloomsbury.
+Gally, Tom. 2023a. The implications for translation and translators of recent advances in large language
+models. https://www.gally.net/temp/llms-and-translation/index.html (accessed 7 July 2023).
+Gally, Tom. 2023b. Can ChatGPT translate literature? https://www.youtube.com/watch?v=5KKDCp3OaMo
+(accessed 7 July 2023).
+Gally, Tom. 2023c. Translating with ChatGPT. https://www.youtube.com/watch?v=najKN2bXqCo
+(accessed 7 July 2023).
+Gigerenzer, Gerd. 2022. How to stay smart in a smart world . London: Penguin.
+Gigerenzer, Gerd. 2023. It ’s time to teach AI how to be forgetful. WIRED (Jan 9, 2023). https://www.wired.
+com/story/psychology-arti ﬁcial-intelligence/ (accessed 7 July 2023).
+Grayling, A. C. 2013. The god argument: The case against religion and for humanism . London: Bloomsbury.
+Halliday, M. A. K. & Ruqaiya Hasan. 1976. Cohesion in English . London: Longman.
+Hasegawa, Yoko. 2014. Japanese: A linguistic introduction . Cambridge: Cambridge University Press.
+Hendy, Amr, Mohamed Abdelrehim, Amr Sharaf, Vikas Raunak, Mohamed Gabr, Hitokazu Matsushita,
+Young Jin Kim, Mohamed A ﬁfy & Hany Hassan Awadalla. 2023. How good are GPT models at machine
+translation? A comprehensive evaluation. https://doi.org/10.48550/arXiv.2302.09210 (accessed 7
+July 2023).
+Howard, Jeremy. 2023. GPT 4 and the unchartered territories of language. https://www.fast.ai/posts/
+2023-03-20-wittgenstein.html (accessed 7 July 2023).
+Jiao, Wenxiang, Wenxuan Wang, Jen-tse Huang, Xing Wang & Zhaopeng Tu. 2023. Is ChatGPT a good
+translator? Yes with GPT-4 as the engine. https://doi.org/10.48550/arXiv.2301.08745 (accessed 7 July2023).
+Jiménez-Crespo, Miguel A. 2013. Translation and web localization . London: Routledge.
+Jiménez-Crespo, Miguel A. 2017. Crowdsourcing and online collaborative translations . Amsterdam: John
+Benjamins.
+Karpinska, Marzena & Mohit Iyyer. 2023. Large language models e ﬀectively leverage document-level
+context for literary translation, but critical errors persist. https://doi.org/10.48550/arXiv.2304.03245(accessed 7 July 2023).
+Kenny, Dorothy. 2018. Machine translation. In J. Piers Rawling & Philip Wilson (eds.), Routledge handbook of
+translation and philosophy , 428 –445. London: Routledge.
+Kenny, Dorothy. 2022. Human and machine translation. In Dorothy Kenny (ed.), Machine translation for
+everyone: Empowering users in the age of arti ﬁcial intelligence ,2 3–49. Berlin: Language Science Press.
+Lee, Tong King. 2023. Distribution and translation. Applied Linguistics Review 14(2). 369 –390.
+National Accreditation Authority for Translators and Interpreters (NAATI). 2015. NAATI translator
+certiﬁcation: Knowledge, skills and attributes. Review process and outcomes . https://www.naati.com.au/
+wp-content/uploads/2020/02/Knowledge-Skills-and-Attributes_Translator.pdf (accessed 7 July
+2023).
+Nayar, Pramod. 2014. Posthumanism . Cambridge: Polity Press.
+Nord, Christiane. 2018. Translating as a purposeful activity: Functionalist approaches explained , 2nd edn.
+London: Routledge.AI and posthumanist translation 2371
+O’Brien, Sharon. 2022. How to deal with errors in machine translation: Post-editing. In Dorothy Kenny
+(ed.), Machine translation for everyone: Empowering users in the age of arti ﬁcial intelligence , 105 –120.
+Berlin: Language Science Press.
+O’Brien, Sharon, Laura Winther Balling, Michael Carl, Michel Simard & Lucia Specia (eds.). 2014. Post-
+editing of machine translation: Processes and applications . Cambridge: Cambridge University Press.
+O’Hagan, Minako. 2013. The impact of new technologies on translation studies: A technological turn? In
+Carmen Millán-Varela & Francesca Bartrina (eds.), Routledge handbook of translation studies ,
+503 –518. London: Routledge.
+Pennycook, Alastair. 2018. Posthumanist applied linguistics . Abingdon: Routledge.
+Pym, Anthony. 2016. Translation solutions for many languages: Histories of a ﬂawed dream . London:
+Bloomsbury.
+Pym, Anthony. 2023a. ChatGPT and the training of translators. Presented at the 60th anniversary of the
+Faculty of Translation and Interpretation at the Université de Mons, Belgium. https://www.youtube.
+com/watch?v=b9U_FUaneso&t=45s (accessed 7 July 2023).
+Pym, Anthony. 2023b. Exploring translation theories , 3rd edn. London: Routledge.
+Risku, Hanna & Florian Windhager. 2013. Extended translation: A sociocognitive research agenda. Target
+13. 33 –45.
+Thibault, Paul J. 2011. First-order languaging dynamics and second-order language: The distributed
+language view. Ecological Psychology 23(3). 210 –245.
+Vilar, David, Markus Freitag, Colin Cherry, Jiaming Luo, Viresh Ratnakar & George Foster. 2023. Prompting
+PaLM for translation: Assessing strategies and performance. https://doi.org/10.48550/arXiv.2211.09102 (accessed 7 July 2023).
+Wakayabashi, Judy. 2021. Japanese-English translation: An advanced guide . London: Routledge.
+Zhang, Biao, Barry Haddow & Alexandra Birch. 2023. Prompting Large Language model for machine
+translation: A case study. https://doi.org/10.48550/arXiv.2301.07069 (accessed 7 July 2023).2372 Lee
+Copyright
+of
+Applied
+Linguistics
+Review
+is
+the
+property
+of
+De
+Gruyter
+and
+its
+content
+may
+not
+be
+copied
+or
+emailed
+to
+multiple
+sites
+or
+posted
+to
+a
+listserv
+without
+the
+copyright
+holder's
+express
+written
+permission.
+However,
+users
+may
+print,
+download,
+or
+email
+articles
+for
+individual
+use.
+

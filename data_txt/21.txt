@@ -1,0 +1,1627 @@
+Towards Relatable Climate Change Data: 
+Untangling Tensions in Engaging with a Hyperobject 
+Marta Ferreira∗ Nuno J. Nunes Valentina Nisi 
+ITI/LARSyS, Instituto Superior ITI/LARSyS, Instituto Superior ITI/LARSyS, Instituto Superior 
+Técnico, U. Lisboa Técnico, U. Lisboa Técnico, U. Lisboa 
+Lisboa, Portugal Lisboa, Portugal Lisboa, Portugal 
+amartaferreira@tecnico.ulisboa.pt nunojnunes@tecnico.ulisboa.pt valentina.nisi@tecnico.ulisboa.pt 
+Figure 1: Screen of the data-story with examples of the communication features used: A) Contextualization, storytelling, 
+and decentering the human in the narrative through the more-than-human protagonist; B) Contextualization of the data by 
+comparing to more familiar metrics; C) Personalization of the data-visualization by allowing the user to input personal metrics. 
+On the right are two photos of the prototype implementation in the Creative Hub. 
+ABSTRACT 
+This research investigates the potential of emerging communica-
+tion strategies to enhance engagement with climate change data 
+through HCI, by recognizing the critical challenge of efectively 
+communicating complex hyperobejcts. We designed "Finding Arca-
+dia", an interactive artefact centred on ocean climate data, to explore 
+how data humanism, storytelling, decentering the human in the 
+narrative, and positive framing infuence user engagement and 
+perception of the information. Findings from a study in-the-wild 
+(N=42) and a post-experience survey conducted six months later 
+(N=19) foregrounds strategies to foster deeper engagement and 
+connection with the information but also tensions in engaging with 
+such a complex topic. We contribute to climate change communica-
+tion and HCI research with the design decisions, study outcomes, 
+and refections on ways in which communication strategies can 
+promote understanding and connection with a hyperobject. 
+This work is licensed under a Creative Commons Attribution International 
+4.0 License. 
+DIS
+ ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+© 2024 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-0583-0/24/07 
+https://doi.org/10.1145/3643834.3661606 CCS CONCEPTS 
+• Human-centered computing → Visualization; • Visualiza-
+tion → Visualization theory, concepts and paradigms . 
+KEYWORDS 
+Data Visualization; Storytelling; HCI; Data Humanism; Climate 
+Change; Sustainability 
+ACM Reference Format: 
+Marta Ferreira, Nuno J. Nunes, and Valentina Nisi. 2024. Towards Relatable 
+Climate Change Data: Untangling Tensions in Engaging with a Hyperobject. 
+In Designing Interactive Systems Conference (DIS ’24), July 01–05, 2024, IT 
+University of Copenhagen, Denmark. ACM, New York, NY, USA, 17 pages. 
+https://doi.org/10.1145/3643834.3661606 
+1 INTRODUCTION 
+The growing urgency to tackle climate change is compounded by 
+its complexity and broad implications. Hence, it is referred to as 
+a hyperobject – a complex and pervasive phenomenon that exists 
+on a scale beyond our usual human perception and comprehen-
+sion [80]. This scale makes efective engagement strategies both 
+intricate and essential [115]. Although there is an overwhelming 
+consensus that climate change is a human-induced phenomenon 
+[65], it can be difcult to connect its abstract, global signifcance to 
+individual experiences, leading people to not talk about the issue 
+3029
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+[6]. This is particularly detrimental, as "one of the most important 
+actions people can take to address global warming is to talk about 
+it", according to climate scientist Hayhoe [6]. Conversations build 
+understanding and change beliefs and attitudes. 
+Emerging research underscores the role of the HCI community 
+in championing climate change discourse, emphasizing hope, mean-
+ing, and action [62, 66]. Yet, a gap persists in how we communicate 
+environmental narratives to audiences [39]. The challenge of con-
+verting intricate climate data into understandable, actionable, and 
+emotionally resonant concepts remains [41]. Studies ofer varied 
+perspectives on the efcacy of negative versus positive emotional 
+framing [25] and the challenges of translating complex climate data 
+into understandable concepts that are relevant to people’s lives 
+[23, 33]. Recent studies have demonstrated that fear is inefective 
+in motivating [83], while hope [19, 27] and action [32, 38, 51] can 
+be catalysts for engagement. Such a complex communication chal-
+lenge, allied with the urgency of engagement, demands further 
+research and proposals of novel approaches. As a feld, HCI can 
+leverage technology to engage, educate, adapt, and immerse people 
+in complex phenomena requiring collective action [79]. 
+Design and HCI research often focus on a limited range of topics 
+and strategies when discussing climate change [40]. The clarion call 
+from both scholars and international institutions [26, 82] is clear: 
+we need diverse, relatable, and empowering narratives that resonate 
+with specifc audiences [ 17, 35, 101], including more-than-human 
+[1, 44] and cohabitation [75, 95]. 
+In response to this imperative, we explore how to efectively 
+communicate hyperobjects related to crises, such as climate change, 
+through HCI. To address this high-level enquiry, we explored difer-
+ent communication strategies informed by implications in previous 
+research [39, 40] and current climate change engagement guidelines 
+[21, 24, 82] – data humanism, storytelling, decentering the human 
+in the narrative, and positive framing – through a case-study fo-
+cused on climate change communication. This artefact – Finding 
+Arcadia (FA) –, inspired by a study on the role of whales in carbon 
+sequestration [20], serves as our experimental canvas. 
+We performed an exploratory study where we created two ver-
+sions of the artefact – a Base version (vB) and an Enhanced version 
+(vE) - exploring the communication strategies chosen to probe what 
+users are most connected with and how to make hyperobject-related 
+data feel more actionable and human-scaled. We describe the design 
+decisions behind the two versions of FA, and detail our user study 
+in the wild (N=42) and probing six months later (N=19), describing 
+its fndings and discussing emerging issues and implications for 
+future work. 
+Our study foregrounds that audiences value the novelty of the 
+experience and the unfamiliarity of information. Personalization, 
+contextualization, and storytelling, mainly using metaphors and 
+analogies, are crucial for making data relatable. The experience 
+inspired debate and successfully led to conversations. While users 
+fnd suggestions for actionable communication highly benefcial, 
+they desire more diverse interactivity and closer connections to the 
+information. Storytelling techniques, like foregrounding character 
+development and live interactions, can deepen user engagement 
+and empathy. Still, character consistency and live interactions must 
+be carefully planned. This year’s DIS asks "why design?" to "prompt refection on 
+the role and power that design has" and "where it can be used to 
+engage with contemporary troubles" [107]. We do so by experiment-
+ing with interaction strategies to address gaps in climate change 
+communication and the importance of HCI and graphic design in 
+these exchanges. The insights derived from our study can illumi-
+nate designers’ path in hyperobject communication such as climate 
+change, advocating for designs that foster meaningful interactions 
+and elevate the discourse within the HCI community. 
+2 BACKGROUND AND RELATED WORK 
+This research builds on prior work in sustainable HCI (SHCI) and 
+data visualisation. In the following, we summarise i) the recent 
+debate around SHCI and its shift towards a focus on climate change, 
+ii) Interactive data visualisation approaches in HCI, with a focus on 
+climate change-related visualisations, and iii) Data humanism’s ap-
+plication within the HCI feld. Our work builds on these recent data 
+visualisation approaches and continues their exploration through 
+the creation of a data-story that combines data humanism and other 
+communication strategies that strive to enhance data interpretation. 
+2.1 Sustainable human-computer interaction 
+(SHCI) and the shift towards Climate 
+Change 
+Sustainability should be one of the core focuses of HCI [11]. With 
+this premise in mind, the feld of Sustainable HCI (SHCI) has been 
+committed to minimizing the environmental impacts of computing 
+technologies and infuencing sustainable behaviours [10, 116]. The 
+possibilities and responsibilities of the HCI community related to 
+sustainability have been debated for years [ 76]. Discussions looked 
+at the future implications of integrating sustainable principles into 
+current designs [ 11], as well as the potential of moulding possible 
+futures connected with the broader societal impact and relevance 
+of interaction design [37]. The considerable focus on persuasion 
+and its limiting factors have been questioned (e.g. [14]), as well 
+as the focus on individual behaviour (e.g. [31]) or on incremental 
+instead of systemic change (e.g. [34]). Questions surrounding the 
+unsustainability of digital technologies, in particular data-driven 
+ones [70], have led researchers to call for “more meaningful” digital 
+experiences [113]. Each practice-based SHCI project should clearly 
+defne or design specifc sustainability objectives and measurements 
+[94], and be transparent about its strategies and materials [111]. 
+The Anthropocene presents both obstacles and possibilities, ne-
+cessitating innovative viewpoints [5]. Design practitioners are now 
+compelled to extend their focus beyond products, incorporating 
+services, networks, and experiences which address intricate socio-
+technical systems [18]. Such systems prompt a departure from 
+conventional design methodologies that primarily concentrate on 
+"the human" towards inclusive approaches encompassing a vari-
+ety of perspectives. Scholars have argued for the transition from 
+a merely user-centered design to posthumanistic views that de-
+centers the human in the design process [43]. These take a more 
+comprehensive, diverse approach that includes the relations be-
+tween human and nonhuman actors [44], multispecies perspectives 
+through nonanthropocentric approaches, for example by being in-
+spired by natural processes such as decomposition [68], or through 
+3030
+Towards Relatable Climate Change Data DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+multispecies participatory practices [75] that work towards cohab-
+itation [95]. Also, Key[ 58] asks HCI researchers to embrace the 
+complexities and uncertainties of posthumanistic work and to chal-
+lenge human exceptionalism through “true” design innovation that 
+considers these tensions. 
+These proposals expand the notion of participation to designing 
+with the more-than-human [1]. Civic and participatory design ap-
+proaches [22, 29] can link to broader societal issues such as politics 
+[29], resistance, and diverse modes of civic engagement [30]. The 
+need to empower and support civic and collective action demands 
+the design of interactive systems with a strong social component 
+[64]. Transition Design [103] emerged as one approach that directly 
+considers the complexity of the many wicked problems we face as 
+a global society. It promotes a design-led transition towards more 
+sustainable futures that is more place-based, participatory and con-
+nected to the natural environment [104]. Other approaches, such 
+as design futuring [45] and speculative design [97], challenge de-
+signers to consider the future of their designs and explore complex 
+problems. 
+Considering these complex challenges, Knowles and colleagues 
+[62] call for the HCI community to orient around climate change 
+rather than the more expansive and multidimensional concept of 
+"sustainability". This reasoning originates from Klein’s argument 
+that climate change ofers a critical unifying narrative that keeps 
+us focused on pressing existential issues [61]. Fifteen years after 
+the emergence of SHCI, Bremer et al. [13] identifed a shift from 
+a focus on individual behaviour change towards the design with 
+and for communities (context-oriented) and the increased use of 
+speculation and refection instead of prescription. This leads to 
+difculty in measuring impact and questioning if opening design 
+spaces isn’t passing the responsibility of application and evaluation 
+to future researchers. 
+Diverse discussions have emerged regarding the strategies of 
+SHCI, especially when it comes to addressing climate change. A 
+need for meaning, fulfllment and hope in times of existential crisis 
+asks designers to question what and how they design as not to add 
+to a passive and limited digital landscape [66]. The relationship be-
+tween humans and nature has been a topic of extensive debate. For 
+instance, Liu et al. [69] propose an alternative framing to the domi-
+nant SHCI models of “correction” of human behaviour or “control” 
+of resource consumption inspired by permaculture’s philosophy of 
+working with nature, emphasising human cooperation instead of 
+control. Or Vella et al. [110] explore a deepening of human-nature 
+relations through care and curiosity. One of the latest discussions 
+around the future of HCI and climate change took place at CHI’23 
+[79] with a focus on data communication and public engagement. 
+This highlights the open-ended nature of HCI’s role within climate 
+change-related interventions, and the growing role of the feld in 
+building awareness, inclusion and connection with this complex 
+topic. It also points to a need for further exploration in this area of 
+work. Therefore, we set out to test communication strategies that 
+assisted in decentering the human in the narrative. 
+SHCI research can take a toll on those attempting to make an 
+impact through their work. The authors of this paper have also 
+realised that “we can’t do it all, but we can do something” [13]. 
+Bendor [8] argued for hope and designerly action for sustainability, 
+saying that "designers are also capable of promoting innovative ways of seeing and being that may evoke agency". Climate leader 
+Ayana Elizabeth Johnson [57] proposes that each person focuses 
+on their skills and what brings them joy in climate action. We 
+focused on our particular expertise, in the case of the frst author: 
+communication design, and worked towards making a positive 
+contribution through HCI research for better engagement with 
+climate change data. 
+2.2 Interactive Data Visualisation for Climate 
+Change engagement 
+Innovative forms of visualising data and storytelling through digital 
+media can infuence the public’s understanding of climate change 
+topics [50]. One of the proposals by Mankof et al. [76] for research 
+in Sustainability through Design was “making abstract environ-
+mental data concrete for everyday life”. When looking specifcally 
+at climate change, recent studies analyzing a decade’s worth of HCI 
+and design research suggest that a majority of interaction projects 
+transmit an impartial message without any explicit call to action 
+[39, 40]. The research suggests an opportunity for selecting lesser-
+known subjects, integrating inclusive viewpoints and actionable 
+suggestions, adapting the message to the audience and taking the 
+experience to "where the user is". 
+Considering these implications and recent climate change com-
+munication guidelines that call for a focus on stories, communities, 
+day-to-day experiences and link to action [21, 24, 82], we focus on 
+HCI research that explores strategies outside the majority’s neu-
+tral framing and lack of suggestions for action, demonstrating the 
+feld’s recent explorations within these approaches. RisingEMO-
+TIONS [3] utilized emotions and community connection to commu-
+nicate the dangers associated with rising sea levels. The community 
+was engaged in critical discussions through public interventions 
+that guided them towards future action by connecting to local 
+groups [84]. Similarly, Smart Citizen [84] connects communities to 
+local services with positive results, highlighting sustainability is-
+sues, and fostering citizen participation via engaging location-based 
+experiences. Other projects use data physicalisations of environ-
+mental data to elicit collective sense-making and carbon literacy 
+[67] or link to citizens’ subjective experiences to foster community 
+building and activism [28]. These two projects highlight the impor-
+tance of alternative ways of representing “invisible” environmental 
+data and the importance of collective critical engagement in these 
+complex dialogues. Ecorbis [99] deployed in home settings, uses 
+a data sculpture to promote environmental awareness relating to 
+user behaviour, and ofer actionable facts, raising awareness and fa-
+cilitating refection. Saving Aid [98] underscores the importance of 
+data framing in supporting energy conservation decisions. Adding 
+a personal touch, More Weather Tomorrow [108] uses a personal-
+ized data video story narrated as a weather forecast to encourage 
+families to explore weather data collectively. The study establishes 
+a link between data and memories to boost engagement. The im-
+portance of relating to personal contexts and experiences in data 
+exploration is also analysed by [114]. To create awareness about 
+drought and wildfres, [50] created a data visualisation depicting 
+the past, present and future of wildfres, highlighting the positive 
+efects of multimodal interaction. 
+3031
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+As these examples show, HCI research on visualizing climate 
+change data is diverse, the concern generally being enhancing 
+engagement and understanding of the information. Furthering these 
+approaches within climate change engagement is crucial. Good 
+practices used in UX, graphic design and psychology can inform 
+the development of more efective visualisations related to climate 
+change data, as these still need to be made more inclusive to non-
+expert audiences [102]. Considering climate data’s complexity and 
+often global and abstract nature, communication strategies such 
+as narrative and connection to user experiences should be further 
+explored for better data engagement. According to Soden [96], we 
+need to carefully consider our choices about what we include or 
+exclude from our environmental data sets and how we use them. 
+They dictate how we abstract the environment and our relationship 
+with it, leading to possibilities of “things to be otherwise”. 
+2.3 Data Humanism in HCI Research 
+The optimal method for illustrating complex data to non-expert 
+audiences is still a point of contention [78]. For the past thirty years, 
+preeminent authors in data visualisation have heavily emphasized 
+design efcacy and straightforward communication, in what can be 
+called a "neutrality" concept [117]. Tufte argues for a clutter-free 
+approach that primarily showcases the raw data [105], in line with 
+other proposals that underscore the importance of precision and 
+comprehensibility for swift communication [42], cautioning against 
+the manipulative misuse of data visualisation [16]. 
+McCandless has proposed a storytelling approach that consists 
+of four key elements: data (information), concept (story), function 
+(goal), and metaphor (visual form) [77]. Storytelling has become 
+increasingly pivotal in data visualisation design, transitioning from 
+a neutral showcase of information to more humanistic depictions 
+capable of demonstrating ambiguity and complexity. These ap-
+proaches recognize that data is neither value-neutral nor indepen-
+dent of the observer [36]. Since 2016, Lupi [71] has advocated a 
+paradigm shift in data visualisation that challenges conventional 
+rules, such as striving for simplicity. This new approach, named 
+data humanism, explores alternative chart types and invites au-
+diences to take their time and appreciate the visualisations [86]. 
+These approaches consider the subjectivity of data and its connec-
+tion to people’s understanding and experiences. Within HCI and 
+data science, Strohmayer and Muller [100] recently debated the 
+subjectivity of data sets, and how people shape the data through 
+their analysis and how they use it. 
+Data humanism doesn’t conform to the typical ’simplicity’ prin-
+ciple and instead explores non-traditional chart types that embrace 
+complexity, incorporate context, and recognize data’s inherent 
+imperfection and subjectivity. These compelling and customized 
+data-driven visual narratives intend to bridge the gap between 
+numbers and their real-life meaning: stories, knowledge, people, 
+and behaviours [71, 73]. This is achieved by integrating layers of 
+qualitative information with the quantitative data, adding context 
+and meaning [74], and therefore creating an intimate connection 
+through relatable concepts [72]. These principles align with recent 
+climate engagement communication guidelines that call for making 
+climate data "relatable, local and personal" [82]. The concept of ’making with data’ has taken diverse forms within 
+HCI – from data sonifcation (using sound parameters) to data edibi-
+lization (using edible materials) to data physicalisation (an artifact 
+that encodes data), among others [81]. Several innovative data repre-
+sentation approaches share goals or concepts with data humanism. 
+Storytelling augments data representation and meaning [ 88], and 
+strategic interactive elements engage in data exploration [93]. In 
+terms of environmental data, eco-feedback experiences manifest en-
+ergy and sustainability-related data, especially in residential [7, 85] 
+or communal settings [9]. Projects like Indoor Weather Stations [49] 
+and Energy Babble [47] explore the physicalization of environmen-
+tal data. By exploring location, [48] introduced external data into 
+the home, while [46] related users to "big data" about their areas – 
+connecting users to somewhat abstract or intricate data, bringing it 
+into everyday contexts. Data physicalization [52, 56] assists in un-
+derstanding data via physical depictions to enhance refection and 
+public engagement [4]. Similarly, tangible user interfaces (TUI) en-
+able users to interact with digital data via physical objects [53, 106]. 
+Both strategies engage audiences with intricate data, particularly in 
+public spaces [54], and can facilitate emotional responses, refection, 
+and memorability despite data translation subjectivity [112]. 
+Data humanism shares commonalities with these established HCI 
+disciplines. However, we argue that this approach can contribute to 
+novel avenues within HCI data visualisations and data narratives, 
+particularly within complex subjects like climate change. Whether 
+in two or three-dimensional form, data humanism avoids over-
+simplifcation and prioritizes aesthetics, exploration, storytelling, 
+and a deep connection to emotional and personal values, enabling 
+a transition of data ownership to people. Inspired by the latter 
+point, Kim et al. [59] used personal data collection and depiction 
+for self-refection and engagement. Similar techniques were used in 
+educational contexts [15, 63], and with marginalized communities 
+[60, 87]. Houben et al. [55] humanized the exchange by merging 
+qualitative and quantitative data in a public display, while Sauvé 
+and Houben [92] focused on data visualisation tools for laypersons 
+to inspire action. Angulo et al. [2] applied data humanism in an 
+interactive infographic game about sustainable food. Other studies 
+[59, 89] used personalization through bespoke visuals to enhance 
+engagement. 
+These HCI projects underscore the importance of connecting 
+non-specialist audiences with data through less ’neutral’ and more 
+engaging methods, opposing the traditional research focus on a 
+limited variety of visualisation types [ 78]. However, to the best of 
+our knowledge, no other HCI research has applied data human-
+ism to climate change-related visualisations outside of our recent 
+contribution as part of this work [41]. The importance of action-
+able communication and engagement with climate change topics 
+through positive stories that link to action, communities and per-
+sonal values is fundamental [26, 82]. Therefore, data humanism 
+emerged as a promising communication strategy to test. Interactive 
+systems that allow for easy update, personalization, engaging and 
+participatory experiences can assist in the crucial task of creating 
+more diverse narratives associated with climate change [17, 35, 101] 
+and meaningfully engage diverse audiences with this complex data. 
+These experiences can lead to urgently needed dialogues [6, 65]. 
+3032
+Towards Relatable Climate Change Data DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+Our work is set to contribute to the gap in Climate change commu-
+nication and HCI by exploring how data humanism can assist in 
+these urgent pursuits. 
+3 METHODOLOGY 
+In response to HCI’s call for innovative approaches in climate 
+change communication, this study advances an empirical contribu-
+tion by describing the design of an interactive artefact centred on 
+the ocean ecosystem and carbon sequestration. By drawing inspi-
+ration from the International Monetary Fund (IMF) study on the 
+signifcance of whales in ocean health [20], we designed a compre-
+hensive story embedded with ocean-related data, paving the way 
+for deeper human-data interaction and advancing the HCI feld 
+for climate change communication. The following describes the 
+concept, design decisions, and study methodology. 
+3.1 Author Positionality 
+This section points to challenges that arise from tackling such a 
+complex topic as climate change and how the author’s individual 
+perspectives and lived experiences can infuence the work. 
+Living in a Southern European country, the authors’ personal 
+contact with the consequences of climate change is limited, and we 
+acknowledge our privileged position. This research was conducted 
+in Europe, and the authors’ social and geographical networks are in 
+the global North. This context plays a signifcant role in shaping our 
+understanding of climate change, even if we strive to have a global 
+understanding of the issue. The frst author, therefore, focused her 
+work in the contexts that are familiar to her, both in the audience 
+and in the focus of the research. 
+The frst author is a communication designer interested in en-
+vironmental engagement, collaborating with a multidisciplinary 
+team of engineers, designers, and psychologists. These intellectual 
+afliations have infuenced the direction of the work, the language 
+incorporated in the research, and the themes highlighted during 
+the analysis. 
+Considering this positionality, the artefact and the study method-
+ology focus on visualisation/communication strategies and users’ 
+perceptions and feelings toward the information. 
+3.2 Designing Finding Arcadia (FA) 
+The design process of FA follows our Data Humanism RtD frame-
+work proposed in [41] and extends on other previous work we 
+presented in [40] by: 
+(1) Stressing the importance of actionable communication; 
+(2) Incorporating audience-targeted interactions; 
+(3) Taking these experiences to public, everyday spaces; 
+(4) Engagement with underexplored topics; and 
+(5) Ofering an inclusive narrative. 
+FA went through several design iterations, informed by co-design 
+sessions with experts – the ocean data was validated in consulta-
+tion with a marine biologist; the communication and interaction 
+strategies were iterated based on the feedback of several HCI and 
+storytelling experts. A couple of studies, in a science museum and 
+at a local market, shaped the study design and refnements to the 
+experience. The details of these previous processes, design deci-
+sions and iterations are discussed in [41]. With this study, we delve deeper into the communication features and focus on understand-
+ing user perception and relation with the data. FA proposes a shift 
+from merely nudging to deeply understanding users’ connections 
+to data, moving "from ‘nudge’ to ‘think’ as a strategy for public 
+engagement" by "engaging hearts and minds" [21]. 
+To achieve this, we designed two versions of the artefact: a 
+Base version (vB) and an Enhanced version (vE) improved with 
+the communication strategies selected. Both versions implement 
+some of the guidelines mentioned by [40], namely i) focusing on a 
+non-obvious topic (whales as a nature-based solution for carbon 
+capturing), ii) displaying the information in a public space of pas-
+sage, and iii) focusing on including proposals for action. However, 
+while both versions retain similar structure and graphical elements, 
+they difer signifcantly in data presentation. 
+The Base version (vB) is data-focused and the data is lacking 
+in comparative or personalized nuances (Fig.3 – B.1, B.2), detailed 
+below in vE. This version does not explore storytelling strategies – 
+the data is reported in an impersonal third-person manner through 
+a human voice narrator. Interactions are limited to basic fipping. 
+The Enhanced version (vE) uses diverse communication strate-
+gies to foster relatability (Fig.2 and 3). The employed communica-
+tion strategies are: 
+(1) Data humanism: Through contextualization and person-
+alization of the data applied with user-specifc adaptability. 
+For instance, users can input their birth year, prompting the 
+system to adjust the visualisation and provide a relevant 
+fact from that year about climate change or sustainability 
+(Fig.3 – vE.1). Another example is users being able to input 
+their height and compare it to a whale’s size. Also, context 
+is added through comparisons to familiar metrics like juxta-
+posing the carbon sequestration of whales with that of trees 
+or equating it to a user’s national emissions (Fig.3 – vE.2) 
+(2) Storytelling: Use of storytelling conventions and features, 
+such as character development and basic plotting of the 
+whale life journey, according to the IMF whale life cycle [20]. 
+The data throughout the story is reported in the frst person 
+by Baltazar (Fig.2 – vE), the personifed whale, who tells the 
+audience his life story. The data shown is intertwined with 
+Baltazar’s story – from birth to adulthood, when he narrates 
+his benefts to the environment and climate change mitiga-
+tion, but also when faces the threats of the Anthropocene, to 
+his death of old age and how even this stage of his existence 
+is benefcial to the environment. 
+(3) Decentering the human in the narrative: FA centres the 
+discourse around the more-than-human, fostering a con-
+nection of humans with a global ecosystem. Exploring a 
+non-human protagonist and highlighting whales’ carbon-
+capturing processes casts them as iconic symbols of nature 
+preservation and under-estimated but hopeful nature-based 
+solutions for climate change. We strived to be accurate with 
+the data but also mindful of the unknown factors surround-
+ing these entities (e.g., the marine biologist suggested several 
+editions to adjust the narrative to these unknowns). We em-
+ployed a Large Language Model (LLM) to breathe life into 
+"Baltazar" and enrich the narrative. Our prompt asked the 
+model to personify a blue whale and recount the data "facts" 
+3033
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+Figure 2: Three screens from the data-story comparing the Base version (vB) and the Enhanced version (vE) with narration 
+script below each: base version versus AI enhanced). vE.1: the user can input their height. vE.2: the data is compared to more 
+familiar metrics and the user’s country. vE.3: asks the user to fip only the actions they do, so the remaining are showcased in 
+the reminder at the end of the experience. 
+3034
+Towards Relatable Climate Change Data DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+of vB through his frst-person perspective (Fig.2). Besides the 
+narration, we also used the LLM to allow users to "chat" with 
+Baltazar at the end of the experience (Fig.3 – vE.4). These 
+narrative strategies were designed to amplify empathy and 
+deepen user connection with the data through another tool 
+to further explore the content. Some limitations of these 
+approaches are debated in the Discussion as we acknowl-
+edge the challenge of representing more-than-human enti-
+ties through these human-made features and perspectives. 
+(4) Positive framing: Highlighting positive aspects in the data 
+(Fig. 3 – vE.1) and linking to action (Fig.3 – vE.3) to inspire a 
+hopeful outlook on climate change, focused on solutions and 
+connection of the individual and the community with the en-
+vironment. This version ofers personalized solution sugges-
+tions based on users’ existing practices (collected throughout 
+the interaction with the artefact). The narrative concludes 
+with a summary of potential areas of contribution specifc 
+to each participant. 
+3.3 Participants Recruitment and Demographics 
+To understand the impact of the chosen strategies, we conducted 
+an in-the-wild study comparing the two artefact versions, vB and 
+vE. The two versions were set up sequentially in the same public 
+space – the atrium of a Creative Hub, where businesses, research 
+and innovation centres reside (Fig.1). Capitalizing on this public 
+location, we casually approached Hub residents and passers-by 
+for participation. Furthermore, we promoted the installation with 
+the local community via email and social media channels. The 
+recruiting phase lasted one week. 
+Before starting the experience, participants were given an overview 
+of the study, including that it consisted of evaluating the artefact and 
+not themselves and that they could withdraw at any time without 
+consequences. They were then asked to sign a consent form where 
+all this information was detailed, and the researcher’s contacts 
+were listed. This study only engaged with adult participants (over 
+eighteen years old). Besides age, there were no other disqualifying 
+criteria. 
+In total, the study engaged 42 individuals. Participants age distri-
+bution is as follows: 18-24 (n=10); 25-34 (n=12); 35-44 (N=15); 45-54 
+(n=5). Twenty-one users identifed as female, nineteen as male, and 
+two preferred not to say. Their education level is distributed as 
+Middle and Secondary School (n=5); Bachelor and Master degree 
+(n=22); and Postgraduate (n=15). 
+3.4 Procedure and Methods 
+The study (N=42) occurred over four consecutive days, Monday to 
+Thursday. The frst author oversaw the study and conducted the 
+interviews. The study was divided into four stages. 
+First, the user answered a questionnaire about their demographic 
+information (age, gender, and education level) and prior under-
+standing and relation to climate change topics. Participants were 
+individually assigned to alternate artefact versions (vB or vE). The 
+overall experience took c. 5 minutes for vB and c. 10 minutes for vE. 
+Secondly, after the experience, the user would answer a question-
+naire adapted from the Intrinsic Motivation Inventory’s (IMI) Inter-
+est/Enjoyment, Value/Usefulness, and Relatedness scales [90, 91]. The questions were selected to assess feelings of interest, usefulness, and 
+relatability towards the data, providing a base comparison between 
+the two versions. The three sets of seven questions each (Fig.4) 
+were randomly ordered and answered on a scale of 1 – Strongly 
+disagree to 5 – Strongly agree. Thirdly, we conducted a short inter-
+view (c. 4 minutes), further probing the three engagement aspects 
+explored in the questionnaire and feedback on the strategies used. 
+All participants went through the complete data-story and replied 
+to the questionnaire and the open interview, resulting in forty-two 
+valid answers, twenty-one for each artefact version (vB users: S.B1 
+to S.B21; and vE users: S.E1 to S.E21). 
+Lastly, after six months of engaging with the data-story, a subsec-
+tion of participants (N=19) was probed with an online questionnaire 
+– nine vB users (F.B1 to F.B9) and ten vE users (F.E1 to F.E10). This 
+follow-up aimed to probe users’ remembrance of the data, pos-
+sible changes in perception or habits, and overall relation to the 
+topic. This follow-up half a year later was performed to gain more 
+longitudinal insights into the impact of the experience and the 
+communication strategies used, as suggested by [3]. The online 
+questionnaire was chosen for its ease of deployment and minimal 
+impact on participant’s lives. Participants were selected based on 
+their voluntary availability to further engage with the study and 
+answer the questionnaire. The survey questions were designed to 
+provide further data to discuss against the original feedback. Below 
+is a sample of the questions asked: 
+• Since you did the experience, have you been more attentive 
+to any topic or issue? If yes, which ones? 
+• Were you motivated to take any action or change any habit? 
+If yes, what changed? If not, why? 
+• Did you feel connected with the information/story? Why? 
+One researcher analysed the quantitative output of the scales, 
+while another researcher analysed the qualitative interviews and 
+questionnaires. Results were discussed and agreed upon among all 
+authors, sharing insights and points of view to shape the discussion 
+and contribution of the study. 
+3.5 Sustainability Considerations 
+In line with our commitment to sustainable research and given the 
+ongoing discussions surrounding SHCI’s role and obligations, we 
+report on the sustainability measures adopted during this study’s 
+design phase. 
+While our research delves into sustainability-related topics, we 
+acknowledge our systems’ inherent material and energy consump-
+tion. On the energy front, the venue of our study uses solar energy 
+to a certain extent. Nevertheless, we remain contingent on exter-
+nalities. Going forward, it’s pivotal that lab policies take on a more 
+autonomous and adaptable approach towards fueling our digital 
+outputs. 
+Focusing on the installation’s physical aspect, the public dis-
+play’s principal frame is predominantly crafted from upcycled plas-
+tic, excluding components like screws, wheels, and screen-mount. 
+This material was procured from a nearby enterprise specializing 
+in repurposing plastic for outdoor constructs. Notably, the adorn-
+ments can be removed, allowing the structure’s reuse in subsequent 
+projects and as a lab fxture. Pre-existing lab resources like the 
+3035
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+Figure 3: Examples of the data visualisations (details) and the communication features explored. B.1 and B.2: the Base version 
+(B). vE.1: The data-visualisation is personalised through the user’s input of their date of birth, the visualisation adapts, and a 
+fact related to sustainability is narrated for that year. Positive data is highlighted. vE.2: Contextualization of the huge global 
+numbers by comparing to more familiar metrics (Amazon forest) and the user’s country (Personalization). vE.3: Reminder for 
+action at the end of vE only shows the ones the user doesn’t yet do. vE.4: Enhancing the storytelling by allowing the user to 
+"chat with Baltazar". 
+3036
+Towards Relatable Climate Change Data DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+touchscreen, computer, and accessories were repurposed, eliminat-
+ing the need for new acquisitions for this project. 
+4 FINDINGS FROM THE STUDY 
+In this section, we present the results from our mixed methods study, 
+consisting of: i) the analysis of the Intrinsic Motivation Inventory 
+(IMI) scales [90, 91] (quantitative), ii) the qualitative analysis of the 
+semi-structured interviews, and fnally, iii) the qualitative analysis 
+of the post-experience questionnaire. 
+4.1 Intrinsic Motivation Inventory (IMI) scales 
+Responses from the IMI questionnaire were organized in a table and 
+analyzed using the IMI scale [90, 91] (Fig.4), with average scores per 
+question and total per scale, per version of the artefact. Answers 
+were given on a scale of 1 – Strongly disagree to 5 - Strongly agree. 
+The questionnaire’s Interest/Enjoyment scale results are positive 
+for both versions of the artefact, with 4.56 (vB), and 4.58 (vE) on 
+a 1 to 5 scale. These results indicate that users perceived both 
+experiences as enjoyable and interesting. 
+The results for the Relatedness scale indicating relatability to the 
+data were also high for both versions: vB scored 4.41, while vE 
+scored 4.46. 
+Finally, the Value/ Usefulness scale questionnaire results point to 
+users seeing the information as useful. vB scored 4.13, and vE had 
+a slight edge with a score of 4.36. 
+4.2 Semi-structured Interviews 
+The interviews were thematically analyzed according to [12]. To 
+address the study’s exploratory aim, the frst author started by 
+coding the interviews through utterances that indicated: a) users’ 
+interest in the data, b) users’ relatability with the data, and c) users’ 
+expressions about the usefulness of the data. Following the data 
+coding, all authors discussed and agreed on clustering the infor-
+mation into higher-level themes. In the following, we present the 
+themes highlighted in this analysis. 
+4.2.1 Novelty of the Topic – Ocean/Whales Data. 
+The theme of Ocean/Whales Data as a topic of interest was men-
+tioned by most users (n=40). These comments were frequently 
+linked to the novelty of the data: “I didn’t know that whales ab-
+sorbed carbon and that this infuenced global warming. ” (S.B5); “The 
+CO2 part, how much the whale takes with it. It was new. ” (S.E7). The 
+data-story added perspective to more frequently explored topics: 
+“I thought because with cows, for example, they also output a lot of 
+CO2. So I was surprised that other animals are, like, actually helpful. ” 
+(S.B16). 
+4.2.2 Novelty of the Output/Context – Interactive Public Installa-
+tion. 
+Likewise, users also positively remarked on the Originality of the In-
+stallation : “It was quite creative. I had never interacted with anything 
+like this before. . . ” (S.E19); “I think there should be more applications 
+like this. ” (S.E8);“Maybe the walls, the object [the installation]. It’s, 
+for me, a very diferent object. ” (S.B7). One user focused specifcally 
+on how climate change is being communicated: “The issue of com-
+municating these issues interactively in a common space. It has to be 
+done and it is not being done. ” (S.B4). 4.2.3 Engagement through Interactive Features. 
+Most users commented that they liked the Interactive Features. How-
+ever, the two versions were perceived diferently. The three users 
+from vB discussed what they enjoyed about the communication 
+by focusing on the interactive features: the ability to control what 
+they read (S.B12, S.B17), and the relation of the narration with the 
+interactive elements (S.B16) – “I liked those little pieces of paper that 
+were rotating and I think it was really cool. I only see it if I want to. ” 
+(S.B12). On the other hand, comments from users of vE focus on the 
+communication of information being well presented (S.E14, S.E15), 
+immersive (S.E4), and leading to better understanding (S.E8, S.E19, 
+S.E20). These features led them to want to explore or know more 
+(S.E4, S.E13). For example: “I think what is being looked for here is a 
+way to captivate more and interact more and not just show numbers 
+and things like that. (...) I think it makes the data more immersive. ” 
+(S.E4). 
+Diferences related to perceived interest were noted between the 
+two versions when discussing data presentation features, with vE 
+users linking the interactive features to a deeper sense of engage-
+ment and curiosity. 
+4.2.4 Relatability  Through the Overall Experience. 
+The interview analysis resulted in 64 comments connected to relata-
+bility with the data, with most of the comments being from users 
+of vE (n=40), compared with vB (n=24). 
+Users from vB felt the data was made relatable through a variety 
+of features: the Information (n=3); Suggestions for action (n=3); Audio 
+narration (n=2); Narration and visuals (n=2); General interactivity 
+(n=2) or the Visuals (n=2). In general, these comments tend towards 
+generic aspects, such as the relation with the climate topic and its 
+relevance nowadays, the narration as an important factor to connect 
+them to the data, or seeing the proposals for action as a connection 
+thread to their day-to-day. Interactivity and the visuals are also 
+commented upon, but users do not describe what they particularly 
+enjoyed about these aspects. Nevertheless, these features efectively 
+made the data relatable, as shown by the scale results. 
+Users (S.B7 and S.B9) also appreciated the metaphor of whales 
+as foating trees. This points to the importance of metaphors and 
+analogies to assist users in interpreting the meaning of the numbers. 
+4.2.5 Relatability Through Personalization and Contextualization. 
+Comments by users of vE when replying to what made the data 
+relatable cluster around three main themes: Personalization (n=15); 
+Contextualization (n=7); and the Visuals (n=7). Here we see a clear 
+contrast with vB answers described in the previous section. Two of 
+these three themes are based on data humanism principles. We sep-
+arated the comments into Personalization and Contextualization, 
+but to note some of these comments relate simultaneously to both 
+features. These clusters are followed by General interactivity (n=4), 
+Audio narration (n=2), Suggestions for action (n=1), and the Infor-
+mation (n=1). Finally, two comments say it wasn’t any particular 
+aspect but the Experience or story as a whole. 
+Personalization features were mentioned as the most compelling. 
+Certain expressions highlight the user’s positive reactions to these 
+features: “that’s cool, because the information is surprising (...) I 
+wasn’t expecting it” (S.E3). Some comments illustrate a deeper and 
+more personal connection with the data, as one user puts it “by 
+introducing these personal elements, you apprehend the information 
+3037
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+Figure 4: Table with questionnaire results for the Intrinsic Motivation Inventory scales [90, 91], with average scores per question 
+and total per scale, per version of the artefact. Answers were given on a scale of 1 – Strongly disagree to 5 - Strongly agree. 
+in an even deeper way. ” (S.E15). These features assisted in putting 
+the data into perspective by comparing it to themselves: “and the 
+date of birth part gives you a point of comparison with yourself. ” 
+(S.E14); “The fact that it also asks for our input helps us relate to the 
+information that is on the screen. Because, like, when we have to put 
+our height, for example, our year of birth, it’s like it forces us to create 
+a relationship with the information. ” (S.E15). Likewise, by making 
+the user part of the data-story: “Putting in your data, I think it helps 
+you relate. (. . . ) It’s about connecting you and what is being said. ” 
+(S.E10); “The elements that have to do with me, that is, age, height, 
+which in some way bring me more into the information. ” (S.E3). 
+Users mention contextualization as helping to give meaning to 
+the numbers: “I think that visualizing the numbers, for example, 
+visualizing the size of the whale, it’s interesting to have an idea of 
+what 30 meters are compared to a bus. ” (S.E9). Contextualization also 
+assisted in showing new angles about the topic: “Yes, puts things into 
+perspective. We don’t live isolated and are in an ecosystem. ” (S.E8); 
+“Contextualization. That is, given global numbers, for example, CO2 
+emissions, how could this help?” (S.E15). 
+4.2.6 Lack of Connection with the Data. 
+To note is the clustering of users to whom nothing connected them 
+to the information (n=7), mostly from vB (n=6): [feeling connected 
+to the data] “No, nothing that specifc. ” (S.B8). Three users from vB 
+point to the importance of storytelling in relating to the data and 
+the Experience or story as a whole being the reason for a relation 
+with the information, not a particular feature: “I don’t know, there’s 
+no special part. I liked the graphics, I liked the colours. ” (S.B14). 
+Throughout the interviews, some users made suggestions for 
+improvements to the experience. Notably, users from vB pointed to the need for strategies that made them closer to the information, 
+through comparisons to other metrics – e.g. “When you say 33 tons 
+(...) it’s such a big number. That’s the same as, like, however many 
+thousand? Compared to some more relatable number.” (S.B6) – or 
+linking to more personal issues – e.g. “There was nothing special 
+that made me put myself there. ” (S.B3). 
+These clusters highlight a clear diference between vB and vE, 
+with a subset of users, almost exclusively from vB, commenting on 
+a lack of connection with the data and suggesting improvements 
+for better relatability. 
+4.2.7 Data Perceived as Useful. 
+The coding process resulted in three main clusters for “degrees of 
+usefulness” derived from users seeing the information as: 1) Not 
+particularly useful; 2) Somewhat useful; and 3) Useful. 
+Most users thought the information was useful to them (n=22) – 
+vB n=9, vE n=13. We grouped them into fve themes: i) Suggestions 
+for Action with users (n=7) fnding suggestions useful for their 
+daily lives; ii) users (n=6) associated usefulness with Information 
+about the ocean and whales – for example, giving a holistic sense of 
+environmental issues or being surprised by the importance of these 
+marine ecosystems; iii) users (n=4) who Learned new information 
+or gained a new perspective ; iv) Reinforcing current knowledge or 
+actions (n=3); v) users (n=2) who found the information Good to 
+know in general. All users but one from vB fall within the frst (n=3) 
+or second (n=5) clusters, while users from vE are more distributed, 
+again showing more heterogeneous responses. 
+A few vB users didn’t think the information was particularly 
+useful for two main reasons: i) already being familiar with the 
+information (n=3); and ii) feeling disconnected from it (n=1): “This is 
+3038
+Towards Relatable Climate Change Data DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+a lot of things I already knew and things I already do in my daily life. 
+So it’s not useful, for me personally, not. ” (S.B3). 
+The remaining users (n=16) fell in the middle, fnding the in-
+formation useful to a certain degree. The majority (n=9) replied 
+that they Already knew the information (or most of it), but they still 
+think it is useful or they still learned something. The remaining 
+users thought the information linked to Current behaviour (n=3) or 
+was Useful with limitations (n=4). These limitations were mostly 
+connected to fnding the proposals for action insufcient or with a 
+limited range. 
+4.2.8 Actionable Suggestions for Daily Life. 
+Connected to data usefulness, another cluster highlights sugges-
+tions for action users mentioned throughout the interviews. Forty-
+fve comments mentioned actionable communication. The themes 
+highlighted the following: Fibres (n=12); Plastic/Recycling (n=12); 
+Consumption (n=9); Transportation (n=5); Ocean tourism (n=4); Food 
+(n=2); and Energy (n=2). 
+Users from vE commented on "actions" more often (n=31) than 
+users from vB (n=15), focusing on “useful” suggestions, i.e. actions 
+to improve (n=33) when compared to mentions of actions users 
+already do or feel are hard to implement (n=13). This result aligns 
+with seeing the interactive artefact overall as useful and connected 
+to users’ daily lives: “Yes, of course. Reinforcing. The information you 
+already knew and, above all, try to continue to change habits. ” (S.E6); 
+“Yes. So there are some tips that people can, actions that they can take 
+in their lives. These are easy things. ” (S.E9). 
+4.3 Engagement with the AI Live Dialogue 
+Feature 
+The end of vE included the possibility of initiating dialogue with 
+the main whale character, Baltazar, through an LLM. Seven of the 
+twenty-one users actively used the “chat with Baltazar” feature. 
+However, none of the users mentioned this particular feature in the 
+interviews. Users asked ffteen questions, eight were related to the 
+information in the story – e.g. “How much CO2 do you have in your 
+body?” (S.E15); “How many incidents occur a year because of collision 
+routes between whales and ships?” (S.E8). One regarded whales in 
+general – “Do whales have predators? ” (S.E9) – while four connected 
+to Baltazar – e.g. “How are you?” (S.E7); “How old are you?” (S.E19). 
+The remaining two questions were grouped as “Exploratory” as we 
+saw them as users testing the system’s creativity – “Who is your 
+creator?” (S.E9); “What is whale heaven like?” (S.E13). 
+4.4 Post-experience Questionnaire 
+4.4.1 Ocean/Whale Data Recollection. 
+Nearly all of the nineteen users mentioned whale or ocean data 
+(n=16), generating 28 comments expressing interest, especially in 
+interspecies relations (vB n=5, vE n=4): "I pay more attention to the 
+marine environment and the relationship between the ocean and 
+me. " (F.B6); and the carbon/oxygen cycle (vB n=2, vE n=5): "I think 
+of whales when talking about carbon capture. " (F.E4). Comments 
+highlighted increased marine environment awareness and whale 
+empathy, along with whales’ positive impact on CO2 consumption. 
+Other topics included whale ecosystem benefts (vB n=2, vE n=3) 
+and human impacts on climate change (vE n=3). 4.4.2 Atentiveness to Topics/Issues. 
+Eight users reported no change in attentiveness post-experience 
+(vB n=5, vE n=3), while eleven users noted an increased focus on 
+whale/ocean topics (vB n=1, vE n= 3): "I became very curious about 
+the role played by whales in helping circulate nutrients in the ocean. " 
+(F.E8); actions (vB n=1, vE n=3): "Yes, especially regarding buying 
+clothes with the less amount possible of polyester." (F.B4); and the 
+topic in general (vB n=2, vE n=1): "I have been more attentive to news 
+about climate change. " (F.E7). 
+vB users mostly reported no increased attentiveness, with a few 
+citing general topics. In contrast, attentive vE users mostly focused 
+on specifc issues like whale/ocean conservation and actions, show-
+ing a diference in engagement between the two groups. 
+4.4.3 Data Relevance . 
+Most users found the information generally relevant (vB n=8, vE 
+n=7): "Yes, it is always relevant to understand the impact of life on life. " 
+(F.B8). A few connected it personally to their actions or awareness 
+(vB n=1, vE n=3), though without specifying individual connections: 
+"Yes defnitely, even if only to make me aware of this topic. " (F.B4). 
+The diference between the two versions is subtle, with users of vE 
+showing a slightly more pronounced tendency to mention more 
+personal reasons. 4.4.4 Connection 
+ with the Data. 
+Most users reported feeling connected to the information or story 
+(n=16), with only three exceptions (vB n=1, vE n=2). Four attributed 
+their engagement to the compelling narrative and visual elements 
+(vB n=2, vE n=2). Three users had a previous connection with the 
+themes presented (vB n=1, vE n=2), while three others were drawn 
+to specifc content such as whale and ecosystem information (vB 
+n=2, vE n=1). Personal connections were also mentioned, including 
+how the information related to actions proposed (vB n=1): "I think 
+some of the more concrete examples were very easy to map into my 
+day-to-day life, it helped me feel connected. " (F.B2); geographical 
+connections (vB n=1, vE n=1): "Above all, the Portuguese connection to 
+whaling and, more recently, tourism associated with whale watching. " 
+(F.E4); and the personalization features of the story (vE=1): "Yes, 
+especially when they ask about age, height and weight and put us in 
+context with the history of whales and create empathy with this type 
+of animal. " (F.E3). 
+Besides the two vE users that specifcally mention more personal 
+metrics, there is no clear diference between the two versions. 4.4.5 Inspire
+  Action. 
+Nine users reported no habit changes post-experience, seven at-
+tributing this to already sustainable habits (F.B5, 6, 8; F.E6, 9), lack of 
+new actionable insights (F.E4), or perceived lack of infuence (F.B3, 
+F.E6). Two users felt the experience reinforced existing behaviours 
+(F.B2; F.E3). Eight users did note changes or heightened attention 
+to behaviours: "The use of plastic in clothes and in other unexpected 
+places. " (F.E2); "I’ve paid particular attention to anything related to 
+food or all sorts of product consumption for a while." (F.E8). These 
+actions were categorised as: Consumerism (F.B4, 7; F.E2, 8); Plastic in 
+Fabrics (F.B4, F.E2, 10); Water Pollution ((F.E1, 8); Food (F.E8), Waste 
+(F.E7), and Knowledge (F.B8). 
+4.4.6 Motivating  Conversations. 
+Five users did not discuss their experience afterwards (vB n=3; 
+3039
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+vE n=2), citing reasons such as lack of opportunity (F.B6, F.E5), 
+not remembering (F.E9), or simply not having engaged in such 
+conversations (F.B1, 9). In contrast, the majority did engage in 
+discussions – three with colleagues (F.B3, 5; F.E3) and the remaining 
+talking about the information to friends and family (F.B2, 4, 7; F.E1, 
+2, 3, 4, 6, 7, 8, 10): "I did share some more curious aspects of it with 
+my family. " (F.B7); "I remember talking to my sister about the thing 
+that we learned from having the whale die. " (F.E6); "With friends and 
+family about microplastics. " (F.E10). 
+5 DISCUSSION 
+With the present research, the authors extend on the call to rally 
+around the complexity of climate change [62], and the need for 
+diverse solutions and perspectives. Echoing Han and Khanduja 
+[50], we also “believe new ways of visualizing data and storytelling 
+with new media technology will have an impact on the public for their 
+better understanding of climate change”. The current study examines 
+specifc communication strategies through HCI for climate change 
+engagement, investigating their potential to enhance understanding 
+and connection with a hyperobject. 
+Results from the IMI scales were cross-referenced with the in-
+terviews and post-experience questionnaires to evaluate the pro-
+gressive infuence of data humanism, storytelling, decentering the 
+human in the narrative, and positive framing in interactions with cli-
+mate change data. While both artefacts scored similarly on the IMI 
+scales, the interviews and post-experience questionnaires pointed 
+to key diferences between the two versions. In the following, we 
+discuss this analysis, the highlighted tensions, and research implica-
+tions for the design of engaging climate change-related interactions 
+that bridge complex and often impersonal data with lay audiences. 
+Building on recent SIGCHI debates [79], we further the HCI dis-
+course with climate change by exploring novel communication 
+design approaches. 
+5.1 Engagement and Dialogues by Going 
+Beyond Presenting Facts 
+We built on the implications for design proposed by [39] derived 
+from gaps found in previous climate change interactions. Our study 
+results point to these implications assisting in generating curios-
+ity and engagement with the experience. The interview results 
+support the outcome of the IMI scale in picking interest in both 
+versions of the artefact. As demonstrated by [3], engaging users 
+in less-explored contexts was highlighted as relevant. The unex-
+pected placement of the interactive physical installation in a public 
+setting triggered a sense of curiosity that helped with engagement. 
+Likewise, the clustering around the topic’s novelty points to an 
+enhanced engagement through this less-known subject. It also high-
+lights the importance of presenting less familiar information when 
+discussing climate change. 
+Results from the interviews and questionnaire suggest that users 
+from vE had a deeper interest in the information through positive 
+framing and a more-than-human narrative. Linking lay audiences 
+with climate change data through emotional engagement has been 
+successfully explored in HCI, despite the challenge of balancing ac-
+curate data and visual presentation [3]. We navigated these tensions 
+by presenting the data and the consequences of the Anthropocene through a nature-focused lens, positive framing and a story of 
+resilience. 
+The number of users who mentioned having conversations with 
+friends and family after the experience was particularly encourag-
+ing to show engagement. It is noteworthy that most of these users 
+are from vE. This result validates the apparent enhanced interest in 
+the data shown by vE users in the interviews. Building on previous 
+research that worked towards enhancing engagement with envi-
+ronmental data through community [3, 28, 67, 84] or more personal 
+[99, 108] connections, our work points to possibilities for HCI re-
+search to help address much-needed conversations about climate 
+change in our everyday [6]. We created a story beyond data as 
+numbers by adding context and creating an emotional connection 
+with what was being showcased. 
+5.2 Towards Human-Scaled Climate Change Interactions 
+The scale and complexity of climate change – a hyperobject [80] – 
+makes it difcult to connect to our daily experiences. The challenge 
+becomes presenting it on a relatable human scale that transforms 
+it from overwhelming phenomena to solvable problems where 
+we feel we have some agency to afect change. Throughout this 
+study, we explored the importance of "humanising" the data by 
+linking complex data sets to local contexts and personal experiences, 
+aligning with recent climate change communication guidelines that 
+call for making climate data "relatable, local and personal" [82]. 
+Our study showed that making climate data more relatable by 
+personalizing the interaction and linking it to individual experi-
+ences can enhance engagement. The interview’s qualitative insights 
+point to vE leading to stronger data relatability thanks to the more 
+contextualised data (e.g. personalised and situated metrics). Users 
+commented on the efectiveness of seeing how the data related 
+directly to their own lives. This approach to data interactions leads 
+to a meaningful experience for the user [113]. 
+Likewise, the suggestions for improvements to the experience by 
+vB users highlight the importance of data humanization, creating 
+connections between the person, their experiences, and the data. 
+Data humanism has the potential to enhance data connections and 
+assist in communicating a hyperobject in a manageable scale, but 
+post-experience results suggest that further exploration is needed 
+to extend it to longer-term engagement. 
+The feedback by users six months later shows limited diferences 
+between vB or vE users’ relatability with the data. However, it is 
+positive that vE users mentioned personalisation aspects, such as 
+relation to their country (F.E3, 4) and their height and age (F.E3), 
+many months after one brief interaction. The challenge becomes 
+how to sustain the enhanced relatability shown by vE users after 
+the experience, continuing to translate complex global data into a 
+relatable and understandable human-scale. 
+5.3 Empowering Actionable Communication 
+Acting to mitigate the consequences of climate change is more press-
+ing than ever. However, previous HCI research seldom proposes 
+action or solutions through climate change interaction projects 
+[39, 40]. Our study has demonstrated the importance of a positive 
+framing and an action-focused narrative. 
+3040
+Towards Relatable Climate Change Data DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+The interviews indicated that vE users perceived the informa-
+tion as more valuable than vB users. The sense of usefulness and 
+its connection to people’s daily lives largely came from the call 
+for action proposed throughout the data-story, adapted to user’s 
+current habits in vE. In the post-experience questionnaire, most vB 
+users (n=6) reported no habit changes or reinforcement of existing 
+behaviours, similar to half of vE users (n=5). However, a notable 
+variation between the two versions was observed in the diversity 
+of mentions of types of actions, with vB users mentioning three 
+and vE users eight. This greater variability in actionable applica-
+tions points to a deeper engagement and broader practice changes 
+among vE users. These results align with the more profound sense 
+of usefulness in vE seen in the interviews. 
+Users mostly commented positively on the proposals for action 
+but debated their usefulness and limits. We argue that this open de-
+bate is important for productive climate dialogues and an important 
+tension to consider in future applications. 
+5.4 A Step Towards Posthumanistic Perspectives 
+The SHCI community has called for diverse perspectives and cli-
+mate change narratives, such as more-than-human cohabitation 
+[95] and collective relations to nonhuman actors [44]. We have 
+built on this research by exploring communication strategies that 
+decenter the human in the narrative. Previous work has explored 
+how human-defned concepts like time determines human-nature 
+relations [95]. The challenge becomes questioning these human-
+centric notions and opening up to alternative conceptions of time 
+and space. Cohabitation demands from humans the understanding 
+that they are not “apart” or “superior” to nature but instead are 
+just one part of a diverse and complex system. Our experiment 
+points to storytelling and decentering communication strategies 
+working towards more inclusive perspectives and a sense of inclu-
+sion in a broad, global ecosystem. The exploratory work done in 
+urban gardens by [110] underscores the importance of improving 
+human-nature relations through design by highlighting interdepen-
+dencies. Our study builds on these experiments by evoking empathy 
+and a sense of global responsibility that is an encouraging step to-
+wards posthumanistic stances. We were particularly encouraged by 
+users’ comments in the interviews about gaining a more holistic 
+understanding of our global shared ecosystem. These insights were 
+corroborated in the post-experience questionnaire, where the gen-
+eralised comments related to ocean and whale information pointed 
+to a raised consideration for the more-than-human, the entangle-
+ments between humans and marine ecosystems, and human efects 
+in natural environments. Klein argues that the changes needed to 
+respond to the climate crisis are an opportunity to re-assess our 
+relationships with each other and with nature [61]. This research 
+not only linked climate data with users on an individual level, but 
+it also connected them to a sense of global belonging that includes 
+non-human actors. 
+5.5 Refections on LLMs for More-than-human 
+Representation 
+The use of AI-powered models assisted in bringing the global scale 
+of climate change to the individual sphere of each participant 
+through personalised date and location information. Furthermore, we used the LLM to breathe life into the whale character by adapting 
+the narration to "his" perspective and allowing a dialogue between 
+this entity and the user. The AI Live Dialogue feature was meant 
+to satisfy the curiosities of the users while improving engagement 
+with the information and building empathy with the non-human 
+story protagonist. 
+A few users engaged with the LLM chat feature, pointing to 
+a need for better integration with the story. However, most of 
+them used the chat to delve deeper into the topics communicated 
+– a promising result considering the main purpose of developing 
+deeper interest and engagement with the data. Furthermore, the 
+exploratory questions demonstrate the user’s curiosity about the 
+tool and point to interesting avenues for exploration. Future experi-
+ments should integrate such a feature more carefully into the story. 
+Crafting engaging narrative hooks is essential to ensure user par-
+ticipation, especially towards the end of the experience. Designing 
+AI prompts that maintain the character’s story and personality is 
+crucial. These conversations with the character, in crucial points 
+throughout the story, could link more clearly to each data set and 
+enhance engagement with the tool. 
+AI-powered conversations between humans and more-than-
+human characters can be explored to inspire empathy and posthu-
+manistic perspectives. We acknowledge that using AI systems to 
+give voice to more-than-human entities could be problematic as 
+“AI technology itself imports a traditional, humanist form of logic” 
+[109]. Building on the challenges posed by [58], we tried to work 
+through the discomforts of designing in the intersections of hu-
+man and non-human relations. The use of these systems demands 
+a careful critical lens. Besides the dangers of possibly spreading 
+misinformation [118], one needs to consider which perspectives 
+are represented or what stereotypes might be inadvertently rein-
+forced, depending on the information the LLM uses or is fed with. 
+Also, one should question how these systems can help represent 
+more-than-human entities since this information is human-made 
+and inevitably carries a human perspective. This work is an ini-
+tial experiment at using, in particular, storytelling and an attempt 
+at decentering the human in the narrative to work through these 
+tensions. We look forward to further delve into how these tools 
+can be harnessed in this urgent context to enhance the sense of 
+personifcation and empathy with a non-human character. 
+5.6 Future Directions 
+Besides the above suggestions related to LLMs, we point to other di-
+rections for future exploration derived from the insights discussed. 
+Considering the need for long-term engagement after the expe-
+rience, strategies for deeper personalisation and more continuous 
+connection are promising avenues to explore. For example, we see 
+the great potential of AI for further personalised engagement. 
+One aspect to note in our study is using a large touch-screen dis-
+play to convey the data-story. This mode of interaction can impact 
+the user’s engagement with the data. As discussed in 3.5, this output 
+was used because it was already available in the lab and required 
+no new purchases. Also, it was appropriate for a public display 
+instead of having users engage with the story with a more common 
+but less practical mouse and keyboard. Nevertheless, the nature 
+of the communication strategies and interactive features allowed 
+3041
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+for using these “more common” modes of interaction. Future work 
+should test whether user engagement changed with other outputs 
+and contexts. 
+The success of the action-focused strategies to empower users, 
+particularly in vE, but also their criticised limited range led us to 
+envision future work that explores a broader set of proposed solu-
+tions and uses deeper personalisation strategies to connect users 
+with actions that are appropriate and stimulating to each person. 
+Users tend to focus on what they already know and do, even when 
+they mention that they learned something and will start to pay 
+attention to it (e.g. S.B2, 10, 12). Interactive strategies focused on 
+more personal data connections can assist in linking to less obvious 
+and more impactful suggestions, for example, by allowing users 
+to "zoom in" on what interests them and what they can help with, 
+including within their particular communities. These experiences 
+can assist people to “fnd joy in climate action” [57]. Furthermore, 
+such features can help address the largely debated challenge of en-
+gaging lay audiences with broader social change (besides individual 
+behaviour) [11, 14, 76] also mentioned by [41]. The current study 
+also faced the difculty of connecting users with actions outside 
+their personal frame of infuence as they feel they have no agency in 
+such matters. Future work should continue to explore strategies to 
+narrow this gap, for example, by promoting civic engagement [30] 
+through adapted suggestions that still feel relevant to an individual 
+actor. The HCI and Design communities can further develop inter-
+active systems with a strong social component [ 64] that connect to 
+community and global challenges. This is no small feat, but only 
+through experimentation and testing can we hope to contribute to 
+this global challenge. 
+6 CONCLUSION 
+This research explores the crucial intersection of climate change 
+communication and HCI, demonstrating how thoughtful commu-
+nication strategies and intricate design elements infuence users’ 
+engagement and perception of data-centric content for climate 
+change. By contrasting two versions of an interactive narrative 
+through a mixed-methods study, we shed light on the tangible 
+benefts of introducing data humanism allied with storytelling, de-
+centering the human in the narrative, and positive framing into HCI 
+design — chiefy regarding its potential to enhance engagement, 
+lead to posthumanistic perspectives, inspire productive dialogues 
+and infuence action. 
+The implications for the HCI community include flling a piv-
+otal gap in the literature and emphasizing the importance of key 
+communication strategies in creating engaging and relatable user 
+experiences for communicating complex hyperobjects like climate 
+change, particularly pointing to paths of making climate data more 
+actionable and human-scaled. The presented communication and 
+interaction pathways ofer new models of how climate change 
+engagement can be explored and the role of digital technologies 
+within these exchanges. We hope that our contribution potentiates 
+ever greater, and more efcient, engagement with climate change 
+topics through HCI. ACKNOWLEDGMENTS 
+Research funded by Fundação para a Ciência e a Tecnologia (FCT) – 
+SFRH/BD/144434/2019, (1801P.01006.1.01) ITI-LX UIDB/50009/2020 
+- IST-ID, and the European Union’s Horizon Europe Framework 
+Programme under grant agreement 101094036, project LoGa Cul-
+ture. 
+REFERENCES 
+[1] Yoko Akama, Ann Light, and Takahito Kamihira. 2020. Expanding Participation 
+to Design with More-Than-Human Concerns. In Proceedings of the 16th Par-
+ticipatory Design Conference 2020 - Participation(s) Otherwise - Volume 1. ACM, 
+Manizales Colombia, 1–11. https://doi.org/10.1145/3385010.3385016 
+[2] Alexis Lozano Angulo, Luis Laris Pardo, and Alessandro Canossa. 2020. Subsyst 
+simulator: an interactive infographic for knowledge transfer. In Proceedings of 
+the 13th International Symposium on Visual Information Communication and 
+Interaction. ACM, Eindhoven Netherlands, 1–5. https://doi.org/10.1145/3430036. 
+3430073 
+[3] Carolina Aragón, Mahmood Jasim, and Narges Mahyar. 2021. RisingEMOTIONS: 
+Bridging Art and Technology to Visualize Public’s Emotions about Climate 
+Change. In Creativity and Cognition. ACM, Virtual Event Italy, 1–10. https: 
+//doi.org/10.1145/3450741.3465259 
+[4] S. Sandra Bae, Clement Zheng, Mary Etta West, Ellen Yi-Luen Do, Samuel Huron, 
+and Danielle Albers Szafr. 2022. Making Data Tangible: A Cross-disciplinary 
+Design Space for Data Physicalization. In CHI Conference on Human Factors in 
+Computing Systems. ACM, New Orleans LA USA, 1–18. https://doi.org/10.1145/ 
+3491102.3501939 
+[5] Xuemei Bai, Sander van der Leeuw, Karen O’Brien, Frans Berkhout, Frank 
+Biermann, Eduardo S. Brondizio, Christophe Cudennec, John Dearing, Anantha 
+Duraiappah, Marion Glaser, Andrew Revkin, Will Stefen, and James Syvitski. 
+2015. Plausible and desirable futures in the Anthropocene: A new research 
+agenda. Global Environmental Change 39 (Oct. 2015), 351–362. https://doi.org/ 
+10.1016/j.gloenvcha.2015.09.017 
+[6] Matthew Ballew, Matthew H. Goldberg, Marija Verner, Seth Rosenthal, Ed-
+ward Maibach, John Kotcher, and Anthony Leiserowitz. 2023. Who is most 
+likely to talk about climate change? https://climatecommunication.yale.edu/ 
+publications/who-is-most-likely-to-talk-about-climate-change/ 
+[7] Mary L. Barreto, Agnieszka Szóstek, Evangelos Karapanos, Nuno J. Nunes, 
+Lucas Pereira, and Filipe Quintal. 2014. Understanding families’ motivations 
+for sustainable behaviors. Computers in Human Behavior 40 (Nov. 2014), 6–15. 
+https://doi.org/10.1016/j.chb.2014.07.042 
+[8] Roy Bendor. 2018. Sustainability, hope, and designerly action in the anthro-
+pocene. Interactions 25, 3 (April 2018), 82–84. https://doi.org/10.1145/3194351 
+[9] Jon Bird and Yvonne Rogers. 2010. The Pulse of Tidy Street: Measuring and 
+Publicly Displaying Domestic Electricity Consumption. Pervasive Interaction 
+Lab (2010). 
+[10] Eli Blevis. 2006. Advancing Sustainable Interaction Design: Two Perspectives 
+on Material Efects. Design Philosophy Papers 4, 4 (Dec. 2006), 209–230. https: 
+//doi.org/10.2752/144871306X13966268131875 
+[11] Eli Blevis. 2007. Sustainable interaction design: Invention & disposal, renewal 
+& reuse. In Conference on Human Factors in Computing Systems - Proceedings. 
+https://doi.org/10.1145/1240624.1240705 
+[12] Virginia Braun and Victoria Clarke. 2022. Thematic analysis: a practical guide. 
+SAGE, London ; Thousand Oaks, California. OCLC: on1247204005. 
+[13] Christina Bremer, Bran Knowles, and Adrian Friday. 2022. Have We Taken 
+On Too Much?: A Critical Review of the Sustainable HCI Landscape. In CHI 
+Conference on Human Factors in Computing Systems. ACM, New Orleans LA 
+USA, 1–11. https://doi.org/10.1145/3491102.3517609 
+[14] Hronn Brynjarsdottir, Maria Håkansson, James Pierce, Eric Baumer, Carl DiSalvo, 
+and Phoebe Sengers. 2012. Sustainably unpersuaded: how persuasion narrows 
+our vision of sustainability. In Proceedings of the 2012 ACM annual conference on 
+Human Factors in Computing Systems - CHI ’12. ACM Press, Austin, Texas, USA, 
+947. https://doi.org/10.1145/2207676.2208539 
+[15] Vetria L. Byrd. 2021. Using Dear Data Project to Introduce Data Literacy and 
+Information Literacy to Undergraduates. In Advances in Software Engineer-
+ing, Education, and e-Learning, Hamid R. Arabnia, Leonidas Deligiannidis, Fer-
+nando G. Tinetti, and Quoc-Nam Tran (Eds.). Springer International Publishing, 
+Cham, 131–142. https://doi.org/10.1007/978-3-030-70873-3_10 Series Title: 
+Transactions on Computational Science and Computational Intelligence. 
+[16] Alberto Cairo. 2016. The truthful art: data, charts, and maps for communication. 
+New Riders, Place of publication not identifed. OCLC: ocn941982960. 
+[17] Chelsea R. Canon, Douglas P. Boyle, and Stephanie A. McAfee. 2022. Visualizing 
+the structure and development of climate change communication research. 
+Journal of Science Communication 21, 07 (Nov. 2022), A03. https://doi.org/10. 
+22323/2.21070203 
+3042
+Towards Relatable Climate Change Data DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+[18] Fabrizio Ceschin and Idil Gaziulusoy. 2016. Evolution of design for sustainability: 
+From product design to design for system innovations and transitions. Design 
+Studies 47 (Nov. 2016), 118–163. https://doi.org/10.1016/j.destud.2016.09.002 
+[19] Amy E. Chadwick. 2015. Toward a Theory of Persuasive Hope: Efects of 
+Cognitive Appraisals, Hope Appeals, and Hope in the Context of Climate Change. 
+Health Communication 30, 6 (June 2015), 598–611. https://doi.org/10.1080/ 
+10410236.2014.916777 
+[20] Ralph Chami, Thomas Cosimano, Connel Fullenkamp, and Sena Oztosun. 2019. 
+Nature’s Solution to Climate Change. https://www.imf.org/en/Publications/ 
+fandd/issues/2019/12/natures-solution-to-climate-change-chami 
+[21] Jamie Clarke, Adam Corner, and Robin Webster. 2018. Public engagement for a 
+1.5 °C world: Shifting gear and scaling up. Technical Report. Climate Outreach, 
+Oxford. 
+[22]
+ Rachel Clarke, Sara Heitlinger, Marcus Foth, Carl DiSalvo, Ann Light, and Laura 
+Forlano. 2018. More-than-human urban futures: speculative participatory design 
+to avoid ecocidal smart cities. In Proceedings of the 15th Participatory Design 
+Conference: Short Papers, Situated Actions, Workshops and Tutorial - Volume 2. 
+ACM, Hasselt and Genk Belgium, 1–4. https://doi.org/10.1145/3210604.3210641 
+[23] Susan Clayton, Christie Manning, Kirra Krygsman, and Meighen Speiser. 2017. 
+Mental Health and Our Changing Climate: Impacts, Implications, and Guidance. 
+(2017). 
+[24] Adam Corner, Chris Shaw, and Jaime Clarke. 2018. Principles for efective com-
+munication and public engagement on climate change: A Handbook for IPCC 
+authors. Technical Report. Climate Outreach, Oxford. https://climateoutreach. 
+org/reports/ipcc-communications-handbook/ 
+[25] Adam Corner, Chris Shaw, Jaime Clarke, and Susie Wang. 2018. Communicating 
+Environmental and Sustainability Science . Technical Report. Climate Outreach, 
+Oxford. 
+[26] Adam Corner, Robin Webster, and Christian Teriete. 2015. Climate Visuals: Seven 
+principles for visual climate change communication (based on international social 
+research). Technical Report. Climate Outreach, Oxford. 
+[27] Niheer Dasandi, Hilary Graham, David Hudson, Slava Jankin, Jennifer van-
+Heerde Hudson, and Nick Watts. 2022. Positive, global, and health or environ-
+ment framing bolsters public support for climate policies. Communications Earth 
+& Environment 3, 1 (Oct. 2022), 239. https://doi.org/10.1038/s43247-022-00571-x 
+[28] Teis De Greve, Steven Malliet, Niels Hendriks, and Bieke Zaman. 2022. The Air 
+Quality Lens: Ambiguity as Opportunity to Reactivate Environmental Data. In 
+Designing Interactive Systems Conference. ACM, Virtual Event Australia, 335–348. 
+https://doi.org/10.1145/3532106.3533530 
+[29] Carl DiSalvo. 2014. Critical Making as Materializing the Politics of Design. 
+The Information Society 30, 2 (March 2014), 96–105. https://doi.org/10.1080/ 
+01972243.2014.875770 
+[30] Carl DiSalvo and Christopher A. Le Dantec. 2017. Civic design. Interactions 24, 
+6 (Oct. 2017), 66–69. https://doi.org/10.1145/3137097 
+[31] Carl DiSalvo, Phoebe Sengers, and Hrönn Brynjarsdóttir. 2010. Mapping the 
+landscape of sustainable HCI. In Proceedings of the SIGCHI conference on human 
+factors in computing systems. 1975–1984. 
+[32] Kathryn L. Doherty and Thomas N. Webler. 2016. Social norms and efcacy 
+beliefs drive the Alarmed segment’s public-sphere climate actions. Nature 
+Climate Change 6, 9 (Sept. 2016), 879–884. https://doi.org/10.1038/nclimate3025 
+[33] Thomas J. Doherty and Susan Clayton. 2011. The psychological impacts of 
+global climate change. American Psychologist 66, 4 (2011), 265–276. https: 
+//doi.org/10.1037/a0023141 
+[34] Paul Dourish. 2010. HCI and environmental sustainability: the politics of design 
+and the design of politics. In Proceedings of the 8th ACM Conference on Designing 
+Interactive Systems - DIS ’10. ACM Press, Aarhus, Denmark, 1. https://doi.org/ 
+10.1145/1858171.1858173 
+[35] Julie Doyle. 2022. Communicating climate change in ‘Don’t Look Up’. Journal 
+of Science Communication 21, 05 (July 2022), C02. https://doi.org/10.22323/2. 
+21050302 
+[36] Johanna Drucker. 2011. Humanities Approaches to Graphical Display. Digitital 
+Humanities Quarterly 5, 1 (2011). http://www.digitalhumanities.org/dhq/vol/5/ 
+1/000091/000091.html 
+[37] Daniel Fallman. 2008. The Interaction Design Research Triangle of Design 
+Practice, Design Studies, and Design Exploration. Design Issues 24, 3 (July 2008), 
+4–18. https://doi.org/10.1162/desi.2008.24.3.4 
+[38] Matthew Feinberg and Robb Willer. 2011. Apocalypse Soon?: Dire Messages 
+Reduce Belief in Global Warming by Contradicting Just-World Beliefs. Psycholog-
+ical Science 22, 1 (Jan. 2011), 34–38. https://doi.org/10.1177/0956797610391911 
+[39] Marta Ferreira, Miguel Coelho, Valentina Nisi, and Nuno Nunes. 2021. Climate 
+Change Communication in HCI: a Visual Analysis of the Past Decade. https: 
+//doi.org/10.1145/3450741.3466774 
+[40] Marta Ferreira, Valentina Nisi, and Nuno Nunes. 2022. Interaction for Crisis: A 
+Review of HCI and Design Projects on Climate Change and How They Engage 
+with the General Public. In [ ] With Design: Reinventing Design Modes. Springer 
+Nature Singapore, Singapore, 850–879. https://doi.org/10.1007/978-981-19-
+4472-7_56 [41] Marta Ferreira, Valentina Nisi, and Nuno Nunes. 2023. Interactions with Climate 
+Change: a Data Humanism Design Approach. In Proceedings of the 2023 ACM 
+Designing Interactive Systems Conference. ACM, Pittsburgh PA USA, 1325–1338. 
+https://doi.org/10.1145/3563657.3596003 
+[42] Stephen Few. 2012. Show me the numbers: designing tables and graphs to enlighten
+(2. ed ed.). Analytics Press, Burlingame, Calif. 
+[43] Laura Forlano. 2016. Decentering the Human in the Design of Collaborative 
+Cities. Design Issues 32(3) (July 2016), 42–54. https://doi.org/10.1162/DESI_a_ 
+00398 
+[44] Laura Forlano. 2017. Posthumanism and Design. She Ji: The Journal of Design, 
+Economics, and Innovation 3, 1 (2017), 16–29. https://doi.org/10.1016/j.sheji. 
+2017.08.001 
+[45] Tony Fry. 2019. Starting at the End: A Journey in Time. Journal of Futures 
+Studies 23, 4 (June 2019), 159–164. https://doi.org/10.6531/JFS.201906_23(4).0018 
+[46] William Gaver, Andy Boucher, Nadine Jarvis, David Cameron, Mark Hauen-
+stein, Sarah Pennington, John Bowers, James Pike, Robin Beitra, and Liliana 
+Ovalle. 2016. The Datacatcher: Batch Deployment and Documentation of 130 
+Location-Aware, Mobile Devices That Put Sociopolitically-Relevant Big Data 
+in People’s Hands: Polyphonic Interpretation at Scale. In Proceedings of the 
+2016 CHI Conference on Human Factors in Computing Systems. ACM, San Jose 
+California USA, 1597–1607. https://doi.org/10.1145/2858036.2858472 
+[47] William Gaver, Mike Michael, Tobie Kerridge, Alex Wilkie, Andy Boucher, 
+Liliana Ovalle, and Matthew Plummer-Fernandez. 2015. Energy Babble: Mixing 
+Environmentally-Oriented Internet Content to Engage Community Groups. In 
+Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing 
+Systems. ACM, Seoul Republic of Korea, 1115–1124. https://doi.org/10.1145/ 
+2702123.2702546 
+[48] William Gaver, Alex Wilkie, Andy Boucher, Andy Law, Sarah Pennington, John 
+Bowers, Jacob Beaver, Jan Humble, Tobie Kerridge, and Nicholas Villar. 2008. 
+Threshold devices: looking out from the home. In Proceeding of the twenty-sixth 
+annual CHI conference on Human factors in computing systems - CHI ’08. ACM 
+Press, Florence, Italy, 1429. https://doi.org/10.1145/1357054.1357278 
+[49] William W. Gaver, John Bowers, Kirsten Boehner, Andy Boucher, David W.T. 
+Cameron, Mark Hauenstein, Nadine Jarvis, and Sarah Pennington. 2013. Indoor 
+weather stations: investigating a ludic approach to environmental HCI through 
+batch prototyping. In Proceedings of the SIGCHI Conference on Human Factors in 
+Computing Systems. ACM, Paris France, 3451–3460. https://doi.org/10.1145/ 
+2470654.2466474 
+[50] Yoon Chung Han and Amanbeer Khanduja. 2022. The Future is Red: Visualizing 
+Wildfre Predictions using Contactless Interaction. In CHI Conference on Human 
+Factors in Computing Systems Extended Abstracts. ACM, New Orleans LA USA, 
+1–5. https://doi.org/10.1145/3491101.3519903 
+[51] P. Sol Hart and Lauren Feldman. 2016. The Impact of Climate Change–Related 
+Imagery and Text on Public Opinion and Behavior Change. Science Communi-
+cation 38, 4 (Aug. 2016), 415–441. https://doi.org/10.1177/1075547016655357 
+[52] Trevor Hogan and Eva Hornecker. 2012. How Does Representation Modality 
+Afect User-Experience of Data Artifacts? In Haptic and Audio Interaction Design, 
+David Hutchison, Takeo Kanade, Josef Kittler, Jon M. Kleinberg, Friedemann 
+Mattern, John C. Mitchell, Moni Naor, Oscar Nierstrasz, C. Pandu Rangan, 
+Bernhard Stefen, Madhu Sudan, Demetri Terzopoulos, Doug Tygar, Moshe Y. 
+Vardi, Gerhard Weikum, Charlotte Magnusson, Delphine Szymczak, and Stephen 
+Brewster (Eds.). Vol. 7468. Springer Berlin Heidelberg, Berlin, Heidelberg, 141– 
+151. https://doi.org/10.1007/978-3-642-32796-4_15 Series Title: Lecture Notes 
+in Computer Science. 
+[53] Lars Erik Holmquist, Oren Zuckerman, Rafael Ballagas, Hiroshi Ishii, Kimiko 
+Ryokai, and Haiyan Zhang. 2019. The Future of Tangible User Interfaces. In 
+Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing 
+Systems. ACM, Glasgow Scotland Uk, 1–6. https://doi.org/10.1145/3290607. 
+3311741 
+[54] Eva Hornecker and Jacob Buur. 2006. Getting a grip on tangible interaction: a 
+framework on physical space and social interaction. In Proceedings of the SIGCHI 
+Conference on Human Factors in Computing Systems. ACM, Montréal Québec 
+Canada, 437–446. https://doi.org/10.1145/1124772.1124838 
+[55] Steven Houben, Ben Bengler, Daniel Gavrilov, Sarah Gallacher, Valentina Nisi, 
+Nuno Jardim Nunes, Licia Capra, and Yvonne Rogers. 2019. Roam-IO: Engaging 
+with People Tracking Data through an Interactive Physical Data Installation. In 
+Proceedings of the 2019 on Designing Interactive Systems Conference. ACM, San 
+Diego CA USA, 1157–1169. https://doi.org/10.1145/3322276.3322303 
+[56] Yvonne Jansen, Pierre Dragicevic, Petra Isenberg, Jason Alexander, Abhijit 
+Karnik, Johan Kildal, Sriram Subramanian, and Kasper Hornbæk. 2015. Op-
+portunities and Challenges for Data Physicalization. In Proceedings of the 33rd 
+Annual ACM Conference on Human Factors in Computing Systems. ACM, Seoul 
+Republic of Korea, 3227–3236. https://doi.org/10.1145/2702123.2702180 
+[57] Ayana Elizabeth Johnson. 2022. How to fnd joy in climate ac-
+tion. https://www.ted.com/talks/ayana_elizabeth_johnson_how_to_fnd_joy_ 
+in_climate_action?language=en 
+3043
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Ferreira, et al. 
+[58] Cayla Key, Cally Gatehouse, and Nick Taylor. 2022. Feminist Care in the An-
+thropocene: Packing and Unpacking Tensions in Posthumanist HCI. In De-
+signing Interactive Systems Conference. ACM, Virtual Event Australia, 677–692. 
+https://doi.org/10.1145/3532106.3533540 
+[59] Nam Wook Kim, Hyejin Im, Nathalie Henry Riche, Alicia Wang, Krzysztof 
+Gajos, and Hanspeter Pfster. 2019. DataSelfe: Empowering People to Design 
+Personalized Visuals to Represent Their Data. In Proceedings of the 2019 CHI 
+Conference on Human Factors in Computing Systems. ACM, Glasgow Scotland 
+Uk, 1–12. https://doi.org/10.1145/3290605.3300309 
+[60] N. W. Kim, S. C. Joyner, A. Riegelhuth, and Y. Kim. 2021. Accessible Visualization: 
+Design Space, Opportunities, and Challenges. Computer Graphics Forum 40, 3 
+(June 2021), 173–188. https://doi.org/10.1111/cgf.14298 
+[61] Naomi Klein. 2015. This changes everything: capitalism vs. the climate. OCLC: 
+919872261. 
+[62] Bran Knowles, Oliver Bates, and Maria Håkansson. 2018. This Changes Sus-
+tainable HCI. In Proceedings of the 2018 CHI Conference on Human Factors in 
+Computing Systems. ACM, Montreal QC Canada, 1–12. https://doi.org/10.1145/ 
+3173574.3174045 
+[63] Andrey Krekhov, Michael Michalski, and Jens Krüger. 2019. Integrating Vi-
+sualization Literacy into Computer Graphics Education Using the Example 
+of Dear Data. Eurographics 2019 - Education Papers (2019), 8 pages. https: 
+//doi.org/10.2312/EGED.20191022 Artwork Size: 8 pages Publisher: The Euro-
+graphics Association Version Number: 001-008. 
+[64] Christopher A. Le Dantec. 2016. Design through collective action / collective 
+action through design. Interactions 24, 1 (Dec. 2016), 24–30. https://doi.org/10. 
+1145/3018005 
+[65] Anthony Leiserowitz, Edward Maibach, Seth Rosenthal, John Kotcher, Sanguk 
+Lee, Marija Verner, Matthew Ballew, Jennifer Carman, Teresa Myers, Matthew H. 
+Goldberg, Nicholas Badullovich, and Jennifer Marlon. 2023. Climate Change in 
+the American Mind: Beliefs & Attitudes, Spring 2023. Technical Report. Yale Uni-
+versity and George Mason University, New Haven, CT: Yale Program on Climate 
+Change Communication. https://climatecommunication.yale.edu/publications/ 
+climate-change-in-the-american-mind-beliefs-attitudes-spring-2023/toc/2/ 
+[66] Ann Light, Irina Shklovski, and Alison Powell. 2017. Design for Existential 
+Crisis. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human 
+Factors in Computing Systems - CHI EA ’17. ACM Press, Denver, Colorado, USA, 
+722–734. https://doi.org/10.1145/3027063.3052760 
+[67] Martin Valdemar Anker Lindrup, Arjun Rajendran Menon, and Aksel Biørn-
+Hansen. 2023. Carbon Scales: Collective Sense-making of Carbon Emissions 
+from Food Production through Physical Data Representation. In Proceedings of 
+the 2023 ACM Designing Interactive Systems Conference. ACM, Pittsburgh PA 
+USA, 1515–1530. https://doi.org/10.1145/3563657.3596043 
+[68] Szu-Yu (Cyn) Liu, Jefrey Bardzell, and Shaowen Bardzell. 2019. Decomposition 
+as Design: Co-Creating (with) Natureculture. In Proceedings of the Thirteenth 
+International Conference on Tangible, Embedded, and Embodied Interaction. ACM, 
+Tempe Arizona USA, 605–614. https://doi.org/10.1145/3294109.3295653 
+[69] Szu-Yu (Cyn) Liu, Shaowen Bardzell, and Jefrey Bardzell. 2018. Out of con-
+trol: reframing sustainable HCI using permaculture. In Proceedings of the 2018 
+Workshop on Computing within Limits. ACM, Toronto Ontario Canada, 1–8. 
+https://doi.org/10.1145/3232617.3232625 
+[70] Federica Lucivero, Gabrielle Samuel, Gordon Blair, Sarah J Darby, Tina Fawcett, 
+Mike Hazas, Carolyn Ten Holter, Marina Jirotka, Michael Parker, Helena Webb, 
+and Hang Yuan. 2020. Data-Driven Unsustainability? An Interdisciplinary 
+Perspective on Governing the Environmental Impacts of a Data-Driven Society. 
+SSRN Electronic Journal (2020). https://doi.org/10.2139/ssrn.3631331 
+[71] Giorgia Lupi. 2017. Data Humanism: The Revolutionary Future of Data Visu-
+alization. https://www.printmag.com/article/data-humanism-future-of-data-
+visualization/ 
+[72] Giorgia Lupi. 2017. VIS Capstone Address Data Humanism: The Revolution will 
+be Visualized. In 2017 IEEE Conference on Visual Analytics Science and Technology 
+(VAST). IEEE, Phoenix, AZ, 1–1. https://doi.org/10.1109/VAST.2017.8585625 
+[73] Giorgia Lupi. 2018. Data Humanism. https://www.youtube.com/watch?v= 
+6wzu0Kvmvw4&ab_channel=UMStamps 
+[74] Giorgia Lupi. 2022. Giorgia Lupi – About. http://giorgialupi.com/about 
+[75] Clara Mancini and Jussi Lehtonen. 2018. The Emerging Nature of Participation 
+in Multispecies Interaction Design. In Proceedings of the 2018 on Designing 
+Interactive Systems Conference 2018 - DIS ’18. ACM Press, Hong Kong, China, 
+907–918. https://doi.org/10.1145/3196709.3196785 
+[76] Jennifer C. Mankof, Eli Blevis, Alan Borning, Batya Friedman, Susan R. Fussell, 
+Jay Hasbrouck, Allison Woodruf, and Phoebe Sengers. 2007. Environmental 
+sustainability and interaction. In CHI ’07 extended abstracts on Human factors 
+in computing systems - CHI ’07. ACM Press, San Jose, CA, USA, 2121. https: 
+//doi.org/10.1145/1240866.1240963 
+[77] David McCandless. 2014. Knowledge is beautiful. William Collins, London. 
+[78] Lisa Meloncon and Emily Warner. 2017. Data visualizations: A literature review 
+and opportunities for technical and professional communication. In 2017 IEEE 
+International Professional Communication Conference (ProComm) . IEEE, Madison, 
+WI, USA, 1–9. https://doi.org/10.1109/IPCC.2017.8013960 [79] Eleonora Mencarini, Christina Bremer, Chiara Leonardi, Jen Liu, Valentina 
+Nisi, Nuno Jardim Nunes, and Robert Soden. 2023. HCI for Climate Change: 
+Imagining Sustainable Futures. In Extended Abstracts of the 2023 CHI Conference 
+on Human Factors in Computing Systems. ACM, Hamburg Germany, 1–6. https: 
+//doi.org/10.1145/3544549.3573833 
+[80] Timothy Morton. 2013. Hyperobjects: philosophy and ecology after the end 
+of the world. Number 27 in Posthumanities. University of Minnesota Press, 
+Minneapolis. 
+[81] Lora Oehlberg, Wesley Willett, Samuel Huron, Till Nagel, Alice Thudt, Ekene 
+Ijeoma, Dietmar Ofenhuber, and Eva Hornecker. 2023. Making with Data (and 
+Beyond). In Extended Abstracts of the 2023 CHI Conference on Human Factors in 
+Computing Systems. ACM, Hamburg Germany, 1–5. https://doi.org/10.1145/ 
+3544549.3583748 
+[82] United Nations Department of Global Communications. 2022. Communicating 
+on Climate Change. https://www.un.org/en/climatechange/communicating-
+climate-change 
+[83] Safron O’Neill and Sophie Nicholson-Cole. 2009. “Fear Won’t Do It”: Promot-
+ing Positive Engagement With Climate Change Through Visual and Iconic 
+Representations. Science Communication 30, 3 (March 2009), 355–379. https: 
+//doi.org/10.1177/1075547008329201 
+[84] Irina Paraschivoiu and Thomas Layer-Wagner. 2021. Placemaking for Urban 
+Sustainability: Designing a Gamifed App for Long-term, Pro-environmental 
+Participation. In Extended Abstracts of the 2021 Annual Symposium on Computer-
+Human Interaction in Play. ACM, Virtual Event Austria, 186–191. https://doi. 
+org/10.1145/3450337.3483482 
+[85] Lucas Pereira and Nuno Nunes. 2020. Understanding the practical issues of 
+deploying energy monitoring and eco-feedback technology in the wild: Lesson 
+learned from three long-term deployments. Energy Reports 6 (Nov. 2020), 94–106. 
+https://doi.org/10.1016/j.egyr.2019.11.025 
+[86] Neil Richards. 2022. What is data humanism? In Questions in Dataviz: A Design-
+Driven Process for Data Visualisation (1 ed.). A K Peters/CRC Press, New York, 
+119–129. 
+[87] Brady Robards, Ben Lyall, and Claire Moran. 2021. Confessional data selfes 
+and intimate digital traces. New Media & Society 23, 9 (Sept. 2021), 2616–2633. 
+https://doi.org/10.1177/1461444820934032 
+[88] María Teresa Rodríguez, Sérgio Nunes, and Tiago Devezas. 2015. Telling Stories 
+with Data Visualization. In Proceedings of the 2015 Workshop on Narrative & 
+Hypertext - NHT ’15. ACM Press, Guzelyurt, Northern Cyprus, 7–11. https: 
+//doi.org/10.1145/2804565.2804567 
+[89] Hugo Romat, Nathalie Henry Riche, Christophe Hurter, Steven Drucker, 
+Fereshteh Amini, and Ken Hinckley. 2020. Dear Pictograph: Investigating 
+the Role of Personalization and Immersion for Consuming and Enjoying Vi-
+sualizations. In Proceedings of the 2020 CHI Conference on Human Factors in 
+Computing Systems. ACM, Honolulu HI USA, 1–13. https://doi.org/10.1145/ 
+3313831.3376348 
+[90] Richard M. Ryan. 1982. Control and information in the intrapersonal sphere: 
+An extension of cognitive evaluation theory. Journal of Personality and Social 
+Psychology 43, 3 (1982), 450–461. https://doi.org/10.1037/0022-3514.43.3.450 
+[91] Richard M. Ryan, C. Scott Rigby, and Andrew Przybylski. 2006. The Motivational 
+Pull of Video Games: A Self-Determination Theory Approach. Motivation and 
+Emotion 30, 4 (Dec. 2006), 344–360. https://doi.org/10.1007/s11031-006-9051-8 
+[92] Kim Sauvé and Steven Houben. 2022. From data to physical artifact: chal-
+lenges and opportunities in designing physical data artifacts for everyday life. 
+Interactions 29, 2 (March 2022), 40–45. https://doi.org/10.1145/3511670 
+[93] E Segel and J Heer. 2010. Narrative Visualization: Telling Stories with Data. 
+IEEE Transactions on Visualization and Computer Graphics 16, 6 (Nov. 2010), 
+1139–1148. https://doi.org/10.1109/TVCG.2010.179 
+[94] M. Six Silberman, Lisa Nathan, Bran Knowles, Roy Bendor, Adrian Clear, Maria 
+Håkansson, Tawanna Dillahunt, and Jennifer Mankof. 2014. Next steps for 
+sustainable HCI. Interactions 21, 5 (Sept. 2014), 66–69. https://doi.org/10.1145/ 
+2651820 
+[95] Nancy Smith, Shaowen Bardzell, and Jefrey Bardzell. 2017. Designing for 
+Cohabitation: Naturecultures, Hybrids, and Decentering the Human in Design. 
+In Proceedings of the 2017 CHI Conference on Human Factors in Computing 
+Systems. ACM, Denver Colorado USA, 1714–1725. https://doi.org/10.1145/ 
+3025453.3025948 
+[96] Robert Soden. 2022. Reimagining environmental data. Interactions 29, 1 (Jan. 
+2022), 44–47. https://doi.org/10.1145/3501302 
+[97] Robert Soden, Pradnaya Pathak, and Olivia Doggett. 2021. What We Speculate 
+About When We Speculate About Sustainable HCI. In ACM SIGCAS Confer-
+ence on Computing and Sustainable Societies (COMPASS). ACM, Virtual Event 
+Australia, 188–198. https://doi.org/10.1145/3460112.3471956 
+[98] Alain D. Starke, Martijn C. Willemsen, and Chris Snijders. 2021. Using Ex-
+planations as Energy-Saving Frames: A User-Centric Recommender Study. In 
+Adjunct Proceedings of the 29th ACM Conference on User Modeling, Adaptation 
+and Personalization. ACM, Utrecht Netherlands, 229–237. https://doi.org/10. 
+1145/3450614.3464477 
+3044
+Towards Relatable Climate Change Data 
+[99] Brigitte Stegers, Kim Sauvé, and Steven Houben. 2022. Ecorbis: A Data Sculp-
+ture of Environmental Behavior in the Home Context. In Designing Interac-
+tive Systems Conference. ACM, Virtual Event Australia, 1669–1683. https: 
+//doi.org/10.1145/3532106.3533508 
+[100] Angelika Strohmayer and Michael Muller. 2023. Data-ing and Un-Data-ing. 
+Interactions 30, 3 (May 2023), 38–42. https://doi.org/10.1145/3587240 
+[101] Farhana Sultana. 2022. Critical climate justice. The Geographical Journal 188, 1 
+(March 2022), 118–124. https://doi.org/10.1111/geoj.12417 
+[102] Marta Terrado, Luz Calvo, and Isadora Christel. 2022. Towards more efective 
+visualisations in climate services: good practices and recommendations. Climatic 
+Change 172, 1-2 (May 2022), 18. https://doi.org/10.1007/s10584-022-03365-4 
+[103] Cameron Tonkinwise. 2015. Design for Transitions – from and to what? Design 
+Philosophy Papers 13, 1 (Jan. 2015), 85–92. https://doi.org/10.1080/14487136. 
+2015.1085686 
+[104] Cameron Tonkinwise, Terry Irwin, and Gideon Kossof. 2015. Transition Design 
+Overview. Overview. Carnegie Mellon School of Design, Pittsburgh. https: 
+//www.academia.edu/13122242/Transition_Design_Overview 
+[105] Edward R. Tufte. 2013. The visual display of quantitative information (2nd ed., 
+8th print ed.). Graphics Press, Cheshire, Conn. 
+[106] B. Ullmer and H. Ishii. 2000. Emerging frameworks for tangible user interfaces. 
+IBM Systems Journal 39, 3.4 (2000), 915–931. https://doi.org/10.1147/sj.393.0915 
+[107] Anna Vallgårda and Li Jönsson. 2023. DIS 2024. https://dis.acm.org/2024/ 
+[108] Catho Van Den Bosch, Nikki Peeters, and Sandy Claes. 2022. More Weather To-
+morrow. Engaging Families with Data through a Personalised Weather Forecast. 
+In ACM International Conference on Interactive Media Experiences. ACM, Aveiro 
+JB Portugal, 1–10. https://doi.org/10.1145/3505284.3529972 
+[109] Jelle Van Dijk. 2020. Post-human Interaction Design, Yes, but Cautiously. In 
+Companion Publication of the 2020 ACM Designing Interactive Systems Confer-
+ence. ACM, Eindhoven Netherlands, 257–261. https://doi.org/10.1145/3393914. 
+3395886 
+[110] Kellie Vella, Bernd Ploderer, and Margot Brereton. 2021. Human-Nature Rela-
+tions in Urban Gardens: Explorations with Camera Traps. In Proceedings of the 
+2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama 
+Japan, 1–13. https://doi.org/10.1145/3411764.3445438 DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+[111] Ron Wakkary, Audrey Desjardins, Sabrina Hauser, and Leah Maestri. 2013. A 
+sustainable design fction: Green practices. ACM Transactions on Computer-
+Human Interaction 20, 4 (Sept. 2013), 1–34. https://doi.org/10.1145/2494265 
+[112] Hannes Waldschütz and Eva Hornecker. 2020. The Importance of Data Curation 
+for Data Physicalization. In Companion Publication of the 2020 ACM Designing 
+Interactive Systems Conference. ACM, Eindhoven Netherlands, 293–297. https: 
+//doi.org/10.1145/3393914.3395892 
+[113] Kelly Widdicks, Christian Remy, Oliver Bates, Adrian Friday, and Mike Hazas. 
+2022. Escaping unsustainable digital interactions: Toward “more meaningful” 
+and “moderate” online experiences. International Journal of Human-Computer 
+Studies 165 (Sept. 2022), 102853. https://doi.org/10.1016/j.ijhcs.2022.102853 
+[114] Michelle Wilkerson, William Finzer, Tim Erickson, and Damaris Hernandez. 
+2021. Refective Data Storytelling for Youth: The CODAP Story Builder. In 
+Interaction Design and Children. ACM, Athens Greece, 503–507. https://doi.org/ 
+10.1145/3459990.3465177 
+[115] Johanna Wolf and Susanne C. Moser. 2011. Individual under-
+standings, perceptions, and engagement with climate change: in-
+sights from in-depth studies across the world. WIREs Climate 
+Change 2, 4 (2011), 547–569. https://doi.org/10.1002/wcc.120 
+arXiv:https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcc.120 
+[116] Rayoung Yang, Mark W. Newman, and Jodi Forlizzi. 2014. Making sustainability 
+sustainable: challenges in the design of eco-interaction technologies. In Proceed-
+ings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 
+Toronto Ontario Canada, 823–832. https://doi.org/10.1145/2556288.2557380 
+[117] Lu Zhao and Haimin Sun. 2022. Technical Aesthetics Strategy of Information 
+Visualization. In Cross-Cultural Design. Interaction Design Across Cultures, Pei-
+Luen Patrick Rau (Ed.). Vol. 13311. Springer International Publishing, Cham, 
+302–311. https://doi.org/10.1007/978-3-031-06038-0_22 Series Title: Lecture 
+Notes in Computer Science. 
+[118] Jiawei Zhou, Yixuan Zhang, Qianni Luo, Andrea G Parker, and Munmun 
+De Choudhury. 2023. Synthetic Lies: Understanding AI-Generated Misinforma-
+tion and Evaluating Algorithmic and Human Solutions. In Proceedings of the 
+2023 CHI Conference on Human Factors in Computing Systems. ACM, Hamburg 
+Germany, 1–20. https://doi.org/10.1145/3544548.3581318 
+3045

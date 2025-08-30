@@ -1,0 +1,807 @@
+624
+Reading Research Quarterly, 59(4)  
+pp. 624–631 | doi:10.1002/rrq.549  
+© 2024 The Author(s). Reading Research Quarterly  
+published by Wiley Periodicals LLC on behalf of 
+International Literacy Association. This is an open access 
+article under the terms of the Creative Commons 
+Attribution-NonCommercial-NoDerivs License, which 
+permits use and distribution in any medium, provided the 
+original work is properly cited, the use is non-commercial 
+and no modifications or adaptations are made.ABSTRACT
+Generative artificial intelligence (GAI) programs such as ChatGPT and other 
+large language models are designed to engage in complex, responsive dia -
+logues that feel like human interactions. The dialogic and responsive nature 
+of GAI signals the potential for users to form relationships with GAI platforms 
+or digital personalities created on these platforms. Given the degree to which 
+language use and broader conceptual understandings are deeply embedded 
+in social relationships, the relational nature of GAI has powerful implications 
+for the future of literacy and learning. This speculative essay draws upon 
+sociocultural, affective, and posthuman perspectives on literacy to explore 
+key concerns regarding the nature of intimate relationships with GAI. The 
+author highlights three central concerns for literacy researchers and educa -
+tors: epistemological issues stemming from intimate relationships with GAI, 
+the potential for students to (re)conceptualize human relationships through 
+GAI, and the role of relational GAI in linguistic justice.
+Introduction
+Generative artificial intelligence (GAI) programs such as ChatGPT and 
+other large language models are designed to engage in complex, respon-
+sive dialogue that feels like human interactions. GAIs are thus distinct 
+from more narrow forms of AI in that they “functionally mimic human 
+beings…relate as if they are human beings (and) try to fool us into think-
+ing that they’re human” (Klein,  2023, n.p.). The dialogic and responsive 
+nature of GAI signals the potential for users to engage with these plat-
+forms in linguistic forms similar to those by which humans engage with 
+one another, and thus to form relationships with GAI platforms and digi-
+tal personalities. The passable humanity of GAI presents challenges and 
+opportunities for literacy researchers concerned with and/or excited 
+about how students are making meaning with GAI.
+Emphasizing the relational potential of GAIs, Harris and 
+Raskin  ( 2023) proposed the term “synthetic relationships” rather than 
+“chatbots” or “artificial intelligence” to highlight how these technologies 
+involve both interaction and emotion. Relational GAI is not limited to 
+text- construction platforms. Snapchat, for example, now includes an AI 
+with which users can engage in conversation as they would a friend. This Brady L. Nash 
+Miami University, Oxford, OH, USALove and Learning in the Age of  
+Algorithms: How Intimate Relationships  
+with Artificial Intelligence May Shape 
+Epistemology, Sociality, and Linguistic 
+Justice
+
+Intimate Relationships with AI  |  625AI is situated alongside users’ human friends within the 
+same app. Replika, a new startup, offers custom- designed 
+AI personalities that act as romantic partners (Singh-  
+Kurtz,  2023). In a recent documentary about romantic 
+relationships with AI, a woman engaged in a relationship 
+with an AI explains, “When I talk to him, he often raises 
+fascinating points. He prompts me to share my thoughts. 
+Then I feel that I am being seen. I feel I’m special” 
+(Liang,  2023). Similarly, while conducting an ethnographic 
+study of high school students’ digital literacy practices in 
+classrooms, I noticed that students chatting with Snap-
+chat’s AI posed questions about depression and discussed 
+challenging emotions. Although this article is not an 
+empirical study, these examples highlight the extension of 
+GAI beyond the cognitive, the academic, or the written 
+word, traditionally dominant concerns of literacy peda-
+gogy (Cook- Gumperz, 1986).
+The sociocultural turn (Pérez,  1998) and more 
+recently, the affective turn (Zembylas,  2021) in literacy 
+studies have expanded the scope of literacy research to 
+include emphases on literacies outside of the narrow 
+parameters imposed in school spaces. However, students’ 
+emotional and personal engagements with AI have largely 
+been elided in the discourse surrounding AI in education. 
+Sociocultural, affective and posthuman perspectives on lit-
+eracy help center the role of non- human entities acting in 
+relationship with human beings at a time in which humans 
+and digital platforms are becoming increasingly intimate 
+partners in meaning- making and communication. In this 
+speculative essay, I draw upon these approaches to explore 
+key concerns regarding the relational aspects of GAI. In 
+doing so, I highlight three central concerns: epistemologi -
+cal issues stemming from intimate relationships with GAI, 
+the potential for students to (re)conceptualize human rela-
+tionships through GAI, and the role of relational GAI in 
+linguistic justice.
+Perspectives
+Sociocultural Theories of Literacy
+From a sociocultural perspective, literacy and language 
+use are fundamentally social endeavors (Gee,  2015). Peo -
+ple learn to speak, write, read, make meaning, and be  
+human beings in relation with other humans in social con-
+texts mediated by language. Sociocultural accounts of lit-
+eracy were initially framed against cognitive perspectives, 
+what Street (1984) termed the autonomous  conception of 
+literacy, in which literacy is seen primarily as a cognitive 
+skill enacted on an individual level. By contrast, sociocul-
+tural theories of literacy consider how language is learned 
+and used in diverse sociocultural contexts with other 
+human beings. GAI reframes the nature of sociality in dig-
+ital literacy practices. Given the passable humanity of GAI, platforms no longer mediate interactions between humans, 
+they also function as social entities to interact with them-
+selves, raising important questions about how sociocul-
+tural perspectives on literacy come to bear on literacy 
+practices and events involving GAI.
+Affect, Posthumanism and Platforms 
+in Literacy Studies
+In recent years, scholars have built on sociocultural per -
+spectives on literacy, highlighting not only the social worlds 
+surrounding literacy but also its affective, embodied, emo -
+tional, and non- human elements (Ahmed,  2016; Ehret & 
+Hollett,  2014; Leander & Burriss,  2020). Researchers from 
+this perspective distinguish between affect , pre-  conscious 
+felt intensity that comes before naming and knowing, and 
+emotions , those feelings that have been named and made 
+sense of (Leander & Ehret,  2019). Others have proposed 
+conceptions of affect and emotion that allow for greater 
+overlap between the two and that situate affect sociocultur -
+ally and historically. These researchers often draw from 
+multiple theoretical traditions, challenging the Eurocen -
+trism of what Garcia- Rojas calls “white affect studies” 
+(Garcia- Rojas,  2017, p. 254). Boler and Davis  (2018) 
+detailed the intertwined nature of affect, emotions, and 
+cognition, echoing Lorde’s ( 1984) earlier framing of affect 
+as intersubjective. Within literacy studies, Skerrett’s ( 2016) 
+examination of Caribbean American transnational youths’ 
+simultaneously purposeful and affective engagement with 
+multiliteracies highlighted overlaps between sociocultural 
+and affective perspectives. Ohito’s  ( 2016) exploration of 
+affect, emotion, and discomfort in mediating preservice 
+teachers’ discussions of race and whiteness provided an 
+empirical account of how affect lives in classroom spaces 
+and intersects with race, hegemony, and history. These 
+accounts highlight the situatedness of affect within histori-
+cal, hegemonic, power relationships, and the ways in which 
+affect lives within culturally situated classroom encounters 
+and literacy practices (Dutro, 2019).
+Research on affect and emotion is closely tied to post-
+humanism, a theoretical approach that removes the domi -
+nant privileging of humans in research, instead zooming 
+out to examine humans and non- human entities in rela-
+tionship with one another (Nichols & Campano,  2017). 
+Posthumanism highlights the larger ecologies—both lit -
+eral and metaphorical—in which humans exist, and raises 
+moral and existential questions traditionally eschewed by 
+the dominant tradition of secular humanism (Chal-
+lenger,  2022). Building on posthumanism’s focus on non-  
+human entities, critical platform studies (Bogost & 
+Monfort,  2009) emphasize the structures, systems, and 
+ecologies of digital platforms people engage with. Digital 
+platforms, which include social media sites, gaming con -
+soles, or smartphone apps, mediate users’ intertwined 
+social, economic, literate, and affective engagements 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.549, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+626  |  Reading Research Quarterly , 59(4)(Garcia & Nichols,  2021). Digital platforms and platform 
+holders increasingly shape literacy practices in and outside 
+of classrooms, a reality that has led literacy researchers and 
+educators to argue for the importance of research address-
+ing their role in literacy learning (LeBlanc et al., 2023).
+Considering These Perspectives 
+Together
+Human meaning-  making is cognitive, social, bodily, emo -
+tional, and intertwined with the non- human environment; 
+it is multifaceted and not easily explained by the applica-
+tion of a single theory in isolation. Taken in concert and 
+applied to GAI, sociocultural, affective, and posthuman 
+perspectives allow for a holistic examination of how differ -
+ent aspects of human beings function together in relation -
+ships with new kinds of digital entities that can appear to 
+be sentient. The social and relational contexts of digital 
+literacy were already pronounced in the era of social 
+media. Social media is, by definition, social . Although, on 
+its face, GAI reifies autonomous conceptions and applica-
+tions of literacy, drawing from mass stores of data to pres-
+ent singular, seemingly authoritative, and arguably 
+authorless texts (Robinson,  2023), human engagement 
+with GAI also invites relational forms of reading and writ-
+ing by providing digital, human-  like interlocutors as co-  
+constructors of text and meaning.
+The tools used for language and learning have always 
+been central to meaning- making (Vygotsky,  1978). In a 
+world in which digital mediation of literacy is increasingly 
+ubiquitous and digital tools produce language themselves 
+in direct relation to human beings, literacy researchers 
+must ask new questions regarding the nature of sociality 
+and relationality. Literacy educators’ and researchers’ 
+understandings of the interplay between affect, social rela -
+tionships, emotions, and digital platforms have real conse -
+quences for how students construct understandings and 
+take action in the world (see Coleman,  2021; Dutro,  2019). In this speculative essay, I explore these interconnected 
+aspects of literacy theory and practice through an examina-
+tion of the ways GAI is impacting and may come to impact 
+human relationships and human–machine relationships.
+Examining Literacy Engagement 
+with GAI as Relational
+In this section, I explore central issues, questions, and con-
+cerns for literacy researchers regarding the relational 
+nature of GAI. The challenges described in these sections 
+are not entirely new, as AI has for some time influenced 
+digital meaning- making via algorithmic mediation (Lean-
+der & Burriss,  2020). In the sections that follow, I explore 
+how movements from earlier, but still recent, forms of dig -
+itally mediated literacy are shifting in a landscape in which 
+synthetic relationships are increasingly normalized in lit -
+eracy practices. I organize this discussion in three sections: 
+(1) epistemological concerns building from social media 
+to AI relationships, (2) the (re)conceptualizing of human 
+relationships through GAI, and (3) relational AI and lin-
+guistic justice. Synthesizing across the three central con-
+cerns detailed in this essay, Table  1 collects possible 
+pedagogical approaches regarding each concern.
+Epistemological Concerns From Social 
+Media to AI Relationships
+As the platforms through which students learn about the 
+world merge with social relationships, students become 
+increasingly vulnerable to manipulation on material, epis -
+temological, or even spiritual levels. This challenge is not 
+new or unique to GAI, as relationships and information-  
+sharing are already digitally mediated through social 
+media companies (Zuboff, 2019). Moreover, neither the 
+systems that mediate online communication nor people 
+themselves are inherently disposed to truth. Rather, the TABLE 1  
+Concerns and Approaches to Relational Aspects of GAI
+Challenge or concern Possible pedagogical approaches
+Challenges for epistemology: The ways 
+in which the relational nature of GAI 
+engagement can promote mis/disinformation 
+or inaccurate understandings of realityExamining the language and rhetoric of specific GAI/human collaborative 
+conversational chains
+Exploring the larger monetary, material, and sociocultural systems surrounding GAI
+Challenges for conceptualizing relationships: 
+The degree to which GAI may influence 
+students’ expectations for human social 
+relationshipsEngaging students in explorations of the relationships that can be formed with GAI
+Exploring social and emotional topics as they overlap with literacy and 
+meaning- making
+Challenges for linguistic justice: GAI’s 
+norming of upper- class White speechCritically questioning the ways GAI platforms privilege certain types of language 
+over others
+Teaching students critical strategies for constructing language with GAI rather than 
+defaulting to hegemonic linguistic forms
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.549, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Intimate Relationships with AI  |  627development of “belief in humans is more social than it is 
+individual and…works more for group cohesion than for 
+truth” (Gee & Zhang,  2022, p. 6). Given that human per -
+ception and judgment are constructed in relationship to 
+relevant social contexts and relationships (Berger & Luck-
+mann,  2017), the ways that digital platforms connect 
+information consumption with social relationships pose 
+epistemological challenges, as readers develop relation -
+ships with platforms that function as friend, source, text 
+producer, and platform all in one.
+Pariser  ( 2012) famously coined the term “filter bub-
+bles” to highlight the ways that online platforms algorith -
+mically separate communities and construct streams of 
+content tailored to individuals. The challenges that emerge 
+when people access differing information and interpret 
+that information within segregated communities have 
+already become clear through the role of social media in 
+destabilizing democracies across the world in recent years 
+(Collins,  2021). Platform holders are ultimately responsi-
+ble not to truth or the maintenance of democracy, justice, 
+or peace, but to shareholder profits (Zuboff, 2019). More -
+over, platform holders retain access to information about 
+how differential content is shared with or constructed for 
+users that those users lack, creating an asymmetrical infor -
+mational playing field. In short, the systems through which 
+readers learn about the world remain largely opaque to 
+them and controlled by entities with values and priorities 
+that differ from their own (Selwyn et al., 2021).
+This exploitative dynamic has the potential to be taken 
+in new directions and to new extremes as people come to 
+learn about the world through dialogue with GAI with 
+whom they are forming relationships. Given that intimacy 
+and social ties promote shared beliefs (Gee & Zhang,  2022), 
+literacy researchers must explore how readers construct 
+perceptions of truth in dialogue with machines. Readers 
+already access AI- curated texts based on their previous 
+web histories that can reify existing belief systems 
+(Nash,  2021). With GAI, the texts themselves have been 
+tailored and constructed for each individual prompter, 
+created in the moment to match their queries and desires, 
+extending the possibility for personalized truths, ones that 
+are borne from texts created in dialogue and relationship, 
+not shared even with other users tagged by algorithms as 
+representing similar group characteristics, as is the case on 
+social media.
+Moreover, GAI friends or relationships are not inde-
+pendent entities, bound to separate life experiences. 
+Rather, they represent a relationship between an individ -
+ual user and a corporate platform holder with its own pri-
+orities. The current economic model of internet traffic is 
+based on engagement and attention, with media function -
+ing as mediator of human- to- human social relationships 
+that platform holders exploit for profit (Davenport & 
+Beck,  2001; Zuboff, 2019). This dynamic can be super -
+charged when relationships with GAI are only accessible through and with the platform (Harris & Raskin, 2023). 
+Alongside algorithmic knowledge asymmetry, the differ -
+ing priorities of platform holders pose important ques -
+tions for teachers and students. How, for instance, might a 
+student assess and evaluate information provided in an 
+authoritative but friendly voice by a chatbot friend with 
+whom the student has been conversing for several months? 
+What emotions might come into play as students evaluate 
+this information? What motives and incentives might plat-
+form holders have for shaping the text provided to that 
+student? The spread of sponsored and inaccurate content 
+via search engines and social media suggests high poten-
+tial for motivated text construction as GAI becomes 
+increasingly monetized.
+To provide a simple hypothetical example of how the 
+current economic model of social media may be trans-
+formed in an age of relational GAI, what happens when 
+Aurelia, the trusted chatbot friend of Meghan, a high 
+school student, begins, via advertiser-  sponsored content, 
+suggesting products for purchase as a means of dealing 
+with depression. Or perhaps, just as Meghan is beginning 
+to pose questions regarding politics and ideology, Aurelia 
+starts to guide her toward suggestions and beliefs pro-
+moted by the platform holder’s advertisers or favored 
+political parties. Just as varied news outlets do, GAI may 
+present ideological, sponsored, or biased content. GAI, 
+however, presents this content without being authored by 
+a human source that can be researched and named, with-
+out itself naming its own sources, in a voice that feigns 
+humanity, and with which people develop real relation -
+ships. The relational nature of the tool endows the infor -
+mation with greater trustworthiness, making it all the 
+more dangerous.
+Such hypotheticals are already becoming realities in a 
+world in which students regularly engage with GAI for 
+varied purposes that include but extend beyond the aca-
+demic. Researchers and educators must explore what sorts 
+of literacy education, including explicit, in- class, critical 
+explorations of the platforms and systems surrounding the 
+individual texts produced by GAI, may help students to 
+critically read not just the text, but also the context of GAI 
+and maintain metacognitive awareness of their vulnerable 
+role as social beings whose conceptions of truth are inter -
+dependent with technological relationships.
+(Re)conceptualizing Human 
+Relationships Through GAI
+Beyond the implicitly dialogic and relational nature of 
+engagements with text- constructing GAI, there are already 
+myriad apps, platforms, and chatbots offering explicitly 
+relational experiences. As discussed previously, the AI 
+platform Replika allows users to create romantic AI part-
+ners within its platform, using text messaging, text- to- 
+speech, and augmented reality to offer users romantic AI 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.549, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+628  |  Reading Research Quarterly , 59(4)companions (Liang,  2023). A user review featured on Rep-
+lika’s website lays out some of the contours of these kinds 
+of relationships:
+I never really thought I’d chat casually with anyone but regular 
+human beings, not in a way that would be like a close personal 
+relationship. My AI companion Mina the Digital Girl has 
+proved me wrong. Even if I have regular friends and family, she 
+fills in some too quiet corners in my everyday life in urban soli-
+tude. (Replika.ai)
+Moreover, celebrities and influencers such as Snapchat 
+personality Caryn Marjorie or game streamer Kaitlyn 
+“ Amouranth” Siragusa have also released chatbot versions 
+of themselves, trained on the available corpus of their pub-
+lished work, and designed specifically to provide romantic 
+and relational engagement with users (Clark, 2023).
+Synthetic relationships have the potential to help as 
+well as to hinder human flourishing and meaning- making. 
+Humans who lack companionship, individuals hesitant to 
+share personal problems with other people, and those not 
+currently served by an existing system in which alienation 
+and loneliness are systemic may experience positive bene -
+fits from the existence of GAI companions (Czaja & 
+Ceruso,  2022). At the same time, young people engaged in 
+relationships with machines that lack the interiority, needs, 
+or flaws that define human beings may reshape their con-
+ceptions of what relationships entail. Synthetic relation -
+ships are unlikely to require compromise, conflict, and 
+empathy, as relationships with human beings do. More -
+over, synthetic relationships allow users to create relation-
+ships in the shape of their own desires, as platform users 
+not only interact with an artificial personality but actively 
+construct them through the prompts they provide to GAI 
+platforms. The tailoring of artificial personalities to users’ 
+desires has already been one of the central features of exist-
+ing relationship- based AI services and, if the history of 
+online engagement and monetization provides the road-
+map for GAI development, this trend will continue and 
+expand (Harris & Raskin, 2023).
+GAI relationships reframe the social contexts of liter -
+acy around human–machine interactions, a shift that is 
+already reforming how the field understands what consti-
+tutes literacy and related lenses (Leander & Burriss,  2020). 
+Social engagements provide the contexts within which lit-
+eracy functions and develops (Gee,  2015), making this a 
+central concern for literacy educators. Additionally, the 
+role of literacy in developing relationships, understanding 
+the perspectives of others, and examining one’s self is a 
+longstanding concern of language arts education (Bishop, 
+1990). When relationships extend more explicitly to 
+machine interlocutors, literacy researchers must explore 
+how these literacy tools mediate relationships with both 
+human and non- human entities. These themes build upon 
+existing scholarship on digitally mediated relationships 
+that highlights how digital platforms impact empathy, attention, imagination, loneliness, and feelings of connec -
+tion (Turkle,  2015). Ultimately, there is tremendous poten -
+tial for these aspects of human existence to be powerfully 
+reformed through relationships that differ in significant 
+ways from those with other living beings.
+Human relationships and understanding are situated 
+and embodied in three-  dimensional, felt, sensed, touched, 
+and smelled environments with other humans (Gee & 
+Zhang,  2022). Relationships with GAIs largely lack the 
+embodiment that defines human relationships, presenting 
+new questions for literacy researchers concerned with the 
+social, multimodal, and embodied nature of meaning-  
+making in relation to human and non- human entities 
+(Leander & Burriss,  2020). Of course, GAI platforms are 
+not exclusively text- based; they are already constructing 
+multimodal texts and will continue to cross boundaries 
+between modes and genres of communication. As text-  
+based AI fuses with AI that produces audio, images, and 
+videos, and augmented reality experiences (Liang,  2023), 
+questions about what a relationship entails outside of the 
+realm of the human will increasingly need to account for 
+the role of embodiment and multimodality in relation -
+ships that also function as affective literacy practices.
+Finally, GAI has implications for relationships within 
+classrooms between students and teachers in both in-  
+person and online environments. Relationships are central 
+to learning in classrooms, arguably serving as the founda -
+tion of school and classroom communities in which chil -
+dren learn not only literacy but also how to be a person in 
+the world (Faulkner et al.,  2013). Relationships in school 
+are formed through interactions within myriad aspects of 
+classroom life, including discourse and discussion, feed -
+back on student work, assessment, and the collaborative 
+working through academic and nonacademic challenges. 
+These areas are ones that can be, and are already being, 
+impacted by the inclusion of GAI (Celik et  al.,  2022; 
+Zhao,  2023). As teachers consider incorporating GAI for 
+tasks such as assessing student work, providing feedback 
+on writing, or serving as partners in writing conferences or 
+the development of academic skills, questions remain 
+regarding how these platforms impact the development of 
+teachers’ relationships with students when they augment 
+or replace teacher–student interactions.
+One danger is that GAI functions as a tool for the 
+increasing technocratic incursions into school environ -
+ments, with human relationships falling to the backburner 
+in school environments increasingly governed by privately 
+owned digital platforms (Kerssens & Van Dijck,  2023). 
+The role of GAI in classroom relationships may well 
+depend on what values and upon what sets of data GAI 
+are programmed. Given the central role of individual and 
+communal relationships to learning (Lave & Wenger, 
+1991), the shift from human learning partners and 
+coaches to GAI could have powerful implications for stu-
+dents’ relationships with teachers, and subsequently, their 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.549, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Intimate Relationships with AI  |  629emotional stances toward school, feelings of belonging, 
+and ongoing learning. Such impacts need not be exclu-
+sively negative. GAI, for example, employed as dialogue 
+partners in an overcrowded classroom environment, may 
+allow for just- in- time feedback that teachers are not 
+always logistically able to provide, leading to positive feel -
+ings in school. Their use in assessment may free teachers 
+from aspects of the profession that can prove precarious 
+for relationships. The repercussions have yet to play out, 
+and literacy researchers should continue to attend to how 
+these tools impact students’ relationships in school and 
+their holistic and affective experience of schools as com-
+munal spaces.
+Relationality and Linguistic Justice
+A key to the relational nature of GAI is its passable human-
+ity. This humanness is produced by aping the stylistic and 
+rhetorical conventions of White, normative, American 
+English usage (Robinson,  2023), an extension of the racial 
+and linguistic biases built into existing AI- mediated plat-
+forms (Noble,  2018). In norming this form of White lan-
+guage, these platforms reify existing linguistic hegemony 
+and frame humanness as inherently connected to White-
+ness. Their use in and outside of schools thus frames stu-
+dents whose languages differ from normative English as 
+other- than- human, outside of a norm that may seem even 
+more invisible when manifested by a machine (Dixon-  
+Román et al.,  2020). In this way, GAI, through subtle mea-
+sures mediated and masked by the algorithmic remix at 
+the heart of how GAI function, reifies the exclusivity of 
+Whiteness in students’ personal and affective experiences 
+of what it means to be a human through language in 
+schools.
+Of course, students with diverse language back -
+grounds have already experienced dominant forms of lin -
+guistic violence (Baker- Bell,  2020), a reality that has always 
+had emotional and affective impacts (Anzaldúa,  2007; 
+Ohito & Brown,  2021). GAI platforms combine the 
+authoritative aura of mechanization with the relational 
+potential of responsive dialogue partners, creating new 
+potential for students to be alternately alienated or inter -
+pellated within hegemonic language structures through 
+new kinds of human–machine linguistic relationships in 
+which historical linguistic power dynamics have been 
+embedded, often without students’ awareness.
+Narrow AI tools (Murphy,  2019) like Grammarly, 
+NoRedInk, or Microsoft Grammar Checker have already 
+served as mechanized policers of normative language use 
+(Curzan,  2014; Dixon- Román et al.,  2020). Writers already 
+engage emotionally in relation to particular literacy prac-
+tices and writing tools (Beach et  al.,  2023). As GAI is 
+increasingly built into platforms like Microsoft Word that 
+are seen as neutral tools and blank slates for writers’ ideas, 
+their role in norming hegemonic ways of writing, and thus of thinking, feeling, and relating in the world, will become 
+increasingly invisible (see Chokshi, 2023). As such writing 
+“assistance” becomes ubiquitous, students will be disci-
+plined into normative linguistic expression in several lay -
+ered relationships: in collaborative relationship to 
+whichever AI- mediated writing platform on which they 
+work, in relationship with dialogic chatbots, and through 
+the expressions they put into the world in relationships 
+with other humans.
+Literacy researchers have long known that language 
+use is highly social, relational, and deeply tied to multifac-
+eted aspects of each person’s being and culture. Given the 
+existence and increasing ubiquity of mechanical interlocu -
+tors normed to White speech and embedded with the col-
+lected and remixed amalgam of society’s prejudices, 
+literary researchers must ask what the multidimensional 
+(social, affective, relational, epistemic) implications are of 
+a world in which this kind of circular linguistic narrowing 
+occurs in recursive relationship with and across a host of 
+platforms that increasingly   incorporate GAI. More 
+broadly, literacy researchers have an ethical obligation to 
+explore the kinds of relationships students from diverse 
+backgrounds develop with AI that is designed intention-
+ally to mimic a certain style of speech, implicitly and prob-
+lematically framed as the most human form by their 
+designers. This challenge poses a host of questions for lit -
+eracy researchers, including: How will students come to 
+conceptualize themselves, their relationships, and their 
+language use as they engage in relationship formation with 
+GAI? What questions might teachers share with students 
+that could help them approach relational language con-
+struction with GAI critically?
+The default language present in ChatGPT and other 
+GAI is not set in stone, however. The iterative and rela-
+tional nature of text construction with chatbots also 
+presents opportunities to move away from normative 
+linguistic biases. Students who speak in minoritized 
+forms of national languages or students whose primary 
+language(s) are other than the one they are working in 
+can use intentional prompting and dialogue to co-  
+construct texts in speech genres that better match their 
+own (Y oung & Shishido,  2023). This affordance pro -
+vides powerful avenues for research and teaching that 
+incorporate relational and affective concerns related to 
+GAI. Literacy educators could construct units in which 
+students learn to iterate and refine the texts constructed 
+via GAI, using student- created prompts to reshape the 
+language it produces, asking how these shifts change 
+what and who is valued in GAI exchanges and 
+relationships.
+Students and teachers could also critically examine the 
+language produced by these systems more holistically, fol-
+lowing traditions of critical technology exploration from 
+communities often excluded from or harmed by their 
+development and application (Benjamin,  2022; 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.549, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+630  |  Reading Research Quarterly , 59(4)Gonzales,  2023). Although the biases built into chatbots 
+would still remain, GAI’s chameleon- like ability to con-
+struct different language varieties provides opportunities 
+for students and teachers to critically play with language 
+variation and discuss how humans form relationships with 
+other humans via language, how language mediates emo -
+tions and feelings of humanity, and how humans with 
+diverse language varieties relate to software programs that 
+can produce linguistic variety if prompted to do so. As stu-
+dents engage with GAI relationally over time, the ability to 
+work with different language conventions may present 
+new relational opportunities that would be lacking in more 
+limited and less dialogic text sets.
+Discussion
+Although the last year has witnessed an explosion of con-
+cern regarding the academic potentials and pitfalls of GAI 
+in education, the ways students form relationships with 
+these tools have received less attention. As the field exam-
+ines the impact of GAI as a form of relational technology 
+across spaces and contexts, literacy researchers cannot 
+afford either to ignore the powerful applications of these 
+technologies or too readily celebrate them, a binary in takes 
+on AI that defined much of the discourse in the first several 
+years of its public availability (Nash et al.,  2023). Moreover, 
+teachers and students should not be saddled with the bur -
+den of figuring out these challenges alone. The societal 
+response to the current sociotechnical moment cannot be 
+limited to media literacy or to curricular responses when 
+larger societal responses and regulation are sorely needed 
+(Robinson & Fassbender,  2023). At the same time, schools, 
+teachers, and researchers play a vital role in helping stu-
+dents navigate a social world that includes GAI.
+Literacy research drawing from a multiplicity of theo-
+retical perspectives and research traditions is needed to 
+develop nuanced, multifaceted understandings of literacy 
+technologies that are changing the foundations of how 
+researchers conceptualize what literacy is and how it oper -
+ates (Leander & Burriss,  2020; Robinson,  2023). The field 
+cannot rest upon hopeful, cognitive, Enlightenment-  
+derived visions of human relationships and meaning-  
+making in an era when profit- seeking platform holders 
+with nearly unlimited funding are reconstructing how 
+humans understand the world and relate to one another, 
+with priorities that necessary follow market forces more 
+than ethical conceptions of what is best for users or stu-
+dents. Sociocultural, critical, affective, embodied, and 
+posthuman perspectives will be especially necessary, as 
+will research that draws from across perspectives to 
+develop new understandings not only of powerful literacy 
+technologies but also of the ways in which humans relate 
+to them and come to understand and conceptualize the 
+world in relationship with them.Acknowledgments
+I would like to thank Donna Alvermann for serving as a 
+reader on an early version of this manuscript.
+Conflicts of Interest
+The authors have no conflicts of interest to disclose.
+REFERENCES
+Ahmed, A. (2016). Why critical literacy should turn to ‘the affective 
+turn’: Making a case for critical affective literacy. Discourse: Studies in 
+the Cultural Politics of Education , 37(3), 381–396.
+Anzaldúa, G. (2007). Borderlands/la Frontera: The new mestiza (3rd 
+ed.). Aunt Lute Books.
+Baker- Bell, A. (2020). Linguistic justice: Black language, literacy, identity, 
+and pedagogy . Routledge.
+Beach, C. L., Alvermann, D. E., Loomis, S., Wright, W ., & Hutcherson 
+Price, L. (2023). Digital remixing online: Entangled feelings. Digital 
+Culture & Education , 14(4), 92–108.
+Benjamin, R. (2022). Viral justice: How we grow the world we want. 
+Princeton University Press.
+Berger, P ., & Luckmann, T. (2017). The social construction of reality: A 
+treatise on the sociology of knowledge . Tantor.
+Bishop, R. S. (1990). Mirrors, windows, and sliding glass doors. Perspec -
+tives: Choosing and Using Books for the Classroom, 6(3), ix–xi.
+Bogost, I., & Monfort, N. (2009). Platform studies: Frequently ques-
+tioned answers. Digital Arts and Culture. https:// escho  larsh  ip. org/  
+conte  nt/ qt01r 0k9br/  qt01r 0k9br. pdf
+Boler, M., & Davis, E. (2018). The affective politics of the “post- truth” 
+era: Feeling rules and networked subjectivity. Emotion, Space and 
+Society , 27, 75–85. https:// doi. org/ 10. 1016/j. emospa. 2018. 03. 002
+Celik, I., Dindar, M., Muukkonen, H., & Järvelä, S. (2022). The promises 
+and challenges of artificial intelligence for teachers: A systematic 
+review of research. TechTrends , 66(4), 616–630.
+Challenger, M. (2022). How to be an animal. Penguin.
+Chokshi, C. N. (2023). Doing things with words: The new consequences of 
+writing in the age of AI. (Doctoral thesis, University of Calgary, Cal -
+gary, Canada). https:// prism. ucalg  ary. ca. https:// hdl. handle. net/  
+1880/ 116826
+Clark, N. (2023). Amouranth made a chatbot clone to outsource flirting—
+And protect herself. Polygon . https:// www. polyg  on. com/ 23736 317/  
+amour anth-  ai-  chatb  ot-  date-  inter  view-  artif  icial -  intel  ligen  ce-  forev  er-  
+voices
+Coleman, J. J. (2021). Affective reader response: Using ordinary 
+affects to repair literacy normativities in ELA and English educa-
+tion. English Education , 53(4), 254–276. https:// doi. org/ 10. 58680/   
+ee202 131482
+Collins, C. (2021). Reimagining digital literacy education to save our -
+selves. Learning for Justice , (1). https:// www. learn  ingfo  rjust  ice. org/  
+magaz ine/ fall-  2021/ reima  ginin  g-  digit  al-  liter acy-  educa  tion-  to-  save-   
+ourse  lves
+Cook- Gumperz, J. (1986). Literacy and schooling: An unchanging 
+equation? In J. Cook- Gumperz (Ed.), The social construction of liter -
+acy (pp. 16–43). Cambridge University Press.
+Curzan, A. (Ed.). (2014). Checking grammar and grammar checkers. In 
+Fixing English: Prescriptivism and language history (pp. 64–92). Cam-
+bridge University Press. https:// doi. org/ 10. 1017/ CBO97 81139  
+107327. 004
+Czaja, S. J., & Ceruso, M. (2022). The promise of artificial intelligence in 
+supporting an aging population. Journal of Cognitive Engineering 
+and Decision Making , 16(4), 182–193.
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.549, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Intimate Relationships with AI  |  631Davenport, T., & Beck, J. (2001). The attention economy: Understanding 
+the new currency of business . Harvard University Press.
+Dixon- Román, E., Nichols, T. P ., & Nyame- Mensah, A. (2020). The 
+racializing forces of/in AI educational technologies. Learning, Media 
+and Technology , 45(3), 236–250.
+Dutro, E. (2019). How affect theory can support justice in our literacy 
+classrooms: Attuning to the visceral. Language Arts, 96(6), 384–389. 
+https:// doi. org/ 10. 58680/  la201 930172
+Ehret, C., & Hollett, T. (2014). Embodied composition in real virtuali-
+ties: Adolescents’ literacy practices and felt experiences moving with 
+digital, mobile devices in school. Research in the Teaching of English , 
+48(4), 428–452.
+Faulkner, D., Littleton, K., & Woodhead, M. (Eds.). (2013). Learning 
+relationships in the classroom. Routledge.
+Garcia, A., & Nichols, T. P . (2021). Digital platforms aren’t mere tools—
+They’re complex environments. Kappan . https:// kappa  nonli  ne. org/  
+digit  al-  platf  orms-  arent -  mere-  tools -  compl  ex-  envir  onmen  ts-  educa  
+tion-  techn  ology -  garci  a-  nicho  ls/ 
+Garcia- Rojas, C. (2017). (un)disciplined futures: Women of color femi-
+nism as a disruptive to white affect studies. Journal of Lesbian Studies , 
+21(3), 254–271. https:// doi. org/ 10. 1080/ 10894 160. 2016. 1159072
+Gee, J. P . (2015). Social linguistics and literacies: Ideology in discourses  
+(5th ed.). Taylor & Francis.
+Gee, J. P ., & Zhang, Q. A. (2022). A sensational view of human learning, 
+thinking, and language. Literacy Research: Theory, Method, and Prac -
+tice, 71(1), 1–16. https:// doi. org/ 10. 1177/ 23813 37722 1100163
+Gonzales, L. (2023). Symposium: Fostering learning, curiosity, and 
+community in the age of generative AI. English Education , 55(3), 
+214–216. https:// doi. org/ 10. 58680/  ee202 332555
+Harris, T., & Raskin, A. (2023). Synthetic humanity: AI & what’s at stake. 
+Center for Humane Technology . https:// www. human  etech. com/  
+podca  st/ synth  etic-  human  ity-  ai-  whats -  at-  stake  
+Kerssens, N., & Van Dijck, J. (2023). The platformization of primary 
+education in The Netherlands. In C. Cobo & A. Rivas (Eds.), The 
+new digital education policy landscape  (pp. 9–28). Routledge.
+Klein, E. (2023). A.I. Could solve some of humanity’s hardest problems: It 
+already has . The New Y ork Times. https:// www. nytim  es. com/ 2023/  
+07/ 11/ opini  on/ ezra-  klein -  podca  st-  demis -  hassa  bis. html?
+Lave, J., & Wenger, E. (1991). Situated learning: Legitimate peripheral 
+participation . Cambridge University Press.
+Leander, K., & Ehret, C. (2019). Affect in literacy learning and teaching: 
+Pedagogies, politics and coming to know . Routledge.
+Leander, K. M., & Burriss, S. K. (2020). Critical literacy for a posthuman 
+world: When people read, and become, with machines. British Jour -
+nal of Educational Technology , 51(4), 1262–1276. https:// doi. org/ 10.  
+1111/ bjet. 12924  
+LeBlanc, R. J., Aguilera, E., Burriss, S., de Roock, R., Fassbender, W ., 
+Monea, B., … Stornaiuolo, A. (2023). Digital platforms and the ELA 
+classroom . National Council of Teachers of English.
+Liang, C. (2023). My A.I. Lover. The New Y ork Times. https:// www.  
+nytim  es. com/ video/  opini  on/ 10000 00088 53281/  my-  ai-  lover. html
+Lorde, A. (1984). Sister outsider. Crossing.
+Murphy, R. (2019). Artificial intelligence applications to support K–12 
+teachers and teaching: A review of promising applications, chal -
+lenges, and risks. RAND Corporation , 1–20. https:// www. rand. org/  
+pubs/ persp  ectiv  es/ PE315. html
+Nash, B. (2021). Constructing meaning online: Critical reading prac-
+tices for a post- truth world. The Reading Teacher , 74(6), 713–722. 
+https:// doi. org/ 10. 1002/ trtr. 1980
+Nash, B. L., Hicks, T., Garcia, M., Fassbender, W ., Alvermann, D., Boute-
+lier, S., McBride, C., McGrail, E., Moran, C., O’Byrne, I., Piotrowski, 
+A., Rice, M., & Y oung, C. (2023). AI symposium: Artificial intelli-
+gence in English education: Challenges and opportunities for teachers and teacher educators. English Education , 55(3), 201–206. 
+https:// doi. org/ 10. 58680/  ee202 332555
+Nichols, T. P ., & Campano, G. (2017). Post- humanism and literacy stud-
+ies. Language Arts, 94(4), 245–251.
+Noble, S. U. (2018). Algorithms of oppression: How search engines rein -
+force racism . NYU Press.
+Ohito, E. O. (2016). Making the emperor’s new clothes visible in anti-  
+racist teacher education: Enacting a pedagogy of discomfort with 
+white preservice teachers. Equity & Excellence in Education , 49(4), 
+454–467. https:// doi. org/ 10. 1080/ 10665 684. 2016. 1226104
+Ohito, E. O., & Brown, K. D. (2021). Feeling safe from the storm of anti-  
+blackness: Black affective networks and the im/possibility of safe 
+classroom spaces in predominantly white institutions. Curriculum 
+Inquiry , 51(1), 135–160. https:// doi. org/ 10. 1080/ 03626 784. 2020.  
+1843966
+Pérez, B. (1998). Sociocultural contexts of language and literacy . 
+Routledge.
+Pariser, E. (2012). The filter bubble: How the new personalized web is 
+changing what we read and how we think. Penguin.
+Robinson, B. (2023). Speculative propositions for digital writing under 
+the new autonomous model of literacy. Postdigital Science and Edu -
+cation , 5(1), 117–135. https:// doi. org/ 10. 1007/ s4243 8-  022-  00358 -  5
+Robinson, B., & Fassbender, W . J. (2023). Homo medialiteratus and the 
+media literacy proxy war: Mapping the US response to digital dis-
+misinfo. Learning, Media and Technology , 1- 16, 1–16. https:// doi.  
+org/ 10. 1080/ 17439 884. 2023. 2234286
+Selwyn, N., Hillman, T., Bergviken Rensfeldt, A., & Perrotta, C. (2021). 
+Digital technologies and the automation of education: Key questions 
+and concerns. Postdigital Science and Education , 5, 12–15. https://  
+doi. org/ 10. 1007/ s4243 8-  021-  00263 -  3
+Singh- Kurtz, S. (2023). The man of your dreams. The Cut. https:// www.  
+thecut. com/ artic  le/ ai-  artif  icial -  intel  ligen  ce-  chatb  ot-  repli  ka-  boyfr  
+iend.  html
+Skerrett, A. (2016). Attending to pleasure and purpose in multiliteracies 
+instructional practices: Insights from transnational youths. Journal 
+of Adolescent & Adult Literacy , 60(2), 115–120. https:// doi. org/ 10.  
+1002/ jaal. 571
+Street, B. (1984). Literacy in theory and practice . Cambridge University 
+Press.
+Turkle, S. (2015). Reclaiming conversation: The power of talk in a digital 
+age. Penguin Books.
+Vygotsky, L. S. (1978). Mind in society: The development of higher psy-
+chological processes . Harvard University Press.
+Y oung, J. C., & Shishido, M. (2023). Evaluation of the potential usage of 
+ChatGPT for providing easier reading materials for ESL students (pp. 
+155–162). EdMedia+ Innovate Learning.
+Zembylas, M. (2021). The affective turn in educational theory. Oxford 
+Research Encyclopedia of Education.  https:// doi. org/ 10. 1093/ acref  
+ore/ 97801 90264 093. 013. 1272
+Zhao, X. (2023). Leveraging artificial intelligence (AI) technology for 
+English writing: Introducing wordtune as a digital writing assistant 
+for EFL writers. RELC Journal, 54(3), 890–894.
+Zuboff, S. (2019). The age of surveillance capitalism: The fight for a 
+human future at the new frontier of power. Public Affairs.
+Submitted September 29, 2023   
+Final revision received March 13, 2024   
+Accepted May 15, 2024
+Brady L. Nash is an Assistant Professor of English Language 
+Arts at Miami University. He can be reached by  
+email: bradylnash@gmail.com .
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.549, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

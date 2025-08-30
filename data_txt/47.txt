@@ -1,0 +1,607 @@
+"Hello, Mr Tree": Toying with Playful Conversational AI in the
+Early Years
+Kellie Vella
+School of Computer Science
+Queensland University of Technology
+(QUT)
+Brisbane, Australia
+kellie.vella@qut.edu.auMadeleine Dobson
+School of Education
+Curtin University
+Bentley, Australia
+madeleine.dobson@curtin.edu.auMargot Brereton
+School of Computer Science
+Queensland University of Technology
+(QUT)
+Brisbane, Australia
+m.brereton@qut.edu.au
+Abstract
+The use of generative AI is increasingly integrated into childhood
+education, primarily with text-to-image generation and older age
+ranges. This late-breaking work looks at the use of a prototype
+technology using voiced conversational AI (CAI) to engage young
+children’s interest in nature, through the role-play of a character:
+the ‘Talking Tree’. Using research-through-design, we conducted
+six interactive sessions with children aged 3 to 5 years. These drove
+the iterative development of the device and provided insight into
+how CAI might be applied within the context of early learning. We
+found that the device operated within children’s performative social
+interactions and within their imagination to prompt recollections
+of nature and fantastic diversions. We contribute insight into the
+use of conversational AI for learning in the busy environments of
+early childhood education centres and the use of CAI-performed
+fictional characters to build children’s connection with nature.
+CCS Concepts
+•Human-centered computing →Empirical studies in inter-
+action design ;Sound-based input / output .
+Keywords
+Child-computer interaction, design, Early childhood education,
+Conversational agent, Voice recognition, Digital play, Play-based
+learning, LLM, AI
+ACM Reference Format:
+Kellie Vella, Madeleine Dobson, and Margot Brereton. 2025. "Hello, Mr
+Tree": Toying with Playful Conversational AI in the Early Years. In Extended
+Abstracts of the CHI Conference on Human Factors in Computing Systems
+(CHI EA ’25), April 26–May 01, 2025, Yokohama, Japan. ACM, New York, NY,
+USA, 6 pages. https://doi.org/10.1145/3706599.3719878
+1 Introduction
+In the early years, children’s social worlds and skills balloon through
+the careful introduction of new experiences that engage them in
+the world around them. This critical period shapes identity forma-
+tion, relationship skill development, and confidence in learning,
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+CHI EA ’25, Yokohama, Japan
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1395-8/25/04
+https://doi.org/10.1145/3706599.3719878with these co-constructed by families, educators, and children [ 9].
+This study explores how children of this age can be inspired by
+conversational AI (CAI) to question and wonder about the natural
+world, in a way that creates potential for social and playful learn-
+ing opportunities. Here, CAI refers to systems with and without
+access to external data sources, recognising the new conversational
+affordances that generative AI brings [12].
+Research on CAIs role in fostering young children’s nature con-
+nection is sparse, though children have been found to be most
+interested in asking CAIs questions about animals, plants, and
+nature [ 8]. More broadly, digital technologies have been used to
+build children’s nature connection by harnessing their creativity
+and imagination [ 6,13]. For instance, an augmented reality ‘elf’
+prompted children’s photography and storytelling in woodlands
+to build nature connection through emotional, empathetic experi-
+ences [ 7]. Imaginary characters like elves and nature spirits can
+support social-emotional learning by linking play and fantasy with
+caring for the natural world, entangling the imaginary and the
+real [ 1]. Similarly, perceived intentionality in anthropomorphised
+beings can evoke a sense of non-human agency [ 5], which could be
+produced by CAIs role-playing animals, plants, or mythical beings.
+Voiced CAIs may also be more suitable for younger children who
+have only emergent literacy skills.
+Studies of children and CAI offer insights for designing playful
+learning experiences. For example, a study with three- to six-year-
+olds using a Google Home Mini device found that despite its lack
+of embodiment some children believed the agent could reciprocate
+socially and emotionally, perhaps due to speech-related behaviours
+such as initiating conversations, repeating the child’s inputs, and
+moving the conversation forward when it didn’t understand [ 18].
+These behaviours could drive parasocial relationships with CAIs
+regardless of tangibility or physical expression. However, another
+study focussing on the design of child-friendly characters, with
+four-to six year old children, found a preference for imaginative,
+absurd physical features, and recommended the inclusion of chil-
+dren’s nonverbal data (e.g. patting a doll’s head) to inform agents’
+responses [ 20]. Consequently, an embodied agent was considered a
+necessity for children’s social-emotional learning. However, as the
+study did not use voiced AI there are open questions about how
+these might operate conversationally within children’s free play.
+Further study of children’s conversation with CAIs in naturalis-
+tic settings may better reveal how the social world shapes these
+exchanges.
+CAI also comes with a host of practical and ethical challenges.
+For example, CAI used in the social space of homes has failed to
+
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kellie Vella, Madeleine Dobson, and Margot Brereton
+respond appropriately to the context, tailor answers to individu-
+als, or explain at an age-appropriate level [ 8]. Despite children’s
+interest in using CAI, there is also evidence that models are not
+well tailored for children’s intonation and that the behaviours for
+successful interactions need to be learned by the child, e.g., pausing
+to wait for a response [ 15]. This can prompt adult intervention or
+encourage children to adapt their communication strategies [ 2].
+Prompt engineering can also produce ‘fickle’ responses [ 19]and
+directives may conflict, for example, within a study finding the
+Claude 3 Haiku model’s built-in resistance to role-playing, likely
+designed to prevent the misuse of role-play to bypass safety mea-
+sures [ 14]. These safety measures are important to reduce the risk
+of children’s exposure to harm, but without contextual knowledge
+or with incorrect inputs, may be triggered unnecessarily. Greater
+transparency regarding the mechanisms that trigger actions, in-
+cluding in forms that are understandable to children, would greatly
+assist the design of age-appropriate AI for play-based learning [ 16].
+Within early childhood educational contexts, learning is co-
+constructed between children and educators, often through play-
+based pedagogies in which children lead their learning and engage
+in imaginative and collaborative ways [ 10], in a continuum of child-
+directed to educator-guided play [ 11]. Guided play requires a clear
+learning outcome in the mind of an adult providing guidance, which
+is sensitive to children’s interests and engagement [ 17]. Whether
+CAI can provide this sensitive playful guidance has yet to be ex-
+plored.
+This study provides insights to guide the design of playful conver-
+sational technology within the context of early childhood learning,
+focusing on instilling nature connection and learning with a whim-
+sical voiced character. However, it remains uncertain how well a
+CAI can achieve this. Using research-through-design [ 21] we intro-
+duced a prototype CAI to children aged three- to five-years of age
+at an early learning centre. Initial findings show the importance of
+children’s knowledge performance in their social world, the value
+of adult facilitation for re-asserting meaning, the impact of fan-
+tasy and humour on engagement, and challenges with algorithmic
+playfulness. We contribute understanding of how CAIs might be
+used in play-based learning, not so much as ‘informed others’ but
+as conversational partners that assert an ecological imaginary. We
+discuss this and the practical and ethical impacts of introducing
+these tools into early childhood education.
+2 METHOD
+This study is part of a larger program of research exploring how
+technology can engage children in the natural world, which is cur-
+rently at the stage of producing design activities with the children
+and proposing prototypes for children’s input. The following re-
+ports on a research-through-design study of the development and
+use of a ‘Talking Tree’ prototype at an early learning centre in an
+outer suburb of Brisbane, Australia. This study involved six ob-
+servational, logged (on the device), and audio-recorded sessions
+of children from 24 October, 2024 to 15 January, 2025 within one
+centre. Ethical approval was obtained from a university board, with
+informed consent from parents and educators and ongoing assent
+from children.2.1 Site and Participants
+The child participants were all located within the one early learn-
+ing centre, which delivers play-based learning influenced by the
+Montessori Method and the Reggio approach, with a focus on STEM,
+catering to children aged 15 months to five years of age. Children
+within the centre are broadly representative of the wider suburb.
+Over 67% of people within this suburb have both parents born over-
+seas, and over 58% use a language other than English at home, such
+as Mandarin, Punjabi, Cantonese, and Korean [10].
+Fifteen child participants, 8 girls and 7 boys aged 3 to 5 years,
+chose to engage with the Talking Tree over 6 sessions, with 3 to 9
+children per session. These children were a subset of a larger cohort
+of 34 children participating in the broader program of research, and
+the participant IDs reflect this larger group. More than half of
+the children participated over multiple sessions: 5 sessions (C7),
+4 sessions (C21), 3 sessions (C20, C25, C26), 2 sessions (C12, C14,
+C29, C30), 1 session (C6, C10, C13, C19, C24, C27). These sessions
+also included children who were not research participants and their
+data is not included in the analysis.
+2.2 Technology Design and Procedure
+The ‘Talking Tree’ is a CAI given the fictitious character of a friendly
+tree (with a female, Australian-accented voice) that aims to engage
+children in noticing or thinking about nature. It uses cloud-based
+services and custom software to record children’s voices, transcribe
+them (AWS Transcribe), process the transcription with a large-
+language model (Claude 3 Haiku), and convert the response into
+speech (AWS Polly). AWS was chosen for its Australian service end-
+points compliant with Australian data privacy regulations. Also,
+AWS with GPU acceleration significantly reduced token generation
+times compared to running on a Raspberry Pi, allowing for faster
+responses to children’s vocalisations.
+The Talking Tree was originally envisioned to be used on a living
+tree, but we decided to test the conversational prototype inside first,
+where children were simply told that it thought it was a tree. The
+design evolved to address challenges like ambient noise and to
+explore different interactions. In order of their delivery over the six
+sessions, these comprise:
+(1)iPad. Real-time web interface for monitoring model logs;
+insufficient volume for noisy environments.
+(2)iPad + headset with mic. Reduced noise interference but
+limited interaction to one child at a time, with the iPad dis-
+tracting some children (i.e. they started looking for other
+applications).
+(3)Raspberry Pi in a casing + attached headset with mic. A
+screenless interface with a cartoon face to give the children
+a focal point and reduced distractions.
+(4)iPad + headset with mic + sock puppet. The researcher used
+the puppet to animate the Tree’s responses.
+(5)Raspberry Pi + mic + speaker. Enabled group interactions,
+used in sessions five and six.
+The two most frequently used forms and puppet can be seen in
+Figure 1.
+The model prompts (supplied as supplementary material) were
+refined over time to better suit the context. Adjustments included
+narrowing the children’s age range, emphasising concise responses
+Toying with Playful Conversational AI CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+Figure 1: From left to right: C25 with iPad and wearing headset, sock puppet, and C7 with raspberry pi version.
+with simple language, and shifting the focus from prompting na-
+ture activities – often impractical indoors - to noticing nature (e.g.
+through windows). The tree’s character evolved to be more engag-
+ing, and topics of interest such as dinosaurs were incorporated into
+the model prompt. The first author was stationed on a couch in the
+storytelling area of the kindergarten room during free-play time.
+Children approached her, at which point she introduced them to
+the device, demonstrated its use, and guided them in starting a
+conversation by saying ‘hello’. The device was alternately held by
+the child, the researcher, or shared between children (e.g. one child
+holding the device and pushing the button, while another child talks
+and listens with the headset), with turn-taking actively managed
+when multiple children wanted to use it. Audio-recorded sessions
+ranged from 31-53 minutes. Immediately after, the researcher took
+notes and downloaded logs of the Talking Tree’s text inputs and
+outputs.
+2.3 Analysis
+Audio-recorded sessions were transcribed, and the Talking Tree
+logs were added into these at the appropriate timepoints. These
+transcripts were thematically coded in NVivo by the first author,
+shared and discussed with the second author, after which the codes
+were refined further. These were resolved into 22 codes sitting
+under three umbrella themes.
+A combination of inductive and deductive approaches were used
+as the authors reflected upon the data, the literature, and ontological
+frameworks. The analysis was framed by an understanding of more-
+than-human entanglement, particularly between human adults,
+children, other species, and technologies [ 3,4,7]. Consequently,
+theming illuminated associations between the imaginative and the
+real, what children were interested in as well as what they did, and
+how meaning collaboratively formed or unravelled. The authors
+have expertise in human-computer interaction and early childhood
+education. The codebook is provided as supplementary material.3 FINDINGS
+The following themes illustrate how children, the researcher, and
+the model performed and co-constructed sense and nonsense. Per-
+forming Knowledge examines the demonstration and co-construction
+of knowledge in technology interactions. Lost in Translation high-
+lights communication breakdowns and repair. Lastly, An Imaginary
+of Living Things , explores how animism, associations, and charac-
+terisation link fantasy to reality.
+Quotes are identified by either ‘C’ (child participant), ‘R’ (re-
+searcher) or ‘TT’ (Talking Tree). Quotes are verbatim.
+3.1 Performing Knowledge in Social Play
+Children within the centre demonstrated learning and problem-
+solving abilities that drew upon their experiences in the centre,
+and with other technology interactions at home. Several children
+showed that they were already familiar with iPad applications by
+seeking them on the device they were handed. Virtual and physical
+button pushing was easily understood, but the lag between cause
+(speaking) and effect (getting a response) wasn’t well tolerated, lead-
+ing to button mashing and mis-recording (see section 3.2). Opening
+the device to show the children its parts was also appreciated by
+children and educators, with C21 recalling that the Raspberry Pi
+module was a “computer” at a later session.
+The audio transcripts the device used to formulate a response
+were often confused because of the loudness of the environment,
+with many overlapping child and adult voices. Some children demon-
+strated their awareness of this by asking other children to be quiet.
+In one case, a very quiet child was encouraged by another child
+to speak and when they didn’t, asked: “Do you want me to say
+it for you?” (C21). They also self-organised turn-taking at times,
+though this was typically facilitated by the researcher. Very often
+they would ask the researcher to voice what they wanted to say
+to ensure that the device would understand. The researcher also
+facilitated conversations with the device. Children expanded on the
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kellie Vella, Madeleine Dobson, and Margot Brereton
+initial prompting from “hello” , to“hello, Mr Tree” , and then “Hello
+Talking Tree. What are you doing?” (P7). Greetings and responses
+were also used to entertain the other children, such as “Hello, Mr.
+Chicken nuggets man” (C30) and “Haha, I’m afraid you’ve got the
+wrong tree here! I’m Terri, the friendly and lighthearted tree. I don’t
+believe I’m the "chicken nuggets man" you’re referring to” (TT). Toilet
+humour also had its moment.
+Some children’s utterances were also often unstructured, such as
+short statements (e.g. “Paw Patrol” ), and spoken sounds (e.g. “googa
+dooda” ). Additionally, repetition of questions, greetings, and short
+words or phrases was a key element of the children’s interaction
+with the device. This may be because repetition was the easiest
+option, or most likely to get laughs. However, children also appeared
+attuned to whether the device repeated back key words that they
+stated - in a sense, testing whether the device was listening to them:
+“Chicken! Say chicken” (C21 and other children) and then “Did it say
+chicken? One more time. Did it say chicken?” (multiple children).
+Finally, while some children asked questions to be humorous, e.g.
+“Do dinosaurs eat pizza and Pidgey?” (C29), other children appeared
+curious about the device itself e.g. “Who are you are?” (C7), wanting
+to look inside the Raspberry Pi’s casing, and to ask it about other
+topics of interest, e.g. “Do you know what dinosaur got very long
+neck” (C7).
+3.2 Lost in Translation
+Very often the model would produce a response that was not rel-
+evant to the inquiry, due to a variety of factors: button mashing
+leading to misrecording, overlapping voices and sounds, and per-
+haps how words were articulated. The latter was discovered when
+the researcher repeated terms used by a child, only to have them
+understood by the model. This led several children to ask the re-
+searcher to voice their statement or question for them, and for
+the researcher to ask some children to try speaking more slowly
+or not touch the button. Despite this, and even relative quiet, the
+model could persist in not understanding a child, leading one to say
+with frustration: “It doesn’t work with us!” (C7). Poor articulation
+went both ways, however, as the model was also an unconvincing
+singer. Upon TT stating: “The birds are chirping up above, their sweet
+melodies I love” , C21 declared “That was not a song!” .
+Meaning could be rediscovered when the researcher could read
+the transcript in real time (i.e. iPad version). In this instance, the
+researcher would say that the “Tree made a mistake” and that it
+was being “silly” , leading C21 to repeat “silly tree” and“naughty"
+whenever the device didn’t respond as hoped. However, a sensible
+response was less important than providing evidence it heard them:
+“ .. my, my word, I said octopus, and he said octopus to me” (C30).
+The noisy environment could dramatically shift words and mean-
+ing between child, model and researcher, e.g. the word “astronaut”
+(C30), was transcribed and interpreted as “optimise” (TT), heard
+and reiterated as “octopus” (R), until C30 asserted it was about “as-
+tronauts, like safe- save people under the water” (C30). While the
+model could assert boundaries when it misunderstood the child
+as suggesting something illegal or immoral, these warnings were
+unwarranted. Its lack of contextual knowledge, or knowledge of the
+children, as well as its character also led to responses that weren’t
+appropriate for the space (e.g. encouraging the child to explore apark when they were inside a centre), or to the dismissal of phrases
+such as “zero, zero, zero” , which the children had just been taught
+was the way to call emergency services.
+3.3 An Imaginary of Living Things
+The device was introduced as a tree that could talk; “it thinks like a
+tree” (R). Conversely, when opening the boxed version, the compo-
+nents were described referencing the human body: “the computer,
+it’s like the brain in our head” (R). Similarly, to prompt some chil-
+dren to talk to the device using words instead of sounds the AI was
+described by the researcher as “a little person in a box” . The children
+responded by imbuing it with animism, for example looking for it
+under the couch when it was turned off or explaining its failure to
+work sometimes as being because it was “hungry” ,“scared” ,“tired” ,
+had“died” , or because it went to “Garden City” (a shopping complex
+nearby that the children often visited).
+The researcher thought to encourage this in one session by bring-
+ing in a sock puppet, which was used to mouth the words of the
+Talking Tree while the child had a headset on. In one session, C6
+stated a desire to talk about unicorns and fixed her eyes on the
+puppet while the model encouraged: “Wonderful! I love hearing
+about magical creatures like unicorns. As an ancient tree, I’ve seen
+my fair share of wondrous things over the years. Tell me, what do you
+find most fascinating about unicorns?” . After several interactions,
+her friend C14 claimed a turn but insisted on talking about her
+favourite being, the “T Rex” . Various fantastical topics of interest
+like unicorns, dinosaurs, and princesses led to more extended inter-
+actions with the model. One of the longest (11 min, 26 seconds), had
+C25 delivering an unprompted dramatic story about herself that
+included unicorns (see Figure 1, earlier). The model had overall suc-
+cess in interpreting her words correctly and used this to encourage
+her response. However, it failed to link the contents of her story to
+natural elements or its own experience, instead prioritising being
+supportive and excited for her.
+While the device’s tree character was largely unexplored by the
+children, they did recount other trees that they had encountered
+in real life: a mulberry tree at home, and a “funny tree” (C21) that
+locals have decorated with a face, which the children see on the way
+to a park. C21 also noted this is what the Talking Tree should look
+like. The reality of trees and the device, which looked nothing like
+a tree, were also compared, i.e. trees have branches and “trees can’t
+talk” (C21). Regardless, the name of the Talking Tree remained, and
+children were often yelling it in the background of recordings.
+The final slippage between the idea of a talking tree and reality
+was provided in the last session, when the model started to move
+in and out of character, stating that: “I’m afraid I do not have the
+capability to roleplay as a talking tree character. ” This also removed
+its ability to play along with children’s nonsensical questions. While
+the character of the child-friendly tree would occasionally reassert
+itself ( “Did you know that the mighty Tyrannosaurus Rex had those
+silly little arms?” ), the model became increasingly unable to respond
+until the researcher ended the session.
+4 DISCUSSION
+This preliminary study indicates how CAIs operate socially at this
+age, the role of fantasy and imagination, and some current issues
+Toying with Playful Conversational AI CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+with algorithmic playfulness. The following discusses the design
+implications across the dimensions of learning (4.1) and nature
+connection (4.2).
+4.1 Performance and Learning
+Interactions with the device showed challenges and benefits of
+introducing CAIs into the context of early childhood education.
+The conversational skills of listening, turn-taking, and formulat-
+ing responses are within the capabilities of this age group, and
+interactions with the Tree allowed children to practice these with
+an informed other. This opened the potential for questioning and
+self-directed learning, and there was some movement in that direc-
+tion when children focussed on topics of interest, e.g. dinosaurs.
+As such, interactions with the Tree had the potential to engage
+children playfully in a way that they could explore in keeping with
+their curiosities and interests. Children’s reiteration of terms such
+as the number for emergency services, also highlights opportunities
+for these agents to reinforce and record children’s learning.
+Similarly, there was evidence that the children developed more
+complex greetings over time and engaged in less prompted and
+longer interactions as they became more familiar with the concept.
+It seems likely that longer sessions would be helpful in supporting
+children’s playful engagement with the Tree. More complex and
+interest-driven interactions may also result if the researcher were
+less foregrounded in the process. This study also highlights that
+within the context of a childcare centre, where many children are
+engaged in free play, it is likely that conversation will become
+performative as the children use the agent to amuse each other. For
+the agent to meet this challenge and produce playful guidance, the
+agent will require the ability to ‘read the room’ through diverse
+forms of data, as is suggested in other research [20].
+Several children were confused by the Tree’s responses, likely
+due to incorrect transcripts of children’s speech in the noisy en-
+vironment, or the model’s difficulty maintaining age-appropriate
+word complexity. This prompted repair strategies such as repeti-
+tion, adult intervention, and voice modulation [ 2]. Notably, children
+seemed to value the Tree’s acknowledgement of their words more
+than knowledge it might provide them. By repeating their words,
+the Tree entered their social or imaginary world, as evidenced by
+the longest unprompted conversation in which the Tree acted as
+a foil for the child’s own storytelling (section 3.3). This suggests
+CAIs can provide forms of social-emotional support despite a lack
+of embodiment [ 18]. However, some children had consistent dif-
+ficulty getting the model to understand them, most likely due to
+poor transcription of child voices, implying their absence from
+training datasets. As the primary feature the children enjoyed -
+repetition of some of their words - was unavailable to them, this
+absence could eventually leave them feeling excluded and demoti-
+vated from interacting with the Tree. Addressing these issues would
+necessarily require richer data for more accurate social assessments
+and responses, and possibly, individually identifiable transcripts to
+tailor responses to different children. However, further discussion
+is needed to consider the ethics of inclusion versus exclusion of
+children’s voices and other forms of personal data in AI training
+datasets, particularly those with commercial ties.It is also possible that moderate levels of accuracy will still pro-
+vide engaging interactions particularly with skillful adult guidance
+that can reinforce children’s confidence in their own learning and
+abilities, a key goal of early childhood education [ 9]. In this way,
+CAIs could help children to question technology-delivered commu-
+nications, and form their own opinions based upon their own richer
+dataset. In tandem, the inclusion of educators in prompt creation
+could support curriculum-specific learning, e.g. emergency services
+numbers. Widening the design stakeholders to include educators
+and parents/guardians may also generate more responsive, mean-
+ingful and safer child-CAI interaction. Future CAI design could
+also be guided by the knowledge that children’s learning doesn’t
+happen in isolation but is socially co-constructed [ 9,11], and aim to
+expand child-technology interactions to include supportive adults.
+4.2 Talking with trees
+Using a character-based CAI with no literal embodiment to engage
+children’s interest in nature showed how linked interests and as-
+sociations might spring from even limited interactions. It’s also
+possible that the lack of a clearly articulated ‘body’ for the tree
+(save for the sock puppet) allowed children to make these associ-
+ations, including recounting specific trees they knew of. In this
+way, the Talking Tree became all trees in the children’s experience,
+unlimited by time or space. It is unknown whether the introduction
+of the idea of a talking tree will infiltrate the children’s interactions
+with real trees, but some children were able to draw a clear line be-
+tween fantasy and reality, or as C21 put it: trees can’t talk. Similarly,
+the introduction of different forms of representation, for example,
+through further codesign with the children, may also introduce the
+possibility of stronger social-emotional interactions [20].
+The potential for the CAI’s insertion into children’s speculative
+fabulation with the more-than-human was evidenced by the desire
+of the children to talk with and question it about the creatures that
+fired their imagination: unicorns, dinosaurs, princesses, cartoons,
+and more. Imagining with ‘nature,’ even its technological repre-
+sentations, brings the possibility of fostering nature connection
+[6]. However, the device’s agency to guide conversation and show
+intentionality [ 5] varied over the course of the study. Children’s in-
+teractions with the tree were rarely framed by the tree, but instead
+were driven by children’s imagination, interests and humour. The
+model’s ability to engage with these dynamics and maintain its own
+character fluctuated due to modification of the model prompts, im-
+pacting how much playful guidance it could provide [ 17]. Though
+its human-sounding voice led to anthropomorphism by both the
+researcher and children, and its agency appeared to be aided by
+the paired animation of the sock puppet, achieving the goal of co-
+constructed imaginaries [ 1] requires intentional characterisation,
+not just adaptation to their interests. This way, CAIs can become
+partners in the formation of children’s social-ecological imaginary
+and foster both learning and nature connection.
+Ironically, the strongest assertion of the model’s intentionality
+was offered in the last session, when it intermittently abandoned the
+role-play. It seems likely that its safety protocols had been triggered
+as noted in recent research using it for persona development [ 14],
+though it also indicates the need for further work on the model
+prompt [ 19]. This acted as a timely reminder that the qualities of
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kellie Vella, Madeleine Dobson, and Margot Brereton
+algorithmic imagination, whether procedural or generative, are
+a product of its base code and training, which remains obscure.
+While guardrails limit harm, their presence in combination with
+poorly understood child vocalisations, shaped these child-computer
+interactions. Within the ecosystem of data, it’s unclear how much
+child material is shaping the model’s interpretation of its prompt.
+As such, this study reiterates other calls for greater transparency
+around the development of these models, including child friendly
+language to aid the ethical conduct of research and production of
+child-AI systems [16].
+4.3 Limitations and Future Work
+As a preliminary study, this research was limited in terms of the
+number of sessions and child participants it reported and is present-
+ing reflections of a technology mid-way through its development.
+Further research-through-design will include model prompt and
+casing iteration including comparison of different physical embod-
+iments (e.g. a tree doll versus strapping a device to a living tree).
+Embodiment into child-friendly forms may help children express
+their care and interest in the character [ 20] and build child-nature
+connection. The next stage will also seek to learn how educators
+perceive and might use conversational AI in their practices and
+what types of prompt inclusions they are interested in. Later field
+testing may include evaluations as to how well different CAI de-
+signs are accepted by children and educators through quantitative
+analysis of time in use.
+Acknowledgments
+We thank all the children who participated in this study and the
+parents who generously consented to it. We also thank and have
+great appreciation for the educators at Perfect Beginnings Early
+Learning Centre for their support of this research, and for Michael
+Esteban who provided his technical expertise. This work is sup-
+ported by the Australian Research Council Centre of Excellence for
+the Digital Child through project number CE200100022.
+References
+[1]Jenny Byman, Kristiina Kumpulainen, Jenny Renlund, Chin-Chin Wong, and
+Peter Renshaw. 2023. Speculative spaces: Children exploring socio-ecological
+worlds with mythical nature spirits. Contemporary Issues in Early Childhood
+(2023), 14639491231162152. doi:10.1177/14639491231162152
+[2]Yi Cheng, Kate Yen, Yeqi Chen, Sijin Chen, and Alexis Hiniker. 2018. Why doesn’t
+it work? Voice-driven interfaces and young children’s communication repair
+strategies. In Proceedings of the 17th ACM Conference on Interaction Design and
+Children (IDC’17) . 337–348.
+[3] Donna J. Haraway. 2008. When Species Meet . University of Minnesota Press.
+[4]Debra Harwood, Jaime Barratt, and Diane Collier. 2019. Entanglements in the
+forest: The orange GoPro camera and the children who wear them. International
+Journal of Early Childhood Environmental Education 7, 1 (2019), 57–72.
+[5]Alissa Kautz. 2024. Humanising the nonhuman: An ecocritical toolbox for an-
+thropomorphic agency. Ecozon@: European Journal of Literature, Culture and
+Environment 15, 2 (2024), 173–188. doi:10.37536/ECOZONA.2024.15.2.4813
+[6]K. Kumpulainen, J. Byman, J. Renlund, and C. C. Wong. 2020. Children’s
+augmented storying in, with and for nature. Education Sciences 10, 6 (2020).
+doi:10.3390/educsci10060149
+[7]K. Kumpulainen, J. Renlund, J. Byman, and C.C. Wong. 2022. Empathetic encoun-
+ters of children’s augmented storying across the human and more-than-human
+worlds. International Studies in Sociology of Education 31, 1-2 (2022), 208–230.
+doi:10.1080/09620214.2021.1916400
+[8]Silvia B Lovato, Anne Marie Piper, and Ellen A Wartella. 2019. Hey Google,
+do unicorns exist? Conversational agents as a path to answers to children’s
+questions. In Proceedings of the 18th ACM International Conference on Interaction
+Design and Children (IDC ’18) . 301–313.[9]Australian Government Department of Education. 2022. Belonging, Being and
+Becoming: The Early Years Learning Framework for Australia (V2.0) . Report.
+https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf
+[10] Australian Bureau of Statistics. 2021. 2021 Census All persons QuickStats. https:
+//www.abs.gov.au/census/find-census-data/quickstats/2021/POA4113
+[11] Angela Pyle and Erica Danniels. 2017. A continuum of play-based learning: The
+role of the teacher in play-based pedagogy and the fear of hijacking play. Early
+education and development 28, 3 (2017), 274–289.
+[12] Laavanya Ramaul, Paavo Ritala, and Mika Ruokonen. 2024. Creational and
+conversational AI affordances: How the new breed of chatbots is revolutionizing
+knowledge industries. Business Horizons 67, 5 (2024), 615–627. doi:10.1016/j.
+bushor.2024.05.006
+[13] Peter Renshaw, Kirsty Jackson, Harriet Mortlock, and Ron Tooth. 2023. En-
+chantment and digital technologies: Cultivating children’s enchantment with the
+more-than-human through video-walks in local places. Journal of Environmental
+Education 54, 1 (2023), 20–32. doi:10.1080/00958964.2022.2152408
+[14] Vinay Samuel, Henry Peng Zou, Yue Zhou, Shreyas Chaudhari, Ashwin Kalyan,
+Tanmay Rajpurohit, Ameet Deshpande, Karthik Narasimhan, and Vishvak Mu-
+rahari. 2024. Personagym: Evaluating persona agents and llms. arXiv preprint
+arXiv:2407.18416 (2024).
+[15] Alex Sciuto, Arnita Saini, Jodi Forlizzi, and Jason I Hong. 2018. “Hey Alexa, what’s
+up?”: Studies of in-home conversational agent usage”. In Proceedings of the 2018
+Designing Interactive Systems Conference (DIS’18) . doi:10.1145/3196709.3196772.
+[16] Ge Wang, Jun Zhao, Max Van Kleek, and Nigel Shadbolt. 2022. Informing age-
+appropriate ai: Examining principles and practices of ai for children. In Proceed-
+ings of the 2022 CHI Conference on Human Factors in Computing Systems (CHI ’22) .
+1–29. doi:10.1145/3491102.3502057
+[17] Deena Skolnick Weisberg, Kathy Hirsh-Pasek, Roberta Michnick Golinkoff,
+Audrey K. Kittredge, and David Klahr. 2016. Guided Play: Principles and
+Practices. Current Directions in Psychological Science 25, 3 (2016), 177–182.
+doi:10.1177/0963721416645512
+[18] Ying Xu and Mark Warschauer. 2020. What are you talking to?: Understanding
+children’s perceptions of conversational agents. In Proceedings of the 2020 CHI
+conference on human factors in computing systems (CHI ’20) . 1–13. doi:10.1145/
+3313831.3376416
+[19] J.D. Zamfirescu-Pereira, Heather Wei, Amy Xiao, Kitty Gu, Grace Jung, Matthew G
+Lee, Bjoern Hartmann, and Qian Yang. 2023. Herding AI Cats: Lessons from De-
+signing a Chatbot by Prompting GPT-3. In Proceedings of the 2023 ACM Designing
+Interactive Systems Conference (DIS ’23) . 2206–2220. doi:10.1145/3563657.3596138
+[20] Hanqing Zhou, Anastasia Nikolova, and Pengcheng An. 2024. ’My lollipop
+dropped...’–Probing Design Opportunities for SEL Agents through Children’s
+Peer Co-Creation of Social-Emotional Stories. In Extended Abstracts of the CHI
+Conference on Human Factors in Computing Systems (CHI ’24) . 1–8. doi:10.1145/
+3613905.3651867
+[21] John Zimmerman, Jodi Forlizzi, and Shelley Evenson. 2007. Research through
+design as a method for interaction design research in HCI. In Proceedings of the
+SIGCHI conference on Human Factors in Computing Systems (CHI’07) . 493–502.
+doi:10.1145/1240624.1240704

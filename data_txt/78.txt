@@ -1,0 +1,849 @@
+570
+Reading Research Quarterly, 59(4)  
+pp. 570–578 | doi:10.1002/rrq.570  
+© 2024 The Author(s). Reading Research Quarterly  
+published by Wiley Periodicals LLC on behalf of 
+International Literacy Association. This is an open access 
+article under the terms of the Creative Commons 
+Attribution-NonCommercial-NoDerivs License, which 
+permits use and distribution in any medium, provided the 
+original work is properly cited, the use is non-commercial 
+and no modifications or adaptations are made.ABSTRACT
+Questions and concerns about artificial intelligence (AI) technologies in edu -
+cation reached a fever pitch with the arrival of publicly accessible, user-  
+facing generative AI systems, especially ChatGPT. Many of these issues will 
+require regulation and collective action to address. But when it comes to 
+generative AI and literacy, we argue that posthuman perspectives can help 
+literacy scholars and practitioners reframe some concerns into questions that 
+open new areas of inquiry. Agential realism in particular offers a useful per -
+spective for exploring how generative AI matters in literacy practices, not as 
+a unilaterally destructive force, but as a set of phenomena that intra-  actively 
+reconfigures literacy practices. As a sociocultural (and as we argue, socio -
+technical) practice, literacy arises out of the entanglement of bodies, spaces, 
+contexts, positions, histories, and technologies. Generative AI is another in a 
+long line of technologies that reconfigures literacy practices. In this article, 
+we briefly explain how generative AI systems work, focusing on text-  based 
+systems called Large Language Models (LLMs), and suggest ways that genera -
+tive AI may reconfigure the sociocultural practice of literacy. We then offer 
+three provocations to shift discussions about generative AI and literacy (1) 
+from concerns about intentionality to questions of responsibility, (2) from 
+concerns about authenticity to questions of mattering, and (3) from concerns 
+about imitation to questions of multifarious communication. We conclude 
+by encouraging literacy scholars and practitioners to draw inspiration from 
+critical literacy efforts to discover what matters when it comes to generative 
+AI and literacy.
+Introduction
+Questions and concerns about artificial intelligence (AI) technologies in 
+education reached a fever pitch with the arrival of publicly accessible, 
+user- facing generative AI systems, especially ChatGPT (Peters 
+et  al.,  2023). Generative AI refers to systems that generate text, image, 
+sound, or other modes of content in response to prompts from users 
+(Ruiz & Fusco,  2024). Trained on enormous corpora of data, these sys-
+tems’ responses can be indistinguishable from human creations. This fact 
+of resemblance, in turn, has prompted panic about academic dishonesty 
+(Surovell,  2023) and obituaries for essay- writing (Marche,  2022). Others, 
+however, remind us that we have been here before, as calculators and lap-
+tops provoked similar disquiet (Surovell,  2023). This is not to downplay 
+the serious concerns posed by generative AI and its rapid uptake, includ-
+ing bias and inaccuracy in responses, privacy and security questions sur -
+rounding data practices, the environmental costs of developing and 
+maintaining such systems, and further concentration of market power in Priya C. Kumar 
+Kelley Cotter 
+College of Information Sciences 
+and Technology, Pennsylvania 
+State University, University Park, 
+Pennsylvania, USA
+Laura Y. Cabrera 
+Department of Engineering Science and 
+Mechanics and Philosophy, Pennsylvania 
+State University, University Park, 
+Pennsylvania, USATaking Responsibility for Meaning 
+and Mattering: An Agential Realist 
+Approach to Generative AI and 
+Literacy
+
+Taking Responsibility for Meaning and Mattering: An Agential Realist Approach to Generative AI and Literacy  |  571Google and Microsoft, the current leaders in this space 
+(Bender et  al.,  2021; Kak & West,  2023; Solaiman 
+et  al.,  2023). These are significant concerns that require 
+regulation and collective action to address. But when it 
+comes to generative AI and literacy, we argue that posthu-
+man perspectives, particularly agential realism, can help 
+scholars and practitioners reframe some concerns and 
+explore new areas of inquiry.
+The rise of information and communication technolo -
+gies including computers, mobile phones, the Internet and 
+Web, and the plethora of social, educational, and creative 
+practices that accompanied them, provoked similar ques -
+tions about the future of literacy (Leu & Kinzer,  2000; New 
+London Group,  1996). Current concerns about generative 
+AI in education express fear that such systems may negate 
+human agency (e.g., “ChatGPT is thinking for my stu-
+dents!”) or contribute little value in education (e.g., “Stu-
+dents are not learning when they use ChatGPT!”). These 
+concerns are reactions to techno-  deterministic visions of 
+AI single- handedly transforming every facet of social life. 
+However, the sociocultural turn in literacy studies serves 
+as a reminder that literacy is not only the functional skill of 
+reading and writing but also a practice of shared meaning-  
+making (Gee,  2015)—and indeed, world - making (Freire & 
+Macedo,  1987). In other words, literacy is contingent—
+always a work- in- process. Non- representational 
+approaches, or those that attend to the emergence of 
+human and non- human forms rather than the ideas or 
+concepts they represent, direct our focus to the material 
+and affective dimensions of dynamic literacy practices, 
+including bodies, desire, and the emergent potential of 
+their enactments (Leander & Boldt,  2013). Thus, we 
+encourage scholars and practitioners to channel fears 
+about generative AI devaluing literacy into questions 
+about how generative AI reconfigures enactments of liter -
+acy practices.
+Posthuman perspectives offer ways of making sense of 
+literacy practices that attend to entanglements of human, 
+non- human, and more- than- human forms (Kuby & Row-
+sell,  2017). Their aim “is not to blur the boundaries 
+between human and nonhuman, not to cross out all dis-
+tinctions and differences…but rather to understand the 
+materializing effects of particular ways of drawing bound -
+aries between ‘humans’ and ‘non-  humans’” (Barad,  2011, 
+pp. 123–124). One prominent posthuman approach, agen-
+tial realism (Barad,  2007), understands reality not as a 
+fixed set of objects and relations, but the dynamic enact-
+ment of material-  discursive phenomena.
+In the dominant understanding of reality, objects exist 
+as distinct entities that interact with each other in tempo-
+rary cause- and- effect relations. That is, reality consists of 
+independent objects that briefly relate to one another. 
+Agential realism contends that reality operates in the 
+inverse. Phenomena, not objects, are the fundamental 
+units of existence, where phenomena are ontologically inseparable relations of material- discursive actions. Such 
+actions, constantly reconfiguring the fabric of spacetime, 
+are agency. Agency is “not something that someone or 
+something has…[but the] enactment of iterative changes 
+to particular practices” (Barad,  2007, p. 178). As agency 
+congeals and phenomena continuously materialize, matter 
+arises. However, matter is not fixed; it is “not a thing but a 
+doing” (Barad,  2007, p. 151). In conventional understand-
+ings of reality, matter preexists and interacts  with other 
+units of matter to produce relations. In agential realism, 
+phenomena preexist and intra- act, or mutually constitute 
+entangled agencies (Barad,  2007, p. 33), to produce 
+matter.
+The process of mattering is inseparable from the pro-
+cess of making meaning: “It is through specific agential 
+intra- actions that the boundaries and properties of the 
+components of phenomena become determinate and that 
+particular concepts (that is, particular material articula-
+tions of the world) become meaningful” (Barad,  2007, p. 
+139). Here, literacy entails “learning how to intra- act 
+responsibly within the world” (Barad,  2000, p. 237). 
+Although agential realism operates in a different ontology 
+compared to much literacy research, its focus on respon-
+sible action resonates with the aims of critical literacy to 
+transform structures that perpetuate marginalization 
+(Freire & Macedo,  1987). We believe that agential realism 
+offers a useful perspective for exploring how generative AI 
+matters in literacy practices, not as a unilaterally destruc-
+tive force, but as a set of phenomena that intra- actively 
+reconfigures literacy practices. Like any technology, gen -
+erative AI systems can participate in literacy practices and 
+help enact them in ways that make the world differently.
+As a sociocultural (and we argue, sociotechnical) prac-
+tice, literacy arises out of the entanglement of bodies, 
+spaces, contexts, positions, histories, and technologies. 
+Generative AI is another in a long line of technologies that 
+reconfigures literacy practices. In the following section, we 
+briefly explain how text- based generative AI systems work. 
+We then review the sociocultural turn in literacy studies 
+and explain how agential realism can help literacy scholars 
+and practitioners examine how generative AI reconfigures 
+literacy practices. To ground such inquiry, we offer three 
+provocations that shift discussions about generative AI 
+and literacy (1) from concerns about intentionality to 
+questions of responsibility, (2) from concerns about 
+authenticity to questions of mattering, and (3) from con-
+cerns about imitation to questions of multifarious com -
+munication. We focus on text- based generative AI systems 
+and examples of essay writing, but we believe these provo-
+cations can help scholars and practitioners grapple with 
+other generative AI modalities and literacy practices.i We 
+conclude by noting several challenges of generative AI and 
+encouraging scholars and practitioners to draw inspiration 
+from critical literacy efforts as they discover what matters 
+when it comes to generative AI and literacy.
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+572  |  Reading Research Quarterly , 59(4)How Text- Based Generative AI 
+Systems Work
+Text- oriented generative AI systems like OpenAI’s Chat-
+GPT or Google’s Gemini are based on large language 
+models (LLMs). A language model is a computational sys-
+tem trained to predict the chance that a unit of language 
+(e.g., character, word) could logically appear in a given text 
+(Bender et  al.,  2021). These models are trained on data, 
+typically corpora scraped from the Web, and make infer -
+ences based on patterns identified in the training data 
+(Bender et al.,  2021). Before training the model, develop-
+ers must process the training data. This involves breaking 
+its text into units, called tokens, which can be a word or 
+part of a word, and converting each token into an integer 
+(Microsoft Developer,  2023). Training is a multi- step pro-
+cess where the model computes relationships between 
+various tokens. Each connection has a numerical weight, 
+and each task the model performs involves different 
+weights. The model computes the various weights to deter -
+mine which combination best fits the task. As the model 
+completes more tasks, it adjusts the weights. These weights, 
+also known as parameters, are the variables that structure 
+the model (Wolfram, 2023).
+LLMs are called “large” because of the enormous size 
+of their training data. For instance, OpenAI’s GPT- 3 model 
+(created in 2020) contains 175 billion parameters and was 
+trained on 300 billion tokens derived from 570 GB of train-
+ing data (Bender et al.,  2021; Microsoft Developer,  2023), 
+while Meta’s LLaMA model (created in 2023) contains 65 
+billion parameters and was trained on 1.4 trillion tokens 
+derived from 4749 GB (4.75 TB) of training data (Micro-
+soft Developer,  2023). Training for the LLaMA model 
+required 2048 A100 GPU circuits, 21 days, and USD$5 mil-
+lion (Microsoft Developer,  2023). The sheer computa-
+tional size of LLMs and the fact that their output now 
+resembles coherent human language has provoked asser -
+tions that such systems understand language and engage 
+in reasoning (Andersen,  2023; Harwell et  al.,  2022). 
+Although it is unclear how exactly these systems produce 
+what looks like human responses, some take the fact that 
+they can as evidence that language may be a less complex 
+phenomenon than we thought (Andersen,  2023; 
+Wolfram, 2023).
+Such assertions must be readily recognized as naive 
+misunderstandings of language, learning, and expression. 
+LLMs, on their own, are neither understanding nor reason-
+ing (Bender et al.,  2021; Bender & Koller,  2020; Kambham -
+pati,  2023). They are what Bender et  al.  (2021) have 
+famously called “stochastic parrots”—systems that manipu-
+late variables to produce information that mimics language 
+but do not understand meaning. As computer scientist 
+Timnit Gebru, who coined the term with computational 
+linguist Emily M. Bender, explained, “when you see a par -
+rot repeating what humans are saying, you’re not thinking that the parrot is understanding what we said, but [that] the 
+parrot can repeat what we said back to us” (Zucker -
+man,  2023). For a word to mean something, it needs a lin-
+guistic form and a communicative intent (Bender & 
+Koller,  2020). When we utter, read, or write the word 
+formed by the letters l- i- t- e- r- a- c- y, we are trying to say 
+something about the act of making meaning with language. 
+But to an LLM, “literacy” is not a rich social practice. It is a 
+set of integers numerically related to a plethora of other 
+integers. Thus, if an LLM outputs the word “literacy, ” it is 
+doing so not because it wishes to convey something about 
+the way people make meaning with language, but because 
+the system has computed that a particular arrangement of 
+integers and weights is the most efficient way to solve a task.
+Computer scientists and computational linguists like 
+Gebru and Bender draw an important distinction between 
+humans and LLMs. Even if the text they create looks simi-
+lar, the processes by which they create it are different, and 
+those differences matter. Scholars and practitioners can 
+make valuable contributions by identifying those differ -
+ences and articulating why they matter. But we encourage 
+this work to proceed in a way that accounts for the role 
+that technologies like LLMs play in meaning- making, 
+rather than negating it. Agential realism provides a potent 
+framework for this work by directing focus to the “specific 
+material practices” that make meaning possible 
+(Barad,  2007, p. 148). In agential realism, “meaning mak-
+ing is not a human- based practice, but rather a result of 
+specific material reconfigurings of the world” (Barad,  2007, 
+p. 465). The labor of collecting, labeling, and cleaning vast 
+amounts of training data; the concentration of this labor in 
+precarious and exploitative conditions in the Global South; 
+the transformation of linguistic units into integers; the cre-
+ation of digital interfaces to mediate end- user access; the 
+consumption of colossal quantities of water and energy to 
+operate data centers (Bender et al.,  2021; Crawford,  2024; 
+Kak & West,  2023; Perrigo,  2023; Solaiman et al.,  2023)—
+all of these processes that contribute to the development of 
+LLMs affect how and what kind of meaning can be made 
+from their output as well as what world is called into being. 
+An agential realist approach contests fears about the 
+involvement of generative AI in learning that rely on a pre-
+sumption of literacy as a stable target that human agencies 
+alone enact. This agential realist approach resonates with 
+the sociocultural turn in literacy, which we now discuss.
+Literacy in a World with 
+Generative AI
+Frameworks like critical literacy and new literacy studies 
+understand literacy as more than the encoding and decod-
+ing of written text, recognizing the diverse array of com-
+munication channels and media through which people 
+construct and express meaning as well as the situated 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Taking Responsibility for Meaning and Mattering: An Agential Realist Approach to Generative AI and Literacy  |  573nature of meaning- making (Gee,  2015; New London 
+Group,  1996). Literacy is “something people [do] in the 
+world and in society, not just inside their heads” (Gee,  2015, 
+p. 35); it involves “getting and giving meanings” within dif-
+ferent social, cultural, political, historical, and institutional 
+contexts (Gee,  2015, p. 37). Scholars and practitioners have 
+advocated for the understanding of literacy as a technique 
+of empowerment through which to advance social equity 
+and justice (Freire & Macedo,  1987; Mirra & Garcia,  2021; 
+Naqvi,  2015). Y et, literacy should not be understood as a 
+panacea for addressing social inequities. Indeed, it has also 
+served a “domesticating function, ” assimilating learners 
+into dominant modes of being, doing, thinking, and 
+knowing (Collins & Blot,  2003; James,  1990; Naqvi,  2015). 
+Literacy does not automatically liberate marginalized peo-
+ple from unjust systems of power that disenfranchise them 
+and constrain opportunities (Graff,  1991; James,  1990). 
+Rather, literacy can help learners and educators become 
+“active participants in social change” (New London 
+Group,  1996, p. 64).
+Posthuman perspectives further urge an unmooring of 
+literacy studies from questions of what literacy means or 
+what knowledges or capacities it entails to treat it as some-
+thing that is actively produced through intra- action of 
+human, non- human, and more- than- human forms (Kuby 
+& Rowsell,  2017). This shift encourages the destabilization 
+of literacy in order to see how different entanglements of 
+learners, educators, technologies, languages, and physical 
+environments dynamically configure literacy as a practice 
+situated in time and space. From this perspective, the intro-
+duction of generative AI does not require a radical reimag-
+ining of literacy, as some might suggest. Rather, it invites us 
+to ask questions about how generative AI systems are 
+reconfiguring literacy practices. For instance, what material 
+and discursive processes are at work in prompting genera-
+tive AI systems, in evaluating the output of these systems, 
+and in integrating their output into assignments, creative 
+work, and other forms of expression. What boundaries are 
+phenomena involving generative AI systems crossing, 
+erecting, and/or dissolving? How does the material from 
+such systems come to matter? We encourage scholars and 
+practitioners to explore such questions in the context of the 
+specific literacy practices they work with. To ground this 
+work, we offer three ideas of ways to move from concerns 
+about generative AI to questions about its role in literacy, 
+encouraging a balance of curiosity and criticality.
+From Concerns about 
+Intentionality to Questions about 
+Responsibility
+One concern is that the use of generative AI systems in 
+education reduces introspective and independent thought (Akgun & Greenhow,  2022), rendering people less willing 
+to exert their own decision- making capacities. If a student 
+writes an essay for a course assignment by typing a few 
+prompts into ChatGPT and paraphrasing the output, are 
+they fully engaging in the learning process or taking a 
+backseat?
+When students use generative AI tools, they may be 
+seen as sacrificing, to varying degrees, their independence, 
+right to privacy and power of choice (Anderson 
+et al.,  2018). However, literacy theory has recognized that 
+agency in literacy acts can be distributed across human 
+and non- human actors (McEneaney,  2006). Agential real -
+ism carries this idea further and approaches agency itself 
+as “the possibilities for the iterative reconfiguring of the 
+materiality of human, nonhuman, cyborgian, and other 
+such forms” (Barad,  2007, p. 178). The concern that stu-
+dents who use LLMs may not be thinking deeply belies the 
+conventional belief that thinking is an intentional act per -
+formed by an agentive subject. Agential realism would 
+have us examine the myriad material- discursive processes 
+that constitute the broader practice we call essay writing. 
+For instance, reading an essay prompt alone involves visual 
+stimuli in the form of words, embedded in an interface like 
+a learning management system and displayed on a laptop, 
+tablet, phone, or projector screen, being perceived by eyes, 
+transmitted through nerves, received by neurons, and pro-
+cessed through a whole host of physiological processes 
+that are themselves influenced by psycho- social processes 
+(e.g., the student’s mood, their attitude toward the class) 
+and broader cultural conditions (e.g., campus environ-
+ment, family situation, prior life experiences). In this con-
+text, focusing on intentionality oversimplifies the reality of 
+the student’s experience.
+What material- discursive processes constitute “using 
+ChatGPT” in writing the essay? Many of the same pro-
+cesses involved in reading the essay prompt, plus the acts 
+of conceiving ideas and words, crafting them into prompts, 
+typing or speaking the prompts to the system, interpreting 
+the system’s output, integrating these ideas with other 
+information the student has or knows about the subject, 
+aligning the information with the essay prompt, etc., all 
+iteratively unfolding in what the student may experience 
+as a fluid process. In addition, we must not forget that all of 
+the practices involved in creating and sustaining genera-
+tive AI systems mentioned at the end of the section on 
+“How Text- based Generative AI Systems Work” also play a 
+role in this process of essay- writing, though they likely do 
+not enter the student’s conscious awareness. It is out of this 
+dynamic entanglement of practices that something we rec -
+ognize as literacy emerges. With this understanding of lit -
+eracy, concerns about intentionality can be reconfigured 
+into questions about responsibility, or, as Barad frames it, 
+response- ability (Barad,  2007; Kuby & Rowsell,  2017), sig -
+nifying “the possibilities of mutual response” (Dolphijn & 
+van der Tuin,  2012, p. 55).
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+574  |  Reading Research Quarterly , 59(4)Educators are likely familiar with the process of 
+responsibility responding to changing conditions. Con -
+sider how an educator might respond to a struggling stu-
+dent. Trauma- informed pedagogy suggests that arts- based 
+assignments can help students enduring chronic stress 
+develop literacy (Cramer,  2018). This response is grounded 
+in an understanding that systemic oppression materially 
+affects the body in ways that diminish health and wellbe-
+ing (Geronimus,  2023) and reduce academic achievement 
+(Crouch et al.,  2019). While educators may not be able to 
+change the difficult conditions in a student’s life, by recog -
+nizing and responding to the way trauma affects that stu-
+dent, they expand the boundaries of literacy to include 
+sociocultural forces.
+Similarly, the entanglement of generative AI systems 
+in education presents an opportunity to expand the 
+boundaries of literacy practices to include sociotechnical 
+forces (Tacheva & Ramasubramanian,  2023). Educators 
+can work with students to explore questions like: What 
+does it mean to create ideas with a system that relies on 
+people going through the trauma of filtering out graphic 
+and violent content (Perrigo,  2023)? How would our prac-
+tices change if each time we submitted a prompt, we could 
+see the water that cools the system’s servers leach out of an 
+Iowa community (Crawford,  2024)? These practices are 
+not “ours” alone, yet we are responsible, in part, for what 
+they create.
+From Concerns about 
+Authenticity to Questions about 
+Mattering
+The fact that generative AI systems can produce human-  
+like output has raised concerns that it may become harder 
+to tell whether various forms of communication, from 
+class assignments to academic papers, are authentic 
+reflections of a person’s thoughts (Kiser,  2023; Májovský 
+et al.,  2023). Concerns about authenticity matter because, 
+from a societal perspective, authenticity serves as a social 
+glue that helps reinforce trust. For instance, when a stu-
+dent submits an essay, a teacher trusts that the work 
+reflects the student’s own effort as well as their own 
+understanding of the topic at hand. One common ques -
+tion is that if a student writes an essay by simply para-
+phrasing ChatGPT output, does the essay really represent 
+their  understanding?
+But if we understand meaning- making as a constel-
+lation of material-  discursive processes then understand -
+ing is already  a product of more than just the writer. As 
+Barad (2007) declares in the opening lines of her book 
+on agential realism, “Matter and meaning are not sepa-
+rate elements. They are inextricably fused together” (p. 
+3). We typically regard the process of writing an essay as an act of representing ideas that pre- exist in the world, 
+perhaps in a novel or insightful manner. Agential real -
+ism eschews representationalism, instead regarding the 
+world as “an open process of mattering through which 
+mattering itself acquires meaning and form through the 
+realization of differential agential possibilities” (Barad, 
+2007, p. 141). In other words, all of the material-  
+discursive processes that go into writing an essay create 
+meaning through their intra-  actions, with agency being 
+the force that propels this performance. Knowing is a 
+matter of responding to what matters (Barad,  2007, p. 
+149). Engaging in “responsible actions…requires that 
+we come to learn how our practices come to matter” 
+(Barad, 2000, p. 237).
+One concern is that if students overly rely on genera-
+tive AI systems, they will end up stringing together plati-
+tudes, parroting bland, quotidian ideas at the expense of 
+developing novel or unique interpretations (Akgun & 
+Greenhow,  2022), not fully engaging with what matters. 
+This concern is well founded. As noted earlier, generative 
+AI systems require enormous amounts of training data, 
+but even these massive data sets do not capture the totality 
+of expression (nor could they). Training data only encom-
+passes information that is digital or has been digitized and 
+primarily includes information in dominant languages 
+(e.g., English), meaning that information recorded in ana-
+log formats or expressions in non- dominant languages 
+(e.g., Dhivehi, Sudanese Arabic) are unavailable or over -
+looked (Bender et  al.,  2021). One training data set, con-
+taining content from 15 million sites, is “dominated by 
+websites from industries including journalism, entertain -
+ment, software development, medicine and content cre -
+ation” (Schaul et al.,  2023). A system trained on this data 
+may generate output that overly reflects these genres at the 
+expense of other forms of expression.
+In the spirit of exploring how generative AI comes to 
+matter in literacy practices, we encourage educators to help 
+students see how certain ideas and forms of expression have 
+“sedimented out of the process of making the world intelli-
+gible through certain practices and not others” (Barad,  2000, 
+p. 236). Educators and students can explore how the prac-
+tices that build generative AI systems produce biased and 
+inaccurate output and how to probe, critique, and question 
+such output. They can study grassroots efforts to create AI 
+systems for languages like Amharic, Tigrinya, Catalan, Indo -
+nesian, Jamaican Patois, and Māori (Schacht,  2023), which 
+present alternatives to the domineering practices of technol -
+ogy platforms. Educators also help students learn how to use 
+generative AI responsibly, for instance, to gather ideas or 
+brainstorm different ways of phrasing a thought (Kambham -
+pati,  2023; Microsoft Developer,  2023), rather than to locate 
+definitive answers. This framing of responsibility draws 
+focus to the world- making practices that become possible 
+(or not) by engaging with generative AI. The way we enact 
+literacy makes the world in both meaning and matter.
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Taking Responsibility for Meaning and Mattering: An Agential Realist Approach to Generative AI and Literacy  |  575From Concerns about Imitation 
+to Questions about Multifarious 
+Communication
+Although generative AI’s capacity to parrot speech pat-
+terns raises concerns, this capacity also presents oppor -
+tunities for learners. Language embeds deep cultural 
+knowledge not easily learned. Generative AI has the 
+potential to help translate meaning across languages, 
+dialects, genres, and stylistic conventions within 
+diverse social worlds. As a translator, generative AI 
+could make multifarious communication easier for 
+learners, such that they could experiment with the sub-
+stance of their message as well as its delivery. In doing 
+so, learners may convey and interpret meaning across 
+“a multiplicity of discourses” (New London 
+Group,  1996, p. 61) to better connect with those whose 
+language (linguistic, cultural, and social) they do not 
+share. Although a student may not feel confident in her 
+ability to compose a five- part persuasive essay, she may 
+have a persuasive argument with well- founded points 
+to support it. Experimenting with generative AI could 
+help open new pathways for communication and inter -
+action. Rather than seeing generative AI as approxi-
+mating or displacing what we take to be human 
+capacities, agential realism invites us to question what 
+are “human capacities” and reposition such systems as 
+companions supporting the exploration of different 
+facets of literacy through relationality. This reimagin -
+ing of literacy with generative AI could render it a 
+technology of connection, with critical emphasis on 
+empathy and inclusion.
+Importantly, this shift must entail “taking into account 
+of what materializes and of what is excluded from materi-
+alizing” (Barad,  2011, p. 149) in the enactment of expres-
+sion. As noted earlier, LLM training data, while massive, 
+primarily encompasses professional genres and dominant 
+languages. While more comprehensive training data 
+could expand the repertoire of generative AI applications, 
+no training dataset will encompass the complete range of 
+expression. The goal is not to facilitate universal transla-
+tion, but rather to explore how the enfolding of generative 
+AI into literacy practices can differentially enact “bound-
+aries, properties, and meanings” (Barad,  2007, p. 392). 
+This “differentiating is not about othering or separating 
+but on the contrary about making connections and com-
+mitments” (Barad,  2007, p. 392). Already, scholars are 
+using relational approaches to explore how LLMs recon-
+figure practices of creativity and subjectivity (Celis Bueno 
+et  al.,  2024; Y an,  2024). Literacy practices are ripe for 
+analysis through a relational approach, especially consid -
+ering the chatbot- based design of interfaces like ChatGPT 
+that promote inquiry as a conversational act. Educators 
+can take advantage of the fact that generative AI systems constantly generate different output, even in response to 
+the same prompt, to encourage playfulness and curiosity. 
+For instance, students could prompt the system to present 
+the same idea in different ways, varying the persona (e.g., 
+“state this as if you were the president”), genre (“explain 
+this as if it were a murder mystery”), or the mode (e.g., 
+“turn this idea into a poem”). Each intra- action among 
+learner- prompt- system enacts the world a bit differently, 
+and collectively, these differences convey something 
+about the shared process of performing meaning. Explor -
+ing such differences can help us see how meaning comes 
+to matter.
+Conclusion: Situating Generative 
+AI in the Practice of Literacy
+To understand the emergence of generative AI tools in 
+literacy practices, we must move beyond conventional 
+views of literacy based on historical or path- dependent 
+projected visions. We have suggested a view of literacy as 
+a dynamically enacted practice that materializes mean-
+ing, which shifts even as it comes to be. This view pre-
+cludes an understanding of literacy as performed 
+exclusively by an agentic human subject who acts with 
+individuating intention.
+While seeing generative AI systems this way may help 
+scholars and practitioners develop educational experi -
+ences that orient learners toward a sense of “response-  
+ability” (Barad,  2007) in literacy practices, several 
+challenges emphasize the need for heightened critical 
+reflexivity. These include:
+• Bias: Generative AI systems are trained largely on 
+text extracted from the Web, which is known to 
+reflect negative stereotypes toward various groups 
+of people based on gender, race, nationality, physi -
+cal ability, religion, and other identity categories. 
+While developers increasingly recognize this con -
+cern, their efforts to address it often rely on auto-
+mated techniques that cannot grasp the nuance and 
+context embedded in language, and are thus limited 
+in the extent to which they can mitigate harm 
+(Akgun & Greenhow,  2022; Bender et al.,  2021; Kak 
+& West, 2023).
+• Privacy : Generative AI systems collect and store the 
+prompts users provide and the output systems gen-
+erate, among other types of data. It is unclear how 
+companies that own these systems manage and use 
+this data (Akgun & Greenhow,  2022; Kak & 
+West,  2023).
+• Inequity : Since generative AI systems are largely 
+trained on text from the Web, their output over-  
+represents ideas from the white, wealthy, male 
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+576  |  Reading Research Quarterly , 59(4)perspectives that dominate the Web. This means 
+that generative AI systems cannot produce output 
+that reflects the beliefs and experiences of the bil-
+lions of people in the world who do not regularly 
+contribute text online, let alone in the variety of lan-
+guages people speak. Furthermore, adoption of 
+such systems is not evenly distributed, which could 
+further exacerbate the digital divide (Akgun & 
+Greenhow,  2022; Bender et al., 2021; Reiss, 2021).
+These challenges serve as a reminder that generative 
+AI systems fundamentally embed dominant modes of 
+expression. Inferring meaning from generative AI output 
+without understanding the material-  discursive processes 
+that constitute not only the output of such systems but also 
+how this output is taken up, runs the risk of perpetuating 
+literacy as a force for domestication, rather than liberation. 
+Literacy in a world with generative AI must adopt an even 
+greater emphasis on “encourag[ing] critical questioning” 
+(Naqvi, 2015, p. 57) about how text produced with genera-
+tive AI systems reinforces the existing social order. Thus, 
+concerns about the use of generative AI as constraining 
+intentionality, diminishing authenticity, or bolstering imi -
+tation can be reframed into questions about how to con-
+nect, how these connections come to matter, and how to 
+collectively take responsibility for the meaning that 
+emerges.
+Actualizing this critically oriented approach to 
+meaning-  making requires remembering that literacy is 
+not just what goes on in people’s minds, but the interplay 
+between bodies, spaces, contexts, positions, histories, and 
+technologies, which are themselves not fixed entities but 
+dynamically unfolding practices. Knowing is a practice 
+that arises out of the intra- action of material- discursive 
+processes (Barad,  2007, p. 149), including the neuronal 
+processing of sensory information in what we convention -
+ally consider the human mind as well as the computational 
+processing of quantitative data derived from textual cor -
+pora in what we call LLMs. More than inert tools, tech-
+nologies including generative AI systems are “forms of life” 
+(Winner,  1989, p. 3) and arrangements of authority and 
+power. Too often, education embraces technologies as 
+means to solve fundamentally social problems (William-
+son,  2024). Thus, we encourage scholars and practitioners 
+to engage with developers and critical social scientists to 
+design literacy efforts involving generative AI that are 
+grounded in a thorough understanding of the system’s 
+technical capabilities, aligned with the principles of sound 
+pedagogy, and informed by knowledge of the politics of 
+technology (Williamson,  2024).
+While it may be tempting to turn away from genera-
+tive AI systems out of fear that using them may under -
+mine the work of learning, doing so would ignore the 
+“always already entangled” nature of human, non-  
+human, and more- than- human forms in the processes of thinking and learning (Kuby & Rowsell,  2017). Instead, 
+we encourage scholars and practitioners to see genera-
+tive AI as part of one of literacy’s aims–helping learners 
+recognize how to use technology in the process of 
+meaning- making (Leu & Kinzer,  2000), while always 
+keeping in mind the importance of developing critical 
+literacy skills that facilitate responsible intra- actions with 
+the world.
+Acknowledgments
+We thank Kristen Reynolds, Jonathan Dodge, and the 
+anonymous reviewers for their feedback, which strength-
+ened this work. We also thank the special issue guest edi-
+tors, Ty Hollett and Brad Robinson, for their support.
+Conflict of Interest Statement
+We have no conflict of interest to disclose.
+ENDNOTE
+i  For cultural critiques on the use of generative AI in visual art, see Jiang 
+et al. (2023) and Wong (2023). We thank Kristen Reynolds for pointing 
+us to this work.
+REFERENCES
+Akgun, S., & Greenhow, C. (2022). Artificial intelligence in education: 
+Addressing ethical challenges in K- 12 settings. AI and Ethics, 2(3), 
+431–440. https:// doi. org/ 10. 1007/ s4368 1-  021-  00096 -  7
+Andersen, R. (2023). Does Sam Altman know what he’s creating? The 
+Atlantic. https:// www. theat  lantic. com/ magaz ine/ archi  ve/ 2023/ 09/  
+sam-  altma  n-  opena  i-  chatg  pt-  gpt-  4/ 674764/  
+Anderson, J., Rainie, L., & Luchsinger, A. (2018). Artificial intelligence 
+and the future of humans. Pew Research Center. https:// www. pewre  
+search. org/ inter  net/ 2018/ 12/ 10/ artif  icial -  intel  ligen  ce-  and-  the-  futur  
+e-  of-  humans/  
+Barad, K. (2000). Reconceiving scientific literacy as agential literacy: Or, 
+learning how to intra- act responsibly within the world. In Doing sci -
+ence + culture  (1st ed., pp. 221–258). Routledge.
+Barad, K. (2007). Meeting the universe halfway: Quantum physics and 
+the entanglement of matter and meaning . Duke University Press.
+Barad, K. (2011). Nature’s queer performativity. Qui Parle , 19(2), 121–
+158. https:// doi. org/ 10. 5250/ quipa  rle. 19.2. 0121
+Bender, E. M., Gebru, T., McMillan- Major, A., & Shmitchell, S. (2021). 
+On the Dangers of Stochastic Parrots: Can Language Models Be Too 
+Big? Proceedings of the 2021 ACM Conference on Fairness, 
+Accountability, and Transparency, 610–623. https:// doi. org/ 10. 1145/  
+34421 88. 3445922
+Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, 
+form, and understanding in the age of data. Proceedings of the 58th 
+Annual Meeting of the Association for Computational Linguistics , 
+5185–5198. https:// doi. org/ 10. 18653/  v1/ 2020. acl-  main. 463
+Celis Bueno, C., Chow, P .- S., & Popowicz, A. (2024). Not “what” , but 
+“where is creativity?”: Towards a relational- materialist approach to 
+generative AI. AI & Society, 1–13. https:// doi. org/ 10. 1007/ s0014 6-   
+024-  01921 -  3
+Collins, J., & Blot, R. K. (2003). Literacy and literacies: Texts, power, and 
+identity . Cambridge University Press.
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Taking Responsibility for Meaning and Mattering: An Agential Realist Approach to Generative AI and Literacy  |  577Cramer, N. V . (2018). Using trauma- informed pedagogy to make liter -
+acy and learning relevant and engaging for students of poverty. Texas 
+Association for Literacy Education Yearbook , 5, 77–83.
+Crawford, K. (2024). Generative AI’s environmental costs are soaring—
+and mostly secret. Nature , 626(8000), 693. https:// doi. org/ 10. 1038/  
+d4158 6-  024-  00478 -  x
+Crouch, E., Radcliff, E., Hung, P ., & Bennett, K. (2019). Challenges to 
+school success and the role of adverse childhood experiences. Aca -
+demic Pediatrics , 19(8), 899–907. https:// doi. org/ 10. 1016/j. acap.  
+2019. 08. 006
+Dolphijn, R., & van der Tuin, I. (2012). New materialism: Interviews & 
+cartographies . Open Humanities Press. https:// doi. org/ 10. 3998/ ohp.  
+11515 701. 0001. 001
+Freire, P ., & Macedo, D. (1987). Literacy: Reading the word and the world . 
+Routledge. https:// doi. org/ 10. 4324/ 97802 03986103
+Gee, J. P . (2015). The new literacy studies. In J. Rowsell & K. Pahl (Eds.), 
+The Routledge handbook of literacy studies  (pp. 35–48). Routledge.
+Geronimus, A. T. (2023). Weathering: The extraordinary stress of ordi-
+nary life in an unjust society. Little, Brown Spark.
+Graff, H. J. (1991). The literacy myth: Cultural integration and social 
+structure in the nineteeth century  (Repr. of the ed. , Acad. Press, 
+1979). Transaction Publ.
+Harwell, D., Tiku, N., & Oremus, W . (2022). Stumbling with their words, 
+some people let AI do the talking. Washington Post. https:// www.  
+washi  ngton  post. com/ techn  ology/  2022/ 12/ 10/ chatg  pt-  ai-  helps -  writt  
+en-  commu  nicat  ion/ 
+James, M. (1990). Demystifying literacy: Reading, writing and the 
+struggle for liberation. Convergence , 23(1), 14–26.
+Jiang, H. H., Brown, L., Cheng, J., Khan, M., Gupta, A., Workman, D., 
+Hanna, A., Flowers, J., & Gebru, T. (2023). AI art and its impact on 
+artists. Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, 
+and Society , 363–374. https:// doi. org/ 10. 1145/ 36002 11. 3604681
+Kak, A., & West, S. M. (2023). 2023 landscape: Confronting tech power. 
+AI Now Institute. https:// ainow  insti tute. org/ 2023-  lands  cape
+Kambhampati, S. (2023). Can LLMs Really Reason and Plan? Blog@
+CACM. https:// cacm. acm. org/ blogs/  blog-  cacm/ 27626 8-  can-  llms-   
+reall y-  reaso  n-  and-  plan/ fulltext
+Kiser, M. (2023). September 1 . Generative AI and Large Language Mod-
+els. CPO Magazine. https:// www. cpoma  gazine. com/ cyber  -  secur  ity/ 
+the-  death -  of-  authe  ntici  ty-  gener ative -  ai-  and-  large -  langu  
+age-  models/  
+Kuby, C. R., & Rowsell, J. (2017). Early literacy and the posthuman: Ped-
+agogies and methodologies. Journal of Early Childhood Literacy , 
+17(3), 285–296. https:// doi. org/ 10. 1177/ 14687 98417 715720
+Leander, K., & Boldt, G. (2013). Rereading “a pedagogy of multilitera-
+cies”: Bodies, texts, and emergence. Journal of Literacy Research , 
+45(1), 22–46. https:// doi. org/ 10. 1177/ 10862 96X12 468587
+Leu, D. J., & Kinzer, C. K. (2000). The convergence of literacy instruc-
+tion with networked technologies for information and communica -
+tion. Reading Research Quarterly , 35(1), 108–127. https:// doi. org/ 10.  
+1598/ RRQ. 35.1. 8
+Májovský, M., Černý, M., Kasal, M., Komarc, M., & Netuka, D. (2023). 
+Artificial intelligence can generate fraudulent but authentic- looking 
+scientific medical articles: Pandora’s box has been opened. Journal 
+of Medical Internet Research , 25, e46924. https:// doi. org/ 10. 2196/  
+46924  
+Marche, S. (2022). The college essay is dead. The Atlantic. https:// www.  
+theat  lantic. com/ techn  ology/  archi  ve/ 2022/ 12/ chatg  pt-  ai-  writi  ng-  
+colle  ge-  stude  nt-  essays/ 672371/  
+McEneaney, J. E. (2006). Agent- based literacy theory. Reading Research 
+Quarterly , 41(3), 352–371. https:// doi. org/ 10. 1598/ RRQ. 41.3. 3
+Microsoft Developer (Director). (2023). State of GPT | BRK216HFS. 
+https:// www. youtu  be. com/ watch?v= bZQun 8Y4L2A
+Mirra, N., & Garcia, A. (2021). In search of the meaning and purpose of 
+21st- century literacy learning: A critical review of research and practice. Reading Research Quarterly , 56(3), 463–496. https:// doi. org/  
+10. 1002/ rrq. 313
+Naqvi, R. (2015). Postcolonial approaches to literacy: Understanding 
+the ‘other’ . In J. Rowsell & K. Pahl (Eds.), The Routledge handbook of 
+literacy studies  (pp. 49–61). Routledge.
+New London Group. (1996). A pedagogy of multiliteracies: Designing 
+social futures. Harvard Educational Review , 66(1), 60–93. https://  
+doi. org/ 10. 17763/  haer. 66.1. 17370 n67v2 2j160u
+Perrigo, B. (2023). Exclusive: The $2 Per Hour Workers Who Made Chat-
+GPT Safer. Time. https:// time. com/ 62476 78/ opena  i-  chatg  pt-  kenya -   
+worke  rs/ 
+Peters, M. A., Jackson, L., Papastephanou, M., Jandrić, P ., Lazaroiu, G., 
+Evers, C. W ., Cope, B., Kalantzis, M., Araya, D., Tesar, M., Mika, C., 
+Chen, L., Wang, C., Sturm, S., Rider, S., & Fuller, S. (2023). AI and 
+the future of humanity: ChatGPT- 4, philosophy and education – 
+critical responses. Educational Philosophy and Theory , 1–35, 828–
+862. https:// doi. org/ 10. 1080/ 00131 857. 2023. 2213437
+Reiss, M. J. (2021). The use of AI in education: Practicalities and ethical 
+considerations. London Review of Education , 19(1), 1–14. https:// doi.  
+org/ 10. 14324/  LRE. 19.1. 05
+Ruiz, P ., & Fusco, J. (2024, March 31). Glossary of artificial intelligence 
+terms for educators . Center for Integrative Research in Computing 
+and Learning Sciences. https:// circls. org/ educa  torci  rcls/ ai-  glossary
+Schacht, K. (2023). Bridging the AI language gap in Africa and beyond. 
+Deutsche Welle. https:// www. dw. com/ en/ bridg  ing-  the-  ai-  langu  age-  
+gap-  in-  afric  a-  and-  beyond/ a-  66331763
+Schaul, K., Chen, S. Y ., & Tiku, N. (2023, April 19). Inside the secret list of 
+websites that make AI like ChatGPT sound smart. Washington Post. 
+https:// www. washi  ngton  post. com/ techn  ology/  inter active/ 2023/ ai-   
+chatb  ot-  learn  ing/ 
+Solaiman, I., Talat, Z., Agnew, W., Ahmad, L., Baker, D., Blodgett, S. L., 
+Daumé, H., Dodge, J., Evans, E., Hooker, S., Jernite, Y., Luccioni, A. 
+S., Lusoli, A., Mitchell, M., Newman, J., Png, M.- T., Strait, A., & Vas-
+silev, A. (2023). Evaluating the Social Impact of Generative AI Systems 
+in Systems and Society (Version 2). arXiv. https:// doi. org/ 10. 48550/   
+ARXIV . 2306. 05949  
+Surovell, E. (2023, February 8). ChatGPT has everyone freaking out 
+about cheating. It’s not the first time. The Chronicle of Higher Educa -
+tion. https:// www. chron  icle. com/ artic  le/ chatg  pt-  has-  every  one-  freak  
+ing-  out-  about -  cheat  ing-  its-  not-  the-  first -  time
+Tacheva, J., & Ramasubramanian, S. (2023). AI empire: Unraveling the 
+interlocking systems of oppression in generative AI’s global order. 
+Big Data & Society, 10(2), 1–13. https:// doi. org/ 10. 1177/ 20539 51723  
+1219241
+Williamson, B. (2024). The social life of AI in education. International 
+Journal of Artificial Intelligence in Education , 34(1), 97–104. https://  
+doi. org/ 10. 1007/ s4059 3-  023-  00342 -  5
+Winner, L. (1989). The whale and the reactor: A search for limits in an 
+age of high technology . University of Chicago Press.
+Wolfram, S. (2023). What Is ChatGPT Doing … and Why Does It 
+Work? Stephen Wolfram | Writings . https:// writi  ngs. steph  enwol  fram.  
+com/ 2023/ 02/ what-  is-  chatg  pt-  doing -  and-  why-  does-  it-  work/  
+Wong, Ş. (2023). The origin of clouds. Logic Magazine, 19. https:// logic  
+mag. io/ supa-  dupa-  skies/  the-  origi  n-  of-  clouds/  
+Y an, D. (2024). Posthuman creativity: Unveiling cyborg subjectivity 
+through ChatGPT. Qualitative Inquiry , 1–12. https:// doi. org/ 10.  
+1177/ 10778 00424 1231923
+Zuckerman, E. (2023). Timnit Gebru looks at corporate AI and sees a lot of 
+bad science  (85). Reimagining the internet. Retrieved September 27, 
+2023, from https:// publi  cinfr astru  cture. org/ podca  st/ 85-  timni  t-  gebru/   
+Submitted October 2, 2023   
+Final revision received July 8, 2024   
+Accepted July 23, 2024
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+578  |  Reading Research Quarterly , 59(4)Priya C. Kumar (corresponding author) is an Assistant 
+Professor in the College of Information Sciences and 
+Technology, Pennsylvania State University, University Park, 
+Pennsylvania, USA; email: priya.kumar@psu.edu .
+Kelley Cotter  is an Assistant Professor in the College of 
+Information Sciences and Technology, Pennsylvania State 
+University, University Park, Pennsylvania, USA; email: 
+kcotter@psu.eduLaura Y. Cabrera is an Associate Professor in the 
+Departments of Engineering Science and Mechanics and 
+Philosophy, Pennsylvania State University, University Park, 
+Pennsylvania, USA; email: lcabrera@psu.edu
+ 19362722, 2024, 4, Downloaded from https://ila.onlinelibrary.wiley.com/doi/10.1002/rrq.570, Wiley Online Library on [10/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

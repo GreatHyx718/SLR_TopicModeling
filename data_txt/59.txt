@@ -1,0 +1,656 @@
+A posthumanist approach to AI literacy
+Zhaozhe Wanga,*, Chaoran Wangb
+aInstitute for the Study of University Pedagogy & Department of Curriculum, Teaching and Learning, OISE, University of Toronto, 3359 Mississauga 
+Road, Mississauga, Ontario, L5L 1C6, Canada
+bDepartment of Writing, Colby College, 5290 Mayflower Hill, Waterville, ME, 04901, USA
+ARTICLE INFO
+Keywords:
+Posthumanism
+GenAI
+AI literacy
+literacy practices
+Agency
+Multilingual writersABSTRACT
+How can posthumanism help us reframe AI-mediated literacy practices? And what implications 
+does such reframing have for cultivating AI literacy in language and literacy education? This 
+article explores these two imperative questions through a case study analyzing two multilingual 
+undergraduate students ’ meaning-making and meaning-negotiation intra-actions with AI tech-
+nologies in a writing classroom. The case study reveals a productive tension between these stu-
+dents ’ experiments with posthumanist literacy and their entrenched humanistic assumptions. 
+Ultimately, through the case study, the authors hope to demonstrate that reframing and re- 
+engaging with AI literacy through a posthumanist lens may offer students and educators a rela-
+tional approach to developing and cultivating AI literacy.
+Few would question the transformative potential of generative artificial intelligence (AI) technologies in language and literacy 
+education. Democratized by products such as ChatGPT, Gemini, Grok, and Llama, generative AI-based large language models are 
+programmed and trained to produce humanlike speech in response to user inputs. Such “thing power ” (Bennett, 2010 ), while being 
+unleashed in education, “opens new literacy learning possibilities while also presenting new demands and challenges in literacy 
+teaching and assessment at all levels of education ” (Ciampa et al., 2023 , p. 187), and “transforms the social imaginary of a 
+tech-mediated way of being ” (Wang, 2024 ). Despite the overwhelming sense of uncertainty, bewilderment, anxiety, or even fear felt by 
+language and literacy educators about the shifting educational landscape, the consensus appears to be that students ’ literacy practices 
+are increasingly mediated by AI technologies, which will become an integral facet of their literacy lives. As such, it is crucial for literacy 
+educators to cultivate critical AI literacies (Gupta et al., 2024 ; Ng et al., 2021 ; Wang & Wang, 2025 ) in response to AI-mediated literacy 
+practices, even as they remain committed to the ethical refusal of AI. In other words, educators and students alike need to adapt to the 
+new communicative realities in public spaces as well as educational contexts —be it AI-charged, AI-free, or anywhere in between —by 
+developing a meta-awareness of the ways of meaning-making.
+Indeed, in response to these new communicative realities, scholars from literacy studies, applied linguistics, and writing studies are 
+actively recontextualizing theories and methodologies from digital literacy, multiliteracy, multimodal writing, and digital rhetoric, 
+among other fields (Ciampa et al., 2023 ; Davis & Taczak, 2023 ; Saenkhum & Kim, 2023 ; MLA-CCCC Joint Task Force on Writing & AI, 
+2024 ). These scholarly responses range from defining and characterizing the role of AI technologies in literacy practices (Byrd, 2023 ; 
+Gupta et al., 2024 ; Pecorari, 2023 ) and analyzing their affordances and constraints (Kang & Yi, 2023 ; Sasaki, 2023 ; Vee, 2023 ; 
+Warschauer et al., 2023 ), to offering guidance on their ethical use in the classroom (Graham, 2023 ; Johnson, 2023 ; Praphan & Pra-
+phan, 2023 ). Not surprisingly, AI technologies are widely perceived in these scholarly responses as an alien and alienating force that 
+*Corresponding author.
+E-mail addresses: zhaozhe.wang@utoronto.ca (Z. Wang), chaowang@colby.edu (C. Wang). 
+Contents lists available at ScienceDirect
+Computers and Composition
+u{�~zkw! s{yo|kr o>!ÐÐÐ1ow�o �to~1m{y2w{m k�o2m{y|m {y
+https://doi.org/10.1016/j.compcom.2025.102933Computers  and Composition  76 (2025)  102933  
+Available  online  9 April  2025  
+8755-4615/©  2025  The Author(s).  Published  by Elsevier  Inc. This is an open access  article  under  the CC BY license  
+( http://creativecommons.org/licenses/by/4.0/  ). 
+fundamentally alters our habitual ways of reading, writing, thinking, and communicating, and ultimately, our ways of being—for 
+better or for worse. For example, Gupta et al.’s (2024) digital collaborative autoethnography has identified and cataloged a range of 
+metaphors for AI in the academic-public domain, which are placed on an anthropomorphic spectrum. Some are human-inspired (e.g., 
+helper/assistant, AI-tutor) while some are non-human-inspired (e.g., cake-making, AI-tool). Regardless of the “humanness” of the 
+metaphors, AI technologies seem to be discursively objectified and othered as an algorithmic entity that is, at best, not fully sentient 
+(Gupta et al., 2024 ).
+Anthropocentric metaphors for AI are not merely descriptive; they also play a constitutive role in shaping how we and our students 
+interact with AI in literacy practices and pedagogical approaches within an AI-mediated classroom environment. Viewing AI as either 
+an autonomous android or “just a tool” represents two ends of a conceptual spectrum that reflect a modernist anthropocentric 
+paradigm. This paradigm assumes a rigid human/non-human binary, attributing subjectivity and agency solely to humans (Thiel et al., 
+2019 ), while overlooking the entanglement of human agents and non-human, material actants in their intra-actions and becomings 
+(Barad, 2007 ; Kuby, 2017 ). Such framing risks oversimplifying the complex relationality of human-AI interactions. In practice, these 
+perspectives can influence educators’ responses to AI-mediated literacy practices in contrasting ways. An uncritical anthropomor -
+phization of AI may encourage an overreliance on its technological affordances, reinforcing a transactional view of literacy practices. 
+Conversely, dismissing AI as a mere tool may lead to punitive measures that undermine students’ exploratory acts of meaning-making 
+and meaning-negotiation with these technologies. Both extremes limit opportunities for cultivating meaningful and ethical engage -
+ment with AI in the classroom. Instead, what is needed is a more nuanced understanding of AI literacy that accounts for the relational 
+agency of human and non-human actors and encourages reflective, critical conversations about participation in an AI-mediated world.
+Growing scholarly interest in posthumanist theories within literacy studies, applied linguistics, and writing studies has been 
+instrumental in introducing alternative conceptualizations and framings that challenge traditional anthropocentric and binary per-
+spectives (e.g., Boyle, 2018 ; Cooper, 2019 ; Kuby et al., 2019 ; Leander & Burriss, 2020 ; Lewis, 2021 ; Micciche, 2014 ; Pennycook, 2018 ; 
+Rickert, 2013 ). Posthumanism shifts our attention away from the unproductive framing of the transactional and sometimes antago -
+nistic dichotomy between us, human literacy agents, and the machines. Instead, it focuses on the relationality between human agents, 
+non-human actants, and the co-production of agency through human-machine intra-actions (Barad, 2007 ; Latour, 2005 ; Thiel et al., 
+2019 ). As such, posthumanism appears particularly relevant as material agency becomes more expressive during an “AI revolution” 
+sweeping through all educational domains. How can posthumanism help us reframe AI-mediated literacy practices? And what im-
+plications does such reframing have for cultivating AI literacy in language and literacy education? We set out to explore these two 
+imperative questions through a case study analyzing two multilingual undergraduate students’ meaning-making and 
+meaning-negotiation intra-actions with AI technologies in a writing classroom. The case study reveals a productive tension between 
+these students’ experiments with posthumanist literacy and their entrenched humanistic assumptions. Ultimately, through the case 
+study, we hope to demonstrate that reframing and re-engaging with AI literacy through a posthumanist ethico-onto-epistemological 
+(doing/being/knowing) lens (Kuby, 2017 ) may offer students and educators a relational approach to developing and cultivating AI 
+literacy.
+We begin by defining a posthumanist approach to AI literacy and contextualizing relevant posthumanist theories in the study of AI- 
+mediated literacy practices. We then describe the participants (Zhimo and Asuka), context, and methodology of the case study before 
+closely examining Zhimo and Asuka’s AI-mediated literacy practices as well as AI literacy through a posthumanist lens. We conclude 
+by considering the implications of posthumanism for the development of AI literacy.
+A Posthumanist Approach to AI Literacy
+Given the fluidity and ongoing evolution of the notion of AI, “AI literacy” is constantly being defined and redefined in educational 
+studies. Broadly speaking, AI literacy means “having the essential abilities that people need to live, learn and work in our digital world 
+through AI-driven technologies,” defined recently by Ng et al. (2021) . In their exploratory review of thirty articles addressing AI 
+literacy, Ng et al. (2021) further unpack four aspects that constitute AI literacy: know and understand, use and apply, evaluate and 
+create, and ethical issues. The last of these four aspects—ethical issues—stands out as particularly thorny, given the widespread 
+recognition of ethical concerns in the development, training, and application of AI technologies (Bender et al., 2021 ). In response, a 
+critical dimension—skepticism about the alleged AI-induced transformations—is now considered an integral part of AI literacy, as 
+educators grapple collectively with the ethical implications of the latest iterations of generative AI. For example, Bali’s (2023) notion 
+of critical AI literacy underscores the importance of skepticism toward and critiques of the harms, inequalities, and social injustices 
+that AI technologies may exacerbate and reproduce. Through a case study of multilingual university writers’ AI-assisted writing 
+processes, Wang and Wang (2025) propose a framework that includes critical AI awareness, critical AI positionality, critical strategies 
+for human-AI interactions, and critical evaluation of AI affordances. The framework’s emphasis on criticality highlights student 
+writers’ informed, agentic, and strategic engagement with AI technologies in their academic writing tasks. Notably, Wang and Wang’s 
+(2025) framework gestures toward an acknowledgement of AI’s rhetorical agency by adapting concepts such as “positionality” and 
+“interactions” rather than merely “using and applying,” as seen in earlier models.
+However, in widely circulated theories of AI literacy, AI technologies are conceptualized as discrete, objectified entities that are 
+nonetheless algorithmically powerful enough to assist human rhetorical agents in meaning making. As Kuby (2017)) aptly puts it, “At a 
+paradigmatic level, these perspectives and approaches still privilege the human. The human does something to materials—the human 
+uses, manipulates, and moves around materials” (p. 162). Further, the ethical issues that have so long baffled and concerned educators 
+are prescribed by a humanistic ontology that operates upon human-constructed meanings as representations of realities. Take, for 
+example, the ethical concern with authorship and textual ownership. As literacy educators scramble to tackle the “crisis of (possible) 
+plagiarism” (Johnson, 2023 , p. 172) by punishing students for any traces of AI-invented or AI-mediated content when (possibly) 
+detected in their texts, few have stopped to ponder the question of where the institutionalized obsession with authorship and textual Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+2 
+ownership originated. Atkinson (2003) argues that the notions of authorship and textual ownership originated from “the complex, 
+interrelated development of social individuation and early democratic capitalism” (p. 55). The institutionalization of such ideas was 
+driven by the need of a market economy to sustain the production/consumption cycle that defines the individual. In other words, we 
+are defined by the meanings we produce and consume. Profoundly, the value of authorship and textual ownership reflects a focus on 
+the agency of individuals independent of their material affordances and constraints. Therefore, an ethics of authorship, when trans -
+lated into pedagogical practices in literacy education, shapes the discourse of academic integrity. This discourse recognizes exclusively 
+the individual writer’s production of meaning, while it disciplines the writer’s negotiation of meaning with non-human actants, such as 
+AI chatbots. After all, meaning is thought of as a human creation imposed onto the otherwise meaningless material world; it is a mere 
+representation of how realities are interpreted through the human mind. AI challenges traditional notions of authorship, but rather 
+than treating this as a new crisis, we recognize that similar tensions have existed throughout literacy history. Authorship has long been 
+constructed as a means of policing textual authority and maintaining human exclusivity in meaning-making. The rise of AI further 
+destabilizes this function, not by replacing human authors but by exposing the already distributed nature of agency in writing. By 
+drawing from posthumanist perspectives, we resist framing AI’s role in authorship as a loss of control and instead consider how it 
+reveals broader shifts in how writing and agency operate.
+Literacy, as traditionally understood, has evolved alongside technological innovations—from oral to written, print, and digital 
+forms. AI-mediated literacy complicates this trajectory by blurring boundaries between author and audience, human and machine. 
+This evolving dynamic calls for a reexamination of literacy not as a static skill but as an adaptive process shaped by human-nonhuman 
+assemblages. McLuhan’s (1964) observation that “we shape our tools, and thereafter our tools shape us” underscores the 
+co-constitutive relationship between humans and technology. Similarly, Ulmer’s (2003) concept of “electracy”—the literacy of digital 
+and electronic media—captures the evolving nature of literacy practices in the AI era. In this context, AI-mediated literacy represents 
+not a rupture but a continuation of the interplay between human creativity and technological innovation. It is important to note that 
+the term “literacy” carries historical connotations tied to human-centered practices. In adopting a posthumanist perspective, we seek to 
+expand the concept of literacy to include the co-productive processes involving both human and non-human actants. Thus, “AI lit-
+eracy” in this context refers not merely to the ability to leverage AI technologies in meaning-making but to an understanding of how 
+meaning emerges through the entanglement of human and AI agencies.
+Specifically, posthumanism extends this understanding by questioning the assumptions, values, and ethics behind the anthropo -
+centric conceptualization of meaning-making through literacy practices (Kuby, 2017 ; Micciche, 2014 ). In doing so, posthumanism 
+de-centers humans as the de facto, only, and autonomous meaning-making agents. This is because, according to posthumanist theories, 
+agency is shared and distributed among entangled human agents and nonhuman actants (Barad, 2007 ; Bennett, 2010 ; Gries, 2015 ; 
+Latour, 2005 ); it is not possessed by a human agent but is “enacted” through intra-actions between “bodies, ideas, materials, languages, 
+time, technologies, and space” (Kuby, 2017 , p. 161). For example, in Actor-Network Theory (Latour, 2005 ), agency is not an intrinsic 
+property of humans or objects but emerges through relational effects in a network of interactions. In this view, AI technologies function 
+as actants—entities that influence and are influenced by human agents, reshaping literacy practices. Since agency is not statically 
+located within any agent/actant but is in a constant state of becoming, it would be less meaningful to discuss whose agency is at work 
+than to anticipate the material and discursive consequences of agential intra-action. In light of posthumanist reconceptualizations that 
+place human literacy agents and nonhuman actants within the same ethico-onto-epistemological dimension, a posthumanist approach 
+to AI literacy inherently repudiates framings that dismiss AI technologies as mere inanimate, non-agentic tools designed to assist 
+human agents. As such, literacy in and with AI is not only understood as socially and culturally situated practices (Barton & Hamilton, 
+1998 ; Gee, 1990 ; Heath, 1983 ; Street, 1984 ), as the New Literacy Studies has long theorized; it is also an enactment of human agency 
+and AI actancy. Put simply, a posthumanist approach to AI literacy does not frame AI literacy as an understanding of how human 
+agents make and negotiate meaning with the help of AI; rather, it frames AI literacy as an understanding of how meaning emerges 
+through human-AI intra-actions.
+Relatedly, two additional oft-cited poststructuralist concepts, namely assemblage and rhizomaticity (Deleuze & Guattari, 1987 ), 
+contribute to our collective understanding of how posthumanist relationality plays out in AI-mediated literacy. Assemblage is an 
+approximate translation of the French term agencement, which Deleuze and Guattari (1987) coined to mean a spontaneous, emergent, 
+and ongoing process of arranging heterogeneous, vital elements, such as bodies, signs, and concepts (Leander & Burriss, 2020 ; 
+Sherman et al., 2020 ). In theorizing material vitality, Bennett (2010) further defines assemblages as “ad hoc groupings of diverse 
+elements, of vibrant materials of all sorts” and “living, throbbing confederations that are able to function despite the persistent 
+presence of energies that confound them from within” (pp. 23–24). More specifically, an assemblage is always temporarily formed as 
+diverse human agents, nonhuman actants, discourses, and signs come into contact and relate to one another. Assemblages operate 
+rhizomatically. The rhizome, as Deleuze and Guattari (1987) characterize it, “has neither beginning nor end, but always a middle 
+(milieu) from which it grows and which it overspills” (p. 21). Drawing from Deleuze and Guattari (1987) , Sherman et al. (2020)
+describe the rhizomatic nature of assemblages: “Rhizomes consist of a multiplicity of lines operating within a shifting territory, forming 
+contours, connections, and breaks. By means of these lines, assemblages shift and reconfigure, potentially extending in any direction to 
+form new assemblages” (p. 107). Put simply, an assemblage forms not around human subjectivity, but around the agentic moves of any 
+actants. Engaging in literacy practices can be conceived of, from a posthumanist perspective, as forming an assemblage of hetero -
+geneous vital things. For example, Gries (2019) invokes the notion of assemblage when describing students’ writing processes: “During 
+the composing act… an assemblage of bodies, technologies, materials, and so forth intra-act with students to produce various as-
+semblages of texts, images, and other artifacts, themselves constituted by their own diverse assemblages” (p. 334). AI may partake in 
+this assemblage in various ways. When a student interacts with Google, the algorithms of the search engine customize content by 
+factoring in not only the search terms but also personal data such as search history, location, and other user-specific preferences. When Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+3 
+a student engages in ongoing dialogues with an AI chatbot, they may build on ideas sparked by AI generated texts, while AI adapts and 
+responds to the student’s inputs. In this dynamic, meaning is co-produced through the complex interplay between human and algo-
+rithm, with AI playing an active role in co-creating texts, reinforcing the posthumanist notions of assemblage and rhizomaticity that 
+extend beyond the human subject.
+Central to these assemblages is language, which serves as both a medium and a technology that shapes human-AI intra-actions. 
+Whether in textual, multimodal, or computational forms, language is the site where meaning, power, and agency coalesce. In 
+multilingual contexts, the linguistic diversity of human literacy agents becomes entangled with AI systems, which are often trained on 
+specific language datasets, potentially reinforcing linguistic hierarchies or creating new forms of meaning-making. A posthumanist 
+approach must therefore account for how language mediates the relational dynamics between humans and AI, recognizing that 
+language itself is part of the assemblage and contributes to the distributed agency.
+Ultimately, a posthumanist approach to AI literacy “refutes a modernist, mechanistic, reductivist, or positivist worldview, which 
+often approach the world in terms of dualisms or binaries: nature/culture, human/others, agency/determinism, mind/body, etc.” 
+(Lewis, 2021 , p. 103). At the turn of the century, during the heyday of computerizing the writing classroom, Selfe (1999) warned of a 
+now-all-too-familiar ideological stance toward machines: “We now think of computers, for instance, as a simple tool that individual 
+teachers can use or ignore in their classrooms as they choose… Teachers who choose not to use computers in class believe that their 
+decision absolves them and their students from paying critical attention to technology issues” (p. 23). Echoing Selfe (1999), Leander 
+and Burriss (2020) compellingly argue that “[l]iteracy scholarship can no longer pretend that texts and practices of literacy float free 
+from machines, and especially AI and its computational agents” (p. 1273). They continue to call on an expanded prepositional vo-
+cabulary for such mixed ontologies—“AI is not merely ‘between’ us and other humans, or texts, it is ‘inside,’ ‘with,’ ‘alongside,’ ‘above, 
+’ ‘toward,’ ‘against’ and ‘among’ us” (Leander & Burriss, 2020 , p. 1273). If the computer in Selfe’s (1999) book did not fully convince 
+then-literacy educators to rethink human positionality, perhaps the latest iteration of algorithmic actants will at least challenge us to 
+move beyond viewing human literacy agents as “an independent and autonomous entity with clear cut boundaries but as a hetero -
+geneous subject whose self-definition is continuously shifting, and that exists in a complex network of human and non-human agents 
+and the technologies that mediate between them” (Sharon, 2014 , p. 135). AI technologies are likely to continue evolving at an 
+exponential rate, driven by the supercharged capitalist machinery, as will human-AI assemblages. As such, we must remain cautious 
+about how corporate anthropomorphism (e.g., “AI boosts our productivity and improves our life”) shapes a transactional perspective of 
+human-AI relations. To summarize, cultivating AI literacy through a posthumanist prism is, essentially, relational work rather than 
+transactional work. Doing so questions the capitalist discourse of celebratory anthropomorphism and anthropocentric discourse of 
+human subjects leveraging the power of AI “tools;” doing so is premised upon a critical sensibility to the human-AI entanglement that 
+produces meaning.
+Two cases in point
+Participants and context
+The present study is part of a larger research project that examines AI-mediated literacy practices among postsecondary writers. 
+The focal participants in this study, Zhimo and Asuka, are both international students enrolled in a private college in the United States. 
+The students were selected because they were taking writing intensive courses and were actively engaged in AI-assisted writing 
+practices at the time of the study. Additionally, we chose to focus on the two participants as they had different cultural-linguistic 
+backgrounds, educational experiences, and AI-related literacy practices given their differing statuses at the institution. Exploring 
+these two cases can offer valuable and interesting contrasts in the participants’ perceptions and experiences in relation to their 
+distinctive AI literacy approaches.
+Zhimo, a male first-year student from China, intended to major in Physics and had a keen interest in advancing his academic studies 
+in the natural sciences. Before coming to the US, he attended an international high school in China. During the time of the study, Zhimo 
+was taking an academic writing course in the college, which was specifically designed to help multilingual students navigate issues in 
+written communication in western academic contexts. Zhimo took this writing course to develop the writing skills needed to achieve 
+greater fluency in the academic discourse as he works toward his undergraduate degree at the institution.
+Asuka was a female, Japanese student working as a language assistant in the East Asian Department at the same institution. She 
+holds a Bachelor of Arts in International Relations from a university in Japan. Upon graduation, she came to the US and started working 
+as a Japanese language assistant. As part of the institutional requirement, she enrolled in coursework with other students and selected 
+an elective writing-intensive course featuring generative AI and writing. Asuka took this writing course with the purpose of advancing 
+her writing skills and gaining insights into how generative AI technology is impacting writing practices.
+Data collection and analysis
+Data collection was conducted in Spring 2024. Two participants were recruited via email on a voluntary basis at the end of the 
+semester. A purposive sampling approach was used to select students who self-identified as users of generative AI in their course 
+assignments. Data sources included the participants’ written drafts of course assignments, AI logs, written self-reflections on their AI 
+usage, and one-on-one interviews. The two students were enrolled in different writing-intensive courses taught by the same instructor, 
+who allowed the use of generative AI to assist with student writing in accordance with a shared AI policy. Zhimo’s class was specifically 
+designed to help multilingual students improve their academic writing skills in preparation for first-year writing, whereas Asuka’s class Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+4 
+was an upper-level writing elective open to both multilingual and native English-speaking students. While the specific assignments and 
+learning objectives of the two courses differed, both included class sessions focused on the critical and ethical use of AI tools in writing 
+and allowed students to use AI based on their individual needs (e.g., multilingual students seeking generative AI for language and 
+editing support). Students who used generative AI were required to submit a history of their AI use along with a reflection on their 
+usage.
+In this study, we focus on two major assignments completed by the students for their courses. These assignments were chosen 
+because the students reported extensive use of AI in their work. Zhimo’s assignment was an argumentative essay in which students 
+were asked to respond to a debatable issue related to technology. In his essay, “Who Is More Scientific,” Zhimo shared his views on the 
+well-known Kozma-Clark debate regarding the relationship between media, technology, and learning. Asuka’s assignment was an 
+essay that allowed students to choose their own genre to share their experiences with generative AI. In her essay, “Collaborative Poetry 
+Creation,” she demonstrated how generative AI and human interpretation collaborated to translate a Japanese poem, inspired by an 
+event she helped organize in the East Asian department.
+One-on-one semi-structured interviews were conducted between the students and one of the researchers, lasting between 1.5 and 2 
+h. The interviews aimed to explore the students’ AI-mediated literacy experiences and their perceptions of generative AI. The various 
+types of data documented the students’ AI-assisted literacy practices, the decision-making involved, and the context of their AI usage, 
+providing insights into how the participants interacted with AI, evaluated its outputs, and incorporated them into their specific writing 
+activities. We conducted a thematic analysis of these data sources, examining the identified themes through the lens of Wang and 
+Wang’s (2025) critical AI literacy model (awareness, positionality, human-AI interactions, and evaluation of AI affordances) and 
+posthuman theories. By triangulating these data sources, we gained a nuanced understanding of the students’ AI literacy. Below, we 
+present the two cases as narratives before synthesizing the themes.
+Case 1: Zhimo’s critical-pragmatic humanistic AI literacy
+Zhimo’s literacy practices with AI technologies, along with his guided reflection on these practices, can be characterized as the 
+quintessential embodiment of a humanistic approach with a critical-pragmatic orientation. Specifically, Zhimo conceptualized and 
+interacted with the generative AI program ChatGPT as a highly sophisticated and capable “tool” that can be “调教 (“tiao jiao”: trained 
+and manipulated)” in order to perform a set of distinct, human-articulated writing tasks. Ostensibly, Zhimo’s anthropomorphic 
+discourse during the reflective interview suggests that he views AI technologies as autonomous yet manipulable agents, capable of 
+providing language and writing assistance. Fundamentally, however, this very anthropomorphic discourse is strategically employed in 
+a depersonalizing manner to distinguish human linguistic and rhetorical agency from the AI’s material affordances. In other words, 
+Zhimo appears critically aware of and well-versed in what AI technologies can and cannot do in their role as, anthropomorphically, 
+language and writing assistants. Yet, he positions himself, a human, as the ultimate literacy agent capable of making and commu -
+nicating meaning. Furthermore, Zhimo’s humanistic AI literacy is complicated by a critical-pragmatic orientation in his strategic 
+interactions with what he considers to be ontologically distanced “tools” during his writing processes. While acknowledging AI’s 
+limitations and inherent biases, Zhimo claims to ignore or circumvent these shortcomings to exploit the linguistic and rhetorical power 
+of AI. In what follows, we closely examine Zhimo’s AI literacy—conceptualization, positionality, intra-actions, and evaluation— -
+through a posthumanist lens.
+(1) Conceptualization and positionality
+Zhimo perceives and conceptualizes AI technologies as a sophisticated, linguistically and rhetorically capable tool that can be “调教 
+(“tiao jiao”: trained and manipulated)” to perform a set of distinct, human-articulated writing tasks. During the 2-hour reflective 
+interview, Zhimo used multiple metaphors to refer to ChatGPT and AI technologies in general, including “search engine,” “machine,” 
+and “tool.” These metaphors indicate his conscious or subconscious attempt to objectify and depersonalize AI technologies, positioning 
+them as distinctly nonhuman and non-agentic. It is tempting to interpret Zhimo’s stereotypical conceptualization as a consequence of 
+his uncritical parroting of the widely circulating public and scholarly discourse on the promises and perils of AI. However, his well- 
+reasoned justification for such a conceptualization suggests that he made an informed decision to engage with AI technologies as 
+belonging to a discrete class of entities that are good at—and only good at—performing certain writing tasks. For example, when asked 
+for what purpose he engages with AI technologies, Zhimo responded that he treats AI as “a more powerful and intelligent search engine 
+(than Google, for example)” and that he uses AI as a grammatical and rhetorical “template” where he can simply plug in certain logical 
+expressions and obtain “stylish writing” that conforms to the “public’s” rhetorical expectations. For Zhimo, a typical textual product of 
+his literacy practices in an academic setting—for example, an argumentative essay—consists of two independent yet somewhat 
+interdependent components: 逻辑 (“luo ji”: logic; presentation of an argument) and 语法 (“yu fa”: grammar; structural and lexical 
+sophistication). Accordingly, he characterizes his AI-interactive philosophy as allowing AI to refine the “grammar” of his writing while 
+keeping the “logic” largely intact, as he equates the latter with his “authentic” literacy agency worth preserving. In other words, Zhimo 
+does not believe that AI is able to mediate, let alone dictate, how he makes sense of the world through literacy practices—nor should it.
+Upon further probing into his rationale behind his interactive philosophy, Zhimo referenced the operational logic of generative AI 
+technologies, which he had been exposed to in popular public discourses. As he assertively explained: 
+“Based on my current understanding of AI, it seems that AI extracts certain keywords and logic from your statements, applies 
+these logical patterns across the entire internet, searches for similar logical elements, and then puts them together. This brings 
+up a very curious aspect of AI: its understanding of human logic appears to be multi-layered… However, for humans, their logic 
+often includes some leaps. This might be due to a unique logic inherent to the human brain, which makes it very different from 
+basic coding. This is why in the process of developing AI, it needs to construct its own language system from the most Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+5 
+fundamental logic, or it tries to understand the brain’s leap-like thinking from within this language system. This is why it can 
+only serve as a language prediction model.”
+Here, in comparing and contrasting the operational logic of AI with that of the human brain, Zhimo highlighted the uniqueness and 
+non-replicability of the ways in which humans create and communicate meaning. This seems to imply a taken-for-granted anthropo- 
+superiority. Referencing the oft-cited notion of “stochastic parrots,” which predicts sequences of linguistic forms based on probabilistic 
+information about how such forms appear in vast training data (Bender et al., 2021 ), Zhimo essentially denied AI’s capability of truly 
+comprehending human speech and negotiating meaning. He dismissed the seemingly coherent AI-generated text as merely the result of 
+a non-agentic machine carrying out algorithmic procedures. In doing so, Zhimo positioned himself, and by implication, anyone who 
+interacts with AI, as the de facto literacy agent with the epistemic and rhetorical agency to manipulate artificial intelligence to their 
+advantage.
+(2) Intra-actions
+There is a salient and interesting discrepancy between a posthumanist interpretation of Zhimo’s intra-actions with AI during the 
+process of co-producing the essay titled “Who is More Scientific” and Zhimo’s own anthropocentric reflection on his alleged use of AI 
+tools in writing the essay. That is, while Zhimo quite consistently asserted his authorial agency and characterized AI assistance as 
+peripheral and insignificant, from a posthumanist perspective, his authorial agency is nonetheless deeply entangled with AI tech-
+nologies. Following his conceptualization of AI and his interactive philosophy, Zhimo purposefully and continuously used the verb “调 
+教” (“tiao jiao,” roughly translated as “to train in a manipulative manner”) throughout the reflective interview to describe his in-
+teractions with AI during his writing processes. In concrete, practical terms, Zhimo’s 调教 refers to the iterative process of refining the 
+prompts he communicates to an AI program until he receives a response that optimally fulfills his intended rhetorical objective.
+To illustrate his particular approach to 调教 (tiao jiao), Zhimo entered a demo prompt into the textbox of ChatGPT: “Please make 
+this paragraph more academic,” after pasting a paragraph from an essay he wrote. Upon receiving the response, he noticed that the use 
+of the first-person pronoun “I” had decreased dramatically, which he understood as a reliable indicator of academic discourse. 
+However, Zhimo was not satisfied with the monotonous tone of the AI-mediated text and entered a new prompt to further 调教 (tiao 
+jiao) the AI “assistant”: “Please only correct the grammar mistakes in my origin [sic] paragraph, and don’t change any context of it.” 
+Although Zhimo had yet to be convinced that the further refined version more accurately captured his intended meaning, he decided 
+that it adequately demonstrated his point about the excessive human labor involved in 调教 (tiao jiao) AI. Given the inevitable, 
+relatively labor-intensive negotiation required, Zhimo consciously maintained a pragmatic distance and resorted to AI “assistance” 
+only for copyediting work. As he claims: 
+“I’d almost never engage with AI when brainstorming ideas. When I try to brainstorm, I often end up thinking about how I could 
+use AI for brainstorming. AI might be able to come up with ideas for me, but even thinking about that isn’t easy. By the time I 
+come up with the idea of using AI to brainstorm, I’ve already thought of a lot of ideas myself. As for outlining, since I’ve already 
+thought it all out, why do I need to use AI to express it?”
+While Zhimo insists on his authorial agency and ownership of his “ideas” and “logic,” his AI-mediated essay “Who is More Sci-
+entific” can indeed be productively viewed through a posthumanist lens as an epiphany of the entanglements and intra-actions of 
+human agents and AI actants co-creating epistemic realities. In his post-writing reflection, Zhimo expressed deep concerns about his 
+excessive use of “subordinate clauses and passive voice” as “a non-native English speaker who is not so good at English writing.” 
+Acutely aware of the readability challenges these linguistic features may pose to his audience, Zhimo “relinquished” part of his 
+authorial agency and sought assistance from ChatGPT in the hope that sentence clarity would be improved without compromising, in 
+fact, further amplifying, his original rhetorical objectives. Zhimo’s “fix my language but not my meaning” approach aligns with his 
+dualistic view of humans and AI technologies, whereby meaning is a strictly human product, while language can be modified by AI 
+algorithms to more effectively convey that meaning. However, the posthumanist notion of meaning-making through “intra-action” 
+would question and potentially reject Zhimo’s framing.
+For example, in Zhimo’s first draft, he made the following claim: 
+“The understanding of relatively basic science usually can explain the macroscience and the phenomenon of macroscience could 
+usually find causation in relatively micro perspective.”
+He then prompted ChatGPT to clarify and refine the sentence, which resulted in the following iteration: 
+“Understanding relatively basic science often enables explanations at the macroscopic level. Similarly, phenomena in macro -
+science can often trace their causation to relatively micro perspectives.”
+Grammatically speaking, the original version is a stereotypical “run-on” sentence that appears syntactically confusing and risks 
+being misinterpreted. Without modifying the overall tone, ChatGPT accurately split the run-on sentence into two shorter sentences, 
+which improved readability and minimized the risk of misinterpretation. Quoting media theorist Marshall McLuhan’s well-known 
+phrase, “the medium is the message,” the AI-clarified sentence conveys a newly constructed meaning that only partially overlaps 
+with Zhimo’s original intended meaning. In other words, the new “message” is co-produced through the interaction among entangled 
+agents and actants: Zhimo, ChatGPT training data and algorithms, scholarly sources, assignment prompts, and writing instructions, 
+among others. While Zhimo claimed in his reflection that ChatGPT had mistakenly modified the intended use of the verb “explain,” 
+there is no denying that the alleged AI modification is a manifestation of meaning negotiation that transcends what he claims to be his 
+original creation.Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+6 
+(3) Evaluation
+Zhimo’s critical-pragmatic orientation toward AI assistance consistently influences, or even dictates, his evaluation of the affor-
+dances and constraints embedded in meaning-negotiation intra-actions. His pragmatism is characterized by his single-minded pursuit 
+of “高效” (“gao xiao”: efficiency), which, in line with his understanding of what is valued in academic writing, means conveying the 
+message in the most logically tidy, rhetorically unsophisticated, and stylistically lucid manner. During the 1.5-hour interview session, 
+Zhimo mentioned the notion of 高效 (“gao xiao”: efficiency) eight times, suggesting his internalized axiological disposition toward the 
+purpose of AI assistance, if not the sole purpose, given his conceptualization of AI as merely a powerful tool as opposed to an agentic 
+meaning maker.
+Zhimo’s positive appraisal of AI assistance highlights its efficiency in contextualizing his writing within a specific discourse 
+community and tailoring it to a particular audience, thanks to AI’s rhetorical proximity to an imagined, in Zhimo’s own words, “native 
+speaker of academic English.” Zhimo’s internalized profile of an “academic reader” can be characterized as inclined to employ 
+highbrow, pedantic jargon typically unfamiliar to a “non-native English writer’s” vocabulary. As such, when ChatGPT transformed his 
+original draft into one featuring depersonalized, nominalized, and decolloquialized discourse, he deemed the text more acceptable to 
+his intended academic readers. In this sense, ChatGPT served as an effective and efficient proxy reader that reinforces his pre-
+conceptions of what the overgeneralized notion of an “academic audience” ought to expect from his text. Zhimo continued to justify his 
+positive appraisal of AI by highlighting the valorization of communicative speed and efficiency in a capitalist cultural ambience: 
+“In the information age, where fast interaction between people and the external environment is required—or rather, where 
+there is a continuous process of iteration on the person themselves—such interaction is better when it is more frequent in a 
+positive environment. If that’s the case, I would definitely be more inclined to accept a tool that can accelerate this interaction 
+between me and the environment.”
+Zhimo’s evaluation reveals that he does not consider AI to be an integral, mediational, and constitutive element of the “envi -
+ronment;” rather, he views AI as an external, instrumental force that “accelerates” interactions between humans and the environment. 
+Zhimo’s subconscious externalization of AI ensures that he evaluates it as an independent entity rather than considering the complex 
+intra-actions between AI and his own subjective actions.
+Case 2: Asuka’s guided posthumanist writing experiment
+In contrast to Zhimo’s skeptical, pragmatic approach to AI’s presence in his literacy practices, Asuka seemed more open to 
+experimenting with AI-mediated literacy practices from a posthumanist perspective. Asuka’s guided posthumanist creating writing 
+experiment involved translating and visually representing a classical Japanese verse, thereby recreating the sensory experience of 
+appreciating the Japanese poem for English-speaking readers. What distinguished Asuka’s approach from Zhimo’s was ostensibly the 
+level of AI engagement and integration, with AI playing a considerably more prominent role in Asuka’s attempt to remediate the 
+Japanese poem. However, the intra-actions between Asuka and AI, as documented in her essay, reflect a more subtle yet profound 
+difference in the conceptualization of AI agency. That is, Asuka viewed the poetry remediation project as an emergent, negotiated, and 
+co-created work that established its ontological basis upon the entanglement between herself, a human agent, and AI technologies, a 
+material actant.
+(1) Conceptualization and positionality
+Asuka did not hesitate to recognize the shared authorial agency, beginning her essay titled “Collaborative Poetry Creation: 
+Exploring Generative AI and Human Interpretation in Translating Japanese Classical Poetry” with an acknowledgment that the poetry 
+(re)creation is a collaborative effort: “I am excited to share my collaborative work with generative AI, which is creating English poetry 
+translated from an authentic Japanese classical verse.” This positionality, which decenters the human writer as the de facto “author,” 
+consistently characterized Asuka’s intra-actions with AI technologies and her reflective discourse about these interactions. For 
+example, Asuka carefully opted for the inclusive first-person pronoun “we” when describing the composing process involving human- 
+AI negotiation. Moreover, Asuka never referred to AI technologies as “tools” or used any other metaphors that would imply they are 
+cognitively lesser beings. As Asuka claimed in her reflection, “It might not be a merely tool since it influences on my language use to 
+express myself well. In a way, I might be able to say that ChatGPT is a participant of my writing, but I will never forget that human 
+being are agents of writing because our brain functions differently from AI, which is not replaceable by AI at the moment” Asuka’s 
+discursive positionality of AI reveals an embrace of the anthropomorphic conceptualization of AI, which is often criticized for its 
+corporate undertones. Further, she has internalized this perspective, viewing it as the appropriate way for humans to engage with AI.
+For instance, after several rounds of negotiation where Asuka and ChatGPT refined the wording of a translated poem, Asuka re-
+flected on the process, framing it as their collaboration: “I am highly satisfied with the result of our collaborative Tanka because we 
+effectively played different roles to reflect the spirit of the Japanese original Tanka.” The use of the plural first-person pronoun “we” to 
+address an inanimate actant, which is counterintuitive from a humanistic perspective, suggests that Asuka has internalized a post-
+humanist ontology regarding AI-mediated literacy practices. In fact, Asuka’s stated purpose for this collaboration is framed as 
+investigating “how generative AI, equipped with a vast amount of training data, can capture the poet’s intentions and implications of 
+the poetry,” rather than simply using AI to assist in translating the poem. In other words, it is a project about AI, of AI, and by AI, 
+highlighting AI’s “thing power,” or material actancy/vitality. Asuka intentionally downplayed her authorial voice and intentions to 
+allow for greater scrutiny of her intra-actions with AI.
+(2) Intra-actions
+The intra-actions between Asuka and AI technologies centered on the translation and repurposing of a Tanka-style poem selected 
+from a traditional Japanese poem collection composed of one hundred poems from around 800 years ago. As Asuka explained, given 
+the concise and condensed form of Tanka-style poems (31 syllables in total), every word in a Tanka is meticulously chosen to “evoke Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+7 
+vivid imagery and deep emotions. ” Therefore, a primary rhetorical objective of the Asuka-AI collaboration is to capture and retain the 
+poetic imagery and emotions entangled in the original text. This objective differs significantly from Zhimo ’s, as achieving it requires a 
+deeper level of creative and critical engagement with the text, based on the co-authors ’ rhizomatic meaning-making and negotiation.
+Asuka selected Minister Sarumaru ’s (猿丸大夫 ) Tanka and promoted ChatGPT to “provide a translation and explanation of the 
+Tanka in English. ” The original text reads:
+奥山 に (Okuyama ni) - Deep mountains,
+もみぢ 踏みわけ (Momiji fumiwake) - Stepping through the autumn leaves,
+Fig. 1.A screenshot of the images used in Maiko ’s collaborative poem creation.Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+8 
+鳴く鹿の (Naku shika no) - Crying deer,
+声きく時ぞ (Koe kiku toki zo) - When hearing the voice,
+秋は悲しき (Aki wa kanashiki) - Autumn is sad.
+In response, ChatGPT produced a literal translation in prose form and provided a brief summary of the poem’s themes and 
+techniques. While Asuka found the AI-translated text semantically accurate, she considered it rhetorically lacking, as it did not capture 
+the culturally nuanced interpretation familiar to Japanese readers. Asuka elaborated, “In Japan, the common interpretation of this 
+Tanka is that the deer is crying for its mate, as male deer are known to cry out to attract female deer in autumn. The poem is believed to 
+reflect the emotions of people who long for distant partners.” This culturally specific interpretation was missing in the AI translation, 
+which prioritized semantic accuracy over cultural context. Despite the translation’s lack of subtle cultural connotations, Asuka 
+determined that it sufficiently met the expectations. She believed that cultural nuances are negotiable and should be approached as 
+fluid concepts. As a result, Asuka continued to prompt ChatGPT to recreate the Tanka in English while adhering to the genre’s con-
+ventions: “Translate the Tanka 「奥山に もみぢ踏みわけ 鳴く鹿の 声きく時ぞ 秋は悲しき」 into a 5–7–5–7–7 syllable English 
+Tanka.” Below is the recreated Tanka in English:
+In the deep mountains, (5 syllables)
+Trampling through crimson leaves, (7)
+Hearing the deer’s cry, (5)
+Indeed, it is the moment, (7)
+When autumn feels so sad. (6)
+Stylistically, the recreated English Tanka perfectly conformed to the syllabic conventions specified in Asuka’s prompt. However, 
+Asuka realized that the AI appeared to prioritize one task at a time. While the new version adhered better to the Tanka format, it 
+deviated slightly from the poet’s intended meaning. To address these shortcomings, Asuka continued her negotiation by providing six 
+specific lexical instructions, requesting that ChatGPT replace certain words with alternatives to better capture the original intent. 
+Below is the finalized version:
+In the deep mountains, (5 syllables)
+A deer steps through fallen leaves (8)
+Crying for his mate (5)
+When I hear the deer’s voice (7)
+Autumn feels most nostalgic (7)
+With the completion of the text, Asuka transitioned into the visualization phase. For this stage of the project, Asuka opted for Bing 
+AI/Copilot, as OpenAI’s DALL-E service was only accessible to paid users. To experiment with different visual manifestations of the 
+poetic imagery, Asuka prompted Bing AI/Copilot to generate two images corresponding to the first English Tanka created solely by AI 
+and the second English Tanka after the Asuka-AI negotiation, respectively. The generated images can be characterized as stylistically 
+identical but differing in their interpretations of the two slightly different versions of the same poem. Stylistically, the images represent 
+digital fantasy art that uses vibrant, intense colors to dramatize the natural landscapes with mountains, forests, and atmospheric 
+lighting. Both sets of images feature deer crying in the foreground, which adds a sense of tranquility and melancholy. The most salient 
+difference, however, is the hue. The images corresponding to the AI-generated Tanka present a crimson hue, while those corresponding 
+to the collaboratively created Tanka showcase a golden hue. This visual difference can be traced to the presence of the words “crimson 
+leaves” in the AI-generated Tanka. Asuka preferred the second set of images: “In my opinion, the second version is more successful in 
+capturing the imagery prompted by the original Japanese Tanka and is more effective in encouraging spectators to imagine what made 
+the poet compose the poem.”( Fig. 1).
+(3) Evaluation
+In contrast to Zhimo’s critically distanced evaluation of AI’s practical assistance in his rhetorical invention, Asuka’s evaluation 
+focused on the entanglement of her own linguistic and rhetorical resources and AI affordances. In other words, AI performance was not 
+evaluated as an external technical support in a human-agent-led writing process; rather, it was assessed as an integral part of the 
+human-AI entangled meaning negotiation process. Furthermore, Asuka’s dynamic evaluation throughout the writing process consti -
+tuted an indispensable component of her meaning negotiation, as the qualitative evaluative results guided her to prompt and negotiate 
+with AI in a productive manner. It is worth pointing out, however, that Asuka’s evaluative criteria seemed nonetheless human-centric, 
+if not specifically Asuka-centric. This is because Asuka, consciously aware of her role as the Japanese cultural informant in their intra- 
+actions, ultimately assessed their entangled meaning negotiation according to her subjective measure of “satisfaction.” For example, 
+recognizing the seemingly mechanical and formulaic translation of the original Tanka by ChatGPT, Asuka promptly expressed her 
+dissatisfaction and intervened by drawing on her culturally situated knowledge of how the poem is conventionally interpreted in 
+Japan. Later, when comparing the visualizations generated by Bing AI/Copilot, Asuka based her evaluation on which images she 
+believed more effectively captured the sentiments evoked by the original Tanka and which images she thought more effectively 
+provoked an emotional resonance in an English-speaking audience. She was wary of AI’s potential for unintended and unconscious 
+alterations to the emotional connection she aimed to establish with her audience. As she mentioned during the interview, “I mean like 
+how people like how people come across, like how it like, you know, even though I want I want readers to, to think about me or come 
+across as like soft or gentle or kind or something like that. ChatGPT might change my intention to be more aggressive or not kind, too 
+mechanic, not humans’ warmness.”Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+9 
+Discussion
+From a posthumanist perspective, Zhimo and Asuka demonstrated distinct approaches to conceptualizing, positioning, intra-acting 
+with, and evaluating AI technologies in their literacy practices. Zhimo views AI as a sophisticated tool, capable of linguistic and 
+rhetorical tasks, which can be trained and manipulated to perform specific, human-defined literacy functions. He engages with AI 
+through an iterative process, refining his prompts until the chatbot produces a response that aligns with his rhetorical goals. Zhimo 
+then evaluates AI as an external assistant, using criteria that emphasize rhetorical efficiency. In contrast, Asuka adopts an anthro -
+pomorphic view of AI, seeing it as an agentic literacy sponsor and collaborator with its own distinct authorial voice. Her intra-action 
+with AI in translating and repurposing the Japanese Tanka highlights an iterative process of co-constructing and negotiating meaning, 
+rather than simply seeking a more efficient articulation of a predetermined idea. Asuka’s evaluation centers on the entanglement 
+between her own linguistic and rhetorical resources and the affordances of AI, recognizing AI’s agency as an integral part of the 
+human-AI entangled process of meaning negotiation. What might account for these distinct approaches?
+First, Zhimo’s and Asuka’s distinct approaches may be shaped by the differing rhetorical objectives, genres, and audiences asso-
+ciated with their specific writing tasks. Zhimo voluntarily sought AI assistance to enhance linguistic accuracy and rhetorical efficiency 
+while composing his essay, whereas Asuka was guided to experiment with AI in the process of repurposing a poem. These two 
+rhetorical tasks set the tone for their differing levels of engagement with AI. Further, Zhimo’s essay was aimed at a scientific discourse 
+community in an English-speaking context, a community with which he was not yet fully familiar but consciously trying to assimilate. 
+The relatively rigid genre conventions of this community led him to use AI for cosmetic adaptation. In contrast, Asuka’s creative 
+project required significant cultural appropriation and meaning negotiation, extending beyond the rhetorical agency of any single 
+intelligent being. Translating a Japanese Tanka into English with a culturally appropriate tone and evoking similar emotional re-
+sponses from English readers was a challenge that surpassed her linguistic and cultural readiness. As a result, she approached her 
+collaboration with AI in a far less human-centered way.
+Second, their approaches reflect differing assumptions, values, and philosophical orientations regarding technological intervention 
+in literacy practices. Zhimo adopts an anthropocentric, instrumental perspective, seeking to maximize AI’s utility by programming it to 
+achieve predetermined goals more effectively and efficiently. In contrast, Asuka embraces an anthropomorphic view, positioning AI as 
+a co-participant in the meaning-making process and attributing agency to it as a collaborator. Zhimo’s focus on efficiency and precision 
+suggests that he views AI as a tool to optimize human tasks. His iterative refinement process reflects a preference for control and 
+productivity in literacy practices. Asuka, on the other hand, emphasizes the rhizomatic co-construction of meaning, aligning with the 
+relational framework of assemblage. This may stem from her belief in AI’s ability to offer insights or interpretations engineered by 
+algorithms originally trained on human-generated data, rather than merely executing tasks. It’s worth noting that in her Tanka project, 
+Asuka’s collaboration with AI to produce digital fantasy art that complements her translations and reflects the cultural and emotional 
+nuances of the original poem exemplifies how multimodal AI tools expand the boundaries of traditional text-based literacy practices. 
+This collaboration also sheds light on the evolving nature of genre conventions in AI-mediated literacy, where multimodal affordances 
+redefine how meaning is composed and interpreted.
+Third, while neither Zhimo nor Asuka explicitly discussed how their multilingual/translingual literacies (Canagarajah, 2013 ; Lu & 
+Horner, 2013 ; Silva & Wang, 2021 ) were entangled with the assemblages of writing involving AI, these literacies, in conjunction with 
+AI’s sophisticated yet covert algorithmic appropriation of language resources, indeed mediate their practices. The predominance of 
+Standard White American English in AI training data subtly reinforces linguistic hierarchies (Noble, 2018 ). This bias shapes Zhimo and 
+Asuka’s experiences, as they interact with a system that prioritizes a standardized linguistic style over their multilingual identities. 
+Zhimo’s strategic use of ChatGPT to refine the grammar of his argumentative essay illustrates a pragmatic negotiation of agency. While 
+he positions AI as a linguistic tool to align his writing with academic expectations, this interaction is mediated by his multilingual 
+background, as he consciously prioritizes logical expression over stylistic nuances. Similarly, Asuka’s collaboration with AI in 
+translating and recreating a Japanese Tanka demonstrates how her multilingual resources inform and challenge AI’s algorithmic 
+rendering of cultural and emotional depth (Gonzales, 2018 ).
+Despite their distinct approaches, both Zhimo and Asuka demonstrated a moderate level of critical understanding of how their 
+literacy practices have become inextricably entangled with AI mediation, whether or not they explicitly acknowledged its distributed 
+agency. Both expressed confusion and concern over the inevitable shared authorship and the fluidity of human-nonhuman assem -
+blages. Additionally, they were critically aware of the ethical implications of either dismissing AI’s powerful mediation or uncritically 
+celebrating its affordances, though they articulated this awareness to varying degrees. Ultimately, through their AI-mediated literacy 
+practices, both Zhimo and Asuka were cultivating what Burriss and Leander (2024) describe as “critical posthumanist literacy,” 
+through which framework they promote “sociotechnical justice” and “working to build ethical human-nonhuman assemblages” (p. 3).
+Pedagogically, we argue that re-inscribing and perpetuating the anthropocentric dichotomy between human writers and AI “tools” 
+in classroom discourse is unproductive, if not counterproductive. Zhimo and Asuka’s cases demonstrate that only by recognizing the 
+posthumanist relationality among human writers, readers, technologies, texts, and contexts can we begin to rethink the social purpose 
+of literacy practices—and, consequently, the pedagogical goals of teaching literacy. As AI technologies solidify their role as essential 
+agentic forces in literacy ecologies, writers like Zhimo and Asuka are consciously or subconsciously expanding their AI literacy rep-
+ertoires. In her analysis of scholarly and public discourses regarding ChatGPT, Anderson (2023) illustrates the limitations of framing 
+the technology solely through the metaphors of a “tool” or “collaborator” in the writing classroom. She cautions, “Whatever path 
+forward we choose, we model how students should think about this new technology by the way we use it and by the way we talk about 
+it. We should choose our words wisely” (Anderson, 2023 , p. 11). This is an opportune time for language and literacy educators to shift 
+their focus away from dichotomizing human writers and AI “tools” (or “collaborators” for that matter)—and attempting to exclude the Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+10 
+latter from the classroom—toward embracing the human-nonhuman assemblages and distributed literacy agency.
+Conclusion
+This study explores what it means to understand AI literacy through a posthumanist lens, focusing on the emergent, relational 
+agency distributed among writers, AI technologies, and their assemblages. Through the cases of Zhimo and Asuka, we have illustrated 
+how AI-mediated literacy practices challenge traditional notions of authorship, agency, and meaning-making, revealing both the 
+possibilities and tensions of integrating AI into literacy education. However, these cases are not isolated instances; rather, they 
+highlight broader dynamics that extend across different educational and cultural contexts. Future work might examine how similar 
+tensions unfold in disciplines beyond writing studies, in multilingual environments, or within institutions where AI use is more heavily 
+regulated.
+Further, while this study foregrounds posthumanist insights, it is crucial to situate them within the broader, unresolved debates 
+surrounding AI’s societal and ethical implications. These concerns remind us that while a posthumanist approach offers valuable 
+insights by deconstructing and complementing the humanistic perspective, it is not an all-encompassing framework. AI literacy is not a 
+neutral set of competencies but a contested site where human and nonhuman forces interact, shaping power, access, and episte -
+mologies in diverse ways. In practical terms, literacy educators can apply this framework by (1) encouraging students to critically 
+interrogate AI-generated texts, treating them not as static outputs but as co-constructed, contingent artifacts that emerge through 
+human-nonhuman collaboration; (2) recognizing that AI literacy is not just about textual engagement but also about navigating 
+multimodal, algorithmic, and linguistic dimensions of meaning-making; (3) creating learning environments that allow for both 
+engagement with and ethical refusal of AI technologies, deepening students’ understanding of relational agency within literacy 
+practices.
+In conclusion, a posthumanist approach to AI literacy does not reject or replace a humanistic one, nor should it be used to un-
+critically stereotype any particular set of literacy practices or conceptualizations of AI affordances (Kuby et al., 2019 ). Instead, it 
+deconstructs, decenters, and complements the humanistic perspective, offering a renewed understanding of our own capacities and 
+limitations as human literacy agents. Future research can extend this work by examining AI literacy in diverse educational, linguistic, 
+and disciplinary contexts, as well as addressing the ethical challenges inherent in AI-mediated literacy practices. By embracing a 
+relational, situated, and evolving approach to AI literacy, we can ensure that our frameworks remain responsive to the complexities of 
+this evolving communicative reality.
+CRediT authorship contribution statement
+Zhaozhe Wang: Writing – review & editing, Writing – original draft, Resources, Project administration, Methodology, Investi -
+gation, Formal analysis, Conceptualization. Chaoran Wang: Writing – review & editing, Writing – original draft, Resources, Project 
+administration, Methodology, Investigation, Data curation.
+Declaration of competing interest
+No potential conflict of interest was reported by the authors.
+Data availability
+The data that has been used is confidential.
+References
+Anderson, S. S. (2023). Places to stand. Multiple metaphors for framing ChatGPT’s corpus. Computers and Composition, 68, Article 102778. https://doi.org/10.1016/j. 
+compcom.2023.102778
+Atkinson, D. (2003). Writing and culture in the post-process era. Journal of Second Language Writing, 12(1), 49–63 .
+Bali, M. (2023). What i mean when i say critical ai literacy. April 1. Reflecting Allowed: Maha Bali’s Blog about Education https://blog.mahabali.me/educational- 
+technology-2/what-i-mean-when-i-say-critical-ai-literacy/ .
+Barad, K. (2007). In . Duke University Press . 
+Barton, D., & Hamilton, M. (1998). Local literacies: Reading and writing in one community. Routledge . 
+Bender, E., McMillan-Major, A., Gebru, T., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? FAccT, 21, 610–623. March 
+3-10, 2021 .
+Bennett, J. (2010). Vibrant matter: A political ecology of things. Duke University Press . 
+Boyle, C. (2018). Rhetoric as a posthuman practice. The Ohio State University Press . 
+Burriss, S. K., & Leander, K. (2024). Critical posthumanist literacy: Building theory for reading, writing, and living ethically with everyday artificial intelligence. 
+Reading Research Quarterly, early view. https://doi.org/10.1002/rrq.565
+Byrd, A. (2023). Truth-telling: Critical inquiries on LLMs and the corpus texts that train them. Composition Studies, 51(1), 135–142 .
+Canagarajah, A. S. (2013). Negotiating translingual literacy: An enactment. Research in the Teaching of English, 48(1), 40–67 .
+Ciampa, K., Wolfe, Z. M., & Bronstein, B. (2023). ChatGPT in education: Transforming digital literacy practices. Journal of Adolescent & Adult Literacy, 67(3), 186–195. 
+https://doi.org/10.1002/jaal.1310
+Cooper, M. M. (2019). The animal who writes: A posthumanist composition. University of Pittsburgh Press . 
+Where we are: AI and writingDavis, M., & Taczak, K. (Eds.). Composition Studies, 51(1), (2023), 135–186 .
+Deleuze, G., & Guattari, F. (1987). A thousand plateaus: Capitalism and schizophrenia. University of Minnesota Press . 
+Gee, J. P. (1990). Social linguistics and literacies: Ideology in discourses, critical perspectives on literacy and education. Routledge . Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+11 
+Gonzales, L. (2018). Sites of translation: What multilinguals can teach us about digital writing and rhetoric. University of Michigan Press . 
+Graham, S. S. (2023). Post-process but not post-writing: Large language models and a future for composition pedagogy. Composition Studies, 51(1), 162–168 .
+Gries, L. E. (2015). Still life with rhetoric: A new materialist approach for visual rhetorics. Utah State University Press . 
+Gries, L. E. (2019). Writing to assemble publics: Making writing activate, making writing matter. College Composition and Communication, 70(3), 327–355 .
+Gupta, A., Atef, Y., Mills, A., & Bali, M. (2024). Assistant, parrot, or colonizing loudspeaker? ChatGPT metaphors for developing critical AI literacies. Open Praxis, 16 
+(1), 37–53. https://doi.org/10.55982/openpraxis.16.1.631
+Heath, S. B. (1983). Ways with words: Language, life, and work in communities and classrooms. Cambridge University Press . 
+Johnson, G. P. (2023). Don’t act like you forgot: Approaching another literacy “crisis” by (re)considering what we know about teaching writing with and through 
+technologies. Composition Studies, 51(1), 169–175 .
+Kang, J., & Yi, Y. (2023). Beyond ChatGPT: Multimodal generative AI for L2 writers. Journal of Second Language Writing, 62, Article 101070. https://doi.org/10.1016/ 
+j.jslw.2023.101070
+Kuby, C. R. (2017). Poststructural and posthuman theories as literacy research methodologies: Tensions and possibilities (Eds.). In R. Zaidi, & J. Rowsell (Eds.), 
+Literacy lives in transcultural times (pp. 157–174). Routledge .
+Kuby, C. R., Spector, K., & Thiel, J. J. (2019). Cuts too small: An introduction (Eds.). In C. R. Kuby, K. Spector, & J. J. Theil (Eds.), Posthumanism and literacy education: 
+Knowing/becoming/doing literacies (pp. 1–17). Routledge .
+Latour, B. (2005). Reassembling the social: An introduction to actor-network theory. Oxford University Press . 
+Leander, K. M., & Burriss, S. K. (2020). Critical literacy for a posthuman world: When people read, and become, with machines. British Journal of Educational 
+Technology, 51(4), 1262–1276. https://doi.org/10.1111/bjet.12924
+Lewis, R. S. (2021). Technology, media literacy, and the human subject: A posthuman approach. Open Book Publishers . 
+Lu, M.-Z., & Horner, B. (2013). Translingual literacy, language difference, and matters of agency. College English, 75(6), 582–607 .
+McLuhan, M. (1964). Understanding media: The extensions of man. McGraw-Hill . 
+Micciche, L. R. (2014). Writing material. College English, 76(6), 488–505 .
+MLA-CCCC Joint Task Force on Writing and AI. (2024). Working paper 3: Building a culture for generative AI literacy in college language, literature, and writing. 
+https://aiandwriting.hcommons.org/working-paper-3/ .
+Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021). Conceptualizing AI literacy: An exploratory review. Computers and Education: Artificial Intelligence, 2, 
+Article 100041. https://doi.org/10.1016/j.caeai.2021.100041
+Noble, S. U. (2018). Algorithms of oppression: How search engines reinforce racism. NYU Press . 
+Pecorari, D. (2023). Generative AI: Same same but different? Journal of Second Language Writing, 62, Article 101067. https://doi.org/10.1016/j.jslw.2023.101067
+Pennycook, A. (2018). Posthumanist applied linguistics. Routledge . 
+Praphan, P., & Praphan, K. (2023). AI technologies in the ESL/EFL writing classroom: The villain or the champion? Journal of Second Language Writing, 62, Article 
+101072. https://doi.org/10.1016/j.jslw.2023.101072
+Rickert, T. J. (2013). Ambient rhetoric: The attunements of rhetorical being. University of Pittsburgh Press . 
+Disciplinary dialoguesSaenkhum, T., & Kim, S. H. (Eds.). Journal of Second Language Writing, , (2023)62 .
+Sasaki, M. (2023). AI tools as affordances and contradictions for EFL writers: Emic perspectives and L1 use as a resource. Journal of Second Language Writing, 62, Article 
+101068. https://doi.org/10.1016/j.jslw.2023.101068
+Sharon, T. (2014). Human nature in an age of biotechnology: The case for mediated posthumanism. Springer . 
+Sherman, B., Haneda, M., & Teemant, A. (2020). A rhizomatic case analysis of instructional coaching as becoming (Eds.). In K. Toohey, S. Smythe, D. Dagenais, & 
+M. Forte (Eds.), Transforming language and literacy education: New materialism, posthumanism, and ontoethics (pp. 104–119). Routledge .
+Silva, T., & Wang, Z. (2021). Reconciling translingualism and second language writing. Routledge . 
+Street, B. V. (1984). Literacy in theory and practice. Cambridge University Press . 
+Thiel, J. J., Kuby, C. R., & Spector, K. (2019). Agency (Eds.). In C. R. Kuby, K. Spector, & J. J. Theil (Eds.), Posthumanism and literacy education: Knowing/becoming/ 
+doing literacies (pp. 19–20). Routledge .
+Ulmer, G. L. (2003). Internet invention: From literacy to electracy. Pearson . 
+Vee, A. (2023). Large language models write answers. Composition Studies, 51(1), 176–181 .
+Wang, C., & Wang, Z. (2025). Investigating L2 writers’ critical AI literacy in AI-assisted writing: An APSE model. Journal of Second Language Writing, 67, Article 
+101187. https://doi.org/10.1016/j.jslw.2025.101187
+Wang, Z. (2024). Post-rhetoric: A rhetorical profile of the generative artificial intelligence chatbot. Rhetoric Review, 43(3), 155–172. https://doi.org/10.1080/ 
+07350198.2024.2351723
+Warschauer, M., Tseng, W., Yim, S., Webster, T., Jacob, S., Du, Q., & Tate, T. (2023). The affordances and contradictions of AI-generated text for writers of English as a 
+second or foreign language. Journal of Second Language Writing, 62, Article 101071. https://doi.org/10.1016/j.jslw.2023.101071
+Zhaozhe Wang is an Assistant Professor at the University of Toronto, where he holds a cross-appointment in the Institute for the Study of University Pedagogy at UTM 
+and Department of Curriculum, Teaching and Learning at OISE. He is author of Doing Difference Differently: Chinese International Students’ Literacy Practices and 
+Affordances and co-editor of Reconciling Translingualism and Second Language Writing. His work, broadly exploring multilingual literacy and digital rhetorics, has also 
+appeared in College Composition and Communication, College English, Composition Forum, Journal of Second Language Writing, Quarterly Journal of Speech, Rhetoric 
+Society Quarterly, Rhetoric Review, among others.
+Chaoran Wang is a Multilingual Writing Specialist and Assistant Professor of Writing at Colby College. Her research examines the issues of literacy development of 
+multilingual students and technology enhanced language learning through the intersecting perspectives of writing studies, applied linguistics, and educational tech-
+nologies. Her recent work has appeared in Computers and Education: Artificial Intelligence, IEEE Transactions on Learning Technologies, Technology, Knowledge, and 
+Learning, and Research Methods in Applied Linguistics. She is currently co-editing two books on AI and writing/language education with Routledge.Z. Wang and C. Wang                                                                                                                                                                                                Computers  and Composition  76 (2025)  102933  
+12 

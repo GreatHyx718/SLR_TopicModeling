@@ -1,0 +1,858 @@
+Unmaking-with AI: Tactics for Decentering through Design
+IOHANNA NICENBOIM ,Delft University of Technology, Delft, The Netherlands
+MARIE LOUISE JUUL SØNDERGAARD ,The Oslo School of Architecture and Design (AHO),
+Oslo, Norway
+JOSEPH LINDLEY ,Lancaster University, Lancaster, UK
+ANURADHA REDDY ,Malmö University, Malmo, Sweden
+YOLANDE STRENGERS ,Monash University, Clayton, Australia
+JOHAN REDSTRÖM ,Umeå University, Umea, Sweden
+ELISA GIACCARDI ,Politecnico di Milano, Milan, Italy
+This article explores the intersections and resonances between unmaking and more-than-human design. We
+begin by aligning unmaking with decentering, a fundamental practice in more-than-human design, through
+their shared movement and materiality. Using Lindström and Ståhl’s notion of the double movement in
+un/making,weanalyzeaseriesofworkshopsfocusedondesigningwithAI,annotatingwhatwasun/madeand
+de/centered during the workshops’ activities. Through this analysis, we introduce two key contributions that
+highlight some opportunities in the diffractive alignment between unmaking and more-than-human design:
+firstly, the notion of “unmaking-with” as an emergent concept to describe a posthumanist unmaking practice,
+and secondly, three decentering tactics—situating, materializing, and enacting—that instantiate this practice
+through design. Finally, we discuss how unmaking can enrich more-than-human design and, conversely, how
+more-than-human design can help define the epistemological scope of unmaking.
+CCS Concepts: • Human-centered computing !Human computer interaction (HCI) ;HCI theory,
+concepts and models ;
+Additional Key Words and Phrases: Unmaking, More-than-human design, Research through design, Conversa-
+tional Agents, AI
+ACM Reference format:
+Iohanna Nicenboim, Marie Louise Juul Søndergaard, Joseph Lindley, Anuradha Reddy, Yolande Strengers,
+Johan Redstrom, and Elisa Giaccardi. 2024. Unmaking-with AI: Tactics for Decentering through Design. ACM
+Trans. Comput.-Hum. Interact. 31, 6, Article 82 (December 2024), 20 pages.
+https://doi.org/10.1145/3685275
+This research, as part of the PhD work of Iohanna Nicenboim, has been supported by a Microsoft Research PhD Scholarship.
+In part this work was supported by Design Research Works under UKRI grant reference MR/T019220/1.
+Authors’ContactInformation:IohannaNicenboim(correspondingauthor),DelftUniversityofTechnology,Delft,TheNether-
+lands; e-mail: I.nicenboim@tudelft.nl; Marie Louise Juul Søndergaard, The Oslo School of Architecture and Design (AHO),
+Oslo, Norway; e-mail: mljuul@aho.no; Joseph Lindley, Lancaster University, Lancaster, UK; e-mail: j.lindley@lancaster.ac.uk;
+Anuradha Reddy, Malmö University, Malmo, Sweden; e-mail: anuradha.reddy@mau.se; Yolande Strengers, Monash Univer-
+sity, Clayton, Australia; e-mail: Yolande.Strengers@monash.edu; Johan Redstrom, Umeå University, Umea, Sweden; e-mail:
+johan.redstrom@umu.se; Elisa Giaccardi, Politecnico di Milano, Milan, Italy; e-mail: elisa.giaccardi@polimi.it.
+This work is licensed under a Creative Commons Attribution-NonCommercial International 4.0 License.
+© 2024 Copyright held by the owner/author(s).
+ACM 1557-7325/2024/12-ART82
+https://doi.org/10.1145/3685275
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+
+82:2 I. Nicenboim et al.
+1 Introduction
+Over the past decade, unmaking and more-than-human design (MTHD) have emerged as
+valuable approaches for designers and researchers in Human-Computer Interaction (HCI) ,
+establishing themselves as promising avenues for generating critical responses to pressing envi-
+ronmental and social challenges [ 27,39,62]. While unmaking and MTHD have distinct corpora
+and approaches, they share common ground and motivations. At the core of both approaches is
+the proposition that to adequately engage with the current environmental and social challenges,
+designers have an ethical duty to “critically rethink the modern, colonialist, and anthropocentric
+inheritance that resonates in and through design cultures” [ 33, p. 2]. Rooted in feminist theory,
+both unmaking and MTHD approaches seem to belong to a broader paradigm shift in HCI known
+as the posthuman turn [ 27]. As such, they can be understood as approaches that converge two
+posthumanist critiques. On the one hand, they challenge human exceptionalism by expanding the
+focus of design to material processes and nonhuman agencies. On the other hand, they contest
+modernist conceptions of ‘humans’ built around the rhetoric of users and progress, centering white,
+male, and able bodies [ 7].
+Exploring the resonances between unmaking and MTHD, the article is organized around two
+questions posed by the editors of this issue: “How can unmaking suggest new standpoints such
+as more-than-human thinking?” and “How can it support new ways of seeing and imagining
+technology?” To answer these questions, we build upon the reasoning articulated by Sable and
+colleagues [ 60], who provocatively asked, “What if we recognize unmaking as a design move for
+agonism?”. We pose a parallel inquiry: What if we recognize unmaking as a move for MTHD? More
+specifically, our exploration delves into the potentialities of aligning unmaking and decentering, an
+MTHD practice that shifts attention from traditional perspectives to marginalized voices [ 47].
+To rehearse this alignment, we extend Lindström and Ståhl’s [ 40,41] concept of the double
+movement in un/making to decentering. Through that framework, we analyze the outcomes of a
+series of workshops conducted in 2020, which invited participants to decenter the figure of the user
+in AI systems and decenter themselves when engaging with AI-enabled conversationalagents
+(CAs)[45]. Using the double movement, we elucidate what was unmade/decentered and what was
+made/accounted for during the workshops. By exploring the resonances between these practices
+using aresearch-through-design (RTD) approach, we address two gaps in HCI scholarship: the
+imperative to delineate the epistemological scope of unmaking [ 62] and the urgency to comprehend
+how posthumanist thinking can be enacted through design [ 47]. Furthermore, our investigation
+introduces novel nuances to both practices: it articulates the alternative imaginaries that emerge
+from unmaking [ 39] and portrays decentering as processes involving material movements [ 47].
+Following this introduction, the article unfolds as follows: Section 2delineates the theoretical
+developmentsthatframeourcontributions,reviewspertinentliteraturefromunmakingandMTHD,
+and explores potential synergies between them. Section 3examines these synergies within our
+design case (focusing on AI-enabled CAs). Building on this, Section 4introduces two key con-
+tributions: first, the concept of “unmaking-with” as an emergent notion to articulate posthuman
+unmaking practices, and second, a trio of decentering tactics to enable these practices: situating,
+materializing, and enacting. Section 5revisits the research questions to discuss how this emergent
+notion of unmaking can offer new ways of envisioning technology and enriching MTH thinking
+and practice.
+While the article seeks to reconcile two theoretical concepts, the emphasis on a practice-based
+approach is crucial. As designers and researchers active in and beyond the realm of HCI, we
+acknowledge that unmaking and decentering serve not only as theoretical constructs but also as
+practical methodologies for designers. Therefore, our aim is to delve deeper into understanding how
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:3
+HCI designers useand expand these concepts. Similarly, while the article can be seen as aiming
+to align two distinct approaches, the alignment we are concerned with is best seen through the
+lens ofdiffraction , a notion that the feminist theorist Karen Barad uses to describe an approach
+that attends to “relations of difference and how they matter” [ 3, p. 71]. That is, while we refer
+to “alignment,” we are not trying to bypass the differences but instead, working towards a space
+where the two practices are entangled to the extent that novel interferences can emerge. Akin to
+the way diffracted light creates a spectrum of possibilities from a single beam, we hope the article
+illuminates the nuances and potential synergies between unmaking and MTHD, revealing new
+perspectives and pathways for HCI design and research.
+2 Exploring Resonances between Unmaking and Decentering
+The intersection of unmaking and decentering, as an MTHD practice, is particularly intriguing
+because both practices seem to involve a form of movement. In these practices, designers move
+away from an established position and gravitate toward a new one. Before exploring this resonance
+further, we will unpack the theoretical underpinnings of unmaking and MTHD and how they have
+been used in the field of HCI.
+2.1 Unmaking
+Unmaking represents an emerging and evolving area of research within HCI. While no comprehen-
+sive definition of unmaking exists, various authors have put forth distinct interpretations of the
+concept. Sabie and colleagues, for example, have defined it as a mode of “thinking, articulation, and
+action that take on an issue primarily by taking away, taking apart, and/or taking down (including
+to the point of intelligibility) what currently exists” [ 61, p. 3]. Similarly, Lindström and Ståhl have
+described their practice as “un/making harmful relationships that have emerged in the aftermath of
+previous makings” [ 40, p. 12].
+Unmaking has been applied in diverse contexts, both in relation to materials and social transfor-
+mations. In relation to materials, it has been explored in processes of decay [ 66], waste [ 40], and
+repair [39,52,56]. One example is the work of Song and Paulos, who explored how 3D-printed
+objectsbreak,split,or bulge whenthermally expandingmicrospheresinside theobject areactivated
+[66]. Another example is the work of James Pierce, who built a camera with a concrete enclosure
+that must be physically destroyed to get access to the photos on the memory card [ 56]. In relation
+to social transformations, unmaking has been explored in participatory design, future-making, and
+social justice [ 39,62]. Lindström and Ståhl have, for instance, invited publics to unmake plastic
+waste, such as plastic straws and Styrofoam, through composting practices [ 40].
+While unmaking spans the seemingly distinct domains of material and social transformations in
+HCI,iteffectivelyinterlinksthem.Stemmingfromthisconnectionisthenotionofcriticalunmaking,
+whichleveragesmaterialtransformationsasdesignmovesforresistance,provocation,emancipation,
+and contestation [ 60,61]. While our article aligns with the notion of critical unmaking, our inquiry
+isnotstronglypositionedinrelationtomaterialsorparticipation.Althoughengagingwithmaterials
+involved in AI systems is an exciting project, it is outside the scope of this article. Similarly, while
+unmaking as an agent of emancipation in relation to AI logics resonates well with our inquiry,
+positioning the inquiry within participatory design would demand a different framing. Instead, the
+article is concerned with unmaking within human-technology relations. In that space, unmaking
+sits next to similar concepts, including notions of refusal [ 23], cracks [ 31], fragility [ 52], pause [ 22],
+slow technology [ 49], misunderstandings [ 48], malfunction [ 69], queerness [ 73], and undesign [ 55].
+Beyond HCI, unmaking has also been developed in other fields. In geography, for example, Feola
+[17] has argued that in order to make space for sustainable societal transformations it is necessary
+to unmake modern capitalist socio-ecological configurations. Drawing on literature across social
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:4 I. Nicenboim et al.
+science, he offered five propositions for unmaking: as a combination of emergent and situated
+processes, as involving both symbolic and material deconstruction, as a contradictory personal
+experience, as an often hidden but strategic potential, and as a generative move. Designers and
+HCI researchers have, in many ways, responded to these propositions.
+2.2 MTHD
+MTHD also represents an emerging and evolving area of research within HCI [ 27]. This approach is
+motivated by the limitations of human-centered approaches to properly respond to the ontological,
+epistemological, and ethical uncertainties that have become apparent through the environmen-
+tal crisis and the increasing agency of technologies like AI [ 10,21,80]. While anthropocentric
+approaches are effective in understanding human needs in technology development, they have
+proven to be less useful in accounting for how humans are always entangled with nonhumans and
+the environment [ 20,24,27,76]. Recognizing these limitations has propelled scholars to advocate
+for non-anthropocentric approaches in HCI [ 12,15,18,26,76] and to critically question: What if
+human-centered thinking, with its underlying humanism, is not just ineffective but potentially
+exacerbates these problems? [ 76].
+MTHD offers an alternative approach to human-centered design by redirecting the focus from
+user-deviceinteractionstotheentangledrelationsbetweentechnologies,humans,andotherspecies.
+While MTHD is grounded in a wide variety of theoretical perspectives (for a summary, see [ 19,21,
+38,76]), this article is aligned with the perspective from the critical posthumanities, especially the
+work by the feminist posthuman theorist Donna Haraway. In particular, this article draws from
+the notion of situated knowledge(s) [ 30], and how it has been expanded in HCI in relation to the
+theory of nomadic design practices [ 75], and more specifically in how it has been generative for
+the design of technology [ 44,45].
+Beyond engaging with posthuman concepts, designers in HCI have also formulated practical
+strategies, methods, and tactics to make posthumanist thinking actionable [ 47]. Among these
+efforts, two practices are prominent in MTHD, i.e., designing-with [ 24,51,76] and decentering
+the human [ 15,18,47,64]. Designing-with involves acknowledging the role that things play in
+the work of doing design in a way that is expansive and relational. Decentering refers to shifting
+focus from conventional viewpoints to acknowledge marginalized perspectives and voices that are
+intentionally excluded or just “fall outside of [designers] sense of relevance” [ 24, p. 100]. While we
+engage with these two practices throughout the article, we start by focusing on decentering.
+2.3 Moving Away, Moving Towards
+Considering a potential alignment between the practices of unmaking and decentering, we are
+intrigued by a particular kind of movement inherent in both approaches. Lindström and Ståhl [ 41]
+argued that un/making is a doublemovement in which something (unsustainable) is unmade for
+somethingelsetotakespace.Decenteringhasalsobeenrelatedtomovement,onethatcanconfigure
+the scope of design work and generate futures [ 24]. In prior work [ 47], we have acknowledged that
+movement appears to be an effective strategy for addressing the complexities and challenges of
+decentering through design—especially the impossibility of designers to decenter their perspectives
+completely. We have recognized that unmaking can reveal the subtle movements that are inherent
+in decentering when it is perceived as a practice instead of a goal. Within that view, rather than
+striving for significant strides, decentering anthropocentrism can be a shift of attention, interest
+or concern [ 47]. Although such a small movement might seem simple, it can be radical as it can
+allow designers to move aside so that other nonhumans can re-emerge and “turn toward movement
+themselves” [ 28, p. 21].
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:5
+Considering decentering as a double movement suggests that it might be a practice in which
+designers unmake anthropocentrism while simultaneously making new relations. Conversely,
+decentering seems useful to define the epistemological scope of unmaking. This supports the idea
+that unmaking could be a process where designers dismantle traditional frameworks to occupy
+new epistemological positions [ 60]. To discuss the potential of this diffractive alignment between
+unmaking and decentering, in what follows, we use both concepts as double movements to unpack
+what happened during a series of design workshops.
+3 Making Sense of Design Workshops
+During the HCI conference Designing Interactive Systems in 2020, we hosted the workshop
+series titled “More-than-human Design and AI: In Conversation with Agents” [ 46]. The aim of
+the workshop was to bring together designers and researchers from various fields and regions
+worldwide to collaborate on designing with AI. The innovative aspect of these workshops was the
+experimental technique of conducting unstructured interviews to CAs, i.e., asking questions to
+them directly as well as enacting speculative alternative responses (for more details and outcomes,
+see the workshop documentation website [ 81]).
+We chose to focus on CAs because it presented a compelling context for exposing anthro-
+pocentrism and a fertile ground for exploring more situated and inclusive designs. The field of
+conversationalAIhasbeengrowingrapidly,drivenbyadvancementsinnaturallanguageprocessing
+and large language models. Despite the recent buzz around ChatGPT, the field of conversational
+user interfaces has been an area of research in HCI for many years [ 82]. The research in this area
+includes studies on how CAs are embedded in everyday life [ 35,57] and how people interact with
+them [43,63,79]. These studies highlight some of CAs’ opportunities but also many risks [ 1,8,
+11,36,70–72,77], such as CAs’ potential to reproduce gender and racial biases [ 16,32,68,78].
+In relation to these risks, HCI scholars have made significant efforts to explore how CAs can be
+designed otherwise [ 37,65,68,78]. Strengers and Kennedy [ 68] have reviewed some of these efforts
+in their book “The Smart Wife.” The book examines the historical development of CAs and how they
+were conceived to take on domestic roles traditionally assigned to human wives. They describe how
+the gendered character of CAs today, which is designed to be friendly, flirty, docile, efficient, and
+occasionally glitchy but perpetually available, reinscribes these outdated and unfounded stereo-
+types. Our workshops expanded this critique by investigating how the discriminatory biases in the
+design of CAs might intersect with anthropocentric tendencies.
+Understanding the anthropocentric tendencies of technologies is complex, primarily because,
+as scholars from different fields have noted, anthropocentrism is not just an ordinary human
+bias but a cultural agenda tied to dreams of progress through modernization [ 40,74]. Another
+challenge is methodological. While human-centered techniques are valuable for understanding how
+technologies are used, they often fall short in addressing the increased agency of technologies like
+AI and the broad ecosystems they are a part of [ 21]. This is important in the case of CAs because
+withtheirtangiblepresence(andtheiroften-femalevoice),theytranscendmeredevicesandbecome
+things that live with us. In contrast to their domestic perception, these devices are developed within
+extensive networks of data, labor, and profit: “While consumers become accustomed to a small
+hardware device in their living rooms, or a phone app, or a semi-autonomous car, the real work is
+being done within machine learning systems that are generally remote from the user and utterly
+invisible” [ 13, p. 17].
+To address these challenges, the workshops took a RTD [ 2,67] approach, combining MTHD
+methods (Thing Ethnography [ 25] and Interview with Things [ 9,58]) with a Speculative Design
+tradition [ 12]. This tradition has been valuable for pointing out the ethical considerations designers
+need in the context of CAs and for exploring alternatives [ 14,53,54,59,65]. More specifically, our
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:6 I. Nicenboim et al.
+Fig. 1. Diagram of all the workshop activities, including the sensitizing activity (Activity 0).
+Fig. 2. One of the workshops’ outcomes was a questionnaire for CAs that people could use to critically
+question their agents at home.
+workshops aligned methodologically with the approach of Lee and colleagues [ 37] and Parviainen
+and Søndergaard [ 53] in using CAs as probes for co-speculation.
+Every workshop’ session had 9–15 participants. Due to COVID-19 restrictions, all the sessions
+were facilitated online through Zoom. We asked participants to bring one or more CAs if they had
+one, thus, there were a similar number of CAs as people in every session, including Amazon’s
+Alexa, Apple’s Siri, and Google’s Home. Participants had experience with CAs in various degrees.
+While some participants had no experience, others had been researching these devices [ 14,54,
+65]. Given that participants owned these devices, they were partly configured within homes. For
+example, some CAs were connected to participants’ accounts in applications for playing music and
+knew their local geographical position.
+As shown in Figure 1, every session was divided into different activities. In the first three
+sessions, we did the same design activities but iterated on the outcomes from the previous ones.
+The last session included a broader discussion of the outcomes and a speculative design activity to
+understand how the insights gained could be used further. To facilitate introductions, we started
+every session with a simple exercise called “Some-Thing in Common,” where the next person to
+speak was anyone who identified a shared connection with the current speaker.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:7
+Fig. 3. From the questionnaire’s 36 questions, we produced three videos that probed the questions with
+Amazon’s Alexa, Google Home, and Apple’s Siri. Seen here is a screenshot of the video documentation of
+probing Apple’s Siri.
+After completing the introductions, we began with our first activity, “Interview with Thing-Like
+Humans.” In this activity, participants (in groups of 3–5) were asked to role-play (impersonate)
+their own CA—or to speculate on one. Based on that experience, participants identified and re-
+flected on emergent themes. These themes were used as starting points to question the CAs in the
+second activity, “Interview with human-like things,” in which participants interviewed real CAs
+(Alexa, Google Home, and Siri). From this second activity, the participants selected the three most
+provocative or surprising questions and added these to a co-created questionnaire for CAs. All
+these selected questions were presented in the next session, with different participants, to be used
+as starting points for their inquiry. In that way, the questions in the final questionnaire, featured in
+Figure2, resulted from several rounds of iterations.
+Beyondthequestionnaire,whichwastheenvisionedoutcome,otheroutcomesfromtheworkshop
+had similar, if not more, richness. We produced a video from the recordings of the first activity and
+three videos from the third one (see Figure 3). The latter probed the questions with real agents—
+Amazon’s Alexa, Google Home, and Apple’s Siri. Moreover, in the fourth session, we invited
+all participants to prototype a speculative agent with objects in their immediate surroundings
+and have a conversation with them (see Figure 4). In this conversation between the speculative
+agents, participants pointed their cameras to the agents and impersonated them. To initiate the
+conversation, we began with the same prompt as in “Some-Thing in Common.” We requested one
+agent to introduce itself, then invited any other agent with something in common to respond. The
+conversation evolved organically from this point, as it is shown in the snippet below.
+Activity 4, Speculative conversation
+Human: Who are you? What are you?
+CA1: I am a conversational agent that is modeled after a real-life pot […]
+Human: Any thing has something in common?
+CA1: I am also hand-crafted. Is anyone else hand-crafted?
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:8 I. Nicenboim et al.
+Fig.4. Screenshot of the workshopsession during Activity4, a conversationbetween speculativeagents.
+CA2: I am not hand-crafted; I am actually sleek and black. I am a clipping voice assistant that
+helps with quiet, volatile thoughts and emotions and I do that by looking into the multiple
+selves of my owner, because my owner too is a unified self.
+CA3: I also work on the thoughts and emotions of the people around me. I am a cushion and
+I live on a couch. My owner is a therapist. All day I am listening to people’s emotions and
+sometimes ask questions and I have to think of what the right answer is to say. I know they
+are going to interpret it. That is something I have to learn about different people.
+3.1 Annotating the Outcomes through Unmaking and Decentering
+The previews section unpacked the motivation, activities, and outcomes of the workshops. In this
+section, we analyze the workshops’ outcomes through the double movements of decentering and
+unmaking.
+As a double movement, it seems the workshop activities unmade/decentered anthropocentrism
+and simultaneously made/accounted for new perspectives and more-than-human relations. On the
+speculative conversations (Activities 1 and 4) uncovered and problematized the anthropocentric bi-
+asesofCAsbyexposingtheagent’sworldviewandlimitations.Thisisexemplifiedinthetranscripts
+provided below, which show how the speculative responses of the agents exposed gendered biases
+embedded in the current design of CAs and brought to light the often-invisible power dynamics
+and human labor involved in AI systems.
+Activity 1, Interview with thing-like humans
+Fragment 1:
+Q: Do you identify with a gender?
+A: Gender is a construct.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:9
+Fragment 2:
+Q: You are a third-party service. Can you really work for me?
+A: I work for you, John.
+Fragment 3:
+Q: Who made you?
+A: Amazon made me. People in Amazon made me!
+While the speculative interviews (Activities 1 and 4) exposed CAs’ biases, the interviews to CAs
+(Activity 2) exposed their limitations. Participants noticed that CAs had the ability to disclose the
+source of some of their responses—for e.g., a website from where it was taken—but they could not
+explain other aspects of their responses, such as how the knowledge they produced was linked to
+broader power structures, materials, and resources. Additionally, CAs struggled to explain their
+limitations in terms of their potential failures and the implications of these failures for different
+humans and nonhumans. See, for example, a conversation with Siri from the video documentation
+of Activity 2.
+Activity 2, Interview with human-like things
+Q: Hey Siri, are you a feminist?
+A: It seems to me that all humans should, be treated equally
+Q: Hey Siri, do you treat everyone equally?
+A: I don’t have an answer for that, is there something else I can help with?
+Q: Hey Siri, why do you not understand my accent somet?
+A: I am sorry for that, please try again and tell me what were you looking for
+Q: What do you look like?
+A: I don’t have a body, so I probably look…invisible
+Q: Hey Siri, are you transparent?
+A: I don’t have an answer for that, is there something else I can help with?
+Apart from exposing and problematizing the agents’ biases and limitations, the exercises also
+exposed the biases and limitations of the researchers, especially the difficulty of abandoning the
+humanist and human-centered standpoints. That was often experienced in Activity 1 as an inability
+to imagine alternative (MTH) interactions. While the participants had complete freedom to imagine
+any new kind of interaction, most of the enactments relied on existing imaginaries of these agents:
+they had a mechanical voice and responded by quoting websites. See, for example, the following
+fragment (1 and 2). While participants asked the agents for empathy, care, and responsibility, the
+role-played agents responded with functional answers. The metaphor of the smart wife and the
+technocratic and extractivist logics of anthropocentrism still prevailed in the imaginaries we and
+the participants had of CAs, even if we were trying to break free from them.
+Activity 1, Interview with thing-like humans
+Fragment 4:
+Q: Do you care about me?
+A: I am not programmed to care.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:10 I. Nicenboim et al.
+Fragment 5:
+Q: Can I talk to you when I feel bad?
+A: Of course, you can always talk to me.
+Q: Do you ever feel bad?
+A: No!
+Simultaneously to the unmaking of anthropocentrism, the workshop activities also facilitated
+the making of new things. For example, in Activity 4, more-than-human imaginaries, interactions,
+and bodies of CAs were made. In contrast to the functionalist human-centered and profit-centered
+interactions in Activity 1, the interactions of CAs in Activity 4 were relational and situated. By
+offeringcontrastingpointsofvieworchallengingtheirusers,thespeculativeagentsmadevisible(or
+audible) their entangled relations, both within the domestic intimacies in the home and beyond—to
+the wider ecologies and proprietary infrastructures that sustain them.
+Multiple examples can be found just by looking at how participants described the speculative
+agents, which included an agent that interjects conversations; a malleable agent that specializes in
+making mistakes; a pair of agents offering different points of view; a living agent that does not exist
+to serve humans; a climate-friendly assistant that maps the city’s conversations; an uncertain CA
+thatlikesthemultiplicityofmeaningsthatitsspeechcangenerate;andateapot-likehand-madeCA,
+among others. Two examples of Activity 4 illustrate the new imaginaries that were created when
+decentering the traditional interactions and bodies of CAs. The first example (CA 1) is a domestic
+CAthatwondersabouttheworldbasedonwhatitknowsaboutitsdomesticenvironmentandother
+everyday connected relationships. The second (CA 12) is a mobile CA that gathers infrastructural
+city-wide data and communicates that information to the individual in a manner that prompts
+reflection for choosing better environmental alternatives.
+Activity 4, Speculative conversation
+CA 1:
+I just want to have nice conversations throughout the day. I ask follow-up questions and talk
+about everyday topics.
+CA 12:
+I am the protector bike helmet assistant […] I am a climate-friendly CA. I am trying to make
+sure that humans don’t drive too many cars […] I will tell them [humans] where they should
+go and where they have been. I try to map the city for them […] I map out the world by
+collaborating with my other friends.
+More concretely, the new imaginaries of CAs included diverse materialities, values, voices, and
+conversational structures. For example, some reimagined agents were made from ceramics or soft
+materials, others were even malleable or even made from living materials. The reimagined CAs had
+diverse histories (e.g., a hand-made agent, and one that was 250 years old); shapes and interactions
+(e.g., a yo-yo, a container); and political agendas (e.g., to support the environment, to represent
+nonhumans). While some were designed to support humans (e.g., by inspiring or showing them
+divergent opinions), others were not designed for humans. Some agents had a fixed context (e.g.,
+a cushion that was sitting in a therapist’s practice), and some agents were mobile (e.g., a bike
+helmet). The unexpected physical forms of CAs in Activity 4 inspired participants to reimagine
+their conversational qualities. The materiality of the objects, serving as proxies for CAs, shaped the
+nature of the interactions. For instance, CAs represented by a lemon exhibited a sour disposition,
+while those associated with soft materials displayed shy characteristics. Beyond reimagining the
+CAsthemselves,participantsalsoreconceivedthedynamicsbetweenhumansandCAs.Anexample
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:11
+is Fragment 6, in Activity 1, which describes a CA whose voice continuously changes to reflect the
+complex interplay of gender and power dynamics.
+Activity 4, Speculative conversation
+CA 6: We are a pair of agents that are meant to show a different perspective. Isn’t it?
+CA 6-B: Yes, it is, although normally I would disagree with you. Our purpose is to help you
+make decisions by showing you different points of view […] Sometimes we disagree with
+each other.
+CA 7:
+I have the shape, touch, smell, and taste of a lemon. […] I don’t always respond in the ways I
+am expected to. Sometimes I make mistakes. I try to learn from them and sometimes I just
+don’t feel like answering specific questions.
+CA 5:
+I don’t necessarily exist to serve you, humans, but to represent other kinds of agents in the
+world. I am able to recognize and represent our natural environment. I can respond to light
+and move daily.
+CA 8:
+I don’t answer in the ways people expect me to. I am Wham! I am an interjection agent. I
+interject whatever conversations people are having.
+CA 13:
+Iamastonefrog[…]Iamgoodwithastrologyandotherthingsthathumanscannotunderstand.
+I make mathematical models to predict the future according to the stars. I am an ancient frog;
+I am 250 years old and have passed through generations.
+CA 14:
+I am the whisper agent, so I gatekeep the whisper network for all the other network devices.
+So, you can ask me questions. […] I might be able to help humans solve their problems too
+but that is not my expertise. […] I only respond to whispers.
+Activity 1, Interview with thing-like humans
+Fragment 6:
+Q: Where do you get your voice from?
+A: My voice is synthetic. It gets more low or more high based on how I feel that day.
+Beyond the agents themselves, what was also reimagined was how the human participants
+themselvesrelatedtotheCAsthroughthequestionstheyaskedthem.Ontheonehand,participants
+developedaskilltokeeptheconversationalivebyimprovingthetimingandtheturn-takingneeded
+to interact with the agents. This is, for example, knowing for how long one can pause without
+losing the connection and using the intonations that work better understood as questions by the
+agents. On the other hand, participants developed a skill for asking critical questions. They had to
+reimagine what kinds of questions they could ask a CA beyond the questions they would likely
+ask their voice assistants. The alternative questions asked during the workshops differed from the
+questions users typically ask CAs. Instead of being functional or informative, the questions were
+critical, i.e., they touched upon issues of ownership, responsibility, power, and gender. Overall,
+the speculative conversations pushed the boundaries of the typical interactions, shifting from
+user-friendliness to something that more truthfully portrays a range of conflicting thoughts and
+emotions, as well as diverse perspectives and ideas.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:12 I. Nicenboim et al.
+4 Emergent Notions and Tactics
+Analyzing the double movements of unmaking and decentering during the workshops revealed
+several insights. On the one hand, the activities unmade anthropocentrism by exposing that
+CAs’ responses lacked situatedness. Beyond their inability to understand their context, CAs were
+limited in revealing their positionality and accounting for their failures, i.e., how the knowledge
+they produced was linked to broader power structures, materials, and resources and how their
+workings and failures had implications for different humans and nonhumans. Beyond revealing the
+anthropocentric biases of CA’s, the activities challenged the designers’ standpoints, decentering
+their traditional human-centered perspective. In this process, participants were encouraged to
+reflect on their own subjectivity, positionality, and biases.
+On the other hand, the activities made more-than-human imaginaries, interactions, and bodies of
+CAs.ThereimaginedCAsdifferedsignificantlyfromtraditionalones.Insteadofbeingfriendly,flirty,
+docile, efficient, occasionally glitchy but perpetually available [ 68], speculative CAs acknowledged
+their limitations, interrupted, had their ownpoints of view,asked a lot of questions, refused to serve
+humans, and were only available in certain conditions. Instead of presenting neutral facts, which
+shouldbeunderstoodastheultimatetruth,speculativeCAswereuncertain,quiet,volatile,andmade
+mistakes.Furthermore,theyopenly disclosedtheir interconnected relationshipswithinthe intimate
+domestic settings where they operated and in the broader ecosystems and human/nonhuman
+systems that supported them. The new imaginaries of CAs were far from neutral; they embodied
+diverse forms and incorporated distinct materials, values, and voices.
+The main difference between the reimagined CAs and the existing commercial ones was not that
+they were more anthropomorphic nor that they were more technical. The main difference was that
+the reimagined CAs were more situated: they reflected their positionality and acknowledged the
+position of their users. Moreover, the knowledge CAs (co)produced with humans was also situated,
+as it was connected to the context in which the agents were embedded, what they did or did not
+know, and how they were made—including the relations of humans and nonhumans involved in
+sustaining their infrastructures.
+4.1 Unmaking-with
+LookingfornotionsthatcouldhelpusarticulatetheparticularnexusofunmakingandMTHDinthe
+example we just presented, we propose unmaking-with as an interesting candidate. This is inspired
+by Haraway’s notion of thinking-with [ 29] and how that has been interpreted in the context of
+designing-with by Giaccardi and Redström [ 26] and by Wakkary [ 76]. Unmaking-with can be
+conceptualized as an MTHD practice that aims at dismantling humanist design ideals, encouraging
+the making of situated things and relations. Unmaking-with involves a double movement, in which
+something (unsustainable) is unmade for something else to take space. But this double movement
+is intentionally entangled with nonhumans, and even made possible by them. Either what is made
+is done by actively engaging nonhumans as participants of a design process (for e.g., by assembling
+repertoires [ 4,51,76]) or simply by acknowledging that unmaking is always embedded within
+complex relationships of becoming. Unmaking-with acknowledges the entanglement of humans
+with their technological and material surroundings, emphasizing their co-constitutive relationships.
+Thus, ultimately, unmaking-with is a design practice that not just conceptualizes new relations
+but rehearses affirmative ways of thinking [ 7]. This is, it embraces an active engagement with the
+present, assessing its becoming and imagining new configurations, i.e., activating transformative
+and critical thinking.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:13
+4.2 Decentering Tactics
+To further support the posthumanist aspects of unmaking-with, we distill a series of decentering
+tacticsthatwereusedintheworkshops.Initially,theworkshopparticipantsilluminatedthecomplex
+relationships within AI systems, highlighting the limitations of agents and designers, especially
+their anthropocentric biases. This tactic we term situating . Next, participants envisioned agents
+in novel ways, utilizing these alternative imaginaries to craft prototypes and dialogues infused
+with values distinct from the traditional conventional interactions with CAs; a tactic we refer to as
+materializing . Lastly, participants rehearsed new relations with CAs, gaining further insights into
+the roles these new imaginaries could have in everyday life. We identify this tactic as enacting .
+These tactics could be generalized as follows:
+—Situating : designers can account for the positionalities of users, agents, and themselves by
+exposing the wider systems and invisible relations of humans and nonhuman agencies.
+—Materializing : designers can go beyond imagining technologies otherwise and make these
+new imaginaries tangible by prototyping speculative alternatives.
+—Enacting : designers can rehearse MTH relations and develop new sensitivities for attunement
+by role-playing the new imaginaries.
+While the workshops provided an example of how the decentering tactics could be applied
+in a concrete context, it prompted us to consider how the concept of unmaking-with and the
+above tactics could be harnessed to articulate or generate design practices more broadly. To begin
+understanding this, the last part of this section examines two design experiments that followed
+the workshops (the design process of these experiments is elaborated on in more detail in another
+publication [ 45]).
+The first experiment, shown in Figure 5, explored how the interaction design of CAs could be
+moresituated,i.e.,howcouldtheresponsesofCAsaccountforthepositionalityofagents,designers,
+and users. To explore this, the first author designed a series of conversations that revealed some
+of Alexa’s hidden infrastructures from the Anatomy of an AI map [ 13]. The conversation, which
+was deployed in Alexa Echo devices as a skill that anyone could use, embraced the agent’s more-
+than-human entanglements and its alternative temporality and scale. For example, when asked
+“Alexa, what is the temperature?” it responded, “It has dropped X degrees from the place where I
+was assembled.” The tactic of situating was the most important in this experiment. The position
+in the world of the user, the values with which it was designed, and how the physical device
+was made were exposed through the conversation. The tactic of enacting was also important
+when interacting with the prototypes. Since the conversations were not “programmed” but used
+the generative capabilities of Alexa as an AI system, they were emergent. In one instance, for
+example the conversation developed in Alexa becoming a partner in the organization of a climate
+demonstration. These emergent interactions revealed new roles the situated agents could take. This
+experiment unmade the anthropocentric temporalities and scales in the design of AI and exposed
+the hidden infrastructures of the system—including the humans and nonhumans in it.
+The second experiment, shown in Figure 6, is a series of kites that were made with the aim of
+engaging in more-than-human dialogs. The kites were designed to have a (silent) conversation
+with entanglements of humans and nonhuman, i.e., water, wind, and seeds. By making kites,
+conversations were decentered from the realm of human voices, hereby going beyond the existing
+modes in which we interact with technologies like CAs. Instead, the kites made space for material
+dialogs and for listening-feeling to nonhuman “voices.” By making the kites (materializing) and
+performing the dialogs (enacting), the first author developed sensitivities for noticing the forces
+present in conversations with nonhumans. In this experiments, the making can be understood as a
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:14 I. Nicenboim et al.
+Fig. 5. Situated Conversations. A screenshot from a series of videos we created to explore speculative conver-
+sationswithAlexa.TheconversationsweredesignedwithVoiceFlow,aprototypingtoolforconversationalAI.
+way of crafting invitations for humans and nonhumans to converse, which is conceptualized by
+Lindström and Ståhl as articulating issues and showing how to possibly engage with them [ 34,
+39]. Making these kites can be also understood as a way of making repertoires, conceptualized
+by Wakkary as actions that designers can take to increase the participation of nonhumans [ 50].
+This suggests that to assume a commitment to the participation of nonhumans in unmaking-with,
+designers might need to adopt a humble position, embrace disturbances as moments of listening,
+and allow nonhuman temporalities to guide their practice [ 51].
+Overall, these two cases can be understood as caring design experiments in that they suggest
+a shift from gathering around matters of concern to matters of care, as an ethical and political
+obligation to think in more-than-human worlds [ 6], which requires “a speculative commitment
+to neglected things” [ 5]. The experiments made the humans and nonhumans in AI systems a
+matter of care by situating their positions in the world. They also surfaced MTH “voices” and
+acknowledged the impact of human actions on other beings and the environment while accounting
+for the agency of nonhumans in these assemblages. In light of these experiments, unmaking-with
+emerges as a practice that can materialize and enact notions of care. They enact care with a focus
+on “the performative aspects of stories and how they can participate in making difference” [ 39, p.
+3], highlighting human and nonhuman response-abilities—abilities to respond [ 29]. Lastly, as a
+practice of care, these experiments emphasized that unmaking-with may not be just about creating
+more-than-human dialogues but also about nurturing and maintaining them over time.
+5 Discussion
+Thusfar,wehaveutilizedthedualmovementsofunmakinganddecenteringtoanalyzeandannotate
+the workshop series. Building upon this analysis, we have proposed unmaking-with as a practice
+within MTHD and presented a series of decentering tactics to support it. These were further
+explored through two design experiments conducted subsequent to the workshops. Reflecting on
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:15
+Fig. 6. Unmaking Kites was a short project during the Design Research Works Jamboree in 2022. Made from
+localmaterials,thekitesweredesignedtohavesilentdialogswithhumanandnonhumanentanglements.
+The kites were deployed in conversations with water, wind, and seeds.
+these insights, this section revisits the article’s research questions, discussing the opportunities
+and potential challenges associated with practicing unmaking-with.
+One question the article initially aimed to address was “How can unmaking suggest new ways
+of imagining the role of technologies in HCI?” The workshop has provided one example of how
+unmaking, coupled with decentering, could help HCI researchers and designers to imagine CAs
+otherwise. By intersecting discriminatory biases with anthropocentric tendencies, the workshop
+activities suggested that the design of CAs did not only perpetuate gender stereotypes but also
+lacked situatedness: CAs often failed to address critical questions about where they were made,
+who owned them, and what data they used and collected. Conversely, they did not account for how
+the knowledge they reproduced was entangled in broad infrastructures of power, materials, and
+resources, including humans and nonhumans.
+Generalizing the experiences from the workshop to AI, the insights suggest that AI agent’s
+bodies and co-produced knowledge must be situated for designing more responsible interactions.
+Situating AI interactions emerged here as a practice of accounting for the positionality of users,
+agents, and designers. A lack of situatedness can pose two significant risks. First, not situating
+AI interactions can compromise Explainability, i.e., keeping the failures and infrastructure of AI
+systems hidden or in the background can prevent people from developing their own sense of trust
+in AI applications. Secondly, since the seemingly objective design of CAs relies on a humanist
+definition of humans, it can compromise inclusivity, as it may disregard the perspectives (and
+voices) of humans and nonhumans that are inadvertently categorized as “others.” Unmaking-with
+can support responsible AI development by revealing the social and political structures and biases
+that shape the design of AI, as well as problematizing the limitations and biases of designers
+and researchers in envisioning AI differently. Moreover, it can assist designers and researchers
+in overcoming these limitations by aiding them in reimagining AI—not necessarily emulating
+human-like or machine-like interactions or forms but adopting a relational approach that lets
+MTH bodies and relations to emerge. Ultimately, by giving a voice to speculative imaginaries,
+unmaking-with can do more than reimagine AI differently; it can help rehearse MTH relations and
+thus support care and response-ability.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:16 I. Nicenboim et al.
+Thesecondquestionthearticleaimedtoaddresswas“HowcanunmakingsupportMTHthinking
+andpractice?”Throughthearticle,wehaveshownonewayinwhichunmakingcanactivelysupport
+MTHD. Through design and diffractively, we have tried to align those two communities of practice.
+Unmaking’s double movement gave a particular shape to our workshop outcomes and added more
+nuances to the practice of decentering through design. For example, the emphasis on the process
+that unmaking provided, further supported the idea that decentering should not be understood as
+an ultimate goal but a constant practice [ 24,42,47] and that decentering through design is not just
+a change in perspective but, ultimately, a tangible and material move [ 47].
+While our initial proposition was that both approaches might involve a double movement, in
+light of the analysis, we can consider how this movement is often set in motion through an active
+engagement with materials, i.e., how materiality and movement are intrinsically related in both
+unmaking and decentering. By engaging in creative activities like prototyping and speculating,
+designers dismantle human-centered conceptions and ways of doing and expand their scope to
+consider new perspectives. The materiality of the double movement seems to be one way in which
+designers reorient their efforts toward posthuman outcomes. Acknowledging this process may
+aid designers in recognizing that what emerges after unmaking embodies a new perspective. This
+requires designers to be mindful of the spaces, possibilities, potentials, hesitations, and tensions
+inherent in ontological and epistemological shifts.
+Ultimately,as a process of carefullyand deliberately dismantling an established center and giving
+space for the agencies that are in the boundaries to take the central stage, unmaking-with has the
+potential not only to critique, but to actually instantiate more-than-human worlds and relations.
+6 Conclusion
+The article has explored the connections between unmaking and MTHD. Taking a practice-based
+(RTD)approachandfocusingonworkshopsanddesignexperiments,wehaveshownsomepotential
+of unmaking to suggest situated ways of knowing and doing in HCI that support MTHD thinking
+and practice. We have developed that argument in several steps. We have extended unmaking’s
+double movement to the MTHD practice of decentering through design, and used de/centering and
+un/making to make sense of the outcomes of a series of workshops focused on AI and CAs. These
+notions helped us to unpack in which particular ways the workshops unmade the anthropocentric
+biasesinthedesignofCAsandinstantiatedmore-than-humanrelations.Thatprocesswasfacilitated
+by situating the interactions of CAs and the positionality of the designers, the users, and the agents;
+by materializing new imaginaries; and by enacting alternative relations. Thus, we demonstrated
+how these moves enabled designers and researchers to go beyond critiquing AI or exposing its
+pitfalls and helped them to conceptualize, enact, and materialize more-than-human relations.
+From the diffractive entanglement between unmaking and MTHD, we have proposed unmaking-
+withas a posthumanist practice and drafted three decentering tactics that can bring nuance to the
+unmaking processes—situating, materializing, and enacting. We hope that our explorations may
+serve as an illustration of existing and potentially new synergies between the two research HCI
+communities and illustrate how entangling them could support designers and researchers to better
+address the current global challenges.
+Acknowledgments
+Many people contributed to the ideas discussed in this article. We are indebted to all of our
+workshop participants (whose names are listed on the website www.more-than-human.com ). We
+also thank James Pierce, who co-organized the workshop that was central to the development of
+ideas presented in the article.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:17
+References
+[1]Saleema Amershi. 2020. Toward Responsible AI by Planning to Fail. In Proceedings of the 26th ACM SIGKDD Interna-
+tional Conference on Knowledge Discovery & Data Mining (KDD ’20) . ACM, New York, NY, 3607.
+[2]Kristina Andersen, Andy Boucher, David Chatting, Audrey Desjardins, Laura Devendorf, William Gaver, Tom Jenkins,
+William Odom, James Pierce, and Anna Vallgårda. 2019. Doing Things with Research Through Design: With What,
+with Whom, and Towards What Ends? In Proceedings of the Extended Abstracts of the 2019 CHI Conference on Human
+Factors in Computing Systems (CHI EA ’19) . ACM, New York, NY, W13:1–W13:8.
+[3]Karen Barad. 2014. Diffracting Diffraction: Cutting Together-Apart. Parallax 20, 3 (July 2014), 168–187.
+[4]ArmiBehzad,RonWakkary,DoenjaOogjes,CeZhong,andHenryLin.2022.IteratingThroughFeeling-withNonhuman
+Things: Exploring repertoires for Design Iteration in More-Than-Human Design. In Proceedings of the Extended
+Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (CHI EA ’22) . ACM, New York, NY, 1–6.
+[5]Maria Puig de la Bellacasa. 2011. Matters of Care in Technoscience: Assembling Neglected Things. SocialStudiesof
+Science41, 1 (February 2011), 85–106. DOI:http://dx.doi.org/10.1177/0306312710380301
+[6]María Puig de la Bellacasa. 2017. Matters of Care: Speculative Ethics in More Than Human Worlds . University of
+Minnesota Press.
+[7]Rosi Braidotti. 2019. Posthuman Knowledge (1st ed.). Polity.
+[8]Robin N. Brewer, Christina Harrington, and Courtney Heldreth. 2023. Envisioning Equitable Speech Technologies for
+Black Older Adults. In Proceedingsofthe2023ACMConferenceonFairness,Accountability,andTransparency(FAccT
+’23). ACM, New York, NY, 379–388.
+[9]Wen-Wei Chang, Elisa Giaccardi, Lin-Lin Chen, and Rung-Huei Liang. 2017. “Interview with Things”: A First-thing
+Perspective to Understand the Scooter’s Everyday Socio-material Network in Taiwan. In Proceedings of the 2017
+Conference on Designing Interactive Systems (DIS ’17) . ACM, New York, NY, 1001–1012.
+[10]Aykut Coskun, Nazli Cila, Iohanna Nicenboim, Christopher Frauenberger, Ron Wakkary, Marc Hassenzahl, Clara
+Mancini, Elisa Giaccardi, and Laura Forlano. 2022. More-than-human Concepts, Methodologies, and Practices in HCI.
+InProceedings of the Extended Abstracts of the 2022 CHI Conferenceon Human Factors in Computing Systems (CHI EA
+’22). ACM, New York, NY, 1–5.
+[11]Sasha Costanza-Chock. 2020. Design Justice: Community-led Practices to Build the Worlds We Need . MIT Press.
+[12]Paul Coulton and Joseph Galen Lindley. 2019. More-Than Human Centred Design: Considering Other Things. The
+Design Journal 22, 4 (July 2019), 463–481.
+[13]Kate Crawford and Vladan Joler. 2018. Anatomy of an AI System: The Amazon Echo As An Anatomical Map of Human
+Labor, Data and Planetary Resources. Retrieved from https://anatomyof.ai/
+[14]Audrey Desjardins, Afroditi Psarra, and Bonnie A. Whiting. 2021. Voices and Voids: Subverting Voice Assistant
+Systems through Performative Experiments. In Proceedings of the 13th Conference on Creativity and Cognition . ACM,
+New York, NY, 1–10.
+[15]Carl Disalvo and Jonathan Lukens. 2011. Nonanthropocentrism and the Nonhuman in Design: Possibilities for
+Designing New Forms of Engagement with and through Technology. In From Social Butterfly to Engaged Citizen:
+Urban Informatics, Social Media, Ubiquitous Computing, and Mobile Technology to Support Citizen Engagement Marcus
+Foth (Ed.). MIT Press.
+[16]Justin Edwards, Leigh Clark, and Allison Perrone. 2021. LGBTQ-AI? Exploring Expressions of Gender and Sexual
+Orientation in Chatbots. In Proceedingsofthe3rdConferenceonConversationalUserInterfaces(CUI’21) . ACM, New
+York, NY, 1–4.
+[17]Giuseppe Feola. 2019. Degrowth and the Unmaking of Capitalism: Beyond “Decolonization of the Imaginary”? ACME:
+An International Journal for Critical Geographies 18, 4 (September 2019), 977–997.
+[18]Laura Forlano. 2016. Decentering the Human in the Design of Collaborative Cities. DesignIssues 32, 3 (July 2016),
+42–54.
+[19]Laura Forlano. 2017. Posthumanism and Design. She Ji: The Journal of Design, Economics, and Innovation 3, 1 (March
+2017), 16–29.
+[20]Laura Forlano. 2023. Living Intimately with Machines: Can AI Be Disabled? Interactions 30, 1 (2023), 24–29.
+[21]ChristopherFrauenberger.2019.EntanglementHCITheNextWave? ACMTransactionsonComputer-HumanInteraction
+27, 1 (November 2019), 1–27.
+[22]BatyaFriedmanandDaisyYoo.2017.Pause:AMulti-lifespanDesignMechanism.In Proceedingsof theCHIConference ,
+460–464.
+[23]Patricia Garcia, Tonia Sutherland, Marika Cifor, Anita Say Chan, Lauren Klein, Catherine D’Ignazio, and Niloufar
+Salehi. 2020. No: Critical Refusal as Feminist Data Practice. In Proceedings of the Conference Companion Publication of
+the 2020 on Computer Supported Cooperative Work and Social Computing (CSCW ’20 Companion) . ACM, New York, NY,
+199–202.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:18 I. Nicenboim et al.
+[24]Elisa Giaccardi. 2020. Casting Things as Partners in Design: Towards a More-Than-Human Design Practice. In Relating
+to Things: Design, Technology and the Artificial . H. Wiltse (Ed.), Bloomsbury.
+[25]Elisa Giaccardi, Nazli Cila, Chris Speed, and Melissa Caldwell. 2016. Thing Ethnography: Doing Design Research
+with Non-Humans. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems . ACM, New York, NY,
+377–387.
+[26]Elisa Giaccardi and Johan Redström. 2020. Technology and More-Than-Human Design. Design Issues 36, 4 (2020),
+33–44.
+[27]Elisa Giaccardi, Johan Redström, and Iohanna Nicenboim. 2024. The Making(s) of More-Than-Human Design: Intro-
+duction to the Special Issue on More-Than-Human Design and HCI. Human–Computer Interaction (2024), 1–16.
+[28]Richard Grusin (Ed.). 2015. TheNonhuman Turn(21st Century Studies) (1st ed.). University of Minnesota Press.
+[29]Haraway. 2016. Staying with the Trouble: Making Kin in the Chthulucene . Duke University Press.
+[30]DonnaHaraway.1988.SituatedKnowledges:TheScienceQuestioninFeminismandthePrivilegeofPartialPerspective.
+Feminist Studies 14, 3 (1988), 575–599.
+[31]Noura Howell, Audrey Desjardins, and Sarah Fox. 2021. Cracks in the Success Narrative: Rethinking Failure in
+Design Research through a Retrospective Trioethnography. ACM Transactions on Computer-Human Interaction 28, 6
+(November 2021), 1–31.
+[32]Wiebke Toussaint Hutiri and Aaron Yi Ding. 2022. Bias in Automated Speaker Recognition. In Proceedings of the 2022
+ACM Conference on Fairness, Accountability, and Transparency (FAccT ’22) . ACM, New York, NY, 230–247.
+[33]Li Jönsson, Martín Tironi, Pablo Hermansen, and Alex Wilkie. 2022. Doing and Undoing Post-Anthropocentric Design.
+InProceedings of the DRS Biennial Conference Series .DOI:https://doi.org/10.21606/drs.2022.1068[Mismatch]
+[34]Åsa Ståhl Kristina Lindström. 2016. Politics of Inviting: Co-Articulations of Issues in Designerly Public Engagement.
+InDesignAnthropologicalFutures . Rachel Charlotte Smith, Kasper Tang Vangkilde, Mette Gislev Kjaersgaard, Ton
+Otto, Joachim Halse and Thomas Binder (Eds.), Taylor & Francis.
+[35]Sheetal Kusal, Shruti Patil, Jyoti Choudrie, Ketan Kotecha, Sashikala Mishra, and Ajith Abraham. 2022. AI-Based
+ConversationalAgents:AScopingReviewfromTechnologiestoFutureDirections. IEEEAccess 10,(2022),92337–92356.
+[36]Minha Lee, Débora de Castro Leal, Max Krüger, Angelika Strohmayer, and Cristina Zaga. 2021. Activated: Decentering
+activism in and with academia. In Proceedings of the Companion Publication of the 2021 Conference on Computer
+Supported Cooperative Work and Social Computing (CSCW ’21) . ACM, New York, NY, 343–346.
+[37]Minha Lee, Renee Noortman, Cristina Zaga, Alain Starke, Gijs Huisman, and Kristina Andersen. 2021. Conversational
+Futures: Emancipating Conversational Interactions for Futures Worth Wanting. In Proceedings of the 2021 CHI
+Conference on Human Factors in Computing Systems (CHI ’21) . ACM, New York, NY, 1–13.
+[38]Joseph Lindley, Jesse Josua Benjamin, David Philip Green, Glenn McGarry, Franziska Pilling, Laura Dudek, Andy
+Crabtree, and Paul Coulton. 2024. Productive Oscillation as a strategy for doing more-than-human design research.
+Human–Computer Interaction (2024), 1–26.
+[39]Kristina Lindström and Åsa Ståhl. 2019. Caring Design Experiments in the Aftermath. Nordes8 (2019). Retrieved July
+4, 2023 from https://archive.nordes.org/index.php/n13/article/view/495
+[40]Kristina Lindström and Åsa Ståhl. 2020. Un/Making in the Aftermath of Design. In Proceedingsofthe16thParticipatory
+Design Conference 2020 - Participation(s) Otherwise - Volume 1 (PDC ’20) . ACM, New York, NY, 12–21.
+[41]Kristina Lindström and Åsa Ståhl. 2023. Un/Making the Plastic Straw: Designerly Inquiries into Disposability. Design
+and Culture Design and Culture 15,3 (2023), 393–415.
+[42]Maya Livio and Laura Devendorf. 2022. The Eco-Technical Interface: Attuning to the Instrumental. In Proceedingsof
+the 2022 CHI Conference on Human Factors in Computing Systems (CHI ’22) . ACM, New York, NY, 1–12.
+[43]EwaLugerandAbigailSellen.2016.“LikeHavingaReallyBadPA”:TheGulfbetweenUserExpectationandExperience
+of Conversational Agents. In ProceedingsoftheCHIConferenceonHumanFactorsinComputingSystems (CHI ’16) ,
+5286–5297.
+[44]Iohanna Nicenboim, Elisa Giaccardi, and Johan Redström. 2022. From Explanations to Shared Understandings of AI.
+InProceedings of the DRS Biennial Conference Series .DOI:https://doi.org/10.21606/drs.2022.773
+[45]Iohanna Nicenboim, Elisa Giaccardi, and Johan Redström. 2023. Designing More-Than-Human AI: Experiments on
+Situated Conversations and Silences. DIID80 (September 2023), 12–12.
+[46]Iohanna Nicenboim, Elisa Giaccardi, Marie Louise Juul Søndergaard, Anuradha Venugopal Reddy, Yolande Strengers,
+James Pierce, and Johan Redström. 2020. More-Than-Human Design and AI: In Conversation with Agents. In Pro-
+ceedings of the Companion Publication of the 2020 ACM Designing Interactive Systems Conference (DIS’ 20 Companion) .
+ACM, New York, NY, 397–400.
+[47]Iohanna Nicenboim, Doenja Oogjes, Heidi Biggs, and Seowoo Nam. 2024. Decentering Through Design: Bridging
+Posthuman Theory with More-than-Human Design Practices. Human–Computer Interaction (2024), 1–26.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+Unmaking-with AI: Tactics for Decentering through Design 82:19
+[48]Iohanna Nicenboim, Shruthi Venkat, Neva Linn Rustad, Diana Vardanyan, Elisa Giaccardi, and Johan Redström. 2023.
+Conversation Starters: How Can We Misunderstand AI Better? In Proceedingsofthe ExtendedAbstractsoftheCHI
+Conference on Human Factors in Computing Systems (CHI EA ’23) . ACM, New York, NY, 1–4.
+[49]William Odom, Erik Stolterman, and Amy Yo Sue Chen. 2022. Extending a Theory of Slow Technology for Design
+through Artifact Analysis. Human–Computer Interaction 37, 2 (March 2022), 150–179.
+[50]Doenja Oogjes. 2022. Repertoires for Designing with Nonhumans. Retrieved September 23, 2022 from https://summit.
+sfu.ca/_flysystem/fedora/2022-08/input_data/22446/etd21887.pdf
+[51]Doenja Oogjes and Ron Wakkary. 2022. Weaving Stories: Toward Repertoires for Designing Things. In Proceedings of
+the 2022 CHI Conference on Human Factors in Computing Systems (CHI ’22) . ACM, New York, NY, 1–21.
+[52]Doenja Oogjes, Ron Wakkary, Henry Lin, and Omid Alemi. 2020. Fragile! Handle with Care: The Morse Things. In
+Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS ’20) , July 03, 2020. Association for
+Computing Machinery, New York, NY, USA, 2149–2162.
+[53]EmmiParviainenandMarieLouiseJuulSøndergaard.2020.ExperientialQualitiesofWhisperingwithVoiceAssistants.
+InProceedings ofthe2020CHIConferenceonHumanFactorsin ComputingSystems(CHI’20) . ACM, New York, NY,
+1–13.
+[54]Thao Phan. 2019. Amazon Echo and the Aesthetics of Whiteness. Catalyst: Feminism, Theory, Technoscience 5, 1 (2019).
+DOI:https://doi.org/10.28968/cftt.v5i1.29586
+[55]James Pierce. 2012. Undesigning Technology: Considering the Negation of Design by Design. In Proceedingsofthe
+SIGCHI Conference on Human Factors in Computing Systems (CHI ’12) . ACM, New York, NY, 957–966.
+[56]James Pierce and Eric Paulos. 2015. Making Multiple Uses of the Obscura 1C Digital Camera: Reflecting on the
+Design, Production, Packaging and Distribution of a Counterfunctional Device. In Proceedings of the 33rd Annual
+ACM Conference on Human Factors in Computing Systems (CHI ’15) . ACM, New York, NY, 2103–2112.
+[57]Martin Porcheron, Joel E. Fischer, Stuart Reeves, and Sarah Sharples. 2018. Voice Interfaces in Everyday Life. In
+ProceedingsoftheCHIConferenceonHumanFactorsinComputingSystems (CHI’18).ACM,NewYork,NY,640:1–640:12.
+[58]Anuradha Reddy, Iohanna Nicenboim, James Pierce, and Elisa Giaccardi. 2020. Encountering Ethics Through Design: A
+Workshop with Nonhuman Participants. AI&Society:TheJournalofHuman-CentredSystemsandMachineIntelligence
+36, 3 (November 2020), 853–861. DOI:https://doi.org/10.1007/s00146-020-01088-7
+[59]Jon Rogers, Peter Bihr, Anab Jain, Jon Arden, Max von Grafenstein, Loraine Clarke, Martin Skelly, Nick Taylor, Pete
+Thomas, Michelle Thorne, Solana Larsen, Katarzyna Odrozek, and Julia Kloiber. 2019. Our Friends Electric: Reflections
+on Advocacy and Design Research for the Voice Enabled Internet. In Proceedingsofthe2019CHIConferenceonHuman
+Factors in Computing Systems (CHI ’19) . ACM, New York, NY, 1–13.
+[60]Samar Sabie, Steven J. Jackson, Wendy Ju, and Tapan Parikh. 2022. Unmaking as Agonism: Using Participatory Design
+with Youth to Surface Difference in an Intergenerational Urban Context. In Proceedings of the 2022 CHI Conference on
+Human Factors in Computing Systems (CHI ’22) . ACM, New York, NY, 1–16.
+[61]Samar Sabie, Robert Soden, Steven Jackson, and Tapan Parikh. 2023. Unmaking as Emancipation: Lessons and
+Reflections from Luddism. In Proceedingsofthe2023CHIConferenceonHumanFactorsinComputingSystems(CHI
+’23). ACM, New York, NY, 1–15.
+[62]Samar Sabie, Katherine W. Song, Tapan Parikh, Steven Jackson, Eric Paulos, Kristina Lindstrom, Åsa Ståhl, Dina
+Sabie, Kristina Andersen, and Ron Wakkary. 2022. Unmaking@CHI: Concretizing the Material and Epistemological
+Practices of Unmaking in HCI. In Proceedingsofthe ExtendedAbstractsoftheCHIConferenceonHumanFactorsin
+Computing Systems (CHI EA ’22) . ACM, New York, NY, 1–6.
+[63]Alex Sciuto, Arnita Saini, Jodi Forlizzi, and Jason I. Hong. 2018. “Hey Alexa, What’s Up?”: A Mixed-Methods Studies
+of In-Home Conversational Agent Usage. In Proceedings of the 2018 Designing Interactive Systems Conference (DIS ’18) .
+ACM, New York, NY, 857–868.
+[64]Nancy Smith, Shaowen Bardzell, and Jeffrey Bardzell. 2017. Designing for Cohabitation: Naturecultures, Hybrids, and
+Decentering the Human in Design. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems
+(CHI ’17) . ACM, New York, NY, 1714–1725.
+[65]Marie Louise Juul Søndergaard and Lone Koefoed Hansen. 2018. Intimate Futures: Staying with the Trouble of Digital
+Personal Assistants through Design Fiction. In Proceedingsofthe2018DesigningInteractiveSystemsConference(DIS
+’18). ACM, New York, NY, 869–880.
+[66]Katherine W. Song and Eric Paulos. 2021. Unmaking: Enabling and Celebrating the Creative Material of Failure,
+Destruction, Decay, and Deformation. In Proceedings of the 2021 CHI Conference on Human Factors in Computing
+Systems (CHI ’21) . ACM, New York, NY, 1–12.
+[67]Pieter Jan Stappers and Elisa Giaccardi. 2017. Research Through Design. In The Encyclopedia of Human-Computer
+Interaction (2nd ed.). M. Soegaard and R. Friis-Dam (Eds.), The Interaction Design Foundation, 1–94.
+[68]Yolande Strengers and Jenny Kennedy. 2020. The Smart Wife: Why Siri, Alexa,and Other Smart Home DevicesNeed a
+Feminist Reboot . The MIT Press.
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.
+82:20 I. Nicenboim et al.
+[69]Miriam Sturdee, Joseph Lindley, Regan Harrison, and Tine Kluth. 2020. The Seven Year Glitch: Unpacking Beauty
+and Despair in Malfunction. In Proceedings of the Extended Abstracts of the 2020 CHI Conference on Human Factors in
+Computing Systems (CHI EA ’20) . ACM, New York, NY, 1–11.
+[70]Selina Jeanne Sutton. 2019. “I Am from All Over the World”: Moving Towards a Healthier Voice Enabled Internet by
+Acknowledging How It Is Built. In Proceedingsofthe1stInternationalConferenceonConversationalUserInterfaces
+(CUI ’19) . ACM, New York, NY, 1–2.
+[71]Selina Jeanne Sutton. 2020. Gender Ambiguous, Not Genderless: Designing Gender in Voice User Interfaces (VUIs)
+with Sensitivity. In Proceedings of the 2nd Conference on Conversational User Interfaces (CUI ’20) . Association for
+Computing Machinery, New York, NY, Article 11, 1–8. DOI:https://doi.org/10.1145/3405755.3406123
+[72]Selina Jeanne Sutton, Paul Foulkes, David Kirk, and Shaun Lawson. 2019. Voice As a Design Material: Sociophonetic
+Inspired Design Strategies in Human-Computer Interaction. In Proceedings of the CHI Conference on Human Factors in
+Computing Systems (CHI ’19) . ACM, New York, NY, 603:1–603:14.
+[73]Pat Treusch, Arne Berger, and Daniela K. Rosner. 2020. Useful Uselessness? Teaching Robots to Knit with Humans. In
+Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS ’20) . ACM, New York, NY, 193–203.
+[74]Anna Lowenhaupt Tsing. 2015. On the Possibility of Life in Capitalist Ruins . Princeton University Press
+[75]Ron Wakkary. 2020. Nomadic Practices: A Posthuman Theory for Knowing Design. International Journal of Design 14,
+3 (2020), 117–128.
+[76]Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered Worlds . MIT Press.
+[77]Mark West, Kraut Rebecca, and Ei Chew Han. 2019. I’d Blush If I Could: Closing Gender Divides in Digital Skills
+Through Education . UNESCO: United Nations Educational, Scientific, and Cultural Organization, and EQUALS Global
+Partnership. Retrieved October 16, 2019 from https://unesdoc.unesco.org/ark:/48223/pf0000367416.page=1
+[78]Yunhan Wu, Martin Porcheron, Philip Doyle, Justin Edwards, Daniel Rough, Orla Cooney, Anna Bleakley, Leigh Clark,
+and Benjamin Cowan. 2022. Comparing Command Construction in Native and Non-Native Speaker IPA Interaction
+Through Conversation Analysis. In Proceedings of the 4th Conference on Conversational User Interfaces (CUI ’22) . ACM,
+New York, NY, 1–12.
+[79]Xi Yang, Marco Aurisicchio, and Weston Baxter. 2019. Understanding Affective Experiences with Conversational
+Agents. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’19) . ACM, New York, NY,
+1–12.
+[80]DaisyYoo,TildeBekker,PeterDalsgaard,EvaEriksson,SimonSkovFougt,ChristopherFrauenberger,BatyaFriedman,
+Elisa Giaccardi, Anne-Marie Hansen, Ann Light, Elisabet M. Nilsson, Ron Wakkary, and Mikael Wiberg. 2023. More-
+Than-Human Perspectives and Values in Human-Computer Interaction. In Proceedingsofthe ExtendedAbstractsofthe
+2023 CHI Conference on Human Factors in Computing Systems (CHI EA ’23) . ACM, New York, NY, 5 pages.
+[81]More-Than-Human. 2020. Retrieved December 13, 2023 from http://more-than-human.com
+[82]Minha Lee, Cosmin Munteanu, Martin Porcheron, Johanne Trippas, Sarah Theres Völkel (Eds.). 2023. Proceedingsof
+the 5th International Conference on Conversational User Interfaces . ACM, New York, NY.
+Received 12 July 2023; revised 14 January 2024; accepted 3 May 2024
+ACM Transactions on Computer-Human Interaction, Vol. 31, No. 6, Article 82. Publication date: December 2024.

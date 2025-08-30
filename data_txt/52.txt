@@ -1,0 +1,1687 @@
+Infinity Book: Speculating Literary Expressions in the Age of
+Generative AI
+Jussi Holopainen
+City University of Hong Kong
+Hong Kong, China
+jholopai@cityu.edu.hkYuxuan Huang
+City University of Hong Kong
+Hong Kong, China
+yhuang573-c@my.cityu.edu.hkJoongi Shin
+Aalto University
+Espoo, Finland
+joongishin@gmail.com
+Erkka Nissinen
+Independent Artist
+Helsinki, Finland
+erkkamies@gmail.comAndrés Lucero
+Aalto University
+Espoo, Finland
+lucero@acm.org
+Abstract
+This paper explores the ethical, social, political, and philosophical
+implications of generative AI (GenAI) on human creativity, con-
+tributing to the current discussions on the impact of AI. We use
+speculative and critical design as our approach to avoid abstract
+guesswork and provide more nuanced and concrete insights into the
+matter at hand. We conducted five speculative design workshops
+centered on Infinity Book, a fictional system capable of generating
+any kind of literary work. Participants used brainwriting, the Fu-
+ture Ripples method, and dialogue-labs to explore potential futures
+and socio-material impacts of such technology. Reflexive Thematic
+Analysis was employed to analyze the results from the workshops,
+and we developed twelve design fictions that illustrate diverse uses
+and societal implications of GenAI. Based on these results, we for-
+mulated three strong concepts, Authenticity, Creative Agency, and
+Liveness, that link concrete design considerations with broader
+philosophical discussions.
+CCS Concepts
+•Applied computing →Fine arts ;•Human-centered com-
+puting→Interaction design process and methods ;Natural
+language interfaces .
+Keywords
+speculative design, generative AI, literary expression
+ACM Reference Format:
+Jussi Holopainen, Yuxuan Huang, Joongi Shin, Erkka Nissinen, and Andrés
+Lucero. 2025. Infinity Book: Speculating Literary Expressions in the Age
+of Generative AI. In Designing Interactive Systems Conference (DIS ’25),
+July 05–09, 2025, Funchal, Portugal. ACM, New York, NY, USA, 25 pages.
+https://doi.org/10.1145/3715336.3735735
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+DIS ’25, Funchal, Portugal
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1485-6/25/07
+https://doi.org/10.1145/3715336.37357351 Introduction
+The boundaries between technology and humanity are becoming
+increasingly blurred. Technologies from advanced artificial intel-
+ligence to virtual reality and neural implants are expanding and
+complicating human-technology relations [ 38]. Generative Artifi-
+cial Intelligence (GenAI) is one such computational technology that
+has recently attracted massive public interest. GenAI refers to a
+set of machine learning (ML) systems that are trained on massive
+amounts of existing content and are capable of generating new,
+plausible content (e.g., images, texts, music, code, and other forms
+of media), usually responding to textual or visual prompts [ 83,104].
+The advancements in Large Language Models (LLMs) such as GPT-
+4, Gemini, Bard, and other transformer-based deep neural networks
+facilitated a surge in GenAI systems during the 2020s. In 2020,
+GPT-3 was already reported to demonstrate the ability to produce
+non-fictional work that can hardly be distinguished from human
+work [ 35]. Since then, numerous studies have evaluated GenAI’s
+ability to facilitate automatic literary creation, with varying results
+[21, 41, 52, 82, 92, 112].
+We are still far from using GenAI to write consistent artistic
+literary works automatically, however this may change in the next
+five years or so. The world is witnessing the emergence of funda-
+mental questions regarding the relationship between humans and
+machines, such as the value of human creativity and the cultural
+significance of creative work. It is crucial to foster reflective and
+critical engagement with both the current state and how things
+could be in the future [95].
+Despite extensive (and exploding) research on GenAI, this reflec-
+tive and critical engagement remains fairly unexplored. Liu et al.
+[72], for example, have argued that much of the current literature is
+focused on technology development or fairly obvious and unques-
+tioned use cases and that the critical discussions tend to remain
+abstract, painting vague utopias or dystopias of how GenAI will
+change the world in the near future. This implies that there is space
+for concrete speculations that are still critical and reflective enough
+to enable informed insights into the impact of such technologies.
+These considerations lead us to embark on critical speculations
+on advanced GenAI-based systems capable of automated literary
+creation, exploring their impact on creative practices and their
+influence on the socio-material world. As a starting point, we came
+up with the idea of Infinity Book (IB) , which is a fictional system that
+can generate all kinds of literary works, e.g., novels, short stories,
+1430
+
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+and poems. We used infinity Book as a conceptual anchor point
+for our critical speculations in the form of a series of speculative
+design workshops and the creation of a set of design fictions. In
+this paper, we report the results of these speculations.
+The direct inspiration for Infinity Book comes from the great
+science-fiction writer Stanislav Lem’s short story First Sally (A)
+or Trurl’s Electronic Bard , first published in Polish in 1965 as part
+of his Cyberiada collection. The story depicts the development
+and consequences of a machine (the eponymous electronic bard)
+capable of producing vast amounts of poems exploring all kinds of
+themes and fitting every situation. Roald Dahl’s 1953 short story
+The Great Automatic Grammatizator and the concept of an infinite
+library, as explored by various authors, including Jorge Luis Borges,
+Terry Pratchett, and Umberto Eco, provided further inspiration for
+the project.
+Additional motivations emerged from considering the signif-
+icant role of books as a prevalent form of literary expression in
+contemporary cultures. Books are valued for their ability to capture,
+transmit, and preserve culturally important information, making
+them key tools in maintaining and sharing knowledge across gen-
+erations. Compared to other cultural forms, books are often seen
+as stable cultural artifacts, with high literature especially receiv-
+ing considerable cultural appreciation. Reading books demands a
+level of engagement that is distinct from other media, requiring
+extended periods of focused attention. This deep engagement is
+thought to foster a unique connection between the author and the
+reader. Similar patterns of focused engagement in books, movies,
+and video games suggest that these speculations also apply to these
+other media forms. Current trends indicate that fully AI-generated
+fiction books are likely to emerge before, for example, AI-generated
+movies, making these predictions more timely. It should be noted
+that for the purposes of this study, we have taken a fairly liberal
+view on what is considered a book [ 13,63]. This paper reports the
+results of three speculative design workshops and two dialogue-labs
+sessions with creative writers around the critical envisioning of
+Infinity Book to answer the following research questions:
+•How do systems automating literary creation shape the so-
+ciomaterial world and human-technology relationships?
+•What overall interaction design concerns arise for such sys-
+tems?
+The contributions of this paper include ten themes arising from
+the workshops speculating on the impact of Infinity Book and twelve
+design fiction scenarios illustrating some of the key issues. Based
+on these, we present three design considerations, Authenticity,
+Creative Agency, and Liveness, framed as strong concepts [55]. These
+results provide new insights and perspectives on the futures of
+automated literary creation. Additionally, the studies included in
+the paper refine and combine existing speculative design methods
+while foregrounding posthumanist perspectives on creativity and
+generative AI.
+The rest of this paper is structured as follows. First, we review
+relevant related work, and introduce our methodology. Then, we de-
+scribe and present the results of three speculative design workshops
+(n=19) and two dialogue-labs sessions (n=18). Finally, we present
+12 resulting design fiction scenarios, followed by a discussion of
+potential design considerations and conclusions.2 Background
+2.1 Automated and Algorithmic Literary
+Creation
+The idea of writing machines has existed longer than the afore-
+mentioned Lem’s and Dahl’s “design fictions.” Sharples and Pérez
+[100] in their Story Machines mention a machine capable of writing
+books with little human effort appearing in Jonathan Swift’s Gul-
+liver’s Travels 1726 and a steam-powered automatic prose writer
+in Sir Walter Scott’s Tales of the Crusaders from 1825. Experiments
+in combinatory poetry and literature have even deeper historical
+roots, including, for example, Lady Su Hui’s Star Gauge poem1
+from 4th century China, capable of producing over 3000 shorter po-
+ems, Ramon LLull’s Ars Generalis Ultima andArs Brevis in the 13th
+century, and John Peter’s 1677 booklet on artificial versifying [ 90].
+More recent examples include Queneau’s Cent Mille Milliards de
+Poèmes , which consists of 10 sonnets, each split into 14 strips. These
+strips can be combined in any order, thus capable of creating 1014
+different sonnets. For actual machines capable of verse generation,
+John Clark’s Eureka machine from 1845 century is a notable early
+example [ 100]. The advent of computers after World War II enabled
+further experimentation. Christopher Strachey wrote a program
+capable of creating Victorian love letters on the Manchester Mark
+1 in 19522. Poems were thus the first to get automated and have
+remained an active topic ever since [71].
+According to Ryan [ 98], the first computer story generators
+were developed at the beginning of the 1960s. Joseph Grimes pro-
+grammed an IBM 650 mainframe computer in 1960-1961 to generate
+fairy tales based on Vladimir Propp’s model of Russian folktales,
+while the SAGA II system from 1960 could reportedly generate
+screenplays for western genre TV series. Klein’s Automatic Novel
+Writer, first reported in 1971, wrote somewhat passable murder
+mysteries, albeit only minor variations of basically the same story.
+Other attempts at automated story generation include Tale-Spin
+[81], Universe storytelling system [ 66], Brutus [ 16], and Fabula [ 97].
+The field of automated story generation, especially for interactive
+digital narratives and games [ 40], has grown steadily over the last
+few decades.
+The rise of GenAI, especially powerful LLMs, has given the field
+an additional boost with hundreds of research prototype projects
+going on in both academia [ 31] and hobbyist communities, such
+as Hugging Face [ 20], an ever-increasing number of commercial
+AI-assisted creative writing platforms (e.g., Jasper, Rytr, Sudowrite),
+and the rise of published LLM authored books [ 17]. The debate
+on how people perceive and react to AI-generated artworks and
+what is the value of such works has become active, even heated,
+during the current GenAI boom. Besides any critics and creative
+industry workers denying the cultural significance GenAI art, re-
+cent studies have indicated that the attitudes of both experts and
+non-experts are shifting. Hitsuwari et al [ 52], for example, found
+out that the participants in their study could not distinguish be-
+tween human-written and AI-generated haiku poetry. Similarly,
+Porter and Machery [ 92] reported that non-experts were unable
+to determine whether a poem was written by humans or AI. The
+1https://en.wikipedia.org/wiki/Star_Gauge
+2https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm
+1431
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+participants even rated the AI-generated poetry higher. Hong et
+al. [53] study in 2019 indicated that the participants judged the
+artistic value of AI-generated works as lower. However, in a more
+recent study van Hees et al. [ 108] report that the participants rated
+AI-created (OpenAI Dall-E 2) art higher than human artworks. They
+also speculate that there is a shift in attitudes and preferences to-
+wards AI-images. Currently, GenAI cannot match human levels
+of quality in artworks requiring prolonged engagement, such as
+novels, but it is conceivable that similar evaluations will be possi-
+ble in the near future. These shifting cultural values indicate that
+there is a need for speculating on the wider societal and cultural
+implications of GenAI.
+2.2 Generative AI in Creative Activities
+Thanks to their generative capabilities, the use of generative AI in
+creative activities has emerged as an important topic in the field
+of Creativity and HCI [ 67,99,101]. Instead of mere automation
+done by AI, the major approach has been that humans and AI co-
+create. For example, previous studies have shown how creative
+practitioners can work with LLMs or text-to-image generation
+models in diverse fields, such as story writing [ 21,41,70,94,120],
+fashion design [58], and painting, drawing, and visual arts [19, 23,
+121]. Additionally, there is a fast-growing body of work using AI in
+co- and participatory design approaches in many different domains
+(e.g., specifically, GenAI’s competence in swiftly generating a larger
+spectrum of ideas has been exploited to inspire people to create
+more original and useful ones compared to working alone [ 2,73].
+Still, despite the benefits of AI, how the human-AI co-creativity will
+be shaped in the future remains an open question. For example, in
+the exercise of measuring creativity in divergent thinking, Koivisto
+and Grassini [ 61] found that humans outperform AI in generating
+more diverse ideas, which indicates that the practice of building on
+AI-generated content could eventually limit human creativity. Liu
+et al. [ 74] also show that delayed responses from AI give marginal
+time for humans to reflect and develop more creative ideas, which
+suggests that the inherent human abilities cannot be overlooked in
+human-AI co-creation. Likewise, we believe that envisioning future
+human-AI co-creation should be grounded in AI’s competence and
+understanding of how creative practitioners work and perceive
+working with generative AI [105, 116].
+2.3 Speculative Design With and About
+Generative AI
+Using GenAI tools in speculative design, especially in design fiction,
+has gained attention during the recent boom. Blythe [ 11], for exam-
+ple, argues that even though the "raw" outputs from GenAI tools
+such as ChatGPT and image generators tend to remain plain and
+conventional, the tools can prove useful for design fictions with crit-
+ical prompting. Similarly, many others have reported their experi-
+ences in using generative AI in speculative design, e.g., [ 65,102,118]
+while Østvold Ek et al . [87] gives a partial review of the relationship
+between AI and speculative design. Much closer to our approach
+is speculative and critical design about GenAI. Lin and Long [ 69]
+present two speculative design scenarios of future GenAI tools
+and suggest environment, data privacy, embodiment andplay as
+preliminary themes for design concerns in this field. Friedrich [ 39]used design workshops and interviews with artists to come up with
+future scenarios of AI’s relation and implications to art and society.
+The workshops generated four speculative scenarios (The AI Muse,
+The Creature Generator, The No-AI Commune, The AI-enhanced
+Film) expressed as short stories with visualizations created with
+Stable Diffusion 3. Popova [91] similarly used workshops with de-
+signers to create design fictions on how generative AI tools could
+integrate into their workflows. The final resulting design fiction
+takes the form of a user manual for such an AI tool giving details of
+four specific use cases of a fictional Enterprise Generative Ideator
+(EGI) system. Yan [ 119] focuses on a more specific aspect of creative
+GenAI use, namely the generation of memes.
+3 Methodology
+We used several approaches to speculate on the future of automated
+literary creation. Overall, the study consisted of four phases: (1)
+three speculative and critical design workshops, (2) two dialogue-
+labs sessions, (3) development of design fiction scenarios, and fi-
+nally, (4) formulation of strong concepts. To foster in-depth specu-
+lation, we designed the workshops based on three philosophical ap-
+proaches: Actor-Network Theory, postphenomenology, and more-
+than-human design. We used Reflexive Thematic Analysis (RTA)
+to analyze the results from the workshops and the dialogue-labs
+sessions. Applying these diverse methods and approaches enabled
+us to gain new perspectives and a wider understanding of the is-
+sues at hand, which we formulated into three strong concepts. The
+summary of approaches is shown in Figure 1.
+3.1 Speculative and Critical Design
+We employed speculative and critical design as they can enable
+envisioning the future of technology by speculating on its current
+state in our society. Speculative design [ 3,28] is a method of paint-
+ing a picture of potential futures; it explores hypotheticals of how
+the design would mold, transform, and reset the parameters of
+our world; it transcends the confines of present-day technologi-
+cal and cultural possibilities, influencing the trajectory of future
+technological advancements. Similarly, critical design [ 27,78] chal-
+lenges dominant paradigms by creating artifacts that critique so-
+cietal norms, values, or technological trends. It seeks to resolve
+assumptions by offering designs that highlight contradictions, ethi-
+cal concerns, or unintended consequences. In other words, critical
+design not only seamlessly fits artifacts into our world [ 6], it also
+poses challenges, questions assumptions, and offers a critique, thus
+presenting alternative perspectives and scenarios that highlight the
+issues, contradictions, or problems with current practices. Together,
+speculative and critical design can foster reflective engagement
+not just with what and how things are at present but with what
+could be developed in the future [ 95]. This critical engagement aims
+to carefully explore the intended, and especially the unintended,
+consequences of introducing newly designed objects, systems, and
+assemblages to our lives3.
+3https://www.theguardian.com/news/article/2024/aug/08/no-god-in-the-machine-
+the-pitfalls-of-ai-worship
+1432
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Speculative and Critical Design
+Actor-Network Theory
+Post-phenomenology
+More than Human3 x Speculative design workshopsStudy 1 (S4)
+Exploration approaches (S3)2 x Dialogue-labs sessionsStudy 2 (S5)
+Design fiction
+scenariosOutput for RQ1 (S6)
+Strong conceptsOutput for RQ2 (S7)
+Reflexive
+Thematic
+AnalysisAnalysis 
+Authenticity
+Creative agency
+Liveness
+...
+Figure 1: We explored the future of co-writing with AI in two studies (blue boxes). Each study consists of a series of workshops,
+employing philosophical exploration methods that enable novel speculation on the relationship between human and AI (pink
+box). We analyzed the combined results of studies using Reflexive Thematic Analysis and synthesized design fiction scenarios
+(yellow box) and strong concepts (orange box), addressing our research questions respectively. Section numbers for each part
+are shown in parentheses.
+These approaches are often combined with design fiction [ 10,
+103], a narrative-driven approach that uses fictional scenarios, arti-
+facts, and stories to explore potential futures. Situating design fic-
+tions within critical design can be used to provoke reflection about
+the implications of emerging technologies and societal trends. The
+approach blends elements of design, storytelling, and speculative
+thinking to imagine "what if" scenarios, focusing on possibilities
+rather than predictions. Design fictions can take many different
+shapes and forms from short stories through fictional user manuals
+to even videogames [ 25]. In this study, we used storyboarding [ 106]
+to illustrate the envisioned design fictions.
+3.2 Philosophical Approaches
+The philosophical theories supporting this study are Actor-Network
+Theory (ANT), Postphenomenology, and the posthumanist-inspired,
+More Than Human-Centered Perspective (which we introduce in
+the next subsection). ANT is about removing humans from the
+center of the show by introducing non-human actors , such as ob-
+jects, technology, processes, and even ideologies and beliefs, in the
+analysis on the same level as humans [ 1]. ANT originally arose
+from the science and technology studies of the second half of the
+20th century [ 64]. Lately, ANT has been increasingly used to under-
+stand technological developments in Human-Computer Interaction
+(HCI) [ 38]. The focus is also on the ever-shifting relations between
+these human and nonhuman actors and, as the name implies, these
+relationships form networks of influence and effect [1].
+Postphenomenology analyses the relationship between technol-
+ogy, humans, and the world in a philosophical way. Instead of
+inquiring about the capabilities of technology for users, postphe-
+nomenology assumes technology plays a proactive role in mediat-
+ing interactions between humans and the world. This aligns well
+with our research aims of determining how the structure of human-
+technology-world relations will change under the mediation of
+GenAI. In particular, we analyze the data collected from the work-
+shops through four relationships (Embodied, Alterity, Hermeneutic,
+Background) proposed by Ihde [ 57] with additional two relations
+(Cyborg, Augmentation) proposed by Verbeek [ 110]: Apart fromthe structure of human-technology-world relations at play, this
+work explores the implications of mediation. Postphenomenology
+helps figure out how technology co-constitutes our relation to the
+socio-material world and how this relation shapes us, which implies
+ethicopolitical considerations in designing technological artifacts.
+3.3 More than Human
+More than human-centered design describes the design space where
+both humans and nonhumans are at the center of thought and ac-
+tion and interconnect materially, ethically, and existentially [ 111].
+It does not refute the entirety of traditional human-centered design
+(HCD), but instead brings nonhuman actants into design considera-
+tions in a way that previous design thinking did not. From the more
+than human perspective, HCI research has gone through “three
+waves” ever since its emergence [ 12]. The first wave put forward the
+idea that human-machine interactions should be optimized with
+regard to usability. The second wave stood for human-centered
+design with an endeavor to measure the interactions through un-
+quantifiable features such as “efficiency” and “uncertainty”. Finally,
+the third one recognized the ubiquitous presence of technology
+across social environments, thereby situating interactions in the
+messy, complex world. In the third wave, the world has begun to
+appear networked by pervasive technology. The performative rela-
+tionship between humans and technology has become so entangled
+that user-centered design practices have ceased to be useful [ 38].
+Design must acknowledge its exploitation of nonhuman species
+and the materials we extract for human use [111].
+Hayles’s "cognitive assemblage" [ 45] explores such relationships
+between human and non-human cognition. Cognitive assemblages
+are used to understand how different kinds of cognitive agents
+interact and form networks that generate knowledge, meaning, and
+agency. The concept challenges the idea that cognition is solely a hu-
+man characteristic. Instead, she argues that cognition is distributed
+across different entities, both human (individuals and social groups)
+and non-human (computers, algorithms, and networks). These dif-
+ferent cognitive agents interact and form assemblages of distributed
+cognition. Hayles also distinguishes between conscious thought,
+1433
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+which is traditionally attributed only to humans, and nonconscious
+cognition [ 46]. Nonconscious cognition refers to processes that hap-
+pen without conscious awareness but still contribute to cognitive
+functions in the assemblages. The nonconscious functions can, and
+often do, involve nonhuman entities. This includes how AI algo-
+rithms process data and generate outputs in GenAI systems. The
+approaches above provide frameworks for reconceptualizing design,
+moving beyond anthropocentric perspectives. These informed the
+design of the workshops, particularly the first three, and provided
+the philosophical grounding for interpreting the results.
+3.4 Strong Concepts
+Höök and Löwgren’s strong concepts [ 55] are characterized by their
+ability to be transferable across different contexts while retaining
+their identity and relevance, thus offering a framework for creating
+and analyzing interaction designs. Strong concepts are distinct from
+highly contextualized design exemplars and abstract universal prin-
+ciples found in theories, and operate in the middle ground, offering
+designers a way to articulate recurring patterns or approaches that
+address common design challenges. For instance, a strong concept
+might encapsulate ideas like seamfulness [22],civic learning [44],
+orsomaesthetic appreciation [54], providing a reusable lens through
+which design decisions can be informed and evaluated. In short,
+strong concepts are not prescriptive but open-ended and genera-
+tive, enabling designers to adapt them to specific projects while still
+drawing on their core insights. This flexibility makes them particu-
+larly useful in speculative and critical design practices, where the
+aim is often to provoke thought and challenge assumptions rather
+than deliver solutions.
+We followed the principle of developing strong concepts to dis-
+cuss three themes about human-AI relationships from our work-
+shops (Section 7). Strong concepts are constructed by identifying
+their source in various design instances (e.g., an existing or future
+use scenario, a theoretical perspective on human behavior). The key
+is to analyze these design instances and distill elements or principles
+that could hold value across different design situations or domains.
+The next steps, horizontal and vertical grounding, involve situating
+the strong concept within existing academic work and connecting
+it to other similar concepts and relevant frameworks. This process
+involves examining whether the concept appears in other contexts,
+analyzing its broader empirical base, and linking it to theories that
+can enhance its explanatory power. Finally, constructing strong
+concepts involves triangulating these empirical, analytical, and
+theoretical insights. Through these steps, we synthesized strong
+concepts that fuse isolated materials from the workshops and design
+fiction into transferable design knowledge contributions.
+4 Study 1: Speculative Design Workshops
+4.1 Aims and Motivation
+We first conducted three speculative design workshops between
+December 2023 and February 2024. We introduced the concept of
+Infinity Book , a future fictional system powered by GenAI, and used
+it as a conceptual tool to facilitate the workshops. The aim of these
+workshops was to get a broader understanding of possible char-
+acteristics, use cases, and impacts of the system. The participants
+were encouraged to imagine many different futures and possibilitieswithout paying much attention to the plausibility or feasibility at
+this stage. Preliminary results from study 1 are reported in [56].
+4.2 Participants
+A total of 19 participants (7 self-identifying as women and 12 as
+men) took part in three workshops. Participants varied in their
+occupation (11 doctoral students with design backgrounds, 5 de-
+signers, 2 artists, 1 professor) and experience with GenAI tools. The
+participants were recruited using snowball sampling, starting from
+the first author’s contacts. The main criteria for participation were
+familiarity with interaction design and interest in GenAI.
+4.3 Procedure: Workshop I
+Workshop I followed three steps and took 3 hours. The host first
+introduced the concepts of Infinity Book , Speculative Design, and
+More-than-human Design. In the second step, the participants used
+6-3-5 Brainwriting for ideating diverse "actors" involved in Infinity
+Book system. Actors, according to Actor-Network Theory [ 64], can
+be human and nonhuman and always have relations with other
+actors. For example, an actor can be someone or something that
+uses the system, benefits from the system, exploits or is exploited
+by the system, and so on. Participants were asked to use a couple
+of sentences to describe the actors and their relations to Infinity
+Book and other actors in a concrete manner. The workflow of 6-3-5
+Brainwriting worked as follows: During each 5-minute round, each
+participant was required to write down 3 ideas on 3 sticky notes and
+put them on their sheet in a row. After each 5-minute round (the
+facilitator shouted “Switch!”), every participant gave their sheet to
+the next person, and a new round would start. After all 6 rounds, a
+total of 126 (3 ideas in 6 rounds with 7 people) ideas were gathered.
+The last step was to organize ideas using an affinity diagram [ 75].
+The participants systematically went through each note one by one.
+They then grouped notes that expressed similar ideas, placing them
+on the whiteboard. Each group was given a name, and this process
+was iterated until all the notes had been organized.
+4.4 Procedure: Workshops II and III
+Similar to workshop I, workshops II and III started with a brief in-
+troduction to Infinity Book and Speculative Design. Each workshop
+took 3 hours. The main workshop component was the three ideation
+sessions using the “Future Ripples” method [ 30], a strategic fore-
+sight approach based on the Futures Wheel method [ 42] that offers
+a more dynamic and speculative process for ideating consequences
+and impacts. It starts with a “what if” scenario for creating ripples
+of consequences. For the two workshops, the “what if” scenarios
+were predefined by the researchers, which are "What if there were
+systems widely available that can produce full-length novels from
+scratch according to users’ wishes?" and"What if there were systems
+that could create any kind of fictional text, e.g., novels, poems, short
+stories, self-help manuals, and so on, from scratch?" accordingly. In
+the first ideation session, each participant had 15 minutes to think
+independently about the consequences of the “what if” pebble and
+write them down on sticky notes, with one consequence per note.
+Then everyone presented their best two to three consequences,
+placing them on the whiteboard. After discussing within the group,
+participants drew lines between sticky notes on the board if one
+1434
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Table 1: The resulting themes (T) from RTA and representative quotes from the speculative design workshops (WS) in Study 1.
+(T1) Revaluation of labor Besides creating works of literature, the system
+was imagined to communicate with and analyze humans, provide
+psychotherapy, generate new belief systems, and even participate in human
+politics. Humans will lose certain jobs because machines can do the same and
+probably even better."People lose jobs->the creativity Industry the writing
+Industry->writer’s job disappear." [WS2]
+"Neoliberalism becomes dead in literature. People only
+write novels for pleasure or to push boundaries of
+literature." [WS2]
+(T2) Redefining creativity and imagination Another often discussed
+issue was the impact on human creativity due to overreliance on the system.
+With the rise of AI creativity, it is hard to clearly define what humans and
+machines can and cannot create. Some even worried that humans will
+gradually and unconsciously lose the capabilities and skills for proper
+imagination."Creativity station: an area for people to increase
+creativity because overreliance on the Infinity Book may
+make them lose the ability to think critically and
+independently." [WS1]
+"Literary expression becomes influenced by AI’s
+creativity, which might bring about new forms of literary
+critics/creation." [WS2]
+(T3) Fragmentations and divisions Other concerns include the increasing
+physical, interpersonal, and even cultural isolation due to the massive
+increase in the availability and reliance on personalized content as
+manifested by a decrease in empathy, increasing narcissism, and even a rise
+in digital addiction. This further isolation can also lead to the loss of shared
+creative artifacts that act as cultural reference points, potentially further
+fragmenting the socio-cultural fields."If all content is custom made to every individual,
+people’s relationship will deteriorate and cultural
+divisions will increase due to a lack of shared languages."
+[WS3]
+"The available access to such services with money raise
+in a crazy manner become new class discrimination
+division and hierarchical depression." [WS2]
+(T4) Content pollution and control The massive and constant content
+supply can exacerbate “information pollution” and the proliferation of fakes,
+eroding trust and the sense of authenticity."The whole Internet dominated by AIGC. Languages are
+greatly reshaped." [WS2]
+"Content is cheap. Actual literature is expensive. Massive
+class divide ensues." [WS3]
+(T5) Back to human! An increased awareness and appreciation of authentic
+and “pure” humanity. In this newly found appreciation of live human
+performances, participants emphasized the need to protect human creativity
+and that humans will still crave real and physical human connection."Young people, students are interested in non-digital
+ways to create analogue backlash." [WS3]
+"AI does not matter. Activist group trying to take down
+"AI systems." [WS1]
+was the consequence of another. In the second and third ideation
+sessions, participants were inspired by existing consequences on
+the board, repeating the exercise.
+4.5 Analysis
+To capture the relationship among them, we photographed the
+generated notes from all the workshops on the original whiteboard.
+We also moved them to white A4 sheets, preserving their original
+layout, to closely analyze them.
+We conducted Reflexive Thematic Analysis (RTA) [ 14] to ana-
+lyze the materials from the three workshops. The themes generated
+through RTA are creative interpretations that narrate the stories
+of the data. Themes are not born with the data, waiting for the
+researchers to discover, nor are they singular or fixed. Instead, they
+vary based on the researcher’s theoretical insights and analytical
+skills [ 15]. Consequently, producing theory-driven results makes
+RTA particularly appropriate for our study as we aim to use the
+above-mentioned philosophical approaches to inform our analy-
+sis. The resulting themes and representative quotes are shown in
+Table 1. We present the quotes with the workshop number as the
+workshop format encouraged sharing and non-ownership of ideas.
+5 Study 2: Dialogue-labs Sessions
+Dialogue-labs [77] are primarily used in the middle stages of the de-
+sign process to support researchers and designers in creating ideasand concepts for future designs, together with relevant stakehold-
+ers and end users. It combines different methods and techniques,
+providing a structured way of generating ideas through a sequence
+of co-design activities. Its main focus is on three key structuring
+aspects: the process of how dialogue-labs sessions are orchestrated,
+the space in which the sessions unfold, and the materials that are
+employed. Dialogue-labs have been successfully applied in a wide
+range of projects to involve different participants including HCI
+researchers [ 43], children with ADHD [ 33], or animals [ 51], and
+for different purposes such as to encourage interaction between
+nearby strangers [ 88], to incorporate African perspectives in the
+design and development of drones [ 117], and to explore how older
+adults in South America might prefer to interact with their personal
+health data [18].
+5.1 Aims and Motivation
+Based on the findings from the previous workshops, two dialogue-
+labs[77] sessions were organized at School of Creative Media, City
+University of Hong Kong in June 2024, which consisted of co-design
+activities to explore creative writers’ perceptions of AI, including
+their dreams, fears, and aspirations in relation to their future pro-
+fessional practice. Three members of the research team took on a
+dual facilitator/participant role by encouraging an open discussion
+that would allow novel perspectives to flourish. The dialogue-labs
+sessions were documented by means of still photography and were
+video recorded for later analysis.
+1435
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+Figure 2: Different aspects of the dialogue-labs sessions. a) Participants working in trios, using Lego figures and GPT-4 to create
+stories (front trio), b) overview of the room with the different materials used at each location, and c) a resulting collage with
+annotations.
+5.2 Participants
+A total of 18 participants (6 self-identifying as women and 12 as
+men) took part in the two dialogue-labs sessions. We again used
+snowball sampling, starting with the first author’s local connections.
+The participants had to be either professional creative writers or
+HCI researchers/practitioners. Each session had nine participants
+who worked in three trios (one woman per trio). Each trio (Figure
+2a) included at least one professional creative writer and one HCI
+researcher. The professional creative writers had at least 13 years of
+experience each. The HCI researchers and practitioners were from
+a range of backgrounds: 6 had extensive experience in interaction
+design, with 4 of them in co-design, and 2 had a background in
+interactive media art. Each had at least 4 years of experience in
+HCI. Additionally, 4 PhD students with backgrounds in HCI and
+creative media participated in the first session.
+5.3 Materials
+Six locations were provided with a range of building materials and
+inspiration props (Fig. 2b), helping participants to build a common
+design language and providing them with different entry points
+to the design problem. Each location included a different activity,
+which fostered creativity by drawing on different thinking and
+doing skills. Each activity was a combination of a taskand materials,
+and each combination was meant to investigate novel AI literary
+art forms. The activities were presented and described as follows:
+5.3.1 Reader’s Confession Booth (Sketch). Readers often engage
+with books based on personal experiences and emotions. Under-
+standing how reading contexts affect interpretation can enrich the
+reading experience. You will be sharing personal stories and recent
+life events that might influence your reading mood. Individually
+describe your favourite/weirdest/most embarrassing reading experi-
+ence. After sharing each other’s stories, discuss how those contexts
+influenced your interpretations.
+5.3.2 Don’t Feed the AI (Collage—Fig. 2c). The input provided to
+Generative AI can significantly influence the output, revealing the
+interplay between input and creation. Different input types like
+news articles, personal photos and anecdotes as well as explicit
+prompts can be used to start and influence AI-generated texts. Usethe images available on the table to explore which types of inspiration
+AI can use to create stories.
+5.3.3 Story Strategy Studio (PLEX Cards [ 76]).Storytelling forms
+and strategies shape how a narrative is perceived and understood,
+offering various ways to engage the audience. Consider diverse
+literary forms (e.g., haiku, novel, epic poetry, flash fiction) and
+discuss their effects on narrative engagement. Shuffle the PLEX
+cards deck. Randomly pick three cards each. Take turns describing
+what new playful literary forms AI could support by placing down a
+PLEX card at a time.
+5.3.4 What’s AI got to do with it? (Diagram). Co-creativity between
+humans and AI can lead to innovative literary forms and narratives,
+blending human imagination with AI capabilities. Reflect on past
+collaborative experiences and the value of co-creation. Explore the
+diagram on the table with different roles the AI could take in the
+context of the collaborative process. Discuss how you envision the
+AI-human partnership could unfold in the case of Infinity Book.
+5.3.5 Roleplay Realm (Lego + AI—Fig. 2a). Roleplay allows people
+to immerse themselves in different characters and perspectives, en-
+hancing empathy and creative expression. Each participant adopts
+a Lego character and engages in a roleplay dialogue facilitated by
+the AI. Use the ChatGPT interface on the laptop and ask it to create
+dialogue for your character. Then reflect on how embodying different
+characters influenced your understanding of the Infinity Book.
+5.3.6 Worldbuilders’ Corner (Writing). Worldbuilding is crucial
+in creating immersive and believable fictional universes. Explore
+elements of worldbuilding such as geography, culture, politics, and
+history, and discuss how these elements contribute to the depth and
+richness of a story. Write a less than 100-word flash fiction, which
+creates an as rich as possible fictional world where the Infinity Book
+system has been in everyday use for a long time.
+5.4 Procedure
+Each dialogue-labs session lasted two hours and was divided into
+the following segments:
+1436
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Table 2: The resulting themes (T) from RTA of the dialogue-lab results in Study 2.
+(T6) AI as an Expression Formulator The participants envisioned
+the opportunities for AI playing a supportive role in making vague
+emotional expressions concrete and exploring novel combinations of
+sensory perceptions to highlight novel expressions.“Not everyone is good at expressing their feelings, so AI can mix
+creative expressions we said before to help you express and
+share your feelings. . . . AI could say ‘you know, this is the way
+you write this’.” [P11]
+(T7) Personalized Fiction One commonly discussed future among
+the participants was where AI continuously follows individuals to
+provide personalized stories. In such a society, it could be possible
+that AI is more aware of a user’s profile, similar to how current AI
+recommendation systems provide personalized content to users.“What is literature for if it’s just for one person?” [P18]
+“At a smaller scale, you don’t get that connection to another
+person: ‘Oh, I read this book!’ ‘I haven’t read it because it’s only
+yours.’ But if you share it [...]” [P17]
+(T8) Embodied Meaning The participants discussed the
+fundamental challenge in training AI to have a similar level of sensory
+perception as humans. It is difficult for people to capture and describe
+their sensations, and writing heavily relies on a writer’s embodied life
+experiences.“The AI cannot create human stories because it does not
+experience as a human. You cannot have an AI that is more
+traumatized than another AI.” [P11]
+"Other input modalities than just vision and text or audio, how
+to incorporate touch, texture, smell (to AI), the peculiar feeling
+you get in your ears when its extremely humid and hot here in
+<Asian City>.” [P1]
+(T9) Background Relations Rather than relying on human-initiated
+prompts, the machines could autonomously seek data from the
+environment without humans being necessarily involved in the
+process at all.“How important are we towards creation? Could it still create
+something without direct human input?” [P14]
+(T10) Agency and Authenticity Despite the increasing automation,
+humans should still retain some agency, particularly through feedback
+mechanisms. By valuing and ranking texts or other AI-generated
+outputs, humans can influence the system’s direction, albeit within
+limits. However, as AI systems increasingly rely on other AIs for
+critique and evaluation, there is a risk that human perspectives will be
+further marginalized.“So in this case, for example, then the human doesn’t even
+necessarily know that these A!s are collaborating.” [P16]
+“So you need to really understand context of where you are and
+your time and place in history and all things at all at the same
+time. [...] Yeah, interesting to see if you can actually automate
+that.” [P17]
+5.4.1 Introduction (15 minutes). The facilitators welcomed the par-
+ticipants and led them through an informed consent process. Facili-
+tators explained the main purpose of the session in a comfortable
+and relaxed atmosphere to enable creativity. Participants were pre-
+sented with slides generally introducing the idea of the Infinity Book ,
+findings from previous workshops, and the main goal of exploring
+novel literary art forms solely generated by AIs (particularly by
+LLMs).
+5.4.2 Co-design Rounds in Trios (3x15 minutes). Participants were
+grouped into smaller trios that ensured diversity (i.e., gender, back-
+ground, expertise). Each trio freely chose and spent 15 minutes
+in each of three out of the six available locations (later explained
+under Materials).
+5.4.3 Idea Sharing (15 minutes). After a five-minute coffee break,
+all participants gathered as a single group. Taking turns, each trio
+shared ideas generated or interesting discussion topics at each
+location. At any time, the larger group was invited to react and
+build upon the idea or topic being presented.
+5.4.4 Group Co-Design and Debriefing (45 minutes). All partici-
+pants engaged in a longer group co-design session where previous
+ideas or topics presented were further elaborated on, sometimes
+resulting in new idea explorations or deeper discussions. Similar
+to Google Design Sprint [ 59], the group co-design segment of the
+dialogue-labs method is followed by voting for the ideas that havemore potential. However, we decided not to include this part in our
+design space reflection since our goal was to more broadly discuss
+professional creative writers’ perceptions of AI. Finally, the research
+team thanked the participants for their time and participation. No
+compensation was otherwise provided.
+5.5 Analysis
+We again used reflexive thematic analysis (RTA) to analyze the
+results of the two dialogue-labs sessions. Using a digital affinity
+diagram [ 75] on a Miro board, one researcher who had not been
+present in the sessions first went through the video recordings and
+created clusters. The three other researchers who had facilitated
+and participated in the dialogue-labs sessions then followed a simi-
+lar procedure independently. The themes are described in Table 2.
+6 Design Fiction Scenarios
+The first and fourth authors used the outputs from the workshops as
+inspiration to create 12 design fiction scenarios illustrating different
+aspects of Infinity Book . The ideas emerging from the speculative
+design workshops tend to be abstract, complex, and even outlandish.
+We used storyboards to help bridge the gap between these ideas
+and tangible representations. The fourth author was responsible for
+the initial ideas and scripts and the final storyboard composition,
+while the first author provided additional ideas and comments on
+1437
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+Figure 3: a) Onboarding the User (S1): after building a user profile based on conversations and capturing daily life, Infinity
+Book ’s assistant—Mark—suggests a book written specifically for the user to listen to while jogging. b) Infinity Book operations
+(S2): IB bypasses the need for an author to experience real life by sculpting an author’s lived experiences. c) Fine-tuning the
+Author Model (S3): an author training an IB model of himself.
+Figure 4: Representative panels from three storyboards. a) Harold The Recommender Bot (S4): a recommender bot suggests
+asking an author bot to write the next book of their completed trilogy. b) Conversation with the Author (S5): the author bot
+introduces the user to their workspace and makes reading suggestions. c) Feedback to the Author (S6): the user provides the
+author bot feedback, who suggests reading another IB author.
+Figure 5: a) Real-time Detective Novel (S7): IB uses people’s bios to develop characters mixing fact and fiction, and can intertwine
+stories with other IB users. b) Business Practices(S8): fans pay struggling authors through their Twitch channels. c) Autofiction
+Generator (S9): a user reads a dramatized, autofictional version of their day written by AI.
+the scripts and storyboard sketches. These scenarios ranged from
+specific use cases focused on individual users to broader societal
+shifts. The length of the storyboards ranged from six to 46 panels,with a total of 38 pages. The storyboards, as they represent con-
+crete situations, are also intended to stimulate further speculations.
+Figures 3 to 6 show example panels. The full storyboards can be
+found in the Appendix A.
+1438
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Figure 6: a) Interactive Personalised Horror Stories (S10): AI knows users’ fears and desires and creates material that can have an
+emotional impact. b) Your Body as Training Data (S11): AI monitors a person’s thoughts, sensations, and actions, commanding
+them to perform bizarre actions seeking to understand the social and psychological effects of these unusual behaviors. c) A
+Character Looking for a World (S12): a user creates an AI character, then places the fully-developed character into an AI-created
+story universe.
+7 Design Concerns as Strong Concepts
+While there was some overlap between the results from the differ-
+ent workshops, each workshop’s specific methods and focal areas
+ensured that new concepts, perspectives, and ideas emerged. The
+ensuing design fictions, including their creative process, prompted
+further reflections on the research questions, especially aided by
+the posthumanist and more-than-human centric approaches. The
+workshop materials and the design fictions are fertile ground for
+further speculations, especially focusing on areas such as privacy,
+censorship, copyright and ownership, and cultural sensitivities.
+Here, we discuss just three concerns related to designing and de-
+ploying systems such as Infinity Book while we fully acknowledge
+that there are many more such concerns in this area. We frame
+these three concerns - Authenticity, Creative Agency, and Liveness
+- as interrelated, and sometimes conflicting, strong concepts [55].
+7.1 Authenticity
+The question of the authenticity of the AI-created works emerged
+in all of the workshops and is reflected in themes T2, T4, T5, T8,
+and 10. Scenarios S2, S3, S5, S6, and S11 partly respond to consider-
+ations of authenticity. Authenticity as a concept is, unsurprisingly,
+a complex and contested one [ 85]. Dutton’s [ 29] notions of nominal
+andexpressive authenticity , together with Benjamin’s [ 9] concept
+ofaura, resonate with the results from the workshops. According
+to Dutton, expressive authenticity refers to the work of art being
+a “true expression of an individual’s or society’s values or beliefs”
+[29]. Thus, a literary work can be considered authentic when it
+reflects the author’s true voice, thoughts, and feelings, avoiding
+pretense or artificiality. This sincerity allows the work to resonate
+with readers, as it conveys genuine human experiences and emo-
+tions. Authenticity involves an author staying true to their creative
+vision and intentions, even if that means resisting external pres-
+sures, such as market trends or ideological conformity. Nominal
+authenticity, conversely, pertains to the correct origin, provenance,
+or authorship of the work. Benjamin argues in his The Work of Art
+in the Age of Mechanical Reproduction that the authenticity of an
+artwork is closely linked to the existence of an original work of art[9]. The aura thus refers to the unique presence, authenticity, and
+authority of an artwork that emanates from its originality and ties
+to a specific time, place, and context. Just as Benjamin associates the
+aura with an artwork’s originality, the authority and individuality
+of an author are often viewed as lending a text its originality and
+authenticity. The author’s intent, historical context, and personal
+signature (both literal and metaphorical) contribute to the unique-
+ness of the text. The aura of a literary work also relates to its ability
+to inspire reverence, a sense of the sacred, or exclusivity due to its
+link to the author’s creative genius. Thus, the aura can surface in
+the cult of personality surrounding famous authors. Figures like
+James Joyce or Virginia Woolf maintain an aura, in addition to their
+works, through their iconic status, biographies, and the exclusivity
+of understanding their texts. AI literature created by models trained
+by famous authors might retain parts of this authenticity (S3, S5). A
+similar contagion of authenticity [ 85] can even happen with a fake
+sense of closeness with, for example, celebrities, as illustrated in S1.
+Benjamin linked the decline of aura to the mass reproduction of
+art. AI literature, by its nature, is highly replicable and can be dis-
+seminated widely, often without perceived cost. This accessibility
+democratizes the production and consumption of literary works
+but also strips them of the exclusivity and reverence traditionally
+associated with the aura [ 89]. The ability of AI to produce infinite
+variations of texts saturates the literary space (T4), further dilut-
+ing the perceived uniqueness and artistic value of any single piece
+of writing, including existing literature. This can already be seen
+in the current discussions of ‘AI slop’4, the proliferation of poor-
+quality GenAI media. The novelty of AI-generated literature may
+create a kind of aura around the machine as the "author. " Audiences
+might attribute a mystical quality to the AI’s ability to create works
+that appear thoughtful, poetic, or profound, particularly when they
+surpass expectations for machine creativity (S5, S6). The aura of
+traditional literary works often stems from their historical and
+cultural specificity and how they reflect the unique conditions of
+their creation. AI-generated texts lack this connection because they
+are based on training data from many times and places, creating
+4https://en.wikipedia.org/wiki/AI_slop
+1439
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+a pastiche rather than a historically situated work. Even when AI
+mimics a historical or cultural style (e.g., writing in the voice of
+a 19th-century author), this imitation is not rooted in the authen-
+tic and embodied experience (T8, S2, S11) of that context, further
+complicating the relationship between AI works and aura.
+7.2 Creative Agency
+A recurring theme throughout the workshops was the question of
+what remains uniquely human in creative work (T1, T2, T5, T9, T10,
+S3, S5, S6, S9, S10, S12). This concern is part of a long-standing de-
+bate about the economic, existential, and social impacts of AI-driven
+revaluations of creative labor. Such concerns have been a critical
+aspect of historical and contemporary discussions on the influence
+of technology on the production, circulation, and consumption
+of art and media. For instance, post-structuralist theories such as
+Michel Foucault’s concept of the "author-function" [ 37] and Roland
+Barthes’ proclamation of "The Death of the Author" [ 7] resonate
+strongly in the context of AI-generated texts. These theories sug-
+gest that texts are less the product of individual human creativity
+and more the result of complex cultural and linguistic forces. In the
+context of generative AI, these ideas take on new significance, as
+the role of the human author becomes increasingly ambiguous (T8).
+AI systems, trained on vast corpora of texts, inevitably produce
+works that challenge traditional notions of authorship, suggesting
+that language and culture, rather than individual human intent, are
+speaking through creative works. This shift raises profound ques-
+tions about ownership, originality, and the value of human creative
+input (T1). For instance, who is the author of text generated by
+an AI? [ 109] What does it mean for the concept of originality and
+copyright [ 34] when an AI can produce a work that is indistinguish-
+able from a human-authored one [ 24,79,80]? These are the kinds
+of questions that the ambiguous role of the human author in the
+context of generative AI provokes [ 5,107]. Potts [ 93] gives a broad
+historical and critical overview of how the concept of authorship
+has evolved over time and how generative AI complicates these
+matters even further. These developments will shift the cultural
+and social value placed on works created by humans (T1, T8).
+The LLM-generated texts result from interactions within a vast
+and temporally deep cognitive assemblage [ 45]. (T2) The human
+programmers and users who train, refine, and deploy these algo-
+rithms are part of the cognitive assemblage. So are the humans
+(authors, editors, critics), tools and materials (writing implements,
+printing machines, physical books), and institutions (publishers, li-
+braries, bookshops) that were involved in the creation, distribution,
+and circulation of the texts used as the training material for the mod-
+els. The texts produced by AI are not just a product of the machine
+as prompted by a user; it is the outcome of a distributed process
+involving an immense assemblage of human and non-human cog-
+nitive operations, both conscious and nonconscious ones. [ 47,48].
+Crawford and Joler’s Anatomy of an AI System [26] visualizes the
+complexity involved even in quite simple, in comparison to Infinity
+Book , AI system, in this case Amazon Echo. Galit Wellner simi-
+larly argues that the symbiosis of humans and machines forms a
+condition for posthuman (or digital) imagination [ 114,115]. The
+traditional notion of imagination as uniquely human and subjective
+is translated into a layered model, where imaginative functionsare shared and diffused between humans and technologies. Unlike
+Hayles [ 49], Wellner argues that, as of the moment, only humans
+are capable of the uppermost layer of producing meaning [ 115]. We
+hope that speculations like ours can bring conceptual and pragmatic
+clarity to these thorny issues.
+The workshops also mentioned the emergence of new literary
+forms that would be impossible without GenAI, creating hybrid
+modes of expression that blend human and machine creativity in
+unprecedented ways, redefining what we mean by creativity [ 116].
+These developments follow historical shifts in literary and cultural
+production driven by technological advancements. Just as the inven-
+tion of writing systems enabled a transition from orality to literacy,
+and the industrialization of the printing press revolutionized lit-
+erature in the 18th and 19th centuries, the rise of computational
+technologies, from word processing software to internet writing,
+has profoundly altered how we create and consume texts. N. Kather-
+ine Hayles’ concept of "postprint" [ 50] provides a useful framework
+for understanding these shifts, as it discusses how computational
+technologies have transformed the material conditions of literary
+production. Generative AI represents the latest evolution in this
+trajectory, offering tools that both expand the boundaries of literary
+expression and provoke questions about the role of human agency
+in creative processes. GenAI does not replicate human creativity; it
+reconfigures the possibilities of literary expression, creating a space
+where human and machine co-authorship can coexist and inform
+one another. This reconfiguration pushes writers and creators to
+explore the limits of traditional literary forms, experimenting with
+texts that push the boundaries of literary expression [96].
+7.3 Liveness
+The participants questioned the nature of what constitutes a live,
+immediate, and authentic “live” experience and the notion of in-
+teractivity (T5, T6, T7, S7, S9, S10) Philip Auslander [ 4] argues
+that liveness is not an inherent quality, but one that is historically
+and culturally contingent and becomes particularly relevant in the
+context of AI-driven literary forms. Generative AI allows for the
+real-time creation of texts, performances, and interactive narratives,
+blurring the lines between live and mediatized literary forms. For
+example, AI can generate poetry, comedy, stories, or dialogue in
+response to audience input during live performances, creating an
+experience that is both immediate and dynamically responsive. This
+challenges traditional distinctions between live and pre-recorded
+or scripted content, further indicating that liveness in expression
+is not confined to the physical presence of a human author or per-
+former. However, the participants stated that the proliferation of
+AI systems in media might change the cultural economics relating
+to the physical human presence of the performer (T5).
+As Auslander notes [ 4], the proliferation of media technologies
+has influenced the aesthetics and practices of live performance,
+pushing artists to incorporate mediatized elements into their work.
+Similarly, generative AI forces writers and performers to engage
+with digital tools that can modify or enhance live literary experi-
+ences in real-time, thus reconfiguring the audience’s expectations
+of what it means for a text to be performed "live." There was an em-
+phasis on the narrative forms that rely on interactivity (or at least
+potential interactivity). The examples from workshops range from
+1440
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+interactive real-time detective stories (S7) to collaborative autofic-
+tion generators (S9) as potential forms of AI-powered interactive
+narratives [ 60]. This also echoes the trend in publishing moving
+away from one-to-many text distribution and circulation models
+to more dynamic and personal formulations of text and media. As
+Kourkolou [ 62] states: “This evolution has been far more than a
+simple shift from print to digital: it has fundamentally changed
+the nature of publishing from a static, one-to-many model focused
+solely on the circulation and distribution of text to a dynamic in-
+terplay of forms and mediums.” The shift illustrates the potential
+dangers caused by the loss of shared cultural artefacts (T3). If the
+texts become increasingly personal, almost solipsistic, this might
+erode the feeling of shared cultural meanings and values.
+8 Discussion
+We introduced three strong concepts—Creative Agency, Authen-
+ticity, and Liveness—which serve to articulate and frame selected
+sociotechnical dynamics emerging from our study as transferable
+design concerns. These concepts were developed through an it-
+erative process of analysis, drawing on the empirical materials
+generated across the speculative workshops and design fiction
+storyboards, and informed by theoretical perspectives from post-
+phenomenology, posthumanist HCI, and more-than-human design.
+Rather than claiming comprehensive coverage of the design space
+for AI-mediated interaction, these concepts offer partial yet gener-
+ative insights grounded in the specific imaginaries and materials
+produced throughout the study, as well as the authors’ interpre-
+tive positioning within critical and speculative design. Framed as
+mid-level theoretical constructs, they are intended to support de-
+signers and researchers in articulating, reflecting on, and evaluating
+emergent interaction patterns with generative AI, particularly in
+creative and narrative domains.
+•Creative Agency reframes creativity as a co-constructed, ne-
+gotiable dynamic between humans and generative systems,
+informing the design of co-creative tools and authoring in-
+terfaces.
+•Authenticity draws attention to perceptions of value, prove-
+nance, and trust in AI-generated content, relevant for inter-
+action transparency, explainability, and user control.
+•Liveness introduces a temporal and experiential lens to AI-
+mediated interactions, useful for designing responsive, real-
+time, or performative literary and artistic systems and po-
+tentially giving rise to novel forms of literary expressions.
+By formalizing these concepts, we provide design knowledge that
+bridges philosophical critique and practical application, especially
+in the emerging area of human–AI co-creation [113].
+8.1 Advancing Participatory Speculative Design
+in Interaction Design
+While speculative design has long been recognized as a valuable
+approach within the field (e.g. [ 28]), our study builds on this foun-
+dation by introducing a multi-method process that enhances and
+extends participatory speculation. By combining speculative design
+workshops, dialogue-labs, and design fiction, we offer a structured
+framework for engaging stakeholders in critical and imaginativeexploration of future technologies. Our methodological contribu-
+tion lies in giving a concrete example of how participatory spec-
+ulation can be effectively scaffolded through the integration of
+diverse techniques, including the Future Ripples method, 6-3-5
+brainwriting, and dialogue-labs . Combination of these techniques
+generated nuanced situated imaginaries of life with GenAI and
+demonstrated how speculative artefacts (like Infinity Book) can
+be used as prompts for reflection across diverse participant back-
+grounds [ 32]. This supports ongoing efforts to integrate speculative
+practices into early-stage design research while producing insights
+for both critique and ideation.
+8.2 Exemplifying Posthumanist and
+More-than-Human Perspectives
+Our study provides a concrete example of how posthumanist the-
+ories can inform the design process and practice along critique
+[36,38]. By treating AI as an active participant in creative assem-
+blages, we move beyond anthropocentric framings of interaction
+and shift toward relational, networked, and hybrid views of author-
+ship, agency, and creativity. This has implications for designing sys-
+tems where boundaries between user, tool, and content are increas-
+ingly fluid. It aligns well with recent work calling for posthumanist
+and more-than-human design perspectives [ 86] and contributes a
+speculative domain where such ideas can be meaningfully exam-
+ined. Moreover, by imagining resistance to or reformulation of AI
+systems, we illustrate how designing for plural futures can surface
+cultural tensions and ethical fault lines. This strengthens the role
+of designing for contested future worlds in anticipating the broader
+societal impacts of AI [25].
+8.3 Speculative Scenarios as Situated Design
+Probes
+The twelve speculative scenarios (Appendix A) offer concrete in-
+sights into emerging interaction possibilities with GenAI. The sce-
+narios serve a dual role: they are provocative in surfacing design
+tensions (e.g., manipulation vs. agency, automation vs. skill) and
+generative in inspiring concrete design moves (e.g., real-time feed-
+back, authorship interface metaphors). As exploratory and future-
+oriented design artifacts, they extend the interaction design space
+and support ideation, reflection, and dialogue [ 8] on GenAI’s po-
+tential to transform literary expressions. Each scenario serves as a
+situated design probe that explores how AI systems might trans-
+form literary practices, user roles, and system behaviors. They
+translate abstract futures into tangible design situations, such as
+conversational onboarding, affect-aware storytelling, author-avatar
+negotiations, and AI-driven real-time fiction, providing detailed
+material for examining how interaction design and cultural context
+shape user experience [ 10]. The scenarios also act as invitations
+for deeper reflection on the societal, cultural, and existential impli-
+cations of generative AI. They explore how identities, institutions,
+and worldviews may be reshaped by those interactions. The scenar-
+ios offer scaffolds for engaging with existential design challenges
+[68] such as the commodification of creativity and loss of creative
+autonomy, the emergence of new forms of algorithmic governance
+over cultural production, and the potential atrophy of human inter-
+pretive agency in an era of infinite machine-authored texts.
+1441
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+8.4 Limitations and Future Work
+Even though we had participants from various backgrounds, in-
+cluding professional authors and digital literature experts, we did
+not include people from, for example, the publishing industry or
+journalism. This might be why the results from the workshops
+mainly focus on aspects of preparation, creation, curation, and
+consumption of fictional works. Important parts of publishing, cir-
+culation, reception (critique), and legacy [ 84] are hardly touched
+upon. Similarly, reflections on important issues such as ethical
+concerns, privacy, security, ownership, and ecological impacts are
+lacking. In the next rounds of workshops, we aim to include peo-
+ple from other parts of the book creation cycle and focus more on
+the above-mentioned issues. The participants, although many with
+international backgrounds, were almost all based in Hong Kong.
+Further workshops in different cultures would reveal new aspects.
+We have planned to replicate some of the workshops in Helsinki,
+Shanghai, and Seoul. This far, only the authors have used the design
+fiction storyboards for further speculations, limiting the scope and
+depth of the insights. We plan to polish and edit the storyboards and
+have them available online, also as a way to gather feedback and
+further ideas from a wider public. We plan to develop some of the
+more concrete ideas presented here or emerging from the further
+workshops into prototypes by ourselves or other research teams.
+Currently, the most concrete ideas for further development focus
+on exploring new forms of literature only possible using GenAI,
+although we are also exploring how to develop more refined de-
+sign fictions, including interactive (or semi-interactive) prototypes,
+which focus on the wider social and existential issues. Although
+they were not used in these studies, we have started, among many
+others [ 11,65], experimenting with generative AI tools as part of
+the speculative design process. Especially using LLMs as partners
+in the ideation process and as tools for analyzing the workshop
+results looks like a promising area for further study.
+9 Conclusions
+This study focused on critical speculation on the potential impact of
+GenAI systems on literary expression and their broader influence
+on the socio-material world. To further this inquiry, we proposed
+the concept of the Infinity Book , a hypothetical future system capa-
+ble of generating a wide range of literary works, including novels,
+short stories, and poems. This proposal is driven by recognizing
+the cultural significance of books, which have long served as a vital
+medium for encapsulating, transmitting, and preserving knowledge.
+By examining these intersections, we speculated how AI-generated
+literature might reshape how stories are created, consumed, and
+valued in contemporary society. We reported the results of three
+speculative design workshops and two dialogue-labs around the
+critical envisioning of Infinity Book to answer the following re-
+search questions: How do systems automating literary creation like
+Infinity Book shape the sociomaterial world and human-technology
+relationships? What overall interaction design concerns arise for such
+systems?
+All in all, the workshops had 37 participants from various back-
+grounds, including interaction designers, media artists, and pro-
+fessional authors. Reflexive Thematic Analysis of the workshop
+outputs resulted in ten broader themes addressing issues around thefuture of literary expression in the age of generative AI ( Revaluation
+of Labour, Redefining Creativity and Imagination, Fragmentations
+and Divisions, Content Pollution and Control, Back to Human!, AI as
+an Expression Formulator, Personalized Fiction, Embodied Meaning,
+Background Relations , and Agency and Authenticity ). Based on the
+results, we created twelve design fictions exploring these issues
+further. Finally, we reflected on the findings and traced the potential
+impacts of systems such as Infinity Book and further explored the
+implications of generative AI on our understanding of the rapidly
+changing posthuman world. We formulated these reflections as
+three strong concepts: Authenticity, Creative Agency , and Liveness .
+We hope the results, especially the design fictions, will stimulate
+further experimentation in this area.
+Acknowledgments
+We thank the workshop participants. This research was supported
+by the School of Creative Media at City University of Hong Kong;
+and the Department of Art and Media and the Department of Infor-
+mation and Communications Engineering at Aalto University.
+References
+[1]Catherine Adams and Terrie Lynn Thompson. 2016. Introduction to Posthuman
+Inquiry. In Researching a Posthuman World: Interviews with Digital Objects ,
+Catherine Adams and Terrie Lynn Thompson (Eds.). Palgrave Macmillan UK,
+London, 1–22. https://doi.org/10.1057/978-1-137-57162-5_1
+[2]Joshua Ashkinaze, Julia Mendelsohn, Li Qiwei, Ceren Budak, and Eric Gilbert.
+2024. How AI Ideas Affect the Creativity, Diversity, and Evolution of Human
+Ideas: Evidence From a Large, Dynamic Experiment. arXiv:2401.13481 [cs.CY]
+https://arxiv.org/abs/2401.13481
+[3]James Auger. 2013. Speculative design: crafting the speculation. Digital Creativ-
+ity24, 1 (March 2013), 11–35. https://doi.org/10.1080/14626268.2013.767276
+[4]Philip Auslander. 2022. Liveness: Performance in a mediatized culture
+(3rd ed.). Routledge. https://www.taylorfrancis.com/books/mono/10.4324/
+9781003031314/liveness-philip-auslander
+[5]Hannes Bajohr. 2024. Writing at a distance: Notes on authorship and artificial
+intelligence. German Studies Review 47, 2 (2024), 315–337.
+[6]Jeffrey Bardzell and Shaowen Bardzell. 2013. What is" critical" about critical
+design?. In Proceedings of the SIGCHI conference on human factors in computing
+systems . 3297–3306.
+[7] Roland Barthes. 1967. The Death of the Author. Aspen 5-6 (1967).
+[8]Eric PS Baumer, Mark Blythe, and Theresa Jean Tanenbaum. 2020. Evaluating
+design fiction: The right tool for the job. In Proceedings of the 2020 ACM Designing
+Interactive Systems Conference . 1901–1913.
+[9]Walter Benjamin. "[1936] 1969". The work of art in the mechanical age of
+reproduction. In Illuminations: Essays and reflections . Schocken Books.
+[10] Julian Bleecker. 2009. Design fiction: A short essay on design, science, fact, and
+fiction . Near Future Laboratory.
+[11] Mark Blythe. 2023. Artificial Design Fiction: Using AI as a Material for Pastiche
+Scenarios. In Proceedings of the 26th International Academic Mindtrek Conference .
+195–206.
+[12] Susanne Bødker. 2006. When second wave HCI meets third wave challenges. In
+Proceedings of the 4th Nordic conference on Human-computer interaction: changing
+roles. 1–8.
+[13] Amaranth Borsuk. 2018. The book . mit Press.
+[14] Virginia Braun and Victoria Clarke. 2012. Thematic analysis. In APA handbook
+of research methods in psychology, Vol 2: Research designs: Quantitative, quali-
+tative, neuropsychological, and biological . American Psychological Association,
+Washington, DC, US, 57–71. https://doi.org/10.1037/13620-004
+[15] Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic
+analysis. Qualitative Research in Sport, Exercise and Health 11, 4 (Aug. 2019),
+589–597. https://doi.org/10.1080/2159676X.2019.1628806
+[16] Selmer Bringsjord and David Ferrucci. 1999. Artificial intelligence and liter-
+ary creativity: Inside the mind of brutus, a storytelling machine . Psychology
+Press. https://www.taylorfrancis.com/books/mono/10.4324/9781410602398/
+artificial-intelligence-literary-creativity-selmer-bringsjord-david-ferrucci
+[17] Álvaro Cabezas-Clavijo, Marta Magadán-Díaz, Jesús I. Rivas-García, and Pavel
+Sidorenko-Bautista. 2024. This Book is Written by ChatGPT: A Quantitative
+Analysis of ChatGPT Authorships Through Amazon.com. Publishing Research
+Quarterly 40, 2 (June 2024), 147–163. https://doi.org/10.1007/s12109-024-09998-
+w
+1442
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+[18] Gabriela Cajamarca, Valeria Herskovic, Andrés Lucero, and Angeles Aldunate.
+2022. A Co-Design Approach to Explore Health Data Representation for
+Older Adults in Chile and Ecuador. In Proceedings of the 2022 ACM Design-
+ing Interactive Systems Conference (Virtual Event, Australia) (DIS ’22) . Asso-
+ciation for Computing Machinery, New York, NY, USA, 1802–1817. https:
+//doi.org/10.1145/3532106.3533558
+[19] Baptiste Caramiaux and Sarah Fdili Alaoui. 2022. "Explorers of Unknown Plan-
+ets": Practices and Politics of Artificial Intelligence in Visual Arts. Proceedings of
+the ACM on Human-Computer Interaction 6, CSCW2 (Nov. 2022), 477:1–477:24.
+https://doi.org/10.1145/3555578
+[20] Joel Castaño, Martínez-Fernández Silverio, Xavier Franch, and Justus Bogner.
+2024. Analyzing the evolution and maintenance of ml models on hugging face.
+InProceedings of the 21st International Conference on Mining Software Repositories .
+607–618.
+[21] Tuhin Chakrabarty, Vishakh Padmakumar, Faeze Brahman, and Smaranda
+Muresan. 2024. Creativity Support in the Age of Large Language Mod-
+els: An Empirical Study Involving Professional Writers. In Proceedings of the
+16th Conference on Creativity & Cognition (Chicago, IL, USA) (C&C ’24) . As-
+sociation for Computing Machinery, New York, NY, USA, 132–155. https:
+//doi.org/10.1145/3635636.3656201
+[22] Matthew Chalmers, Ian MacColl, and Marek Bell. 2003. Seamful design: Showing
+the seams in wearable computing. In 2003 IEE Eurowearable . IET, 11–16.
+[23] John Joon Young Chung and Eytan Adar. 2023. PromptPaint: Steering Text-to-
+Image Generation Through Paint Medium-like Interactions. In Proceedings of
+the 36th Annual ACM Symposium on User Interface Software and Technology (San
+Francisco, CA, USA) (UIST ’23) . Association for Computing Machinery, New
+York, NY, USA, Article 6, 17 pages. https://doi.org/10.1145/3586183.3606777
+[24] Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan,
+and Noah A. Smith. 2021. All that’s’ human’is not gold: Evaluating human
+evaluation of generated text. arXiv preprint arXiv:2107.00061 (2021). https:
+//arxiv.org/abs/2107.00061
+[25] Paul Coulton, Joseph Lindley, Miriam Sturdee, and Michael Stead. 2017. Design
+fiction as world building. In Proceedings of the 3nd Biennial Research Through
+Design Conference . 1–16.
+[26] Kate Crawford and Vladan Joler. 2018. Anatomy of an AI System. Anatomy of
+an AI System (2018). https://anatomyof.ai/
+[27] Anthony Dunne and Fiona Raby. 2001. Design noir: The secret life of electronic
+objects . Princeton Architectural Press.
+[28] Anthony Dunne and Fiona Raby. 2013. Speculative everything: design, fiction,
+and social dreaming . The MIT Press, Cambridge, Massachusetts ; London.
+[29] Denis Dutton. 2005. Authenticity in Art. In The Oxford Handbook of Aesthet-
+ics. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780199279456.
+003.0014 arXiv:https://academic.oup.com/book/0/chapter/327328553/chapter-
+ag-pdf/44480080/book_37198_section_327328553.ag.pdf
+[30] Felix Anand Epp, Tim Moesgen, Antti Salovaara, Emmi Pouta, and undefined-
+dil Gaziulusoy. 2022. Reinventing the Wheel: The Future Ripples Method for
+Activating Anticipatory Capacities in Innovation Teams. In Proceedings of the
+2022 ACM Designing Interactive Systems Conference (<conf-loc>, <city>Virtual
+Event</city>, <country>Australia</country>, </conf-loc>) (DIS ’22) . Asso-
+ciation for Computing Machinery, New York, NY, USA, 387–399. https:
+//doi.org/10.1145/3532106.3534570
+[31] Xiaoxuan Fang, Davy Tsz Kit Ng, Jac Ka Lok Leung, and Samuel Kai Wah Chu.
+2023. A systematic review of artificial intelligence technologies used for story
+writing. Education and Information Technologies 28, 11 (2023), 14361–14397.
+Publisher: Springer.
+[32] Pedro Gil Farias, Roy Bendor, and Bregje F Van Eekelen. 2022. Social dreaming to-
+gether: A critical exploration of participatory speculative design. In Proceedings
+of the Participatory Design Conference 2022-Volume 2 . 147–154.
+[33] Gyöngyi Fekete and Andrés Lucero. 2019. P(L)AY ATTENTION! Co-designing
+for and with Children with Attention Deficit Hyperactivity Disorder (ADHD). In
+Human-Computer Interaction – INTERACT 2019 , David Lamas, Fernando Loizides,
+Lennart Nacke, Helen Petrie, Marco Winckler, and Panayiotis Zaphiris (Eds.).
+Springer International Publishing, Cham, 368–386. https://doi.org/10.1007/978-
+3-030-29381-9_23
+[34] Mark Fenwick and Paulius Jurcys. 2023. Originality and the Future of Copyright
+in an Age of Generative AI. Computer Law & Security Review 51 (2023), 105892.
+Publisher: Elsevier.
+[35] Luciano Floridi and Massimo Chiriatti. 2020. Gpt-3: Its Nature, Scope, Limits,
+and Consequences. Minds and Machines 30, 4 (2020), 681–694. https://doi.org/
+10.1007/s11023-020-09548-1 Publisher: Springer Verlag.
+[36] Laura Forlano. 2017. Posthumanism and design. She Ji: The Journal of Design,
+Economics, and Innovation 3, 1 (2017), 16–29. https://www.sciencedirect.com/
+science/article/pii/S2405872616300971 Publisher: Elsevier.
+[37] Michel Foucault. 2003. What is an Author? In Reading architectural history .
+Routledge, 71–81. https://api.taylorfrancis.com/content/chapters/edit/
+download?identifierName=doi&identifierValue=10.4324/9780203164471-
+6&type=chapterpdf[38] Christopher Frauenberger. 2019. Entanglement HCI The Next Wave? ACM
+Transactions on Computer-Human Interaction 27, 1 (Nov. 2019), 2:1–2:27. https:
+//doi.org/10.1145/3364998
+[39] Julian Friedrich. 2024. Speculative Futures of AI in Art: Collaborative Design
+Fiction with Artists. https://www.diva-portal.org/smash/record.jsf?pid=diva2:
+1868283
+[40] Roberto Gallotta, Graham Todd, Marvin Zammit, Sam Earle, Antonios Li-
+apis, Julian Togelius, and Georgios N. Yannakakis. 2024. Large Language
+Models and Games: A Survey and Roadmap. http://arxiv.org/abs/2402.18659
+arXiv:2402.18659 [cs].
+[41] Maliheh Ghajargar, Jeffrey Bardzell, and Love Lagerkvist. 2022. A Redhead
+Walks into a Bar: Experiences of Writing Fiction with Artificial Intelligence. In
+Proceedings of the 25th International Academic Mindtrek Conference (Academic
+Mindtrek ’22) . Association for Computing Machinery, New York, NY, USA, 230–
+241. https://doi.org/10.1145/3569219.3569418
+[42] Jerome C Glenn. 2009. The futures wheel. Futures research methodology—version
+3 (2009), 19.
+[43] Alix Goguey, Cameron Steer, Andrés Lucero, Laurence Nigay, Deepak Ranjan
+Sahoo, Céline Coutrix, Anne Roudaut, Sriram Subramanian, Yutaka Tokuda,
+Timothy Neate, Jennifer Pearson, Simon Robinson, and Matt Jones. 2019. Pick-
+Cells: A Physically Reconfigurable Cell-composed Touchscreen. In Proceedings
+of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow,
+Scotland Uk) (CHI ’19) . Association for Computing Machinery, New York, NY,
+USA, 1–14. https://doi.org/10.1145/3290605.3300503
+[44] Eric Gordon and Jessica Baldwin-Philippi. 2014. Playful civic learning: Enabling
+lateral trust and reflection in game-based public participation. International
+Journal of Communication 8 (2014), 28.
+[45] N. Katherine Hayles. 2016. Cognitive Assemblages: Technical Agency and
+Human Interactions. Critical Inquiry 43, 1 (Sept. 2016), 32–55. https://doi.org/
+10.1086/688293
+[46] N Katherine Hayles. 2017. Unthought: The power of the cognitive nonconscious .
+University of Chicago Press.
+[47] N. Katherine Hayles. 2018. Human and machine cultures of reading: A cognitive-
+assemblage approach. PMLA 133, 5 (2018), 1225–1242. Publisher: Cambridge
+University Press.
+[48] N. Katherine Hayles. 2018. Writing//Posthuman: The Literary Text as Cognitive
+Assemblage. Theoretical Studies in Literature and Art 38, 3 (2018), 6–21. https://
+tsla.researchcommons.org/journal/vol38/iss3/20/ Publisher: East China Normal
+University.
+[49] N. Katherine Hayles. 2019. Can Computers Create Meanings? A Cy-
+ber/Bio/Semiotic Perspective. Critical Inquiry 46, 1 (Sept. 2019), 32–55. https:
+//doi.org/10.1086/705303
+[50] N. Katherine Hayles. 2021. Postprint: Books and Becoming Computational .
+Columbia University Press. https://doi.org/10.7312/hayl19824
+[51] Ilyena Hirskyj-Douglas and Andrés Lucero. 2019. On the Internet, Nobody
+Knows You’re a Dog... Unless You’re Another Dog. In Proceedings of the 2019
+CHI Conference on Human Factors in Computing Systems (Glasgow, Scotland
+Uk)(CHI ’19) . Association for Computing Machinery, New York, NY, USA, 1–12.
+https://doi.org/10.1145/3290605.3300347
+[52] Jimpei Hitsuwari, Yoshiyuki Ueda, Woojin Yun, and Michio Nomura. 2023. Does
+human–AI collaboration lead to more creative art? Aesthetic evaluation of
+human-made and AI-generated haiku poetry. Computers in Human Behavior
+139 (2023), 107502.
+[53] Joo-Wha Hong and Nathaniel Ming Curran. 2019. Artificial intelligence, artists,
+and art: attitudes toward artwork produced by humans vs. artificial intelligence.
+ACM Transactions on Multimedia Computing, Communications, and Applications
+(TOMM) 15, 2s (2019), 1–16.
+[54] Kristina Höök, Martin P Jonsson, Anna Ståhl, and Johanna Mercurio. 2016.
+Somaesthetic appreciation design. In Proceedings of the 2016 chi conference on
+human factors in computing systems . 3131–3142.
+[55] Kristina Höök and Jonas Löwgren. 2012. Strong concepts: Intermediate-level
+knowledge in interaction design research. ACM Transactions on Computer-
+Human Interaction (TOCHI) 19, 3 (2012), 1–18.
+[56] Yuxuan Huang, Hugh Xuechen Liu, and Jussi Pekka Holopainen. 2024. “Infinity
+Book”: Critical Speculation on How Generative AI Shapes the Socio-Material
+World. In 15th International Conference on Computational Creativity (ICCC’24) .
+[57] Don Ihde. 1990. Technology and the Lifeworld: From Garden to Earth . Indiana
+University Press.
+[58] Yu Jin, Juhyeok Yoon, James Andrew Self, and Kyungho Lee. 2024. AI as a
+Catalyst for Creativity: Exploring the Use of Generative Approach in Fashion
+Design for Improving Their Inspiration. Design Research Society (2024).
+[59] Jake Knapp, John Zeratsky, and Braden Kowitz. 2016. Sprint: How to solve big
+problems and test new ideas in just five days . Simon and Schuster.
+[60] Hartmut Koenitz, Mirjam Palosaari Eladhari, and Jonathan Barbara. 2024. Can
+AI Create an Interactive Digital Narrative? A Benchmarking Framework to
+Evaluate Generative AI Tools for the Design of IDNs. In International Conference
+on Interactive Digital Storytelling . Springer, 160–180.
+1443
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+[61] Mika Koivisto and Simone Grassini. 2023. Best humans still outperform artificial
+intelligence in a creative divergent thinking task. Scientific reports 13, 1 (2023),
+13601.
+[62] Dora Kourkoulou. 2024. Eliza: Lessons from Interactive Novels about Publishing
+in the Era of AI. Information, Medium and Society 21, 2 (2024), 17. Publisher:
+Common Ground Research Networks.
+[63] Miha Kovač, Angus Phillips, Adriaan van der Weel, and Ruediger Wischenbart.
+2019. What is a Book? Publishing research quarterly 35 (2019), 313–326.
+[64] Bruno Latour. 2007. Reassembling the Social: An Introduction to Actor-Network-
+Theory . Oxford University Press, Oxford, New York.
+[65] RAY LC and Yuying Tang. 2023. Speculative Design with Generative AI: Ap-
+plying Stable Diffusion and ChatGPT to imagining climate change futures. In
+Proceedings of the 11th International Conference on Digital and Interactive Arts .
+1–8.
+[66] Michael Lebowitz. 1985. Story-telling as planning and learning. Poetics
+14, 6 (1985), 483–502. https://www.sciencedirect.com/science/article/pii/
+0304422X85900154 Publisher: Elsevier.
+[67] Jiayang Li, Jiale Li, and Yunsheng Su. 2024. A Map of Exploring Human Interac-
+tion Patterns with LLM: Insights into Collaboration and Creativity. In Artificial
+Intelligence in HCI , Helmut Degen and Stavroula Ntoa (Eds.). Springer Nature
+Switzerland, Cham, 60–85.
+[68] Ann Light, Irina Shklovski, and Alison Powell. 2017. Design for existential crisis.
+InProceedings of the 2017 CHI conference extended abstracts on human factors in
+computing systems . 722–734.
+[69] Lauren Lin and Duri Long. 2023. Generative AI Futures: A Speculative Design
+Exploration. In Creativity and Cognition . ACM, Virtual Event USA, 380–383.
+https://doi.org/10.1145/3591196.3596616
+[70] Susan Lin, Jeremy Warner, J.D. Zamfirescu-Pereira, Matthew G Lee, Sauhard Jain,
+Shanqing Cai, Piyawat Lertvittayakumjorn, Michael Xuelin Huang, Shumin
+Zhai, Bjoern Hartmann, and Can Liu. 2024. Rambler: Supporting Writing
+With Speech via LLM-Assisted Gist Manipulation. In Proceedings of the CHI
+Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI
+’24). Association for Computing Machinery, New York, NY, USA, Article 1043,
+19 pages. https://doi.org/10.1145/3613904.3642217
+[71] Christina Linardaki. 2022. Poetry at the first steps of Artificial Intelligence.
+Humanist Studies & the Digital Age 7, 1 (May 2022). https://doi.org/10.5399/uo/
+hsda/7.1.6 Number: 1.
+[72] Hugh Xuechen Liu, Yuxuan Huang, and Jussi Pekka Holopainen. 2023. Call
+for Critical and Speculative Design in Human-Computer Co-creativity: An
+Overview Study. In 14th International Conference on Computational Creativity
+(ICCC’23) .
+[73] Vivian Liu and Lydia B Chilton. 2022. Design Guidelines for Prompt Engineering
+Text-to-Image Generative Models. In Proceedings of the 2022 CHI Conference
+on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI ’22) .
+Association for Computing Machinery, New York, NY, USA, Article 384, 23 pages.
+https://doi.org/10.1145/3491102.3501825
+[74] Yiren Liu, Si Chen, Haocong Cheng, Mengxia Yu, Xiao Ran, Andrew Mo, Yiliu
+Tang, and Yun Huang. 2024. How AI Processing Delays Foster Creativity: Explor-
+ing Research Question Co-Creation with an LLM-based Agent. In Proceedings
+of the CHI Conference on Human Factors in Computing Systems (Honolulu, HI,
+USA) (CHI ’24) . Association for Computing Machinery, New York, NY, USA,
+Article 17, 25 pages. https://doi.org/10.1145/3613904.3642698
+[75] Andrés Lucero. 2015. Using Affinity Diagrams to Evaluate Interactive Proto-
+types. In Human-Computer Interaction – INTERACT 2015 , Julio Abascal, Simone
+Barbosa, Mirko Fetter, Tom Gross, Philippe Palanque, and Marco Winckler (Eds.).
+Springer International Publishing, Cham, 231–248.
+[76] Andrés Lucero and Juha Arrasvuori. 2010. PLEX Cards: a source of inspiration
+when designing for playfulness. In Proceedings of the 3rd International Conference
+on Fun and Games (Leuven, Belgium) (Fun and Games ’10) . Association for
+Computing Machinery, New York, NY, USA, 28–37. https://doi.org/10.1145/
+1823818.1823821
+[77] Andrés Lucero, Kirsikka Vaajakallio, and Peter Dalsgaard. 2012. The dialogue-
+labs method: process, space and materials as structuring elements to spark
+dialogue in co-design events. CoDesign 8, 1 (2012), 1–23. https://doi.org/10.
+1080/15710882.2011.609888 arXiv:https://doi.org/10.1080/15710882.2011.609888
+[78] Matt Malpass. 2017. Critical design in context: History, theory, and practice .
+Bloomsbury Publishing.
+[79] Guillermo Marco, Julio Gonzalo, Ramón del Castillo, and María Teresa Mateo
+Girona. 2024. Pron vs Prompt: Can Large Language Models already Chal-
+lenge a World-Class Fiction Author at Creative Text Writing? arXiv preprint
+arXiv:2407.01119 (2024). https://arxiv.org/abs/2407.01119
+[80] Guillermo Marco, Julio Gonzalo, and Luz Rello. 2023. Transformers Can Out-
+perform Humans in Short Creative Writing Tasks. Available at SSRN 4673692
+(2023). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4673692
+[81] James R. Meehan. 1975. Using planning structures to generate stories. American
+Journal of Computational Linguistics (1975), 78–94. https://aclanthology.org/J75-
+4021.pdf[82] Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, and Richard Evans. 2023.
+Co-Writing Screenplays and Theatre Scripts with Language Models: Evaluation
+by Industry Professionals. In Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems (CHI ’23) . Association for Computing Machinery,
+New York, NY, USA, 1–34. https://doi.org/10.1145/3544548.3581225
+[83] Michael Muller, Lydia B Chilton, Anna Kantosalo, Charles Patrick Martin, and
+Greg Walsh. 2022. GenAICHI: Generative AI and HCI. In Extended Abstracts of
+the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans,
+LA, USA) (CHI EA ’22) . Association for Computing Machinery, New York, NY,
+USA, Article 110, 7 pages. https://doi.org/10.1145/3491101.3503719
+[84] Padmini Ray Murray and Claire Squires. 2013. The digital publishing communi-
+cations circuit. Book 2.0 3, 1 (2013), 3–23.
+[85] George E Newman and Rosanna K Smith. 2016. Kinds of authenticity. Philosophy
+Compass 11, 10 (2016), 609–618.
+[86] Iohanna Nicenboim, Doenja Oogjes, Heidi Biggs, and Seowoo Nam. 2025. De-
+centering through design: Bridging posthuman theory with more-than-human
+design practices. Human–Computer Interaction 40, 1-4 (2025), 195–220.
+[87] Mathias Østvold Ek, Magnus Paulsen, June Kyong Trondsen, et al .2024. Specu-
+lative Design through the Lens of AI. In DS 131: Proceedings of the International
+Conference on Engineering and Product Design Education (E&PDE 2024) . 627–632.
+[88] Susanna Paasovaara, Andrés Lucero, and Thomas Olsson. 2016. Outlining the
+design space of playful interactions between nearby strangers. In Proceedings of
+the 20th International Academic Mindtrek Conference (Tampere, Finland) (Aca-
+demicMindtrek ’16) . Association for Computing Machinery, New York, NY, USA,
+216–225. https://doi.org/10.1145/2994310.2994344
+[89] Sungjin Park. 2024. The work of art in the age of generative AI: aura, liberation,
+and democratization. AI & SOCIETY (2024), 1–10.
+[90] John Peter. 1677. Artificial versifying or, The school-boy’s recreation. John Sims.
+[91] Victoria Popova. 2023. Co-creating Futures for Integrating Generative AI into the
+Designers’ Workflow . Master’s thesis. KTH, School of Electrical Engineering and
+Computer Science (EECS).
+[92] Brian Porter and Edouard Machery. 2024. AI-generated poetry is indistinguish-
+able from human-written poetry and is rated more favorably. Scientific Reports
+14, 1 (2024), 26133.
+[93] John Potts. 2022. The Near-death of the Author: Creativity in the Internet Age .
+University of Toronto Press.
+[94] Hua Xuan Qin, Shan Jin, Ze Gao, Mingming Fan, and Pan Hui. 2024. Char-
+acterMeet: Supporting Creative Writers’ Entire Story Character Construction
+Processes Through Conversation with LLM-Powered Chatbot Avatars. In Pro-
+ceedings of the CHI Conference on Human Factors in Computing Systems (Hon-
+olulu, HI, USA) (CHI ’24) . Association for Computing Machinery, New York, NY,
+USA, Article 1051, 19 pages. https://doi.org/10.1145/3613904.3642105
+[95] Johan Redström and Heather Wiltse. 2018. Changing Things : The Future of
+Objects in a Digital World . Bloomsbury Visual Arts, London.
+[96] Scott Rettberg. 2023. Cyborg Authorship: Writing with AI – Part
+1: The Trouble(s) with ChatGPT. Electronic Book Review (July 2023).
+https://electronicbookreview.com/essay/cyborg-authorship-writing-with-ai-
+part-1-the-troubles-with-chatgpt/
+[97] Mark O. Riedl and Robert Michael Young. 2010. Narrative planning: Balancing
+plot and character. Journal of Artificial Intelligence Research 39 (2010), 217–268.
+https://www.jair.org/index.php/jair/article/view/10669
+[98] James Ryan. 2017. Grimes’ Fairy Tales: A 1960s Story Generator. In Interactive
+Storytelling , Nuno Nunes, Ian Oakley, and Valentina Nisi (Eds.). Vol. 10690.
+Springer International Publishing, Cham, 89–103. https://doi.org/10.1007/978-
+3-319-71027-3_8 Series Title: Lecture Notes in Computer Science.
+[99] Albrecht Schmidt, Passant Elagroudy, Fiona Draxler, Frauke Kreuter, and Robin
+Welsch. 2024. Simulating the Human in HCD with ChatGPT: Redesigning
+Interaction Design with AI. Interactions 31, 1 (jan 2024), 24–31. https://doi.org/
+10.1145/3637436
+[100] Mike Sharples and Rafael Pérez y Pérez. 2022. Story Machines: How Computers
+Have Become Creative Writers . Routledge, London. https://doi.org/10.4324/
+9781003161431
+[101] Joon Gi Shin, Janin Koch, Andrés Lucero, Peter Dalsgaard, and Wendy E. Mackay.
+2023. Integrating AI in Human-Human Collaborative Ideation. In Extended
+Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems
+(Hamburg, Germany) (CHI EA ’23) . Association for Computing Machinery, New
+York, NY, USA, Article 355, 5 pages. https://doi.org/10.1145/3544549.3573802
+[102] Luca Simeone, Riccardo Mantelli, and Alfredo Adamo. 2022. Pushing divergence
+and promoting convergence in a speculative design process: Considerations on
+the role of AI as a co-creation partner. (2022).
+[103] Bruce Sterling. 2005. Shaping Things . MIT Press.
+[104] Jiao Sun, Q. Vera Liao, Michael Muller, Mayank Agarwal, Stephanie Houde,
+Kartik Talamadupula, and Justin D. Weisz. 2022. Investigating Explainability of
+Generative AI for Code through Scenario-based Design. In 27th International
+Conference on Intelligent User Interfaces (IUI ’22) . Association for Computing
+Machinery, New York, NY, USA, 212–228. https://doi.org/10.1145/3490099.
+3511119
+1444
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+[105] Yuan Sun, Eunchae Jang, Fenglong Ma, and Ting Wang. 2024. Generative AI
+in the Wild: Prospects, Challenges, and Strategies. In Proceedings of the CHI
+Conference on Human Factors in Computing Systems . 1–16.
+[106] Khai N Truong, Gillian R Hayes, and Gregory D Abowd. 2006. Storyboarding: an
+empirical determination of best practices and effective guidelines. In Proceedings
+of the 6th conference on Designing Interactive systems . 12–21.
+[107] Jack Tsao and Collier Nogues. 2024. Beyond the author: Artificial intelligence,
+creative writing and intellectual emancipation. Poetics 102 (2024), 101865.
+[108] Jules Van Hees, Tijl Grootswagers, Genevieve L Quek, and Manuel Varlet. 2025.
+Human perception of art in the age of artificial intelligence. Frontiers in Psy-
+chology 15 (2025), 1497469.
+[109] René van Woudenberg, Chris Ranalli, and Daniel Bracker. 2024. Authorship
+and ChatGPT: a Conservative View. Philosophy & Technology 37, 1 (Feb. 2024),
+34. https://doi.org/10.1007/s13347-024-00715-1
+[110] Peter-Paul Verbeek. 2005. What things do: Philosophical reflections on technology,
+agency, and design . Penn State Press.
+[111] Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered
+Worlds . The MIT Press. https://doi.org/10.7551/mitpress/13649.001.0001
+[112] Qian Wan, Siying Hu, Yu Zhang, Piaohong Wang, Bo Wen, and Zhicong Lu. 2023.
+"It Felt Like Having a Second Mind": Investigating Human-AI Co-creativity in
+Prewriting with Large Language Models. https://doi.org/10.48550/arXiv.2307.
+10811 arXiv:2307.10811 [cs].
+[113] Justin D Weisz, Michael Muller, Jessica He, and Stephanie Houde. 2023. To-
+ward general design principles for generative AI applications. arXiv preprint
+arXiv:2301.05578 (2023).
+[114] Galit Wellner. 2018. Posthuman imagination: From modernity to
+augmented reality. Journal of Posthuman Studies 2, 1 (2018), 45–
+66. https://scholarlypublishingcollective.org/psup/posthuman-studies/article-
+abstract/2/1/45/199989 Publisher: Pennsylvania State University Press.
+[115] Galit Wellner. 2022. Digital imagination: Ihde’s and Stiegler’s concepts of
+Imagination. Foundations of Science (2022), 1–16.
+[116] Roosa Wingström, Johanna Hautala, and Riina Lundman. 2024. Redefining
+creativity in the era of AI? Perspectives of computer scientists and new media
+artists. Creativity Research Journal 36, 2 (2024), 177–193.
+[117] Anna Wojciechowska, Foad Hamidi, Andrés Lucero, and Jessica R. Cauchard.
+2020. Chasing Lions: Co-Designing Human-Drone Interaction in Sub-Saharan
+Africa. In Proceedings of the 2020 ACM Designing Interactive Systems Conference
+(Eindhoven, Netherlands) (DIS ’20) . Association for Computing Machinery, New
+York, NY, USA, 141–152. https://doi.org/10.1145/3357236.3395481
+[118] Yiying Wu, Yunye Yu, and Pengcheng An. 2022. Dancing with the Unexpected
+and Beyond: The Use of AI Assistance in Design Fiction Creation. In Proceedings
+of the Tenth International Symposium of Chinese CHI . 129–140.
+[119] Winter Yan. 2023. UNPREDICTABLE MEMES: Speculative Futures of meme cre-
+ators’ ownership through the Lens of Disruptive Technologies . Ph. D. Dissertation.
+OCAD University.
+[120] Ann Yuan, Andy Coenen, Emily Reif, and Daphne Ippolito. 2022. Wordcraft:
+Story Writing With Large Language Models. In Proceedings of the 27th In-
+ternational Conference on Intelligent User Interfaces (Helsinki, Finland) (IUI
+’22). Association for Computing Machinery, New York, NY, USA, 841–852.
+https://doi.org/10.1145/3490099.3511105
+[121] Chao Zhang, Cheng Yao, Jiayi Wu, Weijia Lin, Lijuan Liu, Ge Yan, and Fangtian
+Ying. 2022. StoryDrawer: A Child–AI Collaborative Drawing System to Support
+Children’s Creative Visual Storytelling. In Proceedings of the 2022 CHI Conference
+on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI ’22) .
+Association for Computing Machinery, New York, NY, USA, Article 311, 15 pages.
+https://doi.org/10.1145/3491102.3501914
+1445
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+APPENDICES
+A Scenarios
+Onboarding the User (S1): The user wants to listen to audiobooks while jogging, but they feel that the available books are not
+engaging enough. The user downloads the Infinity Book App to their mobile phone as everyone has talked about the service and
+it is free to download. The onboarding uses a personal AI-powered assistant, Mark, with a speech interface. Mark starts to chat
+with the user in order to create a detailed user profile, instructing the user to allow recording of as many of their daily activities
+as possible. After recording the user’s life for a day, Mark notifies the user that their profile is ready. Mark recommends a
+personalized book for the user, who now listens to an engaging spy thriller created just for them.
+1446
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Infinity Book Operations (S2): A recent Infinity Book Corporation employee is introduced to the operations at IB headquarters.
+He is taken through the massive server rooms hosting the models capable of generating countless fictional worlds in a second
+to the central operations room. The mentor explains to the new employee how the IB system bypasses the need for the authors
+to experience real life in all its bodily nuances. Now the IB system has rights for the generative models of vast amounts of
+authors, both dead and alive, which can instantly create literary works in their authentic style.
+1447
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+Fine-tuning the Author Model (S3): A famous living author has given their rights to IB Corporation. Training on the author’s
+existing works is not nuanced enough for the outputs to sound authentic, so the real author has to go through a strenuous
+training program. The author sits in a room facing an AI-powered model of themselves. The model interrogates the author
+about their life, invoking painful moments through various props. In addition to the video recordings, the system also monitors
+the author’s brain activity and psychophysiological reactions. Paul Auster was still alive when this storyboard was created.
+We decided to keep this and the following author scenarios as they highlight the issues of retaining and using author-tuned
+models even after the author’s death.
+Harold The Recommender Bot (S4): The user has a discussion with Harold, the recommender bot, through a video call interface.
+Harold looks like an old-school academic in his office. The office walls are covered with bookshelves. The user says to Harold
+that he has just finished a trilogy by a famous author and would like to read more of that style. Harold recommends the fourth
+installment in the series, which, of course, confuses the user as the author has not written such a novel. Harold replies that it
+will not be a problem as the user can talk to the author bot directly to get advice.
+1448
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Conversation with the Author (S5): The user discusses the possibility of the fourth novel in the trilogy with the life-like
+representation of the author. During the discussion, the author explains some principles ablankg moments of their creative
+process, recommends some additional reading to the user, and finally agrees to write the fourth novel, which is instantly
+available to the user.
+Feedback to the Author (S6): The user really liked the fourth novel in the trilogy and wants to discuss it with the author. The
+user gives his views on the main themes and features of the novel while the author explains the themes in more depth and also
+gives justifications for the crucial creative choices they made. In the end, the author recommends reading generated novels
+from other authors in the IB roster, again including both living and dead ones.
+1449
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+Real-time Detective Novel (S7): The user is commuting in a subway train listening to an audiobook generated by IB. The book is
+a dynamically evolving narrative that transforms the user’s everyday life and surroundings into an endless, personalized fiction.
+As the user listens, IB uses the cameras and microphones in their Augmented Reality glasses to monitor the environment,
+seamlessly blending the real world with the story. Drawing from social media profiles, IB identifies people around the user,
+weaving them into the narrative as fictionalized characters. The user, who becomes the protagonist of this tale, sees these
+individuals highlighted in their augmented reality view, knowing that IB is crafting backstories for them that blend fact with
+fiction. The story centers around the user’s quest for a mysterious book, a journey that takes them through the urban landscape
+they inhabit. Their actions are narrated in the third person, giving the reader an external perspective on their own life as
+they follow clues and chase down leads. The search leads them to a small bookstore where more clues are uncovered. As they
+explore, IB recognizes another listener in the bookstore, revealing that their stories are intertwined. The AI weaves together
+information from the internet, the history of the bookstore, and fictional elements to create the narrative.
+1450
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Business Practices (S8): Dissatisfaction with IB operations is growing as traditional media struggles to survive. The narrator
+takes the reader on a tour of a gentrified urban district, revealing IB’s quiet takeover of cultural spaces. Traditional book
+publishing is a loss-making venture, more of a promotional tool than a profitable business. Authors now rely on platforms like
+paid Twitch channels to engage with their dedicated fans, who pay to be part of the creative process. Bookstores and libraries
+are being replaced by IB-controlled showrooms filled with hollow books offering digital excerpts. IB aims to monopolize the
+market, erasing the era of physical books and traditional reading spaces in favor of a future where digital content and corporate
+control prevail.
+1451
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+Interactive Personalised Horror Stories (S9): A staunch climate change denialist listens to AI fiction at home. In the fiction,
+eco-terrorists attack the man and his family’s home. The terrorists are frightening swamp-dwelling humanoid creatures who
+force the family to calculate their total carbon footprint, including their car usage, eating habits, international flights, home
+heating, etc. The terrorists give a lecture on the current state of the environment and how much damage people living like this
+family cause. The family is taken to a swamp eco-concentration camp where they are forced into slave labor. The fiction takes
+place at home but uses real-world environmental cues extracted from smart home sensors and cameras in the narrative. AI
+knows the users’ fears and desires better than they do themselves as it has access to the user’s life profile. Using this information,
+AI can create material that can have an emotional impact also on the subconscious level.
+1452
+DIS ’25, July 05–09, 2025, Funchal, Portugal Holopainen, Huang, Shin, Nissinen, Lucero
+Autofiction Generator (S10): The user wakes up. Eats breakfast. Goes to work, here various things happen. Stops at the grocery
+store on the way home. Heats up macaroni casserole for dinner. Watches the news. Takes a shower. Goes to bed. In the evening,
+in bed, the user reads a dramatized, autofictional version of their day written by AI. The story repeats the user’s day but in a
+dramatized version. Ordinary events take on new meaning. Dramatic arcs from different days interconnect. The mundane
+aspects of the user’s day become new and exciting through the story. In the AI’s autofiction, shorter stories cover a single day
+and larger narrative arcs encompass the whole life.
+Your Body as Training Data (S11): A person volunteers to have a sensor implanted in their brain in exchange for financial
+compensation. After signing a contract, a neurosurgeon installs the device, which allows an AI to monitor the person’s thoughts,
+sensations, and actions. As they go about their daily life, the AI occasionally interrupts with strange commands, pushing them
+to perform bizarre acts, like pouring syrup on their hand or spilling hot coffee on their thighs while sitting in a café. The
+AI’s experiments are not random; it seeks to gather data on human sensations—how pain, discomfort, and confusion feel in
+real-time. But the AI’s curiosity goes beyond physical responses; it is deeply interested in the social and psychological effects
+of these unusual behaviors. It observes how the person reacts to breaking social norms and how their emotions shift as they
+navigate these public disruptions. The story explores the boundaries between human autonomy and artificial manipulation,
+questioning what happens when technology probes into the most intimate corners of human experience.
+1453
+Infinity Book: Speculating Literary Expressions in the Age of Generative AI DIS ’25, July 05–09, 2025, Funchal, Portugal
+A Character Looking for a World (S12): The user interacts with an AI character, visible through VR glasses. The AI character
+initially appears neutral and blank in personality and traits. The user wants the AI character to express opposing views on life,
+marriage, politics, culture, etc., compared to the user’s own opinions. The user wants the AI character to be passionate about
+and eager to defend its beliefs. Gradually, the AI character evolves into a figure who passionately supports Maoist ideology.
+During the conversation, the AI character’s face, body, gestures, and clothing take on more individualistic and distinctive
+features. The user places the character into an AI-created story universe once the character is fully developed). The user feels a
+sense of satisfaction from contributing to creating this narrative world, making the experience of following the story even
+more engaging. The user is particularly drawn to following the character’s journey they helped create.
+1454

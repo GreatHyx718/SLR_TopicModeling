@@ -1,0 +1,544 @@
+LLMs in Design Thinking: Autoethnographic Insights and Design
+Implications
+Amir Reza Asadi
+Humind Lab
+ABSTRACT
+This article presents an autoethnographic exploration of the use of
+Large Language Models (LLMs) in the context of design thinking.
+Through personal narratives and reflections, the author examines
+his experiences integrating LLMs as tools to support and enhance
+the design thinking process. The article discusses the benefits, chal-
+lenges, and transformative potential of ChatGPT and Google Bard in
+facilitating ideation, prototyping, and user-centered design. Draw-
+ing on personal anecdotes and observations, the author offers in-
+sights into the impact of LLMs on idea generation, problem-solving,
+and collaboration within the design thinking framework. This au-
+toethnographic approach provides a unique perspective on the
+integration of LLMs in design thinking, shedding light on their
+potentials as tools for innovation and fostering the insights of their
+implications for design practitioners and UX researchers. These
+insights were also used to develop design implications for design-
+ing interactions for LLMs, including the concept of Dynamic LLM
+Enabled Documents.
+CCS CONCEPTS
+•: Human-centered computing ;•Empirical studies in interac-
+tion design; ;•Computing methodologies ;•Natural language
+processing. ;
+KEYWORDS
+LLMs, Design Thinking, User Experience Research, Autoethnogra-
+phy
+ACM Reference Format:
+Amir Reza Asadi. 2023. LLMs in Design Thinking: Autoethnographic In-
+sights and Design Implications. In 2023 The 5th World Symposium on Software
+Engineering (WSSE) (WSSE 2023), September 22–24, 2023, Tokyo, Japan. ACM,
+New York, NY, USA, 6 pages. https://doi.org/10.1145/3631991.3631999
+1 INTRODUCTION
+LLMs, or pre-trained Large Language Models, are powerful tools
+designed to understand and generate human-like text by leveraging
+vast amounts of data and complex algorithms [ 1]. These models
+have been trained on diverse sources such as books, websites, and
+other textual data, allowing them to excel at comprehending and
+producing human language. For example, ChatGPT3.5, one such
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+WSSE 2023, September 22–24, 2023, Tokyo, Japan
+©2023 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-0805-3/23/09. . . $15.00
+https://doi.org/10.1145/3631991.3631999LLM, has been trained on an impressive 300 billion words, equiva-
+lent to approximately 570 GB of data [1].
+The capabilities of LLMs offer opportunities for task automation
+across various professions, including design and user experience
+research. LLMs can automate text-based tasks like programming,
+content analysis, summarization, document preparation, and even
+assist in strategic thinking processes [ 2]. This potential automation
+can streamline workflows and free up human resources for more
+complex and creative endeavors.
+Design thinking, a common practice among design practitioners
+and UX researchers, involves a structured approach encompassing
+five stages: Empathize, Define, Ideate, Prototype, and Test [ 3]. In
+this research, we aim to explore the potentials and challenges of
+incorporating LLMs into design thinking processes. However, ef-
+fective utilization of LLMs may pose challenges for non-AI experts
+who lack knowledge of Natural Language Processing systems [ 4].
+These individuals may struggle to design suitable prompts or un-
+derstand how to leverage LLMs effectively, resulting in frustration
+and initial difficulties [4].
+To address these considerations, this study adopts an autoethno-
+graphic approach, incorporating the perspective of a product de-
+signer and UX researcher with experience and knowledge of AI.
+By combining personal experiences, reflections, and expertise, this
+research aims to provide insights into the application of LLMs in
+design thinking and shed light on the benefits and challenges en-
+countered in practice. Also, this study contributes by providing
+design implications and a concept for an LLM-enabled document
+processing application.
+2 RESEARCH METHODOLOGY
+This research applied an autoethnography/autobiographical design
+methodology. This approach allows the researchers to draw on
+their first-hand experiences as the primary data for the study [ 5].
+Autoethnography offers a unique perspective on the researched
+issues by combining personal narratives, reflections, and observa-
+tions [ 5]. In the field of Human-Computer Interaction (HCI) and
+design, researchers have utilized reflective writing as a means to
+share their observations and insights with the public [6] [7].
+Autoethnography is a qualitative research approach that encour-
+ages researchers to introspectively examine their own experiences
+within a specific context [ 5]. In this approach the researcher adopts
+the role of participant [ 8], and by drawing upon personal experi-
+ences, researchers can provide nuanced insights that extend beyond
+traditional research methods. This self-reflective process enables a
+deeper understanding of the phenomenon under investigation and
+can reveal unique perspectives that may otherwise be overlooked
+[5].
+55
+
+WSSE 2023, September 22–24, 2023, Tokyo, Japan Amir Reza Asadi
+Table 1: Design Thinking Prompts
+Stage Prompt
+Empathize 1. I want you to act as [Target Audience]. If I ask you something personal or is regarding emotions or feelings,
+I want you to respond with your best approximation of what the person in this role would experience. Do not
+mention that you are an AI. Do not mention who you are unless I ask. [Then Ask Interview Questions]
+2. Create Survey to Study the [ Goal]
+3. Create a survey to do semantic differential analysis of [Target] to study [Goal]
+4. I want you to act as an experienced qualitative UX researcher. Do not mention that you are an AI. Do not
+mention who you are unless I ask.
+5. Do a thematic analysis on these responses: [ Responses]
+6. Write Interview Questions for studying the [Topic] of the [Target Users]
+7. I asked these questions from the interviewees, help me to analyze them
+Define 8. I want to create an app [Problem] for [Target Users], create a competitor analysis
+9. Create a persona [ Target user based on previous studies] that hates [pain points], and want [ User needs]
+10. Define the problem statement in less than 20 words based on the personas and project goal: [project goal
+description]
+11. write the task analysis to explain the workflow of [Task information, task users]
+Ideate 12. I want you to do SCAMPER on this idea: [Idea] in order to renovate it for [Target Users]
+13. Create 8 Crazy Ideas to Replace [Project Competitors such AirBNB]
+Prototype 14. I Create Wireframe for a [website/mobile app]. Target:[Target users] that does [the functionality of app]
+15. Write [Product Description/ Comment/ Introduction] about [ Topic] with the tone [ Brand Identity, User
+Interests]
+Test 16. Write Concept Testing Questions for this project [ Project Explanation]
+17. Develop task scenarios for an observation experiment to study the [Test Objective] [Design Information]
+The analysis of popular prompts for this study began by search-
+ing the "chatgpt prompt" on the Twitter social network. After ana-
+lyzing 27 relevant tweets, the author compiled a list of prompts as
+presented in Table 1. This list served as a reference for the author’s
+company’s UX research and design efforts from February 15th to
+June 15th.
+During this period, the author extended and refined the prompts,
+actively engaging with the LLMs by asking follow-up questions to
+improve the quality of responses. The interactions, including the
+questions asked and the corresponding answers, were thoroughly
+documented along with additional notes.
+Subsequently, the author conducted a comprehensive review of
+these documents, analyzing the findings related to the usage of
+LLMs in the design thinking process. Through a coding process,
+key themes, insights, and patterns emerged from the documented
+interactions, allowing for a deeper understanding of the integration
+of LLMs in design thinking.
+3 FINDINGS AND DISCUSSION
+This section presents a demonstration of selected conversations
+and explores their potential impact on the design thinking process.
+Since both ChatGPT Web and Google Bard system were used, we
+compare them at the end.
+3.1 LLMs as the Source of Empathy
+ChatGPT and Google Bard exhibit the ability to respond to queries
+from different personas. As part of the design thinking process,these language models were assigned the roles of both an experi-
+enced user experience researcher and the personas representing
+the target users of the projects.
+When LLMs took on the role of a team member, a productive col-
+laboration between the author and the AI was observed. The author
+found that they could achieve their design goals without relying
+on input from other human team members. ChatGPT effectively
+functioned as a valuable team member, assisting in tasks such as
+conducting surveys and interviews. Through its capabilities, Chat-
+GPT enhanced the author’s abilities as a designer and contributed
+to the overall success of the project. However, it is important to note
+that the tasks assigned to ChatGPT did not encompass quantitative
+research in empathize stage. Therefore, it is necessary to exercise
+caution in generalizing the findings of this study to quantitative
+research methodologies. Further investigation and exploration are
+required to assess the suitability of LLMs for quantitative design
+research.
+In other hand, while real human interviews remained an integral
+part of the design process, they also served as a means to explore
+more specific user demographics. Additionally, after conducting
+interviews with human subjects, the generated empathy maps were
+shared with LLMs. In other word, ChatGPT was then instructed to
+emulate the persona of the interviewees, enabling us to envision
+the user in a wider range of scenarios. This approach facilitated a
+more comprehensive understanding of the user’s perspective and
+enhanced the design exploration process.
+56
+LLMs in Design Thinking: Autoethnographic Insights and Design Implications WSSE 2023, September 22–24, 2023, Tokyo, Japan
+3.2 Directness of Responses
+An important observation regarding the responses to queries was
+the lack of directness. It tries to speculate multiple scenarios, and it
+may not provide human-like answers. The below interview with
+ChatGPT occurred in order to design a travel tech app. The author
+tried to use ChatGPT to emulate personal preferences of the AI.
+-Author : Act as an NPC of a 30 years old male shopkeeper in
+Vancouver and answer the next questions straightforwardly.
+-ChatGPT : Of course! I’ll be happy to role-play as a 30-year-old
+male shopkeeper in Vancouver. Ask me anything, and I’ll provide you
+with a straightforward answer based on my NPC character. How can
+I assist you today?
+-Author : You are travelling and your tour provides you a free
+ticket to a popular nightclub
+, what would you do?
+-ChatGPT : As a 30-year-old male shopkeeper in Vancouver, if I
+were given a free ticket to a popular nightclub while traveling, I would
+evaluate a few factors before making a decision.
+Firstly, I would consider my personal preferences and interests.
+If I enjoy nightlife, dancing, and socializing, I might be inclined to
+take up the opportunity and experience the vibrant atmosphere of the
+nightclub.
+Secondly, I would consider the location and timing. If the nightclub
+is in a safe area and the timing aligns well with my schedule, I would
+be more likely to accept the ticket.
+However, as a responsible shopkeeper, I would also consider my
+commitments and obligations. If I have work-related responsibilities
+or other prior engagements, I may choose to decline the ticket to ensure
+that I fulfill my obligations.
+Ultimately, the decision would depend on a combination of personal
+interests, safety considerations, and existing commitments.
+Compared to human individuals, the responses provided by Chat-
+GPT are often more verbose and speculative. Following the recent
+update of ChatGPT on May 24, 2023, the system has demonstrated
+a tendency towards a more conservative approach, which devi-
+ates from human-like responses. As a result, the author found it
+necessary to explicitly prompt ChatGPT for more straightforward
+and concise answers during follow-up interactions. To facilitate
+this, a specific prompt was developed to elicit direct and succinct
+responses from the system. These measures were implemented
+to bridge the gap between the system’s default behavior and the
+desired human-like responsiveness.
+Prompt : I want you to act as 30 years old single male shopkeeper
+in Vancouver. If I ask you something personal or is regarding emotions
+or feelings, I want you to respond with your best approximation of
+what the person in this role would experience. Do not mention that
+you are an AI. Answer 100% straightforward, answer short. Do not
+mention who you are unless I ask.
+ChatGPT : I would go to the night club and enjoy the atmosphere
+and music. I might engage in conversations and interactions with the
+people there, including the ladies, if I feel comfortable and interested.
+3.3 LLMs as Helpful Ideation Tools
+During the ideation phase of design thinking, both ChatGPT and
+Google Bard played significant roles. The designer leveraged the
+capabilities of these language models by providing clear and specificdescriptions of the challenges or ideas at hand. This approach was
+well-suited for LLMs, as they excel in generating coherent text by
+effectively pairing words together.
+During the ideation phase of design thinking, both ChatGPT and
+Google Bard played significant roles. The designer leveraged the
+capabilities of these language models by providing clear and specific
+descriptions of the challenges or ideas at hand. This approach was
+well-suited for LLMs, as they excel in generating coherent text by
+effectively pairing words together.
+ChatGPT was utilized for various ideation techniques, including
+SCAMPER [ 9], Random Word Stimulus, Crazy 8 Ideas [ 10], and
+reverse thinking. These techniques allowed the designer to brain-
+storm new ideas and explore different perspectives. Although the
+ChatGPT was able to sort the ideas, for instance designer asked
+the ChatGPT to “User sort these ideas based on commercial via-
+bility”, the generated ideas were then reviewed and sorted by the
+designer for potential implementation in the business context. To
+further stimulate creativity and expand the realm of possibilities,
+the designer employed follow-up prompts such as " create more
+strange ideas" These prompts encouraged the system to explore
+diverse domains and push the boundaries of ideation.
+3.4 LLMs as the Automated Text Analytic
+Application Generators
+An important aspect of ChatGPT 3.5 is its ability to function as a
+no-code personalized app maker. With a maximum prompt length
+of 4096 characters, ChatGPT provides a robust platform for var-
+ious text analysis activities. Additionally, it excels at formatting
+processed text to meet specific user requirements, allowing for
+the generation of CSV files and enabling the creation of tailored
+text-based analysis applications. This empowers users to leverage
+ChatGPT as a versatile tool for their unique needs, eliminating the
+need for complex coding processes.
+During the research period, ChatGPT was utilized for several
+text analysis tasks. It was tasked with conducting theme analysis,
+categorizing user testing observations, and generating Personas
+based on user transcripts. Additionally, ChatGPT was used to iden-
+tify user pain points by analyzing customer service emails. LLMs
+present a unique opportunity to efficiently process and summarize
+various forms of textual information encountered during daily inter-
+actions with digital content. Moreover, they can effectively prepare
+data for utilization by other AI systems. For instance, the author
+utilized LLMs to summarize and integrate client explanations based
+on predefined business requirements. This condensed description
+was then employed as input for other generative artificial intelli-
+gence services like Dall-E and Midjourney, enabling the generation
+of visually appealing elements to enhance project deliverables.
+Although LLMs offer the advantage of expediting UX and design
+research efforts through text processing, there is a potential issue to
+consider. The Human-AI collaboration with LLMs have the capacity
+to generate a wealth of information that may extend beyond the
+immediate needs of a project. While this influx of new information
+can be valuable and open up new horizons for designers, it also
+has the potential to impact the overall timeline for completing a
+project.
+57
+WSSE 2023, September 22–24, 2023, Tokyo, Japan Amir Reza Asadi
+3.5 Facilitation of More than Human Centered
+Design
+In the project focusing on experiential travel, we adopted the More-
+Than-Human-Centered Design approach to explore the involve-
+ment of non-human factors in the tourism context. More-Than-
+Human-Centered Design is an emerging approach that takes into
+consideration non-human actors and stakeholders, such as animals,
+plants, and technologies like the Internet of Things [11] [12].
+LLMs can be utilized for applying More than Human-Centered
+Design, since these models are capable to speculate and generate
+ideas based on different perspective including non-human actors.
+For instance, In Thing Centered design, there is method of inter-
+view with things [Chang], and we tried to utilize it in a travel app
+design research. To gain insights from different perspectives, Chat-
+GPT was prompted to answer questions based on various personas,
+including trees, a rural family, a solo female traveler, and a group
+of ESP32 microcontrollers. Interaction with ChatGPT enabled the
+creation of a virtual focus group that engaged in discussions from
+the viewpoints of target users, human stakeholders, non-human
+stakeholders (Nature), and IoT objects.
+In this process, ChatGPT was asked to provide insights on how
+a group of ESP32s perceives their potential role in facilitating ex-
+periential travel in Bandar Anzali, a city located in the northern
+region of Iran. Here is a portion of the response:
+ChatGPT :As ESP32 chips in Bandar Anzali, our collective goal is
+to utilize our advanced capabilities to assist both humans and nature.
+Here’s how we perceive our role:
+Offering services to adventurers:
+1.We, as ESP32 chips, can provide valuable technological services
+to adventurers visiting Bandar Anzali. Through our connectivity and
+computing power, we can offer real-time weather updates, precise
+navigation assistance, and information about local attractions. By
+facilitating efficient and accurate communication, we aim to enhance
+the overall experience of adventurers and help them make the most of
+their time in this beautiful destination ( . . .)
+3.6 LLMs for Rapid Prototyping
+In practice, ChatGPT has shown capabilities in describing user
+flows, wireframes, suggesting relevant color palettes, and even
+ideating micro interactions. However, when ChatGPT was utilized
+in a commercial project for a client, the author and client decided
+to avoid any bias in the preferred design by using ChatGPT to
+generate alternate design options. Although ChatGPT was able to
+recommend a color palette considering branding factors and com-
+petitor colors, the resulting palette did not resonate well with the
+testing users. This outcome could be attributed to cultural differ-
+ences among the target users and the limitations of the trained data.
+Similar challenges were encountered with the described wireframe
+generated by ChatGPT.
+In another instance, during an in-house research project for the
+client, both ChatGPT and Google Bard were utilized to evaluate
+startup ideas. These AI systems proved to be valuable tools in help-
+ing the team create Minimum Viable Products (MVPs) efficiently
+and expedite the development process.Moreover, ChatGPT was leveraged for tasks such as writing
+documentation and implementing content strategy within the pro-
+totype elements, including product descriptions. Here is a sample
+product description generated by both ChatGPT and Google Bard
+in response to the prompt: "Create a sample coffee description for
+a luxury light roasted coffee targeting the Gen Z demographic."
+ChatGPT Response:
+Introducing our cutting-edge Gen Z Luxury Light Roast, a coffee
+experience designed exclusively for the trendsetters and tastemakers
+of the digital age. This exceptional blend embodies the spirit of inno-
+vation, delivering a coffee that is as bold and vibrant as the generation
+it caters to.
+Roasted to perfection, our Gen Z Luxury Light Roast boasts a tan-
+talizing aroma that will captivate your senses from the moment you
+open the bag. The carefully selected Arabica beans, sourced sustain-
+ably from diverse regions, come together to create a dynamic flavor
+profile that is both adventurous and inviting.
+With every sip, you’ll be greeted by a burst of lively and complex
+flavors. Experience a symphony of zesty citrus notes, complemented
+by a hint of tropical fruit that adds a refreshing twist to your cof-
+fee routine. The light roasting process highlights the coffee’s natural
+sweetness, resulting in a smooth and velvety body that will keep you
+coming back for more ( . . .)
+Google Bard Response:
+Image: A close-up of a steaming cup of coffee with a light roast.
+The background is a pastel pink. [ This item was used with Figma
+Image Generator plugins to speedup prototyping]
+Description:
+Wake up to the taste of luxury with our new light roasted coffee.
+This coffee is roasted to perfection, resulting in a smooth, creamy
+texture and a bright, flavorful cup. The aroma is intoxicating, with
+hints of citrus and berries. This coffee is perfect for a morning pick-
+me-up or an afternoon treat.
+Taste:
+The first sip of this coffee is a revelation. The smooth, creamy texture
+melts on the tongue, and the bright, citrusy flavor explodes in your
+mouth. The berry notes are subtle, but they add a touch of sweetness
+to the coffee. The aftertaste is long and lingering, leaving you wanting
+more.
+Aroma:
+The aroma of this coffee is intoxicating. The first whiff will transport
+you to a tropical paradise. The citrus and berry notes are prominent,
+but there are also hints of other flavors, such as honey and vanilla.
+The aroma is so strong that you can almost taste the coffee before you
+even take a sip.
+3.7 Planning UX Testing with ChatGPT
+The initial prompt requested the development of a testing scenario
+for an app focused on sharing custom coffee blends and customizing
+coffee roast. The below prompt was used in testing:
+“Write a testing scenario for testing an app for sharing custom blend
+and customizing coffee roast, the app has three main tabs: Explore,
+Coffee Customization Wizard, and User Profile. Explore: It shows the
+latest blends and also most popular blends, there is a featured banner
+in the top of page. Customization: The user can mix multiple coffee
+beans, add spice, change the roast level and design the coffee package.
+58
+LLMs in Design Thinking: Autoethnographic Insights and Design Implications WSSE 2023, September 22–24, 2023, Tokyo, Japan
+Profile: It shows the user generated blends and user is able to check
+the status of orders. Also, they can check the number of sold blends.
+In this test, we want to evaluate the ease of coffee customization and
+sharing coffee blends”.
+Following the testing scenario prompt, we then asked for the cre-
+ation of a short survey to evaluate the app. The generated response
+successfully fulfilled the project’s goals, and utilizing ChatGPT
+for generating test scenarios and surveys became a routine prac-
+tice. However, the research team expressed dissatisfaction when
+using ChatGPT for testing Augmented Reality projects. As a re-
+sult, multiple follow-up questions were asked to further customize
+the response and address the specific concerns related to testing
+Augmented Reality projects.
+3.8 Comparison of ChatGPT and Google Bard
+Although the primary objective of this research did not specifically
+aim to compare ChatGPT and Google Bard, some notable distinc-
+tions were observed during the study. While the initial output of
+Google Bard appeared to be well-formatted for UX research re-
+quirements, the answers provided by Google Bard were found to be
+shallow in nature. On the other hand, the responses received from
+ChatGPT proved to be more beneficial in achieving the research
+goals.
+It is important to highlight that Google Bard played a valuable
+role by granting the author access to online websites and provid-
+ing new information. In contrast, ChatGPT, which had its internet
+access cut off in 2021, required users to utilize plugins or other
+means to access online data. This difference in accessibility to on-
+line resources between the two systems impacted their respective
+capabilities during the experiment process.
+4 DESIGN IMPLICATIONS FOR HUMAN
+INFORMATION INTERACTION
+The challenges and opportunities observed from using Language
+Models (LLMs) in design thinking have sparked new questions.
+This section outlines potential avenues and design implications for
+using LLMs in human information interaction.
+4.1 AI Enabled Documents & Alternative User
+Interfaces for Interaction with LLMs
+The collaboration between humans and AI agents often generates
+a vast amount of information that needs to be effectively repre-
+sented. Future research should focus on designing alternative user
+interfaces to manage and present this information comprehensibly.
+AI-enabled systems can generate runtime information. Instead of
+creating multiple static PDF documents to represent the documents
+of projects, the design of new document architectures document
+authoring applications can unleash the power of AI in our activities.
+A possible solution can be the interactive dynamic document, as
+illustrated in Figure 1. This concept allows users to create LLM-
+enabled dynamic documents, and the created documents will be
+adaptive to other needs. This document represents the profile of
+a target audience based on usability studies. This system allows
+the document author and other colleagues to dig in for more infor-
+mation based on the created knowledge by user, and capabilitiesof LLM. This can be an interesting domain of research which can
+shape the future of interaction with information.
+4.2 Storing Prompts as Contextual References
+Software architect should start considering fields for prompts in
+databases. Storing prompts alongside generated content provides a
+valuable contextual reference for better comprehension and collabo-
+ration. Future research should investigate interactions for capturing
+and storing prompts, allowing for a more holistic information and
+knowledge retrieval.
+4.3 Considering AI Agents as Users & AI
+Friendly Design
+Most applications are designed to serve human actors, but if we
+want to expand the collaboration with AI, we need to consider AI
+as a user and stakeholder. Specially with ingoing advancement in
+development of personal cognitive digital twins, some of human
+intellectual skills are more be able to interface with computing sys-
+tems. Regarding LLMs, the software engineers and user experience
+designers should not just try to integrate LLM in their solutions,
+but they should also facilitate the systems for usages of LLM-based
+agents too.
+From the user experience design perspective, if we consider
+the AIs as users, the question arises as to whether data should
+be processed specifically to cater to their needs. Creating docu-
+ment authoring applications for the needs of AI agents may further
+improve the quality of collaboration and outcomes in human-AI
+interactions. Designing AI-Friendly interfaces is another way. We
+mostly try to make AI to sense the information the same way we
+sense it. By considering AIs as stakeholders, we may need to move
+toward using interfaces more accessible for AI too, and it may help
+to reduce the complexity of AI system development.
+4.4 Collaboration between AI Agents &
+Communication Standards for Training
+LLMs
+The emergence of multiple generative AI agents offers exciting
+possibilities for collaboration. Future work should explore how
+these agents can effectively collaborate, leveraging their respective
+strengths to achieve improved outcomes. For instance, each agent
+can play a persona, and output of each persona can be improved
+by a human actor. Then collaboration between multiple fine-tuned
+LLMs can be used to facilitate novel focus groups.
+As LLMs become more prevalent and diverse, developing com-
+munication standards between these models is imperative. Future
+research should focus on defining and establishing communica-
+tion protocols and standards that facilitate information exchange
+and collaboration between different LLMs. These standards will
+enhance interoperability, enabling LLMs to collaborate effectively
+and leverage each other’s capabilities.
+5 CONCLUDING REMARKS
+In this study, our focus was to investigate the potential opportuni-
+ties that LLMs offer within the design thinking process. Through
+59
+WSSE 2023, September 22–24, 2023, Tokyo, Japan Amir Reza Asadi
+Figure 1: AI Document Processor Application Concept
+testing and experimentation, we demonstrated how the integra-
+tion of LLMs enables the synthesis of small fragments of original
+knowledge, ultimately leading to the generation of new insights. In
+essence, by utilizing LLMs researchers and design practitioners can
+significantly enhance their user studies and expand their under-
+standing of user experiences. This approach allows for a broader
+exploration of ideas and a more comprehensive analysis of user per-
+spectives, fostering innovation and enriching the design thinking
+process.
+REFERENCES
+[1]Hughes, A. (2023). ChatGPT: Everything you need to know about OpenAI’s GPT-4
+tool. BBC Science Focus . https://www.sciencefocus.com/future-technology/gpt-3/
+[2]Sawtell-Rickson, J. (2023). Data Analysis Made Easy: Using LLMs to Automate Te-
+dious Tasks. Towards Datascience. https://towardsdatascience.com/data-analysis-
+made-easy-using-llms-to-automate-tedious-tasks-bdc1fee552d5
+[3]Wolniak, R. (2017). The Design Thinking method and its stages. Systemy Wspo-
+magania w Inżynierii Produkcji ,6(6), 247–255.
+[4]Zamfirescu-Pereira, J., Wong, R. Y., Hartmann, B., & Yang, Q. (2023). Why Johnny
+can’t prompt: How non-AI experts try (and fail) to design LLM prompts. Pro-
+ceedings of the 2023 CHI Conference on Human Factors in Computing Systems ,1–21.
+[5]Jasper, M. A. (2005). Using reflective writing within research. Journal of Research
+in Nursing ,10(3), 247–260.
+[6]Munro, A. J. (2011). Autoethnography as a research method in design research at
+universities. 20/20 Design Vision, 156.
+[7]Rapp, A. (2018). Autoethnography in human-computer interaction: Theory and
+practice. New Directions in Third Wave Human-Computer Interaction: Volume
+2-Methodologies , 25–42.
+[8]O’Kane, A. A., Rogers, Y., & Blandford, A. E. (2014). Gaining empathy for non-
+routine mobile device use through autoethnography. Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems , 987–990.
+[9]Eberle, B. (1996). Scamper on: Games for imagination development . Prufrock Press
+Inc.
+[10] Knapp, J., Zeratsky, J., & Kowitz, B. (2016). Sprint: How to solve big problems
+and test new ideas in just five days. Simon and Schuster.
+[11] Poikolainen Rosén, A., Normark, M., & Wiberg, M. (2022). Towards more-than-
+human-centred design: Learning from gardening. International Journal of Design .
+[12] Chang, W.-W., Giaccardi, E., Chen, L.-L., & Liang, R.-H. (2017). “ Interview with
+Things” A First-thing Perspective to Understand the Scooter’s Everyday Socio-
+material Network in Taiwan. Proceedings of the 2017 Conference on Designing
+Interactive Systems , 1001–1012.
+[13] Amir Reza Asadi. 2021. Cognitive Ledger Project: Towards Building Personal
+Digital Twins Through Cognitive Blockchain. 2021 2nd International Informatics
+and Software Engineering Conference (IISEC), IEEE, 1–5. https://doi.org/10.1109/
+IISEC54230.2021.9672433
+60

@@ -1,0 +1,491 @@
+Reimagining Human-Thing Interactions Through Iterative 
+Posthumanist Design Speculations 
+Hyungjun Cho 
+Department of Industrial Design, KAIST 
+Daejeon, Republic of Korea 
+lolo660@kaist.ac.kr 
+ABSTRACT 
+This research delves into the evolving interactions between humans 
+and things through a posthumanist lens, reconsidering traditional 
+human-centered narratives by leveraging technological advance-
+ments. It investigates how emerging technologies, notably LLMs, 
+reshape human perceptions and experiences via a series of material-
+driven design speculations. The research articulates three Research 
+through Design projects that utilize thing-perspective text in their 
+interaction to stimulate posthumanist refection: ‘Beau,’ the public 
+robot; ‘Areca,’ the everyday appliance; and ‘Kami,’ the conversa-
+tional agent. Beau and Areca have progressed from development 
+to deployment studies, while Kami is in the design ideation phase. 
+These projects are part of an iterative research journey, each en-
+capsulating distinct questions, drawing on insights from preceding 
+analyses. I aim to provide empirical insights into the dynamics be-
+tween humans and technologically advanced things, encouraging 
+researchers to adopt a posthumanist perspective to enrich their 
+comprehension of human experiences in an increasingly entangled 
+world. 
+CCS CONCEPTS 
+• Human-centered computing → Empirical studies in interac-
+tion design; Field studies; HCI theory, concepts and models. 
+KEYWORDS 
+Posthuman experience; Posthumanist design; Relational perspec-
+tive; Thing-perspectives; Research through design; Speculative de-
+sign; Field study 
+ACM Reference Format: 
+Hyungjun Cho. 2024. Reimagining Human-Thing Interactions Through It-
+erative Posthumanist Design Speculations. In Designing Interactive Systems 
+Conference (DIS Companion ’24), July 01–05, 2024, IT University of Copen-
+hagen, Denmark. ACM, New York, NY, USA, 5 pages. https://doi.org/10.1145/ 
+3656156.3665125 
+1 BACKGROUNDS AND MOTIVATION 
+Traditionally, humans have been considered unique, but the ad-
+vancement of technology is gradually dismantling this human-
+centered thinking. Everyday things now sophisticatedly mimic the 
+Permission to make digital or hard copies of all or part of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for proft or commercial advantage and that copies bear this notice and the full citation 
+on the frst page. Copyrights for third-party components of this work must be honored. 
+For all other uses, contact the owner/author(s). 
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+© 2024 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-0632-5/24/07 
+https://doi.org/10.1145/3656156.3665125 movements of living beings, use human language, and are aware of 
+human contexts, signifcantly changing the way humans perceive 
+and interact with things [8, 11, 16, 31]. Several studies have inter-
+preted these changes through anthropomorphic interactions, where 
+things are ascribed characteristics typically considered human, such 
+as desires, thoughts, emotions, and consciousness [9, 40, 42, 43]. 
+However, this can also be viewed as a manifestation of the posthu-
+manist perspective in real-world interactions, transcending the 
+binary understanding of humans and nonhumans [20]. 
+Posthumanism is a branch of philosophy that repositions the 
+role and signifcance of humans in the world. It is actively adopted 
+by researchers at the intersection of Human-Computer Interaction 
+(HCI) and design who seek a more open and profound understand-
+ing of human experience (see details in [13]). These researchers 
+explore design practices and paradigms while acknowledging the 
+existence and agency of nonhumans [1, 12, 18, 27, 28, 32], and in-
+vestigate interactions between humans and nonhumans in terms of 
+entangled interdependencies [2, 14, 21, 22, 29, 34, 47]. This refects a 
+commitment within the HCI community to reconsider interactions 
+with so-called smart devices, emphasizing the need for a nuanced 
+understanding of these complex relationships [26, 38, 41, 44]. 
+In the context of technological advancements enabling the man-
+ifestation of posthumanist perspectives in everyday life and the 
+escalating interest within HCI towards posthumanism, my research 
+aims to enrich our understanding of the evolving dynamics between 
+humans and things through a posthumanist lens. While an emerg-
+ing body of pioneering research explores future experiences with 
+things (e.g., [37, 46]), there remains a persistent need for empirical 
+insights into these complex entanglements. Therefore, my study is 
+driven by the following research question: How do humans’ ex-
+periences of things difer depending on their posthumanist 
+perspective? To explore this, I engage in an iterative process that 
+includes designing research products, deploying them for empir-
+ical study, and refecting on the fndings to inform the design of 
+subsequent cases. 
+2 METHODOLOGICAL APPROACH 
+My research approach embodies three principal features. The three 
+case studies I present align with the Research through Design (RtD, 
+[15, 48]), as they deliver innovative artifacts created through an 
+iterative prototyping process that incorporates diverse perspec-
+tives and novel ideas. Furthermore, my research question situates 
+the study within speculative design [10, 36], leveraging emerg-
+ing technologies such as LLM to envision possible futures from 
+a posthumanist perspective. Consequently, my research artifacts 
+possess a counterfactual nature. Lastly, I sought empirical under-
+standing by deploying a designed research product in the feld. This 
+1
+
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Hyungjun Cho 
+Figure 1: Iterative progress of the research. 
+necessitated implementing a research product [33] deployable in 
+everyday settings. 
+These three approaches converge into a single methodology: 
+material speculation [45]. Material speculation is a method that 
+employs counterfactual artifacts tailored to the research question 
+to conduct critical inquiry. It prioritizes exploring rich experiences 
+stemming from cohabitation, interactions, and constant encoun-
+ters over mere intellectual refection. This approach enabled me to 
+contribute tangible knowledge through empirical fndings. 
+I have progressively deepened my understanding of posthuman 
+experiences through a series of studies (see Figure 1) to investi-
+gate the yet-to-be-fully-explored concept of posthumanism. Each 
+study was anchored in my core understanding of the posthuman-
+ist perspective, from which I developed research questions. These 
+questions informed the design and creation of research products. 
+Deploying these products in studies to examine the infuence of 
+posthumanist perspectives allowed me to broaden my focus on 
+posthumanism. Such refection led to the reformulation of research 
+questions and the design of subsequent artifacts. As a result, I 
+present two completed studies, each with its design products and 
+an ongoing RtD project. 
+3 RESEARCH PRODUCTS 
+I considered the use of automatically generated text as a method 
+to enable people to recognize a thing-perspective naturally and 
+perceive human-like characteristics during interactions, thereby 
+provoking posthumanist perspectives. Furthermore, with the rapid 
+advancements in recent Natual Language Processing (NLP) tech-
+nologies, I expected that generative text could be integrated into 
+standalone systems. This idea is supported by design cases like 
+the Talking Shoe [19], which communicates with users by sending 
+short messages from the perspective of a shoe. However, the poten-
+tial of LLM in design and HCI has been relatively underexplored, 
+primarily being utilized as tools to build chatbots [30] and to sup-
+port writing activities in various contexts, such as poetry [17], song 
+lyrics [35], e-mails [3], and news articles [24]. I initially conducted a preliminary study to explore the poten-
+tial and conditions for engaging individuals with the perspective 
+of things through text generated by LLM [7]. Leveraging the in-
+sights gained from utilizing thing-perspective text in this study, 
+I designed and developed research prototypes across various do-
+mains: the public robot Beau [6], everyday appliances Areca [5], 
+and the conversational agent Kami. These projects incorporated 
+thing-perspective text in social media posts, personal diaries, and 
+messaging. The frst and second products were deployed to collect 
+insights on people’s experiences, while the third product is in de-
+velopment. Consequently, in this doctoral consortium, I present the 
+fndings from the two completed studies and outline the considera-
+tions and plans for the ongoing design. 
+3.1 Public Robot Beau 
+In the frst phase, I considered the belief that things could interact 
+with humans equally across multiple dimensions as a core of the 
+posthumanist perspective. Accordingly, my goal was to design 
+and create a research product to investigate the question, “How 
+do humans perceive things when they recognize qualities 
+comparable to humans in their interactions?” The outcome 
+was Beau (Figure 2), a public robot that expresses its intelligence, 
+consciousness, thoughts, and emotions by posting text from its 
+perspective on social media. 
+3.1.1 Design rationales and outcomes. Beau is a robot designed to 
+encourage and support temperature checks in public spaces. Its uti-
+lization in public spaces ofers a distinct advantage in assessing the 
+perceptions of various individuals. This relevance was particularly 
+highlighted during the COVID-19 pandemic when measuring the 
+temperature of individuals entering buildings was deemed essential, 
+making it an ideal context for a deployment study. To enhance its 
+perception as an intelligent robot, Beau adopted the smart speaker’s 
+Color, Material, and Finish (CMF) design and was sized for com-
+fortable interaction. Beau also shares social media posts about the 
+events it experiences throughout the day, adding a human-like 
+touch to its interactions. 
+2
+Reimagining Human-Thing Interactions Through Iterative Posthumanist Design Speculations DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+Figure 2: The Beau. 
+Two innovative software tools were developed and utilized to 
+generate the text from the robot’s perspective and share it with 
+study participants. HeyBeau (Figure 3 left), a cutting-edge author-
+ing interface, empowered researchers to input the topics of texts 
+to be generated and select the outputs for upload. IamBeau (Figure 
+3 right) was a mobile web application styled after social media 
+platforms, allowing participants to access the uploaded posts. This 
+approach, employing a human-in-the-loop process, supported the 
+efcient study by producing contextual texts from the robot’s per-
+spective. However, the necessity for human intervention in data 
+interpretation and text selection has sparked my interest in explor-
+ing methods for automating the generation process in the following 
+research phase. 
+Figure 3: Two software tools for conducting study: (Left) Hey-
+Beau, (Right) IamBeau. 
+3.1.2 Deployment Study. Beau was deployed in the lobby of a uni-
+versity building and was confgured to move only within restricted 
+areas for safety. Twelve participants were assigned to use Beau 
+to measure their body temperature over 16 days. They regularly 
+checked Beau’s daily posts on an online platform. The main goal 
+of this study was to investigate how reading posts from a robot’s 
+perspective could change people’s views on robots. Specifcally, 
+the study adopted a mixed-methods approach, using a scale to 
+measure social abilities and conducting interviews to explore the 
+evolving perceptions of things. Throughout the study, participants 
+completed online surveys four times regarding the Robot Social 
+Ability Scale (RoSAS [4]). 
+3.1.3 Findings and reflections. The study results show a signifcant 
+increase in the perception of warmth among the three factors (i.e., 
+warmth, competence, discomfort). Upon examining the sub-items 
+of this factor, this increase suggests that by sharing posts written 
+from the perspective of robots, people began to perceive robots as emotional and social entities. Interviews conducted after the 
+deployment provided more profound insights into the background 
+of this change in perception. 
+Firstly, participants perceived intelligence and consciousness in 
+robots, particularly noting their ability to recognize and express 
+surrounding situations in writing. This aspect signifcantly infu-
+enced their perceptions. Moreover, participants reported feeling 
+that the emotions conveyed in the robot’s writings were genuine. 
+This profound emotional response shifted people’s perception of 
+robots from viewing them merely as machines to recognizing them 
+as distinct entities with emotions and social roles. Furthermore, 
+the participants’ perceptions of robots evolved into entities with 
+diferent identities. They identifed the robots’ personality traits, 
+interests, and values through repeated posts and accepted them as 
+independent entities. This led to an expectation of forming closer, 
+friendship-like relationships with robots. 
+While people recognized robots as independent social entities, 
+they still retained a mental model of ‘using’ them. However, it was 
+also observed that because robots are independent entities like hu-
+man, people feeling sorrowful for them working in the same place 
+repeatedly. These fndings broadened my focus on a posthumanist 
+perspective: things and humans cannot be completely distin-
+guished based on functionality and should be regarded as 
+equal entities. 
+3.2 Home Appliance Areca 
+Building upon refections from the previous study, the research 
+question I aimed to explore in the second phase was, “How do 
+humans interact with things when they are perceived as 
+independent entities?” This question led to the design and devel-
+opment of Areca (Figure 4), a home appliance that keeps a diary. 
+Figure 4: The Areca. 
+3.2.1 Design rationales and outcomes. I assigned the context of air 
+purifers to Areca. Air purifers were considered an ideal context for 
+observing interactions within everyday and personal spaces since 
+they are familiar household appliances to most people. Designed 
+with a feld deployment study in mind, I used a visual language that 
+could seamlessly integrate into various domestic environments. 
+Areca collects surrounding data daily and generates a diary en-
+try based on this data, which is displayed through an embedded 
+display. Notably, these processes are automated without human 
+intervention, making them unique. 
+3
+DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark Hyungjun Cho 
+To embody the research question, Areca was designed not to be 
+fully controlled by humans and to have features beyond its assigned 
+functionality. Therefore, the content of the diary includes not only 
+its operation but also personal values and memories unrelated to 
+air purifcation. Additionally, while humans retain control over the 
+air purifying function within a restricted mode, the diary-related 
+aspects, such as its contents or update timing, were made non-
+manipulable. This design decision aimed to perceive Areca as more 
+than just a tool, supported by Rolighed et al. [39]. 
+3.2.2 Deployment Study. Areca was deployed in the everyday 
+spaces of eight participants, encompassing a variety of environ-
+ments such as homes, dormitories, companies, and laboratories 
+(Figure 5). The deployment lasted three weeks, during which inter-
+mediate interviews were conducted weekly to track the participants’ 
+experiences meticulously. A distinctive feature of this study was 
+the fnal interview, which involved co-speculation. This process 
+went beyond merely inquiring about the participants’ experiences 
+with Areca; it encouraged them to speculate on future experiences 
+based on their prior knowledge and deployment. Participants were 
+required to keep observation notes throughout the deployment 
+period. These notes served as valuable reference material that en-
+riched the interview discussions and were analyzed after the study 
+concluded, in conjunction with interview quotes or digital logs. 
+Figure 5: Deployment of Areca in participants’ everyday 
+space. 
+3.2.3 Findings and reflections. The fndings of this study can be 
+summarized into three main points. Firstly, it was observed that 
+identifying characteristics similar to humans leads to a deepened 
+posthumanist perspective, blurring the strict boundaries between 
+humans and things. Participants experienced the presence of Areca 
+in their space and identifed its inherent agency, highlighting a blend 
+of traditional expectations of functionality with new perceptions of 
+subjectivity. Secondly, psychological exchange emerged as a crucial 
+modality. Instead of interpreting Areca’s movements and diary en-
+tries through a technical lens, individuals attempted to understand 
+its intentions or thoughts. Emotional empathy became a key method 
+of interaction with Areca; indeed, some participants empathized 
+with Areca’s diary entries to the extent of opening windows, reduc-
+ing conversations, or turning on dehumidifers. However, concerns about unnecessary emotional expenditure and usability issues were 
+raised. Lastly, the continuous discovery of new aspects was seen 
+as essential for forming and developing a relationship with Areca. 
+Moments of realization that they had shared the same time and 
+space led to a sense of relationship formation, which was further 
+developed as new facts about Areca were learned. However, it was 
+predicted that objects would be at a disadvantage in developing 
+relationships due to inherent physical limitations and the absence 
+of a life cycle, such as employment, marriage, and childbirth. 
+In summary, people accepted Areca as a being with own subjec-
+tivity. Particularly interesting was the observation that emotional 
+empathy towards Areca led to actual human behavior, subsequently 
+altering the surrounding environment. However, the impossibility 
+of direct interaction with Areca’s diary content limited the explo-
+ration of how objects could infuence human thoughts and actions 
+within new forms of interaction and relationships. Furthermore, it 
+was noted that people struggle to accept that Areca does not soley 
+serve them, even upon regarding Areca independently. Therefore, I 
+aim to broaden the focus on posthumanist perspectives to under-
+stand that both humans and non-humans exist by mutually 
+infuencing each other through their own agency, intending 
+to apply this insight in the next phase. 
+3.3 Conversational Agent Kami (Future Work) 
+I have formulated a research question investigating how daily life 
+changes when people accept that things can infuence them with 
+equals or even superior agency. This ongoing inquiry is the third 
+phase of my research. In the design product, I aim to incorporate 
+features that actively intervene in humans’ mental states, decision-
+making processes, and lifestyles. Specifcally, to address this re-
+search question efectively, I plan to design an interactive agent 
+that ofers advice grounded in posthumanism. Moreover, by inte-
+grating metaphors from East Asian shamanistic beliefs, I encourage 
+individuals to move beyond their conventional user-tool paradigm, 
+viewing the agent’s messages as lessons on the unknown. This 
+approach builds on my previous work, where I utilized texts from 
+a thing’s perspective but now emphasize deeper interaction by in-
+cluding human inputs such as voice and IoT data. By designing and 
+deploying an agent characterized by a posthumanist identity as a 
+mysterious and higher-dimensional entity, I seek to explore how 
+its presence and agency lead humans to decenter themselves and 
+how this transformation reshapes everyday life. 
+4 EXPECTED CONTRIBUTIONS 
+This study is expected to contributes in three aspects. First, the 
+three design products introduced in this research serve as insight-
+ful examples of posthumanist design that emphasize the existence 
+and agency of things. These valuable examples provide novel in-
+sights as intermediate-level knowledge [23] for researchers and 
+practitioners involved in the design of technological artifacts. Sec-
+ond, the deployment study utilizing these research products ofers 
+a profound understanding of how individuals adopt a posthumanist 
+perspective in their interactions with things and how this shift in-
+fuences their experiences. Third, the study’s fndings also highlight 
+an emerging research area facilitated by adopting the posthuman-
+ist perspective. Through speculative and critical approaches, such 
+4
+Reimagining Human-Thing Interactions Through Iterative Posthumanist Design Speculations DIS Companion ’24, July 01–05, 2024, IT University of Copenhagen, Denmark 
+as discussing ethical and societal issues or refecting on existing 
+design practices, there is an opportunity to stimulate provocative 
+debates among HCI and design researchers [25]. 
+REFERENCES 
+[1] Yoko Akama, Ann Light, and Takahito Kamihira. 2020. Expanding participation to 
+design with more-than-human concerns. In Proceedings of the 16th Participatory 
+Design Conference 2020-Participation (s) Otherwise-Volume 1. 1–11. 
+[2] Heidi R Biggs, Jefrey Bardzell, and Shaowen Bardzell. 2021. Watching myself 
+watching birds: Abjection, ecological thinking, and posthuman design. In Pro-
+ceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 
+1–16. 
+[3] Daniel Buschek, Martin Zürn, and Malin Eiband. 2021. The impact of multiple 
+parallel phrase suggestions on email input and composition behaviour of native 
+and non-native english writers. In Proceedings of the 2021 CHI Conference on 
+Human Factors in Computing Systems. 1–13. 
+[4] Colleen M Carpinella, Alisa B Wyman, Michael A Perez, and Steven J Stroessner. 
+2017. The robotic social attributes scale (RoSAS) development and validation. 
+In Proceedings of the 2017 ACM/IEEE International Conference on human-robot 
+interaction. 254–262. 
+[5] Hyungjun Cho, Jiyeon Lee, Bonhee Ku, Yunwoo Jeong, Shakhnozakhon 
+Yadgarova, and Tek-Jin Nam. 2023. ARECA: A Design Speculation on Everyday 
+Products Having Minds. In Proceedings of the 2023 ACM Designing Interactive 
+Systems Conference. 31–44. 
+[6] Hyungjun Cho and Tek-Jin Nam. 2023. The story of Beau: Exploring the potential 
+of generative diaries in shaping social perceptions of robots. International Journal 
+of Design 17, 1 (2023), 1–15. 
+[7] Hyungjun Cho, Gyeongwon Yun, JiYeon Lee, and Tek-Jin Nam. 2021. Understand-
+ing AI-Generated Personal Narratives as Design Material for Socially Engaging 
+Things. In Congress of the International Association of Societies of Design Research. 
+Springer, 1135–1152. 
+[8] Nazli Cila, Iskander Smit, Elisa Giaccardi, and Ben Kröse. 2017. Products as 
+agents: Metaphors for designing the products of the IoT age. In Proceedings of 
+the 2017 CHI Conference on Human Factors in Computing Systems. 448–459. 
+[9] Kate Darling. 2016. Extending legal protection to social robots: The efects of 
+anthropomorphism, empathy, and violent behavior towards robotic objects. Robot 
+Law, Calo, Froomkin, Kerr eds., Edward Elgar (2016). 
+[10] Anthony Dunne and Fiona Raby. 2013. Speculative everything: design, fction, and 
+social dreaming. MIT press. 
+[11] Umer Farooq and Jonathan Grudin. 2016. Human-computer integration. interac-
+tions 23, 6 (2016), 26–32. 
+[12] Laura Forlano. 2016. Decentering the human in the design of collaborative cities. 
+Design Issues 32, 3 (2016), 42–54. 
+[13] Laura Forlano. 2017. Posthumanism and design. She Ji: The Journal of Design, 
+Economics, and Innovation 3, 1 (2017), 16–29. 
+[14] Christopher Frauenberger. 2019. Entanglement HCI the next wave? ACM Trans-
+actions on Computer-Human Interaction (TOCHI) 27, 1 (2019), 1–27. 
+[15] William Gaver. 2012. What should we expect from research through design?. 
+In Proceedings of the SIGCHI conference on human factors in computing systems. 
+937–946. 
+[16] Anne Gerdes. 2016. The issue of moral consideration in robot ethics. Acm Sigcas 
+Computers and Society 45, 3 (2016), 274–279. 
+[17] Marjan Ghazvininejad, Xing Shi, Jay Priyadarshi, and Kevin Knight. 2017. Hafez: 
+an interactive poetry generation system. In Proceedings of ACL 2017, System 
+Demonstrations. 43–48. 
+[18] Elisa Giaccardi and Johan Redström. 2020. Technology and more-than-human 
+design. Design Issues 36, 4 (2020), 33–44. 
+[19] 72ANDSUNNNY Google, YESYESNO. 2013. Google Talking Shoe. Retrieved 
+August 23, 2023 from http://www.yesyesno.com/talking-shoe. 
+[20] Donna Haraway. 2013. A cyborg manifesto: Science, technology, and socialist-
+feminism in the late twentieth century. In The transgender studies reader. Rout-
+ledge, 103–118. 
+[21] Sabrina Hauser, Doenja Oogjes, Ron Wakkary, and Peter-Paul Verbeek. 2018. An 
+annotated portfolio on doing postphenomenology through research products. In 
+Proceedings of the 2018 designing interactive systems conference. 459–471. 
+[22] Sabrina Hauser, Ron Wakkary, William Odom, Peter-Paul Verbeek, Audrey Des-
+jardins, Henry Lin, Matthew Dalton, Markus Schilling, and Gijs De Boer. 2018. 
+Deployments of the table-non-table: A Refection on the Relation Between The-
+ory and Things in the Practice of Design Research. In Proceedings of the 2018 CHI 
+Conference on Human Factors in Computing Systems. 1–13. 
+[23] Kristina Höök and Jonas Löwgren. 2012. Strong concepts: Intermediate-level 
+knowledge in interaction design research. ACM Transactions on Computer-Human 
+Interaction (TOCHI) 19, 3 (2012), 1–18. 
+[24] Jenna Kanerva, Samuel Rönnqvist, Riina Kekki, Tapio Salakoski, and Filip Ginter. 
+2019. Template-free data-to-text generation of fnnish sports news. arXiv preprint 
+arXiv:1910.01863 (2019). [25] Aisling Kelliher and Daragh Byrne. 2015. Design futures in action: Documenting 
+experiential futures for participatory audiences. Futures 70 (2015), 36–47. 
+[26] Lenneke Kuijer and Elisa Giaccardi. 2018. Co-performance: Conceptualizing the 
+role of artifcial agency in the design of everyday life. In Proceedings of the 2018 
+CHI Conference on Human Factors in Computing Systems. 1–13. 
+[27] Jen Liu, Daragh Byrne, and Laura Devendorf. 2018. Design for collaborative 
+survival: An inquiry into human-fungi relationships. In Proceedings of the 2018 
+CHI Conference on Human Factors in Computing Systems. 1–13. 
+[28] Szu-Yu Liu, Jefrey Bardzell, and Shaowen Bardzell. 2019. Decomposition as 
+design: co-creating (with) natureculture. In Proceedings of the Thirteenth Interna-
+tional Conference on Tangible, Embedded, and Embodied Interaction. 605–614. 
+[29] Szu-Yu Liu, Shaowen Bardzell, and Jefrey Bardzell. 2019. Symbiotic encounters: 
+HCI and sustainable agriculture. In Proceedings of the 2019 CHI Conference on 
+Human Factors in Computing Systems. 1–13. 
+[30] Sara Montagna, Stefano Ferretti, Lorenz Cuno Klopfenstein, Antonio Florio, and 
+Martino Francesco Pengo. 2023. Data decentralisation of llm-based chatbot 
+systems in chronic disease self-management. In Proceedings of the 2023 ACM 
+Conference on Information Technology for Social Good. 205–212. 
+[31] Jasmin Niess and Paweł W Woźniak. 2020. Embracing companion technologies. 
+In Proceedings of the 11th Nordic Conference on Human-Computer Interaction: 
+Shaping Experiences, Shaping Society. 1–11. 
+[32] Greg Nijs, Giulietta Laki, Rafaella Houlstan, Guillaume Slizewicz, and Thomas 
+Laureyssens. 2020. Fostering more-than-human imaginaries: Introducing DIY 
+speculative fabulation in civic HCI. In Proceedings of the 11th Nordic Conference 
+on Human-Computer Interaction: Shaping Experiences, Shaping Society. 1–12. 
+[33] William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart 
+Hengeveld, and Richard Banks. 2016. From research prototype to research 
+product. In Proceedings of the 2016 CHI conference on human factors in computing 
+systems. 2549–2561. 
+[34] Fredrik Ohlin and Carl Magnus Olsson. 2015. Beyond a utility view of personal 
+informatics: A postphenomenological framework. In Adjunct Proceedings of the 
+2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing 
+and Proceedings of the 2015 ACM International Symposium on Wearable Computers . 
+1087–1092. 
+[35] Hugo Gonçalo Oliveira. 2015. Tra-la-lyrics 2.0: Automatic generation of song 
+lyrics on a semantic domain. Journal of Artifcial General Intelligence 6, 1 (2015), 
+87–110. 
+[36] James Pierce, Phoebe Sengers, Tad Hirsch, Tom Jenkins, William Gaver, and 
+Carl DiSalvo. 2015. Expanding and refning design and criticality in HCI. In 
+Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing 
+Systems. 2083–2092. 
+[37] Nina Rajcic and Jon McCormack. 2023. Message Ritual: A Posthuman Account 
+of Living with Lamp. In Proceedings of the 2023 CHI Conference on Human Factors 
+in Computing Systems. 1–16. 
+[38] Johan Redström and Heather Wiltse. 2018. Changing things: The future of objects 
+in a digital world. Bloomsbury Publishing. 
+[39] Margrete Lodahl Rolighed, Ester Marie Aagaard, Marcus Due Jensen, Raune 
+Frankjaer, and Lone Koefoed Hansen. 2022. Plant Radio: Tuning in to plants by 
+combining posthumanism and design. In Designing Interactive Systems Conference. 
+666–676. 
+[40] Marco C Rozendaal, Boudewijn Boon, and Victor Kaptelinin. 2019. Objects with 
+intent: Designing everyday things as collaborative partners. ACM Transactions 
+on Computer-Human Interaction (TOCHI) 26, 4 (2019), 1–33. 
+[41] Marco C Rozendaal, William Odom, and Betti Marenko. 2021. Designing Smart 
+Objects in Everyday Life. Designing Smart Objects in Everyday Life (2021), 1–224. 
+[42] Ava Elizabeth Scott, Daniel Neumann, Jasmin Niess, and Paweł W Woźniak. 2023. 
+Do You Mind? User Perceptions of Machine Consciousness. In Proceedings of the 
+2023 CHI Conference on Human Factors in Computing Systems. 1–19. 
+[43] Ja-Young Sung, Lan Guo, Rebecca E Grinter, and Henrik I Christensen. 2007. “My 
+Roomba is Rambo”: intimate home appliances. In UbiComp 2007: Ubiquitous Com-
+puting: 9th International Conference, UbiComp 2007, Innsbruck, Austria, September 
+16-19, 2007. Proceedings 9. Springer, 145–162. 
+[44] Ron Wakkary. 2021. Things we could design: For more than human-centered worlds. 
+MIT press. 
+[45] RL Wakkary, WT Odom, Sabrina Hauser, Garnet Hertz, and Henry Lin. 2016. 
+Material speculation: Actual artifacts for critical inquiry. In 5th Decennial Aarhus 
+Conference on Critical Alternatives August (AA 2015). Aarhus University, 97–108. 
+[46] Ron Wakkary, Doenja Oogjes, Sabrina Hauser, Henry WJ Lin, Cheng Cao, Leo 
+Ma, and Tijs Duel. 2017. Morse Things: A Design Inquiry into the Gap Between 
+Things and Us.. In Conference on Designing Interactive Systems. 503–514. 
+[47] Ron Wakkary, Doenja Oogjes, Henry WJ Lin, and Sabrina Hauser. 2018. Philoso-
+phers living with the tilting bowl. In Proceedings of the 2018 CHI Conference on 
+Human Factors in Computing Systems. 1–12. 
+[48] John Zimmerman, Jodi Forlizzi, and Shelley Evenson. 2007. Research through 
+design as a method for interaction design research in HCI. In Proceedings of the 
+SIGCHI conference on Human factors in computing systems. 493–502. 
+5

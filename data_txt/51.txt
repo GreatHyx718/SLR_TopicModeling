@@ -1,0 +1,1136 @@
+: A SPECULATIVE DOMESTIC TECHNOLOGY THAT LIVES AND DIES ALONG WITH ITS USER
+Jiyeon Lee
+ji.lee@kaist.ac.kr
+Department of Industrial Design, 
+KAIST
+Daejeon, Republic of KoreaChang-Min Kim
+peterkim12@kaist.ac.kr
+Department of Industrial Design, 
+KAIST
+Daejeon, Republic of KoreaJisu Park
+park.jisu@kaist.ac.kr
+Department of Industrial Design, 
+KAIST
+Daejeon, Republic of Kore aHyungjun Cho
+lolo660@kaist.ac.kr
+Department of Industrial Design, 
+KAIST
+Daejeon, Republic of KoreaTek-Jin Nam
+tjnam@kaist.ac.kr
+Department of Industrial Design, 
+KAIST
+Daejeon, Republic of Korea
+ABSTRACT
+To expand the discourse on non-utilitarian values in HCI and Design, 
+this pictorial explores the concept of Life-Synchronized Products 
+(LSPs), domestic technologies that align lifecycles with users. 
+Through a co-design workshop, we developed property dimensions 
+for products whose lifetime is associated with users. We defined LSP 
+from properties in the dimension and exemplify LSP through ‘LO (Life-
+synchronized Oven),’ an oven that lives along with its user and ceases 
+to exist upon death. LO features a visual interface, Thread of Life, 
+reflecting lifetime and meaningful events, demonstrating physical and 
+intelligent growth, expressing thoughts and emotions, and leaving no 
+trace after termination. Expert interviews with our research artifacts including a semi-functional prototype, service website, and design 
+fiction video revealed that LO can transcend traditional utilitarian 
+roles to become “life companions” that foster existential reflection. 
+We discuss the technical, business, and socio-ethical challenges of 
+LSPs and implications for HCI and design research.
+CCS Concepts
+· Human-centered computing-Human computer interaction(HCI)
+Authors Keyword
+Life-synchronized Product; Non-utilitarian Values; Finitude; Existential 
+Reflection; Research through Design; Speculative Design
+INTRODUCTION
+Domestic technologies, including smart homes and appliances, 
+have traditionally been perceived as tools designed to address 
+everyday chores, emphasizing utility and performance. However, 
+advancements in IoT and AI are transforming their potential, enabling 
+them to adopt alternative roles and meanings in daily life. For 
+instance, speculative projects like Areca [11], Morse Things [58] , and Olo Radio [40] have portrayed products as cohabitants, embodying 
+relational and existential roles. Media such as the film Her [52] 
+further envisions technologies playing the role of a romantic partner. 
+Market ready service robot platforms like Ballie [50] and GR00T [19] 
+demonstrate the potential for technologies to live alongside humans 
+as intelligent entities, bridging utility and companionship. These 
+examples underscore a broader trend of domestic technologies 
+coexisting symbiotically with humans. Given this growing shift, it is 
+critical to explore their potential to transcend functional origins and 
+engage with deeper dimensions of human experience.
+One promising avenue for exploration in evolving domestic 
+technologies lies in their potential to remind humans of meaningful 
+values and guide them toward more purposeful lives. This 
+perspective aligns with longstanding interests in the HCI and DIS 
+communities, which have consistently investigated alternative, non-
+utilitarian values that technologies can pursue. For example, prior 
+studies have emphasized designing for emotional experiences 
+that foster meaningful connections [21,41] and explored reflective 
+technologies aimed at promoting self-awareness and introspection 
+[4,55]. Additionally, Existential HCI has examined how interactive  This work is licensed under  Creative Commons Attribution International 4.0.
+DIS ‘25, July 5–9, 2025, Funchal, Portugal
+© 2025 Copyright is held by the owner/author(s).
+ACM ISBN 979-8-4007-1485-6/2025/07.
+https://doi.org/10.1145/3715336.3735434
+303
+
+technologies engage users with existential questions, such as 
+meaning, identity, and personal growth, reshaping attitudes toward 
+life’s deeper concerns [22]. While these explorations have laid the 
+groundwork by defining conceptual frameworks, mainstream 
+design practices still largely prioritize efficiency, functionality, and 
+performance. There remains a lack of design cases that emphasize 
+alternative values and demonstrate how they can be integrated 
+into daily contexts, underscoring the need for further research and 
+concrete examples.    
+This pictorial introduces the concept of Life-Synchronized Products 
+(LSPs) - domestic technologies that align their lifecycle with users - 
+promoting reflection on life’s finitude, the value of tracelessness, and 
+symbiosis. As an example of LSPs, we present LO (Life-Synchronized 
+Oven), a speculative smart oven that is born with the user’s DNA, live 
+alongside them, and age, ultimately reaching the end of its life at the 
+same moment as the user. Throughout its lifespan, LO emphasizes 
+the importance of living with an awareness of finite resources, the 
+present time, and life itself through a series of integrated features. 
+These features include the Thread of Life interface that symbolically 
+represents the finite journey of life; Adaptive Growth, enabling LO 
+to physically and intellectually evolve alongside the user over time; 
+Lifelike Expression, allowing LO to convey consciousness, thoughts, 
+and emotions through multi-sensory organs; Simultaneous Cessation, 
+ensuring that LO’s hardware and software disappear without a trace 
+at the end of the user’s life.
+Through a research-through-design approach, this study addresses 
+the following research questions: What property dimensions exist in 
+domestic appliances whose lifetime is associated with their users? 
+How might a home appliance that synchronizes their lifecycle with 
+users influence users’ awareness of life’s finitude and uniqueness, 
+fostering deeper self reflection? Finally, what technical, business, 
+and socio-ethical challenges arise in the process of realizing such 
+a concept as a product? To address these questions, this study 
+began by exploring property dimensions of life-associated objects 
+through a co-design workshop. Using the property dimensions, LO 
+was designed through a semi-functional prototype, a service website, 
+and a design fiction video. In-depth interviews were conducted with 
+10 design experts, utilizing LO’s research artifacts to identify the 
+potential impacts of LSPs, and technical, business, and socio-ethical 
+challenges associated with their realization.
+The contributions of this pictorial are threefold. First, it introduces 
+the concept of Life-Synchronized Products, while identifying key 
+property dimensions of life associated objects for further exploration. 
+Second, it presents LO as a speculative design example, detailing its design rationale. Finally, the study reveals the potential of LSPs 
+through expert interviews, highlighting their potential to transcend 
+functional domestic technologies and promote existential reflection 
+and meaningful living.
+RELATED WORKS  
+Non-Utilitarian Values in HCI
+HCI and design researchers have long explored non-utilitarian 
+values, moving beyond traditional focuses on utility and efficiency 
+to emphasize emotional and eudemonic experiences. Theories such 
+as Emotional Design [38], Ludic Design [20], Reflective Design [51], 
+Adversarial Design [16] and Positive Design [14] have highlighted 
+the importance of values like aesthetics, self-reflection, mindfulness, 
+mental well-being and meaning-making [37]. More recent work in 
+More-than-human design [56] has further broadened this perspective, 
+integrating ecological awareness and symbiotic values into the 
+discourse [5, 27, 60].
+A framework within this line of research, Slow Technology [24, 42], 
+conceptually aligns with the goals of this study. Slow Technology 
+investigates long-term human-technology relationships, focusing 
+on reflection, temporal awareness, and enriched environments. 
+Building on this, Odom et al. [43] articulated specific qualities such 
+as implicit slowness and temporal interconnectedness, enhancing 
+the understanding of how time and reflection can be integrated into 
+design. Similarly, the existential HCI perspective [29, 30] emphasizes 
+how technologies can engage with fundamental aspects of life, such 
+as identity, mortality, and meaning. This body of research has explored 
+themes like life’s impermanence, digital afterlife, and shared mortality, 
+particularly in areas of digital legacy, memorialization, and ephemeral 
+design [2]. Our study extends these frameworks by introducing the 
+concept of Life- Synchronized Products (LSPs), which embody these 
+existential values in the context of everyday domestic technologies.
+Alternative Roles and Metaphors of Domestic 
+Technology
+Researchers have explored alternative roles and values of domestic 
+technologies. HCI researchers presented how domestic technologies 
+can move beyond functional tools to embody relational, emotional, 
+and cultural significance [42, 44, 46]. One notable change is that 
+the concept of “thing” has also evolved significantly due to the 
+advancement of technology [15, 58, 59]. For instance, from Norman’s 
+functional perspective on objects used in daily life [39] to Wakkary’s 
+focus on nonhuman entities created by both human and nonhuman 
+interactions [57], things becoming to emphasize their agency and 
+relationally [7, 54]. Examples include Message Rituals [47] and Odd Interpreters [13]. 
+New metaphors and roles have emerged to describe human-
+technology relationships. Previous studies often used metaphors 
+such as human companion, servant or pet to highlight the emotional 
+relationships of these technologies [33, 48, 49]. Discussions around 
+animism [35, 36] and object-oriented ontology [18, 25] have further 
+emphasized the importance of viewing technologies as relational 
+entities rather than mere tools. This study differentiates itself from 
+prior works by proposing Life-Synchronized Products (LSPs), which 
+are designed as irreplaceable life companions throughout their lives.
+Finitude, Longevity, and Trace as Design Materials
+The concepts of finitude and ephemerality have been explored 
+in design to enhance the emotional and aesthetic experiences of 
+technologies [17]. For instance, the Obscura 1C Digital Camera 
+[46] embodies ephemerality by requiring its destruction to access 
+stored data, turning disappearance into a central design feature [45]. 
+Similarly, muRedder [32] explores ephemerality through a speaker 
+that shreds physical music media as it plays, creating a one-time, 
+unrepeatable auditory experience [31]. While these works focus on the 
+technological dissolution as a design feature, our study advances this 
+concept by framing it as a symbolic representation of life’s finitude 
+and proposing products that completely vanish alongside their users, 
+offering another perspective on ephemerality in design.
+Our work also reimagines longevity and durability in product design. 
+Chapman’s emotional durability framework emphasizes how 
+products can foster emotional attachment and accrue meaning 
+through use [9]. For example, the Long Living Chair [47] visualizes its 
+manufacturing and usage history, encouraging deeper user-object 
+connections through digital memory [46]. Life-logging and quantified-
+self research are also relevant, as they emphasize the continuous 
+visualization of life data for self-reflection. However, these approaches 
+often focus on capturing and analyzing shorter music media as it 
+plays, creating a one-time, unrepeatable auditory shorter time span 
+compared to our study. Projects like Photobox [42], Chronoscope [10], 
+and Slide2Remember [33] illustrate how digital artifacts support long-
+term reflective engagement [10, 32, 42]. Expanding on these ideas, 
+OLO Radio [41] explores meaningful interactions with ephemeral 
+media, such as music streaming [40]. This study extends these 
+traditions by positioning finitude, disappearance, and longevity as 
+core design elements, enabling technologies to embody existential 
+values and foster deeper reflections on life’s impermanence.
+304
+across generations, enabling playful heritage to be experienced 
+and continued.
+3. Chair:  A chair that physically records traces of use and seeks new 
+ownership when left untouched for a significant period of time.
+4. Footwear:  Shoes that evolve throughout the wearer’s life and 
+naturally biodegrade at the end of their lifecycle, reflecting the 
+passage of time.
+5. Kitchen Knife: A cooking knife that captures the user’s gestures 
+and culinary practices, passing down a family’s gastronomic 
+heritage to future generations.
+6. Diary: A hybrid physical-digital diary that connects the past, 
+present, and future, evolving with the user and accumulating 
+personal memories.
+7. Lighting: Lighting that functions as a physiological avatar, adapting 
+its brightness and hue in response to the user’s biological rhythms 
+and emotional states.
+8. Violin: A violin that preserves the player’s musical expressions and 
+moments, enabling the inheritance of both emotional depth and 
+technical mastery.
+9. Mirror:  A smart mirror that reflects and archives both external CO-DESIGN WORKSHOP TO IDENTIFY PROPERTY 
+DIMENSIONS OF LIFE ASSOCIATED OBJECTS
+Goal and Method
+To identify the property dimensions of life-associated objects and 
+apply them in the design of Life-Synchronized Products (LSPs), we 
+conducted a co-design workshop involving seven professionals with 
+over ten years of experience in creative industries. The participants 
+included critical design researchers, retail creative directors, 
+experimental animators, illustrators, and film directors. 
+The workshop was structured into three sessions (totaling 240 
+minutes): (1) initial product exploration, and (2) detailed lifecycle 
+specification (3)group discussion. In the first session, participants were 
+asked to conceptualize and visualize two products that they considered 
+most appropriate as life-associated objects. They explored potential 
+features that might emerge when products are associated with users’ 
+lifecycles. To support this exploration, we provided a set of technology 
+reference cards containing relevant examples. Using these cards, 
+participants specified the characteristics of their selected products, 
+documented their rationale for selection, and sketched key features.  
+In the second session, participants constructed detailed interaction 
+scenarios spanning the entire product lifecycle, from birth to 
+termination. Using a vertical line as a reference timeline, they mapped 
+various lifecycle events experienced by both the product and the user. 
+They also illustrated how product functionalities and interactions 
+could evolve over time. At the endpoint of the timeline, participants 
+described the processes for managing the product’s end-of-life in 
+relation to the user’s death. 
+The workshop concluded with a group discussion to clarify the 
+underlying concepts and rationales of ideas and to reflect on the 
+distinctive characteristics of life-associated products. This session 
+was video recorded for subsequent thematic analysis. The workshop 
+outputs, such as annotated notes and sketches, were also used to 
+identify the property dimensions of objects that can be associated 
+with users’ lifecycles.
+Property Dimensions Characterizing the Relationship 
+Between Products and Their Users
+The workshop yielded 14 example cases of products associated with 
+users’ lifecycles (Figure 1). These included:
+1. Life Clock: A personalized biological timepiece designed using 
+the user’s DNA data, visualizing the individual’s unique biological 
+rhythm over time.
+2. Toy Car: An interactive toy car that transmits patterns of play Figure 1. Example design outcomes from the co-design workshop
+and internal transformations of the user over time. play across 
+generation
+10. Cleaning Tool: A cleaning implement that visually expresses 
+the passage of time through changes in color and form, aging 
+alongside its user.
+11. Jewelry:  Jewelry crafted through traditional artisanal techniques, 
+symbolizing emotional and cultural continuity across generations.
+12. Family Photo Album: A visual archive that As older albums 
+degrade, selected memories are automatically inherited by the 
+next generation.
+13. Disposable Smart Patch: A short-term wearable device designed 
+for specific health monitoring purposes, with a predefined and 
+limited operational lifespan.
+14. Self-Destructive Smartphone:  A smartphone that remotely 
+disables itself and erases data when lost.
+Through the analysis of group discussion, diverse product concepts 
+and lifecycle scenarios of the workshop, we identified key dimensions 
+characterizing the relationship between products and their users 
+(Figure 2). We examined product features and their user interactions 
+across different life stages. The first dimension, Life alignment, 
+305
+ww
+revealed three patterns. First, products synchronized with the user’s 
+entire lifetime, such as our concept of the smart diary and the mirror 
+that evolve with users, creating emotional bonds. Second, products 
+sharing a portion of the user’s lifetime, like the chair and the footwear, 
+which naturally conclude their utility after their relevant life phase. 
+Third, products remaining across generations, such as inherited 
+jewelry, traditional crafts, and family photo albums, which carry both 
+physical durability and cultural significance through family lineages. 
+Type of birth, emerged from our analysis of how products initially 
+manifest, encompasses two distinct approaches: mass production 
+and adoption, seen in products like the mass‐produced toy car and 
+the standard cleaning tool, and personalized creation with DNA 
+Integration, exemplified by our workshop’s concept of biomorphic 
+footwear that incorporates users’ unique biometric data.
+Death model is the next dimension revealing various patterns 
+in both causes and forms. This dimension was derived not only 
+from the cases of the workshop concepts but also from the group 
+discussion. Natural causes were evident in bio-integrated products 
+like conceptual bio-clocks and biomorphic footwear, which showed 
+organic aging patterns such as material degradation and color 
+changes. Three types of artificial causes also emerged. The first 
+type, which we termed product “suicide,” was observed in smart 
+devices designed with programmed obsolescence, where the 
+product autonomously terminates its functions. Accidental death 
+emerged as the second type, particularly evident in temporary-use 
+electronics such as disposable smart patches that are designed 
+with predetermined lifespans. The third type, which we categorized 
+as “homicide,” was observed in cases such as smartphones that are 
+intentionally disabled by their owners - through remote data deletion 
+and permanent function lockdown - after being lost. The form of 
+death manifested in three distinct patterns: physical death, as seen in traditional diaries where covers gradually degrade over time; digital 
+death, exemplified by smart mirrors experiencing complete operating 
+system failures; and combined death, observed in bio-clocks where 
+both physical and digital functions simultaneously cease to exist.
+The afterlife state dimension revealed various post-functional states. 
+Complete annihilation was observed in biodegradable cleaning tools 
+that fully decompose after their functional life ends. We identified 
+temporary retention in cases such as biomorphic footwear that 
+gradually decomposes while maintaining partial form. Software 
+preservation emerged as another state, exemplified by smart diaries 
+where the digital content remains archived even after the physical 
+device deteriorates. Hardware revival represented a unique state, 
+as seen in vintage violin bodies that continue their lifecycle through 
+restoration with new strings while maintaining their original form.
+DESIGN PROCESS AND RATIONALE  
+Phase 1: Defining LSP Using the Property Dimension
+The combination of specific types within the property dimensions 
+generates numerous design concepts. The Life-Synchronized Product 
+is a type of product derived from this process. The following explains 
+which specific property types were selected from each dimension to 
+solidify the LSP concept.
+For the type of birth dimension, we selected personalized DNA birth 
+at the time of adoption. Similar to how DNA determines unique 
+characteristics in living organisms, we considered that incorporating 
+users’ biometric information into the product’s foundational design 
+could establish a bond that transcends conventional customization. 
+Lifetime synchronization was adopted for the synchronization type. 
+We anticipated that a product sharing its lifetime with the user, 
+evolving and growing in tandem with their lifecycle, would present a 
+LSP specific perspective on domestic technology. For the death and afterlife dimensions, we opted for complete death and disappearance. 
+This decision was driven because we considered that it presents an 
+alternative perspective to the perpetual existence commonly pursued 
+by modern technology. By incorporating finitude into the product, 
+it would prompt users to contemplate the fundamental values and 
+meaning of life. We recognized that artificial life extension through 
+component replacement or data transfer would parallel existing 
+concepts like repair, recycling, and reuse. Thus, we regarded this 
+choice was more suitable for an alternative proposal.
+This decision was driven because we considered that it presents an 
+alternative perspective to the perpetual existence commonly pursued 
+by modern technology. By incorporating finitude into the product, 
+it would prompt users to contemplate the fundamental values and 
+meaning of life. We recognized that artificial life extension through 
+component replacement or data transfer would parallel existing 
+concepts like repair, recycling, and reuse. Thus, we regarded this 
+choice was more suitable for an alternative proposal.
+Phase 2: Evolution of Hardware Design and Interface 
+Concepts
+After defining the properties for LSPs, we explored various 
+product categories to determine which would be most suitable for 
+implementing these conceptual properties. Our design thinking 
+began with the metaphor of an LSP as a life companion - like a pet 
+or an adopted child. As the idea evolved, we envisioned the LSP 
+as akin to a life partner in a monogamous relationship: a singular, 
+irreplaceable presence that grows old with the user, enduring life’s 
+journey together until death. We extended this metaphor to imagine 
+the product as a living being - one that is born, lives, and eventually 
+dies. While the LSP was intended to embody the attributes of a living 
+entity, it was designed to retain the form and function of a domestic 
+appliance. This led us to frame the product’s components as organs, 
+and its production, use, and disposal phases as birth, life, and death, 
+respectively.
+Among the fundamental human needs of food, clothing, and shelter, 
+we selected food as our focus area and specifically chose an oven 
+from the food-related product category. This choice was informed 
+by multiple factors. Kitchen appliances enable frequent and natural 
+interactions in daily life. An oven’s versatility spans both everyday 
+cooking and special occasions, positioning it as a potential mediator 
+of significant family events. Contemporary smart oven technology 
+can be extended to provide personalized services based on individual 
+dietary patterns and health conditions. The device can deliver value 
+across the user’s entire lifespan, from preparing baby food to 
+accommodating elderly nutrition needs. The following section 
+annotates the process of conceptualizing and developing LO as an 
+exemplar of LSP , detailing how these dimensional properties were 
+integrated into its design.Figure 2. Property dimensions of life-associated objects (left) and example workshop objects mapped to these dimensions(right).  
+Dotted lines indicate the combinations of properties that define LSPs.
+306
+Hardware Design Process
+After selecting an oven as our product category, we envisioned its 
+components functioning as sensory organs and effector organ 
+of a living entity. Our exploration focused on how different parts 
+of the oven could correspond to organs that perceive and respond 
+to environmental conditions and user interactions. We integrated 
+various sensory and responsive elements: a handle serving as both 
+controller and kinetic response mechanism, internal lighting for 
+emotional expression, and a projection display system visualizing the 
+product’s cognitive processes. These components were designed to 
+blend with the oven’s primary functions (Figure3, top). 
+Two elements were selected as main interface parts: the handle and 
+the upper display. The handle was designed as both a controller and 
+the product’s antenna, expressing lifelike behaviors through physical 
+feedback such as welcoming movements when users approach or 
+self-initiated rotations during operation. The upper display serves 
+as a portal for visualizing the product’s memories, displaying and 
+exploring data collected through internal/external cameras and 
+microphones. While we initially considered incorporating digital turntable functionality considered incorporating digital turntable 
+functionality for emotional engagement, we ultimately focused on the 
+interface to visualize lifetime interaction.
+We also considered the product’s physical aging characteristics 
+through two approaches: natural surface evolution based on usage 
+patterns and periodic surface renewal. We explored how frequently 
+used areas develop natural wear patterns and how environmental 
+factors create unique patina through spots and textures. The final 
+design allows the product’s exterior to evolve based on user habits 
+and environmental conditions.
+Evolution of Interface Concepts
+We explored metaphorical approaches to express the shared 
+lifecycle between product and user. Initially, we conceptualized LO 
+as a hybrid oven-audio device, investigating how musical elements 
+could represent lifecycle progression. This exploration included 
+representing product-user interactions as individual musical notes 
+that would accumulate to create a unique life melody. We considered 
+how various events could be expressed through different timbres, gradually building into a complete symphony that represents a 
+completed life (Figure 3, bottom).
+During our exploration of various concepts, we came up with the 
+Thread-of-Life metaphor, to represent lifetime and decided to develop 
+this direction further as an interface medium. In Asian cultures, thread 
+often symbolizes life’s journey - for example, in Korean first-birthday 
+traditions, choosing a spool of thread signifies longevity. Inspired by 
+this, we visualized the Thread-of-Life (ToL) as a design resource. We 
+envisioned life’s daily and yearly repetitions as a spiral thread pattern, 
+with memory beads forming at significant events. We believed the 
+beads’ sizes and spacing could convey the density and frequency 
+of experiences, while the thread and bead formation could naturally 
+express the interactions between LO and its user.
+In determining the visualization approach for the interface, we 
+considered how to express the past, the present and the future and 
+also keep reminding the finitude of time. We decided that future 
+time should not be explicitly displayed and could vary depending 
+on present circumstances, reflecting the uncertain nature of life’s 
+duration. Thus, we chose the idea of representing potential futures as 
+blurred or indistinct images.
+Figure 3. Sketches, tested structures, and intermediate prototypes illustrating the evolution of the hardware design (top); reference images, refined 
+sketches, and digital prototypes showing the development of the interface concept (bottom).
+307
+LO: LIFE-SYNCRONIZED OVEN 
+LO (Life-synchronized Oven) is a speculative smart oven designed as an example of an LSP, synchronizing 
+its lifecycle with the user’s, accompanying them through both life and death(Figure 4). The name ‘LO’ 
+encompasses several distinct meanings: meaning of ‘aging’ as in a Chinese character, Living Object, Life-
+Sync Oven or Living Oven, where ‘Living’ signifies the product’s possession of lifelike attributes. In the 
+following sections, we elaborate the four key features.
+Design Features  
+Lifelike Expression
+LO interacts with users and expresses thoughts and emotions through various sensory organs, utilizing 
+all five senses to respond in a more emotive manner. To understand user context, LO integrates not only 
+immediate sensory inputs like visual and auditory data but also temporal and cultural information from 
+the surrounding environment. It interacts based on users’ medical and health data through the connected 
+software service, utilizing diverse feedback mechanisms including physical movement, light, sound, scent, 
+and text to convey not just information but the product’s ‘consciousness’ and ‘emotions’.
+The primary sensory organs consist of four main components. The knob’s subtle vibrations and rotational 
+pattern changes communicate LO’s basic emotional states such as animal’s antenna. When users 
+approach, the dial rotates in a lively manner to express welcome. During cooking, it provides a warning 
+by rapidly rotating when temperatures become excessive. When unused for extended periods, the knob moves slowly to express a sleep-like state. The lighting system visualizes emotional intensity and types 
+through color and brightness, with different base emotions corresponding to different lighting patterns. In a 
+peaceful state, it emits a soft, warm yellow light, while attention-requiring situations trigger sudden changes 
+in saturated red. When trying new recipes, it flashes blue light to indicate curiosity.
+LO also communicates through voice and sound, modulating tone, inflection, speed, and volume to convey 
+various emotions. Its tone adjusts based on the user: calm and detailed for beginners, and professional and 
+concise for experienced users. In emergencies, it communicates with clear and firm inflection. Additionally, 
+LO’s ‘internal monologue’ and ‘thoughts’ are visually projected on the lower front surface, appearing only 
+when LO intends to express thoughts. These thoughts and consciousness are expressed either poetically 
+or in a conversational tone, serving as a medium for expressing the product’s stream of consciousness. 
+For instance, it may express casual observations like “Baking with the sunset view through the window” or 
+emotional reflections such as “From our first spring meeting, this is now our third winter together.”
+The system can also display text that triggers long-term memory-based reminiscence, such as “Last year 
+around this time, you made your first bread. I’m touched to see you now working with natural starters.” It 
+provides messages of encouragement like “You were so disappointed when you first failed with this recipe. 
+Now it’s become the family’s favorite dish,” journey reminders such as “We’ve made 450 meals together 
+over these 3 years. Every moment has been special,” and nostalgic reflections like “I remember when your 
+child first made a cake. I’m proud to see them doing it independently now.”Figure 4. System architecture of LO, a life-synchronized product that integrates hardware and software to express emotional, temporal, and relational states across a user’s lifetime.
+308
+Thread of Life(ToL) Interface
+LO visualizes experiences and daily lives through an interface called the ‘Thread of Life’ (ToL). The ToL 
+interface employs a spiral-based visualization technique that represents life’s trajectory and events as a 
+thread pattern. The distribution of spirals and memory beads enables users to intuitively visualize both past 
+life transitions and anticipated future events at a glance. The temporal dimension is represented through 
+the spiral’s rotation, where one complete revolution corresponds to a single day, effectively expressing 
+both the continuity and cyclical nature of time. The spiral can represent either a week, a year or a lifetime, 
+depending on the mode adjustment. With this visualization, the center represents the present, with the 
+left side depicting the past and the right side showing the future. Future projections are rendered as semi-
+transparent spirals, with transparency and blurriness gradually increasing toward the distant future to 
+represent increasing uncertainty in predictions. These personalized predictions are expected to be enabled 
+by integrating data science and generative AI technologies(Figure 5).
+User experiences and memories shared with LO are represented as memory beads within the spiral. The 
+distribution and density of these beads reflect how users spend their time, with past spiral containing beads 
+that serve as means for reminiscence, while future spiral displaying predictable events. The bead density indicates the frequency of interactions with LO, while bead size represents the volume of accumulated 
+data. Environmental context is reflected through bead coloring, with a dynamic colscheme that includes 
+time-of-day transitions from morning yellow to evening purple, temperature and humidity represented 
+through color warmth, and ambient sound levels expressed through color saturation.
+Navigation of the ToL interface is facilitated through the knobs positioned on either side of the LO’s handle. 
+This intuitive control mechanism allows users to explore the temporal spiral naturally, enabling seamless 
+navigation between past memories and future projections. The ToL interface transcends simple historical 
+record-keeping by incorporating predictive capabilities based on users’ past and present circumstances. 
+For instance, LO can detect lifestyle patterns of single-person households to predict significant life events 
+such as marriage or childbirth, suggest adjustments to cooking capacity and recommend personalized 
+cooking methods based on anticipated health changes, and propose culinary experiences and events to 
+enhance present moments in preparation for future changes. The system can visualize evolving family 
+dynamics, such as the gradually diminishing time spent preparing dinner with children as they grow, and 
+highlight the cyclical nature of time through the periodic inscription of seasonal cooking memories within 
+the thread pattern.Figure 5. Visualization of LO’s temporal memory interface, which allows users to navigate past, present, and speculative future memories through a spiral-based timeline and tactile dial interaction.
+309
+Adaptive Growth
+LO exhibits both physical and intellectual growth that aligns with the user’s life cycle, distinguishing itself 
+from conventional product aging or wear through its organic evolution in response to user changes (Figure 
+6). This adaptive capability is predicated on advanced biomaterials and software technologies that enable 
+responsiveness to user development. The physical growth of LO manifests in two primary dimensions. 
+The first dimension involves the natural transformation of its biodegradable exterior which evolves into 
+unique patterns based on the user’s expected lifespan, usage patterns, and environmental conditions. This 
+evolution results in natural tactile variations around frequently used functions and areas, while environmental 
+factors such as temperature and humidity contribute to the formation of distinctive patinas and textures. 
+The second dimension encompasses adaptive changes in its physical interface, including automatic text 
+size adjustments based on the user’s age and physical characteristics, optimization of button sensitivity, 
+enhanced voice guidance as needed, and physical form adaptations to accommodate changes in the user’s 
+physicality. 
+LO’s intellectual growth is integrated with the user’s medical and lifestyle data, demonstrating sophisticated 
+awareness and adaptation capabilities. For example, the system detects changes in family composition 
+and adapts its interface accordingly, such as enhancing safety features when children begin participating 
+in cooking and naturally modulating oven door opening speed and resistance. Furthermore, LO proactively responds to lifestyle transitions, exemplified by its ability to strengthen morning baking modes upon 
+detecting post-retirement lifestyle patterns. The cognitive evolution of LO parallels the user’s skill 
+development in several ways. As users demonstrate increased proficiency in basic functions, the system 
+activates advanced baking modes and provides more granular efficiency options as energy usage patterns 
+stabilize. Conversely, less-used functions transition into standby mode for energy efficiency, though they 
+remain readily accessible through brief tutorials when needed. In its later life stages, LO exhibits signs of 
+cognitive aging, manifesting subtle changes reminiscent of an aging companion, such as gentle display 
+flickering or slightly delayed touch responses.
+Simultaneous Cessation
+LO’s end-of-life process is fundamentally synchronized with the user’s passing, triggered through integration 
+with medical information systems. This cessation occurs in physical and digital dimensions. The physical 
+dissolution involves decomposition processes across different material layers, including surface, internal, 
+and deep structures, mirroring biological decomposition processes similar to organic matter returning to 
+the soil. This process mirrors ancient burial practices, particularly those of Ancient Egyptian Tombs, where 
+the product undergoes a dissolution .process (through cremation, burial, or decay) synchronized with its 
+user’s end-of-life practices. The software dissolution encompasses the erasure of accumulated memories 
+and information, incorporating a brief sharing period with others who shared the user’s lifetime before 
+complete dissolution.Figure 6. Adaptive growth features that reflect LO’s physical and intellectual development in alignment with the user’s lifecycle and the end-of-life process
+310
+Speculative Scenario on LO’s Birth-Life-Death
+Figure 7 illustrates how LO, the user and service provider interplay throughout the user’s lifetime and what 
+activity flows occur during major events. The example scenario is described as follows.
+Birth: A specialized coordinator guides users through synchronization and support services. The Birthing 
+Kit includes DNA collection materials and consent forms. DNA information determines LO’s physical and 
+digital characteristics based on life expectancy and biological rhythms. Birth occurs at a Birth Center, where 
+DNA information determines hardware and software specifications. Hardware includes 3D printing filament 
+calibrated to life expectancy, while software implements lifecycle prediction and biodata-responsive 
+interfaces. LO then moves home for initial synchronization. Birth center specialists oversee setup as LO 
+activates multi-sensory organs through self-learning. The provider verifies adaptation and configures 
+DNA-based growth patterns. The Thread of Life interface begins recording events during the four-week 
+synchronization.
+Life: LO begins passively, developing multi-sensory capabilities by learning user patterns through door 
+usage, voice, and cooking sensors. It responds through movement, LED colors, and vibrations, with 
+expert monitoring. In adolescence, LO initiates interactions while learning daily patterns. User interaction 
+creates physical changes in its biodegradable exterior, forming tree-ring patterns in touched areas. 
+Emotional recognition enables contextual conversations and mood-based adjustments. The Thread 
+of Life gains colored beads marking milestones and interactions - yellow for morning meals, purple for night conversations. In adulthood and elderly phases, LO adapts to user’s physical changes: larger text for 
+vision, adjusted mechanisms for mobility, and optimized sounds for hearing. It ages through decreased 
+sensitivity and wear, but regular maintenance ensures synchronization, supported by consent-based health 
+data sharing. During its elderly phase, LO provides care while aging, simplifies interfaces, and maintains 
+connections through memory features.
+Death:  LO’s death aligns with the user’s final moments, monitoring end-of-life indicators through usage 
+patterns and medical data. It tracks meal patterns, medication changes, and family visits while working 
+with medical professionals. LO curate’s family memories, preserving recipes and special occasions. After 
+the user’s passing, LO performs a farewell ceremony before moving to decomposition. Families can access 
+stored information through the provider’s platform during dissolution. All data permanently erases upon 
+completion, with provider confirmation to family.
+LO Website
+We developed a service website for LO demonstrating how Life-Synchronized Products (LSPs) receive 
+support throughout their Birth, Life, and Death phases (Figure 8). The platform provides phase-specific 
+services: Birth services for creation and deployment, Life services for maintenance during development, 
+and Death services for aging and end-of-life processes. Like human medical care, LSPs require lifecycle-
+based services. This shifts from traditional mass-production models toward treating products as 
+living entities. Such a service ecoswwystem requires sustainable providers like government bodies or 
+authorized institutions for long-term engagement.Figure 7. Interaction and activity flow among LO, the user, and the service provider throughout the user’s lifetime.
+311
+Birth:  When LO is created, it is synchronized with Peter. It extracts 
+data necessary to predict life span from a DNA sample taken from 
+Peter. This data reflects Peter’s predicted lifecycle and is used in 
+biodegradable filament processing and 3D printing. The LO created 
+DESIGN FICTION VIDEO
+We created a design fiction video that condenses the entire scenario described above. This video briefly 
+visualizes the journey of the LO oven, from its birth to death, in a narrative format. It depicts the LO oven 
+as a unique companion that lives alongside the user throughout their lifetime and dies with them. The 
+video is designed to help viewers imagine what it would feel like for an oven to synchronize with their Life: Initially inexperienced, LO gradually becomes adept at 
+assisting Peter. LO understands Peter’s life patterns through 
+various sensory organs and recognizes life changes. LO records 
+and reminds the past and future moments of life. Constantly 
+reminding the finites of life LO awakens preciousness of the 
+present. 
+own lifecycle. own lifecycle. It explores the long-term impact a Life-Synchronized product could have on 
+daily life and emotional experiences. Additionally, it emphasizes the significance of being Synchronized 
+product could have on daily life and emotional experiences. Additionally, it emphasizes the significance 
+of being constantly reminded of life’s finitude, encouraging a life fully lived in the present. Figure 9 shows 
+scenes from the final video depicting different stages of life.Figure 9:  Narration, timing, and duration of edited scenes from the design fiction videoDeath : As time passes and Peter approaches death, LO also 
+enters old age. Just like Peter it break down due to aging. After 
+peter dies, all components of LO become bio-degradable. LO and 
+Peters bodies are gone and the memories of Peter rest together.Figure 8. Architecture of the LO service website
+312
+personal traits, LO could reflect and enhance the user’s identity. P4  
+described it as “a unique and irreplaceable entity, almost like a 
+lineage,” and P8 added that LO’s evolving CMF (Color, Material, Finish) 
+over time could serve as a tangible marker of the user’s individuality.
+Reflecting Life’s Finitude by Life Interface and Aging 
+Features
+The ‘Threads of Life’ interface was identified as a tool that could 
+help users rediscover temporal meaning in the present by recalling 
+significant past experiences and envisioning the future. P3 elaborated: 
+“It will help people recognize the importance of precious moments 
+spent with family in their lives. This goes beyond simple memory 
+reproduction, acting as a tool for revaluating one’s current self and 
+life values.” Similarly, P6 explained that users would “revisit past 
+moments, recall their emotions and meanings, and reconsider how 
+those experiences have influenced who they are today.” Regarding 
+LO’s end-of-life ritual, P10 reflected: “It will prompt contemplation 
+about what to prioritize before reaching one’s own end, reminding us 
+of life’s finitude and encouraging the reestablishment of important 
+values and goals in life.”
+Experts indicated that LO’s aging representation could serve as a 
+reflective element continuously reminding users of time’s finitude, 
+flow, and impermanence. P5 connected the oven’s gradual wear 
+to the concept of wabi-sabi [53], appreciating it as “a natural 
+phenomenon embodying the flow of time.” P3 suggested that “the 
+oven’s performance degradation could act as a mirror reflecting life’s 
+passage and impermanence, beyond mere functional decline.”
+The concept of declining performance presented a tension between 
+reflection and utility. While the gradual performance decrease would 
+prompt users to revaluate their current position and meaning in life, 
+practical concerns emerged. P8 noted that “the oven’s declining 
+performance could encourage reconsideration of everyday product 
+performance and efficiency, teaching us to live more slowly.” However, 
+participants also expressed concerns about decreased practical 
+value. P7 mentioned that “some people might not want to face the 
+aging of themselves or their surroundings daily,” while P9 pointed 
+out that “slow responses could be inconvenient when efficiency is 
+required.” Some suggested implementing switchable modes between 
+reflection and efficiency.
+Sustainable and Symbiotic Living with Non-human 
+Objects
+Experts highlighted LO’s potential to challenge conventional product 
+replacement practicesreplacement practices and foster a culture of 
+sustainable consumption. They suggested that LSP products like 
+LO could encourage a shift from impulsive, disposable consumption 
+patterns toward more deliberate choices, encouraging sustainable EXPERT INTERVIEW
+Goal and Method
+To gain external perspectives on how LO, as a Life-Synchronized 
+Product (LSP), might function in daily life and influence user 
+experiences, we conducted expert interviews. The study focused 
+on examining its impact on fostering non-utilitarian values, as well 
+as investigating how the relationship and interaction between users 
+and LO could evolve over time. Additionally, we aimed to identify 
+the technical, business, and socio-ethical challenges involved in 
+implementing the LSP concept.
+Ten design experts with practical experience were recruited for the 
+study. These participants were selected for their creative thinking 
+and empathetic abilities, which we believed would facilitate a deeper 
+exploration of the LO prototype and its implications. They represented 
+a broad range of fields - including UX design, sustainable product 
+design, robotics, and AI interaction - and had hands-on experience 
+across corporate, academic, and independent design sectors. While 
+their years of experience varied, we prioritized selecting participants 
+with at least a decade of relevant industry engagement, ensuring 
+both depth and diversity in design expertise. The interview process 
+consisted of four stages: (1) an introduction to the LSP concept and 
+LO, (2) viewing a design fiction video, (3) interacting with the product’s 
+service website, and (4) a semi-structured interview session. During 
+the interviews, participants were encouraged to envision LO’s service 
+experience from both user and service provider perspectives, offering 
+insights into its expected values, benefits, challenges, and areas for 
+improvement.
+Each interview session lasted approximately 90 minutes and 
+was audio recorded and transcribed for analysis. An inductive 
+thematic analysis approach was employed, with three researchers 
+independently coding the transcripts to derive initial themes. The 
+themes identified by each researcher were subsequently compared 
+and consolidated to construct a shared thematic framework.
+Findings  
+Fostering Profound Emotional Connections  
+Participants described LO as more than a domestic appliance,  
+instead envisioning it as an “intelligent being” or “personal avatar”  
+that evolves through user interaction and embodies individual history. 
+P1 remarked, “Starting with a birth certificate feels like welcoming a  
+new life form,” while P9 noted that LO’s “intentional immaturity” during 
+its initial learning phase fosters a bond as users provide feedback and 
+guidance.
+Experts highlighted LO’s uniqueness compared to mass-produced 
+appliances, emphasizing its deeply personal and irreplaceaible nature. 
+They observed that by incorporating elements like the user’s DNA and  living in symbiosis with non-human objects. P1 remarked, “LO, 
+designed for lifetime use, has the potential to overcome periodic 
+product replacement practices.” P4 emphasized its distinction from 
+planned obsolescence products, noting, “LO prompts reflection on 
+emotional durability and true longevity in product design.” Similarly, 
+P10 observed, “LO could promote habits that prioritize quality and 
+longevity over rapid consumption.”
+DISCUSSION  
+Advancing Research on Non-Utilitarian Values in HCI 
+and Design
+We introduced the concept of Life-Synchronized Products (LSPs) 
+and its design exemplar, LO, which emphasizes non-utilitarian values 
+in domestic technology. These values include existential reflection—
+fostering an awareness of life’s finitude—and symbiotic living, 
+emphasizing coexistence with non-human entities. The LSP concept 
+builds on prior HCI paradigms such as calm technology [61]and 
+ambient technology [26], while resonating with frameworks like slow 
+technology [24, 42], positive design [14], and design for reflection and 
+mental rest [51].
+Expanding on these traditions, our research offers a distinct 
+perspective by redefining the user-product relationship. LSPs position 
+products as lifelong companions rather than replaceable tools, 
+fundamentally altering how users interact with and perceive domestic 
+technologies. LO exemplifies this shift by evolving alongside its 
+user over a shared lifetime, fostering emotional connections and 
+encouraging reflection. As LO accumulates usage and memories, it 
+helps users confront life’s impermanence and prioritize meaningful 
+values. Experts described LO as “transcending its conventional role 
+and serving as an emotional supporter,” underscoring its potential to 
+deepen engagements and enrich everyday experiences.
+The LSP concept also aligns with Albert Borgmann’s philosophy of 
+“focal practices” [3] and “engaging environments”[6], emphasizing 
+domestic technologies that transcend mere functionality to enhance 
+human lives with profound meaning and structure. By positioning 
+LO as a companion that lives and dies with its user, LSPs challenge 
+traditional human-centered design paradigms and introduce a post-
+humanistic perspective. This reframing invites users to view everyday 
+objects as entities with shared lifespans, fostering more reflective and 
+deliberate engagements with technology. It also expands the evolving 
+More-than-Human design paradigm [23] by emphasizing coexistence 
+and mutual influence between humans and non-human entities, 
+enriching domestic spaces with new layers of meaning.
+Finally, LSPs contribute to sustainability by promoting longevity 
+and reducing the frequency of product replacements. By fostering 
+stronger connections between users and products, LSPs encourage 
+313
+more mindful consumption practices, aligning with ideals of durability 
+and appreciation in design. This shift supports a culture of sustainable 
+living, where objects are valued not only for their function but also 
+for their enduring significance over time. Finally, LSPs contribute to 
+sustainability by promoting longevity and reducing the frequency of 
+product replacements. By fostering stronger connections between 
+users and products, LSPs encourage more mindful consumption 
+practices, aligning with ideals of durability and appreciation in design. 
+This shift supports a culture of sustainable living, where objects 
+are valued not only for their function but also for their enduring 
+significance over time.
+Further Considerations for Life-Synchronized Products
+Several considerations arise when advancing the concept of Life-
+Synchronized Products (LSPs) for broader adoption and practical 
+refinement. Firstly, it is important to acknowledge that synchronizing 
+the product with the user’s life may result in periods where the 
+product functions less optimally. Using the ‘LO’ oven as an example, 
+during its initial phase, ‘LO’ lacks awareness of user preferences 
+and occasionally exhibits errors as it undergoes a learning 
+process. Similarly, toward the end of the lifecycle, functionality of 
+LO intentionally decline, manifesting as flickering displays, blurred 
+projections, or minor mechanical misalignments. While these phases 
+deepen the emotional connection between product and user, they 
+also underscore the need for thoughtful design strategies to maintain 
+practical utility alongside emotional engagement. Balancing between 
+these dual objectives across lifecycle stages would be a critical area 
+for further exploration.
+Another critical consideration is that the applicability of the ‘Life- 
+Synchronization’ concept may not be universal across all product 
+categories. Products that address aspects deeply integrated into 
+human daily life, such as food, clothing, and shelter, along with those 
+facilitating long-term frequent usage and fostering relationship-
+building, are particularly suitable for implementing the concept. On 
+the other hand, products with inherently short lifespans, such as 
+consumables, or those exceeding human lifespans, like homes, may 
+not benefit from strict lifecycle alignment. Also, products dependent on 
+evolving technologies may also pose unique challenges. For example, 
+while artifacts like videotapes can physically endure overtime, their 
+functionality becomes obsolete if the associated playback devices 
+disappear. Further exploration is needed to determine how lifecycle 
+synchronization could be applied to non- physical artifacts, multi-
+generational products, or designs intended for specific life stages. 
+Finally, the concept necessitates further exploration of alternative 
+scenarios, particularly in relation to service integration. For instance, 
+true lifecycle synchronization could begin at the user’s birth, creating products that evolve in parallel with the entirety of their lives. 
+Similarly, end-of-life scenarios for products like LO could extend 
+beyond complete disappearance, incorporating metaphors such as 
+reincarnation. This might involve strategies like repurposing physical 
+components through recycling digital memories as legacies for a 
+meaningful continuation of the product. These approaches present 
+new opportunities for research and development in life-synchronized 
+products, while also raising critical questions about their practical 
+implementation and long-term sustainability. Addressing these 
+scenarios requires a careful balance between innovation and the 
+technical, business, and socio-ethical considerations necessary to 
+ensure the viability of LSPs across diverse contexts.
+Technical, Business, and Socio-ethical Challenges on 
+Life-Synchronized Products
+We identified several prerequisite conditions that need to be 
+addressed within current technical, business, socio-ethical contexts 
+to realize the Life-Synchronized Products (LSP) concept. From a 
+technical perspective, products, whether hardware or software, 
+must ideally have an extended or adaptable lifespan equivalent to 
+the human life. While current products often fall short of this ideal, 
+increasing efforts within industries to extend durability highlight 
+the feasibility of this requirement. For instance, Dyson’s Solar Cycle 
+Morph lamp [17] is designed for over 60 years of use, exemplifying 
+this trend. Similarly, mobile industry initiatives offering a minimum of 
+8 years of software updates [28] further demonstrate the potential 
+for extended product viability. However, as one participant noted 
+during interviews, the challenge often lies not in a product’s ability 
+to endure, but in users’ diminishing tolerance for older items. This 
+observation underscores the importance of designing products that 
+maintain both functional and emotional relevance over long periods, 
+fostering a deeper connection that encourages continued use rather 
+than premature replacement. Furthermore, technologies that enable 
+a product’s material lifespan to adapt to changes in the user’s life 
+should also be considered.
+From a business perspective, another prerequisite involves developing 
+methods to address the aging of products. Extensive modifications, 
+such as component replacements, integrating new modules, or 
+implementing software updates, can disrupt the preservation of a 
+product’s identity continuity, invoking the Ship of Theseus paradox 
+[62]. During expert interviews, participants emphasized the need for 
+innovative repair concepts to ensure the   developing methods to 
+addressdetermine how lifecycle synchronization could be applied 
+to non- product remains a consistent companion throughout its 
+lifecycle. One participant likened lifelong products to living organisms, 
+stressing the importance of continuous care and maintenance. We propose shifting from a paradigm of breakdowns and replacements 
+to one focused on care and healing for Life-Synchronized Products 
+(LSPs). The traditional Japanese repair method of Kintsugi [63] 
+which involves reassembling broken ceramics with gold to highlight 
+their history, exemplifies this approach by nurturing and preserving 
+the character of aging items. Additionally, design practices that 
+incorporate accumulated traces from long-term use—such as patinas 
+[34] or stains [8] —further reinforce the value of embracing a product’s 
+history and character. These methods offer exemplary approaches 
+for maintaining the value and identity of LSPs, ensuring their longevity 
+and continued emotional resonance with users.
+Lastly, the inclusion of DNA-based predictions in LSPs presents 
+significant social and ethical challenges. DNA integration is a key 
+element of this concept, symbolically linking the product to the 
+user’s identity and underscoring a lifelong partnership. During the 
+development of the LO product, various measures were introduced 
+to address these concerns, including DNA usage agreement forms, 
+life synchronization agreements, and product birth certificates. 
+Additionally, design elements were incorporated to indirectly represent 
+predicted lifespan cycles on displays, aiming to mitigate ethical 
+concerns surrounding DNA usage. However, some participants 
+raised apprehensions about DNA-based approaches, particularly 
+regarding the perceived intrusion into individual destinies. These 
+concerns reflect broader societal uncertainties about the implications 
+of integrating personal genetic data into everyday technologies. We 
+anticipate that increasing public familiarity with DNAbased services—
+such as ancestry exploration [1] or assessments of individual 
+susceptibility to vulnerable or potentially disease-causing conditions 
+[12]—may gradually shift perceptions and foster greater acceptance.
+  
+CONCLUSION
+This pictorial introduces the concept of Life-Synchronized Products 
+(LSP) and demonstrates the potential of the ‘LO’ oven to provide non-
+utilitarian values, such as existential and symbiotic reflection, through 
+its design process and interview study. It offers a framework for 
+rethinking how design can meaningfully engage with human values 
+that are deeply significant, sparking discussions on the philosophical 
+and practical implications of products that reflect life’s finitude while 
+fostering strong emotional connections. We hope this contribution 
+enriches the ongoing discourse on the role of constructive design 
+research and more-than human HCI, inspiring researchers and 
+practitioners in HCI and design to envision a future where products 
+promote reflective, meaningful, and symbiotic ways of living.
+314
+REFERENCE
+［1］      23andMe. DNA Test 23andMe. Retrieved January 21, 2025 from 
+https://www.23andme.com/en-int/
+［2］      Ruben Albers, Shadan Sadeghian, Matthias Laschke, and Marc 
+Hassenzahl. 2023. Dying, Death, and the Afterlife in Human-
+Computer Interaction. A Scoping Review. In Proceedings of 
+the 2023 CHI Conference on Human Factors in Computing 
+Systems (CHI ’23). https://doi.org/10.1145/3544548.3581199
+［3］      Albert Borgmann. 1987. Technology and the Character of 
+Contemporary Life. The University of Chicago Press.
+［4］      Eric P .S. Baumer. 2015. Reflective informatics: 
+Conceptual dimensions for designing technologies 
+of reflection. In Conference on Human Factors in 
+Computing Systems - Proceedings, 585–594. https://doi.
+org/10.1145/2702123.2702234
+［5］      Heidi R Biggs and Audrey Desjardins. 2020. High Water 
+Pants: Designing Embodied Environmental Speculation. 
+In Proceedings of the 2020 CHI Conference on Human 
+Factors in Computing Systems (CHI ’20), 1–13. https://doi.
+org/10.1145/3313831.3376429
+［6］      Albert Borgmann. 1999. Holding On to Reality: The 
+Nature of Information at the Turn of the Millennium. 
+University of Chicago Press. https://doi.org/10.7208/
+chicago/9780226066226.001.0001
+［7］      Rosi Braidotti. 2013. Posthuman Humanities. European 
+Educational Research Journal 12, 1: 1–19. https://doi.
+org/10.2304/eerj.2013.12.1.1
+［8］      George Chalhoub, Martin J Kraemer, Norbert Nthala, and Ivan 
+Flechais. 2021. “It did not give me an option to decline”: A 
+Longitudinal Analysis of the User Experience of Security and 
+Privacy in Smart Home Products. In Proceedings of the 2021 
+CHI Conference on Human Factors in Computing Systems (CHI 
+’21). https://doi.org/10.1145/3411764.3445691
+［9］      Jonathan Chapman. 2012. Emotionally Durable Design. 
+Routledge. https://doi.org/10.4324/9781849771092
+［10］    Amy Yo Sue Chen, William Odom, Ce Zhong, Henry Lin, and 
+Tal Amram. 2019. Chronoscope: Designing Temporally 
+Diverse Interactions with Personal Digital Photo Collections. 
+In Proceedings of the 2019 on Designing Interactive 
+Systems Conference (DIS ’19), 799–812. https://doi.
+org/10.1145/3322276.3322301
+［11］    Hyungjun Cho, Jiyeon Lee, Bonhee Ku, Yunwoo Jeong, 
+Shakhnozakhon Yadgarova, and Tek-Jin Nam. 2023. ARECA: A 
+Design Speculation on Everyday Products Having Minds. 31–
+44. https://doi.org/10.1145/3563657.3596002［12］    CircleDNA. CircleDNA. Retrieved January 21, 2025 from https://
+circledna-kr.com/en
+［13］    Audrey Desjardins, Jena McWhirter, Justin Petelka, Chandler 
+Simon, Yuna Shin, Ruby K Peven, and Philbert Widjaja. 2023. 
+On the Making of Alternative Data Encounters: The Odd 
+Interpreters. In Proceedings of the 2023 CHI Conference on 
+Human Factors in Computing Systems (CHI ’23). https://doi.
+org/10.1145/3544548.3581323
+［14］    Pieter Desmet and Anna Pohlmeyer. 2013. Positive Design An 
+Introduction to Design for Subjective Well-Being. International 
+Journal of Design 7.
+［15］    Laura Devendorf and Kimiko Ryokai. 2015. Being the Machine: 
+Reconfiguring Agency and Control in Hybrid Fabrication. In 
+Proceedings of the 33rd Annual ACM Conference on Human 
+Factors in Computing Systems (CHI ’15), 2477–2486. https://
+doi.org/10.1145/2702123.2702547
+［16］    Carl DiSalvo. 2015. Adversarial Design. The MIT Press.
+［17］    Tanja Döring, Axel Sylvester, and Albrecht Schmidt. 2013. A 
+design space for ephemeral user interfaces. In Proceedings 
+of the 7th International Conference on Tangible, Embedded 
+and Embodied Interaction (TEI ’13), 75–82. https://doi.
+org/10.1145/2460625.2460637
+［18］    Dyson. Dyson Solarcycle MorphTM light. Retrieved January 19, 
+2025 from https://www.dyson.com/lighting/solarcycle-morph
+［19］    Arturo Escobar. 2018. Designs for the Pluriverse: Radical 
+Interdependence, Autonomy, and the Making of Worlds. Duke 
+University Press. https://doi.org/10.1215/9780822371816
+［20］    Evan Ackerman. 2024. Nvidia Announces GR00T, a Foundation 
+Model for Humanoids. Retrieved January 17, 2025 from https://
+spectrum.ieee.org/nvidia-gr00t-ros
+［21］    William W Gaver, John Bowers, Andrew Boucher, Hans Gellerson, 
+Sarah Pennington, Albrecht Schmidt, Anthony Steed, Nicholas 
+Villars, and Brendan Walker. 2004. The drift table: designing for 
+ludic engagement. In CHI ’04 Extended Abstracts on Human 
+Factors in Computing Systems (CHI EA ’04), 885–900. https://
+doi.org/10.1145/985921.985947
+［22］    Silke Gegenbauer and Elaine M. Huang. 2012. Inspiring the 
+design of longer-lived electronics through an understanding 
+of personal attachment. In Proceedings of the Designing 
+Interactive Systems Conference, 635–644. https://doi.
+org/10.1145/2317956.2318052
+［23］    Maliheh Ghajargar and Mikael Wiberg. 2018. Thinking with 
+Interactive Artifacts: Reflection as a Concept in Design 
+Outcomes. Design Issues 34, 2: 48–63. https://doi.org/10.1162/DESI_a_00485
+［24］    Elisa Giaccardi and Johan Redström. 2019. Technology and 
+More-Than-Human Design.
+［25］    Lars Hallnäs and Johan Redström. 2001. Slow Technology – 
+Designing for Reflection. Personal Ubiquitous Comput. 5, 3: 
+201–212. https://doi.org/10.1007/PL00000019
+［26］    Graham Harman. 2011. The Quadruple Object. Retrieved from 
+https://api.semanticscholar.org/CorpusID:60375863
+［27］    Roland and Janssen Doris and Klein Thorsten and Schuller 
+Andreas and Spath Dieter Hermann Fabian and Blach. 2009. 
+Challenges for User Centered Smart Environments. In Human-
+Computer Interaction. Ambient, Ubiquitous and Intelligent 
+Interaction, 407–415.
+［28］    Yuan-Yao Hsu, Wenn-Chieh Tsai, Wan-Chen Lee, and Rung-Huei 
+Liang. 2018. Botanical Printer: An Exploration on Interaction 
+Design with Plantness. In Proceedings of the 2018 Designing 
+Interactive Systems Conference (DIS ’18), 1055–1068. https://
+doi.org/10.1145/3196709.3196809
+［29］    Johannah Lopez. 2024. Google and Samsung extend 
+smartphone lifespan with longer software support. Retrieved 
+January 19, 2025 from https://www.devx.com/daily-news/
+google-and-samsung-extend-smartphone-lifespan-with-longer-
+software-support/
+［30］    Victor Kaptelinin. 2016. Making the Case for an Existential 
+Perspective in HCI Research on Mortality and Death. In 
+Proceedings of the 2016 CHI Conference Extended Abstracts 
+on Human Factors in Computing Systems (CHI EA ’16), 352–
+364. https://doi.org/10.1145/2851581.2892585
+［31］    Victor Kaptelinin. 2018. Technology and the Givens of Existence: 
+Toward an Existential Inquiry Framework in HCI Research. 
+In Proceedings of the 2018 CHI Conference on Human 
+Factors in Computing Systems (CHI ’18), 1–14. https://doi.
+org/10.1145/3173574.3173844
+［32］    Kyung Jin Kim, Sangsu Jang, Bomin Kim, Hyosun Kwon, and 
+Young-Woo Park. 2019. muRedder: Shredding Speaker for 
+Ephemeral Musical Experience. In Proceedings of the 2019 on 
+Designing Interactive Systems Conference (DIS ’19), 127–134. 
+https://doi.org/10.1145/3322276.3322362
+［33］    Subin Kim, Sangsu Jang, Jin-young Moon, Minjoo Han, and 
+Young-Woo Park. 2022. Slide2Remember: an Interactive Wall 
+Frame Enriching Reminiscence Experiences by Providing Re-
+encounters of Taken Photos and Heard Music in a Similar 
+Period. In Proceedings of the 2022 ACM Designing Interactive 
+315
+Systems Conference (DIS ’22), 288–300. https://doi.
+org/10.1145/3532106.3533456
+［34］    Lenneke Kuijer and Elisa Giaccardi. 2018. Co-performance: 
+Conceptualizing the role of artificial agency in the design 
+of everyday life. In Conference on Human Factors 
+in Computing Systems - Proceedings. https://doi.
+org/10.1145/3173574.3173699
+［35］    Moon-Hwan Lee, Seijin Cha, and Tek-Jin Nam. 2015. Patina 
+Engraver: Visualizing Activity Logs as Patina in Fashionable 
+Trackers. In Proceedings of the 33rd Annual ACM Conference 
+on Human Factors in Computing Systems (CHI ’15), 1173–
+1182. https://doi.org/10.1145/2702123.2702213
+［36］    Betti Marenko. 2014. Neo-Animism and Design: A New 
+Paradigm in Object Theory. Design and Culture 6, 2: 219–241. 
+https://doi.org/10.2752/175470814X14031924627185
+［37］    Betti Marenko and Philip van Allen. 2016. Animistic Design: 
+How to Reimagine Digital Interaction between the Human and 
+the Nonhuman. Digital Creativity 27. https://doi.org/10.1080/1
+4626268.2016.1145127
+［38］    Elisa D Mekler and Kasper Hornbæk. 2019. A Framework for 
+the Experience of Meaning in Human-Computer Interaction. 
+In Proceedings of the 2019 CHI Conference on Human 
+Factors in Computing Systems (CHI ’19), 1–15. https://doi.
+org/10.1145/3290605.3300455
+［39］    Donald A Norman. 2007. Emotional design: Why we love (or 
+hate) everyday things. Basic books.
+［40］    Donald A Norman. 2002. The Design of Everyday Things. Basic 
+Books, Inc., USA.
+［41］    William Odom and Tijs Duel. 2018. On the Design of OLO 
+Radio: Investigating Metadata as a Design Material. In 
+Proceedings of the 2018 CHI Conference on Human 
+Factors in Computing Systems (CHI ’18), 1–9. https://doi.
+org/10.1145/3173574.3173678
+［42］    William Odom, James Pierce, Erik Stolterman, and Eli Blevis. 
+2009. Understanding why we preserve some things and discard
+［43］    William Odom, Mark Selby, Abigail Sellen, David Kirk, Richard 
+Banks, and Tim Regan. 2012. Photobox: on the design of a 
+slow technology. In Proceedings of the Designing Interactive 
+Systems Conference (DIS ’12), 665–668. https://doi.
+org/10.1145/2317956.2318055
+［44］    William Odom, Erik Stolterman, and Amy Yo Sue Chen. 2022. 
+Extending a Theory of Slow Technology for Design through 
+Artifact Analysis. Human–Computer Interaction 37, 2: 150–
+179. https://doi.org/10.1080/07370024.2021.1913416
+［45］    William Odom, Ron Wakkary, Ishac Bertran, Matthew Harkness, Garnet Hertz, Jeroen Hol, Henry Lin, Bram Naus, Perry Tan, and 
+Pepijn Verburg. 2018. Attending to Slowness and Temporality 
+with Olly and Slow Game: A Design Inquiry Into Supporting 
+Longer-Term Relations with Everyday Computational Objects. 
+In Proceedings of the 2018 CHI Conference on Human 
+Factors in Computing Systems (CHI ’18), 1–13. https://doi.
+org/10.1145/3173574.3173651
+［46］    James Pierce and Eric Paulos. 2015. Making Multiple Uses 
+of the Obscura 1C Digital Camera: Reflecting on the Design, 
+Production, Packaging and Distribution of a Counterfunctional 
+Device. In Proceedings of the 33rd Annual ACM Conference on 
+Human Factors in Computing Systems (CHI ’15), 2103–2112. 
+https://doi.org/10.1145/2702123.2702405
+［47］    Larissa Pschetz and Richard Banks. 2013. Long living 
+chair. In CHI ’13 Extended Abstracts on Human Factors in 
+Computing Systems (CHI EA ’13), 2983–2986. https://doi.
+org/10.1145/2468356.2479590
+［48］    Nina Rajcic and Jon McCormack. 2023. Message Ritual: A 
+Posthuman Account of Living with Lamp. In Proceedings of 
+the 2023 CHI Conference on Human Factors in Computing 
+Systems (CHI ’23). https://doi.org/10.1145/3544548.3581363
+［49］    Yea Kyung Row, Chang Min Kim, and Tek Jin Nam. 2016. 
+DooBoo: Pet-like interactive dashboard towards emotional 
+electric vehicle. In Conference on Human Factors in 
+Computing Systems - Proceedings, 2673–2680. https://doi.
+org/10.1145/2851581.2892460
+［50］    Marco C. Rozendaal, Boudewijn Boon, and Victor Kaptelinin. 
+2019. Objects with intent: Designing everyday things as 
+collaborative partners. ACM Transactions on Computer-Human 
+Interaction 26, 4: 1–33. https://doi.org/10.1145/3325277
+［51］    Samsung. 2024. A Day in the Life With Ballie: An AI Companion 
+Robot for the Home. Retrieved January 17, 2025 from https://
+news.samsung.com/us/samsung-ballie-ai-companion-robot-
+home-video-ces-2024/
+［52］    Phoebe Sengers, Kirsten Boehner, Shay David, and Joseph 
+“Jofish” Kaye. 2005. Reflective design. In Proceedings 
+of the 4th Decennial Conference on Critical Computing: 
+Between Sense and Sensibility (CC ’05), 49–58. https://doi.
+org/10.1145/1094562.1094569
+［53］    Spike Jonze. 2013. Her. Annapurna Pictures.
+［54］    Vasiliki Tsaknaki and Ylva Fernaeus. 2016. Expanding on Wabi-
+Sabi as a Design Resource in HCI. In Proceedings of the 2016 
+CHI Conference on Human Factors in Computing Systems (CHI 
+’16), 5970–5983. https://doi.org/10.1145/2858036.2858459
+［55］    Rosenberger, R., & Verbeek, P . P . (2015). A field guide to 
+postphenomenology. Postphenomenological investigations: Essays on human-technology relations, 9-41.
+［56］    Katinka Waelbers. 2007. Peter-Paul Verbeek, What Things Do: 
+Philosophical Reflections on Technology, Agency and Design. 
+Science and Engineering Ethics 13, 2: 275–277. https://doi.
+org/10.1007/s11948-007-9010-0
+［57］    Ron Wakkary. 2021. Things we could design: For more than 
+human-centered worlds. MIT press.
+［58］    Ron Wakkary. 2021. Things We Could Design: For More 
+Than Human-Centered Worlds. https://doi.org/10.7551/
+mitpress/13649.001.0001
+［59］    Ron Wakkary, Doenja Oogjes, Sabrina Hauser, Henry Lin, Cheng 
+Cao, Leo Ma, and Tijs Duel. 2017. Morse Things: A design inquiry 
+into the gap between things and us. In DIS 2017 - Proceedings 
+of the 2017 ACM Conference on Designing Interactive Systems, 
+503–514. https://doi.org/10.1145/3064663.3064734
+［60］    Ron Wakkary, Doenja Oogjes, Henry W.J. Lin, and Sabrina 
+Hauser. 2018. Philosophers living with the Tilting Bowl. In 
+Conference on Human Factors in Computing Systems - 
+Proceedings. https://doi.org/10.1145/3173574.3173668
+［61］    Ron Wakkary, Doenja Oogjes, Nazmus Sakib, and Armi 
+Behzad. 2023. Turner Boxes and Bees: From Ambivalence 
+to Diffraction. In Proceedings of the 2023 ACM Designing 
+Interactive Systems Conference (DIS ’23), 790–807. https://
+doi.org/10.1145/3563657.3596081
+［62］    Mark Weiser and John Seely Brown. 1997. The Coming Age 
+of Calm Technology. In Beyond Calculation: The Next Fifty 
+Years of Computing, Peter J Denning and Robert M Metcalfe 
+(eds.). Springer New York, New York, NY, 75–85. https://doi.
+org/10.1007/978-1-4612-0685-9_6
+［63］    Wikipedia contributors. Ship of Theseus. In Wikipedia, 
+The Free Encyclopedia. Retrieved January 21, 2025 from 
+https://en.wikipedia.org/w/index.php?title=Ship_of_
+Theseus&oldid=1269622670
+［64］    Wikipedia contributors. Kintsugi. In Wikipedia, The Free 
+Encyclopedia. Retrieved January 21, 2025 from https://
+en.wikipedia.org/w/index.php?title=Kintsugi&old
+id=1268209280
+316

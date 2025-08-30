@@ -1,0 +1,446 @@
+    
+      
+    
+   
+   
+        
+  
+   
+        
+     
+       
+       
+       
+    
+     
+     
+        
+      
+     
+      
+  
+    
+   
+         
+      
+   
+       
+     
+     
+   Human-Robot Experience (HRX) Theatre—An 
+Interdisciplinary Methodology For Reimagining  
+Human-Robot Relationships Through Movement   
+Petra Gemeinboeck   
+Center  for  Transformative  Media 
+Technology  (CTMT )  
+Swinburne University of  Technology  
+Melbourne,  Australia  
+pgemeinboeck@swin.edu.au  Rob  Saunders  
+Leiden Inst itute  of  Advanced Computer  
+Science  (LIACS)  
+Leiden University  
+Leiden,  Netherlands  
+r.saunders@liacs.leidenuniv.nl  Audrey  Rochette   
+Dance  Department  
+Université  du  Québec  à  Montréal  
+Montreal,  Canada  
+rochette.audrey@yahoo.ca 
+Steph Hutchison  
+School  of  Creative Arts  
+Queensland  University  of  Technology  
+Brisbane,  Australia  
+s2.hutchison@qut.edu.au  Kristina  Mah  
+Design  Lab  
+The  University  of  Sydney  
+Sydney,  Australia  
+kristina.mah@sydney.edu.au 
+Abstract —  How  can  we  connect  with  robots  without  mimicking  
+human traits?  Can we  build meaningful  relationships  with 
+nonhuman- like  bodies?  What  if  sociality  emerges  in  the  encounter  
+itself?  The  Human -Robot  Experience  (HRX)  Theatre  tutorial  
+introduces  a  participatory  methodology  for  reimagining  our  
+relationships  with robots  through movement -based,  experience -
+centered exploration.  Participants  will  explore  how  we  bodily  
+resonate and  make meaning  with  non-anthropomorphic  machines  
+using  our  Relational  Body  Mapping  (RBM)  method,  employing  
+robot  costumes  to  facilitate  embodied  perspective -taking.  
+Adopting  a  robot's  unique  perspective  to  experience  its  distinct  
+social  affordances expands our  understanding  beyond  
+anthropocentric  views,  unlocking new  modes  of  nonverbal  
+communication  and  embodied  empathy.  Movement  and its  
+meaning -making  potential  are  key  to  HRX.  We  begin  with  gentle  
+movement  explorations.  This h  eightened  sensitivity  will  shape  our  
+first embodied  dialogues  with  artifacts.  A  live  performance  with  
+dancers,  costumes,  and a  robot  will  showcase  how  RBM  harn esses  
+kinesthetic  awareness  to  explore  how  sociality  arises  in  the  
+encounter.  Applying  their embodied  insights,  participants  will  
+develop and  enact  inclusive  speculative  scenarios  through  
+embodied  role-play  with robot  costumes.  This  tutorial  introduces  
+an  embodied  prototyping approach  that  leverages  the  potential  of  
+movement  dynamics  for  designing  expressive,  nonhumanlike  
+robots.  Cultivating  empathy  with  machinelike  entities  could  
+promote  the  design of  more  diverse  and sustainable  relationships  
+that recogni ze and  leverage the differences  between  humans  and  
+robots.  No  prior  dance  experience  is  required; participants  will  
+engage at  their own  comfort  level.  Join  us  to  explore the 
+transformative  potential  of movement in  reimagining  our  robotic  
+futures! Supported by  the  Australian Government  through the  
+Australian  Research  Council  (FT190100567).  
+Keywords —Human -Robot  Experience  (HRX),  embodied  
+prototyping,  kinesthetic  attunement,  non- anthropomorphic  robot  
+design ,  social  agency,  Relational  Body  Mapping  (RBM)  
+This  tutorial  is  supported  by  the  Australian  Government  through  the  
+Australian  Research  Council  (FT190100567).    
+.  I.  INTRODUCTION  
+Recent advances in generative AI open up new pos sibilities 
+for social robots, promising more sophisticated human -robot 
+interactions through enhanced communication, emotional 
+intelligence, adaptive behaviors, and personalization [1]. 
+However, these developments often focus on making robots 
+more h umanlike, effectively masking the “deep asymmetries” 
+between humans and machines [2] . 
+Mimicking human traits is a common strategy in human-
+robot interaction (HRI) based on an assumption that meaningful
+interactions depend on what interactors have in common [3]. 
+The machine ’s otherness is seen as a limitation, leading to a 
+consensus that it should be softened or concealed [3, 4, 5]. Furthermore, human -robot relationships are often modeled after 
+human- human relationships [6 , 7], promoting a conception of 
+sociality that is “amenable to technological intervention ” [8]. 
+We argue that mimic ry limits the potential of robots and the 
+relationships we can have with them , and that e mbrac ing and 
+creatively leveraging human- machine differences offers new 
+opportunities for innovation. This tutorial introduces a non -
+anthropocentric approach , harness ing dance knowledge to 
+promote more -than-human relationships; participants engage in 
+embodied movement explorations and experiential scenario -
+making to reimagine how we can relate to machine s (Fig. 1) . 
+II.  M
+OTIVATION AND BACKGROUND  
+A.  Human -Robot  Experience  (HRX)  
+A gr
+owing community with in HRI emphasizes embodied 
+knowledge and alternative modes of meaning -making ; including
+Seibt et al.’ s concept of “sociomorphing ” [5], LaViers & 
+Maguire ’s emphasis on kinesthetic attunement [ 9], Jochum & 
+Derks ’ dance improvisation framework [ 10], and Sirkin & Ju’s 
+“embodied design improvisation ” [11 ]. Experience -cente red 
+979-8-3503-7893-1/25/$31.00 ©2025 IEEE
+Tutorial
+HRI 2025, March 4-6, 2025, Melbourne, Australia
+2000
+
+ 
+    
+     
+        
+    
+    
+      
+     
+      
+       
+   
+    
+       
+     
+ 
+   
+   
+     
+    
+        
+ 
+    
+      
+  
+     
+     
+      
+     
+   
+      
+ 
+   
+    
+     
+    
+    
+      
+     
+      
+   
+     
+   desi
+gn promotes embodied interaction focusing on empathic 
+perspective- taking [12]. Gasteiger et al. [ 13] demonstrate 
+benefits of stakeholder involvement in robot design, while 
+Šabanović [ 10] highlights a lack of methods for early end -user 
+involvement accommodating their imaginations. 
+HRX expands experience -centered design approaches by 
+acknowledging networks of nonhuman actors and things that our
+social relationships are embedded in. It foregrounds dynamics 
+and relational possibilities that emerge in the encounter [ 14, 12],
+rather than relying on imitation [1 5]. In HRX, h uman- robot 
+relationships are dynamic experiences where both human and 
+nonhuman participants enact meaning and social agency [4 , 14]. 
+The HRX Theatre tutorial expands traditional HRI paradigms to
+explore the social potential of nonanthropomorphic robot s 
+through embodied, participatory movement -based techniques. 
+B. Supporting Sustainable Human- Robot Relationships 
+The HRX approach seeks to reimagine human -robot 
+relationships, offering practice -based, embodied strategies that 
+address key challenges in sustainable HRI research: 
+1) Collaboration and Inclusivity: HRX offers a model for 
+developing more inclusive approaches by promoting a 
+relational ontology that repositions sociality as a shared 
+enactment, rather than a predefined attribute. This tutorial is designed to encourage participants to experience and explore 
+the following potentials: (a) facilitate early involvement of 
+diverse stakeholders through immersive, embodied design 
+experiences; (b) probe into how social agency is enacted 
+rather than given as an attribute of humanlike appearance ; (c) 
+explore a robot ’s unique relational affordances by using 
+Relational Body Mapping (RBM) to promot e embodied 
+empathy and diverse perspectives. 
+2) Socially Responsible Robotics: HRX provides 
+opportunities to critically examine and expand notions of social responsibility in robotics by shifting the representational focus toward the performative potential of the encounter [10]. Our approach: (a) counters gendered, humanlike representations 
+in robotics by exploring social meaning -making with 
+machinelike forms; (b) investigat es alternative modes of 
+sociality without mimicking organic forms; (c) enables 
+participants to experience and navigate diverse relat ional 
+dynamics ; (d) challenges anthropocentric views of social 
+responsibility in human -robot interactions. 
+III.  T
+UTORIAL  OVERVIEW  
+We  seek  to  build  a  community  around  key  principles of HRX  
+including  the  generative  potential of movement dynamics, 
+sociality  as an enactment,  and the  integrative  methodology  of 
+kinesthetic attunement  for  more -than-human  approaches  to the  
+design  of  human- robot relationships.  Our  tutorial  objectives  are:  
+1.  Introduce  HRI researchers and  related  fields to  the  
+potential  of  movement  dynamics  for  exploring and 
+experiencing how  social  agency might  be enacted in 
+human- robot encounters.  
+2.  Showcase  immersive  movement -based methods  as  an 
+embodied prototyping approach that  can inform  participatory strategies  for  designing social  relationships  
+with  machinelike  robots.  
+3.  Establish  an  inclusive,  more- than-human playground for  
+embracing and creatively engaging with  the  differences  
+between humans  and machines.  
+4.  Generate  a  deeper,  embodied  understanding  of  more -than-
+human relationships  by attending to emergent,  nuanced 
+resonances between h  uman a  nd n onhuman e  mbodiments.  
+5.  Harness  sensitivity  to  movement  qualities  and  kinesthetic  
+attunement  to develop diverse human -robot scenarios .  
+To  achieve  the  objectives,  we  will  engage participants in  (a) 
+gentle movement  explorations  to  expand  bodily  awareness; (b)  
+embodied  encounters  with  machinelike  artifacts  using  RBM;  
+and (c)  collaborative development  and  enactment  of  diverse, 
+inclusive human- robot scenarios through e  mbodied ro  le-play.  
+Our  experience- centered,  movement- driven process  draws  
+from  creative  robotics and  dance  knowledge  [4,  14,  16], 
+supporting  participants in  playful,  embodied  role-play to explore 
+agency,  affect,  trust,  and interdependency with robots  (Fig.  1).  
+At  the  heart  of HRX  is the  RBM  methodology,  which  uses 
+wearable  costumes  to  stand  in  for  a  robot's  embodiment  and  
+choreographic strategies  to prototype relationships  in 
+immersive, embodied  ways  [14]. Central to  this  approach  is  
+understanding movement  as  a dynamic,  relational, and  
+generative force capable of  unfolding relational  dynamics  that  
+are core to social  communication [4,  9,  14].  
+This  focus  on  movement  dynamics  and  their  generative  
+potential  shapes  our  approach to human -robot scenario -making.  
+Our  experiential  process  unfolds  through  distinct  phases  of  
+transcorporeal attunement: Experience,  Emergence,  Expansion , 
+and Embedment . Initially, participants  explore  movement 
+possibilities  through attunement.  Rather  than mimicking 
+familiar patterns,  they  are  invited  to  attend  to  differences -in-
+relation,  focusing  on  what emerges in  the  encounter.  From  
+there, they  expand  these  patterns  and rela tionships  by  
+examining their  social  meanings  and exploring potential  
+connections  to external  goals.  In the final  phase,  we explore 
+how  unfolding scenarios  are situated within (imagined)  
+environments  and timelines  that  may also be expressed visually 
+or  sonically.  This  embodied attunement  process  aims  to support  
+the  discovery  of alternative  pathways  for human- robot 
+interactions, challenging  traditional approaches  and  
+transcending assumed norms.  
+Bridging  our  movement  explorations  with  the  scenario  
+development,  we will  present  a short  more -than-human 
+performance.  The performance aims  to demonstrate RBM's  
+potential  for  harnessing kinesthetic knowledge and embodied 
+perspective- taking. Extracted  from  our  improvisational  
+performance work,  Alloyed  Bodies  [16],  the  performance  
+features two  dancers,  two  cube  artifacts,  and  one  cube  robot and  
+will  be  open  to  all  conference  attendees.  In  our  research  practice,  
+performance -making  serves  as  both  a  mode  of  inquiry  and  an  
+embodied prototyping tool  in our  HRX  approach,  revealing 
+connections  between human and robot  bodies  we may not  
+otherwise imagine [14,  16].  As  part  of  the tutorial,  it  will  serve 
+as  a platform  for  choreographic facilitator  and dancer,  Audrey 
+Tutorial
+HRI 2025, March 4-6, 2025, Melbourne, Australia
+2001
+   
+     
+   
+   
+     
+  
+         
+       
+ 
+        
+      
+  
+   
+   
+           
+   
+  
+  
+     
+        
+      
+ 
+  
+       
+       
+     
+  
+     
+     
+  
+    
+       
+  
+      
+     
+       
+      
+ 
+   
+     
+   
+       
+      
+   
+      
+  
+      
+    
+    
+       
+ 
+ 
+ 
+        
+          
+            Rochette,  to  demonstrate  RBM  principles  and  to  engage  tutorial  
+participants  in transcorporeal  meaning -making.   
+Fig. 1. Snapshots from participatory audience interactions with cube costumes 
+and cube robot (bottom left), with dance artist Felix Palmerson (bottom right). 
+Photos: Kris Mah, Sydney, 2022 (top) and Jade Ellis, Brisbane, 2024 (bottom). 
+Discussions, reflections, and the use of a novel ‘more -than-
+human body- map’ tool will capture participants ’ bodily 
+sensations and more -than-human experiences, further deepening 
+our exploration of human- robot relationships. By inviting 
+participants to explore how we bodily resonate and make 
+meaning with machinelike entities, the tutorial seeks to open 
+human- robot interaction design to new modes of empathy and 
+more -than-human communication. 
+A.  Target  A udience  
+This 
+tutorial is designed for researchers, practitioners, and 
+students from HRI, Embodied Cognition, Interaction Design, 
+Somaesthetics, and related fields, interested in embodied 
+prototyping, nonanthropomorphic robot design, and participatory design strategies for human -robot interaction. 
+B.  Maximum  n
+ umber  of  participants  
+The m
+aximum number of participants for this tutorial is 16. 
+C.  Tutorial  Sc hedule  
+TABLE I. FULL-DAY SCHEDULE FOR THE TUTORIAL 
+Session Activity 
+Morning 1 
+(9:00 –10:30) • Initial body map 
+• Introduction to HRX Project & HRX Theater 
+• Keynote : Prof. Kate Stevens, Western Sydney 
+Univ ersity 
+Morning 2 
+(11:00–12:3 0) • Movement exploration & kinesthetic awareness 
+• Introduction to RBM and cube costumes 
+• Transitional body map 
+Afternoon 1 
+(13:30–15:0 0) • Performance with Audrey Rochette, Kristina Mah, 
+and the Cube Performer (robot): Alloyed Bodies 
+[MEL -2-2- 1], soundscape by Ad am Nash ; 
+• Demonstration & transcorporeal perspective -taking 
+• Introduction to scenario development using RBM 
+Afternoon 2 
+(15:30–17 :00) • Speculative human –robot scenario development 
+• Scenario enactments and discussion 
+• Reflections, final body map and wrap -up IV.  SPEAKER ’S BIOGRAPHY  
+Catherine (Kate) Ste vens is a cognitive psychologist 
+investigating psychological processes in creating, perceiving, 
+and performing music and dance. A Professor in Psychology 
+and Director of Research and Engagement at the MARCS Institute for Brain, Behaviour and Development, Western 
+Sydney University , Kate conducts basic and applied research 
+into learning, perception, creation, and cognition of complex, nonverbal sequences. Her work illuminates how dancers and 
+choreographers externalize cognitive processes through 
+movement. Her research projects investigate human -machine 
+interaction by applying methods from experimental psychology 
+(e.g. design/evaluation of auditory warnings; human -avatar and 
+human- robot interaction). Kate has authored over 140 
+publications, including an e -book on creativity and cognition in 
+contemporary dance. 
+R
+EFERENCES  
+[1]  B.  Obrenovic,  X.  Gu,  G.  Wang,  D.  Godinic,  and  I.  Jakhongirov,  
+"Generative AI  and  human– robot  interaction:  implications  and  future  
+agenda for  business,  society  and  ethics," AI  &  Society,  2024.  
+[2]  L.  Suchman,  Human- Machine  Reconfigurations:  Plans  and  Situated  
+Actions.  Cambridge,  UK:  Cambridge  Univ.  Press,  2007.  
+[3]  E.  Sandry,  "The  potential  of  otherness  in  robotic  art,"  in  Robots  and  Art:  
+Exploring  an  Unlikely  Symbiosis.  Springer,  2016,  pp.  177-189.  
+[4]  P.  Gemeinboeck  and  R.  Saunders,  "Moving  beyond  the  mirror:  relational  
+and  performative meaning  making  in  human –robot  communication,"  AI 
+& Society,  vol.  37,  pp.  549–563,  2022.  
+[5]  J.  Seibt,  C.  Vestergaard,  and  M.  F.  Damholdt,  "Sociomorphing,  Not  
+Anthropomorphizing:  Towards  a  Typology  of  Experienced  Sociality,"  in  
+Culturally  Sustainable  Social  Robotics —Proc.  of  Robophilosophy  2020,  
+M.  Nørskov  et  al.,  Eds.  IOS  Press,  2020.  
+[6]  S.  Nyholm  et  al.,  "Social  Robots  and  Society,"  in  Ethics  of  Socially  
+Disruptive  Technologies:  An  Introduction,  I.  van  de  Poel  et  al.,  Eds.  2023,  
+pp.  53-82.  
+[7]  M.  Alač,  "Social  robots:  Things  or  agents?,"  AI  &  Society,  vol.  31,  no.  4,  
+pp.  519-535,  2016.  
+[8]  S.  Šabanović,  "Robots  in  society,  society  in  robots,"  Int.  J.  Social  
+Robotics,  vol.  2,  no.  4,  pp.  439-450,  2010.  
+[9]  A.  LaViers  and  C.  Maguire,  Making  Meaning  with  Machines:  Somatic  
+Strategies,  Choreographic  Technologies,  and  Notational  Abstractions  
+through a Laban/Bartenieff Lens. MIT Press, 2023.  
+[10]  E.  Jochum  and  J.  Derks,  "Tonight  we  improvise!  Real-time  tracking  for  
+human- robot  improvisational  dance,"  in  Proc.  6th  Int.  Conf.  Movement  
+and  Computing,  2019,  pp.  1-8.  
+[11]  D.  Sirkin  and  W.  Ju,  "Using  Embodied  Design  Improvisation  as  a  Design  
+Research  Tool,"  in  Proc.  Int.  Conf.  Human  Behavior  in  Design,  Ascona,  
+Switzerland,  2014.  
+[12]  P.  Wright  and  J.  McCarthy,  "Experience -centered  design:  designers,  
+users,  and communities  in dialogue,"  Synthesis  Lectures  on Human -
+Centered  Informatics,  vol.  3,  no.  1,  pp.  1-123,  2010.  
+[13]  N.  Gasteiger,  M.  Hellou,  and  H.  S.  Ahn,  "Toward  Socially  Assistive  
+Robots  for  the  Elderly:  A  User -Centered  Design  Approach  Involving  
+Older  Adults  and  Health  Care  Professionals,"  Int.  J.  Social  Robotics,  vol.  
+13,  no.  8,  pp.  1895 -1910,  2021.  
+[14]  P.  Gemeinboeck  and  R.  Saunders,  "Dancing  with  the  Nonhuman:  A  
+Feminist,  Embodied,  Material  Inquiry  into  the  Making  of  Human -Robot  
+Relationships,"  in  Proc.  2023  ACM/IEEE  Int.  Conf.  Human -Robot  
+Interaction  (HRI '23),  New  York,  NY,  USA,  2023,  pp.  51–59.  
+[15]  S.  Turkle,  Alone  together:  Why  we  expect  more  from  technology  and  less  
+from  each  other.  Hachette U  K,  2017.  
+[16]  P.  Gemeinboeck  and  R.  Saunders,  "Alloyed  Bodies:  Performance -Making  
+as Embodied  Prototyping  of  Human -Robot  Relationships,"  in  Proc.  16th  
+Int.  Conf.  Social  Robotics +  AI,  Odense,  Denmark,  2024.  
+Tutorial
+HRI 2025, March 4-6, 2025, Melbourne, Australia
+2002

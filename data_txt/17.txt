@@ -1,0 +1,164 @@
+Illusory Eyescape - Exploring the Variations of Consciousness
+through Generative Art and Eye-Tracking Techniques
+Sin-Fei Lee
+National Chengchi University
+Taipei, Taiwan
+0304phoebe@gmail.comMing-Te Chi
+National Chengchi University
+Taipei, Taiwan
+mtchi@cs.nccu.edu.tw
+Figure 1: The proposed interactive art installation transforms eye-tracking data to the final images. The middle image was
+generated from the words "Mouse," "Apple," "Computer," "Drink," "Technical," "Art," "Animal," and "Time," with a total reading
+time of 30 seconds. Each red dot represents the gaze point during a 200-millisecond interval.
+ABSTRACT
+Historically, art has been considered a form of expression uniquely
+reserved for humans. However, technological advances, particularly
+in computer graphics, have expanded the boundaries of artistic cre-
+ation beyond human exclusivity. The emergence of Generative Art
+in recent years has not only transformed the artistic process but has
+also initiated extensive dialogues on the interactions between hu-
+mans and machines. To delve deeper into this theme, we developed
+an interactive art installation titled "Illusory Eyescape." This instal-
+lation integrates Generative Art and Eye-tracking Technologies
+to probe the fundamental nature of consciousness in humans and
+machines, questioning the role of art in this new epoch of human-
+machine synergy. This exploration broadens our comprehension of
+the potential amalgamations of art and technology and challenges
+our conventional perceptions of art.
+KEYWORDS
+Generative Art, Eye-tracking, Interactive Art
+ACM Reference Format:
+Sin-Fei Lee and Ming-Te Chi. 2024. Illusory Eyescape - Exploring the Vari-
+ations of Consciousness through Generative Art and Eye-Tracking Tech-
+niques. In Special Interest Group on Computer Graphics and Interactive Tech-
+niques Conference Posters (SIGGRAPH Posters ’24), July 27–August 01, 2024,
+Denver, CO, USA. ACM, New York, NY, USA, 2 pages. https://doi.org/10.
+1145/3641234.3671068
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+SIGGRAPH Posters ’24, July 27–August 01, 2024, Denver, CO, USA
+©2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0516-8/24/07
+https://doi.org/10.1145/3641234.36710681 INTRODUCTION
+In the fast-paced evolution of technology, artistic forms merge and
+evolve with digital techniques. Now, creating generative works
+is as easy as uttering a spell. But what really lies at the heart of
+artistic creation? Swiss artist Alberto Giacometti once remarked,
+"The object of art is not to reproduce reality, but to create a reality
+of the same intensity." In this perspective, art acts as a medium to
+express genuine emotions, transcending the physical to reveal the
+underlying spirit and emotions. Our work, "Illusory Eyescape," in-
+vestigates the consciousness divide between humans and machines
+through technological art, focusing on language’s role and limits
+within generative art. Using eye-tracking technology, this inter-
+active installation captures viewer engagement data, which then
+drives a generative AI system to create dynamic visual artworks.
+These pieces reflect and respond to viewer interactions in real-time,
+deepening the understanding of human consciousness and further
+contributing new insights to the integration of art and technology.
+2 DESIGN AND IMPLEMENTATION
+Historically, machine-generated art has been evaluated from a
+human-centric viewpoint, treating art as fundamentally a human
+creation. Utilizing Graham Harman’s Object-Oriented Ontology,
+our research propose the "Object Co-Construct" concept. This ap-
+proach emphasizes that art interpretation involves the co-construction
+among these entities, dependent on active participant engagement.
+Our work further investigates differences in human and machine
+consciousness using foundational theories such as Edelman and
+Tononi’s concept of human-machine consciousness divergence and
+Nagel’s "bat problem". These theories underscore the unique value
+of personal consciousness in human experience.
+Because consciousness is deeply influenced by vision, our work
+emphasizes various aspects of the eye. This includes exploring
+
+SIGGRAPH Posters ’24, July 27–August 01, 2024, Denver, CO, USA Lee and Chi
+subjective consciousness through the process of reading with the
+participant’s eyes, allowing personal consciousness to be released.
+We also pay homage to René Magritte’s "The False Mirror, " [Magritte
+1929] which symbolizes the eye’s role in expressing. We draw from
+Wittgenstein’s "Tractatus Logico-Philosophicus" [Wittgenstein and
+Monk 2013] and "Philosophical Investigations" [O’Sullivan 2017] to
+investigate the limitations and utility of language, exploring how
+language serves as a carrier for consciousness. In designing the read-
+ing material, we reference Wittgenstein’s "Language Games" and
+"Family Resemblances," which underscore the inherent polysemy
+of language and its contextual dependencies.
+Figure 2: The design of reading materials, particularly
+through dynamically changes in text style such as font size
+and background color, serves as a strategy for visual cues
+that directs the participant’s gaze.
+To gather reading data, we employ WebGazer.js [Papoutsaki et al .
+2016], an eye-tracking technology, allowing us to capture where
+and how long a participant focuses on specific text. Our work
+uses dynamic text styling to guide the participant’s attention. (See
+Figure 2). For instance, when a word is focused on, it is magnified;
+if the focus persists for one second, a black background appears
+to indicate emphasis; and if the other words related to the same
+"Language game" are highlighted with a gray background. The
+word is stored if the focus continues for 1.5 seconds or more (See
+Figure 2). This system not only enhances the reading experience
+by providing intuitive visual cues but also facilitates the effective
+extraction of data for consciousness research.
+After capturing data, it is transmitted to a machine that simulates
+the participant’s subjective consciousness and transforms it into
+visual artwork (See Figure 1). We employ the text-to-image model
+DALL ·E [Ramesh et al .2021] to convert consciousness into visual
+forms, enabling participants to observe the flow and transformation
+of consciousness visually. This process mirrors the way language
+interprets the world; humans use language and formulas to un-
+derstand the world, but third-person descriptions can’t fully grasp
+first-person experiences. Thus, we believe that changes relate only
+to its form, not its essence, which remains subjective and individual.
+3 EXHIBITION
+The "Illusory Eyescape" exhibition takes participants through a
+four-stage experiential process: entry, reading materials, viewing
+artworks, and either repeating or concluding the experience. As
+they read the on-screen materials, the system tracks their eye move-
+ments and extracts data, which serves as input for a text-to-imagemodel. Subsequently, the results from this model are displayed on
+the main screen and within the artworks, allowing participants to
+appreciate and reflect on the generated visual pieces. These art-
+works can, in turn, influence the participants’ consciousness. At
+the end, participants can choose to continue reading to influence
+the next turn, enjoy the artworks, or end their experience.
+This interaction creates a dynamic setting to explore conscious-
+ness. Participants generally experience real-time transformations
+of thoughts into images, although reactions vary on whether the
+machine-generated images meet their expectations. This variation
+underscores the subjective nature of human consciousness and the
+interpretive challenges faced by machines. Through the "Illusory
+Eyescape" exhibition, participants directly experience and reflect on
+the differences between human and machine consciousness, leading
+to a deeper understanding of how both perceive and interact with
+art.
+Figure 3: Photographs of the "Illusory Eyescape" Exhibition.
+4 CONCLUSION AND FUTURE WORK
+The proposed installation aligns with the current trends in tech-
+nology and art, highlighting the unique power of art to provoke
+thought and challenge existing paradigms. By interacting with the
+installation, the participant becomes part of the creative journey, ex-
+periencing the complexity and richness of human "consciousness,"
+leading them to ponder its essence. Future developments could
+focus on optimizing technology, enhancing the interactive experi-
+ence, and gathering more participant feedback. These efforts will
+further increase the interactivity and engagement of the artworks,
+ultimately enriching the participant’s overall experience.
+ACKNOWLEDGMENTS
+We thank Prof. Ya-Lun Tao for his valuable insights. This work
+was supported by The National Science and Technology Council,
+Taiwan, under GRANT No. NSTC 112-2221-E-004-009-MY2.
+REFERENCES
+René Magritte. 1929. The False Mirror . https://www.moma.org/collection/works/78938
+Accessed on April 22, 2024.
+Michael O’Sullivan. 2017. An Analysis of Ludwig Wittgenstein’s Philosophical Investiga-
+tions . Macat Library.
+Alexandra Papoutsaki, Patsorn Sangkloy, James Laskey, Nediyana Daskalova, Jeff
+Huang, and James Hays. 2016. WebGazer: Scalable Webcam Eye Tracking Using User
+Interactions. In Proceedings of the 25th International Joint Conference on Artificial
+Intelligence (IJCAI) . AAAI, 3839–3845.
+Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford,
+Mark Chen, and Ilya Sutskever. 2021. Zero-shot text-to-image generation. (2021),
+8821–8831.
+Ludwig Wittgenstein and Ray Monk. 2013. Tractatus logico-philosophicus . Routledge.

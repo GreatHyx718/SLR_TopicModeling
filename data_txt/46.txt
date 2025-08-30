@@ -1,0 +1,686 @@
+Found Footage from the Nuclear Protection National Parks
+Kay Kender∗
+Crip Collective || Human-Computer Interaction Group
+TU Wien
+Vienna, Austria
+silvia-kay.kender@tuwien.ac.atEkat Osipova∗
+Crip Collective || Human-Computer Interaction Group
+TU Wien
+Vienna, Austria
+ekaterina.osipova@tuwien.ac.at
+Figure 1: Nuclear Protection National Parks - welcome to the future of conservation.
+Abstract
+1. We are destroying nature. 2. We do not know where to store our
+radioactive waste. 3. In Chernobyl, wildlife seems to be thriving.
+We have connected these three considerations in a Found Footage
+design fiction exploring a near-future of an Austria that has put its
+hope for an ecologically just and sustainable future into nuclear
+waste disposal sites turned national parks protected by radiation.
+This report displays artefacts from the ongoing project and dis-
+cusses our design process, insights and learnings around Found
+Footage as a design fiction method to pose critical questions about
+the emotional factors of technology futures.
+CCS Concepts
+•Human-centered computing →HCI design and evaluation
+methods ;•Social and professional topics →Professional topics .
+∗Both authors contributed equally to this research.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+CHI EA ’25, Yokohama, Japan
+©2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1395-8/25/04
+https://doi.org/10.1145/3706599.3716211Keywords
+climate justice, design fiction, found footage, generative AI, ecology,
+planet-centered design, more-than-human design
+ACM Reference Format:
+Kay Kender and Ekat Osipova. 2025. Found Footage from the Nuclear Protec-
+tion National Parks. In Extended Abstracts of the CHI Conference on Human
+Factors in Computing Systems (CHI EA ’25), April 26–May 01, 2025, Yokohama,
+Japan. ACM, New York, NY, USA, 11 pages. https://doi.org/10.1145/3706599.
+3716211
+1 Introduction
+“In the year 2030, overwhelmed by the exacerbating en-
+ergy crisis propelled by escalating geopolitical conflicts
+and environmental degradation, the Austrian govern-
+ment approved a historical constitutional amendment:
+not only was the paragraph prohibiting nuclear energy
+removed entirely; nuclear energy was rendered a con-
+stitutional right.
+As demands for a solution to the ever-amassing piles
+of nuclear waste grew louder, a lucrative planet-centric
+opportunity presented itself...”
+At first glance, nature conservation seems like an act of allyship
+towards other species: against all forces of the powers that be, we
+generously place parts of nature under protected status. However,
+upon closer inspection, our shrewd humanity reveals itself in the
+
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kay Kender and Ekat Osipova
+Figure 2: Screenshot of a blog post from the ATomik website, 13.01.2040.
+reasons behind, and the ways in which we enact these conservator-
+ships: natural areas are often protected because they are of some
+value to humans, and are often protected inconsistently. Those
+parts deemed less important (i.e., with fewer human allies) are left
+vulnerable, and even those under some form of natural protection
+are still exposed to harms not included in whatever legal definition
+they have been assigned (e.g. [ 27]), not to mention global harms
+like climate change and pollution (e.g. [12]).
+In an exploratory search for spaces where other species thrive
+without human interference, we came across a documentary of
+the Chernobyl exclusion zone [ 4] and were intrigued by the aspect
+that this zone is protected for the unusual reason that it has been
+rendered hazardous for humans to enter due to radioactive con-
+tamination caused by the 1986 accident [ 6]. In a 2020 report on an
+ongoing conservation project in the 30-km Exclusion Zone, the UN
+paraphrase Sergiy Zibtsev, a forestry expert at the National Univer-
+sity of Life and Environmental Sciences of Ukraine, how “it’s ironic
+that it’s taken a nuclear accident to create a richer forest ecosystem
+in the CEZ” [ 45] and quote him elaborating “‘The pine plantations
+that were there in 1986 have given way to more biodiverse primary
+forests, which are more resilient to climate change and wildfires
+and better able to sequester carbon[...]’ ” [ibid].
+Every few years, there is some report or news story on how
+well wildlife seems to be doing in the Exclusion Zone, usually
+by highlighting the numbers of endangered species thriving and
+the high levels of biodiversity, before pointing towards ongoing
+research into understanding what impact radiation actually has in
+the long term (e.g. [ 5,7,21,35]). There is a poetic cruelty to a place
+where plants, animals and microorganisms are thriving because of
+humans, by our own (un)doing, are excluded under threat of deadly
+bodily harm. Is this what it takes to finally allow nature to be?
+In the year 2020, the European Commission (EC) commenced a
+second legal process against the Austrian government for their lack
+of a national strategy for nuclear waste disposal [ 39]. While Austria
+responded by establishing a national board tasked with tackling
+this issue, an immediate solution was still to be anticipated at the
+time of beginning this project.In this pictorial, we invite you to descend into the world of
+Nuclear Protection National Parks , a Found Footage collection envi-
+sioning an Austria where national environmental agencies work to-
+gether with nuclear energy companies to create permanent wilder-
+ness areas by storing radioactive waste in our most treasured na-
+tional parks. Using fictional artefacts that invoke high degrees of
+realism [ 15], we explore how this decision is received by the gen-
+eral public a few years down the line, how the Nuclear Protection
+National Parks affect Austrian rural life and the tourism industry,
+and how different political factions weaponise this new system
+of energy creation alongside nature conservation for their own
+ideological agendas. We frame this material by a meta-discussion,
+in which we reflect on the questions the footage so far evoked in
+both design process and initial audience, and share our method-
+ological insights around Found Footage as a method for exploring
+techno-political futures.
+2 Methodology
+We developed the initial project idea as a project for the PhD
+seminar Designing Differently, Imagining Collaboratively: The Need
+for Socio-Technical Alternatives held by Ann Light at TU Wien in
+spring 2023, focusing on planet-centricity as relationality with non-
+humans [ 29,30] and touching on topics from more-than-human
+design [ 13,17]. We took this direction of thought to the extreme by
+not speaking for nature from a human-centric value system, instead
+reversing current design priorities: our project explores the com-
+plexities of designing a system that favours nature’s thriving at the
+cost of human endangerment. Aiming to consider what this reversal
+of values may mean in practice, yet problematise late-stage capital-
+ism values as a whole, the question guiding our design stories is:
+“What if the Austrian government seized the issue of nuclear
+waste storage as an opportunity for nature conservation? ”
+The following section delves into our process of exploring this
+question through design fictional world-building by creating Found
+Footage artefacts. We begin with discussing our choice of this design
+fictional format by outlining the potential of Found Footage.
+Found Footage from the Nuclear Protection National Parks CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+Figure 3: Left: Poster promoting a “return to balance in the peaceful nature” of Nuclear Protection National Park Hohe
+Tauern. Right: Answer poster “Discover nature?...but safely!” (=“but of course”, German pun) by the Austrian Ministry for
+Climate, Environment, Energy, Mobility, Innovation and Technology, warning about the necessity to use protective and certified
+protective gear and visit the courses on safety in the radiation zones.
+2.1 Fabulating Design Fiction through Found
+Footage
+Design fiction is particularly suitable for envisioning new techno-
+futures, as situating technologies “within a narrative forces us to
+grapple with questions of ethics, values, social perspectives, causal-
+ity, politics, psychology, and emotions" [ 44, p. 22], and thus has
+a long-established tradition in Human-Computer Interaction re-
+search and practice, often applied in speculative design imaginaries
+(with the terms ‘design fiction’ and ‘speculative design’ sometimes
+used interchangeably) and participatory design [ 18]. Related work
+in this vein encompasses, for instance, explorations of communal
+energy futures via hybrid digital board game elements [ 23], specu-
+lations on a more-than-human economic ecosystem around trash
+[32], or speculative prototypes for navigating the Chernobyl Exclu-
+sion Zone [ 42]. While many of these anticipatory and speculative
+approaches centre concrete, closed scenarios in a possible future
+(e.g., [ 11]), we follow the call to embrace counterfactuality and
+open-endedness in our explorations [28].A frequent criticism of design fictions is that they are (especially
+in the speculative tradition) often intellectualised and confined to
+art galleries and academic discussions [ 18,46]. We therefore sought
+to make our artefacts and world straightforward, pop cultural, lo-fi
+and fun. With this aim, we decided to frame our project as a Found
+Footage collection—inspired by/based on the Mystery Flesh Pit
+National Park1online world building project [40].
+Commonly associated with the horror film genre, Found Footage
+is a storytelling technique via fictional artefacts that are presented
+to the audience as non-fictional documentation material of events
+with little to no mediation (usually without acknowledging the
+fiction) [ 15]. Most commonly, the artefacts associated with Found
+Footage are staged video and audio recordings2[15,31], but can
+1https://www.mysteryfleshpitnationalpark.com/ (last accessed 2024-11-27).
+2A famous example being the horror movie “The Blair Witch Project" [15]
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kay Kender and Ekat Osipova
+Figure 4: Front and back of a page ripped out of Vogue magazine & newspaper cutout, dates unknown.
+also encompass fake documents, newspaper clippings, advertis-
+ing posters, chat logs, scribbled notes, etc.3. Presenting material
+without much mediation by narrators beyond a loose connective
+framing encourages audiences to closely examine artefacts to un-
+cover the overarching story, and the world the story is set in, piece
+by piece—a mode of engagement fostering problem-solving and crit-
+ical thinking as audiences fill in the world and story blanks between
+artefacts. Key to the allure of—and apprehension evoked by—Found
+Footage storytelling is the use of aesthetics and media familiar to
+the audience’s everyday life. This not only makes the fiction more
+believable, but is also a particularly accessible and immersive for-
+mat [ 22,31]. Besides being highly accessible through referencing
+familiar formats, concepts and situations, such as brands, newspa-
+pers, or everyday items, Found Footage lends itself to an ongoing,
+open-ended project that includes different types of media, creating
+opportunities for not only us as the original authors to add to it,
+but potentially others to get involved and thus engage more deeply
+with the topic. Despite all these qualities, Found Footage has not
+gained wide foothold in HCI—so far, the only explicit instance of
+working with the logics of Found Footage is presented by one of the
+authors who appropriated Found Footage as an autoethnographic
+method suited to autistic embodied ways of knowing [25].
+We apply genre to Found Footage to further facilitate familiarity
+and thus accessibility. Setting our design fiction in a late-stage capi-
+talist logic (and staying true to the genre of origin), we played with
+the genre of grimdark4, which features elements such as dystopia,
+hyper-violence, the bleak and the macabre (sometimes fused with
+3Examples aside from the aforementioned online Found Footage collection “Mystery
+Flesh Pit National Park" [40] are books like “Found: An Anthology of Found Footage
+Horror Stories" [14] or Podcasts like “The White Vault" [43].
+4Shorthand for “grim darkness,” popularised as a genre term via the tagline of the
+dystopian sci-fi tabletop miniature game Warhammer 40k: “In the grim darkness of
+the far future, there is only war” [1].satire) that can be harnessed to reflect on the horrors, absurdi-
+ties and moral ambiguities of the present real world [ 41]. Such a
+gleefully spine-chilling setting can then be contrasted by keeping
+the emotional tone of artefacts humorous and absurdist—rather
+than horror and dread, artefacts can elicit feelings such as humility
+and empathy by contrasting the dark with the light, and evoke “a
+glimpse of more-than-human connection and a utopian yearning
+for something beyond mere glimpses” [30].
+2.2 Design Process, and a Note on AI
+The project lore and artefacts took shape over several iterative
+brainstorming, conceptualising and making sessions. In these, we
+discussed a range of general themes we address with our design
+fiction, and speculated on how specific areas of this fictional world,
+such as social structures, culture, politics or the economy, would be
+affected by this nature conservation step over the course of several
+years, visually mind-mapping our reflections and collecting initial
+artefact ideas in the process. Parallel to this, we explored the world
+by creating sketch models of artefacts in different media, not all
+of which made it into the Found Footage collection. Towards the
+end, we decided on the visual and textual Found Footage material
+suitable to represent the discussed themes and tensions. We then
+created artefacts to resemble known media as closely as possible—
+our references, and the materials used for this, are described more
+closely in Appendix A. This process was new to us: while specu-
+lative, critical and provocative designs commonly have believable
+contents, but unrealistic presentations, found footage requires the
+reverse: hyper-realistic presentation of content that may be quite
+unbelievable. It was a different experience than we were used to in
+our previous work with speculative and critical artefacts, as it felt
+akin to uncovering artefacts from the past, rather than exploring
+potential futures.
+Found Footage from the Nuclear Protection National Parks CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+Figure 5: Collection of police evidence regarding a danger tourism influencer using the handles glitzy/glitterbabe, under
+observation by the state security and intelligence service.
+We further gained insights regarding the usage of AI to create
+such artefacts, and would like to critically reflect on this here. For
+the refined footage used in the final collection, we created most of
+the visual material with the generative artificial intelligence (AI)
+program Midjourney. Our main incentive to use AI was its acces-
+sibility for quickly materializing design ideas. Even with limited
+time and resources (read: money to buy expensive photography
+equipment, design software, and just-the-right stock material), we
+were able to generate a wide range of diverse and high-resolution
+material. However, at the time of designing the Found Footage col-
+lection, we were rather oblivious to the ethical issues of working
+with AI. Since then, the ramifications of AI technologies on our
+planet5[8], their dependence on human labour rooted in extrac-
+tivist, neocolonialist logics of human exploitation [ 8,47], and the
+nonconsensual use of artists’ work as training data [ 24,38] led us
+to the decisions to abstain from using generative AI in our work
+and future additions to this project.
+We may have reduced or ceased our AI usage regardless: work-
+ing with AI did not provide us as much creative freedom as we
+initially anticipated due to the encoded bias and lack of diversity
+in datasets used for algorithm training [ 8,38] not only limiting
+design possibilities, but actually pushing it into a specific direction.
+A design process often involves experimenting with material to
+get inspired or find new, unexpected directions to pursue; thus, if
+the material at one’s disposal is extremely good at, say, magazine
+fashion and runway style images, then one is, of course, guided to
+feature those more heavily. Despite the whole point of our project
+5Ironic for a project that critically engages with, and deeply cares about, nature
+conservation.being to deliberately play with the familiarity of specific aesthetics
+(i.e., to some degree copying and regurgitating what exists and what
+has been done time and again in the same fashion, pun intended),
+AI generation quickly reached its limits when we had a very spe-
+cific original idea. For instance, we found it impossible to generate
+a stock photo style image of an office worker throwing a potted
+plant out of the window and hence, had to resort to other means of
+visualizing the scenario. When we imagine something original, the
+realisation thereof is often restricted by what is actually embodied
+in the training data.
+3 Artefacts in the Found Footage Collection
+We initially presented the Found Footage collection in a small-scale,
+immersive exhibition within the context of our course. The narra-
+tive framework of the exhibition was the criminal investigation of
+a foiled ecocidal attack plot aimed at a Nuclear Protection National
+Park, with an extremist beauty vlogger as core suspect. As part of
+the imagined forensic team, the exhibition visitors were encouraged
+to examine the artefacts, thus immersing themselves in the fictional
+world. The exhibition was concluded by a discussion of the audi-
+ence’s impressions, which we documented directly after presenting
+from memory, resulting in the reflective questions presented in
+section 4. To disseminate to audiences outside of academia, and
+continue the project, we exhibit the living Found Footage collection
+on Tumblr6.
+Our artefacts scattered throughout this document invite you, the
+reader, to witness scenes from the story of one possible version of a
+6https://nuclearparks.tumblr.com/
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kay Kender and Ekat Osipova
+Figure 6: Left: Newspaper cutouts, date unknown. Right: Newspaper article, 20.03.2052.
+planet-centric small European country, in the hope of connecting to
+existing issues you may be aware of, and providing food for thought
+about what kind of relationship to nature you (can) have, and want
+to build in the future. If you have not been doing so already, we
+suggest you take some time to look at them before reading
+on.Below, we move on to the themes addressed by this project,
+presented as questions we addressed explicitly with the project, as
+well as additional, unexpected questions raised by audiences so far.
+4 Questions provoked by this Project
+4.1 Questions we asked in designing our
+artefacts
+4.1.1 At what pace do disasters have to unfold to be perceived as
+such? There is something very strange to us about how we are
+taken by the eruptive, the immediate and spectacular, yet manage
+to ignore the slow violence and the slow disasters of the ongoing
+climate crisis or environmental pollution that are no less irreversible
+and detrimental to our planet [20, 26, 34].
+4.1.2 Who decides what parts of nature need to be conserved/protected
+and in whose interest(s)? More often than not, nature preservation
+is motivated by values rooted in white colonial Western hegemony,
+global power-relations and capitalism [16, 48].4.1.3 How do local decisions interplay with the globalized world?
+Pollution and climate change do not halt at the boundaries of na-
+tional reserves. Likewise, radical counteractive measures are not
+contained within political borders of nation-states.
+4.1.4 Can humans only change their behavior/advocate for some-
+thing when there is a benefit/gain? And should humans change their
+behaviour or advocate for something they have nothing to gain
+from? What is our stance on profit-oriented tactics (e.g., greenwash-
+ing) that have accidental positive effects? And (how) can humans
+be kept from destroying/invading nature? Through advocacy for
+ethical values. . . or through (the peril of) death?
+4.1.5 When does something become a ‘new normal’? At what point
+do we get used to, accept or acquiesce to a certain status quo? At
+what point do we just stop caring or give up?
+4.1.6 What do increasingly blurry boundaries between companies
+and governments mean for decision-making over human and non-
+human lives? Especially given that some governments eagerly jump
+on corporate innovation bandwagons without properly evaluating
+their long-term impacts on nature, humans, or society.
+Found Footage from the Nuclear Protection National Parks CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+Figure 7: Police Evidence Photograph of stickers found in HRA Terrorist outpost.
+4.2 Questions our audience asked inspired by
+our artefacts
+4.2.1 What if ‘the Nazis’ win? Our audience initially strongly re-
+jected our project, perceiving it as a proposal despite our presenting
+it as fiction, and strongly opposing the scenario as such. Amused
+reactions to the extremist viewpoints at play in our world quickly
+gave way to discussions of real-life politics, and how such view-
+points are being increasingly accepted. Extremist ideologies tend to
+spur horrible dystopian fictions, but in reality, such ideologies can
+become normalised and rationalised in the blink of an eye (indeed,
+only last year, the Austrian right-wing party FPÖ won the elections
+[36]).
+4.2.2 Could this be real? Our audience was shocked at the fea-
+sibility of the project, from the way our fictional company CEO,
+newspapers and people online talked about it. They were reminded
+of very real cases connected to climate change, exploitation of hu-
+mans and non-humans, and other related issues, and how these
+were talked about by different actors. Some were confronted by
+populist slogans on stickers, and were unsure of to what extent to
+sympathise with the different political players.
+4.2.3 Are you serious? Given the context of planet-centric design,
+our initial audience were unsure whether we were earnestly suggest-
+ingNuclear Protection National Parks as a desirable future, resulting
+in an earnest debate on whether this future would be an ethical
+choice.
+5 Discussion
+Shatteringly, while we thought we were crudely exaggerating many
+things, our audience’s comparing them with similar events or post-
+ings in reality made us realise that what we considered exaggerated,
+sensationalist, unrealistic pastiche turned out to often be more sub-
+tle, boring and believable than actual similar real-life events and
+communications. This was an important learning for us: while the
+Found Footage genre needs to be based on familiar real-life contexts,
+it requires enough modification to not be immediately recognised
+as the mirror and provocation of reality it is: only by rendering
+our design artefacts sufficiently detached from reality and thus less
+loaded, they remain in the space of being playful, engaging and,ultimately, fun. If Found Footage becomes too real, it may no longer
+serve as a useful basis for discussions by proxy.
+Another unexpected insight came from our audience’s initial
+strong negative emotional reaction: our scenario was immediately
+challenged, our world written off as dystopian and our design as
+not optimistic enough. Once we reassured our audience that the
+project was not a proposal, but an exploration, upon engaging and
+discussing in a more nuanced manner, some found several benefits
+to the scenario. The initially extreme reaction surprised us and led
+to the insight that, immersed in our fictional world and exploring
+the ways in which different factions in this world perceived the
+Nuclear Protection National Parks on the spectrum between “good”
+and “bad”, we had somehow changed alignment over time towards
+sympathising with those who accepted the Nuclear Protection Na-
+tional Parks as something rather desirable and friendly on the whole,
+possibly slightly brainwashing ourselves, as centering the thriving
+of other species rather than only that of humans is a normative
+value of our fictional world that we are able to share to some extent.
+We like how this problematises more-than-human and planet-
+centered design. Design explores the way in which values and
+trends we adopt shape (more sustainable) futures; and which of
+these futures would be desirable to humans (and to which humans
+they would be desirable). What we, much like our audience, ini-
+tially thought was sort of dystopian and “edgy”, in our process of
+rationalising it from different points of views, in the end perceived
+as normal. Among other interpretations, this design fiction could
+also be read as a cautionary tale on techno-optimism, especially
+compared to past and current real-life cases of technologies that
+are enthusiastically adopted and have far-reaching consequences
+to many aspects of our lives, as is the case most recently with AI
+(exemplified among other things by our own uncritical embracing
+of this technology as described in 2.2).
+6 Conclusion
+Making ethical debates about human relationships to nature under
+global capitalism accessible to a wide audience was a main consid-
+eration in choosing our medium and format. Quickly tying back
+into real-world current debates, the project highlights the necessity
+for constant democratic vigilance on a global scale, whatever pos-
+sible future may come. Our initial audience confirmed to us how
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kay Kender and Ekat Osipova
+presenting ideas in the frame of media and formats we know from
+different parts of everyday life requires less interpretive effort to
+imagine how a certain world or scenario would be communicated
+or discussed if it were real [ 22]. By creating or perusing artefacts in
+a world so close to our own, and recognising typical populist as well
+as corporate talking points, our audience were quickly able to get
+into nuanced discussions of a world they just heard of. Further, we
+considered that Genre-ification played a significant role in rooting
+these values emotionally: we often disregard the critical role emo-
+tions play in shaping our political value systems, on which design
+in particular has a strong influence as an evocative narrative force,
+on an often subliminal level. The emotional atmosphere of a project
+can leave a lasting impact that is norm-making and value-shaping,
+especially if engagement should end with the first impression of
+the overall vibe.
+Our fiction is set in a world where the narrative that humans are,
+by nature, the problem, has permeated the centre of society, ignor-
+ing capitalism as the core of the problem and instead, in populist
+fashion, blaming human nature in an essentialist, unforgiving way.
+We aim to continue our Found Footage project, and are excited to
+explore further the depths of the Nuclear Protection National Parks .
+Coupling this anti-human belief system with the questions raised
+by the audience, we want to examine next how the acceptance
+of our fictional narrative could open new gateways into Nazism,
+which is already strongly tied to closeness to nature [ 10]. Ecofascist
+narratives quickly perpetuate racist, white supremacist and genoci-
+dal aspirations [10], while ignoring capitalism as the problem and
+derailing the fact that those disempowered by the same ideologies
+(and capitalism at large), e.g., indigenous, racialised, poor or invol-
+untarily displaced communities, are the ones disproportionately
+burdened by environmental destruction [ 20,33,34,37]. If more-
+than-human planet-centred design is not spearheaded by those
+communities, who is to say what horrifying futures may result?
+We believe this project exemplifies the untapped potential of
+Found Footage as a method for HCI research. The relative closeness
+to reality and systemic focus gives Found Footage unique advan-
+tages to other speculative design formats, while maintainance of a
+proxy distances participants from real-world experiences and exper-
+tise just enough to facilitate accessible technopolitical debates. We
+hope to see more projects like this in the future—we have also be-
+gun applying Found Footage in our teaching, and would be excited
+to see others do so as well.
+Acknowledgments
+This work has been funded by the European Union (ERC, AC-
+CESSTECH, 101117519). Views and opinions expressed are however
+those of the author(s) only and do not necessarily reflect those of
+the European Union or the European Research Council. Neither the
+European Union nor the granting authority can be held responsible
+for them.
+References
+[1][n. d.]. grimdark. https://knowyourmeme.com/memes/grimdark last accessed
+2024-11-25.
+[2] [n. d.]. Pexels. http://pexels.com/license last accessed 2024-01-17.
+[3] [n. d.]. Tweetgen. https://www.tweetgen.com last accessed 2024-01-17.
+[4]2016. 30 Years After Chernobyl, Nature Is Thriving. https://www.youtube.com/
+watch?v=E-h15wX14po last accessed 2024-01-17.
+[5]2019. In der Sperrzone von Tschernobyl blüht das Leben. Der Standard
+(2019). https://www.derstandard.de/story/2000097496084/in-der-sperrzone-von-
+tschernobyl-blueht-das-leben
+[6]International Atomic Energy Agency. 1996. One Decade after Chernobyl:
+Summing up the Consequences of the Accident. Summary of the Confer-
+ence Results (1996), 3–17. https://www.iaea.org/publications/5087/one-
+decade-after-chernobyl-summing-up-the-consequences-of-the-accidentISBN:
+9789201037961
+[7]Tom Allan. 2019. Chernobyl: the wildlife haven created when people left. The
+Guardian (2019). https://www.theguardian.com/travel/2019/may/28/chernobyl-
+wildlife-haven-tour-belarus-created-nuclear-disasterzone
+[8]Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language Models Be
+Too Big?. In Proceedings of the 2021 ACM Conference on Fairness, Accountability,
+and Transparency (Virtual Event, Canada) (FAccT ’21) . Association for Comput-
+ing Machinery, New York, NY, USA, 610–623. https://doi.org/10.1145/3442188.
+3445922
+[9]Boris Blahak. 2021. “Daham statt Islam”: Zur funktionalen Einbindung von Dialek-
+tstrukturen in die Sprache politischer Werbeplakate. Zeitschrift für Dialektologie
+und Linguistik 88, 1/2 (2021), 21–56.
+[10] Kristy Campion. 2023. Defining Ecofascism: Historical Foundations and Contem-
+porary Interpretations in the Extreme Right. Terrorism and Political Violence 35,
+4 (2023). https://doi.org/10.1080/09546553.2021.1987895
+[11] Stuart Candy and Jake Dunagan. 2017. Designing an Experiential Scenario: The
+People Who Vanished. Futures 86 (Feb. 2017), 136–153. https://doi.org/10.1016/j.
+futures.2016.05.006
+[12] European Commission. 2023. EU action against microplastics. Publications Office
+of the European Union. https://doi.org/10.2779/917472
+[13] Aykut Coskun, Nazli Cila, Iohanna Nicenboim, Christopher Frauenberger, Ron
+Wakkary, Marc Hassenzahl, Clara Mancini, Elisa Giaccardi, and Laura Forlano.
+2022. More-than-human Concepts, Methodologies, and Practices in HCI. In Ex-
+tended Abstracts of the 2022 CHI Conference on Human Factors in Computing Sys-
+tems (New Orleans, LA, USA) (CHI EA ’22) . Association for Computing Machinery,
+New York, NY, USA, Article 150, 5 pages. https://doi.org/10.1145/3491101.3516503
+[14] Andrew Cull and Iglesias Gabino. 2022. Found: An Anthology of Found Footage
+Horror Stories . Vermillion To One.
+[15] Stephen Elridge. 2023. Found Footage. Encyclopædia Britannica. https://www.
+britannica.com/art/found-footage last accessed 2024-01-17.
+[16] Bruce Erickson. 2018. Anthropocene futures: Linking colonialism and environ-
+mentalism in an age of crisis. Environment and Planning D: Society and Space 1
+(2018), 111–128. https://doi.org/10.1177/0263775818806514
+[17] Eva Eriksson, Daisy Yoo, Tilde Bekker, and Elisabet M. Nilsson. 2024. More-than-
+Human Perspectives in Human-Computer Interaction Research: A Scoping Re-
+view. In Proceedings of the 13th Nordic Conference on Human-Computer Interaction
+(Uppsala, Sweden) (NordiCHI ’24) . Association for Computing Machinery, New
+York, NY, USA, Article 72, 18 pages. https://doi.org/10.1145/3679318.3685408
+[18] Pedro Gil Farias, Roy Bendor, and Bregje F. van Eekelen. 2022. Social dreaming
+together: A critical exploration of participatory speculative design. In Proceedings
+of the Participatory Design Conference 2022 - Volume 2 (Newcastle upon Tyne,
+United Kingdom) (PDC ’22) . Association for Computing Machinery, New York,
+NY, USA, 147–154. https://doi.org/10.1145/3537797.3537826
+[19] Games Workshop. 2002. Index Astarted I.
+[20] Carmella Gray-Cosgrove, Max Liboiron, and John Lepawsky. 2015. The Chal-
+lenges of Temporality to Depollution & Remediation. S.A.P.I.E.N.S 8, 1 (2015).
+http://journals.openedition.org/sapiens/1740
+[21] GrrlScientist. 2015. What happened to wildlife when Chernobyl drove humans
+out? It thrived. The Guardian (2015). https://www.theguardian.com/science/
+grrlscientist/2015/oct/05/what-happened-to-wildlife-when-chernobyl-drove-
+humans-out-it-thrived
+[22] Alexandra Heller-Nicholas. 2014. Found Footage Horror Films: Fear and the Ap-
+pearance of Reality. McFarland & company, Inc.
+[23] Victor Vadmand Jensen, Emmelie Christensen, Nicolai Brodersen Hansen, and
+Rikke Hagensby Jensen. 2024. A Year in Energy: Imagining Energy Community
+Participation with a Collaborative Design Fiction. In Proceedings of the 13th Nordic
+Conference on Human-Computer Interaction (Uppsala, Sweden) (NordiCHI ’24) .
+Association for Computing Machinery, New York, NY, USA, Article 22, 15 pages.
+https://doi.org/10.1145/3679318.3685355
+[24] Harry H. Jiang, Lauren Brown, Jessica Cheng, Mehtab Khan, Abhishek Gupta,
+Deja Workman, Alex Hanna, Johnathan Flowers, and Timnit Gebru. 2023. AI
+Art and its Impact on Artists. In Proceedings of the 2023 AAAI/ACM Conference
+Found Footage from the Nuclear Protection National Parks CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+Figure 8: Twitter Thread, 01.06.2052
+CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan Kay Kender and Ekat Osipova
+on AI, Ethics, and Society (Montréal, QC, Canada) (AIES ’23) . Association for
+Computing Machinery, New York, NY, USA, 363–374. https://doi.org/10.1145/
+3600211.3604681
+[25] Kay Kender and Katta Spiel. 2023. Banal Autistic Social Media: A Found Footage
+Autoethnography. In Proceedings of the 25th International ACM SIGACCESS Con-
+ference on Computers and Accessibility (New York, NY, USA) (ASSETS ’23) . As-
+sociation for Computing Machinery, New York, NY, USA, Article 101, 7 pages.
+https://doi.org/10.1145/3597638.3614552
+[26] Scott Gabriel Knowles. 2014. Learning from Disaster? The History of Technology
+and the Future of Disaster Research. Technology and Culture 4 (2014), 773–784.
+[27] D. Krutzler. 2023. Streit um Lobautunnel zwischen ÖVP und Grünen setzt sich
+2024 fort. Der Standard (2023). https://www.derstandard.at/story/3000000201290/
+streit-um-lobautunnel-zwischen-oevp-und-gruenen-setzt-sich-2024-fort
+[28] Ann Light. 2021. Collaborative Speculation: Anticipation, Inclusion and Design-
+ing Counterfactual Futures for Appropriation. Futures 134 (Dec. 2021), 102855.
+https://doi.org/10.1016/j.futures.2021.102855
+[29] Ann Light. 2022. Ecologies of subversion: troubling interaction design for climate
+care. Interactions 29, 1 (Jan. 2022), 34–38. https://doi.org/10.1145/3501301
+[30] Ann Light. 2023. In Dialogue with the More-than-Human: Affective Prefiguration
+in Encounters with Others. Interactions 30, 4 (June 2023), 24–27. https://doi.org/
+10.1145/3599956
+[31] Neil Mcrobert. 2015. Mimesis of Media: Found Footage Cinema and the Horror of
+the Real. Gothic Studies 17, 2 (2015), 137–150. https://doi.org/10.7227/GS.17.2.9
+[32] Sara Milkes Espinosa and Carl Disalvo. 2022. Trash Work Futures: A Design
+Fiction. In Proceedings of the 1st Annual Meeting of the Symposium on Human-
+Computer Interaction for Work (Durham, NH, USA) (CHIWORK ’22) . Association
+for Computing Machinery, New York, NY, USA, Article 15, 35 pages. https:
+//doi.org/10.1145/3533406.3533422
+[33] Energy Justice Network. [n. d.]. Environmental Justice / Environmental Racism.
+https://www.ejnet.org/ej/
+[34] Rob Nixon. 2011. Slow Violence and the Environmentalism of the Poor . Harvard
+University Press.
+[35] Roland Oliphant. 2016. 30 years after Chernobyl disaster, wildlife is flourishing
+in radioactive wasteland. The Telegraph (2016). https://www.telegraph.co.uk/
+news/2016/04/23/wildlife-returns-to-radioactive-wasteland-of-chernobyl/
+[36] Leonardo Pape and dpa. 2024. Österreich: FPÖ gewinnt Nationalratswahl in
+Österreich. Die Zeit (Sept. 2024). https://www.zeit.de/politik/ausland/2024-
+09/nationalratswahl-oesterreich-vorlaeugiges-endergebnis-sieg-fpoe
+[37] Amy Patronella and Saharra Griffin. 2020. Communities of Color Bear the Brunt
+of Trump’s Anti-Environmental Agenda. https://www.americanprogress.org/
+article/communities-color-bear-brunt-trumps-anti-environmental-agenda/
+[38] Anna Maria Piskopani, Alan Chamberlain, and Carolyn Ten Holter. 2023. Re-
+sponsible AI and the Arts: The Ethical and Legal Implications of AI in the Arts
+and Creative Industries. In Proceedings of the First International Symposium on
+Trustworthy Autonomous Systems (Edinburgh, United Kingdom) (TAS ’23) . As-
+sociation for Computing Machinery, New York, NY, USA, Article 48, 5 pages.
+https://doi.org/10.1145/3597512.3597528
+[39] Johannes Puchner. 2020. Kein Plan, wohin mit dem Atommüll:
+EU-Kommission mahnt Österreich. Der Standard (2020). https:
+//www.derstandard.de/story/2000121397779/kein-plan-wohin-mit-dem-
+atommuell-eu-kommission-mahnt-oesterreich
+[40] Trevor Roberts. [n. d.]. Mystery Flesh Pit National Park. https://www.
+mysteryfleshpitnationalpark.com/ last accessed 2024-11-25.
+[41] Mike Ryder. 2021. Conscripts From Birth: War and Soldiery in the Grim Darkness
+of the Far Future. Fantastika Journal 1 (2021), 47–60.
+[42] Nancy Smith and Danial Qaurooni. 2020. The Inclusion Zone: Grounded Spec-
+ulations in Chernobyl. In Proceedings of the 2020 ACM Designing Interactive
+Systems Conference (Eindhoven, Netherlands) (DIS ’20) . Association for Comput-
+ing Machinery, New York, NY, USA, 1929–1942. https://doi.org/10.1145/3357236.
+3395574
+[43] K.A. Statz and Travis Vengroff. [n. d.]. The White Vault. https://thewhitevault.
+com/ Audio Podcast.
+[44] Theresa Jean Tanenbaum. 2014. Design Fictional Interactions: Why HCI Should
+Care about Stories. interactions 21, 5 (Sept. 2014), 22–23. https://doi.org/10.1145/
+2648414
+[45] UNEP. 2020. How Chernobyl has become an unexpected haven for
+wildlife. United Nations Environment Program: News and Stories (2020).
+https://www.unep.org/news-and-stories/story/how-chernobyl-has-become-
+unexpected-haven-wildlife
+[46] Matt Ward. 2021. Critical about Critical and Speculative Design. https://
+speculativeedu.eu/critical-about-critical-and-speculative-design
+[47] Adrienne Williams, Milagros Miceli, and Timnit Gebru. 2022. The Exploited
+Labor Behind Artificial Intelligence. Noema (Oct. 2022).
+[48] Alexander Zaitchik. 2018. How conservation became colonialism. Foreign Policy
+(2018), 56–63. https://www.jstor.org/stable/26535794A Found Footage Artefact Sources and
+Information
+Below, we provide details on material and meaning of artefacts
+where applicable. Unless stated otherwise, images were generated
+with Midjourney AI. All texts were written by the authors without
+application of AI. All artefacts were layouted by the authors in
+Adobe InDesign, using fonts included in OS unless stated otherwise.
+Figure 1: Cover image taken by first author, logo created by first
+author using Adobe Illustrator. Font: Glitch Goblin (licence: free
+for commercial use) by GGbot.
+Figure 2: No notes.
+Figure 3: Poster 1 (on the left) uses an altered version of the logo
+ofNationalpark Hohe Tauern , a real-life national park in Austria.
+Poster 2 (on the right) uses the real-life logo of the Austrian Min-
+istry for Climate, Environment, Energy, Mobility, Innovation and
+Technology (Bundesministerium für Klimaschutz, Umwelt, Energie,
+Mobilität, Innovation und Technologie) .
+Figure 6: For the newspaper artefacts, we reconstructed the
+visual layout of The Guardian in InDesign, used the real-life logo
+of the Guardian, and took inspiration from the overall writing style
+common to this newspaper https://www.theguardian.com/europe.
+The name Kardashian is a reference to the real-life Kardashian
+family of celebrities (whose aesthetics Midjourney reproduces eerily
+well), however, Kassandra is a fictinal character and not a real
+person.
+Figure 4: We chose a layout style and font similar to those
+frequently seen in Vogue, vaguely replication their logo. Font: Star-
+dom (licence: ITF Free Font License (FFL)) by Indian Type Foundry.
+“Radek Philippe” is based on real-life luxury brand Patek Philippe,
+recreating their style and citing their real-life tagline verbatim.
+Figure 5 and 8: For the website screenshots, we used the online
+fake Tweet generator Tweetgen [ 3] and a free to use Photoshop
+template of a Youtube profile that, despite our best efforts, we
+regrettably can not longer find. We used the online fake Tweet
+generator Tweetgen. As we had stoppd using Midjourney at this
+point, we sourced most our images from pexels, all free to use
+without attribution [2].
+•User profile image for bred: https://www.pexels.com/de-de/
+foto/zwei-braune-gebackene-brote-auf-dem-tisch-209206/
+•plant: https://www.pexels.com/de-de/foto/grunblattrige-zimmerpflanze-
+1048035/
+•make-up: https://www.pexels.com/de-de/foto/schwarz-make-
+up-palette-und-pinsel-set-208052/
+•mug: https://www.pexels.com/de-de/foto/person-die-weissen-
+keramikbecher-halt-1239403/
+•nuclear power plant https://www.pexels.com/de-de/foto/
+niedriges-winkelfoto-von-kernkraftwerksgebauden-die-rauch-
+emittieren-3044470/
+The user profile image for Glitzy is “kitty princess“ by pinky_pink
+https://glitter-graphics.com/graphics/608358, in the public domain
+to the best of pinky_pink’s knowledge.
+Figure 7: The stickers feature the fonts Dark Academia by Céline
+Hurka (licence: free for commercial use), Autobahn by Peter Wiegel
+(licence: OFL), and Chernobyl by Woodcutter BCN (licence: free for
+personal use).
+Found Footage from the Nuclear Protection National Parks CHI EA ’25, April 26–May 01, 2025, Yokohama, Japan
+•The slogan on the yellow sticker is based on the battlecry of
+the Warhammer 40k faction the Dark Angels: “Repent! For
+tomorrow you die!” [19, p. 22].
+•The slogan on the white sticker is a satire on the racist, is-
+lamophobic, and all-round unacceptable campaign slogan
+“Daham statt Islam” (central-middle Bavarian vernacular
+(Mundart), “Home instead of Islam”) used by the right-wing
+populist party FPÖ (Freiheitliche Partei Österreichs, “Free-
+dom Party of Austria”) in the 2006 Austrian legislative elec-
+tion. According to [ 9], using the Mundart “Daham” for thestandard German “Zu Hause”/“Heimat” aims to contrast
+an imaginary collective in opposition to a constructed ‘en-
+emy’ (in this case, Islam). The fictional extremist move-
+ment’s political slogan of our Found Footage project uses the
+Mundart “Baam” for the standard German term “Baum” (tree)
+to rhyme, continuing the approach of alienating ourselves
+from and fearmongering about the other.

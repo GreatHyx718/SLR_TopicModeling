@@ -1,0 +1,638 @@
+Traveling Arts x HCI Sketchbook: Exploring the Intersection 
+Between Artistic Expression and Human-Computer Interaction 
+Makayla Lewis 
+m.m.lewis@kingston.ac.uk 
+Kingston University, London 
+United Kingdom 
+Mauro Toselli 
+mauro.toselli@gmail.com 
+Independent Artist, Italy 
+United Kingdom 
+Josh Urban Davis 
+josh.u.davis.gr@dartmouth.edu 
+Dartmouth Department of Computer 
+Sciences 
+USA 
+Ernesto Priego 
+Ernesto.priego.1@city.ac.uk 
+Centre for HCI Design, City, 
+University of London 
+United Kingdom 
+Eli Blevis 
+eblevis@indiana.edu 
+Luddy School of Informatics, 
+Computing, and Engineering, Indiana 
+University, Bloomington 
+USA 
+Corey Ford 
+c.j.ford@qmul.ac.uk 
+Queen Mary University of London 
+United Kingdom 
+Kirsikka Kaipainen 
+kirsikka.kaipainen@tuni.fi 
+Tampere University 
+Finland 
+Mirjam Palosaari Eladhari 
+mirjam@dsv.su.se 
+Department of Computer and System 
+Sciences, Stockholm University 
+Sweden Miriam Sturdee 
+ms535@st-andrews.ac.uk 
+University of St Andrews 
+United Kingdom 
+John Miers 
+j.miers@kingston.ac.uk 
+Kingston University, London 
+United Kingdom 
+Swen E Gaudl 
+swen.gaudl@ait.gu.se 
+University of Gothenburg 
+Sweden 
+Kim Snooks 
+k.snooks@lancaster.ac.uk 
+Imagination Lancaster (LICA), 
+Lancaster University 
+United Kingdom 
+Nicola Privato 
+nicola@lhi.is 
+Intelligent Instruments Lab, Iceland 
+University of the Arts 
+Iceland 
+Nick Bryan-Kinns 
+n.bryankinns@arts.ac.uk 
+Creative Computing Institute, 
+University of the Arts London 
+United Kingdom 
+Caroline Claisse 
+caroline.claisse@newcastle.ac.uk 
+Open Lab, Newcastle University 
+United Kingdom 
+Anna Troisi 
+a.troisi@arts.ac.uk 
+CCI Creative Computing Institute, 
+University of the Arts London 
+United Kingdom Denise Lengyel 
+Denise.Lengyel@newcastle.ac.uk 
+Open Lab, Newcastle University 
+United Kingdom 
+Violet Owen 
+r.v.owen@lancaster.ac.uk 
+Imagination Lancaster (LICA), 
+Lancaster University 
+United Kingdom 
+Lanxi Xiao 
+tarolancy@gmail.com 
+Academy of Arts & Design, Tsinghua 
+University 
+China 
+Laia Turmo Vidal 
+laiatv@kth.se 
+Dept. Media Technology and 
+Interaction Design, KTH Royal 
+Institute of Technology 
+Sweden 
+Patricia Piedade 
+patricia.piedade@tecnico.ulisboa.pt 
+Interactive Technologies Institute, 
+University of Lisbon 
+Portugal 
+Beatriz Severes 
+beatrizseveres@tecnico.ulisboa.pt 
+Faculty of Exact Sciences and 
+Engineering, University of Madeira 
+Portugal 
+Raksanda Mehnaz Huq 
+raksanda.huq@city.ac.uk 
+Centre for HCI Design, City, 
+University of London 
+United Kingdom 
+Ana O Henriques 
+ana.gfo.henriques@campus.ul.pt 
+Interactive Technologies Institute, 
+University of Lisbon 
+Portugal 
+
+Ar Grek 
+togrek@protonmail.com 
+Independent Researcher 
+Israel 
+Sara Nabil 
+sara.nabil@queensu.ca 
+iStudio Lab, Queen’s University 
+Canada 
+Andrey V. Vlasov 
+avvlasov@hse.ru 
+HSE University 
+Russian Federation 
+Silvia Carderelli-Gronau 
+bristolensemble@gmail.com 
+Dance Department, Bath Spa 
+University 
+United Kingdom Gareth McMurchy 
+g.mcmurchy2@newcastle.ac.uk 
+Open Lab, Newcastle University 
+United Kingdom 
+Jacinta Jardine 
+jjardine@tcd.ie 
+Trinity College Dublin 
+Ireland 
+Yana Knight 
+yana.knight@dsv.su.se 
+DSV, Stockholm University 
+Sweden 
+Claudia Núñez-Pacheco 
+cnunezpacheco@gmail.com 
+Umeå University 
+Sweden 
+Jean-Philippe Rivière 
+riviere-jp@univ-nantes.fr 
+Nantes University 
+France RAY LC 
+LC@raylc.org 
+School of Creative Media, City 
+University of Hong Kong, Hong Kong 
+United Kingdom 
+Robert Collins 
+robert.collins@umu.se 
+Umea University 
+Sweden 
+Michele Cremaschi 
+mcremaschi@inf.unibz.it 
+Free University of Bozen-Bolzano 
+Italy 
+Gisela Reyes-Cruz 
+gisela.reyescruz@nottingham.ac.uk 
+University of Nottingham 
+United Kingdom 
+ABSTRACT 
+When thinking of arts in HCI, one might be tempted to keep one’s 
+eyes focused on prominent realms such as sketching for UX Design 
+and design probes from participants. A closer look shows that prac-
+tices go beyond this, involving a variety of arts-based expressions 
+by researchers, the researched and third parties, e.g. graphic facilita-
+tors. Inspired by Toselli’s Sketchnote Army Travelling Sketchbook, 
+researchers and artists contributed to a ’Travelling Sketchbook 
+for Arts in HCI’, showcasing their arts-based practice in HCI. The 
+resulting sketchbook explores the intersection between HCI and 
+artistic expression, illuminating what it means to use art in HCI. 
+It shows the breadth of Arts in HCI, illustrating the many fruit-
+ful possibilities for extending existing research and dissemination 
+methods in HCI. It also calls into question current practices, which 
+often do not recognise the significance of artist attribution, and, in 
+turn, advocates for equal authorship between principal researchers 
+and contributing artists. 
+Permission to make digital or hard copies of all or part of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for profit or commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for third-party components of this work must be honored. 
+For all other uses, contact the owner/author(s). 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA © 2024 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-0331-7/24/05 
+https://doi.org/10.1145/3613905.3644069 CCS CONCEPTS 
+• Human-centered computing → Human computer interac-
+tion (HCI). 
+KEYWORDS 
+sketching; arts; sketchbooks; video; animation; making; drawing; 
+painting; digital art; 
+ACM Reference Format: 
+Makayla Lewis, Miriam Sturdee, Denise Lengyel, Mauro Toselli, John Miers, 
+Violet Owen, Josh Urban Davis, Swen E Gaudl, Lanxi Xiao, Ernesto Priego, 
+Kim Snooks, Laia Turmo Vidal, Eli Blevis, Nicola Privato, Patricia Piedade, 
+Corey Ford, Nick Bryan-Kinns, Beatriz Severes, Kirsikka Kaipainen, Car-
+oline Claisse, Raksanda Mehnaz Huq, Mirjam Palosaari Eladhari, Anna 
+Troisi, Ana O Henriques, Ar Grek, Gareth McMurchy, RAY LC, Sara Nabil, 
+Jacinta Jardine, Robert Collins, Andrey V. Vlasov, Yana Knight, Michele 
+Cremaschi, Silvia Carderelli-Gronau, Claudia Núñez-Pacheco, Gisela Reyes-
+Cruz, and Jean-Philippe Rivière. 2024. Traveling Arts x HCI Sketchbook: Ex-
+ploring the Intersection Between Artistic Expression and Human-Computer 
+Interaction. In Extended Abstracts of the CHI Conference on Human Factors in 
+Computing Systems (CHI EA ’24), May 11–16, 2024, Honolulu, HI, USA. ACM, 
+New York, NY, USA, 14 pages. https://doi.org/10.1145/3613905.3644069 
+1 ARTIST ACKNOWLEDGEMENTS 
+To the artists who have opted not to be included in the author 
+list, your contributions are of equal value to those in the author 
+list. Thus, the acknowledgement section has been moved from the 
+customary end of the paper to the beginning; we would like to 
+thank Joaquín R. Díaz Duràn, Francisco de la Mora, Natalia 
+Traveling Arts x HCI Sketchbook CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+Figure 1: [Left] Example rough storyboard by Miriam. [Right] Final version during inking (right). This was later developed into 
+a full page comic for ACM Interactions magazine’s new sketch-based feature [17]. Note the visible differences between the first 
+draft and the final, which was signed off by the editors. Miriam Sturdee, 2023. 
+Pérez, Em Harmsen, and Sue Nichols for contributing to Art in 
+HCI Travelling Sketchbook. 
+2 OPENING COMMENTARY 
+This AltCHI paper advocates for an equal approach to authorship 
+between principal researchers and contributing artists. The absence 
+of the artists would render the narrative of Arts in HCI incomplete, 
+while the lack of principal researchers (who are also artists) would 
+impede the analysis of artwork. Recognising the significance of 
+artist attribution, this AltCHI paper suggests that the equitable 
+recognition of creative input is crucial for fostering a sense of value, 
+respect, and fairness within the Arts in the HCI community. We 
+identify an issue within the SIGCHI templates: few authors and re-
+stricted incorporation of visual elements that are supportive rather 
+than constitutive of the narrative [18]. In response to this limitation, 
+this AltCHI paper ensures each artist’s adequate representation 
+(authorship). Consequently, this AltCHI paper cannot conform to 
+the stipulated 8–12-page length (excluding references) to accom-
+modate our inclusive authorship model. Regrettably, the font size 
+has been reduced to five to adhere to the page length constraints. 
+We hope this compromise demonstrates our commitment to the 
+significance of this research, the ethos of authorship, and the visi-
+bility of imagery remains unwavering. Thus, to view this paper you 
+may need to utilize accessibility software such as a screen reader 
+or magnifier. 3 INTRODUCTION 
+Sketchbooks are used by artists (professionals and hobbyists) for art 
+practice, lived experiences, and experimentation, e.g. trying differ-
+ent approaches to drawing hands, observational studies, sketching 
+ideas for potential future artwork and blueprints (mapping out 
+work) before starting the final artwork; they enable the artist to 
+put pen/paint brush/photographs/sketches etc. or even creative 
+notes on paper or digital canvas; it is a tool and practice that en-
+courages habitual creativity [4, 9], e.g. see Figure 1. It is often a 
+solitary and private space to express oneself without a need for 
+perfection. A sketchbook lets the lucky viewer glimpse the artist’s 
+creative process in a personal and inspiring way. However, these 
+creative pages are usually found years after the artist has died, e.g. 
+Leonardo da Vinci’s flying machines. With the rise of technology, 
+especially social media, sketchbook pages and collated artworks 
+have become more readily available as blog/social media posts1 , 
+books, and papers [11, 12, 19] by the artist. These collections are 
+often themed (e.g. [7, 8, 15]) or artist’s independent publications (e.g. 
+[10] and 2) These artists offer glimpses into their creative process to 
+“showcase their work, connect with their audience, and expand their 
+reach”. The Art in HCI Travelling Sketchbook explores the inter-
+section between HCI and artistic expression – what does it mean 
+to be an artist in HCI? Which art forms are being used? Are they 
+text-, image- or performance-based or hybrids [2]? Are participants 
+1www.joseartgallery.com/articles/what-social-media-platform-is-better-for-artists
+2www.frannerd.cl/work/ugly-sketchbooks 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Lewis et al. 
+actively involved in art-making or is art-making mainly used by 
+the researchers themselves as described for example, in Barone and 
+Eisner [1]? And if the latter, are those trained and actively practic-
+ing artists or not, which McNiff [14] discussed as a prerequisite to 
+conduct arts-based research? 
+3.1 Inspiration 
+In 2016, Mauro Toselli (author) launched the Sketchnote Army Trav-
+elling Sketchbook, a 112-page handmade notebook; its purpose was 
+to gather 1-page contributions from sketchnote artists worldwide, 
+“I love the idea of the community sharing something real, some-
+thing we can touch and create in some ways a contact closer than 
+those we use to have through the Internet”. The contributions were 
+gathered between 15/09/2016 till 24/09/2023 (Days: 2565); The phys-
+ical sketchbook traveled a distance of 90385 km, which involved 
+39 stops (locations: 37, countries: 21 and continents: 4); 106 con-
+tributions (94 unique sketchnoters). Contributors and the public 
+watched the book fill up via social media #SABookjourney and via 
+a world map (see Figure 2). The result was a beautiful collection 
+of sketchnotes depicting how the creative approach is used and 
+the mediums used. It gives awareness of the influential practice of 
+Sketchnoting. It has also fostered a rich and active community of 
+sketchers with respect, love, and creativity at its heart. Makayla and 
+Miriam (authors) were contributors (see Figure 2) who were greatly 
+inspired by the concept; they wondered what is happening in the 
+HCI x Arts space: what medium is the community using, what are 
+they using art for, and, of course, we want us (and now you) to 
+get a unique glimpse of a page of their HCI sketchbook. During 
+one of the meetings of their local SIGCHI chapter ‘Arts in HCI’, 
+they discussed this with other chapter members, including Denise 
+(author), and the three of them decided to follow up on this idea 
+with a digital traveling ‘Arts in HCI’ sketchbook, inviting people to 
+share their explorations of and in the realm of arts-based methods, 
+their research and practices employing the use of arts in HCI, from 
+arts appreciation to arts participation, from tech design ‘in the now’ 
+to speculative, futuristic design fictions, from text- to image- and 
+performance-based approaches to anything in between and/or any 
+delicious compote mixing them. 
+4 METHOD 
+The co-authors (HCI researchers, students, and artists) were in-
+vited to contribute various art forms, ranging from sketches and 
+illustrations to performances, music, comics, videos, collages, etc. 
+Invitations to contribute were sent via mailing lists, social media, 
+and research interests. The contributions were optional. The art-
+work was collected using an online collaborative whiteboard Miro; 
+the inclusive approach facilitated global engagement. Contribu-
+tors were asked to respond to a prompt, ’What does art in HCI 
+mean/look like to you?’. Stock photos from Pexels that depicted 
+a wide range of art practices were included; their purpose was 
+to show that any art form could be submitted (see Figure 3 left). 
+Each contribution was accompanied by essential metadata: author 
+name, email, author institution, artwork caption, artwork name, 
+and artwork alternative text (see Figure 3, middle). The Miro board 
+remained open for two months, allowing participants ample time to 
+contribute their artistic creations. This extended timeframe aimed to accommodate diverse schedules and time zones, thus cultivating 
+a comprehensive and representative collection of artwork. 
+4.1 Analysis 
+A comprehensive analysis of the thirty-nine submissions revealed 
+diverse artistic expressions within the HCI community. The Travel-
+ing Arts in HCI Sketchbook traveled 116337 Km (Figure 3, right). 
+There were fifteen sketches/illustrations, two performances, one 
+music composition, six comics, three videos, one collage, three de-
+sign processes, six photographs, one analogue-made object, four 
+technologically aided, and seven computer-generated or supported 
+artworks. Many of the submissions were hybrid (integrating mul-
+tiple artistic elements), for example, the music contribution was 
+accompanied by photographs and a video performance. The amalga-
+mation complements the fluidity and interconnectedness of various 
+creative forms that HCI researchers, students, and artists practice. 
+Figures 5 to 10 show the contributions; they can also be viewed 
+on Miro (www.miro.com/app/board/uXjVMpkw7Ns=/?share_link_ 
+id=361870028909). The contributions were anonymised (metadata 
+removed) by Author 1 and added to a blank Miro board. Authors 
+2 and 3 assessed each contribution, adding reactions under ten 
+words; contributions could have more than one reaction. Reactions 
+were the materials used and what the authors saw and felt when 
+looking at the artwork. This collaborative, real-time discussion used 
+an affinity diagramming approach [6, 13], whereby codes (n=28) 
+and 4 themes were identified: Creation & Creativity, Being & Belong-
+ing, Making Sense of the World, and, Toward the Future (see Figure 
+10). Upon completion, author 1 took part in a trustworthiness test; 
+its purpose was to ‘sense check’ the reactions, codes, and themes 
+whereby disagreements were discussed and adjusted accordingly. 
+5 REFLECTIONS 
+5.1
+ Creation & Creativity 
+We noticed that the materiality of submitted artworks, as well as 
+the artefacts they show, showed great variety, ranging from fully 
+hand-made to fully digitally made approaches as well as many of the 
+possible hybrids along the continuum between the two. Meanings 
+were expressed in direct, written or drawn or performed, form but 
+also communicated through other forms of expression, e.g. through 
+the advised use of colours and textures as well as other forms, in-
+cluding icons and symbols, patterns and lines. We also noticed a 
+plethora of arts-based approaches, from text-based ones like descrip-
+tions and annotations as well as calligraphy, to image-based ones 
+like painting, photography, sketching and drawing, to performance-
+based ones like dance, music, theatre and roleplay, to hybrids like 
+calligraphy, games/play and comics; the latter two heavily featuring 
+in the submission. Also, aspects of storytelling stood out in many 
+if not all art-based artefacts, such as (elements representing) narra-
+tion and perspective, e.g. through the depiction/provision of story 
+paths. Upon closer inspection, we also noticed that the artefacts 
+presented as well as the ‘Arts in HCI’ represented in them were 
+created by researchers as well as participants (with both groups 
+containing artists and non-artists) and third parties (e.g. illustra-
+tors, dancers, storytellers or musicians), showing that art-making 
+in HCI actively employs a wide range methodological approaches, 
+Traveling Arts x HCI Sketchbook CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+Figure 2: [Left to Right, Top to Bottom] Sketchnote Army Travelling Sketchnote Book creator holding the completed book, 
+Mauro Toselli, 2023; Maps of the route of Sketchnote Army Travelling Sketchnote Book, Mauro Tosseli, 2023; ‘Lancaster’ 
+entry to Sketchnote Army Travelling Sketchnote Book, Miriam Sturdee, 2017; ‘London’ entry to Sketchnote Army Travelling 
+Sketchnote Book, Makayla Lewis, 2017. 
+such as participatory and autoethnographic ones as well as graphic 
+facilitation. 
+5.2 Being & Belonging 
+Within the context of HCI we still centre the human, our wellbeing, 
+and the world around us. This theme also touches upon the ‘more 
+than human’ in that we acknowledge both our own existential 
+tensions, but those of the natural world around us. The human is 
+a complex being, with emotional needs as well as practical ones, 
+and many of our sub-themes consider inclusivity and accessibil-
+ity. The analyses surfaced both essential needs (food, water) but 
+also outlined the complexities of being, the negative emotions that 
+seep into everyday existence (frustration, loneliness). It also speaks 
+of the importance of cultural connection, between nationalities, 
+and between demographic groups and generations. Timelines and 
+change feature heavily in the analysis, showing transitions, meta-
+morphoses, sometimes between species (animals acting as humans) 
+or connecting devices and technology with living beings as if cy-
+borg. This theme suggests that Human Computer Interaction is a 
+means to help us navigate the world around us, a tool, rather than the focus of our research. At the same time we are drawn to the 
+sense of entropy that being human engenders. 
+5.3 Making Sense of the World 
+Artworks were focused on and provoked reflections on the world 
+through the process and products of art-making In addition to 
+visual/image-based approaches, this was also embodied, utilising 
+gesture, touch and movement, as well through textual approaches 
+such as calligraphy and written/typed annotations. We also ob-
+served reflections on the process of creating artefacts described via 
+composition and doing words, such as overlaying and connecting 
+elements, leaving traces and following schemata. And we observed 
+reflections on the methodological aspects underlying and/or sup-
+porting art-making, noticing especially the diversity of arts-based 
+and other approaches and methods employed, including image-, 
+text-and performance-based approaches as well as mixtures thereof 
+such as in comics and cartoons. In addition, we registered many 
+passionate responses in the form of calls for action, calls for reflec-
+tion, the expression of surprise and frustration or conflict as well as 
+metaphorical musings, including exclamations such as “technology 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Lewis et al. 
+Figure 3: Left: Traveling Arts x HCI Sketchbook on Miro www.miro.com/app/board/uXjVMpkw7Ns=/?share_link_id= 
+361870028909. Right: Extract for journey of the Traveling Arts in HCI sketchbook on Google, starting in the UK then hopping 
+to EU and the rest of the world 
+Figure 4: Affinity diagram and discussion notes www.miro.com/app/board/uXjVNMeQ0-Q=/?share_link_id=568749316191]. 
+is a tool – people matter”, “time to rethink technology?”, “to make 
+is human”, “emptiness where it was full of life before”, “entropy 
+comes for us all”, “the dance of penmanship” and “forming music 
+like clay on a wheel”. 
+5.4 Toward the Future 
+As artists, we often navigate the realm of the speculative, jump-
+ing into uncharted territories of the future through artistic ex-
+pression. Noteworthy instances include Leonardo da Vinci’s 
+sketches of flying machines, whose futurism unexpectedly re-
+sembles early helicopters of the 20th century, or Michelan-
+gelo Caravaggio’s 1597-1599 ‘Narcissus’ https://artsandculture. google.com/entity/caravaggio/m020bg?hl=en, an early explo-
+ration of the expressionistic practice, now known as the 
+‘selfie’. This sentiment was further echoed by Andy Warhol 
+in 1968: “In the future, everyone will be world-famous for 
+15 minutes” www.smithsonianmag.com/smart-news/andy-warhol-
+probably-never-said-his-celebrated-fame-line-180950456/. It fur-
+ther materialized in their 1978 ‘Self Portrait with Strangulation’, 
+envisioning a future where the camera lens captures our eyes and 
+our impending mortality, not what we see. The contemporary world 
+in which we now live is marked by the influence of social media, 
+where hundreds of millions engage in the daily ritual of sharing 
+imagery and videos in which they are narrative; they seek elusive 
+and fleeting fame. Artists’ speculation has never been so prevalent; 
+Traveling Arts x HCI Sketchbook CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+Figure 5: [Left to Right, Top to Bottom] Trying to find a space for arts in HCI. Makayla Lewis, 2023; HCI is about people, not 
+technology. We need to focus on that rather than computing as a solo field. Miriam Sturdee, 2023. The Virtual World: Major 
+Arcana Card Design from the Deleted World Tarot. Josh Urban Davis, 2022; Individuals’ material circumstances often mean 
+they cannot benefit from the proposed benefits of new HCI Systems or technologies ( [5] p.641). John Miers, 2022; Sonic Dancer: 
+Designing Through Your Voice and Pens. Swen Gaudl and Silvia Carderelli-Gronau, 2023; “Living with Covid” While Clinically 
+Vulnerable: A Real-Life Story. Story by Natalia Pérez and Ernesto Priego. Art by Francisco de la Mora. Natalia Pérez, Ernesto 
+Priego, and Francisco de la Mora, 2022. 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Lewis et al. 
+Figure 6: [Left to Right, Top to Bottom] HCI that enhances HHI (Human-Human) interaction. Anna Troisi, 2023; Creating 
+Playful Comics Together with AI. Yana Knight, 2023; “Do Not Fold, Spindle or Mutilate” – this project explored visualising how 
+websites track you by producing punch cards adorned with the names of common ’cookies’ one might encounter while browsing 
+the web. Using punch cards – an outdated method of data collecting and processing – as a metaphor to make this digital data 
+tangible, it is easier to understand how these data can accumulate quickly over time, their function as processable pieces of 
+information, and present an opportunity for agency over what happens to this data. Gareth McMurchy, 2021; Designing future 
+sustainable interactions using GenAI, RAY LC, 2022; Human: Ethical Reflection on Future Cyberworld Identity. Lanxi Xiao, 
+2020; Tomato Screen Saviour. Violet Owen, 2023; Breaking the Surface Using Hands and Body to Think and Express. Denise 
+Lengyel, 2023. 
+Traveling Arts x HCI Sketchbook CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+Figure 7: [Left to Right, Top to Bottom] Methodology for creating Comic to present Interaction Design. Raksanda Mehnaz Huq, 
+2023; Meditative Flora. This speaks of the ephemeral rewards in practice-based research. By Claudia Núñez-Pacheco (2012); 
+Fabulations of future social wearables. Laia Turmo Vidal, 2023; Designing Interactive Furniture and Wallart with Dual-Identity. 
+Sara Nabil, 2020; The Conspiracy Capitaliser: A retro-speculative interface for AI which allows the user to produce novel 
+conspiracies embedded in advertisements. An artefact for exploring problematic ethics in AI through interaction. Robert 
+Collins, 2023; Going from scribbles to final artwork. Ana Henriques, 2023; Exploring digital identity futures. Kim Snooks, 2023; 
+Conducting User-Centered Design/ideation session with contemporary dancers. Rivière Jean-Philippe, 2018-2019. Joakinator, 
+Interactive Interface for reflecting through the body. Joaquín Roberto Díaz Durán, 2020 to 2023. 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Lewis et al. 
+Figure 8: [[Left to Right, Top to Bottom] Multimodal attention. This collaborative work was created as a printed collage, the 
+content of the collage was created based on generative AI prompts. The artwork was first conceptualized, then generative 
+images and texts were selected, human editing and 2D design were also used. Andrey V. Vlasov, 2022-2023; Illustrating Research 
+Practice, a collection of iPad scribbles for and from field studies. Patricia Piedade, 2022 – 2023; Multilingual teenagers’ images 
+of digital devices. Sue Nichols, 2023; Conducting User-Centered Design / ideation session with contemporary dancers. Rivière 
+Jean-Philippe, 2018-2019; (Re)envisioning telepresence robotics from [16]. ISOTTA - Intelligent System for Organic Tweeting 
+and Thoughtful Artistry. Michele Cremaschi, 2023 [3] 
+the rise of technology such as AI, machine learning, XR, and VR 
+occupies a prominent space in the minds and practices of today’s 
+artists. Many artworks shared a thematic emphasis on Sci-Fi (rang-
+ing from dystopia to utopian visions) that were often entangled in pop culture. The artistic expressions in this AltCHI paper often 
+featured representations of technology, interactions with devices 
+and social media, and speculations of the potential future inter-
+nally and externally. Including technology from the past is a nod to 
+Traveling Arts x HCI Sketchbook CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+Figure 9: [Left to Right, Top to Bottom] Humans were made for dancing. Jacinta Jardine, 2023; The design & documentation 
+process. Em Harmsen, 2023; The Steampunk Mechanical Bunny: a fantasy contraption that expresses concepts related to 
+Technology by depicting it in a realistic or even conceptual way to trigger emotions in the viewer and convey a message that, 
+very often, transcends the aesthetics and goes beyond the artwork, to be provocative and to create the so-called Experience. 
+Mauro Toselli, 2021; Japan Gawa Meeting 2023. Comic poster. A. Grek, 2023; Polyqin. Nick Bryan-Kinns, 2019; Top: When we 
+build games, we do it together, over borders, and we build on a history older than the first written words. This painting is based 
+on a number of symbols - Egyptian hieroglyphs, blueprints of microchips, and ancient board games. Bottom: This is a painting 
+of a group of i4004s. They are 3 in/on a motherboard that they perceive as a marsh. The microprocessor Intel 4001 (i4004)is a 
+4-bit central processing unit (CPU). Mirjam Palosaari Eladhari, 2023; This street photograph is a photo-ethnographic account of 
+residents playing mahjong in a physical world community center in Rui An (Zhejiang Province, China). The authenticity of 
+the scene contrasts with virtual world gatherings. The image falls into the category of storytelling and context as a matter of 
+visual communication germane to notions of community. The quality of the photograph as photographic Artwork also matters, 
+wherein the natural light and colours in the scene bridge the physical world and its digital representation to create a surreal 
+effect. Eli Blevis, 2012. 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Lewis et al. 
+Figure 10: [Left to Right, Top to Bottom] Illustrations were created in response to a workshop where participants shared their 
+experiences of living with HIV (individuals’ journeys and supported the researcher’s sense-making) as part of UKRI-funded 
+INTUIT project. Caro Claisse, 2020; Imagining sustainable futures for older adults through tabletop role-playing. Kirsikka 
+Kaipainen, 2023; Reflection as a work in progress in the design process. Beatriz Severes, 2023; Picking away at the blocks. Corey 
+Ford, 2023; Mouja, or the Magnetic Ouja. Performance with Magnetic Scores and Neural Synthesis. Nicola Privato, 2023. 
+incorporating the increasingly forgotten analogue machines. The 
+artistic expression of dystopia and utopian worlds suggests com-
+bining machines, resulting in different outcomes. Soon, will artists 
+work with machines? Will artists be supported by machines? or will artists fight the machines to rejuvenate analogue? This AltCHI 
+paper cannot answer, but it identifies a transformative shift that 
+requires further dialogue: should we embrace, reject, or confront 
+the future? 
+Traveling Arts x HCI Sketchbook CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA 
+6 INVITATION TO REFLECT AND 
+CONTRIBUTE TO THE TRAVELLING ARTS X 
+HCI SKETCHBOOK 
+We invite you to view and reflect on the Travelling Arts in HCI 
+Sketchbook (see figures 5 to 10); we then ask, if you prefer, to 
+contribute by responding to the question, ’What does art in HCI 
+mean/look like to you? We invite you to use the same template used 
+by the authors (see Figure 11). We, the arts in the HCI community, 
+want to expand on our understanding, further build our community, 
+continue the dialogue, and provide a glimpse of our creative practice 
+for artists and non-artists in the HCI community. Please share your 
+response on the Arts in HCI Travelling Sketchbook Miro Board or 
+using the #ARTxHCI hashtag on social media. 
+6.1 IMAGE COPYRIGHT STATEMENT: 
+These images are presented here for viewing purposes only. They 
+are not royalty-free images and may not be used for commercial 
+or private use. Any such use of these images is strictly prohibited. 
+These images may not be copied, manipulated, reproduced by any 
+other means, nor sold without prior written consent by the author. 
+6.2 FUNDING STATEMENT: 
+The research is in part funded by the Centre for Digital Citizens 
+(EP/T022582/1). For the purpose of Open Access, the authors apply a 
+CC BY public copyright license to any Author Accepted Manuscript 
+(AAM) version arising from this submission. 
+ACKNOWLEDGMENTS 
+Corey Ford is supported by the EPSRC UKRI Centre for Doctoral 
+Training in Artificial Intelligence and Music (AIM) [EP/S022694/1]; 
+Caro Claisse is supported by the EPSRC UKRI INTUIT project 
+[EP/R033900/2]; Center for Digital Citizens [EP/T022582/1]; Ana 
+O. Henriques is supported by the European project DCitizens (GA 
+101079116) and the FCT project UIDB/50009/2020; Laia Turmo Vidal 
+is supported by Sweden’s Digital Futures Research Center through 
+a postdoctoral fellowship (nr 81501); Language and Learning Tran-
+sitions of New Arrival Youth’ (Nichols, Caldwell & Yoshida, 2019) 
+was funded by a Smolicz Foundation grant, administered by the 
+Multicultural Education and Languages Committee of South Aus-
+tralia; Jacinta Jardine is supported by the Irish Research Council 
+(EBPPG/2020/53); Claudia Núñez Pacheco’s research is funded by 
+the Wallenberg AI, Autonomous Systems and Software Program’ 
+– Humanities and Society (WASP-HS) funded by the Marianne 
+and Marcus Wallenberg Foundation; The Conspiracy Capitaliser: 
+This work is part of the DCODE project. The project has received 
+funding from the European Union’s Horizon 2020 research and 
+innovation programme under the Marie Skłodowska-Curie grant 
+agreement No. 955990; Beatriz Severes is receiving funding from 
+the Portuguese Foundation for Science and Technology (FCT) under 
+grant 2023.05034.BD; Michele Cremaschi’s work was supported by 
+Sineglossa and the National Recovery and Resilience Plan (NRRP), 
+- Mission 4, Component 2 - Investment 3.3 - call for tender No. 352 
+of 09/04/2022 of the Italian Ministry of University and Research, 
+funded by the European Commission under the NextGeneration 
+EU programme; Patricia Piedade is supported by the Portuguese REFERENCES 
+Figure 11: Arts x HCI Contribution response template. Please 
+scan the QR code or follow the link www.miro.com/app/ 
+board/uXjVNMeQ0-Q=/?share_link_id=976424183640 to add 
+to your response to the Traveling Arts in HCI Sketchbook. 
+Recovery and Resilience Program (PRR), IAPMEI/ANI/FCT under 
+Agenda C645022399-00000057 (eGamesLab), through the schol-
+arship BL195/2023-IST-ID, the European project DCitizens (GA 
+101079116) and the FCT project UIDB/50009/2020. For the purpose 
+of Open Access, the authors apply a CC BY public copyright li-
+cense to any Author Accepted Manuscript (AAM) version arising 
+from this submission. For the purpose of Open Access, the authors 
+apply a CC BY public copyright license to any Author Accepted 
+Manuscript (AAM) version arising from this submission. 
+[1] Tom Barone and Elliot Eisner. 2012. Arts-based educational research. In Handbook 
+of complementary methods in education research. Routledge, 95–109. 
+[2] Ardra L. Cole and J. Gary Knowles. 2008. Arts-Informed Research. In Handbook 
+of the Arts in Qualitative Research: Perspectives, Methodologies, Examples, and 
+CHI EA ’24, May 11–16, 2024, Honolulu, HI, USA Lewis et al. 
+Issues
+, J. Gary Knowles and Ardra L. Cole (Eds.). SAGE, 55–70. 
+[3] Michele Cremaschi, Maria Menendez-Blanco, and Antonella De Angeli. 2023. 
+ISOTTA-A Slow Exploration of Power Relations in Writing with Language Models. 
+In Proceedings of the 15th Biannual Conference of the Italian SIGCHI Chapter. 1–5. 
+[4] Monica J David. 2023. The Practice of a Sketchbook: A Curriculum . Ph. D. Disser-
+tation. The University of Iowa. 
+[5] Dan Goodley. 2013. Dis/entangling critical disability studies. Disability & Society 
+28, 5 (2013), 631–644. 
+[6] Gunnar Harboe and Elaine M Huang. 2015. Real-world affinity diagramming 
+practices: Bridging the paper-digital gap. In Proceedings of the 33rd annual ACM 
+conference on human factors in computing systems. 95–104. 
+[7] Steven Heller. 2012. Comics sketchbooks: the unseen world of today’s most 
+creative talents. (2012). 
+[8] Steven Heller and Lita Talarico. 2011. Typography sketchbooks. Thames & Hudson. 
+[9] Shun Young Kim. 2014. The Illustrator’s Sketchbook: A study of The Creative Process 
+through Drawing, Engraving and Printmaking. Fashion Institute of Technology, 
+State University of New York. 
+[10] Eva-Lotta Lamm. 2013. Sketchnotes 2012: Volume 1. 1 (2013). 
+[11] Makayla Lewis, Miriam Sturdee, Mafalda Gamboa, and Denise Lengyel. 2023. 
+Doodle away: an autoethnographic exploration of doodling as a strategy for self-
+control strength in online spaces. In Extended Abstracts of the 2023 CHI Conference 
+on Human Factors in Computing Systems. 1–13. 
+[12] Makayla Lewis, Mauro Toselli, Ruth Baker, Julia Rédei, and Claire Elisabeth 
+Ohlenschlager. 2022. Portraying what is in front of you: virtual tours and on-
+line whiteboards to facilitate art practice during the COVID-19 pandemic. In Proceedings of the 14th Conference on Creativity and Cognition. 350–363. 
+[13] Andrés Lucero. 2015. Using affinity diagrams to evaluate interactive prototypes. 
+In Human-Computer Interaction–INTERACT 2015: 15th IFIP TC 13 International 
+Conference, Bamberg, Germany, September 14-18, 2015, Proceedings, Part II 15. 
+Springer, 231–248. 
+[14] Shaun McNiff. 2008. Art-based Research. In Handbook of the Arts in Qualitative 
+Research: Perspectives, Methodologies, Examples, and Issues, J. Gary Knowles and 
+Ardra L. Cole (Eds.). SAGE, 29–40. 
+[15] Steven Peterman and Sara Elands Peterman. 2015. The sketchbook project world 
+tour. Chronicle Books. 
+[16] Eike Schneiders, Andriana Boudouraki, Gisela Reyes-Cruz, Juan Pablo Mar-
+tinez Avila, Houda Elmimouni, Jens Emil Sloth Grønbæk, Sean Rintel, and Swapna 
+Joshi. 2023. Mobility and Utility in Robot Mediated Interaction: An Interactive 
+Workshop for the Identification of Use Cases and Affordances of Telepresence 
+Robots. In Proceedings of the 25th International Conference on Mobile Human-
+Computer Interaction. 1–5. 
+[17] Miriam Sturdee. 2023. Rage Against the AI Machine: A Sketch in Time. Interac-
+tions 30, 5 (2023), 8–9. 
+[18] Miriam Sturdee, Jason Alexander, Paul Coulton, and Sheelagh Carpendale. 2018. 
+Sketch & the lizard king: Supporting image inclusion in HCI publishing. In 
+Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing 
+Systems. 1–10. 
+[19] Miriam Sturdee, Makayla Lewis, Angelika Strohmayer, Katta Spiel, Nantia Kouli-
+dou, Sarah Fdili Alaoui, and Josh Urban Davis. 2021. A plurality of practices: 
+artistic narratives in HCI research. In Creativity and Cognition. 1–14. 

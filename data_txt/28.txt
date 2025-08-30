@@ -1,0 +1,1445 @@
+"The Words We Do Not Yet Have." A Creative Inquiry Into
+Human-Plant Relationships
+Maliheh Ghajargar
+ghajargar@chapman.edu
+Chapman University
+Orange, California, USA
+ABSTRACT
+Climate change, loss of plant biodiversity, and ocean pollution
+signal the drastic changes in our ecology that call us to attend to the
+needs of more than human forms of life on Earth. Sustainable design
+and HCI research are responding to this call by offering methods
+and approaches to design more sustainable products and systems
+and recently, more than human design is building momentum. This
+agenda seeks to reform traditional design processes by decentering
+the creative agency of the dominant socio-economical group of
+humans and foregrounding those of diverse Others.
+In this paper, I focus on plants as a nonhuman form of life.
+Through synthesizing multiple research methods, such as field-
+work in nature, autoethnographic writings, drawing, "outpainting"
+with Generative AI (genAI), visual and thematic analysis, I propose
+a more than human creative process. In pursuit of that purpose, I
+use the notion of "transcorporeality," developed by feminist Stacy
+Alaimo [ 2], as a lens to develop designers’ capacities to attend to
+the material configuration of human and nonhuman bodies. Decen-
+tering the designer’s creativity is an aspirational goal, which for
+various reasons is quite difficult to achieve fully, but the approach
+undertaken in this project, at a minimum, complicates the experi-
+ence of human-centered design creativity. It does so by increasing
+perceptiveness and insight within what Alaimo refers to as "the
+literal contact zones" between human and nonhuman corporeality;
+leveraging that heightened capacity to synthesize the practices of
+traditional nature writing and autoethnographic writing to reveal
+and engage the enmeshment of the self in/as nature; and finally
+leveraging discursive text and my drawings as prompts for genAI’s
+outpainting technique, to experience how it extends, disrupts and
+reworks what I have done, revealing not only its own biases, but
+also many of my own.
+CCS CONCEPTS
+•Human-centered computing →Interaction design process
+and methods .
+KEYWORDS
+Design research methods, more than human design, sustainability,
+visual communication, human-plant interaction
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+©2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1823-6/24/10
+https://doi.org/10.1145/3681716.3681729ACM Reference Format:
+Maliheh Ghajargar. 2024. "The Words We Do Not Yet Have." A Creative
+Inquiry Into Human-Plant Relationships. In Proceedings of the 27th Inter-
+national Academic Mindtrek Conference (Mindtrek ’24), October 08–11, 2024,
+Tampere, Finland. ACM, New York, NY, USA, 14 pages. https://doi.org/10.
+1145/3681716.3681729
+1 INTRODUCTION
+The Human-Computer Interaction (HCI) research community has
+been exploring ways to contribute to social and environmental
+sustainability challenges through practical and theoretical inter-
+ventions, such as sustainable interaction design and sustainable
+HCI [ 14,26]. Given that it is a multi-dimensional challenge, not sur-
+prisingly, HCI researchers have pursued diverse approaches. Some
+have approached it at the macro level, connecting HCI to the politi-
+cal roles of end consumers and industries in shaping sustainable
+futures [ 27]. Ecofeminism-informed HCI scholars have considered
+the links between gender inequality and climate change —both
+subjected to paradigms of control [ 51,52,91,98]— and proposed
+ways that HCI might intervene against these dominant practices.
+Another body of work has questioned how human-centered
+thinking, including human-centered design, has contributed to cli-
+mate crisis, pursuing as an alternative a multispecies, posthuman
+[33,42], sometimes called more than human design perspective
+[57,77,95,96]. This collection of research has considered research
+on human and animal cohabitation [ 88], turned to concepts such as
+nomadism and nomadic practice as a guide to an alternative human-
+ist design and HCI discipline which embraces multiplicity and di-
+versity rather than universality in design [ 94], and used theoretical
+concepts such as abjection to attend to the ecological relationships
+between humans and nonhumans, such as those with birds [13].
+More than human design challenges HCI and design researchers
+to think beyond objectives such as control and trust, and to seek
+ways to sustain our very human lives as a part of Others’ lives. It
+seeks ways to design better, more sustainable, and just futures by
+reforming traditional design and creative processes. Key to this
+approach is decentering humans in an attempt to foreground the
+needs, agency, and forms of creativity of nonhuman Others. This ap-
+proach can be challenging for design researchers and practitioners,
+whose training has traditionally prepared them to develop creative
+ways to improve problematic situations and address human needs
+[22,32,37,38]. Researchers of more than human design have thus
+grappled with the question of how to decenter humans, including
+design researchers themselves, considering the human-centered
+nature of design.
+HCI research can approach more than human design challenges
+from a number of angles. In the present work, I focus on human-
+plant relationships for several reasons. Much, though not all, of
+95
+
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Ghajargar
+HCI research in this space, focuses more on animals than on plants,
+which reflects our predominantly zoocentric traditions in sciences
+and philosophies [ 45]. Further, carrying the eco-feminist theme
+forward, plants are often seen as a "lower" or less intelligent form of
+life than animals and treated accordingly [ 62]. Additionally, plants
+can be more difficult for humans to relate to —their nervous systems
+and basic physiology are far more different from ours than most
+animals’ [ 21]. As such, plants feature greater alterity than animals
+do, which makes them easier to "other" and harder for us humans to
+perceive and to deeply feel our connections to them [ 67], revealing
+some of the limitations of an empathetic approach to vegetal life
+[63]. HCI research on human-plant interaction can help to overcome
+our biases and failures to perceive our interconnectedness with
+plant life, and in doing so more fully answer the call for a more
+than human design practice [58].
+While perceiving and deeply feeling our connections to plants
+is challenging, we also have resources, including theoretical re-
+sources and existing practices. In this work, I draw from several
+related theories, in particular, the work of Alaimo, whose concept of
+transcorporeality supports my research objective to express human-
+plant relationships in support of more than human design research.
+More specifically, building on previous works in this space (e.g.,
+[11,96]) I propose a speculative practice that involves writing and
+drawings in nature and outpainting with Generative AI (genAI). In
+addition to theory, the proposed practice is also informed by a range
+of existing practices, including botanical drawing [ 83], landscape
+ethnography [ 76] and nature writing [ 60] as some self-reflexive
+ways of communicating more than human nature in their habitat.
+Self-reflexive writings about nature, independent from the writer’s
+identity, epistemological, and socioeconomic position, start from
+an act of expressing nature and the life of non-humans, which then
+talks back to the human writer to outwardly include the writer’s
+position in nature as a whole. Similarly, botanical drawings are a
+cultural product and embed the scientist’s and artist’s position, cul-
+ture, and subjectivity in the choice of media, mark-making, details,
+and style.
+As I explain in more detail later, the speculative practice entails
+going into natural environments that feature plants, engaging in
+acts of drawing and writing, subsequently analyzing and synthe-
+sizing those drawings and writings, and then using them as both
+visual and verbal prompts for genAI to outpaint them. In this paper,
+I used the word "outpainting" with two different but interrelated
+meanings: (1) as a specific genAI technique (OpenAI’s DALL.E2),
+that extends an image beyond the original frame by adding pixels to
+it, (2) more metaphorically, as a way to talk about how the process
+decentered my creativity as a design researcher, by augmenting my
+creative work and subjectivity, helping to expose my own biases
+and preconceptions.
+Obviously, any use of genAI comes with concerns. genAI is
+trained on human-created data, using large datasets; therefore, it
+generates from human, and not more than human, datasets, and
+so in itself, it cannot be considered more than human. Worse, the
+data it is trained on reflects centuries of social injustice, including
+racism, sexism, and colonial thoughts and practices [ 18,28,74].
+Further, AI consumes considerable resources, including water and
+energy to train the models, power the data centers and to cool
+them down [ 10,34,70] and thereby contributes to the problems ofclimate change that most HCI sustainability research is seeking to
+address.
+This paper seeks to self-reflexively stay with these concerns [ 48]
+and unpack them as they relate to the purpose of this paper: develop-
+ing a speculative practice in support of expressing the human-plant
+relationship through attending to the transcorporeality of human-
+nonhumans and political and ethical possibilities of that connection
+[2]. It leverages the insight that what AI generates can be surprising,
+and that surprise can, through reflection, reveal our own biases and
+also reveal alternative ways of seeing and thinking. In this paper,
+outpainted images were generative because they literally expanded
+my drawings. Those expansions were subject to genAI’s unpre-
+dictable combination of competently parroting human art (e.g.,
+using line drawings to represent common objects and stippling to
+add texture and shading to them) and what are increasingly known
+as AI hallucinations [ 61] (i.e., where AI produces nonsensical or
+absurd results), the result of which were a number of surprises,
+many of which featured violations of norms of representation (e.g.,
+spatial perspectives, scale, light and shadows, figure/ground). These
+surprises prompted my own reflection and occasionally confronted
+me with my own tacit assumptions and unrealized biases, while
+the resulting outpainted images supported my reimagining, and
+working towards, alternate possible local worlds, as described in
+[31].
+In summary, the paper describes a creative and autoethnographic
+inquiry of a design researcher with a background in arts, design and
+sustainability. It shows how I experimented with classical creative
+methods of immersion within nature (e.g., nature walks, nature
+writing, sketching, observation, reflection), as well as new technolo-
+gies like genAI, to attune to the nuances of plant life. This paper
+contributes to the more than human design agenda and strives to
+understand how the HCI community might begin to decenter the
+human.
+2 GROUNDS AND RELATED WORKS
+This research integratively uses a number of key sources: HCI
+research on sustainability, and in particular, more than human
+approaches to designing in the context of climate crisis; practices of
+depicting plants, including botanical drawings and nature writing;
+and theoretical resources, in particular those of Anna Tsing [ 92]
+and Stacy Alaimo [ 2], whose notion of transcorporeality shaped
+both the development of my approach and the articulation of its
+outcomes.
+2.1 Sustainable and More Than Human Design
+In sustainability-related human-computer interaction (HCI) and
+design research, posthumanism [ 33] poses one of its central epis-
+temic challenges: how can humans decenter humans in a practical
+sense while trying to achieve the human goal of designing for more
+than human worlds and building more sustainable futures [ 95].
+Oogjes and Wakkary used the concept of repertoire to attend to
+the different ways human designers can facilitate the participa-
+tion of nonhumans in design research practices [ 77]. The authors
+employed methods such as landscape ethnography and Tsing’s con-
+cept of noticing to weave the stories of the design researcher into
+the nonhuman actors’ stories. Care as a lens has been employed
+96
+"The Words We Do Not Yet Have." A Creative Inquiry Into Human-Plant Relationships Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+for speculative and feminist posthumanism [ 53] or in sustainable
+agrilogistics [ 68] through ethnographic studies in the farms of the
+American Midwest [12].
+Another relevant stream of research in the HCI and design re-
+search is the relationships between humans and nonhuman lives,
+or "nature." In this area, researchers either seek to use technology
+to mediate the human-nature relationship ([ 71,97]) or to consider
+nature as a participant in the design process under the umbrella
+of human-nature interaction or multispecies design [ 4]. Loh et al.’s
+work is particularly relevant to this paper, where they surveyed a
+series of human-plant interaction design projects and offered ways
+that HCI can move from the view of plants as utilitarian objects to
+plants as co-inhabitant, contributing to the more-than-human turn
+in human-plant interaction design [ 58]. Attending to the complex-
+ities and nuances of human nature relationships has also been re-
+searched in numerous works. For instance, Rodgers et al. identified
+key human relationships with nature by probing participants’ re-
+lationships with their gardens, inspired by Phenology, which is the
+study of cyclic biological events [ 82]. Vella et al. used camera traps
+to observe the interactions of participants with their gardens (plants
+and animals) and identified two different relations with nature: care
+and control [ 93]. Spors et al. conducted a scoping literature re-
+view of human-nature interaction publications in recent years and
+identified four types of interactions with nature or, as they put it,
+"encountered, approached and made sense of nature": (1) nature as
+a research site (2) depiction and portrayal of nature, (3) modalities
+of encountering nature, (4) understandings of nature [89].
+Common to most of these works is an attempt to (re)connect
+to nature and make sense of our relationship with nature with its
+multitude of dimensions, whether through observation techniques,
+personal experience, or artifacts that support moments of reflection.
+2.2 Transcorporeality
+Tsing highlights that "making worlds is not limited to humans," and
+we are surrounded by many nonhuman world-making projects [ 92].
+Each world-making project has the capacity to alter our planet by
+making ecological living places and workable living environments.
+Those worlds can also overlap, allowing space for more than one
+species –e.g., when "beavers shape streams as they make dams,"
+or "plants live on the land because fungi make soil by digesting
+rocks," or "pines flourish in landscapes burnt by humans." Tsing
+uses the concept of "assemblage," which not only shows us the
+potential of histories in the making but also us as a kind of subject
+in the making [ 92]. Tsing also compares it to polyphonic music,
+in which individual and independent melodies intertwine to make
+music; there is no leading element but a horizontal and organic
+assemblage of sounds and voices. Similarly, Barad’s feminist and
+quantum physics notion of Intra-action conceptualizes the mutual
+agency of entangled entities, that is the actions emerge only from
+within the relationships among inseparable entities ([ 8], p.79). Barad
+writes: "A phenomenon is a specific intra-action of an “object” and
+the “measuring agencies”; the object and the measuring agencies
+emerge from, rather than precede, the intra-action that produces
+them." ([8], p.79-80).
+Alaimo made a closely related argument in her concept of transcor-
+poreality. However, whereas Tsing’s assemblages focus on the het-
+erogeneity of sites in accommodating multiple species and eventheir "worlds," Alaimo focuses specifically on the "literal contact
+zones" between human and nonhuman corporeality. Alaimo’s work
+critiques certain postmodernist feminist analysis of the body and
+nature, which she argues divide woman from nature, such that, and
+here Alaimo quotes Julia Kristeva: "nature, charged as an acces-
+sory to essentialism, has served as feminism’s abject—that which,
+by being expelled from the ’I,’ serves to define the ’I’." ([ 54] page
+1-4, cited in [ 1]). Instead, Alaimo invites us to attend to relational
+aspects, where human corporeality is transcorporeality, in which
+the human and nonhuman bodies are always intermeshed. That
+understanding leads us to underlay the extent to which the human
+is ultimately inseparable from the “environment,” and that very
+understanding makes it impossible to put nature as the background
+[2]. Alaimo’s transcorporeality is an ethical and political stance,
+which "dwells in dissolve, where the fundamental boundaries have
+begun to come undone". Similar to Braidotti’s "sustainable becom-
+ing" subject [ 16], transcorporealilty proposes an ethical subject
+that is ordinary and rooted in everyday micro-practices of living
+life on the Earth ([ 3], page 2-3). Alaimo argues further for a need
+to integrate practices such as nature writing and popular science
+writing –as one of the most crucial genres of environmentalism– to
+science writing. Because these every day "micro-practices" produce
+a "highly immediate and highly mediated" kind of knowledge that
+supports a better grasp of biospheric connections ([3], page 3).
+Common to Tsing’s "polyphonic assemblages" and Alaimo’s
+transcorporeality is the idea of an interconnected mesh of bod-
+ies, where none is backgrounded or foregrounded, and that these
+bodies are inseparable from the environment. The concept of not
+having or being a center is a key idea that ties together all the parts
+of this research paper.
+2.3 Depicting Plants
+Two major relevant and interrelated areas of study after ecology
+and botany have offered tools and practices for communicating
+nonhumans: feminist studies of ecological and evolutionary phe-
+nomena of human-nonhuman lives [ 50] and Critical Plant Studies
+(CPS) [ 90]. Critical Plant Studies is an interdisciplinary field that
+aims to re-imagine and reexamine our relationships with the plants
+and vegetal world [ 55]. It draws on diverse disciplinary fields within
+arts, humanities, and social sciences, such as ecocriticism, anthro-
+pology, STS, and feminism [ 43]. Following their lead, this study
+also turns to nature writing, in landscape ethnography [ 76] and
+botanical drawing [83] to communicate about plants.
+2.3.1 Nature Writing. Nature writing is a nonfictional genre of
+writing about nature [ 60] and has a long history across continents
+and cultures. We can find writing about nature in ancient Persia,
+India, and China, in poetry or prose [ 102]. Despite the long history,
+nature writing in prose "has achieved a unique fullness and continu-
+ity within Anglo-American context" and was highly influenced by
+naturalist writings in English literature [ 29]. It has three distinct di-
+mensions: information about natural history, personal responses to
+nature, and philosophical interpretation of nature ([ 60] p.20-22). Es-
+says on natural history can be in the form of first-person narratives,
+such as in John Hay’s Spirit of Survival (1974), which adds a per-
+sonal reflection and meaning to the scientific facts and observations
+[49], or from a third person perspective such as in Rachel Carson’s
+The Sea Around Us (first published in 1950), where she presents a
+97
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Ghajargar
+collection of scientific facts of oceanography, but tellingly to repre-
+sent ecological humans relationships with the ocean [ 20]. When
+nature writing is on the human experience and the connection
+between humans and nonhumans, scientific facts are featured less
+than qualities of human experience, as in Stephanie Mills’ In Service
+of the Wild (1995), where she talks about healing the biodiversity
+and care for nature by attending to her needs [66]. Terry Tempest
+Williams’ Refuge (1991) also wrote a biographical piece on her own
+childhood memories as a way to write about human-nonhuman
+connections ([ 100], p.21). Accordingly, writing about nature can
+take an ethnographic form, where the subject of the ethnographer’s
+study is the landscape and the relationships between humans and
+nonhumans. Hence it can be one of "the ways in which our relations
+with nonhumans produce what it means to be human" [76].
+Similar to other cultural products, North American nature writ-
+ing is tied to the complexities of the continent’s social, cultural, and
+political becoming. For decades, the genre was practiced only by a
+fraction of society, which consisted mainly of white, upper-class,
+educated, and wealthy individuals who had the time and financial
+resources to experience nature for pleasure and as a source of in-
+spiration. However, that tradition has slowly and gradually started
+to transform to include feminist, women, and Black writers who
+reflected on their own unique experiences of nature, which often
+represented traces of identity, origins, belonging, class, and social
+injustice. One example is Black nature writing, which often links ex-
+periences of nature from socially and economically disadvantaged
+and marginalized Black American communities. As Erin Sharkey
+puts it, "Just as the ways we [African Americans] experience nature
+in this country are not isolated from our identities, nature writing
+is not neutral" [ 85]. Similarly, starting from the twentieth century,
+women nature writers started to connect their writings to feminist
+values, such as in ecofeminist writings, in which nature was a key
+to express gender discrimination and injustice [ 79] and that women
+and nature are notions with historically complex interrelationships,
+as the same forces and ideologies that want to control the natural
+environment, want to control women.
+2.3.2 Botanical Drawing. Building on previous works, Gemma
+Anderson, in her book Drawing as a Way of Knowing in Art and Sci-
+ence argues about drawing as a collaborative tool and method that
+bridges the arts and sciences [ 5], and that is used to point and to ad-
+dress questions ([ 5], p.4). Drawing can also "make visible relations
+between things that otherwise remain invisible." ([ 5], p.18). Botani-
+cal drawing is an observational technique; that is, in Goethe’s words,
+it reflects what the person sees in the world, and it leads to reflection
+and from reflection to combination and theorizing ([ 44] cited in [ 5],
+p.18). In the late eighteenth century, Goethe’s Metamorphosis of the
+Plants focused on the dynamic and transformative forms of plants
+rather than their static forms and shapes [ 44]. A practice that he
+calls "delicate empiricism" is a morphological method for studying
+plants through prolonged, reflective, and empathetic observation,
+"grounded in direct experience" ([ 5], p.119). This practice improves
+observers’ ability to see outwardly and to become more sensitive
+and attentive observers of plant development. Anderson’s note on
+this method emphasizes that Goethe’s aspiration was to develop
+human subjective experiences, rather than assuming we can avoidit in studying nature so that an observer "becomes an instrument
+of their own mediation of the world" ([5], p.119).
+Botanical drawing was pivotal not only in scientific discover-
+ies and communications but also in women’s empowerment and
+scholarship. As Anna Sagal points out [ 83], the domestic spaces of
+home and the garden provided abundant opportunities for women’s
+"emotional fulfillment and meaningful intellectual labor" in the
+eighteenth century. Further, she conceptualizes the notion of "en-
+tanglement" as a way for women to rework and subvert the re-
+strictive dynamics of the woman and nature relationship by using
+woodlands and gardens.
+Common to both nature writing and botanical drawing practices
+are their power to support an ability to see outwardly and to look
+beyond oneself to cultivate a sense of closeness and intimacy with
+more than humans.
+3 METHODOLOGY
+The primary goal of this project is to improve one’s capacities to
+attend, as a designer researcher, to one’s connection to the bio-
+sphere, specifically to plant life. Alaimo’s concept of transcorpore-
+ality shaped my approach. I started to explore creative everyday
+"micro-practices" for depicting plant species [ 1]. I decided to start
+with drawing and writing about plants and their ecological environ-
+ment reflexively and outwardly [ 5,44,60,64]. Other similar practice
+such as Natasha Myers’s Kriya is a meditation and breathing tech-
+nique that is commonly practiced in Yoga, which further aims to
+broaden our subjectivity and to include those of plants so as to be
+able to express the vegetal life [ 69] outwardly. The methodological
+process that I present here is inspired by several other theories
+and practices, such as Indigenous embodied practices of knowing
+nature [ 11], tactics to decolonize research methodologies [ 87] as
+well as centuries of practices in visual and literary arts and scien-
+tific facts on the positive effects of nature on creativity [ 78,103].
+However, I arranged the methodological process in a particular or-
+der and sought to translate theories into embodied and intentional
+"micro-practices" that are unique to designerly practices and ways
+of knowing, in general, [ 23] and to more than human design [ 96]
+in particular.
+During this year-long project, I visited 11 natural reserves and
+parks in Sweden and the USA and spent about 48 hours in nature
+walking and drawing (an average of 4 hours (–/+2 hour) in each
+natural setting). The methodological process started with the choice
+of places in the vicinity of my place (Southern Sweden and Southern
+California). I deliberately chose to visit places that were nearby and
+within 20 miles/31km in an attempt to reduce the environmental
+impacts of travel. I gathered information about the site’s plant
+biodiversity, native species, flora and fauna, and the geographical
+characteristics of the place, such as if there was a river, damps,
+lakes, and hills.
+Another goal is to expand my creativity toolkit by probing
+genAI’s outpainting capabilities and limitations, while fully cog-
+nizant that genAI reflects and perpetuates biases imbued in human
+society. Outpainting (OpenAI’s DALL.E2) is a genAI technique;
+it uses AI to generate new pixels that extend an image’s existing
+boundaries, meaning that we can add new details to an image, ex-
+tend the background, or create a panoramic view. The technique is
+98
+"The Words We Do Not Yet Have." A Creative Inquiry Into Human-Plant Relationships Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+prompted both by a text prompt (i.e., my nature writings) and an
+image (i.e., my drawings). It then adds visual frames in continuity
+around the prompt image. It learns from both the visual elements
+of the image and the text prompt. I used drawings of specific indi-
+vidual plants and nature writings of the same place. I was drawn
+to outpainting for two reasons: its primary inputs and outputs are
+image-based rather than text-based, and it both depends on and
+also literally extends my work in a way that is both high fidelity
+and usually surprising. That combination of high fidelity and sur-
+prise often contributes to an experience of feeling pushed aside
+as the creator. Thus, even as outpainting can literally move the
+art I drew out of the center (e.g., by outpainting content on the
+right, my image moves to the left of the total composition), I also
+experience decentering as a creative when genAI pushes me aside
+as the creator of the work.
+All of the above resolved into a multi-stage fieldwork process,
+which supported attending to the plants, their sensory qualities,
+the ecological settings, and the plant’s relationships with humans
+and surroundings; and subsequently genAI reworking my verbal
+and visual depictions of plants. The process unfolded in four steps
+as follows: (1) learning: embodied ecological walks, (2) probing:
+intra-active observations, (3) expressing: words and drawings, (4)
+outpainting: plants and I. In this paper, I focus primarily on the last
+two steps: expressing and outpaining.
+3.1 Positionality Statement
+Neither Sweden nor the USA is my birthplace, and I live in the USA
+on the unceded lands of Juaneno. In the spirit of self-reflexivity, I po-
+sition myself as an educated Iranian, middle-aged woman, first gen,
+and immigrant. This work was approached through a very personal
+and self-reflexive way, which may or may not resonate with other
+fellow humans whose diverse cultures, ideologies, political stands,
+genders, and childhood experiences, shaped their subject and led
+them to experience the world the way they do. My cultural and
+educational background in arts, design, and sustainability provided
+me with the means to think ecologically and to layer sustainability
+commitments with those of design and intersectionality.
+3.2 Expressing: Words and Drawings
+After nature walks, observing, and attending to ecological connec-
+tions between plants and other species, I chose a spot and sat down
+on the ground where I could have the space and possibility to en-
+gage and to see the plants and their ecology more closely. Then, I
+drew plants and wrote about them and their surroundings [ 36]. The
+practice of sitting on the ground was inspired by Welling’s Spirit
+Walk . It is a practical and accessible method for nature writing, and
+the major steps are naming, detailing, and interacting [99].
+Sitting on the ground after long and slow nature walks and
+observations was yet another practical means to immerse my sub-
+ject fully in a more-than-human nature. Further, sitting and lying
+on the ground aimed to help change the human perspective (e.g.,
+seeing from human eye-level while walking) to that of humans,
+such as mosses, SkyLupines, and Bilbery, by getting the head and
+eyes close to the ground. This bodily practice allowed to see the
+plants and their particularities from a perspective that was perhaps
+closer to theirs than ours. I predominantly used inks with differentmark-making techniques, such as stippling and hatching (Figure:
+2).
+I creatively engaged with drawings, especially with different
+line weights and mark making, as my pen moved through the
+surface of the paper and aligned with what my eyes were seeing
+and what my body was feeling. Those were essential ingredients
+for this experiment of crafting a creative process of drawings and
+writings that captured my experience of interacting with plants
+but from a different perspective. I further kept a journal about
+the plants but also started to engage in a more intentional way of
+writing about plants: nature writing. As introduced above, nature
+writing is a non-fiction literary work composed by humans about
+nonhuman natures, including plants and animals. I let the situation,
+the environment and what I felt at the moment guide me in deciding
+to start with writing or drawing and how and when to switch
+between these two creative processes.
+3.3 Outpainting: Plants and I
+In this last step, I used outpainting (a genAI technique) as a way
+to extend, change, and go beyond what I observed and expressed
+in nature, including other plants, humans, sea, river, etc. I first
+prepared my drawings and writings for genAI by reworking them,
+while seeking to keep the lines and styles of expressions as close
+as possible to the original drawings, to keep the expressions of the
+plants true to the feelings of the moment. This step was to focus on
+my own art (not on AI art) and to compose and elaborate further on
+the expression and memories of the place and the plants. Although
+AI is sometimes perceived as a collaborator (e.g., [ 39,56,73,81]),
+I intentionally wanted to experiment with genAI as a tool for cre-
+ativity [ 35,86]. When I felt satisfied with my drawings, I scanned
+each of them to have digital copies. I used image editing software
+(e.g., Adobe Photoshop) to reduce the size to about 1MB and re-
+moved the background, and saved it in PNG (Portable Network
+Graphic) format. The transparent background helps the genAI dif-
+fusion model which uses a Contrastive Language-Image Pre-trained
+(CLIP) building block, to fill the negative spaces in the image during
+image generation –i.e., to fill the white spaces between leaves and
+petals instead of regarding them as input and reproducing the same
+negative spaces.
+Lastly, I imported each drawing to the 0utpainting application
+and wrote one to two phrases as prompts to generate about 50-60
+frames around the drawings. In the prompts, I mostly used nature
+journal entries and nature writings of places I visited. In particular, I
+chose those writings that included other forms of life, bodies and ac-
+tivities, such as "children", "sea" and "swimming", and plant’s name
+and characteristics. The assumption was that the genAI would pick
+up on the style of drawing and use the textual prompt and the
+drawing as a visual prompt to illustrate the ecology of the place.
+During the process, I sometimes removed and edited some parts
+of AI-generated images, for example, if they were repetitive or if
+they were not adding anything meaningful to the overall composi-
+tion. Figure 3, shows two examples of outpainted images. Each is
+organized in three rows: the top row shows my photographs and
+drawings, the second row shows the AI-generated image, and the
+bottom row presents the prompt I wrote and used for outpainting.
+The numbers on each image are used to clarify the steps in the
+creation process.
+99
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Ghajargar
+Figure 1: Diversity of natural places that I visited during this project in Southern Sweden and Southern California.
+Figure 2: Some examples of my drawings.
+Figure 3: Examples of outpainted images, left, Blue Sky, CA,
+March 2023, right, San Elijo, CA, April 2023 (see the appendix
+for more and higher resolution images).
+3.4 Visual and Thematic Analysis
+I collected data that included auto-ethnographic notes, nature writ-
+ings, drawings, photographs, and AI outpaintings. Due to the dif-
+ferent kinds of data, I used and combined two different methods:
+visual analysis [ 84] and thematic analysis [ 17]. I conducted the
+visual analysis for each image based on their formal elements, such
+as color, scale, shapes, perspective, and principles of design, such
+as unity in variety, rhythm and balance [ 84]. In the visual analysis,
+I sought to identify elements that visualize concepts or theories
+informing this research, such as Alaimo’s transcorporality [ 2], and
+Tsing’s polyphonic assemblages [ 92] (Fig. 4). The visual analysis
+process unfolded as follows: I organized the drawings and pictures
+and labeled them according to the name of the place and the kind
+of natural habitat (e.g., mountain, garden, forest, wetland, etc.). I
+attended to each outpainted image and formulated a claim, which
+is the intention of the artist or research question of the design
+researcher [ 84]. Then, I coded and wrote about the piece, consid-
+ering how formal elements and the principles of design in each
+outpainted image impacted the meaning and the overall organiza-
+tion of the work. For the purpose of analysis, I chose four of them asrepresentative of different seasons, natural habitats, and locations
+(Fig. 4).
+Figure 4: Visual analysis of the outpainted images.
+Using Braun and Clarke’s formulation of Thematic Analysis
+(TA), I sought patterns in the data across different data sources
+(e.g. autoethnographic notes, written visual analysis, and nature
+writings). I followed six phases of reflexive thematic analysis: fa-
+miliarising, coding, generating initial themes, developing themes,
+naming themes and writing ([ 17], p.35). TA allowed to see shared
+meanings, patterns and experiences and making sense of those
+commonalities by coding the data (Fig. 5).
+4 RESULTS
+The key challenge of the data analysis in this project was analyzing
+the data that were collected through different forms of media: visual,
+verbal, and embodied. However, despite the fact that verbal lan-
+guage may fall short in communicating the richness and multitude
+of dimensions of experiences and emotions, the verbal language in
+the writings –albeit different kinds of writings (autoethnographic
+notes, nature writings, and written visual analysis)– proved to be a
+suitable meeting point of different forms of data.
+The written data were coded and thematically analysed to find
+commonalities across various media and sections. The result of this
+100
+"The Words We Do Not Yet Have." A Creative Inquiry Into Human-Plant Relationships Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+process led to the identification of several initial themes (e.g., meta-
+morphosis, social ecology, more than human dimensions, moving
+bodies, noticing, attending, transforming, reflective conversation
+with plants through drawing, etc.). The initial themes were syn-
+thesized and clustered twice, first into six themes, then into three
+main themes based on the similarities and shared patterns. The
+main themes were labeled as follows: (1) heeding, (2) walking and
+drawing (with) others, and (3) transforming. The other three themes
+were social ecology, which took part in the theme of heeding; the
+life of others, which clustered under the theme of walking and draw-
+ing (with) others; and the more than human dimensions, which
+were included in the thematic cluster of transforming.
+Some of the themes had stronger connections with specific places
+and/or seasons than others. For instance, the theme of transforming
+was more present in the spring season in Southern California, while
+social ecology and heeding were more ubiquitous in the writings
+and drawings of winter in Southern Sweden.
+Figure 5: Coding and thematic data analysis.
+4.1 Heeding
+The theme of heeding was presented through two ways of see-
+ing: one was active looking, manifested mostly while intentionally
+attending to the plants’ colors, shapes, particularities, and rela-
+tionships for drawings; the other one felt forced or pushed by the
+environment onto me, at least initially, and then shifted to an in-
+tentional way of seeing, such as when I noticed strange things or
+unexpected shapes in the outpainted images such as the absence of
+perspective or cast shadows. In both ways, I heeded the plants by
+expressing through and analyzing drawings. The theme of heed-
+ing included several ways to attend to more than human nature,
+which spans from the individual physical attributes to the ecologi-
+cal identities and relationships. In my nature journal, I found notes
+about plants that were in green colors that were particular and were
+different than a normal green color that one attributes to leaves
+(September 22): there are these trees here that have leaves that are
+not as green as one might assume. Some are silver-green, some oth-
+ers are blue-ish. Noticing the tints and hues is not an unexpected
+skill for someone who has training in visual arts and design. But
+nonetheless, I noticed them differently and wrote about them in
+a relational and ecological way rather than separated from their
+environment. For instance, rather than describing a plant color
+as if it was, say, Pantone Chateau Green, instead I noticed tints
+of the plants in relation to their movements in different places I
+visited (August 2022; April 2023): it has grown from an old trunk
+of a tree, in three directions. The new branches are thin and golden.They move around delicately with the breeze. In Southern California,
+however, it was impossible not to notice the super bloom season,
+with all those tall and delicate bright yellow flowers, sweeping around
+with the mountain breeze , similarly impossible to ignore, was the
+bright orange color of California poppies in the Blue Sky ecological
+reserve, March 2023.
+I noticed the fact that even in the strictly vegetal world, there
+are some plants that can be easily pushed into the background or
+be foregrounded –e.g., the bright orange color of poppies makes
+it very easy to be noticed, in comparison to the soft green color of
+baby Fremont Cottonwoods (Figure 6). But while walking among
+the mountains, even those plants that were impossible to over-
+look opened up for me some deeper encounters with native (and
+not native) plants (Figure 6). As Tsing highlighted, world-making
+processes are activities that every form of life, including humans,
+animals, plants, and fungi, are engaged with, and as a result of
+those activities, we alter the environment, the world-making, and
+ultimately the worlds of the others [ 92]. I reflected on the value of
+those non-native plants that have yet to be discovered. What kind
+of worlds were they making? which worlds were they altering?
+why were they here? are they lost? were they forced to leave their
+homes? I was noticing plants, starting from their visual appearances
+or the botanical characteristics to noticing their identity, place, and
+world-making processes.
+Figure 6: Examples of native Southern Californian plants
+observed during this project, February-April 2023.
+September 22, I wrote: I can hear them [the birds], but I can also feel
+their presence by the sudden yet subtle movements of the trees’ leaves
+[...] the trees have this interesting and strange shapes [...] they have
+cold-brown-green-ish trunks and medium size leaves. I noticed that I
+was focusing much more on the shapes and colors than how leaves
+sound in the wind or how a tree trunk sounds if I listened to it. But
+Welling’s method of sitting on the ground and writing was helpful
+in that it supported my full body sensory experience of the plants,
+and as she puts it, our ears have three times more connections
+to our brain than our eyes have [ 99]. As Wohlleben puts it, our
+body often requires a full immersion in nature to be able to fully
+notice and feel it, and listening, in particular, "hones our senses until
+even stationary patterns register" [ 101]. That deep listening pause
+disrupted the usual process of drawing. For instance, in August
+2022, while I was listening to the sea waves meeting the shore, I
+closed my eyes for a moment and listened to the wind blowing
+among the wildflowers; when I reopened my eyes, I noticed the
+movements of the shadows on the ground, which were overlooked
+before. So, I drew the shadows by tracing the shadow lines on my
+sketchbook (Figure 7). The practice of drawing the shadows of the
+plants, instead of the plants themselves, helped to discover a new
+101
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Ghajargar
+emergent way to express plants and what they put into the world,
+rather than a conventional scientific and/or artistic representation.
+The theme of heeding was present in the visual materials through
+formal elements but in an unexpected and organic way. I noticed
+that some of the visual elements in the outpainted images did not
+fit or were not coherent with the overall composition and meaning
+of the work: elements that I would not have included in those
+places and formats or would have drawn differently. I noticed them
+because they were unexpected, troubling, or inharmonious to my
+eyes as a design researcher.
+For instance, I noticed there was little or no spatially represented
+perspective in the images. Perspectives are a kind of optical illusion,
+and we use them because we desire to represent an image as close to
+what we as humans see in the real world. Thus, it is not surprising
+that AI-generated images may lack those conceptions, as they do
+not actually see and perceive the world the way we humans do.
+Another unexpected formal element created by genAI was the
+scale of representations. For instance, I noticed gigantic flowers
+and leaves in comparison to tiny little human figures, creating
+interesting but also disorienting juxtapositions (Figure 3). I further
+noticed reflections of the figures on the surface of the water, an
+absence of cast shadows, and the direction of light in the outpainted
+images.
+I observed formal elements, through vertical and horizontal
+shapes and lines, that connected human and nonhuman figures.
+I attended to how they intersected: humans were almost always
+presented in vertical forms, while trees, flowers, and leaves were
+presented both horizontally and vertically in several places. Also
+noticeable were formal elements that isolated figures and habitats,
+which otherwise were connected, such as the black isolated flower,
+which was confined by the horizontal and vertical lines, or the sea
+by the inland (Figure 3).
+Figure 7: Noticing and drawing plants shadows, Ön, Malmö,
+Sweden, August 2022.
+4.2 Drawing (with) Others
+The act of drawing plants not only clearly helped me to attend to
+the ecological relationship between plants and others in a place
+(e.g., I noticed a kind of social activity or the essence of what brings
+different plant species together towards building a community) and
+to the specifics of the plants (e.g., their individual and collectively
+shared features), but also supported a self-reflexive process on my
+own place within it. In addition, it provided me with a sense of
+emerging connections to these two different countries, neither of
+which was my home country. In relation to that, my notes were
+reflections of an experience of a different and emerging life or a
+new world in transition: I sat on the ground near the mosses for afew minutes and looked closely at the plants around me. It’s autumn,
+so plants’ colors, shapes, and sounds are different; they even smell
+differently, as if they were entering into a new and different world.
+This note reflects my growing experiential awareness of what I had
+read in Alaimo about the literal contact zone connecting diverse
+bodies.
+During one of my field work in Southern California (Dixon lake),
+I observed a kind of transformation that was bigger than spring , and
+it felt like something Other, something more than human. Some
+plants made me reflect on my body scales in relation to each other
+and their immense otherness. One example was the Yucca flower.
+The one I encountered was in full bloom, sitting on a hill and was
+as tall as I was (Figure 6). What is striking about it is that it is a
+small shrub with a single, giant stem that grows about ten times
+the size of the shrub, with a dramatic flower on top; that stem and
+flower seems entirely out of proportion with the shrub and that
+sense of "disproportion" creates the sense of Otherness.
+Transitioning my analysis from my fieldwork to the results of
+outpainting, the theme of Otherness also emerged. One of the out-
+painted images strongly featured chiaroscuro elements, and while
+analyzing the image ´s negative/positive spaces and their relation-
+ships with each other, I discovered new subjects. For instance, in the
+negative space outpainted between two trees, in one of the images,
+a woman-like figure was standing tall and facing the observer (see
+appendix, p.4), confounding Western artistic conventions, includ-
+ing the figure/ground relationship and the visual scale. Likewise, a
+horizontal line of the water in the San Elijo outpainted image, led to
+a dark spot of a big bush, which looked again like a woman figure
+standing along a vertical line (Figure 3). It felt similar to Angelucci’s
+Arboretum [ 6], which foregrounds the photographs of trees on top
+of the human figures in her photography, yet different in that in
+outpainted imagery, the women figures were the products of two
+or more other figures coming together in a composition (Figure 3).
+Another visual feature, as described in the previous section, was
+the omnipresence of "unexpected" and "unnatural" scales, such as a
+very big owl or an enormous flower. The tree-like shape reflection
+of a woman on the surface felt also both surprising and unsettling;
+similarly, the trees, with big open mouths that seemed to be yelling
+at the observer, were terrifying (Figure 3). The exercise of expe-
+riencing abruptness and staying with it, without trying to fix or
+reacting to it [ 48] led to a kind of deeper transformation that I write
+about in the next section: Transforming.
+4.3 Transforming
+The theme of transformation was omnipresent in my writings
+across places and plants that were going under a kind of bodily
+transformation. These were expressed through my fieldwork writ-
+ings. The theme of transformation was presented as either indi-
+vidual transformation (e.g., of a leaf or a flower) or a more social
+and collective transformation (e.g., of a forest). For instance, an
+individual transformation was noted on September 4th, 2022, while
+drawing a plant under the shadow of a tree (the place was about
+ten minutes cycling from my home): the edges are sharper when the
+leaf is older [...] they differentiate in forms and the negative spaces
+[between the leaves and branches] as they grow. Another example
+of individual transformation was a description of the branches of
+102
+"The Words We Do Not Yet Have." A Creative Inquiry Into Human-Plant Relationships Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+a beech tree, its organic and dynamic shapes as if they were in
+movement and growing: [...] but the most interesting part of these
+trees are the branches and how they seem to transform and grow.
+During another visit, I drew the transformation of a mature tree
+trunk by drawing young and delicate new leaves growing from
+the edges of the top of the trunk and attracting other plant species
+to themselves. Above the drawing, I wrote: two plants lives [are]
+blended to each other, are they living happily?
+Writing related to the theme of transformations in Southern
+California was mostly about collective transformations, including
+ourselves, places, and bodies. In March 2023, I visited Blue Sky
+ecological reserve, which is a natural reserve with a lake situated at
+1,312 ft above the sea level (about 400 m). I wrote: this is a very exotic
+place! it feels like it’s going through a sort of major transformation,
+something like a spring maybe, but bigger and more transformative.
+It was then added I think that is [partly] because California has been
+having some good rainy days [atmospheric rivers], basically since I
+moved here.
+The theme of transformation also came up in the visual analysis
+of the Outpainted images. I observed several bodily transformations
+in formal elements of the images through horizontal, vertical, and
+diagonal lines across different AI-generated imagery. For instance,
+in San Elijo image, the vertical lines that morphed from plant to
+human, or from building to plant and to human-like figure were
+omnipresent (figure 3). Similarly, in the same picture, the curvy line
+of the river on the bottom right corner of the picture is noticeable,
+leading to a tree trunk shape element, which morphs into a woman-
+like figure. In the outpainted images, vertical lines of women-like
+figures were omnipresent, that seemed to be growing from the soil,
+or from a body of water, or from a rocky cliff, just like plants. These
+vertical transformation lines were also found in the Sky Lupine
+flower, which was outpainted into two women-like figures on the
+top, facing each other (figure 3).
+The theme of transformation was visualized not only through
+lines but also through principles of rhythm and repetitions [ 84]. For
+instance, a pattern of fish-like figures on the horizon, transformed
+into a pattern of birds in the sky on top (figure 3), reminding me
+of works of the artist M. C. Escher [ 30], who used repetitions (and
+transformation) as a principle in his works –and this means genAI
+clearly was trained on his works. Further, in one of the outpainted
+images, an individual and more detailed transformation, perhaps
+from a micro to a macro formal level, from flower petals to a woman-
+like figure, was also palpable, reminding me of the African American
+mixed media artist Wangechi Mutu [ 75] –which again may mean
+that genAI was trained on her works. Further, I observed leaves
+morphing into flower petals, echoing Goethe’s remarks that the
+flowers are the results of a certain metamorphosis process of leaves
+[44].
+5 DISCUSSION
+In this research, I focused on plants as a subject and a space to
+creatively express the matters of sustainability, identity, belongings,
+and otherness. In this section, using Alaimo’s transcorporeality to
+help organize thought, I reflect on some of the ways depicting plant
+species and ecology in this project created political and ethical
+possibilities that emerge from the literal contact zone betweenhumans and nonhumans corporeality [ 2]; and the implications for
+sustainable and more than human design.
+To be clear, I emphasize that I do not claim to have resolved the
+paradox of decentering a human-centered practice (i.e., design, cre-
+ativity), but have sought to navigate that paradox in a self-reflexive
+and transcorporeal way, arriving at a perspective on (and in) the
+paradox. Hence, I will lay out and argue about multiple ways the
+journey –writing, drawing, and outpainting, at times intentionally
+and other times surprisingly– created political and ethical possibil-
+ities and decentered my subjective perspective.
+For this discussion, I focus on the ways that my creative engage-
+ments with plants —as a visual artist/designer, a (nature) writer, and
+an outpainter —reflexively changed me. Drawing plants in nature,
+informed by writers such as Tsing [ 92] and Alaimo [ 2], helped me
+to attend to the corporeal "literal contact zones" where my bod-
+ies came together, and as I did, that zone grew in resonance and
+detail, until it reflexively changed me. Likewise, heading into this
+project inspired by the tradition of nature writing, I noticed over
+time that my writing was becoming increasingly autoethnographic,
+as changes in myself, brought on by my deepened engagement with
+plants, evidenced transcorporeality. Finally, the outpainting part of
+the project surprised and challenged me, as I hoped and expected
+it would, but it did so in at least one way that I had not expected,
+when its transgressions against conventions of depiction surfaced
+and made me confront some of my own biases.
+5.1 Transcorporeal Drawing(s)
+Throughout this project, I produced writings and drawings that
+were obviously all human-made cultural products. I walked, smelled,
+and noticed like a human. Surely, I have felt all along not only a
+sense of "biospheric connection" to the more-than-human nature
+but also to myself. As I saw and wrote about transformations in
+nature, I experienced it in myself (human); I heeded things in and
+among plants, colors, perspectives, and ecologies, and drew with
+others (genAI) as if I joined my Other selves, woman, immigrant,
+human.
+The creative engagement through observations, writing and
+mark-making with the plants pushed me to go beyond merely rep-
+resenting the plants and “pressing outward” in Marder’s words
+(cited in [ 43]). My hands, touching the paper and holding the pen,
+moved through the surface of the paper and aligned with what eyes
+were seeing and what body was feeling, drew plants’ bodies and
+captured bodies around them simultaneously. I am trying to repre-
+sent in writing something of the experience of transcorporeality,
+that is, what happens when the literal contact zone becomes the
+focus; when that zone seems to expand, develop, and grow once it
+receives that attention; and how I became otherwise as an outcome
+of that growth. Drawing plants was an embodied practice: I was
+not only noticing plants, but dancing light and shadows, the feel of
+the paper, the movement of my hands and eyes and shifting body
+on the hard ground. The bodies here also include those that we
+do not normally understand to be biological: cultural, social and
+experiential bodies. My senses crisscrossed and subverted tradi-
+tional binaries between nature and culture, human and non-human.
+As one example: while my left hand was feeling the texture of the
+paper, my eyes used my embodied understanding of texture to note
+103
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Ghajargar
+details about the texture of plant stems and leaves I was looking
+at, while my right hand used conventional techniques of drawing,
+such as stippling (Fig. 2), to represent that texture that my eyes
+were seeing and my other hand was feeling, on the very same piece
+of paper I was drawing on.
+In a different situation, I became attuned to plant shadows (Fig.
+7). In the tradition of botanical drawing, noting color, volume, and
+texture so that one can represent that graphically is central to the
+practice. Initially, I defaulted to some of those practices. But at
+times, it was as if the plants spoke back to me and demanded that
+I attend to them in a different way. One such example happened
+when, on a breezy day I was trying to draw a plant, but its bouncing
+and bobbing in the breeze made it hard to draw. Suddenly, I saw
+the plants’ shadows. The shadows were like figures that plants
+put into the world in a transcorporeal relationship with the soil,
+the tree trunk, and the sun. The shadows are visually flat and
+represent the contour of a plant as a subject. They are not the
+plant but an entity that emerges –to appropriate Barad’s notion–
+from the soil, the plant, and the sun "intra-action" [ 7,8]. Shadows
+do not represent plants the way pictures do. Still, that absence of
+visual details and flatness made them uniquely guide my attention
+to other and perhaps more subtle qualities of plants: movements,
+when plants sway, their shadows sway accordingly: intimate and
+trans corporeal [3, 43].
+Clearly, drawing in nature was a multi-sensory activity which,
+likerepertoire in Oogjes and Wakkary’s words, opened up ways
+for me to facilitate the participation of nonhumans in the creative
+processes [ 77] and to weave my stories to the plants’ stories. What I
+experienced was more intimate even than weaving stories together,
+however: as I became increasingly sensitized to the "literal contact
+zones," my drawing itself changed –what I wanted to draw, how I
+drew it, and how I felt as I was doing so. For me, transcorporeality
+was transitioning from a heady theory to mundane sensations in
+my fingertips [1].
+5.2 Transcorporeal Writing(s)
+I began this project inspired by nature writers, such as Rachel
+Carson [ 19], Erin Sharkey [ 85], and Stephanie Mills [ 66], whose
+writings linked their observations of nature with personal experi-
+ences and societal issues, including public policy and economic and
+environmental justice. But as this project changed my perspective,
+those changes in me became a sort of evidence of the impacts of
+my putative object of inquiry: plants in nature. This insight, that
+changes in the observer as a result of engaging the observed, has a
+long history in ethnography and is one of the deep justifications of
+autoethnography [ 80], and analogous insights has been expressed
+in HCI and design literature as well, e.g., [ 25,72]. Autoethnography
+is a first-person [ 9,59] qualitative research approach, which allows
+ethnographers to express their own first-person perspective regard-
+ing a situation, by situating the “ethnographer as the protagonist
+of the ethnographic narration” [80].
+My nature writing shifted away from naturalistic science writ-
+ing towards something like autoethnography, as it started to turn
+toward more self-reflexive expressions. My words reflected changes
+in my place of living, relationships, and surviving a global pandemic
+and also the "I" that was being bodily morphed to instead of transi-
+tioning to the new place. For example, writing about the details of ayucca flower in the Southern Californian mountains and how I felt
+about it, as I discovered it, was not only about noticing a new exotic
+plant species but also discovering my other selves as branches of
+this more than human living society [ 13]. That expression was a
+deep reflexive practice that led me (similar to Biggs et al. [ 13]) to
+be simultaneously frightened and awed of the possibilities of the
+growth and expansion of this world in building.
+Seemingly, nature writing is a practice of ecological perception
+of more than human nature and to "outwardly" include the human
+writers themselves [ 60]. Thus, my writings, albeit mostly about
+the trees, seasons, and flowers, their visual details, and environ-
+ment, were weaved with the layers of my own stories of becom-
+ing, a self-reflexive account of exploring and finding my place, my
+footing, [ 77] or according to Ecofeminist scholar, Plumwood, the
+"self-in-relation" ([ 79], cited in [ 98]). That process of getting to
+know, closely looking at, and writing about plants did not exclude
+me from the equation or did not put me in the background, but
+was creating political and ethical possibilities of becoming a more
+than human designer, self-reflectively. That self-embrace echoes
+Plumwood’s critiques of social ecologists, who, like Bookchin [ 15],
+question human domination by treating the human as a disease;
+instead, Plumwood affirms that "the critique of human domination
+must be part of the familiar and healthy practice of self-critical
+reflection, not an acultural and ahistorical expression of self-hatred
+and collective human-species guilt" ([ 79], p. 12). The visual and
+thematic analysis of my own autoethnographic notes and writ-
+ings was yet another practice aspirationally pressing towards the
+decentering of the subject who was sitting in an office analysing
+the data, and foregrounding my other self, the one who was in
+the nature, wrote about and drew plants. This self-self-reflexive
+data analysis method opened up ways of attending to a transcorpo-
+real experiences, thoughts and ideas, by rejecting and separating
+it from myself in an attempt to be able to attend and to notice the
+other[1, 13].
+5.3 Transcorporeal Outpainting(s)
+Once my drawings were scanned and used as prompts for outpaint-
+ing, I was confronted with a whole new kind of estrangement. There,
+I saw entangled bodies, distorted scales, "wrong" perspectives, lack
+of scale and cast shadows, blurry boundaries between habitats and
+the species, between living and non-living subjects, "unexpected"
+images, "unnatural" or abnormal greens, an unintentionality and
+above all a profound lack of unity in the outpainted images. The
+many ways that outpainting subverted my expectations, all while
+also carrying forward with high fidelity key characteristics of my
+work (e.g., black ink line drawings), was disorienting. But again,
+with the aspirational goal of decentering my own creative agency,
+I was not just "staying with the trouble" [ 48]; I was asking for it,
+even if I wasn’t quite sure how it would manifest.
+Though at the conceptual level it was not surprising that genAI
+violated conventions of representation, the specific extent to which
+genAI used, subverted, and seemingly randomly transformed or
+flagrantly disregarded those conventions was surprising at the
+more granular level of what it did with (and to) my initial drawings.
+It joined objects of different scales; it morphed from one type of
+object into another (e.g., from fish to birds); it produced shadows
+that were distorted and took on a life of their own. My point is not
+104
+"The Words We Do Not Yet Have." A Creative Inquiry Into Human-Plant Relationships Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+to state the obvious, which is that genAI doesn’t "understand" art
+and can not really produce it; rather, my point is that the specific
+ways it expanded my work created new experiences of wonder and
+sublimity. I have written earlier about my surprising first encounter
+with the yucca in mountains, whose flower seemed to be entirely out
+of proportion with the plant. When yucca plants were outpainted,
+they became yelling giant trees (Fig. 3). In other words, just as
+nature seemed to produce objects that did not respect norms of
+scale and organic coherence, creating vegetal "monsters," so too
+did genAI. That double-subversion of my expectation that organic
+bodies should respect certain norms of scale suddenly inverted: I
+realized that the problem was my own expectations, and at that
+moment, I felt wonder all over again, though I was sitting at a
+computer. And that experience, in turn, changed what I looked for,
+both in nature and in outpainted art.
+The use of outpainting opened up to a few benefits. First, it
+worked as a tool for multispecies visual storytelling, to support
+one’s ability to see and to question what surprising and "unex-
+pected" and "abnormal" stories one could be part of [ 47]. The
+genAI’s outpainting technique, although it works on the principle
+of prediction, still yielded unexpected results. It clearly and literally
+not only expanded my drawings but disrupted them, and through
+that genAI transformed my drawings to include other characters,
+humans and nonhumans. That transformation, which happened in
+a rather unplanned and surprising manner, helped me to see a pluri-
+verse, a world in the making, and to notice extraordinary subjects,
+figures, and stories [ 31]. If my intention of putting the drawing at
+the center and then outpaint it with genAI was to augment and
+amplify my literally centered drawing, I was unsuccessful. In con-
+trast, outpainting disrupted that narrative (due to genAI’s technical
+imperfections) to show that not only was it not possible for the
+drawing to be centered, but also to question the existence of any
+center at all in the resulting images. For a research project focused
+on the seemingly impossible task of decentering humans, I was
+suddenly faced with an artifact where it was impossible to have a
+center at all. In these ways, the outpainted imagery communicated
+multiplicity of the stories [ 46] that were weaving polyphonically
+[92] to each other to visualize a transcorporeality without back-
+grounding or foregrounding any stories or components. The lonely
+flower was highlighted as much as the female-like figure morphing
+up from a tree, or the seaweeds. The multi-species world-making
+process [ 92] was presented in the absence of "right perspective" or
+scale.
+Second, the outpainted images were evocative. They worked
+as tools for reflection [ 38,40,41]. The images triggered thoughts
+on how I could be in an embodied and affective relationship with
+plants, that "is in many cases represented as a kind of ‘dance,’ which
+is to say a series of movements and encounters in which the interde-
+pendency of bodies acquires shape and form” ([ 65], p.16) of a world
+in building. As Michael Marder puts it, the conditions for encoun-
+tering plants, instead of confronting them as objects of knowledge,
+are their interactivity and distinct subjectivity ([ 64], p.13). The out-
+painted images with those transcorporeal and hybrid figures of
+human-nonhuman evocatively raised the question of from where
+"I" as a subject starts, and how my craft can be "about thickening
+relationality for and with the Earth."([47], p.2).6 CONCLUSIONS
+As with other design researchers in the broader HCI community, I
+am excited by thinkers in the critical traditions of posthumanism,
+critical plant studies and the Anthropocene, but I also find them
+difficult to translate into practice within design-oriented fields. Part
+of the challenge, as is widely recognized, is the difficulty of decen-
+tering the human in a field that is foundationally human-centered.
+Another part is the ways that many of us have been taught to
+see creativity as a uniquely human quality (though Tsing’s world-
+building [ 92] and similar ideas clearly challenge this), and even to
+see it as the act of an individual (e.g., the "creative genius" mythol-
+ogy around the arts and design), though that, too, has been widely
+challenged (e.g., in social psychology [ 24]). In the present work,
+rather than staying at the level of abstract theories and attempting
+to contribute a new one, I approached these matters in an experi-
+ential, embodied, and physical way. There, I cultivated my senses,
+thoughts, and outward expressions in a way that reflected the goals,
+the desiderata, articulated by this body of theory in those moments
+of praxis, where as a design researcher, I have found the practical
+utility of this body of theory to remain elusive.
+I have tried to communicate here how these experiences have
+changed me, but more relevantly to design research, I hope also to
+have communicated how these experiences have changed how and
+what I make as a design researcher. Above all, I have developed a
+novel approach, combining nature walking, journaling, drawing,
+outpainting, thematic analysis, and self-reflection. Additionally,
+within that approach, I also found shifts in how I act in natural
+settings (e.g., leveraging all my senses, intentionally using diverse
+points of view); how and what I draw (e.g., moving from a botani-
+cal drawing mode to objectively represent plants towards a mode
+where I try to receive and depict what they are expressing to me);
+how and what I write (e.g., moving from a mode of nature writing
+towards a kind of discourse that is more radically reflexive, which
+documents ways that plants impress their ways of being onto me,
+where I change to accommodate those impressions); and how I use
+genAI (e.g., letting its technical inabilities and even hallucinations
+challenge my biases and open me to new ways of imagining, new
+arts of noticing, the literal contact zones where bodies intermingle,
+and where strange worlds are made).
+7 LIMITATIONS
+This project comes with its own limitations. First, I was not able
+to ride my bike to many places. Hence, I used public transporta-
+tion and drove my car, which, in addition to using genAI —which
+consumes a large amount of energy— contributed to the issues this
+research is trying to self-reflexively study. Second, this research
+could have been better informed and positioned with regard to the
+indigenous knowledge of the land and plants, especially those of
+Kumeyyay, Juaneno and Cahuilla. Third, I wish this paper could
+reflect the perspectives of African Americans, LGBTQ+ and women
+on nature writing, however, and even though they were mentioned
+in this work, it may not sufficiently represent their views or their
+epistemological commitments. Fourth, although I used my own art
+as a member of an underrepresented group, the genAI that I used
+was trained on arts of mostly colonial structure, and has reproduced
+visibly or invisibly some of those biases and thinking patterns.
+105
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Ghajargar
+REFERENCES
+[1]Stacy Alaimo. 2008. Trans-corporeal feminisms and the ethical space of nature.
+Material feminisms (Jan. 2008). https://www.academia.edu/71034400/Trans_
+corporeal_feminisms_and_the_ethical_space_of_nature
+[2]Stacy Alaimo. 2010. Bodily Natures: Science, Environment, and the Material Self .
+Bloomington.
+[3]Stacy Alaimo. 2016. Exposed: Environmental Politics and Pleasures in Posthuman
+Times (1st edition ed.). University of Minnesota Press, Minneapolis.
+[4]Ferran Altarriba Bertran, Oðuz ’Oz’ Buruk, and Juho Hamari. 2022. From-
+The-Wild: Towards Co-Designing For and From Nature. In Extended Abstracts
+of the 2022 CHI Conference on Human Factors in Computing Systems (CHI EA
+’22). Association for Computing Machinery, New York, NY, USA, 1–7. https:
+//doi.org/10.1145/3491101.3519811
+[5]Gemma Anderson-Tempini. 2019. Drawing as a Way of Knowing in Art and
+Science (reprint edition ed.). Intellect Ltd.
+[6]Sara Angelucci. 2016. Sara Angelucci - Arboretum. https://www.bulgergallery.
+com/artists/26-sara-angelucci/series/arboretum/
+[7]Karen Barad. 2003. Posthumanist Performativity: Toward an Understanding of
+How Matter Comes to Matter. Signs: Journal of Women in Culture and Society
+28, 3 (March 2003), 801–831. https://doi.org/10.1086/345321
+[8]Karen Barad. 2007. Meeting the Universe Halfway: Quantum Physics and the En-
+tanglement of Matter and Meaning (second printing edition ed.). Duke University
+Press Books, Durham.
+[9]Louise Barkhuus and Jennifer A. Rode. 2007. From Mice to Men - 24 Years of
+Evaluation in CHI. In Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems (CHI ’07) . Association for Computing Machinery, New York,
+NY, USA. https://doi.org/10.1145/1240624.2180963
+[10] Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language Models Be
+Too Big?. In Proceedings of the 2021 ACM Conference on Fairness, Accountability,
+and Transparency (FAccT ’21) . Association for Computing Machinery, New York,
+NY, USA, 610–623. https://doi.org/10.1145/3442188.3445922
+[11] Nicola J. Bidwell, Masbulele Siya, Gary Marsden, William D. Tucker, M.
+Tshemese, N. Gaven, S. Ntlangano, Simon Robinson, and Kristen ALI Eglin-
+ton. 2013. Walking and the social life of solar charging in rural africa. ACM
+Transactions on Computer-Human Interaction 20, 4 (Sept. 2013), 22:1–22:33.
+https://doi.org/10.1145/2493524
+[12] Heidi Biggs, Tejaswini Joshi, Ries Murphy, Jeffrey Bardzell, and Shaowen
+Bardzell. 2021. Alternatives to Agrilogistics: Designing for Ecological Thinking.
+Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct. 2021),
+413:1–413:31. https://doi.org/10.1145/3479557
+[13] Heidi R. Biggs, Jeffrey Bardzell, and Shaowen Bardzell. 2021. Watching Myself
+Watching Birds: Abjection, Ecological Thinking, and Posthuman Design. In
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(CHI ’21) . Association for Computing Machinery, New York, NY, USA, 1–16.
+https://doi.org/10.1145/3411764.3445329
+[14] Eli Blevis. 2007. Sustainable interaction design: invention &amp; disposal,
+renewal &amp; reuse. In Proceedings of the SIGCHI Conference on Human Factors
+in Computing Systems (CHI ’07) . Association for Computing Machinery, New
+York, NY, USA, 503–512. https://doi.org/10.1145/1240624.1240705
+[15] Murray Bookchin and Todd McGowan. 2022. The Philosophy of Social Ecology:
+Essays on Dialectical Naturalism . AK Press, Chico.
+[16] Rosi Braidotti. 2013. The Posthuman (illustrated edition ed.). Polity Pr.
+[17] Virginia Braun and Victoria Clarke. 2021. Thematic Analysis: A Practical Guide
+(1st edition ed.). SAGE Publications Ltd, London ; Thousand Oaks, California.
+[18] Joy Buolamwini. 2023. Unmasking AI: My Mission to Protect What Is Human in
+a World of Machines . Random House.
+[19] Rachel Carson, Linda Lear, and Edward O. Wilson. 2002. Silent Spring (anniver-
+sary edition ed.). Houghton Mifflin Company, Boston.
+[20] Rachel Carson, Jeffrey S. Levinton, and Ann H. Zwinger. 1991. The Sea Around
+Us, Special Edition (new edition ed.). Oxford University Press, New York.
+[21] Daniel Chamovitz. 2013. What a Plant Knows: A Field Guide to the Senses (reprint
+edition ed.). Scientific American / Farrar, Straus and Giroux.
+[22] Nigel Cross. 1982. Designerly ways of knowing. Design Studies 3, 4 (Oct. 1982),
+221–227. https://doi.org/10.1016/0142-694X(82)90040-0
+[23] Nigel Cross. 2001. Designerly Ways of Knowing: Design Discipline versus
+Design Science. Design Issues 17, 3 (2001), 49–55. https://www.jstor.org/stable/
+1511801 Publisher: The MIT Press.
+[24] Mihaly Csikszentmihalyi. 2013. Creativity: Flow and the Psychology of Discovery
+and Invention (reprint edition ed.). Harper Perennial, New York.
+[25] Audrey Desjardins and Aubree Ball. 2018. Revealing Tensions in Autobiograph-
+ical Design in HCI. In Proceedings of the 2018 Designing Interactive Systems
+Conference (DIS ’18) . Association for Computing Machinery, New York, NY,
+USA, 753–764. https://doi.org/10.1145/3196709.3196781
+[26] Carl DiSalvo, Phoebe Sengers, and Hrönn Brynjarsdóttir. 2010. Mapping the
+landscape of sustainable HCI. In Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems (CHI ’10) . Association for Computing Machinery,New York, NY, USA, 1975–1984. https://doi.org/10.1145/1753326.1753625
+[27] Paul Dourish. 2010. HCI and environmental sustainability: the politics of design
+and the design of politics. In Proceedings of the 8th ACM Conference on Designing
+Interactive Systems (DIS ’10) . Association for Computing Machinery, New York,
+NY, USA, 1–10. https://doi.org/10.1145/1858171.1858173
+[28] Elizabeth Edenberg and Alexandra Wood. 2023. Disambiguating Algorithmic
+Bias: From Neutrality to Justice. In Proceedings of the 2023 AAAI/ACM Conference
+on AI, Ethics, and Society (AIES ’23) . Association for Computing Machinery, New
+York, NY, USA, 691–704. https://doi.org/10.1145/3600211.3604695
+[29] Robert Finch and John Elder. 1990. Robert Finch, John Elder / The Norton Book of
+Nature Writing 1990 . Generic.
+[30] M.C. Escher. 1898. M.C. Escher – The Official Website. https://mcescher.com/
+[31] Arturo Escobar. 2018. Designs for the Pluriverse: Radical Interdependence, Auton-
+omy, and the Making of Worlds (illustrated edition ed.). Duke University Press
+Books, Durham.
+[32] Daniel Fallman. 2003. Design-oriented human-computer interaction. In Pro-
+ceedings of the SIGCHI Conference on Human Factors in Computing Systems
+(CHI ’03) . Association for Computing Machinery, New York, NY, USA, 225–232.
+https://doi.org/10.1145/642611.642652
+[33] Laura Forlano. 2017. Posthumanism and Design. She Ji: The Journal of Design,
+Economics, and Innovation 3, 1 (March 2017), 16–29. https://doi.org/10.1016/j.
+sheji.2017.08.001
+[34] Nathan C. Frey, Baolin Li, Joseph McDonald, Dan Zhao, Michael Jones, David
+Bestor, Devesh Tiwari, Vijay Gadepally, and Siddharth Samsi. 2022. Bench-
+marking Resource Usage for Efficient Distributed Deep Learning. https:
+//doi.org/10.48550/arXiv.2201.12423
+[35] Jonas Frich, Lindsay MacDonald Vermeulen, Christian Remy, Michael Mose
+Biskjaer, and Peter Dalsgaard. 2019. Mapping the Landscape of Creativity
+Support Tools in HCI. In Proceedings of the 2019 CHI Conference on Human
+Factors in Computing Systems (CHI ’19) . ACM, New York, NY, USA, 389:1–389:18.
+https://doi.org/10.1145/3290605.3300619
+[36] Maliheh Ghajargar. 2022. Painting and Inpainting Plants: A Posthuman Ecolog-
+ical Design Methodology. In Encountering Non-Humans: On Methodologies for
+the Post-Anthropocene .
+[37] Maliheh Ghajargar and Jeffrey Bardzell. 2019. What design education tells us
+about design theory: a pedagogical genealogy. Digital Creativity 30, 4 (Oct.
+2019), 277–299. https://doi.org/10.1080/14626268.2019.1677723
+[38] Maliheh Ghajargar and Jeffrey Bardzell. 2021. Synthesis of Forms: Integrating
+Practical and Reflective Qualities in Design. In Proceedings of the 2021 CHI
+Conference on Human Factors in Computing Systems . Number 614. Association
+for Computing Machinery, New York, NY, USA, 1–12. https://doi.org/10.1145/
+3411764.3445232
+[39] Maliheh Ghajargar, Jeffrey Bardzell, and Love Lagerkvist. 2022. A Redhead
+Walks into a Bar: Experiences of Writing Fiction with Artificial Intelligence.
+In25th International Academic Mindtrek conference (Academic Mindtrek 2022) .
+Association for Computing Machinery, New York, NY, USA, 230–241. https:
+//doi.org/10.1145/3569219.3569418
+[40] Maliheh Ghajargar and Mikael Wiberg. 2018. Thinking with Interactive Artifacts:
+Reflection as a Concept in Design Outcomes. Design Issues 34, 2 (April 2018),
+48–63. https://doi.org/10.1162/DESI_a_00485
+[41] Maliheh Ghajargar, Mikael Wiberg, and Erik Stolterman. 2018. Designing IoT
+Systems that Support Reflective Thinking: A Relational Approach. International
+Journal of Design 12, 1 (2018), 21–35.
+[42] Elisa Giaccardi and Johan Redström. 2020. Technology and More-Than-Human
+Design. Design Issues 36, 4 (Sept. 2020), 33–44. https://doi.org/10.1162/desi_a_
+00612
+[43] Prudence Gibson. 2018. Covert Plants: Vegetal Consciousness and Agency in an
+Anthropocentric World . Punctum Books, Santa Barbara, CA.
+[44] Johann Wolfgang von Goethe and Gordon L. Miller. 2009. The Metamorphosis of
+Plants . Cambridge, Mass.
+[45] Matthew Hall. 2011. Plants as Persons: A Philosophical Botany . State University
+of New York Press, Albany.
+[46] Donna Haraway. 2019. It Matters What Stories Tell Stories; It Matters Whose
+Stories Tell Stories. a/b: Auto/Biography Studies 34, 3 (Sept. 2019), 565–575.
+https://doi.org/10.1080/08989575.2019.1664163
+[47] Donna Haraway and Drew Endy. 2019. Tools for Multispecies Futures. Journal
+of Design and Science (Oct. 2019). https://doi.org/10.21428/7808da6b.05eca6f1
+[48] Donna J. Haraway. 2016. Staying with the Trouble: Making Kin in the Chthulucene
+(illustrated edition ed.). Duke University Press Books, Durham.
+[49] John Hay. 1974. Spirit of survival;: A natural and personal history of terns (first
+edition ed.). Dutton.
+[50] Carla Hustak and Natasha Myers. 2012. Involutionary Momentum: Affective
+Ecologies and the Sciences of Plant/Insect Encounters. differences 23, 3 (Dec.
+2012), 74–118. https://doi.org/10.1215/10407391-1892907
+[51] Gopinaath Kannabiran. 2014. Ecofeminism and sustainable HCI. In Proceedings of
+the 2014 companion publication on Designing interactive systems (DIS Companion
+’14). Association for Computing Machinery, New York, NY, USA, 185–190. https:
+//doi.org/10.1145/2598784.2598795
+106
+"The Words We Do Not Yet Have." A Creative Inquiry Into Human-Plant Relationships Mindtrek ’24, October 08–11, 2024, Tampere, Finland
+[52] Gopinaath Kannabiran and Anuradha Venugopal Reddy. 2022. Exploring Kolam
+As An Ecofeminist Computational Art Practice. In Proceedings of the 14th Confer-
+ence on Creativity and Cognition (C&amp;C ’22) . Association for Computing Ma-
+chinery, New York, NY, USA, 336–349. https://doi.org/10.1145/3527927.3531452
+[53] Cayla Key, Cally Gatehouse, and Nick Taylor. 2022. Feminist Care in the Anthro-
+pocene: Packing and Unpacking Tensions in Posthumanist HCI. In Designing
+Interactive Systems Conference (DIS ’22) . Association for Computing Machinery,
+New York, NY, USA, 677–692. https://doi.org/10.1145/3532106.3533540
+[54] Julia Kristeva. 1982. Powers of Horror: An Essay on Abjection (first edition ed.).
+Columbia Univ Pr, New York.
+[55] Randy Laist (Ed.). 2013. Plants and Literature: Essays in Critical Plant Studies .
+Rodopi, Amsterdam.
+[56] Mina Lee, Percy Liang, and Qian Yang. 2022. CoAuthor: Designing a Human-AI
+Collaborative Writing Dataset for Exploring Language Model Capabilities. In
+CHI Conference on Human Factors in Computing Systems . 1–19. https://doi.org/
+10.1145/3491102.3502030
+[57] Jen Liu, Daragh Byrne, and Laura Devendorf. 2018. Design for Collaborative
+Survival: An Inquiry into Human-Fungi Relationships. In Proceedings of the 2018
+CHI Conference on Human Factors in Computing Systems (CHI ’18) . Association
+for Computing Machinery, New York, NY, USA, 1–13. https://doi.org/10.1145/
+3173574.3173614
+[58] Susan Loh, Marcus Foth, and Yasu Santo. 2024. The more-than-human turn in
+human-plant interaction design: From utilitarian object to living co-inhabitant.
+International Journal of Human-Computer Studies 181 (Jan. 2024), 103128. https:
+//doi.org/10.1016/j.ijhcs.2023.103128
+[59] Andrés Lucero, Audrey Desjardins, Carman Neustaedter, Kristina Höök, Marc
+Hassenzahl, and Marta E. Cecchinato. 2019. A Sample of One: First-Person
+Research Methods in HCI. In Companion Publication of the 2019 on Designing
+Interactive Systems Conference 2019 Companion (DIS ’19 Companion) . Association
+for Computing Machinery, New York, NY, USA, 385–388. https://doi.org/10.
+1145/3301019.3319996
+[60] Thomas J. Lyon. 2001. This Incomparable Land: A Guide to American Nature
+Writing (revised edition ed.). Milkweed Editions, Minneapolis, Minn.
+[61] Negar Maleki, Balaji Padmanabhan, and Kaushik Dutta. 2024. AI Hallucinations:
+A Misnomer Worth Clarifying. https://doi.org/10.48550/arXiv.2401.06796
+[62] Stefano Mancuso. 2018. The Revolutionary Genius of Plants: A New Understanding
+of Plant Intelligence and Behavior (illustrated edition ed.). Atria Books, New
+York, NY.
+[63] Michael Marder. 2012. The Life of Plants and the Limits of Empathy. Dialogue:
+Canadian Philosophical Review / Revue canadienne de philosophie 51, 2 (June
+2012), 259–273. https://doi.org/10.1017/S0012217312000431
+[64] Michael Marder, Gianni Vattimo, and Santiago Zabala. 2013. Plant-Thinking: A
+Philosophy of Vegetal Life . Columbia University Press, New York.
+[65] Natania Meeker and Antónia Szabari. 2019. Radical Botany: Plants and Specula-
+tive Fiction (1st edition ed.). Fordham University Press, New York.
+[66] Stephanie Mills. 1996. In Service of The Wild: Restoring and Reinhabiting Damaged
+Land . Beacon Press.
+[67] Aurélien Miralles, Michel Raymond, and Guillaume Lecointre. 2019. Empathy
+and compassion toward other species decrease with evolutionary divergence
+time. Scientific Reports 9, 1 (Dec. 2019), 19555. https://doi.org/10.1038/s41598-
+019-56006-9 Publisher: Nature Publishing Group.
+[68] Timothy Morton. 2016. Dark Ecology: For a Logic of Future Coexistence . Columbia
+University Press, New York.
+[69] Natasha Myers. [n. d.]. A Kriya for Cultivating Your Inner Plant. Centre for Imag-
+inative Ethnography ([n. d.]). https://www.academia.edu/6467794/A_Kriya_
+for_Cultivating_Your_Inner_Plant
+[70] David Mytton. 2021. Data centre water consumption. npj Clean Water 4, 1 (Feb.
+2021), 1–6. https://doi.org/10.1038/s41545-021-00101-w
+[71] Hye Yeon Nam, JaNiece Campbell, Andrew M. Webb, and Brendan Harmon.
+2023. FloraWear: Wearable Living Interface. In Proceedings of the Seventeenth
+International Conference on Tangible, Embedded, and Embodied Interaction (TEI
+’23). Association for Computing Machinery, New York, NY, USA, 1–15. https:
+//doi.org/10.1145/3569009.3572801
+[72] Carman Neustaedter and Phoebe Sengers. 2012. Autobiographical design in HCI
+research: designing and learning through use-it-yourself. In Proceedings of the
+Designing Interactive Systems Conference (DIS ’12) . Association for Computing
+Machinery, New York, NY, USA, 514–523. https://doi.org/10.1145/2317956.
+2318034
+[73] Eric Nichols, Leo Gao, and Randy Gomez. 2020. Collaborative Storytelling with
+Large-scale Neural Language Models. In Motion, Interaction and Games . ACM,
+Virtual Event SC USA, 1–10. https://doi.org/10.1145/3424636.3426903
+[74] Safiya Umoja Noble. 2018. Algorithms of Oppression: How Search Engines Rein-
+force Racism (illustrated edition ed.). NYU Press, New York.
+[75] Margot Norton and Vivian Crockett (Eds.). 2023. Wangechi Mutu: Intertwined .
+Phaidon Press, London : New York, NY.
+[76] Laura A. Ogden. 2011. Landscape Ethnography and the Politics of Na-
+ture. In Swamplife: People, Gators, and Mangroves Entangled in the Everglades ,
+Laura A. Ogden (Ed.). University of Minnesota Press, 0. https://doi.org/10.5749/minnesota/9780816670260.003.0002
+[77] Doenja Oogjes and Ron Wakkary. 2022. Weaving Stories: Toward Repertoires for
+Designing Things. In Proceedings of the 2022 CHI Conference on Human Factors
+in Computing Systems (CHI ’22) . Association for Computing Machinery, New
+York, NY, USA, 1–21. https://doi.org/10.1145/3491102.3501901
+[78] Trine Plambech and Cecil C. Konijnendijk van den Bosch. 2015. The impact
+of nature on creativity – A study among Danish creative professionals. Urban
+Forestry & Urban Greening 14, 2 (Jan. 2015), 255–263. https://doi.org/10.1016/j.
+ufug.2015.02.006
+[79] Val Plumwood. 1993. Feminism and the Mastery of Nature . Routledge, London.
+[80] Amon Rapp. 2018. Autoethnography in Human-Computer Interaction: Theory
+and Practice. In New Directions in Third Wave Human-Computer Interaction:
+Volume 2 - Methodologies , Michael Filimowicz and Veronika Tzankova (Eds.).
+Springer International Publishing, Cham, 25–42. https://doi.org/10.1007/978-3-
+319-73374-6_3
+[81] Jeba Rezwana and Mary Lou Maher. 2023. User Perspectives on Ethical Chal-
+lenges in Human-AI Co-Creativity: A Design Fiction Study. In Proceedings of
+the 15th Conference on Creativity and Cognition (C&amp;C ’23) . Association for
+Computing Machinery, New York, NY, USA, 62–74. https://doi.org/10.1145/
+3591196.3593364
+[82] Shannon Rodgers, Bernd Ploderer, Kellie Vella, and Margot Brereton. 2023. Phe-
+nology Probes: Exploring Human-Nature Relations for Designing Sustainable
+Futures. In Proceedings of the 34th Australian Conference on Human-Computer
+Interaction (OzCHI ’22) . Association for Computing Machinery, New York, NY,
+USA, 216–228. https://doi.org/10.1145/3572921.3572936
+[83] Anna K. Sagal. 2022. Botanical Entanglements: Women, Natural Science, and the
+Arts in Eighteenth-Century England . University of Virginia Press, Charlottesville.
+[84] Henry Sayre. 2008. Writing About Art (6th edition ed.). Pearson, Upper Saddle
+River, N.J.
+[85] Erin Sharkey (Ed.). 2023. A Darker Wilderness: Black Nature Writing from Soil to
+Stars . Milkweed Editions, Minneapolis, Minnesota.
+[86] Ben Shneiderman. 2007. Creativity support tools: accelerating discovery and
+innovation. Commun. ACM 50, 12 (Dec. 2007), 20–32. https://doi.org/10.1145/
+1323688.1323689
+[87] Linda Tuhiwai Smith. 2023. Decolonizing Methodologies: Research and Indigenous
+Peoples . Bloomsbury Academic.
+[88] Nancy Smith, Shaowen Bardzell, and Jeffrey Bardzell. 2017. Designing for
+Cohabitation: Naturecultures, Hybrids, and Decentering the Human in Design.
+InProceedings of the 2017 CHI Conference on Human Factors in Computing Systems
+(CHI ’17) . Association for Computing Machinery, New York, NY, USA, 1714–1725.
+https://doi.org/10.1145/3025453.3025948
+[89] Velvet Spors, Samuli Laato, Oğuz ’Oz’ Buruk, and Juho Hamari. 2023. Longing
+to be the Mountain: A Scoping Review about Nature-Centric, Health-Minded
+Technologies. In Proceedings of the 2023 CHI Conference on Human Factors in
+Computing Systems (CHI ’23) . Association for Computing Machinery, New York,
+NY, USA, 1–16. https://doi.org/10.1145/3544548.3581479
+[90] Hannah Stark. 2015. Deleuze and Critical Plant Studies. In Deleuze and the
+Non/Human , Jon Roffe and Hannah Stark (Eds.). Palgrave Macmillan UK, London,
+180–196. https://doi.org/10.1057/9781137453693_11
+[91] Marie Louise Juul Søndergaard and Nadia Campo Woytuk. 2023. Feminist
+Posthumanist Design of Menstrual Care for More-than-Human Bodies. In Pro-
+ceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+(CHI ’23) . Association for Computing Machinery, New York, NY, USA, 1–18.
+https://doi.org/10.1145/3544548.3581083
+[92] Anna Lowenhaupt Tsing. 2021. The Mushroom at the End of the World: On the
+Possibility of Life in Capitalist Ruins . Princeton Oxford.
+[93] Kellie Vella, Bernd Ploderer, and Margot Brereton. 2021. Human-Nature Re-
+lations in Urban Gardens: Explorations with Camera Traps. In Proceedings of
+the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21) .
+Association for Computing Machinery, New York, NY, USA, 1–13. https:
+//doi.org/10.1145/3411764.3445438
+[94] Ron Wakkary. 2020. Nomadic practices: A posthuman theory for knowing
+design. International Journal of Design 14, 3 (2020), 117–128. http://www.
+scopus.com/inward/record.url?scp=85098961241&partnerID=8YFLogxK
+[95] Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered
+Worlds . MIT Press, Cambridge, MA, USA.
+[96] Ron Wakkary, Doenja Oogjes, Nazmus Sakib, and Armi Behzad. 2023. Turner
+Boxes and Bees: From Ambivalence to Diffraction. In Proceedings of the 2023 ACM
+Designing Interactive Systems Conference . ACM, Pittsburgh PA USA, 790–807.
+https://doi.org/10.1145/3563657.3596081
+[97] Xiaoge Wang. 2022. Nature Jar: Design for Facilitating Nature Connectedness
+and Restoration in Home Scenario. In Sixteenth International Conference on Tan-
+gible, Embedded, and Embodied Interaction (TEI ’22) . Association for Computing
+Machinery, New York, NY, USA, 1–7. https://doi.org/10.1145/3490149.3502426
+[98] Karen J. Warren (Ed.). 1997. Ecofeminism: Women, Culture, Nature (first edition
+ed.). Indiana University Press, Bloomington.
+[99] Tina Welling. 2014. Writing Wild: Forming a Creative Partnership with Nature .
+Novato, California.
+107
+Mindtrek ’24, October 08–11, 2024, Tampere, Finland Ghajargar
+[100] Terry Tempest Williams. 1992. Refuge: An Unnatural History of Family and Place
+(reprint edition ed.). Vintage, New York.
+[101] Peter Wohlleben and Jane Billinghurst. 2022. Forest Walking: Discovering the
+Trees and Woodlands of North America . Greystone Books, Vancouver ; Berkeley
+; London.[102] Farrokhi Yazdi. [n. d.]. Divan-e Farrokhi Yazdi .
+[103] Chin-Wen Yeh, Shih-Han Hung, and Chun-Yen Chang. 2022. The influence
+of natural environments on creativity. Frontiers in Psychiatry 13 (July 2022),
+895213. https://doi.org/10.3389/fpsyt.2022.895213
+108

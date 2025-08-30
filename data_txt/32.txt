@@ -1,0 +1,443 @@
+Dr. Ping and Dr. Pong:
+Rethinking Writing and Work with Playful Embodied AIs
+Ahmet Börütecene
+ahmet.borutecene@liu.se
+Division of Media and Information Technology
+Linköping University
+Norrköping, SwedenOğuz ‘Oz’ Buruk
+oguz.buruk@tuni.fi
+Gameful Futures Lab
+Research Center of Gameful Realities
+Tampere University
+Tampere, Finland
+Figure 1: PingPonGPT setup. Two force sensors driven by an Arduino connected to a laptop running a Python script to use
+ChatGPT via API. A sound system plugged into the computer acting both as a speaker for ChatGPT responses and microphone
+to capture the players’ voices. The screen shows when ChatGPT is listening and displays a transcription of its responses.
+ABSTRACT
+What if artificial intelligence (AI) could transform academic writ-
+ing into an exhilarating game of table tennis? This paper explores
+AI’s potential to foster creativity, enjoyment, and play. We chal-
+lenge the view of AI as merely a tool for efficiency, showcasing
+its capacity for embodied interaction and intellectual engagement.
+We introduce an AI-infused table tennis setup, where two people
+can co-author a paper while playing ping pong. Using ChatGPT
+and an Arduino-driven system, this environment generates writing
+prompts based on gameplay, blending physical play with intellec-
+tual practice. Through PingPonGPT, we demonstrate AI’s role in
+reflective practices, enriching overall work and creative processes.
+CCS CONCEPTS
+•Computing methodologies →Natural language generation ;
+•Human-centered computing →Natural language interfaces ;
+Interaction design theory, concepts and paradigms .
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA
+©2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1042-1/24/10
+https://doi.org/10.1145/3686169.3686214KEYWORDS
+AI, ChatGPT, Games, Play, Table Tennis, Embodied Interaction,
+More-than-human
+ACM Reference Format:
+Ahmet Börütecene and Oğuz ‘Oz’ Buruk. 2024. Dr. Ping and Dr. Pong:
+Rethinking Writing and Work with Playful Embodied AIs. In Halfway to
+the Future (HTTF ’24), October 21–23, 2024, Santa Cruz, CA, USA. ACM, New
+York, NY, USA, 5 pages. https://doi.org/10.1145/3686169.3686214
+1 INTRODUCTION
+As AI technologies proliferate, their integration into our daily lives
+often emphasizes efficiency and output, overshadowing the poten-
+tial for these systems to foster creativity, enjoyment, and play. In
+the public and industrial imagination, GenAI seems to be perceived
+as a technology that will eventually remove the need for cognitive
+and bodily engagement of humans with work, except for typing
+in a few words or uttering phrases while looking at some form of
+screen. This screen-based, desk-bound, and mobile-yet-stationary
+future envisioned for human-AI interactions appears as a remnant
+of the outdated ideals of interaction design [ 18]. This kind of future
+might be interpreted as the only way that will move us towards
+utility and productivity. But does it really have to be so?
+We argue that GenAI can actually be a valuable tool to explore
+novel ways of embodied interaction through play where body and
+mind act as a whole [ 14]. In this paper, we propose an unconven-
+tional reflective practice with AI, focusing on the concept of play.
+
+HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA Börütecene & Buruk
+We designed and conducted a study that combines physical play
+with intellectual engagement through AI. More specifically, we
+used ChatGPT to transform table tennis into an activity where two
+people can simultaneously play pingpong and write an academic
+paper. In this setup driven by Arduino, the positioning of the ball
+on the table generates various prompts for ChatGPT, thus creating
+a dynamic and interactive experience as two "players" bounce ideas
+back and forth. This system enabled us to engage, using our whole
+body, in creative dialogues with ChatGPT, influenced both by inten-
+tional prompts and spontaneous ones triggered by our gameplay [ 3].
+Through this playful and embodied approach, we seek to reflect on
+the potential of AI to reshape our work environments and challenge
+conventional methods of academic writing. Our study contributes to
+the ongoing discourse on reflective practices in Human-Computer
+Interaction (HCI) and design, particularly by examining how AI
+can cultivate a playful and engaging work atmosphere.
+2 WRITING, PLAYFUL WORK, AND
+REFLECTIVE PRACTICES WITH AI
+Writing is usually associated with desks and sedentary positions,
+with silence and immobility considered necessary [ 9]. Writing on
+smartphones while walking or driving is both difficult and unsafe
+[22,30]. While a non-distracting environment and comfortable
+positions help for some parts of writing, they do not necessitate
+stillness or completely isolated environments free from distraction
+[6]. Historically, writing has involved the whole body in expressive
+motion, as seen in some Asian cultures. [ 11,12,16,31]. This shows
+writing can be dynamic, merging physical movement with cognitive
+effort.
+The role of playfulness in work and creative processes has been
+explored across various disciplines. Play is recognized as crucial
+for human development, creativity, and well-being [ 1,15]. Integrat-
+ing play into professional environments is increasingly important
+today, as playful activities foster a state of flow, enhancing creativ-
+ity and productivity [ 17]. Digital technologies and AI-driven play
+environments further create opportunities for playful interactions,
+enhancing work contexts and challenging conventional notions of
+writing and productivity [21, 32].
+Building on this background, integrating table tennis with aca-
+demic writing serves as a case study for embodied interaction
+through AI. This innovative approach merges playfulness with
+the productivity demands of academic work, pushing traditional
+boundaries. Donald Schön’s concept of reflective practice [ 27], in-
+volving self-dialogue during an activity, is relevant here, and his
+ideas of "reflection-in-action" and "reflection-on-action" are partic-
+ularly meaningful. By engaging in playful, embodied activities like
+table tennis while doing intellectual work supported by AI, partici-
+pants continuously reflect and adapt, deepening understanding and
+yielding innovative outcomes.
+3 BOUNCING IDEAS: PINGPONGPT
+To explore AI’s potential to infuse play into work practices, we
+integrated a physical game with an AI conversation agent in our
+study. We transformed a ping-pong table into PingPonGPT with
+an Arduino-driven sensor system interacting with ChatGPT (see
+Figure 1 above). Table tennis (an activity previously studied in HCIfrom a different perspective [ 19]), chosen for its playfulness, had
+sensors detecting the ball’s position and triggering prompts. Two
+force sensors placed in each player’s zone on the table activated
+pre-programmed prompts, such as "Be critical about the topic we
+are currently discussing" As we played and brainstormed, Chat-
+GPT continuously listened to our conversation and joined in as
+well as responded to these prompts when triggered, ensuring our
+discussions remained dynamic and intellectually stimulating. The
+ChatGPT output was shown on the laptop screen and read out loud
+via external speakers as it was generated. Although our conversa-
+tion got disrupted or deviated time to time because of turn-taking
+challenges due to sensor activation and the technical fidelity of our
+prototype, this did not prevent us from engaging in an inspiring
+and fruitful conversation through this AI-driven system.
+In the PingPonGPT system, hitting the ball intertwined with
+idea exchange, with each rally enhancing both physical engage-
+ment and brainstorming. When the ball landed on designated spots,
+ChatGPT verbally posed probing questions or new perspectives,
+integrating the game into our writing workflow. This setup rede-
+fined table tennis from a physical activity into a key element of
+our collaborative intellectual endeavor. During an approximately
+two-hour pilot session around the theme "Reflective practices with
+AI", we generated a 25-page transcript [ 4], later used by a ChatGPT
+assistant to help craft this paper1. PingPonGPT allowed intentional
+and spontaneous interactions, fostering a continuous feedback loop
+and demonstrating AI’s potential to create engaging, playful work
+environments. Here we report on our firsthand experience with this
+system [ 8], which aims to share impressions and learnings from
+this non-idiomatic interaction [23].
+4 OBSERVATIONS AND INSIGHTS
+Our interaction with ChatGPT, while engaging in a physical game
+of table tennis, yielded rich insights into the dynamics of integrating
+playfulness with intellectual tasks:
+Integration of Physical Play and Intellectual Work: Our
+experience from the PingPonGPT setup suggested that physical
+play and intellectual work can be mutually reinforcing. In playing
+table tennis, we generated ideas and writing prompts inspired by
+our gameplay, enhancing creativity and dynamism (even after a
+sleepless night of developing PingPonGPT). This setup challenged
+the sedentary nature of academic writing, indicating that physical
+activities can coexist with high mental focus tasks. It also allowed us
+to express and share our ideas more freely, avoiding the usual con-
+straints of formal, sedentary academic discussions and prolonged
+screen focus: Author 1 (and the player 1 in our case) noted that
+while one person was speaking, the other could focus on the ball,
+creating a dynamic and graceful conversational environment. This
+engaging method enhanced conversational depth and collaborative
+synergy while preventing screen fatigue and stifled spontaneity.
+Embodied and Playful Experiences: In our experiment, we
+experienced an intriguing blend of physical and cognitive engage-
+ment with our PingPonGPT setup. This approach challenged the
+conventional work environment, transforming writing into an ac-
+tivity that was both physically invigorating and intellectually stim-
+ulating. The physicality of the game, combined with AI-generated
+1See the transcript of our session here: https://tinyurl.com/httf24transcript
+Dr. Ping and Dr. Pong:
+Rethinking Writing and Work with Playful Embodied AIs HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA
+responses, created a multi-sensory experience that was refreshing
+and thought-provoking. The playful nature of the study enhanced
+motivation, making the intellectual task of writing more enjoyable.
+One author noted that using pressure sensors on the table intro-
+duced an extra challenge, enhancing the game’s fun. This gamified
+element, requiring us to hit sensors to trigger prompts, kept us
+motivated and intrigued, fostering heightened engagement and
+creativity. This approach made the writing process both physically
+and intellectually exhilarating.
+Enhancing Creativity through Random Prompts: Integrat-
+ing table tennis with ChatGPT added an element of serendipity
+to the writing process—like the title that comes from a whimsical
+ChatGPT story about Dr.Ping and Dr.Pong writing a paper while
+playing table tennis. Random prompts, generated by the ball’s posi-
+tion, often led us to think outside the box and fostered creativity.
+The unpredictability of these prompts encouraged us to explore new
+ideas and perspectives, breaking free from conventional thought
+patterns. One author noted that ChatGPT receiving a prompt from
+the table generated immediate responses, which provided com-
+pelling moments for reflection and redirection during the game.
+These sensor-triggered interruptions prevented us from getting too
+entrenched in a single line of thought, facilitating a dynamic and
+adaptive creative process.
+AI as a Collaborative Entity: The interaction with ChatGPT
+evolved from simply receiving information to collaborating with
+an AI entity. Initially, the AI’s responses were generic, but over
+time, they became more nuanced, showcasing its potential as a
+creative partner. One of the authors noted the extended interaction
+duration due to the game, which allowed the AI to provide more
+tailored and interesting responses as the conversation deepened.
+Additionally, the engagement with PingPonGPT kept us involved
+in the creative process for a longer time than traditional writing
+methods would. One author emphasized that without the game
+component, the prolonged and enriched interaction with the AI
+would not have been possible, highlighting that the experiment
+has potential for further exploration of AI-enhanced embodied
+play for more enjoyable work environments. By transforming from
+a mere information source to a dynamic collaborator, ChatGPT
+significantly enriched the creative process.
+5 DISCUSSION
+Our exploration with PingPonGPT reveals a broad spectrum of
+insights connecting physical play, intellectual tasks, and AI-driven
+reflective practices. This experiment demonstrates that the inte-
+gration of physical activities with intellectual efforts has potential
+to foster engagement and creativity within the work environment.
+However, it also highlights several critical reflections about the
+feasibility, cognitive load, and the balance required for effectively
+harnessing such hybrid systems.
+5.1 Engagement and Creativity Boosted through
+AI-Supported Embodied Play
+The physical act of playing table tennis while engaging in aca-
+demic writing introduced a unique form of embodied cognition.
+This interplay between a dynamic physical activity and a reflective
+intellectual task leveraged multiple sensory modalities, the jointaction of mind and body, and random input for serendipity, thereby
+fostering a richer creative process [ 25]. Previous studies substan-
+tiate that engaging in physical activities can stimulate cognitive
+functions, such as concentration, memory, and problem-solving
+skills [ 24,26]. Our findings align with this, as we experienced a
+comfortable flow of creative ideas, facilitated by the spontaneous
+prompts generated through gameplay, which broke conventional
+thought patterns and led to fresh perspectives.
+5.2 Balancing Intellectual and Physical
+Demands
+Integrating pressure sensors with varying sensitivity into the table
+could enhance interaction, feedback, and input while writing a
+paper. For example, light ball taps could signal to ChatGPT or the
+other player which topic or section to discuss or ideate on, without
+displaying visual content. While the study underscores the potential
+for synergy between physical activity and intellectual work, it
+also exposes inherent challenges. The primary concern revolves
+around cognitive load and the risk of fragmentation of thought
+processes. Writing an academic paper demands deep, sustained
+focus and critical thinking. Simultaneously playing a high-energy
+game like table tennis potentially disrupts this flow, that might
+lead to to cognitive overload and a decrease in overall productivity
+when diverse conditions and different cognitive abilities of different
+people are taken into account [29].
+5.3 Critical Evaluation of Reflective Practices
+with PingPonGPT
+Donald Schön’s ideas on reflective practice—“reflection-in-action”
+and “reflection-on-action”—offer an apt framework for examin-
+ing this study’s outcomes [ 28]. Engaging in PingPonGPT allowed
+for real-time reflection ("reflection-in-action"), where the prompts
+during play provided immediate feedback and encouraged ongo-
+ing adaptation. This setup also facilitated post-session reflection
+("reflection-on-action"), where the dynamic interplay between play
+and work offered a space for "inquiry" [ 2] where we reviewed and
+enhanced our understanding of both academic writing and physical
+play. From a slow technology point of view, PingPonGPT might be
+considered as a piece of reflective design that amplifies time, extend-
+ing the duration of interaction with ChatGPT through a physical
+and spatial structure based on repetitive and gradual steps [13].
+However, a crucial critical observation is the potential for in-
+terruptions to stifle deep reflective processes due to the disjointed
+nature of frequent prompts. Initial interactions with pre-defined
+prompts were mundane and slightly disruptive to the creative flow.
+Over time, as the context evolved, even repetitive prompts began to
+yield meaningful dialogue. Through the dimensions of reflective in-
+formatics, these disruptions might be interpreted as "breakdowns"
+that marks moments for reflection [ 2]. It became evident that the
+quality and relevance of these AI-generated prompts critically in-
+fluenced the overall quality of the reflective practice. This paper is
+an artefact of what such engagement with PingPonGPT, and with
+other similar playful systems, might produce in one session of play
+and writing. However, iterating on this by feeding our current work
+into the system and continuing our collaboration with PingPonGPT
+HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA Börütecene & Buruk
+over a longer period (e.g., weeks or months) would most proba-
+bly produce a paper that engaged more deeply with the topic and
+resulted in a higher quality outcome.
+5.4 AI and More-Than-Human Ways of Writing
+Our study also highlighted transformative potentials for AI as a
+collaborative entity in intellectual tasks. Initially, the AI’s responses
+were generic, but as the session progressed, and deeper engage-
+ment ensued, the AI’s contributions became more nuanced and
+contextually relevant. This evolution underscores AI’s potential
+as a dynamic partner in the creative process [ 7] when allowed
+to engage fully, building on previous work which used ChatGPT
+for producing academic papers in limited time [ 4]. While Chat-
+GPT as a non-human actant in this setup reduces human players’
+control over the ideation and writing process, this might result in
+fruitful creative thinking as it offers a sort of balance between struc-
+tural connectedness (ordered thinking) and imaginative divergence
+(chaotic thinking) [ 10]. An intriguing aspect of PingPonGPT is that
+it comprises two completely different spheres of activities/realities
+but still produces a meaningful outcome in both (i.e., having a ping
+pong match and producing a draft paper), which indicates a pos-
+sible use of GenAI for sublime, almost magical cross-reality work
+experiences [5].
+Nevertheless, integrating AI prompts into an interactive physical
+environment raises substantial questions about the balance between
+assistance and disruption. Poorly timed or excessive prompts could
+become intrusive rather than constructive, highlighting the need for
+systems that are context-aware and capable of providing adaptive
+and personalized prompts [ 20]. For example, PingPonGPT resulted
+in a fruitful conversational interaction by voice, but turn-taking
+appeared as a challenge because ChatGPT’s responses were getting
+interrupted by the ball hitting on the sensors. This created some
+frustration on our side at times (especially when wanted to hear
+more about an aspect ChatGPT was talking about) and disruption in
+the conversation flow, which is something that we plan to address
+in the next iteration of the prototype.
+6 CONCLUSION
+This study illustrates AI’s potential to transform traditional writing
+methods by integrating physical play with intellectual work. Our
+PingPonGPT setup demonstrates how AI can enhance creativity,
+engagement, and reflective practices through non-verbal communi-
+cation and coordinated movement. By merging table tennis with
+academic writing, we showed that AI-driven environments can re-
+vitalize work processes, making them more dynamic and enjoyable.
+ACKNOWLEDGMENTS
+ChatGPT was heavily involved in the writing of this paper. We
+have used it as a "Research Buddy" for creating the paper draft and
+expanding relevant sentences based on the transcript. Moreover,
+we also use it as a "Polisher" to match the tone of the text and for
+proof-reading. These mentioned methods are based on [4].
+REFERENCES
+[1]Patrick Bateson and Paul Martin. 2013. Play, Playfulness, Creativity and Innovation .
+Cambridge University Press.[2]Eric P.S. Baumer. 2015. Reflective Informatics: Conceptual Dimensions for Design-
+ing Technologies of Reflection. In Proceedings of the 33rd Annual ACM Conference
+on Human Factors in Computing Systems (CHI ’15) . Association for Computing Ma-
+chinery, New York, NY, USA, 585–594. https://doi.org/10.1145/2702123.2702234
+[3]Ahmet Börütecene and Eleanor Alexandra Byrne. 2023. QuillGPT: Embodied
+Interaction with ChatGPT. https://vimeo.com/883962406. Presented at the
+Data-Centric Design Symposium at Delft University, 7 December 2023.
+[4]Oğuz ’Oz’ Buruk. 2023. Academic Writing with GPT-3.5 (ChatGPT): Reflec-
+tions on Practices, Efficacy and Transparency. In Proceedings of the 26th In-
+ternational Academic Mindtrek Conference (<conf-loc>, <city>Tampere</city>,
+<country>Finland</country>, </conf-loc>) (Mindtrek ’23) . Association for Com-
+puting Machinery, New York, NY, USA, 144–153. https://doi.org/10.1145/3616961.
+3616992
+[5]Lung-Pan Cheng, Sebastian Marwecki, and Patrick Baudisch. 2017. Mutual
+Human Actuation. In Proceedings of the 30th Annual ACM Symposium on User In-
+terface Software and Technology (UIST ’17) . Association for Computing Machinery,
+New York, NY, USA, 797–805. https://doi.org/10.1145/3126594.3126667
+[6]Kory Lawson Ching. 2023. The uses—and limits—of distraction-free writing.
+Computers and Composition 69 (2023), 102793.
+[7]Paul Coulton and Joseph Galen Lindley. 2019. More-Than Human Centred
+Design: Considering Other Things. The Design Journal 22, 4 (July 2019), 463–
+481. https://doi.org/10.1080/14606925.2019.1614320 Publisher: Routledge _eprint:
+https://doi.org/10.1080/14606925.2019.1614320.
+[8]Audrey Desjardins, Oscar Tomico, Andrés Lucero, Marta E. Cecchinato, and
+Carman Neustaedter. 2021. Introduction to the Special Issue on First-Person
+Methods in HCI. ACM Transactions on Computer-Human Interaction 28, 6 (Dec.
+2021), 37:1–37:12. https://doi.org/10.1145/3492342
+[9]Jacquelyn Elizabeth Hoermann Elliott. 2018. Writers Get Physical: A Grounded
+Theory Study to Understand the Relationship between Writing Activity and Physical
+Activity . Texas Christian University.
+[10] Ronald A. Finke. 1996. Imagery, Creativity, and Emergent Structure. Consciousness
+and Cognition 5, 3 (Sept. 1996), 381–393. https://doi.org/10.1006/ccog.1996.0024
+[11] Rodica Frentiu. 2023. Japanese Calligraphy as a Way to Make the Invisible Visible
+(1st edition ed.). Cambridge Scholars Publishing.
+[12] Stephen J Goldberg. 2004. The primacy of gesture: Phenomenology and the art of
+Chinese calligraphy. In Metamorphosis: Creative imagination in fine arts between
+life-projects and human aesthetic aspirations . Springer, 175–186.
+[13] Lars Hallnäs and Johan Redström. 2001. Slow Technology – Designing for
+Reflection. Personal and Ubiquitous Computing 5, 3 (Aug. 2001), 201–212. https:
+//doi.org/10.1007/PL00000019
+[14] Kristina Höök. 2018. Designing with the Body: Somaesthetic Interaction Design .
+The MIT Press. https://doi.org/10.7551/mitpress/11481.001.0001
+[15] J. Huizinga. 1950. Homo ludens, a study of the play-element in culture. Roy, Oxford,
+England. Pages: 220.
+[16] Ruyu Hung. 2024. Self-Cultivation through Art: Chinese Calligraphy and the
+Body. Educational Philosophy and Theory 56, 7 (June 2024), 621–625. https:
+//doi.org/10.1080/00131857.2021.1977624
+[17] Kai Huotari and Juho Hamari. 2012. Defining Gamification: A Service Marketing
+Perspective. In Proceeding of the 16th International Academic MindTrek Conference
+(MindTrek ’12) . Association for Computing Machinery, New York, NY, USA, 17–22.
+https://doi.org/10.1145/2393132.2393137
+[18] Kristina Höök and Jonas Löwgren. 2021. Characterizing Interaction Design by
+Its Ideals: A Discipline in Transition. She Ji: The Journal of Design, Economics,
+and Innovation 7, 1 (2021), 24–40. https://doi.org/10.1016/j.sheji.2020.12.001
+[19] Hiroshi Ishii, Craig Wisneski, Julian Orbanes, Ben Chun, and Joe Paradiso. 1999.
+PingPongPlus: design of an athletic-tangible interface for computer-supported
+cooperative play. In Proceedings of the SIGCHI conference on Human Factors in
+Computing Systems (CHI ’99) . Association for Computing Machinery, New York,
+NY, USA, 394–401. https://doi.org/10.1145/302979.303115
+[20] Max Kreminski and John Joon Young Chung. 2024-03-18/2024-03-21. Intent
+Elicitation in Mixed-Initiative Co-Creativity. In Joint Proceedings of the ACM IUI
+Workshops 2024 . Greenville, South Carolina, USA.
+[21] Mina Lee, Katy Ilonka Gero, John Joon Young Chung, Simon Buckingham
+Shum, Vipul Raheja, Hua Shen, Subhashini Venugopalan, Thiemo Wambsganss,
+David Zhou, Emad A. Alghamdi, Tal August, Avinash Bhat, Madiha Zahrah
+Choksi, Senjuti Dutta, Jin L.C. Guo, Md Naimul Hoque, Yewon Kim, Simon
+Knight, Seyed Parsa Neshaei, Antonette Shibani, Disha Shrivastava, Lila Shroff,
+Agnia Sergeyuk, Jessi Stark, Sarah Sterman, Sitong Wang, Antoine Bosse-
+lut, Daniel Buschek, Joseph Chee Chang, Sherol Chen, Max Kreminski, Joon-
+suk Park, Roy Pea, Eugenia Ha Rim Rho, Zejiang Shen, and Pao Siangliulue.
+2024. A Design Space for Intelligent and Interactive Writing Assistants. In
+Proceedings of the CHI Conference on Human Factors in Computing Systems
+(CHI ’24) . Association for Computing Machinery, New York, NY, USA, 1–35.
+https://doi.org/10.1145/3613904.3642697
+[22] Ming-I Brandon Lin and Yu-Ping Huang. 2017. The impact of walking while using
+a smartphone on pedestrians’ awareness of roadside events. Accident Analysis &
+Prevention 101 (2017), 87–96.
+Dr. Ping and Dr. Pong:
+Rethinking Writing and Work with Playful Embodied AIs HTTF ’24, October 21–23, 2024, Santa Cruz, CA, USA
+[23] Jonas Löwgren. 2016. On the Significance of Making in Interaction Design
+Research. Interactions 23, 3 (April 2016), 26–33. https://doi.org/10.1145/2904376
+[24] Christopher R. Madan and Anthony Singhal. 2012. Using actions to enhance
+memory: effects of enactment, gestures, and exercise on human memory. Frontiers
+in Psychology 3 (Nov. 2012). https://doi.org/10.3389/fpsyg.2012.00507 Publisher:
+Frontiers.
+[25] Maarit Mäkelä. 2016. Personal Exploration: Serendipity and Intentionality as
+Altering Positions in a Creative Process. FormAkademisk 9, 1 (June 2016). https:
+//doi.org/10.7577/formakademisk.1461
+[26] Christian Rominger, Andreas Fink, Bernhard Weber, Ilona Papousek, and An-
+dreas R. Schwerdtfeger. 2020. Everyday bodily movement is associated with
+creativity independently from active positive affect: a Bayesian mediation analy-
+sis approach. Scientific Reports 10, 1 (July 2020), 11985. https://doi.org/10.1038/
+s41598-020-68632-9 Publisher: Nature Publishing Group.
+[27] Donald A Schön. 2003. The Reflective Practitioner: How Professionals Think in
+Action . Ashgate, Aldershot.
+[28] Donald A Schon and Vincent DeSanctis. 1986. The reflective practitioner: How
+professionals think in action.[29] Stoo Sepp, Steven J Howard, Sharon Tindall-Ford, Shirley Agostinho, and Fred
+Paas. 2019. Cognitive load theory and human movement: Towards an integrated
+model of working memory. Educational Psychology Review 31 (2019), 293–317.
+[30] Tianyu Wang, Giuseppe Cardone, Antonio Corradi, Lorenzo Torresani, and An-
+drew T Campbell. 2012. Walksafe: a pedestrian safety app for mobile phone users
+who walk and talk while crossing roads. In Proceedings of the twelfth workshop
+on mobile computing systems & applications . 1–6.
+[31] Yanning Wang. 2017. Gendering the Planchette: Female Writer Qian Xi’s (1872–
+1930) Spiritual World. Journal of Chinese Literature and Culture 4, 1 (2017),
+160–179.
+[32] Daijin Yang, Erica Kleinman, Giovanni Maria Troiano, Elina Tochilnikova, and
+Casper Harteveld. 2024. Snake Story: Exploring Game Mechanics for Mixed-
+initiative Co-creative Storytelling Games. In Proceedings of the 19th International
+Conference on the Foundations of Digital Games (FDG ’24) . Association for Com-
+puting Machinery, New York, NY, USA, 1–11. https://doi.org/10.1145/3649921.
+3649996
