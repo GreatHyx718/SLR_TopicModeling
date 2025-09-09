@@ -1,815 +1,895 @@
-Whenseeingtheoryisnotenough:can
-organizational ethnography thinkwith
-gameengines’interactive affordances?
-OzGore
-Kinner etCollege ontheSeaofGalilee, Tzemah, Israel
+The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/2046-6749.htm
+
+When seeing theory is not enough: can
+organizational ethnography think with
+game engines’ interactive affordances?
+
+Journal of
+Organizational
+Ethnography
+
+Oz Gore
+Kinneret College on the Sea of Galilee, Tzemah, Israel
 Abstract
-Purpose –Thisworkcontributes toorganizationalvideography byproposinginteractivevideography asa
-methodological innovationthatallowsethnographers toexperience andtheorizetherelationaldynamicsof
-organizational lifethroughinteractive, emergentvisualizations. UsingSpacesGame, aninteractiveresearch
-artifactdevelopedusingUnrealEngine4,thestudyadvancesthescopeofexpressivevideography byintegrating
-interactivity intothevisualrepresentation oftheoreticalconcepts.
-Design/methodology/approach –DrawingonActor-Netwo rkTheory(ANT),ithighlightshowinteractive3D
-spacesasexperimental apparatuses enabletheexploration ofcomplextheoreticalconstructs, suchasthe
-entanglement ofagencywithinorganizationalprocesses.
-Findings –Thepaperelucidateshowgameenginescanbeleveragedtoinscribetheoreticalimagination in
-organizational research,demonstrating thecontribution ofreal-timeinteractivity toexpressivevideography .
-Indoingso,itarguesthatvideography canbettertheorizethefullsensorydimensions oforganizational life
-throughtheutilizationofinteractivity ,particularly whenaddressing complexanddifficult-to-visualize
-theoreticalconstructsandrelationships.
-Researchlimitations/implications –Althoughgamedevelopment hasbeenmoreaccessibleinrecentyears,
-theseskillsarestilluncommon, andmanyresearchers mayfinditprohibitively challenging toengageinthistype
-ofdigitalresearch.However,asgenerativeAItoolsbecomemoreuser-friendly,thescopeforadoptionofthis
-methodisvastlygrowing.
-Originality/value –This,tothebestoftheauthor’sknowledge, isthefirstattemptatusinggameengine
-softwareforconceptualworkinethnographic research.Itoffersawaytopresentandengagetheorywithinan
-interactivespacethatallowsfornovelengagement withtheorizing,especiallythosepertainingtoagencyin
+Purpose – This work contributes to organizational videography by proposing interactive videography as a
+methodological innovation that allows ethnographers to experience and theorize the relational dynamics of
+organizational life through interactive, emergent visualizations. Using SpacesGame, an interactive research
+artifact developed using Unreal Engine 4, the study advances the scope of expressive videography by integrating
+interactivity into the visual representation of theoretical concepts.
+Design/methodology/approach – Drawing on Actor-Network Theory (ANT), it highlights how interactive 3D
+spaces as experimental apparatuses enable the exploration of complex theoretical constructs, such as the
+entanglement of agency within organizational processes.
+Findings – The paper elucidates how game engines can be leveraged to inscribe theoretical imagination in
+organizational research, demonstrating the contribution of real-time interactivity to expressive videography.
+In doing so, it argues that videography can better theorize the full sensory dimensions of organizational life
+through the utilization of interactivity, particularly when addressing complex and difficult-to-visualize
+theoretical constructs and relationships.
+Research limitations/implications – Although game development has been more accessible in recent years,
+these skills are still uncommon, and many researchers may find it prohibitively challenging to engage in this type
+of digital research. However, as generative AI tools become more user-friendly, the scope for adoption of this
+method is vastly growing.
+Originality/value – This, to the best of the author’s knowledge, is the first attempt at using game engine
+software for conceptual work in ethnographic research. It offers a way to present and engage theory within an
+interactive space that allows for novel engagement with theorizing, especially those pertaining to agency in
 organizational inquiries.
-KeywordsVideography,Actor-network theory,Management accounting, Gameengines,Generative AI,
-Mediamethods
-PapertypeResearchpaper
+Keywords Videography, Actor-network theory, Management accounting, Game engines, Generative AI,
+Media methods
+Paper type Research paper
+
 Introduction
-Inrecentyears,ethnographic organizational researchhasincreasingly embracedvideography
-asapost-textual or“visual-sensory” approachtoorganizationstudies,recognizing non-textual
-artifactsasintegraltoboththepracticeandcommunication ofresearch(Steyaert etal.,2012;
-Christianson, 2018;Hassard etal.,2018;vandenScott,2018;Endrissat etal.,2019;Miko-
-Schefzig etal.,2022;RedmalmandSkoglund,2022).Whilenotalwaysalignedwith
-traditionalargumentative structures, videography methodsofferorganizational scholars
-uniqueopportunities tomanifestresearchasa“performance ofthought”(Woodetal.,2018).
-Thepurposeofthispaperistocontributetotheseburgeoningexperiments withinethnographic
-organizationstudiesbyintroducing andinvestigating theuseofinteractive videography asa
-newvisualresearchpracticeinorganizational ethnography .
-Specifically ,thispaperusesagameenginetodevelopandexploreaninteractiveresearch
-artifact(henceforth SpacesGame) asamediumforexploring,visualizingandinteractingwith
-conceptualframeworks duringtheprocessesoforganizational fieldresearch.Gameengines
-arecomplexsoftwarebundlesprimarilyusedintheproduction ofdigitalgames,buttheir
-utilityisexpandingintoarchitecture, engineering, cinemaandacademiaastoolsofsimulation
-andrepresentation (JungherrandSchlarb,2022).Here,insteadofdrawingorvisualizing the
-fieldingraph-likeartifacts(2Dimages)orthroughvideography (moving2Dimages),the
-ethnographer hasturnedtoagameengine’sinteractive 3Dpresentation. However,Journalof
-Organizational
-EthnographyThecurrentissueandfulltextarchiveofthisjournalisavailableonEmeraldInsightat:
-https://www .emerald.com/insight/2046-6749.htm
-Received28August2024
-Revised15December2024
-30January2025
-Accepted3April2025
-JournalofOrganizational Ethnography
-©EmeraldPublishingLimited
-e-ISSN:2046-6757
-p-ISSN:2046-6749
-DOI10.1108/JOE-08-2024-0049
+In recent years, ethnographic organizational research has increasingly embraced videography
+as a post-textual or “visual-sensory” approach to organization studies, recognizing non-textual
+artifacts as integral to both the practice and communication of research (Steyaert et al., 2012;
+Christianson, 2018; Hassard et al., 2018; van den Scott, 2018; Endrissat et al., 2019; MikoSchefzig et al., 2022; Redmalm and Skoglund, 2022). While not always aligned with
+traditional argumentative structures, videography methods offer organizational scholars
+unique opportunities to manifest research as a “performance of thought” (Wood et al., 2018).
+The purpose of this paper is to contribute to these burgeoning experiments within ethnographic
+organization studies by introducing and investigating the use of interactive videography as a
+new visual research practice in organizational ethnography.
+Specifically, this paper uses a game engine to develop and explore an interactive research
+artifact (henceforth SpacesGame) as a medium for exploring, visualizing and interacting with
+conceptual frameworks during the processes of organizational field research. Game engines
+are complex software bundles primarily used in the production of digital games, but their
+utility is expanding into architecture, engineering, cinema and academia as tools of simulation
+and representation (Jungherr and Schlarb, 2022). Here, instead of drawing or visualizing the
+field in graph-like artifacts (2D images) or through videography (moving 2D images), the
+ethnographer has turned to a game engine’s interactive 3D presentation. However,
+
+Received 28 August 2024
+Revised 15 December 2024
+30 January 2025
+Accepted 3 April 2025
+
+Journal of Organizational Ethnography
+© Emerald Publishing Limited
+e-ISSN: 2046-6757
+p-ISSN: 2046-6749
+DOI 10.1108/JOE-08-2024-0049
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-importantly,thispaperislessinterestedinsimulations ofrealityorinmimickingethnographic
-fieldencountersinside3Dworlds(i.e.aimformimesisandrepresentation), butrathertouse
-interactive3Dspaceasasortof“canvas”onwhichconceptualrelationships pertainingtothe
-ethnographic inquiryareorganized.Thus,thecentralquestionthepaperdealswithis:What
-doesitmeanandwhatcanbeachievedbyvisualizingconceptualrelationsoffieldwithinan
-interactive3Dspaceratherthaninastatic,two-dimensional onewithinprocessesoftheorizing
-invisualorganizational ethnography?
-Toanswerthesequestions,thepaperdrawsonaconcreteresearchproblemtheauthorwas
-grapplingwithandwhichcalledforamovetointeractivevideography .Thisproblememerged
-inthecontextofawiderresearchprojectintothefigurationofeconomicevidencewithina
-prominentpublicmanagement consultancy inNorthEngland.Whiletheknowledge workof
-analystswaspresentedandtalkedaboutasastraightforwar dlinearaffair–theethnographer
-wasdrawntohowdiscussions, experimentations anddecisionsonnumbersweredriven
-towards,directedatandprovokedbyapluralityofconcernsanddirections.Fromcertain
-angles,theentitiesinvolvedinthiswork(numbers,ratios,tables,policyanalysts,thefuturesof
-aprojectbeingevaluated,etc.)cometogetherthroughanalysts’concernwithrepresentation
-andthetruthofnumbers.Fromothers,analysts’effortsenactnotaccuracy,butadherenceto
-standards,stretchingnumbersandimaginedpolicychallengesalongthelinesofmethodand
-rules.Yetfromanother,itiseffectivity,ororganizationalimpactthatseemstobeatstakewith
-numbers.Consequently ,andasthesespacesofrelatingarenotnecessarily commensurable, at
-theirtimeoffabricationeconomicnumberswereencountered asanoscillation–asaproblem
-ofattachment. Ratherthananimageofclear-and-distinct objectsthataretheinputsandoutputs
-oftechnicaltoolssuchasCost-Benefit Analysis,thisalternativeimageputsinabeyance
-accountsofnumericalworkwhichrendersthemmechanical, gearbox-like procedures.
-Thisresearchexperienceledtothedevelopment ofandexperimentation withaninteractive
-researchartifact–akindof“videogame” developedusingthegameengineUnrealEngine4by
-EpicGames(unrealengine.com). Theauthorhasdevelopedafullyfunctionalpieceofsoftware,
-available asacompanion illustration tothisarticle(accessible here:https://
-projectspacesgame.wordpress.com/). Theartifactisintendedtofacilitatetheperformance of
-thinkingwithinthecontextoftheaforementioned ethnographic encounterandtheresearch
-problem.Thepaper,asdoestheartefact,examinestheimplications ofdeveloping and
-inscribingtheoreticalrelationships pertainingtoagencywithinsuchinteractivevideography
-setting,namelyhowitallowstoexperiencethoseagenticrelationsbytheethnographer asthey
-think.Itbuildsoncurrentvideographic research(RedmalmandSkoglund,2022)todevelopa
-viewofinteractivevideography asamethodinwhichtheresearcher/player interactswitha
-gameworld, advancingdiscussions fromcurrentemphasisonthecameraandnon-participatory
-spectatorship (HietanenandRokka,2018;Miko-Schefzig etal.,2022)towardsinteractivity .
-Thepaperisstructuredasfollows.First,itpositionsitsuseofvideography withincurrent
-debatesinethnographic organizationstudies,particularly byaligningwiththegrowingefforts
-towards“expressive visuality”withinvideo-based ethnographies. Astheideaofinscribing
-theoretical relationsisratherabstractandneedsexplication, thepaperthen(re)visits
-formulations ofActor-Network Theory(ANT)regardingtheroleofinscriptions withinthe
-enterpriseofmodern(social)science.Thishelpsclarifythemeaningoftheoretical
-inscriptions, pavingthewayforthecontribution ofthispaper–theaddingofinteractivity ,
-andthusexperience, tothevisualityofresearchartifactssuchasvideographies que
-inscriptions. Itthenelaboratesontheuseofvideogameengines–programmable softwarethat
-allowsforthefabricationofinteractiveexperiencespaces–astheproposedtoolformoving
-towardsvideography thatinteractively inscribetheoreticalconcernsinethnographic research.
-Next,thepaperpresentstheempiricalepisodementionedaboveandwhichservesasthe
-illustration oftheproposedresearchpractice,namelyhowafieldencounterledto
-methodological challengesincapturingthedynamicsofameetinginwhichaCost-Benefit
-Ratiowascalculated.Thisisfollowedbyadiscussionofthedevelopment ofthisepisodeusing
-UnrealEngine4.Thepaperculminateswithadiscussionofthepossibilities andlimitationsJOE
+
+JOE
+
+importantly, this paper is less interested in simulations of reality or in mimicking ethnographic
+field encounters inside 3D worlds (i.e. aim for mimesis and representation), but rather to use
+interactive 3D space as a sort of “canvas” on which conceptual relationships pertaining to the
+ethnographic inquiry are organized. Thus, the central question the paper deals with is: What
+does it mean and what can be achieved by visualizing conceptual relations of field within an
+interactive 3D space rather than in a static, two-dimensional one within processes of theorizing
+in visual organizational ethnography?
+To answer these questions, the paper draws on a concrete research problem the author was
+grappling with and which called for a move to interactive videography. This problem emerged
+in the context of a wider research project into the figuration of economic evidence within a
+prominent public management consultancy in North England. While the knowledge work of
+analysts was presented and talked about as a straightforward linear affair – the ethnographer
+was drawn to how discussions, experimentations and decisions on numbers were driven
+towards, directed at and provoked by a plurality of concerns and directions. From certain
+angles, the entities involved in this work (numbers, ratios, tables, policy analysts, the futures of
+a project being evaluated, etc.) come together through analysts’ concern with representation
+and the truth of numbers. From others, analysts’ efforts enact not accuracy, but adherence to
+standards, stretching numbers and imagined policy challenges along the lines of method and
+rules. Yet from another, it is effectivity, or organizational impact that seems to be at stake with
+numbers. Consequently, and as these spaces of relating are not necessarily commensurable, at
+their time of fabrication economic numbers were encountered as an oscillation – as a problem
+of attachment. Rather than an image of clear-and-distinct objects that are the inputs and outputs
+of technical tools such as Cost-Benefit Analysis, this alternative image puts in abeyance
+accounts of numerical work which renders them mechanical, gearbox-like procedures.
+This research experience led to the development of and experimentation with an interactive
+research artifact – a kind of “videogame” developed using the game engine Unreal Engine 4 by
+Epic Games (unrealengine.com). The author has developed a fully functional piece of software,
+available as a companion illustration to this article (accessible here: https://
+projectspacesgame.wordpress.com/). The artifact is intended to facilitate the performance of
+thinking within the context of the aforementioned ethnographic encounter and the research
+problem. The paper, as does the artefact, examines the implications of developing and
+inscribing theoretical relationships pertaining to agency within such interactive videography
+setting, namely how it allows to experience those agentic relations by the ethnographer as they
+think. It builds on current videographic research (Redmalm and Skoglund, 2022) to develop a
+view of interactive videography as a method in which the researcher/player interacts with a
+gameworld, advancing discussions from current emphasis on the camera and non-participatory
+spectatorship (Hietanen and Rokka, 2018; Miko-Schefzig et al., 2022) towards interactivity.
+The paper is structured as follows. First, it positions its use of videography within current
+debates in ethnographic organization studies, particularly by aligning with the growing efforts
+towards “expressive visuality” within video-based ethnographies. As the idea of inscribing
+theoretical relations is rather abstract and needs explication, the paper then (re)visits
+formulations of Actor-Network Theory (ANT) regarding the role of inscriptions within the
+enterprise of modern (social) science. This helps clarify the meaning of theoretical
+inscriptions, paving the way for the contribution of this paper – the adding of interactivity,
+and thus experience, to the visuality of research artifacts such as videographies que
+inscriptions. It then elaborates on the use of videogame engines – programmable software that
+allows for the fabrication of interactive experience spaces – as the proposed tool for moving
+towards videography that interactively inscribe theoretical concerns in ethnographic research.
+Next, the paper presents the empirical episode mentioned above and which serves as the
+illustration of the proposed research practice, namely how a field encounter led to
+methodological challenges in capturing the dynamics of a meeting in which a Cost-Benefit
+Ratio was calculated. This is followed by a discussion of the development of this episode using
+Unreal Engine 4. The paper culminates with a discussion of the possibilities and limitations
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-affordedbythisexercise,reflectingonitsimplications fororganizational ethnographic
-videography researchandforpractice.
-From2Dvideo-making asresearchto3Dinteractivity-making asresearch
-Videography asexpressive visuality
-Videography,asitsnamesuggests,istheuseofvideoinethnographic studies.Withvisual
-methodsgainingrenewedprominence inthesocialsciences,particularly inethnography
-(Pink,2001;Smets etal.,2014;Pink,2015;BanksandZeitlyn,2015;Walzetal.,2016;
-Hassard etal.,2018;Vannini,2015;vandenScott,2018),itisimportanttoclarifywhatis
-meantherebyvideography .Unliketraditionalviewsofvideoastext(Christianson, 2018;
-Hassard etal.,2018),Iheredrawonvideoasaformof“expressive videographic research”
-(Hietanen etal.,2014).Thismeansthatthemethodological shifttovideoisdrivenbythe
-questionof“[h]owtoexploreand‘capture’theembodiedandtacitknowledge, theaesthetic
-judgementanddecision-making, thenon-verbal elementsandthesensingthatitinvolves”
-(Endrissat etal.,2019;seealsoToraldo etal.,2018).Insteadofthinkingaboutvideoasanother
-formoftextuality–awaytocommunicate thevisualelementsinafieldsite–thevideoin
-expressivevideography becomesamethod,mediumandvehicleforanaccount-making that
-aimstocapture(express) morethanjustvisualityinthefield.Forinstance,Redmalmand
-Skoglund(2022)usevideography tostudyalternative entrepreneurship, highlighting
-videography’ sabilityto“putintofocus“scared”concepts”suchasentrepreneurial myths
-andmanagement cliches.Similarly,HietanenandRokka(2018)employvideography to
-examinethedubstepelectronicscene,exploringhow“itgrappleswithemergencemediatedby
-theimmediacy ofonlineconnectivity” (p.321).
-Inthesecases,videoisnotunderstood ina“representational” lensthatseeksanobjective
-viewofthefield.Instead,itisseenasan“entiremethodology oftheproductionofexpression”
-seekingto“ruptureandreverberate” (HietanenandRokka,2018;seealsoVannini,2015).
-Themainfocusisonwhatcanfilm,thatisvideography ,do(ratherthanshow),withHietanen
-andRokka(2018)arguingthatthere“isanacuteneedforvideography tobeunderstoodinthis
-way,insteadofbeingconfusedorconflatedwiththeother,existingfilmmaking traditions”
-(p.8)suchasdocumentary filmsorvideoethnography ,whicharepracticesrelyingona
-representational lensandunderstand videoasakindoftext.Understood inthisexpressive
-manner,aturntovideoisinthehopeof“delivering a‘shocktothought’”(p.9)through
-emergenttheorizingthattakesvideotobeaformofrelation(Miko-Schefzig etal.,2022).
-Expressivevideography ,therefore,communicates totheviewerimplicitlythroughthesenses
-inawaydifferenttowrittenlanguage(Glisovic etal.,2016),makingexpressivevideography
-aboutthecreationof“sensations ofconcepts”(DeleuzeandGuattari,1994;quotedinWood
-etal.,2018),eitherinourlife,inouracademicpracticeorinthelivesofouraudiences,thatis
-withthosewhichthevideomakesrelation.
-Thisformofexpressive videography (Hietanen etal.,2014)significantly enriches
-organizational researchbyprovidingnewconceptual frameworks andperspectives onour
-scholarlyendeavours asitturnsvideo-making practicesintoorganizationalresearchpractices.
-Notablecontributions includeMiko-Schefzig etal.’s(2022)examination ofeditingasa
-“visualresearchmethod”fororganizational studies.Thiselevatesthecraftoffilmproduction
-—specifically,thecuttingandsequencing offramesandscenes—intoalegitimate
-organizational researchmethodproperasitforcestheresearchertograpplewiththetaskof
-organizingaviewer’sexperience vis-�a-vistheresearchedphenomenon. Puttingimagesin
-order,decidingonrhythmsandspeedsofnarrativeadvancement orthecontentofscenes
-becomebothanexploration oftherelationaldynamicsperformedbetweenvideoandits
-audienceHietanenandRokka’s(2018)andaresearchpracticethatengagesthestudyof
-organizingphenomenon. Thus,Miko-Schefzig etal.(2022)equatesfilmeditingwith
-“selectiveinterpretation”, advocating forapivotalrolefororganizational researchers inthe
-editingprocess.Theprimaryfeatureofthismethodisthatcontrarytodrawingsorphotos,Journalof
+
+afforded by this exercise, reflecting on its implications for organizational ethnographic
+videography research and for practice.
+
+Journal of
 Organizational
 Ethnography
+
+From 2D video-making as research to 3D interactivity-making as research
+Videography as expressive visuality
+Videography, as its name suggests, is the use of video in ethnographic studies. With visual
+methods gaining renewed prominence in the social sciences, particularly in ethnography
+(Pink, 2001; Smets et al., 2014; Pink, 2015; Banks and Zeitlyn, 2015; Walz et al., 2016;
+Hassard et al., 2018; Vannini, 2015; van den Scott, 2018), it is important to clarify what is
+meant here by videography. Unlike traditional views of video as text (Christianson, 2018;
+Hassard et al., 2018), I here draw on video as a form of “expressive videographic research”
+(Hietanen et al., 2014). This means that the methodological shift to video is driven by the
+question of “[h]ow to explore and ‘capture’ the embodied and tacit knowledge, the aesthetic
+judgement and decision-making, the non-verbal elements and the sensing that it involves”
+(Endrissat et al., 2019; see also Toraldo et al., 2018). Instead of thinking about video as another
+form of textuality – a way to communicate the visual elements in a field site – the video in
+expressive videography becomes a method, medium and vehicle for an account-making that
+aims to capture (express) more than just visuality in the field. For instance, Redmalm and
+Skoglund (2022) use videography to study alternative entrepreneurship, highlighting
+videography’s ability to “put into focus “scared” concepts” such as entrepreneurial myths
+and management cliches. Similarly, Hietanen and Rokka (2018) employ videography to
+examine the dubstep electronic scene, exploring how “it grapples with emergence mediated by
+the immediacy of online connectivity” (p. 321).
+In these cases, video is not understood in a “representational” lens that seeks an objective
+view of the field. Instead, it is seen as an “entire methodology of the production of expression”
+seeking to “rupture and reverberate” (Hietanen and Rokka, 2018; see also Vannini, 2015).
+The main focus is on what can film, that is videography, do (rather than show), with Hietanen
+and Rokka (2018) arguing that there “is an acute need for videography to be understood in this
+way, instead of being confused or conflated with the other, existing filmmaking traditions”
+(p. 8) such as documentary films or video ethnography, which are practices relying on a
+representational lens and understand video as a kind of text. Understood in this expressive
+manner, a turn to video is in the hope of “delivering a ‘shock to thought’” (p. 9) through
+emergent theorizing that takes video to be a form of relation (Miko-Schefzig et al., 2022).
+Expressive videography, therefore, communicates to the viewer implicitly through the senses
+in a way different to written language (Glisovic et al., 2016), making expressive videography
+about the creation of “sensations of concepts” (Deleuze and Guattari, 1994; quoted in Wood
+et al., 2018), either in our life, in our academic practice or in the lives of our audiences, that is
+with those which the video makes relation.
+This form of expressive videography (Hietanen et al., 2014) significantly enriches
+organizational research by providing new conceptual frameworks and perspectives on our
+scholarly endeavours as it turns video-making practices into organizational research practices.
+Notable contributions include Miko-Schefzig et al.’s (2022) examination of editing as a
+“visual research method” for organizational studies. This elevates the craft of film production
+— specifically, the cutting and sequencing of frames and scenes — into a legitimate
+organizational research method proper as it forces the researcher to grapple with the task of
+organizing a viewer’s experience vis-�a-vis the researched phenomenon. Putting images in
+order, deciding on rhythms and speeds of narrative advancement or the content of scenes
+become both an exploration of the relational dynamics performed between video and its
+audience Hietanen and Rokka’s (2018) and a research practice that engages the study of
+organizing phenomenon. Thus, Miko-Schefzig et al. (2022) equates film editing with
+“selective interpretation”, advocating for a pivotal role for organizational researchers in the
+editing process. The primary feature of this method is that contrary to drawings or photos,
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-whicharestillimages,hereresearchers havetocontendwithmotionpictures,which,
-accordingtoHassard etal.(2018),facilitatea“polyvocalapproach”toresearch.Thisapproach
-allowsforthenecessitytoeditframestobecomeatoolfortheperformance ofanalysis(Miko-
-Schefzig’setal.,2022),andtheabilitytojuxtaposeimageswithnarrative,manipulate pacing
-andrearrangestorylinestovenuesthroughwhichtotranscendstaticandpolarizing
-categorizations. Thisleveragestheindependence ofmovingimagesfromthewrittenword
-(Redmalm andSkoglund,2022)toengageviewersineventsthatrendervideoagentic
-(HietanenandRokka,2018).
-Crucially,researchinvideography haselucidatedthewaysinwhichthinkingaboutand
-practicingtheproductionofvideocanconstituteaviableresearchtool.Thispaperseeksto
-advancethisworkbyconsidering notonlymovingpictures(i.e.video)butmovablevisuals–
-interactivevideoenvironments –wherebythe“viewer”becomesa“player”whocanactwithin
-adigitalworld,experiencing entanglements inchangingcoursesofevents(Schleiner,2017).
-Inparticular,itaddressesthequestionofvisualizing ininteractive waysthetheoretical
-conceptswithwhichfieldworkencountersaremadesenseofandcommunicated astheyare
-researched.Thefocusisonexperiencing ourownepistemological, ontological and
-methodological commitments whenwethinkthefield,and,particularly onvisual
-interactivity’ sabilitytoexplorethesecommitments theoretically whilecontributing to
-theorizing(Ravasi,2017;Pradies etal.,2023).Theattributesofvideography already
-identifiedinvideo-making –sequence,theconceptualimportance ofthecameraanditsangles,
-andthejuxtaposition ofimageandnarrative–areallpresentinthedevelopment ofinteractive
-video,withanaddeddimensionofinteractivity anduseragency(B�odi,2022).Thispaper
-positsthataddingthiselementopensadditionalavenuesforexploringaffectandembodiment
-inrelationtotheory,asitallowstheviewer/player tobothconsumeandproducetheeventof
-theresearch/video simultaneously (Ash,2010).Thisdualrolefacilitatesthecommunication of
-the“fullsensoryvarietyoforganizationallife”(Woodetal.,2018)thathasbeenidentifiedas
-oneofvideography’ smajorcontribution toorganizations studies.
-Tobetterexplainwhatismeantherebyvisualizing theoryandhowitmightbedifferent
-thanvisualizing empirics,Iturnnowtobrieflydiscussvisualinscriptions insciencestudies
-andActor-NetworkTheory(ANT).Thenextsectionismeanttoelucidateshowvisualizing
-theoryinsocialscientificaccountscanbeunderstood asanexperimental apparatusof
-inscription. Thisisimportantformycontribution becausetheresearchartifactSpacesGame
-discussedinthispaperisintendedtobeseeninthislight:asaformofinteractiveexpressive
-videography thattranscendsnon-participatory spectatorship andisexpressivethroughits
-capacitytonotonly“seetheory”buttointeractwithit.
-Inscription insocial science: visualizing theoreticalpossibilities
-Tobetterexplicatewhattheinteractive expressive videography ofSpacesGame aimsto
-perform,itishelpfultorecountANT’streatmentsofthequestionofinscription. Alongside
-ANT’susefulvocabulary fortalkingaboutobjects,materialityandprocesses,whichiswidely
-utilizedinorganization studies(LeeandHassard,1999;Jonesetal.,2004;Czarniawska, 2009;
-AlcadipaniandHassard,2010;O’Mahoney etal.,2017),thereisapowerfulaspectofANT’s
-insightsrelatedtonon-representational sensibility(Hilletal.,2014).ANTstudies,andScience
-Studiesmorebroadly,haveemphasized theroleofphysicalandvisualartifactsininscribing
-ontological differenceswithinexperimental apparatuses (Hacking,1983;Barad,2007).Rather
-thanseeingscientificproductioninrepresentationalist terms,Hackingandothersmeticulously
-exploredtheuseofexperimental apparatuses inscience,arguingthatwhatisatstakein
-knowledge-making isintervention ratherthanpassivereflection.Scientists(Latour,1988),as
-wellasdesignersandtechnologists (Akrich,1992), inscribe–thatisembedparticularvisions
-oftheworldandassociatedwaysofactingwithinthematerialityandvisualityofartifacts–so
-thatvariousaffordancesandusesbecomemeaningful. This,performative view,sees
-knowledge-making inthefollowingway:itisthrough actingwithandontheworldinsideJOE
+
+JOE
+
+which are still images, here researchers have to contend with motion pictures, which,
+according to Hassard et al. (2018), facilitate a “polyvocal approach” to research. This approach
+allows for the necessity to edit frames to become a tool for the performance of analysis (MikoSchefzig’s et al., 2022), and the ability to juxtapose images with narrative, manipulate pacing
+and rearrange storylines to venues through which to transcend static and polarizing
+categorizations. This leverages the independence of moving images from the written word
+(Redmalm and Skoglund, 2022) to engage viewers in events that render video agentic
+(Hietanen and Rokka, 2018).
+Crucially, research in videography has elucidated the ways in which thinking about and
+practicing the production of video can constitute a viable research tool. This paper seeks to
+advance this work by considering not only moving pictures (i.e. video) but movable visuals –
+interactive video environments – whereby the “viewer” becomes a “player” who can act within
+a digital world, experiencing entanglements in changing courses of events (Schleiner, 2017).
+In particular, it addresses the question of visualizing in interactive ways the theoretical
+concepts with which fieldwork encounters are made sense of and communicated as they are
+researched. The focus is on experiencing our own epistemological, ontological and
+methodological commitments when we think the field, and, particularly on visual
+interactivity’s ability to explore these commitments theoretically while contributing to
+theorizing (Ravasi, 2017; Pradies et al., 2023). The attributes of videography already
+identified in video-making – sequence, the conceptual importance of the camera and its angles,
+and the juxtaposition of image and narrative – are all present in the development of interactive
+video, with an added dimension of interactivity and user agency (B�
+odi, 2022). This paper
+posits that adding this element opens additional avenues for exploring affect and embodiment
+in relation to theory, as it allows the viewer/player to both consume and produce the event of
+the research/video simultaneously (Ash, 2010). This dual role facilitates the communication of
+the “full sensory variety of organizational life” (Wood et al., 2018) that has been identified as
+one of videography’s major contribution to organizations studies.
+To better explain what is meant here by visualizing theory and how it might be different
+than visualizing empirics, I turn now to briefly discuss visual inscriptions in science studies
+and Actor-Network Theory (ANT). The next section is meant to elucidates how visualizing
+theory in social scientific accounts can be understood as an experimental apparatus of
+inscription. This is important for my contribution because the research artifact SpacesGame
+discussed in this paper is intended to be seen in this light: as a form of interactive expressive
+videography that transcends non-participatory spectatorship and is expressive through its
+capacity to not only “see theory” but to interact with it.
+Inscription in social science: visualizing theoretical possibilities
+To better explicate what the interactive expressive videography of SpacesGame aims to
+perform, it is helpful to recount ANT’s treatments of the question of inscription. Alongside
+ANT’s useful vocabulary for talking about objects, materiality and processes, which is widely
+utilized in organization studies (Lee and Hassard, 1999; Jones et al., 2004; Czarniawska, 2009;
+Alcadipani and Hassard, 2010; O’Mahoney et al., 2017), there is a powerful aspect of ANT’s
+insights related to non-representational sensibility (Hill et al., 2014). ANTstudies, and Science
+Studies more broadly, have emphasized the role of physical and visual artifacts in inscribing
+ontological differences within experimental apparatuses (Hacking, 1983; Barad, 2007). Rather
+than seeing scientific production in representationalist terms, Hacking and others meticulously
+explored the use of experimental apparatuses in science, arguing that what is at stake in
+knowledge-making is intervention rather than passive reflection. Scientists (Latour, 1988), as
+well as designers and technologists (Akrich, 1992), inscribe – that is embed particular visions
+of the world and associated ways of acting within the materiality and visuality of artifacts – so
+that various affordances and uses become meaningful. This, performative view, sees
+knowledge-making in the following way: it is through acting with and on the world inside
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-experimental apparatuses, utilizingtheirmaterialidiosyncrasies, thatwecometoknowthat
-whichismanipulated.
-Buildingontheseinsightsaboutscienceandtechnology,ANTextendedtheargumentto
-includesocialscience.Itpositedthatthemannerinwhichwenarratethefieldandimagineand
-visualizetheoreticalunderstandings ofsocialphenomena, servesasqualitativesocialscience’s
-experimental apparatus.Thisperspective encourages ustothinkaboutthematerial andvisual
-spacewithin which theoreticaldifferencesandtheirdynamics areinscribed.Forexample,let’s
-considerANT’scontribution totherealism/social construction debate(CallonandLatour,
-1992).Thedebateitselfislessrelevanttothispaper,butwhatinterestedANTwithinthis
-debateis.Inthisdebate,ANTobservedhowthejuxtaposition ofsocialconstruction (sociality
-asthedomainofagency)andscientificrealism(naturalityasthedomainofagency) is
-imagined asplotted andarrangedalongaSubject-Object axisthatseesthesetheoretical
-positionsasoppositesonacontinuum(seeFigure1).
-ANTobservedhowthisexperimental apparatus–aparticularimaginedtheoreticalspace
-inscribedintextualstorytelling andbinary2Dvisualizations –waslimitingandconstraining
-thedebate.Ithighlighted howimaginedspatialrelationships betweentheoreticalpositions
-(inscribedinvisualandtextualforms)framepossiblemeaningful positionswithintheoretical
-space.Toputdifferently,ourempiricaldescriptions—the narrativesweconstructinwritten
-andvisuallanguageforreasoning,informingandcommunicating—are shapedbytheliterary
-andvisualresourceswechoose.Assuch,ANTcanbereadasanintervention targetingthe2D
-imaginaries underlyingourtheoreticalspeculations.
-ThispapertakesinspirationfromthisfictiveplaneofreferencethatANTcritiqued,aiming
-tointervenebyspeculating onthepossibility ofextending theexperimental apparatus
-“outwards” fromsetsofpossibilities inscribedin2Dconstellations—linear representations of
-causality,two-by-two grids,etc.—towards 3Drepresentations ofpossiblepositionings and
-interactwiththem.Tostickwithourexample,andbeforedelvingintointeractivity withinthis
-endeavour,letusbrieflyexploretheconsequences ofusingadigital3Dfictionasasubstituteto
-the2Donedebatedearlierinthetext.Figure2isanimagecreatedusingtheonlineinteractive
-toolGeoGebra(http://www .geogebra.org) andannotatedwithPowerPoint. GeoGebraenables
-3Dgraphingofgeometry,algebraandstatisticsforeducational purposes.Here,Iuseitto
-generatea3Dimagethathelpsvisualizetheimplications ofmovingbeyond2Dtofully3D
-inscriptions (comparewithFigure1).Thissubtleshift,fromplottingtheoreticalpositionsin
-2Dgraphsto3Dgraphsnowaccessiblethroughcomputergraphics,opensnumerous
-directionsforspeculation. In3Dspace,aposition“movingaway”fromtheSubject-Object
-axisdoesnothavetobe“straight”upbutcanmoveinvariousdirections.Itcanoccupyitsown
-plane.Thismightallowustospeculateabouttherelationsbetweenthispositioning (PointB)
-andtheSubject–Object axis(doesmovingtowardspointBmeansitis“closer”tothenaturality
-pole?),oritmayinviteustospeculateaboutadditionalpositionings nowthattheentirespaceis
-openforexploration.
-Takingthediscussionbacktovideography ,theintellectual wagerinthispaperisthat
-shiftingourexperimental apparatusfroma2D,binaryvisualization oftheoryandtowardsan
-Figure1.2Dinscriptionoftheoreticalspace.Source:Latour(1988)Journalof
+
+experimental apparatuses, utilizing their material idiosyncrasies, that we come to know that
+which is manipulated.
+Building on these insights about science and technology, ANT extended the argument to
+include social science. It posited that the manner in which we narrate the field and imagine and
+visualize theoretical understandings of social phenomena, serves as qualitative social science’s
+experimental apparatus. This perspective encourages us to think about the material and visual
+space within which theoretical differences and their dynamics are inscribed. For example, let’s
+consider ANT’s contribution to the realism/social construction debate (Callon and Latour,
+1992). The debate itself is less relevant to this paper, but what interested ANT within this
+debate is. In this debate, ANT observed how the juxtaposition of social construction (sociality
+as the domain of agency) and scientific realism (naturality as the domain of agency) is
+imagined as plotted and arranged along a Subject-Object axis that sees these theoretical
+positions as opposites on a continuum (see Figure 1).
+ANT observed how this experimental apparatus – a particular imagined theoretical space
+inscribed in textual storytelling and binary 2D visualizations – was limiting and constraining
+the debate. It highlighted how imagined spatial relationships between theoretical positions
+(inscribed in visual and textual forms) frame possible meaningful positions within theoretical
+space. To put differently, our empirical descriptions—the narratives we construct in written
+and visual language for reasoning, informing and communicating—are shaped by the literary
+and visual resources we choose. As such, ANT can be read as an intervention targeting the 2D
+imaginaries underlying our theoretical speculations.
+This paper takes inspiration from this fictive plane of reference that ANT critiqued, aiming
+to intervene by speculating on the possibility of extending the experimental apparatus
+“outwards” from sets of possibilities inscribed in 2D constellations—linear representations of
+causality, two-by-two grids, etc.—towards 3D representations of possible positionings and
+interact with them. To stick with our example, and before delving into interactivity within this
+endeavour, let us briefly explore the consequences of using a digital 3D fiction as a substitute to
+the 2D one debated earlier in the text. Figure 2 is an image created using the online interactive
+tool GeoGebra (http://www.geogebra.org) and annotated with PowerPoint. GeoGebra enables
+3D graphing of geometry, algebra and statistics for educational purposes. Here, I use it to
+generate a 3D image that helps visualize the implications of moving beyond 2D to fully 3D
+inscriptions (compare with Figure 1). This subtle shift, from plotting theoretical positions in
+2D graphs to 3D graphs now accessible through computer graphics, opens numerous
+directions for speculation. In 3D space, a position “moving away” from the Subject-Object
+axis does not have to be “straight” up but can move in various directions. It can occupy its own
+plane. This might allow us to speculate about the relations between this positioning (Point B)
+and the Subject–Object axis (does moving towards point B means it is “closer” to the naturality
+pole?), or it may invite us to speculate about additional positionings now that the entire space is
+open for exploration.
+Taking the discussion back to videography, the intellectual wager in this paper is that
+shifting our experimental apparatus from a 2D, binary visualization of theory and towards an
+
+Journal of
 Organizational
 Ethnography
+
+Figure 1. 2D inscription of theoretical space. Source: Latour (1988)
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-interactive useof3Dvisualsandinscription ofrelationscangeneratenewspeculative
-engagements withtheoreticalpossibilities. If,asHaraway(1997)argues,“whatweneedisto
-makeadifferenceinmaterial-semiotic apparatuses, todiffracttheraysoftechnoscience sothat
-wegetmorepromisinginterference patternsontherecordingfilmsofourlivesandbodies”
-(p.16),thenSpacesGame ishereinvokedasanexperimental apparatusaimedtogetat“more
-promisinginterference patterns”byspeculating onapositionality towardsempiricsthatdoes
-notadheretothe2Dlimitations imposedbyextantimaginations oftheoreticalmapping
-(CallonandLatour,1992).OurdetourthroughANTanditsintervention intheeticuseofvisual
-inscriptionintheoreticalworkservestohintatthegenerativity ofthisapproach,pavingthe
-wayforthecontribution thispapermakestovideography ,namelyusinganinteractive3Das
-theexperimental apparatusinwhichtheoryisinscribedandengagedwith.Todoso,one
-possibletoolisagameengine.
-Whenlookingisnotenough:gameenginesasinscription tools
-Gameenginesarecomplexsoftwarebundlesprimarilyusedintheproductionofdigitalgames,
-buttheirutilityisexpandingintoarchitecture, engineering, cinemaandacademia(Jungherr
-andSchlarb,2022).Alongsidetheirincreasedavailability anddemocratization, gameengines
-havecapturedtheimagination ofscholarsfromthenaturalsciencestothehumanities.
-Softwaredevelopment andtheuseofimmersivevirtualspacesisprevalentinresearchneeding
-simulation(suchashealthcareorengineering) aswellasinfictionalrecreationsofthepastorin
-experimental cognitionusingVirtual/Augmented Reality.Inscientificresearch,gameengines
-aregrowinginpopularityastoolsofsimulation, mainlyinthenaturalsciencesandengineering
-(Friese etal.,2008),andastoolsofrealistrepresentation, mainlyinthehumanities. Inthecase
-ofsimulation, somegameengines,likeUnrealEngineandCryEngine, areconsideredtobe
-accurateenoughtoproduce“scientificresults”(LewisandJacobson,2002)andthesoftwareis
-used,forexample,todevelopandrunsimulations ofreal-world mechanisms suchas
-ecosystems oropticalphysics(KissandPusztai,2022;Xinetal.,2024).Inthehumanitiesand
-art,therealisticsimulationaffordedbygameenginesisusedforthepromotionofcultural
-heritage,“edu-tainment” applications (Lepouras andVassilakis,2004)orhistorical
-reconstructions (RuaandAlvito,2011).Theseuses,utilizinggameengines’elaborate
-physicsand3Drenderingcapabilities, aremostlyaimedatamimeticrelationbetweenmedia
-andsimulated-reality withtheresultant“game”productthoughtof“standinginplace”ofan
-“out-there” thatisre-createddigitally,beitphysical,architectural orculturalreality.Assuch,
-Figure2.3Dinscriptionoftheoreticalspace.Source:Author’screationusingGeoGebraJOE
+
+JOE
+
+Figure 2. 3D inscription of theoretical space. Source: Author’s creation using GeoGebra
+
+interactive use of 3D visuals and inscription of relations can generate new speculative
+engagements with theoretical possibilities. If, as Haraway (1997) argues, “what we need is to
+make a difference in material-semiotic apparatuses, to diffract the rays of technoscience so that
+we get more promising interference patterns on the recording films of our lives and bodies”
+(p.16), then SpacesGame is here invoked as an experimental apparatus aimed to get at “more
+promising interference patterns” by speculating on a positionality towards empirics that does
+not adhere to the 2D limitations imposed by extant imaginations of theoretical mapping
+(Callon and Latour, 1992). Our detour through ANTand its intervention in the etic use of visual
+inscription in theoretical work serves to hint at the generativity of this approach, paving the
+way for the contribution this paper makes to videography, namely using an interactive 3D as
+the experimental apparatus in which theory is inscribed and engaged with. To do so, one
+possible tool is a game engine.
+
+When looking is not enough: game engines as inscription tools
+Game engines are complex software bundles primarily used in the production of digital games,
+but their utility is expanding into architecture, engineering, cinema and academia (Jungherr
+and Schlarb, 2022). Alongside their increased availability and democratization, game engines
+have captured the imagination of scholars from the natural sciences to the humanities.
+Software development and the use of immersive virtual spaces is prevalent in research needing
+simulation (such as healthcare or engineering) as well as in fictional recreations of the past or in
+experimental cognition using Virtual/Augmented Reality. In scientific research, game engines
+are growing in popularity as tools of simulation, mainly in the natural sciences and engineering
+(Friese et al., 2008), and as tools of realist representation, mainly in the humanities. In the case
+of simulation, some game engines, like Unreal Engine and CryEngine, are considered to be
+accurate enough to produce “scientific results” (Lewis and Jacobson, 2002) and the software is
+used, for example, to develop and run simulations of real-world mechanisms such as
+ecosystems or optical physics (Kiss and Pusztai, 2022; Xin et al., 2024). In the humanities and
+art, the realistic simulation afforded by game engines is used for the promotion of cultural
+heritage, “edu-tainment” applications (Lepouras and Vassilakis, 2004) or historical
+reconstructions (Rua and Alvito, 2011). These uses, utilizing game engines’ elaborate
+physics and 3D rendering capabilities, are mostly aimed at a mimetic relation between media
+and simulated-reality with the resultant “game” product thought of “standing in place” of an
+“out-there” that is re-created digitally, be it physical, architectural or cultural reality. As such,
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-whatisemphasized arethesetools’abilitytoaccuratelyrepresent,showinphotorealistic
-manner,orthecorrectness oftheirunderlyingcalculations.
-Whilethesedevelopments utilizedigitalfictiontoengagewithsimulations ofwhatistaken
-tobetheempiricalreal(therealpastorfuture),thisstudyspeculatesontheusageofthis
-technology toimagine,experienceandspeculateabouttheoreticalspace.Asstated,thegoalis
-nottorepresenteconomicevaluation bypolicyanalystsbuttoexploretheexpressive
-potentialities ofthemedium,developingamediaproductthatproducesevents“thatforceusto
-think[444]byforcingourwholebodiesintoanactiveencounter”(HietanenandRokka,2018,
-p.324).Contrarytoascientificusageinterestedinthesoftware’sabilitytoproducesubject-
-independent accuracyoraculturalinterestintheproductionofauthenticity inregardshistory,
-theinterestwithgameenginesthatthispaperfollowsisforemostaboutthesoftware’sabilityto
-produceinteractive, thusbodily,relationsbetweenartifactanduser/player/researcher .Whatis
-atstakeisagameengine’sabilitytocreatea3Dspatialenvironment withinwhichonemight
-inscribetheoreticalpositions,thatisitsusageasaninteractivegridthatcanbothbeseen/
-watchedaswellasexperienced.
-Whilefilmmakers grapplewithwhatisshowntoaviewer,gamedesigners,asCostikyan’s
-classicessay(Costikyan, 2005)[1999])posits,areprimarily“manipulators ofagency”–beit
-theabilitytodouble-jump inanadventuregame,transformintoadifferentcreatureinaRole-
-PlayingGame,orindeed,anyotherformofagencywithinthegameworld. Froman
-exceptionalist perspective, thedigitalgame’suniqueness asamediumliesinitsrhythmic
-interaction(Costello,2018)anditsverystructureasan“architecture ofaffect”(Ash,2010),
-renderingthepluralityof“modalities ofagency”itscorecharacteristic (ChiaandRuffino,
-2022).Recentgamestudiesscholarship conceptualizes thegameaspartofanassortmentof
-technicalandcultural,humanandnonhumanelementsthattogethergiverisetoapluralityof
-agencies(StyhreandRemneland-W ikhamn,2021;B�odi,2022)inwhichtheplayer’sagency
-intertwineswiththatofthedeveloperviatheuseofdevelopment software(Keogh,2022),and
-theplayercanalso“mutate”theagenticoptionsavailablewithinthegameworld astheyengage
-theartifact(Schleiner,2017).Thesefeatures,whichplaceagency(theplayer’s,the
-developer’s,thesoftware’s)atthecentreofthedesign,development andconsumption
-processes,andwhichturnthedesignquestioninto“whatfacilitiesexist?”(Costikyan, 2005
-[1999],p.197)arewhygameengines,Iargue,canbeaproductiveresearchtoolforexpressive
-videographies thatseektotranscendthevisual’srepresentational mode.
-Iturnnowtopresenttheempiricalepisodethatraisedthemethodological questions
-exploredthroughSpacesGame.
-Studyingthefigurationofamanagement accounting figure
-Theimpetusforthisstudystemsfromanethnographic encounterthathappenedduringfield
-workamongpolicyanalystsworkingforamajormunicipality inthenorthofEngland.
-Theethnography (consistingof18monthsoffieldworkin2013–2015) focusedonexamining
-knowledge-practices inthecontextofquantifiedaccountability inlocalgovernment, andin
-particulartheuseofeconomicevidenceinaccount-making. TheorganizationIjoined,a
-consultancy branchofthemunicipality ,employs70staffandistaskedwithdeliveringpolicy
-andstrategyadvice.Fieldworkinvolvedweeklyobservations thatincludedshadowing
-analystsandmanagerswhileparticipating intasksliketheproductionofeconomicforecasts,
-impactevaluations andstakeholder workshops. Inmanyrespects,suchasgettinganaccess
-card,myownITaccountanddesk,Iwastreatedaspartoftheteam.Alongwithfollowingtheir
-dailyroutines,conversations withanalystsexploredtheiruseoffigures,accountingtechniques
-andtheirinteractionwithknowledge objects.
-Thespecificencounterwasameetingbetweentwoanalyststaskedwithcalculating and
-decidingonaCost-Benefit Rationforoneoftheirprojects;oneIwasnotparticipating in.
-IjoinedthemeetingasIwasparticularly interestedwiththeCost–Benefit Analysistool,how
-usingitwasrepresented inorganizational manuals,howtheknowledgeworkwastalkedaboutJournalof
+
+what is emphasized are these tools’ ability to accurately represent, show in photorealistic
+manner, or the correctness of their underlying calculations.
+While these developments utilize digital fiction to engage with simulations of what is taken
+to be the empirical real (the real past or future), this study speculates on the usage of this
+technology to imagine, experience and speculate about theoretical space. As stated, the goal is
+not to represent economic evaluation by policy analysts but to explore the expressive
+potentialities of the medium, developing a media product that produces events “that force us to
+think [ . . .] by forcing our whole bodies into an active encounter” (Hietanen and Rokka, 2018,
+p. 324). Contrary to a scientific usage interested in the software’s ability to produce subjectindependent accuracy or a cultural interest in the production of authenticity in regards history,
+the interest with game engines that this paper follows is foremost about the software’s ability to
+produce interactive, thus bodily, relations between artifact and user/player/researcher. What is
+at stake is a game engine’s ability to create a 3D spatial environment within which one might
+inscribe theoretical positions, that is its usage as an interactive grid that can both be seen/
+watched as well as experienced.
+While filmmakers grapple with what is shown to a viewer, game designers, as Costikyan’s
+classic essay (Costikyan, 2005) [1999]) posits, are primarily “manipulators of agency” – be it
+the ability to double-jump in an adventure game, transform into a different creature in a RolePlaying Game, or indeed, any other form of agency within the gameworld. From an
+exceptionalist perspective, the digital game’s uniqueness as a medium lies in its rhythmic
+interaction (Costello, 2018) and its very structure as an “architecture of affect” (Ash, 2010),
+rendering the plurality of “modalities of agency” its core characteristic (Chia and Ruffino,
+2022). Recent game studies scholarship conceptualizes the game as part of an assortment of
+technical and cultural, human and nonhuman elements that together give rise to a plurality of
+agencies (Styhre and Remneland-Wikhamn, 2021; B�odi, 2022) in which the player’s agency
+intertwines with that of the developer via the use of development software (Keogh, 2022), and
+the player can also “mutate” the agentic options available within the gameworld as they engage
+the artifact (Schleiner, 2017). These features, which place agency (the player’s, the
+developer’s, the software’s) at the centre of the design, development and consumption
+processes, and which turn the design question into “what facilities exist?” (Costikyan, 2005
+[1999], p. 197) are why game engines, I argue, can be a productive research tool for expressive
+videographies that seek to transcend the visual’s representational mode.
+I turn now to present the empirical episode that raised the methodological questions
+explored through SpacesGame.
+
+Journal of
 Organizational
 Ethnography
+
+Studying the figuration of a management accounting figure
+The impetus for this study stems from an ethnographic encounter that happened during field
+work among policy analysts working for a major municipality in the north of England.
+The ethnography (consisting of 18 months of fieldwork in 2013–2015) focused on examining
+knowledge-practices in the context of quantified accountability in local government, and in
+particular the use of economic evidence in account-making. The organization I joined, a
+consultancy branch of the municipality, employs 70 staff and is tasked with delivering policy
+and strategy advice. Fieldwork involved weekly observations that included shadowing
+analysts and managers while participating in tasks like the production of economic forecasts,
+impact evaluations and stakeholder workshops. In many respects, such as getting an access
+card, my own IT account and desk, I was treated as part of the team. Along with following their
+daily routines, conversations with analysts explored their use of figures, accounting techniques
+and their interaction with knowledge objects.
+The specific encounter was a meeting between two analysts tasked with calculating and
+deciding on a Cost-Benefit Ration for one of their projects; one I was not participating in.
+I joined the meeting as I was particularly interested with the Cost–Benefit Analysis tool, how
+using it was represented in organizational manuals, how the knowledge work was talked about
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-andhowitunfoldedinpractice.Inmanuals,a2Dimageshowingamechanical like
-configuration tellsoftheworkofcalculatingaratiothatitisstraightforward: onemovesfrom
-CoststoBenefitstotheresultingRatio(seeFigure3).Thiswasalsohowanalystsdescribedit,
-as“straightforward”. Themeeting,however,proceededinacompletely differentmanner,one
-thatwashardformeto“capture”,expressorthinkthrough.Onethingwascertain–
-straightforward wasnottherightwaytovisualizeorthinkthroughthework.Thedisparity
-betweenthe2Dimageandtheexperienceofwhattheanalystscalled,“comingupwitharatio
-fortheratio”,becameafocusofmyresearchandIdocumented theminutedetailsofhow
-knowledge workprogressedinthemeeting,takingnotesasitwentalong.
-Inthemeeting,asanalystsdiscussedthecalculation, exploringvariousoptionsforwhat
-wouldconstitute“benefits”and“costs”andhowtoderivethem,theirmainreasoning
-frequently shifted.Atonemoment,theaccounting methods’prescriptions seemedto
-determineactionstraightforwardly (“YoudoBenefitsfirst,thenCosts”),withanalysts,
-literally,movingalonganExcelspreadsheet, calculating Benefits,CostsandthentheRatio.
-Atanothermoment,thegoalofachievinga“true”representation ofthefutureguidedthe
-decisiononwhichnumberstoinclude(“Thisnumberistoobig.Claimingthisnumberof
-benefitswouldbealeap”).Atsuchmoments,itwaslocalknowledgeandfamiliaritywithwhat
-isorisnotpossible(ratherthantheaccountingmethod)influencing the“straightforwardness”
-oftheprocedure.Yetatothermoments,practicalexperience andprofessional knowledge
-appearedtobethematterofconcern(“theRationeedstobebetween1.0and1.9.1.9works”).
-Thesedivergingconcernsledtoameetingthatwasfarremovedfromhowtheanalysts
-describedtheworkofcalculationas“straightforward”. Italsorunscountertohowthisworkis
-represented withinlocalgovernment manuals.Insteadofalinearprogression fromAtoB,
-whereinputsareconvertedtooutputs,themeetinginvolvedtestingandteasingoutnumbers,
-withspecificattachments “pulling”eachnewiterationofthediscussiontowardsadifferent
-direction,ratherthan“forward”. Analystswererightwhentheydescribedtheworkof
-Cost–Benefit calculation as“youstartwithafigureandendupwithanother”,butthe
-convoluted journeyanditsdrivingelementswerehardertocapture.Moreimportantly here,
-plottingtheirworkalongestablishedtheoreticalpositionsandtraditionalvisualizations proved
-extremelycomplicated, asIwasgrabblingwithquestionssuchas“whatisdrivingthisaction,
-andinwhatdirection?” or“dosubjectsorobjectsdeterminehowcalculationhappens?”This
-complexity arisesbecausetheaccountisnotdeterministically setbyaccountingrequirements,
-norsolelybytheaimtoachievea“reasonable” imageofthefuture,norpurelybytheintentto
-securefundingby“gaming”previouslysuccessfulnumbers.
-Thepreciserelationships manifesting duringthemeetingandthewayspolicyanalysts
-relatedtotheirknowledge-practices andmanagerial techniques aredealtwithinanother
-Figure3.Linearrepresentation ofusingthecost–benefit analysistool:asimplematterofinputsandoutputs.
-Source:HMTreasury(2014)JOE
+
+JOE
+
+and how it unfolded in practice. In manuals, a 2D image showing a mechanical like
+configuration tells of the work of calculating a ratio that it is straightforward: one moves from
+Costs to Benefits to the resulting Ratio (see Figure 3). This was also how analysts described it,
+as “straightforward”. The meeting, however, proceeded in a completely different manner, one
+that was hard for me to “capture”, express or think through. One thing was certain –
+straightforward was not the right way to visualize or think through the work. The disparity
+between the 2D image and the experience of what the analysts called, “coming up with a ratio
+for the ratio”, became a focus of my research and I documented the minute details of how
+knowledge work progressed in the meeting, taking notes as it went along.
+In the meeting, as analysts discussed the calculation, exploring various options for what
+would constitute “benefits” and “costs” and how to derive them, their main reasoning
+frequently shifted. At one moment, the accounting methods’ prescriptions seemed to
+determine action straightforwardly (“You do Benefits first, then Costs”), with analysts,
+literally, moving along an Excel spreadsheet, calculating Benefits, Costs and then the Ratio.
+At another moment, the goal of achieving a “true” representation of the future guided the
+decision on which numbers to include (“This number is too big. Claiming this number of
+benefits would be a leap”). At such moments, it was local knowledge and familiarity with what
+is or is not possible (rather than the accounting method) influencing the “straightforwardness”
+of the procedure. Yet at other moments, practical experience and professional knowledge
+appeared to be the matter of concern (“the Ratio needs to be between 1.0 and 1.9. 1.9 works”).
+These diverging concerns led to a meeting that was far removed from how the analysts
+described the work of calculation as “straightforward”. It also runs counter to how this work is
+represented within local government manuals. Instead of a linear progression from A to B,
+where inputs are converted to outputs, the meeting involved testing and teasing out numbers,
+with specific attachments “pulling” each new iteration of the discussion towards a different
+direction, rather than “forward”. Analysts were right when they described the work of
+Cost–Benefit calculation as “you start with a figure and end up with another”, but the
+convoluted journey and its driving elements were harder to capture. More importantly here,
+plotting their work along established theoretical positions and traditional visualizations proved
+extremely complicated, as I was grabbling with questions such as “what is driving this action,
+and in what direction?” or “do subjects or objects determine how calculation happens?” This
+complexity arises because the account is not deterministically set by accounting requirements,
+nor solely by the aim to achieve a “reasonable” image of the future, nor purely by the intent to
+secure funding by “gaming” previously successful numbers.
+The precise relationships manifesting during the meeting and the ways policy analysts
+related to their knowledge-practices and managerial techniques are dealt with in another
+
+Figure 3. Linear representation of using the cost–benefit analysis tool: a simple matter of inputs and outputs.
+Source: HM Treasury (2014)
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-publication (Gore,2023).Here,themethodological challengeofhowtoengagewiththis
-meetingandtheroleofinteractivevideowithinthisprocessismyfocus.Thus,itsufficesto
-highlightthethreeconcernsthatarepresentinthemeetingandmoveontodiscusshow
-interactiveinscriptionhelpedmeengagewiththiscontext.Theconcerns,alreadymentioned
-above,are:calculationasRepresentation (knowledge-work isdrivenbythequestionWhatis
-true?),calculation asFormalism (knowledge-work isdrivenbythequestionWhatdoesthe
-methodsay?)andcalculation asPragmatism (knowledge-work isdrivenbyfuture
-organization aloutcomes). Identifying theseconcernsledmetoponderhowcanI
-foreground thesensorydimensions ofthisorganizational event,whereconcernsmanifest
-themselves andchangethe“direction” ofhowthemeetingandtheinvocationofnumbers
+
+publication (Gore, 2023). Here, the methodological challenge of how to engage with this
+meeting and the role of interactive video within this process is my focus. Thus, it suffices to
+highlight the three concerns that are present in the meeting and move on to discuss how
+interactive inscription helped me engage with this context. The concerns, already mentioned
+above, are: calculation as Representation (knowledge-work is driven by the question What is
+true?), calculation as Formalism (knowledge-work is driven by the question What does the
+method say?) and calculation as Pragmatism (knowledge-work is driven by future
+organizational outcomes). Identifying these concerns led me to ponder how can I
+foreground the sensory dimensions of this organizational event, where concerns manifest
+themselves and change the “direction” of how the meeting and the invocation of numbers
 proceeded.
-Theexperienceofa“direction” thatisconstantlyinfluxduringthemeetingunderscored
-theproblemswith2Drepresentations oftheknowledge-work. Whatiftheimageryintendedto
-showuswhatthephenomena ortheoreticalspaceusedtoconceptualize itlookslikeis
-inadequate? Indeed,suchrepresentations areprevalentintheworkinglifeofpolicyanalysts.
-Theirpracticeisfilledwithreflectiveimagerymeanttodepictwhattheprocessesofworking
-arelike,howtheyshouldbeperformedandwhatdirectionitneedstotaketosucceed.
-These2Dimages,ofcourse,areasimplification. Suchisanyrepresentation. However,itisthe
-kindofsimplification thatbecamemyfocus–namely,asimplification thatseesthework
-ofaccount-making aslinear,discrete,breakabletophases,mechanical, straightforward.
-Thework,asdiscussedabove,divergessignificantly fromthesecharacteristics, making
-simplification aformofbetrayalandvisualimageryasourceofmisinformation.
-Thus,Idecidedtoexplorethisevent,andhowImightinscribetheorytomakesenseofit,
-withaninteractivemedium.Inthenextsection,Iturntoexploretheuseofgameenginesas
-registration toolsforthissortoftask,oneinterestedinallowingresearchers toexperienceand
-interactwiththesortofmovements thatatheoreticaldescription ofthisworkrequires.
-Developing/experiencing amanagement accounting meeting
-ToexplorethefigurationofaCostBenefitRatiothroughthehappenings ofthemeeting,Iused
-UnrealEngine4(www.epic.com)tocreateadigital3Denvironment. Thedecisiontouse
-UnrealEnginestemmedfromacombination ofskillandaccessibility .Iwasalreadyfamiliar
-withthesoftware,havingcompletedseveralcoursesingamedevelopment. WhileIinitially
-consideredusingUnity,anotherpopulargameengine,itsbusinessmodelimposesrestrictions
-ofthefreeusagebyacademicorganizations. Givenmyemployment inaneducational
-institutionandmyintentiontopublishmyresults,IoptedforUnrealEngineanditsroyalty-
-basedmodel,whichallowedmetouseadvancedtechnology withoutincurringfees(ifthe
-artifactwasnotmonetized). UsingUnrealEnginerequiredcodinginCandprovided
-accesstoasuiteoftoolstailoredfor3Denvironments, bothofwhichalignedwellwithmy
-skillsandobjectives.
-Myinitialconceptfortheartifactwastocreateaninteractiveenvironment thatgavethe
-experience ofthedynamicsIobservedinthemeeting,thatishowsomethingseemingly
-“straightforward”, likemovingfromCoststoBenefits,transforms intoabalancingact
-betweencompeting waysforward.Itisprimarilytheabilityofgameenginestoallow
-developers to“paintofagency”,thatisto“add”or“subtract”agentialcapacitiestothe
-“player”ofthe“game”(B�odi,2022),thatmakesthemaviabletoolforinteractive
-videographies. Whilefilmmakers grapplewithwhatisshowntoaviewer,gamedesigners,as
-Costikyan’sclassicessay(Costikyan, 2005)[1999])posits,areprimarily“manipulators of
-agency”–beittheabilitytodouble-jump inanadventuregame,transformintoadifferent
-creatureinaRole-Playing Gameorindeed,anyotherformofagencywithinthegameworld.
-Assuch,gamedevelopment offersafascinatingviewon–andthustheabilitytocontemplate
-andreflectupon–howabstractedaction,intheformofdigitalsimulationofparticularphysical
-dynamics,canbeassimilated intoandinhabitedbyadiversearrayofnarrativecontexts.InthisJournalof
+The experience of a “direction” that is constantly in flux during the meeting underscored
+the problems with 2D representations of the knowledge-work. What if the imagery intended to
+show us what the phenomena or theoretical space used to conceptualize it looks like is
+inadequate? Indeed, such representations are prevalent in the working life of policy analysts.
+Their practice is filled with reflective imagery meant to depict what the processes of working
+are like, how they should be performed and what direction it needs to take to succeed.
+These 2D images, of course, are a simplification. Such is any representation. However, it is the
+kind of simplification that became my focus – namely, a simplification that sees the work
+of account-making as linear, discrete, breakable to phases, mechanical, straightforward.
+The work, as discussed above, diverges significantly from these characteristics, making
+simplification a form of betrayal and visual imagery a source of misinformation.
+Thus, I decided to explore this event, and how I might inscribe theory to make sense of it,
+with an interactive medium. In the next section, I turn to explore the use of game engines as
+registration tools for this sort of task, one interested in allowing researchers to experience and
+interact with the sort of movements that a theoretical description of this work requires.
+
+Journal of
 Organizational
 Ethnography
+
+Developing/experiencing a management accounting meeting
+To explore the figuration of a Cost Benefit Ratio through the happenings of the meeting, I used
+Unreal Engine 4 (www.epic.com) to create a digital 3D environment. The decision to use
+Unreal Engine stemmed from a combination of skill and accessibility. I was already familiar
+with the software, having completed several courses in game development. While I initially
+considered using Unity, another popular game engine, its business model imposes restrictions
+of the free usage by academic organizations. Given my employment in an educational
+institution and my intention to publish my results, I opted for Unreal Engine and its royaltybased model, which allowed me to use advanced technology without incurring fees (if the
+artifact was not monetized). Using Unreal Engine required coding in Cþþ and provided
+access to a suite of tools tailored for 3D environments, both of which aligned well with my
+skills and objectives.
+My initial concept for the artifact was to create an interactive environment that gave the
+experience of the dynamics I observed in the meeting, that is how something seemingly
+“straightforward”, like moving from Costs to Benefits, transforms into a balancing act
+between competing ways forward. It is primarily the ability of game engines to allow
+developers to “paint of agency”, that is to “add” or “subtract” agential capacities to the
+“player” of the “game” (B�odi, 2022), that makes them a viable tool for interactive
+videographies. While filmmakers grapple with what is shown to a viewer, game designers, as
+Costikyan’s classic essay (Costikyan, 2005) [1999]) posits, are primarily “manipulators of
+agency” – be it the ability to double-jump in an adventure game, transform into a different
+creature in a Role-Playing Game or indeed, any other form of agency within the gameworld.
+As such, game development offers a fascinating view on – and thus the ability to contemplate
+and reflect upon – how abstracted action, in the form of digital simulation of particular physical
+dynamics, can be assimilated into and inhabited by a diverse array of narrative contexts. In this
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-initialstepofdevelopment, Ienvisionedstartingtheexperiencewitha2Drepresentation ofthe
-“problem”(seeFigure4),thatthenuponplayerinput(keystroke/mouse move)triggereda
-camerashifttoa3Dperspective thatrevealsthecomplexity ofthesituation.
-ThisideawasfirstprototypedinUnitybeforeIswitchedtoUnrealEngineforthereasons
-outlinedabove.However,uponreflection,thisgamingexperience, thissortof“manipulation
-ofagency”,didnotcapturewelltheessenceofthedynamicsinthemeeting.Atnopointdidthe
-analystsexperienceastraightforward processthatlaterunfoldedintocomplexity.Themeeting
-wasnotanexperience ofrevelation fortheanalysts,astheydidnotexpecta
-straightforwardness thathappenedto“turninto”amultiplicity ofdirections.Instead,they
-began inmedia resandweremuchmore“dropped”,sotospeak,intothesituation,navigatingit
-asitunfolded.Thefirstprototype,thoughultimatelydiscarded,helpedme–throughthe
-consideration ofthekindsofagencyIwouldliketogivetheplayerandtheexperience of
-agencyIwishedthegametoconvey–refinemyunderstanding ofthemeetingandclarifythe
-specifictypeofexperienceIaimedtocaptureandconveywithinteractivity .
-Thus,Idevelopedanewerversioninwhicha“player”,represented byablueball,is
-droppedontoaplane.Here,Iutilizedthegameengine’scapabilities ofsimulationphysical
-forces.Inthis3Denvironment, Iwantedthreebasinsofattractiontoexertforcesthatdeform
-theball’smovement, eachpullingittowardstheirrespectivecentres(seeFigure5).Theaimis
-forplayerstoexperience ascenariothatbeginsseeminglyatrandom,reflectinghowthe
-meetingstartedwitharbitrarycalculations andnumbers,andthenengageintheintricatetask
-ofnavigatingtheunpredictable ballthroughconflictingforceswhilemovingfrompointAto
-pointB.Theimplementation beganbyaddinganotherelementintothe“scene”-agroupof
-codelineslabelledUMovementComponent. Thisreusablecomponent ispartoftheengine’s
-codearchitecture andaddsmovementfunctionality toobjects.UMovemenntComponent is
-quiteextensive,enablingrestrictions alongdifferentaxis,detectionandhandlingofcollisions
-andtheaddingofforces–all“outofthebox”–providingthegamedesignerwithaplethoraof
-agenticcapabilities andrestrictionstomixandmatch.Theactofcreationingamedevelopment
-isinseparable fromthesepre-codedelementswhichcanexpressarangeofbehaviours. Iusedit
-to“add”a“forcefield”toapointinthe3Denvironment whichinteractswiththeBallobject
-(theplayer)andpullsittowardsthepoint.Inthisway,astheplayerinputsmovement
-instructions (pressingRight,Left,Forward,Backwards), themovementisdisturbedbythe
-physicssimulation. ThisapproachtotheagencyinthescenebettercapturedtheexperienceI
-soughttoconvey.Itwasinspiredbytheideathatthehappeninginthemeeting,wherepolicy
-analystswere“pulled”incompetingdirections,canbeseenasaninstancewhereparticular
-valuesorconcerns“deform”theplaneonwhichactionunfolds.
-Figure4.FirstversionofSpacesGame. Source:Author’screationusingUnityJOE
+
+JOE
+
+initial step of development, I envisioned starting the experience with a 2D representation of the
+“problem” (see Figure 4), that then upon player input (keystroke/mouse move) triggered a
+camera shift to a 3D perspective that reveals the complexity of the situation.
+This idea was first prototyped in Unity before I switched to Unreal Engine for the reasons
+outlined above. However, upon reflection, this gaming experience, this sort of “manipulation
+of agency”, did not capture well the essence of the dynamics in the meeting. At no point did the
+analysts experience a straightforward process that later unfolded into complexity. The meeting
+was not an experience of revelation for the analysts, as they did not expect a
+straightforwardness that happened to “turn into” a multiplicity of directions. Instead, they
+began in media res and were much more “dropped”, so to speak, into the situation, navigating it
+as it unfolded. The first prototype, though ultimately discarded, helped me – through the
+consideration of the kinds of agency I would like to give the player and the experience of
+agency I wished the game to convey – refine my understanding of the meeting and clarify the
+specific type of experience I aimed to capture and convey with interactivity.
+Thus, I developed a newer version in which a “player”, represented by a blue ball, is
+dropped onto a plane. Here, I utilized the game engine’s capabilities of simulation physical
+forces. In this 3D environment, I wanted three basins of attraction to exert forces that deform
+the ball’s movement, each pulling it towards their respective centres (see Figure 5). The aim is
+for players to experience a scenario that begins seemingly at random, reflecting how the
+meeting started with arbitrary calculations and numbers, and then engage in the intricate task
+of navigating the unpredictable ball through conflicting forces while moving from point A to
+point B. The implementation began by adding another element into the “scene” - a group of
+code lines labelled UMovementComponent. This reusable component is part of the engine’s
+code architecture and adds movement functionality to objects. UMovemenntComponent is
+quite extensive, enabling restrictions along different axis, detection and handling of collisions
+and the adding of forces – all “out of the box” – providing the game designer with a plethora of
+agentic capabilities and restrictions to mix and match. The act of creation in game development
+is inseparable from these pre-coded elements which can express a range of behaviours. I used it
+to “add” a “force field” to a point in the 3D environment which interacts with the Ball object
+(the player) and pulls it towards the point. In this way, as the player inputs movement
+instructions (pressing Right, Left, Forward, Backwards), the movement is disturbed by the
+physics simulation. This approach to the agency in the scene better captured the experience I
+sought to convey. It was inspired by the idea that the happening in the meeting, where policy
+analysts were “pulled” in competing directions, can be seen as an instance where particular
+values or concerns “deform” the plane on which action unfolds.
+
+Figure 4. First version of SpacesGame. Source: Author’s creation using Unity
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-Thisfinalversiontooksometimetomaterialize intoitscurrentform.Asthegamewas
-developedanddecisionsweremaderegardingtheorganizationoftheinteractive space,
-theoreticalreflectionsonthesechoicesemerged.Usingtheinteractivegridasmyinscription
-device,Iwantedto“plot”thevariousconcernsthatIidentifiedinthemeeting:Representation,
-FormalismandPragmatism. Duringthemeeting,analystsgrabbledwithenactingcalculation
-asatruerepresentation oftheproject’svalue,butaconcernwithmethodological restrictionsof
-theCost-Benefit method(Formalism) couldsuddenlyshiftthediscussion’sdirection.This
-mademethinkthatthesethreepointsontheinteractivegridshouldbecomeattractors–that
-Ishouldprogramtheirabilitytoattracttheplayertowardseach’scentre.Thatway,each
-attractorwouldmodifytheball’sadvancement, sothatanyattempttofollowa“calculation
-path”(amovementfromAtoB)couldbecomeinfluencedordisruptedbythesphereofan
-attractor,whetherRepresentation, FormalismorPragmatism.
-Thisapproachdemonstrates howtheofagameengineenablestheadditionofforcestothe
-spatialpositionsofconceptual differencesidentifiedinthemeeting.Itstartedtobecome
-possibleto“play”orfeelthepullofthesedifferences inthegame.Whatmighthaveremained
-passivedotsonavisualgraphturninto,throughcodingandinteractivity ,dynamicactants
-influencing otherentitiesonthegrid.Thisactivationtransformstheinscriptiontosomething
-dynamic,intervention-able ratherthanpassive.Foraprocessual understanding ofthe
-organizational event,aregistration methodthatallowedforinteractive andemergent
-advancement throughthegridseemedcrucialandwasthereforeincorporated.
-Oncetheforcewasaddedandeachpoint/concern becameanattractor,otherquestions
-arose.Playingthegameafewtimesrevealedthatthephysicssimulationoftheinteracting
-forcesproducedhaphazardoutcomes.Forinstance,ifImovedtheballratherquickly,itmight
-bepulledtowardsonepoint,suchasRepresentation. However,myattemptsinputtomovethe
-ballaway,combinedwiththephysicssimulation, couldresultintheball“shooting” inthe
-oppositedirection.Thiswastheresultofmyplayerinputandtheaddedforcefromthephysics
-fieldthateachpointwassimulating. Astheballfirstmovedtowardstheattractionpoint,then
-passingit,itlookedlikeitovershot,gainingmomentum andaccelerating awayfromit.
-Thisexperience raisedaninteresting theoretical questionaboutthepossibility of
-“overshoots” inthemeetingandwhetheranalysts’attachments tothethreeconcernsmightact
-uponthesituationinasimilarway.Thisproposedmetorevisitmymeetingnotes,aswellas
-Figure5.IteratedversionofSpacesGame: threebasinsofattraction.Source:Author’screationusingUnreal
-EngineJournalof
+
+Journal of
 Organizational
 Ethnography
+
+Figure 5. Iterated version of SpacesGame: three basins of attraction. Source: Author’s creation using Unreal
+Engine
+
+This final version took some time to materialize into its current form. As the game was
+developed and decisions were made regarding the organization of the interactive space,
+theoretical reflections on these choices emerged. Using the interactive grid as my inscription
+device, I wanted to “plot” the various concerns that I identified in the meeting: Representation,
+Formalism and Pragmatism. During the meeting, analysts grabbled with enacting calculation
+as a true representation of the project’s value, but a concern with methodological restrictions of
+the Cost-Benefit method (Formalism) could suddenly shift the discussion’s direction. This
+made me think that these three points on the interactive grid should become attractors – that
+I should program their ability to attract the player towards each’s centre. That way, each
+attractor would modify the ball’s advancement, so that any attempt to follow a “calculation
+path” (a movement from A to B) could become influenced or disrupted by the sphere of an
+attractor, whether Representation, Formalism or Pragmatism.
+This approach demonstrates how the of a game engine enables the addition of forces to the
+spatial positions of conceptual differences identified in the meeting. It started to become
+possible to “play” or feel the pull of these differences in the game. What might have remained
+passive dots on a visual graph turn into, through coding and interactivity, dynamic actants
+influencing other entities on the grid. This activation transforms the inscription to something
+dynamic, intervention-able rather than passive. For a processual understanding of the
+organizational event, a registration method that allowed for interactive and emergent
+advancement through the grid seemed crucial and was therefore incorporated.
+Once the force was added and each point/concern became an attractor, other questions
+arose. Playing the game a few times revealed that the physics simulation of the interacting
+forces produced haphazard outcomes. For instance, if I moved the ball rather quickly, it might
+be pulled towards one point, such as Representation. However, my attempts input to move the
+ball away, combined with the physics simulation, could result in the ball “shooting” in the
+opposite direction. This was the result of my player input and the added force from the physics
+field that each point was simulating. As the ball first moved towards the attraction point, then
+passing it, it looked like it overshot, gaining momentum and accelerating away from it.
+This experience raised an interesting theoretical question about the possibility of
+“overshoots” in the meeting and whether analysts’ attachments to the three concerns might act
+upon the situation in a similar way. This proposed me to revisit my meeting notes, as well as
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-observations fromsimilarmeetings,toinvestigate whetherparticularattachments during
-calculations couldbeunderstood inthisway.Indeed,theanalysts’attachments totheCost-
-BenefitAnalysistool,andhowtheyperformedcalculations, oftenresultedinnumbersthat
-were“toobig”–overshooting whattheyknewwaspossiblefromapragmaticperspective. It
-wasthisovershooting, drivenbyattachment tooneconcern,thatseemedtotriggerthe
-“appearance” ofanotherconcern,actingasasortof“coursecorrection”, tokeepwiththe
-movement anddirectionmetaphors. Thisrealization, whichemergeddirectlyfrommy
-experienceplaying/developing theartifactandthinkingthroughtheeventwithit,informedmy
-decisiontofinalizethisversionoftheartifact.Itencapsulated theinsightsIsoughttocapture
-andconveyedthetheoreticaldynamicsofthemeetingeffectively.
-Initscompletedform(seeFigure6),then,thegamebeginswiththedropofaball,a
-seeminglyarbitraryevent(whythere?whynow?),muchlikethemeetingbeganwithdraft
-numbersbroughtinbyoneoftheanalysts.Fromtheperspective ofcauses,determination and
-pathsofconsequence, themeetingbetweenthetwoanalystscouldhavebeenscheduledfora
-differenttimeandplace.Thereisnothinginherentinhowameetingtodiscussaccounting
-calculations happensinorganizational realities,andthiscontingency translatesintothegame.
-Theoutcomedependsonthepersonengagingwithitandhowtheydecidetoreacttothe
-pullingoftheballtowardsthreedirections.Inthisfictionalsetting,asinthemeeting,thegoalis
-to“comeupwithanumber”andforaneventtounfold–amovementfromAtoBthatisfar
-fromstraightforward. Movement acrosstheplane–describedbytheanalystsas“straight-
-forward”–insteadbecomesachallenging experienceofbalancingtheballasitisinfluenced
-bythephysicssimulations emanatingfromthreepoints:Representation, Formalism and
-Pragmatism. Theseattractorsshapethetrajectoryoftheball,turningwhatmighthavebeena
-straightlineintoajagged,emergentjourney.Programmed usingthesoftware’sphysical
-simulationcapabilities, thebasinsofattractiontransformasimplelineartaskofmovingfrom
-AtoBintoanintricate,dynamicandnon-deterministic path-making.
+
+JOE
+
+observations from similar meetings, to investigate whether particular attachments during
+calculations could be understood in this way. Indeed, the analysts’ attachments to the CostBenefit Analysis tool, and how they performed calculations, often resulted in numbers that
+were “too big” – overshooting what they knew was possible from a pragmatic perspective. It
+was this overshooting, driven by attachment to one concern, that seemed to trigger the
+“appearance” of another concern, acting as a sort of “course correction”, to keep with the
+movement and direction metaphors. This realization, which emerged directly from my
+experience playing/developing the artifact and thinking through the event with it, informed my
+decision to finalize this version of the artifact. It encapsulated the insights I sought to capture
+and conveyed the theoretical dynamics of the meeting effectively.
+In its completed form (see Figure 6), then, the game begins with the drop of a ball, a
+seemingly arbitrary event (why there? why now?), much like the meeting began with draft
+numbers brought in by one of the analysts. From the perspective of causes, determination and
+paths of consequence, the meeting between the two analysts could have been scheduled for a
+different time and place. There is nothing inherent in how a meeting to discuss accounting
+calculations happens in organizational realities, and this contingency translates into the game.
+The outcome depends on the person engaging with it and how they decide to react to the
+pulling of the ball towards three directions. In this fictional setting, as in the meeting, the goal is
+to “come up with a number” and for an event to unfold – a movement from A to B that is far
+from straightforward. Movement across the plane – described by the analysts as “straightforward” – instead becomes a challenging experience of balancing the ball as it is influenced
+by the physics simulations emanating from three points: Representation, Formalism and
+Pragmatism. These attractors shape the trajectory of the ball, turning what might have been a
+straight line into a jagged, emergent journey. Programmed using the software’s physical
+simulation capabilities, the basins of attraction transform a simple linear task of moving from
+A to B into an intricate, dynamic and non-deterministic path-making.
 Discussion
-Thispaper,alongwithitsinteractivecompanion SpacesGame, introducedandexploredthe
-potentialofusinginteractive inscriptions astoolsfororganizational research,namely
-videography .BuildingonANTanditsemphasisoninscriptiondeviceswithintheprocessof
-socialscientificaccount-making, thestudyelucidatedhowinteractive3Dspacescanenhance
-Figure6.FinalversionofSpacesGame. Source:Author’screationusingUnrealEngineJOE
+This paper, along with its interactive companion SpacesGame, introduced and explored the
+potential of using interactive inscriptions as tools for organizational research, namely
+videography. Building on ANT and its emphasis on inscription devices within the process of
+social scientific account-making, the study elucidated how interactive 3D spaces can enhance
+
+Figure 6. Final version of SpacesGame. Source: Author’s creation using Unreal Engine
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-theoreticalinquiryinprocessstudiesoforganizing.Bydeveloping andplayingagameusing
-UnrealEngine4,whichturnspointsonavisualization oftheoryintoactiveforcesthatcanbe
-interactedwith,thepaperdemonstrated thatinteractivemediacouldtranscendthelimitations
-oftraditional2Drepresentations andstaticethnographic methods.Thisinformscurrent
-videographic approaches andopensnewavenuesforresearchandpracticethatdeepenour
-engagement, particularly withquestionsofagency.
-IncaseofSpacesGame, thenon-premise basedargument(seeWoodetal.,2018)suggests,
-first,thatanalysts’agencywithinthehappenings ofanevaluationmeetingisfarfromstraight-
-forward.Thishighlightstheproblematic representation inthefielditself–howtheworkof
-costbenefitcalculations isvisualizedwithinorganizational documents anddiscussedin
-analysts’discourse–whileopeningupaspace,literally,toexploretherelationalmannerin
-whichtheworkiscarriedout(asfaraswetheoretically understandit).Second,itsuggeststhat
-the“turning”fromonecalculation pathtoanotherhastodowithan“overshoot” whereby
-advancinginonedirection“missesthemark”andanotherconcernbecomesimportantwithin
-theflowofevents.
-Theemphasisoninteractivity oftheoryvisualizations, thatisallowingforthetheorization
-process,herepertainingtoagencywithinameetingbetweenanalysts,tobecomeembodied
-andproblematized withinaninteractivevirtualspace,makessignificantcontributions to
-expressive videography .SpacesGame, andthediscussion withinthispaper,extends
-videography fromamethodsuitedforexploringempiricalorganizational phenomena in
-non-representational manners(Endrissat etal.,2019;Toraldo etal.,2018;Hietanenand
-Rokka,2018)toamethodcapableof“performing thought”(Woodetal.,2018)inrelationto
-ourowntheorizing processesinorganization studies.Theresearchartefactdidnottrytomimic
-thefield,asnotionssuchasRepresentation, Formalism andPragmatism, werenotemic.
-Instead,thevisualization wasintheserviceoftheorization, anattempttoplotand“see”the
-differentpositionsthatmightbeabletoexplainthewaycalculation proceededinan
-organizational meeting.Thenoveladditionaffordedbytheinteractivevisualization isthat
-thesepositionsonwhatisusuallya2D,passivedrawing/graph, nowbecome“alive”,ableto
-simulatethekindofrelationsthattheresearchertheorizesbetweenthem,hereofpullingand
-changingthecourseofacalculation asevent.Inthat,italignswithmethodological
-experimentation inacademicpractice(Gilmore etal.,2019),andadvocatesfornovelvisual
-explorations oftheoreticalspace(Ravasi,2017;Swedberg, 2016)aimedatdeliveringan
-expressive“shocktothought”(HietanenandRokka,2018)directedtowards ourimagination
-andvisualization ofwhattheorymightactlikeandhowitmightfeel.
-Contemporary videography ,viaturningtheresearcherintoafilmeditor,bringstothefore
-thecuttingandselectively assembling ofimagesintomovementasitsmaincontribution
-(Miko-Schefzig etal.,2022).Theinteractivevideography presentedhereturnstheresearch
-intoagamedesigner,emphasizing agenticcapabilities withinaninteractive space.
-Ittransforms thenecessityofdecidingon“gamemechanics” intoanothertoolforthe
-performance oforganizational analysis,astheresearcherneedstothinkaboutwhatdothe
-relationsbetweenconceptsandtheory“do”,howdothey“act”,ratherthanjusthowarethey
-spatiallyplottedonagrid.Usinganinteractivemediumallowedthevideography toengage
-with“forces”theparticularorganizational eventmanifestedthroughcarefullyselectedagentic
-influencesthatactivatedtheinscription oftheoretical relations,whilealsoenablingthe
-inscriptionofagencytobefeltthroughexperiencing itsemergentproperties.
-Inthat,theperspective affordedbytheartifactanditsdevelopment underscores how“post-
-reflexiveethnography” inorganizationstudiesmustnotonlyfocusonnewobjectsofconcern
-(orignorance) (O’Doherty andNeyland,2019)suchascomputeralgorithms ornuclear
-devices,whichareseldomexploredwithinethnographic studiesofmanagement and
-organization.Thisprojectalsoneedstobecomesensitizedtootherwaysofexistencethat
-mundaneorganizational objects(suchasaCost-Benefit Ratio)mightpartakein,withthe
-development ofinteractivemediaartifactsbeingonemethodology withwhichtoengagethese.
-Suchartifacts,whichherecomplexified theexperience ofencountering amanagementJournalof
+
+theoretical inquiry in process studies of organizing. By developing and playing a game using
+Unreal Engine 4, which turns points on a visualization of theory into active forces that can be
+interacted with, the paper demonstrated that interactive media could transcend the limitations
+of traditional 2D representations and static ethnographic methods. This informs current
+videographic approaches and opens new avenues for research and practice that deepen our
+engagement, particularly with questions of agency.
+In case of SpacesGame, the non-premise based argument (see Wood et al., 2018) suggests,
+first, that analysts’ agency within the happenings of an evaluation meeting is far from straightforward. This highlights the problematic representation in the field itself – how the work of
+cost benefit calculations is visualized within organizational documents and discussed in
+analysts’ discourse – while opening up a space, literally, to explore the relational manner in
+which the work is carried out (as far as we theoretically understand it). Second, it suggests that
+the “turning” from one calculation path to another has to do with an “overshoot” whereby
+advancing in one direction “misses the mark” and another concern becomes important within
+the flow of events.
+The emphasis on interactivity of theory visualizations, that is allowing for the theorization
+process, here pertaining to agency within a meeting between analysts, to become embodied
+and problematized within an interactive virtual space, makes significant contributions to
+expressive videography. SpacesGame, and the discussion within this paper, extends
+videography from a method suited for exploring empirical organizational phenomena in
+non-representational manners (Endrissat et al., 2019; Toraldo et al., 2018; Hietanen and
+Rokka, 2018) to a method capable of “performing thought” (Wood et al., 2018) in relation to
+our own theorizing processes in organization studies. The research artefact did not try to mimic
+the field, as notions such as Representation, Formalism and Pragmatism, were not emic.
+Instead, the visualization was in the service of theorization, an attempt to plot and “see” the
+different positions that might be able to explain the way calculation proceeded in an
+organizational meeting. The novel addition afforded by the interactive visualization is that
+these positions on what is usually a 2D, passive drawing/graph, now become “alive”, able to
+simulate the kind of relations that the researcher theorizes between them, here of pulling and
+changing the course of a calculation as event. In that, it aligns with methodological
+experimentation in academic practice (Gilmore et al., 2019), and advocates for novel visual
+explorations of theoretical space (Ravasi, 2017; Swedberg, 2016) aimed at delivering an
+expressive “shock to thought” (Hietanen and Rokka, 2018) directed towards our imagination
+and visualization of what theory might act like and how it might feel.
+Contemporary videography, via turning the researcher into a film editor, brings to the fore
+the cutting and selectively assembling of images into movement as its main contribution
+(Miko-Schefzig et al., 2022). The interactive videography presented here turns the research
+into a game designer, emphasizing agentic capabilities within an interactive space.
+It transforms the necessity of deciding on “game mechanics” into another tool for the
+performance of organizational analysis, as the researcher needs to think about what do the
+relations between concepts and theory “do”, how do they “act”, rather than just how are they
+spatially plotted on a grid. Using an interactive medium allowed the videography to engage
+with “forces” the particular organizational event manifested through carefully selected agentic
+influences that activated the inscription of theoretical relations, while also enabling the
+inscription of agency to be felt through experiencing its emergent properties.
+In that, the perspective afforded by the artifact and its development underscores how “postreflexive ethnography” in organization studies must not only focus on new objects of concern
+(or ignorance) (O’Doherty and Neyland, 2019) such as computer algorithms or nuclear
+devices, which are seldom explored within ethnographic studies of management and
+organization. This project also needs to become sensitized to other ways of existence that
+mundane organizational objects (such as a Cost-Benefit Ratio) might partake in, with the
+development of interactive media artifacts being one methodology with which to engage these.
+Such artifacts, which here complexified the experience of encountering a management
+
+Journal of
 Organizational
 Ethnography
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-accountingnumberinthemomentsofitscreation,couldalsoprovevaluabletopractitioners.
-Whiletheartifactdoesnotprovideasenseoforderandstraightforwardness likethe
-presentation inthemanual(Figure1)anddoesnotofferanalystswithanswersonhowto
-performtheirwork,itdoesconveyasenseoftheworkandanexperienceofwhatanexperience
-ofevaluationfeelsandactslike.Therefore,itcouldbeusedmorebroadlyinmanagement
-learning,trainingandcommunicating asasubstitute forunrealistic, mechanical
-representations oforganizational work.
-However,theproposedmethodalsohasitslimitations. First,itiscrucialtodistinguish
-betweensimulatedexperienceinthegameandtheunderlyingmechanicsthatdriveit.While
-gameenginescontributetostudyingprocessualphenomena inorganizing,themechanicsthat
-simulateandportrayanexperience ofemergence arethemselves non-emergentandhighly
-mechanistic. Thephysicalforcessimulatedbyeachattractionpoint,whichareintendedto
-capturetheprocessual natureofhowcalculation proceeds,aredeterministically setby
-computercodeandalgorithmsthatlackanyprocessualqualities.Inthesamewayfilmmaking
-leveragesthepowerofmovingimagesdespitetheapparatusitselfconsistingofstaticimages
-(ordigitalbitsinthecaseofdigitalfilm),thegameengineasanapparatusisfarremovedfrom
-thedynamicexperience itisusedtoconveyinteractively .Recognizing thisdifferenceis
-essential,especiallybecausegameenginesandinteractive mediadevelopment areless
-familiarandlessunderstood thanfilmproductionprocesses.
-Second,thereisthequestionofaccessibility .Theresearchartifactdevelopedheredepends
-onmyskillsasagamedeveloperandonthetrainingIunderwenttolearnUnrealEngineand
-codetherequiredbehaviorsintothegame.Althoughgamedevelopment hasbeenmore
-accessibleinrecentyears,theseskillsarestilluncommon, andmanyresearchers mayfindit
-prohibitively challenging toengageinthistypeofdigitalresearch.Onemightarguethatvideo
-editingalsorequiresspecialized softwaretrainingandvisualliteracy,thoughsoftware
-development isundeniably morecomplex.Havingsaidthat,thereisgoodreasontobelieve
-thatcreatingsuchresearchartifactswillbecomesignificantly easierintheverynearfuture.
-Already,generativeAItoolslikeChatGPTcanproducesimilarartifactssimplybyinterpreting
-textualdescriptions ofthedesiredinteractivity .
-Thoseinterestedinincorporating interactive videography intotheirresearchbutare
-unfamiliarwithgamedevelopment, canusegenerativeAItoolstocreate“games”orother
-interactive3Denvironments tosurprisingly goodresults.GenAItools,suchasChatGPT,do
-not,themselves, createthegames(althoughthesefeaturesarealsostartingtoappearinsimilar
-products),butareabletoproducecomputercodetobeexecutedwithadditionalcodes.
-Asimplewaytostartcreating3Dexperiences andcontendwith“paintingagency”istoask
-thesetoolstoproduceHTMLcode.Thisiscodethatcanberunwithinwebbrowsers,makingit
-veryaccessible.Oncecodeisgeneratedbythechatbot,itcanbecopiedintoservicessuchas.
-Thatwillrunthiscodeandletyouplayyourgame.Forinstance,Iwasabletoproducea
-workingartifactthatsimilarlydropsaballintoaplanewithina3Dspaceandispulledbythree
-attractors.Thiswasdonewithoutanyprogramming knowledge, andthisprocesswasmuch
-quickerthanthedevelopment processofSpacesGame.
-Aswithanyautomatically generatedcontent,someiterationisrequired.Todevelop
-SpacesGame inChatGPT,Iusedthefollowingprompt:“Iwantagamethatdoesthefollowing:
-It’sa3Dspacewithaplanethatactsasaground.Aballfallsontoit(theplayerwillcontrolthe
-ball)andthereare3pointsthatactasattractors,attractingtheballwhichtheplayerneedsto
-balancebetweentheforces.”Initially,thechatbotprovidedcodetailoredtospecificgame
-engines(inmycase,Unity).Toaddressthis,Irefinedmyinstructions sothechatbotwould
-producecodethatcouldruninabrowser.Thechatbotunderstood andalsopointedmetofree
-onlineservicesthatareabletorunthegeneratedcode.ItthenbegangeneratingcodeIcould
-experiment with,followingaworkflowofcopyingthecode,runningit,observingtheresults
-andrequestingamendments. Onlyminimaliterationswereneeded,andsharinganimageofa
-similar-lookinggamealsohelpedguidethechatbot’soutput.Ultimately,Iarrivedatan
-interactive artifactthatofferedtheagencyIwasseeking,withoutrequiringanycodingJOE
+
+JOE
+
+accounting number in the moments of its creation, could also prove valuable to practitioners.
+While the artifact does not provide a sense of order and straightforwardness like the
+presentation in the manual (Figure 1) and does not offer analysts with answers on how to
+perform their work, it does convey a sense of the work and an experience of what an experience
+of evaluation feels and acts like. Therefore, it could be used more broadly in management
+learning, training and communicating as a substitute for unrealistic, mechanical
+representations of organizational work.
+However, the proposed method also has its limitations. First, it is crucial to distinguish
+between simulated experience in the game and the underlying mechanics that drive it. While
+game engines contribute to studying processual phenomena in organizing, the mechanics that
+simulate and portray an experience of emergence are themselves non-emergent and highly
+mechanistic. The physical forces simulated by each attraction point, which are intended to
+capture the processual nature of how calculation proceeds, are deterministically set by
+computer code and algorithms that lack any processual qualities. In the same way filmmaking
+leverages the power of moving images despite the apparatus itself consisting of static images
+(or digital bits in the case of digital film), the game engine as an apparatus is far removed from
+the dynamic experience it is used to convey interactively. Recognizing this difference is
+essential, especially because game engines and interactive media development are less
+familiar and less understood than film production processes.
+Second, there is the question of accessibility. The research artifact developed here depends
+on my skills as a game developer and on the training I underwent to learn Unreal Engine and
+code the required behaviors into the game. Although game development has been more
+accessible in recent years, these skills are still uncommon, and many researchers may find it
+prohibitively challenging to engage in this type of digital research. One might argue that video
+editing also requires specialized software training and visual literacy, though software
+development is undeniably more complex. Having said that, there is good reason to believe
+that creating such research artifacts will become significantly easier in the very near future.
+Already, generative AI tools like ChatGPT can produce similar artifacts simply by interpreting
+textual descriptions of the desired interactivity.
+Those interested in incorporating interactive videography into their research but are
+unfamiliar with game development, can use generative AI tools to create “games” or other
+interactive 3D environments to surprisingly good results. Gen AI tools, such as ChatGPT, do
+not, themselves, create the games (although these features are also starting to appear in similar
+products), but are able to produce computer code to be executed with additional codes.
+A simple way to start creating 3D experiences and contend with “painting agency” is to ask
+these tools to produce HTML code. This is code that can be run within web browsers, making it
+very accessible. Once code is generated by the chatbot, it can be copied into services such as.
+That will run this code and let you play your game. For instance, I was able to produce a
+working artifact that similarly drops a ball into a plane within a 3D space and is pulled by three
+attractors. This was done without any programming knowledge, and this process was much
+quicker than the development process of SpacesGame.
+As with any automatically generated content, some iteration is required. To develop
+SpacesGame in ChatGPT, I used the following prompt: “I want a game that does the following:
+It’s a 3D space with a plane that acts as a ground. A ball falls onto it (the player will control the
+ball) and there are 3 points that act as attractors, attracting the ball which the player needs to
+balance between the forces.” Initially, the chatbot provided code tailored to specific game
+engines (in my case, Unity). To address this, I refined my instructions so the chatbot would
+produce code that could run in a browser. The chatbot understood and also pointed me to free
+online services that are able to run the generated code. It then began generating code I could
+experiment with, following a workflow of copying the code, running it, observing the results
+and requesting amendments. Only minimal iterations were needed, and sharing an image of a
+similar-looking game also helped guide the chatbot’s output. Ultimately, I arrived at an
+interactive artifact that offered the agency I was seeking, without requiring any coding
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-expertise.WhileIcouldnotfullyunderstand theHTMLcodeitproduced,Istillachieveda
-functionalinteractivevideography .Asthesetoolsbecomemoreuser-friendly,thereislittle
-reasonresearchers shouldnotexperiment withinteractive waysofinscribingtheoryin
+
+expertise. While I could not fully understand the HTML code it produced, I still achieved a
+functional interactive videography. As these tools become more user-friendly, there is little
+reason researchers should not experiment with interactive ways of inscribing theory in
 ethnographic studies.
+
+Journal of
+Organizational
+Ethnography
+
 References
-Akrich,M.(1992),“Thede-scription oftechnicalobject”,inBijker,W.andLaw,J.(Eds), Shaping
-Technology/Building Society .Studies inSociotechnical Change,MITPress,Boston,MA,
-pp.205-224.
-Alcadipani, R.andHassard,J.(2010),“Actor-network theory,organizationsandcritique:towardsa
-politicsoforganizing”, Organization, Vol.17No.4,pp.419-435,doi:10.1177/
+Akrich, M. (1992), “The de-scription of technical object”, in Bijker, W. and Law, J. (Eds), Shaping
+Technology/Building Society. Studies in Sociotechnical Change, MIT Press, Boston, MA,
+pp. 205-224.
+Alcadipani, R. and Hassard, J. (2010), “Actor-network theory, organizations and critique: towards a
+politics of organizing”, Organization, Vol. 17 No. 4, pp. 419-435, doi: 10.1177/
 1350508410364441.
-Ash,J.(2010),“Architectures ofaffect:anticipating andmanipulating theeventinprocessesof
-videogame designandtesting”, Environment andPlanning D:Society andSpace,Vol.28No.4,
-pp.653-671,doi:10.1068/d9309.
-Banks,M.andZeitlyn,D.(2015), VisualMethods inSocial Resear ch,SAGEPublications, London,
-doi:10.4135/9781473921702.
-Barad,K.(2007), Meeting theUniverse Halfway: Quantum Physics andtheEntanglement ofMatter
-andMeaning,DukeUniversityPress,Durham.
-B�odi,B.(2022), Videogames andAgency,Routledge, London,doi:10.4324/9781003298786.
-Callon,M.andLatour,B.(1992),“Don’tthrowthebabyoutwiththebathschool!Areplytocollins
-andyearly”,inPickering,A.(Ed.), Science asPractice andCultur e,ChicagoUniversityPress,
+Ash, J. (2010), “Architectures of affect: anticipating and manipulating the event in processes of
+videogame design and testing”, Environment and Planning D: Society and Space, Vol. 28 No. 4,
+pp. 653-671, doi: 10.1068/d9309.
+Banks, M. and Zeitlyn, D. (2015), Visual Methods in Social Research, SAGE Publications, London,
+doi: 10.4135/9781473921702.
+Barad, K. (2007), Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter
+and Meaning, Duke University Press, Durham.
+B�odi, B. (2022), Videogames and Agency, Routledge, London, doi: 10.4324/9781003298786.
+Callon, M. and Latour, B. (1992), “Don’t throw the baby out with the bath school! A reply to collins
+and yearly”, in Pickering, A. (Ed.), Science as Practice and Culture, Chicago University Press,
 Chicago.
-Chia,A.andRuffino,P.(2022),“SpecialIssueIntroduction: politicizing agencyindigitalplayafter
-humanism”, Conver gence,Vol.28No.2,pp.309-319,doi:10.1177/13548565221 100135.
-Christianson, M.K.(2018),“Mappingtheterrain:theuseofvideo-based researchintop-tier
-organizationaljournals”, Organizational Resear chMethods,Vol.21No.2,pp.261-287,doi:
-10.1177/10944281 16663636.
-Costello,B.M.(2018),“Therhythmofgameinteractions: playerexperience andrhythminminecraft
-anddon’tstarve”, Games andCultur e,Vol.13No.8,pp.807-824,doi:10.1177/
+Chia, A. and Ruffino, P. (2022), “Special Issue Introduction: politicizing agency in digital play after
+humanism”, Convergence, Vol. 28 No. 2, pp. 309-319, doi: 10.1177/13548565221100135.
+Christianson, M.K. (2018), “Mapping the terrain: the use of video-based research in top-tier
+organizational journals”, Organizational Research Methods, Vol. 21 No. 2, pp. 261-287, doi:
+10.1177/1094428116663636.
+Costello, B.M. (2018), “The rhythm of game interactions: player experience and rhythm in minecraft
+and don’t starve”, Games and Culture, Vol. 13 No. 8, pp. 807-824, doi: 10.1177/
 1555412016646668.
-Costikyan,G.(2005),“IhaveNowordsandImustdesign”,inSalen,K.andZimmerman, E.(Eds),
-TheGame Design Reader: ARulesofPlayAnthology,MITPress,Cambridge, MA,pp.192-210.
-Czarniawska, B.(2009),“Emerging institutions: pyramidsoranthills?”, Organization Studies,Vol.30
-No.4,pp.423-441,doi:10.1177/0170840609102282.
-Endrissat,N.,Ravasi,D.,Mengis,J.andSergi,V.(2019),“Interpreting aestheticvideodata”,
-Management, Vol.22No.2,pp.316-335,doi:10.3917/mana.222.0316.
-Friese,K.-I.,Herrlich,M.andWolter,F.-E.(2008),“Usinggameenginesforvisualization inscientific
-applications”, inNewFrontiers forEntertainment Computing, SpringerUS,Boston,MA,
-pp.11-22,doi:10.1007/978-0-387-09701-5_2.
-Gilmore,S.,Harding,N.,Helin,J.andPullen,A.(2019),“Writingdifferently”, Management Learning,
-Vol.50No.1,pp.3-10,doi:10.1177/135050761881 1027.
-Glisovic,S.,Berkeley,L.andBatty,C.(2016),“Theproblemofpeerreviewinscreenproduction:
-exploringissuesandproposingsolutions”, Studies inAustralasian Cinema,Vol.10No.1,
-pp.5-19,doi:10.1080/17503175.2015.1 133262.
-Gore,O.(2023),“Modernising government, aestheticising decisioninformation: how‘business-like’
-quantification turnsperformance numbersintoaestheticenumerated entities”, Cultur eand
-Organization, Vol.29No.4,pp.315-335,doi:10.1080/14759551.2023.2176502.
-Hacking,I.(1983), Representing andIntervening: Introductory TopicsinthePhilosophy ofNatural
-Science,Cambridge UniversityPress,Cambridge, doi:10.1017/CBO978051 1814563.Journalof
-Organizational
-Ethnography
+Costikyan, G. (2005), “I have No words and I must design”, in Salen, K. and Zimmerman, E. (Eds),
+The Game Design Reader: A Rules of Play Anthology, MIT Press, Cambridge, MA, pp. 192-210.
+Czarniawska, B. (2009), “Emerging institutions: pyramids or anthills?”, Organization Studies, Vol. 30
+No. 4, pp. 423-441, doi: 10.1177/0170840609102282.
+Endrissat, N., Ravasi, D., Mengis, J. and Sergi, V. (2019), “Interpreting aesthetic video data”,
+Management, Vol. 22 No. 2, pp. 316-335, doi: 10.3917/mana.222.0316.
+Friese, K.-I., Herrlich, M. and Wolter, F.-E. (2008), “Using game engines for visualization in scientific
+applications”, in New Frontiers for Entertainment Computing, Springer US, Boston, MA,
+pp. 11-22, doi: 10.1007/978-0-387-09701-5_2.
+Gilmore, S., Harding, N., Helin, J. and Pullen, A. (2019), “Writing differently”, Management Learning,
+Vol. 50 No. 1, pp. 3-10, doi: 10.1177/1350507618811027.
+Glisovic, S., Berkeley, L. and Batty, C. (2016), “The problem of peer review in screen production:
+exploring issues and proposing solutions”, Studies in Australasian Cinema, Vol. 10 No. 1,
+pp. 5-19, doi: 10.1080/17503175.2015.1133262.
+Gore, O. (2023), “Modernising government, aestheticising decision information: how ‘business-like’
+quantification turns performance numbers into aesthetic enumerated entities”, Culture and
+Organization, Vol. 29 No. 4, pp. 315-335, doi: 10.1080/14759551.2023.2176502.
+Hacking, I. (1983), Representing and Intervening: Introductory Topics in the Philosophy of Natural
+Science, Cambridge University Press, Cambridge, doi: 10.1017/CBO9780511814563.
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-Haraway,D.(1997), Modest_W itness@Second_Millennium. FemaleMan_Meets_OncoMouse:
-Feminism andTechnoscience, Routledge, NewYork.
-Hassard,J.,Burns,D.,Hyde,P.andBurns,J.-P.(2018),“Avisualturnfororganizationalethnography:
-embodying thesubjectinvideo-based research”, Organization Studies,Vol.39No.10,
-pp.1403-1424, doi:10.1177/0170840617727782.
-Hietanen,J.andRokka,J.(2018),“Companion forthevideography ‘monstrous organizing—the
-dubstepelectronicmusicscene’”, Organization, Vol.25No.3,pp.320-334,doi:10.1177/
+
+JOE
+
+Haraway, D. (1997), Modest_Witness@Second_Millennium. FemaleMan_Meets_OncoMouse:
+Feminism and Technoscience, Routledge, New York.
+Hassard, J., Burns, D., Hyde, P. and Burns, J.-P. (2018), “A visual turn for organizational ethnography:
+embodying the subject in video-based research”, Organization Studies, Vol. 39 No. 10,
+pp. 1403-1424, doi: 10.1177/0170840617727782.
+Hietanen, J. and Rokka, J. (2018), “Companion for the videography ‘monstrous organizing—the
+dubstep electronic music scene’”, Organization, Vol. 25 No. 3, pp. 320-334, doi: 10.1177/
 1350508417738572.
-Hietanen,J.,Rokka,J.andSchouten,J.W.(2014),“Commentary onSchembriandBoyle(2013):from
-representation towardsexpressioninvideographic consumerresearch”, Journal ofBusiness
-Resear ch,Vol.67No.9,pp.2019-2022, doi:10.1016/j.jbusres.2013.10.009.
-Hill,T.,Canniford,R.andMol,J.(2014),“Non-representational marketingtheory”, Marketing Theory,
-Vol.14No.4,pp.377-394,doi:10.1177/14705931 14533232.
-HMTreasury(2014),“Supporting publicservicetransformation: costbenefitanalysisguidancefor
-localpartnerships”, (No.9781909790728), Crown.
-Jones,G.,McLean,C.andQuattrone,P.(2004),“Spacingandtiming”, Organization, Vol.11No.6,
-pp.723-741,doi:10.1177/1350508404047248.
-Jungherr,A.andSchlarb,D.B.(2022),“Theextendedreachofgameenginecompanies: how
-companieslikeepicgamesandunitytechnologies provideplatformsforextendedreality
-applications andthemetaverse”, Social MediaSociety,Vol.8No.2,20563051221 107641,
-doi:10.1177/20563051221 107641.
-Keogh,B.(2022),“Situatingthevideogame maker’sagencythroughcraft”, Conver gence,Vol.28
-No.2,pp.374-388,doi:10.1177/1354856521 1056123.
-Kiss,A.andPusztai,G.(2022),“Usingtheunitygameenginetodevelopa3Dsimulatedecological
-systembasedonapredator–pre ymodelextendedbygeneevolution”, Informatics, Vol.9No.1,
-p.9,doi:10.3390/informatics9010009.
-Latour,B.(1988), Science inAction: HowtoFollow Scientists andEngineers throughSociety,Harvard
-UniversityPress,Cambridge, MA.
-Lee,N.andHassard,J.(1999),“Organization unbound:actor-networktheory,researchstrategyand
-institutional flexibility”, Organization, Vol.6No.3,pp.391-404,doi:10.1177/
+Hietanen, J., Rokka, J. and Schouten, J.W. (2014), “Commentary on Schembri and Boyle (2013): from
+representation towards expression in videographic consumer research”, Journal of Business
+Research, Vol. 67 No. 9, pp. 2019-2022, doi: 10.1016/j.jbusres.2013.10.009.
+Hill, T., Canniford, R. and Mol, J. (2014), “Non-representational marketing theory”, Marketing Theory,
+Vol. 14 No. 4, pp. 377-394, doi: 10.1177/1470593114533232.
+HM Treasury (2014), “Supporting public service transformation: cost benefit analysis guidance for
+local partnerships”, (No. 9781909790728), Crown.
+Jones, G., McLean, C. and Quattrone, P. (2004), “Spacing and timing”, Organization, Vol. 11 No. 6,
+pp. 723-741, doi: 10.1177/1350508404047248.
+Jungherr, A. and Schlarb, D.B. (2022), “The extended reach of game engine companies: how
+companies like epic games and unity technologies provide platforms for extended reality
+applications and the metaverse”, Social Media þ Society, Vol. 8 No. 2, 20563051221107641,
+doi: 10.1177/20563051221107641.
+Keogh, B. (2022), “Situating the videogame maker’s agency through craft”, Convergence, Vol. 28
+No. 2, pp. 374-388, doi: 10.1177/13548565211056123.
+Kiss, A. and Pusztai, G. (2022), “Using the unity game engine to develop a 3D simulated ecological
+system based on a predator–prey model extended by gene evolution”, Informatics, Vol. 9 No. 1,
+p. 9, doi: 10.3390/informatics9010009.
+Latour, B. (1988), Science in Action: How to Follow Scientists and Engineers through Society, Harvard
+University Press, Cambridge, MA.
+Lee, N. and Hassard, J. (1999), “Organization unbound: actor-network theory, research strategy and
+institutional flexibility”, Organization, Vol. 6 No. 3, pp. 391-404, doi: 10.1177/
 135050849963002.
-Lepouras,G.andVassilakis,C.(2004),“Virtualmuseumsforall:employinggametechnology for
-edutainment”, Virtual Reality,Vol.8No.2,pp.96-106,doi:10.1007/s10055-004-0141-1.
-Lewis,M.andJacobson,J.(2002),“Introduction”, Communications oftheACM,Vol.45No.1,
-pp.27-31,doi:10.1145/502269.502288.
-Miko-Schefzig, K.,Learmonth, M.andMcMurray,R.(2022),“Adifferentwayoflookingatthings:
-theroleofsocialsciencefilminorganisationstudies”, Organization, Vol.29No.4,pp.653-672,
-doi:10.1177/1350508420961526.
-O’Doherty,D.andNeyland,D.(2019),“Thedevelopments inethnographic studiesoforganising:
-towardsobjectsofignoranceandobjectsofconcern”, Organization, Vol.26No.4,pp.449-469,
-doi:10.1177/1350508419836965.
-O’Mahoney ,J.,O’Mahoney ,H.andAl-Amoudi, I.(2017),“Howcantheloggerhead sea-turtlesurvive?
-ExploringthejourneysoftheCarettacarettausingANTandcriticalrealism”, Organization,
-Vol.24No.6,pp.781-799,doi:10.1177/1350508416672738.
-Pink,S.(2001),“Morevisualising, moremethodologies: onvideo,reflexivityandqualitative
-research”, Sociology Review,Vol.49No.4,pp.586-599,doi:10.1111/1467-954X.00349.
-Pink,S.(2015), Doing Sensory Ethnography ,SAGEPublications, London,doi:10.4135/
+Lepouras, G. and Vassilakis, C. (2004), “Virtual museums for all: employing game technology for
+edutainment”, Virtual Reality, Vol. 8 No. 2, pp. 96-106, doi: 10.1007/s10055-004-0141-1.
+Lewis, M. and Jacobson, J. (2002), “Introduction”, Communications of the ACM, Vol. 45 No. 1,
+pp. 27-31, doi: 10.1145/502269.502288.
+Miko-Schefzig, K., Learmonth, M. and McMurray, R. (2022), “A different way of looking at things:
+the role of social science film in organisation studies”, Organization, Vol. 29 No. 4, pp. 653-672,
+doi: 10.1177/1350508420961526.
+O’Doherty, D. and Neyland, D. (2019), “The developments in ethnographic studies of organising:
+towards objects of ignorance and objects of concern”, Organization, Vol. 26 No. 4, pp. 449-469,
+doi: 10.1177/1350508419836965.
+O’Mahoney, J., O’Mahoney, H. and Al-Amoudi, I. (2017), “How can the loggerhead sea-turtle survive?
+Exploring the journeys of the Caretta caretta using ANT and critical realism”, Organization,
+Vol. 24 No. 6, pp. 781-799, doi: 10.1177/1350508416672738.
+Pink, S. (2001), “More visualising, more methodologies: on video, reflexivity and qualitative
+research”, Sociology Review, Vol. 49 No. 4, pp. 586-599, doi: 10.1111/1467-954X.00349.
+Pink, S. (2015), Doing Sensory Ethnography, SAGE Publications, London, doi: 10.4135/
 9781473917057.
-Pradies,C.,Berti,M.,PinaeCunha,M.,Rego,A.,Tunarosa,A.andClegg,S.(2023),“AFigureis
-WorthaThousandWords:theroleofvisualization inparadoxtheorizing”, Organization Studies,
-Vol.44No.8,pp.1231-1257, doi:10.1177/01708406231 161998.JOE
+Pradies, C., Berti, M., Pina e Cunha, M., Rego, A., Tunarosa, A. and Clegg, S. (2023), “A Figure is
+Worth a Thousand Words: the role of visualization in paradox theorizing”, Organization Studies,
+Vol. 44 No. 8, pp. 1231-1257, doi: 10.1177/01708406231161998.
+
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
-Ravasi,D.(2017),“Visualizingourwaythroughtheorybuilding”, Journal ofManagement Inquiry,
-Vol.26No.2,pp.240-243,doi:10.1177/1056492616680575.
-Redmalm,D.andSkoglund,A.(2022),“Videographic profanations: acompanion tothevideography
-‘pride:alternativeentrepreneurship enjoyed’”, Organization, Vol.31No.2,pp.316-334,doi:
-10.1177/13505084221 115840.
-Rua,H.andAlvito,P.(2011),“Livingthepast:3Dmodels,virtualrealityandgameenginesastoolsfor
-supportingarchaeology andthereconstruction ofculturalheritage–thecase-studyoftheRoman
-villaofCasaldeFreiria”, Journal ofArchaeological Science,Vol.38No.12,pp.3296-3308, doi:
-10.1016/j.jas.201 1.07.015.
-Schleiner,A.-M.(2017), ThePlayer ’sPower toChange theGame: Ludic Mutation,Amsterdam
-UniversityPress,Amsterdam, doi:10.5117/9789089647726.
-Smets,M.,Burke,G.,Jarzabkowski, P.andSpee,P.(2014),“Chartingnewterritoryfororganizational
-ethnography :insightsfromateam-based videoethnography”, Journal ofOrganizational
-Ethnography ,Vol.3No.1,pp.10-26,doi:10.1108/JOE-12-2012-0056.
-Steyaert,C.,Marti,L.andMichels,C.(2012),“Multiplicity andreflexivityinorganizational research:
-towardsaperformative approachtothevisual”, Qualitative Resear chinOrganizations and
-Management: AnInternational Journal,Vol.7No.1,pp.34-53,doi:10.1108/
-1746564121 1223456.
-Styhre,A.andRemneland-W ikhamn,B.(2021),“Thevideogameasagencement andtheimageofnew
-gamingexperiences: theworkofindievideogamedevelopers”, Cultur eandOrganization,
-Vol.27No.6,pp.476-489,doi:10.1080/14759551.2021.1919893.
-Swedberg,R.(2016),“Canyouvisualizetheory?Ontheuseofvisualthinkingintheorypictures,
-theorizingdiagrams,andvisualsketches”, Sociological Theory,Vol.34No.3,pp.250-275,doi:
-10.1177/07352751 16664380.
-Toraldo,M.L.,Islam,G.andMangia,G.(2018),“Modesofknowing:videoresearchandtheproblem
-ofelusiveknowledges”, Organizational Resear chMethods,Vol.21No.2,pp.438-465,doi:
-10.1177/10944281 16657394.
-vandenScott,L.-J.K.(2018),“Visualmethodsinethnography”, Journal ofContemporary
-Ethnography ,Vol.47No.6,pp.719-728,doi:10.1177/0891241618806972.
-Vannini,P.(2015),“Non-representational ethnography: newwaysofanimatinglifeworlds”, Cultural
-Geographies, Vol.22No.2,pp.317-327,doi:10.1177/1474474014555657.
-Walz,M.,Hoyer,P.andStatler,M.(2016),“AfterHerzog:blurringfactandfictioninvisual
-organizationalethnography”, Journal ofOrganizational Ethnography ,Vol.5No.3,pp.202-218,
-doi:10.1108/JOE-07-2016-0017.
-Wood,M.,Salovaara,P.andMarti,L.(2018),“Manifesto forfilmmaking asorganisational research”,
-Organization, Vol.25No.6,pp.825-835,doi:10.1177/1350508417749886.
-Xin,Y.-L.,Ge,G.-P.,Du,W.,Wu,H.andZhao,Y.(2024),“Designofanopticalphysicsvirtual
-simulationsystembasedonunrealengine5”,Applied Sciences,Vol.14No.3,p.955,doi:
-10.3390/app14030955.
-Correspond ingauthor
-OzGorecanbecontactedat:oz.gore@mx.kinneret.ac.il
-Forinstructions onhowtoorderreprintsofthisarticle,pleasevisitourwebsite:
-www.emeraldgro uppublishing.com/licensing/reprints.htm
-Orcontactusforfurtherdetails:permissions@emeraldinsight.comJournalof
+
+Ravasi, D. (2017), “Visualizing our way through theory building”, Journal of Management Inquiry,
+Vol. 26 No. 2, pp. 240-243, doi: 10.1177/1056492616680575.
+Redmalm, D. and Skoglund, A. (2022), “Videographic profanations: a companion to the videography
+‘pride: alternative entrepreneurship enjoyed’”, Organization, Vol. 31 No. 2, pp. 316-334, doi:
+10.1177/13505084221115840.
+
+Journal of
 Organizational
 Ethnography
+
+Rua, H. and Alvito, P. (2011), “Living the past: 3D models, virtual reality and game engines as tools for
+supporting archaeology and the reconstruction of cultural heritage – the case-study of the Roman
+villa of Casal de Freiria”, Journal of Archaeological Science, Vol. 38 No. 12, pp. 3296-3308, doi:
+10.1016/j.jas.2011.07.015.
+Schleiner, A.-M. (2017), The Player’s Power to Change the Game: Ludic Mutation, Amsterdam
+University Press, Amsterdam, doi: 10.5117/9789089647726.
+Smets, M., Burke, G., Jarzabkowski, P. and Spee, P. (2014), “Charting new territory for organizational
+ethnography : insights from a team-based video ethnography”, Journal of Organizational
+Ethnography, Vol. 3 No. 1, pp. 10-26, doi: 10.1108/JOE-12-2012-0056.
+Steyaert, C., Marti, L. and Michels, C. (2012), “Multiplicity and reflexivity in organizational research:
+towards a performative approach to the visual”, Qualitative Research in Organizations and
+Management: An International Journal, Vol. 7 No. 1, pp. 34-53, doi: 10.1108/
+17465641211223456.
+Styhre, A. and Remneland-Wikhamn, B. (2021), “The video game as agencement and the image of new
+gaming experiences: the work of indie video game developers”, Culture and Organization,
+Vol. 27 No. 6, pp. 476-489, doi: 10.1080/14759551.2021.1919893.
+Swedberg, R. (2016), “Can you visualize theory? On the use of visual thinking in theory pictures,
+theorizing diagrams, and visual sketches”, Sociological Theory, Vol. 34 No. 3, pp. 250-275, doi:
+10.1177/0735275116664380.
+Toraldo, M.L., Islam, G. and Mangia, G. (2018), “Modes of knowing: video research and the problem
+of elusive knowledges”, Organizational Research Methods, Vol. 21 No. 2, pp. 438-465, doi:
+10.1177/1094428116657394.
+van den Scott, L.-J.K. (2018), “Visual methods in ethnography”, Journal of Contemporary
+Ethnography, Vol. 47 No. 6, pp. 719-728, doi: 10.1177/0891241618806972.
+Vannini, P. (2015), “Non-representational ethnography: new ways of animating lifeworlds”, Cultural
+Geographies, Vol. 22 No. 2, pp. 317-327, doi: 10.1177/1474474014555657.
+Walz, M., Hoyer, P. and Statler, M. (2016), “After Herzog: blurring fact and fiction in visual
+organizational ethnography”, Journal of Organizational Ethnography, Vol. 5 No. 3, pp. 202-218,
+doi: 10.1108/JOE-07-2016-0017.
+Wood, M., Salovaara, P. and Marti, L. (2018), “Manifesto for filmmaking as organisational research”,
+Organization, Vol. 25 No. 6, pp. 825-835, doi: 10.1177/1350508417749886.
+Xin, Y.-L., Ge, G.-P., Du, W., Wu, H. and Zhao, Y. (2024), “Design of an optical physics virtual
+simulation system based on unreal engine 5”, Applied Sciences, Vol. 14 No. 3, p. 955, doi:
+10.3390/app14030955.
+
+Corresponding author
+Oz Gore can be contacted at: oz.gore@mx.kinneret.ac.il
+
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htm
+Or contact us for further details: permissions@emeraldinsight.com
 Downloaded from http://www.emerald.com/joe/article-pdf/doi/10.1108/JOE-08-2024-0049/9770539/joe-08-2024-0049.pdf by City University of Hong Kong user on 11 August 2025
+
+

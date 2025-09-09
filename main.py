@@ -156,7 +156,7 @@ if __name__ == '__main__':
     # Set parameters
     num_topics = 16  # Adjust based on your needs
     # Build LDA model
-    lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10)
+    lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=20)
 
     # display_topics(lda_model, num_topics=num_topics, num_words=15)
 

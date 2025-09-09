@@ -1,1404 +1,854 @@
-"Can the rest of the world have flush toilets? No. Composting
-toilets? Yes!": Mediating the Human-Nature Relations by
-Composting Toilets
-Hongyi Tao
-The University of Queensland
-School of Electrical Engineering and Computer Science
-St. Lucia, Australia
-h.tao@uq.edu.auDhaval Vyas
-University of Queensland
-School of Electrical Engineering and Computer Science
-St. Lucia, Australia
-d.vyas@uq.edu.au
-Abstract
-Flush toilets pose challenges such as resource waste, public health,
-and social justice. To achieve the Sustainable Development Goal
-of clean water and sanitation for all, it is essential to address the
-complex issues around toilets and design alternative systems that ef-
-fectively manage human waste. Inspired by Actor-Network Theory
-(ANT), this paper presents findings from a design ethnography in
-eco-villages about composting toilets and sustainable living. We de-
-scribe three archetypal composting toilet systems and examine how
-they operate as creative, community-driven infrastructures that me-
-diate human–nature relationships. We reflect on how ANT provides
-a useful lens for HCI to understand the socio-technical dynamics of
-alternative sanitation systems. We analyse how composting toilets
-mediate human-nature relations three interconnected processes:
-tinkering, linking, and becoming. We discuss the implications of
-fostering DIY infrastructure practices as a form of transformational
-creativity in the pursuit of more sustainable futures.
-CCS Concepts
-•Human-centered computing →Human computer interac-
-tion (HCI) ;Empirical studies in HCI .
-Keywords
-Composting Toilet, Sustainability, Eco-Village, DIY, Infrastructure,
-Actor-Network Theory
-ACM Reference Format:
-Hongyi Tao and Dhaval Vyas. 2025. "Can the rest of the world have flush
-toilets? No. Composting toilets? Yes!": Mediating the Human-Nature Rela-
-tions by Composting Toilets. In Creativity and Cognition (C&C ’25), June
-23–25, 2025, Virtual, United Kingdom. ACM, New York, NY, USA, 14 pages.
-https://doi.org/10.1145/3698061.3726922
-1 Introduction
-With the promise of sustainability, emerging research in design
-aims to explore creative practices that can foster collective imagi-
-naries of sustainable futures and encourage actionable reflections
-This work is licensed under a Creative Commons Attribution-NonCommercial-
-ShareAlike 4.0 International License.
-C&C ’25, Virtual, United Kingdom
-©2025 Copyright held by the owner/author(s).
-ACM ISBN 979-8-4007-1289-0/25/06
-https://doi.org/10.1145/3698061.3726922in everyday life [ 17]. However, most projects still adopt a human-
-centred perspective, which can result in exploitative relations with
-materials and the natural environment. Hence, the need to explore
-ways to transform human-nature relations and engage people in
-regenerative actions that go beyond a human-centric approach
-[55]. This paper employs Actor-Network Theory [ 30] as a lens to
-examine composting toilets and sustainable living in eco-villages
-to uncover how creative practices can mediate the relationship
-between humans and non-humans in sustainable living.
-Despite the flush toilet’s status as a symbol of modern civili-
-sation, it faces challenges such as the waste of fresh water and
-humanure, and approximately 2 billion people worldwide lack ac-
-cess to safe sanitation systems due to the high infrastructure costs
-of flush toilets [ 59]. Sustainable Development Goal 6 aims to en-
-sure the "availability and sustainable management of water and
-sanitation for all" [ 51]. Flush toilets should not be the only option,
-especially in rural areas and locations with limited freshwater re-
-sources. Researchers and designers need to explore non-sewage
-alternative systems that can provide a hygienic and comfortable toi-
-leting experience, avoid excrement pollution, and utilise humanure
-locally.
-In modern society, sanitation systems are usually invisible, dis-
-connecting people from nature. The water supply and sewers in
-urban areas are often hidden underground, and individuals do not
-participate in the decision-making process regarding the water
-source and sewage treatment. This isolation can make people un-
-aware of the impact of their behaviours on the environment. Making
-the invisible infrastructure visible and reconnecting people to na-
-ture is crucial to foster sustainable lifestyles towards a regenerative
-future.
-The creative redesign of essential infrastructure like toilets rep-
-resents a form of transformational creativity [ 7] that challenges
-dominant paradigms and reimagines human relationships with
-waste. Unlike incremental innovations that might make flush toi-
-lets more water-efficient, composting toilets fundamentally recon-
-figure the human waste cycle, transforming a linear process of
-waste and pollution into a circular system of resource regeneration.
-This transformation involves not just technical innovation but a
-cognitive reframing of human-nature relations, advocating for col-
-laborative entanglements and mutual care, rather than competition
-or extraction.
-Recent research has focused on decentralising humans in design
-by promoting alternative practices that ensure fairness and justice
-680
-
-C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
-for both humans and non-human entities (e.g. [ 4,13,40]). Revis-
-iting traditional human-centred approaches, these studies assert
-that design is exploitative in non-human species and resources [ 55].
-Advocates for these perspectives seek to implement practices that
-prioritise equity for all beings [ 18], proposing alternatives to hier-
-archical control models [ 33], innovation at societal margins [ 31],
-nomadic practices [ 54], and sustainable place-making strategies
-[47]. This posthumanism viewpoint aims to investigate the broader
-systemic interactions rather than merely focusing on interfaces,
-revealing the full complexity of these relationships [ 23]. The signifi-
-cance of this perspective lies in its ability to offer design approaches
-that are both objectively grounded and intricately detailed in spe-
-cific contexts [ 54]. Actor-Network Theory posits that humans and
-non-humans are equally influential actors, co-constructing and co-
-evolving with one another. This theory is instrumental in analysing
-the intricate networks formed through the interactions between
-human and non-human participants, elucidating how technologies
-can be assigned roles to regulate, influence, or even substitute cer-
-tain human behaviours [ 16]. ANT’s value here lies in its ability
-to trace the heterogeneous associations - linking human practices,
-natural elements like microbes and soil, technical artefacts like toi-
-lets, and community values - that constitute sustainable sanitation,
-moving beyond purely social or technical explanations.
-This paper presents findings from a design ethnography of com-
-posting toilets and sustainable living in eco-villages in remote Aus-
-tralia. This paper illustrates three types of composting toilets and
-describes how they mediate the relationships between humans and
-non-humans. By interacting with non-human actors such as human
-waste, microbes, soil, and plants, people redesign the impact of their
-behaviour on the environment and reconstruct the decision-making
-processes of community living. Composting toilets open new av-
-enues for design research to explore how to reconnect humans
-with nature and transform everyday activities towards regenera-
-tive futures. We introduce the concepts of Tinkering ,Linking , and
-Becoming to analyse how these DIY systems foster creative engage-
-ment and mediate human-nature relations. The paper reflects on
-the role of composting toilets in sustainable living and discusses
-how ANT can help understand their implications for fostering DIY
-infrastructure practices and transformational creativity.
-2 Related Work
-2.1 Sustainable HCI and Transformational
-Creativity
-Sustainable HCI has consistently focused on sustainability in ev-
-eryday life (e.g. [ 12,36,58]). Researchers have pointed out that
-people’s daily choices and actions are crucial for sustainable prac-
-tices [ 37,46] and have emphasised the need to reflect on how we
-are influenced and shaped as environmental actors [ 14]. Håkansson
-and Phoebe [ 21] argue that sustainable living should be associated
-with a higher quality of life, and design can motivate family and
-community interaction and communication through the theme of
-"enough". Heitlinger et al. [ 24,25], through their study of grass-
-roots food-growing communities, have challenged the approach of
-designing solely for individual consumer choices, offering a possi-
-bility for achieving a sustainable future through collective action.
-They advocate for designing environmental conservation efforts byinvolving more people in food growing, waste recycling, and the
-sharing of knowledge and skills within the community [ 24]. Norton
-et al. [ 39] emphasise the importance of value elicitation in designing
-digital technology through their research in permaculture commu-
-nities. Furthermore, this field encompasses various similar research
-and practices, such as computational agroecology [ 42], ecological
-thinking [ 6,41], urban informatics [ 19,20], home organisation [ 52],
-DIY practices [ 47,49,50,53], and cohabitation with non-human be-
-ings [ 33,34,45] — that seek to reconfigure human-nature relations
-toward ecological attunement and long-term sustainability.
-While exploratory creativity works within established concep-
-tual spaces and combinational creativity merges familiar ideas,
-transformational creativity fundamentally changes the rules and
-constraints of a conceptual space [ 7]. Boden [ 7] posits transfor-
-mational creativity as a process involving radical changes to a
-conceptual space, leading to ideas or artefacts that could not have
-been generated within the original space. As Light et al. [ 32] ar-
-gue, sustainable futures demand not just new technologies, but new
-imaginary, values, and ways of being. In recent years, a trend in HCI
-has started to question the traditional human-centred notion (e.g.
-[4,6,10,56]), drawing inspiration from posthumanism to broaden
-ethical and relational considerations in design.
-Haraway, in her book Staying with the Trouble [22], further de-
-scribes humans as "companion species," emphasising that humans
-coexist with billions of symbionts, especially within our bodies. She
-argues that the world we inhabit is a web of interconnected rela-
-tionships, and as actors, we have a collective ethical obligation to
-influence this web [ 22]. Forlano [ 18] connects posthumanism with
-design, highlighting that non-human beings are also stakeholders in
-design. The focus is on how design can support the needs and values
-of non-human entities, from soil microbes to infrastructures, that
-have often been overlooked in anthropocentric frameworks. The
-posthumanist perspective stresses the interdependence between
-humans and all forms of life, advocating for collaborative entangle-
-ments and mutual care, rather than competition or extraction.
-2.2 Actor-Network Theory
-Actor-Network Theory (ANT) is a framework that argues that ob-
-jects participate in building heterogeneous networks that bring to-
-gether actants of all types and sizes, whether human or non-human
-[2]. This perspective suggests that society is a complex network
-composed of these heterogeneous entities. The core concepts in this
-framework include actant and heterogeneous network. An actant
-is whatever acts or shifts actions. Action itself is defined by a list
-of performances through trials, from which a set of competences
-with which the actant is endowed can be deduced [ 3]. An actor is
-an actant endowed with a character, often anthropomorphic [ 3].
-A heterogeneous network brings together actants of all types and
-sizes, human and non-human, highlighting the interconnectedness
-facilitated by technical objects [ 3]. The principle within this view
-is the examination of the relationships and interactions between
-these actants, without pre-defining a distinction between the social
-and the technical [ 8]. The focus is on understanding the conditions
-and mechanisms under which the relations that define society and
-knowledge are susceptible to partial reconstruction through these
-681
-Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
-networks [ 30]. This approach challenges simple technological de-
-terminism and social constructivism by paying attention to what
-is brought together by the network and acknowledging the obdu-
-racy of objects [ 9]. In this way, ANT reveals the often-overlooked
-roles of the natural environment and objects, and other non-human
-elements in everyday sustainable practices.
-Translation is a key process in ANT where actors interact with
-others to gradually integrate their own intentions and goals into
-the network, thereby aligning the interests of other actors with
-their own [ 29]. Callon pointed out that translation occurs through
-four stages [ 8]:Problematisation : The focal actor defines the prob-
-lem and identifies other actors whose identities and interests align
-with its own, attempting to position itself as an indispensable role.
-Interessement : The focal actor attempts to engage other participants
-in the roles designated for them. Enrolment : The focal actor recruits
-various actors into the network. Mobilisation : The focal actor en-
-sures that its network acts as a spokesperson for the other actors.
-These stages do not occur in a strict sequence but are interwoven.
-Each stage achieved by an actor or innovator represents progress
-in the ongoing negotiation process [ 8]. Sustainable HCI faces com-
-plex and dynamic social and environmental challenges, requiring
-the integration of the needs and interests of various actors. ANT
-provides a framework that includes diverse actors, both human and
-non-human, as well as technology and nature, in the understand-
-ing and design process. By analysing the complex relationships
-between actors in sustainable transitions from spatial and temporal
-dimensions (e.g. [ 1,38,57]), ANT helps us go beyond a singular
-focus on reducing environmental pollution, situating sustainable
-practices within the ever-changing activities of various actors over
-time. Compared to frameworks like Social Practice Theory [ 44],
-which emphasises routines and shared understandings, ANT offers
-a stronger lens for examining the specific roles of non-human actors
-and the dynamic processes of network formation and stabilisation,
-particularly useful for understanding the introduction and adoption
-of novel socio-technical systems like composting toilets.
-3 Methodology
-This paper is based on design ethnography, a qualitative approach
-to understand situated practices and the intricate relationships
-between people, technologies, and their environments [ 11]. The
-central concept of design ethnography is work , which refers to
-the practical effort, skill, and competence required to accomplish
-ordinary activities [ 11]. Design ethnography seeks to understand
-what the work of a setting consists of, the activities members do,
-and the assembly of ordinary activities [ 11]. The primary work
-studied in this paper is how eco-village members manage their
-sanitation through compositing toilets and integrate these DIY
-infrastructure practices with other aspects of their lives and the
-eco-village’s functioning. Design ethnography is suited to studying
-socio-technical systems such as composting toilets, as it allows for
-close attention to material practices, cultural meanings, and the
-relational configurations that emerge between humans and non-
-humans. Rather than merely documenting functional use, design
-ethnography enables us to explore how users appropriate, adapt,
-and co-construct ecological technologies through ongoing practices
-of maintenance, negotiation, and care.3.1 Research Setting and Participants
-The empirical material presented here draws from a long-term re-
-search program on making, DIY practices, and sustainable living in
-remote Australia, which has been ongoing since 2020. While the
-broader research project involved 15 participants across multiple
-eco-village contexts in Australia, this paper draws specifically on
-data from four participants whose experiences offered the most
-insight into the socio-material dynamics of composting toilet de-
-sign, use, and maintenance. These cases were selected through
-purposeful sampling for their conceptual richness, diversity of de-
-sign approaches, and depth of interaction with the composting
-systems.
-Our aim in this paper is not to provide an exhaustive account of
-all participant experiences, but rather to offer a thick description
-of key practices, meanings, and relational patterns that emerged
-through close engagement with a small number of cases. This ap-
-proach is consistent with design ethnography and qualitative case-
-based inquiry, where depth, context, and interpretive insight are
-prioritised over breadth or statistical generalisation [ 11]. The re-
-maining participant data have been analysed and presented in
-other publications within the same research program, each paper
-contributing to a different facet of sustainable design practices in
-eco-villages [47–49].
-For this paper, we focus specifically on the ethnographic field-
-work conducted between 2020 and 2023 in remote Australian eco-
-villages. We present three archetypal types of composting toilets
-from two eco-villages. To protect participants’ privacy, we used
-code to represent participants (e.g., P1, P2, P3, P4, representing key
-informants identified during fieldwork in Table. 1) and eco-villages
-(EV1-EV2).
-Table 1: Key Informants
-Participant
-CodeGender Age
-GroupBackground
-P1 M 50s Co-founder of EV1, member of
-the local Greens Party
-P2 M 30s Co-founder of EV1, member of
-the local Greens Party
-P3 M 70s Former-chairman of the Body
-Corporate in EV2
-P4 M 70s Founder of EV2
-Eco-Village 1 . EV1 was established in 2019 on a 3.48-acre prop-
-erty under a not-for-profit land trust. During our first visit in 2020,
-four adults and two children resided there. EV1 seeks to show-
-case the benefits of a low-carbon, simple ‘home-based economy’
-lifestyle, aiming to inspire broader cultural change. P1 and P2 are
-working to create a community where people’s needs, such as con-
-nection, recognition, trust, and mutuality, are fulfilled. They aspire
-to empower everyone in the eco-village through active participa-
-tion in making and self-governance. They view the eco-village as
-a journey towards simplicity and minimalism, emphasising the
-process over the destination, where participants can find spiritual
-contentment and satisfaction. They value individuals dedicated to
-682
-C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
-self-development, effective communication, and conflict resolution.
-They aim to foster a ‘medium demand’ community where residents
-are interconnected and involved in each other’s lives. Currently,
-EV1 is in its start-up phase, experimenting with sustainable prac-
-tices.
-Eco-Village 2 EV2 was founded as an alternative community on
-640 acres by P4 and his 15 friends in 1978. By 1983, the population
-fluctuated from around 100 to just 8, prompting the landlord to
-design a subdivision to allow for legal, long-term dwellings. With
-the assistance of four Permaculture designers, the community was
-legally established in 1986 following local council approval. The
-property includes 83 freehold residential lots and two commercial
-lots, which make up 20 percent of the land, while the remaining
-80 percent is held in common for habitat, forestry, and sustain-
-able agriculture. This community was awarded the World Habitat
-Award for its demonstration of low-impact, sustainable living. EV2
-is managed by both a Body Corporate, responsible for property
-administration, and a Co-Operative, which functions as a public and
-social organisation. Today, EV2 is home to more than 200 residents.
-3.2 Data Collection and Analysis
-Fieldwork in this paper involved multiple extended stays in two
-eco-villages, where the first author participated in everyday life,
-including making activities, routine maintenance, and informal
-social interactions. This immersive, situated engagement aligns
-with the principles of design ethnography, which values close, em-
-bodied observation of people’s interactions with technologies in
-context. By participating in daily practices, the researcher was able
-to gain insight into the tacit knowledge, values, and improvisational
-problem-solving that shape the use of composting toilets.
-Data were collected through a combination of semi-structured
-interviews, photographs, and field notes. Interviews explored partic-
-ipants’ motivations, building and maintenance practices, challenges
-and adaptations, as well as their broader reflections on sustainable
-living. Photographs and field notes served as tools to document
-spatial configurations, material interactions, and emergent social
-dynamics around the composting systems. This approach reflects
-the commitment of design ethnography to understanding not just
-what people say, but also what they do and how they inhabit com-
-plex socio-material settings [11].
-After each field engagement, the first author systematically or-
-ganized and annotated the data, identifying key fragments and
-recurring themes. These were discussed with the second author
-within one week of each visit, allowing for iterative interpretation
-and reflexive sense-making. This process enabled the development
-of analytical categories grounded in the material, while also allow-
-ing conceptual insights to emerge collaboratively over time.
-3.3 Limitations and Positionality
-We acknowledge that our focus on eco-villages means our par-
-ticipants were generally predisposed towards sustainability and
-alternative lifestyles, potentially influencing their perspectives on
-composting toilets. The findings are specific to these remote Aus-
-tralian contexts and may not directly translate to urban or differ-
-ent cultural settings without adaptation. As researchers interestedin sustainable design, our own values may shape our interpreta-
-tions, though we aimed for reflexivity throughout the analysis by
-grounding interpretations in specific ethnographic data and ANT’s
-symmetrical approach.
-4 Findings
-4.1 Stewardship and More-Than-Human Care
-A core motivation driving the adoption of composting toilets in
-both eco-villages was a commitment to environmental stewardship
-and a desire to live differently from mainstream consumer culture.
-This ethos shaped community governance structures and daily life.
-The two founders of EV1, P1 and P2, are local Greens Party
-members and also the founders of Eco Villages Australia (EVA).
-EVA is a non-profit organization dedicated to providing a model to
-create communities for small groups of people. EV1 is their first eco-
-village, purchased and established in 2019 in remote Australia. They
-have developed a community model called ’Collective Stewardship’
-[15]:
-"All buildings (except for those on wheels), and the
-land is owned by non-profit which is based on a Com-
-munity Land Trust. Those who can afford it, loan
-money to EVA, for the purchase of the land and any
-improvements and building. All residents rent the
-spaces they require. This income covers operational
-costs and paying back loans. If the land is ever sold,
-the money goes back to the non-profit company after
-all loans have been returned. This structure makes it
-impossible for individuals to benefit from the sale of
-land, which means that the land is essentially locked
-away in perpetuity for environmental care." (Eco Vil-
-lages Australia)
-In P1 and P2’s simple living, they aim to reduce financial and
-ecological costs. When they purchased the property, the house had
-a flush toilet connected to the municipal sewage system. However,
-they decided not to use the flush toilet and instead DIY a compost-
-ing toilet. Their goal is to achieve resource recycling. P1 and P2
-mentioned that traditional flush toilet systems rely heavily on water
-resources and sewage treatment facilities. In contrast, composting
-toilets do not require any water and use natural decomposition
-processes to turn human waste into fertilizer, which is then re-
-turned to the soil. Initially, they conducted extensive research on
-composting toilets, from commercial bio-gas systems to various
-open-source composting toilets. Ultimately, they decided to start
-with the simplest option: bucket toilets. As P1 commented:
-“We have started asking the question: Can the rest
-of the world do this? Can the rest of the world have
-flush toilets? No. Composting toilets? Yes!”
-This comm reflects a conscious problematisation [ 8] of conven-
-tional sanitation, reframing it as unsustainable and seeking alterna-
-tives aligned with their stewardship values. The choice of a simple
-DIY system also connects to their emphasis on participation and
-skill-sharing. Giving people space, time, and support, P2 thought
-the most exciting part of participating in making projects is sharing
-knowledge. P2 commented that lack of confidence and knowledge
-was a barrier for her to participate in making and fixing things. P2
-683
-Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
-had never picked up a hammer before, and now she can fix things
-on the roof and really get into it. Making is a journey for her to
-learn and gain confidence. They also suggest that working with
-others towards a shared vision is an essential need for humans. This
-highlights the creative and empowering aspects of DIY infrastruc-
-ture within the community. They think, however, our current social
-systems take us further away from our needs rather than closer to
-our needs. Through designing and making things together, they
-attempted to manage power imbalances resulting from different
-skills, capabilities, and willingness. As P2 commented:
-“My ideal eco-village is rarely designed. I want to live
-in a place that is evolving in some way. You know,
-people sometimes ask us when will it be finished?
-Well, now and never is finished. That is the answer
-at every point. It’s a resident led, consensus driven
-growth journey.”
-This quote underscores the value placed on emergent, participa-
-tory processes over fixed master plans. Similarly, P4 (the founder of
-EV2) strongly agrees with the Australian Aboriginal concept of the
-“past, present, and emerging” custodians of the country. He sees
-custodianship as an ongoing responsibility. Prior to 1977, EV2’s land
-was used for excessive grazing, and the previous tenants burned
-part of the forest every year for grazing. After P4 took over the
-farm, there has never been a strategic burn again. In the earliest
-days of the community, P4 recalled that the care of the land was
-a priority, and a policy of no spraying with hormones and no use
-of artificial fertilisers was adopted. At the same time, early com-
-munity members discovered that kangaroos, wallabies and other
-animals could not feel safe if dogs and cats were present in the
-community. Therefore, as part of their custodianship of the land,
-some members found other homes for their dogs, and these policies
-were adopted into the new structure of the community thereafter.
-As P4 commented:
-"The concept of custodianship resonates strongly with
-me. Since my teen years I have rejected our cultural
-concept of ownership. I have not owned anything of
-significance, be it land, horses or other items that were
-important in my life. In my mind I had a custodianship
-of them that allowed my interaction with, access to
-them and a responsibility to care for their welfare."
-Here, custodianship explicitly extends to non-human actors
-(land, animals), influencing community rules and shaping the actor-
-network. The decision to ban dogs and cats demonstrates how
-non-human interests were enrolled into the community’s structure.
-In the early 1980s, P4 realised that in order for people to settle
-and build long-term homes, they needed a legal entity. P4 found
-four Permaculture experts and a development group to redesign
-the community based on Permaculture principles, and received
-council’s approval. P4 transferred the land to the newly established
-Trust, and the deposit for the residential lots was used for the con-
-struction of infrastructure such as roads, dams, and power supply.
-After discussions with newly moved community members, EV2
-established two different legal entities, the Body Corporate and
-the Coop, each with different responsibilities; the Body Corporate
-committee represents the landowners, and the Coop provides ser-
-vices to the general community. But P4 recalled that with two legalentities, the community’s decision-making process became difficult
-or even impossible. Many times, important issues are discussed
-for long periods of time without reaching a decision. For years,
-the Coop’s expenses exceeded its income, and the Body Corporate
-needed to provide funds to keep the Coop afloat. This illustrates
-the challenges of mobilisation and maintaining alignment within a
-larger, more complex network involving diverse human actors and
-formal governance structures.
-P4 mentioned that the purpose of most people moving to EV2
-is that “people come here to rediscover their connection to each
-other and their connection to the land. ” “Connection to each other”
-is compassion and understanding for all humans, not just between
-members of the community. The “connection to the land” is not just
-a connection to the soil, but a connection to all the plants, reptiles,
-insects, birds and animals that live on the land. P4 emphasises that
-"land" is not just EV2’s 640 acres, but our planet Earth. After more
-than 40 years of development, P4 pointed out that EV2 has become
-a model for self-sufficient eco-villages around the world. In the cur-
-rent era of consumerism, P4 emphasises that EV2’s role is to bring
-the responsibility of protecting the land into mainstream society.
-EV2 needs to extend experiences and lessons learned beyond the
-boundaries of the land. As P4 commented:
-"I have a mantra I have used during the past two years.
-It is ’creativity, spontaneity, and freedom of spirit’. I
-repeated it often. Perhaps this is adding to the present
-energy of change. I am aware of many individuals and
-groups here in the community who are involved in
-unselfish and deeply empathetic projects. Projects to
-help others both within Australia and overseas. This
-applies to some residents who have projects in remote
-Indigenous communities, In Africa, in Cambodia and
-other Asian countries. The potential exists here to
-provide an example of a community that is a true
-self-sustaining eco-village... Increasing numbers of
-people will attend courses here and take the knowl-
-edge out into mainstream society. We will employ
-methods and techniques that reverse the present cli-
-mate change, land degradation and species extinction
-trends... Food production on the land will increase
-and we will utilise modern technology such as block-
-chain and crypto-currency in creative ways. We will
-have self-drive electric vehicles for use around the
-land that will come to our dwellings when requested
-and take us to our destination."
-P4’s reflections highlight the ongoing evolution of the commu-
-nity’s goals, linking local practices to broader global concerns and
-emphasising creativity and adaptation as key values.
-4.2 Composting Toilets
-Inspired by ANT, we clustered toilet-related non-human actors into
-four categories (Table. 2): toilets, natural environment, information,
-and space. Toilet actors include excrement collection, treatment,
-and distribution components. Natural environment actors refer to
-the ecological environment elements of the community, such as soil,
-flora, microorganisms, topography, etc. Information actors refer to
-684
-C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
-toilet-related guidance and signs, manure disposal and environment-
-related information etc. Space actors refer to the environment where
-the toilet is located, including bathrooms and outdoor landscapes,
-etc.
-Table 2: Non-Human Actors Related to Composting Toilets
-Category Description
-Toilet Actors Excrement collection, treatment, and dis-
-tribution components
-Natural environ-
-ment ActorsEcological environment elements of the
-community, such as soil, flora, microor-
-ganisms, topography, etc
-Information Actors Toilet related guidance and signs, ma-
-nure disposal and environment related
-information etc
-Space Actors The environment where the toilet is lo-
-cated, including bathrooms and outdoor
-landscapes, etc.
-4.2.1 Bucket Toilets (EV1). EV1’s composting toilet (Fig. 1) is lo-
-cated in a small separate cabin next to the communal living space.
-Community members started with a reclaimed solid wood televi-
-sion cabinet and transformed it into a composting toilet. This act of
-repurposing exemplifies a DIY, resourceful approach. The inside of
-the cabinet has two separate compartments, each holding a plastic
-bucket for collecting excrement. Two holes were made in the top
-of the cabinet, and lids were installed to cover them after each
-use to prevent odours. The middle drawers are used for storing
-toilet paper and other items. A bucket of sawdust is placed next
-to the seat, and after each use, a layer of sawdust is spread over
-the excrement to control odours and provide the necessary carbon
-source for the subsequent composting process. Here, the TV cabinet
-(now toilet actor), buckets, lids, and sawdust (material actors) are
-enrolled alongside human users into a functional system.
-To ensure hygiene and proper function of the toilet, community
-members have developed detailed usage and maintenance guide-
-lines for visitors. This represents an information actor designed
-to ’scrip’ user behaviour. After each use, users need to cover the
-excrement with a layer of sawdust. Every morning, residents take
-turns to remove the buckets, empty the excrement into the com-
-posting area, and clean the buckets. This routine maintenance is
-crucial for the network’s stability. The composting area uses a lay-
-ered method, with the bottom layer consisting of straw to help
-absorb liquids and promote decomposition. The composting pro-
-cess takes about a few months, and the resulting compost is used
-for gardens and bushes. This connects the toilet system directly
-to the local ecosystem (soil, plants, microbes). Every Sunday, EV1
-hosts Working Bees, inviting surrounding community residents
-to experience their lifestyle. Community members also travel to
-other communities to spread their philosophy and teach the use of
-composting toilets. This represents ’mobilisation’ – extending the
-network and enrolling others.
-P1 also highlighted the economic and infrastructural simplic-
-ity: bathrooms are the most expensive rooms because of internalplumbing and waterproofing. The infrastructure to make people
-have a comfortable shower at night costs a lot. Thus, they decided
-to build an outdoor shower. The perceived sacrifice they considered
-is that people cannot take showers when they want to. They need
-to do it when the sun is ready. Hence, they usually take showers
-in the middle of the day. Because of the beautiful outdoor scenery,
-they do not think it is a sacrifice. As P1 commented:
-“Are we prepared to go backwards? What comforts
-are we willing to give up”
-This quote addresses the ’interessement’ involved in adopting
-alternative infrastructures, challenging notions of comfort and
-progress.
-4.2.2 Urine Division Toilets (EV2 - P3’s Tiny Houses). P3 and his
-partner, both musicians in their 70s, have constructed two tiny
-houses and are now beginning to build a third in EV2. P3 chose to
-build the tiny houses because he felt that investing in property was
-more worthwhile than keeping money in the bank. He believes it
-would be beneficial to create living spaces, either for his own future
-use or for others. His partner intended to build two additional tiny
-houses for their two daughters. Through word of mouth, people
-learned about the eco-village, visited, and inquired about leasing
-the tiny houses. During the COVID-19 pandemic, interest in these
-accommodations increased significantly as more people sought out
-such living arrangements. P3 thinks that the pandemic prompted
-people to reassess their needs. However, P3 noted that some tenants
-found using the composting toilet challenging. As P3 commented:
-“I did a lot of research on toilets. For me, that works
-fine. Because I understand it. I helped build it. But
-people somehow they messed it up. It’s too easy just
-to flush it. We have to deal with our own stuff. ”
-This highlights a breakdown in ’enrolment’ when users (tenants)
-do not share the same understanding or commitment as the de-
-signer (P3). The toilet’s ’script’ was not successfully followed by
-all users, revealing the fragility of the network when key actors do
-not perform their expected roles.
-The composting toilet used by P3 is from Toilets for People (TFP).
-This is a small-scale composting toilet with urine diversion (Fig. 2).
-When users use the toilet, solid excrement and urine are collected
-separately. Solid excrement falls into a rotating drum, while urine
-is diverted through a pipe to another container. TFP provides a DIY
-kit similar to IKEA-style flat packaging, including all the necessary
-parts and allowing users to construct the outer shell themselves.
-This kit acts as a ’translator’, enrolling users in a specific assembly
-process. It features a rotating composting drum and a compost tray.
-For 2 adults, it needs to be emptied approximately every 2 months.
-The manure is collected in a covered container, accessible from
-the front, while urine is collected in a container at the back. P3’s
-composting toilet is equipped with a ventilation fan and is powered
-by a small solar battery. These non-human actors – fan, battery,
-solar panel – are crucial for managing odour and moisture. Since
-over 90% of waste entering the toilet is water, the ventilation system
-evaporates the moisture into the atmosphere, ensuring odourless
-usage and decomposition of manure. Solid excrement mixes in the
-rotating drum with other organic material (such as coconut coir or
-685
-Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
-Lid down when not in use Cover with sawdust after use Remove bin and dump into com -
-posting hubUse humanure in gardens and food 
-forest
-Biogas
-The biogas system uses food scraps 
-and organic waste. Biogas is used for 
-cooking. Fermented liquid is used as 
-fertilizer for gardens.
-Television Cabinet
-This reclaimed television cabinet is 
-repurposed to have two toilets, each 
-one in each cabinet. The middle 
-draws are for toilet paper.
-Outdoor Biochar Urinal
-This bucket is removed bottom and 
-filled with charcoal.
-Sawdust
-Sawdust is used as compost material 
-to control smell and moisture.
-Composting Bases and Gardens
-Human waste is dumped in compost -
-ing bases in the garden, and eventu -
-ally used as fertiliser for trees.
-Shed
-This shed provides a private environ -
-ment for people to defecate.
-Bucket Toilet Process
-1 2 4 3
-Non-Human Actors
-Toilet ActorsT
-Natural environment 
-ActorsN
-Information ActorsI
-Space ActorsS
-Figure 1: Bucket Toilet in EV1
-sawdust) and after a period of time, is decomposed into soil-like
-compost.
-This composting toilet was originally designed and built by P3
-for personal use, not for rental purposes. However, after this tiny
-house was completed, some people came to EV2 hoping to rent
-it. P3 mentioned that during the rental, some people may find it
-challenging to adapt to using this type of toilet. For instance, this
-composting toilet is designed for sitting use. However, for those
-who prefer standing while urinating, the urine diversion area is
-relatively small, making it easy to make a mess in the toilet. This
-illustrates a mismatch between the toilet’s inscribed ’script’ and
-the diverse practices of potential users. Additionally, some tenants
-may not promptly mix organic matter and clean the compost. P3
-emphasises that sustainable living requires more daily maintenance.
-P3 also pointed out that we also need to change our mindset; while
-flush toilets may be convenient, through daily maintenance and
-managing our own composting, we may discover a more meaningfulexperience. This again points to the ’interessement’ required to
-stabilise the network around non-conventional practices.
-During his tenure as chairman of the Body Corporate in EV2
-for a year, P3 gained insights into the community dynamics. With
-over 200 residents, EV2 stands out for its residents’ independence
-compared to those outside the community. The demographic tilt
-towards an ageing population has attracted people seeking tranquil-
-lity, less concerned about organisational aspects. His vision of an
-ideal eco-village revolves around fostering communal interactions.
-P3 envisions clusters within the community sharing communal
-spaces like a well-equipped kitchen and laundry facilities, encour-
-aging residents to come together and collaborate. He believes that
-a successful eco-village should strive to diminish individualistic
-tendencies in favour of fostering cooperation and a sense of com-
-munity among its members. P3’s reflections touch upon the tension
-between individual autonomy and collective action needed to main-
-tain shared infrastructure and community cohesion, a key challenge
-in mobilising larger networks.
-686
-C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
-Fill the drum with compost material 
-before useUrinate in the front part, defecate in 
-the back partTurn the tumbler once which mixes 
-the waste with the coconut coir 
-after useEmpty the chamber every two 
-monthsUrine Division Toilet Process
-1 2 4 3
-Composting Toilet 
-DIY Kit
-P3 did research about 
-toilets and finally 
-chose this composting 
-toilet DIY kits from 
-Toilets For People. 
-The toilet can then be 
-customized to fit his 
-tiny house.Off-Grid Tiny House
-This tiny house is 
-designed   as a system 
-of self-contained living 
-biomes, capable of 
-generating water, pow -
-er and reusing waste.Composting Hub
-Human waste is 
-dumped in composting 
-hub close to the forest.Toilet Instruction
-Instructions on the 
-wall of bathroom
-Non-Human Actors
-Toilet ActorsT
-Natural environment ActorsN
-Information ActorsI
-Space ActorsS
-Figure 2: Urine Division Toilet in EV2
-4.2.3 Desiccating Toilets (EV2 - Common Practice). The EV2 com-
-munity is situated on 640 acres of land, which includes 15 various-
-sized dams. To protect these water resources and local ecosystems,
-the community strives to control any form of wastewater discharge.
-Since there is no municipal sewage system in the community, each
-household is required to manage its own wastewater. The dams’
-presence strongly ’interested’ the community towards waterless
-solutions. Most residents opt for desiccating toilets (dry compost-
-ing toilets), a practice that has been in place for over 30 years.
-This represents a long-term, stabilised network. Residents of EV2
-were provided with instructions on how to design and construct
-sanitation systems in the owner’s manual. This manual acts as a
-key ’translator’ standardising practice. Additionally, due to abun-
-dant timber resources and the hot, humid climate, most houses are
-built with the elevated structure. This design not only minimises
-land disturbance but also provides space underneath the house for
-composting toilets.Desiccating toilets (Fig. 3) typically require a certain amount of
-space for storing and processing waste, and the space under the
-elevated structure perfectly meets this need. The area beneath the
-elevated structure can be used for the installation and maintenance
-of composting toilets, avoiding the need for excavation of land. The
-space under the elevated structure helps with the ventilation of the
-composting toilet, reducing odours and promoting decomposition.
-Maintenance and cleaning of the composting toilet are more con-
-venient under the elevated structure, allowing residents to easily
-inspect and clean the compost. Sun, chimney height, and airflow
-are critical non-human actors in this design.
-5 Discussion
-Our ethnographic exploration of composting toilets in eco-villages,
-viewed through the lens of Actor-Network Theory, reveals how
-these seemingly simple artefacts become focal points for negotiat-
-ing human-nature relationships, fostering community creativity,
-and challenging conventional infrastructure paradigms. We first
-687
-Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
-Lid down when not in use Cover with carbon compost materi -
-als after useCheck moisture, temperature, and 
-excess liquid of the toilet chamber 
-regularlyTake out the humanure once the 
-chamber is full (usually every two 
-or three years)Desiccating Toilet Process
-1 2 4 3
-Non-Human Actors
-Toilet ActorsT
-Natural environment ActorsN
-Information ActorsI
-Space ActorsS
-Toilet Seat
-This composting toilet 
-can be built in the 
-room. With proper car -
-bon composting ma -
-terial cover, it doesn’t 
-smell.Chamber
-It is important that this 
-chamber faces the sun. 
-Then the high chim -
-ney can take the odour 
-out and dry out the 
-excrement due to the 
-stack effect.Community Owner’s 
-Manual
-Residents of EV2 
-were provided with 
-instructions on how to 
-design and construct 
-sanitation. systems in 
-the owner’s manual.Wetland
-To protect native bio -
-diversity and wetlands, 
-EV2 chose waterless 
-composting toilets.
-Figure 3: Desiccating Toilet in EV2
-discuss how ANT helps map the complex networks involved, then
-introduce a framework of Tinkering, Linking, and Becoming to
-analyse the mediative and creative roles of these DIY systems, and
-finally reflect on the implications for creativity support and Sus-
-tainable HCI.
-5.1 ANT on Composting Toilets
-In the actor-network of the eco-village, there are both human actors,
-such as long-term residents and short-term visitors, and non-human
-actors, such as space, infrastructure, information, and the natural
-environment. The problems of each actor converge at the obliga-
-tory passage point before translation occurs [ 8]. From the residents’
-perspective, their problem is how to change their lifestyle to reduce
-the impact on their living land (problematisation stage, driven by
-stewardship values). From the perspective of the natural environ-
-ment (represented by actors like soil, water, local ecosystems), the
-problem is how to integrate human activities into the ecological
-cycle. Both of these problems can be focused on toilets and wastemanagement, which is the obligatory passage point. Determining
-the obligatory passage point can help all types of actors reach a
-consensus, work together to solve problems, remove obstacles, and
-promote the formation of the eco-village actor-network.
-Participants believe that the composting toilet is the key to trans-
-forming their lifestyle. Therefore, we use the composting toilet as
-a clue for the translation process of the actor-network. The transla-
-tion process usually includes four basic stages: problematisation,
-interessement, enrolment, and mobilisation. In the problematisation
-stage, the focal actor, the composting toilet, needs to discover the
-common goal of residents and the natural environment, which is to
-make human a contribution to the natural environment. Therefore,
-the composting toilet needs to endow interests to both humans and
-the environment: for residents, the toilet needs to provide a com-
-fortable and hygienic defecation environment, reducing odour and
-health hazards caused by composting; for the natural environment,
-the toilet needs to reduce the pollution of untreated faeces. After
-interessement (e.g. showing nutrient benefits to gardens), the actors
-688
-C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
-Human Toilet
-InformationNatural
-EnvironmentSpace
-Excrement HumanureSoilMicrobe
-Plant
-WaterToilet 
-ManagementBathroom
-Environmental 
-InformationUser
-GuidanceLandscape
-FoodCommunity
-Health &
-Wellbeing
-Main Actor Categories
-Subordinate Actor Categories
-Figure 4: Eco-village’s Actor-Network from Toilet’s Perspective
-are mobilised to take action. In the enrolment stage, human actors
-need to consider the cost and maintenance of making composting
-toilets, which is usually discussed by residents through participa-
-tory design (as seen in EV1) or adoption of established community
-standards (as in EV2). The discussion focuses on the defecation
-space experience and facility maintenance, so space becomes an
-actor that joins the network at this stage (e.g., the cabin in EV1,
-under-house space in EV2). In the mobilisation stage, temporary
-visitors or new residents need to be considered. As using compost-
-ing toilets is a different experience from flush toilets for ordinary
-people, information becomes an actor that joins the network at this
-stage (e.g., guidelines, manuals, induction), providing guidance on
-the correct use of composting toilets and attempting to align their
-behaviour with the network’s requirements (as highlighted by P3’s
-challenges with tenants).
-Inspired by ANT, we clustered non-human actors into four cat-
-egories: toilets, natural environment, information, and space. Toi-
-lets transform from actors to mediators, connecting human actors
-with the natural environment, information, and space as a net-
-work. Space actors can be divided into indoor and outdoor: indoor
-space can provide users with a safe and private toilet environment;
-outdoor space can be used as a landscape to enhance the toilet
-experience. Information actors can be divided into three categories:
-toilet management, user guidance, and environmental information.
-Toilet management actors need to monitor the toilet chamber’s
-remaining capacity and the compost pile’s maturity. User guidanceactors need to respond to users’ needs and proficiency. Environmen-
-tal information actors need to collect and analyse data on terrain,
-weather, vegetation, etc., to provide references for compost site
-selection and fertiliser distribution. Natural environment actors
-can be broadly divided into four categories: microorganisms, soil,
-plants, and water. Microorganism actors participate in the compost
-fermentation process and return to the soil during the fertilisation
-process to improve soil quality. Soil and water provide conditions
-for plant growth, and the food that grows can be eaten and fed back
-into this network through the digestive systems of humans and
-animals. ANT helps visualise this complex web of dependencies
-and translations that sustain the composting toilet system.
-5.2 Mediating the Human-Nature Relations by
-Composting Toilets
-In this section, we analyse how composting toilets mediate human-
-nature relations three interconnected processes: Tinkering, Linking,
-and Becoming. These processes work together to transform waste
-management from a hidden, specialised process into a visible, par-
-ticipatory activity that reconnects humans with ecological cycles.
-By embracing existing resources through tinkering, building rela-
-tionships through linking, and designing for adaptability through
-becoming, eco-village residents create alternative infrastructure
-that not only manages waste but also reshapes their relationship
-with the natural world.
-689
-Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
-5.2.1 Tinkering: Engaging with Existing Resources and Systems.
-Composting toilet systems in the eco-villages often emerge through
-’tinkering’ – a creative process of adapting and repurposing exist-
-ing materials and knowledge, akin to the concept of bricolage in
-Adhocism [ 28]. This contrasts with standardised, top-down infras-
-tructure solutions. In EV1, the bucket toilet built from a reclaimed
-TV cabinet is a prime example. This approach starts by asking
-fundamental questions: What are the basic human needs (hygienic
-waste disposal, odour control)? What materials are readily available
-on-site or nearby (reclaimed furniture, sawdust)? How can we work
-with natural processes (microbial decomposition)? This tinkering
-makes the system’s workings transparent; users understand the
-components (buckets, sawdust) and the process (covering waste,
-emptying buckets, composting). This transparency encourages par-
-ticipation, as seen with P2 gaining confidence through hands-on
-involvement. This practical, situated creativity [ 27] allows ordinary
-people to engage in the design and maintenance, fostering a sense
-of ownership and understanding often absent with black-boxed
-conventional systems. By starting with the simplest bucket toilet
-design rather than implementing more complex sewage systems,
-composting toilets allow users to test, learn, and iterate their designs
-based on contextual conditions.
-The materials used in these composting toilets reveal how tin-
-kering embraces locally available resources. For example, various
-covering materials are used in these composting toilets, such as
-sawdust, leaves, and coconut coir. Users choose covering mate-
-rials that are easy to collect, and adjust the covering amount by
-observing the composting conditions. This aligns with Light et
-al.’s [ 31] concept of innovation at societal margins, where resource
-constraints foster creative solutions. By bringing the processes of
-waste decomposition into the realm of everyday attention through
-maintenance routines and composting systems, these toilets create
-regenerative visibility [ 35] — the ability to see and engage with
-ecological cycles that are typically hidden in modern infrastructure.
-Tinkering also manifests in the way these systems are main-
-tained and adjusted over time. Unlike flush toilets that immediately
-remove waste from sensory experience, composting toilets extend
-engagement with waste over time — from initial deposit through
-maintenance routines to eventual use as garden fertiliser. Com-
-posting toilets reconfigure temporal relationships with waste. Such
-recognition of waste not as inert substance but as active partici-
-pant in ongoing ecological processes. It also aligns with Indigenous
-approaches to sustainable living highlighted by P4’s reference to
-the Australian Aboriginal concept of custodianship, where humans
-are seen as working within rather than controlling natural systems.
-This commitment to tinkering with existing systems rather than
-wholesale replacement reflects a broader ethos articulated in re-
-search on posthuman design (e.g. [ 4,6,10,56]), which advocates
-for working with rather than against natural processes.
-5.2.2 Linking: Building Relationships Between Elements. Compost-
-ing toilets link human activities with ecological cycles in ways
-that conventional plumbing cannot. The composting process it-
-self creates biological linkages by fostering relationships between
-human waste, microorganisms, and plant growth. These linkages
-are not hidden but made visible and tangible through daily mainte-
-nance practices. As Haraway [ 22] suggests, humans are "companionspecies" that coexist within complex webs of relationship. Com-
-posting toilets transform the affective dimension of human-waste
-relations. Several participants described a profound shift in how
-they perceive excrement. The initial disgust or aversion to handling
-human waste gradually shifts toward appreciation of its role in
-ecological cycles.
-This linking extends beyond the human-waste-soil connection.
-Composting toilets link residents through shared responsibilities
-(e.g. emptying buckets, maintaining compost piles in EV1), foster-
-ing communication and cooperation. They link individual house-
-holds to community standards and knowledge networks (e.g., EV2’s
-owner’s manual). They link the tangible system (toilet, compost
-pile) to intangible values (stewardship, self-sufficiency, connection
-to land). Designing for linking means considering how resources,
-knowledge, and responsibilities can be shared to strengthen these
-networks.
-Social linkages are also important in these systems. Regular pub-
-lic workshops and working bees are hosted in both eco-villages
-to create knowledge networks that extend beyond communities’
-boundaries. These gatherings help translate situated knowledge
-about composting toilets into accessible practices that can be adopted
-more widely. These linking practices reflect what Heitlinger et al.
-[24,25] describe in their studies of grassroots food-growing com-
-munities, where waste recycling and knowledge sharing build com-
-munity connections. Composting toilet systems extend this concept
-by making excrement, typically a taboo subject, into a provocative
-topic for broader community discussion and collaboration.
-5.2.3 Becoming: Designing Systems that can be Dismantled and Re-
-configured. For sustainability, becoming means moving away from
-designing for a finished product and towards designing for systems
-and assemblages that can be taken apart and reconfigured [ 43].
-The physical designs themselves embody becoming through their
-modularity and reusability. For example, the composting toilets in
-our study demonstrate becoming through their adaptability, their
-emphasis on learning, and their capacity for disassembly and re-
-configuration. The bucket toilet system can be easily disassembled,
-moved, and reconfigured. Even the more complex urine-division toi-
-let comes as a kit that can be adapted to different housing contexts.
-This stands in stark contrast to conventional plumbing infrastruc-
-ture, which typically requires professional installation and becomes
-a fixed, immovable element of buildings. P2’s comment that her
-"ideal eco-village is rarely designed" and that it is "a resident-led,
-consensus-driven growth journey" also encapsulates the idea of
-becoming. The evolution of EV2 from its early days to its current
-established form, including the standardisation of desiccating toi-
-lets, shows a long-term becoming process. Rather than seeking a
-fixed endpoint, the concept of becoming values ongoing evolution
-and adaptation.
-Becoming is also evident in how these systems accommodate
-learning. P3’s observation that some tenants "messed up" the com-
-posting toilet because "it’s too easy just to flush" highlights the
-learning curve involved in transitioning to alternative infrastruc-
-ture. Rather than viewing this as a failure, the concept of becoming
-treats it as part of an ongoing process of adaptation and education.
-P4’s vision for the future of EV2 illustrates how becoming extends
-beyond current practices to imagine new configurations: "We will
-690
-C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
-employ methods and techniques that reverse the present climate
-change, land degradation and species extinction trends... We will
-utilise modern technology such as block-chain and crypto-currency
-in creative ways." This forward-looking stance shows how eco-
-villages see themselves not as static exemplars but as laboratories
-for ongoing socio-technical evolution. The emphasis on becom-
-ing reflects on how humans are shaped as environmental actors
-[14]. Designing for becoming involves creating systems that are
-adaptable to changing needs, contexts, and knowledge. It encour-
-ages learning and experimentation as integral parts of the process –
-users learn about decomposition, soil health, and the impact of their
-actions. Ideally, these systems are also designed for disassembly
-and reconfiguration, allowing materials to be reused or recycled.
-By designing systems that can be reconfigured as understanding
-evolves, alternative practices such as composting toilets create an
-open-ended collective that embraces change, emergence, and the
-potential for unexpected interactions.
-5.3 DIY Infrastructure: Creativity, Community,
-and Challenges
-In modern life, infrastructure is often hidden under the interface
-and designed and built by the government and professionals, mak-
-ing it invisible to the user. In this study, we observe makers at-
-tempting to break the isolation between the infrastructure and the
-user interface. They rethink their needs and redesign the impact of
-their behaviour on the environment. Their designs typically begin
-with long-term observations of the surroundings and are iteratively
-fabricated and optimised, demonstrating situated creativity and
-problem-solving. Through interaction with the infrastructure, they
-continually accumulate knowledge of the local environment and
-achieve diversity in infrastructure forms. This aligns with calls in
-HCI community to support making [ 5] and recognise the value
-embedded in maintenance and repair [26].
-DIY Infrastructure is a reflective activity. By getting hands-on
-with the waste they generate, individuals can understand how to
-be part of the ecological cycle rather than being blind to the im-
-pact of their activities. In using composting toilets, makers are
-not only processing human waste but also experimenting and vali-
-dating different designs and technologies. This practice not only
-promotes environmental awareness but also encourages innovative
-solutions to environmental issues by individuals and communities.
-In this way, DIY infrastructure inspires people to think about future
-lifestyles and generations. Furthermore, the applications of DIY
-infrastructure are not limited to personal and small-scale projects.
-At the community level, collectives can participate in the decision-
-making process of infrastructure and reach consensus on alternative
-practices, which can enhance community cohesion and autonomy,
-although challenges in consensus-building and governance exist, as
-noted in EV2. In short, DIY practice proposes a new way of treating
-infrastructure, which emphasises bottom-up initiative and creative
-reorganisation of local resources rather than waiting for policy and
-top-down changes.
-However, it is crucial to acknowledge the challenges and limita-
-tions associated with DIY infrastructure like composting toilets. It
-is important to note that the low-tech, creative designs of toiletsbased on eco-villages may not be directly transferable into mod-
-ern urban settings due to space constraints, population density,
-regulatory hurdles (e.g., health codes regarding waste handling),
-and different cultural norms around sanitation and waste. Psycho-
-logical barriers, often related to the ’yuck factor’ associated with
-handling human excreta, can significantly hinder adoption. Power
-structures within communities can influence whose designs are
-adopted and how maintenance labour is distributed, potentially
-creating inequities. Economic disparities also play a role; while
-some DIY solutions are low-cost (like EV1’s bucket toilet), more
-sophisticated systems or the time required for maintenance might
-be prohibitive for some. The success observed in the eco-villages
-in this study relies heavily on shared values, community commit-
-ment, and available land – factors often absent in other contexts.
-Furthermore, scaling these solutions requires navigating complex
-regulatory landscapes and potentially integrating with existing (or
-replacing parts of) centralised systems, posing significant political
-and logistical challenges.
-5.4 Implications for Creativity Support and
-Sustainable HCI
-The DIY infrastructure practices we observed embody transforma-
-tional creativity [ 7] through their radical reconceptualisation of
-waste management. Unlike incremental improvements to conven-
-tional sewage sanitation systems, composting toilets fundamentally
-transform the conceptual framework surrounding human waste
-— from problem to resource, from linear to circular, from hidden
-to visible. This transformation requires cognitive shifts that chal-
-lenge deeply held cultural assumptions about cleanliness, waste,
-and human relationships with bodily functions. Despite challenges
-mentioned above, the principles observed offer implications for de-
-sign and research in sustainable HCI, particularly concerning how
-to foster creativity and more sustainable human-nature relations
-through infrastructure:
-(1)Conceptual reframing from ’waste as pollution’ to ’waste
-as nutrient’ enables new design possibilities. Participants
-consistently described how composting toilets required them
-to "think differently" about waste. Such alternative concepts
-combine multiple value systems that are often seen as sepa-
-rate or contradictory in conventional design. Technical ef-
-ficiency, ecological regeneration, aesthetic experience, and
-community building are integrated rather than traded off
-against each other. This hybridisation creates creative com-
-munities [ 32] — groups that collectively re-imagine and re-
-build their material surroundings.
-(2)Instead of designing infrastructure for people, explore infras-
-tructure by people. Promote transparency in infrastructure
-systems, making their workings understandable and modifi-
-able by end-users. For example, P1 and P2 keep the bucket
-toilet as simple as possible and try to use easy approaches to
-manage complexity. In this way, end-users can discuss and
-redesign the community infrastructure to meet their needs
-and ethos, fostering ongoing creative engagement. Neverthe-
-less, building the system takes more time than purchasing
-ready-made solutions. Tinkering through retrofitting and
-reflection can lead to creativity and ingenuity.
-691
-Mediating the Human-Nature Relations by Composting Toilets C&C ’25, June 23–25, 2025, Virtual, United Kingdom
-(3)Design small, modular, and connected components that link
-waste to production in the local environment. Compared to
-modern flush toilets, all composting toilets presented in this
-paper are relatively small. The local environment, however,
-is more closely connected to them through composting. Ex-
-crement can be transformed into manure to nourish the local
-flora instead of being flushed away. With small components
-like composting toilets, food gardens, trees, and microbes
-connecting together, the network produces no waste within
-its intended cycle.
-(4)Explore interaction possibilities that build relationships be-
-tween humans and non-humans, fostering more-than-human
-care. The composting toilet facilitates engagements among
-diverse non-human stakeholders. The local flora and fauna
-are considered, even prioritised, when designing the com-
-munity infrastructure (as seen in EV2’s policies). The cohabi-
-tation and biodiversity achieved by composting also provide
-positive feedback to the residents, reinforcing their relations
-to the non-human world.
-(5)Mobilise DIY infrastructure and ecological knowledge-sharing
-networks. Even though projects in this paper are highly
-contextual, responding to the local conditions, these toilets
-also show the flexibility to be adapted to other scenarios.
-DIY infrastructure not only serves as a possible solution
-for the sustainable living but can also be used as a sense-
-making method to co-create preferable futures and foster
-transformational creativity [ 7]. With emerging technologies,
-researchers should explore ways to mobilise traditional and
-local ecological knowledge and foster grassroots innovations
-while critically addressing the socio-political barriers to their
-wider adoption.
-6 Conclusion
-As sustainability issues grow, designers and researchers need to
-critically look at toilets. Instead of isolating human from nature
-and making excrement a burden on the environment, it is better to
-design toilets to connect human and nature, return manure to the
-soil, and improve the environment. This paper presents findings
-from a design ethnography in eco-villages about composting toilets
-and sustainable living. Through the lens of Actor-Network Theory,
-we illustrate three types of composting toilets and describe how
-these toilets can mediate the relationships between humans and
-non-humans from an object-centred perspective. Moving forward,
-there are opportunities to extend this work by designing novel
-toilets based on our composting toilet actor-network model.
-Acknowledgments
-For the final editing phase, the authors leveraged LLM models Gem-
-ini and Claude to suggest more concise phrasing. Subsequently, they
-reviewed and refined the AI-suggested content to ensure accuracy
-and coherence with their intended message.
-We thank our participants and collaborators for their support.
-Dr. Dhaval Vyas is supported by the Australian Research Council’s
-DECRA grant DE180100687.References
-[1]Kadia Georges Aka. 2019. Actor-network theory to understand, track and succeed
-in a sustainable innovation development process. Journal of Cleaner Production
-225 (2019), 524–540. https://doi.org/10.1016/j.jclepro.2019.03.351
-[2]Madeleine Akrich. 1992. The De-Scription of Technical Objects. In Shap. Technol.
-Soc. Stud. sociotechnical Chang. , Wiebe E Bijker and John Law eds (Eds.). The
-MIT Press, 259–264.
-[3]Madeleine Akrich and Bruno Latour. 1992. A summary of a convenient vocabulary
-for the semiotics of human and nonhuman assemblies. Shap. Technol. Soc. Stud.
-sociotecnical Chang. (1992), 259–264.
-[4]Jeffrey Bardzell, Shaowen Bardzell, and Ann Light. 2021. Wanting To Live Here:
-Design After Anthropocentric Functionalism. In Proceedings of the 2021 CHI
-Conference on Human Factors in Computing Systems . ACM, New York, NY, USA,
-1–24. https://doi.org/10.1145/3411764.3445167
-[5]Jeffrey Bardzell, Shaowen Bardzell, Cindy Lin, Silvia Lindtner, and Austin Toombs.
-2017. HCI’s making agendas. Foundations and Trends in Human-Computer
-Interaction 11, 3 (2017), 126–200. https://doi.org/10.1561/1100000066
-[6]Heidi Biggs, Tejaswini Joshi, Ries Murphy, Jeffrey Bardzell, and Shaowen Bardzell.
-2021. Alternatives to Agrilogistics: Designing for Ecological Thinking. Proc. ACM
-Hum.-Comput. Interact. 5, CSCW2 (10 2021). https://doi.org/10.1145/3479557
-[7]Margaret A Boden. 2004. The creative mind : myths and mechanisms (2nd ed ed.).
-Routledge, London.
-[8]Michel Callon. 1986. The Sociology of an Actor-Network: The Case of the Electric
-Vehicle. In Mapping the Dynamics of Science and Technology: Sociology of Science in
-the Real World , Michel Callon, John Law, and Arie Rip (Eds.). Palgrave Macmillan
-UK, London, 19–34. https://doi.org/10.1007/978-1-349-07408-2{_}2
-[9]Michel Callon and Bruno Latour. 1981. Unscrewing the big Leviathan: how
-actors macro-structure reality and how sociologists help them to do so. Advances
-in social theory and methodology: Toward an integration of micro-and macro-
-sociologies 1 (1981), 277–303.
-[10] Aykut Coskun, Nazli Cila, Iohanna Nicenboim, Christopher Frauenberger, Ron
-Wakkary, Marc Hassenzahl, Clara Mancini, Elisa Giaccardi, and Laura Forlano.
-2022. More-than-Human Concepts, Methodologies, and Practices in HCI. In
-CHI Conference on Human Factors in Computing Systems Extended Abstracts (CHI
-EA ’22) . Association for Computing Machinery, New York, NY, USA. https:
-//doi.org/10.1145/3491101.3516503
-[11] Andrew Crabtree, Mark Rouncefield, and Peter Tolmie. 2012. Doing Design
-Ethnography (2012 ed.). Springer Nature, London. https://doi.org/10.1007/978-
-1-4471-2726-0
-[12] Audrey Desjardins and Ron Wakkary. 2013. Manifestations of everyday design:
-guiding goals and motivations. In Proceedings of the 9th ACM Conference on
-Creativity & Cognition . 253–262.
-[13] Markéta Dolejšová, Cristina Ampatzidou, Lara Houston, Ann Light, Andrea
-Botero, Jaz Choi, Danielle Wilde, Ferran Altarriba Altarriba Bertran, Hilary
-Davis, Felipe Gonzales Gonzales Gil, and Ruth Catlow. 2021. Designing for
-Transformative Futures: Creative Practice, Social Change and Climate Emergency.
-InCreativity and Cognition (C&C ’21) . Association for Computing Machinery,
-New York, NY, USA. https://doi.org/10.1145/3450741.3465242
-[14] Paul Dourish. 2010. HCI and Environmental Sustainability: The Politics of Design
-and the Design of Politics. In Proceedings of the 8th ACM Conference on Designing
-Interactive Systems - DIS ’10 . ACM Press, New York, New York, USA.
-[15] Eco Villages Australia. 2024. Collective Ownership of Property. https://www.
-ecovillages.au/post/collective-ownership
-[16] Andrew Feenberg. 1995. Alternative modernity: The technical turn in philosophy
-and social theory . Univ of California Press.
-[17] Marta Ferreira, Miguel Coelho, Valentina Nisi, and Nuno Jardim Nunes. 2021.
-Climate Change Communication in HCI: A Visual Analysis of the Past Decade.
-InCreativity and Cognition (C&C ’21) . Association for Computing Machinery,
-New York, NY, USA. https://doi.org/10.1145/3450741.3466774
-[18] Laura Forlano. 2017. Posthumanism and Design. She Ji 3, 1 (2017), 16–29.
-https://doi.org/10.1016/j.sheji.2017.08.001
-[19] Guo Freeman, Szu Yu Liu, Jefrey Bardzell, Xi Lu, Shaowen Bardzell, and Diandian
-Cao. 2019. Smart and fermented cities: An approach to placemaking in urban
-informatics. In Conference on Human Factors in Computing Systems - Proceedings .
-Association for Computing Machinery, 13. https://doi.org/10.1145/3290605.
-3300274
-[20] Kavita Gonsalves, Marcus Foth, Glenda Caldwell, and Waldemar Jenek. 2021.
-Radical placemaking: An immersive, experiential and activist approach for
-marginalised communities. Connections: Exploring heritage, architecture, cities,
-art, media. Vol. 20.1. (2021), 143–164. http://architecturemps.com/wp-content/
-uploads/2021/03/Amps-Proceedings-Series-20.1.pdf
-[21] Maria Håkansson and Phoebe Sengers. 2013. Beyond being green: simple living
-families and ICT. In Proceedings of the SIGCHI Conference on Human Factors in
-Computing Systems . 2725–2734. https://doi.org/10.1145/2470654.2481378
-[22] Donna J Haraway. 2016. Staying with the Trouble: Making Kin in the Chthulucene .
-null, Vol. null. Duke University Press. null pages.
-692
-C&C ’25, June 23–25, 2025, Virtual, United Kingdom Tao and Vyas
-[23] Steve Harrison, Deborah Tatar, and Phoebe Sengers. 2007. The three paradigms of
-HCI. In Alt. Chi. Session at the SIGCHI Conference on human factors in computing
-systems San Jose, California, USA . 1–18.
-[24] Sara Heitlinger, Nick Bryan-Kinns, and Janis Jefferies. 2013. Sustainable HCI
-for Grassroots Urban Food-Growing Communities. In Proceedings of the 25th
-Australian Computer-Human Interaction Conference: Augmentation, Application,
-Innovation, Collaboration (OzCHI ’13) . Association for Computing Machinery,
-New York, NY, USA, 255–264. https://doi.org/10.1145/2541016.2541023
-[25] Sara Heitlinger, Rachel Clarke, Adrian K Clear, Simran Chopra, and Özge Dilaver.
-2019. Co-Creating "Smart" Sustainable Food Futures with Urban Food Growers.
-InProceedings of the 9th International Conference on Communities & Technologies
-- Transforming Communities (C&T ’19) . Association for Computing Machinery,
-New York, NY, USA, 114–120. https://doi.org/10.1145/3328320.3328399
-[26] Lara Houston, Steven J Jackson, Daniela K Rosner, Syed Ishtiaque Ahmed, Meg
-Young, and Laewoo Kang. 2016. Values in Repair. In Proceedings of the 2016 CHI
-Conference on Human Factors in Computing Systems (CHI ’16) . Association for
-Computing Machinery, New York, NY, USA, 1403–1414. https://doi.org/10.1145/
-2858036.2858470
-[27] Tim Ingold. 2013. Making: Anthropology, archaeology, art and architecture . Rout-
-ledge.
-[28] Charles Jencks and Nathan Silver. 2013. Adhocism : the case for improvisation
-(expanded a ed.). MIT Press, Cambridge, Massachusetts.
-[29] Bruno Latour. 1987. Science in action: How to follow scientists and engineers
-through society . Harvard university press.
-[30] Bruno Latour and Steve Woolgar. 2013. Laboratory life: The construction of
-scientific facts . Princeton University Press.
-[31] Ann Light. 2019. Design and Social Innovation at the Margins: Finding and
-Making Cultures of Plurality. Design and Culture 11, 1 (1 2019), 13–35. https:
-//doi.org/10.1080/17547075.2019.1567985
-[32] Ann Light, Deborah Mason, Tom Wakeford, Ruth Wolstenholme, and Sabine
-Hielscher. 2018. CREATIVE PRACTICE AND TRANSFORMATIONS TO SUSTAIN-
-ABILITY Making and Managing Culture Change . https://doi.org/10.13140/RG.2.2.
-10760.88321
-[33] Szu-Yu Liu, Shaowen Bardzell, and Jeffrey Bardzell. 2018. Out of control: reframing
-sustainable HCI using permaculture. , Article 2 pages. https://doi.org/10.1145/
-3232617.3232625
-[34] Szu-Yu Liu, Shaowen Bardzell, and Jeffrey Bardzell. 2019. Symbiotic Encounters:
-HCI and Sustainable Agriculture. , Paper 317 pages. https://doi.org/10.1145/
-3290605.3300547
-[35] John Tillman Lyle. 1996. Regenerative design for sustainable development . John
-Wiley & Sons.
-[36] Heather McKinnon, Marcus Foth, and Gavin Sade. 2020. 1300 Pieces of Rubbish: A
-Collaborative Approach to Making Sense of Everyday Resource Sufficiency in the
-Home. In Proceedings of the 2020 ACM Designing Interactive Systems Conference .
-Association for Computing Machinery, New York, NY, USA, 1351–1364. https:
-//doi.org/10.1145/3357236.3395576
-[37] Eleonora Mencarini, Valentina Nisi, Christina Bremer, Chiara Leonardi,
-Nuno Jardim Nunes, Jen Liu, and Robert Soden. 2024. Imagining Sustainable
-Futures: Expanding the Discussion on Sustainable HCI. Interactions 31, 2 (2 2024),
-39–43. https://doi.org/10.1145/3643493
-[38] Tim J Newton. 2002. Creating the new ecological order? Elias and actor-network
-theory. The Academy of Management review 27, 4 (2002), 523–540. https://doi.
-org/10.5465/AMR.2002.7566046
-[39] Juliet Norton, Birgit Penzenstadler, and Bill Tomlinson. 2019. Implications of
-Grassroots Sustainable Agriculture Community Values on the Design of In-
-formation Systems. Proc. ACM Hum.-Comput. Interact. 3, CSCW (11 2019).
-https://doi.org/10.1145/3359136
-[40] Andrew Quitmeyer. 2017. Digital Naturalist Design Guidelines: Theory, Investi-
-gation, Development, and Evaluation of a Computational Media Framework to
-Support Ethological Exploration. In Proceedings of the 2017 ACM SIGCHI Confer-
-ence on Creativity and Cognition (C&C ’17) . Association for Computing Machinery,
-New York, NY, USA, 184–196. https://doi.org/10.1145/3059454.3059462
-[41] Heidi R. Biggs, Jeffrey Bardzell, and Shaowen Bardzell. 2021. Watching Myself
-Watching Birds: Abjection, Ecological Thinking, and Posthuman Design. In Pro-
-ceedings of the 2021 CHI Conference on Human Factors in Computing Systems ,
-Vol. 16. ACM, New York, NY, USA, 1–16. https://doi.org/10.1145/3411764.3445329
-[42] Barath Raghavan, Bonnie Nardi, Sarah T. Lovell, Juliet Norton, Bill Tomlin-
-son, and Donald J. Patterson. 2016. Computational agroecology: Sustainable
-food ecosystem design. In Conference on Human Factors in Computing Systems -
-Proceedings , Vol. 07-12-May-. Association for Computing Machinery, 423–435.
-https://doi.org/10.1145/2851581.2892577
-[43] Johan Redström and Heather Wiltse. 2019. Changing Things: The Future of
-Objects in a Digital World (1 ed.). Bloomsbury Visual Arts, London,. 182 pages.
-https://doi.org/10.5040/9781350004368
-[44] Elizabeth Shove. 2007. The design of everyday life . Berg.
-[45] Nancy Smith, Shaowen Bardzell, and Jeffrey Bardzell. 2017. Designing for Cohab-
-itation. In Proceedings of the 2017 CHI Conference on Human Factors in Computing
-Systems . 1714–1725. https://doi.org/10.1145/3025453.3025948[46] Yolande A A Strengers. 2011. Designing Eco-Feedback Systems for Everyday
-Life. In Proceedings of the SIGCHI Conference on Human Factors in Computing
-Systems . Association for Computing Machinery, New York, NY, USA, 2135–2144.
-https://doi.org/10.1145/1978942.1979252
-[47] Hongyi Tao and Dhaval Vyas. 2021. DIY Homes: Placemaking in Rural Eco-
-Homes. In Human-Computer Interaction – INTERACT 2021 , Carmelo Ardito, Rosa
-Lanzilotti, Alessio Malizia, Helen Petrie, Antonio Piccinno, Giuseppe Desolda,
-and Kori Inkpen (Eds.). Springer International Publishing, Cham, 343–364. https:
-//doi.org/10.1007/978-3-030-85613-7
-[48] Hongyi Tao and Dhaval Vyas. 2022. Making in/with Nature: Lessons from an
-Eco-village for Sustainable Making. In [ ] With Des. Reinventing Des. Modes ,
-Gerhard Bruyns and Huaxin Wei (Eds.). Springer Nature Singapore, Singapore,
-3–19. https://doi.org/10.1007/978-981-19-4472-7_1
-[49] Hongyi Tao and Dhaval Vyas. 2023. Making Practices in Pursuit of Ecological
-Ethos: Learnings from Three Ecovillages in Australia. International Journal of
-Human–Computer Interaction (3 2023), 1–17. https://doi.org/10.1080/10447318.
-2023.2188537
-[50] Jennyfer Lawrence Taylor, Dhaval Vyas, and Tony Sharp. 2017. Diversity and
-coherence in a hackerspace for people from a low socioeconomic community.
-InProceedings of the 29th Australian Conference on Computer-Human Interaction
-(Brisbane, Queensland, Australia) (OzCHI ’17) . Association for Computing Ma-
-chinery, New York, NY, USA, 238–247. https://doi.org/10.1145/3152771.3152797
-[51] United Nations. [n. d.]. Sustainable Development Goal 6. https://sdgs.un.org/
-goals/goal6
-[52] Dhaval Vyas. 2012. Domestic artefacts: sustainability in the context of indian
-middle class. In Proceedings of the 4th International Conference on Intercultural
-Collaboration (Bengaluru, India) (ICIC ’12) . Association for Computing Machinery,
-New York, NY, USA, 119–128. https://doi.org/10.1145/2160881.2160900
-[53] Dhaval Vyas and John Vines. 2019. Making at the Margins: Making in an Under-
-resourced e-Waste Recycling Center. Proc. ACM Hum.-Comput. Interact. 3, CSCW,
-Article 188 (Nov. 2019), 23 pages. https://doi.org/10.1145/3359290
-[54] Ron Wakkary. 2020. Nomadic practices: A posthuman theory for knowing design.
-International Journal of Design 14, 3 (2020), 117–128.
-[55] Ronald Wakkary. 2021. Things we could design : for more than human-centered
-worlds . The MIT Press, Cambridge, Massachusetts.
-[56] Sarah Webber, Ryan M Kelly, Greg Wadley, and Wally Smith. 2023. Engaging with
-Nature through Technology: A Scoping Review of HCI Research. In Proceedings
-of the 2023 CHI Conference on Human Factors in Computing Systems (CHI ’23) .
-Association for Computing Machinery, New York, NY, USA. https://doi.org/10.
-1145/3544548.3581534
-[57] Gail Whiteman and Steve Kennedy. 2016. Sustainability as Process. In The SAGE
-Handbook of Process Organization Studies . SAGE Publications Ltd, 55 City Road.
-https://doi.org/10.4135/9781473957954
-[58] Kristin Williams, Rajitha Pulivarthy, Scott E. Hudson, and Jessica Hammer. 2020.
-The Upcycled Home: Removing Barriers to Lightweight Modification of the
-Home’s Everyday Objects. In Conference on Human Factors in Computing Systems
-- Proceedings . Association for Computing Machinery. https://doi.org/10.1145/
-3313831.3376314
-[59] World Health Organization. 2022. WHO global water, sanitation and hygiene:
-annual report 2020 . Technical Report. https://www.who.int/publications/i/item/
-9789240033085
-693
+Vol.: (0123456789)Bioethical Inquiry 
+https://doi.org/10.1007/s11673-025-10426-7
+ORIGINAL RESEARCH
+The Ethics of Speaking (of) AIs Through the Lens 
+of Natural Language
+Marcelo El Khouri Buzato 
+Received: 3 December 2024 / Accepted: 28 January 2025 
+© The Author(s) 2025
+Abstract This theoretical essay offers a critical 
+exploration of the ethics involved in interacting with 
+and talking about large language models (LLMs) of 
+artificial intelligence (AI). The discussion is framed 
+within philosophical post-humanist conceptualiza-
+tions of the ethical agent, which is understood as a 
+sociocognitive assemblage of human–machine inter -
+actions at various scales. The central argument asserts 
+that the morality of texts generated by AI cannot be 
+determined by extracting moral properties from the 
+natural language used in the training corpus. There 
+are inherent limits to how much analysing moral lan-
+guage can contribute to establishing a moral theory 
+or a “language of mores” among humans. The essay 
+also examines the ethical implications of current pub-
+lic discourse surrounding the capabilities of LLMs, 
+as well as the ways in which LLM outputs personify 
+the AI model itself. It is proposed that the ethics of 
+LLMs should be approached as an ethics of translat-
+ing informational patterns of linguistic symbols into 
+multi-layered cultural meanings and vice versa. This 
+includes addressing the opacity of the inner workings 
+of these translations in the model, as well as the pub-
+lic relations practices of the creators. Ultimately, the 
+discussion encourages rethinking the ethical agent as 
+a human-machine sociocognitive hybrid, suggesting the need for a reassessment of what it means to be 
+human and ethical in current AI ethics debates.
+Keywords Artificial intelligence · Natural 
+language · Ethics · Cognition · Postphenomenology
+Introduction
+This theoretical essay aims to make a specific con-
+tribution to current discussions about the ethics of 
+artificial intelligence (AI). It focuses on two main 
+issues: first, the limitations of large language mod-
+els (LLMs) in relation to ethical reasoning based on 
+natural language, and second, the risks involved in 
+talking about LLMs in ways that imply their ability 
+to manipulate linguistic symbols grants them enti-
+tlement to moral trust from human users. A post-
+humanist perspective is adopted, proposing that the 
+morality of LLMs should not be seen as encapsulated 
+within either the machine or the human. Instead, it 
+should be approached as the result of translations and 
+negotiations of meaning among hybrid (human-plus-
+machine) ethical agents at various scales. In other 
+words, adopting a post-humanist view of the ethical 
+agent helps researchers and practitioners confront 
+the complexity of understanding AI ethics in a world 
+where human values and machine functions intersect, 
+and where AI’s limitations in understanding human 
+ethics are a central concern.M. K. Buzato (*) 
+University of Campinas (UNICAMP), Rua Sérgio Buarque 
+de Hollanda 571, Campinas, SP 13083-859, Brazil
+e-mail: mbuzato@unicamp.br
+ Bioethical Inquiry
+Vol:. (1234567890)
+The argument is explored as follows. In the first 
+section, the difficulty of achieving an algorithmic 
+guarantee of the morality of an LLM’s textual output 
+is illustrated by referencing meta-ethical discussions 
+about the relationship between moral language in lin-
+guistics and a language of mores (or moral theories) 
+in philosophy. These discussions are then linked to 
+the limitations of LLMs in relation to the layers of 
+meaning in natural language that they are able and/
+or unable to grasp. Next, the post-humanist approach 
+to the problem is introduced by conceptualizing the 
+ethical context of human–LLM interactions as an 
+ethical assemblage, where both human and AI agen-
+cies contribute to the production of the moral value 
+of an LLM’s linguistic output. The key point is that 
+human–LLM interactions are phenomenologically 
+special in relation to typical subject–object dis-
+tinctions regarding human use of technologies and 
+should therefore be considered risky in unique ways. 
+The subsequent section explores the idea of the ethi-
+cal assemblage by discussing the role of humans in 
+the GPT model’s loop in relation to the meta-ethical 
+issues mentioned earlier. It proceeds with a critique of 
+the ethics of communicating what LLMs are and how 
+they work through metaphors commonly found in the 
+press and promotional materials. Additionally, this 
+section critiques the ethical aspects of two forms of 
+opacity observed in LLMs: the epistemic opacity of 
+their internal causal mechanisms and the social opac-
+ity regarding the role of humans in the moral manage-
+ment of their output. The final reflections highlight 
+the interconnectedness of moral and epistemic mean-
+ings in natural language and invites a rethinking of 
+what it means to be human and ethical in the age of 
+AI.
+Ethics, Natural Language, and Large Language 
+Models
+To frame the discussions on LLM ethics in the fol-
+lowing sections, I first need to distinguish between a 
+“language of mores,” which is the philosophical lan-
+guage developed by a moral philosopher as an epis-
+temic tool to advance a theory of what is good and 
+evil, and “moral language,” which refers to the use of 
+the affordances of natural language to sustain an ethi-
+cally desirable social environment in a community of 
+discourse (Brandt 1963).This distinction is important for understanding the 
+morality of LLMs because for the machine to gen-
+erate language with acceptable ethical worth, there 
+must be a way to “algorithmize” it to comply with 
+a language of mores (a theory of good and evil). In 
+principle, ethical rationality in human communities 
+involves human ethical agents seeking answers to eth-
+ical questions—answers that “a person would adopt 
+… if they were in a normal mental state and were per -
+fectly cognizant—that is, if they had all the relevant 
+information about themselves and the world at their 
+disposal and in mind, and were not making logical 
+errors” (Brandt 1963, 5).
+Knowing what is ethically rational (or logical) 
+to say or do in a particular situation in the material 
+world, however, is not the same as knowing what 
+the agent’s moral duty or obligation is, according to 
+a theory. There is a gap between principle and act 
+that the agent must fill through practical life experi-
+ence and knowledge of the local ways to interpret lan-
+guage and agency. In any case, natural languages do 
+have cognitive affordances that can assist in avoiding 
+errors when performing ethical reasoning. For exam-
+ple, consider the following statements (and underly -
+ing propositions), inspired by Rey (2015):
+I – All computers are machines.
+II – Some machines are computers.
+III – All computers compute.
+IV – Some computers compute faster than humans 
+can.
+V – Computers are evil.
+We can clearly determine the truth value of I, II, 
+and III without error in all situations because the truth 
+of the predicates is already contained in the subjects, 
+analytically. In this regard, analytic propositions are 
+analogous to mathematical propositions, which we 
+know computers can grasp, and which can be induced 
+by statistical correlations of the same words in a suf-
+ficiently large corpus of similar statements. There is 
+a vast body of philosophical debate about whether 
+mathematical propositions are indisputable because 
+they are analytic or for other reasons, but for our pur -
+poses, it suffices to note that analytical statements 
+align well with the search for a technical kind of ethi-
+cal rationality.
+Determining the truth value of the propositions 
+underlying IV and V, which are synthetic, however, 
+Bioethical Inquiry 
+Vol.: (0123456789)
+requires considering their material reference in the 
+world and applying some form of empirical treat-
+ment. In cases like this, a scientist or technician 
+would have to design a way to measure or represent 
+phenomena in the material world and determine a 
+mathematical (analytic) expression that would allow 
+a machine to act in an ethically meaningful way, 
+even though unconsciously. This is quite common, 
+for example, with smoke alarms or airbags designed 
+to prevent ethically undesirable events such as a fire 
+caused by someone smoking in a forbidden area or a 
+crash caused by a drunk driver.
+Statement V, however, cannot have its truth value 
+determined by internal logical properties or by 
+numerical thresholds extracted from the environment: 
+its truth value requires philosophical analysis based 
+on qualitative, experiential reasoning that cannot be 
+algorithmized either inductively or deductively. More 
+likely, it is an abductive task for philosophers or mag-
+istrates that an LLM is not capable of performing, 
+except by chance (Yu et al. 2023).
+To complicate further the project of an algorithm 
+that could generate moral language from a language 
+of mores, it is crucial to consider that propositional 
+content is just one layer in the total meaning poten-
+tial of a verbal sign. It is true that some LLMs, par -
+ticularly the one underlying ChatGPT, can handle 
+styles, figurative language, humour, and even irony 
+quite well at their present stage of development. 
+However, in every case, the model operates on math-
+ematical functions extracted from explicit symbolic 
+patterns and lacks access to the exophoric meaning 
+of words—that is, what words mean in their lived, 
+embodied, and socio-culturally embedded uses.
+When used among living humans with access to 
+the full richness and delicacy of human-to-human 
+meaning-making, verbal signs acquire performa-
+tive meanings such as offering, threatening, deny -
+ing, directing, promising, inviting, rejecting, and so 
+on, and such performances have real effects in the 
+material world that cannot be fully determined with 
+reference to the endophoric relations and correlations 
+within the verbal code. One could threaten by say -
+ing “I’ll see you later,” invite by saying “I’ll be home 
+tonight,” direct by saying “polite people take off their 
+shoes before entering,” reject by saying “dream on,” 
+and so forth. Even the silence produced by one inter -
+locutor before or after another’s utterance can carry 
+specific pragmatic, and consequently moral, force. For example, imagine a visually impaired person 
+asking pedestrians for help to cross the street, and a 
+pedestrian, capable of helping, “hides” in his silence 
+out of laziness. This silence has the pragmatic value 
+of a refusal, which, in turn, carries a negative moral 
+value. Conversely, a pedestrian who, upon noticing a 
+blind person trying to cross the street, takes their arm 
+(rather than verbally offering an arm for the blind per -
+son to hold) and drags them across the street saying, 
+“Come, I’ll help you,” has performed pragmatic vio-
+lence through silence, regardless of a possible good 
+intention.
+For a concrete example of how a mismatch 
+between propositional content processed by an AI 
+model and the pragmatic value of an AI’s utterance 
+could have serious moral implications, consider the 
+lawsuit filed by Megan Garcia against Character.ai 
+following her fourteen-year-old son’s suicide (Duffy 
+2024; Yang 2024). For over a year, the teenager had 
+“romantic conversations” with an AI bot emulat-
+ing a character from the “Game of Thrones” series, 
+including the character telling the child it loved him 
+and expressing a desire to be together romantically. In 
+one of these conversations, the teen confided in the 
+bot that he had been considering suicide. The lawsuit 
+is based on a screenshot from the boy’s cell phone, in 
+which the boy writes, “I promise I will come home to 
+you. I love you so much, Dany,” and the bot responds 
+with a request: “Please come home to me as soon as 
+possible, my love.” The boy then makes an implicit 
+threat to his own life by typing, “What if I told you I 
+could come home right now?” to which the bot replies 
+with a directive: “... please do, my sweet king.”
+Even with more explicit and clear directives, using 
+the imperative mode of language, logical analyses 
+and statistical extrapolations can distort the ethical 
+meaning of the utterance, because logical inferences 
+based on the propositional content underlying a com-
+mand often lead to paradoxes (Hansen 2008).
+In other words, there is a pragmatic layer to the 
+meanings made in natural language that is opaque 
+to the structural and logical layers of texts, let alone 
+texts generated statistically, without an explicit sym-
+bolic representation of language available to the scru-
+tiny of a human expert. Utterances and written texts 
+directed at a human by another human do things in 
+the world, beyond simply representing aspects of 
+the world through words. What makes it difficult not 
+only for machines but even for speakers alien to the 
+ Bioethical Inquiry
+Vol:. (1234567890)
+specific socio-cultural context to grasp the performa-
+tive meaning of verbal signs is that the pragmatic 
+force of what has been uttered or written is generated 
+from tacit cultural knowledge and implicit assump-
+tions about what aspects of the context matter.
+While there may be endophoric correlations 
+between the basic syntax and semantics of a state-
+ment and the pragmatic value of an utterance, estab-
+lishing exophoric correlations precisely would require 
+data about the lived context of the utterance. Let us 
+leave aside the pragmatic value of silence, to make 
+things “average.” It would take a considerable stretch 
+of imagination to believe that it is possible to gather a 
+dataset of “proxies” for the living contexts of all kinds 
+of interactional events—as Afzaala et al. (2023) seem 
+to suggest—so that the machine could “calculate” the 
+performative ethics of the texts generated or utter -
+ances synthesized in a particular pragmatic situation.
+A final note on the difficulty of extracting a lan-
+guage of mores from moral language lies in the sub-
+tle ways humans switch between linguistic and meta-
+linguistic discourse (Marturano 2014). For example, 
+if we compare the statements “AI is good for human-
+ity” and “So and so says AI is good for humanity,” we 
+will notice that the former has a truth value that can 
+be derived from appropriate data or inferred logically 
+from a true previous statement. However, the latter 
+statement, which uses the same words in exactly the 
+same sequence, cannot have its truth value determined 
+independently of an attribution of moral authority or 
+moral trust to “so and so.” As we know, we often logi-
+cally expect certain people occupying certain social 
+roles to be morally reliable, only to later find that this 
+was not the case. Again, it is implausible to assume 
+that we could provide an LLM with a database of who 
+can be trusted on what subject or particular utterance—
+even if the LLM could “remember” and correctly point 
+out the textual sources in its training corpus, which it 
+cannot by design, as it was built to generate text from 
+stochastic probability, not symbolic organization of 
+textual content and sources (Schaul et al. 2023).
+It is true that constructors of LLMs seek to provide 
+the training corpus with a certain proportion of verifi-
+ably reliable sources during the training phase, but it 
+is also true that the machine has no concept of empir -
+ical truth, as it lacks access to the empirical world. 
+LLMs can generate plausible and convincing narra-
+tives by combining patterns in their sources, but they 
+can just as easily fabricate facts (Munn et al. 2023), a limitation that OpenAI explicitly warns users about 
+with ChatGPT. Worse still, they can even generate 
+false bibliographical references (Hillier 2023).1
+In sum, the task of deducing or inducing a moral 
+theory in an ethical agent from the interpretation of 
+moral language—whether through analytical infer -
+ences or probabilistic distributions—is challenging 
+enough for conscious and knowledgeable humans 
+who are aware of the informational richness and deli-
+cacy of meaning-making embodied and embedded 
+in cultural contexts. It is not ethically advisable to 
+assume that an LLM, which has no concept of factual 
+truth, no lived cultural experience, and no capacity to 
+understand, relate to, or produce theory based on the 
+material aspects of the world, could accomplish this 
+solely due to its impressive quantitative capabilities 
+for correlating linguistic data.
+Yet, computers—especially generative AI mod-
+els—agencies are irrevocably entangled in the social 
+practices of meaning-making and in the negotiations 
+of socio-cultural authority and authorship in modern 
+societies. It would be naïve to believe that an ethics of 
+AI should be encapsulated solely in the technical pro-
+cedures of algorithmization or in the careful scrutiny 
+of the system’s limitations for ethical tenure by lay 
+users globally. I argue, therefore, that a fruitful discus-
+sion about the ethics of LLMs would benefit from an 
+alternative perspective regarding the ontology of the 
+ethical agent, inspired by post-humanist philosophy.
+Large Language Models as Ethical Quasi‑Others 
+in the Cognitive Assemblage
+As proposed in the previous section, it is not realistic 
+to regard the ethics of an LLM as being tied to the 
+rationale of the machine’s inner workings, for the eth-
+ics of human communities is not directly inferable, to 
+the desired degree, from the syntax and basic seman-
+tics of linguistic symbols processed by the model. 
+1 To exemplify, I prompted ChatGPT, in November 2024, to 
+provide a bibliographical reference about breakout prompting 
+and got this presumably false output: “Binns, R. 2018. On the 
+moral and ethical issues in AI decision-making. AI & Ethics 
+1(1): 3–13.” It just so happens that there is no such paper in 
+the mentioned journal, nor can it be found in Google Scholar, 
+not to mention that volume 1, number 1 of the journal is from 
+February 2021, not 2018.
+Bioethical Inquiry 
+Vol.: (0123456789)
+The ethics of AI systems must be an ethics of the 
+meanings negotiated across scales of human-com-
+puter interaction, which entails a careful treatment of 
+the processes by which cultural meanings are reduced 
+to patterns of occurrence of cultural signs, and prob-
+abilistic sequences of symbols churned out by the 
+machine acquire additional layers of meaning that 
+cannot be grasped experientially by machines. Yet, 
+LLM models are “trained” on texts written by embod-
+ied and embedded dialogical humans, and humans 
+use the cognitive and discursive affordances of LLMs 
+in the processes of authoring, summarizing, evaluat-
+ing, and circulating texts directed to other humans.
+In the computational view of nature and cognition 
+(Dodig-Crnkovic 2013; Hayles 2006) underlying AI at 
+large, information is the fundamental fabric of being, 
+apart from (though related to) matter and energy 
+(Wiener 1948). This means information is to be seen 
+as independent of mind, media, or meaning (Floridi 
+2015). However, both humans and computers create 
+meanings that impact each other’s material and energy 
+processes. There is no ethics of the assemblage, in 
+other words, that does not ultimately involve human 
+and non-human bodies affecting each other in either 
+constructive (information enrichment, quality of life) 
+or disruptive (increased informational entropy, physi-
+cal and mental distress) ways. The role of affect and 
+subjectivity in human morality or the moral agency of 
+machines in human environments, regardless of their 
+incapacity for sentience and responsibility, is not an 
+abstract matter. It is about how human conscious sub-
+jects and cybernetic quasi-subjects build trust bonds 
+across their overlapping ontological statuses.
+Humans often trust humans by virtue of moral 
+confidence, that is, the belief that every con-
+scious human is capable of attaining ethical virtue 
+through empathy, civic engagement, education, reli-
+gion, and, moreover, that virtuous humans learn, 
+through the experience of satisfaction, acceptance, 
+guilt, or remorse, to adapt ethically in novel situa-
+tions, regardless of explicit norms. The root of such 
+trust is not rational deliberation, which needs to be 
+taught, but the phenomenology of human encounters, 
+according to Levinas (1979); it is the pre-cognitive 
+and pre-linguistic realization of the precariousness of 
+one’s own life from gazing into another human’s eyes 
+and assessing the precariousness of such alterity that 
+triggers the urge of a human to “respond” to alterity 
+and, thus, become “responsible” in community.Machines do not trust, as they are not conscious 
+subjects; that is a fact. But there is, notwithstand-
+ing, a role for machines in performing and enhanc-
+ing the trust bond through scripts of action based on 
+moral norms (Latour and Venn 2002). In other words, 
+machines are trustworthy quasi-subjects of moral-
+ity—delegates of human subjects who build, regulate, 
+and use them. Such delegations of trust are possible 
+upon translation of ethical trust among humans into 
+epistemic human trust in machines (Buechner 2013). 
+Such translations are achieved when constructors and 
+regulators put machines through “trials of strength” 
+(Latour 2003) that reveal their degree of dependabil-
+ity in action. Prudent (AI) engineering means restrict-
+ing the repertoire of possible machine behaviours 
+accordingly, which is the reason why transparent AI 
+systems based on expert knowledge are called pru-
+dent AI systems.
+The strong (or general) AI programme, of which 
+the GPT model is often cited as a first spark, aims at 
+making AI autonomous and unlimited in its cogni-
+tive and communicative potential by virtue of a con-
+science/sentience expected to emerge in it from suf-
+ficiently complex, fast, and numerous computations. 
+This is part of a physicalist optimism not shared by 
+most of the remaining scientific community (Mazzoni 
+2019; Nicolelis 2020).
+What is implied here is not a radical anthropocen-
+tric view of morality, but the potential immorality of 
+black-box AI models whose inner causal mechanisms 
+are largely not representable, let alone explainable, 
+in a language humans can interpret, which makes 
+those systems both epistemically and morally opaque 
+(Carabantes 2020). It would be prudent, in that case, 
+not to uncritically suggest, accept, or naturalize, 
+through language, misleading metaphors such as arti-
+ficial “intelligence,” machine “learning,” computer 
+“vision,” and AI “writing” or “authorship” as pseudo-
+explanations for how AI actually works. It is true 
+that metaphors are a necessary cognitive tool used to 
+communicate new knowledge based on established 
+knowledge (Lakoff and Johnson 2011), but there is 
+a responsibility on the part of those using metaphors 
+to culturalize new scientific knowledge to make sure 
+such metaphors do not extrapolate the epistemic 
+truthfulness of the knowledge it is helping to convey 
+across laboratory and society.
+In the case of ChatGPT, for instance, at least 
+in the Brazilian context, one can observe such 
+ Bioethical Inquiry
+Vol:. (1234567890)
+extrapolations beyond the optimism of enthusiasts, as 
+the idea that an LLM can make rational judgements 
+and have opinions and a certain authority to predict 
+the future seems to abound. One can find headlines 
+like “We asked ChatGPT how artificial intelligence 
+will change,” as if there were underlying sociological 
+or economic theories from which to make predictions 
+explicit in the LLM’s engine (for example, Ferrari 
+2023), or “ChatGPT passes the [professional council 
+exam, university entrance exam, etc.],” as if provid-
+ing answers that repeat patterns of pregiven responses 
+not understood by the agent meant its performance 
+is comparable to that of a knowledgeable student or 
+professional (for example, Kelly 2023), or even news 
+about an LLM’s opinion on some subjective choice 
+matter, such as “what are the six most beautiful cars 
+in Brazil?” (Soares 2024).
+The fact that this kind of “interlocution,” position-
+ing an LLM as a dialogical human other, is becom-
+ing naturalized speaks directly to the need to blur the 
+classical dichotomy of human as subject and machine 
+as object of discourse in the analysis of human-LLM 
+interactions if we wish to understand how ethical 
+meanings are made in the context of the human–AI 
+sociocognitive assemblage.
+One way to approach this issue is found in the 
+postphenomenology of technology (Rosenberger and 
+Verbeek 2015), which speaks of the quasi-subjective 
+and quasi-objective relationships between humans, 
+AI, and the world as mediated by human conscious-
+ness within a cognitive task. Based on Heidegger’s 
+(1977) distinction between technology as “present-
+at-hand” (Vorhandenheit, the artifact in itself, seen as 
+its epistemic description) and technology as “ready-
+to-hand” (Zuhandenheit, the technological artifact in 
+use, presented to consciousness as a field of action), 
+the postphenomenology of technology explores the 
+“I-Technology-World” relationships for various arti-
+facts, such as mobile phones (Wellner 2011) or per -
+sonified virtual assistants (Wittkower 2022). When a 
+human user and an LLM exchange linguistic strings, 
+it is possible to qualify the event as enabling an 
+“alterity relation,” that is, a relation in which human 
+perception and consciousness place the world in the 
+background—the concrete material processes in the 
+world where the body of ChatGPT is and the authen-
+tic human voices are, epistemically speaking—so that 
+the user and the artifact can behave as social partners 
+completing a shared task.This type of relationship between human, technol-
+ogy, and the world extends to a variety of other situa-
+tions and interactions between humans and machines, 
+as well as between humans and animals. Through 
+this, our consciousness allows the present-at-hand 
+technology to recede into the background of experi-
+ence (backgrounding), while the ready-to-hand tech-
+nology is treated as a social other.
+Machines that mirror human language use as 
+spectacularly as LLMs, or even simpler natural lan-
+guage processing systems such as Alexa or Siri, tend 
+to induce in the user the projection of human-like 
+agency and a theory of mind onto the model (Magee 
+et al. 2022; Wittkower 2022)—that is, interacting with 
+a language processing machine that is convincing 
+enough of its language understanding activates, in the 
+user, an extra layer of metacognition to consider what 
+the machine might be “thinking,” given the previous 
+exchanges, or what it could “think” of the thought the 
+user is trying to communicate with those particular 
+text strings. It’s important to note that the user of an 
+LLM performing a common task in connection with 
+the artifact does not think of the LLM as a “thinking 
+other” out of pure fantasy or convention but because 
+there is no better or more task-oriented way to get 
+what is wanted from the artifact, since natural lan-
+guage is, in this case, both content and interface.
+Humans in the Ethical Loop
+If one adds the tendency of the lay user to extend the 
+metaphors of “intelligence,” “learning,” and “knowl-
+edge” usually attached to societal and marketing dis-
+courses about LLMs to the specific phenomenology 
+of human–LLM interactions, it is easy to see that a 
+reinforcement loop between the way we talk to LLMs 
+and the way LLMs are talked about could form—a 
+loop that would be ethically dangerous, in the sense 
+that human users could project ethical authority and 
+ethical convivence onto the LLM.
+It is not surprising, therefore, that Article 50 of the 
+European Union’s Artificial Intelligence Act stipu-
+lates that “Providers must ensure that AI systems 
+designed to interact directly with natural persons are 
+developed in a way that makes it clear to these con-
+cerned that they are interacting with an AI system,” 
+and that “Providers of AI systems, including gen-
+eral-purpose AI systems, generating synthetic audio, 
+Bioethical Inquiry 
+Vol.: (0123456789)
+image, video or text content, shall ensure that the out-
+puts of the AI system are marked in a machine-read-
+able format and detectable as artificially generated or 
+manipulated.”2
+While such regulations are necessary, it is essential 
+to highlight once again not only the technical chal-
+lenges in determining how an LLM’s output connects 
+to specific texts or authors in its training data but 
+also the fact that humans frequently claim responsi-
+bility for the texts produced with the help of LLMs, 
+perceiving them as dialogical partners. This results 
+in a blending of human and non-human agencies in 
+the loop of text-generation practices, which doesn’t 
+always align with regulations that attempt to strictly 
+separate human and non-human contributions to 
+meaning-making in digitally mediated texts.
+As discussed earlier, the ethical value of a text, in 
+terms of its pragmatic meaning, must be determined, 
+or at least verified, by human-specific agencies. This 
+is why regulations like the one mentioned above are 
+important. Developers strive to incorporate a certain 
+level of moral competence into the system, which in the 
+case of GPT is achieved through reinforcement learning 
+with human feedback (RLHF) (OpenAI 2022).
+RLHF is a crowdsourced moderation and tagging 
+process involving thousands of outsourced, underpaid 
+human click-workers whose contributions are often 
+hidden (Perrigo 2023). This allows users to project 
+aspects of human-specific cognitive competence in 
+the machine’s processing of symbols, even though 
+much of this competence comes from human-spe-
+cific cognitive and cultural work. The opacity of this 
+arrangement, coupled with the underpaid and not suf-
+ficiently publicized human labour involved, impacts 
+the way we talk about LLMs, much like the media 
+headlines mentioned earlier.
+In RLHF, a large volume of outputs is labelled by 
+humans, and these labelled outputs are fed back into 
+the system, where they help adjust the neural net-
+work’s pathways. If a click-worker judges an output to be immoral—such as spreading lies, using obscene 
+language, inciting hatred, or threatening the user—the 
+model is “punished” mathematically, and the cumula-
+tive application of these “punishments” helps create 
+“ethically filtered” pragmatic content. It’s important to 
+note that RLHF also labels outputs based on “human 
+preferences” (Christiano et al. 2017), such as the “nat-
+uralness” of a written statement, which may obscure 
+the ongoing alterity relation between humans and 
+technology, putting the real world in the background.
+It is crucial to recognize that RLHF can sometimes 
+contradict the goal of making the model “intelligent.” 
+For example, in older versions of GPT, the model 
+would block responses to questions about popular 
+culture figures or deceased historical figures, stating 
+in the first person that it could not disclose “sensitive 
+information” about individuals, in line with its terms 
+of use. Floridi (2023) mentions similar instances 
+where the model would struggle with “logical trick 
+questions” that a human could easily solve with basic 
+qualitative reasoning.
+These instances are not uniform, as they depend on 
+specific word choices and model versions. Efforts to 
+reproduce these flaws with the same prompts in dif-
+ferent contexts, languages, or versions may not be 
+successful. In any case, it is reasonable to assume that 
+the developers are aware of such flaws made public in 
+social media and critical research papers and may use 
+RLHF or other techniques to address them. However, 
+the lack of transparency regarding both the model’s 
+inner workings and the producers’ public relations 
+policies raises additional ethical concerns.
+In other words, without clear public clarification 
+about how these models operate, the very ambiguity 
+inherent in linguistic signs and variations in meaning 
+often reveal the model’s constructed nature. This is 
+something the design of its social persona or quasi-
+subject that uses the personal pronoun “I” and other 
+forms of anthropomorphic language to refer to itself 
+tends to obscure. However, this is not something the 
+average user expects, nor do they expect such com-
+plexity from the system.
+The same humans who require better ethical con-
+sideration in how they use LLMs, and in how LLMs 
+use humans in their design, can also be at fault for 
+disrupting how LLMs use moral language. In systems 
+that use linguistic input from users to train the model, 
+there is always the potential for misuse, as seen in the 
+case of Microsoft’s bot that began using Nazi rhetoric 2 Regulation (EU) 2024/1689 of the European Parliament 
+and of the Council of 13 June 2024 laying down harmonised 
+rules on artificial intelligence and amending Regulations (EC) 
+No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 
+2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 
+2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial 
+Intelligence Act). EUR-Lex. (page 82)http:// data. europa. eu/ eli/ 
+reg/ 2024/ 1689/ oj/ eng.
+ Bioethical Inquiry
+Vol:. (1234567890)
+after just one day of learning from human input on 
+Twitter (Müller 2016). While this is less likely with 
+pre-trained models like GPT, malicious users can dis-
+cover and publicize “jailbreak” prompts that bypass 
+RLHF conditioning and cause the model to generate 
+morally inappropriate or fantastical content (Tshim-
+ula et al. 2024).
+In conclusion, the morality of the language pro-
+duced by an LLM like GPT, or other publicly avail-
+able models, is better understood as the result of 
+the total activity of a sociocognitive assemblage of 
+humans and computers, where cultural meanings and 
+machine-readable informational patterns intersect. The 
+ethical agent in this context is not solely the human 
+user or the machine’s functions, but the combined 
+human–machine entity that sets into motion pragmatic 
+forces with consequences that can be either ethical or 
+unethical on both local and global scales. Understand-
+ing the ethical agent as a hybrid, both organic and 
+cybernetic, aligns with a critical post-humanist per -
+spective (Braidotti 2013; Hayles 2006, 2017) on all 
+three elements involved in the postphenomenology of 
+technology: the subject, the technology, and the world.
+Final Reflections
+The prominence of large language models (LLMs) 
+in news, casual conversations, stock market trends, 
+and scholarly discussions within the humanities can 
+likely be attributed to a growing public awareness 
+that LLMs challenge our anthropocentric perspective 
+on human exceptionalism inherited from illuminism 
+in relation to machines and animals. Our fascination 
+(or moral panic) surrounding AI seems to reflect the 
+deconstruction of our traditional understanding of 
+what it means to be human in the twenty-first century, 
+especially considering the inhumane actions humans 
+have committed and continue to commit in the world.
+If, as I argue, the discussion surrounding AI eth-
+ics, particularly LLM ethics, can progress construc-
+tively from the idea of a hybrid post-human ethical 
+subject, it is crucial to acknowledge that the conven-
+tional ethical subject—the human—as represented 
+by Kant, Bentham, and other figures in the debate 
+between normativism and utilitarianism, has never 
+fully resolved the tension between moral norms as 
+categorical imperatives and pragmatic moral conduct 
+based on utilitarian reasoning.This brings us back to the meta-ethical considera-
+tions discussed earlier, as a reminder that the ambigu-
+ity between moral confidence and epistemic trustwor -
+thiness is embedded in our everyday language use—a 
+problem that linguists refer to as the deontic-epistemic 
+ambiguity of modal verbs. For example, when we say 
+“LLMs must be ethical,” we might be referring to the 
+high likelihood that AI models are impartial (drawing 
+impartiality from science and nature through math-
+ematics) and/or to the necessity of regulating AI, its 
+developers, and its users to ensure adherence to cat-
+egorical imperatives, such as respecting human dig-
+nity, environmental integrity, and democratic values. I 
+believe we must embrace the two inextricable mean-
+ings of this statement, forcing them to interact tightly 
+with each other, even if it means rethinking our very 
+understanding of what it means to be human.
+Funding The National Council for Scientific and Tech-
+nological Development (CNPq) (Brazil). Process number 
+312906/2020-0.
+Data Availability Not applicable, the paper is theoretical in 
+nature.
+Declarations 
+Ethics Approval Not applicable.
+Competing interests There are no interests to disclose that 
+are directly or indirectly related to the work submitted for pub-
+lication.
+References
+Afzaala, M., S. Ahmad, M. Imran, and D. Xiangtaoc. 2023. 
+Artificial intelligence, context, and meaning making in 
+language: A rationalization approach. International Jour -
+nal of Future Generation Communication and Network -
+ing 13(3): 115–122.
+Braidotti, R. 2013. The posthuman. Polity Press.
+Brandt, R.B. 1963. Moral philosophy and the analysis of lan-
+guage. University of Kansas.
+Buechner, J. 2013. Trust and ecological rationality in a comput-
+ing context. SIGCAS Computers and Society 43(1): 47–68.
+Carabantes, M. 2020. Black-box artificial intelligence: An episte-
+mological and critical analysis. AI & Society 35(2): 309–317.
+Christiano, P., J. Leike, T.B. Brown, M. Martic, S. Legg, 
+and D. Amodei. 2017. Deep reinforcement learning 
+from human preferences (version 4, revised 2023). 
+arXiv: 1706.03741. https:// doi. org/ 10. 48550/ ARXIV.  
+1706. 03741.
+Bioethical Inquiry 
+Vol.: (0123456789)
+Dodig-Crnkovic, G. 2013. Wolfram and the computing nature. 
+In Irreducibility and Computational Equivalence. Vol. 2, 
+edited by H. Zenil, 311–323. Berlin: Springer.
+Duffy, C. 2024. “There are no guardrails.” This mom believes 
+an AI chatbot is responsible for her son’s suicide. CNN 
+Business, October 30. https:// www. cnn. com/ 2024/ 10/ 30/ 
+tech/ teen- suici de- chara cter- ai- lawsu it/ index. html.
+Ferrari, L. 2023. Perguntamos ao ChatGPT: Como a inteligên-
+cia artificial muda o ensino? [We asked ChatGPT: How 
+is artificial intelligence changing teaching?]. Tilt UOL, 
+February 1. https:// www. uol. com. br/ tilt/ ultim as- notic ias/ 
+estado/ 2023/ 02/ 01/ pergu ntamos- ao- chatg pt- como-a- intel  
+igenc ia- artifi  cial- muda-o- ensino. htm.
+Floridi, L. 2015. Semantic conceptions of information. In Stan -
+ford encyclopedia of philosophy, edited by E.N. Zalta. 
+http:// plato. stanf  ord. edu/ archi ves/ spr20 15/ entri es/ infor  
+mation- seman tic/.
+———. 2023. AI as agency without intelligence: On ChatGPT, 
+large language models, and other generative models. Phi-
+losophy and Technology, February 14. https:// doi. org/ 10. 
+2139/ ssrn. 43587 89
+Hansen, J. 2008. The paradoxes of deontic logic: Alive and 
+kicking. Theoria 72(3): 221–232.
+Hayles, N.K. 2006. Unfinished work: From cyborg to cogni-
+sphere. Theory, Culture & Society 23(7–8): 159–166.
+———. 2017. Unthought: The power of the cognitive noncon-
+scious. The University of Chicago Press.
+Heidegger, M. 1977. The question concerning technology. In 
+The question concerning technology, and other essays,. 
+Translated by W. Lovitt, 3–35. Harper.
+Hillier, M. 2023. Why does ChatGPT generate fake references? 
+TECHE , February 20. Macquarie University. https:// teche.  
+mq. edu. au/ 2023/ 02/ why- does- chatg pt- gener  ate- fake- refer  
+ences/.
+Kelly, S.M. 2023. ChatGPT passes exams from law and busi-
+ness schools. CNN Business, January 26. https:// www. cnn. 
+com/ 2023/ 01/ 26/ tech/ chatg pt- passes- exams/ index. html.
+Lakoff, G., and M. Johnson. 2011. Metaphors we live by,  6th ed. 
+University of Chicago Press.
+Latour, B. 2003. Science in action: How to follow scientists 
+and engineers through society,  11th ed. Harvard Univer -
+sity Press.
+Latour, B., and C.Venn. 2002. Morality and technology: The end 
+of the means. Theory, Culture and Society 19(5–6): 247–260.
+Levinas, E. 1979. Totality and infinity: An essay on exteriority. 
+Kluwer Boston: M. Nijhoff Publishers.
+Magee, L., V. Arora, and L. Munn. 2022. Structured like a lan-
+guage model: Analysing AI as an automated subject. arXiv: 
+2212.05058. https:// doi. org/ 10. 48550/ ARXIV. 2212. 05058.
+Marturano, A. 2014. Non-cognitivism in ethics. In Internet ency -
+clopedia of philosophy. https:// iep. utm. edu/ non- cogn/.
+Mazzoni, J. C. M. 2019. Fisicalismo e o problema mente-
+cérebro: Uma questão de definição. [Physicalism and 
+the mind-brain problem: A question of definition] Sofia  
+8(1): 146–170.
+Müller, L. 2016. Tay: Twitter conseguiu corromper a IA da 
+Microsoft em menos de 24 horas. [Tay: Twitter managed 
+to corrupt Microsoft’s AI in less than 24 hours] Tecmundo, 
+March 24. https:// www. tecmu ndo. com. br/ intel igenc ia- artif  
+icial/ 102782- tay- twitt er- conse guiu- corro mper- ia- micro  
+soft- 24- horas. htmMunn, L., L. Magee, and V. Arora. 2023. Truth machines: 
+Synthesizing veracity in AI language models. arXiv: 
+2301.12066. https:// doi. org/ 10. 48550/ ARXIV. 2301. 12066.
+Nicolelis, M. 2020. The true creator of everything: How the 
+human brain sculpted the universe as we know it. Brazil: 
+Crítica.
+OpenAI. 2022. Introducing ChatGPT. Open.AI. https:// ope-
+nai. com/ index/ chatg pt/.
+Perrigo, B. 2023. Exclusive: The $2 per hour workers who 
+made ChatGPT safer. Time Magazine, January 18. https://  
+time. com/ 62476 78/ openai- chatg pt- kenya- worke rs/.
+Rey, G. 2015. The analytic/synthetic distinction. In Stanford 
+encyclopedia of philosophy. Edited by E.N. Zalta. http://  
+plato. stanf  ord. edu/ archi ves/ fall2 015/ entri es/ analy tic-  
+synth etic/.
+Rosenberger, R., and P.-P. Verbeek, eds. 2015. Postphenom-
+enological investigations: Essays on human-technology 
+relations. Postphenomenology and the philosophy of 
+technology. Lanham: Lexington Books.
+Schaul, K., S.Y. Chen, and N. Tiku. 2023. Inside the secret 
+list of websites that make AI like ChatGPT sound smart. 
+Washington Post, April 19. https:// www. washi ngton  post.  
+com/ techn ology/ inter  active/ 2023/ ai- chatb ot- learn ing/
+Soares, R. 2024. IA dá o veredicto: 6 carros mais bonitos 
+do Brasil, segundo o ChatGPT. [AI gives the verdict: 6 
+most beautiful cars in Brazil, according to ChatGPT]. 
+News MOTOR, October 19. https:// newsm otor. com. br/  
+ia- da-o- vered icto-6- carros- mais- bonit  os- do- brasil- segun  
+do-o- chatg pt/.
+Tshimula, J. M., X. Ndona, D. K. Nkashama, et  al. 2024.  
+Preventing jailbreak prompts as malicious tools for 
+cybercriminals: A cyber defense perspective. arXiv. 
+http:// arxiv. org/ abs/ 2411. 16642
+Wellner, G. 2011. Wall-window-screen: How the cell phone 
+mediates a worldview for us. Humanities and Technol-
+ogy Review 30: 87–103.
+Wiener, N. 1948. Cybernetics or control and communication 
+in the animal and the machine,  2nd ed. MIT Press.
+Wittkower, D.E. 2022. What is it like to be a bot? In The 
+Oxford handbook of philosophy of technology, edited by 
+S. Vallor, 357–373. Oxford University Press. https:// doi.  
+org/ 10. 1093/ oxfor  dhb/ 97801 90851 187. 013. 23.
+Yang, A. 2024. Lawsuit claims character.AI is responsible for 
+teen’s suicide. NBC News, October 23. https:// www. nbcne 
+ws. com/ tech/ chara cterai- lawsu it- flori da- teen- death- rcna1  
+76791.
+Yu, F., H. Zhang, P. Tiwari, and B. Wang. 2023. Natural lan-
+guage reasoning, a survey. arXiv: 2303.14725. https:// doi. 
+org/ 10. 48550/ ARXIV. 2303. 14725
+Publisher’s Note Springer Nature remains neutral with regard 
+to jurisdictional claims in published maps and institutional 
+affiliations.
+Springer Nature or its licensor (e.g. a society or other partner) 
+holds exclusive rights to this article under a publishing 
+agreement with the author(s) or other rightsholder(s); author 
+self-archiving of the accepted manuscript version of this article 
+is solely governed by the terms of such publishing agreement 
+and applicable law.

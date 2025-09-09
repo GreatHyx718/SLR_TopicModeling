@@ -1,5 +1,4 @@
 import os
-import PyPDF2
 import pandas as pd
 import string
 import nltk
@@ -14,14 +13,17 @@ from gensim.models import LdaModel
 from gensim.models import Phrases
 from gensim.models import CoherenceModel
 
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
 # Initialize lemmatizer and stop words
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 # Define additional stopwords to add
-additional_stopwords = {'ed', 'er', 'al', 'es', 'ha',
-                        'also', 'et', 'al', 'hf', 'lo', 'york',
-                        'http', 'copenhagen', 'denmark', 'fa', 'eg',
-                        'doi'
+additional_stopwords = {'ed', 'er', 'es', 'ha', 'hf', 'lo',
+                        'also', 'et', 'al', 'acm', 'dis',
+                        'http', 'fa', 'eg', 'doi', 'ny', 'ca',
+                        'york'
                         }
 stop_words = stop_words.union(additional_stopwords)
 
@@ -59,12 +61,12 @@ def load_data(data_dir):
 
 
 def get_top_documents_per_topic(lda_model, corpus, filenames):
-    all_topics = lda_model.print_topics()
-    docs_per_topic = [[] for _ in all_topics]
+    docs_per_topic = [[] for _ in range(lda_model.num_topics)]
 
     # Iterate through each document to get its topic distribution
     for doc_id, doc_bow in enumerate(corpus):
-        doc_topics = lda_model.get_document_topics(doc_bow)
+        doc_topics = lda_model.get_document_topics(doc_bow, minimum_probability=0)
+
         for topic_id, prob in doc_topics:
             # add the doc_id & its probability to the topic's doc list
             docs_per_topic[topic_id].append((filenames[doc_id], prob))
@@ -73,6 +75,23 @@ def get_top_documents_per_topic(lda_model, corpus, filenames):
         doc_list.sort(key=lambda id_and_prob: id_and_prob[1], reverse=True)
 
     return docs_per_topic
+
+
+def plot_word_clouds(lda_model, num_topics):
+    for topic_id in range(num_topics):
+        # Extract the words and their probabilities for the topic
+        topic_words = lda_model.get_topic_terms(topic_id, topn=20)  # Adjust topn as needed
+        word_freq = {lda_model.id2word[id]: prob for id, prob in topic_words}
+
+        # Generate the word cloud
+        wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(word_freq)
+
+        # Plotting the word cloud
+        plt.figure(figsize=(10, 5))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.title(f'Topic {topic_id}')
+        plt.axis('off')
+        plt.show()
 
 
 if __name__ == '__main__':
@@ -100,7 +119,7 @@ if __name__ == '__main__':
     ideal_num_topics = 1
 
     # Set parameters
-    num_topics = 8  # Adjust based on your needs
+    num_topics = 16  # Adjust based on your needs
     # Build LDA model
     lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10)
 
@@ -116,10 +135,12 @@ if __name__ == '__main__':
 
     # Get the top 5 documents for each topic
     top_documents = get_top_documents_per_topic(lda_model, corpus, filenames)
-    # top_documents = get_top_documents_per_topic(lda_model, corpus, filenames, top_n=5)
     # Print the top 5 documents for each topic
     for topic_id in range(num_topics):
         # print(top_documents[topic_id][:5])
         print(f'\nTop documents for Topic {topic_id}:')
         for doc_name, prob in top_documents[topic_id][:5]:
             print(f'  {doc_name} (Probability: {prob:.4f})')
+
+    # Generate and plot word clouds for each topic
+    plot_word_clouds(lda_model, num_topics)
