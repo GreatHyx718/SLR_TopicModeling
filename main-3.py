@@ -28,6 +28,7 @@ additional_stopwords = {'ed', 'er', 'es', 'ha', 'hf', 'lo',
 stop_words = stop_words.union(additional_stopwords)
 
 
+
 def preprocess(text):
     text = text.lower().translate(str.maketrans('', '', string.punctuation))  # remove punctuation
     tokens = word_tokenize(text)
@@ -93,11 +94,20 @@ def plot_word_clouds(lda_model, num_topics):
         plt.axis('off')
         plt.show()
 
+def build_lda(corpus, dictionary):
+
+    num_topics = 16  # Adjust based on your needs
+
+    # Build LDA model
+    lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10)
+
+    lda_model.save('lda_model_16.gensim')
+
 
 if __name__ == '__main__':
     texts, filenames = load_data('./data_txt/')
-    processed_texts = [preprocess(text) for text in texts]
 
+    processed_texts = [preprocess(text) for text in texts]
     # Create Bigram and Trigram models
     bigram = Phrases(processed_texts, min_count=2, threshold=2)
     # trigram = Phrases(bigram[processed_texts], threshold=2)
@@ -114,33 +124,27 @@ if __name__ == '__main__':
     # Create a corpus
     corpus = [dictionary.doc2bow(text) for text in final_texts]
 
-    highest_coherence = 0
-    ideal_lda_model = None
-    ideal_num_topics = 1
+    # build_lda(corpus, dictionary)
 
-    # Set parameters
-    num_topics = 16  # Adjust based on your needs
-    # Build LDA model
-    lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10)
-
-
-    for idx, topic in lda_model.print_topics(-1):
-        print(f'Topic {idx}: {topic}')
+    lda_model = LdaModel.load('lda_model_16.gensim')
 
     # Compute Coherence Score
     coherence_model_lda = CoherenceModel(model=lda_model, texts=final_texts, dictionary=dictionary, coherence='c_v')
     coherence_lda = coherence_model_lda.get_coherence()
     print(f'Coherence Score: {coherence_lda}\n')
 
+    # Print the topics
+    for idx, topic in lda_model.print_topics(-1):
+        print(f'Topic {idx}: {topic}')
 
-    # Get the top 5 documents for each topic
+        # Get the top 5 documents for each topic
     top_documents = get_top_documents_per_topic(lda_model, corpus, filenames)
     # Print the top 5 documents for each topic
-    for topic_id in range(num_topics):
+    for topic_id in range(lda_model.num_topics):
         # print(top_documents[topic_id][:5])
         print(f'\nTop documents for Topic {topic_id}:')
         for doc_name, prob in top_documents[topic_id][:5]:
             print(f'  {doc_name} (Probability: {prob:.4f})')
 
     # Generate and plot word clouds for each topic
-    plot_word_clouds(lda_model, num_topics)
+    plot_word_clouds(lda_model, lda_model.num_topics)
